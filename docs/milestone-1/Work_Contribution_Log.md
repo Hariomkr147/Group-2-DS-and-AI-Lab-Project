@@ -5,14 +5,14 @@
 
 ## Team
 
-| Name | Roll number | Role |
+| Name | Roll number | Primary role |
 |---|---|---|
-| Sandeep Nalla | 21f1006125 | _to be confirmed_ |
-| Hariom Kumar | 23f2004225 | _to be confirmed_ |
-| Hariom Pandey | 21f3002112 | _to be confirmed_ |
-| Mrityunjay Chakraborty | 21f3001385 | _to be confirmed_ |
+| Sandeep Nalla | 21f1006125 | Backend developer |
+| Hariom Kumar | 23f2004225 | Build the RAG (search) agent |
+| Hariom Pandey | 21f3002112 | Build the fine-tuned models |
+| Mrityunjay Chakraborty | 21f3001385 | Frontend developer |
 
-Planned roles: (1) learner model (DKT) and Socratic model fine-tuning, (2) course packs and search, (3) backend and tutor controller, (4) web app, question generation and evaluation.
+These are primary roles only. They are not fixed: as the project needs, members will switch roles and contribute to other parts as well.
 
 ## Contributions
 
@@ -20,9 +20,8 @@ Each member fills in their own rows. Add a link or file name as proof where poss
 
 | Date | Name | Work done | Proof (file / commit / link) |
 |---|---|---|---|
-| 2026-10-19 | _to fill_ | Project plan v2.0 | Plan PDF |
+| 2026-10-17 | Hariom Kumar | Prepared the technical documentation PDF (Architecture & Delivery Plan v2.0) and shared it with the team for review | `Socratic_AI_Tutor_Updated_Architecture_and_Team_Plan_v2.pdf` |
 | 2026-10-20 | Sandeep Nalla | Drafted the Milestone 1 report, presentation and this log; made the AUC chart; collected the MathDial sample (AI-assisted, reviewed by team) | `docs/milestone-1/`, branch `feature/sandeep` |
-| | Hariom Kumar | | |
 | | Hariom Pandey | | |
 | | Mrityunjay Chakraborty | | |
 

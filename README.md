@@ -16,6 +16,8 @@ When a learner has a doubt, the tutor:
 4. **Backtracks to earlier levels** if there is a gap (e.g. stuck on percentages → revisit fractions and division), then climbs back up.
 5. **Adapts** with a short diagnostic test and generated practice questions at the learner's pace.
 
+**Visuals:** the tutor links to the exact moment in existing lecture videos and shows simple diagrams (fraction bars, percentage grids, number lines, graphs). AI-generated videos or animations are **out of scope**: they are expensive, slow and error-prone for maths.
+
 ## How it works
 
 | Component | Role |
@@ -26,30 +28,25 @@ When a learner has a doubt, the tutor:
 | Search (RAG) | Finds the relevant study material |
 | Web app | React + FastAPI + PostgreSQL (pgvector) |
 
-The tutor is **domain-agnostic**: each subject is added as a *course pack* (concepts, prerequisite links, study material, questions). We use two examples:
+Our primary goal is a **study companion for IIT Madras BS learners**, using the same lecture videos, slides and assignments as the IITM BS portal.
 
-- **NCERT Mathematics** across several levels (main pilot)
-- **IITM BS courses** (Maths → MLF → MLT)
+The tutor is **domain-agnostic**: each subject is added as a *course pack* (concepts, prerequisite links, study material, questions). We build two:
 
-## Repository contents
-
-| Path | Contents |
-|---|---|
-| [docs/milestone-1/Milestone1_Report.md](docs/milestone-1/Milestone1_Report.md) | Milestone 1 report |
-| [docs/milestone-1/Milestone1_Presentation.pptx](docs/milestone-1/Milestone1_Presentation.pptx) | Milestone 1 presentation |
-| [docs/milestone-1/Work_Contribution_Log.md](docs/milestone-1/Work_Contribution_Log.md) | Team contribution log |
-| `docs/milestone-1/build_figures.py`, `build_presentation.py` | Scripts that regenerate the figure and slides |
+- **IITM BS courses** that build on each other: Maths & Stats → MLF → MLT (primary)
+- **NCERT Mathematics** across several classes (second domain, to show the pipeline is reusable)
 
 **Status:** planning stage (Milestone 1). Code will be added in later milestones.
 
 ## Team
 
-| Name | Roll number |
-|---|---|
-| Sandeep Nalla | 21f1006125 |
-| Hariom Kumar | 23f2004225 |
-| Hariom Pandey | 21f3002112 |
-| Mrityunjay Chakraborty | 21f3001385 |
+| Name | Roll number | Primary role |
+|---|---|---|
+| Sandeep Nalla | 21f1006125 | Backend developer |
+| Hariom Kumar | 23f2004225 | Build the RAG (search) agent |
+| Hariom Pandey | 21f3002112 | Build the fine-tuned models |
+| Mrityunjay Chakraborty | 21f3001385 | Frontend developer |
+
+Roles are not fixed; members contribute to other parts as the project needs.
 
 ## License
 

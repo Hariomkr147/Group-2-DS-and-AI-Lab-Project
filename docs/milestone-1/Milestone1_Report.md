@@ -4,12 +4,14 @@
 **Team:** Group 2
 **Submission:** Milestone 1, 22 October 2026
 
-| Name | Roll number |
-|---|---|
-| Sandeep Nalla | 21f1006125 |
-| Hariom Kumar | 23f2004225 |
-| Hariom Pandey | 21f3002112 |
-| Mrityunjay Chakraborty | 21f3001385 |
+| Name | Roll number | Primary role |
+|---|---|---|
+| Sandeep Nalla | 21f1006125 | Backend developer |
+| Hariom Kumar | 23f2004225 | Build the RAG (search) agent |
+| Hariom Pandey | 21f3002112 | Build the fine-tuned models |
+| Mrityunjay Chakraborty | 21f3001385 | Frontend developer |
+
+*Roles are not fixed; members contribute to other parts as the project needs.*
 
 > This is a planning report. Nothing has been built or trained yet. Numbers marked "target" are our goals. Other numbers come from published work (see References).
 
@@ -95,11 +97,11 @@ The tutor is conversational, but not text-only:
 
 | Solution | What it does well | What it lacks for our objective |
 |---|---|---|
-| **Khanmigo** (Khan Academy) [13] | Helps students understand concepts by questioning them, and builds understanding based on their answers | Runs on an external LLM (GPT-4) guided by prompts, not its own trained tutoring model; no explicit backtracking across levels; tied to Khan Academy content; not open |
+| **Khanmigo** (Khan Academy) [12] | Helps students understand concepts by questioning them, and builds understanding based on their answers | Runs on an external LLM (GPT-4) guided by prompts, not its own trained tutoring model; no explicit backtracking across levels; tied to Khan Academy content; not open |
 | **ChatGPT / Gemini (study or guided-learning modes)** | Good conversation; tries to guide instead of answering | Driven by a system prompt; does not track what the student knows across courses; can still give away answers; does not know IITM course material |
-| **MATHia** (Carnegie Learning) [12] | Adapts to each student's needs; guides through every step of a problem with real-time feedback and targeted practice | Paid and closed; only its own fixed maths curriculum; hints follow fixed step-by-step paths, with no free conversation about the learner's own doubt; new courses can't be added |
-| **ALEKS** (McGraw Hill) [14]: adaptive learning system, not a chat assistant | Uses Knowledge Space Theory to find what a student knows and is ready to learn next, based on prerequisites | No conversation or probing questions; paid and closed; fixed curriculum |
-| **ASSISTments** (WPI) [15] | Free platform for teachers to assign practice and give students personalized feedback; public research data | Feedback and hints are written by teachers in advance; no conversation; no automatic backtracking to prerequisites |
+| **MATHia** (Carnegie Learning) [11] | Adapts to each student's needs; guides through every step of a problem with real-time feedback and targeted practice | Paid and closed; only its own fixed maths curriculum; hints follow fixed step-by-step paths, with no free conversation about the learner's own doubt; new courses can't be added |
+| **ALEKS** (McGraw Hill) [13]: adaptive learning system, not a chat assistant | Uses Knowledge Space Theory to find what a student knows and is ready to learn next, based on prerequisites | No conversation or probing questions; paid and closed; fixed curriculum |
+| **ASSISTments** (WPI) [14] | Free platform for teachers to assign practice and give students personalized feedback; public research data | Feedback and hints are written by teachers in advance; no conversation; no automatic backtracking to prerequisites |
 | **IITM BS portal and other course platforms (DIKSHA, YouTube lectures)** | Host lecture videos, slides, notes and assignments | Do not diagnose why a student is stuck or guide them step by step |
 
 **Closest existing solutions: MATHia and Khanmigo.** MATHia adapts to each student and guides them step by step with feedback. Khanmigo builds understanding by questioning the student. Our tutor combines both ideas and differs in four ways: it **converses** about the learner's own doubt with probing questions, it **backtracks across courses** to fix earlier gaps, it is **domain-agnostic** (any course can be added as a course pack), and it is **open and built from our own models**.
@@ -112,37 +114,46 @@ The tutor is conversational, but not text-only:
 
 **DKT (Deep Knowledge Tracing)** [1] is a small neural network (an LSTM) that reads a student's answer history, for example "derivatives: wrong, derivatives: right, gradient descent: wrong", and predicts the chance of a correct answer on each concept next. The standard metric is **AUC**, where 0.5 is random guessing and 1.0 is perfect.
 
-| Model | AUC on ASSISTments 2009 |
-|---|---|
-| BKT: Bayesian Knowledge Tracing (classic method, 1994) | 0.69 [2] |
-| DKT: Deep Knowledge Tracing (LSTM, 2015) | 0.754 [3] |
-| AKT: Attentive Knowledge Tracing (attention model, 2020) [16] | 0.785 [3] |
+| Model | How it works | AUC on ASSISTments 2009 |
+|---|---|---|
+| **BKT**: Bayesian Knowledge Tracing (1994) [2] | Classic probability model; each skill is either "known" or "not known" | 0.69 [1] |
+| **DKT**: Deep Knowledge Tracing (2015) [1] | One LSTM reads the whole answer history | 0.754 [3] |
+| **DKVMN**: Dynamic Key-Value Memory Network (2017) [16] | Memory table with one slot per concept, updated after each answer | 0.747 [3] |
+| **SAKT**: Self-Attentive Knowledge Tracing (2019) [17] | Self-attention (as in Transformers) picks the most relevant past answers | 0.725 [3] |
+| **AKT**: Attentive Knowledge Tracing (2020) [15] | Attention with time-based decay and question-difficulty embeddings | 0.785 [3] |
 
-*AUC = Area Under the ROC (Receiver Operating Characteristic) Curve. LSTM = Long Short-Term Memory, a type of recurrent neural network.*
+*AUC = Area Under the ROC (Receiver Operating Characteristic) Curve. LSTM = Long Short-Term Memory, a type of recurrent neural network. The BKT value comes from the original DKT paper [1]; the others come from the pyKT benchmark [3], which uses one standard, cleaned setup, so the BKT value is only a rough comparison.*
 
 ![Knowledge-tracing AUC on ASSISTments 2009](figures/kt_auc_assist2009.png)
 
 *The original DKT paper reported 0.86, but later work found that duplicate rows had inflated this figure [4]. The pyKT benchmark [3] gives fair, cleaned numbers.*
 
-### Why Deep Knowledge Tracing (DKT) and not Attentive Knowledge Tracing (AKT)?
+### Why we chose Deep Knowledge Tracing (DKT)
 
-AKT scores higher than DKT on the benchmark, but we choose DKT as our main learner model for these reasons:
+DKT is the **simplest model that performs well**. Compared with each alternative:
 
-1. **The gap is small.** On the same cleaned dataset, AKT is only about 0.03 AUC better (0.785 vs 0.754). Both predict well enough for the tutor controller to tell which concept is weak.
-2. **AKT needs data we don't have.** AKT works best with many students and a large history per question, so it can learn each question's difficulty. IITM courses start with little or no student data and new questions, and a simpler model like DKT copes better with this.
-3. **DKT is simpler to build, train and explain.** DKT is a single LSTM over the answer sequence and trains quickly on a free GPU. AKT adds attention layers, time-based decay and question-difficulty embeddings, with many more settings to tune.
-4. **DKT is the standard reference point.** Most research compares against DKT, so our results are easy to check against published numbers.
-5. **The learner model is not our main contribution.** Our focus is the whole tutor: the fine-tuned Socratic model, backtracking across courses and links to study material.
+| Model | Why not chosen as our main model |
+|---|---|
+| **BKT** (Bayesian Knowledge Tracing) | Clearly less accurate (0.69 vs 0.754). It treats each skill separately, so it cannot learn links between concepts, which matters for backtracking across courses. |
+| **DKVMN** (Dynamic Key-Value Memory Network) | Slightly less accurate than DKT (0.747 vs 0.754) and more complex to build and tune. The extra memory network brings no gain. |
+| **SAKT** (Self-Attentive Knowledge Tracing) | Less accurate (0.725 vs 0.754). Self-attention needs many students and long histories to work well; the pyKT authors found that sequential models like DKT beat SAKT in most cases [3]. IITM courses will start with little data. |
+| **AKT** (Attentive Knowledge Tracing) | The most accurate, but only about 0.03 AUC better (0.785 vs 0.754). It needs many students per question to learn question difficulty, and it is much more complex (attention layers, time-based decay, many settings to tune). |
 
-**If time allows, we will also train AKT on the same data split** (the pyKT library includes both models) and report both results.
+Further reasons for DKT:
+
+1. **Simple to build, train and explain:** a single LSTM over the answer sequence that trains quickly on a free GPU.
+2. **Copes better with little data,** which suits new IITM courses with no student history yet.
+3. **The standard reference point:** most research compares against DKT, so our results are easy to check against published numbers.
+4. **The learner model is not our main contribution.** Our focus is the whole tutor: the fine-tuned Socratic model, backtracking across courses and links to study material.
+
+**If time allows, we will also train AKT on the same data split** (the pyKT library includes all of these models) and report both results.
 
 ### 3.2 AI chat tutors
 
 | Study | Finding |
 |---|---|
-| **MathDial** (2023) [5] | 2,861 tutoring conversations. Prompted AI teachers often **reveal the answer too early**. Models **fine-tuned** on MathDial guide better. |
-| **Bastani et al.** (PNAS 2025) [6] | Students using plain GPT-4 did 48% better in practice but **17% worse on the exam** afterwards. A version with guardrails avoided this drop. |
-| **Tack & Piech** (2022) [7] | AI chatbots scored lower than human teachers on helpfulness. |
+| **Bastani et al.** (PNAS 2025) [5] | Students using plain GPT-4 did 48% better in practice but **17% worse on the exam** afterwards. A version with guardrails avoided this drop. |
+| **Tack & Piech** (2022) [6] | AI chatbots scored lower than human teachers on helpfulness. |
 
 **Main finding:** a chatbot driven only by a system prompt is not a good tutor. It needs **its own trained models** that decide *what to ask next* and *how much to reveal*.
 
@@ -171,7 +182,7 @@ The core of the tutor is **models we build and train ourselves**, not an LLM API
 |---|---|---|
 | **Learner model (DKT)** | ✓ trained by us | Estimates what the learner knows for each concept |
 | **Tutor controller** | ✓ written by us | Decides the next step: probe, hint, backtrack to an earlier course, retest, move up |
-| **Socratic question model** | ✓ fine-tuned by us (Qwen3-4B + LoRA on MathDial and our own examples) | Writes probing questions and feedback |
+| **Socratic question model** | ✓ fine-tuned by us (Qwen3-4B + LoRA on tutoring dialogues and our own IITM BS examples) | Writes probing questions and feedback |
 | **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. a sign error in the gradient) |
 | Search (RAG) | Uses a pretrained embedding model | Finds the relevant lecture, slide or assignment |
 | External LLM API (optional) | ✗ | Only helps draft practice questions offline (each checked before use), and serves as a **baseline** for comparison |
@@ -229,11 +240,22 @@ flowchart TD
 | Dataset | Use | Size | License (to verify before use) |
 |---|---|---|---|
 | **IITM BS transcripts, slides and assignments** | Course pack (primary) | Gathered by the team | For course use only |
-| **ASSISTments 2009–2010** [8] | Train and test DKT | ~346k answers, 4,217 students, 123 skills [3] | Research use, per provider terms |
-| **EdNet KT1** [9] (optional) | Larger learning-pattern data for DKT | ~95M answers, ~784k students | CC BY-NC 4.0 |
+| **ASSISTments 2009–2010** [7] | Train and test DKT | ~346k answers, 4,217 students, 123 skills [3] | Research use, per provider terms |
+| **EdNet KT1** [8] (optional) | Larger learning-pattern data for DKT | ~95M answers, ~784k students | CC BY-NC 4.0 |
 | **FoundationalASSIST** (candidate) | Learning patterns | To review | To verify |
-| **MathDial** [5] | Fine-tune the Socratic model | 2,861 dialogues | CC BY-SA 4.0 |
+| **MathDial** [18] (public tutoring dialogues) + our IITM BS examples | Fine-tune the Socratic model | 2,861 dialogues + examples written by us | CC BY-SA 4.0 (MathDial) |
 | **NCERT textbooks** | Course pack (second domain) | Several classes of Mathematics | Public; no redistribution of raw files |
+
+### Why ASSISTments for training Deep Knowledge Tracing (DKT)
+
+DKT must first learn how students' knowledge develops, from many **real student answer histories** (which question, which skill, right or wrong, in what order). We use ASSISTments 2009–2010 because:
+
+1. **It has the data DKT needs.** It contains about 346,000 real answers from 4,217 students, each tagged with a skill and ordered in time. IITM does not publish student answer data of this kind.
+2. **It is the standard benchmark for DKT.** The original DKT paper and the pyKT benchmark both use it, so we can check our model against published scores (DKT: 0.754 AUC) and know our training is correct.
+3. **It is mathematics.** Its skills (fractions, equations, graphs, etc.) are close to the foundation maths behind IITM courses and to the NCERT course pack.
+4. **It is free for research** and widely used, with known data issues (such as duplicate rows) already documented, so we can clean it properly.
+
+**Limitation:** ASSISTments is from US school students, not IITM learners. It teaches DKT *how learning generally progresses*, not IITM concepts. For IITM courses, the tutor starts with a simple fallback (recent accuracy per concept) and retrains DKT if anonymised IITM student data becomes available.
 
 ---
 
@@ -258,7 +280,7 @@ flowchart TD
    - **an LLM API with a Socratic system prompt** (the typical industry approach),
    - **our tutor**.
 3. **Learner model:** DKT vs the simple baseline on students not seen in training; compare with published research numbers [3].
-4. **Socratic model:** base model vs our fine-tuned model vs LLM API, scored on answer leakage and the rubric, on held-out MathDial dialogues and our scenarios.
+4. **Socratic model:** base model vs our fine-tuned model vs LLM API, scored on answer leakage and the rubric, on held-out tutoring dialogues and our IITM scenarios.
 5. **Domain-agnostic check:** the same tests on the IITM BS and NCERT packs, with no code changes.
 6. **Fairness:** test scenarios are fixed before the final comparison and never used for tuning.
 
@@ -278,20 +300,20 @@ Each row is one answer by one student:
 
 *Values show the format. `correct` is 1 only if the first attempt was right without hints.*
 
-### 9.2 MathDial (for fine-tuning the Socratic model): real record
+### 9.2 IITM BS training example (for fine-tuning the Socratic model)
 
-From the public dataset (`eth-nlped/mathdial`, record 5000012):
+Each training example pairs a tutoring situation with a good tutor reply:
 
-> **Problem:** An aquarium (4 × 6 × 3 ft) is filled halfway, half is spilled, then the water is tripled. How much water is in it? *(Answer: 54)*
-> **Student's wrong answer:** 72 (added an extra step at the end)
->
-> **Teacher** *(probing)*: If you had 4 of something and tripled that amount, how much would you have?
-> **Student:** 12.
-> **Teacher** *(probing)*: So if Nancy triples the 18 cubic feet of water, how much would she have?
-> **Student:** 54 cubic feet.
-> **Teacher** *(generic)*: Exactly correct!
+| | Content |
+|---|---|
+| **Concept** | Derivatives (Maths 2) |
+| **Question** | For L(w) = (6 − 2w)², what is dL/dw? |
+| **Learner's reply** | "I don't know" |
+| **Controller action** | PROBE a prerequisite; do not reveal the answer |
+| **Resource** | Maths 2, Week 5, Lecture 2 (08:15) |
+| **Target tutor reply** *(probing)* | "Let's step back. For y = 3x + 1, how much does y change when x increases by 1?" |
 
-The teacher never says the answer. Each turn is labelled (*probing*, *focus*, *telling*, *generic*), so we can train our model to probe instead of tell.
+Each tutor reply is labelled (*probing*, *focus*, *telling*), so the model learns to probe instead of tell. *Illustrative example written by the team.*
 
 ### 9.3 Course pack examples (illustrative)
 
@@ -385,20 +407,22 @@ A learner answers "20% of 50" with 2.5. The tutor asks what "20%" means, finds a
 
 1. Piech et al. (2015). *Deep Knowledge Tracing.* NeurIPS.
 2. Corbett & Anderson (1994). *Knowledge Tracing.* User Modeling and User-Adapted Interaction. (AUC as reported in [1].)
-3. Liu et al. (2022). *pyKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models.* NeurIPS Datasets & Benchmarks.
+3. Liu et al. (2022). *pyKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models.* NeurIPS Datasets & Benchmarks. https://arxiv.org/abs/2206.11460. AUC values: Table 2 and Table 8 (question level, ASSISTments 2009); dataset statistics: Table 1.
 4. Xiong et al. (2016). *Going Deeper with Deep Knowledge Tracing.* EDM.
-5. Macina et al. (2023). *MathDial: A Dialogue Tutoring Dataset.* Findings of EMNLP. https://github.com/eth-nlped/mathdial
-6. Bastani et al. (2025). *Generative AI without guardrails can harm learning.* PNAS.
-7. Tack & Piech (2022). *The AI Teacher Test.* EDM.
-8. ASSISTments 2009–2010 Skill Builder data. https://sites.google.com/site/assistmentsdata
-9. Choi et al. (2020). *EdNet: A Large-Scale Hierarchical Dataset in Education.* AIED. https://github.com/riiid/ednet
-10. Hu et al. (2022). *LoRA: Low-Rank Adaptation of Large Language Models.* ICLR.
-11. Qwen3-4B-Instruct-2507 model card. https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507
-12. Carnegie Learning. *MATHia* overview video. https://youtu.be/sjfw_7jXoBk
-13. Khan Academy. *Khanmigo* overview video. https://youtu.be/I1JVQg52DDI
-14. McGraw Hill. *ALEKS* overview video. https://youtu.be/mxOWeJ_lhEc
-15. ASSISTments. Overview video. https://youtu.be/8t62Aj-VGig
-16. Ghosh, Heffernan & Lan (2020). *Context-Aware Attentive Knowledge Tracing.* KDD.
+5. Bastani et al. (2025). *Generative AI without guardrails can harm learning.* PNAS.
+6. Tack & Piech (2022). *The AI Teacher Test.* EDM.
+7. ASSISTments 2009–2010 Skill Builder data. https://sites.google.com/site/assistmentsdata
+8. Choi et al. (2020). *EdNet: A Large-Scale Hierarchical Dataset in Education.* AIED. https://github.com/riiid/ednet
+9. Hu et al. (2022). *LoRA: Low-Rank Adaptation of Large Language Models.* ICLR.
+10. Qwen3-4B-Instruct-2507 model card. https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507
+11. Carnegie Learning. *MATHia* overview video. https://youtu.be/sjfw_7jXoBk
+12. Khan Academy. *Khanmigo* overview video. https://youtu.be/I1JVQg52DDI
+13. McGraw Hill. *ALEKS* overview video. https://youtu.be/mxOWeJ_lhEc
+14. ASSISTments. Overview video. https://youtu.be/8t62Aj-VGig
+15. Ghosh, Heffernan & Lan (2020). *Context-Aware Attentive Knowledge Tracing.* KDD.
+16. Zhang, Shi, King & Yeung (2017). *Dynamic Key-Value Memory Networks for Knowledge Tracing.* WWW.
+17. Pandey & Karypis (2019). *A Self-Attentive Model for Knowledge Tracing.* EDM.
+18. Macina et al. (2023). *MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems.* Findings of EMNLP. https://github.com/eth-nlped/mathdial
 
 ---
 
