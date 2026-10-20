@@ -19,56 +19,75 @@
 
 **Project statement:** *Development of an intelligent small-scale tutor that guides a learner to the answer through a set of probing questions.*
 
+**Why "Socratic"?** The name comes from the Greek philosopher Socrates, who taught by asking questions that led students to discover answers themselves instead of telling them. That is exactly how our tutor works.
+
+Our primary goal is a **study companion for IIT Madras BS learners**, built on the same material they use on the IITM BS portal: lecture videos, slides and weekly assignments.
+
 When a learner has a doubt, the tutor should **help them reach the answer themselves** instead of giving it directly. To do this, the tutor:
 
 1. **Breaks the question down** into the smaller ideas it depends on (its *prerequisites*).
 2. **Asks probing questions** about each idea, one at a time.
 3. **Checks the learner's answer**, spots likely misconceptions and gives feedback.
-4. **Points to the right resource** (video, slide, notes or textbook page) when the learner makes a mistake.
-5. **Goes back to earlier levels when needed:** if a learner is stuck, the tutor finds the gap in an earlier level, practises it with questions, and then climbs back up to the learner's current level.
+4. **Points to the right resource** (lecture video with timestamp, slide or assignment) when the learner makes a mistake.
+5. **Goes back to earlier courses when needed:** if a learner is stuck, the tutor finds the gap in an earlier course, practises it with questions, and then climbs back up to the learner's current course.
 6. **Tests and adapts:** a short test finds the learner's level, and practice questions are generated at the learner's own pace.
 
-### Learning builds across levels
+### Learning builds across courses
 
-Knowledge builds level by level, so the tutor must trace a problem back through earlier levels.
+IITM BS courses build on each other. For example, MLT uses ideas from Maths, Stats and MLF. The tutor traces a doubt back through these earlier courses.
 
 ```mermaid
 flowchart LR
-    subgraph L1[Level 1]
-        A[Addition] --> M[Multiplication]
-        S[Subtraction]
+    subgraph L1[Foundation: Maths 1, Stats 1]
+        F1[Functions and<br/>slope of a line]
+        F2[Mean and variance]
     end
-    subgraph L2[Level 2]
-        D[Division] --> F[Fractions]
+    subgraph L2[Foundation: Maths 2]
+        V[Vectors and<br/>dot product]
+        D[Derivatives and<br/>chain rule]
     end
-    subgraph L3[Level 3]
-        DE[Decimals] --> P[Percentages]
+    subgraph L3[Diploma: MLF]
+        LF[Loss functions] --> GD[Gradient descent]
     end
-    M --> D
-    S --> D
-    F --> DE
-    F --> P
+    subgraph L4[Diploma: MLT]
+        LR[Training linear<br/>regression]
+    end
+    F1 --> D
+    F2 --> LF
+    V --> LF
+    D --> GD
+    GD --> LR
+    V --> LR
 ```
 
-**Example:** a learner is stuck on **percentages** (Level 3). The tutor checks **fractions** and **division** (Level 2), then **multiplication** (Level 1). It practises the weak skill with a few questions, then raises the difficulty step by step until the learner can solve the percentage question, explaining each step.
+**Example (from the project brief):** a learner asks *"How does training happen in Linear Regression?"* (MLT). The tutor guides them through supervised learning, the model `y = w·x`, the loss and gradient descent. If the learner can't work out the gradient, the tutor goes back to **derivatives** (Maths 2), and if needed to **slope of a line** (Maths 1). It practises the weak skill with a few questions, then climbs back up to MLT.
 
-*Levels map to NCERT classes. We will confirm the exact class for each topic from the NCERT textbooks.*
+*The concept-to-course mapping is illustrative; we will confirm it from the IITM BS course content.*
 
 ### Scope: one pipeline, any course
 
-The TA confirmed that NCERT content is allowed, provided the **pipeline is domain-agnostic and reusable**. All subject knowledge is kept in a **course pack**, never in the code:
+IITM BS is our primary goal, but the **pipeline is domain-agnostic and reusable**. All subject knowledge is kept in a **course pack**, never in the code:
 
 | Course pack part | What it contains |
 |---|---|
-| Concepts | Topics with IDs and levels, e.g. `division` (Level 2) |
-| Prerequisite links | "A is needed before B", including links across levels |
-| Study material | Textbook PDFs, notes, slides, lecture transcripts |
+| Concepts | Topics with IDs and levels, e.g. `derivatives` (Maths 2) |
+| Prerequisite links | "A is needed before B", including links across courses |
+| Study material | Lecture transcripts, slides, notes, textbook PDFs |
 | Questions | Practice questions with answers, hints and difficulty |
 
 We will build two course packs:
 
-- **Main pilot: NCERT Mathematics across several classes** (Levels 1 → 3 as above).
-- **Second domain: IITM BS courses that build on each other**, e.g. Maths & Stats → MLF → MLT, with the brief's example *"How does training happen in Linear Regression?"*. We will gather the lecture transcripts and slides ourselves.
+- **Primary: IITM BS courses that build on each other** (Maths & Stats → MLF → MLT). We will gather the lecture transcripts, slides and assignments ourselves.
+- **Second domain: NCERT Mathematics across several classes** (e.g. multiplication → division → fractions → percentages). This shows the same pipeline works for a completely different subject and level, with no code changes.
+
+### Visual aids and what is out of scope
+
+The tutor is conversational, but not text-only:
+
+- **Links to existing videos:** when the learner makes a mistake, the tutor points to the exact lecture video and timestamp (e.g. "MLT Week 2, Lecture 3 at 12:40"), found by searching lecture transcripts.
+- **Simple diagrams in the conversation:** graphs (e.g. a loss curve with gradient-descent steps), vector diagrams, number lines and fraction bars, drawn from templates by small scripts, plus properly rendered formulas.
+
+**Out of scope: AI-generated videos or animations.** Generating them is expensive, slow and error-prone for maths. It is also not the focus of this project, which is the tutoring "brain": finding the learner's gap and asking the right next question. We reuse the existing IITM lecture videos instead.
 
 ---
 
@@ -76,10 +95,14 @@ We will build two course packs:
 
 | Solution | What it does well | What it lacks for our objective |
 |---|---|---|
-| **ChatGPT / Gemini (study or guided-learning modes), Khanmigo** | Good conversation; tries to guide instead of answering | Driven by a system prompt; does not track what the student knows across levels; can still give away answers |
-| **MATHia, ALEKS** (intelligent tutoring systems) | Track student skill; ALEKS uses prerequisites | Paid and closed; no free conversation; fixed curriculum |
-| **ASSISTments** | Free practice with hints; public research data | Teacher-written hints only; no conversation |
-| **Course platforms (IITM BS portal, DIKSHA, YouTube lectures)** | Host videos, notes and assignments | Do not diagnose why a student is stuck |
+| **Khanmigo** (Khan Academy) [13] | Helps students understand concepts by questioning them, and builds understanding based on their answers | Runs on an external LLM (GPT-4) guided by prompts, not its own trained tutoring model; no explicit backtracking across levels; tied to Khan Academy content; not open |
+| **ChatGPT / Gemini (study or guided-learning modes)** | Good conversation; tries to guide instead of answering | Driven by a system prompt; does not track what the student knows across courses; can still give away answers; does not know IITM course material |
+| **MATHia** (Carnegie Learning) [12] | Adapts to each student's needs; guides through every step of a problem with real-time feedback and targeted practice | Paid and closed; only its own fixed maths curriculum; hints follow fixed step-by-step paths, with no free conversation about the learner's own doubt; new courses can't be added |
+| **ALEKS** (McGraw Hill) [14]: adaptive learning system, not a chat assistant | Uses Knowledge Space Theory to find what a student knows and is ready to learn next, based on prerequisites | No conversation or probing questions; paid and closed; fixed curriculum |
+| **ASSISTments** (WPI) [15] | Free platform for teachers to assign practice and give students personalized feedback; public research data | Feedback and hints are written by teachers in advance; no conversation; no automatic backtracking to prerequisites |
+| **IITM BS portal and other course platforms (DIKSHA, YouTube lectures)** | Host lecture videos, slides, notes and assignments | Do not diagnose why a student is stuck or guide them step by step |
+
+**Closest existing solutions: MATHia and Khanmigo.** MATHia adapts to each student and guides them step by step with feedback. Khanmigo builds understanding by questioning the student. Our tutor combines both ideas and differs in four ways: it **converses** about the learner's own doubt with probing questions, it **backtracks across courses** to fix earlier gaps, it is **domain-agnostic** (any course can be added as a course pack), and it is **open and built from our own models**.
 
 ---
 
@@ -87,17 +110,31 @@ We will build two course packs:
 
 ### 3.1 Tracking what a student knows ("knowledge tracing")
 
-**DKT (Deep Knowledge Tracing)** [1] is a small neural network (an LSTM) that reads a student's answer history, for example "fractions: wrong, fractions: right, division: wrong", and predicts the chance of a correct answer on each concept next. The standard metric is **AUC**, where 0.5 is random guessing and 1.0 is perfect.
+**DKT (Deep Knowledge Tracing)** [1] is a small neural network (an LSTM) that reads a student's answer history, for example "derivatives: wrong, derivatives: right, gradient descent: wrong", and predicts the chance of a correct answer on each concept next. The standard metric is **AUC**, where 0.5 is random guessing and 1.0 is perfect.
 
 | Model | AUC on ASSISTments 2009 |
 |---|---|
-| BKT (classic method, 1994) | 0.69 [2] |
-| DKT (LSTM, 2015) | 0.754 [3] |
-| AKT (attention model, 2020) | 0.785 [3] |
+| BKT: Bayesian Knowledge Tracing (classic method, 1994) | 0.69 [2] |
+| DKT: Deep Knowledge Tracing (LSTM, 2015) | 0.754 [3] |
+| AKT: Attentive Knowledge Tracing (attention model, 2020) [16] | 0.785 [3] |
+
+*AUC = Area Under the ROC (Receiver Operating Characteristic) Curve. LSTM = Long Short-Term Memory, a type of recurrent neural network.*
 
 ![Knowledge-tracing AUC on ASSISTments 2009](figures/kt_auc_assist2009.png)
 
 *The original DKT paper reported 0.86, but later work found that duplicate rows had inflated this figure [4]. The pyKT benchmark [3] gives fair, cleaned numbers.*
+
+### Why Deep Knowledge Tracing (DKT) and not Attentive Knowledge Tracing (AKT)?
+
+AKT scores higher than DKT on the benchmark, but we choose DKT as our main learner model for these reasons:
+
+1. **The gap is small.** On the same cleaned dataset, AKT is only about 0.03 AUC better (0.785 vs 0.754). Both predict well enough for the tutor controller to tell which concept is weak.
+2. **AKT needs data we don't have.** AKT works best with many students and a large history per question, so it can learn each question's difficulty. IITM courses start with little or no student data and new questions, and a simpler model like DKT copes better with this.
+3. **DKT is simpler to build, train and explain.** DKT is a single LSTM over the answer sequence and trains quickly on a free GPU. AKT adds attention layers, time-based decay and question-difficulty embeddings, with many more settings to tune.
+4. **DKT is the standard reference point.** Most research compares against DKT, so our results are easy to check against published numbers.
+5. **The learner model is not our main contribution.** Our focus is the whole tutor: the fine-tuned Socratic model, backtracking across courses and links to study material.
+
+**If time allows, we will also train AKT on the same data split** (the pyKT library includes both models) and report both results.
 
 ### 3.2 AI chat tutors
 
@@ -117,8 +154,8 @@ We will build two course packs:
 |---|---|
 | Chatbots give the answer directly | **Our fine-tuned Socratic model** asks probing questions, and the controller limits how much is revealed |
 | Chatbots don't remember what the student knows | **Learner model (DKT)** tracks every concept |
-| No backtracking across levels | A **prerequisite graph across levels** plus a controller that goes back, practises, and climbs back up |
-| Mistakes don't lead to study material | **Search (RAG)** links each mistake to the exact page, slide or video |
+| No backtracking across courses | A **prerequisite graph across courses** plus a controller that goes back, practises, and climbs back up |
+| Mistakes don't lead to study material | **Search (RAG)** links each mistake to the exact lecture video, slide or assignment |
 | Same questions for every learner | **Diagnostic test + generated practice questions** at the learner's pace |
 | Tied to one subject | **Course packs** make the pipeline domain-agnostic |
 
@@ -128,15 +165,15 @@ We will build two course packs:
 
 ### 5.1 Our own models are the "main brain"
 
-Following the TA's guidance, the core of the tutor is **models we build and train ourselves**, not an LLM API controlled by a system prompt.
+The core of the tutor is **models we build and train ourselves**, not an LLM API controlled by a system prompt.
 
 | Component | Built by us? | Role |
 |---|---|---|
 | **Learner model (DKT)** | ✓ trained by us | Estimates what the learner knows for each concept |
-| **Tutor controller** | ✓ written by us | Decides the next step: probe, hint, backtrack to an earlier level, retest, move up |
+| **Tutor controller** | ✓ written by us | Decides the next step: probe, hint, backtrack to an earlier course, retest, move up |
 | **Socratic question model** | ✓ fine-tuned by us (Qwen3-4B + LoRA on MathDial and our own examples) | Writes probing questions and feedback |
-| **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. dividing the wrong way round) |
-| Search (RAG) | Uses a pretrained embedding model | Finds the relevant study material |
+| **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. a sign error in the gradient) |
+| Search (RAG) | Uses a pretrained embedding model | Finds the relevant lecture, slide or assignment |
 | External LLM API (optional) | ✗ | Only helps draft practice questions offline (each checked before use), and serves as a **baseline** for comparison |
 
 ### 5.2 Architecture
@@ -151,19 +188,19 @@ flowchart LR
     C --> R[Search<br/>RAG]
     C --> G[Our fine-tuned<br/>Socratic model]
     LM & MD & R & G --> DB[(Database<br/>PostgreSQL)]
-    CP[Course pack<br/>NCERT / IITM BS / any] --> DB
+    CP[Course pack<br/>IITM BS / NCERT / any] --> DB
 ```
 
 ### 5.3 Tutor loop with backtracking
 
 ```mermaid
 flowchart TD
-    Q[Learner's question<br/>e.g. a percentage problem] --> T[Diagnostic question]
+    Q[Learner's question<br/>e.g. how is linear regression trained?] --> T[Diagnostic question]
     T -->|correct| A[Guide to the answer<br/>with probing questions]
-    T -->|wrong| B[Check prerequisite<br/>one level down]
-    B -->|gap found| B2[Go down another level<br/>if needed]
-    B2 --> PR[Practise the weak skill<br/>with hints + resource link]
-    PR --> UP[Raise difficulty<br/>level by level]
+    T -->|wrong| B[Check prerequisite<br/>in an earlier course]
+    B -->|gap found| B2[Go back another course<br/>if needed]
+    B2 --> PR[Practise the weak skill<br/>with hints + lecture link]
+    PR --> UP[Raise difficulty<br/>course by course]
     UP --> A
     A --> E[Learner reaches the answer]
 ```
@@ -171,7 +208,7 @@ flowchart TD
 ### 5.4 How the pipeline stays domain-agnostic
 
 - Subject knowledge lives only in the **course pack** (data files and documents).
-- The **learner model** is first trained on public datasets. For a new course with no student data, the tutor uses a simple fallback (recent accuracy per concept) and retrains DKT later.
+- The **learner model** is first trained on public datasets. For a course with no student data yet, the tutor uses a simple fallback (recent accuracy per concept). If anonymised IITM assignment data becomes available, DKT can be retrained on it.
 - The **Socratic model** learns a general *style* (probe, don't tell), so it can be reused across subjects. The course pack supplies the facts through search.
 - Adding a new course = writing its course pack + running the ingestion script.
 
@@ -182,8 +219,8 @@ flowchart TD
 | Main brain | External LLM | Our own DKT + controller + fine-tuned model |
 | Gives the answer | Often | No: guides with questions |
 | Remembers student skills | No | Yes, per concept |
-| Backtracks across levels | Not reliably | Yes, using the prerequisite graph |
-| Links to study material | Generic or invented | Exact page, slide or video from the course pack |
+| Backtracks across courses | Not reliably | Yes, using the prerequisite graph |
+| Links to study material | Generic or invented | Exact IITM lecture, slide or assignment from the course pack |
 
 ---
 
@@ -191,12 +228,12 @@ flowchart TD
 
 | Dataset | Use | Size | License (to verify before use) |
 |---|---|---|---|
+| **IITM BS transcripts, slides and assignments** | Course pack (primary) | Gathered by the team | For course use only |
 | **ASSISTments 2009–2010** [8] | Train and test DKT | ~346k answers, 4,217 students, 123 skills [3] | Research use, per provider terms |
 | **EdNet KT1** [9] (optional) | Larger learning-pattern data for DKT | ~95M answers, ~784k students | CC BY-NC 4.0 |
 | **FoundationalASSIST** (candidate) | Learning patterns | To review | To verify |
 | **MathDial** [5] | Fine-tune the Socratic model | 2,861 dialogues | CC BY-SA 4.0 |
-| **NCERT textbooks** | Course pack (main pilot) | Several classes of Mathematics | Public; no redistribution of raw files |
-| **IITM BS transcripts and slides** | Course pack (second domain) | Gathered by the team | For course use only |
+| **NCERT textbooks** | Course pack (second domain) | Several classes of Mathematics | Public; no redistribution of raw files |
 
 ---
 
@@ -207,7 +244,7 @@ flowchart TD
 | Learner model | AUC | Simple per-concept accuracy; published DKT: 0.754 | AUC ≥ 0.74 and better than the simple baseline |
 | Socratic model | % of replies that reveal the answer | Base model (before fine-tuning); LLM API + system prompt | ≤ 5%, lower than both baselines |
 | Socratic model | Quality score from a rubric (1–5): relevant, one question at a time, correct | Same baselines | Higher than the base model |
-| Backtracking | % of test learners whose gap level is correctly found | LLM API + system prompt | ≥ 85% |
+| Backtracking | % of test learners whose gap course/concept is correctly found | LLM API + system prompt | ≥ 85% |
 | Search (RAG) | Correct resource in top 5 (Recall@5) | Keyword search (BM25) | ≥ 0.80 |
 | Full tutor | % of test scenarios handled correctly | Fixed rules; LLM API + system prompt | ≥ 90% |
 
@@ -215,14 +252,14 @@ flowchart TD
 
 ## 8. Evaluation plan
 
-1. **Annotated test set:** we will write and label 60–100 test scenarios (e.g. careless mistake, gap one level down, gap two levels down, no gap, success only after a hint). The TA's test samples will also be used.
+1. **Annotated test set:** we will write and label 60–100 test scenarios, mainly from IITM BS courses (e.g. careless mistake, gap one course back, gap two courses back, no gap, success only after a hint). Any test samples provided for the course will also be used.
 2. **Compare three tutors on the same scenarios:**
    - a standard chatbot that answers directly,
    - **an LLM API with a Socratic system prompt** (the typical industry approach),
    - **our tutor**.
 3. **Learner model:** DKT vs the simple baseline on students not seen in training; compare with published research numbers [3].
 4. **Socratic model:** base model vs our fine-tuned model vs LLM API, scored on answer leakage and the rubric, on held-out MathDial dialogues and our scenarios.
-5. **Domain-agnostic check:** the same tests on the NCERT and IITM BS packs, with no code changes.
+5. **Domain-agnostic check:** the same tests on the IITM BS and NCERT packs, with no code changes.
 6. **Fairness:** test scenarios are fixed before the final comparison and never used for tuning.
 
 ---
@@ -239,7 +276,7 @@ Each row is one answer by one student:
 | 64525 | Equivalent Fractions | 1 | 0 | 1 |
 | 64525 | Box and Whisker | 1 | 0 | 1 |
 
-*Values show the format; real rows will be shown in Milestone 2. `correct` is 1 only if the first attempt was right without hints.*
+*Values show the format. `correct` is 1 only if the first attempt was right without hints.*
 
 ### 9.2 MathDial (for fine-tuning the Socratic model): real record
 
@@ -258,29 +295,28 @@ The teacher never says the answer. Each turn is labelled (*probing*, *focus*, *t
 
 ### 9.3 Course pack examples (illustrative)
 
-**NCERT Mathematics, across levels (main pilot):**
+**IITM BS, across courses (primary):**
 ```text
-Level 1: addition → multiplication
-Level 2: division → fractions
-Level 3: decimals, percentages
+Maths 1: functions, slope of a line        Stats 1: mean, variance
+   → Maths 2: vectors, dot product, derivatives, chain rule
+      → MLF: loss functions, gradient descent
+         → MLT: training linear regression
 ```
 
-**IITM BS, across courses (second domain):**
+**NCERT Mathematics, across classes (second domain):**
 ```text
-Maths 2: vectors, dot product, derivatives
-   → MLF: loss functions, gradient descent
-      → MLT: training linear regression
+multiplication → division → fractions → decimals, percentages
 ```
 
 A study-material entry (the same format for every course):
 ```json
 {
-  "course": "ncert-maths",
-  "concept": "fractions",
-  "level": 2,
-  "source": "NCERT Mathematics, chapter on fractions",
-  "page": "to fill from textbook",
-  "text": "A fraction shows a part of a whole. 1/5 of 50 means 50 shared into 5 equal parts ..."
+  "course": "iitm-maths2",
+  "concept": "derivatives",
+  "type": "video",
+  "source": "Maths 2, Week 5, Lecture 2",
+  "location": "08:15–11:30",
+  "text": "The derivative of a function at a point is the slope of the tangent at that point ..."
 }
 ```
 
@@ -288,67 +324,64 @@ A study-material entry (the same format for every course):
 
 ## 10. Expected outputs
 
-### 10.1 Tutoring session with backtracking (NCERT example, mock-up)
+### 10.1 Tutoring session with backtracking (IITM example from the brief, mock-up)
 
 ```text
-Learner:  What is 20% of 50?   My answer: 2.5
+Learner:  How does training happen in Linear Regression?
 
-Tutor:    Let's check together. What does "20%" mean: 20 out of how many?
-Learner:  100                                                       ✓
-Tutor:    So 20% is the fraction 20/100. Can you write it in simplest form?
+Tutor:    Let's work it out together. In supervised learning, what do we
+          give the model during training?
+Learner:  Inputs and their correct outputs.                          ✓
+Tutor:    Our model predicts y = w·x. If w = [2, 1] and x = [3, 4],
+          what does it predict?
+Learner:  10                                                         ✓
+Tutor:    The true y is 12. What is the squared error?
+Learner:  4                                                          ✓
+Tutor:    To reduce the error, we need to know how it changes as w changes.
+          For L(w) = (6 − 2w)², what is dL/dw?
 Learner:  I don't know.
-          [gap found at Level 2: fractions → checking division]
-Tutor:    Let's revisit division first. What is 100 ÷ 20?
-Learner:  5                                                         ✓
-Tutor:    Great! So 20/100 = 1/5. What is 1/5 of 50?
-          Hint: share 50 into 5 equal groups.   📖 NCERT: Fractions
-Learner:  10                                                        ✓
-Tutor:    One more at this level: what is 1/4 of 20?
-Learner:  5                                                         ✓
-          [back to Level 3]
-Tutor:    Now try your question again: what is 20% of 50?
-Learner:  10                                                        ✓
-Tutor:    Excellent! Earlier you divided 50 by 20; a percentage means
-          "out of 100". Ready for a harder one: 15% of 60?
+          [gap found in Maths 2: derivatives → checking Maths 1: slope]
+Tutor:    Let's step back. For the line y = 3x + 1, how much does y change
+          when x increases by 1?
+Learner:  3                                                          ✓
+Tutor:    Right, that's the slope. A derivative is the slope at a point.
+          What is the derivative of w²?   📺 Maths 2, Week 5, Lecture 2 (08:15)
+Learner:  2w                                                         ✓
+          [back to Maths 2]
+Tutor:    Now use the chain rule on (6 − 2w)². Hint: the inside changes at −2.
+Learner:  2(6 − 2w)(−2) = −4(6 − 2w)                                 ✓
+          [back to MLF / MLT]
+Tutor:    At w = 1 the gradient is −16. It's negative, so should w go up or
+          down to reduce the loss?
+Learner:  Up.                                                        ✓
+Tutor:    Exactly: w ← w − (learning rate) × gradient. That's gradient
+          descent, and repeating it is how linear regression is trained!
+          📺 MLT Week 2, Lecture 3 (12:40)
 ```
 
 ### 10.2 Progress report (shown to the learner)
 
-| Level | Concept | Correct (without help) | Readiness estimate |
+| Course | Concept | Correct (without help) | Readiness estimate |
 |---|---|---|---|
-| 1 | Multiplication | 3 / 3 | 0.90 |
-| 2 | Division | 2 / 2 | 0.84 |
-| 2 | Fractions | 1 / 2 | 0.66 |
-| 3 | Percentages | 1 / 2 | 0.58, more practice suggested |
+| Maths 1 | Slope of a line | 2 / 2 | 0.90 |
+| Maths 2 | Derivatives and chain rule | 1 / 2 | 0.64 |
+| MLF | Gradient descent | 1 / 1 | 0.70 |
+| MLT | Training linear regression | 1 / 2 | 0.60, more practice suggested |
 
 ### 10.3 Current vs expected (LLM API + system prompt vs our tutor)
 
-| | Response to "What is 20% of 50? My answer is 2.5" |
+| | Response to "How does training happen in Linear Regression?" |
 |---|---|
-| **LLM API with a Socratic prompt (typical today)** | "Not quite! 20% means 20/100, so 20/100 × 50 = **10**." The answer is often revealed; the tutor doesn't check *why* the learner divided 50 by 20 or whether fractions are weak. |
-| **Our tutor (expected)** | Asks what "20%" means, detects the fraction/division gap, practises at Level 2 with a link to the NCERT page, then returns to the percentage question. The learner finds 10 themselves. |
+| **LLM API with a Socratic prompt (typical today)** | Usually gives the full explanation at once: "We minimise the mean squared error with gradient descent, updating w ← w − η∇L…". The learner reads the answer but is never checked, and a gap in derivatives stays hidden. |
+| **Our tutor (expected)** | Guides step by step, finds the derivative gap, revisits Maths 1 and Maths 2 with lecture links, then returns to MLT. The learner works out the update rule themselves. |
+
+### 10.4 Same pipeline, second domain (NCERT, short example)
+
+A learner answers "20% of 50" with 2.5. The tutor asks what "20%" means, finds a gap in fractions, practises a few fraction and division questions with a link to the NCERT page, then returns to the percentage question. The learner finds 10. Only the course pack changes; the code is the same.
 
 ---
 
-## 11. Next steps (Milestone 2)
-
-- Clean ASSISTments (and optionally EdNet); train the simple baseline and DKT.
-- Prepare MathDial for fine-tuning; run a first small LoRA fine-tune of the Socratic model.
-- Build the multi-level NCERT course pack and start gathering IITM BS transcripts.
-- Build a first version of the controller, search and web app.
-- Write the first 30 annotated test scenarios.
-
-**Decisions recorded from the TA:**
-- External datasets allowed (licenses must be checked).
-- NCERT allowed; the pipeline must be domain-agnostic.
-- The main brain must be our own model; an LLM API may only play a minor role. We will therefore fine-tune our own Socratic model.
-- IITM transcripts allowed; we gather them ourselves.
-- Scope must cover several connected levels or subjects, with backtracking across them.
-- Evaluation must include a comparison with an LLM-API + system-prompt tutor; the TA will provide test samples.
-
----
-
-## 12. References
+## 11. References
 
 1. Piech et al. (2015). *Deep Knowledge Tracing.* NeurIPS.
 2. Corbett & Anderson (1994). *Knowledge Tracing.* User Modeling and User-Adapted Interaction. (AUC as reported in [1].)
@@ -361,10 +394,15 @@ Tutor:    Excellent! Earlier you divided 50 by 20; a percentage means
 9. Choi et al. (2020). *EdNet: A Large-Scale Hierarchical Dataset in Education.* AIED. https://github.com/riiid/ednet
 10. Hu et al. (2022). *LoRA: Low-Rank Adaptation of Large Language Models.* ICLR.
 11. Qwen3-4B-Instruct-2507 model card. https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507
+12. Carnegie Learning. *MATHia* overview video. https://youtu.be/sjfw_7jXoBk
+13. Khan Academy. *Khanmigo* overview video. https://youtu.be/I1JVQg52DDI
+14. McGraw Hill. *ALEKS* overview video. https://youtu.be/mxOWeJ_lhEc
+15. ASSISTments. Overview video. https://youtu.be/8t62Aj-VGig
+16. Ghosh, Heffernan & Lan (2020). *Context-Aware Attentive Knowledge Tracing.* KDD.
 
 ---
 
-## 13. Team sign-off
+## 12. Team sign-off
 
 By signing, each member confirms they have read this report, understand it and agree to submit it.
 

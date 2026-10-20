@@ -147,8 +147,8 @@ text(s, 0.8, 1.3, 11.5, 1.6, [
     ("Guiding learners to the answer", {"size": 32, "color": WHITE}),
 ])
 text(s, 0.8, 3.2, 11.5, 1.0,
-     "An intelligent small-scale tutor that guides a learner to the answer through probing questions, "
-     "backtracking across levels when needed. One pipeline, any course.", size=20, color=LIGHT)
+     "A study companion for IITM BS learners that guides them to the answer through probing questions, "
+     "backtracking to earlier courses when needed. One pipeline, any course.", size=20, color=LIGHT)
 text(s, 0.8, 4.6, 11.5, 1.8, [
     ("Milestone 1  ·  Group 2  ·  Data Science and AI Lab, IIT Madras BS", {"size": 16, "color": WHITE}),
     ("Sandeep Nalla (21f1006125)  ·  Hariom Kumar (23f2004225)  ·  Hariom Pandey (21f3002112)  ·  "
@@ -159,7 +159,7 @@ text(s, 0.8, 6.7, 11.5, 0.4, "October 2026", size=12, color=LIGHT)
 # 2 ── Objective ────────────────────────────────────────────────────────────
 s = slide_frame("Objective", "Help the learner reach the answer themselves, instead of giving it directly", 2)
 steps = [("1. Break down", "the doubt into\nsub-ideas"), ("2. Probe", "one question\nat a time"),
-         ("3. Feedback", "spot misconceptions,\nlink a resource"), ("4. Backtrack", "to an earlier level\nif there is a gap"),
+         ("3. Feedback", "spot misconceptions,\nlink a lecture"), ("4. Backtrack", "to an earlier course\nif there is a gap"),
          ("5. Climb back", "raise difficulty\nstep by step")]
 for i, (t, b) in enumerate(steps):
     x = 0.6 + i * 2.5
@@ -169,50 +169,57 @@ for i, (t, b) in enumerate(steps):
 text(s, 0.6, 3.55, 12.1, 0.45, "Domain-agnostic: each subject is a “course pack”", size=18, bold=True, color=TEAL)
 table(s, 0.6, 4.05, 12.1, [
     ["Concepts", "Prerequisite links", "Study material", "Questions"],
-    ["topics with IDs and levels", "“A is needed before B”, across levels", "PDFs, slides, transcripts",
+    ["topics with IDs and courses", "“A is needed before B”, across courses", "transcripts, slides, PDFs",
      "answers, hints, difficulty"],
 ], col_w=[3.0, 3.0, 3.05, 3.05], size=14, row_h=0.5)
-label_box(s, 0.6, 5.35, 5.9, 1.3, "Main pilot: NCERT Mathematics",
-          "several classes that build on each other (Level 1 → 2 → 3)", size=13)
-label_box(s, 6.8, 5.35, 5.9, 1.3, "Second domain: IITM BS",
-          "Maths → MLF → MLT, e.g. “How does training happen in Linear Regression?”", size=13)
+label_box(s, 0.6, 5.35, 5.9, 1.3, "Primary: IITM BS courses",
+          "Maths & Stats → MLF → MLT, e.g. “How does training happen in Linear Regression?”", size=13)
+label_box(s, 6.8, 5.35, 5.9, 1.3, "Second domain: NCERT Mathematics",
+          "several classes that build on each other, to show the pipeline is reusable", size=13)
 
-# 3 ── Levels & backtracking ────────────────────────────────────────────────
-s = slide_frame("Learning builds across levels", "If a learner is stuck, the tutor finds the gap in an earlier level", 3)
-levels = [("Level 1", "Addition · Subtraction\nMultiplication"), ("Level 2", "Division\nFractions"),
-          ("Level 3", "Decimals\nPercentages")]
+# 3 ── Courses & backtracking ───────────────────────────────────────────────
+s = slide_frame("Learning builds across courses", "If a learner is stuck, the tutor finds the gap in an earlier course", 3)
+levels = [("Maths 1 · Stats 1", "Functions, slope\nMean, variance"), ("Maths 2", "Vectors, dot product\nDerivatives, chain rule"),
+          ("MLF", "Loss functions\nGradient descent"), ("MLT", "Training linear\nregression")]
 for i, (t, b) in enumerate(levels):
-    x = 0.6 + i * 4.2
-    label_box(s, x, 1.75, 3.6, 1.4, t, b, fill=TEAL if i == 2 else PALE, dark=i == 2, size=15)
-    if i < 2:
-        arrow(s, x + 3.6, 2.45, x + 4.2, 2.45)
-text(s, 0.6, 3.45, 12.1, 0.45, "Example: stuck on “What is 20% of 50?”", size=18, bold=True, color=TEAL)
+    x = 0.6 + i * 3.1
+    label_box(s, x, 1.75, 2.7, 1.4, t, b, fill=TEAL if i == 3 else PALE, dark=i == 3, size=14)
+    if i < 3:
+        arrow(s, x + 2.7, 2.45, x + 3.1, 2.45)
+text(s, 0.6, 3.45, 12.1, 0.45, "Example: “How does training happen in Linear Regression?”", size=18, bold=True, color=TEAL)
 table(s, 0.6, 3.95, 12.1, [
     ["Step", "What the tutor does"],
-    ["1. Probe", "“What does 20% mean: 20 out of how many?”"],
-    ["2. Backtrack", "Gap found in fractions (Level 2) → checks division → multiplication (Level 1) if needed"],
-    ["3. Practise", "A few division and fraction questions with hints and a link to the NCERT page"],
-    ["4. Climb back", "1/5 of 50 → 1/4 of 20 → back to 20% of 50 → harder: 15% of 60"],
+    ["1. Probe", "Supervised learning → prediction y = w·x → squared error → “what is dL/dw?”"],
+    ["2. Backtrack", "Gap found in derivatives (Maths 2) → checks slope of a line (Maths 1) if needed"],
+    ["3. Practise", "A few slope and derivative questions with hints and a link to the Maths 2 lecture"],
+    ["4. Climb back", "derivative of w² → chain rule → gradient → gradient descent update (MLF, MLT)"],
 ], col_w=[2.2, 9.9], size=14, row_h=0.52)
-notes(s, "This follows the TA's guidance: cross-reference and propagate learning across levels.")
+notes(s, "Learning is cross-referenced and propagated across courses. Mapping to be confirmed from IITM course content.")
 
 # 4 ── Existing solutions & gaps ─────────────────────────────────────────────
 s = slide_frame("Existing solutions and their gaps", None, 4)
 table(s, 0.6, 1.3, 12.1, [
     ["Solution", "Good at", "Missing for our problem"],
-    ["ChatGPT / Gemini study modes, Khanmigo", "Natural conversation",
+    ["Khanmigo", "Builds understanding by questioning students, based on their answers",
+     "External LLM (GPT-4) driven by prompts; no backtracking across levels; Khan content only"],
+    ["ChatGPT / Gemini study modes", "Natural conversation",
      "Driven by a system prompt; no memory of skills; can give away answers"],
-    ["MATHia, ALEKS", "Track student skills", "Paid, closed, no conversation, fixed curriculum"],
-    ["ASSISTments", "Free practice with hints", "Fixed teacher-written hints"],
+    ["MATHia", "Adapts per student; step-by-step guidance, real-time feedback, targeted practice",
+     "Paid, closed; fixed maths curriculum; fixed step paths, no free conversation"],
+    ["ALEKS (adaptive system, not a chat assistant)", "Finds what a student is ready to learn next, using prerequisites",
+     "No conversation or probing questions; paid, closed, fixed curriculum"],
+    ["ASSISTments", "Free platform for teachers to give students personalized feedback",
+     "Hints written by teachers in advance; no conversation or backtracking"],
     ["Course portals (IITM BS, DIKSHA)", "Host content", "Don't diagnose why a student is stuck"],
-], col_w=[3.8, 2.8, 5.5], size=14, row_h=0.55)
-text(s, 0.6, 4.4, 12.1, 0.45, "What we add", size=18, bold=True, color=TEAL)
-bullets(s, 0.6, 4.9, 12.1, 2.0, [
+], col_w=[3.0, 4.3, 4.8], size=12, row_h=0.42)
+text(s, 0.6, 4.95, 12.1, 0.45, "What we add (MATHia and Khanmigo are closest; we combine their ideas with our own models)",
+     size=16, bold=True, color=TEAL)
+bullets(s, 0.6, 5.4, 12.1, 1.6, [
     "Our own trained models as the main brain, not an LLM API with a system prompt",
     "A learner model that remembers which concepts the student knows",
-    "Backtracking across levels, then climbing back up to the learner’s question",
-    "Feedback with the exact page, slide or video to revisit; works for any course",
-], size=16)
+    "Backtracking across courses, then climbing back up to the learner’s question",
+    "Feedback with the exact IITM lecture, slide or assignment to revisit; works for any course",
+], size=14)
 
 # 5 ── Research baselines ───────────────────────────────────────────────────
 s = slide_frame("Research baselines", None, 5)
@@ -234,10 +241,10 @@ s = slide_frame("Our approach: our own models are the main brain", None, 6)
 table(s, 0.6, 1.3, 12.1, [
     ["Component", "Built by us?", "Role"],
     ["Learner model (DKT)", "✓ trained", "Estimates what the learner knows for each concept"],
-    ["Tutor controller", "✓ written", "Decides: probe, hint, backtrack a level, retest, move up"],
+    ["Tutor controller", "✓ written", "Decides: probe, hint, backtrack a course, retest, move up"],
     ["Socratic question model", "✓ fine-tuned", "Qwen3-4B + LoRA on MathDial + our examples: writes probing questions"],
-    ["Misconception detector", "✓ built", "Spots common error patterns (e.g. 50 ÷ 20 instead of 20/100 × 50)"],
-    ["Search (RAG)", "pretrained embeddings", "Finds the page, slide or video for a concept"],
+    ["Misconception detector", "✓ built", "Spots common error patterns (e.g. a sign error in the gradient)"],
+    ["Search (RAG)", "pretrained embeddings", "Finds the lecture, slide or assignment for a concept"],
     ["External LLM API", "✗ optional", "Only drafts practice questions offline (checked) and serves as a baseline"],
 ], col_w=[3.0, 2.3, 6.8], size=14, row_h=0.52)
 text(s, 0.6, 5.2, 12.1, 1.5, [
@@ -245,17 +252,17 @@ text(s, 0.6, 5.2, 12.1, 1.5, [
     ("New course = new course pack + ingestion script. New course with no student data → simple "
      "fallback until DKT is retrained.", {"size": 14, "color": MUTED}),
 ])
-notes(s, "TA: LLM APIs only as a minor part; the main brain must be our own DL/GenAI model.")
+notes(s, "LLM APIs play only a minor part; the main brain is our own DL/GenAI models.")
 
 # 7 ── Datasets & samples ───────────────────────────────────────────────────
 s = slide_frame("Datasets and samples", None, 7)
 table(s, 0.6, 1.3, 6.4, [
     ["Dataset", "Use", "Size"],
+    ["IITM BS transcripts", "Course pack (primary)", "gathered by us"],
     ["ASSISTments 2009–10", "Train DKT", "~346k answers, 4,217 students"],
     ["EdNet KT1 (optional)", "Train DKT (larger)", "~95M answers"],
     ["MathDial", "Fine-tune Socratic model", "2,861 dialogues"],
-    ["NCERT Maths", "Course pack (main)", "several classes"],
-    ["IITM BS transcripts", "Course pack (second)", "gathered by us"],
+    ["NCERT Maths", "Course pack (second)", "several classes"],
 ], col_w=[2.1, 2.2, 2.1], size=12, row_h=0.45)
 text(s, 0.6, 4.2, 6.4, 0.8, "Licenses checked before use (e.g. MathDial CC BY-SA 4.0, EdNet CC BY-NC 4.0).",
      size=12, color=MUTED)
@@ -287,64 +294,64 @@ table(s, 0.6, 1.3, 12.1, [
     ["Part", "Metric", "Compared with", "Target"],
     ["Learner model", "AUC", "Simple accuracy; published DKT 0.754", "≥ 0.74, better than simple"],
     ["Socratic model", "% replies revealing the answer", "Base model; LLM API + system prompt", "≤ 5%, lower than both"],
-    ["Backtracking", "% gaps found at the right level", "LLM API + system prompt", "≥ 85%"],
+    ["Backtracking", "% gaps found in the right course", "LLM API + system prompt", "≥ 85%"],
     ["Search", "Correct resource in top 5", "Keyword search", "≥ 0.80"],
     ["Full tutor", "% test scenarios handled", "Fixed rules; LLM API + system prompt", "≥ 90%"],
 ], col_w=[2.2, 3.4, 3.8, 2.7], size=13, row_h=0.5)
 text(s, 0.6, 4.55, 12.1, 0.45, "How we will evaluate", size=18, bold=True, color=TEAL)
 bullets(s, 0.6, 5.05, 12.1, 1.9, [
-    "60–100 annotated scenarios we write (careless slip, gap 1 level down, gap 2 levels down…) + the TA’s test samples",
+    "60–100 annotated IITM scenarios (careless slip, gap 1 course back, gap 2 courses back…) + any provided test samples",
     "Compare: direct-answer chatbot vs LLM API with Socratic prompt vs our tutor; also vs published research numbers",
-    "Same tests on NCERT and IITM BS course packs, with no code changes",
+    "Same tests on the IITM BS and NCERT course packs, with no code changes",
 ], size=15)
 
 # 9 ── Expected output ──────────────────────────────────────────────────────
 s = slide_frame("Expected output (mock-up)", None, 9)
-box(s, 0.6, 1.25, 7.4, 3.9, fill=WHITE, line=TEAL)
-text(s, 0.75, 1.3, 7.2, 5.0, [
-    ("Learner: What is 20% of 50?  My answer: 2.5", {"bold": True, "size": 13, "color": NAVY}),
-    ("Tutor: What does 20% mean: 20 out of how many?   Learner: 100 ✓", {"size": 12}),
-    ("Tutor: So 20% = 20/100. Simplest form?   Learner: I don’t know", {"size": 12}),
-    ("[gap at Level 2 → checking division]", {"size": 12, "color": TEAL}),
-    ("Tutor: What is 100 ÷ 20?   Learner: 5 ✓", {"size": 12}),
-    ("Tutor: So 20/100 = 1/5. What is 1/5 of 50?  Hint: 5 equal groups 📖", {"size": 12}),
-    ("Learner: 10 ✓      Tutor: And 1/4 of 20?   Learner: 5 ✓", {"size": 12}),
-    ("[back to Level 3]", {"size": 12, "color": TEAL}),
-    ("Tutor: Try again: 20% of 50?   Learner: 10 ✓", {"size": 12, "bold": True}),
-    ("Tutor: Earlier you divided 50 by 20; a percentage means “out of 100”.", {"size": 12}),
-    ("         Next: 15% of 60?", {"size": 12}),
+box(s, 0.6, 1.25, 7.4, 4.3, fill=WHITE, line=TEAL)
+text(s, 0.75, 1.3, 7.2, 5.4, [
+    ("Learner: How does training happen in Linear Regression?", {"bold": True, "size": 13, "color": NAVY}),
+    ("Tutor: In supervised learning, what do we give the model?   Learner: Inputs and outputs ✓",
+     {"size": 11}),
+    ("Tutor: y = w·x, w = [2,1], x = [3,4]. Prediction?   Learner: 10 ✓", {"size": 11}),
+    ("Tutor: True y is 12. Squared error?   Learner: 4 ✓", {"size": 11}),
+    ("Tutor: For L(w) = (6 − 2w)², what is dL/dw?   Learner: I don’t know", {"size": 11}),
+    ("[gap in Maths 2: derivatives → checking Maths 1: slope]", {"size": 11, "color": TEAL}),
+    ("Tutor: For y = 3x + 1, how much does y change when x goes up by 1?   Learner: 3 ✓", {"size": 11}),
+    ("Tutor: Derivative of w²?  📺 Maths 2, Week 5, Lecture 2 (08:15)   Learner: 2w ✓", {"size": 11}),
+    ("[back to Maths 2]", {"size": 11, "color": TEAL}),
+    ("Tutor: Chain rule on (6 − 2w)²?   Learner: −4(6 − 2w) ✓", {"size": 11}),
+    ("[back to MLF / MLT]", {"size": 11, "color": TEAL}),
+    ("Tutor: At w = 1 the gradient is −16. Should w go up or down?   Learner: Up ✓", {"size": 11}),
+    ("Tutor: Exactly: w ← w − η × gradient. That’s how linear regression is trained!",
+     {"size": 11, "bold": True}),
 ])
 text(s, 8.4, 1.25, 4.4, 0.45, "Progress report", size=16, bold=True, color=TEAL)
 table(s, 8.4, 1.75, 4.4, [
-    ["Concept (level)", "Correct", "Readiness"],
-    ["Multiplication (1)", "3/3", "0.90"],
-    ["Division (2)", "2/2", "0.84"],
-    ["Fractions (2)", "1/2", "0.66"],
-    ["Percentages (3)", "1/2", "0.58 · practise"],
-], col_w=[1.8, 0.9, 1.7], size=12, row_h=0.42)
+    ["Course: concept", "Correct", "Readiness"],
+    ["Maths 1: slope", "2/2", "0.90"],
+    ["Maths 2: derivatives", "1/2", "0.64"],
+    ["MLF: gradient descent", "1/1", "0.70"],
+    ["MLT: linear regression", "1/2", "0.60 · practise"],
+], col_w=[1.9, 0.8, 1.7], size=12, row_h=0.42)
 text(s, 8.4, 4.1, 4.4, 0.45, "LLM API vs our tutor", size=16, bold=True, color=TEAL)
-text(s, 8.4, 4.55, 4.4, 2.0, [
-    ("API + prompt: “20/100 × 50 = 10.” Answer revealed; gap not found.", {"size": 13}),
-    ("Ours: finds the fraction gap, practises Level 2, returns to Level 3; learner finds 10.",
+text(s, 8.4, 4.55, 4.4, 2.2, [
+    ("API + prompt: explains MSE and gradient descent all at once. Learner never checked; the "
+     "derivative gap stays hidden.", {"size": 13}),
+    ("Ours: finds the derivative gap, revisits Maths 1 and 2, returns to MLT; learner works out the update rule.",
      {"size": 13, "bold": True}),
 ])
 
-# 10 ── Next steps & sign-off ───────────────────────────────────────────────
-s = slide_frame("Next steps, TA decisions and sign-off", None, 10)
-text(s, 0.6, 1.2, 6.0, 0.45, "Milestone 2 plan", size=18, bold=True, color=TEAL)
-bullets(s, 0.6, 1.7, 6.0, 2.6, [
-    "Clean ASSISTments; train the baseline and DKT",
-    "First LoRA fine-tune of the Socratic model on MathDial",
-    "Multi-level NCERT course pack; gather IITM transcripts",
-    "First controller, search and web app; 30 test scenarios",
+# 10 ── Summary & sign-off ──────────────────────────────────────────────────
+s = slide_frame("Summary and sign-off", None, 10)
+text(s, 0.6, 1.2, 6.0, 0.45, "Summary", size=18, bold=True, color=TEAL)
+bullets(s, 0.6, 1.7, 6.0, 4.5, [
+    "A study companion for IITM BS learners that guides them to the answer with probing questions",
+    "Our own trained models are the main brain: DKT, controller, fine-tuned Socratic model",
+    "Backtracks across courses (Maths → MLF → MLT) to fix gaps, then climbs back up",
+    "Links mistakes to the exact lecture, slide or assignment",
+    "Domain-agnostic: IITM BS (primary) and NCERT Maths via course packs",
+    "Evaluated against an LLM-API + system-prompt tutor",
 ], size=15)
-text(s, 0.6, 4.0, 6.0, 0.45, "Decisions recorded from the TA", size=18, bold=True, color=TEAL)
-bullets(s, 0.6, 4.5, 6.0, 2.4, [
-    "External datasets and NCERT allowed (check licenses)",
-    "Main brain must be our own model; LLM API only a minor part",
-    "Several connected levels, with backtracking",
-    "Compare against an LLM-API + system-prompt tutor",
-], size=14)
 table(s, 7.0, 1.3, 5.8, [
     ["Member", "Signature"],
     ["Sandeep Nalla (21f1006125)", ""],
