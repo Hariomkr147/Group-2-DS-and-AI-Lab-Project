@@ -92,13 +92,23 @@ The tutor is conversational, but not text-only:
 | Solution | What it does well | What it lacks for our objective |
 |---|---|---|
 | **Khanmigo** (Khan Academy) [12] | Helps students understand concepts by questioning them, and builds understanding based on their answers | Runs on an external LLM (GPT-4) guided by prompts, not its own trained tutoring model; no explicit backtracking across levels; tied to Khan Academy content; not open |
-| **ChatGPT / Gemini (study or guided-learning modes)** | Good conversation; tries to guide instead of answering | Driven by a system prompt; does not track what the student knows across levels; can still give away answers; not tied to NCERT or course material |
+| **MathGPT.ai** [14] | Socratic AI tutor that withholds final answers and guides with hints and follow-up questions; used in 50+ US colleges; instructors control when it can be used | College maths only; no learner model or backtracking to earlier levels; closed |
+| **ChatGPT Study Mode / Gemini Guided Learning / Claude Learning mode** [23] | Good conversation; general assistants switched into a guiding, question-asking style | Driven by a system prompt; does not track what the student knows across levels; can still give away answers; not tied to NCERT or course material |
 | **MATHia** (Carnegie Learning) [11] | Adapts to each student's needs; guides through every step of a problem with real-time feedback and targeted practice | Paid and closed; only its own fixed maths curriculum; hints follow fixed step-by-step paths, with no free conversation about the learner's own doubt; new courses can't be added |
+| **Squirrel AI** [22] | Adaptive AI tutor: a diagnostic test finds gaps on a very fine-grained knowledge graph, then builds a personal learning path with videos and practice | Recommends content and practice rather than holding a probing conversation; closed; mostly company-reported results |
 | **ALEKS** (McGraw Hill) [13]: adaptive learning system, not a chat assistant | Uses Knowledge Space Theory to find what a student knows and is ready to learn next, based on prerequisites | No conversation or probing questions; paid and closed; fixed curriculum |
-| **ASSISTments** (WPI) [14] | Free platform for teachers to assign practice and give students personalized feedback; public research data | Feedback and hints are written by teachers in advance; no conversation; no automatic backtracking to prerequisites |
-| **Course platforms (DIKSHA, IITM BS portal, YouTube lectures)** | Host lecture videos, slides, notes and assignments | Do not diagnose why a student is stuck or guide them step by step |
 
-**Closest existing solutions: MATHia and Khanmigo.** MATHia adapts to each student and guides them step by step with feedback. Khanmigo builds understanding by questioning the student. Our tutor combines both ideas and differs in four ways: it **converses** about the learner's own doubt with probing questions, it **backtracks across levels** to fix earlier gaps, it is **domain-agnostic** (any course can be added as a course pack), and it is **open and built from our own models**.
+### NCERT-focused AI tutors in India
+
+| Solution | What it does well | What it lacks for our objective |
+|---|---|---|
+| **Alakh AI** (Physics Wallah) [19] | "AI Guru" answers doubts 24/7 by text, image or speech; "Sahayak" recommends videos and practice by chapter; "NCERT Pitara" generates questions from NCERT textbooks | Built mainly to answer doubts, not to guide with probing questions; no backtracking across levels; closed, with no published evaluation |
+| **BYJU'S WIZ** [20] | BADRI predicts a student's strengths and weaknesses (knowledge tracing with forgetting curves); MathGPT solves maths problems; TeacherGPT guides students toward the answer instead of giving it | Closed; accuracy figures are self-reported; current availability is unclear; tied to BYJU'S content |
+| **Embibe** [21] | A knowledge graph across grades that tracks gaps from earlier grades; Bayesian Knowledge Tracing mastery scores; large practice bank with hints and solutions | Practice- and recommendation-based, not a probing conversation about the learner's own doubt; closed |
+
+*Features are as described by each company or in launch-time press coverage; most claims are self-reported and may have changed since.*
+
+**Closest existing solutions: Khanmigo, MathGPT.ai, BYJU'S TeacherGPT, Squirrel AI and Embibe.** Khanmigo, MathGPT.ai and TeacherGPT guide by questioning; Squirrel AI and Embibe find gaps, including gaps from earlier grades; MATHia adapts and guides step by step. Our tutor combines these ideas **in one loop** and differs in four ways: it **converses** about the learner's own doubt with probing questions *and* **backtracks across levels** to fix earlier gaps, it is **domain-agnostic** (any course can be added as a course pack), it is **open and built from our own models**, and it is **evaluated openly** against published baselines.
 
 ---
 
@@ -403,11 +413,16 @@ A learner asks *"How does training happen in Linear Regression?"* (MLT). The tut
 11. Carnegie Learning. *MATHia* overview video. https://youtu.be/sjfw_7jXoBk
 12. Khan Academy. *Khanmigo* overview video. https://youtu.be/I1JVQg52DDI
 13. McGraw Hill. *ALEKS* overview video. https://youtu.be/mxOWeJ_lhEc
-14. ASSISTments. Overview video. https://youtu.be/8t62Aj-VGig
+14. Dataconomy (2025). *MathGPT.ai expands to 50+ colleges with "cheat-proof" AI tutor.* https://dataconomy.com/2025/08/29/mathgpt-ai-expands-to-50-colleges-with-cheat-proof-ai-tutor/
 15. Ghosh, Heffernan & Lan (2020). *Context-Aware Attentive Knowledge Tracing.* KDD.
 16. Zhang, Shi, King & Yeung (2017). *Dynamic Key-Value Memory Networks for Knowledge Tracing.* WWW.
 17. Pandey & Karypis (2019). *A Self-Attentive Model for Knowledge Tracing.* EDM.
 18. Macina et al. (2023). *MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems.* Findings of EMNLP. https://github.com/eth-nlped/mathdial
+19. YourStory (2024). *PhysicsWallah unveils AI-powered suite 'Alakh AI' to personalise education.* https://yourstory.com/2024/03/physicswallah-ai-education-alakh-pandey-edtech-artificial-intelligence
+20. BYJU'S (2023). *BYJU'S launches BYJU'S WIZ, a suite of AI models for hyper-personalized learning.* https://byjus.com/press/byjus-launches-byjus-wiz-a-suite-of-cutting-edge-ai-models-for-hyper-personalized-learning/
+21. Embibe. *AI in Education.* https://www.embibe.com/in-en/artificial-intelligence-ai-in-education/
+22. MIT Technology Review (2019). *China has started a grand experiment in AI education* (Squirrel AI). https://www.technologyreview.com/2019/08/02/131198/china-squirrel-has-started-a-grand-experiment-in-ai-education-it-could-reshape-how-the/
+23. Engadget (2025). *Claude's new Learning mode will prompt students to answer questions on their own.* https://www.engadget.com/ai/claudes-new-learning-mode-will-prompt-students-to-answer-questions-on-their-own-172057828.html
 
 ---
 
