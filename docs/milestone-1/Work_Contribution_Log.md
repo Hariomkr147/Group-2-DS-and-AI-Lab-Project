@@ -16,14 +16,14 @@ These are primary roles only. They are not fixed: as the project needs, members 
 
 ## Contributions
 
-Each member fills in their own rows. Add a link or file name as proof where possible.
+Each member fills in their own rows.
 
-| Date | Name | Work done | Proof (file / commit / link) |
-|---|---|---|---|
-| 2026-10-17 | Hariom Kumar | Prepared the technical documentation PDF (Architecture & Delivery Plan v2.0) and shared it with the team for review | `Socratic_AI_Tutor_Updated_Architecture_and_Team_Plan_v2.pdf` |
-| 2026-10-20 | Sandeep Nalla | Drafted the Milestone 1 report, presentation and this log; made the AUC chart; collected the MathDial sample (AI-assisted, reviewed by team) | `docs/milestone-1/`, branch `feature/sandeep` |
-| | Hariom Pandey | | |
-| | Mrityunjay Chakraborty | | |
+| Name | Work done |
+|---|---|
+| Sandeep Nalla | Prepared the Milestone 1 report, presentation and contribution log; reviewed existing tutoring solutions (Khanmigo, MATHia, ALEKS, ASSISTments) and compared knowledge-tracing models (DKT, AKT, DKVMN, SAKT) |
+| Hariom Kumar | Prepared the technical architecture and delivery plan (PDF) and shared it with the team for review; researched approaches for building and fine-tuning the Socratic tutoring model |
+| Hariom Pandey | Explored candidate datasets for fine-tuning the Socratic tutoring model |
+| Mrityunjay Chakraborty | Coordinated team activities and managed the JIRA board for task tracking |
 
 ## Sign-off
 
@@ -31,7 +31,7 @@ By signing, each member confirms that this log is accurate and that they have re
 
 | Name | Roll number | Signature | Date |
 |---|---|---|---|
-| Sandeep Nalla | 21f1006125 | | |
-| Hariom Kumar | 23f2004225 | | |
-| Hariom Pandey | 21f3002112 | | |
-| Mrityunjay Chakraborty | 21f3001385 | | |
+| Sandeep Nalla | 21f1006125 | <img src="signatures/sandeep_nalla.jpg" alt="Signature of Sandeep Nalla" height="40"> | 2026-10-22 |
+| Hariom Kumar | 23f2004225 | <img src="signatures/hariom_kumar.jpg" alt="Signature of Hariom Kumar" height="40"> | 2026-10-22 |
+| Hariom Pandey | 21f3002112 | | 2026-10-22 |
+| Mrityunjay Chakraborty | 21f3001385 | <img src="signatures/mrityunjay_chakraborty.jpg" alt="Signature of Mrityunjay Chakraborty" height="40"> | 2026-10-22 |
