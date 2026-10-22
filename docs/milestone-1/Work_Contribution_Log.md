@@ -20,7 +20,7 @@ Each member fills in their own rows.
 
 | Name | Work done |
 |---|---|
-| Sandeep Nalla | Prepared the Milestone 1 report, presentation and contribution log; reviewed existing tutoring solutions (Khanmigo, MATHia, ALEKS, ASSISTments) and compared knowledge-tracing models (DKT, AKT, DKVMN, SAKT) |
+| Sandeep Nalla | Prepared the Milestone 1 report, presentation and contribution log; reviewed existing tutoring solutions and compared knowledge-tracing models (DKT, AKT, DKVMN, SAKT) |
 | Hariom Kumar | Prepared the technical architecture and delivery plan (PDF) and shared it with the team for review; researched approaches for building and fine-tuning the Socratic tutoring model |
 | Hariom Pandey | Explored candidate datasets for fine-tuning the Socratic tutoring model |
 | Mrityunjay Chakraborty | Coordinated team activities and managed the JIRA board for task tracking |

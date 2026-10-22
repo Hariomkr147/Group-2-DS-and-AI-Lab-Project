@@ -96,7 +96,6 @@ The tutor is conversational, but not text-only:
 | **ChatGPT Study Mode / Gemini Guided Learning / Claude Learning mode** [23] | Good conversation; general assistants switched into a guiding, question-asking style | Driven by a system prompt; does not track what the student knows across levels; can still give away answers; not tied to NCERT or course material |
 | **MATHia** (Carnegie Learning) [11] | Adapts to each student's needs; guides through every step of a problem with real-time feedback and targeted practice | Paid and closed; only its own fixed maths curriculum; hints follow fixed step-by-step paths, with no free conversation about the learner's own doubt; new courses can't be added |
 | **Squirrel AI** [22] | Adaptive AI tutor: a diagnostic test finds gaps on a very fine-grained knowledge graph, then builds a personal learning path with videos and practice | Recommends content and practice rather than holding a probing conversation; closed; mostly company-reported results |
-| **ALEKS** (McGraw Hill) [13]: adaptive learning system, not a chat assistant | Uses Knowledge Space Theory to find what a student knows and is ready to learn next, based on prerequisites | No conversation or probing questions; paid and closed; fixed curriculum |
 
 ### NCERT-focused AI tutors in India
 
@@ -187,7 +186,7 @@ The core of the tutor is **models we build and train ourselves**, not an LLM API
 | **Learner model (DKT)** | ✓ trained by us | Estimates what the learner knows for each concept |
 | **Tutor controller** | ✓ written by us | Decides the next step: probe, hint, backtrack to an earlier level, retest, move up |
 | **Socratic question model** | ✓ fine-tuned by us (Qwen3-4B + LoRA on tutoring dialogues and our own NCERT and IITM BS examples) | Writes probing questions and feedback |
-| **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. dividing 50 by 20 instead of finding 20/100 of 50) |
+| **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. What is 20% of 50? dividing 50 by 20 instead of finding 20/100 of 50) |
 | Search (RAG) | Uses a pretrained embedding model | Finds the relevant textbook page, video or notes |
 | External LLM API (optional) | ✗ | Only helps draft practice questions offline (each checked before use), and serves as a **baseline** for comparison |
 
@@ -376,23 +375,14 @@ Tutor:    Excellent! Earlier you divided 50 by 20; a percentage means
           "out of 100". Ready for a harder one: 15% of 60?
 ```
 
-### 10.2 Progress report (shown to the learner)
-
-| Level | Concept | Correct (without help) | Readiness estimate |
-|---|---|---|---|
-| 1 | Multiplication | 3 / 3 | 0.90 |
-| 2 | Division | 2 / 2 | 0.84 |
-| 2 | Fractions | 1 / 2 | 0.66 |
-| 3 | Percentages | 1 / 2 | 0.58, more practice suggested |
-
-### 10.3 Current vs expected (LLM API + system prompt vs our tutor)
+### 10.2 Current vs expected (LLM API + system prompt vs our tutor)
 
 | | Response to "What is 20% of 50? My answer is 2.5" |
 |---|---|
 | **LLM API with a Socratic prompt (typical today)** | "Not quite! 20% means 20/100, so 20/100 × 50 = **10**." The answer is often revealed; the tutor doesn't check *why* the learner divided 50 by 20 or whether fractions are weak. |
 | **Our tutor (expected)** | Asks what "20%" means, detects the fraction/division gap, practises at Level 2 with a link to the NCERT page, then returns to the percentage question. The learner finds 10 themselves. |
 
-### 10.4 Same pipeline, secondary domain (IITM BS, short example)
+### 10.3 Same pipeline, secondary domain (IITM BS, short example)
 
 A learner asks *"How does training happen in Linear Regression?"* (MLT). The tutor guides them through the prediction `y = w·x` and the squared error. When they can't find the gradient, it goes back to derivatives (Maths 2) and slope (Maths 1) with lecture links, then climbs back to the gradient-descent update. Only the course pack changes; the code is the same.
 
