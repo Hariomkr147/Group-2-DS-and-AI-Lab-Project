@@ -28,12 +28,10 @@ When a learner has a doubt, the tutor:
 | Search (RAG) | Finds the relevant study material |
 | Web app | React + FastAPI + PostgreSQL (pgvector) |
 
-Our primary goal is a **study companion for IIT Madras BS learners**, using the same lecture videos, slides and assignments as the IITM BS portal.
-
 The tutor is **domain-agnostic**: each subject is added as a *course pack* (concepts, prerequisite links, study material, questions). We build two:
 
-- **IITM BS courses** that build on each other: Maths & Stats → MLF → MLT (primary)
-- **NCERT Mathematics** across several classes (second domain, to show the pipeline is reusable)
+- **NCERT content** across several classes that build on each other (primary, chosen because the textbooks are public and complete). Any subject with study material uses the same pipeline.
+- **IITM BS course material**: Maths & Stats → MLF → MLT (secondary, to show the pipeline is reusable)
 
 **Status:** planning stage (Milestone 1). Code will be added in later milestones.
 
