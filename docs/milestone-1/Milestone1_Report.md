@@ -36,23 +36,7 @@ When a learner has a doubt, the tutor should **help them reach the answer themse
 
 Knowledge builds level by level, so the tutor must trace a problem back through earlier levels.
 
-```mermaid
-flowchart LR
-    subgraph L1[Level 1]
-        A[Addition] --> M[Multiplication]
-        S[Subtraction]
-    end
-    subgraph L2[Level 2]
-        D[Division] --> F[Fractions]
-    end
-    subgraph L3[Level 3]
-        DE[Decimals] --> P[Percentages]
-    end
-    M --> D
-    S --> D
-    F --> DE
-    F --> P
-```
+![Levels build on each other: arrows show what is needed before what](figures/levels_diagram.png)
 
 **Example:** a learner is stuck on **percentages** (Level 3). The tutor checks **fractions** and **division** (Level 2), then **multiplication** (Level 1). It practises the weak skill with a few questions, then raises the difficulty step by step until the learner can solve the percentage question, explaining each step.
 
@@ -60,7 +44,7 @@ flowchart LR
 
 ### Scope: one pipeline, any course
 
-Our **primary goal is NCERT content**, chosen because of **data availability**: NCERT textbooks are public and cover every class and subject, so we can build complete multi-level course packs now. The tutor is **not limited to one subject**: it works for any subject that has study material and questions (e.g. Mathematics, Science, Social Science).
+Our **primary goal is NCERT content**, chosen because of **data availability**: NCERT textbooks are public and cover every class and subject, so we can build complete multi-level course packs now. We start with two subjects: **Mathematics and Science**. The tutor is **not limited to these**: it works for any subject that has study material and questions.
 
 The **pipeline is domain-agnostic and reusable**: all subject knowledge is kept in a **course pack**, never in the code.
 
@@ -73,7 +57,7 @@ The **pipeline is domain-agnostic and reusable**: all subject knowledge is kept 
 
 We will build two course packs:
 
-- **Primary: NCERT content across several classes and subjects** (e.g. Levels 1 → 3 as above).
+- **Primary: NCERT Mathematics and Science across several classes** (e.g. Levels 1 → 3 as above).
 - **Secondary: IITM BS course material**, e.g. Maths & Stats → MLF → MLT, with the brief's example *"How does training happen in Linear Regression?"*. We will gather the lecture transcripts and slides ourselves. This shows the same pipeline works for a different subject and level, with no code changes.
 
 ### Visual aids and what is out of scope
@@ -151,6 +135,8 @@ Further reasons for DKT:
 
 **If time allows, we will also train AKT on the same data split** (the pyKT library includes all of these models) and report both results.
 
+**Known risk: DKT can give wrong estimates** (it is a statistical model, so it may "hallucinate" mastery for concepts with little data). We will use the pyKT library and its datasets to train and check DKT against published numbers, and fall back to simple per-concept accuracy when DKT is unsure.
+
 ### 3.2 AI chat tutors
 
 | Study | Finding |
@@ -162,16 +148,25 @@ Further reasons for DKT:
 
 ---
 
-## 4. Gaps and how we address them
+## 4. Gaps and opportunities
 
 | Gap in existing solutions | How our project addresses it |
 |---|---|
-| Chatbots give the answer directly | **Our fine-tuned Socratic model** asks probing questions, and the controller limits how much is revealed |
+| Chatbots give the answer directly | **Our fine-tuned Socratic model** asks probing questions, and the controller model limits how much is revealed |
+| Chatbots drift off topic; prompt-only rules are easy to bypass | **Guardrails** (system prompt, input check, output check) keep the tutor on the course topic (see 5.5) |
+| Learner history mixes across courses and sessions | **DKT memory is scoped to one course and session**; off-topic questions are kept out (see 5.5) |
 | Chatbots don't remember what the student knows | **Learner model (DKT)** tracks every concept |
-| No backtracking across levels | A **prerequisite graph across levels** plus a controller that goes back, practises, and climbs back up |
+| No backtracking across levels | A **prerequisite graph across levels** plus a controller model that goes back, practises, and climbs back up |
 | Mistakes don't lead to study material | **Search (RAG)** links each mistake to the exact page, video or notes |
 | Same questions for every learner | **Diagnostic test + generated practice questions** at the learner's pace |
-| Tied to one subject | **Course packs** make the pipeline domain-agnostic |
+
+### Opportunities
+
+| Opportunity | Why it is open | What we will do |
+|---|---|---|
+| **Backtracking across levels in conversation** | Gap-finding tools (Squirrel AI, Embibe) recommend content; conversational tutors (Khanmigo, MathGPT.ai) do not go back to earlier levels | Controller model plus a cross-level prerequisite graph |
+| **A learned controller instead of prompts** | Most tutors rely on a system prompt; Bastani et al. [5] show prompts without guardrails can harm learning | Train the controller and add layered guardrails (5.5) |
+| **Safe handling of off-topic input and mixed history** | Little published work on keeping knowledge-tracing history clean across courses and sessions | Course- and session-scoped DKT memory (5.5) |
 
 ---
 
@@ -184,7 +179,8 @@ The core of the tutor is **models we build and train ourselves**, not an LLM API
 | Component | Built by us? | Role |
 |---|---|---|
 | **Learner model (DKT)** | ✓ trained by us | Estimates what the learner knows for each concept |
-| **Tutor controller** | ✓ written by us | Decides the next step: probe, hint, backtrack to an earlier level, retest, move up |
+| **Tutor controller (a model, not fixed rules)** | ✓ trained by us | Small model that picks the next step (probe, hint, backtrack to an earlier level, retest, move up) from the learner model output, the prerequisite graph and the conversation so far. Trained on our labelled scenarios; fixed rules are kept only as a comparison baseline |
+| **Guardrails** | ✓ built by us | Keep the tutor on topic and stop answer leakage (see 5.5) |
 | **Socratic question model** | ✓ fine-tuned by us (Qwen3-4B + LoRA on tutoring dialogues and our own NCERT and IITM BS examples) | Writes probing questions and feedback |
 | **Misconception detector** | ✓ built by us | Spots common error patterns (e.g. What is 20% of 50? dividing 50 by 20 instead of finding 20/100 of 50) |
 | Search (RAG) | Uses a pretrained embedding model | Finds the relevant textbook page, video or notes |
@@ -192,32 +188,11 @@ The core of the tutor is **models we build and train ourselves**, not an LLM API
 
 ### 5.2 Architecture
 
-```mermaid
-flowchart LR
-    S[Student] --> UI[Web app<br/>React]
-    UI --> API[Backend<br/>FastAPI]
-    API --> C[Tutor controller]
-    C --> LM[Learner model<br/>DKT]
-    C --> MD[Misconception<br/>detector]
-    C --> R[Search<br/>RAG]
-    C --> G[Our fine-tuned<br/>Socratic model]
-    LM & MD & R & G --> DB[(Database<br/>PostgreSQL)]
-    CP[Course pack<br/>NCERT / IITM BS / any] --> DB
-```
+![System architecture with guardrails](figures/architecture.png)
 
 ### 5.3 Tutor loop with backtracking
 
-```mermaid
-flowchart TD
-    Q[Learner's question<br/>e.g. a percentage problem] --> T[Diagnostic question]
-    T -->|correct| A[Guide to the answer<br/>with probing questions]
-    T -->|wrong| B[Check prerequisite<br/>one level down]
-    B -->|gap found| B2[Go down another level<br/>if needed]
-    B2 --> PR[Practise the weak skill<br/>with hints + resource link]
-    PR --> UP[Raise difficulty<br/>level by level]
-    UP --> A
-    A --> E[Learner reaches the answer]
-```
+![Tutor loop with backtracking](figures/tutor_loop.png)
 
 ### 5.4 How the pipeline stays domain-agnostic
 
@@ -226,11 +201,29 @@ flowchart TD
 - The **Socratic model** learns a general *style* (probe, don't tell), so it can be reused across subjects. The course pack supplies the facts through search.
 - Adding a new course = writing its course pack + running the ingestion script.
 
-### 5.5 Difference from a normal chatbot tutor
+### 5.5 Guardrails and off-topic handling
+
+The tutor must not go off track (non-course chat, requests for the final answer, unrelated subjects). A system prompt alone is easy to bypass, so we use layers:
+
+1. **System prompt:** states the role, the course and "never reveal the final answer".
+2. **Input check:** a small classifier labels each message as on-topic (current course), off-topic, or a request for the answer. Off-topic messages get a polite redirect and never reach the learner model.
+3. **Output check:** every reply is scanned for the final answer and for off-topic content before it is shown; if it fails, the reply is regenerated.
+4. **Answer-leak limit:** the controller model decides how much may be revealed at each step.
+
+**Keeping DKT history clean.** DKT predicts from the learner's history, so mixing courses or off-topic questions would confuse it:
+
+- History is kept **per learner, per course** (NCERT Maths and NCERT Science have separate histories).
+- DKT is run on **one session** at a time; earlier sessions only provide a starting estimate per concept.
+- A question from a different subject, or flagged off-topic by the input check, is **not written to DKT memory** (or is removed if already added).
+
+*Further guardrail methods will be explored and compared in Milestone 2.*
+
+### 5.6 Difference from a normal chatbot tutor
 
 | | LLM API + system prompt | Our tutor |
 |---|---|---|
-| Main brain | External LLM | Our own DKT + controller + fine-tuned model |
+| Main brain | External LLM | Our own DKT + controller model + fine-tuned model |
+| Stays on topic | System prompt only | Prompt + input check + output check |
 | Gives the answer | Often | No: guides with questions |
 | Remembers student skills | No | Yes, per concept |
 | Backtracks across levels | Not reliably | Yes, using the prerequisite graph |
@@ -267,11 +260,29 @@ DKT must first learn how students' knowledge develops, from many **real student 
 | Part | Metric | Baseline (what we compare with) | Our target |
 |---|---|---|---|
 | Learner model | AUC | Simple per-concept accuracy; published DKT: 0.754 | AUC ≥ 0.74 and better than the simple baseline |
-| Socratic model | % of replies that reveal the answer | Base model (before fine-tuning); LLM API + system prompt | ≤ 5%, lower than both baselines |
+| Socratic model | % of replies that reveal the answer | Base model (before fine-tuning); LLM API + system prompt | Lower than both baselines; aim ≤ 5% (published tutors leak 4-40% even against a mildly adversarial student, see below) |
 | Socratic model | Quality score from a rubric (1–5): relevant, one question at a time, correct | Same baselines | Higher than the base model |
-| Backtracking | % of test learners whose gap level/concept is correctly found | LLM API + system prompt | ≥ 85% |
+| Backtracking | % of test learners whose gap level/concept is correctly found | LLM API + system prompt | Higher than the baseline; aim ≥ 85% (no published precedent, to be calibrated on our test set) |
 | Search (RAG) | Correct resource in top 5 (Recall@5) | Keyword search (BM25) | ≥ 0.80 |
+| Tutor controller | % of scenarios where the correct next action is chosen | Fixed rules; always-probe policy | Higher than fixed rules |
+| Misconception detector | Accuracy on labelled wrong answers | Most-common-class guess; keyword rules | Higher than both |
+| Guardrails | % of off-topic or answer-request messages handled correctly | System prompt only | ≥ 95% |
 | Full tutor | % of test scenarios handled correctly | Fixed rules; LLM API + system prompt | ≥ 90% |
+
+### Published baselines from research papers
+
+| Part | Paper | Published result (baseline to compare with) |
+|---|---|---|
+| Learner model | pyKT benchmark [3] | AUC on ASSISTments 2009: BKT 0.69, DKT 0.754, DKVMN 0.747, SAKT 0.725, AKT 0.785 (section 3.1) |
+| Socratic model | MathDial [18] | ChatGPT as a tutor revealed the solution in 66% of turns and gave incorrect feedback in 59%; fine-tuning on MathDial gave better tutors than prompting alone |
+| Socratic model | Bastani et al. [5] | Plain GPT-4: 17% worse exam scores; guardrailed version avoided the drop |
+| Socratic model | Answer-leakage study [24] (GSM8K, 240 problems; leakage = % of conversations that reveal the answer) | Against a base adversarial student: Qwen-32B 4%, Llama-8B 10%, Qwen-7B 14%, SocraticLM 34%, MathDial-SFT 40%. Against a fine-tuned adversarial student: Qwen-7B 82%, SocraticLM 70%, MathDial-SFT 70%, GPT-5 4.6% |
+| Backtracking | Pedagogical Suitability Index [27] | Scores whether tutor replies respect prerequisite order; ChatGPT 0.64 and Gemini 0.56 over 30 scenarios. Shows current tutors are not reliable at this, but it is not an accuracy figure for gap-finding |
+| Backtracking | Prerequisite-learning papers [25] | Concept-prerequisite prediction F1 about 0.66-0.68 for the RefD baseline on three public sets (MOOC, UCD, LectureBank); graph autoencoders reach about 0.71-0.78 |
+| Search (RAG) | BEIR [26] | BM25 is a strong zero-shot baseline; dense retrievers often fall below it on out-of-domain data |
+| Controller, misconception detector, guardrails | None found yet | We will search further in Milestone 2 and, if none exist, report our own baselines (fixed rules, majority class, system prompt only) |
+
+*Evidence check: the 4-40% leakage range and the GPT-5 figure were read from the paper's tables [24]. The paper has no cooperative-student baseline and sets no acceptable threshold, so our ≤ 5% target is our own and ambitious: only GPT-5 reaches it, and only under one attack. We will measure leakage under both a cooperative and an adversarial simulated student. No paper we found measures accuracy of finding the gap level in a prerequisite chain, so the ≥ 85% target has no published precedent; we will calibrate it on a pilot of our test scenarios. Other numbers came from abstracts or secondary summaries and will be re-checked against the original papers before final submission.*
 
 ---
 
@@ -413,6 +424,10 @@ A learner asks *"How does training happen in Linear Regression?"* (MLT). The tut
 21. Embibe. *AI in Education.* https://www.embibe.com/in-en/artificial-intelligence-ai-in-education/
 22. MIT Technology Review (2019). *China has started a grand experiment in AI education* (Squirrel AI). https://www.technologyreview.com/2019/08/02/131198/china-squirrel-has-started-a-grand-experiment-in-ai-education-it-could-reshape-how-the/
 23. Engadget (2025). *Claude's new Learning mode will prompt students to answer questions on their own.* https://www.engadget.com/ai/claudes-new-learning-mode-will-prompt-students-to-answer-questions-on-their-own-172057828.html
+24. *Evaluating Answer Leakage Robustness of LLM Tutors against Adversarial Student Attacks.* arXiv:2604.18660. https://arxiv.org/pdf/2604.18660
+25. Liang et al. (2015) *RefD*; Li et al. (2019) *LectureBank*; results as tabulated in *ProPRL*, arXiv:2608.03006. https://arxiv.org/pdf/2608.03006
+26. Thakur et al. (2021). *BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models.* NeurIPS Datasets & Benchmarks. https://arxiv.org/abs/2104.08663
+27. *Evaluating and Improving Pedagogical Fit in LLM-Based AI Tutors with the Pedagogical Suitability Index.* arXiv:2608.05411. https://arxiv.org/html/2608.05411
 
 ---
 
