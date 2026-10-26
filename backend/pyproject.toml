@@ -13,7 +13,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "pytest>=8.0",
-    "httpx>=0.27",
+    "httpx2",
     "pgserver>=0.1.4",  # embedded PostgreSQL so tests need no Docker
 ]
 
