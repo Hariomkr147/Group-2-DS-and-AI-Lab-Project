@@ -1,0 +1,30 @@
+{
+  "raw_rows": 346860,
+  "raw_students": 4217,
+  "rows_without_skill": 63755,
+  "clean_rows": 282619,
+  "clean_students": 3852,
+  "skills": 149,
+  "problems": 17737,
+  "correct_rate": 0.6583,
+  "splits": {
+    "train": {
+      "students": 3081,
+      "windows": 3571,
+      "answers": 228924,
+      "correct_rate": 0.6587
+    },
+    "val": {
+      "students": 385,
+      "windows": 449,
+      "answers": 28037,
+      "correct_rate": 0.6644
+    },
+    "test": {
+      "students": 386,
+      "windows": 434,
+      "answers": 25644,
+      "correct_rate": 0.6477
+    }
+  }
+}

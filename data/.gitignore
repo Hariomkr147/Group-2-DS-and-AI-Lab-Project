@@ -1,0 +1,8 @@
+# Raw downloads and bulky outputs are re-created by the scripts in scripts/.
+# NCERT books are public but not ours to redistribute, so their text stays local.
+raw/
+processed/ncert/chunks.jsonl
+processed/assistments/interactions.csv
+processed/assistments/*.jsonl
+processed/mathdial/*.jsonl
+.venv/

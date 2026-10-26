@@ -1,0 +1,42 @@
+{
+  "train": {
+    "dialogues": 2045,
+    "problems": 932,
+    "examples": 13380,
+    "kept": 10797,
+    "leaks_answer": 838,
+    "acts": {
+      "probing": 2987,
+      "generic": 3165,
+      "telling": 2228,
+      "focus": 5000
+    }
+  },
+  "val": {
+    "dialogues": 217,
+    "problems": 103,
+    "examples": 1475,
+    "kept": 1182,
+    "leaks_answer": 81,
+    "acts": {
+      "generic": 375,
+      "probing": 302,
+      "focus": 537,
+      "telling": 261
+    }
+  },
+  "test": {
+    "dialogues": 599,
+    "problems": 394,
+    "examples": 3686,
+    "kept": 2972,
+    "leaks_answer": 275,
+    "acts": {
+      "generic": 890,
+      "focus": 1252,
+      "telling": 597,
+      "probing": 947
+    },
+    "problems_also_in_train": 283
+  }
+}
