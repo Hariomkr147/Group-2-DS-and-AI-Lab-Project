@@ -24,7 +24,8 @@ OUT = ROOT / "processed" / "ncert"
 MIN_CHARS, MAX_WORDS = 200, 250
 logging.getLogger("pypdf").setLevel(logging.ERROR)
 
-NOISE = re.compile(r"^\s*(Reprint.*|\d{1,3})\s*$", re.M)  # "Reprint 2025-26" and bare page numbers
+# "Reprint 2025-26", bare page numbers, and print-layout footers like "Chapter-5.indd 61 ..."
+NOISE = re.compile(r"^\s*(Reprint.*|\d{1,3})\s*$|^.*\.indd.*$", re.M)
 
 
 def clean(text: str) -> str:

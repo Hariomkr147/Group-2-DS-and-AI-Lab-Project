@@ -9,6 +9,9 @@ data/.venv/Scripts/python data/scripts/download.py            # raw files -> dat
 data/.venv/Scripts/python data/scripts/prep_assistments.py
 data/.venv/Scripts/python data/scripts/prep_mathdial.py
 data/.venv/Scripts/python data/scripts/prep_ncert.py
+data/.venv/Scripts/python data/scripts/build_chapter_titles.py
+data/.venv/Scripts/python data/scripts/build_course_packs.py
+data/.venv/Scripts/python data/scripts/build_scenarios.py
 data/.venv/Scripts/python data/scripts/check_data.py          # sanity checks
 ```
 
@@ -17,5 +20,7 @@ data/.venv/Scripts/python data/scripts/check_data.py          # sanity checks
 | ASSISTments 2009-2010 (corrected) | Train and test the learner model (DKT) | `assistments/`: `train/val/test.jsonl` (one window of up to 200 answers per line), `skill_map.csv`, `stats.json` |
 | MathDial | Fine-tune the Socratic model | `mathdial/`: `train/val/test.jsonl` (one tutor reply per line, chat format), `stats.json` |
 | NCERT Maths and Science, classes 6-10 | Course pack (study material for search) | `ncert/`: `chunks.jsonl`, `chapters.csv`, `stats.json` |
+| Course packs (hand-written) | Concepts, prerequisite links and practice questions for the tutor | `course_packs/` (specs, committed) -> `processed/course_packs/*.json` (built, includes NCERT text, not committed) |
+| Test scenarios (hand-written) | Evaluate backtracking, misconception detection and guardrails | `test_scenarios/*.jsonl` (committed): backtracking, misconceptions, guardrails |
 
 Details, choices and limits are in `docs/milestone-2/Milestone2_Report.md`.

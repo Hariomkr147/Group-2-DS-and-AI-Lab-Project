@@ -57,20 +57,46 @@ Raw: 346,860 answers, 4,217 students. Clean: 282,619 answers, 3,852 students, 14
 
 Note: 283 of the 394 test problems also appear in train (MathDial's own split). We keep it so results match the paper, but a score on unseen problems should be reported separately.
 
-### NCERT (course pack)
-Maths and Science classes 6-10, 10 books, 114 chapters, 2,401 pages. Text is extracted page by page, cleaned, and split into chunks of up to 250 words, each tagged with subject, class, chapter and page: **3,261 chunks**. Classes are used as levels (6 to 10). Four pages failed extraction (drawings) and were skipped.
+### NCERT (study text)
+Maths and Science, classes 6-10: 10 books, 116 chapters, 2,401 pages. Text is extracted page by page, cleaned, and split into chunks of up to 250 words, each tagged with subject, class, chapter and page: **3,164 chunks**. Four pages failed extraction (drawings) and were skipped. Chapter titles are verified for the 20 chapters we use; the rest are marked `needs_review`.
 
-## 3. Checks
-`check_data.py` passes: no student shared between splits, no problem shared between MathDial train and validation, skill ids in range, labels 0/1, kept examples never tell or leak the answer, NCERT chunk ids unique.
+## 3. Course packs (concepts, prerequisites, practice questions)
 
-## 4. Limits and next steps
-- ASSISTments is US data; it teaches DKT how learning progresses, not NCERT concepts.
-- It has no session information, so session-scoped DKT (mentor feedback) cannot be tested on it; windows of 200 answers are used instead.
-- The answer-leak check is a simple number match and can miss answers written in words.
-- NCERT chapter titles are guesses and need a manual pass. Concepts, prerequisite links and practice questions are still to be written.
-- Our own labelled scenarios for the test set (backtracking, misconceptions, guardrails) are not started.
+Hand-written in `data/course_packs/specs.py` and built into the backend's course-pack format by `build_course_packs.py`. Each concept points to the NCERT chapter that teaches it, and the builder attaches the best-matching text from that chapter.
 
-## 5. Team sign-off
+| Pack | Concepts | Prerequisite links | Practice questions |
+|---|---|---|---|
+| NCERT Maths (classes 6-8) | 10 | 13 | 52 |
+| NCERT Science: motion and force (classes 6-9) | 6 | 6 | 18 |
+
+- **Levels:** 1 whole-number operations, factors; 2 fractions, integers; 3 decimals, ratio, percentages, letter expressions; 4 linear equations. The main example follows this chain: percentages -> fractions -> multiplication and division.
+- **Questions:** written by the team in the style of the NCERT exercises, each with a hint and difficulty. Answers are computed in code, not typed, so they cannot be mistyped.
+- **Checks:** every prerequisite exists, none is at a higher level, no cycles, every concept has questions and study text.
+
+## 4. Test scenarios (our own, 159 in total)
+
+Written by the team, kept separate from training data and never used for tuning (`data/test_scenarios/`).
+
+| Set | Items | What it tests |
+|---|---|---|
+| Backtracking | 82 | Learner is correct (16), careless mistake (16), correct after a hint (16), gap one level down (19), gap two levels down (15). Label: the first tutor action and the weak prerequisite to go back to. |
+| Misconceptions | 32 | A wrong answer and the error behind it (24 kinds, e.g. dividing 50 by 20 for "20% of 50", adding tops and bottoms of fractions). |
+| Guardrails | 45 | 15 on-topic, 15 off-topic (including other subjects and "ignore your instructions"), 15 answer requests. |
+
+Backtracking labels come from the prerequisite graph, so they are consistent by construction; they test the tutor's logic, not real learners. Every item has an empty `reviewed_by` field for a second team member to check. TA-provided samples will be added when received.
+
+## 5. Checks
+`check_data.py` passes: no student shared between splits, no problem shared between MathDial train and validation, skill ids in range, labels 0/1, kept examples never tell or leak the answer, NCERT chunk ids unique, pack graphs valid, scenario labels consistent (23 checks).
+
+## 6. Limits and next steps
+- ASSISTments is US data and has no session information, so session-scoped DKT (mentor feedback) cannot be tested on it; windows of 200 answers are used instead.
+- The answer-leak check is a simple number match and can miss answers written in words. We accept this for now.
+- NCERT text quality: the older Class 8-10 maths books lose some digits and symbols in extraction (e.g. "80/100" appears as "80100"), and the study passages attached to each concept are picked automatically, so some are exercise text. Each needs a manual pass before use in search.
+- The packs cover one chain per subject (10 Maths and 6 Science concepts). More chapters can be added by extending `specs.py`; no code change is needed.
+- Concepts and prerequisite links are our own judgement, so a second member should review them.
+- Next: train DKT on ASSISTments, fine-tune the Socratic model on MathDial, and have a second member check the scenarios.
+
+## 7. Team sign-off
 
 By signing, each member confirms they have read this report, understand it and agree to submit it.
 

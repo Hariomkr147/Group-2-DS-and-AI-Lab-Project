@@ -20,7 +20,7 @@ Each member fills in their own rows.
 
 | Name | Work done |
 |---|---|
-| Sandeep Nalla | Wrote the download and preparation scripts for ASSISTments, MathDial and NCERT; built the train/validation/test splits and the data checks; prepared the Milestone 2 report, presentation and contribution log |
+| Sandeep Nalla | Wrote the download and preparation scripts for ASSISTments, MathDial and NCERT; built the train/validation/test splits and the data checks; wrote the NCERT concept chains, prerequisite links and practice questions (2 course packs); built 159 labelled test scenarios (backtracking, misconceptions, guardrails); prepared the Milestone 2 report, presentation and contribution log |
 | Hariom Kumar | *to be filled by the member* |
 | Hariom Pandey | *to be filled by the member* |
 | Mrityunjay Chakraborty | *to be filled by the member* |
