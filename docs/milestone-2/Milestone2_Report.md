@@ -19,7 +19,7 @@
 **EDA and preprocessing notebook:** `Milestone2_EDA.ipynb` (this folder, outputs saved).
 
 The data comes from two places:
-- **Learner-model data and chat corpus** were prepared by **Hariom Pandey** (Colab). This is the data we use for the DKT and the Socratic model. Files and his two write-ups: `notes/hariom pandey/milestone-2/`.
+- **Learner-model data and chat corpus** were prepared by **Hariom Pandey** (Colab). This is the data we use for the DKT and the Socratic model. Files, his preprocessing notebook (`pandey_dkt_chat_preprocessing.ipynb`) and his two write-ups: `notes/hariom pandey/milestone-2/`.
 - **NCERT text, course packs, test scenarios and the validation splits** were prepared by **Sandeep Nalla** (scripts in `notes/sandeep/milestone-2/data/scripts/`), because they have no counterpart in the downloaded datasets. Raw files and NCERT text are not committed; `data/README.md` there shows how to rebuild them.
 
 An earlier script-based preparation of ASSISTments and MathDial (149 skills, its own train/validation/test split) is kept in `notes/sandeep/milestone-2/data/` for reference. It is not part of the submitted dataset and is not used below.
@@ -39,7 +39,7 @@ EdNet was not used: ASSISTments is enough for the DKT baseline.
 
 | | Data points | Classes / categories | Other metadata |
 |---|---|---|---|
-| ASSISTments | 256,060 answers, 3,408 students, 3,949 sequences | Label: correct on first try (0/1), 65.6% correct overall. 82 skills (indices 0-81, mapped to original ids in `skill_map.csv`) | Per step: student, skill, correct. Skill counts are very uneven: the top skill has 14,880 train answers and 11 of 82 skills have under 100. |
+| ASSISTments | 256,060 steps (one per answer and skill), 3,408 students, 3,949 sequences | Label: correct on first try (0/1), 65.5% correct overall. 82 skills (indices 0-81, mapped to original ids in `skill_map.csv`) | Per step: student, skill, correct. Skill counts are very uneven: the top skill has 14,880 train answers and 11 of 82 skills have under 100. |
 | Chat corpus | 37,413 conversations, 366,171 messages | Roles: assistant 200,048; user 163,861; system 2,262. Sources: SocraTeach 35,151, MathDial 2,262 | `source` tag per conversation; MathDial's system message holds the problem |
 | NCERT | 3,164 chunks from 2,401 pages, 10 books, 116 chapters | Subject (maths, science) and class (6-10) | Chunk counts per book in Section 5 |
 
@@ -108,7 +108,7 @@ Maths and Science, classes 6-10: 10 books, 116 chapters, 2,401 pages.
 | Clean headers, footers and stray characters | They add noise to search. |
 | Split into chunks of up to 250 words, tag each with subject, class, chapter, page | Small enough to retrieve precisely, large enough to hold one idea; tags support citations and level filtering. |
 
-Result: **3,164 chunks**. Four pages failed extraction (drawings) and were skipped.
+Result: **3,164 chunks**. Four pages failed extraction (drawings), and 48 near-empty pages (under 200 characters, e.g. blank or figure-only) were dropped, so 2,353 of the 2,401 pages produced chunks.
 
 ![NCERT chunks per class](figures/ncert_chunks.png)
 
@@ -201,11 +201,12 @@ hosted_dataset/
 | ASSISTments (DKT) | 2,453 students, 2,848 sequences, 183,648 answers | 273 students, 320 sequences, 21,770 answers | 682 students, 781 sequences, 50,642 answers | by student, seed 42 |
 | Chat corpus | 37,198 conversations | 215 MathDial conversations (104 problems) | MathDial's own 599 (not in the file) | validation by problem, seed 42 |
 
-`splits/dkt_validation.json` lists the validation rows of the train arrays; `splits/chat_validation.json` lists the validation line numbers of the chat file. Both are made by `make_validation_splits.py` and leave Hariom Pandey's files unchanged. Because of share-alike (MathDial) and non-commercial (SocraTeach) terms, the bundle is for coursework use only (CC BY-NC-SA 4.0).
+`splits/dkt_validation.json` lists the validation rows of the train arrays; `splits/chat_validation.json` lists the validation line numbers of the chat file. Both are made by `make_validation_splits.py` and leave Hariom Pandey's files unchanged. The bundle is for coursework use only; each part keeps its own source licence (share-alike for MathDial, non-commercial for SocraTeach, the ASSISTments site's terms).
 
 ## 7. Notes on the learner-model and chat data
 - **Licence:** SocraTeach is CC BY-NC 4.0, fine for coursework, not for commercial use.
 - **Not yet done on the chat corpus:** no deduplication across the two sources, no marking of answer-telling replies, SocraTeach's step and persona fields are dropped, and both sources are maths only. These are the first things to improve for the fine-tuning.
+- **Overlap between sources:** MathDial and SocraTeach both take their problems from GSM8K, so some MathDial validation or test problems may also appear in SocraTeach training dialogues. SocraTeach's problem text was dropped from the file, so this is checked in Milestone 3 before any test score is reported.
 - **Validation split:** the prepared files had none; we derive it from the train data (Section 2). If the validation rows are used, train on the rest only.
 - **Model:** the write-up targets Qwen2.5-1.5B-Instruct, while the Milestone 1 plan and `README.md` say Qwen3-4B with LoRA. The data format is the same. Until Milestone 3 shows otherwise, Qwen3-4B stays the target; the smaller model can be used for quick tests.
 - **Source file and sharing:** the DKT write-up names the source file (`skill_builder_data.csv`, from the skill-builder data page [1]). The write-up describes the data as not re-shared; within the team bundle it is shared for coursework only, under each source's terms.

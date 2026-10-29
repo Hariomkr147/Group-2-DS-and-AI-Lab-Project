@@ -39,6 +39,6 @@ Row numbers: `dkt_validation.json` lists the validation rows of `X_tr`/`S_tr`/`C
 - ASSISTments 2009-2010 skill builder (Feng, Heffernan, Koedinger 2009): research use under the site's terms; cite the data page and paper.
 - MathDial (Macina et al. 2023): CC BY-SA 4.0 (GitHub) / CC BY 4.0 (Hugging Face).
 - SocraTeach Multi (`ulises-c/SocraTeach_Multi`): CC BY-NC 4.0.
-- Because of the share-alike and non-commercial terms, the bundle is for coursework use only (CC BY-NC-SA 4.0).
+- The bundle is for coursework use only; each part keeps its own source licence (share-alike for MathDial, non-commercial for SocraTeach, the ASSISTments site's terms).
 - NCERT books: public but not ours to redistribute, so only metadata is included.
 - Test scenarios and course-pack specs: written by the team.
