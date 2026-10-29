@@ -46,7 +46,7 @@ EdNet was not used: ASSISTments is enough for the DKT baseline.
 ## 2. Preparation steps, reasons and results
 
 ### ASSISTments (learner model)
-Starts from a 303,260-row skill-builder file and keeps four columns: student, order, skill and correct (first try). Other columns (teacher, school, class) are dropped because they do not describe what the student knows and the live tutor will not have them.
+Starts from `skill_builder_data.csv` (303,260 rows), the ASSISTments 2009-2010 skill-builder file [1, 5], and keeps four columns: student, order, skill and correct (first try). Other columns (teacher, school, class) are dropped because they do not describe what the student knows and the live tutor will not have them.
 
 | Step | What was done | Rows after |
 |---|---|---|
@@ -208,7 +208,7 @@ hosted_dataset/
 - **Not yet done on the chat corpus:** no deduplication across the two sources, no marking of answer-telling replies, SocraTeach's step and persona fields are dropped, and both sources are maths only. These are the first things to improve for the fine-tuning.
 - **Validation split:** the prepared files had none; we derive it from the train data (Section 2). If the validation rows are used, train on the rest only.
 - **Model:** the write-up targets Qwen2.5-1.5B-Instruct, while the Milestone 1 plan and `README.md` say Qwen3-4B with LoRA. The data format is the same. Until Milestone 3 shows otherwise, Qwen3-4B stays the target; the smaller model can be used for quick tests.
-- **Open items in the write-ups:** the DKT report still has a placeholder for the exact file name and download link (reference [4] is the likely source), and it says the data is "not re-shared" while the files are in the team repository and the hosted folder. Hariom Pandey is to confirm both.
+- **Source file and sharing:** the DKT write-up names the source file (`skill_builder_data.csv`, from the skill-builder data page [1]). The write-up describes the data as not re-shared; within the team bundle it is shared for coursework only, under each source's terms.
 
 ## 8. Checks
 - **ASSISTments (Hariom Pandey):** row counts add up (303,260 - 1 - 46,668 = 256,591); `x = skill + 82 x correct` holds for every real step; student counts match (2,726 and 682); train and test correct rates are close (65.7% and 64.4%); the 13-answer gap between 256,073 and 256,060 is the dropped short chunks. `test_dkt_data.py` re-prints shapes and statistics, and `SHA256.txt` holds file hashes. We also confirmed that no student appears in both train and test.
@@ -236,7 +236,7 @@ hosted_dataset/
 1. ASSISTments, Skill-builder data 2009-2010 (the dataset we use): https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010
 2. SocraTeach_Multi dataset card, Hugging Face (CC BY-NC 4.0): https://huggingface.co/datasets/ulises-c/SocraTeach_Multi
 3. ASSISTments data site, main page (terms of use; users are asked to cite the data page and email their citations): https://sites.google.com/site/assistmentsdata.
-4. Google Drive file supplied by the team, taken as the source of the 303,260-row ASSISTments file (to be confirmed by Hariom Pandey): https://drive.google.com/file/d/0B2X0QD6q79ZJUFU1cjYtdGhVNjg/view?resourcekey=0-OyI8ZWxtGSAzhodUIcMf_g
+4. Google Drive file supplied by the team with the ASSISTments skill-builder data: https://drive.google.com/file/d/0B2X0QD6q79ZJUFU1cjYtdGhVNjg/view?resourcekey=0-OyI8ZWxtGSAzhodUIcMf_g
 5. Feng, M., Heffernan, N. and Koedinger, K. (2009). *Addressing the assessment challenge with an online system that tutors as it assesses.* User Modeling and User-Adapted Interaction.
 6. Macina, J., Daheim, N., Chowdhury, S., Sinha, T., Kapur, M., Gurevych, I. and Sachan, M. (2023). *MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems.* Findings of EMNLP 2023. https://github.com/eth-nlped/mathdial
 7. Liu, J. et al. (2024). *SocraticLM: Exploring Socratic Personalized Teaching with Large Language Models.* NeurIPS 2024.
