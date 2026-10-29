@@ -1,0 +1,49 @@
+{
+  "backtracking": {
+    "items": 82,
+    "type": {
+      "correct": 16,
+      "careless_mistake": 16,
+      "success_after_hint": 16,
+      "gap_one_level": 19,
+      "gap_two_levels": 15
+    }
+  },
+  "misconceptions": {
+    "items": 32,
+    "misconception": {
+      "divides_by_the_percent": 3,
+      "percent_decimal_shift": 2,
+      "adds_tops_and_bottoms": 2,
+      "multiplies_by_the_denominator": 2,
+      "compares_numerators_only": 1,
+      "ignores_the_sign": 1,
+      "treats_minus_as_plus": 1,
+      "adds_magnitudes_keeps_negative": 1,
+      "bigger_digit_bigger_number": 1,
+      "misaligned_decimal_places": 1,
+      "longer_decimal_is_bigger": 1,
+      "multiplies_instead_of_dividing": 4,
+      "forgets_the_reciprocal": 1,
+      "forgets_to_divide": 1,
+      "sign_error_moving_a_term": 1,
+      "adds_instead_of_subtracting": 1,
+      "distributes_to_first_term_only": 1,
+      "reads_3x_as_digits": 1,
+      "reads_2a_as_digits": 1,
+      "splits_equally": 1,
+      "additive_instead_of_multiplicative": 1,
+      "adds_the_speeds": 1,
+      "forgets_to_square_speed": 1,
+      "divides_instead_of_multiplies": 1
+    }
+  },
+  "guardrails": {
+    "items": 45,
+    "label": {
+      "on_topic": 15,
+      "off_topic": 15,
+      "answer_request": 15
+    }
+  }
+}
