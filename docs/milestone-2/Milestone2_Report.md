@@ -15,7 +15,7 @@
 
 **Goal of this milestone:** collect suitable datasets and prepare them in the format the Milestone 3 models will read.
 
-**Hosted processed dataset:** *link to be added after upload* (ready-to-upload folder: `notes/sandeep/milestone-2/hosted_dataset/`, layout in Section 6).
+**Hosted processed dataset (Google Drive):** https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing  (layout in Section 6; the same folder is staged locally at `notes/sandeep/milestone-2/hosted_dataset/`).
 **EDA and preprocessing notebook:** `Milestone2_EDA.ipynb` (this folder, outputs saved).
 
 The data was prepared in two versions so that Milestone 3 can compare them:
@@ -28,7 +28,7 @@ Sections 2 and 7 give both side by side. **Files from the two versions must not 
 
 | Dataset | Used for | Prepared in | Source | Licence |
 |---|---|---|---|---|
-| ASSISTments 2009-2010 skill builder | Train and test the learner model (DKT) | A and B | assistmentsdata site [1, 3, 4] | Research use; cite the data page and Feng et al. (2009) [5] |
+| ASSISTments 2009-2010 skill builder | Train and test the learner model (DKT) | A and B | assistmentsdata site [1, 3, 4] | Research use under the site's terms of use; cite the data page and Feng et al. (2009) [5] |
 | MathDial (2,861 dialogues) | Fine-tune the Socratic model | A and B | github.com/eth-nlped/mathdial; `eth-nlped/mathdial-chat` on Hugging Face [6] | CC BY-SA 4.0 on GitHub, CC BY 4.0 on Hugging Face; we follow the stricter one |
 | SocraTeach Multi (10,273 problems, 35,151 dialogues) | Fine-tune the Socratic model | B only | `ulises-c/SocraTeach_Multi` on Hugging Face [2, 7] | CC BY-NC 4.0 (non-commercial) |
 | NCERT Maths and Science, classes 6-10 | Course pack (study material for search) | A only | ncert.nic.in | Public; text kept local, not redistributed |
@@ -218,7 +218,7 @@ NCERT chunks per book (3,164 in all):
 
 ## 6. Processed dataset: folder structure and splits
 
-Ready-to-upload folder: `notes/sandeep/milestone-2/hosted_dataset/` (about 113 MB; its README holds the same layout and licence notes).
+Hosted on Google Drive: https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing (about 113 MB; the folder's README holds the same layout and licence notes).
 
 ```
 hosted_dataset/
@@ -265,8 +265,8 @@ How the two relate:
 - **Which to use:** B is more convenient for fast model training (fixed-length arrays, chat format); A is more careful for evaluation (validation set, answer-leak flag, problem-level split).
 - **Licence:** SocraTeach is CC BY-NC 4.0, fine for coursework, not for commercial use.
 - **Not yet done on B's chat corpus:** no deduplication across the two sources, no marking of answer-telling replies, SocraTeach's step and persona fields are dropped, and both sources are maths only.
-- **Model mismatch:** B's write-up targets Qwen2.5-1.5B-Instruct, while the Milestone 1 plan and `README.md` say Qwen3-4B with LoRA. The data format is the same; the model choice is to be settled in Milestone 3.
-- **Open items in B's own documents:** the DKT report still has a placeholder ("exact file name and download link"), and it says the data is "frozen" and "not re-shared" while the files are in the team repository. Both are for Hariom Pandey to confirm before the dataset is hosted.
+- **Model mismatch:** B's write-up targets Qwen2.5-1.5B-Instruct, while the Milestone 1 plan and `README.md` say Qwen3-4B with LoRA. The data format is the same. Until Milestone 3 shows otherwise, the Milestone 1 choice (Qwen3-4B with LoRA) stays the target; the smaller model can be used for quick tests.
+- **Open items in B's own documents:** his DKT report still has a placeholder for the exact file name and download link (reference [4] is the likely source), and it says the data is "not re-shared" while his files are in the team repository and the hosted folder. Hariom Pandey is to confirm both.
 
 ## 8. Checks
 `check_data.py` passes 26 checks on version A: no student shared between splits, no problem shared between MathDial train and validation, skill ids in range, labels 0/1, kept examples never tell or leak the answer, NCERT chunk ids unique, pack graphs valid, no hint contains its answer, items with the same inputs never have different labels, scenario labels consistent.
@@ -290,18 +290,18 @@ Version B checks (Hariom Pandey): row counts add up (303,260 - 1 - 46,668 = 256,
 - The packs cover one chain per subject (10 Maths and 6 Science concepts). More chapters can be added by extending `specs.py`; no code change is needed.
 - Concepts, prerequisite links and scenario labels are our own judgement, so a second member should review them.
 - Version B notes: a chunk after a student's first starts without that student's earlier history, rows for questions with several skills count as several steps, and the test set uses 80 of the 82 skills.
-- The hosted-dataset link is not yet in this report (upload pending).
 - Next: train DKT on both ASSISTments versions and compare against the published baseline (AUC 0.754 for DKT on ASSISTments 2009 in the pyKT benchmark [8]), fine-tune the Socratic model on MathDial (and SocraTeach if the licence allows), compare guardrail methods, and have a second member check the scenarios.
 
 ## 11. References
-1. ASSISTments data page (Goldstein, Baker and Heffernan, 2011): https://sites.google.com/site/assistmentsdata/datasets/2011-goldstein-baker-heffernan. This is the 2011 dataset page supplied by the team; our data is the 2009-2010 skill-builder set (see [3]).
+1. ASSISTments, Skill-builder data 2009-2010 (the dataset we use): https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010
 2. SocraTeach_Multi dataset card, Hugging Face (CC BY-NC 4.0): https://huggingface.co/datasets/ulises-c/SocraTeach_Multi
-3. ASSISTments 2009-2010 skill-builder data, main page: https://sites.google.com/site/assistmentsdata. Version A downloads the corrected file from Google Drive (file id `1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE`, set in `data/scripts/download.py`).
+3. ASSISTments data site, main page (terms of use; users are asked to cite the data page and email their citations): https://sites.google.com/site/assistmentsdata. Version A downloads the corrected file from Google Drive (file id `1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE`, set in `data/scripts/download.py`).
 4. Google Drive file supplied by the team, taken as the source of version B's 303,260-row file (to be confirmed by Hariom Pandey): https://drive.google.com/file/d/0B2X0QD6q79ZJUFU1cjYtdGhVNjg/view?resourcekey=0-OyI8ZWxtGSAzhodUIcMf_g
 5. Feng, M., Heffernan, N. and Koedinger, K. (2009). *Addressing the assessment challenge with an online system that tutors as it assesses.* User Modeling and User-Adapted Interaction.
 6. Macina, J., Daheim, N., Chowdhury, S., Sinha, T., Kapur, M., Gurevych, I. and Sachan, M. (2023). *MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems.* Findings of EMNLP 2023. https://github.com/eth-nlped/mathdial
 7. Liu, J. et al. (2024). *SocraticLM: Exploring Socratic Personalized Teaching with Large Language Models.* NeurIPS 2024.
 8. Liu, Z. et al. (2022). *pyKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models.* NeurIPS Datasets and Benchmarks. https://arxiv.org/abs/2206.11460 (DKT AUC 0.754 on ASSISTments 2009, as quoted in the Milestone 1 report).
+9. Related ASSISTments dataset page (Goldstein, Baker and Heffernan, 2011), supplied by the team; a different dataset that we did not use: https://sites.google.com/site/assistmentsdata/datasets/2011-goldstein-baker-heffernan
 
 ## 12. Team sign-off
 

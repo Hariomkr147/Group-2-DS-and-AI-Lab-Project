@@ -1,8 +1,7 @@
 # Socratic AI Tutor: processed data (Milestone 2)
 
-Group 2, Data Science and AI Lab, IIT Madras BS. Upload this folder as a Kaggle dataset
-(`kaggle datasets create -p .` after setting your username in `dataset-metadata.json`), then put the dataset link in
-`docs/milestone-2/Milestone2_Report.md`.
+Group 2, Data Science and AI Lab, IIT Madras BS. This folder is hosted on Google Drive:
+https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing
 
 Two prepared versions are included so models can be compared: **version A** (our scripts) and **version B** (Hariom Pandey, Colab).
 Do not mix files from the two versions. See the report, Section 7.
