@@ -33,7 +33,7 @@ The tutor is **domain-agnostic**: each subject is added as a *course pack* (conc
 - **NCERT content** across several classes that build on each other (primary, chosen because the textbooks are public and complete). Any subject with study material uses the same pipeline.
 - **IITM BS course material**: Maths & Stats → MLF → MLT (secondary, to show the pipeline is reusable)
 
-**Status:** planning stage (Milestone 1). Code will be added in later milestones.
+**Status:** Milestone 2 done: datasets prepared (ASSISTments, MathDial, SocraTeach, NCERT), two course packs and our own test scenarios. Report, EDA notebook and slides are in `docs/milestone-2/`; the data scripts are in `notes/sandeep/milestone-2/data/`. The IITM BS pack is not built yet. Models are trained in Milestone 3.
 
 ## Team
 

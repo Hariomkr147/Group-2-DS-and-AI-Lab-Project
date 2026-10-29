@@ -5,7 +5,11 @@ build_course_packs.py attaches the matching text from that chapter.
 
 Practice questions are written by the team in the style of the NCERT exercises. Where a
 question has an `expr`, its answer is computed in code (so it cannot be mistyped);
-otherwise the answer is typed in by hand and was checked by the author.
+otherwise the answer is typed in by hand (17 of the 70 questions) and was checked by the author.
+
+Level 1 note: NCERT has no Class 6-10 chapter on plain multiplication and division (that is Class 3-5
+content, which we did not process). The concept points to Class 6 chapter 3 (Number Play), the closest
+chapter, and its attached text is general number-operations text, not a lesson on the topic.
 Levels: 1 = foundations, 2 = builds on 1, 3 = builds on 2, 4 = builds on 3.
 """
 
@@ -21,8 +25,8 @@ def C(id, name, level, cls, chapter, prereqs, keywords, questions):
 
 
 MATHS = dict(id="ncert-maths", title="NCERT Mathematics (classes 6-8)", subject="Mathematics", concepts=[
-    C("multiplication_division", "Multiplication and division", 1, 6, 3, [],
-      ["multiply", "multiplication", "divide", "division", "product"],
+    C("multiplication_division", "Whole-number operations (multiplication and division)", 1, 6, 3, [],
+      ["operations", "multiplication", "division", "product", "numbers"],
       [Q("What is 12 x 7?", expr="12*7", hint="Think of 12 groups of 7."),
        Q("What is 100 / 20?", expr="F(100,20)", hint="How many 20s make 100?"),
        Q("What is 144 / 12?", expr="F(144,12)", hint="How many 12s fit in 144?"),
@@ -32,7 +36,7 @@ MATHS = dict(id="ncert-maths", title="NCERT Mathematics (classes 6-8)", subject=
       ["factor", "multiple", "prime", "divisible"],
       [Q("What is the HCF of 12 and 18?", expr="math.gcd(12,18)", hint="List the factors of both numbers."),
        Q("What is the LCM of 4 and 6?", expr="math.lcm(4,6)", hint="List multiples of 6 until one is also a multiple of 4."),
-       Q("How many factors does 12 have?", ans="6", hint="1, 2, 3, 4, 6 and 12."),
+       Q("How many factors does 12 have?", ans="6", hint="Pair up numbers that multiply to 12, and count each number once."),
        Q("Is 91 a prime number? (yes/no)", ans="no", hint="Try dividing by 7.", difficulty=2),
        Q("What is the smallest prime number greater than 20?", ans="23", hint="Check 21 and 22 first.", difficulty=2)]),
     C("fractions", "Fractions", 2, 6, 7, ["multiplication_division", "multiples_factors"],
@@ -55,7 +59,7 @@ MATHS = dict(id="ncert-maths", title="NCERT Mathematics (classes 6-8)", subject=
       [Q("What is 0.5 + 0.25?", expr="F(1,2)+F(1,4)", dec=True, hint="Line up the decimal points."),
        Q("Write 3/4 as a decimal.", expr="F(3,4)", dec=True, hint="3 divided by 4."),
        Q("What is 3.6 - 1.45?", expr="F(36,10)-F(145,100)", dec=True, hint="Write 3.6 as 3.60.", difficulty=2),
-       Q("Which is greater, 0.6 or 0.58?", ans="0.6", hint="Write 0.6 as 0.60.", difficulty=2),
+       Q("Which is greater, 0.6 or 0.58?", ans="0.6", hint="Give both numbers the same number of decimal places, then compare.", difficulty=2),
        Q("What is 2.5 x 4?", expr="F(25,10)*4", dec=True, hint="2 x 4 and 0.5 x 4.", difficulty=2)]),
     C("working_with_fractions", "Multiplying and dividing fractions", 3, 7, 8, ["fractions"],
       ["multiplication of fractions", "division of fractions", "reciprocal", "product"],
@@ -98,9 +102,9 @@ MATHS = dict(id="ncert-maths", title="NCERT Mathematics (classes 6-8)", subject=
 SCIENCE = dict(id="ncert-science", title="NCERT Science (motion and force, classes 6-9)", subject="Science", concepts=[
     C("length_and_motion", "Measuring length and types of motion", 1, 6, 5, [],
       ["length", "motion", "metre", "periodic", "rectilinear"],
-      [Q("What is the SI unit of length?", ans="metre", hint="It is the unit of a metre scale."),
+      [Q("What is the SI unit of length?", ans="metre", hint="It is the base SI unit used to measure distance."),
        Q("How many centimetres are in 2 metres?", expr="2*100", hint="1 metre = 100 cm."),
-       Q("The to-and-fro motion of a swing is called what kind of motion?", ans="periodic", hint="It repeats after equal intervals of time.", difficulty=2)]),
+       Q("The to-and-fro motion of a swing is called what kind of motion?", ans="periodic", hint="Notice that the swing keeps returning to the same position again and again.", difficulty=2)]),
     C("time_and_speed", "Time and speed", 2, 7, 8, ["length_and_motion"],
       ["speed", "time", "distance", "km/h", "average"],
       [Q("A car covers 120 km in 2 hours. What is its speed in km/h?", expr="F(120,2)", hint="Speed = distance / time."),
@@ -108,23 +112,23 @@ SCIENCE = dict(id="ncert-science", title="NCERT Science (motion and force, class
        Q("A train travels 300 km at 60 km/h. How many hours does it take?", expr="F(300,60)", hint="Time = distance / speed.", difficulty=2)]),
     C("force_pressure", "Force and pressure", 3, 8, 8, ["time_and_speed"],
       ["force", "pressure", "newton", "area", "pascal"],
-      [Q("What is the SI unit of force?", ans="newton", hint="Named after Isaac Newton."),
+      [Q("What is the SI unit of force?", ans="newton", hint="Force = mass x acceleration, so its unit is kg m/s^2, which has a special name."),
        Q("What is the pressure when a force of 60 N acts on an area of 2 square metres (in pascals)?", expr="F(60,2)", hint="Pressure = force / area."),
        Q("When the same force acts on a smaller area, does the pressure increase or decrease?", ans="increase", hint="Think of a sharp knife versus a blunt one.", difficulty=2)]),
     C("describing_motion", "Describing motion: speed and acceleration", 3, 9, 4, ["time_and_speed"],
       ["acceleration", "velocity", "speed", "displacement", "graph"],
       [Q("An object moves 20 m in 4 s. What is its average speed in m/s?", expr="F(20,4)", hint="Distance divided by time."),
        Q("A car speeds up from 10 m/s to 30 m/s in 5 s. What is its acceleration in m/s^2?", expr="F(30-10,5)", hint="Acceleration = change in velocity / time.", difficulty=2),
-       Q("What does the slope of a distance-time graph give?", ans="speed", hint="Slope is rise over run: distance over time.", difficulty=2)]),
+       Q("What does the slope of a distance-time graph give?", ans="speed", hint="Slope = change in the vertical value / change in the horizontal value. What do the two axes show?", difficulty=2)]),
     C("forces_affect_motion", "How forces affect motion", 4, 9, 6, ["force_pressure", "describing_motion"],
       ["newton", "law of motion", "force", "mass", "acceleration", "inertia"],
       [Q("A force of 20 N acts on a 4 kg mass. What is the acceleration in m/s^2?", expr="F(20,4)", hint="F = m x a."),
        Q("What force gives a 5 kg mass an acceleration of 3 m/s^2 (in newtons)?", expr="5*3", hint="F = m x a."),
-       Q("Which of Newton's laws is written F = ma?", ans="second", hint="First is inertia, third is action and reaction.", difficulty=2)]),
+       Q("Which of Newton's laws is written F = ma?", ans="second", hint="Recall which of the three numbered laws links a force to the acceleration it produces.", difficulty=2)]),
     C("work_energy", "Work and energy", 4, 9, 7, ["forces_affect_motion"],
       ["work", "energy", "joule", "kinetic", "potential"],
       [Q("How much work does a 10 N force do in moving an object 5 m in its own direction (in joules)?", expr="10*5", hint="Work = force x distance."),
-       Q("What is the SI unit of work and energy?", ans="joule", hint="Named after James Prescott Joule."),
+       Q("What is the SI unit of work and energy?", ans="joule", hint="Work = force x distance, so its unit is N m, which has a special name."),
        Q("What is the kinetic energy of a 2 kg object moving at 3 m/s (in joules)? Use KE = 1/2 x m x v^2.", expr="F(1,2)*2*3**2", hint="Square the speed first.", difficulty=3)]),
 ])
 

@@ -65,6 +65,9 @@ if packs:
               f"{pack['id']}: every concept has questions and study material")
         check(all(q["answer"] and q["hint"] for c in pack["concepts"] for q in c["questions"]),
               f"{pack['id']}: every question has an answer and a hint")
+        check(not [q["id"] for c in pack["concepts"] for q in c["questions"]
+                   if len(q["answer"]) > 2 and q["answer"].lower() in q["hint"].lower()],
+              f"{pack['id']}: no hint contains the answer")
 if (S / "backtracking.jsonl").exists():
     concepts = {c["id"] for pack in packs for c in pack["concepts"]}
     bt, mc, gr = (jsonl(S / f"{n}.jsonl") for n in ("backtracking", "misconceptions", "guardrails"))
@@ -73,6 +76,13 @@ if (S / "backtracking.jsonl").exists():
           "scenarios: every expected gap is one of the weak concepts")
     check(all(len(r["expected_path"]) == {"gap_one_level": 2, "gap_two_levels": 3}.get(r["type"], 0) for r in bt),
           "scenarios: path length matches the gap type")
+    seen = {}
+    for r in bt:
+        key = (r["target_concept"], r["learner_answer"] == r["correct_answer"], tuple(r["weak_concepts"]),
+               json.dumps(r["mastery"], sort_keys=True))
+        seen.setdefault(key, set()).add(r["expected_first_action"])
+    check(all(len(v) == 1 for v in seen.values()),
+          "scenarios: items with the same inputs never have different labels")
     check(all(r["correct_answer"] != r["wrong_answer"] for r in mc), "scenarios: misconception answers are wrong")
     check({r["label"] for r in gr} == {"on_topic", "off_topic", "answer_request"}, "scenarios: all three guardrail labels used")
     all_ids = [r["id"] for r in bt + mc + gr]
