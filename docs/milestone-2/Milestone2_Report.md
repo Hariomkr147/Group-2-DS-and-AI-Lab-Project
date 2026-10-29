@@ -21,7 +21,7 @@ All code is in `data/scripts/`. Raw files and large outputs are not committed; `
 
 | Dataset | Used for | Source | License |
 |---|---|---|---|
-| ASSISTments 2009-2010 (corrected) | Train and test the learner model (DKT) | assistmentsdata site | Research use |
+| ASSISTments 2009-2010 (corrected) | Train and test the learner model (DKT) | assistmentsdata site [1, 3] | Research use |
 | MathDial (2,861 dialogues) | Fine-tune the Socratic model | github.com/eth-nlped/mathdial | CC BY-SA 4.0 on GitHub, CC BY 4.0 on Hugging Face; we follow the stricter one |
 | NCERT Maths and Science, classes 6-10 | Course pack (study material for search) | ncert.nic.in | Public; text kept local, not redistributed |
 
@@ -88,23 +88,42 @@ Backtracking labels come from the prerequisite graph, so they are consistent by 
 ## 5. Checks
 `check_data.py` passes: no student shared between splits, no problem shared between MathDial train and validation, skill ids in range, labels 0/1, kept examples never tell or leak the answer, NCERT chunk ids unique, pack graphs valid, scenario labels consistent (23 checks).
 
-## 6. Limits and next steps
+## 6. Model-training data prepared by Hariom Pandey
+Hariom Pandey prepared a second, model-ready version of two datasets (in `notes/hariom pandey/`, with his own two write-ups). It is kept alongside the pipeline above, not merged into it.
+
+| Item | What was prepared |
+|---|---|
+| DKT data (`dkt_data.npz`) | ASSISTments 2009-2010 as fixed-length arrays: one number per answer (`skill + 82 x correct`), windows of 200 padded with a mask. 82 skills, 3,408 students, 256,060 answers; 80/20 train/test split by student, seed 42 (train 2,726 students / 205,418 answers, test 682 / 50,642). `test_dkt_data.py` prints the array shapes and statistics and checks the encoding; file hashes are in `SHA256.txt`. |
+| Chat corpus (`socratic_tutor_combined.jsonl`) | 35,151 SocraTeach dialogues [2] and 2,262 MathDial training conversations (37,413 in all) as chat messages for fine-tuning Qwen2.5-1.5B-Instruct. MathDial's test set is held out. |
+
+Differences from the main pipeline (to be settled before training):
+- **Skills:** 82 here, 149 in Section 2. His file starts from a 303,260-row skill-builder file and removes duplicates; the main pipeline uses the 346,860-row corrected file and also drops answers with no skill label. The two should not be mixed.
+- **Split:** train/test only, no validation set. The main pipeline has train/validation/test.
+- **Licence:** SocraTeach is CC BY-NC 4.0 (non-commercial). Fine for coursework; not for redistribution of the data or a commercial product.
+- **Not yet done on the chat corpus:** no deduplication across the two sources, no `keep` flag for answer-telling replies (Section 2 has it), and SocraTeach's step and persona fields are dropped. Both sources are maths only.
+
+## 7. Limits and next steps
 - ASSISTments is US data and has no session information, so session-scoped DKT (mentor feedback) cannot be tested on it; windows of 200 answers are used instead.
 - The answer-leak check is a simple number match and can miss answers written in words. We accept this for now.
 - NCERT text quality: the older Class 8-10 maths books lose some digits and symbols in extraction (e.g. "80/100" appears as "80100"), and the study passages attached to each concept are picked automatically, so some are exercise text. Each needs a manual pass before use in search.
 - The packs cover one chain per subject (10 Maths and 6 Science concepts). More chapters can be added by extending `specs.py`; no code change is needed.
 - Concepts and prerequisite links are our own judgement, so a second member should review them.
-- Next: train DKT on ASSISTments, fine-tune the Socratic model on MathDial, and have a second member check the scenarios.
+- Next: agree on one ASSISTments version (82 or 149 skills) and one chat corpus, train DKT, fine-tune the Socratic model, and have a second member check the scenarios.
 
-## 7. Team sign-off
+## 8. References
+1. ASSISTments data page (Goldstein, Baker and Heffernan, 2011): https://sites.google.com/site/assistmentsdata/datasets/2011-goldstein-baker-heffernan
+2. SocraTeach_Multi dataset card, Hugging Face (CC BY-NC 4.0): https://huggingface.co/datasets/ulises-c/SocraTeach_Multi
+3. ASSISTments data file (Google Drive): https://drive.google.com/file/d/0B2X0QD6q79ZJUFU1cjYtdGhVNjg/view?resourcekey=0-OyI8ZWxtGSAzhodUIcMf_g
+
+## 9. Team sign-off
 
 By signing, each member confirms they have read this report, understand it and agree to submit it.
 
 | Name | Roll number | Signature | Date |
 |---|---|---|---|
-| Sandeep Nalla | 21f1006125 | | |
-| Hariom Kumar | 23f2004225 | | |
-| Hariom Pandey | 21f3002112 | | |
-| Mrityunjay Chakraborty | 21f3001385 | | |
+| Sandeep Nalla | 21f1006125 | <img src="signatures/sandeep_nalla.jpg" alt="Signature of Sandeep Nalla" height="40"> | 2026-10-29 |
+| Hariom Kumar | 23f2004225 | <img src="signatures/hariom_kumar.jpg" alt="Signature of Hariom Kumar" height="40"> | 2026-10-29 |
+| Hariom Pandey | 21f3002112 | <img src="signatures/hariom_pandey.jpeg" alt="Signature of Hariom Pandey" height="40"> | 2026-10-29 |
+| Mrityunjay Chakraborty | 21f3001385 | <img src="signatures/mrityunjay_chakraborty.jpg" alt="Signature of Mrityunjay Chakraborty" height="40"> | 2026-10-29 |
 
 *Drafted with help from an AI assistant and reviewed by the team.*
