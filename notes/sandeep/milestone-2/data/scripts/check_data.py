@@ -1,6 +1,6 @@
 """Sanity checks on the processed data. Run after the prep scripts; exits non-zero on failure.
 
-    python data/scripts/check_data.py
+    python notes/sandeep/milestone-2/data/scripts/check_data.py
 """
 import json
 import sys

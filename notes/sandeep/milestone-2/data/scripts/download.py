@@ -1,7 +1,7 @@
-"""Download the raw datasets into data/raw/.
+"""Download the raw datasets into notes/sandeep/milestone-2/data/raw/.
 
-    python data/scripts/download.py            # all three
-    python data/scripts/download.py assistments mathdial ncert
+    python notes/sandeep/milestone-2/data/scripts/download.py            # all three
+    python notes/sandeep/milestone-2/data/scripts/download.py assistments mathdial ncert
 
 Files that already exist are skipped, so it is safe to re-run.
 """

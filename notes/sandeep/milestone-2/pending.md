@@ -4,7 +4,7 @@ Due 29 October 2026. Checked against the M2 requirements.
 
 ## Must do
 - [ ] **Host the processed dataset (e.g. Kaggle) and add the link to the report.** Include `train/val/test.jsonl`, `skill_map.csv`, `stats.json`, scenarios and course packs. Leave out NCERT text (licence). The `.jsonl` files are git-ignored, so they exist only locally.
-- [ ] **EDA and preprocessing notebook.** None of ours exists (only scripts in `data/scripts/`). Put it in `docs/milestone-2/` and include the visualisations.
+- [ ] **EDA and preprocessing notebook.** None of ours exists (only scripts in `notes/sandeep/milestone-2/data/scripts/`). Put it in `docs/milestone-2/` and include the visualisations.
 - [ ] **Sign-off:** all 4 members sign and date the report and the work log.
 - [ ] **Work log:** Hariom Kumar and Mrityunjay rows are blank.
 
@@ -19,7 +19,8 @@ Due 29 October 2026. Checked against the M2 requirements.
 - [ ] Rebuild `Milestone2_Presentation.pdf` (via `build_presentation.py`) after the report changes: add Hariom Pandey's data, references, sample data and hosted link.
 
 ## Open decisions
-- [ ] Pick one ASSISTments version: ours (149 skills, train/val/test) or Hariom Pandey's (82 skills, train/test only). Update the report to match.
+- [x] Report now presents both versions (A: ours, B: Hariom Pandey's) side by side. Decide later which to use for M3, or compare both.
+- [ ] Presentation does not yet cover version B.
 - [ ] Hariom Pandey's DKT report has an unfilled placeholder ("file name and download link").
 - [ ] Reference 1 is the ASSISTments **2011** page but we use 2009-2010: confirm or replace.
 - [ ] Reference 3 (Google Drive file): confirm what it is.

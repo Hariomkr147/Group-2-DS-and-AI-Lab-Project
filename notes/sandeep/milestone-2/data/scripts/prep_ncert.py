@@ -8,7 +8,7 @@ the exact page.
 Needs fontTools (see requirements.txt); without it the minus and multiplication
 signs are lost.
 
-Output (data/processed/ncert/): chunks.jsonl (not committed), chapters.csv, stats.json
+Output (notes/sandeep/milestone-2/data/processed/ncert/): chunks.jsonl (not committed), chapters.csv, stats.json
 """
 import csv
 import json

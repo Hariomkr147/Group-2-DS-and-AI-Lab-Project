@@ -1,6 +1,6 @@
-"""Add verified chapter titles to data/processed/ncert/chapters.csv.
+"""Add verified chapter titles to notes/sandeep/milestone-2/data/processed/ncert/chapters.csv.
 
-Titles live in data/course_packs/chapter_titles.csv. Each was checked against the
+Titles live in notes/sandeep/milestone-2/data/course_packs/chapter_titles.csv. Each was checked against the
 chapter's running page header or the book's contents page. Chapters not listed there
 are marked "needs_review" (reading titles automatically from page 1 was wrong for
 about half the chapters, so we do not guess).

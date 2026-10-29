@@ -1,4 +1,4 @@
-"""Build our own labelled test scenarios (data/test_scenarios/*.jsonl).
+"""Build our own labelled test scenarios (notes/sandeep/milestone-2/data/test_scenarios/*.jsonl).
 
 Three sets, all written by the team and never used for training or tuning:
 

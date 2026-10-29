@@ -12,7 +12,7 @@ Splits: MathDial's own test set is kept as our test set. Validation is carved ou
 train BY PROBLEM (qid), because the same problem is solved in several dialogues and
 splitting by dialogue would leak it into training.
 
-Output (data/processed/mathdial/): train/val/test.jsonl, stats.json
+Output (notes/sandeep/milestone-2/data/processed/mathdial/): train/val/test.jsonl, stats.json
 """
 import json
 import random

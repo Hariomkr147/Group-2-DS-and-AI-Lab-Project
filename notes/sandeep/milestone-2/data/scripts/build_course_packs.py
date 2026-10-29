@@ -1,8 +1,8 @@
-"""Build the NCERT course packs (the format the backend loads) from data/course_packs/specs.py.
+"""Build the NCERT course packs (the format the backend loads) from notes/sandeep/milestone-2/data/course_packs/specs.py.
 
 For every concept: check the spec, compute question answers, and attach up to 3 text
 chunks from the NCERT chapter that teaches it (the chunks that mention the concept's
-keywords most). Output goes to data/processed/course_packs/<pack id>.json. It holds
+keywords most). Output goes to notes/sandeep/milestone-2/data/processed/course_packs/<pack id>.json. It holds
 NCERT text, so it is not committed.
 
 Checks: prerequisite ids exist, no prerequisite is at a higher level, no cycles,

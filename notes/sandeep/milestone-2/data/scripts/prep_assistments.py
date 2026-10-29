@@ -8,7 +8,7 @@ Steps (same recipe as the pyKT benchmark, so results can be compared with it):
   5. cut each student's history into windows of at most 200 answers
   6. split BY STUDENT into train / validation / test, so no student is in two sets
 
-Output (data/processed/assistments/):
+Output (notes/sandeep/milestone-2/data/processed/assistments/):
   interactions.csv   clean row-per-answer table
   train/val/test.jsonl   one window per line: {user_id, skills, correct}
   skill_map.csv      concept index <-> skill_id <-> skill_name
