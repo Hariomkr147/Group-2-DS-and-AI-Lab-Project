@@ -37,6 +37,7 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
         msg = socratic.REDIRECT_ANSWER if label == InputLabel.ANSWER_REQUEST else socratic.REDIRECT_OFF_TOPIC
         return _finish(db, session, text, TutorReply(reply=msg, action=Action.REDIRECT, label=label))
 
+    found = None
     if session.pending is None:
         concept_id = retrieval.best_concept(db, session.course_id, text)
         if concept_id is None:
@@ -48,7 +49,7 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
     else:
         asked = Question(**session.pending)
         correct = _norm(text) == _norm(asked.answer)
-        misconception.detect(asked.text, text, asked.answer)
+        found = None if correct else misconception.detect(asked.text, text, asked.answer, session.learner_id)
         learner_model.record(db, session.learner_id, session.course_id, session.id,
                              session.current_concept, correct)
         decision = controller.decide(db, session, correct)
@@ -70,4 +71,4 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
 
     return _finish(db, session, text, TutorReply(
         reply=reply_text, action=action, label=InputLabel.ON_TOPIC,
-        concept_id=concept.id, level=concept.level, resource=_resource(concept)))
+        concept_id=concept.id, level=concept.level, resource=_resource(concept), misconception=found))

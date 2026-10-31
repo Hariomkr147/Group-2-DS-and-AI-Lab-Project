@@ -1,0 +1,48 @@
+{
+  "steps": [
+    {
+      "step": "1 load",
+      "rows": 525534
+    },
+    {
+      "step": "2 drop missing",
+      "rows": 459208
+    },
+    {
+      "step": "3 drop duplicates",
+      "rows": 338001
+    },
+    {
+      "step": "4 drop students < 3 answers",
+      "rows": 337559
+    },
+    {
+      "step": "8 chunks of 200, kept",
+      "rows": 337550
+    }
+  ],
+  "skills": 123,
+  "students": 3884,
+  "train_students": 3107,
+  "test_students": 777,
+  "train_sequences": 3780,
+  "test_sequences": 913,
+  "train_answers": 276433,
+  "test_answers": 61117,
+  "correct_rate_train": 0.655,
+  "correct_rate_test": 0.647,
+  "history_length": {
+    "median": 26.0,
+    "max": 1295,
+    "share_over_200": 0.102
+  },
+  "validation": {
+    "seed": 42,
+    "fraction": 0.1,
+    "unit": "student",
+    "validation_students": 311,
+    "validation_sequences": 368,
+    "validation_answers": 24677,
+    "validation_correct_rate": 0.64
+  }
+}

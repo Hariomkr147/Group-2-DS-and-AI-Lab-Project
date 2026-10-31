@@ -1,0 +1,60 @@
+{
+  "seed": 42,
+  "cleaning": {
+    "mathdial_turns_merged": 495,
+    "mathdial_empty_turns_removed": 68,
+    "mathdial_continuation_pieces_joined": 1,
+    "socrateach_turns_merged": 0,
+    "socrateach_missing_tutor_text": 2
+  },
+  "splits": {
+    "train": {
+      "conversations": 36104,
+      "problems": 9685,
+      "by_source": {
+        "mathdial": 2277,
+        "socrateach": 33827
+      },
+      "tutor_messages": 192948,
+      "tutor_messages_leaking_answer": 22726,
+      "mathdial_acts": {
+        "probing": 3276,
+        "generic": 3322,
+        "telling": 2512,
+        "focus": 5367
+      }
+    },
+    "val": {
+      "conversations": 943,
+      "problems": 201,
+      "by_source": {
+        "mathdial": 281,
+        "socrateach": 662
+      },
+      "tutor_messages": 5297,
+      "tutor_messages_leaking_answer": 598,
+      "mathdial_acts": {
+        "probing": 430,
+        "generic": 416,
+        "focus": 653,
+        "telling": 258
+      }
+    },
+    "test": {
+      "conversations": 965,
+      "problems": 201,
+      "by_source": {
+        "mathdial": 303,
+        "socrateach": 662
+      },
+      "tutor_messages": 5405,
+      "tutor_messages_leaking_answer": 567,
+      "mathdial_acts": {
+        "telling": 272,
+        "probing": 454,
+        "generic": 438,
+        "focus": 652
+      }
+    }
+  }
+}

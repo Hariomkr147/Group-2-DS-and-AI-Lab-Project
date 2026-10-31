@@ -108,6 +108,7 @@ class TutorReply(BaseModel):
     concept_id: str | None = None
     level: int | None = None
     resource: Resource | None = None
+    misconception: str | None = None   # error found in a wrong answer, e.g. "divides_by_the_percent"
 
 
 # ── Learner model ────────────────────────────────────────────────────────────
