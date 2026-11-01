@@ -1,12 +1,12 @@
-# Data (Milestone 2): Google Drive bundle layout, splits and licences
+# Data (Milestone 2): Kaggle dataset layout, splits and licences
 
-Group 2, Data Science and AI Lab, IIT Madras BS. Hosted on Google Drive:
-https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws
+Group 2, Data Science and AI Lab, IIT Madras BS. Hosted on Kaggle:
+https://www.kaggle.com/datasets/sandeepnalla6125/group-2-ds-and-ai-lab-project-data
 
-This is the layout of the Drive bundle. In the project repository the frozen learner-model files are in `docs/milestone-2/data/processed/assistments/frozen/` (made in Colab, so the scripts cannot recreate them exactly), and the rest is rebuilt by the scripts in `docs/milestone-2/data/scripts/` into `docs/milestone-2/data/`: the chat corpus and NCERT metadata in `processed/`, the course-pack specs and test scenarios in `generated/`.
+This is the layout of the Kaggle dataset. In the project repository the frozen learner-model files are in `docs/milestone-2/data/processed/assistments/frozen/` (made in Colab, so the scripts cannot recreate them exactly), and the rest is rebuilt by the scripts in `docs/milestone-2/data/scripts/` into `docs/milestone-2/data/`: the chat corpus and NCERT metadata in `processed/`, the course-pack specs and test scenarios in `generated/`.
 
 ```
-Drive folder/
+Kaggle dataset/
 ├── assistments_dkt/          learner-model data (frozen set)
 │   ├── dkt_data.npz                  arrays X_tr S_tr C_tr M_tr X_te S_te C_te M_te N   (82 skills, sequences of 200)
 │   ├── dkt_processed_steps.csv       every step: split, user_id, chunk_id, step, skill_index, correct, x, skill_id_original

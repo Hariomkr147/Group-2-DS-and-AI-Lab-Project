@@ -7,5 +7,9 @@ raw/
 processed/ncert/chunks.jsonl
 processed/socratic_chat/*.jsonl
 processed/assistments/rebuilt/*.npz
+
+# Zipped copy of the data, uploaded to Kaggle instead of committed.
+data.zip
+
 scripts/.venv/
 __pycache__/

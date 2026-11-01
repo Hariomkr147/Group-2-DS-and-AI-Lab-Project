@@ -15,7 +15,7 @@
 
 **Goal of this milestone:** collect suitable datasets and prepare them in the format the Milestone 3 models will read.
 
-**Hosted processed dataset (Google Drive):** https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing (layout in Section 6; in this repository everything is under `data/`).
+**Hosted processed dataset (Kaggle):** https://www.kaggle.com/datasets/sandeepnalla6125/group-2-ds-and-ai-lab-project-data (layout in Section 6; in this repository everything is under `data/`).
 **EDA and preprocessing notebook:** `data/scripts/Milestone2_EDA.ipynb`. **Preprocessing code for every step, with run instructions:** the `data/scripts/` folder (run instructions in `data/scripts/README.md`).
 
 ### Folder layout
@@ -230,10 +230,10 @@ NCERT chunks per book (3,164 in all):
 
 ## 6. Processed dataset: folder structure and splits
 
-Hosted on Google Drive: https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws (the layout and licence notes are in `data/README.md`). In this repository the frozen learner-model files are in `data/processed/assistments/frozen/`; the chat corpus, NCERT metadata, course-pack specs and test scenarios are rebuilt in `data/processed/` and `data/generated/`.
+Hosted on Kaggle: https://www.kaggle.com/datasets/sandeepnalla6125/group-2-ds-and-ai-lab-project-data (the layout and licence notes are in `data/README.md`). In this repository the frozen learner-model files are in `data/processed/assistments/frozen/`; the chat corpus, NCERT metadata, course-pack specs and test scenarios are rebuilt in `data/processed/` and `data/generated/`.
 
 ```
-Google Drive bundle                              In this repository
+Kaggle dataset                                   In this repository
 assistments_dkt/    dkt_data.npz, steps, ...     data/processed/assistments/frozen/
 splits/             dkt_validation.json          data/processed/assistments/frozen/
 socratic_chat/      train, val, test, stats      data/processed/socratic_chat/
