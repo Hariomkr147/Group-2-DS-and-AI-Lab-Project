@@ -16,7 +16,7 @@
 **Goal of this milestone:** collect suitable datasets and prepare them in the format the Milestone 3 models will read.
 
 **Hosted processed dataset (Google Drive):** https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing (layout in Section 6; in this repository everything is under `data/`).
-**EDA and preprocessing notebook:** `Milestone2_EDA.ipynb`. **Preprocessing code for every step, with run instructions:** the `data/scripts/` folder (run instructions in `data/scripts/README.md`).
+**EDA and preprocessing notebook:** `data/scripts/Milestone2_EDA.ipynb`. **Preprocessing code for every step, with run instructions:** the `data/scripts/` folder (run instructions in `data/scripts/README.md`).
 
 ### Folder layout
 
@@ -216,7 +216,7 @@ Guardrail: `{"message": "What is the weather like today?", "label": "off_topic"}
 
 ## 5. Exploratory data analysis
 
-The full analysis, with plots, sample records and a reason for every step, is in **`Milestone2_EDA.ipynb`**. Main findings:
+The full analysis, with plots, sample records and a reason for every step, is in **`data/scripts/Milestone2_EDA.ipynb`**. Main findings:
 - **ASSISTments:** very uneven skills (top skill 14,880 train answers; 11 of 82 skills under 100). Most sequences are short (median 29 steps, 14.3% at the 200 cap). Evaluate per skill, not only overall, and compare against a per-skill accuracy baseline.
 - **Chat corpus:** SocraTeach is 92% of the conversations, but MathDial is closer to the target (a student with a wrong solution), so a model trained on the mix may lean toward SocraTeach's style; validation and test therefore hold about 30% MathDial, and results should be reported per source. 12.2% of SocraTeach and 6.6% of MathDial tutor turns contain the final answer, and 15% of MathDial tutor turns are labelled "telling": the model must not imitate these.
 - **NCERT:** about 20% of chunks are under 50 words (chapter ends, captions). Older Class 8-10 maths books lose digits and symbols in extraction (e.g. "80/100" appears as "80100").

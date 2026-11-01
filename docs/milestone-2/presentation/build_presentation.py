@@ -247,7 +247,7 @@ def main():
             'Scenario       {"type": "careless_mistake", "mastery": {"concept": 0.9}, "expected_first_action": "probe"}',
             'Misconception  {"question": "What is 20% of 50?", "wrong_answer": "2.5", "misconception": "divides_by_the_percent"}',
             'Guardrail      {"message": "What is the weather like today?", "label": "off_topic"}']),
-            note="More samples and plots: Milestone2_EDA.ipynb")
+            note="More samples and plots: data/scripts/Milestone2_EDA.ipynb")
 
         slide(pdf, "Processed dataset: folders and splits", mono="\n".join([
             "Drive folder/",
