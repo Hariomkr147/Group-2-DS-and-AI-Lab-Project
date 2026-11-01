@@ -15,20 +15,21 @@
 
 **Goal of this milestone:** collect suitable datasets and prepare them in the format the Milestone 3 models will read.
 
-**Hosted processed dataset (Google Drive):** https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing (layout in Section 6; the same folder is in this repository as `hosted_dataset/`).
-**EDA and preprocessing notebook:** `Milestone2_EDA.ipynb`. **Preprocessing code for every step, with run instructions:** the `preprocessing/` folder.
+**Hosted processed dataset (Google Drive):** https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws?usp=sharing (layout in Section 6; in this repository everything is under `data/`).
+**EDA and preprocessing notebook:** `Milestone2_EDA.ipynb`. **Preprocessing code for every step, with run instructions:** the `data/scripts/` folder (run instructions in `data/scripts/README.md`).
 
 ### Folder layout
 
 ```
 docs/milestone-2/
 ├── report, presentation, EDA notebook, contribution log
-├── figures/              every figure used in the report and slides
-├── hosted_dataset/       the processed dataset bundle (same as the Google Drive folder, see Section 6)
-└── preprocessing/        the code that makes the data, with a README
+├── data/                 raw/ (downloads), processed/ (rebuilt data), generated/ (AI-written specs and test scenarios),
+│                         scripts/ (every step that makes the data, with a README)
+├── presentation/         slide builder and the course packs it uses
+└── figures/              every figure used in the report and slides
 ```
 
-**Where the data comes from.** The learner-model arrays were prepared in Colab and are kept as a frozen set. The chat corpus, NCERT text, course packs, test scenarios, validation splits, the misconception detector and its score are made by scripts in `preprocessing/`. Raw downloads and NCERT text are not committed; the README there shows how to rebuild them.
+**Where the data comes from.** The learner-model arrays were prepared in Colab and are kept as a frozen set. The chat corpus, NCERT text, course packs, test scenarios, validation splits, the misconception detector and its score are made by scripts in `data/scripts/`. Raw downloads and NCERT text are not committed; the README there shows how to rebuild them.
 
 ## 1. Datasets
 
@@ -142,7 +143,7 @@ Result: **3,164 chunks**. Four pages failed extraction (drawings), and 48 near-e
 
 ## 3. Course packs (concepts, prerequisites, practice questions)
 
-Hand-written and built into the backend's course-pack format by a script. Each concept points to the NCERT chapter that teaches it, and the builder attaches the best-matching text from that chapter.
+Written by an AI assistant, reviewed by the team, and built into the backend's course-pack format by a script. Each concept points to the NCERT chapter that teaches it, and the builder attaches the best-matching text from that chapter.
 
 | Pack | Concepts | Prerequisite links | Practice questions |
 |---|---|---|---|
@@ -150,7 +151,7 @@ Hand-written and built into the backend's course-pack format by a script. Each c
 | NCERT Science: motion and force (classes 6-9) | 6 | 6 | 18 |
 
 - **Levels:** 1 whole-number operations, factors; 2 fractions, integers; 3 decimals, ratio, percentages, letter expressions; 4 linear equations. The main example follows this chain: percentages -> fractions -> multiplication and division.
-- **Questions:** written by the team in the style of the NCERT exercises, each with a hint and difficulty. For 53 of the 70 questions the answer is computed in code; **17 short answers (for example "metre", "no", "23") are typed by hand** and were checked by the author.
+- **Questions:** drafted by an AI assistant in the style of the NCERT exercises and reviewed by the team, each with a hint and difficulty. For 53 of the 70 questions the answer is computed in code; **17 short answers (for example "metre", "no", "23") are typed in, not computed** and were checked by the team.
 - **Hints must not give the answer.** A review found hints that named it (for example "Named after Isaac Newton" for the unit of force). They were rewritten, and the data checks now fail if a hint contains the answer.
 - **Level 1 limit:** NCERT has no Class 6-10 chapter on plain multiplication and division (that is Class 3-5 content, which we did not process). The concept is attached to Class 6 chapter 3 (Number Play), the closest chapter, so its study text is general number-operations text, not a lesson on the topic. It is named "Whole-number operations" to say so.
 - **Chapters used:** the packs use 15 distinct chapters. Titles are verified for these 15 plus 5 Class 10 chapters (20 in total); other chapter titles are marked `needs_review`.
@@ -159,7 +160,7 @@ Hand-written and built into the backend's course-pack format by a script. Each c
 
 ## 4. Test scenarios (our own, 161 in total)
 
-Written by the team, kept separate from training data and never used for tuning (`preprocessing/test_scenarios/`).
+Written by the team, kept separate from training data and never used for tuning (`data/generated/test_scenarios/`).
 
 | Set | Items | What it tests |
 |---|---|---|
@@ -229,16 +230,16 @@ NCERT chunks per book (3,164 in all):
 
 ## 6. Processed dataset: folder structure and splits
 
-Hosted on Google Drive: https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws (the folder's README holds the same layout and licence notes; the same folder is `hosted_dataset/` here).
+Hosted on Google Drive: https://drive.google.com/drive/folders/15vIRFghBsqfHjvHrIztgvVSUv2vP4tws (the layout and licence notes are in `data/README.md`). In this repository the frozen learner-model files are in `data/processed/assistments/frozen/`; the chat corpus, NCERT metadata, course-pack specs and test scenarios are rebuilt in `data/processed/` and `data/generated/`.
 
 ```
-hosted_dataset/
-├── assistments_dkt/    dkt_data.npz  dkt_processed_steps.csv  skill_map.csv  SHA256.txt  test_dkt_data.py
-├── socratic_chat/      train.jsonl  val.jsonl  test.jsonl  stats.json
-├── splits/             dkt_validation.json
-├── ncert_metadata/     chapters.csv  stats.json      (NCERT text not included)
-├── course_pack_specs/  specs.py  chapter_titles.csv
-└── test_scenarios/     backtracking.jsonl  misconceptions.jsonl  guardrails.jsonl  stats.json
+Google Drive bundle                              In this repository
+assistments_dkt/    dkt_data.npz, steps, ...     data/processed/assistments/frozen/
+splits/             dkt_validation.json          data/processed/assistments/frozen/
+socratic_chat/      train, val, test, stats      data/processed/socratic_chat/
+ncert_metadata/     chapters.csv, stats.json     data/processed/ncert/   (NCERT text not shared)
+course_pack_specs/  specs.py, chapter_titles.csv data/generated/ncert/
+test_scenarios/     3 evaluation sets, stats     data/generated/test_scenarios/
 ```
 
 | Set | Train | Validation | Test | Split rule |

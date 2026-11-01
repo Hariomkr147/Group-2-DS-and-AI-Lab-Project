@@ -1,0 +1,11 @@
+# Raw downloads are re-created by data/scripts/download/download.py.
+# NCERT books are public but not ours to redistribute.
+raw/
+
+# Bulky outputs are re-created by the scripts in data/scripts/.
+# NCERT text is not ours to redistribute, so it stays local.
+processed/ncert/chunks.jsonl
+processed/socratic_chat/*.jsonl
+processed/assistments/rebuilt/*.npz
+scripts/.venv/
+__pycache__/
