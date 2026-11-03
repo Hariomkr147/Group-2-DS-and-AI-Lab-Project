@@ -25,8 +25,7 @@ set is removed from train and validation in both sources. Train and validation k
 dialogues per problem from each source, so SocraTeach repeats never push out MathDial dialogues.
 
 The candidate subset (1,000 + 1,000 train, 100 + 100 validation, stratified by length) is the
-shared experiment set for the Gemma and Qwen comparison. `candidate_v1_ids.json` is an archive of
-the earlier 1,000 + 767 subset used in the first fine-tuning runs; the notebook no longer reads it.
+shared experiment set for the Gemma and Qwen comparison.
 
 Compared with `notes/hariom pandey/milestone-2/socratic_tutor_combined.jsonl` (left unchanged), the
 records keep the problem text, reference answer and solution for SocraTeach. They also carry a

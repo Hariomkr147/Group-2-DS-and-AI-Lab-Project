@@ -290,6 +290,7 @@ The processed dataset is hosted on Kaggle: **https://www.kaggle.com/datasets/har
 |---|---|
 | `socratic_dialogue_prep.ipynb` | The full pipeline: load, EDA, schema, cleaning, annotation, split, subset, EDA, save |
 | `download_raw.py` | Recreates `raw/` from the pinned HuggingFace revisions |
+| `candidate_v1_ids.json` | Dialogue IDs of the candidate subset |
 | `raw/` | `socrateach_multi_train.jsonl.gz`, `mathdial_train.jsonl.gz`, `mathdial_test.jsonl.gz` |
 | `processed/` | `train`, `val`, `test`, `candidate_train`, `candidate_val` (`.jsonl.gz`), `split_problem_ids.json`, `stats.json` |
 | `figures/` | Raw overview, train distributions, candidate vs full train, split overlap |
