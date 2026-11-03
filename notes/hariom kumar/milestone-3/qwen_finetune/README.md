@@ -6,9 +6,9 @@ on the same 200 validation contexts.
 
 ## Run on Kaggle
 
-1. Create a Kaggle dataset from `notes/hariom kumar/milestone-3/socratic_data_prep/processed/`. It needs `candidate_train.jsonl.gz` and `candidate_val.jsonl.gz`.
+1. Use the hosted Kaggle dataset: https://www.kaggle.com/datasets/hariomkr/socratic (contains `candidate_train.jsonl.gz` and `candidate_val.jsonl.gz`).
 2. Create a notebook and upload `qwen35_socratic_baseline_finetune.ipynb`. In the settings, set Accelerator to GPU T4 and switch Internet on.
-3. Add the dataset as an input. The notebook finds `candidate_train.jsonl.gz` under `/kaggle/input/` by itself.
+3. Add the dataset (`hariomkr/socratic`) as an input. The notebook finds `candidate_train.jsonl.gz` under `/kaggle/input/` by itself.
 4. Run all cells. Results go to `/kaggle/working/qwen35_socratic_ft/`: `results.json`, the `generations_*.csv` files, `figures/` and `lora_adapter/`. Download that folder before the session ends.
 
 ## What it measures

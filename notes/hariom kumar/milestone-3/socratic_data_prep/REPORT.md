@@ -4,6 +4,7 @@
 **Author:** Hariom Kumar
 **Date:** 3 November 2026
 **Code:** `notes/hariom kumar/milestone-3/socratic_data_prep/socratic_dialogue_prep.ipynb`
+**Hosted dataset (Kaggle):** https://www.kaggle.com/datasets/hariomkr/socratic
 
 ---
 
@@ -279,11 +280,13 @@ A final student turn has no tutor reply to learn from, so it is dropped.
 | 7.10, action 03 | Full EDA | Sections 4 and 8, four figures |
 | 7.10, action 04 | 3–4 before/after examples | Section 9 |
 | 8.1 | Manageable subset for comparative runs | Frozen candidate subset, about 7% of train, KS-checked |
-| 7.10, action 18 | Publish cleaned data where licences allow | Planned; both licences allow it with attribution (SocraTeach non-commercial) |
+| 7.10, action 18 | Publish cleaned data where licences allow | Published on Kaggle: https://www.kaggle.com/datasets/hariomkr/socratic (both licences allow it with attribution; SocraTeach non-commercial) |
 
 ---
 
 ## 11. Outputs and reproduction
+
+The processed dataset is hosted on Kaggle: **https://www.kaggle.com/datasets/hariomkr/socratic**
 
 | Path | Contents |
 |---|---|

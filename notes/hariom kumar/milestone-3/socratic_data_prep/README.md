@@ -4,6 +4,8 @@
 produces cleaned, annotated, problem-level splits in `processed/` with plots in `figures/`.
 It only reads local files and needs pandas, matplotlib and scipy.
 
+**Hosted processed dataset (Kaggle):** https://www.kaggle.com/datasets/hariomkr/socratic
+
 | Folder | Contents |
 | --- | --- |
 | `raw/` | Gzipped JSON Lines exports of the pinned HuggingFace revisions. `python download_raw.py` recreates them if they are missing (needs the `datasets` package). |
