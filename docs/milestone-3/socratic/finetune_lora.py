@@ -13,13 +13,19 @@ HERE = Path(__file__).resolve().parent
 SYSTEM_EXTRA = " Guide the student with one short question at a time. Never state the final answer."
 
 
+def repeated(text, k=3):
+    """True if a chunk of k or more words appears twice in a row (a MathDial source artefact)."""
+    w = [x.lower() for x in text.split()]
+    return any(w[i:i + n] == w[i + n:i + 2 * n] for n in range(k, len(w) // 2 + 1) for i in range(len(w) - 2 * n + 1))
+
+
 def examples(path, per_conv, seed):
     rng, out = random.Random(seed), []
     for line in open(path, encoding="utf-8"):
         c = json.loads(line)
         msgs, leaks = c["messages"], c["tutor_leaks_answer"]
         idx = [i for i, m in enumerate(msgs) if m["role"] == "assistant"]
-        ok = [i for k, i in enumerate(idx) if not leaks[k] and i > 0]
+        ok = [i for k, i in enumerate(idx) if not leaks[k] and i > 0 and not repeated(msgs[i]["content"])]
         for i in rng.sample(ok, min(per_conv, len(ok))):
             hist = [dict(m) for m in msgs[:i]]
             hist[0]["content"] += SYSTEM_EXTRA  # same prompt as the baseline
