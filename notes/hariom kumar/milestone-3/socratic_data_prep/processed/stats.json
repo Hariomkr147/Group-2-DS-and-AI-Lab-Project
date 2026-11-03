@@ -1,0 +1,264 @@
+{
+ "config": {
+  "seed": 42,
+  "cap_per_problem": 3,
+  "val_fraction": 0.1,
+  "subset_train": {
+   "mathdial": 1000,
+   "socrateach": 1000
+  },
+  "subset_val": {
+   "mathdial": 100,
+   "socrateach": 100
+  },
+  "raw_files": {
+   "socrateach": "raw/socrateach_multi_train.jsonl.gz",
+   "mathdial_train": "raw/mathdial_train.jsonl.gz",
+   "mathdial_test": "raw/mathdial_test.jsonl.gz"
+  }
+ },
+ "raw": {
+  "socrateach_problems": 10273,
+  "socrateach_dialogues": 35151,
+  "socrateach_problem_origin": {
+   "GSM8K_train": 6798,
+   "MAWPS_train": 2300,
+   "GSM8K_test": 1175
+  },
+  "socrateach_dialogues_per_problem": {
+   "1": 1206,
+   "2": 1532,
+   "3": 2139,
+   "4": 2600,
+   "5": 2712,
+   "6": 84
+  },
+  "mathdial_dialogues": {
+   "train": 2262,
+   "test": 599
+  },
+  "mathdial_problems": {
+   "test": 394,
+   "train": 1035
+  },
+  "mathdial_test_problems_also_in_train": 318,
+  "mathdial_teacher_moves": {
+   "probing": 4252,
+   "generic": 4456,
+   "telling": 3091,
+   "focus": 6808
+  }
+ },
+ "raw_problem_overlap": {
+  "socrateach & mathdial_train": 1006,
+  "socrateach & mathdial_test": 383,
+  "mathdial_train & mathdial_test": 318
+ },
+ "cleaning_drops": {},
+ "split": {
+  "removed_because_problem_in_test": {
+   "socrateach": 1245,
+   "mathdial": 585
+  },
+  "dropped_by_cap": 8714,
+  "train": {
+   "dialogues": 23876,
+   "problems": 8661,
+   "by_source": {
+    "socrateach": 22574,
+    "mathdial": 1302
+   }
+  },
+  "val": {
+   "dialogues": 2993,
+   "problems": 1032,
+   "by_source": {
+    "socrateach": 2682,
+    "mathdial": 311
+   }
+  },
+  "test": {
+   "dialogues": 599,
+   "problems": 394,
+   "by_source": {
+    "mathdial": 599
+   }
+  }
+ },
+ "candidate": {
+  "train": {
+   "mathdial": 1000,
+   "socrateach": 1000
+  },
+  "val": {
+   "mathdial": 100,
+   "socrateach": 100
+  }
+ },
+ "eda_summary": [
+  {
+   "split": "candidate_train",
+   "source": "mathdial",
+   "dialogues": 1000,
+   "words_median": 274.0,
+   "words_p95": 689.05,
+   "messages_median": 11.0,
+   "leak_share": 0.017,
+   "telling_share": 0.153
+  },
+  {
+   "split": "candidate_train",
+   "source": "socrateach",
+   "dialogues": 1000,
+   "words_median": 231.5,
+   "words_p95": 391.0,
+   "messages_median": 9.0,
+   "leak_share": 0.004,
+   "telling_share": 0.0
+  },
+  {
+   "split": "candidate_val",
+   "source": "mathdial",
+   "dialogues": 100,
+   "words_median": 256.0,
+   "words_p95": 627.75,
+   "messages_median": 11.0,
+   "leak_share": 0.02,
+   "telling_share": 0.176
+  },
+  {
+   "split": "candidate_val",
+   "source": "socrateach",
+   "dialogues": 100,
+   "words_median": 233.5,
+   "words_p95": 393.1,
+   "messages_median": 11.0,
+   "leak_share": 0.002,
+   "telling_share": 0.0
+  },
+  {
+   "split": "test",
+   "source": "mathdial",
+   "dialogues": 599,
+   "words_median": 265.0,
+   "words_p95": 603.1,
+   "messages_median": 11.0,
+   "leak_share": 0.021,
+   "telling_share": 0.158
+  },
+  {
+   "split": "train",
+   "source": "mathdial",
+   "dialogues": 1302,
+   "words_median": 274.0,
+   "words_p95": 688.95,
+   "messages_median": 11.0,
+   "leak_share": 0.017,
+   "telling_share": 0.154
+  },
+  {
+   "split": "train",
+   "source": "socrateach",
+   "dialogues": 22574,
+   "words_median": 232.0,
+   "words_p95": 390.0,
+   "messages_median": 9.0,
+   "leak_share": 0.003,
+   "telling_share": 0.0
+  },
+  {
+   "split": "val",
+   "source": "mathdial",
+   "dialogues": 311,
+   "words_median": 254.0,
+   "words_p95": 644.5,
+   "messages_median": 11.0,
+   "leak_share": 0.018,
+   "telling_share": 0.174
+  },
+  {
+   "split": "val",
+   "source": "socrateach",
+   "dialogues": 2682,
+   "words_median": 234.0,
+   "words_p95": 393.0,
+   "messages_median": 9.0,
+   "leak_share": 0.004,
+   "telling_share": 0.0
+  }
+ ],
+ "candidate_representativeness": [
+  {
+   "source": "socrateach",
+   "feature": "words",
+   "full_mean": 234.85,
+   "subset_mean": 234.255,
+   "ks_stat": 0.02,
+   "p_value": 0.81,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "socrateach",
+   "feature": "messages",
+   "full_mean": 9.713,
+   "subset_mean": 9.692,
+   "ks_stat": 0.013,
+   "p_value": 0.994,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "socrateach",
+   "feature": "leak_share",
+   "full_mean": 0.003,
+   "subset_mean": 0.004,
+   "ks_stat": 0.004,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "socrateach",
+   "feature": "telling_share",
+   "full_mean": 0.0,
+   "subset_mean": 0.0,
+   "ks_stat": 0.0,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "mathdial",
+   "feature": "words",
+   "full_mean": 314.157,
+   "subset_mean": 312.891,
+   "ks_stat": 0.01,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "mathdial",
+   "feature": "messages",
+   "full_mean": 12.035,
+   "subset_mean": 12.034,
+   "ks_stat": 0.013,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "mathdial",
+   "feature": "leak_share",
+   "full_mean": 0.017,
+   "subset_mean": 0.017,
+   "ks_stat": 0.004,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  },
+  {
+   "source": "mathdial",
+   "feature": "telling_share",
+   "full_mean": 0.154,
+   "subset_mean": 0.153,
+   "ks_stat": 0.006,
+   "p_value": 1.0,
+   "subset_is_whole_source": false
+  }
+ ]
+}
