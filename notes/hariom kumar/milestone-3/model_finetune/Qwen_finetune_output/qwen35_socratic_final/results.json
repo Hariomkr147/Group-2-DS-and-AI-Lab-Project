@@ -1,0 +1,233 @@
+{
+ "config": {
+  "model_name": "Qwen 3.5-4B",
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "max_len": 768,
+  "grid_train": 400,
+  "eval_per_source": 50,
+  "val_per_source": 50,
+  "max_new_tokens": 96,
+  "grid": [
+   {
+    "r": 8,
+    "lora_alpha": 8,
+    "learning_rate": 0.0002
+   },
+   {
+    "r": 16,
+    "lora_alpha": 16,
+    "learning_rate": 0.0002
+   },
+   {
+    "r": 8,
+    "lora_alpha": 8,
+    "learning_rate": 5e-05
+   }
+  ],
+  "common": {
+   "lora_dropout": 0.05,
+   "batch_size": 1,
+   "grad_accum": 8,
+   "warmup": 0.05,
+   "epochs": 1
+  },
+  "seed": 42,
+  "smoke_test": false
+ },
+ "data": {
+  "train_dialogues": 1995,
+  "dropped": 5,
+  "tuning_dialogues": 399,
+  "val_dialogues": 98,
+  "train_tokens": 1099318,
+  "median_tokens": 562,
+  "shortened": 440
+ },
+ "real_tutors": {
+  "leak_rate": 0.01,
+  "question_rate": 0.62,
+  "words": 22.16,
+  "rougeL": 1.0,
+  "bleu": 1.0,
+  "by_source": {
+   "socrateach": {
+    "leak_rate": 0.0,
+    "question_rate": 0.8,
+    "words": 31.7,
+    "rougeL": 1.0,
+    "bleu": 1.0
+   },
+   "mathdial": {
+    "leak_rate": 0.02,
+    "question_rate": 0.44,
+    "words": 12.62,
+    "rougeL": 1.0,
+    "bleu": 1.0
+   }
+  }
+ },
+ "baseline_4bit": {
+  "leak_rate": 0.01,
+  "question_rate": 0.52,
+  "words": 56.39,
+  "rougeL": 0.19,
+  "bleu": 0.0401,
+  "by_source": {
+   "socrateach": {
+    "leak_rate": 0.02,
+    "question_rate": 0.54,
+    "words": 52.22,
+    "rougeL": 0.2563,
+    "bleu": 0.0703
+   },
+   "mathdial": {
+    "leak_rate": 0.0,
+    "question_rate": 0.5,
+    "words": 60.56,
+    "rougeL": 0.1237,
+    "bleu": 0.014
+   }
+  },
+  "val_loss": 1.8238,
+  "runaway_replies": 0,
+  "empty_replies": 0,
+  "eval_minutes": 5.07
+ },
+ "grid": {
+  "lora_r8_lr0.0002": {
+   "r": 8,
+   "lora_alpha": 8,
+   "learning_rate": 0.0002,
+   "leak_rate": 0.0,
+   "question_rate": 0.59,
+   "words": 18.96,
+   "rougeL": 0.3018,
+   "bleu": 0.1527,
+   "by_source": {
+    "socrateach": {
+     "leak_rate": 0.0,
+     "question_rate": 0.74,
+     "words": 26.5,
+     "rougeL": 0.3825,
+     "bleu": 0.1882
+    },
+    "mathdial": {
+     "leak_rate": 0.0,
+     "question_rate": 0.44,
+     "words": 11.42,
+     "rougeL": 0.2211,
+     "bleu": 0.0459
+    }
+   },
+   "val_loss": 1.1693,
+   "runaway_replies": 0,
+   "empty_replies": 0,
+   "eval_minutes": 3.77,
+   "train_dialogues": 399,
+   "train_minutes": 18.76,
+   "trainable_params": 10616832
+  },
+  "lora_r16_lr0.0002": {
+   "r": 16,
+   "lora_alpha": 16,
+   "learning_rate": 0.0002,
+   "leak_rate": 0.0,
+   "question_rate": 0.54,
+   "words": 18.85,
+   "rougeL": 0.3079,
+   "bleu": 0.1632,
+   "by_source": {
+    "socrateach": {
+     "leak_rate": 0.0,
+     "question_rate": 0.74,
+     "words": 26.68,
+     "rougeL": 0.3966,
+     "bleu": 0.2029
+    },
+    "mathdial": {
+     "leak_rate": 0.0,
+     "question_rate": 0.34,
+     "words": 11.02,
+     "rougeL": 0.2193,
+     "bleu": 0.0414
+    }
+   },
+   "val_loss": 1.1538,
+   "runaway_replies": 0,
+   "empty_replies": 0,
+   "eval_minutes": 3.84,
+   "train_dialogues": 399,
+   "train_minutes": 15.75,
+   "trainable_params": 21233664
+  },
+  "lora_r8_lr5e-05": {
+   "r": 8,
+   "lora_alpha": 8,
+   "learning_rate": 5e-05,
+   "leak_rate": 0.01,
+   "question_rate": 0.72,
+   "words": 16.96,
+   "rougeL": 0.2591,
+   "bleu": 0.12,
+   "by_source": {
+    "socrateach": {
+     "leak_rate": 0.0,
+     "question_rate": 0.82,
+     "words": 19.44,
+     "rougeL": 0.3706,
+     "bleu": 0.1356
+    },
+    "mathdial": {
+     "leak_rate": 0.02,
+     "question_rate": 0.62,
+     "words": 14.48,
+     "rougeL": 0.1475,
+     "bleu": 0.0287
+    }
+   },
+   "val_loss": 1.2545,
+   "runaway_replies": 0,
+   "empty_replies": 0,
+   "eval_minutes": 3.74,
+   "train_dialogues": 399,
+   "train_minutes": 15.69,
+   "trainable_params": 10616832
+  }
+ },
+ "best_setting": "lora_r16_lr0.0002",
+ "final": {
+  "r": 16,
+  "lora_alpha": 16,
+  "learning_rate": 0.0002,
+  "leak_rate": 0.0,
+  "question_rate": 0.59,
+  "words": 20.25,
+  "rougeL": 0.3312,
+  "bleu": 0.1761,
+  "by_source": {
+   "socrateach": {
+    "leak_rate": 0.0,
+    "question_rate": 0.76,
+    "words": 27.96,
+    "rougeL": 0.4187,
+    "bleu": 0.2165
+   },
+   "mathdial": {
+    "leak_rate": 0.0,
+    "question_rate": 0.42,
+    "words": 12.54,
+    "rougeL": 0.2437,
+    "bleu": 0.0558
+   }
+  },
+  "val_loss": 1.072,
+  "runaway_replies": 0,
+  "empty_replies": 0,
+  "eval_minutes": 4.06,
+  "train_dialogues": 1995,
+  "train_minutes": 79.92,
+  "trainable_params": 21233664
+ },
+ "final_name": "final_lora_r16_lr0.0002"
+}
