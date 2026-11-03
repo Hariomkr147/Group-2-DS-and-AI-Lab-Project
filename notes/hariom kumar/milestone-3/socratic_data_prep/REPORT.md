@@ -21,11 +21,11 @@ with training or validation.
 | train | 23,876 | 8,661 | 22,574 | 1,302 |
 | val | 2,993 | 1,032 | 2,682 | 311 |
 | test (MathDial official test) | 599 | 394 | 0 | 599 |
-| candidate_train (frozen v1) | 1,767 | | 1,000 | 767 |
-| candidate_val (frozen v1) | 200 | | 100 | 100 |
+| candidate_train | 2,000 | | 1,000 | 1,000 |
+| candidate_val | 200 | | 100 | 100 |
 
-The candidate subset is the experiment set for the M3 baseline and fine-tuning runs. The full
-train and validation splits are for final training.
+The candidate subset is the experiment set for the M3 model comparison and fine-tuning runs. The
+full train and validation splits are for final training.
 
 ---
 
@@ -152,16 +152,14 @@ MathDial's 2,262 official-train dialogues end up as follows:
 
 ## 7. Candidate subset
 
-The candidate subset is a small, fixed experiment set used for the 4-bit baseline and every
-fine-tuning configuration in M3, so all runs are compared on identical data.
+The candidate subset is the experiment set for the M3 model comparison (Gemma 4 E4B vs Qwen 3.5-4B)
+and the fine-tuning runs. Both models train and evaluate on exactly these files.
 
-- **Train:** 1,000 SocraTeach + 767 MathDial dialogues. The draw asked for up to 1,000 per source and
-  took every MathDial train dialogue available at the time.
-- **Validation:** 100 SocraTeach + 100 MathDial dialogues.
-- **Sampling:** within each source, stratified by word-count quartile.
-- **Frozen:** `candidate_v1_ids.json` lists the dialogue IDs in order. The notebook rebuilds the same
-  two files from it and asserts that every training dialogue sits on a train problem and every
-  validation dialogue on a validation problem.
+- **Train:** 1,000 SocraTeach + 1,000 MathDial dialogues, drawn from the train split.
+- **Validation:** 100 SocraTeach + 100 MathDial dialogues, drawn from the validation split.
+- **Sampling:** within each source, stratified by word-count quartile (seed 42).
+- **Checks:** the notebook asserts that every candidate dialogue belongs to its parent split, so no
+  candidate dialogue shares a problem with validation (for train) or test.
 
 ### 7.1 Representativeness
 
@@ -169,13 +167,13 @@ Two-sample Kolmogorov–Smirnov tests compare the subset with the full train spl
 
 | Source | Feature | Full train mean | Subset mean | KS statistic | p-value |
 |---|---|---:|---:|---:|---:|
-| SocraTeach | Words per dialogue | 234.9 | 234.9 | 0.018 | 0.89 |
-| SocraTeach | Messages per dialogue | 9.71 | 9.70 | 0.007 | 1.00 |
-| SocraTeach | Share of tutor turns that leak | 0.003 | 0.003 | 0.005 | 1.00 |
-| MathDial | Words per dialogue | 314.2 | 317.3 | 0.022 | 0.97 |
-| MathDial | Messages per dialogue | 12.04 | 12.11 | 0.009 | 1.00 |
-| MathDial | Share of tutor turns that leak | 0.017 | 0.016 | 0.007 | 1.00 |
-| MathDial | Share of tutor turns "telling" | 0.154 | 0.152 | 0.014 | 1.00 |
+| SocraTeach | Words per dialogue | 234.9 | 234.3 | 0.020 | 0.81 |
+| SocraTeach | Messages per dialogue | 9.71 | 9.69 | 0.013 | 0.99 |
+| SocraTeach | Share of tutor turns that leak | 0.003 | 0.004 | 0.004 | 1.00 |
+| MathDial | Words per dialogue | 314.2 | 312.9 | 0.010 | 1.00 |
+| MathDial | Messages per dialogue | 12.04 | 12.03 | 0.013 | 1.00 |
+| MathDial | Share of tutor turns that leak | 0.017 | 0.017 | 0.004 | 1.00 |
+| MathDial | Share of tutor turns "telling" | 0.154 | 0.153 | 0.006 | 1.00 |
 
 Within each source, no feature differs measurably between the subset and the full split.
 
@@ -183,10 +181,10 @@ Within each source, no feature differs measurably between the subset and the ful
 
 ### 7.2 Source mix
 
-MathDial is 5.5% of the full train split and 43% of the candidate subset. This is deliberate:
+MathDial is 5.5% of the full train split and 50% of the candidate subset. This is deliberate:
 
 - MathDial is the only real-teacher data, and the test set is entirely MathDial.
-- At the natural 5.5%, the subset would hold about 100 MathDial dialogues, too few to learn
+- At the natural 5.5%, the subset would hold about 110 MathDial dialogues, too few to learn
   real-teacher style or to separate one configuration from another.
 - SocraTeach is LLM-generated with several dialogues per problem, so extra SocraTeach dialogues add
   little new information.
@@ -207,10 +205,10 @@ checkpoints are selected on MathDial validation, and all results are reported pe
 | val | SocraTeach | 2,682 | 234 | 393 | 9 | 0.4% | — |
 | val | MathDial | 311 | 254 | 645 | 11 | 1.8% | 17.4% |
 | test | MathDial | 599 | 265 | 603 | 11 | 2.1% | 15.8% |
-| candidate_train | SocraTeach | 1,000 | 230 | 391 | 9 | 0.3% | — |
-| candidate_train | MathDial | 767 | 281 | 691 | 11 | 1.6% | 15.2% |
-| candidate_val | SocraTeach | 100 | 234 | 395 | 10 | 0.2% | — |
-| candidate_val | MathDial | 100 | 268 | 586 | 11 | 1.7% | 20.3% |
+| candidate_train | SocraTeach | 1,000 | 232 | 391 | 9 | 0.4% | — |
+| candidate_train | MathDial | 1,000 | 274 | 689 | 11 | 1.7% | 15.3% |
+| candidate_val | SocraTeach | 100 | 234 | 393 | 11 | 0.2% | — |
+| candidate_val | MathDial | 100 | 256 | 628 | 11 | 2.0% | 17.6% |
 
 Leak and telling shares are per-dialogue means. SocraTeach has no move labels, so "telling" does
 not apply to it. MathDial dialogues are longer and contain more telling and leaks than SocraTeach,
@@ -279,7 +277,7 @@ A final student turn has no tutor reply to learn from, so it is dropped.
 | 7.10, action 02 | Clean, reusable pipeline | One notebook on local raw files plus a pinned download script; deterministic |
 | 7.10, action 03 | Full EDA | Sections 4 and 8, four figures |
 | 7.10, action 04 | 3–4 before/after examples | Section 9 |
-| 8.1 | Manageable subset for comparative runs | Frozen candidate subset, about 7% of train, KS-checked |
+| 8.1 | Manageable subset for comparative runs | Balanced candidate subset of 2,000 + 200 dialogues (about 8% of train), KS-checked |
 | 7.10, action 18 | Publish cleaned data where licences allow | Published on Kaggle: https://www.kaggle.com/datasets/hariomkr/socratic (both licences allow it with attribution; SocraTeach non-commercial) |
 
 ---
@@ -292,7 +290,6 @@ The processed dataset is hosted on Kaggle: **https://www.kaggle.com/datasets/har
 |---|---|
 | `socratic_dialogue_prep.ipynb` | The full pipeline: load, EDA, schema, cleaning, annotation, split, subset, EDA, save |
 | `download_raw.py` | Recreates `raw/` from the pinned HuggingFace revisions |
-| `candidate_v1_ids.json` | Dialogue IDs of the frozen candidate subset |
 | `raw/` | `socrateach_multi_train.jsonl.gz`, `mathdial_train.jsonl.gz`, `mathdial_test.jsonl.gz` |
 | `processed/` | `train`, `val`, `test`, `candidate_train`, `candidate_val` (`.jsonl.gz`), `split_problem_ids.json`, `stats.json` |
 | `figures/` | Raw overview, train distributions, candidate vs full train, split overlap |

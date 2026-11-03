@@ -17,18 +17,16 @@ It only reads local files and needs pandas, matplotlib and scipy.
 | train | 23,876 (22,574 SocraTeach, 1,302 MathDial) | 8,661 |
 | val | 2,993 (2,682 SocraTeach, 311 MathDial) | 1,032 |
 | test (MathDial official test) | 599 | 394 |
-| candidate_train (v1, frozen) | 1,767 (1,000 SocraTeach, 767 MathDial) | |
-| candidate_val (v1, frozen) | 200 (100 per source) | |
+| candidate_train | 2,000 (1,000 SocraTeach, 1,000 MathDial) | |
+| candidate_val | 200 (100 per source) | |
 
 Splits are by problem, and no problem appears in two splits. Every problem in the MathDial test
 set is removed from train and validation in both sources. Train and validation keep at most 3
 dialogues per problem from each source, so SocraTeach repeats never push out MathDial dialogues.
 
-The candidate subset is frozen at version 1 because the baseline and fine-tuning runs already use
-it. `candidate_v1_ids.json` lists its dialogue IDs in file order, and the notebook rebuilds the same
-two files from them. Every candidate dialogue comes from a train problem (val problems for
-`candidate_val`), so it never touches validation or test problems. Version 1 was drawn before the
-cap counted each source separately, which is why it has 767 MathDial dialogues and not 1,000.
+The candidate subset (1,000 + 1,000 train, 100 + 100 validation, stratified by length) is the
+shared experiment set for the Gemma and Qwen comparison. `candidate_v1_ids.json` is an archive of
+the earlier 1,000 + 767 subset used in the first fine-tuning runs; the notebook no longer reads it.
 
 Compared with `notes/hariom pandey/milestone-2/socratic_tutor_combined.jsonl` (left unchanged), the
 records keep the problem text, reference answer and solution for SocraTeach. They also carry a
