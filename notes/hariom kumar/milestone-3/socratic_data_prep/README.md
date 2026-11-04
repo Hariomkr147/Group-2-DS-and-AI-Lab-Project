@@ -5,6 +5,8 @@ produces cleaned, annotated, problem-level splits in `processed/` with plots in 
 It only reads local files and needs pandas, matplotlib and scipy.
 
 **Hosted processed dataset (Kaggle):** https://www.kaggle.com/datasets/hariomkr/socratic
+**Candidate dataset(kaggle):** https://www.kaggle.com/datasets/hariomkr/socratic-test-db/data
+
 
 | Folder | Contents |
 | --- | --- |
