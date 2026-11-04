@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "train": {
+    "conversations": 2000,
+    "by_source": {
+      "mathdial": 600,
+      "socrateach": 1400
+    },
+    "problems": 1710,
+    "mean_messages": {
+      "full_split": 10.72,
+      "subset": 11.35
+    }
+  },
+  "val": {
+    "conversations": 150,
+    "by_source": {
+      "mathdial": 60,
+      "socrateach": 90
+    },
+    "problems": 109,
+    "mean_messages": {
+      "full_split": 11.4,
+      "subset": 11.68
+    }
+  },
+  "test": {
+    "conversations": 200,
+    "by_source": {
+      "mathdial": 100,
+      "socrateach": 100
+    },
+    "problems": 129,
+    "mean_messages": {
+      "full_split": 11.37,
+      "subset": 11.6
+    }
+  }
+}

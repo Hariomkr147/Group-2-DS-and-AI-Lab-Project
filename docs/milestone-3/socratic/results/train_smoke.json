@@ -1,0 +1,31 @@
+{
+ "args": {
+  "model": "microsoft/Phi-4-mini-instruct",
+  "name": "smoke",
+  "rank": 16,
+  "lr": 0.0002,
+  "epochs": 1,
+  "per_conv": 2,
+  "max_len": 512,
+  "micro_bs": 2,
+  "accum": 8,
+  "max_steps": 10,
+  "seed": 42
+ },
+ "train": [
+  {
+   "step": 10,
+   "loss": 2.6527994751930235
+  }
+ ],
+ "val": [
+  {
+   "step": 0,
+   "loss": 4.10167819173844
+  },
+  {
+   "step": 10,
+   "loss": 1.562510689710374
+  }
+ ]
+}
