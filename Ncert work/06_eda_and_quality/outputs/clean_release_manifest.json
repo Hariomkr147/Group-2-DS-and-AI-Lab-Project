@@ -1,0 +1,25 @@
+{
+  "status": "accepted",
+  "corpus_version": "ncert-clean-74449d17823b3c1f",
+  "run_id": "20261104T113429-a3126a46",
+  "record_count": 89,
+  "input_hashes": {
+    "01_download_pdfs/manifests/sources.csv": "df75abeaad8a95be6c3c1e4ba828efb96a0df2fbb138e4bd522867a71a9d456d",
+    "04_extract_text_and_ocr/outputs/pages.jsonl": "2a6298010ec352ff6d4f21ef4091305c0cba06b9ca8deaaf781a34efde4a8239",
+    "04_extract_text_and_ocr/outputs/blocks.jsonl": "3d17cc4b88d202323ad0c28c619968ee41cb9f81a37ad37d5042675580dabbd2",
+    "04_extract_text_and_ocr/outputs/assets_manifest.csv": "f547e660b87c50f248e0d63b378d7c2a774e9c2fc9e8641a677b31b138a40bcc",
+    "05_clean_and_preprocess/outputs/clean_blocks.jsonl": "505f7f5d53a757e616083a8b16796c82b4137cefe9029ce2b42b36df265ca197",
+    "05_clean_and_preprocess/outputs/transform_log.jsonl": "737cc4d18b9de18973cc54c1e846e09d65d9b31c011e290b0d7e78a9b420e2e5",
+    "03_parser_benchmark/outputs/selected_parser_policy.json": "ddc22c63b73b73cc8d18833054eb7d15062ddbaeea64a7f3114d1063e6479cfe",
+    "06_eda_and_quality/outputs/quality_sample_pages.csv": "1bb6678b480543d90165aa7703e093f795208b6fd52b4c20837731ea50d27085",
+    "06_eda_and_quality/outputs/quality_annotations.csv": "3d6f8bc17519b129cc57377c530a60de7729b660ef42bca2757391598796b526",
+    "05_clean_and_preprocess/config/source_corrections.json": "9fedc4cee44944af7114f700eb33adc1919b1d0d9f5ea2a85e624deb0311a7cd",
+    "00_setup_and_scope/config/review_policy.json": "20492f44231388feac36db51ec233e9b7fede23be1553042e898fe018fac7e8f",
+    "06_eda_and_quality/outputs/block_reviews.csv": "45fb539527f44361f79e1f3e638380db69c246d9b8c63f072a5d3e14649cc70f"
+  },
+  "review_annotations_sha256": "3d6f8bc17519b129cc57377c530a60de7729b660ef42bca2757391598796b526",
+  "publication": "local only; public permissions not granted",
+  "blockers": [],
+  "artifact_path": "06_eda_and_quality/outputs/ncert-clean-74449d17823b3c1f/accepted_blocks.jsonl",
+  "artifact_sha256": "75479039efe9ac8524aa2bc36c4a1e3a3369147fc4434a634bcbd8d88becceed"
+}

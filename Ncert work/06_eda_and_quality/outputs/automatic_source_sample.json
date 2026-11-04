@@ -1,0 +1,60 @@
+{
+  "selection": "Python random.Random(20261103), one physical chapter-content page per source sorted by source ID and page",
+  "sample_size": 4,
+  "results": [
+    {
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "physical_page": 6,
+      "review_method": "ai_visual_source_check",
+      "reviewer": "Codex",
+      "observation": "visual labels reside in diagrams; omitted from extracted prose; keep visual-dependent material separate",
+      "original_observation": "visual labels reside in diagrams; omitted from extracted prose; keep visual-dependent material separate",
+      "resolution": "diagram_material_excluded"
+    },
+    {
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "physical_page": 5,
+      "review_method": "ai_visual_source_check",
+      "reviewer": "Codex",
+      "observation": "h0ur corrected to hour in text and LaTeX using the original source; exact before/after and source hash enforced.",
+      "original_observation": "OCR reads hour as h0ur; matching block is quarantined and not an accepted retrieval chunk",
+      "resolution": "fixed_2026-11-04"
+    },
+    {
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "physical_page": 3,
+      "review_method": "ai_visual_source_check",
+      "reviewer": "Codex",
+      "observation": "Exercise rupee symbols restored from native U+F060 font glyph positions; \u20b95 and \u20b9600 checked against the rendered page. Unresolved formula/table currency positions remain excluded.",
+      "original_observation": "rupee symbols are missing from extracted exercise text; affected questions remain pending",
+      "resolution": "known_exercise_defects_fixed_other_positions_excluded"
+    },
+    {
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "physical_page": 6,
+      "review_method": "ai_visual_source_check",
+      "reviewer": "Codex",
+      "observation": "Cleaned physical page 6 uses source-coordinate reading order: upper convection before lower Land and Sea Breeze. Raw extraction retained.",
+      "original_observation": "native extracted block order places the lower land/sea-breeze section before the upper convection passage",
+      "resolution": "fixed_2026-11-04"
+    }
+  ],
+  "limitation": "AI sampling, not independent review or corpus-wide accuracy; diagram labels are not prose extraction",
+  "additional_targeted_check": {
+    "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+    "physical_page": 1,
+    "method": "Codex visual check against original PDF",
+    "finding": "The page-level native-glyph warning includes symbols in the separate worked example. The four accepted ratio/percentage chunks on this page were compared with the source and do not contain those currency values.",
+    "accepted_chunks_checked": [
+      "ncert-chunk-fe48c4e2ba4e9b9f680a",
+      "ncert-chunk-ce0074fd76ffae69d18d",
+      "ncert-chunk-663595cdb1e201a5ce43",
+      "ncert-chunk-b883956442af2c641870"
+    ]
+  },
+  "resolution_evidence": "06_eda_and_quality/outputs/release_gate_checks.json"
+}

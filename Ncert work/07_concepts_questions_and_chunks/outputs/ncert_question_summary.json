@@ -1,0 +1,60 @@
+{
+ "questions": 85,
+ "by_source_provenance": {
+  "mathematics-g6 in_chapter ncert_extracted": 40,
+  "mathematics-g7 in_chapter ncert_extracted": 21,
+  "mathematics-g8 in_chapter ncert_extracted": 8,
+  "mathematics-g8 exercise ncert_extracted": 13,
+  "science-g7 exercise ncert_extracted": 3
+ },
+ "questions_with_ncert_answer": 63,
+ "questions_with_ncert_answer_by_source": {
+  "g6": 33,
+  "g7": 17,
+  "g8": 13
+ },
+ "skipped_figure_questions": 16,
+ "skipped_figure_answers": 11,
+ "worked_examples": 14,
+ "worked_examples_by_source": {
+  "g7": 4,
+  "g8": 10
+ },
+ "answer_key": {
+  "ncert-en-mathematics-g6-fegp1-r202627-07": {
+   "items": 52,
+   "linked_to_chapter_question": 42,
+   "located_in_chapter_page": 17,
+   "unmatched_keys": 10,
+   "page_offset": 150,
+   "physical_page_provenance": "Canonical solution blocks; chapter page from printed-page offset"
+  },
+  "ncert-en-mathematics-g7-gegp1-r202627-08": {
+   "items": 23,
+   "linked_to_chapter_question": 19,
+   "located_in_chapter_page": 1,
+   "unmatched_keys": 4,
+   "page_offset": 172,
+   "physical_page_provenance": "Canonical solution blocks; chapter page from printed-page offset"
+  },
+  "ncert-en-mathematics-g8-hemh1-r202425-an": {
+   "items": 222,
+   "linked_to_chapter_question": 13,
+   "located_in_chapter_page": 0,
+   "unmatched_keys": 209,
+   "page_offset": 170,
+   "physical_page_provenance": "Canonical solution blocks; chapter page from printed-page offset"
+  }
+ },
+ "invented_questions": 0,
+ "invented_answers": 0,
+ "block_role_counts": {
+  "content": 1161,
+  "excluded": 862,
+  "question": 299,
+  "answer": 659,
+  "worked_example": 109
+ },
+ "role_conflicts": 0,
+ "not_extracted": "figure-dependent questions (skipped), unnumbered in-text prompts without an NCERT key; extraction does not approve scoring"
+}

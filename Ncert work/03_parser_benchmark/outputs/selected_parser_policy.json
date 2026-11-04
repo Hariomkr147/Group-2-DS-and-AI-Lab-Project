@@ -1,0 +1,36 @@
+{
+  "status": "accepted conditional route for explicitly source-checked pilot blocks",
+  "accepted_default_parser": "Subject/role router: MinerU for maths and solutions; PyMuPDF for plain science",
+  "accepted_ocr_policy": "MinerU auto only on selected pages; per-page OCR unknown if only batch observations exist",
+  "candidates_run": [
+    "PyMuPDF 1.25.1 native CPU",
+    "MinerU 4.1.3 Basic ONNX CPU; auto resolved txt with internal OCR logged"
+  ],
+  "scope": "15 identical physical pages from four unchanged chapter PDFs",
+  "limits": [
+    "No independent human review claimed; user delegated judgment to Codex",
+    "No full-page CER/WER or global formula accuracy result",
+    "Diagrams/tables/unverified blocks require separate checks",
+    "Whole-corpus descendant/VRAM peak unmeasured; a main-process single-page counter exists",
+    "Scanned-page and GPU cases unavailable in the pilot"
+  ],
+  "acceptance_required": [
+    "Each released block needs a matching source/content-hash review",
+    "Keep private answers and unsupported diagrams excluded",
+    "Resolve or quarantine every critical ambiguity"
+  ],
+  "reviewer": "Codex",
+  "review_method": "ai_visual_source_check",
+  "review_date": "2026-11-02T14:43:30.119568+00:00",
+  "authorization_ref": "00_setup_and_scope/config/review_policy.json",
+  "approved_reference_ids": [
+    "ncert-en-mathematics-g6-fegp1-r202627-07-p015-ref1",
+    "ncert-en-mathematics-g7-gegp1-r202627-08-p026-ref1",
+    "ncert-en-mathematics-g8-hemh1-r202425-07-p010-ref1",
+    "ncert-en-science-g7-gecu1-r202627-07-p008-ref1"
+  ],
+  "quality_scope": "4 source-reference checks and 15 inspected development page renders; not whole-corpus accuracy",
+  "independent_human_review": false,
+  "routing_policy_ref": "03_parser_benchmark/outputs/working_parser_policy.json",
+  "grade9_validation_ref": "03_parser_benchmark/outputs/hybrid/grade9_routing_validation.json"
+}

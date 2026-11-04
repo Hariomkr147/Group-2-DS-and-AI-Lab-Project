@@ -1,0 +1,11 @@
+{
+  "database": "ncert_pilot",
+  "version": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit",
+  "listen": "127.0.0.1",
+  "port": 54329,
+  "dedicated_cluster": true,
+  "pgvector_available": true,
+  "vector_search": "exact local NumPy fallback if extension unavailable",
+  "auth": "scram-sha-256; generated secret in ignored connection file",
+  "run_id": "20261104T183013-7b7f3a8a"
+}

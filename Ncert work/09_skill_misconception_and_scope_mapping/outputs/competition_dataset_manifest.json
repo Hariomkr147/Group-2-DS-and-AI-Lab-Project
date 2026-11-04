@@ -1,0 +1,124 @@
+{
+  "run_id": "20261102T184035-342fbd3c",
+  "datasets": [
+    {
+      "competition": "eedi-mining-misconceptions-in-mathematics",
+      "dataset_release": "eedi-mining-misconceptions-in-mathematics-3ca10b7ca2491487",
+      "source_url": "https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/data",
+      "archive_sha256": "3ca10b7ca2491487542ca9975a4ab8867922d3a85b0b4b9fe5a2657eaf1dd40f",
+      "files": {
+        "misconception_mapping.csv": {
+          "rows": 2587,
+          "columns": [
+            "MisconceptionId",
+            "MisconceptionName"
+          ],
+          "sha256": "2b2fd9c031084b11fe486435c823452e5ef1a8edc1fa47ab7fa676ffe141a507",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/eedi-mining-misconceptions-in-mathematics/3ca10b7ca2491487/misconception_mapping.csv"
+        },
+        "sample_submission.csv": {
+          "rows": 9,
+          "columns": [
+            "QuestionId_Answer",
+            "MisconceptionId"
+          ],
+          "sha256": "fb5c3bc12305bc1e6485ff2efccbdcf417fbee0409e1141b98bea21b1f45b02f",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/eedi-mining-misconceptions-in-mathematics/3ca10b7ca2491487/sample_submission.csv"
+        },
+        "test.csv": {
+          "rows": 3,
+          "columns": [
+            "QuestionId",
+            "ConstructId",
+            "ConstructName",
+            "SubjectId",
+            "SubjectName",
+            "CorrectAnswer",
+            "QuestionText",
+            "AnswerAText",
+            "AnswerBText",
+            "AnswerCText",
+            "AnswerDText"
+          ],
+          "sha256": "1f41378f411b51f2217beee8f3031c7c529867a6b2c1666268020fa3298326fd",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/eedi-mining-misconceptions-in-mathematics/3ca10b7ca2491487/test.csv"
+        },
+        "train.csv": {
+          "rows": 1869,
+          "columns": [
+            "QuestionId",
+            "ConstructId",
+            "ConstructName",
+            "SubjectId",
+            "SubjectName",
+            "CorrectAnswer",
+            "QuestionText",
+            "AnswerAText",
+            "AnswerBText",
+            "AnswerCText",
+            "AnswerDText",
+            "MisconceptionAId",
+            "MisconceptionBId",
+            "MisconceptionCId",
+            "MisconceptionDId"
+          ],
+          "sha256": "31fbea4fdb250fc67a8254aba0764100e89db71a43ea74d2f123ef1c95545187",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/eedi-mining-misconceptions-in-mathematics/3ca10b7ca2491487/train.csv"
+        }
+      },
+      "access": "Authorized rules acceptance in signed-in browser; official Download as zip",
+      "terms": "Non-commercial academic evaluation; restrict access to accepted participants; no redistribution",
+      "licence_display": "CC BY-NC 4.0"
+    },
+    {
+      "competition": "map-charting-student-math-misunderstandings",
+      "dataset_release": "map-charting-student-math-misunderstandings-7ab5d9e079ba2f9e",
+      "source_url": "https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/data",
+      "archive_sha256": "7ab5d9e079ba2f9e9e99333ee013c4804ae5ddfdfce8af01b4e491f177343176",
+      "files": {
+        "sample_submission.csv": {
+          "rows": 3,
+          "columns": [
+            "row_id",
+            "Category:Misconception"
+          ],
+          "sha256": "ebae55e3d11595b1e718ce0431ead92e4a53ea4346b5e4346fb9d0586524a5cd",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/map-charting-student-math-misunderstandings/7ab5d9e079ba2f9e/sample_submission.csv"
+        },
+        "test.csv": {
+          "rows": 3,
+          "columns": [
+            "row_id",
+            "QuestionId",
+            "QuestionText",
+            "MC_Answer",
+            "StudentExplanation"
+          ],
+          "sha256": "869589a08a46766b8ce9f08a18e393bb5316b119de2520ef1391faa51ad3d0c0",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/map-charting-student-math-misunderstandings/7ab5d9e079ba2f9e/test.csv"
+        },
+        "train.csv": {
+          "rows": 36696,
+          "columns": [
+            "row_id",
+            "QuestionId",
+            "QuestionText",
+            "MC_Answer",
+            "StudentExplanation",
+            "Category",
+            "Misconception"
+          ],
+          "sha256": "f347a34f62be3b1bc188b11290f5615b5bf050a7b7c3aeb21b1966feed7615a0",
+          "path": "09_skill_misconception_and_scope_mapping/datasets/kaggle/map-charting-student-math-misunderstandings/7ab5d9e079ba2f9e/train.csv"
+        }
+      },
+      "access": "Authorized rules acceptance in signed-in browser; official Download as zip",
+      "terms": "Non-commercial academic evaluation; restrict access to accepted participants; no redistribution",
+      "licence_display": "Data tab displays MIT; accepted competition-specific data rules specify CC BY-NC 4.0; retain locally under competition restrictions"
+    }
+  ],
+  "original_rows_preserved": true,
+  "invented_examples": 0,
+  "publication": "Summary metadata only; competition CSVs/archives/private rows stay ignored and local",
+  "table": "ncert_diag_eval.original_rows"
+}

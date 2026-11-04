@@ -1,0 +1,1017 @@
+{
+  "bank_sha256": "ed880767fce07cbc675f8e35cb74bc3b720b90440451c08ef7a438fff3985e49",
+  "chunks_sha256": "2742b1e12928a5247ddf3e5a719d1596b9f2dc90541ea7bdb87c8f90091cee3b",
+  "annotation": "Codex objective-based judgment before rankings; original publisher wording, no synthetic paraphrases",
+  "corpus_amendment": "Standalone passage checks after initial 52-chunk run; original labels/splits unchanged; held-out questions reused",
+  "split": "source + section + physical page groups; all same-page subparts kept together",
+  "primary": "Fully supported text questions only; all other cases test abstention",
+  "thresholds": [
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "margins": [
+    0,
+    0.02,
+    0.05,
+    0.08,
+    0.1
+  ],
+  "criterion": "+1 correct supported acceptance or challenge abstention; -2 wrong acceptance; zero positive abstention",
+  "cases": [
+    {
+      "question_id": "ncert-q-c3a756d6b7fec30f",
+      "text": "Fill in the blanks with fractions.\n1. Three guavas together weigh 1 kg. If they are roughly of the same size, each guava will roughly weigh ____ kg.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 2,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p2",
+      "split": "calibration",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-28b12a0710579884",
+      "text": "Fill in the blanks with fractions.\n2. A wholesale merchant packed 1 kg of rice in four packets of equal weight. The weight of each packet is ___ kg.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 2,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p2",
+      "split": "calibration",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-f4ee9c70712ab0aa",
+      "text": "Fill in the blanks with fractions.\n3. Four friends ordered 3 glasses of sugarcane juice and shared it equally among themselves. Each one drank ____ glass of sugarcane juice.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 2,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p2",
+      "split": "calibration",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-e82351cabb1aef4a",
+      "text": "Fill in the blanks with fractions.\n4.  The big fish weighs \\frac { 1 } { 2 } kg. The small one weighs \\frac { 1 } { 4 } kg. Together they weigh ____ kg.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 3,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p3",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-274431e6ddd229fc",
+      "text": "\n1. Continue this table of \\frac { 1 } { 2 } for 2 more steps.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 8,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-e34d9fb76ed1cba5",
+      "text": "\n2. Can you create a similar table for \\frac { 1 } { 4 } ?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 8,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-adcfd00eb9b05540",
+      "text": "\n3. Make \\frac { 1 } { 3 } using a paper strip. Can you use this to also make \\frac { 1 } { 6 } \\frac { 7 } { 8 } 0",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 8,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-20ab38dd44e414c7",
+      "text": "\n4. Draw a picture and write an addition statement as above to show: a. 5 times \\frac { 1 } { 4 } of a roti b. 9 times \\frac { 1 } { 4 } of a roti",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 8,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-a70b03759a5de46c",
+      "text": "\n5. Match each fractional unit with the correct picture:\n13\n15\n18",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 8,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-f9988ad1b700e9a6",
+      "text": "\n1. How many whole units are there in \\frac { 7 } { 2 } ?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 12,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-ead007d6e55a4cff",
+      "text": "\n2. How many whole units are there in \\frac{4}{3} and in \\frac { 7 } { 3 } ?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 12,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-83a7a45b088d79b4",
+      "text": "\n1. Figure out the number of whole units in each of the following fractions: a. \\frac{8}{3} b. \\frac { 1 1 } { 5 } . \\frac { 9 } { 4 }\nWe saw that\nThis number is thus also called ‘two and two thirds’. We also write it as 2   \\frac { 2 } { 3 }\nFraction Mixed number",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 12,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-4ea01ad3484fb0c3",
+      "text": "\n2. Can all fractions greater than 1 be written as such mixed numbers?\nA mixed number or mixed fraction contains a whole number (called the whole part) and a fraction that is less than 1 (called the fractional part).\nWrite the following fractions as mixed fractions (e.g., \\textstyle { \\frac { 9 } { 2 } }   = 4   { \\frac { 1 } { 2 } } ) a. \\frac { 9 } { 2 } b. \\frac{9}{5} c. \\frac { 2 1 } { 1 9 } d. \\frac { 4 7 } { 9 } e. \\frac { 1 2 } { 1 1 } f. \\frac { 1 9 } { 6 }\nCan we write a mixed number (mixed fraction) as a regular fraction?\nYes! I figured out a way to write a mixed number as a regular fraction!\nJaya: When I have 3 + { \\frac { 3 } { 4 } } , this means 1 + 1 + 1 + { \\frac { 3 } { 4 } } . I know\n1   =   { \\frac { 1 } { 4 } } + { \\frac { 1 } { 4 } } + { \\frac { 1 } { 4 } } + { \\frac { 1 } { 4 } }   .\nSo I get\n\\left( \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} \\right) + \\left( \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} \\right) + \\left( \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} \\right) + \\left( \\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4} \\right) = \\frac{15}{4}.\nTherefore, (4 \\times \\frac{1}{4}) + (4 \\times \\frac{1}{4}) + (\\frac{1}{4} \\times \\frac{1}{4}) + (3 \\times \\frac{1}{4}) = \\frac{15}{4};",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 12,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-a808fd276a53a7bf",
+      "text": "\n1. Are \\frac{3}{6} ,  \\frac{4}{8} ,  \\frac{5}{10} equivalent fractions? Why?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 15,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p15",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-b4a98f6c3a4c534b",
+      "text": "\n2. Write two equivalent fractions for \\frac{2}{6} .",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 15,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p15",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-8d95fafb7362ffaa",
+      "text": "\n3. \\frac{4}{6} = \\begin{array}{c} \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\end{array} = \\begin{array}{c} \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\end{array} = \\begin{array}{c} \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\boxed{\\quad} \\\\ \\end{array} = ... (Write as many as you can)\nUnderstanding equivalent fractions using equal shares\nOne roti was shared equally by four children. What fraction of the whole did each child get?\nThe adjoining picture shows the division of a roti among four children.\nFraction of roti each child got is \\frac { 1 } { 4 } .\nThe four shares must be equal to each other!\nYou can also express this event through division facts, addition facts, and multiplication facts.\nThe division fact is 1 \\div 4 = \\frac{1}{4}\nThe addition fact is 1 \\; = \\; { \\frac { 1 } { 4 } } \\; + \\; { \\frac { 1 } { 4 } } \\; + \\; { \\frac { 1 } { 4 } } \\; + \\; { \\frac { 1 } { 4 } }\nThe multiplication fact is 1 = 4 \\times { \\frac { 1 } { 4 } }",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 15,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p15",
+      "split": "calibration",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-ba88d01b18df450f",
+      "text": "\n1. Three rotis are shared equally by four children. Show the division in the picture and write a fraction for how much each child gets. Also, write the corresponding division facts, addition facts, and, multiplication facts.\nFraction of roti each child gets is ______.\nDivision fact:\nAddition fact:\nMultiplication fact:\nCompare your picture and answers with your classmates!",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 16,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p16",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-09c71db889d47152",
+      "text": "\n2. Draw a picture to show how much each child gets when 2 rotis are shared equally by 4 children. Also, write the corresponding division facts, addition facts, and multiplication facts.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 16,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p16",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-0c70a20c78e019e5",
+      "text": "\n3. Anil was in a group where 2 cakes were divided equally among 5   children. How much cake would Anil get?\nNow, if there are 10 children in my group, how many cakes will I need so that they get same amount of cake as Anil?\nWhat if we put two such groups together? one group where 2 cakes are divided equally between 5 children, and another group again with 4 cakes and 10 children.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 16,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p16",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "fractions"
+      ]
+    },
+    {
+      "question_id": "ncert-q-ebc618cdd84314e5",
+      "text": "Find the missing numbers: a. glasses of juice shared equally among 4 friends is the same as ____ glasses of juice shared equally among 8 friends. So, { \\frac { 5 } { 4 } } = { \\overline { { \\frac { } { 8 } } } } . b. 4 kg of potatoes divided equally in 3 bags is the same as 12 kgs of potatoes divided equally in ___ bags. So, \\frac { 4 } { 3 } = \\frac { 1 2 } { \\bigtriangleup } c. 7 rotis divided among 5 children is the same as ____ rotis divided among _____ children. So, \\frac{7}{5} = \\frac{ 口 }{ 口 }. In which group will each child get more chikki? 1 chikki divided between 2 children or 5 chikkis divided among 8 children. Mukta: So, we must compare \\frac { 1 } { 2 } and \\frac { 5 } { 8 } . Which is more? Shabnam: Well, we have seen that { \\textstyle { \\frac { 1 } { 2 } } } \\; = \\; { \\frac { 4 } { 8 } } ; and clearly \\frac { 4 } { 8 } < \\frac { 5 } { 8 } . So, the children for whom 5 chikkis is divided equally among 8 will get more than those children for whom 1 chikki is divided equally among 2. The children of the second group will get more chikki each. What about the following groups? In which group will each child get more? 1 chikki divided between 2 children or 4 chikkis divided among 7 children. Shabnam: The children of which group will get more chikki this time? Mukta: We must compare \\frac { 1 } { 7 } and \\frac{4}{7} Now \\frac { 1 \\times 4 } { 2 \\times 4 } \\; = \\; \\frac { 4 } { 8 } so, { \\textstyle { \\frac { 1 } { 2 } } } \\; = \\; { \\frac { 4 } { 8 } } Shabnam: But why did you multiply the numerator and denominator by 4 again? Mukta: You will see! When 4 chikkis are divided equally among 7 children, each one will get \\frac { 4 } { 7 } chikki. When 4 chikkis are divided equally among 8 children, each one will get \\frac { 4 } { 8 } chikki. So { \\frac { 4 } { 7 } } > { \\frac { 4 } { 8 } } . If the number of units that are shared is the same, but the number of children among whom the units are shared is more, then the share is less. Suppose the number of children is kept the same, but the number of units that are being shared is increased? What can you say about each child’s share now? Why? Discuss how your reasoning explains \\textstyle { \\frac { 1 } { 5 } }   <   { \\frac { 2 } { 5 } }   , \\; { \\frac { 3 } { 7 } }   <   { \\frac { 4 } { 7 } } , and \\frac { 1 } { 2 } \\; < \\; \\frac { 5 } { 8 } Now, decide in which of the two groups will each child get a larger share:\n1. Group 1 : 3 glasses of sugarcane juice divided equally among 4 children.\nGroup 2: 7 glasses of sugarcane juice divided equally among 10 children.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 20,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p20",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-b314ce2742bf20c2",
+      "text": "Find the missing numbers: a. glasses of juice shared equally among 4 friends is the same as ____ glasses of juice shared equally among 8 friends. So, { \\frac { 5 } { 4 } } = { \\overline { { \\frac { } { 8 } } } } . b. 4 kg of potatoes divided equally in 3 bags is the same as 12 kgs of potatoes divided equally in ___ bags. So, \\frac { 4 } { 3 } = \\frac { 1 2 } { \\bigtriangleup } c. 7 rotis divided among 5 children is the same as ____ rotis divided among _____ children. So, \\frac{7}{5} = \\frac{ 口 }{ 口 }. In which group will each child get more chikki? 1 chikki divided between 2 children or 5 chikkis divided among 8 children. Mukta: So, we must compare \\frac { 1 } { 2 } and \\frac { 5 } { 8 } . Which is more? Shabnam: Well, we have seen that { \\textstyle { \\frac { 1 } { 2 } } } \\; = \\; { \\frac { 4 } { 8 } } ; and clearly \\frac { 4 } { 8 } < \\frac { 5 } { 8 } . So, the children for whom 5 chikkis is divided equally among 8 will get more than those children for whom 1 chikki is divided equally among 2. The children of the second group will get more chikki each. What about the following groups? In which group will each child get more? 1 chikki divided between 2 children or 4 chikkis divided among 7 children. Shabnam: The children of which group will get more chikki this time? Mukta: We must compare \\frac { 1 } { 7 } and \\frac{4}{7} Now \\frac { 1 \\times 4 } { 2 \\times 4 } \\; = \\; \\frac { 4 } { 8 } so, { \\textstyle { \\frac { 1 } { 2 } } } \\; = \\; { \\frac { 4 } { 8 } } Shabnam: But why did you multiply the numerator and denominator by 4 again? Mukta: You will see! When 4 chikkis are divided equally among 7 children, each one will get \\frac { 4 } { 7 } chikki. When 4 chikkis are divided equally among 8 children, each one will get \\frac { 4 } { 8 } chikki. So { \\frac { 4 } { 7 } } > { \\frac { 4 } { 8 } } . If the number of units that are shared is the same, but the number of children among whom the units are shared is more, then the share is less. Suppose the number of children is kept the same, but the number of units that are being shared is increased? What can you say about each child’s share now? Why? Discuss how your reasoning explains \\textstyle { \\frac { 1 } { 5 } }   <   { \\frac { 2 } { 5 } }   , \\; { \\frac { 3 } { 7 } }   <   { \\frac { 4 } { 7 } } , and \\frac { 1 } { 2 } \\; < \\; \\frac { 5 } { 8 } Now, decide in which of the two groups will each child get a larger share:\n2. Group 1 : 4 glasses of sugarcane juice divided equally among 7 children.\nGroup 2: 5 glasses of sugarcane juice divided equally among 7 children.\nWhich groups were easier to compare? Why?\nWhen the number of children is same, it is easier to compare, isn’t it?\nShabnam:  To compare the first two groups, we have to find fractions equivalent to the fractions \\frac { 3 } { 4 } and \\frac { 7 } { 1 0 }\nMukta: How about \\frac{6}{8}   =   \\frac{3}{4} and { \\frac { 2 1 } { 3 0 } }   =   { \\frac { 7 } { 1 0 } }   ?\nShabnam: There is a condition. The fractional unit used for the two fractions have to be the same! Like \\frac{2}{6} and \\frac{3}{6} both use the same fractional unit \\begin{array} { r } { \\frac { 1 } { 6 } \\left( \\mathbf { i . e . } \\right. } \\end{array} , the denominators are the same). But \\frac{6}{8} and \\frac { 2 1 } { 3 0 } do not use the same fractional units (they have different denominators).\nMukta: Okay, so let us start making equivalent fractions then:\n{ \\frac { 3 } { 4 } } ~ = ~ { \\frac { 6 } { 8 } } ~ = ~ { \\frac { 9 } { 1 2 } } ~ = ~ { \\frac { 1 2 } { 1 6 } } ~ = ~ { \\frac { 1 5 } { 2 0 } } ~ . … But when do I stop?\nShabnam:  Got it! How about we go on till 4 \\times 10 = 40\nMukta: You mean the product of the two denominators?\nSounds good!\nWe have \\frac { 3 } { 4 } and \\frac { 7 } { 1 0 } . The product of the two denominators (4 and 10) is 40.\n\\frac{3}{4} = \\frac{6}{8} = \\frac{9}{12} = \\frac{12}{16} = \\frac{15}{20} = \\frac{18}{24} = \\ldots = \\frac{27}{36} = \\frac{30}{40}.\n{ \\frac { 7 } { 1 0 } }   =   { \\frac { 1 4 } { 2 0 } }   =   { \\frac { 2 1 } { 3 0 } }   =   { \\frac { 2 8 } { 4 0 } } .\nGo till we reach the denominator 40.\nBut notice that \\frac { 1 5 } { 2 0 } and \\frac { 1 4 } { 2 0 } also had the same denominator!\nYes! We just needed to get the same fractional units for each fraction.\nShabnam: So, fractions equivalent to \\frac { 3 } { 4 } and \\frac { 7 } { 1 0 } with the same fractional unit (same denominators) are \\frac { 3 0 } { 4 0 } and \\frac { 2 8 } { 4 0 } , , or \\frac { 1 5 } { 2 0 } and \\frac { 1 4 } { 2 0 } Since clearly \\frac { 3 0 } { 4 0 } > \\frac { 2 8 } { 4 0 } , we conclude that \\frac { 3 } { 4 } > \\frac { 7 } { 1 0 }\nFind equivalent fractions for the given pairs of fractions such that the fractional units are the same. a. \\frac { 7 } { 2 } and \\frac{3}{5} b. \\frac{8}{3} and \\frac{5}{6} c. \\frac{3}{4} and \\frac{3}{5} d. \\frac { 6 } { 7 } and \\frac{8}{5} e. \\frac { 9 } { 4 } and \\frac { 5 } { 2 } f. \\frac { 1 } { 1 0 } and \\frac{2}{9} g. \\frac{8}{3} and \\frac { 1 1 } { 4 } h. \\frac { 1 3 } { 6 } and \\frac { 1 } { 9 }\nExpressing a fraction in lowest terms (or in its simplest form)\nIn any fraction, if its numerator and denominator have no common factor except 1, then the fraction is said to be in lowest terms \\mathrm { 0 r } in its simplest form. In other words, a fraction is said to be in lowest terms if its numerator and denominator are as small as possible.\nAny fraction can be expressed in lowest terms by finding an equivalent fraction whose numerator and denominator are as small as possible.\nLet’s see how to express fractions in lowest terms.\nExample: Is the fraction \\frac{16}{20} in lowest terms? No, 4 is a common factor of 16 and 20. Let us reduce \\frac { 1 6 } { 2 0 } to lowest terms.\nWe know that both 16 (numerator) and 20 (denominator) are divisible by 4.\nSo, \\frac{16 \\div 4}{20 \\div 4} \\; = \\frac{4}{5}.\nNow, there is no common factor between 4 and 5. Hence, \\frac { 1 6 } { 2 0 } expressed in lowest terms is { \\frac { 4 } { 5 } } . So, \\frac{4}{5} is called the simplest form of { \\frac { 1 6 } { 2 0 } } , since 4 and 5 have no common factor other than 1.\nAny fraction can be converted to lowest terms by dividing both the numerator and denominator by the highest common factor between them.\nExpressing a fraction in lowest terms can also be done in steps.\nSuppose we want to express \\frac { 3 6 } { 6 0 } in lowest terms. First, we notice that both the numerator and denominator are even. So, we divide both by 2, and see that \\frac{36}{60}   =   \\frac{18}{30}\nBoth the numerator and denominator are even again, so we can divide them each by 2 again; we get \\frac { 1 8 } { 3 0 }   =   \\frac { 9 } { 1 5 }\nWe now notice that 9 and 15 are both multiples of 3, so we divide both by 3 to get \\frac { 9 } { 1 5 }   =   \\frac { 3 } { 5 }\nNow, 3 and 5 have no common factor other than 1, so, \\frac { 3 6 } { 6 0 } in lowest terms is \\frac { 3 } { 5 } . .\nAlternatively, we could have noticed that in \\frac { 3 6 } { 6 0 } , both the numerator and denominator are multiples of 12 : we see that 36 = 3 \\times 12 and 6 0 = 5 \\times 1 2 . Therefore, we could have concluded that \\frac{36}{60} \\equiv \\frac{3}{5} straight away.\nEither method works and will give the same answer! But sometimes it can be easier to go in steps.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 20,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p20",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-01c90e8e2a3909d5",
+      "text": "\n1. Compare the following fractions and justify your answers: a. \\frac{8}{3}, \\frac{5}{2} b. { \\frac { 4 } { 9 } } , ~ { \\frac { 3 } { 7 } } c. \\frac { 7 } { 1 0 }   ,   \\frac { 9 } { 1 4 } d. \\frac{12}{5}, \\quad \\frac{8}{5} e. { \\frac { 9 } { 4 } } , { \\frac { 5 } { 2 } }",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 24,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p24",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-1851d107c39cd9fa",
+      "text": "\n2. Write the following fractions in ascending order. 1 \\frac{7}{10}, \\frac{11}{15}, \\frac{2}{5} b. \\frac{19}{24} , \\frac{5}{6} , \\frac{7}{12}",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 24,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p24",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-e3ab3c0c138da093",
+      "text": "\n3. Write the following fractions in descending order. a. \\frac{25}{16}, \\frac{7}{8}, \\frac{13}{4}, \\frac{17}{32} b. \\frac{3}{4}, \\frac{12}{5}, \\frac{7}{12}, \\frac{5}{4}",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 24,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p24",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-02ce9425dd3182f6",
+      "text": "\n1. Add the following fractions using Brahmagupta’s method:\n{ \\frac { 2 } { 7 } }   +   { \\frac { 5 } { 7 } }   +   { \\frac { 6 } { 7 } }\n\\frac{3}{4} + \\frac{1}{3}\n\\frac{2}{3} + \\frac{5}{6}\nd. \\frac { 2 } { 3 } + \\frac { 2 } { 7 }\ne. { \\frac { 3 } { 4 } }   +   { \\frac { 1 } { 3 } }   +   { \\frac { 1 } { 5 } }\n{ \\frac { 2 } { 3 } } + { \\frac { 4 } { 5 } }\ng.\n\\frac { 4 } { 5 } + \\frac { 2 } { 3 }\nh.\n{ \\frac { 3 } { 5 } } + { \\frac { 5 } { 8 } }\n\\mathrm { i . } \\quad { \\frac { 9 } { 2 } } \\quad + \\quad { \\frac { 5 } { 4 } }\n\\mathrm { j . } { \\frac { 8 } { 3 } } + { \\frac { 2 } { 7 } }\nk. { \\frac { 3 } { 4 } }   +   { \\frac { 1 } { 3 } }   +   { \\frac { 1 } { 5 } }\n1 - \\frac{2}{3} + \\frac{4}{5} + \\frac{3}{7} m. { \\frac { 9 } { 2 } }   +   { \\frac { 5 } { 4 } }   +   { \\frac { 7 } { 6 } }",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 29,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p29",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-60796f592c33f008",
+      "text": "\n2. Rahim mixes \\frac { 2 } { 3 } litres of yellow paint with \\frac { 3 } { 4 } litres of blue paint to make green paint. What is the volume of green paint he has made?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 29,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p29",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-4242bfcb14423801",
+      "text": "\n3. Geeta bought \\frac{2}{5} meter of lace and Shamim bought \\frac { 3 } { 4 } meter of the same lace to put a complete border on a table cloth whose perimeter is 1 meter long. Find the total length of the lace they both have bought. Will the lace be sufficient to cover the whole border?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 29,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p29",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-3ea9d8c15fe2dd9e",
+      "text": "1. \\frac{5}{8} - \\frac{3}{8} 2. \\frac{7}{9} - \\frac{5}{9} 3. \\frac { 1 0 } { 2 7 } - \\frac { 1 } { 2 7 } Subtraction of fractions with different fractional units or denominators Example: What is \\frac { 3 } { 4 } - \\frac { 2 } { 3 } ? As we already know the procedure for subtraction of fractions with the same fractional units, let us convert each of the given fractions into equivalent fractions with the same fractional units. Yes! By doing this we can easily subtract the two fractions. Think! Why did we choose to multiply both the numerator and denominator by 3? Again! Why did we choose to multiply both the numerator and denominator here by 4? Therefore, \\frac{3}{4} - \\frac{2}{3} = \\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12} Brahmagupta’s method for subtracting two fractions —\n1. Convert the given fractions into equivalent fractions with the same fractional unit, i.e., the same denominator.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 31,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p31",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-a93cacfa49ddf3ae",
+      "text": "1. \\frac{5}{8} - \\frac{3}{8} 2. \\frac{7}{9} - \\frac{5}{9} 3. \\frac { 1 0 } { 2 7 } - \\frac { 1 } { 2 7 } Subtraction of fractions with different fractional units or denominators Example: What is \\frac { 3 } { 4 } - \\frac { 2 } { 3 } ? As we already know the procedure for subtraction of fractions with the same fractional units, let us convert each of the given fractions into equivalent fractions with the same fractional units. Yes! By doing this we can easily subtract the two fractions. Think! Why did we choose to multiply both the numerator and denominator by 3? Again! Why did we choose to multiply both the numerator and denominator here by 4? Therefore, \\frac{3}{4} - \\frac{2}{3} = \\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12} Brahmagupta’s method for subtracting two fractions —\n2. Carry out the subtraction of fractions having the same fractional units. This can be done by subtracting the numerators and keeping the same denominator.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 31,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p31",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9194249415e4d5a6",
+      "text": "1. \\frac{5}{8} - \\frac{3}{8} 2. \\frac{7}{9} - \\frac{5}{9} 3. \\frac { 1 0 } { 2 7 } - \\frac { 1 } { 2 7 } Subtraction of fractions with different fractional units or denominators Example: What is \\frac { 3 } { 4 } - \\frac { 2 } { 3 } ? As we already know the procedure for subtraction of fractions with the same fractional units, let us convert each of the given fractions into equivalent fractions with the same fractional units. Yes! By doing this we can easily subtract the two fractions. Think! Why did we choose to multiply both the numerator and denominator by 3? Again! Why did we choose to multiply both the numerator and denominator here by 4? Therefore, \\frac{3}{4} - \\frac{2}{3} = \\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12} Brahmagupta’s method for subtracting two fractions —\n3. Simplify the result into lowest terms if needed.",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 31,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p31",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9d831ac65b42147c",
+      "text": "\n1. Carry out the following subtractions using Brahmagupta’s method: a. \\frac { 8 } { 1 5 }   -   \\frac { 3 } { 1 5 } b. \\frac { 2 } { 5 }   -   \\frac { 4 } { 1 5 } c. { \\frac { 5 } { 6 } } - { \\frac { 4 } { 9 } } d. \\frac { 2 } { 3 } - \\frac { 1 } { 2 }",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 32,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p32",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9a0c12e1c0c83fca",
+      "text": "\n2. Subtract as indicated: a. \\frac { 1 3 } { 4 } from \\frac { 1 0 } { 3 } b. \\frac { 1 8 } { 5 } from \\frac { 2 3 } { 3 } c. \\frac { 2 9 } { 7 } from \\frac { 4 5 } { 7 }",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 32,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p32",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-031a8ebc66866944",
+      "text": "\n3. Solve the following problems:\na. Jaya’s school is \\frac { 7 } { 1 0 } km from her home. She takes an auto for \\frac { 1 } { 2 } km from her home daily, and then walks the remaining distance to reach her school. How much does she walk daily to reach the school?\nb. Jeevika takes \\frac { 1 0 } { 3 } minutes to take a complete round of the park and her friend Namit takes \\frac{13}{4} minutes to do the same. Who takes less time and by how much?",
+      "source_id": "ncert-en-mathematics-g6-fegp1-r202627-07",
+      "source_sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "page": 32,
+      "group": "ncert-en-mathematics-g6-fegp1-r202627-07|Figure It Out|p32",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-2a71e54882276ebb",
+      "text": "\n1. Tenzin drinks \\frac { 1 } { 2 } glass of milk every day. How many glasses of milk does he drink in a week? How many glasses of milk did he drink in the month of January?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 4,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p4",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-4045bfec7bdca8c8",
+      "text": "\n2. A team of workers can make 1 km of a water canal in 8 days. So, in one day, the team can make ___ km of the water canal. If they work 5 days a week, they can make ___ km of the water canal in a week.",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 4,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p4",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-b4bbea42738a471a",
+      "text": "\n3. Manju and two of her neighbours buy 5 litres of oil every week and share it equally among the 3 families. How much oil does each family get in a week? How much oil will one family get in 4 weeks?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 4,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p4",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-96934c1d5ccafa92",
+      "text": "\n4. Safia saw the Moon setting on Monday at 10 pm. Her mother, who is a scientist, told her that every day the Moon sets \\frac{5}{6} hour later than\nthe previous day. How many hours after 10 pm will the moon set on Thursday?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 4,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p4",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-a362410c2d8a5ebe",
+      "text": "\n5. Multiply and then convert it into a mixed fraction:\n(a) 7 \\times \\frac { 3 } { 5 } (b) 4 \\times { \\frac { 1 } { 3 } } (c) \\frac { 9 } { 7 } \\times 6 (d) \\frac { 1 3 } { 1 1 } \\times 6\nSo far, we have learnt multiplication of a whole number with a fraction, and a fraction with a whole number. What happens when both numbers in the multiplication are fractions?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 5,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p5",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-09ebad8ae8614923",
+      "text": "\n1. Find the following products. Use a unit square as a whole for representing the fractions:\n(a) \\frac { 1 } { 3 } \\times \\frac { 1 } { 5 } (b) \\frac { 1 } { 4 } \\times \\frac { 1 } { 3 } (c) \\frac{1}{5} \\times \\frac{1}{2} (d) \\frac{1}{6} \\times \\frac{1}{5}\nNow, find \\frac { 1 } { 1 2 } \\times \\frac { 1 } { 1 8 }\nDoing this by representing the fractions using a unit square is cumbersome. Let us find the product by observing what we did in the above cases.\nIn each case, the whole is divided into rows and columns.\nThe number of rows is the denominator of the multiplicand, which is 18 in this case.\nThe number of columns is the denominator of the multiplier, which is 12 in this case.\nThus, the whole is divided into 18 × 12 equal parts.\nSo, \\frac{1}{18} \\times \\frac{1}{12} = \\frac{1}{(18 \\times 12)} = \\frac{1}{216}\nThus, when two fractional units are multiplied, their product is",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 8,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p8",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-34f1a994422a908b",
+      "text": "\n1. A water tank is filled from a tap. If the tap is open for 1 hour, \\frac { 7 } { 1 0 } of the tank gets filled. How much of the tank is filled if the tap is open for\n(a) \\frac { 1 } { 3 } hour\n\\frac{2}{3} hour ________\n(c) 3 hour _____ \\frac { 3 } { 4 }\n(d) \\frac { 7 } { 1 0 }\n(e) For the tank to be full, how long should the tap be running?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 11,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p11",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-1577350e7e745e7d",
+      "text": "\n2. The government has taken \\frac{1}{6} of Somu’s land to build a road. What part of the land remains with Somu now? She gives half of\nthe remaining part of the land to her daughter Krishna and \\frac { 1 } { 3 } of it to her son Bora. After giving them their shares, she keeps the remaining land for herself.\n(a) What part of the original land did Krishna get?\n(b) What part of the original land did Bora get?\n(c) What part of the original land did Somu keep for herself?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 11,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p11",
+      "split": "calibration",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-41fc8f49a9d638c0",
+      "text": "\n3. Find the area of a rectangle of sides 3 \\frac { 3 } { 4 } ft and 9 \\frac { 3 } { 5 } \\mathrm { f t }",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 12,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-cf4208896816927d",
+      "text": "\n4. Tsewang plants four saplings in a row in his garden. The distance between two saplings is \\frac { 3 } { 4 } m. Find the distance between the first and last sapling. [Hint: Draw a rough diagram with four saplings with distance between two saplings as \\frac { 3 } { 4 } m]",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 12,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-c497148daa770b90",
+      "text": "\n5. Which is heavier: \\frac { 1 2 } { 1 5 } of 500 grams or \\frac{3}{20} of 4 kg?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 12,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p12",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-11778c4108488657",
+      "text": "\n1. Evaluate the following:",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 24,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p24",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-6cfc0e44f9912938",
+      "text": "\n2. For each of the questions below, choose the expression that describes the solution. Then simplify it.\n(a) Maria bought 8 m of lace to decorate the bags she made for school. She used \\frac{1}{4} m for each bag and finished the lace. How many bags did she decorate? (i) \\begin{array}{c}8 \\times \\frac{1}{4} \\\\8 \\div \\frac{1}{4}\\end{array} (ii) \\frac { 1 } { 8 } \\times \\frac { 1 } { 4 } (iii) (iv) { \\frac { 1 } { 4 } } \\div 8\n(b) \\frac { 1 } { 2 } meter of ribbon is used to make 8 badges. What is the length of the ribbon used for each badge? (i) 8 \\times \\frac{1}{2} (ii) \\frac { 1 } { 2 } \\div \\frac { 1 } { 8 } (iii) 8 \\div \\frac { 1 } { 2 } (iv) { \\frac { 1 } { 2 } } \\div 8\n(c) A baker needs \\frac { 1 } { 6 } \\mathrm { k g } of flour to make one loaf of bread. He has 5 kg of flour. How many loaves of bread can he make? (i) 5 \\times { \\frac { 1 } { 6 } } (ii) { \\frac { 1 } { 6 } } \\div 5 (iii) 5 \\div \\frac { 1 } { 6 } (iv) 5 \\times 6",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 24,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p24",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_division"
+      ]
+    },
+    {
+      "question_id": "ncert-q-8aeecb0f03d30df2",
+      "text": "\n3. If \\frac { 1 } { 4 } kg of flour is used to make 12 rotis, how much flour is used to make 6 rotis?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-8ec3d4f276f1176f",
+      "text": "\n4. Pāṭīgaṇita, a book written by Sridharacharya in the 9th century CE, mentions this problem: “Friend, after thinking, what sum will be obtained by adding together 1 \\div \\frac{1}{6}   ,   1 \\div \\frac{1}{10}   ,   1 \\div \\frac{1}{13}   ,   1 \\div \\frac{1}{9} , and 1 \\div \\frac{1}{2}'' . What should the friend say?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_division"
+      ]
+    },
+    {
+      "question_id": "ncert-q-5a5098e5f077e794",
+      "text": "\n5. Mira is reading a novel that has 400 pages. She read \\frac { 1 } { 5 } of the pages yesterday and \\frac { 3 } { 1 0 } of the pages today. How many more pages does she need to read to finish the novel?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-0fe00fb37afbe158",
+      "text": "\n6. A car runs 16 km using 1 litre of petrol. How far will it go using 2   \\frac { 3 } { 4 } litres of petrol?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-84a05f8a06fc345e",
+      "text": "\n7. Amritpal decides on a destination for his vacation. If he takes a train, it will take him 5 \\frac { 1 } { 6 } hours to get there. If he takes a plane, it will take him \\frac { 1 } { 2 } hour. How many hours does the plane save?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-380e8280f8e39c00",
+      "text": "\n8. Mariam’s grandmother baked a cake. Mariam and her cousins finished \\frac{4}{5} of the cake. The remaining cake was shared equally by Mariam’s three friends. How much of the cake did each friend get?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "fraction_division"
+      ]
+    },
+    {
+      "question_id": "ncert-q-fd708980efef0d23",
+      "text": "\n9. Choose the option(s) describing the product of \\left( { \\frac { 5 6 5 } { 4 6 5 } } \\times { \\frac { 7 0 7 } { 6 7 6 } } \\right) (a) >   { \\frac { 5 6 5 } { 4 6 5 } } (b) < \\frac { 5 6 5 } { 4 6 5 } (c) >   { \\frac { 7 0 7 } { 6 7 6 } } (d) <   \\frac { 7 0 7 } { 6 7 6 } (e) > 1 (f) < 1",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-dcbb3ff26e6a66ad",
+      "text": "\n10. What fraction of the whole square is shaded?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 25,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p25",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-fb71963ac44711e4",
+      "text": "\n11. A colony of ants set out in search of food. As they search, they keep splitting equally at each point (as shown in the Fig. 8.7) and reach two food sources, one near a mango tree and another near a sugarcane field. What fraction of the original group reached each food source?",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 26,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p26",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-869023df505bffd5",
+      "text": "\n12. What is 1 - { \\frac { 1 } { 2 } }   ?\n\\left( 1 - { \\cfrac { 1 } { 2 } } \\right) \\times \\left( 1 - { \\cfrac { 1 } { 3 } } \\right) ?\nFig. 8.7\n\\left( 1 - { \\frac { 1 } { 2 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 3 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 4 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 5 } } \\right) ?\n\\left(1-\\frac{1}{2}\\right)\\times\\left(1-\\frac{1}{3}\\right)\\times\\left(1-\\frac{1}{4}\\right)\\times\\left(1-\\frac{1}{5}\\right)\\times\\left(1-\\frac{1}{6}\\right)\\times\\left(1-\\frac{1}{7}\\right)\\times\\left(1-\\frac{1}{8}\\right)\\times\\left(1-\\frac{1}{9}\\right)\\times\\left(1-\\frac{1}{10}\\right)^{-\\frac{1}{7}}\nMake a general statement and explain.",
+      "source_id": "ncert-en-mathematics-g7-gegp1-r202627-08",
+      "source_sha256": "649d566aabbdc5508096e279669edeb96c0cf9a03caa71933c383e2a80538034",
+      "page": 26,
+      "group": "ncert-en-mathematics-g7-gegp1-r202627-08|Figure It Out|p26",
+      "split": "calibration",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "fraction_multiplication"
+      ]
+    },
+    {
+      "question_id": "ncert-q-569c6a8f234751e5",
+      "text": "In a primary school, the parents were asked about the number of hours they spend per day in helping their children to do homework. There were 90 parents who helped for \\frac { 1 } { 2 } hour to 1 { \\frac { 1 } { 2 } } hours. The distribution of parents according to the time for which, they said they helped is given in the adjoining figure ; 20% helped for more than 1 { \\frac { 1 } { 2 } } hours per day; 30% helped for \\frac { 1 } { 2 } hour to 1 \\frac { 1 } { 2 } hours; 50% did not help at all. Using this, answer the following: (i) How many parents were surveyed?\n(i) How many parents were surveyed?\n(ii) How many said that they did not help?\n\\frac { 1 } { 2 }\n(iii) How many said that they helped for more than 1 { \\frac { 1 } { 2 } } hours?\n\\mathbf { \\bar { 1 } } \\frac { 1 } { 2 }\nHelped for more than 1 \\frac { 1 } { 2 } hour",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p3",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-29c87280d3d0a9e0",
+      "text": "\n1. Find the ratio of the following.\n(a) Speed of a cycle 15 km per hour to the speed of scooter 30 km per hour.\n(b) 5 m to 10 km\n(c) 50 paise to   ₹5",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p3",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-cf4f13b6d844b94c",
+      "text": "\n2. Convert the following ratios to percentages.\n(a) 3 : 4\n(b) 2 : 3",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p3",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-3ef77a6dc9d7d888",
+      "text": "\n3. 72% of 25 students are interested in mathematics. How many are not interested in mathematics?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p3",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-73c827859fd65e29",
+      "text": "\n4. A football team won 10 matches out of the total number of matches they played. If their win percentage was 40, then how many matches did they play in all?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p3",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-a68cf663c6f3deea",
+      "text": "\n5. If Chameli had   ₹600 left after spending 75% of her money, how much did she have in the beginning?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 3,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p3",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-e8bc5ab9006e93cf",
+      "text": "\n6. If 60% people in a city like cricket, 30% like football and the remaining like other games, then what per cent of the people like other games? If the total number of people is 50 lakh, find the exact number who like each type of game.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 4,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.1|p4",
+      "split": "calibration",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-d06b4d8dff5500b3",
+      "text": "A shop gives 20% discount. What would the sale price of each of these be? (a) A dress marked at   ₹120 (b) A pair of shoes marked at   ₹750 (c) A bag marked at   ₹250\n2. A table marked at   ₹15,000 is available for   ₹14,400. Find the discount given and the discount per cent.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 5,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p5",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9d426110db17d5e8",
+      "text": "A shop gives 20% discount. What would the sale price of each of these be? (a) A dress marked at   ₹120 (b) A pair of shoes marked at   ₹750 (c) A bag marked at   ₹250\n3. An almirah is sold at   ₹5,225 after allowing a discount of 5%. Find its marked price.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 5,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p5",
+      "split": "calibration",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-a62de492aa64e5eb",
+      "text": "\n1. Two times a number is a 100% increase in the number. If we take half the number what would be the decrease in per cent?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 6,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Think, Discuss And Write|p6",
+      "split": "calibration",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-db8d6c7bc9752d6b",
+      "text": "\n2. By what per cent is   2,000 less than   2,400? Is it the same as the per cent by which ₹ 2,400 is more than  2,000?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 6,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Think, Discuss And Write|p6",
+      "split": "calibration",
+      "relevance": "partial",
+      "relevant_concept_ids": [
+        "percentages"
+      ]
+    },
+    {
+      "question_id": "ncert-q-0656d3e7cc019a0d",
+      "text": "\n1. During a sale, a shop offered a discount of 10% on the marked prices of all the items. What would a customer have to pay for a pair of jeans marked at   ₹1450 and two shirts marked at   ₹850 each?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 7,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.2|p7",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-1ebc59be0d8dcf0d",
+      "text": "\n2. The price of a TV is   ₹13,000. The sales tax charged on it is at the rate of 12%. Find the amount that Vinod will have to pay if he buys it.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 7,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.2|p7",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-a863b820941db56d",
+      "text": "\n3. Arun bought a pair of skates at a sale where the discount given was 20%. If the amount he pays is   ₹1,600, find the marked price.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 7,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.2|p7",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-370c8879803c1939",
+      "text": "\n4. I purchased a hair-dryer for   ₹5,400 including 8% VAT. Find the price before VAT was added.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 7,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.2|p7",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-bbc830880080b8c8",
+      "text": "\n5. An article was purchased for   ₹1239 including GST of 18%. Find the price of the article before GST was added?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 7,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.2|p7",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9338b71d94bfd888",
+      "text": "\\mathrm{CI}=\\mathrm{A}-\\mathrm{P}=\\bar{\\mathrm{F}} 15246-\\bar{\\mathrm{F}} 12600=\\bar{\\mathrm{F}} 2646\n1. Find CI on a sum of ₹ 8000 for 2 years at 5% per annum compounded annually.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 11,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p11",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-aa97ef05a10abb8c",
+      "text": "\n1. A machinery worth   ₹10,500 depreciated by 5%. Find its value after one year.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 12,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p12",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-bb01674a6be6d7e8",
+      "text": "\n2. Find the population of a city after 2 years, which is at present 12 lakh, if the rate of increase is 4%.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 12,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Try These|p12",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-b8124d06f7363d16",
+      "text": "\n1. The population of a place increased to 54,000 in 2003 at a rate of 5% per annum (i) find the population in 2001.\n(ii) what would be its population in 2005?",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 12,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.3|p12",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-e9be6bc31715ae82",
+      "text": "\n2. In a Laboratory, the count of bacteria in a certain experiment was increasing at the rate of 2.5% per hour. Find the bacteria at the end of 2 hours if the count was initially 5, 06,000.\nA scooter was bought at   ₹42,000. Its value depreciated at the rate of 8% per annum. Find its value after one year.",
+      "source_id": "ncert-en-mathematics-g8-hemh1-r202425-07",
+      "source_sha256": "c50b76f470ee6b4bf6e269d189ebd659d73525ecf9bd62f7aebcf56e038604f5",
+      "page": 12,
+      "group": "ncert-en-mathematics-g8-hemh1-r202425-07|Exercise 7.3|p12",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-cf76e75186286642",
+      "text": "\n1. Choose the correct option in each case.\n(i) Your father bought a saucepan made of two diﬀ erent\nmaterials, A and B, as shown in Fig. 7.14. The materials\nA and B have the following properties —\n(a) Both A and B are good conductors of heat\n(b) Both A and B are poor conductors of heat\n(c) A is a good conductor and B is a poor conductor of\nheat\n(d) A is a poor conductor and B is a good conductor of\nheat\n(ii) Pins are stuck to a metal strip with wax and a burning\ncandle is kept below the rod, as shown in Fig. 7.15. Which\nof the following will happen?\n(a) All the pins will fall almost at the same time\n(b) Pins I and II will fall earlier than pins III and IV\n(c) Pins I and II will fall later than pins III and IV\n(d) Pins II and III will fall almost at the same time\nFig. 7.14: Saucepan\nB\nA\nFig. 7.15: Heat\ntransfer set-up\nI\nII\nIII\nIV\nMetal\nstrip\nBurning\ncandle\nStand\nPin\nHeat Transfer in Nature\n103\n(iii) A smoke detector is a device that detects smoke and\nsounds an alarm. Suppose you are ﬁ tting a smoke\ndetector in your room. The most suitable place for this\ndevice will be:\n(a) Near the ﬂ oor\n(b) In the middle of a wall\n(c) On the ceiling\n(d) Anywhere in the room\n2. A shopkeeper serves you cold lassi in a tumbler. By chance,\nthe tumbler had a small leak. You were given another tumbler\nby the shopkeeper to put the leaky tumbler in it. Will this\narrangement help to keep the lassi cold for a longer time?\nExplain.",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 14,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p14",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "conduction"
+      ]
+    },
+    {
+      "question_id": "ncert-q-4222c2e3e84ce125",
+      "text": "\n3. State with reason(s) whether the following statements are\nTrue [T] or False [F].\n(i) Heat transfer takes place in solids through\nconvection. [   ]\n(ii) Heat transfer through convection takes place by the\nactual movement of particles. [   ]\n(iii) Areas with clay materials allow more seepage of water\nthan those with sandy materials. [   ]\n(iv) The movement of cooler air from land to sea is called\nland breeze. [   ]\n4. Some ice cubes placed in a dish melt into water after\nsometime. Where do the ice cubes get heat for this\ntransformation?\n5. A burning incense stick is ﬁ xed, pointing downwards. In\nwhich direction would the smoke from the incense stick\nmove? Show the movement of smoke with a diagram.\n6. Two test tubes with water are heated by a candle ﬂ ame as\nshown in Fig. 7.16. Which thermometers (Fig. 7.16a or\nFig. 7.16b) will record a higher temperature? Explain.\nFig. 7.16(a)\nWater\nThermometer\nBurning\ncandle\nFig. 7.16: Two thermometers dipped in two test tubes\nFig. 7.16(b)\nWater\nBurning\ncandle\nThermometer\nINNOVATION\nEXPLORATION\nCURIOSITY\nDISCOVERY\nENQUIRY\nCuriosity | Textbook of Science | Grade 7\n104",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 15,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p15",
+      "split": "held_out",
+      "relevance": "needs_visual",
+      "relevant_concept_ids": [
+        "conduction",
+        "radiation"
+      ]
+    },
+    {
+      "question_id": "ncert-q-a194e0933a3c2afa",
+      "text": "\n7. Why are hollow bricks used to construct the outer walls of\nhouses in hot regions?",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 16,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p16",
+      "split": "held_out",
+      "relevance": "supported",
+      "relevant_concept_ids": [
+        "conduction"
+      ]
+    },
+    {
+      "question_id": "ncert-q-34356fe06cf16dd6",
+      "text": "\n8. Explain how large water bodies prevent extreme temperature\nin areas around them.",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 16,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p16",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-331a0ed66e1228d1",
+      "text": "\n9. Explain how water seeps through the surface of the Earth\nand gets stored as groundwater.",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 16,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p16",
+      "split": "held_out",
+      "relevance": "outside_objectives",
+      "relevant_concept_ids": []
+    },
+    {
+      "question_id": "ncert-q-9d9f9590d7188951",
+      "text": "\n10. The water cycle helps in the redistribution and replenishment\nof water on the Earth. Justify the statement.\nExploratory Projects\nSociety: Visit a site of water harvesting or a recharge pit.\nFind out from people how they are constructed and how\nthey work. Prepare a report with illustrations.\nActivity: Tightly wrap a thin paper strip around a metallic\nrod. Try to burn the paper with a candle while rotating\nthe rod continuously. Does the paper burn? Explain your\nobservations.\nActivity: Take a sheet of paper. Draw a spiral on it, as shown in\nFig. 7.17a. Cut the paper along the spiral. Suspend the paper\nas shown in the Fig. 7.17b above a burning candle. Observe\nwhat happens. Provide an explanation for your observation.\nFig. 7.17(a): Cutting paper\nin spiral\nFig. 7.17(b): Spiral paper\nabove a burning candle\nDisciplinary\nInter\nty\nSociet\nArt\nomy\nEcono\nGeography\nTechnology\nHistory",
+      "source_id": "ncert-en-science-g7-gecu1-r202627-07",
+      "source_sha256": "c5340809b551610bef0bf58965d1ff91cb3e61d528135c1801a577b1fe8543df",
+      "page": 16,
+      "group": "ncert-en-science-g7-gecu1-r202627-07|Let Us Enhance Our Learning|p16",
+      "split": "held_out",
+      "relevance": "extraction_or_boundary_challenge",
+      "relevant_concept_ids": []
+    }
+  ]
+}

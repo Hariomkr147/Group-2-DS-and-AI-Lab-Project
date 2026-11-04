@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-11-02T15:17:52.322484+00:00",
+  "chunks_sha256": "86df0955fe8df7cb42f41402636417704adac8bfc40cc1c9bac955db03262aeb",
+  "development_queries": 10,
+  "test_queries": 16,
+  "test_positive_queries": 12,
+  "test_negative_or_ambiguous_queries": 4,
+  "methods": [
+    "actual_backend_keyword_overlap",
+    "BM25",
+    "BGE_cosine",
+    "RRF_BM25_BGE"
+  ],
+  "bm25": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "rrf_k": 60,
+  "top_k": 5,
+  "tuning": "No new cutoff tuning; revised plan fixes working value 0.70/0.02 until full extraction",
+  "independent_human_labels": false,
+  "limitation": "Small synthetic query families by the same Codex reviewer; not a real learner benchmark",
+  "hashes": {
+    "queries_dev.jsonl": "124d0388d9515109122fe52f761d75206d3d161a4412a837d1630ed44a294b48",
+    "queries_test.jsonl": "7ac563c4ff53c26a24d34a4f7a4d4eb06a339246f74574de5b60ea9521f7827d",
+    "relevance_labels.csv": "d209f506d747a76aabc5eb76f5e64bcc6e2bffc10312aa528aa6e4211452829a"
+  },
+  "evaluation_status": "Repeated exposed pilot protocol; source/page/text judgments revalidated by exact unchanged content hashes. Cutoff remains 0.70/0.02."
+}

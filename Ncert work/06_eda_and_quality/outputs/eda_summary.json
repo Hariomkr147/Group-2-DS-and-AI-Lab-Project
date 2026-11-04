@@ -1,0 +1,57 @@
+{
+  "run_id": "20261104T113429-a3126a46",
+  "sources": 9,
+  "pages": 203,
+  "raw_blocks": 3090,
+  "clean_blocks": 3090,
+  "changes": 685,
+  "removed_blocks": 241,
+  "quarantined_blocks": 685,
+  "accepted_blocks": 89,
+  "missing_lineage": 0,
+  "raw_content_types": {
+    "heading": 335,
+    "diagram/image": 191,
+    "prose": 1768,
+    "formula": 117,
+    "table": 13,
+    "unknown": 7,
+    "answer": 659
+  },
+  "page_routes": {
+    "mineru-basic": 115,
+    "native-excluded": 78,
+    "native-science": 10
+  },
+  "page_roles": {
+    "chapter_content": 91,
+    "private_answer": 34,
+    "edition_metadata": 72,
+    "out_of_scope_enrichment": 1,
+    "unsupported_visual_activity": 2,
+    "notes_page": 3
+  },
+  "unicode_flags": {
+    "raw_private_use": 51,
+    "clean_private_use": 51,
+    "raw_replacement": 0,
+    "chapter_content_private_use": 27
+  },
+  "block_length_chars": {
+    "min": 0,
+    "max": 3877,
+    "median": 45.0
+  },
+  "quality_sample": {
+    "held_out_pages": 4,
+    "development_overlap": 0,
+    "human_reviewed_pages": 0,
+    "ai_reviewed_blocks": 44,
+    "accuracy": null
+  },
+  "limitations": [
+    "Character invariants do not establish formula semantics",
+    "User-delegated AI reviews are identified separately from human reviews",
+    "No unsupported diagram enters accepted evidence"
+  ]
+}

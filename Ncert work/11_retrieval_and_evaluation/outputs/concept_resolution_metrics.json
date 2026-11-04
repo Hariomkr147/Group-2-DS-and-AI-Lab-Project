@@ -1,0 +1,34 @@
+{
+  "run_id": "20261102T190949-4b7cb0b0",
+  "policy": {
+    "corpus_version": "ncert-pilot-fd981363bc7f493a",
+    "threshold": 0.7,
+    "margin": 0.02,
+    "calibration_split": "Deferred until full extraction; PLAN section 13.5 working values",
+    "development_query_hash": "124d0388d9515109122fe52f761d75206d3d161a4412a837d1630ed44a294b48",
+    "criterion": "+1 correct accepted concept or negative abstention; -2 incorrect acceptance; 0 positive abstention",
+    "tie_rule": "No pilot cutoff selection",
+    "run_id": "20261102T190949-4b7cb0b0",
+    "confidence": "cosine/margin heuristic; not calibrated probability"
+  },
+  "results": [
+    {
+      "split": "development",
+      "positive_queries": 6,
+      "correct_concept_acceptances": 5,
+      "positive_abstentions": 1,
+      "negative_or_ambiguous_queries": 4,
+      "false_acceptances": 0,
+      "exact_negative_route_matches": 3
+    },
+    {
+      "split": "held_out_synthetic_test",
+      "positive_queries": 12,
+      "correct_concept_acceptances": 8,
+      "positive_abstentions": 4,
+      "negative_or_ambiguous_queries": 4,
+      "false_acceptances": 0,
+      "exact_negative_route_matches": 3
+    }
+  ]
+}

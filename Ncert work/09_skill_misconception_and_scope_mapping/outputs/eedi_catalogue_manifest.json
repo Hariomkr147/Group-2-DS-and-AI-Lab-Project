@@ -1,0 +1,35 @@
+{
+  "run_id": "20261102T183405-52a22a04",
+  "dataset_release_id": "eedi-2ae0839debf73c0c",
+  "dataset_revision": "2ae0839debf73c0ce7dd6578d8ea8b99e7be8631",
+  "source_url": "https://huggingface.co/datasets/Eedi/Eedi-Misconceptions-Graph",
+  "licence": "CC-BY-4.0",
+  "attribution": "Eedi Misconceptions Graph v1.0 by Eedi, licensed under CC BY 4.0. CSV links grouped into original-ID catalogue records; texts unchanged.",
+  "misconception_count": 8117,
+  "construct_count": 2258,
+  "edge_count": 19294,
+  "input_sha256": {
+    "09_skill_misconception_and_scope_mapping/datasets/eedi/2ae0839debf73c0ce7dd6578d8ea8b99e7be8631/data/construct-map.csv": "45a0fb21687f9b13cc59bb9aa011a39347637e304a8c239ee6d447b5bd77051b",
+    "09_skill_misconception_and_scope_mapping/datasets/eedi/2ae0839debf73c0ce7dd6578d8ea8b99e7be8631/data/misconception-map.csv": "3937e12b96ba2659ab16f060edfffeb6f35a1cce5fb60caedf6955a1b6fed0c2",
+    "09_skill_misconception_and_scope_mapping/datasets/eedi/2ae0839debf73c0ce7dd6578d8ea8b99e7be8631/LICENSE": "b19aefb07b090842ef63eb7eedb629c43bff9b7c488bbfd9bff4b32ba411080b",
+    "09_skill_misconception_and_scope_mapping/datasets/eedi/2ae0839debf73c0ce7dd6578d8ea8b99e7be8631/README.md": "09de02e2d302a652d25b8418043b57b198b85619eaba64230a83060c0699c914"
+  },
+  "model_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "vector_dimension": 384,
+  "vector_sha256": "08800e4714a78fbed77e14de7b8d8cafd51893905ffeedd5f7370956afbc7910",
+  "vector_path": "09_skill_misconception_and_scope_mapping/vectors/eedi-2ae0839debf73c0c/vectors.npy",
+  "embeddings_reused": false,
+  "load_and_encode_seconds": 553.7035296999966,
+  "original_text_preserved": true,
+  "synthetic_student_examples": 0,
+  "tables": [
+    "ncert_diag.misconceptions",
+    "ncert_diag.constructs"
+  ],
+  "limits": [
+    "Catalogue links are not prerequisite edges or per-student probabilities",
+    "No NCERT-to-construct filter applied",
+    "Kaggle evaluation access is separate; catalogue is not labelled student-response data",
+    "Mixed workload timings, not an isolated throughput benchmark"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "corpus_version": "ncert-pilot-a2ac2147befaf6e1",
+  "threshold": 0.9,
+  "margin": 0.1,
+  "automatic_routing_enabled": false,
+  "required_mode": "User-selected single concept; free-form routing failed positive coverage",
+  "calibration_split": "textbook protocol calibration groups only",
+  "protocol_sha256": "1d25aa18b3b6582fa42685987636f32df35b172c17bb92a825f3a7c0f5c85052",
+  "criterion": "+1 correct supported acceptance or challenge abstention; -2 wrong acceptance; zero positive abstention",
+  "tie_rule": "higher threshold then higher margin",
+  "confidence": "Heuristic abstention; not a probability or proof of scope",
+  "run_id": "20261104T183039-1c51798f"
+}

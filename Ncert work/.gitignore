@@ -1,0 +1,93 @@
+# Local environments and secrets
+.venv/
+.mineru-venv/
+.mineru-state/
+12_socratic_model_feasibility/models/**
+12_socratic_model_feasibility/outputs/model_runs.jsonl
+12_socratic_model_feasibility/evaluation/answers_private.jsonl
+03_parser_benchmark/evidence/parser_outputs/**
+03_parser_benchmark/evidence/reference_transcriptions.jsonl
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Bulk source/artifact data; keep manifests, reports, reviews and summary metrics
+01_download_pdfs/pdfs/**
+04_extract_text_and_ocr/native_outputs/**
+04_extract_text_and_ocr/assets/**
+10_embeddings_and_database/vectors/**
+10_embeddings_and_database/models/**
+10_embeddings_and_database/postgres/**
+10_embeddings_and_database/.database_connection.json
+**/exports/**
+*.npy
+*.npz
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.dump
+*.backup
+
+# Large canonical content and backend-only answer outputs
+04_extract_text_and_ocr/outputs/pages.jsonl
+04_extract_text_and_ocr/outputs/blocks.jsonl
+05_clean_and_preprocess/outputs/clean_blocks.jsonl
+05_clean_and_preprocess/outputs/clean_pages.jsonl
+05_clean_and_preprocess/outputs/transform_log.jsonl
+04_extract_text_and_ocr/outputs/**/*.jsonl
+05_clean_and_preprocess/outputs/**/*.jsonl
+06_eda_and_quality/outputs/**/*.jsonl
+05_clean_and_preprocess/evidence/*.jsonl
+06_eda_and_quality/evidence/*.jsonl
+05_clean_and_preprocess/evidence/page_renders/**
+06_eda_and_quality/evidence/heldout_page_renders/**
+07_concepts_questions_and_chunks/outputs/chunks.jsonl
+07_concepts_questions_and_chunks/outputs/questions.jsonl
+07_concepts_questions_and_chunks/outputs/answers_private.jsonl
+07_concepts_questions_and_chunks/evidence/*.jsonl
+
+# Downloaded logs may contain sensitive endpoint details; review sanitized summaries
+**/logs/**
+
+# Local source excerpts/renders remain private pending source-specific permission review.
+02_pdf_audit/evidence/probes/**
+02_pdf_audit/evidence/selected_page_renders/**
+03_parser_benchmark/evidence/routing_validation/**
+**/_retired_codex_authored/**
+09_skill_misconception_and_scope_mapping/datasets/**
+09_skill_misconception_and_scope_mapping/vectors/**
+09_skill_misconception_and_scope_mapping/outputs/misconceptions.jsonl
+09_skill_misconception_and_scope_mapping/outputs/diagnostic_examples.jsonl
+09_skill_misconception_and_scope_mapping/outputs/diagnostic_retrieval_runs.jsonl
+07_concepts_questions_and_chunks/outputs/*.jsonl
+09_skill_misconception_and_scope_mapping/.remote_model_connection.json
+human_review/**
+
+
+# Run logs, local backups and archives (5 Nov cleanup)
+*.log
+*.bak
+*.zip
+00_setup_and_scope/logs/**
+# Per-question evaluation rows repeat NCERT question/passage text; metrics JSON stays tracked
+11_retrieval_and_evaluation/outputs/*.jsonl
+
+# Excluded per cleanup: retired archive and exploratory model feasibility
+_archive/**
+12_socratic_model_feasibility/**
+
+# Setup harness scaffolding (keeping only pilot_scope.csv and requirements.txt)
+00_setup_and_scope/code/**
+00_setup_and_scope/README.md
+00_setup_and_scope/report.md
+00_setup_and_scope/config/check_results.json
+00_setup_and_scope/config/environment.json
+00_setup_and_scope/config/environment.md
+00_setup_and_scope/config/handoff_notes.md
+00_setup_and_scope/config/pipeline_config.yaml
+00_setup_and_scope/config/review_policy.json
+

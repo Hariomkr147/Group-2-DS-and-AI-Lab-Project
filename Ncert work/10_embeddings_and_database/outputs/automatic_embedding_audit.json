@@ -1,0 +1,23 @@
+{
+  "run_id": "20261104T183014-553bc6fc",
+  "status": "passed",
+  "corpus_version": "ncert-pilot-a2ac2147befaf6e1",
+  "ncert_vectors_checked": 124,
+  "eedi_vectors_checked": 8117,
+  "dimensions": 384,
+  "ncert_vectors_recomputed": 124,
+  "eedi_vectors_recomputed": 20,
+  "sample_method": "20 lowest SHA256(misconception_id), deterministic",
+  "checks": [
+    "input/model/vector hashes",
+    "source IDs and row order",
+    "finite L2-normalized vectors",
+    "recomputed vector agreement",
+    "all database IDs, text and vectors agree"
+  ],
+  "limitations": [
+    "No individual vector needs visual review",
+    "Passing integrity checks does not prove source transcription or retrieval relevance",
+    "The Eedi recomputation is a sample; all stored Eedi vectors are checked against their file and database"
+  ]
+}

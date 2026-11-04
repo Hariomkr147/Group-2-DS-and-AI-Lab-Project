@@ -1,0 +1,27 @@
+{
+  "policy_id": "ncert-subject-routes-v2",
+  "status": "Working implementation of revised PLAN section 13.1; content review status retained",
+  "basis": "User routing decision plus full 22-page Grade 9 science reference check",
+  "native_parser_version": "1.25.1",
+  "mineru_version": "4.1.3",
+  "mineru_tier": "basic",
+  "engine": "ONNX CPU",
+  "ocr_mode": "auto",
+  "model_revision": "358310b4f64b95f9fefc372ad899356e4111f376",
+  "model_files_manifest": "03_parser_benchmark/outputs/mineru_model_files.json",
+  "page_dispositions": "02_pdf_audit/outputs/source_page_dispositions.csv",
+  "routes": {
+    "first": "PyMuPDF native probe on every physical page",
+    "mathematics_chapter": "MinerU Basic ONNX CPU auto",
+    "science_chapter": "PyMuPDF unless shared router detects table, table caption, >=4 number-only lines, or notation",
+    "private_answer": "MinerU Basic ONNX CPU auto; backend-private",
+    "other": "PyMuPDF; excluded from retrieval"
+  },
+  "batch_pages": 8,
+  "review_status": "pending",
+  "corpus_version": null,
+  "accepted_parser_policy": null,
+  "publication": "local preparation only; source permissions and review remain pending",
+  "router_sha256": "1f3f42012099ea6311d599fb68c89c5384558dc8f2f833a4e55231c4609500f6",
+  "validation_ref": "03_parser_benchmark/outputs/hybrid/grade9_routing_validation.json"
+}

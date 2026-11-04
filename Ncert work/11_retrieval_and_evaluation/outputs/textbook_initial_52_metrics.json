@@ -1,0 +1,102 @@
+{
+  "run_id": "20261104T114951-48260bd4",
+  "corpus_version": "ncert-pilot-c6d7721c6610b407",
+  "chunks": 52,
+  "queries": 83,
+  "protocol_sha256": "d87c828aa25a72ff690f06d36a12c0c056c00ea5be9af2c2ca4ddf64a2d3032f",
+  "relevance_counts": {
+    "supported": 19,
+    "needs_visual": 16,
+    "partial": 11,
+    "extraction_or_boundary_challenge": 12,
+    "outside_objectives": 25
+  },
+  "oversize_inputs": 3,
+  "metrics": [
+    {
+      "split": "calibration",
+      "method": "BM25",
+      "fully_supported_cases": 4,
+      "concept_hit_at_1": 0.75,
+      "concept_hit_at_5": 0.75,
+      "concept_mrr_at_5": 0.75
+    },
+    {
+      "split": "calibration",
+      "method": "BGE_cosine",
+      "fully_supported_cases": 4,
+      "concept_hit_at_1": 0.5,
+      "concept_hit_at_5": 1,
+      "concept_mrr_at_5": 0.7083333333333334
+    },
+    {
+      "split": "calibration",
+      "method": "RRF_BM25_BGE",
+      "fully_supported_cases": 4,
+      "concept_hit_at_1": 0.5,
+      "concept_hit_at_5": 1,
+      "concept_mrr_at_5": 0.675
+    },
+    {
+      "split": "held_out",
+      "method": "BM25",
+      "fully_supported_cases": 15,
+      "concept_hit_at_1": 0.4,
+      "concept_hit_at_5": 0.7333333333333333,
+      "concept_mrr_at_5": 0.4955555555555556
+    },
+    {
+      "split": "held_out",
+      "method": "BGE_cosine",
+      "fully_supported_cases": 15,
+      "concept_hit_at_1": 0.5333333333333333,
+      "concept_hit_at_5": 0.6666666666666666,
+      "concept_mrr_at_5": 0.58
+    },
+    {
+      "split": "held_out",
+      "method": "RRF_BM25_BGE",
+      "fully_supported_cases": 15,
+      "concept_hit_at_1": 0.4666666666666667,
+      "concept_hit_at_5": 0.8,
+      "concept_mrr_at_5": 0.5488888888888889
+    }
+  ],
+  "routing": [
+    {
+      "split": "calibration",
+      "cases": 24,
+      "supported": 4,
+      "challenges": 20,
+      "correct_supported_acceptances": 0,
+      "supported_abstentions": 4,
+      "challenge_false_acceptances": 0
+    },
+    {
+      "split": "held_out",
+      "cases": 59,
+      "supported": 15,
+      "challenges": 44,
+      "correct_supported_acceptances": 0,
+      "supported_abstentions": 15,
+      "challenge_false_acceptances": 0
+    }
+  ],
+  "policy": {
+    "corpus_version": "ncert-pilot-c6d7721c6610b407",
+    "threshold": 0.9,
+    "margin": 0.1,
+    "calibration_split": "textbook protocol calibration groups only",
+    "protocol_sha256": "d87c828aa25a72ff690f06d36a12c0c056c00ea5be9af2c2ca4ddf64a2d3032f",
+    "criterion": "+1 correct supported acceptance or challenge abstention; -2 wrong acceptance; zero positive abstention",
+    "tie_rule": "higher threshold then higher margin",
+    "confidence": "Heuristic abstention; not a probability or proof of scope",
+    "run_id": "20261104T114951-48260bd4"
+  },
+  "limitations": [
+    "Publisher questions are authentic but are not independent learner queries",
+    "Codex assigned concept relevance; no independent gold and only six objectives",
+    "Concept Hit@5 is not document Recall@5; redundant passages can make it easy",
+    "Partial/visual/boundary cases require abstention, even when a related concept is found"
+  ]
+}
