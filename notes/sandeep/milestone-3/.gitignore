@@ -4,3 +4,13 @@ __pycache__/
 socratic/adapters/
 # bundle made for uploading to Kaggle
 socratic_m3.zip
+
+# Phi-4-mini fine-tune: weights are hosted on Hugging Face
+# https://huggingface.co/IITM-2026T3-DSAI-GROUP2/Phi-4-mini-instruct-socratic-tutor
+*.safetensors
+model_finetune/checkpoints/
+model_finetune/**/checkpoints/
+# copies of Hariom's candidate data (the originals are in notes/hariom kumar/milestone-3/socratic_data_prep)
+model_finetune/input/
+model_finetune/archive/
+model_finetune/archive.zip
