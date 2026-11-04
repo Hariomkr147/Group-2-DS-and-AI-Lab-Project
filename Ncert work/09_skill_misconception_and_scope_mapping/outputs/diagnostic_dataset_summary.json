@@ -1,0 +1,26 @@
+{
+  "run_id": "20261102T185220-deac9616",
+  "examples": 41066,
+  "source_counts": {
+    "eedi-mining-misconceptions-in-mathematics": 4370,
+    "map-charting-student-math-misunderstandings": 36696
+  },
+  "split_counts": {
+    "held_out_by_question": 28938,
+    "calibration": 12128
+  },
+  "group_counts": {
+    "held_out_by_question": 1473,
+    "calibration": 411
+  },
+  "group_overlap": 0,
+  "synthetic_examples": 0,
+  "team_161_scenarios_read": false,
+  "kt_mapping": "deferred_by_user",
+  "provenance": "Original publisher data; Eedi distractors and MAP student explanations remain distinct",
+  "publication": "Restricted local evaluation only",
+  "warnings": [
+    "MAP has only 15 question groups despite 36,696 responses; row-random splits would leak problem context",
+    "Kaggle misconception IDs and the 2026 Eedi graph IDs are distinct namespaces"
+  ]
+}

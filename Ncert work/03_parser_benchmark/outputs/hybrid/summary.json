@@ -1,0 +1,37 @@
+{
+ "pymupdf_version": "1.28.2",
+ "chapter_pages": 91,
+ "pymupdf_seconds_all_pages": 18.81,
+ "pages_needing_mineru_reference": 76,
+ "plain_pages": 15,
+ "plain_page_word_similarity_median": 0.898,
+ "best_safe_router": {
+  "num": 1,
+  "sup": 1,
+  "ops": 1,
+  "mineru_pages": 91,
+  "missed_math_pages": 0,
+  "recall": 1.0
+ },
+ "subject_router": {
+  "mineru_pages": 77,
+  "missed_math_or_table_pages": [
+   [
+    "ncert-en-science-g7-gecu1-r202627-07",
+    3
+   ]
+  ],
+  "extra_mineru_pages": [
+   [
+    "ncert-en-mathematics-g6-fegp1-r202627-07",
+    6
+   ],
+   [
+    "ncert-en-mathematics-g8-hemh1-r202425-07",
+    13
+   ]
+  ]
+ },
+ "mineru_seconds_per_page_measured": 15.6,
+ "reference_limit": "MinerU output is the reference; MinerU-missed formulas are not detected"
+}

@@ -1,0 +1,32 @@
+{
+  "questions_checked": 85,
+  "answer_items_checked": 286,
+  "question_statuses": {
+    "approved": 84,
+    "quarantined": 1
+  },
+  "answer_statuses": {
+    "approved": 52,
+    "quarantined": 9,
+    "unmatched_key": 16,
+    "outside_pilot": 209
+  },
+  "scoring_pairs": 43,
+  "pending_items": 0,
+  "decisions_sha256": "7a627fb74ac68988cf2414630941bf20e63eb20f89f4b6a9164be999ec0185a7",
+  "invented_gold_answers": 0,
+  "source_key_conflicts": [
+    "ncert-q-96934c1d5ccafa92",
+    "ncert-q-3ef77a6dc9d7d888"
+  ],
+  "approved_practice_only": 41,
+  "quarantine_reasons": {
+    "depends on another question": 1
+  },
+  "review_methods": {
+    "ai_visual_source_check": 22,
+    "automatic_rule_gate": 62,
+    "none": 1
+  },
+  "limitation": "Every item has a disposition. Automatic rules (lineage, figure, grouped-question, markup and key-number agreement) replace per-item visual checks for new items; earlier visually checked items keep their decisions. Quarantine means a rule failed, with the reason stated."
+}

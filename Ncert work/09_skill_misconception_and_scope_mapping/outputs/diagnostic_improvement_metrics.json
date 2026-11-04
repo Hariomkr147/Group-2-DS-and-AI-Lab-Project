@@ -1,0 +1,52 @@
+{
+  "run_id": "20261104T112844-12ca078b",
+  "protocol_sha256": "4ee28a8bcf60eb473a85abba7a8e0e86d624e0a87518d975b7ce2d47c0c8ef17",
+  "calibration_cases": 200,
+  "test_cases": 300,
+  "selected": {
+    "query_view": "contrast",
+    "prototype_boost": 0,
+    "bm25_boost": 0.05
+  },
+  "calibration_native": {
+    "cases": 200,
+    "covered": 200,
+    "coverage": 1.0,
+    "recall_at_5": 0.28,
+    "mrr_at_5": 0.15775,
+    "top1_accuracy": 0.095
+  },
+  "held_out_native_baseline": {
+    "cases": 300,
+    "covered": 300,
+    "coverage": 1.0,
+    "recall_at_5": 0.16,
+    "mrr_at_5": 0.09894444444444445,
+    "top1_accuracy": 0.06333333333333334
+  },
+  "held_out_native_improved": {
+    "cases": 300,
+    "covered": 300,
+    "coverage": 1.0,
+    "recall_at_5": 0.26,
+    "mrr_at_5": 0.1527777777777778,
+    "top1_accuracy": 0.1
+  },
+  "held_out_graph_baseline": {
+    "cases": 300,
+    "covered": 187,
+    "coverage": 0.6233333333333333,
+    "recall_at_5": 0.10695187165775401,
+    "mrr_at_5": 0.058288770053475936,
+    "top1_accuracy": 0.03208556149732621
+  },
+  "oversize_excluded": 0,
+  "remote_calls": 0,
+  "confident_diagnoses_enabled": false,
+  "limitations": [
+    "Native label and graph ID metrics are separate and cannot be presented as the same task",
+    "Prototype training uses calibration groups only; fresh test groups exclude the old exposed benchmark",
+    "Eedi distractors are not observed student working; no Qwen classification accuracy is inferred",
+    "Candidate retrieval is not diagnosis; automatic confident labels remain disabled"
+  ]
+}

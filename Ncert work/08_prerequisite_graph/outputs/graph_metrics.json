@@ -1,0 +1,22 @@
+{
+  "run_id": "20261104T182838-2cd2235c",
+  "concepts": 25,
+  "candidate_pairs": 15,
+  "reviewed_pairs": 15,
+  "approved_edges": 3,
+  "cycles": 0,
+  "direction": "prerequisite -> dependent",
+  "independent_gold_precision": null,
+  "independent_gold_recall": null,
+  "evaluation_limit": "Same Codex AI reviewer assessed all pilot pairs; no independent gold or generalization claim",
+  "prerequisite_trace": [
+    {
+      "concept_id": "fraction_multiplication",
+      "depth": 1
+    },
+    {
+      "concept_id": "fractions",
+      "depth": 2
+    }
+  ]
+}

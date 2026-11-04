@@ -1,0 +1,24 @@
+{
+  "run_id": "20261104T182420-00980640",
+  "corpus_version": "ncert-pilot-a2ac2147befaf6e1",
+  "counts": {
+    "ncert_content.sources": 9,
+    "ncert_content.concepts": 25,
+    "ncert_content.chunks": 124,
+    "ncert_content.chunk_concepts": 124,
+    "ncert_content.questions": 0,
+    "ncert_private.answers": 0,
+    "ncert_content.prerequisite_edges": 3
+  },
+  "load_seconds": 0.24547960003837943,
+  "pgvector_version": "0.8.6",
+  "repeated_load_same_counts": true,
+  "failed_load_rolled_back": true,
+  "frozen_version_replacement_rejected": true,
+  "vector_dimension": 384,
+  "learner_export_private_fields": 0,
+  "skill_mapping": "deferred_by_user",
+  "database": "ncert_pilot",
+  "schema": "ncert_content + ncert_private",
+  "search": "pgvector exact cosine over this release; no ANN index needed at pilot size"
+}

@@ -1,0 +1,42 @@
+{
+ "queries": 26,
+ "positives": 18,
+ "negatives_or_clarify": 8,
+ "positive_top_similarity_min": 0.671,
+ "negative_top_similarity_max": 0.665,
+ "separable": true,
+ "best_with_zero_false_accepts": {
+  "split": "all",
+  "threshold": 0.67,
+  "margin": 0.01,
+  "correct": 25,
+  "wrong_concept": 0,
+  "false_accept": 0,
+  "missed_positive": 1,
+  "n": 26,
+  "accuracy": 0.962
+ },
+ "best_overall_accuracy": {
+  "split": "all",
+  "threshold": 0.67,
+  "margin": 0.0,
+  "correct": 25,
+  "wrong_concept": 1,
+  "false_accept": 0,
+  "missed_positive": 0,
+  "n": 26,
+  "accuracy": 0.962
+ },
+ "current_policy": {
+  "split": "all",
+  "threshold": 0.7,
+  "margin": 0.02,
+  "correct": 21,
+  "wrong_concept": 0,
+  "false_accept": 0,
+  "missed_positive": 5,
+  "n": 26,
+  "accuracy": 0.808
+ },
+ "limit": "26 synthetic queries over 6 concepts; not a cutoff for Classes 6-10"
+}

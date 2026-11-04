@@ -1,0 +1,21 @@
+{
+  "run_id": "20261103T154125-20ec8145",
+  "protocol_sha256": "2f5264577d8c3cfee3714f24ea84533e0e0a93d4497eeb72e794cefb615fa8bc",
+  "eedi_no_working": {
+    "need_working": 6
+  },
+  "map_with_working": {
+    "needs_review": 8,
+    "reason:remote_not_enabled": 8
+  },
+  "cases": 14,
+  "map_label_accuracy": null,
+  "wrong_confident_diagnosis_rate": null,
+  "limitations": [
+    "Local retrieval/guard smoke; remote model not called",
+    "Calibration smoke, not held-out accuracy",
+    "Eedi distractors are not student responses",
+    "MAP and Eedi use different label namespaces; no exact label bridge",
+    "All model selections remain unconfirmed candidates"
+  ]
+}

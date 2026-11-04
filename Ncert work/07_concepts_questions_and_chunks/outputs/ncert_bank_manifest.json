@@ -1,0 +1,23 @@
+{
+  "run_id": "20261104T182836-b20c6bfe",
+  "input_hashes": {
+    "01_download_pdfs/manifests/sources.csv": "df75abeaad8a95be6c3c1e4ba828efb96a0df2fbb138e4bd522867a71a9d456d",
+    "04_extract_text_and_ocr/outputs/blocks.jsonl": "3d17cc4b88d202323ad0c28c619968ee41cb9f81a37ad37d5042675580dabbd2",
+    "05_clean_and_preprocess/outputs/clean_blocks.jsonl": "505f7f5d53a757e616083a8b16796c82b4137cefe9029ce2b42b36df265ca197",
+    "07_concepts_questions_and_chunks/config/item_source_checks.json": "7a627fb74ac68988cf2414630941bf20e63eb20f89f4b6a9164be999ec0185a7"
+  },
+  "artifact_hashes": {
+    "07_concepts_questions_and_chunks/outputs/ncert_questions.jsonl": "35b542d96768b95894a6921302d84826c6a52405fc6eac1547b0713aa01220b0",
+    "07_concepts_questions_and_chunks/outputs/ncert_worked_examples.jsonl": "390eb173c45a9dc79f4031ce7f1988fef036cfaa4b450f9f61558dfd40d56356",
+    "07_concepts_questions_and_chunks/outputs/ncert_answers_private.jsonl": "298d9874e45bf784748a38f40f5e68de27d2c85a8c087bc29bd2cd72d7af1de4",
+    "07_concepts_questions_and_chunks/outputs/skipped_figure_questions.jsonl": "a5014a1f967928fe6e00a2da88c2deab75dce0772400efd7fbfcf38a7ded25eb",
+    "07_concepts_questions_and_chunks/outputs/block_roles.jsonl": "d207d496fd9dd79ff93a1f492113773056eb20e76772a85c740dec93cb4278a9",
+    "07_concepts_questions_and_chunks/outputs/ncert_question_summary.json": "c1b5b8a785ad34563d97ca0d4d122696b880868b96af8d6c6b51c05c56508be3",
+    "07_concepts_questions_and_chunks/outputs/question_item_reviews.jsonl": "05ff1c59b02500b66e45199c4794c9bb23ae14b83cc571f0d85ddcd164714661",
+    "07_concepts_questions_and_chunks/outputs/item_review_summary.json": "54f8344af2cb4cddee914026e05abf3f27365c1fa37ecc51ab8101dd5213d5e1"
+  },
+  "review_status": "item_dispositions_complete; only scoring_eligible approved pairs may be graded",
+  "invented_questions": 0,
+  "invented_answers": 0,
+  "source_check_decisions_sha256": "7a627fb74ac68988cf2414630941bf20e63eb20f89f4b6a9164be999ec0185a7"
+}
