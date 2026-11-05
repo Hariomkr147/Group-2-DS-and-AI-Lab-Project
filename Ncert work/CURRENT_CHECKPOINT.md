@@ -10,7 +10,7 @@ Generated from current manifests by `00_setup_and_scope/code/update_checkpoint.p
 - Automatic topic routing: **disabled; select a topic**. The existing retrieval labels cover the six original objectives, not all current section topics.
 - Misconceptions: six calculation-corroborated, unconfirmed rule families; no runtime Eedi vector search or remote ID selector. General diagnosis remains experimental.
 - Teaching model: the user's remote fine-tuned model only. Live model testing remains deferred by the user; no local generative model is started.
-- DKT: the previously requested original demo checkpoint remains attached; updated checkpoint/skill mapping is deferred.
+- DKT: Hariom Kumar supplied trained DKT checkpoint (5 November 2026) (123 skills). Named NCERT mappings remain an unvalidated curriculum bridge; see [mock-app verification](../mock-app/VERIFICATION.md).
 
 [Detailed release report](PILOT_REPORT.md) · [Release manifest](07_concepts_questions_and_chunks/outputs/content_manifest.json) · [Item decisions](07_concepts_questions_and_chunks/outputs/item_review_summary.json) · [Offline app checks](../mock-app/logs/offline_hardening_checks.json) · [Retired workflows](_archive/README.md)
 

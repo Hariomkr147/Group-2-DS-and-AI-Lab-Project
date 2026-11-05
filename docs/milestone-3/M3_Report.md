@@ -14,7 +14,7 @@ The tutor has three parts, and we chose and measured each one in M3:
 | Part | Job | Selected | Key result |
 |---|---|---|---|
 | Socratic response model | Write the next tutor turn as a guiding question, never the answer | Qwen 3.5-4B + QLoRA (r16, lr 2e-4) | Leak rate 0.01 → 0.00, reply length 56 → 20 words (tutors: 22), ROUGE-L 0.190 → 0.331 (+74%) |
-| Knowledge tracing | Estimate per-skill mastery from the learner's answers | DKT (LSTM) | Test AUC 0.833 against 0.841 for the best model (AKT), with a quarter of AKT's parameters and no need for question IDs |
+| Knowledge tracing | Estimate per-skill mastery from the learner's answers | DKT (LSTM) | Test AUC 0.829 against 0.843 for the best model (AKT), with about a quarter of AKT's parameters and no need for question IDs |
 | NCERT retrieval (RAG) | Ground every turn in the textbook | BM25 + BGE-small rank fusion over automatically built passages | Hit@5 80% on 15 held-out questions; 124 passages, 25 topics, 84 approved questions |
 
 A FastAPI demo app connects the three. The learner picks Class, Chapter and Topic, then chats with a tutor that cites NCERT passages, grades checkpoints and updates mastery after each answer. The fine-tuned adapters and the processed dialogue dataset are on the team's Hugging Face page.
@@ -54,7 +54,7 @@ Qwen 3.5-4B was chosen over the alternatives on the tuned results. It has the be
 
 ### 3.2 Why DKT for the app
 
-AKT with Rasch difficulty has the best test AUC (0.841), 0.006 ahead of DKT (GRU) and 0.008 ahead of DKT (LSTM). That lead comes from per-question difficulty, which needs ASSISTments question IDs. NCERT questions have no such IDs, and without the Rasch term AKT scores 0.832, below both DKT variants. DKT (LSTM) has 125K parameters against AKT's 472K and updates in one step per answer. With a single seed, the GRU and LSTM results (0.834 and 0.833) are a tie.
+AKT with Rasch difficulty has the best test AUC (0.843), 0.014 ahead of DKT (GRU) and 0.015 ahead of DKT (LSTM). That lead comes from per-question difficulty, which needs ASSISTments question IDs. NCERT questions have no such IDs, and without the Rasch term AKT scores 0.826, below both DKT variants. DKT (LSTM) has 131K parameters against AKT's 491K and updates in one step per answer. With a single seed, the GRU and LSTM results (0.8291 and 0.8286) are a tie.
 
 ### 3.3 Design decisions
 
@@ -72,7 +72,7 @@ AKT with Rasch difficulty has the best test AUC (0.841), 0.006 ahead of DKT (GRU
 | 768-token cap | Fits T4 memory | About 22% of dialogues are cut back to the last tutor turn that fits |
 | fp16 (T4 has no bf16) | Runs on free hardware | Needs a finite-loss check before training |
 | ROUGE/BLEU | Cheap and reproducible | They reward wording, not teaching, so we report leak rate, question rate and length beside them |
-| DKT over AKT | Works with skill IDs alone; 4× fewer parameters | Gives up 0.008 AUC on ASSISTments |
+| DKT over AKT | Works with skill IDs alone; 4× fewer parameters | Gives up 0.015 AUC on ASSISTments |
 | Learner picks the topic | No grounding in the wrong topic | One extra click; automatic routing failed its test (Section 6.3) |
 
 ## 4. Baseline performance and candidate dataset
@@ -104,7 +104,7 @@ A two-sample KS test compares the subset with the full train split:
 
 MathDial is 5.5% of full train but 50% of the subset. We did this on purpose: MathDial is the only real-teacher data and makes up the whole test set, and at its natural share the subset would hold about 110 MathDial dialogues. Results are therefore reported per source.
 
-For knowledge tracing, the ASSISTments 2009 skill-builder file (418,980 rows) is cleaned to 292,189 interactions from 3,947 students, covering 99 skills and 14,423 questions. Rows without a skill and scaffolding sub-questions are dropped, and students with fewer than two answers are removed. Students are split 80/10/10 (3,157 / 394 / 396), giving 232,638 training predictions and 30,176 test predictions.
+For knowledge tracing we use the ASSISTments 2009 skill-builder data: 123 skills and 15,922 questions (`skill_map.csv`, `question_map.csv`). Rows without a skill and scaffolding sub-questions are dropped, students are split 80/10/10, and the test split gives 27,329 predictions on students the models never saw.
 
 ### 4.2 Metrics
 
@@ -130,7 +130,7 @@ Pretrained weights in 4-bit, greedy decoding, at most 96 new tokens, on the same
 | Qwen 3.5-4B | 0.01 | 0.52 | 56.4 | 0.190 | 0.040 | 0.124 |
 | Phi-4-mini | 0.06 | 0.60 | 39.6 | 0.226 | 0.071 | 0.137 |
 
-The knowledge-tracing baseline always predicts the majority answer ("correct"): accuracy 0.662, AUC 0.500.
+The knowledge-tracing baseline always predicts the majority answer ("correct"): accuracy 0.670, AUC 0.500.
 
 ### 4.4 Published benchmarks
 
@@ -142,7 +142,7 @@ These use different splits and metrics, so they put our numbers in context rathe
 | SocraticLM [4] | ChatGLM3-6B on SocraTeach vs GPT-4 | ROUGE-L 47.5 vs 32.4; BLEU-4 48.6 vs 36.2 |
 | DKT [8] and re-check [11] | ASSISTments 2009 | AUC about 0.86 as first reported; about 0.75 after duplicate rows were removed |
 | Ours, tuned Qwen | 50 SocraTeach / 50 MathDial contexts | ROUGE-L 41.9 / 24.4 |
-| Ours, KT | Student split, one row per (order, skill) | AUC 0.831 to 0.841 for DKT and AKT |
+| Ours, KT | Student split, one row per (order, skill) | AUC 0.826 to 0.843 for DKT and AKT |
 
 Our tuned SocraTeach ROUGE-L sits between GPT-4 and SocraticLM's fine-tuned 6B model. Our KT preprocessing keeps a problem tagged with several skills as several rows with the same answer, the effect [11] identified, so our AUCs are likely optimistic in absolute terms. The comparison between our seven models is still fair because they all see the same data.
 
@@ -190,16 +190,16 @@ KT used no per-model search. Every model gets the same defaults so the ranking c
 
 | Model | Params | Best epoch | Val AUC | Test AUC | Accuracy | F1 |
 |---|---:|---:|---:|---:|---:|---:|
-| DKT (LSTM), selected | 124,835 | 9 | 0.825 | 0.833 | 0.782 | 0.848 |
-| DKT (GRU) | 100,003 | 13 | 0.828 | 0.834 | 0.784 | 0.849 |
-| DKT (RNN) | 50,339 | 14 | 0.824 | 0.831 | 0.780 | 0.846 |
-| SAKT | 44,417 | 59 | 0.769 | 0.771 | 0.741 | 0.822 |
-| SAKT + positions | 57,217 | 32 | 0.801 | 0.806 | 0.763 | 0.835 |
-| AKT (no Rasch) | 418,841 | 20 | 0.827 | 0.832 | 0.779 | 0.845 |
-| AKT (Rasch) | 471,537 | 15 | 0.838 | 0.841 | 0.784 | 0.844 |
-| Majority class | 0 | n/a | n/a | 0.500 | 0.662 | n/a |
+| DKT (LSTM), selected | 131,003 | 11 | 0.826 | 0.829 | 0.780 | 0.846 |
+| DKT (GRU) | 106,171 | 14 | 0.830 | 0.829 | 0.778 | 0.845 |
+| DKT (RNN) | 56,507 | 20 | 0.825 | 0.826 | 0.777 | 0.844 |
+| SAKT | 49,025 | 30 | 0.767 | 0.765 | 0.744 | 0.827 |
+| SAKT + positions | 61,825 | 27 | 0.801 | 0.805 | 0.767 | 0.842 |
+| AKT (no Rasch) | 428,057 | 25 | 0.828 | 0.826 | 0.776 | 0.845 |
+| AKT (Rasch) | 491,468 | 16 | 0.836 | 0.843 | 0.787 | 0.848 |
+| Majority class | 0 | n/a | n/a | 0.500 | 0.670 | n/a |
 
-All three DKT cells land within 0.004 AUC of each other. Positional embeddings add 0.035 AUC to SAKT. Plain SAKT peaked at epoch 59 of 60, so it was still improving when training stopped, and its score understates it. The learned decay in AKT averages θ ≈ 0.72 without Rasch and 0.75 with it, meaning the model gives recent practice more weight.
+All three DKT cells land within 0.003 AUC of each other. Positional embeddings add 0.040 AUC to SAKT. The Rasch difficulty term adds 0.017 AUC to AKT, the largest single gain in the table. Full results are in `KT_model/results_summary.csv`, and the AKT test predictions are in `akt_test_predictions.csv`.
 
 ### 5.4 Retrieval
 
@@ -291,7 +291,7 @@ Two things are not yet tested. The live Qwen step with retrieved passages (`chec
 | Socratic fine-tuning (4 models) | `notes/hariom kumar/milestone-3/model_finetune/report.md`, `README.md`, notebooks and `*_output/results.json` |
 | Models and dataset | https://huggingface.co/IITM-2026T3-DSAI-GROUP2 |
 | Model hosting | `notes/hariom kumar/milestone-3/model_hosting/README.md` |
-| Knowledge tracing | `notes/hariom kumar/milestone-3/KT_model/KT_Models_Comparison_AKT_firstnb_processing.ipynb`, trained weights and skill map |
+| Knowledge tracing | `docs/milestone-3/KT_model/`: `KT_Models_Comparison_AKT_firstnb_processing.ipynb`, `results_summary.csv`, `skill_map.csv`, `question_map.csv`, `akt_test_predictions.csv` |
 | NCERT pipeline | `Ncert work/PILOT_REPORT.md`, `Ncert work/README.md` |
 | Demo app | `mock-app/README.md`, `mock-app/VERIFICATION.md` |
 | Presentation | Design canvas exported as `M3_Presentation.pdf` (13 slides) |
