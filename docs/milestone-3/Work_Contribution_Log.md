@@ -2,6 +2,8 @@
 
 **Project:** Socratic AI Tutor: guiding a learner to the answer through probing questions
 **Team:** Group 2, Data Science and AI Lab, IIT Madras BS
+**Date:** 5 November 2026
+**Models and dataset:** https://huggingface.co/IITM-2026T3-DSAI-GROUP2
 
 ## Team
 
@@ -25,14 +27,20 @@ These are primary roles only. They are not fixed: as the project needs, members 
 
 ## Contributions
 
-Each member fills in their own row before sign-off. Entries below are what is recorded so far.
-
 | Name | Work done |
 |---|---|
-| Sandeep Nalla | Built the candidate subset for Socratic-model experiments (2,000 train, 150 validation and 200 test conversations, seeded, no problem shared across splits, MathDial and SocraTeach both kept) and its statistics; wrote the zero-shot baseline evaluation script (ROUGE-L, question rate, reply length, per source); *to fill in: baseline results for Gemma 4 E4B and Phi-4-mini-instruct, LoRA tuning runs, comparison plots, report sections for the Socratic models* |
-| Hariom Kumar | *to fill in* |
-| Hariom Pandey | *to fill in* |
-| Mrityunjay Chakraborty | *to fill in* |
+| Sandeep Nalla | Wrote the zero-shot baseline evaluation script (ROUGE-L, question rate, reply length, per source); ran the Phi-4-mini-instruct QLoRA grid and final run (`notes/sandeep/milestone-3/model_finetune/phi4mini-finetuning.ipynb`) and published its adapter on Hugging Face |
+| Hariom Kumar | Coordinated the team; prepared the Socratic dialogue data and candidate set (`socratic_data_prep`); fine-tuned Qwen 3.5-4B and Gemma 4 E4B with QLoRA (baselines, 3-setting grid, final runs) and compared all four models (`model_finetune`); ran the NCERT pilot (`Ncert work/PILOT_REPORT.md`); built the demo app (`mock-app`); hosted the Qwen model; uploaded the dataset and models to Hugging Face; prepared `M3_Report.md` and the presentation |
+| Hariom Pandey | Compared knowledge-tracing models DKT, SAKT and AKT with Mrityunjay Chakraborty (`KT_model/KT_Models_Comparison_AKT_firstnb_processing.ipynb`); fine-tuned the Qwen3-4B-Instruct trial (`model_finetune/claudeaisocratic.ipynb`) |
+| Mrityunjay Chakraborty | Compared knowledge-tracing models DKT, SAKT and AKT with Hariom Pandey (`KT_model/KT_Models_Comparison_AKT_firstnb_processing.ipynb`) |
+
+## Documents
+
+| Document | File |
+|---|---|
+| Report | `M3_Report.md` (also `.docx` and `.pdf`) |
+| Presentation | `M3_Presentation.pdf` (also `.pptx`) |
+| Work log | `Work_Contribution_Log.md` (also `.docx` and `.pdf`) |
 
 ## Sign-off
 
@@ -40,7 +48,7 @@ By signing, each member confirms that this log is accurate and that they have re
 
 | Name | Roll number | Signature | Date |
 |---|---|---|---|
-| Sandeep Nalla | 21f1006125 | | |
-| Hariom Kumar | 23f2004225 | | |
-| Hariom Pandey | 21f3002112 | | |
-| Mrityunjay Chakraborty | 21f3001385 | | |
+| Sandeep Nalla | 21f1006125 | <img src="../signatures/sandeep_nalla.jpg" alt="signature" height="40"> | 05-11-2026 |
+| Hariom Kumar | 23f2004225 | <img src="../signatures/hariom_kumar.jpg" alt="signature" height="40"> | 05-11-2026 |
+| Hariom Pandey | 21f3002112 | <img src="../signatures/hariom_pandey.jpeg" alt="signature" height="40"> | 05-11-2026 |
+| Mrityunjay Chakraborty | 21f3001385 | <img src="../signatures/mrityunjay_chakraborty.jpg" alt="signature" height="40"> | 05-11-2026 |

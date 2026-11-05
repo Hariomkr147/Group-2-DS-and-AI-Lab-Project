@@ -1,0 +1,4 @@
+# Model weights and training checkpoints stay out of git (GitHub rejects files over 100 MB)
+*.safetensors
+*.bin
+checkpoints/

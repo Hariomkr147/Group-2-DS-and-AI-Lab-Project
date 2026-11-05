@@ -1,7 +1,8 @@
 # Socratic Response Model — Milestone 3 Report
 
 **Project:** Group 2 DS & AI Lab — AI Socratic tutor for NCERT Classes 6–10
-**Author:** Hariom Kumar (Qwen 3.5-4B, Gemma 4 E4B, Qwen3-4B trial) · Phi-4-mini run by Sandeep Nalla with the same notebook
+**Authors:** Hariom Kumar (Qwen 3.5-4B, Gemma 4 E4B, comparison) · Phi-4-mini run by Sandeep Nalla with the same notebook · Qwen3-4B trial by Hariom Pandey (`claudeaisocratic.ipynb`)
+**Models and data on Hugging Face:** https://huggingface.co/IITM-2026T3-DSAI-GROUP2
 **Date:** 5 November 2026
 
 ---
@@ -80,7 +81,26 @@ Instead of the full corpora (SocraTeach_Multi has about 35,000 dialogues; MathDi
 | `candidate_val` | 100 | 100 | 100 evaluation contexts (50 per source) and 100 validation-loss dialogues (50 per source) |
 | MathDial test | — | 599 | **Untouched**, kept for the final evaluation |
 
-DATA_PREP_DETAILS
+**How it was built** (full detail in `../socratic_data_prep/REPORT.md`):
+
+- **Problem-level split.** Every dialogue gets `problem_id = sha1(normalised question)`. All 599 MathDial test dialogues form the test set, and any train dialogue sharing a problem with them is removed (1,245 SocraTeach, 585 MathDial). Validation takes 10% of the remaining problems per source (seed 42). No problem appears in two splits; the notebook asserts this.
+- **Sampling.** Within each source, the subset is stratified by word-count quartile (seed 42), so short and long dialogues keep their natural share.
+- **Labels kept, never removed.** Tutor turns that state the final answer early are flagged `leaks_answer` (0.3% of SocraTeach, 1.7% of MathDial tutor turns); they stay as context but are never training targets.
+
+**Representativeness.** Two-sample Kolmogorov–Smirnov tests against the full train split, per source:
+
+| Source | Feature | Full train | Subset | KS | p |
+|---|---|---:|---:|---:|---:|
+| SocraTeach | Words per dialogue | 234.9 | 234.3 | 0.020 | 0.81 |
+| SocraTeach | Messages per dialogue | 9.71 | 9.69 | 0.013 | 0.99 |
+| MathDial | Words per dialogue | 314.2 | 312.9 | 0.010 | 1.00 |
+| MathDial | Messages per dialogue | 12.04 | 12.03 | 0.013 | 1.00 |
+| MathDial | Leak share of tutor turns | 0.017 | 0.017 | 0.004 | 1.00 |
+| MathDial | "Telling" share of tutor turns | 0.154 | 0.153 | 0.006 | 1.00 |
+
+No feature differs measurably within a source.
+
+**Source mix (deliberate).** MathDial is 5.5% of the full train split but 50% of the subset. It is the only real-teacher data and the whole test set; at its natural share the subset would hold about 110 MathDial dialogues, too few to learn real-teacher style or to separate one setting from another. SocraTeach is LLM-generated with several dialogues per problem, so extra SocraTeach adds little. Results are therefore reported per source.
 
 ---
 
@@ -167,7 +187,7 @@ Per source (50 contexts each):
 
 Fine-tuning brings every model to human-like length, removes answer leaks, and lifts overlap with real tutors by 30–74%. Qwen's question rate per source matches the humans most closely (0.76 vs 0.80; 0.42 vs 0.44).
 
-**Early trial: Qwen3-4B-Instruct-2507.** Before the shared protocol, one run used TRL's `SFTTrainer` on a different split: 440 dialogues (220 per source) split by problem hash, giving 2,344 turn-level examples up to 1,024 tokens, LoRA r16 / alpha 32 at 2e-4, 146 steps, 41 minutes, 7 GB peak memory. Its validation loss fell from 1.24 to 1.19 (token accuracy 0.69), but it recorded no generated replies and used different validation data, so it is reported as a feasibility check and not ranked.
+**Early trial: Qwen3-4B-Instruct-2507 (Hariom Pandey).** Before the shared protocol, one run used TRL's `SFTTrainer` on a different split: 440 dialogues (220 per source) split by problem hash, giving 2,344 turn-level examples up to 1,024 tokens, LoRA r16 / alpha 32 at 2e-4, 146 steps, 41 minutes, 7 GB peak memory. Its validation loss fell from 1.24 to 1.19 (token accuracy 0.69), but it recorded no generated replies and used different validation data, so it is reported as a feasibility check and not ranked.
 
 ---
 

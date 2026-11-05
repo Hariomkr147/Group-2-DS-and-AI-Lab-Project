@@ -11,7 +11,7 @@ Four models were fine-tuned with LoRA on Kaggle T4 GPUs. Three of them share one
 | Qwen 3.5-4B | `qwen-finetuning.ipynb` | `Qwen_finetune_output/qwen35_socratic_final/` | **Selected.** ROUGE-L 0.331, 0 leaks |
 | Gemma 4 E4B | `gemma-finetunning.ipynb` | `gemma_finetune_output/gemma4_e4b_socratic_final/` | ROUGE-L 0.319, 0 leaks |
 | Phi-4-mini | `notes/sandeep/milestone-3/model_finetune/phi4mini-finetuning.ipynb` (Sandeep, same protocol) | Hugging Face: `IITM-2026T3-DSAI-GROUP2/Phi-4-mini-instruct-socratic-tutor` | ROUGE-L 0.294, 0 leaks |
-| Qwen3-4B-Instruct-2507 (early trial) | `claudeaisocratic.ipynb` | Kaggle output only (`lora_adapter.zip`) | Different data and protocol; loss only, not ranked |
+| Qwen3-4B-Instruct-2507 (early trial) | `claudeaisocratic.ipynb` (Hariom Pandey) | Kaggle output only (`lora_adapter.zip`) | Different data and protocol; loss only, not ranked |
 
 ## Shared protocol (Qwen 3.5, Gemma, Phi)
 
