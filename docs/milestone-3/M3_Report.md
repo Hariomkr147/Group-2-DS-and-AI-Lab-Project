@@ -14,7 +14,7 @@ The tutor has three parts, and we chose and measured each one in M3:
 | Part | Job | Selected | Key result |
 |---|---|---|---|
 | Socratic response model | Write the next tutor turn as a guiding question, never the answer | Qwen 3.5-4B + QLoRA (r16, lr 2e-4) | Leak rate 0.01 → 0.00, reply length 56 → 20 words (tutors: 22), ROUGE-L 0.190 → 0.331 (+74%) |
-| Knowledge tracing | Estimate per-skill mastery from the learner's answers | DKT (LSTM) | Test AUC 0.829 against 0.843 for the best model (AKT), with about a quarter of AKT's parameters and no need for question IDs |
+| Knowledge tracing | Estimate per-skill mastery from the learner's answers | AKT with Rasch difficulty | Test AUC 0.843, best of seven models (DKT 0.829); trained weights in `KT_model/akt_best.pt` |
 | NCERT retrieval (RAG) | Ground every turn in the textbook | BM25 + BGE-small rank fusion over automatically built passages | Hit@5 80% on 15 held-out questions; 124 passages, 25 topics, 84 approved questions |
 
 A FastAPI demo app connects the three. The learner picks Class, Chapter and Topic, then chats with a tutor that cites NCERT passages, grades checkpoints and updates mastery after each answer. The fine-tuned adapters and the processed dialogue dataset are on the team's Hugging Face page.
@@ -52,9 +52,11 @@ A 4B model in 4-bit also trains on one free 16 GB Kaggle T4 and runs on infrastr
 
 Qwen 3.5-4B was chosen over the alternatives on the tuned results. It has the best overall ROUGE-L (0.331 vs 0.319 for Gemma and 0.294 for Phi), the best MathDial ROUGE-L (0.244 vs 0.228 and 0.186), zero leaks, and a MathDial question rate (0.42) closest to real teachers (0.44). It is Apache 2.0, and its adapter is already published and served to the app. Gemma is close enough to call a tie on 100 contexts and one seed. Phi trains fastest (49 min) but falls behind on MathDial.
 
-### 3.2 Why DKT for the app
+### 3.2 Why AKT
 
-AKT with Rasch difficulty has the best test AUC (0.843), 0.014 ahead of DKT (GRU) and 0.015 ahead of DKT (LSTM). That lead comes from per-question difficulty, which needs ASSISTments question IDs. NCERT questions have no such IDs, and without the Rasch term AKT scores 0.826, below both DKT variants. DKT (LSTM) has 131K parameters against AKT's 491K and updates in one step per answer. With a single seed, the GRU and LSTM results (0.8291 and 0.8286) are a tie.
+AKT with Rasch difficulty has the best test AUC (0.843), 0.014 ahead of DKT (GRU) and 0.015 ahead of DKT (LSTM), and the best F1 (0.848). Most of that lead comes from the Rasch term, which gives every question its own difficulty: without it AKT scores 0.826. That per-question difficulty is useful for the tutor, which needs to know which checkpoint is hard, not only which skill. AKT's monotonic attention also discounts old practice, which matches how learners forget.
+
+NCERT questions have no ASSISTments IDs, so each NCERT question starts at average difficulty (the Rasch offset is zero) and learns its own difficulty as in-app answers come in. Until then AKT behaves like the no-Rasch version, which scores close to DKT (0.826 vs 0.829). The cost is size: 491K parameters against 131K for DKT (LSTM).
 
 ### 3.3 Design decisions
 
@@ -72,7 +74,7 @@ AKT with Rasch difficulty has the best test AUC (0.843), 0.014 ahead of DKT (GRU
 | 768-token cap | Fits T4 memory | About 22% of dialogues are cut back to the last tutor turn that fits |
 | fp16 (T4 has no bf16) | Runs on free hardware | Needs a finite-loss check before training |
 | ROUGE/BLEU | Cheap and reproducible | They reward wording, not teaching, so we report leak rate, question rate and length beside them |
-| DKT over AKT | Works with skill IDs alone; 4× fewer parameters | Gives up 0.015 AUC on ASSISTments |
+| AKT over DKT | +0.015 AUC on ASSISTments; per-question difficulty | 3.7× more parameters; NCERT question difficulty must be learned from in-app answers |
 | Learner picks the topic | No grounding in the wrong topic | One extra click; automatic routing failed its test (Section 6.3) |
 
 ## 4. Baseline performance and candidate dataset
@@ -190,16 +192,16 @@ KT used no per-model search. Every model gets the same defaults so the ranking c
 
 | Model | Params | Best epoch | Val AUC | Test AUC | Accuracy | F1 |
 |---|---:|---:|---:|---:|---:|---:|
-| DKT (LSTM), selected | 131,003 | 11 | 0.826 | 0.829 | 0.780 | 0.846 |
+| DKT (LSTM) | 131,003 | 11 | 0.826 | 0.829 | 0.780 | 0.846 |
 | DKT (GRU) | 106,171 | 14 | 0.830 | 0.829 | 0.778 | 0.845 |
 | DKT (RNN) | 56,507 | 20 | 0.825 | 0.826 | 0.777 | 0.844 |
 | SAKT | 49,025 | 30 | 0.767 | 0.765 | 0.744 | 0.827 |
 | SAKT + positions | 61,825 | 27 | 0.801 | 0.805 | 0.767 | 0.842 |
 | AKT (no Rasch) | 428,057 | 25 | 0.828 | 0.826 | 0.776 | 0.845 |
-| AKT (Rasch) | 491,468 | 16 | 0.836 | 0.843 | 0.787 | 0.848 |
+| AKT (Rasch), selected | 491,468 | 16 | 0.836 | 0.843 | 0.787 | 0.848 |
 | Majority class | 0 | n/a | n/a | 0.500 | 0.670 | n/a |
 
-All three DKT cells land within 0.003 AUC of each other. Positional embeddings add 0.040 AUC to SAKT. The Rasch difficulty term adds 0.017 AUC to AKT, the largest single gain in the table. Full results are in `KT_model/results_summary.csv`, and the AKT test predictions are in `akt_test_predictions.csv`.
+All three DKT cells land within 0.003 AUC of each other. Positional embeddings add 0.040 AUC to SAKT. The Rasch difficulty term adds 0.017 AUC to AKT, the largest single gain in the table. Full results are in `KT_model/results_summary.csv`; the selected AKT's weights are in `akt_best.pt` and its test predictions in `akt_test_predictions.csv`.
 
 ### 5.4 Retrieval
 
@@ -221,7 +223,7 @@ The labels cover only the six original pilot concepts, so some misses land on ne
 flowchart LR
   subgraph Offline["Offline: data and training"]
     D1[SocraTeach + MathDial] --> P1[Problem-level split<br/>candidate subset] --> T1[QLoRA grid → final<br/>Kaggle T4] --> A1[(Qwen 3.5-4B adapter<br/>Hugging Face)]
-    D2[ASSISTments 2009] --> T2[KT comparison<br/>student split] --> A2[(DKT weights<br/>+ skill map)]
+    D2[ASSISTments 2009] --> T2[KT comparison<br/>student split] --> A2[(AKT weights<br/>+ skill and question maps)]
     D3[9 NCERT PDFs] --> P3[Parse · clean ·<br/>passage builder · questions] --> A3[(Frozen release<br/>124 passages, BGE + BM25)]
   end
   subgraph Online["Online: one learner turn"]
@@ -230,7 +232,7 @@ flowchart LR
     R --> G[Qwen 3.5-4B + LoRA<br/>via HTTPS tunnel]
     G --> S[Screen: leak, protocol,<br/>truncation]
     S --> U
-    C --> K[Grade with private key] --> M[DKT readiness<br/>prerequisite backtrack] --> U
+    C --> K[Grade with private key] --> M[KT readiness<br/>prerequisite backtrack] --> U
   end
   A1 -.-> G
   A2 -.-> M
@@ -259,9 +261,9 @@ At the calibrated cut-offs, automatic topic routing accepted 0 of 15 answerable 
 
 ### 6.4 Demo app status
 
-The FastAPI app keeps learner history in SQLite and offers Class → Chapter → Topic navigation and three hint levels. It grades checkpoints against private keys, tracks readiness with DKT and backtracks to prerequisites, screens replies for leaks and truncation, and keeps progress when a model call fails. Unit tests and `check_offline.py` run on the real release with zero model calls; 52 tests pass across the pipeline and app. The Qwen adapter is hosted behind an HTTPS tunnel from a Kaggle or Colab notebook (`notes/hariom kumar/milestone-3/model_hosting/README.md`).
+The FastAPI app keeps learner history in SQLite and offers Class → Chapter → Topic navigation and three hint levels. It grades checkpoints against private keys, tracks readiness with knowledge tracing and backtracks to prerequisites, screens replies for leaks and truncation, and keeps progress when a model call fails. Unit tests and `check_offline.py` run on the real release with zero model calls; 52 tests pass across the pipeline and app. The Qwen adapter is hosted behind an HTTPS tunnel from a Kaggle or Colab notebook (`notes/hariom kumar/milestone-3/model_hosting/README.md`).
 
-Two things are not yet tested. The live Qwen step with retrieved passages (`check_live.py`) is scheduled for M4. DKT is trained on ASSISTments skills, so only NCERT topics that map to one of them get a model prediction; the others use practice estimates.
+Two things are not yet tested. The live Qwen step with retrieved passages (`check_live.py`) is scheduled for M4. The demo app still loads the earlier DKT checkpoint, so only NCERT topics that map to an ASSISTments skill get a model prediction; switching the app to the selected AKT weights is an M4 task.
 
 ## 7. Limitations and next steps
 
@@ -270,7 +272,7 @@ Two things are not yet tested. The live Qwen step with retrieved passages (`chec
 | 100 contexts per model and one seed; Qwen vs Gemma is a near tie | Score all models once on the 599-dialogue MathDial test split, with Telling@k as in [3] |
 | ROUGE/BLEU reward wording, not teaching | Add a rubric rating from a human sample and an LLM judge |
 | The tutoring data is English maths word problems | Evaluate on NCERT science topics; consider NCERT-grounded dialogues |
-| KT is one seed, untuned, with multi-skill rows kept and no BKT baseline | Run 3 to 5 seeds, add BKT, retrain without duplicate rows, fit or calibrate on in-app answers |
+| KT is one seed, untuned, with multi-skill rows kept and no BKT baseline | Run 3 to 5 seeds, add BKT, retrain without duplicate rows, load AKT in the app and learn NCERT question difficulty from in-app answers |
 | 15 held-out retrieval questions, labels for 6 of 25 topics | Extend the builder to all Classes 6–10 books, label a fresh test against every topic, re-test routing |
 | The leak guard is lexical | Run `check_live.py` end to end and review a sample of live replies |
 
@@ -291,7 +293,7 @@ Two things are not yet tested. The live Qwen step with retrieved passages (`chec
 | Socratic fine-tuning (4 models) | `notes/hariom kumar/milestone-3/model_finetune/report.md`, `README.md`, notebooks and `*_output/results.json` |
 | Models and dataset | https://huggingface.co/IITM-2026T3-DSAI-GROUP2 |
 | Model hosting | `notes/hariom kumar/milestone-3/model_hosting/README.md` |
-| Knowledge tracing | `docs/milestone-3/KT_model/`: `KT_Models_Comparison_AKT_firstnb_processing.ipynb`, `results_summary.csv`, `skill_map.csv`, `question_map.csv`, `akt_test_predictions.csv` |
+| Knowledge tracing | `docs/milestone-3/KT_model/`: `KT_Models_Comparison_AKT_firstnb_processing.ipynb`, `results_summary.csv`, `akt_best.pt` (AKT weights), `skill_map.csv`, `question_map.csv`, `akt_test_predictions.csv` |
 | NCERT pipeline | `Ncert work/PILOT_REPORT.md`, `Ncert work/README.md` |
 | Demo app | `mock-app/README.md`, `mock-app/VERIFICATION.md` |
 | Presentation | Design canvas exported as `M3_Presentation.pdf` (13 slides) |

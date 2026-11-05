@@ -20,20 +20,57 @@ When a learner has a doubt, the tutor:
 
 ## How it works
 
-| Component | Role |
+| Component | Role | Milestone 3 choice |
+|---|---|---|
+| Learner model (knowledge tracing) | Estimates what the learner knows for each concept | AKT with Rasch question difficulty, test AUC 0.843 on ASSISTments 2009 (best of 7 models) |
+| Tutor controller | Decides the next step: probe, hint, backtrack, retest, move up | Rule-based, in the demo app |
+| Socratic question model | Writes the next probing question, never the answer | Qwen 3.5-4B fine-tuned with QLoRA on SocraTeach + MathDial; 0 answer leaks, ROUGE-L 0.19 → 0.33 |
+| Search (RAG) | Finds the relevant NCERT passage and cites the page | BM25 + BGE-small rank fusion over 124 automatically built passages; Hit@5 80% |
+| Web app | Class → Chapter → Topic → chat | FastAPI demo (`mock-app/`); planned production stack React + FastAPI + PostgreSQL (pgvector) |
+
+The tutor is domain-agnostic: each subject is added as a *course pack* (concepts, prerequisite links, study material, questions). We build two:
+
+- NCERT content across several classes that build on each other (primary, chosen because the textbooks are public and complete). Any subject with study material uses the same pipeline.
+- IITM BS course material: Maths & Stats → MLF → MLT (secondary, to show the pipeline is reusable).
+
+## Status
+
+Milestone 3 is done: model selection, baselines, hyperparameter tuning and an end-to-end pipeline.
+
+- Four small LLMs compared (Qwen 3.5-4B, Gemma 4 E4B, Phi-4-mini, Qwen3-4B trial); Qwen 3.5-4B selected.
+- Seven knowledge-tracing models compared (DKT LSTM/GRU/RNN, SAKT, SAKT + positions, AKT, AKT + Rasch); AKT + Rasch selected.
+- NCERT pilot release built automatically: 124 passages, 25 topics, 84 approved questions.
+- Demo app built on the pilot release; it calls the hosted Qwen model. The live Qwen step with retrieved passages is not yet tested, and the app still loads the earlier DKT checkpoint. Both are planned for Milestone 4.
+
+Milestone 2 (datasets, EDA, course packs) is in `docs/milestone-2/`. The IITM BS pack is not built yet.
+
+### Milestone 3 deliverables
+
+| Document | Files |
 |---|---|
-| Learner model (DKT) | Our trained LSTM that estimates what the learner knows for each concept |
-| Tutor controller | Our logic that decides the next step: probe, hint, backtrack, retest, move up |
-| Socratic question model | Qwen3-4B fine-tuned by us with LoRA on MathDial: writes probing questions |
-| Search (RAG) | Finds the relevant study material |
-| Web app | React + FastAPI + PostgreSQL (pgvector) |
+| Report | [`M3_Report.md`](docs/milestone-3/M3_Report.md), [`.pdf`](docs/milestone-3/M3_Report.pdf), [`.docx`](docs/milestone-3/M3_Report.docx) |
+| Presentation | [`M3_Presentation.pdf`](docs/milestone-3/M3_Presentation.pdf), [`.pptx`](docs/milestone-3/M3_Presentation.pptx) |
+| Work log | [`Work_Contribution_Log.md`](docs/milestone-3/Work_Contribution_Log.md), [`.pdf`](docs/milestone-3/Work_Contribution_Log.pdf), [`.docx`](docs/milestone-3/Work_Contribution_Log.docx) |
 
-The tutor is **domain-agnostic**: each subject is added as a *course pack* (concepts, prerequisite links, study material, questions). We build two:
+Fine-tuned adapters and the processed dialogue dataset: https://huggingface.co/IITM-2026T3-DSAI-GROUP2
 
-- **NCERT content** across several classes that build on each other (primary, chosen because the textbooks are public and complete). Any subject with study material uses the same pipeline.
-- **IITM BS course material**: Maths & Stats → MLF → MLT (secondary, to show the pipeline is reusable)
+## Repository layout
 
-**Status:** Milestone 2 done: datasets prepared (ASSISTments, MathDial, SocraTeach, NCERT), two course packs and our own test scenarios. Report, EDA notebook and slides are in `docs/milestone-2/`; the preprocessing scripts are in `docs/milestone-2/preprocessing/`. The IITM BS pack is not built yet. Models are trained in Milestone 3.
+| Path | Contents |
+|---|---|
+| `docs/milestone-1/`, `docs/milestone-2/`, `docs/milestone-3/` | Milestone reports, slides and work logs |
+| `docs/milestone-3/socratic_data_prep/` | Dialogue data preparation and candidate subset |
+| `docs/milestone-3/model_finetune/` | QLoRA notebooks, results and the four-model comparison |
+| `docs/milestone-3/model_hosting/` | Notebook that serves the Qwen adapter over HTTPS |
+| `docs/milestone-3/KT_model/` | Knowledge-tracing comparison notebook, results, AKT weights, skill and question maps |
+| `Ncert work/` | NCERT pipeline: parsing, passage builder, questions, embeddings, retrieval evaluation ([`PILOT_REPORT.md`](Ncert%20work/PILOT_REPORT.md)) |
+| `mock-app/` | FastAPI demo tutor ([`README.md`](mock-app/README.md)) |
+| `backend/` | Backend service |
+| `notes/` | Each member's working notes |
+
+## Run the demo
+
+On Windows, from `mock-app/`, run `./start.ps1` in PowerShell and open http://127.0.0.1:8765. It needs the Python environment in `Ncert work/.venv` and a running hosted Qwen endpoint; see [`mock-app/README.md`](mock-app/README.md) for setup and checks.
 
 ## Team
 
