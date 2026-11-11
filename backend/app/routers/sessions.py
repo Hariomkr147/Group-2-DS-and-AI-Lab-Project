@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 
 from ..db import SessionRow, TurnRow, get_db
 from ..schemas import MessageIn, SessionCreate, SessionInfo, TutorReply, Turn
+from ..security import current_user, limit_messages
 from ..services import course_store, tutor
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
@@ -26,9 +27,9 @@ def _info(db: Session, s: SessionRow) -> SessionInfo:
 
 
 @router.post("", response_model=SessionInfo, status_code=201)
-def create_session(body: SessionCreate, db: Session = Depends(get_db)):
+def create_session(body: SessionCreate, db: Session = Depends(get_db), user: str = Depends(current_user)):
     course_store.get_pack(db, body.course_id)  # 404 if the course does not exist
-    s = SessionRow(id=uuid4().hex, learner_id=body.learner_id, course_id=body.course_id, stack=[], tries=0)
+    s = SessionRow(id=uuid4().hex, learner_id=body.learner_id or user, course_id=body.course_id, stack=[], tries=0)
     db.add(s)
     db.commit()
     return _info(db, s)
@@ -40,5 +41,6 @@ def get_session(session_id: str, db: Session = Depends(get_db)):
 
 
 @router.post("/{session_id}/messages", response_model=TutorReply)
-def send_message(session_id: str, body: MessageIn, db: Session = Depends(get_db)):
+def send_message(session_id: str, body: MessageIn, db: Session = Depends(get_db), user: str = Depends(current_user)):
+    limit_messages(user)
     return tutor.handle_message(db, _get(db, session_id), body.text)

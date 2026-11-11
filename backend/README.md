@@ -8,23 +8,45 @@ Needs [uv](https://docs.astral.sh/uv/) (`pip install uv` or see its install page
 
 ```bash
 cd backend
+cp .env.example .env              # then fill in ADMIN_PASSWORD and SECRET_KEY (see Security)
 docker compose up -d              # PostgreSQL 16 with pgvector on localhost:5432
 uv sync                           # creates .venv with Python 3.12 and installs locked dependencies
-uv run uvicorn app.main:app --reload     # http://127.0.0.1:8000/docs
+uv run --env-file .env uvicorn app.main:app --reload     # http://127.0.0.1:8000/docs
 uv run pytest -q                  # runs against an embedded PostgreSQL, no Docker needed
 ```
 
 The connection string is read from `DATABASE_URL` (default in `.env.example`). Tables are created at startup and a sample course pack is seeded. Use `uv add <package>` to add a dependency; commit `pyproject.toml` and `uv.lock`.
 
+## Security
+
+The API has one account, set in `.env`. Every route except `GET /health` and `POST /auth/login` needs a bearer token.
+
+| Variable | Purpose |
+|---|---|
+| `ADMIN_USERNAME` | Login name (default `admin`) |
+| `ADMIN_PASSWORD` | Login password. Make a random one: `python -c "import secrets; print(secrets.token_urlsafe(16))"` |
+| `SECRET_KEY` | Signs login tokens (same command, longer: `token_urlsafe(48)`) |
+| `APP_ENV=production` | Refuses to start without the two secrets above and hides `/docs` |
+| `CORS_ORIGINS` | Allowed browser origins, comma-separated (default: localhost 3000 and 5173) |
+| `TOKEN_MINUTES`, `MESSAGES_PER_MINUTE` | Token lifetime (480) and tutor message limit (30) |
+
+- Log in: `POST /auth/login {"username", "password"}` returns `access_token`. Send it as `Authorization: Bearer <token>`. In `/docs`, use Authorize.
+- Wrong logins are limited to 10 a minute per address; tutor messages to 30 a minute. Limits are in memory, per process.
+- Course concepts and the graph never include the question answers.
+- Keep `.env` out of git (it is in `.gitignore`) and use HTTPS in front of the API when deployed. Behind a proxy, the per-address limit sees the proxy's address.
+- If `ADMIN_PASSWORD` is unset in development, a random one is printed once at startup.
+
 ## Postman
 
-Import `postman/Socratic_AI_Tutor.postman_collection.json` (and `postman/local.postman_environment.json`). Run the folders in order: Setup, then Tutoring loop. "Start session" stores `session_id` for the later requests. Command line: `npx newman run postman/Socratic_AI_Tutor.postman_collection.json`.
+Log in first (`POST /auth/login`) and send the token as a bearer token; the collection does not do this yet. Import `postman/Socratic_AI_Tutor.postman_collection.json` (and `postman/local.postman_environment.json`). Run the folders in order: Setup, then Tutoring loop. "Start session" stores `session_id` for the later requests. Command line: `npx newman run postman/Socratic_AI_Tutor.postman_collection.json`.
 
 ## Endpoints
 
 | Method and path | Purpose |
 |---|---|
-| `GET /health` | Liveness check |
+| `GET /health` | Liveness check (open) |
+| `POST /auth/login` | Sign in, returns a token (open) |
+| `GET /auth/me` | Who the token belongs to |
 | `GET /courses` | List course packs |
 | `POST /courses` | Ingest a course pack (concepts, prerequisites, material, questions) |
 | `GET /courses/{id}/concepts` | Concepts of a course |

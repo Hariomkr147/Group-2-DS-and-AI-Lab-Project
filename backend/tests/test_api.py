@@ -1,17 +1,3 @@
-import pytest
-from fastapi.testclient import TestClient
-
-from app.db import Base, engine
-from app.main import app
-
-
-@pytest.fixture()
-def client():
-    Base.metadata.drop_all(engine)  # clean database per test; startup recreates it and seeds the sample pack
-    with TestClient(app) as c:
-        yield c
-
-
 def start(client, learner="l1"):
     r = client.post("/sessions", json={"learner_id": learner, "course_id": "ncert-maths"})
     assert r.status_code == 201

@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
 from ..db import get_db
-from ..schemas import Concept, CourseGraph, CoursePack, CourseSummary
+from ..schemas import ConceptPublic, CourseGraph, CoursePack, CourseSummary
 from ..services import course_store
 
 router = APIRouter(prefix="/courses", tags=["courses"])
@@ -20,7 +20,7 @@ def ingest_course(pack: CoursePack, db: Session = Depends(get_db)):
     return CourseSummary(id=p.id, title=p.title, subject=p.subject, concept_count=len(p.concepts))
 
 
-@router.get("/{course_id}/concepts", response_model=list[Concept])
+@router.get("/{course_id}/concepts", response_model=list[ConceptPublic])  # no answer key
 def list_concepts(course_id: str, db: Session = Depends(get_db)):
     return course_store.get_pack(db, course_id).concepts
 

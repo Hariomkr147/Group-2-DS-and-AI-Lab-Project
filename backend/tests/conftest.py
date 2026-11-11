@@ -22,3 +22,31 @@ def _database_url() -> str:
 
 
 os.environ["DATABASE_URL"] = _database_url()  # must be set before app.db is imported
+os.environ["ADMIN_USERNAME"] = "admin"
+os.environ["ADMIN_PASSWORD"] = "test-password-123"
+os.environ["SECRET_KEY"] = "test-secret-key-with-enough-length-0123456789"
+
+import pytest
+from fastapi.testclient import TestClient
+
+from app.db import Base, engine
+from app.main import app
+from app.security import limiter
+
+
+@pytest.fixture()
+def anon():
+    """A client with no token."""
+    Base.metadata.drop_all(engine)  # clean database per test; startup recreates it and seeds the sample pack
+    limiter.reset()
+    with TestClient(app) as c:
+        yield c
+
+
+@pytest.fixture()
+def client(anon):
+    """A client signed in as the admin account."""
+    r = anon.post("/auth/login", json={"username": "admin", "password": "test-password-123"})
+    assert r.status_code == 200
+    anon.headers.update({"Authorization": f"Bearer {r.json()['access_token']}"})
+    return anon

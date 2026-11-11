@@ -46,6 +46,15 @@ class Concept(BaseModel):
     questions: list[Question] = Field(default_factory=list)
 
 
+class ConceptPublic(BaseModel):
+    """A concept as learners see it: no questions, so the answer key never leaves the server."""
+    id: str
+    name: str
+    level: int
+    prerequisites: list[str] = Field(default_factory=list)
+    materials: list[Material] = Field(default_factory=list)
+
+
 class CoursePack(BaseModel):
     id: str
     title: str
@@ -67,13 +76,13 @@ class GraphEdge(BaseModel):
 
 class CourseGraph(BaseModel):
     course_id: str
-    nodes: list[Concept]
+    nodes: list[ConceptPublic]
     edges: list[GraphEdge]
 
 
 # ── Sessions and chat ────────────────────────────────────────────────────────
 class SessionCreate(BaseModel):
-    learner_id: str
+    learner_id: str | None = None  # defaults to the signed-in username
     course_id: str
 
 
@@ -92,7 +101,7 @@ class SessionInfo(BaseModel):
 
 
 class MessageIn(BaseModel):
-    text: str = Field(min_length=1)
+    text: str = Field(min_length=1, max_length=2000)
 
 
 class Resource(BaseModel):
@@ -149,7 +158,7 @@ class PracticeRequest(BaseModel):
 
 
 class DiagnosticRequest(BaseModel):
-    learner_id: str
+    learner_id: str | None = None
     course_id: str
     per_concept: int = Field(default=1, ge=1, le=3)
 
