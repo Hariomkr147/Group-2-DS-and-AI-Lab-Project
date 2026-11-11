@@ -17,6 +17,47 @@ uv run pytest -q                  # runs against an embedded PostgreSQL, no Dock
 
 The connection string is read from `DATABASE_URL` (default in `.env.example`). Tables are created at startup and a sample course pack is seeded. Use `uv add <package>` to add a dependency; commit `pyproject.toml` and `uv.lock`.
 
+## Connecting pgAdmin to the local database
+
+Start the database first with `docker compose up -d`. Then in pgAdmin, go to Register → Server and enter:
+
+| Field | Value |
+|---|---|
+| Host | `127.0.0.1` |
+| Port | `5432` |
+| Maintenance database | `tutor` |
+| Username | `tutor` |
+| Password | `tutor` |
+
+On the **Parameters** tab, add these two settings:
+
+- `SSL mode` = `disable`
+- `GSS encryption mode` = `disable`
+
+Without them, some pgAdmin 9.x builds on Windows crash with `access violation writing 0x0000000000000000` when connecting. Use `127.0.0.1` rather than `localhost`, because `localhost` can resolve to a different listener on IPv6.
+
+## Enabling the vector extension (pgvector)
+
+The Docker image already includes pgvector, but it has to be enabled once per database. In pgAdmin, open Query Tool on the `tutor` database and run:
+
+```sql
+CREATE EXTENSION IF NOT EXISTS vector;
+```
+
+Check that it worked:
+
+```sql
+SELECT extname, extversion FROM pg_extension WHERE extname = 'vector';
+```
+
+It should return one row with `vector`. Without pgAdmin, run it from the command line instead:
+
+```bash
+docker exec -it backend-db-1 psql -U tutor -d tutor -c "CREATE EXTENSION IF NOT EXISTS vector;"
+```
+
+Use the `tutor` database, not the default `postgres` one. The extension is enabled per database, so a new database or a fresh `docker compose down -v` needs it again.
+
 ## Security
 
 The API has one account, set in `.env`. Every route except `GET /health` and `POST /auth/login` needs a bearer token.
