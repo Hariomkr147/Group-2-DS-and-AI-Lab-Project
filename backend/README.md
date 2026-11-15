@@ -119,3 +119,25 @@ Each is a stub in `app/services/` with the interface the real model must keep.
 `app/services/tutor.py` runs one turn: input check → learner model → controller → Socratic model → output check. Off-topic messages and answer requests get a redirect and are never written to the learner model.
 
 Tables (`app/db.py`): `courses`, `concepts` (prerequisites, material and questions stored as JSON), `sessions`, `turns`, `answers`. Learner history is the `answers` table, so DKT reads it per learner, per course and per session.
+
+### Session state
+
+The `sessions` table keeps the tutor's position between turns, so each request can load it, decide the next step and save it back. A session can also resume after a page refresh. The controller reads and writes these columns (`app/services/controller.py`, `app/services/tutor.py`).
+
+| Column | Meaning | Used for |
+|---|---|---|
+| `target_concept` | The concept the learner chose to learn. Set on the first message. | The goal. A correct answer on it ends the session (`DONE`). It is also where the tutor returns when the stack is empty. |
+| `current_concept` | The concept being questioned now. It differs from the target after a backtrack. | Questions are generated for it, and answers are scored and written to the learner model against it. |
+| `pending` | The question asked and not yet answered (JSON), or null. | The next message is checked against it. An answer is graded. Any other message, such as a doubt, can get the same question again. |
+| `stack` | Concepts to return to after a prerequisite detour (JSON list). | A wrong answer with a weak prerequisite (readiness below `WEAK` = 0.6) pushes the current concept and moves to that prerequisite (`BACKTRACK`). A correct answer pops the stack (`ADVANCE`). This allows multi-level backtracking. |
+| `tries` | Wrong answers on the current concept. | Resets on a correct answer or a backtrack. With no weak prerequisite, the first `MAX_TRIES` (2) wrong answers get a `HINT`, then the tutor switches to `PROBE`. |
+
+Example: target C needs B, and B needs A.
+
+1. Wrong on C, B is weak: `stack=[C]`, `current=B`, `BACKTRACK`.
+2. Wrong on B, A is weak: `stack=[C,B]`, `current=A`, `BACKTRACK`.
+3. Correct on A: pop B, `ADVANCE`.
+4. Correct on B: pop C, `ADVANCE`.
+5. Correct on C (the target): `DONE`.
+
+The trained controller model will receive these same fields as input.

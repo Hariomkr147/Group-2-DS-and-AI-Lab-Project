@@ -10,8 +10,15 @@ def _norm(text: str) -> str:
     return text.strip().lower().replace(" ", "").rstrip(".")
 
 
-def _next_question(concept: Concept) -> Question | None:
-    return concept.questions[0] if concept.questions else None
+def _next_question(concept: Concept, seen: list[str]) -> Question | None:
+    """Easiest question not yet asked this session; once all are used, the one asked longest ago."""
+    if not concept.questions:
+        return None
+    unseen = [q for q in concept.questions if q.id not in seen]
+    if unseen:
+        return min(unseen, key=lambda q: q.difficulty)  # min keeps file order on ties
+    by_id = {q.id: q for q in concept.questions}
+    return next(by_id[i] for i in seen if i in by_id)
 
 
 def _resource(concept: Concept) -> Resource | None:
@@ -38,6 +45,7 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
         return _finish(db, session, text, TutorReply(reply=msg, action=Action.REDIRECT, label=label))
 
     found = None
+    seen = list((session.pending or {}).get("seen", []))  # question ids asked so far, kept inside `pending`
     if session.pending is None:
         concept_id = retrieval.best_concept(db, session.course_id, text)
         if concept_id is None:
@@ -62,8 +70,10 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
     elif action == Action.DONE:
         question = None
     else:
-        question = _next_question(concept)
-    session.pending = question.model_dump() if question else None
+        question = _next_question(concept, seen)
+        if question:
+            seen = [i for i in seen if i != question.id] + [question.id]  # most recent last
+    session.pending = {**question.model_dump(), "seen": seen} if question else None
 
     reply_text = socratic.write(action, concept, question)
     if guardrails.leaks_answer(reply_text, question.answer if question else None):

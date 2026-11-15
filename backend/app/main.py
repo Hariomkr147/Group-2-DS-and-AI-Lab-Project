@@ -13,7 +13,7 @@ from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 from .db import Base, CourseRow, SessionLocal, engine
-from .routers import auth, courses, learners, practice, search, sessions
+from .routers import auth, courses, learners, llm, practice, search, sessions
 from .sample_pack import SAMPLE_PACK
 from .security import check_config, current_user
 from .services import course_store
@@ -52,7 +52,7 @@ async def security_headers(request: Request, call_next):
 
 
 app.include_router(auth.router)  # /auth/login is the only open route besides /health
-for r in (sessions.router, learners.router, courses.router, search.router, practice.router):
+for r in (sessions.router, learners.router, courses.router, search.router, practice.router, llm.router):
     app.include_router(r, dependencies=[Depends(current_user)])
 
 

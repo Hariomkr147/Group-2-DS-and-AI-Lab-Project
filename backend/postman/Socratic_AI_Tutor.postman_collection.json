@@ -2,7 +2,7 @@
   "info": {
     "name": "Socratic AI Tutor API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "description": "Run the folders in order: Setup, then Tutoring loop. Set baseUrl in the environment."
+    "description": "Run Auth/Login first (set username and password in the collection variables), then Setup, then the Tutoring loop. Set baseUrl in the environment."
   },
   "variable": [
     {
@@ -19,6 +19,18 @@
     },
     {
       "key": "session_id",
+      "value": ""
+    },
+    {
+      "key": "username",
+      "value": "admin"
+    },
+    {
+      "key": "password",
+      "value": ""
+    },
+    {
+      "key": "token",
       "value": ""
     }
   ],
@@ -41,6 +53,86 @@
               ]
             },
             "description": ""
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('status is 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ]
+            },
+            "description": "Set username and password in the collection variables first. Saves the token for all other requests.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"{{username}}\",\n  \"password\": \"{{password}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('status is 200', () => pm.response.to.have.status(200));",
+                  "pm.collectionVariables.set('token', pm.response.json().access_token);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Who am I",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ]
+            }
           },
           "event": [
             {
@@ -851,6 +943,109 @@
           ]
         }
       ]
+    },
+    {
+      "name": "LLM",
+      "item": [
+        {
+          "name": "Generate",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/llm/generate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "llm",
+                "generate"
+              ]
+            },
+            "description": "Sends a prompt to the LLM. Provider comes from LLM_PROVIDER on the server (default gemini); add \"provider\": \"openai|anthropic|ollama|gemini\" to the body to override.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"prompt\": \"Explain photosynthesis in two lines\",\n  \"max_tokens\": 500\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('has text', () => pm.expect(pm.response.json().text).to.be.a('string'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Stream",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/llm/stream",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "llm",
+                "stream"
+              ]
+            },
+            "description": "Server-sent events: chunk events with text, then a done event.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"prompt\": \"Write three short sentences about the sun\",\n  \"max_tokens\": 500\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('status is 200', () => pm.response.to.have.status(200));",
+                  "pm.test('ends with done event', () => pm.expect(pm.response.text()).to.include('event: done'));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{token}}",
+        "type": "string"
+      }
+    ]
+  }
 }
