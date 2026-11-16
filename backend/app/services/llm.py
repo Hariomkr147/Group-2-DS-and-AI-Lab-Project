@@ -1,7 +1,8 @@
 """LLM provider switch: choose the provider by env var or per request.
 
 Env:
-  LLM_PROVIDER   gemini (default) | openai | anthropic | ollama
+  LLM_PROVIDER   gemini (default) | openai | anthropic | ollama | qwen_finetuned
+  qwen_finetuned:  QWEN_URL, QWEN_API_KEY (printed by the hosting notebook), optional QWEN_TIMEOUT
   gemini:     GOOGLE_CLOUD_PROJECT, GOOGLE_CLOUD_LOCATION, GEMINI_MODEL   (Google ADC)
   openai:     OPENAI_API_KEY, OPENAI_MODEL, optional OPENAI_BASE_URL
   anthropic:  ANTHROPIC_API_KEY, ANTHROPIC_MODEL
@@ -14,7 +15,7 @@ import os
 
 from fastapi import HTTPException
 
-PROVIDERS = ("gemini", "openai", "anthropic", "ollama")
+PROVIDERS = ("gemini", "openai", "anthropic", "ollama", "qwen_finetuned")
 DEFAULT_PROVIDER = os.environ.get("LLM_PROVIDER", "gemini").lower()
 _cache: dict[str, "Provider"] = {}
 
@@ -146,12 +147,68 @@ class Anthropic(Provider):
             yield from s.text_stream
 
 
+class QwenFinetuned(Provider):
+    """Our fine-tuned Qwen3.5-4B Socratic tutor. Replies are at most 96 new tokens. QWEN_URL picks the host:
+
+    - a Hugging Face Space (https://<name>.hf.space, built from backend/model_hosting/hf-space),
+      with a Hugging Face token of the Space owner in QWEN_API_KEY;
+    - or the Kaggle notebook's tunnel URL (hosting-qwen.ipynb) with the key that notebook prints.
+    """
+    name = "qwen_finetuned"
+    model = "qwen3.5-4b-socratic-tutor"
+    MAX_NEW_TOKENS = 96
+
+    def ready(self):
+        _need("QWEN_URL", self.name)
+        _need("QWEN_API_KEY", self.name)
+
+    def _from_space(self, prompt, system, timeout):
+        """Gradio API: one call queues the request, a second call reads the result as server-sent events."""
+        import json
+        import urllib.request
+        url = os.environ["QWEN_URL"].rstrip("/") + "/gradio_api/call/predict"
+        headers = {"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"]}
+        queued = urllib.request.Request(url, data=json.dumps({"data": [system or "", prompt]}).encode(), headers=headers)
+        with urllib.request.urlopen(queued, timeout=timeout) as response:
+            event_id = json.load(response)["event_id"]
+        event = ""
+        with urllib.request.urlopen(urllib.request.Request(f"{url}/{event_id}", headers=headers), timeout=timeout) as response:
+            for line in response.read().decode().splitlines():
+                if line.startswith("event:"):
+                    event = line[6:].strip()
+                elif line.startswith("data:") and event == "complete":
+                    return (json.loads(line[5:])[0] or "").strip()
+                elif line.startswith("data:") and event == "error":
+                    raise RuntimeError(f"Space returned an error: {line[5:].strip()[:200]}")   # e.g. GPU quota used up
+        raise RuntimeError("Space returned no reply")
+
+    def generate(self, prompt, system, max_tokens):
+        import json
+        import urllib.request
+        self.ready()
+        if ".hf.space" in os.environ["QWEN_URL"]:
+            return self._from_space(prompt, system, float(os.environ.get("QWEN_TIMEOUT", "60")))
+        messages = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
+        body = {"messages": messages, "max_new_tokens": min(max_tokens, self.MAX_NEW_TOKENS)}
+        request = urllib.request.Request(
+            os.environ["QWEN_URL"].rstrip("/") + "/predict", data=json.dumps(body).encode(),
+            headers={"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"]})
+        with urllib.request.urlopen(request, timeout=float(os.environ.get("QWEN_TIMEOUT", "60"))) as response:
+            result = json.load(response)
+        if result.get("protocol_flags"):   # the model wrote a second speaker's turn; do not show it
+            raise ValueError("Qwen reply failed the server's protocol check")
+        return (result.get("text") or "").strip()
+
+    def stream(self, prompt, system, max_tokens):
+        yield self.generate(prompt, system, max_tokens)   # the server does not stream
+
+
 def get_provider(name: str | None = None) -> Provider:
     name = (name or DEFAULT_PROVIDER).lower()
     if name not in PROVIDERS:
         raise HTTPException(400, f"Unknown LLM provider '{name}'. Choose one of: {', '.join(PROVIDERS)}")
     if name not in _cache:
-        _cache[name] = {"gemini": Gemini, "anthropic": Anthropic}.get(name, lambda: OpenAICompatible(name))()
+        _cache[name] = {"gemini": Gemini, "anthropic": Anthropic, "qwen_finetuned": QwenFinetuned}.get(name, lambda: OpenAICompatible(name))()
     return _cache[name]
 
 

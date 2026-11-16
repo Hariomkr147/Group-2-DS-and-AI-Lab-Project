@@ -24,4 +24,5 @@ def classify_input(db: Session, text: str, course_id: str) -> InputLabel:
 def leaks_answer(reply: str, answer: str | None) -> bool:
     if not answer:
         return False
-    return re.search(rf"(?<![\w.]){re.escape(answer.strip())}(?![\w.])", reply) is not None
+    # the answer may end a sentence ("... is 10."), but must not be part of a longer number ("10.5", "110")
+    return re.search(rf"(?<![\w.]){re.escape(answer.strip())}(?!\w|\.\d)", reply) is not None

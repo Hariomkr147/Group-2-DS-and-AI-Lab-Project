@@ -111,10 +111,12 @@ Each is a stub in `app/services/` with the interface the real model must keep.
 |---|---|---|
 | `learner_model.py` | smoothed accuracy per concept | trained DKT (per learner, per course, per session) |
 | `controller.py` | fixed rules (the comparison baseline) | trained controller model |
-| `socratic.py` | templates | fine-tuned Qwen3-4B + LoRA |
+| `socratic.py` | fine-tuned Qwen (`qwen_finetuned`) writes hint and probe turns; templates for the rest and as fallback | Qwen for every turn, with conversation history |
 | `misconception.py` | returns nothing | trained misconception detector |
 | `guardrails.py` | keyword rules | input classifier and output checker |
 | `retrieval.py` | keyword overlap | pgvector embedding search (the database image already includes pgvector) |
+
+To use the fine-tuned Qwen, run `docs/milestone-3/model_hosting/hosting-qwen.ipynb` on a Kaggle or Colab GPU and set `QWEN_URL` and `QWEN_API_KEY` in `.env`. If the model is not set up, unreachable, cut off or gives away the answer, the template reply is used. `SOCRATIC_PROVIDER=templates` switches the model off.
 
 `app/services/tutor.py` runs one turn: input check → learner model → controller → Socratic model → output check. Off-topic messages and answer requests get a redirect and are never written to the learner model.
 

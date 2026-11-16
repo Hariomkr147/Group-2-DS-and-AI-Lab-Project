@@ -75,7 +75,7 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
             seen = [i for i in seen if i != question.id] + [question.id]  # most recent last
     session.pending = {**question.model_dump(), "seen": seen} if question else None
 
-    reply_text = socratic.write(action, concept, question)
+    reply_text = socratic.write(action, concept, question, text)
     if guardrails.leaks_answer(reply_text, question.answer if question else None):
         reply_text = f"Let's think step by step. What do you already know about {concept.name}?"
 

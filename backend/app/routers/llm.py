@@ -16,7 +16,7 @@ class LLMRequest(BaseModel):
     system: str | None = Field(None, max_length=2000)
     max_tokens: int = Field(512, ge=1, le=2048)
     # Optional. Omit to use LLM_PROVIDER from the env (default gemini).
-    provider: Literal["gemini", "openai", "anthropic", "ollama"] | None = None
+    provider: Literal["gemini", "openai", "anthropic", "ollama", "qwen_finetuned"] | None = None
 
 
 class LLMResponse(BaseModel):
