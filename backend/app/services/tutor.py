@@ -3,11 +3,21 @@ from sqlalchemy.orm import Session
 
 from ..db import SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
-from . import controller, course_store, guardrails, learner_model, misconception, retrieval, socratic
+from . import controller, course_store, guardrails, learner_model, misconception, retrieval, socratic, step_finder
+
+ASK_FOR_WORKING = "Show your steps, one per line, so I can see where it went wrong."
 
 
 def _norm(text: str) -> str:
     return text.strip().lower().replace(" ", "").rstrip(".")
+
+
+def _same(attempt: str, answer: str) -> bool:
+    """Same text, or the same number written differently (0.5 and 1/2)."""
+    if _norm(attempt) == _norm(answer):
+        return True
+    a, b = misconception.to_value(attempt), misconception.to_value(answer)
+    return a is not None and a == b
 
 
 def _next_question(concept: Concept, seen: list[str]) -> Question | None:
@@ -37,6 +47,9 @@ def _finish(db: Session, session: SessionRow, learner_text: str, reply: TutorRep
 
 def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
     label = guardrails.classify_input(db, text, session.course_id)
+    working = step_finder.split_working(text) if session.pending else None
+    if label == InputLabel.OFF_TOPIC and working and step_finder.has_arithmetic(working):
+        label = InputLabel.ON_TOPIC                # calculation steps for the pending question
 
     # Answer requests, and off-topic messages (longer than a short answer), never reach the learner model.
     if label == InputLabel.ANSWER_REQUEST or (label == InputLabel.OFF_TOPIC and (
@@ -44,7 +57,7 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
         msg = socratic.REDIRECT_ANSWER if label == InputLabel.ANSWER_REQUEST else socratic.REDIRECT_OFF_TOPIC
         return _finish(db, session, text, TutorReply(reply=msg, action=Action.REDIRECT, label=label))
 
-    found = None
+    found, finding, wrong_without_working = None, None, False
     seen = list((session.pending or {}).get("seen", []))  # question ids asked so far, kept inside `pending`
     if session.pending is None:
         concept_id = retrieval.best_concept(db, session.course_id, text)
@@ -56,8 +69,17 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
         action = Action.ASK
     else:
         asked = Question(**session.pending)
-        correct = _norm(text) == _norm(asked.answer)
-        found = None if correct else misconception.detect(asked.text, text, asked.answer, session.learner_id)
+        attempt = step_finder.final_answer(working) if working else text   # working is graded on its last line
+        correct = _same(attempt, asked.answer)
+        if not correct and working:
+            finding = step_finder.find(asked.text, asked.answer, working, asked.hint)
+        if finding and finding.source == "arithmetic":
+            pass                                   # a slip in the sums is not a misconception
+        elif finding and finding.error:
+            found = finding.error                  # the model's one-sentence suggestion, unconfirmed
+        elif not correct:
+            found = misconception.detect(asked.text, attempt, asked.answer, session.learner_id)
+        wrong_without_working = not correct and not working
         learner_model.record(db, session.learner_id, session.course_id, session.id,
                              session.current_concept, correct)
         decision = controller.decide(db, session, correct)
@@ -78,7 +100,15 @@ def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
     reply_text = socratic.write(action, concept, question, text)
     if guardrails.leaks_answer(reply_text, question.answer if question else None):
         reply_text = f"Let's think step by step. What do you already know about {concept.name}?"
+    if action in (Action.HINT, Action.PROBE):      # same question again: point at the step, or ask to see the steps
+        if finding:
+            quoted = f" (“{finding.line}”)" if not guardrails.leaks_answer(finding.line, question.answer) else ""
+            check = " and check the arithmetic" if finding.source == "arithmetic" else ""
+            reply_text = f"Look again at step {finding.step} of your working{quoted}{check}. {reply_text}"
+        elif wrong_without_working:
+            reply_text = f"{reply_text} {ASK_FOR_WORKING}"
 
     return _finish(db, session, text, TutorReply(
         reply=reply_text, action=action, label=InputLabel.ON_TOPIC,
-        concept_id=concept.id, level=concept.level, resource=_resource(concept), misconception=found))
+        concept_id=concept.id, level=concept.level, resource=_resource(concept), misconception=found,
+        wrong_step=finding.step if finding else None))

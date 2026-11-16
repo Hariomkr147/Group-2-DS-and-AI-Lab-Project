@@ -117,7 +117,8 @@ class TutorReply(BaseModel):
     concept_id: str | None = None
     level: int | None = None
     resource: Resource | None = None
-    misconception: str | None = None   # error found in a wrong answer, e.g. "divides_by_the_percent"
+    misconception: str | None = None   # unconfirmed suggestion: a rule name ("divides_by_the_percent") or one sentence
+    wrong_step: int | None = None      # first wrong line of the learner's working (1-based), when working was sent
 
 
 # ── Learner model ────────────────────────────────────────────────────────────

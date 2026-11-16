@@ -23,33 +23,14 @@ HERE = Path(__file__).resolve().parent
 BACKEND = HERE.parents[1]
 sys.path.insert(0, str(BACKEND))
 
-SYSTEM = (
-    "You check a school learner's working against a reference solution. "
-    "Find the first step in the learner's working that is wrong. "
-    "A different method that is valid and reaches the correct answer is not an error. "
-    "If no step is wrong, answer 0. Do not invent errors. "
-    'Reply with JSON only: {"first_wrong_step": <number>, "error": "<one short sentence, empty if 0>"}'
-)
+from app.services.step_finder import SYSTEM, parse   # the same prompt and reply reader the tutor uses
+from app.services import step_finder
 
 
 def build_prompt(case: dict, reference_steps: str = "full") -> str:
-    # "last" keeps only the final line of the reference, close to what the backend has today (an answer, no steps)
+    # "last" keeps only the final line of the reference, close to what the tutor has (an answer, no steps)
     steps = case["reference"] if reference_steps == "full" else case["reference"][-1:]
-    reference = "\n".join(f"- {s}" for s in steps)
-    working = "\n".join(f"{i}. {s}" for i, s in enumerate(case["working"], 1))
-    return f"Question: {case['question']}\n\nReference solution:\n{reference}\n\nLearner's working:\n{working}"
-
-
-def parse(reply: str) -> tuple[int | None, str]:
-    """Return (step, error). step is None when the reply cannot be read."""
-    for block in re.findall(r"\{.*?\}", reply, re.S):
-        try:
-            data = json.loads(block)
-            return int(data["first_wrong_step"]), str(data.get("error", ""))
-        except (ValueError, KeyError, TypeError):
-            continue
-    cut_off = re.search(r'"first_wrong_step"\s*:\s*(\d+)', reply)   # reply ended before the JSON closed
-    return (int(cut_off[1]), "") if cut_off else (None, "")
+    return step_finder.build_prompt(case["question"], steps, case["working"])
 
 
 def score(rows: list[dict]) -> dict:

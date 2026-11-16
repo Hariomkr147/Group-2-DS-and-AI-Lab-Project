@@ -26,6 +26,7 @@ os.environ["ADMIN_USERNAME"] = "admin"
 os.environ["ADMIN_PASSWORD"] = "test-password-123"
 os.environ["SECRET_KEY"] = "test-secret-key-with-enough-length-0123456789"
 os.environ["SOCRATIC_PROVIDER"] = "templates"  # no model calls in tests unless a test sets a fake model
+os.environ["STEP_FINDER_PROVIDER"] = "none"
 
 import pytest
 from fastapi.testclient import TestClient

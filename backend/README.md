@@ -94,7 +94,7 @@ Log in first (`POST /auth/login`) and send the token as a bearer token; the coll
 | `GET /courses/{id}/graph` | Prerequisite graph across levels (nodes and edges) |
 | `POST /sessions` | Start a session `{learner_id, course_id}` |
 | `GET /sessions/{id}` | Session state and conversation history |
-| `POST /sessions/{id}/messages` | Send learner text, get the tutor reply `{reply, action, label, concept_id, level, resource}` |
+| `POST /sessions/{id}/messages` | Send learner text (an answer, or working with one step per line), get the tutor reply `{reply, action, label, concept_id, level, resource, misconception, wrong_step}` |
 | `POST /learners/{id}/answers` | Record an answer given outside the chat |
 | `GET /learners/{id}/progress?course_id=` | Readiness per concept |
 | `GET /search?course_id=&q=` | Find the page, notes or lecture for a concept |
@@ -112,7 +112,8 @@ Each is a stub in `app/services/` with the interface the real model must keep.
 | `learner_model.py` | smoothed accuracy per concept | trained DKT (per learner, per course, per session) |
 | `controller.py` | fixed rules (the comparison baseline) | trained controller model |
 | `socratic.py` | fine-tuned Qwen (`qwen_finetuned`) writes hint and probe turns; templates for the rest and as fallback | Qwen for every turn, with conversation history |
-| `misconception.py` | returns nothing | trained misconception detector |
+| `misconception.py` | error patterns and expression search on a bare wrong answer | kept as the fallback when no working is sent |
+| `step_finder.py` | first wrong step in the learner's working: code checks the sums, fine-tuned Qwen names a wrong method (`STEP_FINDER_PROVIDER`) | model fine-tuned for this task; evaluation in `eval/misconception/` |
 | `guardrails.py` | keyword rules | input classifier and output checker |
 | `retrieval.py` | keyword overlap | pgvector embedding search (the database image already includes pgvector) |
 

@@ -32,8 +32,10 @@
 - Answer-only test on the fine-tuned Qwen through the Space: right step 32/36 and 8/8 hard cases, false suggestion 2/14.
 - At the user's request, reverted the two `Ncert work` edits (`error_rules.py`, `test_working_verifier.py`) and moved the Space files from `docs/milestone-3/` to `backend/model_hosting/hf-space/`. No files outside `backend/` and `ai-log/` are changed by this session.
 - Fixed a typo in `backend/.env` (`QWEN_URL==` to `QWEN_URL=`).
+- Step finder in the tutor: new `backend/app/services/step_finder.py` (arithmetic check by code, wrong method by the model), wired into `tutor.py` (working graded on its last line, tutor asks for steps after a bare wrong answer, reply points at the wrong step), `wrong_step` added to `TutorReply`, `tests/test_step_finder.py` added, eval script now imports the tutor's prompt. Backend tests: 66 passed. A live five-message conversation against the Space worked.
 
 ## Notes
+- Qwen's Socratic replies in the live check were generic ("could you please walk me through your solution?"); it gets no conversation history yet.
 - User preference: do not change `docs/milestone-*` or `Ncert work`; keep new work in `backend/`.
 - The Space is private until the user asks for it to be public. Login token: omitted.
 - The 50 cases are AI-written and not yet reviewed by a person (`reviewed_by` is null). Not real learner working.
