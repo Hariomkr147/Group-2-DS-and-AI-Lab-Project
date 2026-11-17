@@ -5,6 +5,17 @@ Tables are created at startup; add Alembic migrations once the schema settles.
 """
 import os
 from datetime import datetime, timezone
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    _env_file = Path(__file__).resolve().parent.parent / ".env"
+    if _env_file.exists():
+        load_dotenv(_env_file)
+    else:
+        load_dotenv()
+except ImportError:
+    pass
 
 from sqlalchemy import JSON, ForeignKey, Index, create_engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, sessionmaker

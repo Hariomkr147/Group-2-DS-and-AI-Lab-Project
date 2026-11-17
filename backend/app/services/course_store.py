@@ -4,7 +4,7 @@ from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from ..db import ConceptRow, CourseRow
-from ..schemas import Concept, CourseGraph, CoursePack, CourseSummary, GraphEdge
+from ..schemas import Concept, ConceptPublic, CourseGraph, CoursePack, CourseSummary, GraphEdge
 
 
 def _concept(row: ConceptRow) -> Concept:
@@ -56,4 +56,4 @@ def list_courses(db: Session) -> list[CourseSummary]:
 def graph(db: Session, course_id: str) -> CourseGraph:
     pack = get_pack(db, course_id)
     edges = [GraphEdge(prerequisite=p, concept=c.id) for c in pack.concepts for p in c.prerequisites]
-    return CourseGraph(course_id=course_id, nodes=pack.concepts, edges=edges)
+    return CourseGraph(course_id=course_id, nodes=[ConceptPublic.model_validate(c.model_dump()) for c in pack.concepts], edges=edges)

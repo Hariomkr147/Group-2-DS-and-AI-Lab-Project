@@ -1,5 +1,6 @@
 """Request and response models shared by the routers and services."""
 from enum import Enum
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
@@ -46,6 +47,15 @@ class Concept(BaseModel):
     questions: list[Question] = Field(default_factory=list)
 
 
+class ConceptPublic(BaseModel):
+    """A concept as learners see it: no questions, so the answer key never leaves the server."""
+    id: str
+    name: str
+    level: int
+    prerequisites: list[str] = Field(default_factory=list)
+    materials: list[Material] = Field(default_factory=list)
+
+
 class CoursePack(BaseModel):
     id: str
     title: str
@@ -67,14 +77,16 @@ class GraphEdge(BaseModel):
 
 class CourseGraph(BaseModel):
     course_id: str
-    nodes: list[Concept]
+    nodes: list[ConceptPublic]
     edges: list[GraphEdge]
 
 
 # ── Sessions and chat ────────────────────────────────────────────────────────
 class SessionCreate(BaseModel):
-    learner_id: str
+    learner_id: str | None = None  # defaults to the signed-in username
     course_id: str
+    grade: int | None = Field(default=None, ge=6, le=10)
+    subject: Literal["maths", "science"] | None = None
 
 
 class Turn(BaseModel):
@@ -92,13 +104,22 @@ class SessionInfo(BaseModel):
 
 
 class MessageIn(BaseModel):
-    text: str = Field(min_length=1)
+    text: str = Field(min_length=1, max_length=2000)
+    new_topic: bool = False
 
 
 class Resource(BaseModel):
     source: str
     page: str = ""
     url: str = ""
+    passage_id: str | None = None
+
+
+class Chapter(BaseModel):
+    grade: int
+    subject: Literal["maths", "science"]
+    book_code: str
+    chapter: int
 
 
 class TutorReply(BaseModel):
@@ -108,7 +129,10 @@ class TutorReply(BaseModel):
     concept_id: str | None = None
     level: int | None = None
     resource: Resource | None = None
-    misconception: str | None = None   # error found in a wrong answer, e.g. "divides_by_the_percent"
+    misconception: str | None = None   # unconfirmed suggestion: a rule name ("divides_by_the_percent") or one sentence
+    wrong_step: int | None = None      # first wrong line of the learner's working (1-based), when working was sent
+    chapter: Chapter | None = None
+    generation: Literal["hosted", "extractive"] | None = None
 
 
 # ── Learner model ────────────────────────────────────────────────────────────
@@ -139,6 +163,8 @@ class SearchHit(BaseModel):
     concept_id: str
     score: float
     material: Material
+    chapter: Chapter | None = None
+    passage_id: str | None = None
 
 
 class PracticeRequest(BaseModel):
@@ -149,7 +175,7 @@ class PracticeRequest(BaseModel):
 
 
 class DiagnosticRequest(BaseModel):
-    learner_id: str
+    learner_id: str | None = None
     course_id: str
     per_concept: int = Field(default=1, ge=1, le=3)
 
