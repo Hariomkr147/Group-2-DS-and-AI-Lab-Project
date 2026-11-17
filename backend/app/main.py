@@ -16,7 +16,7 @@ from .db import Base, CourseRow, SessionLocal, engine
 from .routers import auth, courses, learners, llm, practice, search, sessions
 from .sample_pack import SAMPLE_PACK
 from .security import check_config, current_user
-from .services import course_store
+from .services import course_store, ncert
 
 PRODUCTION = os.environ.get("APP_ENV") == "production"
 
@@ -28,6 +28,9 @@ async def lifespan(app: FastAPI):
     with SessionLocal() as db:
         if db.get(CourseRow, SAMPLE_PACK.id) is None:  # development data; real packs come from POST /courses
             course_store.add_pack(db, SAMPLE_PACK)
+        if ncert.configured() and db.get(CourseRow, ncert.COURSE_ID) is None:
+            db.add(CourseRow(id=ncert.COURSE_ID, title=ncert.COURSE_TITLE, subject="maths and science"))
+            db.commit()
     yield
 
 

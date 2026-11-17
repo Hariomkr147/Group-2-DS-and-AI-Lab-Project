@@ -1,9 +1,9 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from ..db import get_db
 from ..schemas import ConceptPublic, CourseGraph, CoursePack, CourseSummary
-from ..services import course_store
+from ..services import course_store, ncert
 
 router = APIRouter(prefix="/courses", tags=["courses"])
 
@@ -16,6 +16,8 @@ def list_courses(db: Session = Depends(get_db)):
 @router.post("", response_model=CourseSummary, status_code=201)
 def ingest_course(pack: CoursePack, db: Session = Depends(get_db)):
     """Ingest a course pack (concepts, prerequisite links, material, questions); replaces a pack with the same id."""
+    if pack.id == ncert.COURSE_ID:
+        raise HTTPException(422, "This course ID is reserved for the NCERT corpus.")
     p = course_store.add_pack(db, pack)
     return CourseSummary(id=p.id, title=p.title, subject=p.subject, concept_count=len(p.concepts))
 
