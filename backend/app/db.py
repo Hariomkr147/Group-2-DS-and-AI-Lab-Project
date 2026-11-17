@@ -21,6 +21,8 @@ from sqlalchemy import JSON, ForeignKey, Index, create_engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, sessionmaker
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql+psycopg://tutor:tutor@localhost:5432/tutor")
+if DATABASE_URL.startswith("postgresql://"):
+    DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg://", 1)
 
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 SessionLocal = sessionmaker(engine, expire_on_commit=False)

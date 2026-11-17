@@ -8,9 +8,12 @@ Every route except /health and /auth/* needs a bearer token (see app/security.py
 """
 import os
 from contextlib import asynccontextmanager
+from pathlib import Path
 
-from fastapi import Depends, FastAPI, Request
+from fastapi import APIRouter, Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
 
 from .db import Base, CourseRow, SessionLocal, engine
 from .routers import auth, courses, learners, llm, practice, search, sessions
@@ -19,6 +22,7 @@ from .security import check_config, current_user
 from .services import course_store, ncert
 
 PRODUCTION = os.environ.get("APP_ENV") == "production"
+FRONTEND_DIST = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
 
 
 @asynccontextmanager
@@ -54,9 +58,26 @@ async def security_headers(request: Request, call_next):
     return response
 
 
+api_router = APIRouter(prefix="/api")
 app.include_router(auth.router)  # /auth/login is the only open route besides /health
+api_router.include_router(auth.router)
+
 for r in (sessions.router, learners.router, courses.router, search.router, practice.router, llm.router):
     app.include_router(r, dependencies=[Depends(current_user)])
+    api_router.include_router(r, dependencies=[Depends(current_user)])
+
+app.include_router(api_router)
+
+if FRONTEND_DIST.exists() and (FRONTEND_DIST / "assets").exists():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
+
+
+@app.api_route("/", methods=["GET", "HEAD"], response_class=HTMLResponse, tags=["ui"])
+def index():
+    """Serve the complete Socratic AI Tutor Web UI."""
+    if FRONTEND_DIST.exists() and (FRONTEND_DIST / "index.html").exists():
+        return HTMLResponse(content=(FRONTEND_DIST / "index.html").read_text(encoding="utf-8"))
+    return HTMLResponse("<h1>Socratic AI Tutor API is running. Visit <a href='/docs'>/docs</a>.</h1>")
 
 
 @app.get("/health", tags=["meta"])
