@@ -27,7 +27,7 @@ os.environ["ADMIN_PASSWORD"] = "test-password-123"
 os.environ["SECRET_KEY"] = "test-secret-key-with-enough-length-0123456789"
 os.environ["SOCRATIC_PROVIDER"] = "templates"  # no model calls in tests unless a test sets a fake model
 os.environ["STEP_FINDER_PROVIDER"] = "none"
-os.environ["NCERT_DATABASE_URL"] = ""
+os.environ["NCERT_ENABLED"] = ""
 
 import pytest
 from fastapi.testclient import TestClient
@@ -57,5 +57,5 @@ def client(anon):
 
 @pytest.fixture()
 def ncert_client(monkeypatch, request):
-    monkeypatch.setenv("NCERT_DATABASE_URL", "postgresql://example.invalid/ncert")
+    monkeypatch.setenv("NCERT_ENABLED", "1")
     return request.getfixturevalue("client")

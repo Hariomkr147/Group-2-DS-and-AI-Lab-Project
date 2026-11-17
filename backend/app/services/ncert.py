@@ -2,16 +2,15 @@
 import logging
 import os
 import re
-import ssl
 from functools import lru_cache
 from threading import Lock
 from urllib.parse import urldefrag, urlsplit
 
 from fastapi import HTTPException
-from sqlalchemy import create_engine, text
-from sqlalchemy.engine import make_url
+from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
+from ..db import engine
 from ..schemas import Chapter, Material, Resource
 
 COURSE_ID = "ncert"
@@ -59,19 +58,8 @@ _IMAGE = r"!\[[^]]*\]\([^)]*\)"
 
 
 def configured() -> bool:
-    return bool(os.getenv("NCERT_DATABASE_URL"))
-
-
-@lru_cache(maxsize=1)
-def _engine():
-    raw_url = os.environ["NCERT_DATABASE_URL"]
-    url = make_url(raw_url).set(drivername="postgresql+pg8000", query={})
-    if not url.host or not url.database:
-        raise ValueError("NCERT_DATABASE_URL requires a database host and name")
-    root_cert = os.getenv("NCERT_SSL_ROOT_CERT")
-    tls = ssl.create_default_context(cafile=root_cert) if root_cert else True
-    return create_engine(url, pool_pre_ping=True, hide_parameters=True,
-                         connect_args={"ssl_context": tls, "timeout": 12})
+    # The corpus lives in the ncert_research schema of the app's own DATABASE_URL database.
+    return os.getenv("NCERT_ENABLED", "").lower() in ("1", "true", "yes")
 
 
 @lru_cache(maxsize=1)
@@ -112,7 +100,7 @@ def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> 
     params.update(embedding=str(vector), release=RELEASE, revision=REVISION, model=MODEL,
                   image_pattern=_IMAGE, per_chapter=1 if chapters else limit, limit=limit)
     try:
-        with _engine().begin() as conn:
+        with engine.begin() as conn:
             conn.execute(text("SET TRANSACTION READ ONLY"))
             conn.execute(text("SET LOCAL statement_timeout = '12s'"))
             conn.execute(text("SET LOCAL search_path = pg_catalog, extensions, public"))

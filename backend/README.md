@@ -10,8 +10,8 @@ Needs [uv](https://docs.astral.sh/uv/) (`pip install uv` or see its install page
 cd backend
 cp .env.example .env              # then fill in ADMIN_PASSWORD and SECRET_KEY (see Security)
 docker compose up -d              # PostgreSQL 16 with pgvector on localhost:5432
-uv sync                           # creates .venv with Python 3.12 and installs locked dependencies
-uv run --env-file .env uvicorn app.main:app --reload     # http://127.0.0.1:8000/docs
+uv sync --extra rag               # creates .venv with Python 3.12 and installs locked dependencies; --extra rag adds torch and transformers for NCERT retrieval (large)
+uv run --extra rag --env-file .env uvicorn app.main:app --reload     # http://127.0.0.1:8000/docs
 uv run pytest -q                  # runs against an embedded PostgreSQL, no Docker needed
 ```
 
@@ -107,11 +107,12 @@ In addition to sample course packs, the backend supports direct grounded tutorin
 
 | Setting | Purpose |
 |---|---|
-| `NCERT_DATABASE_URL` | Supabase PostgreSQL connection with pgvector for the textbook corpus. |
-| `NCERT_SSL_ROOT_CERT` | Optional path to CA certificate for SSL verification. |
+| `NCERT_ENABLED` | Set to `1` to retrieve from the `ncert_research` schema of `DATABASE_URL` (textbook corpus with pgvector). |
 | `NCERT_MODEL_URL` | Hosted Socratic tutoring model URL (`/predict`). |
 | `NCERT_MODEL_API_KEY` | Bearer or API key for the model endpoint. |
 | `NCERT_MODEL_AUTH_HEADER` | Header format: `Authorization` (default) or `X-API-Key`. |
+
+NCERT retrieval needs the `rag` extra (torch and transformers); without it `POST /sessions/{id}/messages` returns 503 "The NCERT question encoder is unavailable". Install it with `uv sync --extra rag` and start the server with `uv run --extra rag ...`. The first request downloads the Qwen3-Embedding-0.6B model (about 1.2 GB). The VS Code launch config "Backend: API (uvicorn)" already sets `NCERT_ENABLED=1` and uses `backend/.venv`.
 
 - **Sessions with NCERT**: `POST /sessions` with `course_id: "ncert"` and optional `grade` (6-10) and `subject` (`maths` or `science`).
 - **Query / Search**: `GET /search?course_id=ncert&q=...&grade=10&subject=science`.
