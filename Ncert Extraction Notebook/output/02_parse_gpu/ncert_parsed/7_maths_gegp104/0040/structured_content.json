@@ -1,0 +1,144 @@
+{
+  "pages": [
+    {
+      "page_idx": 39,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.086,
+            0.793,
+            0.185
+          ],
+          "content": "Column 2: 4 × (r – 1) + 2 Column 3: 4 × (r – 1) + 3 Column 4: 4 × (r – 1) + 4 If c is the column number, then the general formula to generate all numbers is= 4 × (r – 1) + c"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.197,
+            0.783,
+            0.252
+          ],
+          "content": "**(b) In which row and column will the following numbers appear: (i) 124 (ii) 147 (iii) 201**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.267,
+            0.721,
+            0.287
+          ],
+          "content": "(i) We divide each number by 4 to find its row and column"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.186,
+            0.301,
+            0.615,
+            0.398
+          ],
+          "content": "124 ÷ 4 So, Quotient = 31 and remainder is 0 ∴ 124 = 4 × 31 + 0 or 4 × 30 + 4 Comparing it with 4 × (r – 1) + c, we get r – 1 = 30, c = 4 So, r = 31 and c = 4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.413,
+            0.583,
+            0.455
+          ],
+          "content": "(ii) 147 will appear at row 37 and column 3 (iii) 201 will appear at row 51 and column 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.481,
+            0.752,
+            0.536
+          ],
+          "content": "**(c) What number appears in row r and column c?** The number that appears in row r and column c is 4(r – 1) + c."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.561,
+            0.554,
+            0.581
+          ],
+          "content": "**(d) Observe the positions of multiples of 3.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.595,
+            0.882,
+            0.637
+          ],
+          "content": "The pattern in the columns in which multiples of 3 appear, follow a repeating sequence of column number: 3, 2, 1, 4, 3, 2, 1, ... as shown."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.359,
+            0.664,
+            0.638,
+            0.901
+          ],
+          "content": "<table><tr><td colspan=4>1        2       3       4</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td>7</td><td>8</td></tr><tr><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>13</td><td>14</td><td>15</td><td>16</td></tr><tr><td>--</td><td>-          --</td><td>----</td><td>---</td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_39_table_8.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.488,
+            0.929,
+            0.512,
+            0.942
+          ],
+          "content": "15"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 39,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

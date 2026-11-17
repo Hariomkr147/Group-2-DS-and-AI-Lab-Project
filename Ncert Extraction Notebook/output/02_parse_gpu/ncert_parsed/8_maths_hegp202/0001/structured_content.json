@@ -1,0 +1,214 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.24,
+            0.161,
+            0.257
+          ],
+          "content": "食个个个个个个个个个个"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.839,
+            0.24,
+            1.0,
+            0.256
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.109,
+            0.077,
+            0.772,
+            0.172
+          ],
+          "content": "THE BAUDHĀYANA-2 PYTHAGORAS THEOREM"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.824,
+            0.168,
+            0.88,
+            0.18
+          ],
+          "content": "0889CH02"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.79,
+            0.076,
+            0.916,
+            0.162
+          ],
+          "content": ""
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.331,
+            0.457,
+            0.356
+          ],
+          "level": 2,
+          "content": "2.1 Doubling a Square"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.364,
+            0.846,
+            0.404
+          ],
+          "content": "In Baudhāyana’s Śulba-Sūtra (c. 800 BCE), Baudhāyana considers the following question:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.413,
+            0.698,
+            0.453
+          ],
+          "content": "? How can one construct a square having double the area of a given square?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.455,
+            0.702,
+            0.512
+          ],
+          "content": "A first guess might be to simply double the length of each side of the square. Will this new square have double the area of the original square?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.711,
+            0.405,
+            0.846,
+            0.506
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.511,
+            0.846,
+            0.55
+          ],
+          "content": "It’s not hard to see that the new square will have area $2 \\times 2 = 4$ times the area of the original square:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.245,
+            0.569,
+            0.401,
+            0.719
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.493,
+            0.558,
+            0.753,
+            0.755
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.767,
+            0.845,
+            0.807
+          ],
+          "content": "So how can one make a square that has double the area? Baudhāyana in his Śulba-Sūtra (Verse 1.9) gave an elegant answer to this question:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.825,
+            0.828,
+            0.865
+          ],
+          "content": "The diagonal of a square produces a square of double the area of the original square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.883,
+            0.845,
+            0.921
+          ],
+          "content": "As Baudhāyana says, the key is to construct a square on the diagonal of the original square:"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

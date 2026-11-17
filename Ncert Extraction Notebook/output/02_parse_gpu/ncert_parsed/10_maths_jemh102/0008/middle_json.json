@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.216,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "POLYNOMIALS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.875,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that 0 is the only zero of the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, from Fig. 2.7, you can see that 0 is the x-coordinate of the only point where the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x-axis. Similarly, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{3}-x^{2}=x^{2}(x-1)"
+            },
+            {
+              "type": "text",
+              "content": " , 0 and 1 are the only zeroes of the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 } - x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, from Fig. 2.8, these values are the x - coordinates of the only points where the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 3 } - x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x-axis."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.241,
+            0.901,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the examples above, we see that there are at most 3 zeroes for any cubic polynomial. In other words, any polynomial of degree 3 can have at most three zeroes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.285,
+            0.9,
+            0.344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In general, given a polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " of degree n, the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x-axis at atmost n points. Therefore, a polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " of degree n has at most n zeroes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.097,
+            0.356,
+            0.897,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Look at the graphs in Fig. 2.9 given below. Each is the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\overline { { y } } } \\equiv { \\overline { { p } } } ( x )"
+            },
+            {
+              "type": "text",
+              "content": " where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial. For each of the graphs, find the number of zeroes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.109,
+            0.407,
+            0.366,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.109,
+                0.407,
+                0.366,
+                0.558
+              ],
+              "image_path": "images/page_7_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.225,
+                0.561,
+                0.25,
+                0.578
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(i)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.371,
+            0.406,
+            0.634,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.371,
+                0.406,
+                0.634,
+                0.561
+              ],
+              "image_path": "images/page_7_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.636,
+            0.407,
+            0.895,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.636,
+                0.407,
+                0.895,
+                0.558
+              ],
+              "image_path": "images/page_7_image_9.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 10,
+              "bbox": [
+                0.49,
+                0.558,
+                0.519,
+                0.576
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(ii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.109,
+            0.579,
+            0.366,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.109,
+                0.579,
+                0.366,
+                0.736
+              ],
+              "image_path": "images/page_7_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.22,
+                0.737,
+                0.256,
+                0.755
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iv)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.373,
+            0.581,
+            0.633,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.373,
+                0.581,
+                0.633,
+                0.735
+              ],
+              "image_path": "images/page_7_image_13.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 15,
+              "bbox": [
+                0.491,
+                0.738,
+                0.521,
+                0.756
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(v)"
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "index": 16,
+              "bbox": [
+                0.456,
+                0.763,
+                0.541,
+                0.783
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.637,
+            0.582,
+            0.895,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 14,
+              "bbox": [
+                0.753,
+                0.559,
+                0.788,
+                0.577
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iii)"
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.637,
+                0.582,
+                0.895,
+                0.733
+              ],
+              "image_path": "images/page_7_image_17.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 18,
+              "bbox": [
+                0.753,
+                0.736,
+                0.789,
+                0.754
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(vi)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.804,
+            0.205,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.118,
+            0.829,
+            0.891,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The number of zeroes is 1 as the graph intersects the x-axis at one point only."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.114,
+            0.855,
+            0.861,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) The number of zeroes is 2 as the graph intersects the x-axis at two points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.111,
+            0.879,
+            0.491,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) The number of zeroes is 3. (Why?)"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,127 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.453,
+            0.54,
+            0.547,
+            0.56
+          ],
+          "content": "Fig. 13.1"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.595,
+            0.072,
+            0.814,
+            0.088
+          ],
+          "content": "Two Variables, One Line"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.851,
+            0.071,
+            0.882,
+            0.087
+          ],
+          "content": "89"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.248,
+            0.119,
+            0.751,
+            0.533
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.58,
+            0.885,
+            0.657
+          ],
+          "content": "We have already seen in the chapter on Linear Polynomials that plotting the solutions of an equation of the form y = mx + d leads to a straight line joining them. Every solution (x, y) of the equation is a point on the line."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.661,
+            0.887,
+            0.752
+          ],
+          "content": "Clearly the solutions of $y = - \\frac{3}{2}x + 6$ are the same as those of $3x + 2y = 12$ . Hence the graph of 3x + 2y = 12 is the same as that of $y = - \\frac{3}{2}x + 6$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.755,
+            0.884,
+            0.794
+          ],
+          "content": "**Example 2:** Find any two solutions of 2x + y = 7. Draw the graph of this equation. Use the graph to find 4 more solutions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.798,
+            0.885,
+            0.873
+          ],
+          "content": "When we substitute x = 0 in the equation, we get $(2 \\times 0) + y = 7,$ that is, y = 7. Hence one solution is (0, 7). By substituting y = 0, we get $2x + 0 = 7$ , that is, $x = { \\frac { 7 } { 2 } }$ . Thus, $\\left( { \\frac { 7 } { 2 } } , 0 \\right)$ is also a solution."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

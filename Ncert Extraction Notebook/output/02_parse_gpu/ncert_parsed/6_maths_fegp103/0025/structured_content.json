@@ -1,0 +1,337 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.528,
+            0.346,
+            0.544
+          ],
+          "content": "789 \\rightarrow 7+8+9=24",
+          "image_source": "images/page_24_equation_0.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.434,
+            0.337,
+            0.451
+          ],
+          "content": "234 \\rightarrow 2+3+4=9",
+          "image_source": "images/page_24_equation_1.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.119,
+            0.084,
+            0.148,
+            0.105
+          ],
+          "content": "燕"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.09,
+            0.269,
+            0.108
+          ],
+          "level": 2,
+          "content": "Figure it out"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.117,
+            0.275,
+            0.135
+          ],
+          "level": 2,
+          "content": "Q.1. Digit sum 14"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.145,
+            0.602,
+            0.162
+          ],
+          "content": "**a. Write other numbers whose digits add up to 14.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.171,
+            0.638,
+            0.189
+          ],
+          "content": "**b. What is the smallest number whose digit sum is 14?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.198,
+            0.685,
+            0.217
+          ],
+          "content": "**c. What is the largest 5-digit number whose digit sum is 14?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.226,
+            0.881,
+            0.262
+          ],
+          "content": "**d. How big a number can you form having the digit sum 14? Can you make an even bigger number?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.271,
+            0.718,
+            0.288
+          ],
+          "content": "Ans. a. Some such numbers are:248, 653, 356, 815, 833, 12335, 23351."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.289,
+            0.227,
+            0.305
+          ],
+          "content": "b. 59"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.307,
+            0.256,
+            0.323
+          ],
+          "content": "c. 95000"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.324,
+            0.723,
+            0.342
+          ],
+          "content": "d. 95, 9005, 900005, 90000005, 9000000005, 90000000000005"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.369,
+            0.882,
+            0.405
+          ],
+          "level": 2,
+          "content": "Q.3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern? Will this pattern continue?"
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.117,
+            0.415,
+            0.337,
+            0.432
+          ],
+          "sub_type": "code",
+          "content": "```txt\nAns. 123 → 1+2+3 = 6\n```",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.453,
+            0.343,
+            0.47
+          ],
+          "content": "345 \\rightarrow 3+4+5=12",
+          "image_source": "images/page_24_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.472,
+            0.346,
+            0.488
+          ],
+          "content": "4 5 6 \\rightarrow 4 + 5 + 6 = 1 5",
+          "image_source": "images/page_24_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.49,
+            0.346,
+            0.507
+          ],
+          "content": "567 \\rightarrow 5+6+7=18",
+          "image_source": "images/page_24_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.509,
+            0.345,
+            0.526
+          ],
+          "content": "678 \\rightarrow 6+7+8=21",
+          "image_source": "images/page_24_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.547,
+            0.652,
+            0.565
+          ],
+          "content": "• Yes, there is a pattern, all the sums are multiples of 3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182,
+            0.566,
+            0.249,
+            0.582
+          ],
+          "content": "• No."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.611,
+            0.222,
+            0.628
+          ],
+          "level": 2,
+          "content": "Page no. 61"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.118,
+            0.635,
+            0.148,
+            0.657
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.641,
+            0.881,
+            0.678
+          ],
+          "content": "**Q. Among the numbers 1–100, how many times will the digit ‘7’ occur? Among the numbers 1–1000, how many times will the digit ‘7’ occur?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.688,
+            0.161,
+            0.703
+          ],
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.706,
+            0.294,
+            0.723
+          ],
+          "content": "• 20 times."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.725,
+            0.304,
+            0.741
+          ],
+          "content": "• 300 times."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.487,
+            0.926,
+            0.512,
+            0.942
+          ],
+          "content": "[6]"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

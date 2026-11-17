@@ -1,0 +1,271 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.597,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Two Variables, One Line"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.841,
+            0.07,
+            0.881,
+            0.087
+          ],
+          "content": "107"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.304,
+            0.11,
+            0.62,
+            0.15
+          ],
+          "content": "\\begin{array} { r l } { \\mathrm { o r } \\quad } & { { } \\quad 2 1 - 1 4 y - 1 5 y = 2 } \\\\ { \\mathrm { o r } \\quad } & { { } \\quad - 2 9 y = - 1 9 } \\end{array}",
+          "image_source": "images/page_22_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.156,
+            0.353,
+            0.192
+          ],
+          "content": "Therefore, $y = { \\frac { 1 9 } { 2 9 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.199,
+            0.881,
+            0.239
+          ],
+          "content": "**Step 3:** We can find the value of x by substituting the value of y in any of the equations. Let us use Equation (3)."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.396,
+            0.24,
+            0.599,
+            0.275
+          ],
+          "content": "x = 3 - 2\\left(\\frac{19}{29}\\right) = \\frac{49}{29}.",
+          "image_source": "images/page_22_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.268,
+            0.876,
+            0.304
+          ],
+          "content": "Therefore, the solution of the Equations (1) and (2) is $x = \\frac{49}{29}, y = \\frac{19}{29}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.308,
+            0.88,
+            0.368
+          ],
+          "content": "To verify if the solution is correct, we substitute $x = \\frac{49}{29}, y = \\frac{19}{29}$ , in Equations (1) and (2) and check if they are satisfied. Try it for yourself."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.385,
+            0.4,
+            0.409
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.421,
+            0.852,
+            0.473
+          ],
+          "content": "What if we had expressed y in terms of x, i.e., take Equation (2) and write $y = \\frac{1}{2} \\left( 3 - x \\right)$ . Would we still get the same solution?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.493,
+            0.881,
+            0.534
+          ],
+          "content": "**Example 8:** If two angles of a triangle are $x ^ { 0 }$ and y° with $y   =   4 x ,$ and the third angle is $5 0 ^ { \\circ }$ , what are the angles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.537,
+            0.69,
+            0.559
+          ],
+          "content": "The three angles of the triangle are $x ^ { 0 } , y ^ { 0 } ,$ and $5 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.562,
+            0.61,
+            0.584
+          ],
+          "content": "Using the angle sum property of triangles,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.421,
+            0.586,
+            0.879,
+            0.608
+          ],
+          "content": "x^{\\circ} + y^{\\circ} + 50^{\\circ} = 180^{\\circ}\\tag{1}",
+          "image_source": "images/page_22_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.613,
+            0.214,
+            0.632
+          ],
+          "content": "Also,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.528,
+            0.613,
+            0.879,
+            0.633
+          ],
+          "content": "y = 4 x .\\tag{2}",
+          "image_source": "images/page_22_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.636,
+            0.609,
+            0.659
+          ],
+          "content": "Substituting the value of y in Equation (1),"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.664,
+            0.233,
+            0.683
+          ],
+          "content": "we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.661,
+            0.607,
+            0.732
+          ],
+          "content": "\\begin{aligned}x + 4x + 50 &= 180, \\\\5x &= 130, \\\\x &= 26^{\\circ}.\\end{aligned}",
+          "image_source": "images/page_22_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.737,
+            0.416,
+            0.757
+          ],
+          "content": "Therefore, $y = 4x = 104^{\\circ}.$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.77,
+            0.372,
+            0.791
+          ],
+          "level": 2,
+          "content": "Elimination Method"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.798,
+            0.884,
+            0.877
+          ],
+          "content": "Now let us consider the method of elimination for solving a pair of linear equations. This requires us to eliminate one of the variables x or y. Sometimes it is more convenient than the substitution method. Let us see how this method works."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

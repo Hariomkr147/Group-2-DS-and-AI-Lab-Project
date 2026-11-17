@@ -1,0 +1,17 @@
+![](images/page_0_image_0.jpg)
+
+# Heat Transfer in Nature
+
+![](images/page_0_image_2.jpg)
+
+Pema and her brother Palden reside in Gangtok. On a cold winter evening, they are sitting around a fireplace. Palden shares his experiences of visiting Kerala during the winter vacation. He says that compared to Gangtok, winter in Kerala is comparatively warm and humid. Both Pema and Palden are curious about why some places are so cold and others quite hot.
+
+![](images/page_0_image_4.jpg)
+
+0777CH07
+
+Hearing them express their curiosity, their grandfather, a retired science teacher, says, “Kerala is closer to the equator than Sikkim and it also has a long coastline, which results in warmer and more humid weather conditions”. Palden replies, “Yes, we learnt in Grade 6 Science and Social Science that for us on the Earth, the Sun is the main source of heat and light, and around the equator, the climate is generally hot”.
+
+As they are talking, Pema is keenly observing her grandmother cooking thukpa (a traditional Sikkimese dish) in a large metal pan. Pema asks, “Why are cooking utensils generally made of metals?” Palden immediately responds that they had studied in the chapter ‘The World of Metals and Non-metals’ that such materials are good conductors of heat.
+
+![](images/page_0_image_8.jpg)

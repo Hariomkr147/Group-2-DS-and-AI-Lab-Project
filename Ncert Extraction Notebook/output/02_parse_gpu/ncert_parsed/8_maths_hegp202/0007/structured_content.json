@@ -1,0 +1,270 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.553,
+            0.048,
+            0.862,
+            0.066
+          ],
+          "content": "The Baudhāyana-Pythagoras Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.767,
+            0.109
+          ],
+          "content": "So a terminating decimal cannot have 2 or 2.000... as its square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.108,
+            0.847,
+            0.148
+          ],
+          "content": "Thus, the decimal expansion of $\\sqrt { 2 }$ must go on forever, i.e., it has a non-terminating decimal representation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.161,
+            0.811,
+            0.202
+          ],
+          "content": "？ Can $\\sqrt { 2 }$ be expressed as a fraction $\\frac { m } { n }$ , where m and n are counting numbers?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.824,
+            0.145,
+            0.926,
+            0.208
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.211,
+            0.657,
+            0.237
+          ],
+          "content": "If $\\sqrt { 2 }$ could be expressed as $\\frac { m } { n }$ , then we would have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.447,
+            0.241,
+            0.522,
+            0.267
+          ],
+          "content": "{ \\sqrt { 2 } } = { \\frac { m } { n } }",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.459,
+            0.269,
+            0.536,
+            0.306
+          ],
+          "content": "2 = { \\frac { \\; m ^ { 2 } \\; } { n ^ { 2 } } }",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.308,
+            0.533,
+            0.329
+          ],
+          "content": "2 n ^ { 2 } = m ^ { 2 } .",
+          "image_source": "images/page_6_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.334,
+            0.847,
+            0.435
+          ],
+          "content": "Recall that in the prime factorization of a square number, each prime occurs an even number of times. So in the equation $2 n ^ { 2 } = m ^ { 2 }$ , the prime 2 would occur an odd number of times on the left side and an even number of times on the right side. This is impossible. Thus $\\sqrt { 2 }$ cannot be expressed as a fraction $\\frac { m } { n }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.436,
+            0.845,
+            0.493
+          ],
+          "content": "This beautiful proof that $\\sqrt { 2 }$ cannot be expressed as $\\frac { m } { n }$ where m, n are counting numbers was given by Euclid in his book Elements (c. 300 BCE). We will discuss it in more detail in a later class."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.493,
+            0.847,
+            0.551
+          ],
+          "content": "Thus the number $\\sqrt { 2 }$ cannot be expressed as a terminating decimal or a fraction. But we can think of it as a certain non-terminating decimal: $\\sqrt{2}=1.41421356.$ …"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.56,
+            0.295,
+            0.583
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.586,
+            0.802,
+            0.661
+          ],
+          "content": "1. Earlier, we saw a method to create a square with double the area of a given square paper. There is another method to do this in which two identical square papers are cut in the following way."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.587,
+            0.904,
+            0.644
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.317,
+            0.656,
+            0.47,
+            0.76
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.531,
+            0.657,
+            0.672,
+            0.761
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.771,
+            0.845,
+            0.809
+          ],
+          "content": "Can you arrange these pieces to create a square with double the area of either square?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.875,
+            0.913,
+            0.911,
+            0.935
+          ],
+          "content": "39"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.812,
+            0.847,
+            0.888
+          ],
+          "content": "2. The length of the two equal sides of an isosceles right triangle is given. Find the length of the hypotenuse. Find bounds on the length of the hypotenuse such that they have at least one digit after the decimal point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.896,
+            0.75,
+            0.919
+          ],
+          "content": "(i) 3 (ii) 4 (iii) 6 (iv) 8 (v) 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

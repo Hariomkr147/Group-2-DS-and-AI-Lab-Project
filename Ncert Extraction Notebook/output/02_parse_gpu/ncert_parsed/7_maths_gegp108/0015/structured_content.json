@@ -1,0 +1,293 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.648,
+            0.047,
+            0.846,
+            0.064
+          ],
+          "content": "Working with Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.846,
+            0.126
+          ],
+          "content": "We can use this technique of converting division into multiplication problems to divide fractions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.129,
+            0.322,
+            0.162
+          ],
+          "content": "What is $1 \\div \\frac { 2 } { 3 } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.164,
+            0.64,
+            0.184
+          ],
+          "content": "Let us rewrite this as a multiplication problem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.455,
+            0.197,
+            0.542,
+            0.232
+          ],
+          "content": "\\frac { 2 } { 3 } \\times ? = 1",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.238,
+            0.698,
+            0.27
+          ],
+          "content": "What should be multiplied by $\\frac{2}{3}$ to get the product 1?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.272,
+            0.775,
+            0.293
+          ],
+          "content": "If we somehow cancel out the 2 and the 3, we are left with 1."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.445,
+            0.311,
+            0.534,
+            0.383
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.402,
+            0.211,
+            0.421
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.466,
+            0.422,
+            0.557,
+            0.458
+          ],
+          "content": "1 \\div \\frac{2}{3} = \\frac{3}{2}.",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.46,
+            0.455,
+            0.48
+          ],
+          "content": "Let us try another problem:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.483,
+            0.481,
+            0.539,
+            0.516
+          ],
+          "content": "3 \\div \\frac{2}{3}.",
+          "image_source": "images/page_14_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.518,
+            0.367,
+            0.537
+          ],
+          "content": "This is the same as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.454,
+            0.549,
+            0.543,
+            0.584
+          ],
+          "content": "\\frac{2}{3} \\times 2 = 3.",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.58,
+            0.433,
+            0.6
+          ],
+          "content": "Can you find the answer?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.606,
+            0.847,
+            0.656
+          ],
+          "content": "We know what to multiply $\\frac{2}{3}$ by to get 1. We just need to multiply that by 3 to get 3. So,"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.433,
+            0.654,
+            0.562,
+            0.724
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.74,
+            0.211,
+            0.759
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.419,
+            0.77,
+            0.579,
+            0.807
+          ],
+          "content": "3 \\div \\frac{2}{3} = \\frac{3}{2} \\times 3 = \\frac{9}{2}.",
+          "image_source": "images/page_14_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.422,
+            0.815,
+            0.577,
+            0.85
+          ],
+          "content": "What is 1 1 ? 5 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.852,
+            0.669,
+            0.873
+          ],
+          "content": "Rewriting it as a multiplication problem, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.453,
+            0.884,
+            0.545,
+            0.919
+          ],
+          "content": "{ \\frac { 1 } { 2 } } \\times ? = { \\frac { 1 } { 5 } } .",
+          "image_source": "images/page_14_equation_22.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.809,
+            0.938,
+            0.846,
+            0.955
+          ],
+          "content": "187"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:22+05:30",
+      "modified_at": "2026-04-07T17:16:32+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

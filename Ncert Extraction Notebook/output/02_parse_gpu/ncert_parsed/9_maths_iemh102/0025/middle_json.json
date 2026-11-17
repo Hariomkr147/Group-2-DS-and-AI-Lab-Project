@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.144,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "40"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.185,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.159,
+            0.108,
+            0.884,
+            0.149
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z A "
+            },
+            {
+              "type": "text",
+              "content": "linear pattern",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is a sequence of numbers where the difference between consecutive terms is constant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.159,
+            0.157,
+            0.886,
+            0.281
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z A "
+            },
+            {
+              "type": "text",
+              "content": "linear relationship",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " between two variables x and y is represented by a straight line "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = a x + b"
+            },
+            {
+              "type": "text",
+              "content": " . The slope of this line is a. The constant b is called the y-intercept which is the distance from the origin where the line cuts the y-axis. When b = 0, the equation of the line becomes y = ax and the line passes through the origin."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.159,
+            0.289,
+            0.885,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z "
+            },
+            {
+              "type": "text",
+              "content": "Linear growth",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is represented by a straight line with positive slope and "
+            },
+            {
+              "type": "text",
+              "content": "linear decay",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is represented by a straight line with negative slope."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.159,
+            0.359,
+            0.884,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Parallel lines are of the form y = ax + b, where the slope a is fixed while b, the y-intercept, varies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,37 @@
+order matters. She should wear socks and then shoes. If she wears shoes and then socks, Manasa will feel very uncomfortable and look very different.
+
+## More Expressions and Their Terms
+
+？ **Example 7:** Amu, Charan, Madhu, and John went to a hotel and ordered four dosas. Each dosa cost ₹23, and they wish to thank the waiter by tipping ₹5. Write an expression describing the total cost.
+
+$$
+\mathrm { C o s t \; o f \; 4 \; d o s a s } = 4 \times 2 3
+$$
+
+Can the total amount with tip be written as $4 \times 2 3 \div 5 ?$ Evaluating it, we get
+
+![](images/page_8_image_6.jpg)
+
+Thus, $4 \times 2 3 \pm 5$ is a correct way of writing the expression.
+
+? If the total number of friends goes up to 7 and the tip remains the same, how much will they have to pay? Write an expression for this situation and identify its terms.
+
+? **Example 8:** Children in a class are playing “Fire in the mountain, run, run, run!”. Whenever the teacher calls out a number, students are supposed to arrange themselves in groups of that number. Whoever is not part of the announced group size, is out.
+
+Ruby wanted to rest and sat on one side. The other 33 students were playing the game in the class.
+
+The teacher called out ‘5’. Once children settled, Ruby wrote
+
+![](images/page_8_image_12.jpg)
+
+$$
+6 \times 5 \pm 3
+$$
+
+(understood as 3 more than 6 × 5)
+
+Think and discuss why she wrote this.
+
+The expression written as a sum of terms is—
+
+![](images/page_8_image_17.jpg)

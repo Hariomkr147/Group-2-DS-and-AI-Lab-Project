@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "page_idx": 32,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.087,
+            0.881,
+            0.129
+          ],
+          "content": "？ **Like the triangle inequality, can you form a rule that describes the two angles for which a triangle is possible?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.139,
+            0.831,
+            0.157
+          ],
+          "content": "**Ans**: Rules for two angles A and B to form a triangle is $0^{\\circ} <  A  +  B  < 180^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.192,
+            0.252,
+            0.209
+          ],
+          "content": "**Page No. 165**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.221,
+            0.299,
+            0.239
+          ],
+          "content": "？ **Figure it out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.251,
+            0.882,
+            0.293
+          ],
+          "content": "**1. Find the third angle of a triangle (using a parallel line) when two of the angles are:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.304,
+            0.541,
+            0.322
+          ],
+          "content": "**Process for (a) is given. Try for rest.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.332,
+            0.288,
+            0.35
+          ],
+          "content": "(a) $\\mathbf { 3 6 ^ { \\circ } } , 7 2 ^ { \\circ }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.332,
+            0.357,
+            0.673,
+            0.515
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_32_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.525,
+            0.881,
+            0.565
+          ],
+          "content": "**Ans:**Consider $\\Delta \\mathrm { A B C } ,$ , Draw line XY parallel to line BC so AB and AC become transversals."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.576,
+            0.86,
+            0.594
+          ],
+          "content": "Therefore $\\angle XAB = \\angle B = 36^{\\circ}$ and $\\angle YAC = \\angle C = 72^{\\circ}$ (Alternate Angles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.605,
+            0.336,
+            0.622
+          ],
+          "content": "On line XY —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.2,
+            0.634,
+            0.489,
+            0.65
+          ],
+          "content": "\\angle XAB + \\angle BAC + \\angle YAC = 180^{\\circ}",
+          "image_source": "images/page_32_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.663,
+            0.349,
+            0.679
+          ],
+          "content": "So,  BAC = 72°"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.697,
+            0.301,
+            0.714
+          ],
+          "content": "(b) $\\mathbf { 1 5 0 ^ { \\circ } } , \\mathbf { 1 5 ^ { \\circ } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.72,
+            0.263,
+            0.737
+          ],
+          "content": "**Ans:** $1 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.758,
+            0.287,
+            0.775
+          ],
+          "content": "(c) $\\mathbf { 9 0 ^ { \\circ } , 3 0 ^ { \\circ } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.782,
+            0.262,
+            0.798
+          ],
+          "content": "**Ans:** $6 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.819,
+            0.289,
+            0.836
+          ],
+          "content": "(d) $7 5 ^ { \\circ } , 4 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.172,
+            0.843,
+            0.262,
+            0.859
+          ],
+          "content": "**Ans:** 60°"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.493,
+            0.928,
+            0.507,
+            0.94
+          ],
+          "content": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 32,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,23 @@
+## 2.1 Experiencing the Power Play ...
+
+## An Impossible Venture!
+
+Take a sheet of paper, as large a sheet as you can find. Fold it once. Fold it again, and again.
+
+## ？ How many times can you fold it over and over?
+
+Estu says “I heard that a sheet of paper can’t be folded more than 7 times”.
+
+Roxie replies “What if we use a thinner paper, like a newspaper or a tissue paper?”
+
+Try it with different types of paper and see what happens.
+
+If you can fold a paper 46 times, it will be so thick that it can reach the Moon!
+
+What! That’s crazy! Just 46 times!? You must have ignored several zeros after 46.
+
+![](images/page_0_image_13.jpg)
+
+## ？ Say you can fold a sheet of paper as many times as you wish. What would its thickness be after 30 folds? Make a guess.
+
+Let us find out how thick a sheet of paper will be after 46 folds. Assume that the thickness of the sheet is 0.001 cm.

@@ -1,0 +1,191 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.19,
+            0.085,
+            0.843,
+            0.285
+          ],
+          "content": "|  | × 10 | × 100 | × 1000 |\n| --- | --- | --- | --- |\n| 5.7 |  |  |  |\n| 23.02 |  |  |  |\n| 0.92 |  |  |  |\n| 0.306 |  |  |  |\n| 24.67 |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_table_1.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.321,
+            0.436,
+            0.345
+          ],
+          "level": 2,
+          "content": "4.3 Decimal Division"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.354,
+            0.521,
+            0.433
+          ],
+          "content": "**Example 6:** Anuja has a 3.9 m length of ribbon and she wants to cut it into 10 equal pieces. What is the length of each piece in decimal?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.437,
+            0.52,
+            0.495
+          ],
+          "content": "Since there are 10 pieces, we can find the length of each piece by dividing 3.9 by 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.495,
+            0.349,
+            0.514
+          ],
+          "content": "So, what is $3 . 9 \\div 1 0 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.512,
+            0.52,
+            0.597
+          ],
+          "content": "Let’s convert 3.9 into fraction $3.9 = \\frac{39}{10}$ Hence, $3 . 9 ~ \\div ~ 1 0$ is the same as dividing $\\frac { 3 9 } { 1 0 }$ by 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.597,
+            0.522,
+            0.692
+          ],
+          "content": "Recall that, dividing a fraction by a divisor is the same as multiplying the fraction by the reciprocal of the divisor. The reciprocal of 10 is ${ \\frac { 1 } { 1 0 } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.694,
+            0.47,
+            0.731
+          ],
+          "content": "So, $\\frac{39}{10} \\div 10 = \\frac{39}{40} \\times \\frac{1}{10} = \\frac{39}{100} = 0.39.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.733,
+            0.522,
+            0.772
+          ],
+          "content": "Thus, the length of each piece of ribbon is 0.39 m."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.538,
+            0.325,
+            0.913,
+            0.726
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.776,
+            0.846,
+            0.835
+          ],
+          "content": "？ What is the length of each piece if the ribbon is cut into 100 equal pieces? $3.9 \\div 100 = \\frac{39}{10} \\times \\frac{1}{100} = \\frac{39}{1000} = 0.039.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.837,
+            0.846,
+            0.876
+          ],
+          "content": "When the ribbon is cut into 100 equal pieces, the length of each piece is 0.039 m."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.949
+          ],
+          "content": "74"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

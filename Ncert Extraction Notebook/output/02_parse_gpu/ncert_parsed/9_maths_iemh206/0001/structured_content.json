@@ -1,0 +1,258 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.121,
+            0.149,
+            0.176,
+            0.179
+          ],
+          "content": "14"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.252,
+            0.122,
+            0.677,
+            0.183
+          ],
+          "level": 1,
+          "content": "Math of Space: Surface Area and Volume"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.715,
+            0.059,
+            0.867,
+            0.156
+          ],
+          "content": "口"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.753,
+            0.165,
+            0.824,
+            0.178
+          ],
+          "content": "0905CH14"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.259,
+            0.884,
+            0.36
+          ],
+          "content": "In the previous grade we explored nets of some solids including cubes, cylinders, and cones. We saw that solids have a surface and occupy some space or volume. In this chapter, we will learn how to determine surface areas and volumes of cuboids, cylinders, cones, pyramids, and spheres, and how we can use these to solve some interesting problems."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.118,
+            0.382,
+            0.447,
+            0.405
+          ],
+          "level": 2,
+          "content": "14.1 Cuboids and Cubes"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.135,
+            0.442,
+            0.361,
+            0.562
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.372,
+            0.428,
+            0.612,
+            0.567
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.127,
+                0.571,
+                0.367,
+                0.589
+              ],
+              "content": "Fig. 14.1A: Cuboid bricks"
+            },
+            {
+              "bbox": [
+                0.385,
+                0.571,
+                0.614,
+                0.589
+              ],
+              "content": "Fig. 14.1B: Rubik’s Cube"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.649,
+            0.48,
+            0.853,
+            0.562
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.664,
+                0.571,
+                0.84,
+                0.589
+              ],
+              "content": "Fig. 14.1C: Cuboid"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.607,
+            0.883,
+            0.665
+          ],
+          "content": "A cuboid has the shape shown in these pictures. A useful way of thinking about a cuboid is that it is a ‘three-dimensional (3D) version’ of a rectangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.666,
+            0.882,
+            0.706
+          ],
+          "content": "It has six faces, all rectangles. It is characterised by three quantities: length, width, and height — these are denoted by l, w, h respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.706,
+            0.538,
+            0.782
+          ],
+          "content": "You can cut out the net of a cuboid given at the end of the textbook, make appropriate folds and join the edges to form the cuboid."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.783,
+            0.537,
+            0.842
+          ],
+          "content": "What is the total surface area of a cuboid? You may refer to the net of the cuboid given in Fig. 14.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.841,
+            0.537,
+            0.9
+          ],
+          "content": "Considering the faces individually, we see that the total surface area (TSA) of the cuboid is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.21,
+            0.905,
+            0.443,
+            0.924
+          ],
+          "content": "\\mathrm{TSA} = 2(wl + hl + hw).",
+          "image_source": "images/page_0_equation_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.553,
+            0.708,
+            0.879,
+            0.875
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.674,
+                0.881,
+                0.76,
+                0.9
+              ],
+              "content": "Fig. 14.2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_18.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

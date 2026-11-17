@@ -1,0 +1,19 @@
+**Section 9.2**
+
+**Page no. 235**
+
+![](images/page_33_image_2.jpg)
+
+**Can you draw a figure with radial arms that has a) exactly 5 angles of symmetry, b) 6 angles of symmetry? Also find the angles of symmetry in each case.**
+
+Hint: Use 5 radial arms for the first case. What should the angle between two adjacent radial arms be?
+
+![](images/page_33_image_5.jpg)
+
+Ans.
+
+Angles of symmetry = 72°, 144°, 216°, 288°, 360°.
+
+![](images/page_33_image_8.jpg)
+
+Angles of symmetry = 60°, 120°, 180°, 240°, 300°, 360°.

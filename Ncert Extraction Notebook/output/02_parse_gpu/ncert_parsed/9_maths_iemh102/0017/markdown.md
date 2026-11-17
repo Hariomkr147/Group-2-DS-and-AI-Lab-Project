@@ -1,0 +1,1 @@
+![](images/page_16_image_0.jpg)

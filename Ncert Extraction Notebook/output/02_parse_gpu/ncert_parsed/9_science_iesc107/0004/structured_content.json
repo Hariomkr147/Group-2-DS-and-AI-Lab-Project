@@ -1,0 +1,276 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.636,
+            0.236,
+            0.754,
+            0.35
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.112,
+                0.356,
+                0.213,
+                0.412
+              ],
+              "content": "Positive work done by the boy on the wheelchair"
+            }
+          ],
+          "image_source": "images/page_3_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.559,
+            0.042,
+            0.853,
+            0.059
+          ],
+          "content": "Work, Energy, and Simple Machines"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.017,
+            0.952,
+            0.087
+          ],
+          "content": "N 119"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.088,
+            0.775,
+            0.14
+          ],
+          "content": "when you push a wheelchair, the force applied by you on the wheelchair and its displacement are in the same direction (Fig. 7.7a). Thus, you do positive work on the wheelchair."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.142,
+            0.776,
+            0.229
+          ],
+          "content": "When the displacement is in the direction opposite to that of the force, then the work done by the force on the object is **negative**. For example, while stopping a ball, the goalkeeper applies a force in a direction opposite to the direction of motion of the football (Fig. 7.7b), and hence, opposite to the displacement. As a result, the goalkeeper does negative work on the ball."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.226,
+            0.237,
+            0.401,
+            0.422
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.179,
+                0.426,
+                0.681,
+                0.443
+              ],
+              "content": "Fig. 7.7: Examples of (a) positive, and (b) negative work done on object"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.428,
+            0.256,
+            0.628,
+            0.409
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.525,
+                0.408,
+                0.549,
+                0.423
+              ],
+              "content": "(b)"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.638,
+                0.355,
+                0.745,
+                0.411
+              ],
+              "content": "Negative work done by the goalkeeper on the ball"
+            }
+          ],
+          "image_source": "images/page_3_image_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.807,
+            0.148,
+            0.861,
+            0.164
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.448,
+            0.775,
+            0.501
+          ],
+          "content": "**Example 7.1:** While exercising, a girl lifts a dumbbell and slowly lowers it down. Identify when the girl does positive work on the dumbbell and when she does negative work on it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.805,
+            0.168,
+            0.936,
+            0.432
+          ],
+          "content": "The ball and the goalkeeper, both apply equal and opposite forces on each other. Both do work on each other. The ball does positive work on the goalkeeper, while goalkeeper does negative work on the ball."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.503,
+            0.775,
+            0.589
+          ],
+          "content": "**Answer:** The girl applies a force equal to the weight of dumbbell to lift it up. When she moves the dumbbell up, the force is in the direction of displacement, so she does positive work on it. When moving the dumbbell down, the force she applies to hold it is in a direction opposite to the displacement, so she does negative work on it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.59,
+            0.775,
+            0.644
+          ],
+          "content": "**Example 7.2:** While saving a goal (Fig. 7.7b), a goalkeeper’s hand moved back by 15 cm as she stopped a ball while applying a force of 200 N. How much work did the goalkeeper do on the ball in stopping it?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.645,
+            0.775,
+            0.714
+          ],
+          "content": "**Answer:** The goalkeeper applied a force opposite to the motion of the ball, so she did negative work on the ball. The displacement should be taken as negative because the ball moves in a direction opposite to the direction of the applied force."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.716,
+            0.773,
+            0.75
+          ],
+          "content": "Work done by the goalkeeper on the ball = force × displacement of ball in the direction of force"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.17,
+            0.753,
+            0.412,
+            0.772
+          ],
+          "content": "200\\mathrm{~N} \\times (-0.15\\mathrm{~m}) = -30\\mathrm{~J}",
+          "image_source": "images/page_3_equation_18.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.185,
+            0.781,
+            0.375,
+            0.8
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.136,
+            0.812,
+            0.744,
+            0.86
+          ],
+          "content": "1. In the previous chapter, a weightlifter is shown holding a barbell steady in her hands (Fig. 6.8). Is she doing any work on the barbell while holding it steady?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.862,
+            0.743,
+            0.895
+          ],
+          "content": "2. Is the work done by friction on the stack of coins that travels on a rough surface (Fig. 6.13c) — positive, negative or zero?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

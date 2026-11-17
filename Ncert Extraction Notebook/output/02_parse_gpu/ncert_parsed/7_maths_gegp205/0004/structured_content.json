@@ -1,0 +1,203 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.847,
+            0.127
+          ],
+          "content": "The **Average** or **Arithmetic Mean** (A.M.), or simply **Mean**, is calculated as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.311,
+            0.133,
+            0.709,
+            0.171
+          ],
+          "content": "Mean  = \\frac{ Sum of all the values in the data }{ Number of values in the data }",
+          "image_source": "images/page_3_equation_2.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.188,
+            0.42,
+            0.208
+          ],
+          "level": 2,
+          "content": "Average as Fair-Share"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.213,
+            0.78,
+            0.234
+          ],
+          "content": "The average can also be understood as fair-share or equal-share."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.243,
+            0.848,
+            0.341
+          ],
+          "content": "？ Shreyas and 4 of his friends have collected the following numbers of guavas: 3, 8, 10, 5, and 4. Parag and 5 of his friends have collected the following numbers of guavas: 5, 4, 6, 3, 4, and 8. Each group will share their guavas equally amongst themselves. In which group will each member get a bigger share of guavas?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.345,
+            0.847,
+            0.402
+          ],
+          "content": "To find this out, we first find out how many guavas each group has collected. Then we divide this total by the number of people in the group to get each member’s share."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.402,
+            0.845,
+            0.441
+          ],
+          "content": "Shreyas’s group has collected $3+8+10+5+4=30$ guavas. Each member of Shreyas’s group gets $30 \\div 5 \\equiv 6$ guavas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.441,
+            0.846,
+            0.479
+          ],
+          "content": "Parag’s group has collected $5+4+6+3+4+8=30$ guavas. Each member of Parag’s group gets $30 \\div 6 = 5$ guavas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.479,
+            0.846,
+            0.518
+          ],
+          "content": "So, the members of Shreyas’s group get 1 more guava each than the members of Parag’s group."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.105,
+            0.525,
+            0.916,
+            0.725
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.747,
+            0.71,
+            0.82
+          ],
+          "content": "Vaishnavi tracks the number of Hibiscus flowers blooming each day. The data for the last few days’ is 2, 7, 9, 4, 3. What is the average number of Hibiscus flowers blooming per day in Vaishnavi’s garden?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.824,
+            0.714,
+            0.9
+          ],
+          "content": "The average = (the total number of $\\mathit { H i b i s c u s }$ follows $\\begin{array} { r } { \\mathrm { ~  ~ \\dot { ~ } ~ } } \\end{array}$ ) \\mathrm { ~  ~ \\dot { ~ } ~ } \\mathrm { ~  ~ \\dot { ~ } ~ }$ (number of days) $\\begin{array} { r } { = ( 2 + 7 + 9 + 4 + 3 ) \\div 5 } \\\\ { = 5 . } \\end{array}$",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.723,
+            0.767,
+            0.906,
+            0.909
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.934,
+            0.193,
+            0.949
+          ],
+          "content": "100"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

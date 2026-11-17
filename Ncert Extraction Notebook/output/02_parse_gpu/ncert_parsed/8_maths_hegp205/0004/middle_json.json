@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.087,
+            0.846,
+            0.127
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Explore if it is possible to include or remove 2 values such that the mean is unchanged."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.13,
+            0.657,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You may use the following data to experiment with."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 3,
+          "bbox": [
+            0.237,
+            0.158,
+            0.775,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 3,
+              "bbox": [
+                0.237,
+                0.158,
+                0.775,
+                0.249
+              ],
+              "image_path": "images/page_3_chart_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.259,
+            0.846,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ How about including or removing 3 values without changing the mean? Is it possible?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11,
+            0.305,
+            0.848,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can we include 2 values less than the mean and 1 value greater than the mean, so that the mean remains the same? One of the possibilities is shown here."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 6,
+          "bbox": [
+            0.239,
+            0.372,
+            0.773,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 6,
+              "bbox": [
+                0.239,
+                0.372,
+                0.773,
+                0.508
+              ],
+              "image_path": "images/page_3_chart_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11,
+            0.515,
+            0.845,
+            0.557
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Try to include 2 values greater than the mean and 1 value less than the mean, so that the mean stays the same."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.576,
+            0.428,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Relatively Unchanged!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.606,
+            0.847,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ We saw what happens to the mean when values are included or removed from the collection. What happens to the mean if every value in the collection increases by some fixed number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11,
+            0.671,
+            0.78,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the data: 8, 3, 10, 13, 4, 6, 7, 7, 8, 8, 5. Calculate its mean."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.699,
+            0.847,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Now, consider this data with every value increased by 10: 18, 13, 20, 23, 14, 16, 17, 17, 18, 18, 15. What is its mean? Is there a quicker way to find out? ["
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Observe the following dot plots corresponding to the two data collections.]"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 12,
+          "bbox": [
+            0.224,
+            0.783,
+            0.785,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 12,
+              "bbox": [
+                0.224,
+                0.783,
+                0.785,
+                0.861
+              ],
+              "image_path": "images/page_3_chart_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.079,
+            0.912,
+            0.131,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "106"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 14,
+          "bbox": [
+            0.222,
+            0.872,
+            0.681,
+            0.943
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 14,
+              "bbox": [
+                0.222,
+                0.872,
+                0.681,
+                0.943
+              ],
+              "image_path": "images/page_3_chart_14.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

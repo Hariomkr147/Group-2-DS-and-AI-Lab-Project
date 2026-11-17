@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.597,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": "Two Variables, One Line"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.841,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "113"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.11,
+            0.852,
+            0.13
+          ],
+          "content": "Consider the following pairs of linear equations in two variables."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.134,
+            0.471,
+            0.153
+          ],
+          "content": "Pair 1: 2x + y = 6 and x – y = 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.157,
+            0.485,
+            0.176
+          ],
+          "content": "Pair 2: x + y = 4 and 2x + 2y = 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.18,
+            0.519,
+            0.2
+          ],
+          "content": "Pair 3: 3x – 2y = 6 and 6x – 4y = 12"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.204,
+            0.495,
+            0.224
+          ],
+          "content": "Pair 4: x – 2y = 4 and 2x – 4y = 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.229,
+            0.881,
+            0.27
+          ],
+          "content": "For each pair, prepare a table of values (with at least two ordered pairs). Plot the points on the Cartesian plane. Draw the straight lines."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.136,
+            0.283,
+            0.4,
+            0.307
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.32,
+            0.854,
+            0.379
+          ],
+          "content": "How do we find solutions from the graph? What can we say about the number of solutions when the two lines (i) intersect at a point, (ii) are parallel, (iii) are coincident?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.392,
+            0.879,
+            0.43
+          ],
+          "content": "Solutions to the pair of equations are points that lie on both lines. Thus"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.195,
+            0.43,
+            0.881,
+            0.468
+          ],
+          "content": "(i) when the lines intersect in a single point, there is a unique solution;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.469,
+            0.83,
+            0.488
+          ],
+          "content": "(ii) when the lines are parallel, there are no solutions; and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.489,
+            0.881,
+            0.526
+          ],
+          "content": "(iii) when the lines are coincident, there are infinitely many solutions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.532,
+            0.881,
+            0.572
+          ],
+          "content": "**Example 11:** Solve the pair of linear equations $x + 3y = 6$ and 2x – 3y = 12 graphically. Comment on the nature of the solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.576,
+            0.881,
+            0.631
+          ],
+          "content": "Consider the equation x + 3y = 6. Expressing y in terms of x, we get $y = { \\frac { 6 - x } { 3 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.63,
+            0.882,
+            0.689
+          ],
+          "content": "Considering x to be first 0 and then 6 we obtain the corresponding values of y as 2 and 0 respectively. Hence (0, 2) and (6, 0) are points on the line."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.367,
+            0.689,
+            0.631,
+            0.754
+          ],
+          "content": "| x | 0 | 6 |\n| --- | --- | --- |\n| y | 2 | 0 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_table_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.761,
+            0.883,
+            0.841
+          ],
+          "content": "Now consider the equation 2x – 3y = 12. Expressing y in terms of $X ,$ we $\\mathrm{get}y = \\frac{2x - 12}{3}$ . Considering x to be 0 and then 3, we obtain the values of y as –4, and –2 respectively. Hence (0, –4) and (3, –2) are points on the line."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.369,
+            0.846,
+            0.631,
+            0.911
+          ],
+          "content": "| x | 0 | 3 |\n| --- | --- | --- |\n| y | - 4 | - 2 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_table_19.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

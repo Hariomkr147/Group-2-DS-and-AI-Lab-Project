@@ -1,0 +1,329 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": "Describing Motion Around Us"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.856,
+            0.018,
+            0.952,
+            0.089
+          ],
+          "content": "N 63"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.08,
+            0.775,
+            0.132
+          ],
+          "content": "This is the displacement of the car from the origin in 6 seconds. You have found that the area enclosed by the velocity-time graph and the time axis for a desired time interval is equal to the displacement in that time interval."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.132,
+            0.775,
+            0.15
+          ],
+          "content": "How can you determine the displacement from the graph given in"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.15,
+            0.675,
+            0.233
+          ],
+          "content": "Fig. 4.18b? Suppose you want to find the displacement between 10 s to 20 s, corresponding to which the graph points are A and B. We calculate the area between AB and the time axis to obtain the displacement of the object which is moving with a constant acceleration. Thus,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.234,
+            0.584,
+            0.252
+          ],
+          "content": "displacement between 10 s to 20 s = area of ABDE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.169,
+            0.252,
+            0.661,
+            0.27
+          ],
+          "content": "= area of the rectangle ACDE + area of the triangle ABC"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.173,
+            0.273,
+            0.416,
+            0.31
+          ],
+          "content": "\\left( \\mathrm{CD} \\times \\mathrm{DE} \\right) + \\left( \\frac{1}{2} \\times \\mathrm{CA} \\times \\mathrm{BC} \\right)",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.571,
+            0.274,
+            0.668,
+            0.32
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.315,
+            0.416,
+            0.333
+          ],
+          "content": "Substituting the values, we obtain"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.684,
+            0.152,
+            0.953,
+            0.344
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_chart_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.141,
+            0.333,
+            0.601,
+            0.39
+          ],
+          "content": "\\mathrm{displacement}=(5\\mathrm{~m}\\mathrm{~s}^{-1}\\times10\\mathrm{~s})+\\left(\\frac{1}{2}\\times10\\mathrm{~s}\\times5\\mathrm{~m}\\mathrm{~s}^{-1}\\right)",
+          "image_source": "images/page_15_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.7,
+            0.346,
+            0.953,
+            0.389
+          ],
+          "content": "Fig. 4.18(b): Velocity-time graph of an object moving with changing velocity with constant acceleration"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.394,
+            0.619,
+            0.412
+          ],
+          "content": "This is the displacement of the car between 10 s and 20 s."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.411,
+            0.775,
+            0.463
+          ],
+          "content": "We learnt that by finding the slope and area from velocity-time graph for motion with constant acceleration, we can determine acceleration and displacement, respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.463,
+            0.775,
+            0.499
+          ],
+          "content": "You learnt how to represent motion by graphs. Let us now learn about the equations which describe the motion of an object."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.108,
+            0.507,
+            0.774,
+            0.552
+          ],
+          "level": 2,
+          "content": "4.3 Kinematic Equations for Motion in a Straight Line with Constant Acceleration"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.555,
+            0.775,
+            0.623
+          ],
+          "content": "Let us consider the special case of motion with constant acceleration and try to derive some equations for analysing such motions. Since the acceleration is constant, acceleration at each instant will be equal to the average acceleration over any time interval."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.624,
+            0.699,
+            0.642
+          ],
+          "content": "Using the definition of average acceleration given by Eq. (4.3c),"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.643,
+            0.442,
+            0.675
+          ],
+          "content": "a = \\frac{v - u}{t}",
+          "image_source": "images/page_15_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.677,
+            0.695,
+            0.729
+          ],
+          "content": "where u is initial velocity at $t = 0    s ,$ v is final velocity at time t, time interval is $t - 0 = t ,$ over which the change in velocity occurs and a is the acceleration, we can write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.734,
+            0.439,
+            0.75
+          ],
+          "content": "a t = \\nu - u",
+          "image_source": "images/page_15_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.753,
+            0.692,
+            0.769
+          ],
+          "content": "\\nu = u + a t\\tag{4.4a}",
+          "image_source": "images/page_15_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.773,
+            0.696,
+            0.808
+          ],
+          "content": "This equation allows us to calculate velocity (v) at all times if initial velocity (u) and acceleration (a) are known."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.808,
+            0.696,
+            0.927
+          ],
+          "content": "The velocity-time graph of Eq. (4.4a) is as shown in Fig. 4.19. This is similar to the graph shown in Fig. 4.18 but now the initial velocity of the object is not zero. The initial velocity (represented by AO) is u and the final velocity at time t (represented by EO) is v. The graph is a straight line indicating that the velocity changes with constant acceleration. The slope of the graph gives the acceleration."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.705,
+            0.673,
+            0.952,
+            0.851
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.71,
+                0.854,
+                0.953,
+                0.896
+              ],
+              "content": "Fig. 4.19: Velocity-time graph where the initial velocity of object is not zero"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_chart_25.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

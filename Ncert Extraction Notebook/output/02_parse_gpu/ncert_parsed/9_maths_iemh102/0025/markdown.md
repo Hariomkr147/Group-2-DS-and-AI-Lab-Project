@@ -1,0 +1,7 @@
+z A **linear pattern** is a sequence of numbers where the difference between consecutive terms is constant.
+
+z A **linear relationship** between two variables x and y is represented by a straight line $y = a x + b$ . The slope of this line is a. The constant b is called the y-intercept which is the distance from the origin where the line cuts the y-axis. When b = 0, the equation of the line becomes y = ax and the line passes through the origin.
+
+z **Linear growth** is represented by a straight line with positive slope and **linear decay** is represented by a straight line with negative slope.
+
+z Parallel lines are of the form y = ax + b, where the slope a is fixed while b, the y-intercept, varies.

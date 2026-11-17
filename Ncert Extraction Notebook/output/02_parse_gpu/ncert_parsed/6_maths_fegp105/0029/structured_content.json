@@ -1,0 +1,222 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.085,
+            0.219,
+            0.103
+          ],
+          "level": 2,
+          "content": "Section 5.4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.113,
+            0.234,
+            0.131
+          ],
+          "content": "**Page no. 120**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.119,
+            0.139,
+            0.147,
+            0.159
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.142,
+            0.264,
+            0.161
+          ],
+          "content": "**Figure it out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.17,
+            0.882,
+            0.205
+          ],
+          "content": "**Q.1. Find the prime factorisations of the following numbers: 64, 104, 105, 243, 320, 141, 1728, 729, 1024, 1331, 1000.**"
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.114,
+            0.213,
+            0.539,
+            0.506
+          ],
+          "sub_type": "code",
+          "content": "```txt\nAns. 64 = 2 × 2 × 2 × 2 × 2 × 2\n104 = 2 × 2 × 2 × 13\n105 = 3 × 5 × 7\n243 = 3 ×3 ×3 ×3 ×3\n320 = 2 × 2 × 2 × 2 × 2 × 2 × 5\n141 = 3 × 47\n1728 = 2 × 2 × 2 × 2 × 2 × 2 × 3 × 3 × 3\n729 = 3 ×3 ×3 × 3 ×3 ×3\n1024 = 2 × 2 × 2 × 2 × 2 ×2 × 2 × 2 × 2 × 2\n1331 = 11 × 11 × 11\n1000 = 2 × 2 × 2 × 5 × 5 × 5\n```",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.514,
+            0.881,
+            0.549
+          ],
+          "content": "**Q.2. The prime factorisation of a number has one 2, two 3s, and one 11. What is the number?**"
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.116,
+            0.559,
+            0.334,
+            0.576
+          ],
+          "sub_type": "code",
+          "content": "```txt\nAns. 198 = 2 × 3 × 3 × 11\n```",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.586,
+            0.734,
+            0.604
+          ],
+          "content": "**Q.3. Find three prime numbers, all less than 30, whose product is 1955.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.614,
+            0.323,
+            0.63
+          ],
+          "content": "**Ans.** 1955 = 5 × 17 × 23"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.64,
+            0.776,
+            0.658
+          ],
+          "content": "**Q.4. Find the prime factorisation of these numbers without multiplying first**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.167,
+            0.667,
+            0.533,
+            0.685
+          ],
+          "content": "\\mathrm{a}.56 \\times 25 \\quad \\mathrm{b}.108 \\times 75 \\quad \\mathrm{c}.1000 \\times 81",
+          "image_source": "images/page_28_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.696,
+            0.163,
+            0.711
+          ],
+          "content": "**Ans.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.831,
+            0.68,
+            0.849
+          ],
+          "content": "**Q.5. What is the smallest number whose prime factorisation has:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.858,
+            0.466,
+            0.876
+          ],
+          "content": "**a. three different prime numbers?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.885,
+            0.458,
+            0.903
+          ],
+          "content": "**b. four different prime numbers?**"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.493,
+            0.928,
+            0.506,
+            0.94
+          ],
+          "content": "7"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

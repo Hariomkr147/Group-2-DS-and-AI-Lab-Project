@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.606,
+            0.087,
+            0.841,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.606,
+                0.087,
+                0.841,
+                0.181
+              ],
+              "image_path": "images/page_1_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.639,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Constructions and Tilings"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.087,
+            0.453,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we find such A and B?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.113,
+            0.583,
+            0.151
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From X and Y, draw arcs above and below XY, with the same radii."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.152,
+            0.584,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The two points at which the arcs meet, above and below XY, give us A and B, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.22,
+            0.426,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use this to construct an eye."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.685,
+            0.207,
+            0.746,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.685,
+                0.207,
+                0.746,
+                0.248
+              ],
+              "image_path": "images/page_1_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.253,
+            0.584,
+            0.313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Fig. 6.1, join A and B with a line. Where does AB intersect XY, and what is the angle formed between them?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.318,
+            0.591,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe that AB passes through the midpoint of XY, and is also perpendicular to it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.357,
+            0.592,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A division of a line, or any geometrical object, into two identical parts is called "
+            },
+            {
+              "type": "text",
+              "content": "bisection",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". A line that bisects a given line and is perpendicular to it, is called the perpendicular bisector."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.686,
+            0.255,
+            0.748,
+            0.272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 6.1",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.606,
+            0.282,
+            0.851,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.606,
+                0.282,
+                0.851,
+                0.452
+              ],
+              "image_path": "images/page_1_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.462,
+            0.592,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Will the line joining the two points at which"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.137,
+            0.481,
+            0.847,
+            0.541
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the arcs meet, above and below XY, always be the perpendicular bisector of XY, i.e., when XY is of any length, and the arcs are drawn using a radius of any length?"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.545,
+            0.847,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can be answered through congruence. Let us consider a line segment XY. Find points A and B such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AX = AX = BX = BX."
+            },
+            {
+              "type": "text",
+              "content": " Draw the lines AB, AX, AY, BX and BY. Let O be the point of intersection between AB and XY."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.63,
+            0.847,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Which two triangles should be congruent for AB to be the perpendicular bisector of XY (that is, O is the midpoint of XY and AB is perpendicular to XY)?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.695,
+            0.6,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A O X } ~ \\cong ~ \\Delta \\mathrm { A O Y } ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { \\mathrm { O X } = \\mathrm { O Y } , } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AOX = \\angle AOY"
+            },
+            {
+              "type": "text",
+              "content": " because they are corresponding parts of congruent triangles. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  AOX"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  A O Y"
+            },
+            {
+              "type": "text",
+              "content": " together form a straight angle, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AOX + \\angle AOY = 180^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AOX = \\angle AOY = 90^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " . This establishes that O is the midpoint of XY and AB is perpendicular to XY."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.628,
+            0.687,
+            0.919,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.628,
+                0.687,
+                0.919,
+                0.863
+              ],
+              "image_path": "images/page_1_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.807,
+            0.933,
+            0.844,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "137"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

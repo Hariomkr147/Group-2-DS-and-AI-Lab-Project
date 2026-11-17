@@ -1,0 +1,257 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.732,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "Prime Time"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.121,
+            0.833,
+            0.164
+          ],
+          "content": "Therefore, we can say that if there are no common prime factors, then the two numbers are co-prime."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.167,
+            0.427,
+            0.188
+          ],
+          "content": "Let us see some examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.196,
+            0.833,
+            0.238
+          ],
+          "content": "**Example:** Consider 40 and 231. Their prime factorisations are as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.279,
+            0.239,
+            0.667,
+            0.259
+          ],
+          "content": "40=2\\times2\\times2\\times5\\  and \\ 231=3\\times7\\times11",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.265,
+            0.834,
+            0.333
+          ],
+          "content": "We see that there are no common primes that divide both 40 and 231. Indeed, the prime factors of 40 are 2 and 5 while, the prime factors of 231 are 3, 7, and 11. Therefore, 40 and 231 are co-prime!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.34,
+            0.834,
+            0.384
+          ],
+          "content": "**Example:** Consider 242 and 195. Their prime factorisations are as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.278,
+            0.39,
+            0.669,
+            0.411
+          ],
+          "content": "242=2\\times11\\times11\\  and \\ 195=3\\times5\\times13",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.416,
+            0.834,
+            0.484
+          ],
+          "content": "The prime factors of 242 are 2 and 11. The prime factors of 195 are 3, 5, and 13. There are no common prime factors. Therefore, 242 and 195 are co-prime."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.497,
+            0.833,
+            0.541
+          ],
+          "level": 2,
+          "content": "Using prime factorisation to check if one number is divisible by another"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.543,
+            0.834,
+            0.609
+          ],
+          "content": "We can say that if one number is divisible by another, the prime factorisation of the second number is included in the prime factorisation of the first number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.611,
+            0.834,
+            0.68
+          ],
+          "content": "We say that 48 is divisible by 12 because when we divide 48 by 12, the remainder is zero. How can we check if one number is divisible by another without carrying out long division?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.686,
+            0.821,
+            0.709
+          ],
+          "content": "**Example:** Is 168 divisible by 12? Find the prime factorisations of both:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.267,
+            0.713,
+            0.681,
+            0.734
+          ],
+          "content": "168 = 2 \\times 2 \\times 2 \\times 3 \\times 7 \\mathrm{~and~} 12 = 2 \\times 2 \\times 3",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.74,
+            0.732,
+            0.761
+          ],
+          "content": "Since we can multiply in any order, now it is clear that,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.316,
+            0.767,
+            0.64,
+            0.787
+          ],
+          "content": "1 6 8 = 2 \\times 2 \\times 3 \\times 2 \\times 7 = 1 2 \\times 1 4",
+          "image_source": "images/page_14_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.793,
+            0.491,
+            0.815
+          ],
+          "content": "Therefore, 168 is divisible by 12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.823,
+            0.833,
+            0.845
+          ],
+          "content": "**Example:** Is 75 divisible by 21? Find the prime factorisations of both:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.849,
+            0.62,
+            0.871
+          ],
+          "content": "75 = 3 \\times 5 \\times 5 \\mathrm{~and~} 21 = 3 \\times 7",
+          "image_source": "images/page_14_equation_19.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.941,
+            0.916,
+            0.959
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

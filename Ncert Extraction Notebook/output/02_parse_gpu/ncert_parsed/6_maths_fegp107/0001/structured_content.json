@@ -1,0 +1,211 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.083,
+            0.154,
+            0.124,
+            0.196
+          ],
+          "content": "7"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.219,
+            0.034,
+            0.791,
+            0.129
+          ],
+          "content": "米"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.218,
+            0.189,
+            0.522,
+            0.229
+          ],
+          "level": 1,
+          "content": "Fractions"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.7,
+            0.162,
+            0.816,
+            0.249
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.737,
+                0.251,
+                0.785,
+                0.261
+              ],
+              "content": "0674CH07"
+            }
+          ],
+          "image_source": "images/page_0_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.325,
+            0.834,
+            0.393
+          ],
+          "content": "Recall that when some whole number of things are shared equally among some number of people, fractions tell us how much each share is."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.398,
+            0.798,
+            0.478
+          ],
+          "content": "Shabnam: Do you remember, if one roti is divided equally between two children, how much roti will each child get?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.482,
+            0.606,
+            0.504
+          ],
+          "content": "Mukta: Each child will get half a roti."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.509,
+            0.667,
+            0.589
+          ],
+          "content": "Shabnam: The fraction ‘one half’ is written as $\\frac { 1 } { 2 }$ . We also sometimes read this as ‘one upon two.’"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.702,
+            0.42,
+            0.809,
+            0.576
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.593,
+            0.769,
+            0.643
+          ],
+          "content": "Mukta: If one roti is equally shared among 4 children, how much roti will one child get?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.648,
+            0.575,
+            0.673
+          ],
+          "content": "Shabnam: Each child’s share is $\\frac { 1 } { 4 }$ roti."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.675,
+            0.666,
+            0.703
+          ],
+          "content": "Mukta: And which is more $\\frac { 1 } { 2 }$ roti or $\\frac { 1 } { 4 }$ roti?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.704,
+            0.668,
+            0.839
+          ],
+          "content": "Shabnam: When 2 children share 1 roti equally, each child gets $\\frac { 1 } { 2 }$ roti. When 4 children share 1 roti equally, each child gets $\\frac { 1 } { 4 }$ roti. Since, in the second group more children share the"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.692,
+            0.655,
+            0.892,
+            0.826
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_14.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

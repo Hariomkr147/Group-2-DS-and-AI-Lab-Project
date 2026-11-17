@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.408,
+            0.102,
+            0.59,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SUMMARY"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.176,
+            0.143,
+            0.821,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A division of a line segment, or any geometrical quantity, into two identical parts is called "
+            },
+            {
+              "type": "text",
+              "content": "bisection",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.176,
+            0.181,
+            0.822,
+            0.238
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Any point that is of equal distance from the two endpoints of a given line segment lies on its "
+            },
+            {
+              "type": "text",
+              "content": "perpendicular bisector.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " This property can be used to construct the perpendicular bisector using a ruler and compass."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.176,
+            0.238,
+            0.823,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The method of constructing the perpendicular bisector can be modified to draw a 90° angle at any point on a line using only a ruler and compass."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.177,
+            0.296,
+            0.822,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An angle can be bisected and copied using the congruence properties of triangles."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.177,
+            0.334,
+            0.823,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A 60° angle can be constructed using a ruler and compass by constructing an equilateral triangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.177,
+            0.372,
+            0.822,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Covering a region using a set of shapes, without gaps or overlaps, is called "
+            },
+            {
+              "type": "text",
+              "content": "tiling",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

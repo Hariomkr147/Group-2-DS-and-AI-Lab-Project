@@ -1,0 +1,33 @@
+# 2.1 Nature — Our Science Laboratory
+
+## 2.1.1 Litmus as an indicator
+
+## Activity 2.1: Let us explore
+
+Collect samples of lemon juice, soap solution, amla juice, tamarind water, vinegar, baking soda solution, lime water, tap water, washing powder solution, sugar solution, and salt solution.
+
+![](images/page_1_image_5.jpg)
+
+Fig. 2.2(a): Colour change in blue litmus paper
+
+Take a strip of blue litmus paper and cut it into small pieces.
+
+Spread these pieces on a clean and dry white tile.
+
+Using a dropper, put one drop of each of the samples, one-by-one, on these litmus paper pieces, as shown in Fig. 2.2a.
+
+Do you **observe** any change in the colour of the blue litmus pieces?
+
+**Record** your observations in Table 2.1.
+
+Repeat the same activity with pieces of red litmus paper as shown in Fig.  2.2b and record your observations in Table 2.1.
+
+![](images/page_1_image_13.jpg)
+
+Fig. 2.2(b): Colour change in red litmus paper
+
+## How to prepare lime water?
+
+Do not confuse lime water with the word lime, which is a fruit similar to lemon.
+
+Lime water (solution of calcium hydroxide in water) can be easily prepared by mixing lime (chuna, i.e. calcium oxide) in water and leaving it undisturbed for some time, say an hour. Filter the liquid into another container and use it as lime water.

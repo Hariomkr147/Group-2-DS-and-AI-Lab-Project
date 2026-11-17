@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-12 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-12 (14th Nov.)",
+      "description": "Chap-12 (14th Nov.)",
+      "created_at": "2022-08-17T11:59:52+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.426,
+            0.115,
+            0.575,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "口"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.475,
+            0.219,
+            0.53,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH13"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.292,
+            0.249,
+            0.892,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12SURFACE AREAS ANDVOLUMES"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.376,
+            0.293,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.406,
+            0.899,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Class IX, you are familiar with some of the solids like cuboid, cone, cylinder, and sphere (see Fig. 12.1). You have also learnt how to find their surface areas and volumes.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.112,
+            0.468,
+            0.282,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.112,
+                0.468,
+                0.282,
+                0.575
+              ],
+              "image_path": "images/page_0_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 6,
+              "bbox": [
+                0.179,
+                0.594,
+                0.205,
+                0.612
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(i)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.332,
+            0.476,
+            0.468,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.332,
+                0.476,
+                0.468,
+                0.572
+              ],
+              "image_path": "images/page_0_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 8,
+              "bbox": [
+                0.382,
+                0.597,
+                0.412,
+                0.616
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(ii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.518,
+            0.456,
+            0.677,
+            0.592
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.518,
+                0.456,
+                0.677,
+                0.592
+              ],
+              "image_path": "images/page_0_image_9.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 10,
+              "bbox": [
+                0.578,
+                0.597,
+                0.616,
+                0.616
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.733,
+            0.478,
+            0.885,
+            0.584
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.733,
+                0.478,
+                0.885,
+                0.584
+              ],
+              "image_path": "images/page_0_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 12,
+              "bbox": [
+                0.795,
+                0.598,
+                0.831,
+                0.616
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iv)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.45,
+            0.645,
+            0.547,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 12.1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.097,
+            0.676,
+            0.9,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In our day-to-day life, we come across a number of solids made up of combinations of two or more of the basic solids as shown above.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.096,
+            0.721,
+            0.518,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You must have seen a truck with a container fitted on its back (see Fig. 12.2), carrying oil or water from one place to another. Is it in the shape of any of the four basic solids mentioned above? You may guess that it is made of a cylinder with two hemispheres as its ends.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.528,
+            0.717,
+            0.896,
+            0.858
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.528,
+                0.717,
+                0.896,
+                0.858
+              ],
+              "image_path": "images/page_0_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 17,
+              "bbox": [
+                0.656,
+                0.868,
+                0.755,
+                0.888
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

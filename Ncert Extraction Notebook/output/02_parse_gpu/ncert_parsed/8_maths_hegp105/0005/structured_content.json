@@ -1,0 +1,249 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.848,
+            0.127
+          ],
+          "content": "The expression 4m + 2q will always evaluate to an even number for any integer values of m and q. We can justify this in two different ways —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.131,
+            0.846,
+            0.169
+          ],
+          "content": "We know 4m is even and 2q is even for any integers m and q. Therefore, their sum will also be even."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.173,
+            0.848,
+            0.249
+          ],
+          "content": "The expression $4 m \\pm 2 q$ is equal to the expression $2 ( 2 m + q )$ . Here, the expression $2 ( 2 m + q )$ means 2 times $2 m + q .$ In other words, 2 is a factor of this expression. Therefore, this expression will always give an even number for any integers m and q."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.253,
+            0.847,
+            0.29
+          ],
+          "content": "For example, if m = 4 and $q = - 9 ,$ , the expression 4m + 2q becomes $4 \\times 4 + 2 \\times ( - 9) = - 2$ , which is an even number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.289,
+            0.848,
+            0.364
+          ],
+          "content": "In the expression x<sup>2</sup> + 2, x<sup>2</sup> is even if x is even, and $x ^ { 2 }$ is odd if x is odd. Therefore, the expression $x ^ { 2 }   +   2$ will **not** always give an even number. An example and a non-example for when the expression evaluates to an even number — (i) if x = 6, then $x ^ { 2 } + 2 = 3 8$ , and (ii) if x = 3, then $x^{2} + 2 = 11.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.371,
+            0.848,
+            0.431
+          ],
+          "content": "？ Similarly, determine and explain which of the other expressions always give even numbers. Write a couple of examples and non-examples, as appropriate, for each expression."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.444,
+            0.836,
+            0.467
+          ],
+          "content": "？ Write a few algebraic expressions which always give an even number."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.486,
+            0.395,
+            0.507
+          ],
+          "level": 2,
+          "content": "Pairs to Make Fours"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.523,
+            0.791,
+            0.545
+          ],
+          "level": 2,
+          "content": "？ Take a pair of even numbers. Add them. Is the sum divisible by 4?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.547,
+            0.606,
+            0.566
+          ],
+          "content": "Try this with different pairs of even numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.566,
+            0.658,
+            0.585
+          ],
+          "content": "When is the sum a multiple of 4, and when is it not?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.585,
+            0.503,
+            0.603
+          ],
+          "content": "Is there a general rule or a pattern?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.602,
+            0.847,
+            0.641
+          ],
+          "content": "Even numbers can be of two types based on the remainders they leave when divided by 4."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.228,
+            0.674,
+            0.393,
+            0.798
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.185,
+                0.808,
+                0.441,
+                0.851
+              ],
+              "content": "Even numbers that are multiples of 4 leave a remainder of 0 when divided by 4."
+            }
+          ],
+          "image_source": "images/page_4_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.597,
+            0.681,
+            0.755,
+            0.797
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.548,
+                0.808,
+                0.803,
+                0.85
+              ],
+              "content": "Even numbers that are not multiples of 4 leave a remainder 2 when divided by 4."
+            }
+          ],
+          "image_source": "images/page_4_image_16.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.915,
+            0.125,
+            0.937
+          ],
+          "content": "116"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

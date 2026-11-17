@@ -1,0 +1,273 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.57,
+            0.047,
+            0.848,
+            0.064
+          ],
+          "content": "A Tale of Three Intersecting Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.087,
+            0.848,
+            0.126
+          ],
+          "content": "Therefore, $\\angle \\mathrm{XAB} = 50^{\\circ}$ , and $\\angle \\mathrm{MAC} = 70^{\\circ}$ . Can we find $\\angle  BAC$ from this? We know that ∠XAB, ∠YAC and $\\angle  BAC$ together form $1 8 0 ^ { \\circ }$ . So"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.136,
+            0.643,
+            0.155
+          ],
+          "content": "\\angle XAB + \\angle YAC + \\angle BAC = 180^{\\circ}",
+          "image_source": "images/page_19_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.379,
+            0.171,
+            0.619,
+            0.192
+          ],
+          "content": "50^{\\circ}+\\angle BAC+70^{\\circ}=180^{\\circ}",
+          "image_source": "images/page_19_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.207,
+            0.598,
+            0.226
+          ],
+          "content": "120^{\\circ}+\\angle BAC=180^{\\circ}",
+          "image_source": "images/page_19_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.409,
+            0.243,
+            0.589,
+            0.262
+          ],
+          "content": "\\mathrm{Thus}, \\angle \\mathrm{BAC} = 60^{\\circ}",
+          "image_source": "images/page_19_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.267,
+            0.848,
+            0.305
+          ],
+          "content": "Now construct a triangle (taking BC to be of any suitable length) and verify if this is indeed the case."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.312,
+            0.293,
+            0.337
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.345,
+            0.85,
+            0.384
+          ],
+          "content": "1. Find the third angle of a triangle (using a parallel line) when two of the angles are:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.399,
+            0.336,
+            0.419
+          ],
+          "content": "(a) $3 6 ^ { \\circ } , 7 2 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.423,
+            0.345,
+            0.443
+          ],
+          "content": "(b) $1 5 0 ^ { \\circ } , 1 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.446,
+            0.335,
+            0.467
+          ],
+          "content": "$9 0 ^ { \\circ } ,   3 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.47,
+            0.334,
+            0.491
+          ],
+          "content": "(d) $7 5 ^ { \\circ } , 4 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.501,
+            0.849,
+            0.576
+          ],
+          "content": "2. Can you construct a triangle all of whose angles are equal to $7 0 ^ { \\circ } ?$ If two of the angles are $7 0 ^ { \\circ }$ what would the third angle be? If all the angles in a triangle have to be equal, then what must its measure be? Explore and find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.581,
+            0.63,
+            0.619
+          ],
+          "content": "3. Here is a triangle in which we know $\\angle \\mathbf{B} = \\angle \\mathbf{C}$ and $\\angle A = 50^{\\circ}.$ Can you find ∠B and $\\angle C ?$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.827,
+            0.575,
+            0.93,
+            0.636
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.386,
+            0.626,
+            0.578,
+            0.78
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_17.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.801,
+            0.404,
+            0.824
+          ],
+          "level": 2,
+          "content": "Angle Sum Property"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.836,
+            0.761,
+            0.859
+          ],
+          "content": "？ What can we say about the sum of the angles of any triangle?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.863,
+            0.849,
+            0.92
+          ],
+          "content": "Consider a triangle ABC. To find the sum of its angles, we can use the same method of drawing a line parallel to the base: construct a line through A that is parallel to BC."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": "165"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

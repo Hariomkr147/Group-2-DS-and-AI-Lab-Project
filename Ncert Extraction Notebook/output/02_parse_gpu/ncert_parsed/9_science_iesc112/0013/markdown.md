@@ -1,0 +1,17 @@
+| Gymnosperm y <sup>They</sup> <sup>live</sup> <sup>on</sup> <sup>land</sup>. y <sup>They</sup> <sup>have</sup> <sup>needle</sup>-like leaves which reduce water loss. y <sup>Water</sup> <sup>is</sup> <sup>not</sup> <sup>essential</sup> <sup>for</sup> <sup>fertilisation</sup>. y <sup>Their</sup> <sup>seeds</sup> <sup>are</sup> <sup>not</sup> <sup>enclosed</sup> <sup>in</sup> <sup>fruits</sup> <sup>and</sup> <sup>are</sup> exposed on cones. | y <sup>Leaves</sup> <sup>are</sup> <sup>adapted</sup> for dry conditions. y <sup>They</sup> <sup>do</sup> <sup>not</sup> require water for reproduction. y <sup>They</sup> <sup>form</sup> <sup>seeds</sup> <sup>for</sup> continuity of life.________________________________________ | y <sup>Seeds</sup> <sup>are</sup> <sup>not</sup> covered in the form of fruits.____________________________________ |
+| --- | --- | --- |
+| Angiosperm y <sup>They</sup> <sup>possess</sup> <sup>well</sup>-developed roots, stems and leaves. y <sup>They</sup> <sup>undergo</sup> <sup>sexual</sup> <sup>reproduction</sup> <sup>through</sup> flowers. y <sup>Their</sup> <sup>seeds</sup> <sup>are</sup> <sup>enclosed</sup> <sup>within</sup> <sup>fruits</sup>. y <sup>Their</sup> <sup>seeds</sup> <sup>disperse</sup> <sup>through</sup> <sup>insects</sup> <sup>or</sup> <sup>birds</sup>, animals, wind, or water. | y <sup>They</sup> <sup>produce</sup> <sup>flowers</sup>, fruits and seeds. y <sup>They</sup> <sup>have</sup> <sup>a</sup> well-developed system for reproduction. y <sup>They</sup> <sup>produce</sup> <sup>seeds</sup> for continuity of life. y <sup>Their</sup> <sup>seeds</sup> <sup>are</sup> covered.______________________________________________ | y <sup>Reproduction</sup> <sup>is</sup> dependent on pollination by different agents. y <sup>They</sup> <sup>have</sup> complex processes through a well-developed tissue system.____________________________________ |
+
+From algae to angiosperms, plant groups show a sequence of structural changes that help plants meet the challenges of life on land. Early plants relied on water for support and reproduction. Gradually, plant groups evolved transport tissues, seeds and flowers.
+
+Overall, the diversity of plant forms reflects multiple ways of balancing growth, transport, reproduction and survival in different environments.
+
+## 12.6.5 Kingdom Animalia — Multicellular, heterotrophic eukaryotes
+
+Animals are multicellular and heterotrophic organisms. They depend on other organisms for their food. Most animals exhibit the characteristics of locomotion, rapid response to stimuli and coordinated behaviour. These abilities allow animals to actively search for food, avoid predators and interact dynamically with their surroundings.
+
+One of the major criteria for classifying animals is the presence or absence of a notochord, which is a flexible rod-shaped structure. Based on the absence or presence of the notochord, animals are classified into two groups — non-chordata (invertebrata) and chordata. In some chordates, notochord acts as a precursor for the development of the vertebral column. The chordata is further classified as protochordata and vertebrata.
+
+## Invertebrates — Animals without a notochord
+
+Invertebrates lack a notochord, yet they show a wide range of body organisation, from a simple structure to complex organ systems. Studying invertebrates allows us to trace how the animal body gradually changed over time, leading to advancement in traits like movement, diverse

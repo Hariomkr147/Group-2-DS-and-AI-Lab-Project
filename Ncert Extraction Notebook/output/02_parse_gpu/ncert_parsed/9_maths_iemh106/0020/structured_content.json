@@ -1,0 +1,168 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.816,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.084
+          ],
+          "content": "137"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.887,
+            0.149
+          ],
+          "content": "Both formulas have a beautiful symmetry about them! The proof of the second formula requires a result that you will study in Grade 10."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.171,
+            0.797,
+            0.194
+          ],
+          "level": 2,
+          "content": "Brahmagupta’s Formula for the Area of a Cyclic 4-gon"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.201,
+            0.885,
+            0.263
+          ],
+          "content": "We have seen how to find the area of a triangle given the lengths of its three sides. The natural question then is: how can we find the area of a 4-gon given the lengths of its four sides?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.263,
+            0.886,
+            0.345
+          ],
+          "content": "Earlier we asked, can we find the area of a parallelogram if we know only the lengths of its sides? The answer is: No. In the same way we ask: can we find the area of a 4-gon if we only know the lengths of its sides? The figures below reveal the answer to this question."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.345,
+            0.886,
+            0.448
+          ],
+          "content": "The problem (Fig. 6.27) is about a 4-gon whose sides are known to be 3, 3, 3, 3 (it is a ‘rhombus’). As you can see, the areas of the three figures are different. (We drew the figures using GeoGebra and found the areas using the ‘Area’ tool. Please try this exercise yourself, or by using four rods joined together at their ends.)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.125,
+            0.467,
+            0.866,
+            0.61
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.279,
+                0.619,
+                0.72,
+                0.654
+              ],
+              "content": "Fig. 6.27: The area of a 4-gon cannot be found only from the lengths of its sides"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.678,
+            0.886,
+            0.76
+          ],
+          "content": "So we cannot find the area of a 4-gon only from the lengths of its four sides; we need more information. This could be one angle of the 4-gon, or the length of one diagonal, or the angle at which the diagonals cut each other, etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.761,
+            0.723,
+            0.781
+          ],
+          "content": "Or it could be a key geometric property of the figure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.782,
+            0.886,
+            0.843
+          ],
+          "content": "One such property is that the 4-gon is a cyclic 4-gon. In 628 CE, Brahmagupta (598–668 CE) discovered a wonderful formula for the area of a **cyclic** 4-gon."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

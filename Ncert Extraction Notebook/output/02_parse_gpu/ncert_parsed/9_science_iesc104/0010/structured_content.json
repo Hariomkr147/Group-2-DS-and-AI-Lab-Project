@@ -1,0 +1,288 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": "Describing Motion Around Us"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.018,
+            0.953,
+            0.088
+          ],
+          "content": "57"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.089,
+            0.19,
+            0.105
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.11,
+            0.76,
+            0.191
+          ],
+          "content": "All the graphs that we will discuss in this chapter are for motion in a straight line in one direction only. In this special case, distance travelled and magnitude of displacement are equal, and speed and magnitude of velocity are also equal. If position is zero at time zero, then the position-time graph is same as the distance-time graph and the velocity-time graph is same as the speed-time graph."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.217,
+            0.332,
+            0.238
+          ],
+          "level": 2,
+          "content": "4.2.1 Plotting graph"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.239,
+            0.775,
+            0.275
+          ],
+          "content": "To plot a graph, let us use the data given in Table 4.3 for a vehicle moving on a straight road."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.112,
+            0.299,
+            0.772,
+            0.356
+          ],
+          "content": "| Time | 0 s | 1 s | 2 s | 3 s | 4 s | 5 s | 6 s |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Position | 0 m | 20 m | 40 m | 60 m | 80 m | 100 m | 120 m |",
+          "captions": [
+            {
+              "bbox": [
+                0.191,
+                0.279,
+                0.692,
+                0.296
+              ],
+              "content": "Table 4.3: Positions of vehicle at different instants of time"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_table_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.375,
+            0.433,
+            0.394
+          ],
+          "level": 2,
+          "content": "Activity 4.3: Let us plot a graph"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.396,
+            0.656,
+            0.448
+          ],
+          "content": "1. Take a sheet of graph paper. This paper is pre-divided into small squares (Fig. 4.11a), making it easier to plot data accurately."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.45,
+            0.658,
+            0.536
+          ],
+          "content": "2. On the graph paper, draw two lines perpendicular to each other as shown in Fig. 4.11a. Their point of intersection is known as origin O. Mark the horizontal line as OX. It is known as the X-axis. Similarly, mark the vertical line as OY. It is called the Y-axis."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.538,
+            0.656,
+            0.607
+          ],
+          "content": "3. Refer to Table 4.3. We need to decide which quantity (time or position) to be shown along each axis. For the data we have (Table 4.3), we will show time along the X-axis and position along the Y-axis."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.683,
+            0.437,
+            0.937,
+            0.617
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_chart_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.609,
+            0.657,
+            0.678
+          ],
+          "content": "4. **Determine** a suitable scale for each quantity to represent it on the graph paper. We need to choose scales that allow us to represent the data effectively and conveniently while utilising the available space. The scale can be"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.686,
+            0.622,
+            0.95,
+            0.653
+          ],
+          "content": "Fig. 4.11(a): Marking origin, X and Y axes on graph paper"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.298,
+            0.68,
+            0.512,
+            0.699
+          ],
+          "content": "\\mathrm{X-axis:5~divisions} = 1\\mathrm{s}",
+          "image_source": "images/page_9_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.299,
+            0.701,
+            0.529,
+            0.719
+          ],
+          "content": "Y-axis:  5  division  = 20  m",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.722,
+            0.655,
+            0.774
+          ],
+          "content": "5. Use the chosen scale to mark values for time (1 s, 2 s, …) along the X-axis from the origin. Similarly, mark values for position (20 m, 40 m, …) along the Y-axis (Fig. 4.11b)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.776,
+            0.655,
+            0.811
+          ],
+          "content": "6. Begin plotting points on the graph paper to represent each set of time and position values from Table 4.3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.813,
+            0.655,
+            0.865
+          ],
+          "content": "(i) Table 4.3 shows that at time 0 s, the position is also 0 m. The point corresponding to this set of values on the graph will therefore be the origin itself."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.864,
+            0.657,
+            0.916
+          ],
+          "content": "(ii) At 1 s, the position of vehicle is at 20 m. To mark these values, look for the point that represents 1 s on the X-axis. Draw a line parallel to the Y-axis at"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.66,
+            0.694,
+            0.928,
+            0.884
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.695,
+                0.886,
+                0.94,
+                0.916
+              ],
+              "content": "Fig. 4.11(b): Plotting points on the graph"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_chart_21.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

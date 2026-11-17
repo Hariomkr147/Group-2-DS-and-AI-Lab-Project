@@ -1,0 +1,23 @@
+## Figure it out
+
+**1. For each number given below, write expressions for at least two different ways to obtain the number through button clicks. Think like Chitti and be creative.**
+
+**Ans:** Some ways are given below. Try more ways.
+
+**(a) 8300 Ans:** (8 × 1000) + (3 × 100) or, (5 × 1000) + (33 × 100)
+
+**(b) 40629**
+
+**(c) 56354**
+
+**(d)66666 Ans:** (66 × 1000) + (6 × 100) + (66 × 1) or, (6 × 10000) + (6 × 1000) + (6 × 100) + (6 × 10) + (6 × 1)
+
+**(e)367813**
+
+**Ans:** (3 × 100000) + (6 × 10000) + (7 × 1000) ) + (8 × 100) + (1 × 10) + (3 × 1) or, (36 × 10000) + (78 × 1000) + (13 × 1)
+
+## Page No. 7
+
+**Creative Chitti has some questions for you —**
+
+**(a)You have to make exactly 30 button presses. What is the largest 3- digit number you can make? What is the smallest 3-digit number you can make? Ans:** 993 is the largest 3-digit number that can be made using 30 button presses. 102 is the smallest 3-digit number that can be made using 30 button presses.

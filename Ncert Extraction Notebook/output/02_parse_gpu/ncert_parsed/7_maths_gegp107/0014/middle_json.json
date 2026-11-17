@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Tale of Three Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.176,
+            0.087,
+            0.736,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "AB is composed of one radius and a part of the other. So, sum of the two radii > AB,"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.486,
+            0.156,
+            0.513,
+            0.171
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.264,
+            0.189,
+            0.735,
+            0.209
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "sum of the two smaller lengths > longest length"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.223,
+            0.847,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Can we use this analysis to tell if a triangle exists when the lengths satisfy the triangle inequality?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.273,
+            0.849,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the given lengths satisfy the triangle inequality, then the sum of the two smaller lengths is greater than the longest length. This means that this will lead to Case 3 where the circles intersect internally, and so a triangle exists."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.356,
+            0.847,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How will the two circles turn out for a set of lengths that do not satisfy the triangle inequality? Find 3 examples of sets of lengths for which the circles:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.179,
+            0.426,
+            0.477,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) touch each other at a point,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.18,
+            0.446,
+            0.376,
+            0.463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) do not intersect."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.111,
+            0.472,
+            0.848,
+            0.513
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Frame a complete procedure that can be used to check the existence of a triangle."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.534,
+            0.275,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Conclusion"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.149,
+            0.557,
+            0.847,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a given set of three lengths satisfies the triangle inequality, then a triangle exists having those as sidelengths. If the set does not satisfy the triangle inequality, then a triangle with those sidelengths does not exist."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.623,
+            0.293,
+            0.645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.648,
+            0.822,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Check if a triangle exists for each of the following set of lengths: (a) 1, 100, 100 (b) 3, 6, 9 (c) 1, 1, 5 (d) 5, 10, 12"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.721,
+            0.847,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Does there exist an equilateral triangle with sides 50, 50, 50? In general, does there exist an equilateral triangle of any sidelength? Justify your answer."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.781,
+            0.848,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. For each of the following, give at least 5 possible values for the third length so there exists a triangle having these as sidelengths (decimal values could also be chosen):"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.207,
+            0.843,
+            0.318,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) 1, 100 (b) 5, 5 (c) 3, 7"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.808,
+            0.938,
+            0.845,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "159"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

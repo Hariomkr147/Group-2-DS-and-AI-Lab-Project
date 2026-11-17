@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.148,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "48"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.114,
+            0.11,
+            0.884,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider gcd(99, 2). This will reduce successively to gcd(97, 2), gcd(95, 2), gcd(93, 2), … , gcd(5, 2), gcd(3, 2), gcd(2, 1), gcd(1, 1), and gcd(1, 0) eventually giving us the answer 1. In general, if we start with an odd number 2k + 1, gcd(2k + 1, 2) will require about k reductions before we get the answer 1. This means the number of steps is proportional to the value we start with, rather than the number of digits used to write down the value."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.116,
+            0.262,
+            0.595,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.3.4 Āryabhaṭa’s Division Algorithm"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.115,
+            0.295,
+            0.883,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Indian treatises like Āryabhaṭa’s Āryabhaṭīya (499 CE), we see the “long division” method for finding GCD using Indian place value numerals. It makes an efficient use of repeated “division by remainder” in place of repeated subtraction. For example, when one starts with 99 and subtracts 2 repeatedly, what remains, once one cannot subtract 2 anymore, is the remainder when 99 is divided by 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.411,
+            0.882,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, to improve the performance of Euclid’s algorithm, we can change the reduction step: instead of reducing gcd(m, n) to gcd(n, m – n), we reduce it to gcd(n, m mod n), where m mod n stands for the remainder when m is divided by n. For example, 17 mod 5 is 2 and 33 mod 7 is 5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.116,
+            0.487,
+            0.882,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We saw earlier that a divisor d ‘tiles’ both m and n if and only if it ‘tiles’ both n and m – n. In a similar way, we can argue that d ‘tiles’ m and n if and only if it tiles m and m mod n. This justifies reducing gcd(m, n) to gcd(n, m mod n)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.562,
+            0.881,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is the modified algorithm. Notice that the only change is in the third statement. The stopping condition is the same as before."
+            }
+          ]
+        },
+        {
+          "type": "code",
+          "index": 8,
+          "bbox": [
+            0.159,
+            0.618,
+            0.879,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 8,
+              "bbox": [
+                0.159,
+                0.618,
+                0.879,
+                0.691
+              ],
+              "content": "1. If m < n, reverse the numbers and compute gcd(n,m)\n2. If n = 0, report the answer as m\n3. Otherwise, reduce the problem to computing gcd(n, m mod n)"
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.116,
+            0.708,
+            0.882,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the earlier example gcd(99, 2) that took a long time to converge. Here is what happens when we execute the improved algorithm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.144,
+            0.771,
+            0.825,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(2, 1)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.145,
+            0.796,
+            0.824,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(1, 0)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.146,
+            0.821,
+            0.63,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since n = 0, Step 2 tells us the answer is 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.115,
+            0.847,
+            0.884,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In other words, we needed only two reduction steps to get to the final answer. Check that this would happen for any similar problem of the form gcd(2k + 1, 2)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

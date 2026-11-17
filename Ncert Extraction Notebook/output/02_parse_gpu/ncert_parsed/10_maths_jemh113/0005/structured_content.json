@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "175"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.138,
+            0.901,
+            0.179
+          ],
+          "content": "The third step is to find the product of $d _ { i }$ with the corresponding $f _ { i ^ { \\flat } }$ and take the sum of all the $f_{i}d_{i}^{\\prime} s .$ . The calculations are shown in Table 13.4."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.215,
+            0.896,
+            0.429
+          ],
+          "content": "| Class interval | Number of students (f<sub>i</sub>) | Class mark (x<sub>i</sub>) | d<sub>i</sub> = x<sub>i</sub> - 47.5 | f<sub>i</sub>d<sub>i</sub> |\n| --- | --- | --- | --- | --- |\n| 10 - 25 | 2 | 17.5 | -30 | -60 |\n| 25 - 40 | 3 | 32.5 | -15 | -45 |\n| 40 - 55 | 7 | 47.5 | 0 | 0 |\n| 55 - 70 | 6 | 62.5 | 15 | 90 |\n| 70 - 85 | 6 | 77.5 | 30 | 180 |\n| 85 - 100 | 6 | 92.5 | 45 | 270 |\n| Total | Σf<sub>i</sub> = 30 |  |  | Σf<sub>i</sub>d<sub>i</sub> = 435 |",
+          "captions": [
+            {
+              "bbox": [
+                0.441,
+                0.189,
+                0.559,
+                0.208
+              ],
+              "content": "Table 13.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.454,
+            0.723,
+            0.499
+          ],
+          "content": "So, from Table 13.4, the mean of the deviations, $\\bar{d} = \\frac{\\Sigma f_{i}d_{i}}{\\Sigma f_{i}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.512,
+            0.609,
+            0.531
+          ],
+          "content": "Now, let us find the relation between $\\overline { d }$ and $\\overline { { x } }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.532,
+            0.9,
+            0.58
+          ],
+          "content": "Since in obtaining $d _ { i ^ { * } }$ we subtracted $^ { \\circ } a ^ { \\prime }$ from each $x _ { i ^ { \\flat } }$ so, in order to get the mean x , we need to add $^ { \\circ } a ^ { \\prime }$ to $\\overline { d }$ . This can be explained mathematically as:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.605,
+            0.344,
+            0.625
+          ],
+          "content": "Mean of deviations,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.435,
+            0.591,
+            0.55,
+            0.638
+          ],
+          "content": "\\frac{\\Sigma f_{i}}{\\Sigma f_{i}}",
+          "image_source": "images/page_4_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.659,
+            0.193,
+            0.678
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.436,
+            0.644,
+            0.617,
+            0.813
+          ],
+          "content": "\\begin{aligned}\\overline{\\overline{d}} &= \\frac{\\Sigma f_{i}\\left( x_{i} - a \\right)}{\\Sigma f_{i}} \\\\&= \\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}} - \\frac{\\Sigma f_{i}a}{\\Sigma f_{i}} \\\\&= \\overline{x} - a\\frac{\\Sigma f_{i}}{\\Sigma f_{i}} \\\\&= \\overline{x} - a\\end{aligned}",
+          "image_source": "images/page_4_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.824,
+            0.135,
+            0.843
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.817,
+            0.554,
+            0.843
+          ],
+          "content": "\\left[ \\overline { { x } }   =   a + \\dot { \\overline { { d } } } \\right]",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.866,
+            0.139,
+            0.884
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.851,
+            0.588,
+            0.896
+          ],
+          "content": "\\left\\{ \\overline { { x } } \\; = \\; a + \\frac { \\Sigma f _ { i } d _ { i } } { \\Sigma f _ { i } } \\right.",
+          "image_source": "images/page_4_equation_15.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

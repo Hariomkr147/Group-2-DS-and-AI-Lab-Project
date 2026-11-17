@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "aside_text",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.708,
+            0.129,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "More to Know!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.098,
+            0.085,
+            0.722,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "light in air and v is the speed of light in the medium, then, the refractive",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " index of the medium "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { n } _ { m }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is given by",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.129,
+            0.129,
+            0.72,
+            0.164
+          ],
+          "image_path": "images/page_15_equation_2.jpg",
+          "content": "\\mathrm{m}_{\\mathrm{m}}=\\frac{\\text { Specof light in air }}{\\text { Specof light in the medium }}=\\frac{c}{v}\\tag{9.7}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.172,
+            0.724,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The absolute refractive index of a medium is simply called its refractive index. The refractive index of several media is given in Table 9.3. From",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the Table you can know that the refractive index of water, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n _ { _ w } = 1 . 3 3 ."
+            },
+            {
+              "type": "text",
+              "content": " This means that the ratio of the speed of light in air and the speed of light in water is equal to 1.33. Similarly, the refractive index of crown glass, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n _ { _ { q } }   =   1 . 5 2"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ".",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Such data are helpful in many places. However, you "
+            },
+            {
+              "type": "text",
+              "content": "need not memorise the data.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.103,
+            0.309,
+            0.719,
+            0.609
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 4,
+              "bbox": [
+                0.099,
+                0.289,
+                0.629,
+                0.306
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 9.3 Absolute refractive index of some material media"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.103,
+                0.309,
+                0.719,
+                0.609
+              ],
+              "image_path": "images/page_15_table_5.jpg",
+              "content": "<table><tbody><tr><td>Material</td><td>Refractive</td><td>Material</td><td>Refractive</td></tr><tr><td>medium</td><td>index</td><td>medium</td><td>index</td></tr><tr><td>Air</td><td>1.0003</td><td>Canada Balsam</td><td>1.53</td></tr><tr><td>Ice</td><td>1.31</td><td></td><td></td></tr><tr><td>Water</td><td>1.33</td><td>Rock salt</td><td>1.54</td></tr><tr><td>Alcohol</td><td>1.36</td><td></td><td></td></tr><tr><td>Kerosene</td><td>1.44</td><td>Carbon disulphide</td><td>1.63</td></tr><tr><td>Fused</td><td>1.46</td><td></td><td></td></tr><tr><td>quartz</td><td></td><td>Dense flint glass</td><td>1.65</td></tr><tr><td>Turpentine</td><td>1.47</td><td></td><td></td></tr><tr><td>oil</td><td></td><td>Ruby</td><td>1.71</td></tr><tr><td>Benzene</td><td>1.50</td><td>Sapphire</td><td>1.77</td></tr><tr><td>Crown</td><td>1.52</td><td></td><td></td></tr><tr><td>glass</td><td></td><td>Diamond</td><td>2.42</td></tr></tbody></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 6,
+              "bbox": [
+                0.099,
+                0.617,
+                0.723,
+                0.683
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Note from Table 9.3 that an optically denser medium may not possess greater mass density. For example, kerosene having higher refractive index, is optically denser than water, although its mass density is less than water."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.688,
+            0.896,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "33333339333333333333333333333330"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.717,
+            0.894,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The ability of a medium to refract light is also expressed in terms of its optical density. Optical density has a definite connotation. It is not the same as mass density. We have been using the terms ‘rarer medium’ and ‘denser medium’ in this Chapter. It actually means ‘optically rarer medium’ and ‘optically denser medium’, respectively. When can we say that a medium is optically denser than the other? In comparing two media, the one with the larger refractive index is optically denser medium than the other. The other medium of lower refractive index is optically rarer. The speed of light is higher in a rarer medium than a denser medium. Thus, a ray of light travelling from a rarer medium to a denser medium slows down and bends towards the normal. When it travels from a denser medium to a rarer medium, it speeds up and bends away from the normal.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.915,
+            0.342,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Light – Reflection and Refraction"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.881,
+            0.915,
+            0.914,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "149"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

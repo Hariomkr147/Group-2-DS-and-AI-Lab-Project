@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.116,
+            0.119,
+            0.146,
+            0.142
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_30_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.75,
+            0.062,
+            0.836,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.118,
+            0.616,
+            0.176
+          ],
+          "content": "**Figure it Out** 1. $\\frac{5}{8} - \\frac{3}{8}$ 2. $\\frac{7}{9} - \\frac{5}{9}$ 3. $\\frac { 1 0 } { 2 7 } - \\frac { 1 } { 2 7 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.204,
+            0.834,
+            0.247
+          ],
+          "content": "**Subtraction of fractions with different fractional units or denominators**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.253,
+            0.382,
+            0.283
+          ],
+          "content": "**Example**: What is $\\frac { 3 } { 4 } - \\frac { 2 } { 3 } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.286,
+            0.836,
+            0.355
+          ],
+          "content": "As we already know the procedure for subtraction of fractions with the same fractional units, let us convert each of the given fractions into equivalent fractions with the same fractional units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.423,
+            0.39,
+            0.688,
+            0.434
+          ],
+          "content": "Yes! By doing this we can easily subtract the two fractions."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.127,
+            0.369,
+            0.816,
+            0.693
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_30_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.422,
+            0.473,
+            0.702,
+            0.537
+          ],
+          "content": "Think! Why did we choose to multiply both the numerator and denominator by 3?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.455,
+            0.589,
+            0.777,
+            0.652
+          ],
+          "content": "Again! Why did we choose to multiply both the numerator and denominator here by 4?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.661,
+            0.443,
+            0.694
+          ],
+          "content": "Therefore, $\\frac{3}{4} - \\frac{2}{3} = \\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.703,
+            0.737,
+            0.726
+          ],
+          "content": "**Brahmagupta’s method for subtracting two fractions —**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.732,
+            0.833,
+            0.778
+          ],
+          "content": "1. Convert the given fractions into equivalent fractions with the same fractional unit, i.e., the same denominator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.782,
+            0.834,
+            0.85
+          ],
+          "content": "2. Carry out the subtraction of fractions having the same fractional units. This can be done by subtracting the numerators and keeping the same denominator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.853,
+            0.656,
+            0.876
+          ],
+          "content": "3. Simplify the result into lowest terms if needed."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.882,
+            0.939,
+            0.918,
+            0.961
+          ],
+          "content": "181"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.986
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

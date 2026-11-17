@@ -1,0 +1,137 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.163
+          ],
+          "content": "This way of associating each cow with a stick, such that no two cows are associated or mapped to the same stick is called a one-to-one mapping. This mapping can then be used to come up with a way to represent numbers, as shown in the table."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.27,
+            0.166,
+            0.728,
+            0.4
+          ],
+          "content": "| Number | Its representation (using sticks) |\n| --- | --- |\n| 12345... | ... |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.414,
+            0.847,
+            0.454
+          ],
+          "content": "? How will you use such sticks to answer the other two questions (Q2 and Q3)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.458,
+            0.849,
+            0.57
+          ],
+          "content": "**Method 2:** Instead of objects, we could use a standard sequence of sounds or names. For example, we could use the sounds of the letters of any language. While counting, we could make a one-to-one mapping between the objects and the letters: that is, associate each object to be counted with a letter, following the letter-order. This mapping can then be used to come up with a way of verbally representing numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.569,
+            0.847,
+            0.608
+          ],
+          "content": "For example, we get the following number representation if we use English letters ‘a’ to ‘z’."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.282,
+            0.618,
+            0.716,
+            0.887
+          ],
+          "content": "<table><tbody><tr><td rowspan=\"2\">Number</td><td rowspan=\"2\">Its representation (using sounds or names)</td></tr><tr></tr><tr><td>1</td><td>a</td></tr><tr><td>2</td><td>b</td></tr><tr><td>3</td><td>c</td></tr><tr><td>4</td><td>d</td></tr><tr><td>5</td><td>e</td></tr><tr><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>26</td><td>z</td></tr></tbody></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_table_6.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": "52"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

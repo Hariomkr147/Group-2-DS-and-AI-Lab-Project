@@ -1,0 +1,25 @@
+(i) (ukasar-ukasar-ukasar-ukasar-urapon) + (ukasar-ukasarukasar-urapon)
+
+(ii) (ukasar-ukasar-ukasar-ukasar-urapon) – (ukasar-ukasarukasar)
+
+(iii) (ukasar-ukasar-ukasar-ukasar-urapon) × (ukasar-ukasar)
+
+(iv) (ukasar-ukasar-ukasar-ukasar-ukasar-ukasar-ukasar-ukasar) ÷ (ukasar-ukasar)
+
+3. Identify the features of the Hindu number system that make it efficient when compared to the Roman number system.
+
+4. Using the ideas discussed in this section, try refining the number system you might have made earlier.
+
+![](images/page_13_image_8.jpg)
+
+## 3.3 The Idea of a Base
+
+## I. The Egyptian Number System
+
+![](images/page_13_image_11.jpg)
+
+We are now going to see a written number system that the Egyptians developed around 3000 BCE. In this system, we see the use of landmark numbers to group and represent a given number. However, what makes this system special is its sequence of landmark numbers.
+
+Imagine making collections of pebbles. The first landmark number is 1. Group together 10 collections of the previous landmark number (1). Its size is the second landmark number which is 10. Group together 10 collections of the previous landmark number (10). Its size is the third landmark number which is 10 × 10 = 100, and so on.
+
+![](images/page_13_image_14.jpg)

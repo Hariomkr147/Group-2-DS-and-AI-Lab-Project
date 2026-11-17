@@ -1,0 +1,347 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.217,
+            0.149,
+            0.243
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.753,
+            0.048,
+            0.86,
+            0.067
+          ],
+          "content": "Algebra Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.846,
+            0.127
+          ],
+          "content": "Let us approach this problem systematically. There are six ways to place three digits:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.132,
+            0.57,
+            0.151
+          ],
+          "content": "We can fill the first box with 2, 3 or 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.156,
+            0.846,
+            0.194
+          ],
+          "content": "• For each of these choices, we have 2 ways of filling the remaining 2 digits."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.198,
+            0.787,
+            0.218
+          ],
+          "content": "• The six options are $2 3 \\times 5 , 2 5 \\times 3 , 3 2 \\times 5 , 3 5 \\times 2 , 5 2 \\times 3 , 5 3 \\times 2 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.219,
+            0.747,
+            0.243
+          ],
+          "content": "How do we find the largest product among these six options?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.245,
+            0.748,
+            0.265
+          ],
+          "content": "We can group them in pairs where the multiplier is the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.269,
+            0.37,
+            0.287
+          ],
+          "content": "• 35 × 2 and 53 × 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.293,
+            0.372,
+            0.312
+          ],
+          "content": "• 25 × 3 and 52 × 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.317,
+            0.371,
+            0.335
+          ],
+          "content": "• 23 × 5 and 32 × 5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.341,
+            0.846,
+            0.38
+          ],
+          "content": "In each pair, the one with the larger multiplicand generates the larger product, so we can reduce the comparison to these three expressions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.384,
+            0.268,
+            0.402
+          ],
+          "content": "$5 3 \\times 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.407,
+            0.269,
+            0.426
+          ],
+          "content": "$5 2 \\times 3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.431,
+            0.268,
+            0.449
+          ],
+          "content": "$3 2 \\times 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.456,
+            0.845,
+            0.493
+          ],
+          "content": "It is clear that $5 2 \\times 3$ is bigger than 53 × 2, so we only need to compare 52 × 3 and 32 × 5. Let us expand these."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.497,
+            0.471,
+            0.517
+          ],
+          "content": "• 32 × 5 = (3 × 10 × 5) + (2 × 5)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.522,
+            0.472,
+            0.541
+          ],
+          "content": "• 52 × 3 = (5 × 10 × 3) + (2 × 3)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.546,
+            0.846,
+            0.603
+          ],
+          "content": "The first terms in both expressions are the same. The second term shows that 32 × 5 is larger, and hence the largest of the six possible products we can form with 2, 3 and 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.605,
+            0.846,
+            0.663
+          ],
+          "content": "？ In this case, we used the largest digit as the multiplier. The other two digits were arranged in decreasing order to form the multiplicand. Will this always be the case? Let us find out using algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.666,
+            0.707,
+            0.686
+          ],
+          "content": "Suppose p, q, and r are the three digits such that $p < q < r .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.685,
+            0.845,
+            0.722
+          ],
+          "content": "As before, we have six possible products, which we group by the multiplier:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.728,
+            0.333,
+            0.748
+          ],
+          "content": "$q r \\times p , \\underline { r } q \\times p$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.752,
+            0.332,
+            0.772
+          ],
+          "content": "$pr \\times q,rp \\times q$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.776,
+            0.331,
+            0.796
+          ],
+          "content": "$p q \\times r , q p \\times r$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.8,
+            0.845,
+            0.839
+          ],
+          "content": "In each pair, the multiplicand with the larger tens digit forms the larger product. So we have three products to compare:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.844,
+            0.266,
+            0.863
+          ],
+          "content": "$r q \\times p$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.869,
+            0.267,
+            0.887
+          ],
+          "content": "$r p \\times q$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.892,
+            0.267,
+            0.912
+          ],
+          "content": "$q p \\times r$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.869,
+            0.913,
+            0.918,
+            0.935
+          ],
+          "content": "143"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

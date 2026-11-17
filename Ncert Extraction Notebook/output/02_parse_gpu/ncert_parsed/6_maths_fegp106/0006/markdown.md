@@ -1,0 +1,27 @@
+f. Now, Toshi ran 1000 m. How many full rounds has she finished running around her track? Mark her position as ‘Z’.
+
+**Deep Dive:** In races, usually there is a common finish line for all the runners. Here are two square running tracks with the inner track of 100 m each side and outer track of 150 m each side. The common
+
+finishing line for both runners is shown by the flags in the figure which are in the center of one of the sides of the tracks.
+
+If the total race is of 350 m, then we have to find out where the starting positions of the two runners should be on these two tracks so that they both have a common finishing line after they run for 350 m. Mark the starting points of the runner on the inner track as ‘A’ and the runner on the outer track as ‘B’.
+
+![](images/page_5_image_5.jpg)
+
+Common Finishing Line
+
+## Estimate and Verify
+
+Take a rough sheet of paper or a sheet of newspaper. Make a few random shapes by cutting the paper in different ways. Estimate the total length of the boundaries of each shape then use a scale or measuring tape to measure and verify the perimeter for each shape.
+
+![](images/page_5_image_9.jpg)
+
+Akshi says that the perimeter of this triangle shape is 9 units. Toshi says it can’t be 9 units and the perimeter will be more than 9 units. What do you think?
+
+![](images/page_5_image_11.jpg)
+
+The perimeter is 7 9 units.
+
+![](images/page_5_image_13.jpg)
+
+No, it will be more than 9 units.

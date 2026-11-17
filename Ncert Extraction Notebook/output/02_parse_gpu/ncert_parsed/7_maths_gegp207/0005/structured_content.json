@@ -1,0 +1,301 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.087,
+            0.847,
+            0.147
+          ],
+          "content": "? For the weighing scale problems in figures 7.6, 7.7, 7.8, 7.9, 7.10, and 7.11, frame equations by using letter-numbers to denote the unknown weight."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.15,
+            0.846,
+            0.172
+          ],
+          "content": "For the problem in Fig. 7.6, let us denote the weight of one fried egg as e."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.175,
+            0.846,
+            0.215
+          ],
+          "content": "Since each slice of bread is 2, we have $2+2+2=6$ on one side and $e + e$ on the other side. Since they are equal, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.215,
+            0.557,
+            0.232
+          ],
+          "content": "6 = e + e,  or",
+          "image_source": "images/page_4_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.465,
+            0.238,
+            0.534,
+            0.255
+          ],
+          "content": "2 e = 6 .",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.261,
+            0.847,
+            0.32
+          ],
+          "content": "For the problem in Fig. $7.7, 凳  = 4,$ , and we can denote the weight of one as y. So, we have 16 on one side, and 4 + 2y on the other side. Thus, we have the equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.325,
+            0.555,
+            0.344
+          ],
+          "content": "4+2y=16.",
+          "image_source": "images/page_4_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.353,
+            0.846,
+            0.395
+          ],
+          "content": "？ Solve the equations that you frame and check if you get the same value for the unknown weight as you got previously."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.408,
+            0.619,
+            0.431
+          ],
+          "content": "Frame 5 equations. Find methods to solve them."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.386,
+            0.904,
+            0.437
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_10.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.459,
+            0.656,
+            0.485
+          ],
+          "level": 2,
+          "content": "7.2 Solving Equations Systematically"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.493,
+            0.847,
+            0.572
+          ],
+          "content": "How did you solve the various equations framed in the previous section? One way to solve an equation is to substitute different values in place of the letter−number and to check which value makes LHS = RHS. For example, consider the equation 2n + 1 = 99."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.575,
+            0.846,
+            0.613
+          ],
+          "content": "If we substitute n = 5, we get $\\mathrm{LHS} = \\underline{2} \\times (5) + 1 = 11$ . It is far away from 99, the RHS."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.613,
+            0.745,
+            0.633
+          ],
+          "content": "We can try n = 10. The LHS is 21. It is still not equal to 99."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.633,
+            0.805,
+            0.652
+          ],
+          "content": "Can we try n = 30? The LHS is now 61, still much lower than 99."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.652,
+            0.762,
+            0.67
+          ],
+          "content": "Let us try n = 40. The LHS is 81. We are getting closer to 99."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.671,
+            0.715,
+            0.69
+          ],
+          "content": "When n = 50, the LHS is 101. This is just a bit too high."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.69,
+            0.461,
+            0.708
+          ],
+          "content": "When n = 49, the LHS is 99!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.709,
+            0.764,
+            0.728
+          ],
+          "content": "Therefore, the solution to the equation $2n + 1 = 99$ is n = 49."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.738,
+            0.572,
+            0.76
+          ],
+          "content": "Can this equation have any other solution?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.763,
+            0.638,
+            0.783
+          ],
+          "content": "This method is called the **trial and error** method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.787,
+            0.597,
+            0.807
+          ],
+          "content": "The trial and error method can be inefficient."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.821,
+            0.565,
+            0.845
+          ],
+          "content": "Try solving $5 x - 4 = 7$ using trial and error."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": "168"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

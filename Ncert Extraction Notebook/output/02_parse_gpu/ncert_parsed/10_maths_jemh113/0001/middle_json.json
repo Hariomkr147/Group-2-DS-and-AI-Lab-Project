@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.428,
+            0.116,
+            0.576,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "□ H"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.477,
+            0.219,
+            0.532,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH14"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.512,
+            0.294,
+            0.745,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.761,
+            0.258,
+            0.885,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.382,
+            0.292,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.094,
+            0.408,
+            0.901,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Class IX, you have studied the classification of given data into ungrouped as well as grouped frequency distributions. You have also learnt to represent the data pictorially in the form of various graphs such as bar graphs, histograms (including those of varying widths) and frequency polygons. In fact, you went a step further by studying certain numerical representatives of the ungrouped data, also called measures of central tendency, namely, mean, median and mode. In this chapter, we shall extend the study of these three measures, i.e., mean, median and mode from ungrouped data to that of grouped data. We shall also discuss the concept of cumulative frequency, the cumulative frequency distribution and how to draw cumulative frequency curves, called ogives."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.614,
+            0.412,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13.2 Mean of Grouped Data"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.642,
+            0.9,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The mean (or average) of observations, as we know, is the sum of the values of all the observations divided by the total number of observations. From Class IX, recall that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{_1}, x_{_2}, \\ldots, x_{_{ n }}"
+            },
+            {
+              "type": "text",
+              "content": " are observations with respective frequencies "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { \\mathrm { \\scriptsize { 1 } } } , f _ { \\mathrm { \\scriptsize { 2 } } } , \\; . \\; . \\; . \\; . ,   f _ { \\mathrm { \\scriptsize { n } } } ,"
+            },
+            {
+              "type": "text",
+              "content": " then this means observation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { \\mathrm { { i } } }"
+            },
+            {
+              "type": "text",
+              "content": " occurs "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " times, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " occurs "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " times, and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.095,
+            0.725,
+            0.899,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, the sum of the values of all the observations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1}x_{1} + f_{2}x_{2} + \\cdots + f_{n}x_{n}"
+            },
+            {
+              "type": "text",
+              "content": " , and the number of observations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f_{1}+f_{2}+\\cdots+f_{n}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.146,
+            0.773,
+            0.521,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the mean "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { x } }"
+            },
+            {
+              "type": "text",
+              "content": " of the data is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.339,
+            0.796,
+            0.625,
+            0.84
+          ],
+          "image_path": "images/page_0_equation_10.jpg",
+          "content": "\\overline{x} = \\frac{f_{1}x_{1} + f_{2}x_{2} + \\cdots + f_{n}x_{n}}{f_{1} + f_{2} + \\cdots + f_{n}}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.843,
+            0.898,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that we can write this in short form by using the Greek letter "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma"
+            },
+            {
+              "type": "text",
+              "content": " (capital sigma) which means summation. That is,"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

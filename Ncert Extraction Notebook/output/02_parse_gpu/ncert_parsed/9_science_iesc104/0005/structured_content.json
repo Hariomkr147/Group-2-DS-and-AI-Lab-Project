@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.173,
+            0.213,
+            0.208
+          ],
+          "content": "**Grade 7** Curiosity **Chapter 8**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.088,
+            0.89,
+            0.141
+          ],
+          "content": "Motion, i.e., a change in the position of an object, can be described in terms of the total distance travelled by the object and its displacement. But how can you describe how fast or slow an object is moving?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.224,
+            0.149,
+            0.682,
+            0.169
+          ],
+          "level": 2,
+          "content": "4.1.3 Average speed and average velocity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.171,
+            0.89,
+            0.239
+          ],
+          "content": "You have learnt about average speed in an earlier grade. It tells us how fast or slow an object moves. The **average speed** of an object is the total distance travelled divided by the time interval during which this distance is covered. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.347,
+            0.238,
+            0.887,
+            0.275
+          ],
+          "content": "average speed  = \\frac{ total distance traveled }{ time interval }\\tag{4.1}",
+          "image_source": "images/page_4_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.283,
+            0.889,
+            0.335
+          ],
+          "content": "Since distance travelled has no direction (but only a numerical value), the average speed, which is calculated from distance travelled, also has no direction but only a numerical value."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.338,
+            0.89,
+            0.475
+          ],
+          "content": "If an object moving in a straight line travels equal distances in equal intervals of time (for all possible choices of time intervals), it is said to be in uniform motion in a straight line. In this case, the object moves at a constant speed. On the other hand, if the object travels unequal distances in equal intervals of time, then it is in non-uniform motion in a straight line. In this case, the object moves with increasing speed or decreasing speed, or a combination of both. If the distances travelled in the successive intervals of times are increasing, its speed is increasing."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.248,
+            0.483,
+            0.573,
+            0.5
+          ],
+          "level": 2,
+          "content": "Indiaʼs Scientific Contributions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.233,
+            0.505,
+            0.866,
+            0.584
+          ],
+          "content": "The concept that an object’s speed is the distance travelled divided by the time taken is well-established, dating back to ancient times even in India, as seen in the treatise Aryabhatiya (5th century CE). The following problem, based on this concept, is from a comprehensive mathematical text, the Ganitakaumudi (14th century CE)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.605,
+            0.89,
+            0.675
+          ],
+          "content": "**Example 4.1:** Consider two postmen. They start walking towards each other from a distance of 210 yojanas (Yojana is a unit of distance used in ancient India). One travels 9 yojanas per day and the other covers 5 yojanas per day. Can you determine in how many days they will meet each other?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.225,
+            0.677,
+            0.309,
+            0.693
+          ],
+          "level": 2,
+          "content": "Answer:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.697,
+            0.888,
+            0.731
+          ],
+          "content": "Total of distance covered by each postman in one day = 9 yojanas + 5 yojanas = 14 yojanas."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.73,
+            0.878,
+            0.749
+          ],
+          "content": "To meet with each other, the postmen need to cover 210 yojanas together."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.752,
+            0.82,
+            0.787
+          ],
+          "content": "Time taken by them to cover 210 yojanas together $\\frac{210}{14}=15\\  days$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.791,
+            0.691,
+            0.81
+          ],
+          "content": "So, both postmen will meet each other after 15 days."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.812,
+            0.888,
+            0.847
+          ],
+          "content": "(In 15 days, first postman will cover 135 yojanas and the second postman will cover 75 yojanas)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.85,
+            0.89,
+            0.92
+          ],
+          "content": "The speed tells us how fast an object is moving but it provides no information about the direction of motion. There are many situations where along with the speed, you also need to know the direction of motion to get a complete picture, particularly in case of complicated real-world motions."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.079,
+            0.943,
+            0.109,
+            0.96
+          ],
+          "content": "52"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

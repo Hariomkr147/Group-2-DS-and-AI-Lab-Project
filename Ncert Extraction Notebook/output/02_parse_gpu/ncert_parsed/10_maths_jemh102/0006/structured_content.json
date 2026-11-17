@@ -1,0 +1,205 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.216,
+            0.121
+          ],
+          "content": "POLYNOMIALS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.875,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "15"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.138,
+            0.9,
+            0.178
+          ],
+          "content": "**Case (iii) :** Here, the graph is either completely above the x-axis or completely below the x-axis. So, it does not cut the x-axis at any point (see Fig. 2.5)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.115,
+            0.189,
+            0.483,
+            0.485
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.296,
+                0.487,
+                0.321,
+                0.505
+              ],
+              "content": "(i)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.514,
+            0.188,
+            0.883,
+            0.484
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.656,
+                0.484,
+                0.686,
+                0.502
+              ],
+              "content": "(ii)"
+            },
+            {
+              "bbox": [
+                0.456,
+                0.513,
+                0.542,
+                0.533
+              ],
+              "content": "Fig. 2.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.544,
+            0.735,
+            0.564
+          ],
+          "content": "So, the quadratic polynomial $ax^{2} + bx + c$ has **no zero** in this case."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.57,
+            0.901,
+            0.629
+          ],
+          "content": "So, you can see geometrically that a quadratic polynomial can have either two distinct zeroes or two equal zeroes (i.e., one zero), or no zero. This also means that a polynomial of degree 2 has atmost two zeroes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.634,
+            0.902,
+            0.712
+          ],
+          "content": "Now, what do you expect the geometrical meaning of the zeroes of a cubic polynomial to be? Let us find out. Consider the cubic polynomial $x ^ { 3 } - 4 x .$ . To see what the graph of $y = x ^ { 3 } - 4 \\underline { { x } }$ looks like, let us list a few values of y corresponding to a few values for x as shown in Table 2.2."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.188,
+            0.751,
+            0.792,
+            0.832
+          ],
+          "content": "| x | -2 | -1 | 0 | 1 | 2 |\n| --- | --- | --- | --- | --- | --- |\n| y = x<sup>3</sup> - 4x | 0 | 3 | 0 | -3 | 0 |",
+          "captions": [
+            {
+              "bbox": [
+                0.447,
+                0.727,
+                0.551,
+                0.745
+              ],
+              "content": "Table 2.2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_table_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.859,
+            0.9,
+            0.899
+          ],
+          "content": "Locating the points of the table on a graph paper and drawing the graph, we see that the graph of $y = x ^ { 3 } - 4 x$ actually looks like the one given in Fig. 2.6."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

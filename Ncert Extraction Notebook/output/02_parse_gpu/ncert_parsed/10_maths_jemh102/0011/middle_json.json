@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "20"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.163,
+            0.139,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.258,
+            0.151,
+            0.768,
+            0.194
+          ],
+          "image_path": "images/page_10_equation_3.jpg",
+          "content": "sum of zeros  = \\alpha + \\beta = - \\frac{b}{a} = \\frac{- ( coefficient of   x)}{ Coefficient of   x^{2}},"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.222,
+            0.214,
+            0.707,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "product of zeroes "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\alpha \\beta = \\frac{c}{a} = \\frac{ constant term }{ coefficient of   x^{2}}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.147,
+            0.268,
+            0.461,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider some examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.301,
+            0.901,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2 : Find the zeroes of the quadratic polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + 7 x + 1 0"
+            },
+            {
+              "type": "text",
+              "content": " , and verify the relationship between the zeroes and the coefficients."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.345,
+            0.298,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.358,
+            0.371,
+            0.639,
+            0.389
+          ],
+          "image_path": "images/page_10_equation_8.jpg",
+          "content": "x^{2}+7x+10=(x+2)(x+5)"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.095,
+            0.395,
+            0.901,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + 7 x + 1 0"
+            },
+            {
+              "type": "text",
+              "content": " is zero when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + 2 = 0   or   x + 5 = 0."
+            },
+            {
+              "type": "text",
+              "content": " , i.e., when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = - 2"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = - 5"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore, the zeroes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{2}+7x+10\\mathrm{are}=2"
+            },
+            {
+              "type": "text",
+              "content": " and – 5. Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.208,
+            0.448,
+            0.838,
+            0.491
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "sum of zeros  = -2 + (-5) = -7 = \\frac{-(7)}{1} = \\frac{( Coefficient of   x)}{ Coefficient of   x^2}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.175,
+            0.511,
+            0.788,
+            0.553
+          ],
+          "image_path": "images/page_10_equation_11.jpg",
+          "content": "product of zeros  = (-2) \\times (-5) = 10 = \\frac{10}{1} = \\frac{ constant term }{ coefficient of   x^2}."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.095,
+            0.572,
+            0.901,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3 : Find the zeroes of the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } - 3"
+            },
+            {
+              "type": "text",
+              "content": " and verify the relationship between the zeroes and the coefficients."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.616,
+            0.842,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Recall the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{2}-b^{2}=(a-b)(a+b)"
+            },
+            {
+              "type": "text",
+              "content": " . Using it, we can write:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.287,
+            0.648,
+            0.558,
+            0.678
+          ],
+          "image_path": "images/page_10_equation_14.jpg",
+          "content": "x^{2}-3=\\left(x-\\sqrt{3}\\right)\\left(x+\\sqrt{3}\\right)"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.096,
+            0.693,
+            0.647,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } - 3"
+            },
+            {
+              "type": "text",
+              "content": " is zero when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\sqrt{3}  or  x = -\\sqrt{3}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.096,
+            0.731,
+            0.576,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the zeroes of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } - 3"
+            },
+            {
+              "type": "text",
+              "content": " are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- { \\sqrt { 3 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.764,
+            0.156,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.208,
+            0.798,
+            0.729,
+            0.839
+          ],
+          "image_path": "images/page_10_equation_18.jpg",
+          "content": "sum of zeros  = \\sqrt{3} - \\sqrt{3} = 0 = \\frac{-( coefficient of   x)}{ C coefficient of   x^2},"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.176,
+            0.861,
+            0.8,
+            0.902
+          ],
+          "image_path": "images/page_10_equation_19.jpg",
+          "content": "{ \\mathrm { p r o d u c t ~ o f ~ z e r o e s } } = { \\mathrm { ~ \\left( { \\sqrt { 3 } } \\right) \\left( - { \\sqrt { 3 } } \\right) ~ } } = - 3 = { \\frac { - 3 } { 1 } } = { \\frac { { \\mathrm { C o n s t a n t ~ t e r m } } } { { \\mathrm { C o e f f i c i e n t ~ o f ~ } } x ^ { 2 } } } ."
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

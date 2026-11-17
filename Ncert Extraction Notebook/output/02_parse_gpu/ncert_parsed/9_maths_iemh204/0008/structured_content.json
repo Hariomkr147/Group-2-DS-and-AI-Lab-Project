@@ -1,0 +1,202 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": "58"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.11,
+            0.881,
+            0.168
+          ],
+          "content": "**Proof of (c):** Call the intersection point of the two diagonals E. Using property (a), $\\Delta  AED \\cong \\Delta  CEB$ , by ASA or AAS. So EA = EC and EB = ED, which means that E is the midpoint of both diagonals."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.168,
+            0.883,
+            0.303
+          ],
+          "content": "We will now deduce the converse statements. To prove the converse of a known theorem, we can try to run the original proof backwards. This strategy may or may not work. (For example, the reasoning $\\text{\" If } x = y_{:}$ , then $x ^ { 2 } = y ^ { 2 }$ cannot be reversed, because x and y may have opposite signs, e.g., we could have x = 3 and y = –3.) When the strategy does work, we should be careful to give proper justification for each step in the backward direction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.305,
+            0.882,
+            0.345
+          ],
+          "content": "**Theorem 2 (converse of (a)):** If the opposite sides of a quadrilateral are of equal length, then it is a parallelogram."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.4,
+            0.348,
+            0.62,
+            0.455
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.379,
+                0.462,
+                0.619,
+                0.48
+              ],
+              "content": "Fig. 12.7: Converse to (a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.496,
+            0.881,
+            0.555
+          ],
+          "content": "**Proof:** Let ABCD be this quadrilateral. $\\Delta  ACD \\cong \\Delta  CAB$ by SSS, so corresponding angles are equal. Using transversal AC, we get AB ‖DC and AD ‖BC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.559,
+            0.883,
+            0.657
+          ],
+          "content": "Pay close attention to how the above proof retraces the proof of (a) backwards. Both proofs go via the same congruence $\\Delta  ACD \\cong \\Delta  CAB ,$ but the two proofs use different tests to justify the congruence (ASA vs SSS) and draw different conclusions. Try to use the same ‘backward retracingʼ strategy for the remaining converses."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.66,
+            0.881,
+            0.701
+          ],
+          "content": "**Theorem 3 (converse of (b)):** If the opposite angles of a quadrilateral are equal, then it is a parallelogram."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.705,
+            0.879,
+            0.743
+          ],
+          "content": "**Proof:** Let ABCD be this quadrilateral. Because $\\angle \\mathrm{A} = \\angle \\mathrm{C}$ and $\\angle \\mathrm{B} = \\angle \\mathrm{D}$ we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.214,
+            0.749,
+            0.781,
+            0.768
+          ],
+          "content": "360^{\\circ} \\mp \\angle \\mathrm{A} + \\angle \\mathrm{B} + \\angle \\mathrm{C} + \\angle \\mathrm{D} = 2(\\angle \\mathrm{A} + \\angle \\mathrm{B}) = 2(\\angle \\mathrm{B} + \\angle \\mathrm{C}).",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.394,
+            0.774,
+            0.607,
+            0.886
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.38,
+                0.889,
+                0.618,
+                0.907
+              ],
+              "content": "Fig. 12.8: Converse to (b)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.429,
+            0.907,
+            0.57,
+            0.925
+          ],
+          "content": "2(x + y) = 360^{\\circ}",
+          "image_source": "images/page_7_equation_14.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

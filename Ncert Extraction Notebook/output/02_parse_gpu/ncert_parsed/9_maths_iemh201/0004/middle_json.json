@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-15T17:12:27+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 7,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.073,
+            0.136,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.116,
+            0.111,
+            0.881,
+            0.148
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Here is a statement of the Baudhāyana–Pythagoras theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.116,
+            0.149,
+            0.881,
+            0.188
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c"
+            },
+            {
+              "type": "text",
+              "content": " be the sidelengths of a triangle. If the triangle is right-angled, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } + b ^ { 2 } = c ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.188,
+            0.388,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is its converse?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.116,
+            0.207,
+            0.881,
+            0.245
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To write the converse, we keep the first sentence of the Baudhāyana– Pythagoras theorem as it is, and make the necessary change in the second."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.116,
+            0.244,
+            0.881,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let a, b, c be the sidelengths of a triangle. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 }   +   b ^ { 2 }   =   c ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " then the triangle is right-angled."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.153,
+            0.284,
+            0.389,
+            0.3
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is this converse true?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.3,
+            0.878,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B C }"
+            },
+            {
+              "type": "text",
+              "content": " be the triangle with sidelengths a, b, c such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{2} + b^{2} = c^{2}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.369,
+            0.327,
+            0.633,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.369,
+                0.327,
+                0.633,
+                0.505
+              ],
+              "image_path": "images/page_3_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.116,
+            0.533,
+            0.851,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Construct another right triangle ∆XYZ whose perpendicular sides YZ and XZ have sidelengths a and b."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.301,
+            0.575,
+            0.629,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.301,
+                0.575,
+                0.629,
+                0.739
+              ],
+              "image_path": "images/page_3_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.116,
+            0.744,
+            0.559,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What can we say about the length of XY?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.117,
+            0.765,
+            0.658,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Use the Baudhāyana–Pythagoras Theorem.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.117,
+            0.784,
+            0.557,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What can we say about ∆ABC and ∆XYZ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.117,
+            0.802,
+            0.596,
+            0.821
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Use the SSS criterian for congruence.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.116,
+            0.822,
+            0.737,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We conclude that ∆ABC had to be a right triangle after all."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.116,
+            0.84,
+            0.88,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence the converse of the Baudhāyana–Pythagoras Theorem is also true!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

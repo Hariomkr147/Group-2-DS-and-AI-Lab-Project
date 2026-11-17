@@ -1,0 +1,290 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.596,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Another Peek Beyond the Point"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.351,
+            0.088,
+            0.603,
+            0.109
+          ],
+          "content": "Is the year divisible by 4?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.342,
+            0.114,
+            0.612,
+            0.186
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.189,
+            0.416,
+            0.21
+          ],
+          "content": "The year has 366 days"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.538,
+            0.189,
+            0.757,
+            0.21
+          ],
+          "content": "The year has 365 days"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.234,
+            0.604,
+            0.28
+          ],
+          "content": "Do you know which month has this extra day? Let us see how this solution works."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.289,
+            0.846,
+            0.363
+          ],
+          "content": "| Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Year 6 | Year 7 | Year 8 | … |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 365 | 365 | 365 | 366 | 365 | 365 | 365 | 366 | … |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.374,
+            0.846,
+            0.413
+          ],
+          "content": "Looking at the above sequence, the number of days after 4 calendar years is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.412,
+            0.614,
+            0.431
+          ],
+          "content": "4 \\times 3 6 5 + 1 = 1 4 6 1 { \\mathrm { ~ d a y s } } .",
+          "image_source": "images/page_22_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.436,
+            0.846,
+            0.475
+          ],
+          "content": "What is the number of days that the Earth needs to make 4 full revolutions around the Sun?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.48,
+            0.647,
+            0.499
+          ],
+          "content": "4 \\times 365.2422 = 1460.9688   days.",
+          "image_source": "images/page_22_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.514,
+            0.803,
+            0.575
+          ],
+          "content": "? With this new scheme of adding one extra day every 4th year, what is the number of days in 100 calendar years? Can you write an expression to calculate that number?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.508,
+            0.904,
+            0.572
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.578,
+            0.847,
+            0.637
+          ],
+          "content": "Here is one way to form the expression. Each calendar year has 365 days. In 100 calendar years, the number of days is 100 × 365. But years that are divisible by 4 have one extra day."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.645,
+            0.624,
+            0.669
+          ],
+          "content": "How many years are divisible by 4 in 100 years?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.671,
+            0.642,
+            0.691
+          ],
+          "content": "So, the number of days in 100 calendar years is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.691,
+            0.667,
+            0.727
+          ],
+          "content": "(100 \\times 365 + \\frac{100}{4} \\times 1) = 36,525   days.",
+          "image_source": "images/page_22_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.732,
+            0.724,
+            0.757
+          ],
+          "content": "Can you form different expressions for the same question?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.718,
+            0.903,
+            0.773
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.759,
+            0.8,
+            0.797
+          ],
+          "content": "The actual number of days that the Earth takes to go around the Sun 100 times is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.797,
+            0.667,
+            0.816
+          ],
+          "content": "1 0 0 \\times 3 6 5 . 2 4 2 2 = 3 6 , 5 2 4 . 2 2 \\; \\mathrm { d a y s } .",
+          "image_source": "images/page_22_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.817,
+            0.848,
+            0.876
+          ],
+          "content": "Thus, by adding a day every fourth year, after 100 years, the calendar days are more than the actual number of days taken by the Earth to go around the Sun. We have overcompensated."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": "89"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

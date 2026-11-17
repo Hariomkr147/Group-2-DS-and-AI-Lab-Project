@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.119,
+            0.072,
+            0.148,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "76"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.138,
+            0.11,
+            0.883,
+            0.17
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. A right-triangle shaped cutout of a paper is folded such that point A touches point B (Fig. 12.35). Show that the crease line can be used to find the midpoint of not only AB but also that of AC."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.367,
+            0.218,
+            0.511,
+            0.336
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 0,
+              "bbox": [
+                0.378,
+                0.177,
+                0.599,
+                0.199
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Step 1 Step 2"
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.367,
+                0.218,
+                0.511,
+                0.336
+              ],
+              "image_path": "images/page_25_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.528,
+            0.216,
+            0.668,
+            0.335
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.528,
+                0.216,
+                0.668,
+                0.335
+              ],
+              "image_path": "images/page_25_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.451,
+                0.344,
+                0.549,
+                0.364
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.138,
+            0.378,
+            0.882,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. You saw how to use the Midpoint Theorem to divide a given triangle into 4 congruent triangles. Can we divide a triangle into 3 congruent triangles? This exercise shows us how to do that and more, provided we are allowed to cut and reassemble."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.195,
+            0.455,
+            0.882,
+            0.571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Draw medians AP, BQ and CR of ∆ABC, meeting in a common point M. Cut along each median to get 6 triangles. Show with justification how to assemble the 6 pieces into 3 congruent triangles! ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Align ∆MPB and ∆MPC along equal sides PB and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathrm { P C } } ,"
+            },
+            {
+              "type": "text",
+              "content": " matching P with itself and B with C.) Prove that you get a triangle. What are its side lengths?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.18,
+            0.569,
+            0.881,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*(ii) Repeat the procedure with each of the 3 assembled triangles you got in (i). Show that each of the resulting 9 triangles has sides "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{AB}{3}, \\frac{BC}{3}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{AC}{3}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.237,
+            0.644,
+            0.882,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The procedure and the result above were unnoticed till 2014, when they were discovered by Lee Sallows, an amateur mathematician!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.184,
+            0.706,
+            0.883,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Naturally, we can next ask about the possibility of cutting a triangle and reassembling it into 2 congruent triangles. You were asked this question in the chapter Measuring Space: Perimeter and Area. Can you solve this now? ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Use median AP in ∆ABC and then a median of ∆APB.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.237,
+            0.808,
+            0.884,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For any two given figures with straight sides, we can ask whether one figure can be cut (using only straight cuts) into pieces and reassembled to make the other. This notion is"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

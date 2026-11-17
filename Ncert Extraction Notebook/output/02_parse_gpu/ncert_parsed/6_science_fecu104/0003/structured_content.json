@@ -1,0 +1,127 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.118,
+            0.083,
+            0.854,
+            0.303
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.26,
+                0.314,
+                0.707,
+                0.332
+              ],
+              "content": "Fig. 4.3: Identifying the materials attracted by a magnet"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.355,
+            0.57,
+            0.375
+          ],
+          "content": " **Record** your observations in Table 4.1."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.122,
+            0.419,
+            0.849,
+            0.897
+          ],
+          "content": "<table><tr><td rowspan=2>Name of theobject</td><td rowspan=2>Material which theobject is made of(plastic/wood/glass/iron/any other)</td><td colspan=2>Attracted by themagnet (Yes/No)</td></tr><tr><td>Prediction</td><td>Observation</td></tr><tr><td>Pencil</td><td>Wood</td><td></td><td></td></tr><tr><td>Eraser</td><td>Rubber</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.196,
+                0.389,
+                0.767,
+                0.41
+              ],
+              "content": "Table 4.1: Identifying the materials attracted by a magnet"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_table_4.jpg"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.891,
+            0.766,
+            0.914,
+            0.861
+          ],
+          "content": "Exploring Magnets"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.888,
+            0.896,
+            0.916,
+            0.913
+          ],
+          "content": "63"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:16:01+05:30",
+      "modified_at": "2026-03-27T11:31:44+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 18,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

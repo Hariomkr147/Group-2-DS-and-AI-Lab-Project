@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.214,
+            0.069,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Predicting What Comes Next: Exploring Sequences and Progressions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.885,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "193"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.267,
+            0.104,
+            0.725,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.267,
+                0.104,
+                0.725,
+                0.37
+              ],
+              "image_path": "images/page_19_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.458,
+                0.377,
+                0.54,
+                0.396
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.41,
+            0.887,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The sequence of heights forms a GP with a = 18 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 0.75"
+            },
+            {
+              "type": "text",
+              "content": " (or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 } { 4 } )"
+            },
+            {
+              "type": "text",
+              "content": " , that is, 18, 13.5, 10.125, 7.594, 5.695, 4.27125, 3.2034375, … . We see that after the seventh bounce the ball remains below "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{6}"
+            },
+            {
+              "type": "text",
+              "content": " of the height at which it started."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.371,
+            0.539,
+            0.624,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 8.3"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.13,
+            0.591,
+            0.886,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " term of a GP with common ratio 2, whose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " term is 192."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.634,
+            0.722,
+            0.655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Find the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": " terms of the GP: 5, 25, 125, … ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.12,
+            0.658,
+            0.885,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*3. A sequence is given by the recursive rule "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t_{1} = 2, t_{n + 1} = 3t_{n} - 2"
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": " . Which term of the sequence is 730?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.129,
+            0.701,
+            0.886,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Which term of the GP: 2, 6, 18, … is 4374? Write the explicit formula as well as the recursive formula for the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": " term."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.743,
+            0.887,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. A ball is dropped from a height of 80 metres. After hitting the ground, it bounces back to 60% of the height from which it fell. It continues bouncing in this way — each time rising to 60% of the previous height."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.178,
+            0.826,
+            0.804,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) What height does the ball reach after the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " bounce?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.172,
+            0.852,
+            0.886,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) What is the total vertical distance the ball has travelled by the time it hits the ground for the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " time?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

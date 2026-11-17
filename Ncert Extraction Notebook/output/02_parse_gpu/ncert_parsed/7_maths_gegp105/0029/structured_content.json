@@ -1,0 +1,167 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.119,
+            0.712,
+            0.139
+          ],
+          "content": "**(a) Did you find it challenging to draw some of them?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.14,
+            0.337,
+            0.158
+          ],
+          "content": "**(b) Which ones?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.159,
+            0.394,
+            0.178
+          ],
+          "content": "**(c) How did you do it?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.193,
+            0.374,
+            0.211
+          ],
+          "content": "**Ans:** Some of the lines are"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.332,
+            0.229,
+            0.664,
+            0.472
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.49,
+            0.236,
+            0.508
+          ],
+          "content": "(a) Yes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.513,
+            0.465,
+            0.532
+          ],
+          "content": "(b) Line segments e, f, h, and $g .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.534,
+            0.856,
+            0.575
+          ],
+          "content": "(c) Parallel lines are drawn by keeping them equidistant from the given line."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.579,
+            0.857,
+            0.618
+          ],
+          "content": "**5. In Fig 5.13, which line is parallel to line a — line b or line c? How do you decide this?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.398,
+            0.64,
+            0.599,
+            0.737
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.464,
+                0.764,
+                0.544,
+                0.782
+              ],
+              "content": "Fig. 5.13"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.796,
+            0.881,
+            0.835
+          ],
+          "content": "**Ans:** In the given figure, line c is parallel to line a because these two lines are always at the same distance apart."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:45+05:30",
+      "modified_at": "2026-04-07T17:15:45+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

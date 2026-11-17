@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "chart",
+          "index": 0,
+          "bbox": [
+            0.046,
+            0.087,
+            0.315,
+            0.279
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 0,
+              "bbox": [
+                0.046,
+                0.087,
+                0.315,
+                0.279
+              ],
+              "image_path": "images/page_10_chart_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "chart_caption",
+              "index": 1,
+              "bbox": [
+                0.102,
+                0.282,
+                0.307,
+                0.299
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.11(c): Making a graph"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.41,
+            0.087,
+            0.89,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "this point. Then, draw a line parallel to the X-axis from the point corresponding to distance 20 m on the Y-axis. The point where these two lines intersect represents the position 20 m at time t = 1 s on the graph (Fig. 4.11b)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.368,
+            0.172,
+            0.89,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Similarly, plot on the graph paper all points corresponding to positions of the vehicle at different instants of time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.346,
+            0.226,
+            0.89,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Once all points are plotted, connect them to create the position-time graph for the vehicle’s motion (Fig. 4.11c). It is a straight line for the data given in Table 4.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.333,
+            0.281,
+            0.889,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This was an example of plotting a position-time graph. Similar procedure can be used to plot the other graphs which you will be learning ahead."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.12,
+            0.353,
+            0.176,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.117,
+            0.38,
+            0.284,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remember, a graph is not a route map. It does not show the route but how the position of the object changes with time with respect to the origin."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.327,
+            0.332,
+            0.385,
+            0.393
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.327,
+                0.332,
+                0.385,
+                0.393
+              ],
+              "image_path": "images/page_10_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.397,
+            0.349,
+            0.606,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ready to Go Beyond"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.381,
+            0.37,
+            0.867,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The intermediate points represent possible values for position of vehicle at intermediate times. They are correct if vehicle is moving with a constant speed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.333,
+            0.439,
+            0.889,
+            0.493
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4.5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " For a vehicle starting from rest and speeding up, the data for position and time are given in Table 4.4. Plot the position-time graph corresponding to it."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 13,
+          "bbox": [
+            0.045,
+            0.6,
+            0.315,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "chart_caption",
+              "index": 12,
+              "bbox": [
+                0.363,
+                0.499,
+                0.86,
+                0.516
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 4.4: Positions of vehicle at different instants of time"
+                }
+              ]
+            },
+            {
+              "type": "chart_body",
+              "index": 13,
+              "bbox": [
+                0.045,
+                0.6,
+                0.315,
+                0.827
+              ],
+              "image_path": "images/page_10_chart_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 14,
+          "bbox": [
+            0.335,
+            0.517,
+            0.881,
+            0.692
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 14,
+              "bbox": [
+                0.335,
+                0.517,
+                0.881,
+                0.692
+              ],
+              "image_path": "images/page_10_table_14.jpg",
+              "content": "<table><tbody><tr><td>Time</td><td>Position</td></tr><tr><td>0 s</td><td>0 m</td></tr><tr><td>2 s</td><td>1 m</td></tr><tr><td>4 s</td><td>4 m</td></tr><tr><td>6 s</td><td>9 m</td></tr><tr><td>8 s</td><td>16 m</td></tr><tr><td>10 s</td><td>25 m</td></tr><tr><td>12 s</td><td>36 m</td></tr></tbody></table>"
+            },
+            {
+              "type": "table_caption",
+              "index": 15,
+              "bbox": [
+                0.098,
+                0.837,
+                0.312,
+                0.867
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.12: Position-time graph of the vehicle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.336,
+            0.7,
+            0.42,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.336,
+            0.719,
+            0.555,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Choosing the scale to be"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.364,
+            0.739,
+            0.576,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X-axis: 5 divisions = 2 s"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.365,
+            0.76,
+            0.584,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Y-axis: 5 divisions = 5 m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.333,
+            0.78,
+            0.89,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and following the procedure of Activity 4.3, all points corresponding to positions of the vehicle at different instants of time are marked. Unlike Fig. 4.11c, the points do not fall on a straight line. The points can be joined by a curve as shown in Fig. 4.12."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.334,
+            0.868,
+            0.89,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now that you know how to plot a graph from the data given for the motion of an object, let us learn to "
+            },
+            {
+              "type": "text",
+              "content": "interpret",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the graphs."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.079,
+            0.943,
+            0.11,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "58"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

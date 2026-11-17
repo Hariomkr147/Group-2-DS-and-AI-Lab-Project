@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.163,
+            0.089,
+            0.835,
+            0.194
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.208,
+            0.847,
+            0.266
+          ],
+          "content": "These triangles are seen to have the same shape, but not the same size. Hence, two triangles that have the same set of angles need not be congruent."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.283,
+            0.703,
+            0.305
+          ],
+          "level": 2,
+          "content": "Measuring Two Sides and the Included Angle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.311,
+            0.574,
+            0.334
+          ],
+          "content": "ΔABC and ΔXYZ are two triangles such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.254,
+            0.348,
+            0.743,
+            0.367
+          ],
+          "content": "AB = XY = 6\\  cm , AC = XY = 5\\  cm , and \\angle A = \\angle X = 30^{\\circ}",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.376,
+            0.357,
+            0.395
+          ],
+          "content": "Are they congruent?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.396,
+            0.846,
+            0.434
+          ],
+          "content": "To check this, we need to see if there can exist non-congruent triangles with the given measurements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.434,
+            0.847,
+            0.492
+          ],
+          "content": "These measurements correspond to the case of two sides and the included angle. We have seen how to construct a triangle given these measurements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.501,
+            0.673,
+            0.524
+          ],
+          "content": "? Construct a triangle having the above measurements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.533,
+            0.847,
+            0.591
+          ],
+          "content": "Compare it with the triangles constructed by your classmates. Are the triangles all congruent? Explain why all such triangles with these measurements are congruent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.591,
+            0.846,
+            0.629
+          ],
+          "content": "Thus, when two sides and the included angle of two triangles are equal, the two triangles are congruent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.629,
+            0.846,
+            0.668
+          ],
+          "content": "This is referred to as the **SAS (Side Angle Side)** condition for congruence."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.686,
+            0.734,
+            0.707
+          ],
+          "level": 2,
+          "content": "Measuring Two Sides and a Non-included Angle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.712,
+            0.683,
+            0.732
+          ],
+          "content": "What if two sides and a non-included angle are equal?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.74,
+            0.573,
+            0.764
+          ],
+          "content": "ΔABC and ΔXYZ are two triangles such that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.254,
+            0.778,
+            0.742,
+            0.797
+          ],
+          "content": "AB = XY = 6\\  cm , AC = XY = 4\\  cm , and \\angle B = \\angle Y = 30^{\\circ}",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.807,
+            0.356,
+            0.827
+          ],
+          "content": "Are they congruent?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.835,
+            0.846,
+            0.875
+          ],
+          "content": "？ Can there exist non-congruent triangles having these measurements? Construct and find out."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.951
+          ],
+          "content": "10"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.722,
+            0.11
+          ],
+          "content": "**Triangles between Parallel Lines with a Common Base**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.269,
+            0.123,
+            0.711,
+            0.269
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.291,
+            0.845,
+            0.333
+          ],
+          "content": "？ Line l‖BC. Consider the different triangles that have BC as their base, and with their third vertex lying anywhere on l."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.336,
+            0.847,
+            0.374
+          ],
+          "content": "(i) Which of these triangles has the maximum area, and which has the minimum area?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.379,
+            0.846,
+            0.418
+          ],
+          "content": "(ii) Which of these triangles has the maximum perimeter, and which has the minimum perimeter?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.426,
+            0.846,
+            0.467
+          ],
+          "content": "Here, we will only show how to find the triangle with the minimum perimeter, and leave the other questions as exercises."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.475,
+            0.541,
+            0.556
+          ],
+          "content": "Intuition might suggest that the triangle with the minimum perimeter can be obtained by constructing the perpendicular bisector of BC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.556,
+            0.54,
+            0.618
+          ],
+          "content": "But how do we justify that this triangle has the least perimeter among all the triangles?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.544,
+            0.478,
+            0.822,
+            0.627
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.641,
+            0.845,
+            0.681
+          ],
+          "content": "Firstly, note that in all these triangles, BC is a common side. Therefore, it is enough to consider the sum of the other two sides."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.682,
+            0.845,
+            0.721
+          ],
+          "content": "Let us imagine the line l as a mirror. Then we get a reflection of all the points and lines below it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.722,
+            0.847,
+            0.824
+          ],
+          "content": "While studying the properties of a plane mirror, we experimentally observed that the distance of the image behind the mirror is the same as the distance of the object (that creates the image) in front of the mirror. This law can be used to locate the reflections of the points lying below the line l."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.081,
+            0.914,
+            0.129,
+            0.935
+          ],
+          "content": "156"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

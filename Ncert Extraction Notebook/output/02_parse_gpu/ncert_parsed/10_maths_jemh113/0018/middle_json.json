@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "188"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.139,
+            0.432,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13.4 Median of Grouped Data"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.165,
+            0.902,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As you have studied in Class IX, the median is a measure of central tendency which gives the value of the middle-most observation in the data. Recall that for finding the median of ungrouped data, we first arrange the data values of the observations in ascending order. Then, if n is odd, the median is the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( { \\frac { n + 1 } { 2 } } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " th observation. And, if n is even, then the median will be the average of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { n } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " thand the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( { \\frac { n } { 2 } } + 1 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " th observations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.351,
+            0.9,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose, we have to find the median of the following data, which gives the marks, out of 50, obtained by 100 students in a test :"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.396,
+            0.862,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.125,
+                0.396,
+                0.862,
+                0.481
+              ],
+              "image_path": "images/page_17_table_5.jpg",
+              "content": "<table><tbody><tr><td>Marks obtained</td><td>20</td><td>29</td><td>28</td><td>33</td><td>42</td><td>38</td><td>43</td><td>25</td></tr><tr><td>Number of students</td><td>6</td><td>28</td><td>24</td><td>15</td><td>2</td><td>4</td><td>1</td><td>20</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.489,
+            0.899,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First, we arrange the marks in ascending order and prepare a frequency table as follows :"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 8,
+          "bbox": [
+            0.228,
+            0.557,
+            0.812,
+            0.893
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.442,
+                0.533,
+                0.558,
+                0.552
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.9"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 8,
+              "bbox": [
+                0.228,
+                0.557,
+                0.812,
+                0.893
+              ],
+              "image_path": "images/page_17_table_8.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Marks obtained</td><td rowspan=\"2\">Number of students (Frequency)</td></tr><tr></tr><tr><td>20</td><td>6</td></tr><tr><td>25</td><td>20</td></tr><tr><td>28</td><td>24</td></tr><tr><td>29</td><td>28</td></tr><tr><td>33</td><td>15</td></tr><tr><td>38</td><td>4</td></tr><tr><td>42</td><td>2</td></tr><tr><td>43</td><td>1</td></tr><tr><td>Total</td><td>100</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.436,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

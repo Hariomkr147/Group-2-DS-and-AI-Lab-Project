@@ -1,0 +1,632 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Describing Motion Around Us"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.856,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 53"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.108,
+            0.087,
+            0.775,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us define another physical quantity, average velocity, which describes how fast the position of an object is changing and in which direction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.108,
+            0.142,
+            0.775,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "text",
+              "content": "average velocity",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of an object in a time interval is the change in the position (or displacement) divided by the time interval in which the change in position (or displacement) occurs. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.172,
+            0.198,
+            0.762,
+            0.235
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "average velocity  = \\frac{ change in position }{ time interval } = \\frac{ displacement }{ time interval }\\tag{4.2a}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.108,
+            0.242,
+            0.774,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we represent average velocity by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\nu _ { _ { a v } }"
+            },
+            {
+              "type": "text",
+              "content": " , displacement by s and time interval by t, then Eq. (4.2a) can be written as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.413,
+            0.279,
+            0.772,
+            0.309
+          ],
+          "image_path": "images/page_5_equation_6.jpg",
+          "content": "\\nu _ { _ { a \\upsilon } } = \\frac { S } { t }\\tag{4.2b}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.799,
+            0.293,
+            0.856,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.108,
+            0.312,
+            0.775,
+            0.382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To express the average velocity, you need to specify its magnitude as well as the direction. How do we associate direction with velocity when the motion is in a straight line? The direction of the velocity is the same as the direction of displacement and is indicated by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{*} + \\mathrm{or} -"
+            },
+            {
+              "type": "text",
+              "content": " sign."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.108,
+            0.383,
+            0.776,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "text",
+              "content": "SI unit of average speed",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "text",
+              "content": "average velocity",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " are the same. It is "
+            },
+            {
+              "type": "text",
+              "content": "metre per second",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " which is represented by "
+            },
+            {
+              "type": "text",
+              "content": "m",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "text",
+              "content": "m/s",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". It is also commonly measured in kilometre per hour (km h"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.796,
+            0.317,
+            0.948,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For motion in a straight line, the average speed and the magnitude of average velocity in a time interval are equal if the object moves in one direction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.108,
+            0.437,
+            0.775,
+            0.541
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To describe how fast or slow a change in a physical quantity happens, we use the idea of a rate of change. The ratio of change in one quantity to the corresponding change in time is called the "
+            },
+            {
+              "type": "text",
+              "content": "rate of change",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". To calculate average velocity, we find the ratio of change in position to the time taken (Eq. 4.2a). So, we can say that average velocity is the average rate of change of position of an object with respect to time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.108,
+            0.542,
+            0.775,
+            0.594
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4.2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Sarang takes 50 seconds to swim from one end to the other end and back in the swimming pool shown in Fig. 4.7. Find his average speed and average velocity within the time interval of 50 s."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.11,
+            0.597,
+            0.195,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.109,
+            0.617,
+            0.541,
+            0.635
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Total distance travelled by Sarang in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "50\\;s = 50"
+            },
+            {
+              "type": "text",
+              "content": " m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.138,
+            0.638,
+            0.47,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "displacement of Sarang in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "50\\ \\overline{s} \\equiv 0"
+            },
+            {
+              "type": "text",
+              "content": " m"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.141,
+            0.658,
+            0.645,
+            0.697
+          ],
+          "image_path": "images/page_5_equation_16.jpg",
+          "content": "average speed  = \\frac{ total distance truelevel }{ time interval } = \\frac{50   m }{50   s } = 1   m   s ^{-1}"
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.647,
+            0.599,
+            0.956,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.647,
+                0.599,
+                0.956,
+                0.711
+              ],
+              "image_path": "images/page_5_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.142,
+            0.702,
+            0.57,
+            0.74
+          ],
+          "image_path": "images/page_5_equation_18.jpg",
+          "content": "average velocity  = \\frac{ displacement }{ time interval } = \\frac{0   m }{50   s } = 0   m   s ^{-1}"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.716,
+            0.717,
+            0.892,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 4.7: Swimming pool"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.108,
+            0.745,
+            0.774,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "During the 50 s time interval, the average speed of Sarang is approximately 1 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " while his average velocity is 0 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.132,
+            0.786,
+            0.193,
+            0.818
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.132,
+                0.786,
+                0.193,
+                0.818
+              ],
+              "image_path": "images/page_5_image_21.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 22,
+          "bbox": [
+            0.13,
+            0.788,
+            0.388,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Pause and Ponder"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.136,
+            0.824,
+            0.915,
+            0.858
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. During a family road trip, you drive 200 km north in three hours. Afterwards, you drive 200 km south in two hours. Find the average speed and average velocity for your entire trip."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.138,
+            0.859,
+            0.414,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Under what condition(s) is the"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.164,
+            0.875,
+            0.766,
+            0.891
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) magnitude of average velocity of an object equal to its average speed?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.161,
+            0.89,
+            0.871,
+            0.908
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) magnitude of average velocity of an object zero while its average speed is not zero?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

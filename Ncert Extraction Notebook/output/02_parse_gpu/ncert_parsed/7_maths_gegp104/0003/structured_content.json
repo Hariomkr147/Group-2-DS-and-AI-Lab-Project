@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.562,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "Expressions Using Letter-Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.085,
+            0.826,
+            0.11
+          ],
+          "content": "？ How much should she pay if she buys 10 coconuts and 5 kg jaggery?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.117,
+            0.474,
+            0.136
+          ],
+          "content": "Cost of 10 coconuts = 10 × ₹35"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.136,
+            0.465,
+            0.155
+          ],
+          "content": "Cost of 5 kg jaggery = 5 × ₹60"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.175,
+            0.155,
+            0.68,
+            0.174
+          ],
+          "content": "Total cost  = 10 \\times \\bar{x}35 + 5 \\times \\bar{x}60 = \\bar{x}350 + \\bar{x}300 = \\bar{x}650.",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.182,
+            0.815,
+            0.207
+          ],
+          "content": "？ How much should she pay if she buys 8 coconuts and 9 kg jaggery?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.224,
+            0.848,
+            0.266
+          ],
+          "content": "？ Write an algebraic expression to find the total amount to be paid for a given number of coconuts and quantity of jaggery."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.274,
+            0.811,
+            0.294
+          ],
+          "content": "Let us identify the relationships and then write the expressions."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.184,
+            0.304,
+            0.814,
+            0.45
+          ],
+          "content": "| Quantity needed | Relationship | Expression |\n| --- | --- | --- |\n| Cost of coconuts | Number of coconuts × 35 | c × 35 |\n| Cost of jaggery | Number of kgs of jaggery × 60 | j × 60 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.461,
+            0.847,
+            0.5
+          ],
+          "content": "Here, ‘c’ represents the number of coconuts and ‘j’ represents the number of kgs of jaggery. The total amount to be paid will be:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.33,
+            0.503,
+            0.667,
+            0.524
+          ],
+          "content": "Cost of coconuts + Cost of jaggery."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.527,
+            0.733,
+            0.548
+          ],
+          "content": "The corresponding algebraic expression can be written as:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43,
+            0.551,
+            0.571,
+            0.572
+          ],
+          "content": "c \\times 35 + j \\times 60",
+          "image_source": "images/page_2_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.586,
+            0.847,
+            0.627
+          ],
+          "content": "Use this expression (or formula) to find the total amount to be paid for 7 coconuts and 4 kg jaggery."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.635,
+            0.847,
+            0.673
+          ],
+          "content": "Notice that for different values of ‘c’ and ‘j’, the value of the expression also changes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.673,
+            0.666,
+            0.693
+          ],
+          "content": "Writing this expression as a sum of terms we get:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.411,
+            0.695,
+            0.588,
+            0.717
+          ],
+          "content": "\\boxed { \\quad c \\times 3 5 \\quad } + \\quad \\boxed { \\quad j \\times 6 0 \\quad }",
+          "image_source": "images/page_2_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.723,
+            0.847,
+            0.764
+          ],
+          "content": "？ **Example 4:** We are familiar with calculating the perimeters of simple shapes. Write expressions for perimeters."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.768,
+            0.847,
+            0.808
+          ],
+          "content": "The perimeter of a square is **4 times the length of its side**. This can be written as the expression: **4 × q**, where q stands for the sidelength."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.814,
+            0.847,
+            0.855
+          ],
+          "content": "？ What is the perimeter of a square with sidelength 7 cm? Use the expression to find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.864,
+            0.849,
+            0.904
+          ],
+          "content": "You must have realised how the use of letter-numbers and algebraic expressions allows us to express general mathematical relations in"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.938,
+            0.84,
+            0.955
+          ],
+          "content": "83"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

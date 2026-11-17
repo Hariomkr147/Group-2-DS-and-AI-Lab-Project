@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 31,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 31,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.085,
+            0.881,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.7. Choose a number between 210 and 390. Create a number pattern similar to those shown in Section 3.9 that will sum up to this number.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.118,
+            0.121,
+            0.359,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans. Number Chosen: 250"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.15,
+            0.633,
+            0.43
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 2,
+              "bbox": [
+                0.115,
+                0.15,
+                0.633,
+                0.43
+              ],
+              "image_path": "images/page_31_table_2.jpg",
+              "content": "<table><tr><td colspan=\"4\">25</td><td colspan=\"4\">25</td></tr><tr><td>50</td><td></td><td>50</td><td></td><td>50</td><td></td><td></td><td></td></tr><tr><td></td><td>25</td><td></td><td></td><td>25</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Or</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td>10</td><td></td><td>10</td><td>10</td><td></td><td>10</td></tr><tr><td>10</td><td></td><td>10</td><td></td><td>10</td><td></td><td>10</td><td>10</td></tr><tr><td>10</td><td></td><td>10</td><td></td><td>10</td><td></td><td>10</td><td>10</td></tr><tr><td>10</td><td></td><td>10</td><td></td><td>10</td><td>10</td><td></td><td>10</td></tr><tr><td>10</td><td></td><td>10</td><td></td><td>10</td><td></td><td>10</td><td>10</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.117,
+            0.444,
+            0.881,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.8. Recall the sequence of Powers of 2 from Chapter 1, Table 1. Why is the Collatz conjecture correct for all the starting numbers in this sequence?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.117,
+            0.48,
+            0.882,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans. when we divide "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2^{8} = 2x2x2x2x2x2x2x2"
+            },
+            {
+              "type": "text",
+              "content": " by 2 it become "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { 7 }"
+            },
+            {
+              "type": "text",
+              "content": " and every time you divide by 2 the same will continue happening, until you are left with 2 which when divided by 2 will leave 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.116,
+            0.55,
+            0.737,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.9. Check if the Collatz Conjecture holds for the starting number 100.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.117,
+            0.568,
+            0.88,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans. 100, 50, 25, 76, 38, 19, 58, 29, 88, 44, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.621,
+            0.88,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.10 Starting with 0, players alternate adding numbers between 1 and 3. The first person to reach 22 wins. What is the winning strategy now?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.117,
+            0.658,
+            0.515,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans. Winning strategy is to be the first player."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 9,
+          "bbox": [
+            0.482,
+            0.926,
+            0.518,
+            0.942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[13]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

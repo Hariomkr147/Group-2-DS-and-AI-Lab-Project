@@ -1,0 +1,35 @@
+![](images/page_10_image_0.jpg)
+
+# 2.4 How Are We Connected to Microbes?
+
+![](images/page_10_image_2.jpg)
+
+Fig. 2.9: Fruit with microorganism growing on it
+
+Can we find microorganisms in other places, too? Let us have a discussion:
+
+Have you ever seen a lemon, tomato, orange, or any other food item rot after being left outside for some time? If yes, you may have noticed a powdery or cotton-like growth on them (Fig. 2.9). This happens because they have been infected by microbes. But where did these microbes come from? How did they come in contact with the food?
+
+This happens because microorganisms can be found everywhere, be it in water, soil, air, or even in some food items.
+
+![](images/page_10_image_7.jpg)
+
+But why do microorganisms not infect the pickles and murabbas?
+
+This is because you add many spices with salt or sugar to it which act as preservatives. High concentration of salt or sugar do not allow these o<u>rganisms to grow on them.</u>
+
+You can use a microscope to explore surfaces of leaves, stems, roots, or any other part to see them. Like plants and animals, microorganisms also show great diversity. Some of them can even be found in extreme climatic conditions, such as hot water springs and snow
+
+cold zones as well as at moderate temperatures. You already know some of these organisms live inside our bodies, especially in our gut! You have studied in the chapter ‘Life Processes in Animals’ in Curiosity, Grade 7 that our intestine has many bacteria that help in digestion. Like plants and animals, microorganisms vary in shape, size, and structure. In Tables 2.1 and 2.2, you would have observed microorganisms of different shapes—spherical, rod-shape, or irregular.
+
+How does the diversity of microorganisms play a role in our daily life? How do they help clean the environment?
+
+## 2.4.1 Key players in cleaning the environment
+
+Let us attempt to understand this by doing an activity.
+
+## Activity 2.7: Let us do
+
+z Take an empty container and fill it halfway with garden soil.
+
+z Add some fruit and vegetable peels to the container. Thereafter, put a layer of soil on it and leave it aside.

@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.947,
+            0.05,
+            0.981,
+            0.069
+          ],
+          "content": "25"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.085,
+            0.569,
+            0.11
+          ],
+          "level": 2,
+          "content": "3.2 A Simple Electrical Circuit"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.129,
+            0.744,
+            0.168
+          ],
+          "content": "To understand how a torch works, let us first find out about its components."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.179,
+            0.339,
+            0.201
+          ],
+          "level": 2,
+          "content": "3.2.1 Electric cell"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.218,
+            0.41,
+            0.238
+          ],
+          "level": 2,
+          "content": "Activity 3.2: Let us observe"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.251,
+            0.616,
+            0.363
+          ],
+          "content": "Take an electric cell, turn it around and look at it carefully (Fig. 3.2). Do you notice a positive (+) sign and a negative (–) sign marked on the electric cell? Do you also notice that it has a small protruding metal cap on one side and a flat metal disc on the other side?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.621,
+            0.223,
+            0.926,
+            0.33
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.69,
+                0.336,
+                0.878,
+                0.353
+              ],
+              "content": "Fig. 3.2: An electric cell"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.367,
+            0.744,
+            0.444
+          ],
+          "content": "All electric cells have two terminals; one is called positive (+ ve) while the other is negative (– ve). The metal cap is the **positive terminal** of the electric cell and the metal disc is the **negative terminal**. The electric cell is a portable source of electrical energy."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.455,
+            0.29,
+            0.477
+          ],
+          "level": 2,
+          "content": "3.2.2 Battery"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.496,
+            0.446,
+            0.52
+          ],
+          "content": "**Activity 3.3: Let us experiment**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.498,
+            0.457,
+            0.736,
+            0.528
+          ],
+          "continues_prev": true,
+          "content": "In a torch, we generally use more than one cell. Are those placed in any particular order?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.749,
+            0.413,
+            0.882,
+            0.552
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.536,
+            0.743,
+            0.573
+          ],
+          "content": "Take a torch which uses two cells. Open its cell compartment and take out the cells."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.578,
+            0.744,
+            0.635
+          ],
+          "content": "Put the cells back in a different order. Also, try reversing the direction of one cell. Then, slide the switch and check whether the lamp glows in each case."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.639,
+            0.743,
+            0.678
+          ],
+          "content": "X Check the order in which the cells were placed in the torch when the lamp glows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.682,
+            0.744,
+            0.775
+          ],
+          "content": "The lamp glows when the cells are placed in the order as shown in Fig. 3.3. Notice how the terminals of the two cells are connected. The positive terminal of one cell is connected to the negative terminal of the next cell. Such a combination of two or more cells is called a **battery**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.123,
+            0.78,
+            0.732,
+            0.887
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.418,
+                0.884,
+                0.446,
+                0.899
+              ],
+              "content": "(b)"
+            },
+            {
+              "bbox": [
+                0.209,
+                0.901,
+                0.648,
+                0.92
+              ],
+              "content": "Fig. 3.3: A battery made up of (a) two cells (b) four cells"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_17.jpg"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.956,
+            0.124,
+            0.98,
+            0.401
+          ],
+          "content": "Electricity: Circuits and their Components"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-04-03T16:51:20+05:30",
+      "modified_at": "2026-03-27T13:54:26+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 18,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

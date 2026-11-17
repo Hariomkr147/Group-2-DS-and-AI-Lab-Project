@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.593,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The World of Algorithms"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "47"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.111,
+            0.882,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we solve it? We apply the same strategy: reduce it to gcd(x, y) where x = min(n, m – n) and y is the difference between n and m – n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.115,
+            0.168,
+            0.882,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When do we stop? Suppose we compute the gcd of a number with itself, say gcd(23, 23). The answer should clearly be 23. When we reduce this we get gcd(23, 0). In other words, if we reach gcd(m, 0), the answer is m."
+            }
+          ]
+        },
+        {
+          "type": "code",
+          "index": 4,
+          "bbox": [
+            0.121,
+            0.257,
+            0.877,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 4,
+              "bbox": [
+                0.121,
+                0.257,
+                0.877,
+                0.362
+              ],
+              "content": "Euclid’s algorithm for gcd(m,n)\n1. If m < n, reverse the numbers and compute gcd(n,m)\n2. If n = 0, report the answer as m"
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.116,
+            0.374,
+            0.881,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us apply this algorithm to gcd(375, 825), the problem that we saw before."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.144,
+            0.417,
+            0.881,
+            0.457
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 375 < 825, Step 1 asks us to reverse the numbers and compute gcd(825, 375)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.145,
+            0.461,
+            0.881,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 825 – 375 = 450, Step 3 asks us to reduce the problem to computing gcd(375, 450)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.145,
+            0.505,
+            0.881,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 375 < 450, Step 1 asks us to reverse the numbers and compute gcd(450, 375)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.145,
+            0.549,
+            0.862,
+            0.571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(375, 75)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.145,
+            0.574,
+            0.863,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(75, 300)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.145,
+            0.599,
+            0.881,
+            0.639
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 75 < 300, Step 1 asks us to reverse the numbers and compute gcd(300, 75)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.145,
+            0.643,
+            0.862,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(75, 225)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.145,
+            0.668,
+            0.881,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 75 < 225, Step 1 asks us to reverse the numbers and compute gcd(225, 75)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.145,
+            0.713,
+            0.862,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(75, 150)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.145,
+            0.737,
+            0.881,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since 75 < 150, Step 1 asks us to reverse the numbers and compute gcd(150, 75)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.144,
+            0.781,
+            0.85,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(75, 75)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.145,
+            0.806,
+            0.838,
+            0.828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Step 3 asks us to reduce the problem to computing gcd(75, 0)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.145,
+            0.831,
+            0.642,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Since n = 0, Step 2 tells us the answer is 75."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.115,
+            0.856,
+            0.882,
+            0.917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the example above, we reduced the problem 7 times before finding the answer. Are we close to our original goal of finding an algorithm where the effort is proportional to the number of digits? Unfortunately, no."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

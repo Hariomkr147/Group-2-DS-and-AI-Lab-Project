@@ -1,0 +1,23 @@
+## Preparation for night sky watching
+
+ Under the guidance of adults, identify a dark open area for night sky watching. This should be away from lights, tall buildings and trees.
+
+ With the help of an app, choose the date and time based upon what you plan to identify in the night sky.
+
+ Choose a night where neither the Moon nor the clouds are visible particularly for identifying the Pole Star which is not very bright.
+
+It may be useful to have access to a mobile app with a map of the sky, or print out images of the constellations you plan to view. You may also carry a magnetic compass to find directions and a notebook to note or draw your observations.
+
+![](images/page_6_image_5.jpg)
+
+ On the particular day and time selected, go to the identified place with an adult, where the night sky watching is to be done.
+
+After reaching there, wait for about half an hour for your eyes to get adjusted to the darkness. This will help you to see the night sky better (Fig. 12.5).
+
+Caution Do not go to a dark open place at night time without adults accompanying you.
+
+![](images/page_6_image_9.jpg)
+
+Fig. 12.5: Night sky watching
+
+You may easily identify the Big Dipper and the Pole Star in the night sky.

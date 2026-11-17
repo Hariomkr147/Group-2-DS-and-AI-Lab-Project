@@ -1,0 +1,215 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": "INTRODUCTION TO TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "125"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.162,
+            0.897,
+            0.552
+          ],
+          "content": "|  A | 0° | 30° | 45° | 60° | 90° |\n| --- | --- | --- | --- | --- | --- |\n| sin A cos A tan A cosec A sec A cot A | 010Not defined1Not defined | 1232132233 | 12121221 | 3212323213 | 10Not defined1Not defined0 |",
+          "captions": [
+            {
+              "bbox": [
+                0.447,
+                0.138,
+                0.552,
+                0.156
+              ],
+              "content": "Table 8.1"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.096,
+                0.559,
+                0.901,
+                0.598
+              ],
+              "content": "Remark : From the table above you can observe that as $\\angle \\mathrm { A }$ increases from $0 ^ { \\circ }$ to $9 0 ^ { \\circ }$ , sin A increases from 0 to 1 and cos A decreases from 1 to 0."
+            },
+            {
+              "bbox": [
+                0.146,
+                0.604,
+                0.9,
+                0.624
+              ],
+              "content": "Let us illustrate the use of the values in the table above through some examples."
+            }
+          ],
+          "image_source": "images/page_12_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.636,
+            0.592,
+            0.695
+          ],
+          "content": "**Example 6 :** In $\\Delta \\mathrm { A B C }$ , right-angled at B, $\\mathrm { A B }   =   5$ cm and $\\angle ACB = 30^{\\circ}$ (see Fig. 8.19). Determine the lengths of the sides BC and AC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.7,
+            0.594,
+            0.778
+          ],
+          "content": "**Solution :** To find the length of the side BC, we will choose the trigonometric ratio involving BC and the given side AB. Since BC is the side adjacent to angle C and AB is the side opposite to angle C, therefore"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.612,
+            0.641,
+            0.899,
+            0.752
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.707,
+                0.758,
+                0.806,
+                0.777
+              ],
+              "content": "Fig. 8.19"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_12_image_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.785,
+            0.501,
+            0.827
+          ],
+          "content": "{ \\frac { \\mathrm { A B } } { \\mathrm { B C } } } = \\tan \\mathrm { C }",
+          "image_source": "images/page_12_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.847,
+            0.14,
+            0.865
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37,
+            0.833,
+            0.575,
+            0.875
+          ],
+          "content": "\\frac{5}{BC} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.881,
+            0.217,
+            0.901
+          ],
+          "content": "which gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.377,
+            0.878,
+            0.53,
+            0.902
+          ],
+          "content": "\\mathrm{BC} = 5\\sqrt{3}    cm",
+          "image_source": "images/page_12_equation_14.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

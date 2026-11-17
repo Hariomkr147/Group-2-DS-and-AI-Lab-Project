@@ -1,0 +1,313 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.105,
+            0.127,
+            0.119
+          ],
+          "content": "54"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.902,
+            0.197
+          ],
+          "content": "Note that to find d in the AP : 6, 3, 0, – 3, . . ., we have subtracted 6 from 3 and not 3 from 6, i.e., we should subtract the kth term from the (k + 1) th term even if the (k + 1) th term is smaller."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.204,
+            0.736,
+            0.224
+          ],
+          "content": "Let us make the concept more clear through some examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.239,
+            0.901,
+            0.297
+          ],
+          "content": "**Example 1 :** For the $\\mathrm{AP}:\\frac{3}{2},\\frac{1}{2},-\\frac{1}{2},-\\frac{3}{2}$ , write the first term a and the common difference d."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.309,
+            0.545,
+            0.35
+          ],
+          "content": "**Solution :** Here, $a = \\frac{3}{2}, d = \\frac{1}{2} - \\frac{3}{2} = - 1.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.36,
+            0.901,
+            0.398
+          ],
+          "content": "the numbers are in AP."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.411,
+            0.901,
+            0.451
+          ],
+          "content": "**Example 2 :** Which of the following list of numbers form an AP? If they form an AP, write the next two terms :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.455,
+            0.677,
+            0.476
+          ],
+          "content": "(i) 4, 10, 16, 22, . . . (ii) $1,-1,-3,-5,$ . ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.481,
+            0.73,
+            0.501
+          ],
+          "content": "(iii) – 2, 2, – 2, 2, – 2, . . . (iv) 1, 1, 1, 2, 2, 2, 3, 3, 3, . . ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.506,
+            0.573,
+            0.527
+          ],
+          "content": "**Solution :** (i) We have $a_{2}-a_{1}=10-4=6$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.532,
+            0.575,
+            0.552
+          ],
+          "content": "a_{3}-a_{2}=16-10=6",
+          "image_source": "images/page_5_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.557,
+            0.577,
+            0.578
+          ],
+          "content": "a_{4}-a_{3}=22-16=6",
+          "image_source": "images/page_5_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.583,
+            0.482,
+            0.604
+          ],
+          "content": "i.e., $a _ { { } _ { k \\; + \\; 1 } } - a _ { { } _ { k } }$ is the same every time."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.607,
+            0.834,
+            0.626
+          ],
+          "content": "So, the given list of numbers forms an AP with the common difference $d = 6$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.632,
+            0.609,
+            0.651
+          ],
+          "content": "The next two terms are: $22 + 6 = 28$ and $28+6=34.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.657,
+            0.398,
+            0.676
+          ],
+          "content": "(ii) $a_{2}-a_{1}=-1-1=-2$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.158,
+            0.679,
+            0.532,
+            0.7
+          ],
+          "content": "a_{3}-a_{2}=-3-(-1)=-3+1=-2",
+          "image_source": "images/page_5_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.16,
+            0.704,
+            0.527,
+            0.725
+          ],
+          "content": "a_{4}-a_{3}=-5-(-3)=-5+3=-2",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.73,
+            0.48,
+            0.751
+          ],
+          "content": "i.e., $a _ { { } _ { k \\; + \\; 1 } } - a _ { { } _ { k } }$ is the same every time."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.754,
+            0.885,
+            0.797
+          ],
+          "content": "So, the given list of numbers forms an AP with the common difference $d = - 2$ The next two terms are:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.245,
+            0.802,
+            0.719,
+            0.821
+          ],
+          "content": "-5+(-2)=-7\\qquad and \\qquad-7+(-2)=-9",
+          "image_source": "images/page_5_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.826,
+            0.445,
+            0.846
+          ],
+          "content": "(iii) $a_{2}-a_{1}=2-(-2)=2+2=4$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.851,
+            0.375,
+            0.871
+          ],
+          "content": "a_{3}-a_{2}=-2-2=-4",
+          "image_source": "images/page_5_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.873,
+            0.764,
+            0.894
+          ],
+          "content": "As $a_{_2}-a_{_1}\\ne a_{_3}-a_{_2}$ , the given list of numbers does not form an AP."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

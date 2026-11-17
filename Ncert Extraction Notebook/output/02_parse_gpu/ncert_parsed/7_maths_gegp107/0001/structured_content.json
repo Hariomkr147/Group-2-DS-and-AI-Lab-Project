@@ -1,0 +1,199 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.107,
+            0.048,
+            0.726,
+            0.194
+          ],
+          "level": 1,
+          "content": "A TALE OF THREE INTERSECTING LINES"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.783,
+            0.06,
+            0.904,
+            0.147
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.82,
+                0.152,
+                0.868,
+                0.162
+              ],
+              "content": "0774CH07"
+            }
+          ],
+          "image_source": "images/page_0_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.296,
+            0.822,
+            0.316
+          ],
+          "content": "A triangle is the most basic closed shape. As we know, it consists of:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.321,
+            0.825,
+            0.341
+          ],
+          "content": "• three corner points, that we call the vertex of the triangle, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.345,
+            0.848,
+            0.38
+          ],
+          "content": "three line segments or the sides of the triangle that join the pairs of vertices."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.381,
+            0.833,
+            0.401
+          ],
+          "content": "Triangles come in various shapes. Some of them are shown below."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.163,
+            0.407,
+            0.837,
+            0.576
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.587,
+            0.847,
+            0.642
+          ],
+          "content": "Observe the symbol used to denote a triangle and how the triangles are named using their vertices. While naming a triangle, the vertices can come in any order."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.642,
+            0.848,
+            0.718
+          ],
+          "content": "The three sides meeting at the corners give rise to three angles that we call the angles of the triangle. For example, in ∆ABC, these angles are $\\angle CAB , \\angle ABC , \\angle BCA$ which we simply denote as $\\angle \\mathrm { A } ,   \\angle \\mathrm { B }$ and $\\angle \\complement ,$ respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.725,
+            0.751,
+            0.748
+          ],
+          "content": "What happens when the three vertices lie on a straight line?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.781,
+            0.497,
+            0.807
+          ],
+          "level": 2,
+          "content": "7.1 Equilateral Triangles"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.816,
+            0.848,
+            0.873
+          ],
+          "content": "Among all the triangles, the equilateral triangles are the most symmetric ones. These are triangles in which all the sides are of equal lengths. Let us try constructing them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.881,
+            0.753,
+            0.904
+          ],
+          "content": "? Construct a triangle in which all the sides are of length 4 cm."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

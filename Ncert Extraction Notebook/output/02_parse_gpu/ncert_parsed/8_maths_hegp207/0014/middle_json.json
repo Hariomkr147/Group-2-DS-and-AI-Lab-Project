@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.815,
+            0.049,
+            0.861,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.09,
+            0.332,
+            0.113
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Parallelogram"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.121,
+            0.846,
+            0.161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can derive a special formula for the area of a parallelogram by converting it into a rectangle of equal area."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.112,
+            0.17,
+            0.844,
+            0.214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Give a method to convert a parallelogram into a rectangle of equal area. You can try this using a cut-out of a parallelogram."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.214,
+            0.845,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Construct AX perpendicular to CD — represented in short as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AX  \\perp  CD"
+            },
+            {
+              "type": "text",
+              "content": " We call this a "
+            },
+            {
+              "type": "text",
+              "content": "height",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the parallelogram. Cut the parallelogram into ∆AXD and trapezium ABCX."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.225,
+            0.273,
+            0.459,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.225,
+                0.273,
+                0.459,
+                0.386
+              ],
+              "image_path": "images/page_13_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.508,
+            0.273,
+            0.772,
+            0.419
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.508,
+                0.273,
+                0.772,
+                0.419
+              ],
+              "image_path": "images/page_13_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.424,
+            0.846,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Can ∆AXD and ABCX fit together, as shown in the figure, to get a rectangle?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.45,
+            0.845,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One simple way to check this is to identify the triangle that can complete ABCX to a rectangle, and then check if this triangle is congruent to ∆AXD."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.314,
+            0.493,
+            0.668,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.314,
+                0.493,
+                0.668,
+                0.61
+              ],
+              "image_path": "images/page_13_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.15,
+            0.616,
+            0.847,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle X = 90^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " , and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle A = 90^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " , since AB‖XC. We need another right angle to get a rectangle (what about the fourth angle?). To get the third right angle, extend XC to the right and then construct a line perpendicular to XC that passes through B. The ∆BYC completes ABCX to a rectangle. Is ∆AXD congruent to it?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.335,
+            0.713,
+            0.676,
+            0.732
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BY = AX (since ABYX is a rectangle)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.337,
+            0.732,
+            0.528,
+            0.749
+          ],
+          "image_path": "images/page_13_equation_12.jpg",
+          "content": "\\angle BTC = \\angle AAD = 90^{\\circ}"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.335,
+            0.75,
+            0.726,
+            0.769
+          ],
+          "image_path": "images/page_13_equation_13.jpg",
+          "content": "\\mathrm{BC} = \\mathrm{AD} (  since ABCD is a parallellogram  )"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.773,
+            0.847,
+            0.83
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, by the RHS congruency criterion, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm{BYC} \\cong \\Delta \\mathrm{AXD}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, ∆AXD will fit exactly over the region occupied by ∆BYC, and convert the parallelogram into a rectangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.834,
+            0.846,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The process of cutting a figure into pieces and rearranging them to get a different figure of equal area is called "
+            },
+            {
+              "type": "text",
+              "content": "dissection.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.871,
+            0.913,
+            0.917,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "161"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

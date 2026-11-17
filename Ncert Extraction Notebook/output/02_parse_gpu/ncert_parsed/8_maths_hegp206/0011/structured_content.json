@@ -1,0 +1,258 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.753,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": "Algebra Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.088,
+            0.846,
+            0.127
+          ],
+          "content": "？ If we choose other 2-digit numbers, and follow the steps, will there always be no remainder?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.131,
+            0.625,
+            0.15
+          ],
+          "content": "Let’s try to understand how Mukta’s trick works."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.149,
+            0.846,
+            0.186
+          ],
+          "content": "Suppose the two-digit number is ab. When it is reversed, the new number is ba."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.191,
+            0.602,
+            0.211
+          ],
+          "content": "• If $b \\geq a ,$ then ba > ab. So, the difference is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.215,
+            0.394,
+            0.235
+          ],
+          "content": "( 1 0 b + a ) - ( 1 0 a + b )",
+          "image_source": "images/page_10_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.24,
+            0.384,
+            0.259
+          ],
+          "content": "= 1 0 b - b - 1 0 a + a",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.264,
+            0.393,
+            0.282
+          ],
+          "content": "= 9 b - 9 a = 9 ( b - a ) .",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.289,
+            0.457,
+            0.309
+          ],
+          "content": "The difference is divisible by 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.311,
+            0.551,
+            0.335
+          ],
+          "content": "Can you work out what happens if $a \\geq b ?$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.346,
+            0.294,
+            0.369
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.372,
+            0.847,
+            0.411
+          ],
+          "content": "1. In the trick given above, what is the quotient when you divide by 9? Is there a relationship between the two numbers and the quotient?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.42,
+            0.845,
+            0.459
+          ],
+          "content": "2. In the trick given above, instead of finding the difference of the two 2-digit numbers, find their sum. What will happen? For example:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.462,
+            0.845,
+            0.501
+          ],
+          "content": "• We start with 31. After reversing we get 13. Adding 31 and 13, we get 44."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.505,
+            0.845,
+            0.543
+          ],
+          "content": "• We start with 28. After reversing we get 82. Adding 28 and 82, we get 110."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.546,
+            0.845,
+            0.585
+          ],
+          "content": "• We start with 12. After reversing we get 21. Adding 12 and 21, we get 33."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.186,
+            0.589,
+            0.846,
+            0.628
+          ],
+          "content": "Observe that all these numbers are divisible by 11. Is this always true? Can we justify this claim using algebra?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.637,
+            0.804,
+            0.75
+          ],
+          "content": "3. Consider any 3-digit number, say abc (100a + 10b + c). Make two other 3-digit numbers from these digits by cycling these digits around, yielding bca and cab. Now add the three numbers. Using algebra, justify that the sum is always divisible by 37. Will it also always be divisible by 3? [**Hint:** Look at some multiples of 37.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.758,
+            0.804,
+            0.836
+          ],
+          "content": "4. Consider any 3-digit number, say abc. Make it a 6-digit number by repeating the digits, that is abcabc. Divide this number by 7, then by 11, and finally by 13. What do you get? Try this with other numbers. Figure out why it works. [**Hint:** Multiply 7, 11 and 13.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.843,
+            0.805,
+            0.938
+          ],
+          "content": "5. There are 3 shrines, each with a magical pond in the front. If anyone dips flowers into these magical ponds, the number of flowers doubles. A person has some flowers. He dips them all in the first pond and then places some flowers in shrine 1. Next, he dips the remaining flowers in the second pond and places"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.914,
+            0.917,
+            0.935
+          ],
+          "content": "145"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

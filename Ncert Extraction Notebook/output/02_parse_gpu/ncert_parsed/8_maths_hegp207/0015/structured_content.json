@@ -1,0 +1,234 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.047,
+            0.42,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.087,
+            0.581,
+            0.151
+          ],
+          "content": "？ How do we find the area of a parallelogram by dissecting it into a rectangle? We have"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.154,
+            0.641,
+            0.194
+          ],
+          "content": "Area of the parallelogram ABCD = Area of the rectangle ABYX."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.197,
+            0.57,
+            0.243
+          ],
+          "content": "Area of the rectangle ABYX = AX × XY. AX is the height of the parallelogram."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.658,
+            0.093,
+            0.898,
+            0.216
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.253,
+            0.536,
+            0.277
+          ],
+          "content": "Is there a relation between XY and DC?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.279,
+            0.848,
+            0.319
+          ],
+          "content": "Since DX = CY, we get DC = XY by adding the common part XC to DX and CY. Since DC is the base of the parallelogram, we get"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.296,
+            0.332,
+            0.7,
+            0.353
+          ],
+          "content": "Area of the parallelogram = base × height."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.4,
+            0.518,
+            0.479
+          ],
+          "content": "Can the area of the parallelogram be determined by taking another side as the base and its corresponding height?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.529,
+            0.378,
+            0.847,
+            0.499
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.508,
+            0.846,
+            0.549
+          ],
+          "content": "? Can the parallelogram be cut along CZ and rearranged to form a rectangle?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.551,
+            0.847,
+            0.591
+          ],
+          "content": "It can be seen that this is indeed possible, and so any side and its corresponding height can be used to find the area of a parallelogram."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.6,
+            0.295,
+            0.622
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.625,
+            0.653,
+            0.646
+          ],
+          "content": "1. Observe the parallelograms in the figure below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.655,
+            0.828,
+            0.676
+          ],
+          "content": "(i) What can we say about the areas of all these parallelograms?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.679,
+            0.847,
+            0.736
+          ],
+          "content": "(ii) What can we say about their perimeters? Which figure appears to have the maximum perimeter, and which has the minimum perimeter?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.199,
+            0.738,
+            0.801,
+            0.914
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.913,
+            0.13,
+            0.935
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,223 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.046,
+            0.364,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.088,
+            0.443,
+            0.112
+          ],
+          "content": "**Order of Multiplication**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.196,
+            0.386,
+            0.234
+          ],
+          "content": "We know that ${ \\frac { 1 } { 2 } } \\times { \\frac { 1 } { 4 } } = { \\frac { 1 } { 8 } } .$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.634,
+            0.126,
+            0.843,
+            0.298
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.152,
+            0.302,
+            0.364,
+            0.472
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.394,
+            0.414,
+            0.596,
+            0.489
+          ],
+          "content": "Now, what is $\\frac{1}{4} \\times \\frac{1}{2} ;$ That is $\\frac{1}{8}$ too."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.545,
+            0.848,
+            0.583
+          ],
+          "content": "In general, note that the area of a rectangle remains the same even if the length and breadth are interchanged."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.582,
+            0.672,
+            0.603
+          ],
+          "content": "The order of multiplication does not matter. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.432,
+            0.616,
+            0.563,
+            0.652
+          ],
+          "content": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{c}{d} \\times \\frac{a}{b}.",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.663,
+            0.848,
+            0.701
+          ],
+          "content": "This can also be seen from Brahmagupta’s formula for multiplying fractions."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.725,
+            0.495,
+            0.749
+          ],
+          "level": 2,
+          "content": "8.2 Division of Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.758,
+            0.537,
+            0.815
+          ],
+          "content": "What is $12 \\div 4?$ You know this already. But can this problem be restated as a multiplication problem?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.814,
+            0.536,
+            0.853
+          ],
+          "content": "What should be multiplied by 4 to get 12? That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.294,
+            0.862,
+            0.393,
+            0.881
+          ],
+          "content": "4 \\times ? = 1 2",
+          "image_source": "images/page_13_equation_13.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.6,
+            0.752,
+            0.845,
+            0.84
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.154,
+            0.938,
+            0.194,
+            0.955
+          ],
+          "content": "186"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:22+05:30",
+      "modified_at": "2026-04-07T17:16:32+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

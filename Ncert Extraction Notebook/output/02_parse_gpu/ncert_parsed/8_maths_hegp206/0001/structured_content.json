@@ -1,0 +1,257 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.796,
+            0.262,
+            1.0,
+            0.279
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.003,
+            1.0,
+            0.252
+          ],
+          "content": "ALGEBRA PLAY 口0889CH06"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.263,
+            0.204,
+            0.279
+          ],
+          "content": "个个个个个个个个个个个个个个"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.331,
+            0.378,
+            0.356
+          ],
+          "level": 2,
+          "content": "6.1 Algebra Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.365,
+            0.848,
+            0.477
+          ],
+          "content": "Over the last two years, we have used algebra to model different situations. We have learned how to solve algebraic equations and find the values of unknown letter-numbers. Let’s now have some fun with algebra. We shall investigate tricks and puzzles, and explain why they work using algebra. We will also see how to invent new tricks and puzzles to entertain others."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.499,
+            0.786,
+            0.524
+          ],
+          "level": 2,
+          "content": "6.2 Thinking about ‘Think of a Number’ Tricks"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.533,
+            0.799,
+            0.554
+          ],
+          "content": "In Grade 7, we learned about ‘Think of a Number’ tricks, like this one."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.563,
+            0.397,
+            0.582
+          ],
+          "content": "1. Think of a number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.589,
+            0.307,
+            0.607
+          ],
+          "content": "2. Double it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.614,
+            0.303,
+            0.632
+          ],
+          "content": "3. Add four."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.639,
+            0.352,
+            0.658
+          ],
+          "content": "4. Divide by two."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.664,
+            0.645,
+            0.685
+          ],
+          "content": "5. Subtract the original number you thought of."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.695,
+            0.844,
+            0.735
+          ],
+          "level": 2,
+          "content": "？ I predict you get 2. Am I right? Try it out with different starting numbers. Do you always end up with the same value, 2? Why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.746,
+            0.741,
+            0.766
+          ],
+          "content": "We saw that we can understand such tricks through algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.776,
+            0.418,
+            0.795
+          ],
+          "content": "1. Think of a number: x"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.801,
+            0.337,
+            0.819
+          ],
+          "content": "2. Double it: 2x"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.826,
+            0.368,
+            0.844
+          ],
+          "content": "3. Add four: $2 x + 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.852,
+            0.378,
+            0.871
+          ],
+          "content": "4. Divide by $2 ; x + 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.877,
+            0.761,
+            0.897
+          ],
+          "content": "5. Subtract the original number you thought of: $x + 2 - x = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.902,
+            0.845,
+            0.94
+          ],
+          "content": "Therefore, no matter what the starting number is, the end result will always be 2!"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.707,
+            0.091,
+            0.835,
+            0.18
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

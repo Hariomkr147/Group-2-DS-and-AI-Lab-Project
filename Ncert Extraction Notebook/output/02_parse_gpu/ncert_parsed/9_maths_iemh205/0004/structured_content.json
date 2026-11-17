@@ -1,0 +1,258 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": "88"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.112,
+            0.848,
+            0.135
+          ],
+          "level": 2,
+          "content": "13.2 Solution of Linear Equation in Two Variables"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.146,
+            0.882,
+            0.204
+          ],
+          "content": "In earlier grades, we have seen how to solve linear equations in one variable. What can we say about the solution of a linear equation involving two variables?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.215,
+            0.579,
+            0.238
+          ],
+          "level": 2,
+          "content": "13.2.1 Algebraic Meaning of Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.247,
+            0.881,
+            0.287
+          ],
+          "content": "A **solution** of a linear equation in two variables is a pair of values of x and y which satisfy the given equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.287,
+            0.596,
+            0.306
+          ],
+          "content": "Let us consider the equation $3x + 2y = 12$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.306,
+            0.881,
+            0.344
+          ],
+          "content": "Here, x = 2 and y = 3 is a solution because substituting the values of x and y into the given equation satisfies the equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.344,
+            0.576,
+            0.363
+          ],
+          "content": "Note that, $3x + 2y = (3 \\times 2) + (2 \\times 3) = 12.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.364,
+            0.881,
+            0.44
+          ],
+          "content": "A solution can be written compactly as a pair of numbers. For example, the solution x = 2 and y = 3 can be written as (2, 3). The order of the numbers in this pair matters: the first number is the x-value, and the second number is the y-value. Hence we call this an **ordered pair**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.44,
+            0.88,
+            0.478
+          ],
+          "content": "Similarly, (4, 0) is also a solution of the equation 3x + 2y = 12 since substituting x = 4 and y = 0 leads to $3x + 2y = (3 \\times 4) + (2 \\times 0) = 12$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.478,
+            0.538,
+            0.496
+          ],
+          "content": "What about the ordered pair (1, 3)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.497,
+            0.874,
+            0.517
+          ],
+          "content": "We see that $3x+2y=3\\times \\frac{1}{2}+2\\times \\frac{1}{3}=9\\ne \\underline{12}.\\ \\underline{S}0,\\ (1,3)$ is not a solution."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.136,
+            0.534,
+            0.4,
+            0.556
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.568,
+            0.852,
+            0.61
+          ],
+          "content": "Are $\\left( 1 , \\frac { 9 } { 2 } \\right) , \\left( 0 , 6 \\right) , \\widehat { \\left( 4 , 1 \\right) }$ and $\\left( \\frac{1}{2}, \\frac{21}{4} \\right)$ solutions of the equation $3x + 2y = 12?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.613,
+            0.798,
+            0.634
+          ],
+          "content": "Can you find any other solution? How many solutions can you find?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.65,
+            0.882,
+            0.749
+          ],
+          "content": "Suppose we are given a linear equation in two variables. For any value u that we assign to x, we can find a value v for y such that (u, v) is a solution. We first substitute u for x in the equation. This gives us a new linear equation in y that can be solved to find v. This allows us to generate an infinite number of solutions to the original equation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.757,
+            0.658,
+            0.779
+          ],
+          "level": 2,
+          "content": "13.2.2 Geometric Visualisation of Solutions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.789,
+            0.881,
+            0.847
+          ],
+          "content": "Consider all the solutions of a linear equation in two variables, expressed as ordered pairs. What do we get when we plot the points corresponding to these ordered pairs?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.847,
+            0.643,
+            0.867
+          ],
+          "content": "The equation $3x + 2y = 12$ can be rewritten as"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.867,
+            0.822,
+            0.904
+          ],
+          "content": "$2y = - 3x + 12   or   y = - \\frac{3}{2}x + \\frac{12}{2}$ which is the same as $y = - \\frac{3}{2}x + 6$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

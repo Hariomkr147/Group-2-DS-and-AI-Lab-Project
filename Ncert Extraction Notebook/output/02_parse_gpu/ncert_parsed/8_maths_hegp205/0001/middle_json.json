@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.742,
+            0.186,
+            0.798,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0889CH05"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.0,
+            0.262,
+            0.204,
+            0.279
+          ],
+          "content": []
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.796,
+            0.262,
+            1.0,
+            0.279
+          ],
+          "content": []
+        },
+        {
+          "type": "header",
+          "index": 3,
+          "bbox": [
+            0.233,
+            0.081,
+            0.651,
+            0.174
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TALES BY DOTS AND LINES"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 4,
+          "bbox": [
+            0.708,
+            0.092,
+            0.834,
+            0.179
+          ],
+          "content": []
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.331,
+            0.45,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.1 The Balancing Act"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.365,
+            0.848,
+            0.421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Last year, we learnt about the mean and median. Recall that the mean of some data is the sum of all the values divided by the number of values in the data. The median is the middle value when the data is sorted."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.42,
+            0.847,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We shall try to understand the mean and median from a different perspective and see how the mean behaves with changing data."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.468,
+            0.846,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Consider any 2 numbers. Find their average/arithmetic mean. Repeat this by taking other pairs. What do you observe?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.51,
+            0.847,
+            0.588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, let the two numbers be 3 and 7. Their average is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 + 7 } { 2 } = 5"
+            },
+            {
+              "type": "text",
+              "content": " . Taking another pair of numbers, say 8 and 9, their average is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 8 + 9 } { 2 } = 8 . 5"
+            },
+            {
+              "type": "text",
+              "content": " . Visualising these as dot plots we get"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.315,
+            0.586,
+            0.584,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.315,
+                0.586,
+                0.584,
+                0.654
+              ],
+              "image_path": "images/page_0_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.598,
+            0.613,
+            0.692,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mean = 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.661,
+            0.799,
+            0.681
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that the mean is exactly halfway between the two numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.692,
+            0.847,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have learnt earlier that the arithmetic mean is a measure of central tendency and represents the ‘centre’ of the data. Let us see how the mean represents the ‘centre’ in the case of 3 numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.75,
+            0.755,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Calculate and mark the mean of each collection of data below."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.166,
+            0.784,
+            0.488,
+            0.845
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.166,
+                0.784,
+                0.488,
+                0.845
+              ],
+              "image_path": "images/page_0_image_15.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.538,
+            0.787,
+            0.831,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.538,
+                0.787,
+                0.831,
+                0.842
+              ],
+              "image_path": "images/page_0_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.166,
+            0.871,
+            0.488,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.166,
+                0.871,
+                0.488,
+                0.932
+              ],
+              "image_path": "images/page_0_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.537,
+            0.871,
+            0.833,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.537,
+                0.871,
+                0.833,
+                0.927
+              ],
+              "image_path": "images/page_0_image_18.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

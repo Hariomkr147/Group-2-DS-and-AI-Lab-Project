@@ -1,0 +1,464 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.454,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Math of Space: Surface Area and Volume"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "127"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.117,
+            0.112,
+            0.535,
+            0.135
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14.2 Right Circular Cylinder"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.115,
+            0.145,
+            0.882,
+            0.185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The following figures show different types of cylinders. What is different in each of these cylinders?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.297,
+            0.19,
+            0.404,
+            0.308
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.297,
+                0.19,
+                0.404,
+                0.308
+              ],
+              "image_path": "images/page_4_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 5,
+              "bbox": [
+                0.241,
+                0.322,
+                0.46,
+                0.341
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Right circular cylinder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.585,
+            0.189,
+            0.753,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.585,
+                0.189,
+                0.753,
+                0.309
+              ],
+              "image_path": "images/page_4_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 7,
+              "bbox": [
+                0.529,
+                0.321,
+                0.77,
+                0.341
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Oblique circular cylinder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.821,
+            0.307,
+            0.881,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.821,
+                0.307,
+                0.881,
+                0.358
+              ],
+              "image_path": "images/page_4_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.115,
+            0.358,
+            0.883,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first one is a "
+            },
+            {
+              "type": "text",
+              "content": "right circular cylinder",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The term circular indicates that the cross-section of the cylinder is a circle, while the term right signifies that the axis of the cylinder is perpendicular to its circular base. Many pipes have this shape. It is worth noting that not all cylinders are of this type. Some cylinders may have axes that are inclined rather than perpendicular to the base. The second one is an "
+            },
+            {
+              "type": "text",
+              "content": "oblique circular cylinder",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". We restrict ourselves to the study of the right circular cylinder only. You can cut out the net of a cylinder given at the end of the textbook, make appropriate folds and join the circles to form the cylinder."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.115,
+            0.531,
+            0.883,
+            0.647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We used the word "
+            },
+            {
+              "type": "text",
+              "content": "cross-section",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " above. Given a three-dimensional object, suppose we take an extremely thin slice of it. The shape we get is called a ‘cross-section’ of the object. In the case of a cylinder, if the slice is parallel to its base, we get a circular cross-section. But if the slice is parallel to the axis of the cylinder, we get a rectangular cross-section. Generally, we are interested in the cross-section that is parallel to the base."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.152,
+            0.646,
+            0.811,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Examples of cross-sections are shown in the following figure."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.421,
+            0.682,
+            0.554,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.421,
+                0.682,
+                0.554,
+                0.779
+              ],
+              "image_path": "images/page_4_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.168,
+            0.669,
+            0.394,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.168,
+                0.669,
+                0.394,
+                0.875
+              ],
+              "image_path": "images/page_4_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.669,
+            0.688,
+            0.8,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.669,
+                0.688,
+                0.8,
+                0.773
+              ],
+              "image_path": "images/page_4_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 15,
+              "bbox": [
+                0.206,
+                0.884,
+                0.29,
+                0.903
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Cylinder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.43,
+            0.786,
+            0.563,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.43,
+                0.786,
+                0.563,
+                0.874
+              ],
+              "image_path": "images/page_4_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 17,
+              "bbox": [
+                0.455,
+                0.886,
+                0.53,
+                0.904
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Papaya"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.672,
+            0.786,
+            0.8,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.672,
+                0.786,
+                0.8,
+                0.874
+              ],
+              "image_path": "images/page_4_image_18.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 19,
+              "bbox": [
+                0.705,
+                0.885,
+                0.766,
+                0.904
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Apple"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

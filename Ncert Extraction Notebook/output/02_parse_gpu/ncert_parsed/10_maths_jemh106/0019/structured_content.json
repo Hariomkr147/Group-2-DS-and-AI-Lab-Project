@@ -1,0 +1,263 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.138,
+            0.635,
+            0.862,
+            0.827
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.838,
+                0.549,
+                0.858
+              ],
+              "content": "Fig. 6.30"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.195,
+            0.121
+          ],
+          "content": "TRIANGLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "91"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.138,
+            0.803,
+            0.158
+          ],
+          "content": "Now, $\\mathrm { P Q } \\parallel \\mathrm { E F }   \\mathrm { a n d }   \\Delta   \\mathrm { A B C } \\cong \\Delta   \\mathrm { D P Q }$ (How ?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.163,
+            0.66,
+            0.183
+          ],
+          "content": "So, $\\angle \\mathrm{A} = \\angle \\mathrm{D}, \\angle \\mathrm{B} = \\angle \\mathrm{P}   and   \\angle \\mathrm{C} = \\angle \\mathrm{Q}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.188,
+            0.796,
+            0.209
+          ],
+          "content": "Therefore, $\\Delta   \\mathrm { A B C } \\sim \\Delta   \\mathrm { D E F }$ (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.214,
+            0.782,
+            0.234
+          ],
+          "content": "We now take some examples to illustrate the use of these criteria."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.246,
+            0.745,
+            0.267
+          ],
+          "content": "Example 4 : In Fig. 6.29, if PQ ∥ RS, prove that ∆ POQ ∼ ∆ SOR."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.352,
+            0.279,
+            0.642,
+            0.427
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.434,
+                0.55,
+                0.453
+              ],
+              "content": "Fig. 6.29"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.464,
+            0.467,
+            0.485
+          ],
+          "content": "Solution : $\\mathrm { P Q } \\parallel \\mathrm { R S }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.489,
+            0.474,
+            0.51
+          ],
+          "content": "So, $\\angle \\mathrm{P} = \\angle \\mathrm{S}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.718,
+            0.49,
+            0.898,
+            0.511
+          ],
+          "content": "(Alternate angles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.514,
+            0.478,
+            0.535
+          ],
+          "content": "and $\\angle Q = \\angle R$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.539,
+            0.9,
+            0.561
+          ],
+          "content": "Also, $\\angle POQ = \\angle SOR$ (Vertically opposite angles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.564,
+            0.504,
+            0.585
+          ],
+          "content": "Therefore, $\\Delta  POQ  \\sim \\Delta  SOR$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.647,
+            0.565,
+            0.899,
+            0.586
+          ],
+          "content": "(AAA similarity criterion)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.597,
+            0.585,
+            0.618
+          ],
+          "content": "Example 5 : Observe Fig. 6.30 and then find $\\angle \\mathrm { P } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.868,
+            0.427,
+            0.888
+          ],
+          "content": "Solution : In ∆ ABC and ∆ PQR,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

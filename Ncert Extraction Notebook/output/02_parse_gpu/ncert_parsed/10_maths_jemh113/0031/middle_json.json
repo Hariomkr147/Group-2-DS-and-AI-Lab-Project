@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.862,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "201"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.161,
+            0.147,
+            0.639,
+            0.191
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) the step deviation method : "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { x } } = a + \\left( \\frac { \\Sigma f _ { i } u _ { i } } { \\Sigma f _ { i } } \\right) \\times h"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.154,
+            0.203,
+            0.9,
+            0.237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "with the assumption that the frequency of a class is centred at its mid-point, called its class mark."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.244,
+            0.705,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The mode for grouped data can be found by using the formula:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.377,
+            0.273,
+            0.675,
+            0.317
+          ],
+          "image_path": "images/page_30_equation_5.jpg",
+          "content": "\\mathrm{Model} = l + \\left( \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\right) \\times h"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.155,
+            0.319,
+            0.528,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where symbols have their usual meanings."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.343,
+            0.899,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. The cumulative frequency of a class is the frequency obtained by adding the frequencies of all the classes preceding the given class. C"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.384,
+            0.685,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. The median for grouped data is formed by using the formula:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.393,
+            0.418,
+            0.658,
+            0.491
+          ],
+          "image_path": "images/page_30_equation_9.jpg",
+          "content": "\\mathrm{Media} = l + \\left(\\frac{\\frac{n}{2} - \\mathrm{cf}}{f}\\right) \\times h"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.155,
+            0.507,
+            0.528,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where symbols have their usual meanings."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.362,
+            0.564,
+            0.635,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A NOTE TO THE READER"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.139,
+            0.601,
+            0.855,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For calculating mode and median for grouped data, it should be ensured that the class intervals are continuous before applying the formulae. Same condition also apply for construction of an ogive. Further, in case of ogives, the scale may not be the same on both the axes."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

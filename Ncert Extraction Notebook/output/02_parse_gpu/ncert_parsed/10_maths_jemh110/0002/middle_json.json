@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.169,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CIRCLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.864,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "145"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.139,
+            0.717,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You might have seen a pulley fitted over a well which is used in taking out water from the well. Look at Fig. 10.2. Here the rope on both sides of the pulley, if considered as a ray, is like a tangent to the circle representing the pulley."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.22,
+            0.717,
+            0.316
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is there any position of the line with respect to the circle other than the types given above? You can see that there cannot be any other type of position of the line with respect to the circle. In this chapter, we will study about the existence of the tangents to a circle and also study some of their properties."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.728,
+            0.139,
+            0.889,
+            0.264
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.728,
+                0.139,
+                0.889,
+                0.264
+              ],
+              "image_path": "images/page_1_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.765,
+                0.268,
+                0.862,
+                0.287
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.098,
+            0.328,
+            0.368,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.2 Tangent to a Circle"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.096,
+            0.355,
+            0.9,
+            0.393
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "intersects the circle at only one point",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.398,
+            0.9,
+            0.437
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To understand the existence of the tangent to a circle at a point, let us perform the following activities:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.442,
+            0.902,
+            0.501
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Take a circular wire and attach a straight wire AB at a point P of the circular wire so that it can rotate about the point P in a plane. Put the system on a table and gently rotate the wire AB about the point P to get different positions of the straight"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.524,
+            0.578,
+            0.724
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In various positions, the wire intersects the circular wire at P and at another point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { Q } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { Q } _ { 3 } ,"
+            },
+            {
+              "type": "text",
+              "content": " etc. In one position, you will see that it will intersect the circle at the point P only (see position "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { A ^ { \\prime } B ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " of AB). This shows that a tangent exists at the point P of the circle. On rotating further, you can observe that in all other positions of AB, it will intersect the circle at P and at another point, say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathtt { R _ { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathtt { R } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { R } _ { 3 } ,"
+            },
+            {
+              "type": "text",
+              "content": " etc. So, you can observe that "
+            },
+            {
+              "type": "text",
+              "content": "there is only one tangent at a point of the circle",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.587,
+            0.504,
+            0.889,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.587,
+                0.504,
+                0.889,
+                0.7
+              ],
+              "image_path": "images/page_1_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.67,
+                0.708,
+                0.801,
+                0.726
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.3 (i)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.727,
+            0.902,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While doing activity above, you must have observed that as the position AB moves towards the position "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A ^ { \\prime } \\: B ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " , the common point, say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { Q } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " , of the line AB and the circle gradually comes nearer and nearer to the common point P. Ultimately, it coincides with the point P in the position "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A ^ { \\prime } B ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A ^ { \\prime \\prime } B ^ { \\prime \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " . Again note, what happens if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { { ^ \\circ } A B ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " is rotated rightwards about P? The common point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathtt { R } _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " gradually comes nearer and nearer to P and ultimately coincides with P. So, what we see is:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.097,
+            0.846,
+            0.9,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The tangent to a circle is a special case of the secant, when the two end points of its corresponding chord coincide",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 15,
+          "bbox": [
+            0.097,
+            0.895,
+            0.9,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*The word ‘tangent’ comes from the Latin word ‘tangere’, which means to touch and was introduced by the Danish mathematician Thomas Fineke in 1583."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,221 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.206,
+            0.196,
+            0.743,
+            0.342
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_0.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.207,
+            0.197,
+            0.398,
+            0.341
+          ],
+          "content": "|  |  |  |\n| --- | --- | --- |\n|  |  |  |\n|  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_table_1.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.667,
+            0.065,
+            0.834,
+            0.081
+          ],
+          "content": "Perimeter and Area"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.121,
+            0.403,
+            0.141
+          ],
+          "level": 2,
+          "content": "Making it ‘More’ or ‘Less’"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.145,
+            0.833,
+            0.188
+          ],
+          "content": "Observe these two figures. Is there any similarity or difference between the two?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.351,
+            0.834,
+            0.418
+          ],
+          "content": "Using 9 unit squares (having an area of 9 sq units), we have made figures with two different perimeters—the first figure has a perimeter of 12 units and the second has a perimeter of 20 units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.42,
+            0.835,
+            0.51
+          ],
+          "content": "Arrange or draw different figures with 9 sq units to get other perimeters. Each square should align with at least one other square on at least one side completely and together all squares should form a single connected figure with no holes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.516,
+            0.594,
+            0.538
+          ],
+          "content": "Using 9 unit squares, solve the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.54,
+            0.619,
+            0.561
+          ],
+          "content": "1. What is the smallest perimeter possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.567,
+            0.605,
+            0.587
+          ],
+          "content": "2. What is the largest perimeter possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.593,
+            0.641,
+            0.614
+          ],
+          "content": "3. Make a figure with a perimeter of 18 units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.62,
+            0.833,
+            0.685
+          ],
+          "content": "4. Can you make other shaped figures for each of the above three perimeters, or is there only one shape with that perimeter? What is your reasoning?"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.689,
+            0.834,
+            0.733
+          ],
+          "content": "Let’s do something tricky now! We have a figure below having perimeter 24 units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.738,
+            0.502,
+            0.851
+          ],
+          "content": "Without calculating all over again, observe, think and find out what will be the change in the perimeter if a new square is attached as shown on the right."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.521,
+            0.741,
+            0.831,
+            0.859
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_15.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.887,
+            0.942,
+            0.917,
+            0.958
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:18+05:30",
+      "modified_at": "2026-04-07T17:40:18+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

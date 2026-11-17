@@ -1,0 +1,186 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.66,
+            0.549,
+            0.907,
+            0.696
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.086,
+            0.412,
+            0.11
+          ],
+          "content": "Complete the justification."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.122,
+            0.846,
+            0.164
+          ],
+          "content": "？ Is an m × n grid tileable with 2 × 1 tiles, if both m and n are even? If yes, come up with a general strategy to tile it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.167,
+            0.847,
+            0.207
+          ],
+          "content": "One general strategy for this case is to cover each column with vertical tiles. This is possible because the number of rows is even."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.345,
+            0.213,
+            0.692,
+            0.425
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.439,
+            0.847,
+            0.483
+          ],
+          "content": "? Is an $m \\times n$ grid tileable with 2 × 1 tiles, if one of m and n is even and the other is odd? If yes, come up with a general strategy to tile it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.494,
+            0.847,
+            0.535
+          ],
+          "content": "？ Is an $m \\times n$ grid tileable with 2 × 1 tiles, if both m and n are odd? Give reasons."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.551,
+            0.646,
+            0.613
+          ],
+          "content": "Here is a $5 \\times 3$ grid, with a unit square removed. Now, it has an even number of unit squares. Is it tileable with 2 × 1 tiles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.72,
+            0.597,
+            0.746
+          ],
+          "content": "Is the following region tileable with $2 \\times 1$ tiles?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.67,
+            0.718,
+            0.773,
+            0.843
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.72,
+            0.907,
+            0.777
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": "158"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

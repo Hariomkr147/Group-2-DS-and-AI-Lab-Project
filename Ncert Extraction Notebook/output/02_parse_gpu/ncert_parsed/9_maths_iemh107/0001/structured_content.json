@@ -1,0 +1,179 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.131,
+            0.146,
+            0.159,
+            0.177
+          ],
+          "content": "7"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.249,
+            0.119,
+            0.711,
+            0.183
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.763,
+            0.066,
+            0.915,
+            0.165
+          ],
+          "content": "国 口"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.801,
+            0.172,
+            0.872,
+            0.186
+          ],
+          "content": "0904CH07"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.259,
+            0.467,
+            0.281
+          ],
+          "level": 2,
+          "content": "7.1 What is Probability?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.293,
+            0.887,
+            0.392
+          ],
+          "content": "**Probability** is a type of measurement, similar to how we measure quantities like length, area, or volume. However, instead of measuring physical quantities, probability is used to measure the likelihood of **events**. Specifically, it helps us express how confident or certain we are that a particular event will occur. For example, you may ask your friend:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.398,
+            0.446,
+            0.418
+          ],
+          "content": "• Is it going to rain today?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.422,
+            0.617,
+            0.461
+          ],
+          "content": "Will our school win the inter-school hockey match tomorrow?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.465,
+            0.618,
+            0.563
+          ],
+          "content": "Will I be chosen in the monthly lucky draw to perform at the school assembly? [The names of all the students in school are written on slips of paper and one slip is randomly selected.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.568,
+            0.618,
+            0.645
+          ],
+          "content": "These events are examples of **random** events. We know the possible outcomes (either it will rain today or it will not; our school team will either win, draw or lose the hockey"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.65,
+            0.399,
+            0.881,
+            0.631
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.644,
+            0.885,
+            0.721
+          ],
+          "continues_prev": true,
+          "content": "match; one student will be chosen to perform at the school assembly), but we do not know in advance which one will definitely occur. That is, there is an element of **chance** or **randomness** involved every time such an event takes place."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.721,
+            0.887,
+            0.897
+          ],
+          "content": "Can we predict these outcomes with 100% certainty? One could respond to these questions with words such as **impossible** or **certain**, or using phrases such as **less likely**, **more likely** or **equally likely**. This decision is based on different kinds of **evidence** that have been gathered. For example, one friend might say, “The sun is shining brightly, so it’s unlikely to rain today”, while another might observe, “It’s very hot, which makes me think it could rain later”. In both cases, they are predicting rainfall based on how they interpret the present weather conditions. This is the **subjective probability** given to the event of today’s rainfall."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

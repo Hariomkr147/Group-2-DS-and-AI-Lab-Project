@@ -1,0 +1,298 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "84"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.148,
+            0.293,
+            0.168
+          ],
+          "content": "Also, it is given that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.173,
+            0.897,
+            0.192
+          ],
+          "content": "\\angle \\mathrm{PST} = \\angle \\mathrm{PRQ}\\tag{2}",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.199,
+            0.135,
+            0.217
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.347,
+            0.198,
+            0.717,
+            0.218
+          ],
+          "content": "$\\angle \\mathrm{PRQ} = \\angle \\mathrm{PQR}$ [From (1) and (2)]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.224,
+            0.205,
+            0.243
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.385,
+            0.223,
+            0.851,
+            0.244
+          ],
+          "content": "PQ = PR (Sides opposite the equal angles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.249,
+            0.437,
+            0.268
+          ],
+          "content": "i.e., PQR is an isosceles triangle."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.412,
+            0.294,
+            0.587,
+            0.313
+          ],
+          "level": 2,
+          "content": "EXERCISE 6.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.327,
+            0.675,
+            0.346
+          ],
+          "content": "**1.** In Fig. 6.17, (i) and (ii), DE || BC. Find EC in (i) and AD in (ii)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.196,
+            0.357,
+            0.806,
+            0.519
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.535,
+                0.551,
+                0.555
+              ],
+              "content": "Fig. 6.17"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.568,
+            0.595,
+            0.631
+          ],
+          "content": "**2.** E and F are points on the sides PQ and PR respectively of a   PQR. For each of the following cases, state whether EF || QR :"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.609,
+            0.541,
+            0.9,
+            0.659
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.169,
+            0.64,
+            0.652,
+            0.658
+          ],
+          "content": "(i) $PE=3.9   cm ,  EQ =3   cm ,  PF =3.6   cm   and   FR =2.4   cm$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.667,
+            0.625,
+            0.686
+          ],
+          "content": "(ii) $PE=4 cm , QE=4.5 cm , PF=8 cm  and RF=9 cm$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.749,
+            0.673,
+            0.848,
+            0.693
+          ],
+          "content": "Fig. 6.18"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.695,
+            0.708,
+            0.714
+          ],
+          "content": "(iii) PQ = 1.28 cm, PR = 2.56 cm, PE = 0.18 cm and PF = 0.36 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.723,
+            0.593,
+            0.788
+          ],
+          "content": "**3.** In Fig. 6.18, if LM || CB and LN || CD, prove that $\\frac{AM}{AB} = \\frac{AN}{AD}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.795,
+            0.593,
+            0.858
+          ],
+          "content": "**4.** In Fig. 6.19, DE || AC and DF || AE. Prove that ${ \\frac { \\mathrm { B F } } { \\mathrm { F E } } } = { \\frac { \\mathrm { B E } } { \\mathrm { E C } } } \\cdotp$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.61,
+            0.738,
+            0.9,
+            0.853
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.713,
+                0.867,
+                0.813,
+                0.887
+              ],
+              "content": "Fig. 6.19"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_21.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

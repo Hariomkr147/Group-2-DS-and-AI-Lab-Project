@@ -1,0 +1,293 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.087,
+            0.846,
+            0.128
+          ],
+          "content": "？ Take a few more examples of multiplication of 3 integers and check this property. What do you observe?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.132,
+            0.847,
+            0.19
+          ],
+          "content": "We can see that the product is the same when we ‘group’ the multiplications in these two ways. So, integer multiplication is associative, just like integer addition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.195,
+            0.608,
+            0.215
+          ],
+          "content": "In general, for any three integers a, b, and c,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.399,
+            0.216,
+            0.598,
+            0.233
+          ],
+          "content": "a \\times ( b \\times c ) = ( a \\times b ) \\times c .",
+          "image_source": "images/page_16_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.236,
+            0.846,
+            0.276
+          ],
+          "content": "In the expression $5 \\times - 3 \\times 4 ,$ try to multiply 5 and 4 first and then multiply the product with – 3: $( 5 \\times 4 ) \\times - 3$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.357,
+            0.275,
+            0.638,
+            0.293
+          ],
+          "content": "5 \\times 4 = 20, \\mathrm{and} 20 \\times -3 = -60.",
+          "image_source": "images/page_16_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.296,
+            0.476,
+            0.317
+          ],
+          "content": "This also gives the same product."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.323,
+            0.846,
+            0.364
+          ],
+          "content": "？ Are there orders in which $5 \\times - 3 \\times 4$ can be evaluated? Will the product be the same in all these cases?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.372,
+            0.846,
+            0.414
+          ],
+          "content": "？ Multiply the expression 25 × – 6 × 12 in all the different orders and check if the product is the same in all cases."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.417,
+            0.846,
+            0.457
+          ],
+          "content": "The product remains the same when 3 or more numbers are multiplied in any order."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.185,
+            0.469,
+            0.64,
+            0.491
+          ],
+          "content": "Look at the following series of multiplications:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.494,
+            0.48,
+            0.514
+          ],
+          "content": "-1 \\times -1 = 1",
+          "image_source": "images/page_16_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.514,
+            0.54,
+            0.533
+          ],
+          "content": "-1 \\times -1 \\times -1 = -1",
+          "image_source": "images/page_16_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.534,
+            0.574,
+            0.552
+          ],
+          "content": "-1 \\times -1 \\times -1 \\times -1 = 1",
+          "image_source": "images/page_16_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.552,
+            0.618,
+            0.571
+          ],
+          "content": "-1 \\times -1 \\times -1 \\times -1 \\times -1 = 1",
+          "image_source": "images/page_16_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.184,
+            0.576,
+            0.766,
+            0.636
+          ],
+          "content": "When –1 is multiplied 2 or 4 times the product is positive. When it is multiplied 3 or 5 times the product is negative. <u>Can you generalise these statements further?</u>"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.651,
+            0.802,
+            0.694
+          ],
+          "content": "? Using this understanding of multiplication of many integers, can you give a simple rule to find the sign of the product of many integers?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.633,
+            0.906,
+            0.698
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.703,
+            0.847,
+            0.745
+          ],
+          "content": "？ Now, consider the expression $5 \\times ( 4 + ( - 2 ) )$ . As in the case of positive integers, is this expression equal to $5 \\times 4 + 5 \\times ( - 2) ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.748,
+            0.847,
+            0.789
+          ],
+          "content": "We see that it does. Recall that we call this property the distributive property."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.794,
+            0.848,
+            0.854
+          ],
+          "content": "？ Check if the distributive property holds for $( - 2 ) \\times ( 4 + ( - 3 ) )$ (that is, if this expression equals $( - 2 ) \\times 4 + ( - 2 ) \\times ( - 3 ) )$ , and for a few other such expressions of your choice."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.858,
+            0.847,
+            0.899
+          ],
+          "content": "What do you observe? We see that the distributive property seems to hold for integers, as well. Will this always happen?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "40"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

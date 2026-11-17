@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.319,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ARITHMETIC PROGRESSIONS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.105,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "57"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.141,
+            0.903,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, looking at the pattern formed above, can you find her monthly salary for the 6th year? The 15th year? And, assuming that she will still be working in the job, what about the monthly salary for the 25th year? You would calculate this by adding ` 500 each time to the salary of the previous year to give the answer. Can we make this process shorter? Let us see. You may have already got some idea from the way we have obtained the salaries above."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.148,
+            0.277,
+            0.724,
+            0.437
+          ],
+          "image_path": "images/page_8_equation_3.jpg",
+          "content": "\\begin{aligned} Salary for the  & 15th year  \\\\= &  Salary for the  14th year  + \\bar{\\bar{\\bar{\\bar{\\bar{\\xi}}}}} 500 \\\\= & \\bar{\\bar{\\bar{\\xi}}} \\left[ 8000 + \\frac{\\bar{5}00 + 500 + 500 + \\cdots + 500}{13  times } \\right] + \\bar{\\bar{\\xi}} 5000 \\\\= & \\bar{\\bar{\\xi}} \\left[ 8000 + 14 \\times 500 \\right] \\\\= & \\bar{\\bar{\\xi}} \\left[ 8000 + (1\\bar{\\bar{\\xi}} - 1) \\times 500 \\right] = \\bar{\\bar{\\xi}} 15000 \\quad  。  \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.447,
+            0.141,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.283,
+            0.447,
+            0.703,
+            0.466
+          ],
+          "image_path": "images/page_8_equation_5.jpg",
+          "content": "First solary  + (15 - 1) \\times  Annui increment:"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.148,
+            0.477,
+            0.757,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the same way, her monthly salary for the 25th year would be"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.266,
+            0.507,
+            0.624,
+            0.528
+          ],
+          "image_path": "images/page_8_equation_7.jpg",
+          "content": "\\left[ 8000 + (25 - 1) \\times 500 \\right] = \\bar{5} 20000"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.25,
+            0.538,
+            0.685,
+            0.558
+          ],
+          "image_path": "images/page_8_equation_8.jpg",
+          "content": "{ \\mathrm { F i r s t ~ s a l a r y } } \\pm ( 2 5 - 1 ) \\times { \\mathrm { A n n u a l ~ i n c r e m e n t } }"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.567,
+            0.9,
+            0.609
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This example would have given you some idea about how to write the 15th term, or the 25th term, and more generally, the nth term of the AP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.619,
+            0.901,
+            0.659
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { _ 1 } , \\; a _ { _ 2 } , \\; a _ { _ 3 } , \\; . \\; ."
+            },
+            {
+              "type": "text",
+              "content": " . be an AP whose first term "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { \\mathrm { ~ i ~ } }"
+            },
+            {
+              "type": "text",
+              "content": " is a and the common difference is d."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.097,
+            0.668,
+            0.159,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.221,
+            0.693,
+            0.664,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the "
+            },
+            {
+              "type": "text",
+              "content": "second term",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{2}=a+d=a+(2-1)"
+            },
+            {
+              "type": "text",
+              "content": " d"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.222,
+            0.718,
+            0.368,
+            0.737
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the "
+            },
+            {
+              "type": "text",
+              "content": "third",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " term"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.396,
+            0.718,
+            0.89,
+            0.738
+          ],
+          "image_path": "images/page_8_equation_14.jpg",
+          "content": "a_{3}=a_{2}+d=(a+d)+d=a+2d=a+(3-1)d"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.222,
+            0.743,
+            0.902,
+            0.763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the "
+            },
+            {
+              "type": "text",
+              "content": "fourth",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " term a = a + d = (a + 2d) + d = a + 3d = a + "
+            },
+            {
+              "type": "text",
+              "content": "(4 – 1)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " d"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.147,
+            0.819,
+            0.834,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Looking at the pattern, we can say that the "
+            },
+            {
+              "type": "text",
+              "content": "nth",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " term "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{_n} = a + (n - 1)   d."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.096,
+            0.846,
+            0.901,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "text",
+              "content": "the nth term",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "of the AP with first term a and common difference d is",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n } = a + ( n - 1 )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "d.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

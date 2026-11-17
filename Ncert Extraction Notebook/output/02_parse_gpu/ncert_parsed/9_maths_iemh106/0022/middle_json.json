@@ -1,0 +1,448 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Measuring Space: Perimeter and Area"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "139"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.107,
+            0.886,
+            0.219
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we imagine a perpendicular dropped from B to the base CD, its length (recall the Baudhāyana–Pythagoras theorem) is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{c^{2}-\\left ( b-a \\right ) ^{2} }"
+            },
+            {
+              "type": "text",
+              "content": " Hence, the area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) h"
+            },
+            {
+              "type": "text",
+              "content": " . We get exactly the same formula if we recall that the area of an isosceles trapezium is half the sum of the parallel sides times the distance between the parallel sides."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.131,
+            0.238,
+            0.851,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Special Cases and Generalisation in Mathematics"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.276,
+            0.855,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The notion of a ‘special case’ occurs often in higher mathematics. A special case results from a general result whenever we apply some extra condition. We list a few such examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.336,
+            0.855,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The general result is also called a "
+            },
+            {
+              "type": "text",
+              "content": "generalisation",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the special case. The process of generalisation is an extremely important part of mathematics."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.378,
+            0.629,
+            0.398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A square is a special case of a rectangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.402,
+            0.854,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the formula for the area of a square "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A = a ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is a special case of the formula for the area of a rectangle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(A = ab)"
+            },
+            {
+              "type": "text",
+              "content": " obtained by putting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = a ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.129,
+            0.444,
+            0.855,
+            0.482
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, the formula for the perimeter of a square is a special case of the formula for the perimeter of a rectangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.485,
+            0.853,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " An isosceles right-angled triangle is a special case of a right-angled triangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.528,
+            0.854,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, from any theorem about all right-angled triangles, we can extract a special case that applies to isosceles, right-angled triangles."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.569,
+            0.855,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take a right-angled triangle ABC with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle C = 90^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " ; then we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } + b ^ { 2 } = c ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " (this is the Baudhāyana–Pythagoras theorem). Let us take a special case of this with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = b"
+            },
+            {
+              "type": "text",
+              "content": " (this corresponds to the triangle being isosceles). We get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } \\quad + \\quad b ^ { 2 } \\quad = \\quad c ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c^{2} = 2a^{2}"
+            },
+            {
+              "type": "text",
+              "content": " and so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = a { \\sqrt { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " The general theorem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a ^ { 2 } + b ^ { 2 } = c ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " has reduced to this special case "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( c = a { \\sqrt { 2 } } )"
+            },
+            {
+              "type": "text",
+              "content": " for isosceles right-angled triangles (with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = b )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.708,
+            0.854,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is another example. Compare the following identities from algebra:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.133,
+            0.733,
+            0.365,
+            0.763
+          ],
+          "image_path": "images/page_21_equation_13.jpg",
+          "content": "(a + b)^{2} = a^{2} + b^{2} + 2ab,"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.131,
+            0.773,
+            0.554,
+            0.805
+          ],
+          "image_path": "images/page_21_equation_14.jpg",
+          "content": "\\left(a+b+c\\right)^{2}=a^{2}+b^{2}+c^{2}+2ab+2bc+2ca."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.128,
+            0.81,
+            0.856,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you see that the first identity is a special case of the second one (put "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = 0"
+            },
+            {
+              "type": "text",
+              "content": " in the second identity), and the second identity is a generalisation of the first one?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.128,
+            0.87,
+            0.855,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You will meet many examples of special cases and generalisation in later years."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

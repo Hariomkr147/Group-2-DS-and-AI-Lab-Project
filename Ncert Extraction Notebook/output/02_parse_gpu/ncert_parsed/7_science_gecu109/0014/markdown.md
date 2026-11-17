@@ -1,0 +1,31 @@
+Thus, different animals have different breathing mechanisms to suit their unique habitats. Apart from the digestive system, the respiratory system, and the circulatory system, there are other systems which work in coordination with each other in the body and perform different functions to sustain life. You will study about them in higher grades.
+
+## In a Nutshell
+
+## Cwmwmmmo
+
+![](images/page_13_image_4.jpg)
+
+Life processes such as nutrition, circulation, respiration, excretion, and reproduction are essential for the survival of living beings. These processes are collectively called life processes.
+
+The human digestive system consists of an alimentary canal which includes the mouth, oesophagus, stomach, small intestine, large intestine, and anus, and its associated parts, the liver and the pancreas.
+
+The digested food is primarily absorbed through the walls of the small intestine.
+
+The nutrients absorbed are distributed through the blood to different parts of the body where they are used for performing various functions.
+
+The large intestine absorbs most of the remaining water and some salts from the undigested food.
+
+Grass-eating animals such as cows and goats are called ruminants. They chew the food partially and swallow it. Later, the partially digested food is returned to the mouth, and the animal chews it thoroughly.
+
+Breathing involves the movement of air into the lungs (inhalation) and out of the lungs (exhalation).
+
+The exchange of oxygen and carbon dioxide occurs in the alveoli of the lungs.
+
+Respiration uses oxygen from inhaled air to break down glucose into carbon dioxide and water. The process by which nutrients are converted into usable energy is called respiration.
+
+The circulatory system transports nutrients and oxygen to all parts of the body. It includes the heart, which pumps blood through blood vessels, delivering oxygen and nutrients while also removing waste from the body.
+
+Breathing is a physical process and respiration is a chemical process.
+
+Different animals have different breathing mechanisms adapted to suit their habitats.

@@ -1,0 +1,330 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "128"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.105,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.138,
+            0.408,
+            0.158
+          ],
+          "level": 2,
+          "content": "8.4 Trigonometric Identities"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.165,
+            0.595,
+            0.263
+          ],
+          "content": "You may recall that an equation is called an identity when it is true for all values of the variables involved. Similarly, an equation involving trigonometric ratios of an angle is called a trigonometric identity, if it is true for all values of the angle(s) involved."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.268,
+            0.594,
+            0.326
+          ],
+          "content": "In this section, we will prove one trigonometric identity, and use it further to prove other useful trigonometric identities."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.698,
+            0.138,
+            0.884,
+            0.299
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.742,
+                0.302,
+                0.84,
+                0.321
+              ],
+              "content": "Fig. 8.21"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.332,
+            0.665,
+            0.352
+          ],
+          "content": "In $\\Delta   \\mathrm { A B C } ,$ , right-angled at B (see Fig. 8.21), we have:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.356,
+            0.897,
+            0.376
+          ],
+          "content": "\\mathrm{AB^{2}+BC^{2}=AC^{2}}\\tag{1}",
+          "image_source": "images/page_15_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.382,
+            0.549,
+            0.402
+          ],
+          "content": "Dividing each term of (1) by $\\mathbf { A } \\mathbf { C } ^ { 2 } ,$ , we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.414,
+            0.55,
+            0.458
+          ],
+          "content": "\\frac{\\mathrm{AB}^{2}}{\\mathrm{AC}^{2}}+\\frac{\\mathrm{BC}^{2}}{\\mathrm{AC}^{2}}=\\frac{\\mathrm{AC}^{2}}{\\mathrm{AC}^{2}}",
+          "image_source": "images/page_15_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.485,
+            0.139,
+            0.503
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.467,
+            0.569,
+            0.513
+          ],
+          "content": "\\left( \\frac{AB}{AC} \\right)^{2} + \\left( \\frac{BC}{AC} \\right)^{2} = \\left( \\frac{AC}{AC} \\right)^{2}",
+          "image_source": "images/page_15_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.525,
+            0.138,
+            0.543
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.285,
+            0.524,
+            0.512,
+            0.544
+          ],
+          "content": "\\left( \\cos A \\right)^{2} + \\left( \\sin A \\right)^{2} = 1",
+          "image_source": "images/page_15_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.552,
+            0.139,
+            0.57
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.303,
+            0.551,
+            0.897,
+            0.57
+          ],
+          "content": "\\cos ^{2}\\mathbf{A}+\\sin ^{2}\\mathbf{A}=\\mathbf{1}\\tag{2}",
+          "image_source": "images/page_15_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.586,
+            0.898,
+            0.631
+          ],
+          "content": "This is true for all A such that $0 ^ { \\circ } \\leq \\mathrm { A } \\leq 9 0 ^ { \\circ }$ . So, this is a trigonometric identity. Let us now divide (1) by $\\mathbf { A B } ^ { 2 } ,$ We get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34,
+            0.643,
+            0.549,
+            0.688
+          ],
+          "content": "\\frac{\\mathrm{AB}^{2}}{\\mathrm{AB}^{2}}+\\frac{\\mathrm{BC}^{2}}{\\mathrm{AB}^{2}}=\\frac{\\mathrm{AC}^{2}}{\\mathrm{AB}^{2}}",
+          "image_source": "images/page_15_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.716,
+            0.128,
+            0.731
+          ],
+          "content": "or,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.306,
+            0.696,
+            0.57,
+            0.742
+          ],
+          "content": "\\left( \\frac{\\mathrm{AB}}{\\mathrm{AB}} \\right)^{2} + \\left( \\frac{\\mathrm{BC}}{\\mathrm{AB}} \\right)^{2} = \\left( \\frac{\\mathrm{AC}}{\\mathrm{AB}} \\right)^{2}",
+          "image_source": "images/page_15_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.754,
+            0.139,
+            0.771
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.752,
+            0.897,
+            0.771
+          ],
+          "content": "\\mathbf{1} + \\tan^{2} \\mathbf{A} = \\sec^{2} \\mathbf{A}\\tag{3}",
+          "image_source": "images/page_15_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.777,
+            0.899,
+            0.816
+          ],
+          "content": "Is this equation true for $\\mathrm { A   =   0 ^ { \\circ } ? }$ Yes, it is. What about $\\mathrm { A }   =   9 0 ^ { \\circ } ?$ Well, tan A and sec A are not defined for $A = 90^{\\circ}.\\  SO ,(3)$ is true for all A such that $0 ^ { \\circ } \\leq \\mathrm { A } < 9 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.822,
+            0.679,
+            0.842
+          ],
+          "content": "Let us see what we get on dividing (1) by BC². We get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.851,
+            0.551,
+            0.897
+          ],
+          "content": "\\frac{AB^{2}}{BC^{2}}+\\frac{BC^{2}}{BC^{2}}=\\frac{AC^{2}}{BC^{2}}",
+          "image_source": "images/page_15_equation_25.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

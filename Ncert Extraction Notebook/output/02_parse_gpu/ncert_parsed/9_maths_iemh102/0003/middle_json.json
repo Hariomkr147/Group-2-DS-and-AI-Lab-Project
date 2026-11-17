@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.144,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the algebraic expressions in Example 1 and Example 2 involve two variables, whereas the algebraic expression in Example 3 involves only one variable."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.166,
+            0.886,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Expressions such as 4x, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{2}+1,2y-5,5y^{3}+y^{2}+2y-1,3z+7"
+            },
+            {
+              "type": "text",
+              "content": " are algebraic expressions that involve only one variable: x, y or z. In this chapter, we will restrict our discussion to algebraic expressions involving only one variable. You may have noticed that in an algebraic expression, the powers of a variable also appear. For example, in the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X^{2} + 5X + 1"
+            },
+            {
+              "type": "text",
+              "content": " , the highest power of x is 2, whereas in the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 y ^ { 3 }   +   y ^ { 2 }   -   8 ,"
+            },
+            {
+              "type": "text",
+              "content": " , the highest power of the variable y is 3. Further, in the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 y ^ { 3 } + y ^ { 2 } + 2 y - 1"
+            },
+            {
+              "type": "text",
+              "content": " , the coefficient of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " is 5, that of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is 1, that of y is 2 and the constant term is –1. Such algebraic expressions involving one variable and its powers are called "
+            },
+            {
+              "type": "text",
+              "content": "one-variable polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "text",
+              "content": "univariate polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", or when the context is clear, simply "
+            },
+            {
+              "type": "text",
+              "content": "polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". (‘univariate’ means ‘having one variable’). The highest power of the variable in a polynomial is called its "
+            },
+            {
+              "type": "text",
+              "content": "degree",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". For example:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.436,
+            0.885,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 y ^ { 3 } + y ^ { 2 } + 2 y - 1"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial of degree 3. Such polynomials are called "
+            },
+            {
+              "type": "text",
+              "content": "cubic polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.119,
+            0.476,
+            0.885,
+            0.517
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + 5 x + 1"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial of degree 2. Such polynomials are called "
+            },
+            {
+              "type": "text",
+              "content": "quadratic polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.517,
+            0.885,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) 3z + 7 is a polynomial of degree 1. Such polynomials are called "
+            },
+            {
+              "type": "text",
+              "content": "linear polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.114,
+            0.559,
+            0.886,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) The constant 8 is a polynomial of degree 0 as it can be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 x ^ { 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in which the power of the variable x is 0. Such polynomials are called "
+            },
+            {
+              "type": "text",
+              "content": "constant polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.374,
+            0.643,
+            0.621,
+            0.67
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 2.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.134,
+            0.685,
+            0.678,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the degrees of the following polynomials:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.185,
+            0.706,
+            0.359,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x^{2}-5x+3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.178,
+            0.728,
+            0.341,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y^{3} + 2y - 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.172,
+            0.75,
+            0.268,
+            0.77
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { - 9 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.173,
+            0.772,
+            0.297,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 \\widetilde { z - 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.131,
+            0.799,
+            0.611,
+            0.821
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Write polynomials of degrees 1, 2 and 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.131,
+            0.824,
+            0.77,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. What are the coefficients of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " in the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X^{4}-3X^{3}+6X^{2}-2X+7?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,140 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "191"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.902,
+            0.238
+          ],
+          "content": "How many students have scored less than 20 marks? Observe that the number of students who have scored less than 20 include the number of students who have scored marks from 0 - 10 as well as the number of students who have scored marks from 10 - 20. So, the total number of students with marks less than 20 is 5 + 3, i.e., 8. We say that the cumulative frequency of the class 10 -20 is 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.243,
+            0.902,
+            0.305
+          ],
+          "content": "Similarly, we can compute the cumulative frequencies of the other classes, i.e., the number of students with marks less than 30, less than 40, . . ., less than 100. We give them in Table 13.13 given below:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.167,
+            0.344,
+            0.85,
+            0.668
+          ],
+          "content": "<table><tbody><tr><td rowspan=\"2\">Marks obtained</td><td rowspan=\"2\">Number of students (Cumulative frequency)</td></tr><tr></tr><tr><td>Less than 10</td><td>5</td></tr><tr><td>Less than 20</td><td>5 + 3 = 8</td></tr><tr><td>Less than 30</td><td>8 + 4 = 12</td></tr><tr><td>Less than 40</td><td>12 + 3 = 15</td></tr><tr><td>Less than 50</td><td>15 + 3 = 18</td></tr><tr><td>Less than 60</td><td>18 + 4 = 22</td></tr><tr><td>Less than 70</td><td>22 + 7 = 29</td></tr><tr><td>Less than 80</td><td>29 + 9 = 38</td></tr><tr><td>Less than 90</td><td>38 + 7 = 45</td></tr><tr><td>Less than 100</td><td>45 + 8 = 53</td></tr></tbody></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.435,
+                0.316,
+                0.565,
+                0.335
+              ],
+              "content": "Table 13.13"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.679,
+            0.904,
+            0.742
+          ],
+          "content": "The distribution given above is called the cumulative frequency distribution of the less than type. Here 10, 20, 30, . . . 100, are the upper limits of the respective class intervals."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.749,
+            0.903,
+            0.901
+          ],
+          "content": "We can similarly make the table for the number of students with scores, more than or equal to 0, more than or equal to 10, more than or equal to 20, and so on. From Table 13.12, we observe that all 53 students have scored marks more than or equal to 0. Since there are 5 students scoring marks in the interval 0 - 10, this means that there are $53 - 5 = 48$ students getting more than or equal to 10 marks. Continuing in the same manner, we get the number of students scoring 20 or above as 48 – 3 = 45, 30 or above as $4 5 - 4 = 4 1$ , and so on, as shown in Table 13.14."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

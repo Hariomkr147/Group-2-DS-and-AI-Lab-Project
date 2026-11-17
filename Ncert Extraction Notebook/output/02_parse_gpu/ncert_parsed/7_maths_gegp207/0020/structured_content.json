@@ -1,0 +1,236 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.148
+          ],
+          "content": "of the names of colours — kālaka (black), nīlaka (blue), and so on. In contrast to these unknowns, the known quantities in an expression had a specific form (rūpa) and were denoted by rū."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.148,
+            0.847,
+            0.187
+          ],
+          "content": "Here are some examples of how algebraic expressions in modern <u>notation were written in ancient Indian notation:</u>"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.193,
+            0.842,
+            0.465
+          ],
+          "content": "| Modern Notation | Ancient Indian Notation |\n| --- | --- |\n| 2x + 1 | yā 2 rū 1 (in each term the indication of unknown/known came first) |\n| 2x - 8 | yā 2 rū8. (a dot over the number indicated that it was negative) |\n| 3x + 4 = 2x + 8 | yā 3 rū 4 yā 2 rū 8 (the two sides of an equation were presented one below the other) |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_table_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.487,
+            0.846,
+            0.529
+          ],
+          "level": 2,
+          "content": "Example 16: Bījgaṇita by Bhāskarāchārya (1150 CE) mentions this problem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.533,
+            0.847,
+            0.593
+          ],
+          "content": "One man has ₹300 rupees and 6 horses. Another man has 10 horses and a debt of ₹100. If they are equally rich and the price of each horse is the same, tell me the price of one horse."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.598,
+            0.253,
+            0.616
+          ],
+          "level": 2,
+          "content": "Solution:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.622,
+            0.42,
+            0.642
+          ],
+          "content": "Let price of one horse = ₹ x"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.646,
+            0.406,
+            0.667
+          ],
+          "content": "According to the problem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.674,
+            0.583,
+            0.695
+          ],
+          "content": "300+6x=10x-100",
+          "image_source": "images/page_19_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.703,
+            0.598,
+            0.724
+          ],
+          "content": "300+6x+(100)=10x",
+          "image_source": "images/page_19_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.732,
+            0.529,
+            0.751
+          ],
+          "content": "400+6x=10x",
+          "image_source": "images/page_19_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.76,
+            0.528,
+            0.779
+          ],
+          "content": "400 = 10x - 6x",
+          "image_source": "images/page_19_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.788,
+            0.475,
+            0.808
+          ],
+          "content": "4 0 0 = 4 x",
+          "image_source": "images/page_19_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.817,
+            0.496,
+            0.837
+          ],
+          "content": "400 \\div 4 = x",
+          "image_source": "images/page_19_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.385,
+            0.845,
+            0.463,
+            0.865
+          ],
+          "content": "1 0 0 = x",
+          "image_source": "images/page_19_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.87,
+            0.552,
+            0.89
+          ],
+          "content": "Therefore, the price of one horse = ₹ 100."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.809,
+            0.933,
+            0.843,
+            0.95
+          ],
+          "content": "183"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

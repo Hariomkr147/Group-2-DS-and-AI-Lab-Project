@@ -1,0 +1,27 @@
+In equal intervals of time (say, between two instants 2 – 3 s and 5 – 6 s) the magnitudes of displacements of object are equal (20 m) magnitude of velocity is constant
+
+![](images/page_11_chart_1.jpg)
+
+## 4.2.2 Position-time graphs
+
+The position-time graph represents the motion of object, i.e., the change in its position with time. You have already plotted two position-time graphs (Figs. 4.11c and 4.12). Now, what information can you obtain from these graphs about the motion of the object?
+
+**What does the shape of the position-time graph indicate about the nature of motion?**
+
+![](images/page_11_chart_7.jpg)
+
+Fig. 4.13: Position-time graph of a moving object
+
+As we can see in Fig. 4.13a, a straight line position-time graph indicates that the object is moving with a constant velocity. On the other hand, a curved position-time graph as in Fig. 4.13b, indicates that the velocity is not constant, and thus, the object is in accelerated motion.
+
+**Which physical quantities can be obtained from a position-time graph?** From the position-time graph, you can find the position of an object at each instant of time. Does the graph provide information about any other physical quantity as well? In fact, you can also calculate how fast the position is changing, i.e., the magnitude of velocity of the object. How can you do that?
+
+## Activity 4.4: Let us calculate
+
+1. In the position-time graph we plotted (Fig. 4.11c), consider a part (say, AB) of the graph as shown in Fig. 4.14. From A, draw a line parallel to X-axis and another line parallel to Y-axis. Repeat the same from B.
+
+2. Extend the horizontal line from A and a triangle ABC is formed. What do the sides BC and CA of the triangle represent? BC represents the change in position $( s _ { 2 } -   s _ { 1 } ) ,$ and AC represents the change in time $( t _ { _ 2 } - t _ { _ 1 } )$
+
+![](images/page_11_chart_15.jpg)
+
+Fig. 4.14: Calculating velocity from a position-time graph

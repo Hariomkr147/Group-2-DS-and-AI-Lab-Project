@@ -1,0 +1,335 @@
+{
+  "kaggle_notebook": "hariom1407/ncert-class-6-10-topic-route",
+  "kaggle_version": 7,
+  "kaggle_run_id": 370611857,
+  "input_versions": {
+    "content_preparation": 4,
+    "embeddings": 2
+  },
+  "total_passages": 7221,
+  "searchable_passages": 6207,
+  "minimum_best_score": 0.6,
+  "benchmark": {
+    "questions": 20,
+    "top_1": 16,
+    "top_5": 20,
+    "cases": [
+      {
+        "question": "How can I find the perimeter of a rectangle?",
+        "expected": {
+          "grade": 6,
+          "subject": "maths",
+          "chapter": 6
+        },
+        "rank": 1,
+        "top_score": 0.7727
+      },
+      {
+        "question": "Which objects are attracted to magnets?",
+        "expected": {
+          "grade": 6,
+          "subject": "science",
+          "chapter": 4
+        },
+        "rank": 1,
+        "top_score": 0.7359
+      },
+      {
+        "question": "How does a torch light up in an electric circuit?",
+        "expected": {
+          "grade": 7,
+          "subject": "science",
+          "chapter": 3
+        },
+        "rank": 1,
+        "top_score": 0.7968
+      },
+      {
+        "question": "What is a square number?",
+        "expected": {
+          "grade": 8,
+          "subject": "maths",
+          "chapter": 1
+        },
+        "rank": 1,
+        "top_score": 0.7369
+      },
+      {
+        "question": "How does air pressure cause winds and storms?",
+        "expected": {
+          "grade": 8,
+          "subject": "science",
+          "chapter": 6
+        },
+        "rank": 1,
+        "top_score": 0.7968
+      },
+      {
+        "question": "How does sound travel as a wave?",
+        "expected": {
+          "grade": 9,
+          "subject": "science",
+          "chapter": 10
+        },
+        "rank": 1,
+        "top_score": 0.7172
+      },
+      {
+        "question": "How do I graph a linear equation in two variables?",
+        "expected": {
+          "grade": 9,
+          "subject": "maths",
+          "chapter": 13
+        },
+        "rank": 2,
+        "top_score": 0.7548
+      },
+      {
+        "question": "How do I calculate the probability of an event?",
+        "expected": {
+          "grade": 10,
+          "subject": "maths",
+          "chapter": 14
+        },
+        "rank": 2,
+        "top_score": 0.6972
+      },
+      {
+        "question": "How do acids react with bases to form salts?",
+        "expected": {
+          "grade": 10,
+          "subject": "science",
+          "chapter": 2
+        },
+        "rank": 1,
+        "top_score": 0.7682
+      },
+      {
+        "question": "How do I calculate electric current in a circuit?",
+        "expected": {
+          "grade": 10,
+          "subject": "science",
+          "chapter": 11
+        },
+        "rank": 1,
+        "top_score": 0.7283
+      },
+      {
+        "question": "How can I compare two equal shares as fractions?",
+        "expected": {
+          "grade": 6,
+          "subject": "maths",
+          "chapter": 7
+        },
+        "rank": 1,
+        "top_score": 0.7511
+      },
+      {
+        "question": "Why does water change from liquid to vapour?",
+        "expected": {
+          "grade": 6,
+          "subject": "science",
+          "chapter": 8
+        },
+        "rank": 1,
+        "top_score": 0.7507
+      },
+      {
+        "question": "How do I multiply two fractions?",
+        "expected": {
+          "grade": 7,
+          "subject": "maths",
+          "chapter": 8
+        },
+        "rank": 1,
+        "top_score": 0.7613
+      },
+      {
+        "question": "How is heat transferred through materials?",
+        "expected": {
+          "grade": 7,
+          "subject": "science",
+          "chapter": 7
+        },
+        "rank": 1,
+        "top_score": 0.778
+      },
+      {
+        "question": "How do I express a fraction as a percentage?",
+        "expected": {
+          "grade": 8,
+          "subject": "maths",
+          "chapter": 8
+        },
+        "rank": 1,
+        "top_score": 0.7961
+      },
+      {
+        "question": "How do mirrors and lenses form images?",
+        "expected": {
+          "grade": 8,
+          "subject": "science",
+          "chapter": 10
+        },
+        "rank": 2,
+        "top_score": 0.7869
+      },
+      {
+        "question": "How do I find the surface area of a cuboid?",
+        "expected": {
+          "grade": 9,
+          "subject": "maths",
+          "chapter": 14
+        },
+        "rank": 1,
+        "top_score": 0.7802
+      },
+      {
+        "question": "What are cells and their organelles?",
+        "expected": {
+          "grade": 9,
+          "subject": "science",
+          "chapter": 2
+        },
+        "rank": 1,
+        "top_score": 0.7258
+      },
+      {
+        "question": "What is the sine of an angle in a right triangle?",
+        "expected": {
+          "grade": 10,
+          "subject": "maths",
+          "chapter": 8
+        },
+        "rank": 1,
+        "top_score": 0.7296
+      },
+      {
+        "question": "How does an electric current create a magnetic field?",
+        "expected": {
+          "grade": 10,
+          "subject": "science",
+          "chapter": 12
+        },
+        "rank": 2,
+        "top_score": 0.7711
+      }
+    ]
+  },
+  "off_topic": {
+    "questions": 10,
+    "rejected": 10,
+    "cases": [
+      {
+        "question": "Who won today’s cricket match?",
+        "top_score": 0.5369,
+        "rejected": true
+      },
+      {
+        "question": "Write a poem about my birthday.",
+        "top_score": 0.4251,
+        "rejected": true
+      },
+      {
+        "question": "What is the weather forecast tomorrow?",
+        "top_score": 0.4798,
+        "rejected": true
+      },
+      {
+        "question": "Book a flight to Mumbai for Friday.",
+        "top_score": 0.4566,
+        "rejected": true
+      },
+      {
+        "question": "What is the current price of a bank stock?",
+        "top_score": 0.4908,
+        "rejected": true
+      },
+      {
+        "question": "How do I repair my laptop battery?",
+        "top_score": 0.4929,
+        "rejected": true
+      },
+      {
+        "question": "Who is the current president of France?",
+        "top_score": 0.3032,
+        "rejected": true
+      },
+      {
+        "question": "Give me a recipe for pasta.",
+        "top_score": 0.4271,
+        "rejected": true
+      },
+      {
+        "question": "Why does my Python program crash?",
+        "top_score": 0.3959,
+        "rejected": true
+      },
+      {
+        "question": "Which movie should I watch tonight?",
+        "top_score": 0.4074,
+        "rejected": true
+      }
+    ]
+  },
+  "example": {
+    "question": "How do I compare tenths and hundredths?",
+    "matches": [
+      {
+        "grade": 7,
+        "subject": "maths",
+        "book_code": "gegp1",
+        "chapter": 3,
+        "score": 0.7603,
+        "heading": "Chapter – 3 A Peek Beyond the Point",
+        "page": 44,
+        "source_url": "https://ncert.nic.in/textbook/pdf/gegp103.pdf",
+        "passage_id": "2f7f893911cc34ff89d0d020"
+      },
+      {
+        "grade": 7,
+        "subject": "maths",
+        "book_code": "gegp2",
+        "chapter": 12,
+        "score": 0.6595,
+        "heading": "4.2 Decimal Multiplication",
+        "page": 7,
+        "source_url": "https://ncert.nic.in/textbook/pdf/gegp204.pdf",
+        "passage_id": "f6746c194da1dcdd6e49ba9c"
+      },
+      {
+        "grade": 6,
+        "subject": "maths",
+        "book_code": "fegp1",
+        "chapter": 7,
+        "score": 0.6164,
+        "heading": "Group 1",
+        "page": 21,
+        "source_url": "https://ncert.nic.in/textbook/pdf/fegp107.pdf",
+        "passage_id": "87118fc7e95ac0bb2dace657"
+      },
+      {
+        "grade": 8,
+        "subject": "maths",
+        "book_code": "hegp2",
+        "chapter": 8,
+        "score": 0.5922,
+        "heading": "Expressing Fractions as Percentages",
+        "page": 4,
+        "source_url": "https://ncert.nic.in/textbook/pdf/hegp201.pdf",
+        "passage_id": "c97eb8783895f27c8a147176"
+      },
+      {
+        "grade": 8,
+        "subject": "maths",
+        "book_code": "hegp1",
+        "chapter": 3,
+        "score": 0.5731,
+        "heading": "Base-10 or Decimal",
+        "page": 30,
+        "source_url": "https://ncert.nic.in/textbook/pdf/hegp103.pdf",
+        "passage_id": "d67ce9741f241b0f5d2fe264"
+      }
+    ]
+  }
+}

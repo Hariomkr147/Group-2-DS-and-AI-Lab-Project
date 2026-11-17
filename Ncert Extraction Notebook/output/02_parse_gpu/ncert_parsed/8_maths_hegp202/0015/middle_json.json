@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.553,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Baudhāyana-Pythagoras Theorem"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.089,
+            0.848,
+            0.221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Baudhāyana was the first person in history to state this theorem in this generality and essentially modern form. The theorem is also known as the Pythagorean Theorem, after the Greek philosopher-mathematician Pythagoras (c. 500 BCE) who also admired and studied this theorem, and lived a couple hundred years after Baudhāyana. It is also often called the transitional name ‘Baudhāyana-Pythagoras Theorem’ so that everyone knows what theorem is being referred to."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.23,
+            0.468,
+            0.25
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using Baudhāyana’s Theorem"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.253,
+            0.592,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Make a right-angled triangle in your notebook whose shorter sidelengths are 3 cm and 4 cm. Now, measure the length of the hypotenuse. It should read about 5cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.327,
+            0.593,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, we could have used Baudhāyana’s Theorem to predict that the hypotenuse is"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.607,
+            0.23,
+            0.85,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.607,
+                0.23,
+                0.85,
+                0.36
+              ],
+              "image_path": "images/page_14_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.363,
+            0.847,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "exactly 5cm! Let a = 3 and b = 4, the lengths in cm of the two shorter sides. Then, by Baudhāyana’s Theorem, the length c of the hypotenuse satisfies the equation,"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.446,
+            0.422,
+            0.552,
+            0.443
+          ],
+          "image_path": "images/page_14_equation_7.jpg",
+          "content": "a^{2} + b^{2} = c^{2}"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.447,
+            0.445,
+            0.553,
+            0.467
+          ],
+          "image_path": "images/page_14_equation_8.jpg",
+          "content": "3^{2} + 4^{2} = c^{2}"
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.445,
+            0.469,
+            0.55,
+            0.491
+          ],
+          "image_path": "images/page_14_equation_9.jpg",
+          "content": "9 + 16 = c^{2}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.479,
+            0.493,
+            0.55,
+            0.514
+          ],
+          "image_path": "images/page_14_equation_10.jpg",
+          "content": "25 = c^{2}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.459,
+            0.517,
+            0.583,
+            0.538
+          ],
+          "image_path": "images/page_14_equation_11.jpg",
+          "content": "\\mathrm{S}0,c=5\\mathrm{cm}."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.114,
+            0.547,
+            0.294,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.572,
+            0.847,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If a right-angled triangle has shorter sides of lengths 5 cm and 12 cm, then what is the length of its hypotenuse? First draw the right-angled triangle with these sidelengths and measure the hypotenuse, then check your answer using Baudhāyana’s Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.656,
+            0.847,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If a right-angled triangle has a short side of length 8 cm and hypotenuse of length 17 cm, what is the length of the third side? Again, try drawing the triangle and measuring, and then check your answer using Baudhāyana’s Theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.152,
+            0.741,
+            0.847,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Using the constructions you have now seen, how would you construct a square whose area is triple the area of a given square? Five times the area of a given square? (Baudhāyana’s Śulba-Sūtra, Verse 1.10)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.808,
+            0.847,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Let a, b and c denote the length of the sides of a right triangle, with c being the length of the hypotenuse. Find the missing sidelength in each of the following cases:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.205,
+            0.869,
+            0.34,
+            0.888
+          ],
+          "image_path": "images/page_14_equation_17.jpg",
+          "content": "a = 5,   b = 7"
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.396,
+            0.869,
+            0.546,
+            0.889
+          ],
+          "image_path": "images/page_14_equation_18.jpg",
+          "content": "a = 8, b = 12"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.637,
+            0.869,
+            0.792,
+            0.889
+          ],
+          "image_path": "images/page_14_equation_19.jpg",
+          "content": "a = 9, c = 15"
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.19,
+            0.892,
+            0.351,
+            0.913
+          ],
+          "image_path": "images/page_14_equation_20.jpg",
+          "content": "(iv) a = 7, b = 12"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.396,
+            0.892,
+            0.566,
+            0.913
+          ],
+          "image_path": "images/page_14_equation_21.jpg",
+          "content": "(v) a = 1.5, b = 3.5"
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.875,
+            0.914,
+            0.91,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "47"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

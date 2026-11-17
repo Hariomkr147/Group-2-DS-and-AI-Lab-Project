@@ -1,0 +1,204 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.377,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.84,
+            0.119,
+            0.927,
+            0.178
+          ],
+          "content": "Math Talk I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.119,
+            0.825,
+            0.187
+          ],
+          "content": "At which positions will the points X and Y be at their closest? When do you think they will be the farthest? What does your intuition say? Discuss with your classmates."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.193,
+            0.884,
+            0.237
+          ],
+          "content": "Now, verify your guesses by placing the points X and Y on the sides and measure how near or far they are."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.239,
+            0.884,
+            0.282
+          ],
+          "content": "The distance between X and Y can be obtained by measuring the length of the line XY."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.284,
+            0.884,
+            0.328
+          ],
+          "content": "How does the minimum distance between the points X and Y compare to the length of AB?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.33,
+            0.885,
+            0.419
+          ],
+          "content": "Change the positions of X and Y to check if there are other positions where they are at their nearest or farthest. You could construct multiple copies of the rectangle and try out various positions of X and Y."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.421,
+            0.884,
+            0.464
+          ],
+          "content": "How will you keep track of the lengths XY for different positions of X and Y?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.467,
+            0.884,
+            0.51
+          ],
+          "content": "Here is one way of doing it. Suppose here are some of the positions of X and Y that you have considered:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.515,
+            0.846,
+            0.559
+          ],
+          "content": "When X is 5 mm away from A and Y is 3 cm away from B, XY = \\_\\_\\_ cm \\_\\_ mm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.565,
+            0.836,
+            0.609
+          ],
+          "content": "When X is 1 cm away from A and Y is 1 cm away from B, XY = cm mm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.614,
+            0.836,
+            0.658
+          ],
+          "content": "When X is 2 cm away from A and Y is 4 cm away from B, XY = \\_\\_\\_ cm \\_\\_\\_ mm and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.659,
+            0.885,
+            0.726
+          ],
+          "content": "Is there a shorthand way of writing it down? In all the sentences, only the position of X, Y and the length XY changes. So we could write this as:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.205,
+            0.747,
+            0.845,
+            0.847
+          ],
+          "content": "| Distance of X from A | Distance of Y from B | LengthofXY |\n| --- | --- | --- |\n|  |  |  |\n|  |  |  |\n|  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_table_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.085,
+            0.942,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.549,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.148
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If an object were to pass perpendicularly through a plane and form a hole, the shape of the hole would be the same as the shape of the projection of the object."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.156,
+            0.847,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? See Figures 4.2 – 4.5. In each case, see if you can visualise another object that gives the same projection."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.171,
+            0.202,
+            0.859,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.171,
+                0.202,
+                0.859,
+                0.796
+              ],
+              "image_path": "images/page_20_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.471,
+                0.803,
+                0.529,
+                0.82
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.6"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 5,
+              "bbox": [
+                0.271,
+                0.829,
+                0.727,
+                0.847
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Different lines and different cuboids giving the same projections"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.859,
+            0.752,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that a given projection is not made by a unique object."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.086,
+            0.914,
+            0.121,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "90"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

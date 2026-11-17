@@ -1,0 +1,306 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.059,
+            0.081,
+            0.134,
+            0.122
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.082,
+            0.255,
+            0.119
+          ],
+          "content": "Threads of Curiosity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.066,
+            0.13,
+            0.273,
+            0.162
+          ],
+          "content": "A saline drip in hospitals is usually 0.9 % m/v"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.066,
+            0.162,
+            0.172,
+            0.424
+          ],
+          "content": "sodium chloride (common salt) in water. That means 0.9 g of salt in 100 mL of solution (Fig. 5.5). 0.9% saline solution is safe for blood and replaces lost fluids in the body."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.176,
+            0.166,
+            0.291,
+            0.407
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.178,
+                0.413,
+                0.284,
+                0.442
+              ],
+              "content": "Fig. 5.5: Saline solution"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_4.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.325,
+            0.088,
+            0.74,
+            0.107
+          ],
+          "content": "C. Volume by volume percentage (% v/v)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.324,
+            0.109,
+            0.89,
+            0.2
+          ],
+          "content": "This method is used when two miscible liquids are mixed, for example, in perfumes, cosmetics and vinegar (Fig. 5.4c). The volume by volume percentage (% v/v) tells us how many millilitres of the solute is present in 100 millilitres of the solution. Mathematically,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.207,
+            0.886,
+            0.244
+          ],
+          "content": "\\text { Volume by volume percentage }=\\frac{\\text { Volume of solute }}{\\text { Volume of solution }} \\times 100\\tag{5.3}",
+          "image_source": "images/page_4_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.324,
+            0.257,
+            0.889,
+            0.31
+          ],
+          "content": "**Example 5.3:** If 1 mL of a liquid pesticide is mixed with a sufficient amount of water to form 100 mL of a pesticide spray for rice crop, calculate its volume by volume percentage."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.325,
+            0.312,
+            0.724,
+            0.33
+          ],
+          "content": "**Answer:** Volume of pesticide (solute) = 1 mL"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.355,
+            0.332,
+            0.664,
+            0.35
+          ],
+          "content": "Total volume of solution = 100 mL"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.353,
+            0.768,
+            0.448
+          ],
+          "content": "\\begin{aligned} Volume by volume   &  per centage  \\\\& = \\frac{ Volume of solute }{ Volume of solution } \\times 100 \\\\& = \\frac{1  mL }{100  mL } \\times 100 = 1\\% v/v\\end{aligned}",
+          "image_source": "images/page_4_equation_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.075,
+            0.467,
+            0.129,
+            0.484
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.075,
+            0.489,
+            0.866,
+            0.523
+          ],
+          "content": "Commonly used unit in industries is weight by weight percentage (% w/w), as weight and mass are generally used interchangeably. Numerically, both % m/m and % w/w are equal to each other."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.065,
+            0.548,
+            0.125,
+            0.578
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.128,
+            0.556,
+            0.319,
+            0.574
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.085,
+            0.583,
+            0.862,
+            0.614
+          ],
+          "content": "1. A common talcum powder contains 4 % m/m zinc oxide, which acts as an antiseptic. How much zinc oxide is present in 300 g of the talcum powder?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.085,
+            0.614,
+            0.863,
+            0.676
+          ],
+          "content": "2. Your mother gives you a bottle of orange juice concentrate to mix with water and serve it to your visiting friends. She asks you to mix two tablespoons of the concentrate with water in a glass tumbler. If each tablespoon measures 15 mL and you make 150 mL of juice per person, what is the % v/v of orange juice concentrate in the mixture you prepared?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.085,
+            0.675,
+            0.863,
+            0.723
+          ],
+          "content": "3. Vinegar, used as a food preservative and additive, contains 5 % v/v acetic acid. Glacial acetic acid is a liquid, i.e., 100% acetic acid. If you want to make vinegar from glacial acetic acid, how would you proceed?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.224,
+            0.751,
+            0.55,
+            0.771
+          ],
+          "level": 2,
+          "content": "5.2.3 Solubility of substances"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.145,
+            0.774,
+            0.209,
+            0.809
+          ],
+          "level": 2,
+          "content": "Grade 8 Curiosity Chapter 9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.773,
+            0.89,
+            0.928
+          ],
+          "content": "You have learnt that the maximum amount of solute that dissolves in a fixed quantity of the solvent (100 mL or 100 g) is called its **solubility** at a given temperature. A solution that cannot dissolve any more solute at that temperature is called a **saturated** solution. Why do we mention the temperature? This is because the solubility of a solid solute in a liquid solvent generally increases with temperature. On the other hand, in the case of gases dissolved in liquids, their solubility generally decreases with an increase in temperature. Solubility is an important property used to separate substances from mixtures. Let us explore it further!"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.079,
+            0.943,
+            0.11,
+            0.96
+          ],
+          "content": "76"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.946,
+            0.303,
+            0.964
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-03T19:57:18+05:30",
+      "modified_at": "2026-05-13T10:46:40+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

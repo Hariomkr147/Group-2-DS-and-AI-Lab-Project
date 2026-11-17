@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.216,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "POLYNOMIALS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.875,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.1,
+            0.168,
+            0.897,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.448,
+                0.138,
+                0.551,
+                0.157
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 2.1"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.1,
+                0.168,
+                0.897,
+                0.239
+              ],
+              "image_path": "images/page_3_table_3.jpg",
+              "content": "<table><tbody><tr><td>x</td><td>- 2</td><td>-1</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>y = x<sup>2</sup> - 3x - 4</td><td>6</td><td>0</td><td>- 4</td><td>- 6</td><td>- 6</td><td>- 4</td><td>0</td><td>6</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.251,
+            0.424,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we locate the points listed above on a graph paper and draw the graph, it will actually look like the one given in Fig. 2.2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.339,
+            0.424,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In fact, for any quadratic polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2}+bx+c,a\\ne 0"
+            },
+            {
+              "type": "text",
+              "content": " , the graph of the corresponding equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = a x ^ { 2 } + b x + c"
+            },
+            {
+              "type": "text",
+              "content": " has one of the two shapes either open upwards like or open downwards like "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\triangle"
+            },
+            {
+              "type": "text",
+              "content": " depending on whether "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a > 0"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a < 0"
+            },
+            {
+              "type": "text",
+              "content": " . (These curves are called "
+            },
+            {
+              "type": "text",
+              "content": "parabolas",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ".)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.538,
+            0.425,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can see from Table 2.1 that –1 and 4 are zeroes of the quadratic polynomial. Also note from Fig. 2.2 that –1 and 4 are the x-coordinates of the points where the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 2 } - 3 x - { \\overline { { 4 } } }"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x- axis. Thus, the zeroes of the quadratic polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } - 3 x - 4"
+            },
+            {
+              "type": "text",
+              "content": " are x-coordinates of the points where the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x^{2} - 3x - 4"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x-axis."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.431,
+            0.258,
+            0.896,
+            0.727
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.431,
+                0.258,
+                0.896,
+                0.727
+              ],
+              "image_path": "images/page_3_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.619,
+                0.735,
+                0.705,
+                0.755
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.095,
+            0.79,
+            0.901,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This fact is true for any quadratic polynomial, i.e., the zeroes of a quadratic polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2}+bx+c,a\\ne 0"
+            },
+            {
+              "type": "text",
+              "content": " , are precisely the x-coordinates of the points where the parabola representing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = a x ^ { 2 } + b x + c"
+            },
+            {
+              "type": "text",
+              "content": " intersects the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - \\mathrm { a x i s }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.857,
+            0.9,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From our observation earlier about the shape of the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = a x ^ { 2 } + b x + c ."
+            },
+            {
+              "type": "text",
+              "content": " , the following three cases can happen:"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

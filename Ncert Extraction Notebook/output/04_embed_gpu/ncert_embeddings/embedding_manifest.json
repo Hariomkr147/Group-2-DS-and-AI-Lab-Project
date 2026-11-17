@@ -1,0 +1,14 @@
+{
+  "passages": 7221,
+  "dimensions": 1024,
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "model_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "pooling": "last token",
+  "normalization": "L2",
+  "document_prefix": "",
+  "query_prefix": "Instruct: Given a question, retrieve relevant passages that answer the question\nQuery: ",
+  "source_sha256": "48008ffb9e9faf4f298d60a3be50db847dc568f6c075b167ae05b5eccd511a45",
+  "status": "candidate",
+  "seconds": 946.8706230739999,
+  "vectors_sha256": "982909a484bcab25fed43b6cdac96f315ceca2f4ba9fc80fc53314b39bfc6e22"
+}

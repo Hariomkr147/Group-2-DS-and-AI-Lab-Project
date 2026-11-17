@@ -1,0 +1,21 @@
+6. The length, width, and height of a box are 12 cm, 18 cm, and 36 cm respectively. Which of the following sized cubes can be packed in this box without leaving gaps? (a) 9 cm (b) 6 cm (c) 4 cm (d) 3 cm (e) 2 cm
+
+7. Among the numbers below, which is the largest number that perfectly divides both 306 and 36? (a) 36 (b) 612 (c) 18 (d) 3 (e) 2 (f) 360
+
+8. Find the smallest number that is divisible by 3, 4, 5 and 7, but leaves a remainder of 10 when divided by 11.
+
+![](images/page_17_image_4.jpg)
+
+9. Children are playing ‘Fire in the Mountain’. When the number 6 was called out, no one got out. When the number 9 was called out, no one got out. But when the number 10 was called out, some people got out. How many children could have been playing initially? (a) 72 (b) 90 (c) 45 (d) 3 (e) 36 (f) None of these
+
+10. Tick the correct statement(s). The LCM of two different prime numbers (m, n) can be: (a) Less than both numbers (b) In between the two numbers (c) Greater than both numbers (e) Greater than $m \times n$
+
+11. A dog is chasing a rabbit that has a head start of 150 feet. It jumps 9 feet every time the rabbit jumps 7 feet. In how many leaps does the dog catch up with the rabbit?
+
+![](images/page_17_image_8.jpg)
+
+12. What is the smallest number that is a multiple of 1, 2, 3, 4, 5, 6, 8, 9, 10? Do you remember the answer from Grade 6, Chapter 5?
+
+13. Here is a problem posed by the ancient Indian Mathematician Mahaviracharya (850 C.E.). Add together $\frac{8}{15}, \frac{1}{20}, \frac{7}{36}, \frac{11}{63}$ and ${ \frac { 1 } { 2 1 } } .$ What do you get? How can we find this sum efficiently?
+
+![](images/page_17_image_11.jpg)

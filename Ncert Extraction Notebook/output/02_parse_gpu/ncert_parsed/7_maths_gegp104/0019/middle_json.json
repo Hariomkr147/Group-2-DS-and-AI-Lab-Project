@@ -1,0 +1,587 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.562,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Expressions Using Letter-Numbers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.173,
+            0.088,
+            0.723,
+            0.107
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• the number to the right of ‘a’ will be "
+            },
+            {
+              "type": "text",
+              "content": "1 more than it",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.174,
+            0.113,
+            0.648,
+            0.131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the number below ‘a’ will be "
+            },
+            {
+              "type": "text",
+              "content": "7 more than it",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.174,
+            0.136,
+            0.696,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• the number diagonal to ‘a’ will be "
+            },
+            {
+              "type": "text",
+              "content": "8 more than it",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.161,
+            0.695,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the other numbers in the 2 × 2 square can be represented as shown in the grid. Let us find the diagonal sums; "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm ( a \\pm 8 )"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + 1) + (a + 7)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.175,
+            0.217,
+            0.389,
+            0.234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us simplify them."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.706,
+            0.148,
+            0.843,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.706,
+                0.148,
+                0.843,
+                0.228
+              ],
+              "image_path": "images/page_18_table_7.jpg",
+              "content": "<table><tbody><tr><td>a</td><td>a + 1</td></tr><tr><td>a + 7</td><td>a + 8</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.235,
+            0.695,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the terms can be added in any order, the brackets can be opened."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.175,
+            0.272,
+            0.461,
+            0.288
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a + (a + 8) = a + a + 8 = 2a + 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.29,
+            0.68,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a + 1) + (a + 7) = a + 1 + a + 7 = a + a + 1 + 7 = 2a + 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.308,
+            0.848,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that both diagonal sums are equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 a \\: + \\: 8"
+            },
+            {
+              "type": "text",
+              "content": " (8 more than 2 times a)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.354,
+            0.847,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Verify this expression for diagonal sums by considering any "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " square and taking its top left number to be ‘a’."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.404,
+            0.848,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, we have shown that diagonal sums are equal for any value of a, i.e., for any 2 × 2 square!"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.165,
+            0.455,
+            0.232,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.165,
+                0.455,
+                0.232,
+                0.497
+              ],
+              "image_path": "images/page_18_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.241,
+            0.459,
+            0.825,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This problem is an example that shows the power of algebraic modelling in verifying whether a pattern will always hold."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.514,
+            0.846,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a set of numbers from the calendar (having endless rows) forming under the following shape:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.312,
+            0.571,
+            0.376,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.312,
+                0.571,
+                0.376,
+                0.619
+              ],
+              "image_path": "images/page_18_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 18,
+          "bbox": [
+            0.396,
+            0.558,
+            0.602,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 18,
+              "bbox": [
+                0.396,
+                0.558,
+                0.602,
+                0.679
+              ],
+              "image_path": "images/page_18_table_18.jpg",
+              "content": "<table><tbody><tr><td></td><td>8</td><td></td></tr><tr><td>14</td><td>15</td><td>16</td></tr><tr><td></td><td>22</td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.111,
+            0.689,
+            0.847,
+            0.747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Find the sum of all the numbers. Compare it with the number in the centre: 15. Repeat this for another set of numbers that forms this shape. What do you observe?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.15,
+            0.757,
+            0.832,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that the total sum is always 5 times the number in the centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.111,
+            0.785,
+            0.637,
+            0.808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Will this always happen? How do you show this?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 22,
+          "bbox": [
+            0.818,
+            0.772,
+            0.905,
+            0.825
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 22,
+              "bbox": [
+                0.818,
+                0.772,
+                0.905,
+                0.825
+              ],
+              "image_path": "images/page_18_image_22.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.15,
+            0.817,
+            0.846,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "["
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider a general set of numbers that forms this shape. Take the number at the centre to be ‘a’. Express the other numbers in terms of ‘a’.] 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.15,
+            0.872,
+            0.802,
+            0.912
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find other shapes for which the sum of the numbers within the figure is always a multiple of one of the numbers."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.818,
+            0.858,
+            0.905,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Math Talk"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 26,
+          "bbox": [
+            0.814,
+            0.939,
+            0.84,
+            0.954
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "99"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,322 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.645,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "The Other Side of Zero"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.388,
+            0.121,
+            0.56,
+            0.139
+          ],
+          "level": 2,
+          "content": "Teacher’s Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.142,
+            0.814,
+            0.278
+          ],
+          "content": "Talk about thermometers and how they are used to measure temperature. Bring a laboratory thermometer to the class and measure the temperature of hot water and cold water. Point out to children that there are markings in the thermometer that are below $0 ^ { \\circ } \\mathbb { C } ,$ . Have a discussion on what $0 ^ { \\circ } \\mathbb { C }$ indicates, namely, the freezing point of water."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.317,
+            0.56,
+            0.343
+          ],
+          "level": 2,
+          "content": "10.4 Explorations with Integers"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.356,
+            0.377,
+            0.379
+          ],
+          "level": 2,
+          "content": "A hollow integer grid"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.288,
+            0.382,
+            0.488,
+            0.51
+          ],
+          "content": "| 4 | -1 | -3 |\n| --- | --- | --- |\n| -3 |  | 1 |\n| -1 | -1 | 2 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_table_5.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.545,
+            0.381,
+            0.741,
+            0.507
+          ],
+          "content": "| 5 | -3 | -5 |\n| --- | --- | --- |\n| 0 |  | -5 |\n| -8 | -2 | 7 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.521,
+            0.824,
+            0.565
+          ],
+          "content": "There is something special about the numbers in these two grids. Let us explore what that is."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.581,
+            0.224,
+            0.601
+          ],
+          "content": "Top row:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.313,
+            0.579,
+            0.49,
+            0.6
+          ],
+          "content": "4+(-1)+(-3)=0",
+          "image_source": "images/page_21_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.571,
+            0.58,
+            0.786,
+            0.6
+          ],
+          "content": "5+(-3)+(-5)=\\underline{\\hspace{1cm}}",
+          "image_source": "images/page_21_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.604,
+            0.261,
+            0.623
+          ],
+          "content": "Bottom row:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.286,
+            0.603,
+            0.488,
+            0.623
+          ],
+          "content": "(-1) \\pm (-1) + 2 = 0",
+          "image_source": "images/page_21_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.543,
+            0.603,
+            0.785,
+            0.623
+          ],
+          "content": "( - 8) + ( - 2) + 7 = \\underline{\\hspace{2cm}}",
+          "image_source": "images/page_21_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.626,
+            0.263,
+            0.645
+          ],
+          "content": "Left column:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.314,
+            0.626,
+            0.488,
+            0.645
+          ],
+          "content": "4+(-3)+(-1)=0",
+          "image_source": "images/page_21_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.572,
+            0.626,
+            0.785,
+            0.645
+          ],
+          "content": "5+\\quad 0+(-8)=\\underline{\\quad}",
+          "image_source": "images/page_21_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.649,
+            0.277,
+            0.67
+          ],
+          "content": "Right column:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.286,
+            0.649,
+            0.49,
+            0.667
+          ],
+          "content": "(-3)+1+2=0",
+          "image_source": "images/page_21_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.543,
+            0.648,
+            0.785,
+            0.669
+          ],
+          "content": "( - 5) + ( - 5) + 7 = \\underline{\\hspace{1cm}}",
+          "image_source": "images/page_21_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.689,
+            0.835,
+            0.802
+          ],
+          "content": "In each grid, the numbers in each of the two rows (the top row and the bottom row) and the numbers in each of the two columns (the leftmost column and the rightmost column) add up to give the same number. We shall call this sum as the ‘border sum’. The border sum of the first grid is ‘0’."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.116,
+            0.809,
+            0.146,
+            0.83
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_21.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.809,
+            0.302,
+            0.831
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.839,
+            0.833,
+            0.881
+          ],
+          "content": "1. Do the calculations for the second grid above and find the border sum."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:25+05:30",
+      "modified_at": "2026-04-07T17:41:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "iLovePDF",
+      "page_count": 56,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

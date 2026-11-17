@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.114,
+            0.069,
+            0.135,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.182,
+            0.069,
+            0.491,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.185,
+            0.104,
+            0.812,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.185,
+                0.104,
+                0.812,
+                0.471
+              ],
+              "image_path": "images/page_3_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.314,
+                0.478,
+                0.687,
+                0.496
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 1.2: Structure of the coordinate plane"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.109,
+            0.506,
+            0.889,
+            0.602
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Point B is on the x-axis and 4.5 units to the right of O, its coordinates are (4.5, 0). This fact is written as B = (4.5, 0). Point G is on the y-axis and 4.5 units downward from O, its coordinates are (0, – 4.5), that is, G = (0, – 4.5). Point H is also on the y-axis but 4 units above O, its coordinates are (0, 4), that is, H = (0, 4)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.108,
+            0.602,
+            0.889,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A point P = (x, 0) lies on the x-axis. If x is positive, then P lies to the right of O. If x is negative, P lies to the left of O. A point P = (0, y) lies on the y-axis. If y is positive, P lies above O; if y is negative, P lies below O."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.108,
+            0.66,
+            0.889,
+            0.719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While writing the coordinates of a point, it is often convenient to drop the ‘=’ sign and write P = (x, y) simply as P (x, y). This is especially true while marking points on a graph."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.371,
+            0.748,
+            0.626,
+            0.776
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 1.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.109,
+            0.795,
+            0.889,
+            0.836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 1.3 shows Reiaan’s room with points OABC marking its corners. The x- and y-axes are marked in the figure. Point O is the origin."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

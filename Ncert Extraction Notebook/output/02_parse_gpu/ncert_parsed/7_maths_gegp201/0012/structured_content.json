@@ -1,0 +1,235 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.15,
+            0.153,
+            0.473,
+            0.233
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.522,
+            0.083,
+            0.842,
+            0.232
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.243,
+            0.846,
+            0.28
+          ],
+          "content": "Hence, we can draw two non-congruent triangles with the given measurements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.281,
+            0.847,
+            0.319
+          ],
+          "content": "This is called the **SSA (Side Side Angle)** condition. We have seen that SSA condition **does not guarantee** congruence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.32,
+            0.848,
+            0.357
+          ],
+          "content": "congruence. Can we use two angles and a side?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.357,
+            0.74,
+            0.377
+          ],
+          "content": "Let us first take the case of two angles and the included side."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.394,
+            0.571,
+            0.416
+          ],
+          "level": 2,
+          "content": "Two Angles and the Included Side"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.42,
+            0.534,
+            0.443
+          ],
+          "content": "ΔABC and ΔXYZ are two triangles with,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.262,
+            0.452,
+            0.733,
+            0.472
+          ],
+          "content": "\\mathrm{BC} = \\mathrm{YZ} = 5\\ \\mathrm{cm}, \\angle \\mathrm{B} = \\angle \\mathrm{Y} = 50^{\\circ}\\ \\mathrm{and}\\ \\angle \\mathrm{C} = \\angle \\mathrm{Z} = 30^{\\circ}.",
+          "image_source": "images/page_11_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.48,
+            0.357,
+            0.5
+          ],
+          "content": "Are they congruent?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.509,
+            0.846,
+            0.55
+          ],
+          "content": "？ Can there exist non-congruent triangles having these measurements? Construct and find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.561,
+            0.846,
+            0.599
+          ],
+          "content": "We have seen how to construct a triangle when we are given two angles and the included side."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.599,
+            0.847,
+            0.656
+          ],
+          "content": "This construction should make it clear that all the triangles having these measurements must be congruent to each other. Hence, $\\Delta \\mathrm { A B C } \\cong \\Delta \\mathrm { X Y Z } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.656,
+            0.846,
+            0.696
+          ],
+          "content": "This condition is referred to as the **ASA (Angle Side Angle)** condition for congruence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.704,
+            0.847,
+            0.744
+          ],
+          "content": "？ In the figure, Point O is the midpoint of AD and BC. What can one say about the lengths AB and CD?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.363,
+            0.75,
+            0.635,
+            0.912
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16,
+            0.934,
+            0.188,
+            0.951
+          ],
+          "content": "12"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

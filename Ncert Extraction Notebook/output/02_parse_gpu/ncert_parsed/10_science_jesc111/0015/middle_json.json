@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.129,
+            0.085,
+            0.721,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Applying Ohm’s law to the electric lamp and conductor separately, we get potential difference across the electric lamp,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.132,
+            0.117,
+            0.306,
+            0.148
+          ],
+          "image_path": "images/page_14_equation_2.jpg",
+          "content": "V_{_{ 丨 }} \\begin{array}{l} \\bar{=} 20 \\Omega \\times 0.25  A  ; \\\\ = 5  V  ; \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.131,
+            0.15,
+            0.177,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.131,
+            0.163,
+            0.527,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that across the conductor, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{aligned}V_{_2} &= 4 \\Omega \\times 0.25  A  \\\\&= 1  V .\\end{aligned}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.204,
+            0.724,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose that we like to replace the series combination of electric lamp and conductor by a single and equivalent resistor. Its resistance must be such that a potential difference of 6 V across the battery terminals will cause a current of 0.25 A in the circuit. The resistance R of this equivalent resistor would be",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.131,
+            0.288,
+            0.289,
+            0.335
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "R = V/I = 6 V/ 0.25 A = 24",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.339,
+            0.722,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the total resistance of the series circuit; it is equal to the sum of the two resistances.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.277,
+            0.402,
+            0.775,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.44,
+            0.777,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Draw a schematic diagram of a circuit consisting of a battery of three cells of 2 V each, a 5",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistor, an 8",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistor, and a 12",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistor, and a plug key, all connected in series.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.122,
+            0.488,
+            0.777,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Redraw the circuit of Question 1, putting in an ammeter to measure the current through the resistors and a voltmeter to measure the potential difference across the 12",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistor. What would be the readings in the ammeter and the voltmeter?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.801,
+            0.444,
+            0.882,
+            0.544
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.801,
+                0.444,
+                0.882,
+                0.544
+              ],
+              "image_path": "images/page_14_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.101,
+            0.567,
+            0.388,
+            0.588
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.6.2 Resistors in Parallel"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.099,
+            0.595,
+            0.723,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, let us consider the arrangement of three resistors joined in parallel with a combination of cells (or a battery), as shown in Fig.11.7.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.134,
+            0.642,
+            0.306,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 11.6"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.125,
+            0.676,
+            0.517,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Make a parallel combination, XY, of three",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " resistors having resistances R , "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { 2 ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { 3 ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "respectively. Connect it with a battery, a plug key and an ammeter, as shown in Fig. 11.10. Also connect a voltmeter in parallel with the combination of resistors.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.764,
+            0.517,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plug the key and note the ammeter reading. Let the current be I. Also take the voltmeter reading. It gives the potential difference V, across the combination. The potential difference across each resistor is also V. This can be checked by connecting the voltmeter across each individual resistor (see Fig. 11.11).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.531,
+            0.664,
+            0.919,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.531,
+                0.664,
+                0.919,
+                0.856
+              ],
+              "image_path": "images/page_14_image_17.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 18,
+              "bbox": [
+                0.673,
+                0.86,
+                0.794,
+                0.877
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 19,
+          "bbox": [
+            0.1,
+            0.916,
+            0.177,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Electricity"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.881,
+            0.915,
+            0.914,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "185"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

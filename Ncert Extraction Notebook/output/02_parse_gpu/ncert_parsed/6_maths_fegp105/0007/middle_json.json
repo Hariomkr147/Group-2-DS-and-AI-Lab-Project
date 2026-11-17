@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.732,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Prime Time"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.121,
+            0.834,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What about 1, which has only one factor? The number 1 is neither a prime nor a composite number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.174,
+            0.833,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many prime numbers are there from 21 to 30? How many composite numbers are there from 21 to 30?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.227,
+            0.663,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we list all the prime numbers from 1 to 100?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.113,
+            0.249,
+            0.833,
+            0.295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is an interesting way to find prime numbers. Just follow the steps given below and see what happens."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.303,
+            0.765,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Cross out 1 because it is neither prime nor composite."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.326,
+            0.431,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Circle 2, and then cross out all multiples of 2 after that, i.e., 4, 6, 8, and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.394,
+            0.431,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " You will find that the next uncrossed number is 3. Circle 3 and then cross out all the multiples of 3 after that, i.e., 6, 9, 12, and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.113,
+            0.508,
+            0.431,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The next uncrossed number is 5. Circle 5 and then cross out all the multiples of 5 after that, i.e., 10, 15, 20, and so on."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.445,
+            0.329,
+            0.831,
+            0.586
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.445,
+                0.329,
+                0.831,
+                0.586
+              ],
+              "image_path": "images/page_6_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.113,
+            0.621,
+            0.832,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Continue this process till all the numbers in the list are either circled or crossed out."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.113,
+            0.674,
+            0.548,
+            0.763
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All the circled numbers are prime numbers. All the crossed out numbers, other than 1, are composite numbers. This method is called the Sieve of Eratosthenes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.113,
+            0.766,
+            0.548,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This procedure can be carried on for numbers greater than 100 also. Eratosthenes was a Greek mathematician who lived around 2200 years ago and developed this method of listing primes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.611,
+            0.673,
+            0.794,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is definitely not some magic; there should be a reason why it works."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.567,
+            0.65,
+            0.831,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.567,
+                0.65,
+                0.831,
+                0.883
+              ],
+              "image_path": "images/page_6_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.888,
+            0.942,
+            0.917,
+            0.959
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

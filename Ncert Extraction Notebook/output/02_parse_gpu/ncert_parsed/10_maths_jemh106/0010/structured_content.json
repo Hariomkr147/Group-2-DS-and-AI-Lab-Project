@@ -1,0 +1,341 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.489,
+            0.419,
+            0.573,
+            0.441
+          ],
+          "content": "(Why ?)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "82"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.595,
+            0.197
+          ],
+          "content": "**Theorem 6.2 :** If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.203,
+            0.594,
+            0.293
+          ],
+          "content": "This theorem can be proved by taking a line DE such that $\\frac { \\mathrm { A D } } { \\mathrm { D B } }   =   \\frac { \\mathrm { A E } } { \\mathrm { E C } }$ and assuming that DE is not parallel to BC (see Fig. 6.12)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.298,
+            0.594,
+            0.338
+          ],
+          "content": "If DE is not parallel to BC, draw a line DE parallel to BC."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.608,
+            0.138,
+            0.898,
+            0.304
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.703,
+                0.313,
+                0.802,
+                0.333
+              ],
+              "content": "Fig. 6.12"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.363,
+            0.135,
+            0.382
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.323,
+            0.346,
+            0.572,
+            0.392
+          ],
+          "content": "\\left[ \\frac{ AD }{ DB } = \\frac{ AE '}{ E ' C } \\right.\\tag{Why ?}",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.42,
+            0.205,
+            0.439
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.405,
+            0.45,
+            0.45
+          ],
+          "content": "\\left[ \\frac{ AE }{ EC } = \\frac{ AE '}{ EC } \\right.",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.457,
+            0.898,
+            0.497
+          ],
+          "content": "$\\mathrm { E ^ { \\prime } }$ must coincide. (Why ?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.502,
+            0.772,
+            0.522
+          ],
+          "content": "Let us take some examples to illustrate the use of the above theorems."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.534,
+            0.898,
+            0.601
+          ],
+          "content": "**Example 1 :** If a line intersects sides AB and AC of a $\\Delta   \\mathrm { A B C }$ at D and E respectively and is parallel to BC, prove that $\\frac{ AD }{ AB } = \\frac{ AE }{ AC }$ (see Fig. 6.13)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.611,
+            0.205,
+            0.63
+          ],
+          "content": "**Solution :**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.336,
+            0.611,
+            0.896,
+            0.631
+          ],
+          "content": "DE  \\parallel  BC\\tag{Given}",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.657,
+            0.134,
+            0.675
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.099,
+            0.643,
+            0.446,
+            0.727
+          ],
+          "content": "\\frac{ AD }{ DB } = \\frac{ AE }{ EC }\\tag{or,}",
+          "image_source": "images/page_9_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.1,
+            0.695,
+            0.445,
+            0.777
+          ],
+          "content": "{ \\frac { \\mathrm { D B } } { \\mathrm { A D } } } = { \\frac { \\mathrm { E C } } { \\mathrm { A E } } }\\tag{or,}",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.099,
+            0.745,
+            0.479,
+            0.829
+          ],
+          "content": "\\left\\{ { \\frac { \\mathrm { D B } } { \\mathrm { A D } } } + 1 = { \\frac { \\mathrm { E C } } { \\mathrm { A E } } } + 1 \\right.\\tag{or,}",
+          "image_source": "images/page_9_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.797,
+            0.445,
+            0.84
+          ],
+          "content": "{ \\frac { \\mathrm { A B } } { \\mathrm { A D } } } =   { \\frac { \\mathrm { A C } } { \\mathrm { A E } } }",
+          "image_source": "images/page_9_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.868,
+            0.133,
+            0.887
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.854,
+            0.445,
+            0.897
+          ],
+          "content": "\\left[ { \\frac { \\mathrm { A D } } { \\mathrm { A B } } } = { \\frac { \\mathrm { A E } } { \\mathrm { A C } } } \\right]",
+          "image_source": "images/page_9_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.755,
+            0.656,
+            0.898,
+            0.675
+          ],
+          "content": "(Theorem 6.1)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.583,
+            0.684,
+            0.9,
+            0.87
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.687,
+                0.879,
+                0.787,
+                0.898
+              ],
+              "content": "Fig. 6.13"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_25.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

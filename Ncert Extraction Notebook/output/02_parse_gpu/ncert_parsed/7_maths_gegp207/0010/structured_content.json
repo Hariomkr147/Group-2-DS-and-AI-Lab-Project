@@ -1,0 +1,472 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.067
+          ],
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.847,
+            0.127
+          ],
+          "content": "Since this action removes the factor 11 in the LHS, we can write this step as:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.127,
+            0.555,
+            0.146
+          ],
+          "content": "y = 66 \\div 11.",
+          "image_source": "images/page_9_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.15,
+            0.847,
+            0.19
+          ],
+          "content": "Again, we could have arrived at this by seeing multiplication and division as inverse operations, as in the case of Example 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.193,
+            0.742,
+            0.214
+          ],
+          "content": "Let us write down both these ways of solving an equation."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.169,
+            0.232,
+            0.316,
+            0.252
+          ],
+          "content": "11y+(-5)=61",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.504,
+            0.232,
+            0.651,
+            0.253
+          ],
+          "content": "11y+(-5)=61",
+          "image_source": "images/page_9_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.168,
+            0.252,
+            0.442,
+            0.272
+          ],
+          "content": "11y+(-5)-(-5)=61-(-5).",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.505,
+            0.253,
+            0.651,
+            0.272
+          ],
+          "content": "11y = 61 - ( - 5 )",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.17,
+            0.271,
+            0.255,
+            0.29
+          ],
+          "content": "1 1 y = 6 6",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.505,
+            0.271,
+            0.592,
+            0.291
+          ],
+          "content": "1 1 y = 6 6",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.169,
+            0.29,
+            0.341,
+            0.309
+          ],
+          "content": "11y \\div 11 = 66 \\div 11",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.506,
+            0.291,
+            0.617,
+            0.31
+          ],
+          "content": "y = 66 \\div 11",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.171,
+            0.31,
+            0.226,
+            0.33
+          ],
+          "content": "y = 6",
+          "image_source": "images/page_9_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.506,
+            0.311,
+            0.563,
+            0.331
+          ],
+          "content": "y = 6",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.34,
+            0.719,
+            0.361
+          ],
+          "content": "Let us consider another equation that we solved earlier."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.38,
+            0.325,
+            0.4
+          ],
+          "content": "6y + 7 = 4y + 21",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.511,
+            0.38,
+            0.66,
+            0.4
+          ],
+          "content": "6y + 7 = 4y + 21",
+          "image_source": "images/page_9_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.4,
+            0.41,
+            0.42
+          ],
+          "content": "6y+7-4y=4y+21-4y",
+          "image_source": "images/page_9_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.511,
+            0.4,
+            0.66,
+            0.419
+          ],
+          "content": "6y + 7 - 4y = 21",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.419,
+            0.282,
+            0.438
+          ],
+          "content": "2y + 7 = 21",
+          "image_source": "images/page_9_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.511,
+            0.419,
+            0.618,
+            0.438
+          ],
+          "content": "2\\bar{y} + 7 = 21",
+          "image_source": "images/page_9_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.437,
+            0.346,
+            0.457
+          ],
+          "content": "2y + 7 - 7 = 21 - 7",
+          "image_source": "images/page_9_equation_22.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.51,
+            0.438,
+            0.617,
+            0.457
+          ],
+          "content": "2y = 21 - 7",
+          "image_source": "images/page_9_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.457,
+            0.254,
+            0.476
+          ],
+          "content": "2 y = 1 4 .",
+          "image_source": "images/page_9_equation_24.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.511,
+            0.457,
+            0.589,
+            0.476
+          ],
+          "content": "2y = 14.",
+          "image_source": "images/page_9_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.476,
+            0.316,
+            0.496
+          ],
+          "content": "2y \\div 2 = 14 \\div 2",
+          "image_source": "images/page_9_equation_26.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.512,
+            0.476,
+            0.614,
+            0.496
+          ],
+          "content": "y = 14 \\div 2",
+          "image_source": "images/page_9_equation_27.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.496,
+            0.232,
+            0.516
+          ],
+          "content": "y = 7",
+          "image_source": "images/page_9_equation_28.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.514,
+            0.496,
+            0.569,
+            0.516
+          ],
+          "content": "y = 7",
+          "image_source": "images/page_9_equation_29.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.54,
+            0.493,
+            0.573
+          ],
+          "content": "What happens in cases like $\\frac { u } { 1 5 } = 6 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.576,
+            0.715,
+            0.598
+          ],
+          "content": "Multiplying both sides by 15 leaves only u in the LHS —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.597,
+            0.549,
+            0.615
+          ],
+          "content": "u = 6 \\times 15",
+          "image_source": "images/page_9_equation_32.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.463,
+            0.62,
+            0.534,
+            0.639
+          ],
+          "content": "w = 90.",
+          "image_source": "images/page_9_equation_33.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.644,
+            0.628,
+            0.664
+          ],
+          "content": "Thus, we can make the following observations —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.669,
+            0.847,
+            0.746
+          ],
+          "content": "(a) When a term that is added or subtracted on one side of an equation is removed from that side, its additive inverse should appear as a term on the other side for the equality to hold. For example, $2 y + 7$ = 21 becomes $2 y = 2 1 - 7$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.751,
+            0.848,
+            0.83
+          ],
+          "content": "(b) If one side of an equation is the product of two or more numbers or expressions, and we remove one of the factors, then the other side should be divided by this factor for the equality to hold. For example, $2 y = 1 4$ becomes $y = 1 4 \\div 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.833,
+            0.848,
+            0.892
+          ],
+          "content": "(c) If one side of an equation is the quotient of two numbers or expressions, and we remove the divisor, then the other side should be multiplied by this divisor for the equality to hold. For example,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.195,
+            0.895,
+            0.446,
+            0.928
+          ],
+          "content": "\\frac{u}{15}=6  becomes   u=6 \\times 15.",
+          "image_source": "images/page_9_equation_38.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.806,
+            0.932,
+            0.846,
+            0.95
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:15:18+05:30",
+      "modified_at": "2026-03-27T11:31:44+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.12,
+            0.081,
+            0.849,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.12,
+                0.081,
+                0.849,
+                0.587
+              ],
+              "image_path": "images/page_16_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.264,
+                0.597,
+                0.705,
+                0.616
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.18: Types of motion observed in a children’s park"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.118,
+            0.66,
+            0.741,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.297,
+                0.63,
+                0.562,
+                0.651
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 5.4: Types of Motion"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.118,
+                0.66,
+                0.741,
+                0.887
+              ],
+              "image_path": "images/page_16_table_3.jpg",
+              "content": "<table><tbody><tr><td>Object</td><td>Linear motion</td><td>Circular motion</td><td>Oscillatory motion</td></tr><tr><td>Swing</td><td></td><td></td><td>Moving to and fro</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 4,
+          "bbox": [
+            0.894,
+            0.693,
+            0.914,
+            0.869
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Measurement of Length and Motion"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 5,
+          "bbox": [
+            0.891,
+            0.899,
+            0.917,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "95"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 6,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

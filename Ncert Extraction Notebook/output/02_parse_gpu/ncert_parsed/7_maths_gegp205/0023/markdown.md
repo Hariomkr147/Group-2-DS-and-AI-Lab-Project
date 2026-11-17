@@ -1,0 +1,17 @@
+The data shows the monthly hours of daylight (i.e., the Sun is at least partly above the horizon) in these two cities over the year. Based on this data, a clustered bar graph showing the average daylight hours per day in each month is given below. This average is obtained by dividing the monthly daylight hours by the number of days in the month.
+
+![](images/page_22_chart_2.jpg)
+
+Let us follow the 2-step process to identify and interpret the information presented.
+
+## Step 1: Identify what is given
+
+? Notice how the graph is organised, what scale is used, and what patterns the data shows.
+
+The horizontal line shows the months of the year. The vertical line shows the average daylight hours per day, using the scale 1 unit = 5 hours. The month of June has the maximum value for City 1 and the minimum value for City 2.
+
+## Step 2: Infer from what is given
+
+？ Analyse and interpret each of your observations. Share appropriate summary and conclusion statements.
+
+The average number of daylight hours per day in City 1 increases from January, reaching a maximum of about 17 – 18 hours in June. It then decreases, reaching a minimum of about 6 hours in December.

@@ -1,0 +1,11 @@
+## Activity 2.9: Let us find out
+
+You have recorded the movement of a few animals in Table 2.2. You may have also observed how other animals move from place to place. Let us now think about the types of movement in animals. A number of animals are shown in Fig. 2.7. You can add more animals that you may have observed and create a poster on the variety of animals. Which body parts are used by the animals in the poster you created and those in Fig. 2.7 for movement?
+
+![](images/page_12_image_2.jpg)
+
+Fig. 2.7: Diversity in animals
+
+ List these animals in Table 2.5.
+
+ Note the ways in which these animals move and name the body parts used for movement. Some examples are given in Table 2.5.

@@ -1,0 +1,194 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "114"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.138,
+            0.518,
+            0.352
+          ],
+          "content": "3. Suppose a hot air balloon is flying in the air. A girl happens to spot the balloon in the sky and runs to her mother to tell her about it. Her mother rushes out of the house to look at the balloon.Now when the girl had spotted the balloon intially it was at point A. When both the mother and daughter came out to see it, it had already travelled to another point B. Can you find the altitude of B from the ground?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.524,
+            0.145,
+            0.895,
+            0.315
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.665,
+                0.325,
+                0.752,
+                0.344
+              ],
+              "content": "Fig. 8.3"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.357,
+            0.902,
+            0.533
+          ],
+          "content": "In all the situations given above, the distances or heights can be found by using some mathematical techniques, which come under a branch of mathematics called ‘trigonometry’. The word ‘trigonometry’ is derived from the Greek words ‘tri (meaning three), ‘gon’ (meaning sides) and ‘metron’ (meaning measure). In fact, **trigonometry** is the study of relationships between the sides and angles of a triangle. The earliest known work on trigonometry was recorded in Egypt and Babylon. Early astronomers used it to find out the distances of the stars and planets from the Earth. Even today, most of the technologically advanced methods used in Engineering and Physical Sciences are based on trigonometrical concepts."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.536,
+            0.903,
+            0.654
+          ],
+          "content": "In this chapter, we will study some ratios of the sides of a right triangle with respect to its acute angles, called **trigonometric ratios of the angle.** We will restrict our discussion to acute angles only. However, these ratios can be extended to other angles also. We will also define the trigonometric ratios for angles of measure $0 ^ { \\circ }$ and 90°. We will calculate trigonometric ratios for some specific angles and establish some identities involving these ratios, called **trigonometric identities.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.665,
+            0.379,
+            0.686
+          ],
+          "level": 2,
+          "content": "8.2 Trigonometric Ratios"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.693,
+            0.546,
+            0.731
+          ],
+          "content": "In Section 8.1, you have seen some right triangles imagined to be formed in different situations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.737,
+            0.547,
+            0.776
+          ],
+          "content": "Let us take a right triangle ABC as shown in Fig. 8.4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.782,
+            0.548,
+            0.918
+          ],
+          "content": "Here, $\\angle \\mathrm { C A B }$ (or, in brief, angle A) is an acute angle. Note the position of the side BC with respect to angle A. It faces $\\mathrm { \\angle A }$ . We call it the side opposite to angle A. AC is the hypotenuse of the right triangle and the side AB is a part of $\\angle \\textrm { A }$ . So, we call it the side adjacent to angle A."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.618,
+            0.677,
+            0.864,
+            0.879
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.703,
+                0.889,
+                0.788,
+                0.908
+              ],
+              "content": "Fig. 8.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_11.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

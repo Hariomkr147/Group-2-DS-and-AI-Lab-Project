@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.046,
+            0.366,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.174,
+            0.088,
+            0.639,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can 1 occur in a corner position? For example, can it be placed as follows?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.134,
+            0.637,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If yes, then there should exist three ways of adding 1 with two other numbers to give 15. We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1+5+9=1+6+8=15"
+            },
+            {
+              "type": "text",
+              "content": " . Is any other combination possible?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.653,
+            0.085,
+            0.817,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.653,
+                0.085,
+                0.817,
+                0.201
+              ],
+              "image_path": "images/page_9_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.671,
+                0.205,
+                0.692,
+                0.219
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.231,
+            0.661,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Similarly, can 9 can be placed in a corner position?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.262,
+            0.847,
+            0.301
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observation 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The numbers 1 and 9 cannot occur in any corner, so they should occur in one of the middle positions."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 8,
+          "bbox": [
+            0.299,
+            0.333,
+            0.459,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.111,
+                0.308,
+                0.681,
+                0.332
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "? Can you find th"
+                },
+                {
+                  "type": "text",
+                  "content": "e other possible",
+                  "styles": [
+                    "underline"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": " posit"
+                },
+                {
+                  "type": "text",
+                  "content": "ions for 1 and 9",
+                  "styles": [
+                    "underline"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": "?"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 8,
+              "bbox": [
+                0.299,
+                0.333,
+                0.459,
+                0.443
+              ],
+              "image_path": "images/page_9_table_8.jpg",
+              "content": "<table><tbody><tr><td></td><td></td><td></td></tr><tr><td>1</td><td>5</td><td>9</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 9,
+          "bbox": [
+            0.511,
+            0.333,
+            0.67,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 9,
+              "bbox": [
+                0.511,
+                0.333,
+                0.67,
+                0.443
+              ],
+              "image_path": "images/page_9_table_9.jpg",
+              "content": "<table><tbody><tr><td></td><td>1</td><td></td></tr><tr><td></td><td>5</td><td></td></tr><tr><td></td><td>9</td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.45,
+            0.756,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, we have one full row or column of the magic square! Try completing it!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.176,
+            0.487,
+            0.718,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "["
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " First fill the row or columns containing 1 and 9]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.515,
+            0.293,
+            0.538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.161,
+            0.541,
+            0.765,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. How many different magic squares can be made using the numbers 1 – 9?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.817,
+            0.531,
+            0.903,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.817,
+                0.531,
+                0.903,
+                0.583
+              ],
+              "image_path": "images/page_9_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.161,
+            0.584,
+            0.801,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Create a magic square using the numbers 2 – 10. What strategy would you use for this? Compare it with the magic squares made using 1 – 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.162,
+            0.645,
+            0.445,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Take a magic square, and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.207,
+            0.669,
+            0.524,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) increase each number by 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.208,
+            0.693,
+            0.464,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) double each number"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.186,
+            0.711,
+            0.847,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In each case, is the resulting grid also a magic square? How do the magic sums change in each case?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.16,
+            0.754,
+            0.801,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. What other operations can be performed on a magic square to yield another magic square?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.817,
+            0.745,
+            0.903,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.817,
+                0.745,
+                0.903,
+                0.796
+              ],
+              "image_path": "images/page_9_image_21.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.16,
+            0.797,
+            0.8,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Discuss ways of creating a magic square using any set of 9 consecutive numbers (like 2 – 10, 3 – 11, 9 – 17, etc.)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 23,
+          "bbox": [
+            0.152,
+            0.848,
+            0.565,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Generalising a 3 × 3 Magic Square"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.15,
+            0.877,
+            0.847,
+            0.916
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can describe how the numbers within the magic square are related to each other, i.e., the structure of the magic square."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 25,
+          "bbox": [
+            0.155,
+            0.938,
+            0.194,
+            0.954
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "136"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 26,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

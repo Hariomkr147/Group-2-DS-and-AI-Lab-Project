@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.067
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Some Geometric Themes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.088,
+            0.846,
+            0.127
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Find another object that makes the same projection as that of a given cone."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.139,
+            0.847,
+            0.233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For this reason, we often take three mutually perpendicular projections of an object. As shown in the figure, we consider a plane in front of the object called the "
+            },
+            {
+              "type": "text",
+              "content": "vertical plane",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", a plane below the object called the "
+            },
+            {
+              "type": "text",
+              "content": "horizontal plane",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and a plane to the side of the object called the "
+            },
+            {
+              "type": "text",
+              "content": "side plane",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.213,
+            0.24,
+            0.844,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.213,
+                0.24,
+                0.844,
+                0.662
+              ],
+              "image_path": "images/page_21_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.677,
+            0.847,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We give names to the projections on these three planes based on the directions from which the object is viewed. The projection on the vertical plane is called the "
+            },
+            {
+              "type": "text",
+              "content": "front view",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", on the horizontal plane the "
+            },
+            {
+              "type": "text",
+              "content": "top view",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and on the side plane the "
+            },
+            {
+              "type": "text",
+              "content": "side view",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". These projections formalise the notion of profiles that we explored in an earlier section."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.78,
+            0.845,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Let us see what these projections are for the objects shown in Fig. 4.6, when the planes shown are taken to be vertical planes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.153,
+            0.822,
+            0.591,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Projections of the different lines in Fig. 4.6 —"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.877,
+            0.913,
+            0.911,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "91"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

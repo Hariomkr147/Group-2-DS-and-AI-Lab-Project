@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.312,
+            0.559,
+            0.742,
+            0.797
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.186,
+            0.12,
+            0.81,
+            0.306
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.327,
+            0.78,
+            0.376
+          ],
+          "content": "Is it possible to draw $\\overrightarrow { \\mathrm { O C } }$ such that the two angles are equal to each other in size?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.803,
+            0.313,
+            0.891,
+            0.38
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.164,
+            0.388,
+            0.321,
+            0.409
+          ],
+          "level": 2,
+          "content": "Let’s Explore"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.415,
+            0.884,
+            0.46
+          ],
+          "content": "We can try to solve this problem using a piece of paper. Recall that when a fold is made, it creates a crease which is straight."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.462,
+            0.886,
+            0.53
+          ],
+          "content": "Take a rectangular piece of paper and on one of its sides, mark the straight angle AOB. By folding, try to get a line (crease) passing through O that divides ∠AOB into two equal angles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.53,
+            0.419,
+            0.551
+          ],
+          "content": "How can it be done?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.817,
+            0.884,
+            0.863
+          ],
+          "content": "Fold the paper such that OB overlaps with OA. Observe the crease and the two angles formed."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.941,
+            0.113,
+            0.959
+          ],
+          "content": "28"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:38:25+05:30",
+      "modified_at": "2026-04-07T17:39:03+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 53,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

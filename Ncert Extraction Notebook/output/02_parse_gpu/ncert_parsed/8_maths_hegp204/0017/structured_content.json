@@ -1,0 +1,185 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.558,
+            0.172,
+            0.778,
+            0.19
+          ],
+          "content": "Ant (at the centre of the face)"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.088,
+            0.847,
+            0.126
+          ],
+          "level": 2,
+          "content": "？ Find the shortest path between the ant and the laddu in the following case:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.227,
+            0.145,
+            0.779,
+            0.278
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.287,
+            0.552,
+            0.308
+          ],
+          "content": "If we unfold the cuboid as before, we get"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.336,
+            0.313,
+            0.674,
+            0.544
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.554,
+            0.845,
+            0.594
+          ],
+          "content": "Notice the line segment between the ant and laddu going outside the net! Obviously, this does not correspond to any path on the cuboid."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.593,
+            0.387,
+            0.616
+          ],
+          "level": 2,
+          "content": "So what do we do now?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.619,
+            0.846,
+            0.657
+          ],
+          "content": "cuboid."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.318,
+            0.655,
+            0.639,
+            0.833
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.454,
+                0.84,
+                0.588,
+                0.857
+              ],
+              "content": "The shortest path"
+            }
+          ],
+          "image_source": "images/page_16_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.87,
+            0.604,
+            0.891
+          ],
+          "content": "Thus, the way a cuboid is unfolded matters!"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.913,
+            0.122,
+            0.935
+          ],
+          "content": "86"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

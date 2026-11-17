@@ -1,0 +1,341 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "150"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.901,
+            0.177
+          ],
+          "content": "Now AB is a chord of the circle $\\mathbf { C } _ { \\mathrm { i } }$ and $\\mathrm { O P \\bot A B }$ . Therefore, OP is the bisector of the chord AB, as the perpendicular from the centre bisects the chord,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.184,
+            0.138,
+            0.202
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.259,
+            0.183,
+            0.359,
+            0.201
+          ],
+          "content": "\\mathrm { A P } = \\mathrm { B P }",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.208,
+            0.562,
+            0.266
+          ],
+          "content": "Example 2 : Two tangents TP and TQ are drawn to a circle with centre O from an external point T. Prove that $\\angle PTQ = 2 \\angle OPQ$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.272,
+            0.564,
+            0.351
+          ],
+          "content": "Solution : We are given a circle with centre O, an external point T and two tangents TP and TQ to the circle, where P, Q are the points of contact (see Fig. 10.9). We need to prove that"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.602,
+            0.224,
+            0.884,
+            0.361
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.395,
+            0.365,
+            0.595,
+            0.385
+          ],
+          "content": "\\angle PTQ = 2 \\angle OPQ",
+          "image_source": "images/page_6_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.708,
+            0.368,
+            0.807,
+            0.388
+          ],
+          "content": "Fig. 10.9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.401,
+            0.14,
+            0.418
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.395,
+            0.399,
+            0.517,
+            0.42
+          ],
+          "content": "\\angle \\mathrm{PTQ} = \\theta",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.436,
+            0.738,
+            0.456
+          ],
+          "content": "Now, by Theorem 10.2, $\\mathrm { T P }   =   \\mathrm { T Q } .$ So, TPQ is an isosceles triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.481,
+            0.206,
+            0.5
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.468,
+            0.738,
+            0.508
+          ],
+          "content": "\\angle TPQ = \\angle TPP = \\frac{1}{2}(180^{\\circ} - \\theta) = 90^{\\circ} - \\frac{1}{2}\\theta",
+          "image_source": "images/page_6_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.517,
+            0.326,
+            0.537
+          ],
+          "content": "Also, by Theorem 10.1,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39,
+            0.515,
+            0.532,
+            0.536
+          ],
+          "content": "\\angle  OPT = 90^{\\circ}",
+          "image_source": "images/page_6_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.558,
+            0.135,
+            0.576
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.198,
+            0.545,
+            0.68,
+            0.588
+          ],
+          "content": "\\angle OPQ = \\angle OPT - \\angle TPQ = 90^{\\circ} - \\left(90^{\\circ} - \\frac{1}{2}\\theta\\right)",
+          "image_source": "images/page_6_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.497,
+            0.601,
+            0.655,
+            0.643
+          ],
+          "content": "\\frac{1}{2} \\Theta = \\frac{1}{2} \\angle \\mathrm{PTQ}",
+          "image_source": "images/page_6_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.652,
+            0.201,
+            0.671
+          ],
+          "content": "This gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.395,
+            0.651,
+            0.595,
+            0.671
+          ],
+          "content": "\\angle PTQ = 2 \\angle OPQ",
+          "image_source": "images/page_6_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.684,
+            0.564,
+            0.762
+          ],
+          "content": "Example 3 : PQ is a chord of length 8 cm of a circle of radius 5 cm. The tangents at P and Q intersect at a point T (see Fig. 10.10). Find the length TP."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.766,
+            0.563,
+            0.863
+          ],
+          "content": "Solution : Join OT. Let it intersect PQ at the point R. Then ∆ TPQ is isosceles and TO is the angle bisector of $\\angle   \\mathrm { { \\Large ~ P T Q } }$ . So, OT ⊥ PQ and therefore, OT bisects PQ which gives $\\mathrm{PR} = \\mathrm{RQ} = 4\\mathrm{cm}$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.569,
+            0.67,
+            0.901,
+            0.863
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.695,
+                0.87,
+                0.807,
+                0.89
+              ],
+              "content": "Fig. 10.10"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.875,
+            0.585,
+            0.902
+          ],
+          "content": "Also, $\\mathrm{OR}=\\sqrt{\\mathrm{OP}^{2}-\\mathrm{PR}^{2}}=\\sqrt{5^{2}-4^{2}} \\mathrm{cm}=3 \\mathrm{cm}$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,187 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.089,
+            0.287,
+            0.109
+          ],
+          "content": "Page No. 153"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.124,
+            0.622,
+            0.147
+          ],
+          "content": "? How many square tiles are there in each figure?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.157,
+            0.204,
+            0.175
+          ],
+          "content": "**Ans.**"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.314,
+            0.181,
+            0.685,
+            0.369
+          ],
+          "content": "| Fig. No. | Number of square | Pattern |\n| --- | --- | --- |\n| 1 | 8 | 3<sup>2</sup> - 1<sup>2</sup> |\n| 2 | 12 | 4<sup>2</sup> - 2<sup>2</sup> |\n| 3 | 16 | 5<sup>2</sup> - 3<sup>2</sup> |\n| . | . | . |\n| . | . | . |\n| . | . | . |\n| . |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.378,
+            0.815,
+            0.403
+          ],
+          "content": "How many are there in Step 4 of the sequence? What about Step 10?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.411,
+            0.569,
+            0.432
+          ],
+          "content": "**Ans.** Step 4 → Number of squares $6^{2} - 4^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.443,
+            0.558,
+            0.465
+          ],
+          "content": "Step 10 → Number of squares → $12^{2} = 10^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.481,
+            0.846,
+            0.538
+          ],
+          "content": "？ Write an algebraic expression for the number of tiles in Step n. Share your methods with the class. Can you find more than one method to arrive at the answer?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.549,
+            0.315,
+            0.569
+          ],
+          "content": "**Ans.** $( n + 2 ) ^ { 2 } - n ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.586,
+            0.287,
+            0.606
+          ],
+          "content": "**Page No. 154**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.622,
+            0.845,
+            0.68
+          ],
+          "content": "？ Write an expression for the area of the dashed region in the figure below. Use more than one method to arrive at the answer. Substitute $p = 6 ,$ $r = 3 . 5$ , and $s = 9$ , and calculate the area."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.392,
+            0.696,
+            0.606,
+            0.85
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.871,
+            0.205,
+            0.889
+          ],
+          "content": "**Ans.**"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.924,
+            0.12,
+            0.945
+          ],
+          "content": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

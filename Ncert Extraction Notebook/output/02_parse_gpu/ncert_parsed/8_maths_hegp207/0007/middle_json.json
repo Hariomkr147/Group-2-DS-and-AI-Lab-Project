@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.132,
+            0.621,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "BCDE is a rectangle (how?). Let us take its sidelengths to be height and base. Then,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.23,
+            0.199,
+            0.543,
+            0.227
+          ],
+          "image_path": "images/page_6_equation_2.jpg",
+          "content": "A r e a ( \\triangle A B C ) = \\frac { 1 } { 2 } \\times b a s e \\times h e i g h t"
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.63,
+            0.093,
+            0.828,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.63,
+                0.093,
+                0.828,
+                0.24
+              ],
+              "image_path": "images/page_6_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.259,
+            0.845,
+            0.298
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since BXAE is a rectangle (how?), the height of the rectangle is the same as the height of the triangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.153,
+            0.355,
+            0.602,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, if the height and the base of a triangle are known, we can find its area."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.193,
+            0.409,
+            0.557,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of a triangle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= { \\frac { 1 } { 2 } } \\times"
+            },
+            {
+              "type": "text",
+              "content": " base × height."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.606,
+            0.304,
+            0.836,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.606,
+                0.304,
+                0.836,
+                0.489
+              ],
+              "image_path": "images/page_6_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.505,
+            0.846,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Will this formula hold for the kind of triangle, around which we cannot draw a rectangle with BC as the base?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.38,
+            0.569,
+            0.594,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.38,
+                0.569,
+                0.594,
+                0.73
+              ],
+              "image_path": "images/page_6_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.738,
+            0.846,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is one way to look at it. The area of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B C }"
+            },
+            {
+              "type": "text",
+              "content": " is the difference of the areas of ∆ADC and ∆ADB, each of which can be enclosed in a rectangle, as in Fig. 7.1."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.323,
+            0.797,
+            0.697,
+            0.888
+          ],
+          "image_path": "images/page_6_equation_11.jpg",
+          "content": "{ \\begin{aligned} { { \\mathrm { A r e a } } \\; ( \\Delta { \\mathrm { A B C } } ) } & { { } = { \\frac { 1 } { 2 } } \\times h \\times { \\mathrm { D C } } - { \\frac { 1 } { 2 } } \\times h \\times { \\mathrm { D B } } } \\\\ { } & { { } = { \\frac { 1 } { 2 } } \\times h \\; ( { \\mathrm { D C } } - { \\mathrm { D B } } ) } \\\\ { } & { { } = { \\frac { 1 } { 2 } } \\times h \\times { \\mathrm { B C } } } \\end{aligned} }"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.892,
+            0.675,
+            0.913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the area formula holds for all types of triangles."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.08,
+            0.914,
+            0.13,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "154"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

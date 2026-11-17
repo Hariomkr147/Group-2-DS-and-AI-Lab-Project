@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finding the Unknown"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.11,
+            0.088,
+            0.772,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = { \\frac { 1 1 } { 5 } }"
+            },
+            {
+              "type": "text",
+              "content": " is the correct solution to the equation?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.132,
+            0.846,
+            0.185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can check this by substituting x with the value "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 1 } { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " in the equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x - 4 = 7"
+            },
+            {
+              "type": "text",
+              "content": " , and checking if the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{LHS} = \\mathrm{RHS}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.186,
+            0.551,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting x with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 1 } { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " in the LHS we get,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.434,
+            0.22,
+            0.594,
+            0.348
+          ],
+          "image_path": "images/page_7_equation_4.jpg",
+          "content": "\\begin{aligned} \\mathrm{LHS} &= 5\\left(\\frac{11}{5}\\right) - 4 \\\\&= \\mathrm{ 必 }\\left(\\frac{11}{5}\\right) - 4 \\\\&= 11 - 4 \\\\&= 7\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.354,
+            0.425,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the same as the RHS."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.38,
+            0.657,
+            0.416
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 1 } { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " is indeed the correct solution to the equation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.422,
+            0.6,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5: Solve the equation 11y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "+(-5)=61"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.448,
+            0.847,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To retain only the unknown term 11y on one side, we need to remove the term –5. This can be done by subtracting (–5) from both sides."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.369,
+            0.486,
+            0.628,
+            0.507
+          ],
+          "image_path": "images/page_7_equation_9.jpg",
+          "content": "11y+(-5)-(-5)=61-(-5)."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.511,
+            0.23,
+            0.53
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.452,
+            0.535,
+            0.546,
+            0.555
+          ],
+          "image_path": "images/page_7_equation_11.jpg",
+          "content": "11y = 66."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.558,
+            0.718,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can directly find the value of y, seeing that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "11 \\times 6 = 66"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.583,
+            0.588,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also divide both sides by 11 to find y."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.411,
+            0.607,
+            0.586,
+            0.628
+          ],
+          "image_path": "images/page_7_equation_14.jpg",
+          "content": "11y \\div 11 = 66 \\div 11."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.631,
+            0.667,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = 6"
+            },
+            {
+              "type": "text",
+              "content": " is the solution to the equation 11y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r + ( - 5 ) = 6 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.656,
+            0.572,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you check that this solution is correct?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.689,
+            0.48,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 6: Solve "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6y + 7 = 4y + 21"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.15,
+            0.715,
+            0.786,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this equation, expressions with an unknown are on both sides."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.111,
+            0.749,
+            0.846,
+            0.79
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ We have seen how to solve equations when the unknown term is on one side. What can be done to bring the unknown terms to the same side?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.174,
+            0.795,
+            0.554,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Subtracting 4y from both sides, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.377,
+            0.814,
+            0.62,
+            0.834
+          ],
+          "image_path": "images/page_7_equation_21.jpg",
+          "content": "6y+7-4y=4y+21-4y."
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.176,
+            0.839,
+            0.211,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.443,
+            0.857,
+            0.555,
+            0.877
+          ],
+          "image_path": "images/page_7_equation_23.jpg",
+          "content": "2 y + 7 = 2 1 ."
+        },
+        {
+          "type": "page_number",
+          "index": 24,
+          "bbox": [
+            0.807,
+            0.933,
+            0.843,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "171"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

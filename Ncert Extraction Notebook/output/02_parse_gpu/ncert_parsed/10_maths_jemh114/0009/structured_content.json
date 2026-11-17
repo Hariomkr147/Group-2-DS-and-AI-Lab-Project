@@ -1,0 +1,242 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "210"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.9,
+            0.178
+          ],
+          "content": "**Example 9 :** Harpreet tosses two different coins simultaneously (say, one is of \\` 1 and other of \\` 2). What is the probability that she gets at least one head?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.186,
+            0.903,
+            0.283
+          ],
+          "content": "**Solution :** We write H for ‘head’ and T for ‘tail’. When two coins are tossed simultaneously, the possible outcomes are (H, H), (H, T), (T, H), (T, T), which are all equally likely. Here (H, H) means head up on the first coin (say on \\` 1) and head up on the second coin (\\` 2). Similarly (H, T) means head up on the first coin and tail up on the second coin and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.288,
+            0.901,
+            0.328
+          ],
+          "content": "The outcomes favourable to the event E, ‘at least one head’ are (H, H), (H, T) and (T, H). (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.333,
+            0.568,
+            0.352
+          ],
+          "content": "So, the number of outcomes favourable to E is 3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.372,
+            0.205,
+            0.392
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.273,
+            0.359,
+            0.378,
+            0.4
+          ],
+          "content": "\\mathrm { P ( E ) } = { \\frac { 3 } { 4 } }",
+          "image_source": "images/page_8_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.398,
+            0.677,
+            0.437
+          ],
+          "content": "i.e., the probability that Harpreet gets at least one head is $\\frac { 3 } { 4 } \\cdot$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.439,
+            0.498,
+            0.458
+          ],
+          "content": "**Note :** You can also find P(E) as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.266,
+            0.459,
+            0.897,
+            0.505
+          ],
+          "content": "\\mathrm{P}(\\mathrm{E}) = 1 - \\mathrm{P}(\\mathrm{E}) = 1 - \\frac{1}{4} = \\frac{3}{4} \\quad \\left( \\mathrm{Since} \\mathrm{P}(\\mathrm{E}) = \\mathrm{P}(\\mathrm{no} \\mathrm{head}) = \\frac{1}{4} \\right)",
+          "image_source": "images/page_8_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.508,
+            0.901,
+            0.547
+          ],
+          "content": "Did you observe that in all the examples discussed so far, the number of possible outcomes in each experiment was finite? If not, check it now."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.553,
+            0.902,
+            0.688
+          ],
+          "content": "There are many experiments in which the outcome is any number between two given numbers, or in which the outcome is every point within a circle or rectangle, etc. Can you now count the number of all possible outcomes? As you know, this is not possible since there are infinitely many numbers between two given numbers, or there are infinitely many points within a circle. So, the definition of (theoretical) probability which you have learnt so far cannot be applied in the present form. What is the way out? To answer this, let us consider the following example :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.689,
+            0.902,
+            0.767
+          ],
+          "content": "**Example 10\\* :** In a musical chair game, the person playing the music has been advised to stop playing the music at any time within 2 minutes after she starts playing. What is the probability that the music will stop within the first half-minute after starting?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.772,
+            0.902,
+            0.812
+          ],
+          "content": "**Solution :** Here the possible outcomes are all the numbers between 0 and 2. This is the portion of the number line from 0 to 2 (see Fig. 14.1)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.329,
+            0.816,
+            0.671,
+            0.847
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.434,
+                0.844,
+                0.532,
+                0.863
+              ],
+              "content": "Fig. 14.1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_8_image_16.jpg"
+        },
+        {
+          "type": "page_footnote",
+          "bbox": [
+            0.098,
+            0.879,
+            0.467,
+            0.898
+          ],
+          "content": "\\* Not from the examination point of view."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

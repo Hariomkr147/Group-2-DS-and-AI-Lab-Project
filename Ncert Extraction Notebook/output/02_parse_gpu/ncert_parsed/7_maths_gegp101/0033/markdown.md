@@ -1,0 +1,25 @@
+(c) 250 × 120 = 1000 250 × 120 = × 120 4 120 = 1000 × 4 = 1000 × 30
+
+(d) 2500 × 12 = = 2500 × 12 = 10,000× 12 4 12 = 10,000 × 4 = 10,000 × 3
+
+$$
+\mathrm{e} \quad 1200 \quad \times 1,00,000 \quad = 12000000
+$$
+
+**Page No. 15**
+
+? **Observe the number of digits in the two numbers being multiplied and their product in each case. Is there any connection between the numbers being multiplied and the number of digits in their product?**
+
+**Ans:**
+
+The maximum digits in their product will be the sum of the digits of the two numbers.
+
+The minimum digit in their product will be one less than their sum.
+
+？ **Roxie says that the product of two 2-digit numbers can only be a 3- or a 4-digit number. Is she correct? Ans:** Yes, Roxie is correct.
+
+? **Should we try all possible multiplications with 2-digit numbers to tell whether Roxie’s claim is true? Or is there a better way to find out? Ans:** She can just check the minimum and maximum number of digits possible.
+
+? **Can multiplying a 3-digit number with another 3-digit number give a 4-digit number? Ans:** No.
+
+？ **Can multiplying a 4-digit number with a 2-digit number give a 5-digit number? Ans:** Yes.

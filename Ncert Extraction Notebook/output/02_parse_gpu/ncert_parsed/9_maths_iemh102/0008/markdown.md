@@ -1,0 +1,27 @@
+Observe that the amount left on the $n ^ { t h }$ day will be \`(100 – 5n). Therefore, on the 12th day the amount left will be $(100 - 12 \times 5) = 540$
+
+## Think and Reflect
+
+What amount will be left on the 15th day? How many days will it take for the entire amount to be spent?
+
+**Example 8:** An auto-rikshaw fare starts at \`25 and remains the same for the initial 2 km. Then it increases by \`15 per km. What will be the fare for a travel of 10 km?
+
+For the initial 2 km, the fare is \`25. For every kilometre (km) thereafter, the fare will increase by \`15. Therefore, the total fare for a travel of 10 km will be $25+15\times8=7145$
+
+| Km travelled | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Fare (`) | 25 | 25 | 25 + 1 × 15= 40 | 25 + 2 × 15= 55 | 25 + 3 × 15= 70 | 25 + 4 × 15= 85 |
+
+Observe that the total fare for a travel of n km will be $25+15\times(n-2)=15n-5$ when $n \geq 2$ . Here, the fare for a specific distance covered is a function of the distance n km.
+
+## Think and Reflect
+
+For how many km will the fare be \`130?
+
+Note that in all the above examples, the $n ^ { t h }$ term is a linear expression in n. A **linear pattern** is a sequence of numbers where the difference between two consecutive terms is constant. We will learn more about linear patterns in the chapter on Sequences and Progressions.
+
+## Exercise Set 2.3
+
+## Solve the following:
+
+1. A student has \`500 in her savings bank account. She gets \`150 every month as pocket money. How much money will she have at the end of every month from the second month onwards? Find a linear expression to represent the amount she will have in the $n ^ { t h }$ month.

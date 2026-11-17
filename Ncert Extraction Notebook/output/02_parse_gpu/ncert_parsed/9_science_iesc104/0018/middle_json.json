@@ -1,0 +1,528 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Describing Motion Around Us"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 65"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.109,
+            0.087,
+            0.773,
+            0.123
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using these equations, it is possible to predict position or velocity of the object at a future time."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.16,
+            0.128,
+            0.214,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.136,
+            0.147,
+            0.744,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These kinematic equations are valid only when the acceleration is constant. While using kinematic equations for motion in a straight line in one direction, remember that distance travelled and magnitude of displacement are equal, and speed and magnitude of velocity are also equal. In motion in a straight line in both directions, the sign of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u , v , a ,"
+            },
+            {
+              "type": "text",
+              "content": " and s in these equations tells us about the direction of that particular quantity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.108,
+            0.261,
+            0.775,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4.8:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Suppose a car is moving on a highway and brakes are applied, which cause an acceleration of – 4 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { S } } ^ { - 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . How much will be the distance travelled by the car before coming to a stop, if the car was moving with a velocity of (i) 54 km "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { h ^ { - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " , and (ii) 108 km "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { h } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " when the brakes were applied?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11,
+            0.351,
+            0.195,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11,
+            0.37,
+            0.378,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given: a = – 4 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\cal S } ^ { - 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " v = 0 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11,
+            0.39,
+            0.662,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose the initial velocity is u and the distance travelled is s."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11,
+            0.411,
+            0.342,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) u = 54 km h"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 15 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11,
+            0.432,
+            0.358,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = 108    km     h ^{-1} = 30    m     s ^{-1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11,
+            0.453,
+            0.252,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using Eq. (4.4c)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.141,
+            0.473,
+            0.259,
+            0.49
+          ],
+          "image_path": "images/page_17_equation_12.jpg",
+          "content": "\\nu ^ { 2 } = u ^ { 2 } + 2 a s"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.141,
+            0.494,
+            0.428,
+            0.511
+          ],
+          "image_path": "images/page_17_equation_13.jpg",
+          "content": "( 0 \\; \\mathrm { m } \\; \\mathrm { s } ^ { - 1 } ) ^ { 2 } = u ^ { 2 } + 2 \\times ( - 4 \\; \\mathrm { m } \\; \\mathrm { s } ^ { - 2 } ) \\times s"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.14,
+            0.514,
+            0.421,
+            0.55
+          ],
+          "image_path": "images/page_17_equation_14.jpg",
+          "content": "0 = u ^ { 2 } - 8 \\times s \\quad \\Rightarrow \\quad s = \\frac { u ^ { 2 } } { 8 }"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.11,
+            0.551,
+            0.682,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { \\flat }"
+            },
+            {
+              "type": "text",
+              "content": " we obtain (i) 28.1 m, and (ii) 112.5 m."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.115,
+            0.569,
+            0.175,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.115,
+                0.569,
+                0.175,
+                0.616
+              ],
+              "image_path": "images/page_17_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.185,
+            0.583,
+            0.484,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Bridging Science and Society"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.142,
+            0.615,
+            0.774,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When brakes are applied to a moving vehicle, it moves some distance before coming to a stop. The distance travelled depends upon the velocity of the vehicle when the brakes are applied, the road surface (wet/dry, etc.), the braking capacity of the vehicle (the negative acceleration caused by the brakes) as well as the driver’s reaction time. Can you now understand why it is important to maintain a safe distance from the vehicle moving ahead of your vehicle (Fig. 4.20) and how this distance needs to be adjusted given your initial velocity?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.147,
+            0.731,
+            0.298,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.147,
+                0.731,
+                0.298,
+                0.778
+              ],
+              "image_path": "images/page_17_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.591,
+            0.732,
+            0.77,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.591,
+                0.732,
+                0.77,
+                0.777
+              ],
+              "image_path": "images/page_17_image_20.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 21,
+              "bbox": [
+                0.266,
+                0.782,
+                0.642,
+                0.798
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.20: Safe distance between two moving vehicles"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.144,
+            0.801,
+            0.774,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a vehicle-to-vehicle (V2V) communication technology, now being developed in many countries including India, which allows vehicles to exchange signals and warns drivers of possible collisions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.108,
+            0.873,
+            0.774,
+            0.927
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Till now, in this chapter, we have been discussing about motion in a straight line which is also called motion in one dimension. Let us now explore motion in a plane."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

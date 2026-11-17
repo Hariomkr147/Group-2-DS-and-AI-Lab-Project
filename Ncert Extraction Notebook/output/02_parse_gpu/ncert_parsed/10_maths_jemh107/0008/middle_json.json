@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "106"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.122,
+            0.138,
+            0.9,
+            0.174
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If Q(0, 1) is equidistant from "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{P}(5, -3)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { R } ( x ,   6 )"
+            },
+            {
+              "type": "text",
+              "content": " , find the values of x. Also find the distances QR and PR."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.113,
+            0.179,
+            0.901,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find a relation between x and y such that the point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y )"
+            },
+            {
+              "type": "text",
+              "content": " is equidistant from the point (3, 6) and (– 3, 4)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.235,
+            0.324,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.3 Section Formula"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.263,
+            0.517,
+            0.493
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us recall the situation in Section 7.2. Suppose a telephone company wants to position a relay tower at P between A and B is such a way that the distance of the tower from B is twice its distance from A. If P lies on AB, it will divide AB in the ratio 1 : 2 (see Fig. 7.9). If we take A as the origin O, and 1 km as one unit on both the axis, the coordinates of B will be (36, 15). In order to know the position of the tower, we must know the coordinates of P. How do we find these coordinates?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.542,
+            0.287,
+            0.898,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.542,
+                0.287,
+                0.898,
+                0.45
+              ],
+              "image_path": "images/page_7_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.5,
+            0.902,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let the coordinates of P be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x ,   y )"
+            },
+            {
+              "type": "text",
+              "content": " Draw perpendiculars from P and B to the x-axis, meeting it in D and E, respectively. Draw PC perpendicular to BE. Then, by the AA similarity criterion, studied in Chapter 6,   POD and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta   \\mathrm { B P C }"
+            },
+            {
+              "type": "text",
+              "content": " are similar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.564,
+            0.579,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore , "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{OD}{PC} = \\frac{OP}{PB} = \\frac{1}{2}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{\\mathrm{PD}}{\\mathrm{BC}} = \\frac{\\mathrm{OP}}{\\mathrm{PB}} = \\frac{1}{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.613,
+            0.451,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { x } { 3 6   -   x }   =   \\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{y}{15 - y} \\div \\frac{1}{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.097,
+            0.656,
+            0.482,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These equations give "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 1 2"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.096,
+            0.681,
+            0.516,
+            0.719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can check that P(12, 5) meets the condition that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{OP}:\\mathrm{PB}=1:2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.726,
+            0.516,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us use the understanding that you may have developed through this example to obtain the general formula."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.097,
+            0.788,
+            0.517,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider any two points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } ( x _ { 1 } , y _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } ( x _ { _ 2 } ,   y _ { _ 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " and assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { ~ P ~ } ( x ,   y )"
+            },
+            {
+              "type": "text",
+              "content": " divides AB internally in the ratio "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { _ 1 } : m _ { _ 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\mathrm { P A } } { \\mathrm { P B } }   =   \\frac { m _ { 1 } } { m _ { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " (see Fig. 7.10)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.548,
+            0.635,
+            0.897,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.548,
+                0.635,
+                0.897,
+                0.863
+              ],
+              "image_path": "images/page_7_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 16,
+              "bbox": [
+                0.675,
+                0.868,
+                0.774,
+                0.887
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,37 @@
+made of elements, hydrogen and oxygen. Elements like iron and aluminium are used to construct bridges, buildings, and vehicles.
+
+Understanding these concepts is not just about recognising what surrounds us; it is also the key to innovation. For instance, chemists study how elements combine to create compounds, enabling them to invent life-saving medicines and vaccines to fight diseases. This knowledge also helps in the creation of fertilisers thereby enhancing crop production that feeds the ever-increasing human population globally.
+
+Engineers and material scientists rely on their understanding of compounds and mixtures to design materials with unique properties. For example, they have developed alloys like stainless steel, which is stronger and more durable than pure iron. Wood, steel, and concrete, which are used as building materials, are all mixtures.
+
+You learnt that various metals are obtained from minerals. Let us learn about these minerals.
+
+## A step further
+
+![](images/page_13_image_8.jpg)
+
+Fig. 8.21
+
+An example of a ‘wonder’ material developed by material scientists is graphene aerogel. This is made from carbon and is said to be the lightest material on earth. It is so light that even grass can hold it (Fig. 8.21). It is highly porous and therefore, has a high absorbing capacity. For this reason, it can potentially be used as an environmental cleaner, for example, to clean up oil spills in both seas and on land. It is useful in fabricating energy-saving devices and special coatings for buildings.
+
+![](images/page_13_image_12.jpg)
+
+## 8.5 What Are Minerals?
+
+Most rocks are a mixture of **minerals**, which can be viewed with the eyes, or by using a magnifying glass or a microscope. Some of the minerals are called native minerals, which are pure elements and not compounds. These can be metals, such as gold, silver, copper, etc., or non-metals like sulfur, carbon, etc.
+
+![](images/page_13_image_15.jpg)
+
+![](images/page_13_image_16.jpg)
+
+![](images/page_13_image_17.jpg)
+
+![](images/page_13_image_18.jpg)
+
+Most of the minerals are compounds made up of more than one element. Some common examples of minerals include quartz, calcite, mica, pyroxene, and olivine (Fig. 8.22). Many things that we use in our everyday life are made up of minerals or elements extracted from minerals. For example, cement is made from calcite, quartz, alumina, and iron oxide, which are minerals or are obtained from minerals. Talcum powder is made from the mineral talc.
+
+![](images/page_13_image_20.jpg)
+
+![](images/page_13_image_21.jpg)
+
+Fig. 8.22: Some minerals

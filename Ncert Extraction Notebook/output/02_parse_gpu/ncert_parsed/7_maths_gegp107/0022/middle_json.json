@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Tale of Three Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.088,
+            0.35,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exterior Angles"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.12,
+            0.848,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The angle formed between the extension of a side of a triangle and the other side is called an "
+            },
+            {
+              "type": "text",
+              "content": "exterior angle",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the triangle. In this figure, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  ACD"
+            },
+            {
+              "type": "text",
+              "content": " is an exterior angle."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.324,
+            0.187,
+            0.674,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.324,
+                0.187,
+                0.674,
+                0.328
+              ],
+              "image_path": "images/page_21_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.351,
+            0.521,
+            0.37
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  ACD ,"
+            },
+            {
+              "type": "text",
+              "content": " , if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{A} = 50^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{B} = 60^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.174,
+            0.382,
+            0.614,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the angle sum property, we know that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.379,
+            0.41,
+            0.617,
+            0.43
+          ],
+          "image_path": "images/page_21_equation_6.jpg",
+          "content": "50^{\\circ}+60^{\\circ}+\\angle ACB=180^{\\circ}"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.401,
+            0.447,
+            0.597,
+            0.466
+          ],
+          "image_path": "images/page_21_equation_7.jpg",
+          "content": "110^{\\circ}+\\angle ACB=180^{\\circ}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.175,
+            0.471,
+            0.328,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACB = 70^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.175,
+            0.49,
+            0.463,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACD = 180^{\\circ} - 70^{\\circ} = 110^{\\circ},"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.509,
+            0.846,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "since, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { A C B }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  ACD"
+            },
+            {
+              "type": "text",
+              "content": " together form a straight angle. Find the exterior angle for different measures of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { B }"
+            },
+            {
+              "type": "text",
+              "content": " . Do you see any relation between the exterior angle and these two angles? "
+            },
+            {
+              "type": "text",
+              "content": "[Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " From angle sum property, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{A} + \\angle \\mathrm{B} + \\angle \\mathrm{ACB} = 180^{\\circ}."
+            },
+            {
+              "type": "text",
+              "content": " We also have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACD + \\angle ACB = 180^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " , since they form a straight angle. What does this show?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.643,
+            0.847,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.4 Constructions Related to Altitudes of Triangles"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.677,
+            0.847,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is another set of useful measurements with respect to a triangle the height of each of its vertices with respect to the opposite sides."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.715,
+            0.574,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the world around us, we talk of the heights of various objects: the height of a person, the height of a tree, the height of a building, etc. What do we mean by the word ‘height’?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.806,
+            0.572,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a triangle ABC. What is the height of the vertex A from its opposite side BC, and how can it be measured?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.592,
+            0.72,
+            0.846,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.592,
+                0.72,
+                0.846,
+                0.844
+              ],
+              "image_path": "images/page_21_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 17,
+              "bbox": [
+                0.688,
+                0.845,
+                0.754,
+                0.859
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.861,
+            0.848,
+            0.918
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let AD be the line segment from A drawn perpendicular to BC. The length of AD is the height of the vertex A from BC. The line segment AD is said to be one of the ‘altitudes’ of the triangle. The other altitudes"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.806,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

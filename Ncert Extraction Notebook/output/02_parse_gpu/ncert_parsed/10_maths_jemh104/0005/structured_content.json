@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.105,
+            0.127,
+            0.119
+          ],
+          "content": "42"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.105,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.138,
+            0.901,
+            0.174
+          ],
+          "content": "(ii) The product of two consecutive positive integers is 306. We need to find the integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.179,
+            0.9,
+            0.216
+          ],
+          "content": "(iii) Rohan’s mother is 26 years older than him. The product of their ages (in years) 3 years from now will be 360. We would like to find Rohan’s present age."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.159,
+            0.221,
+            0.901,
+            0.274
+          ],
+          "content": "(iv) A train travels a distance of 480 km at a uniform speed. If the speed had been 8 km/h less, then it would have taken 3 hours more to cover the same distance. We need to find the speed of the train."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.096,
+            0.286,
+            0.675,
+            0.306
+          ],
+          "level": 2,
+          "content": "4.3 Solution of a Quadratic Equation by Factorisation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.313,
+            0.902,
+            0.392
+          ],
+          "content": "Consider the quadratic equation $2x^{2} - 3x + 1 = 0$ If we replace x by 1 on the LHS of this equation, we get $(2 \\times 1^{2}) - (3 \\times 1) + 1 = 0 =  RHS$ of the equation. We say that 1 is a root of the quadratic equation $2x^{2} - 3x + 1 = 0$ . This also means that 1 is a zero of the quadratic polynomial $2 x ^ { 2 } - 3 x + 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.397,
+            0.902,
+            0.494
+          ],
+          "content": "In general, a real number   is called a root of the quadratic equation $ax^{2}+bx+c=0, a \\neq 0   if   a \\alpha^{2}+b\\alpha+c=0$ . We also say that $x = \\mathbf{a}$ **is a solution of** the quadratic equation, or that   **satisfies the quadratic equation**. Note that **the** zeroes of the quadratic polynomial $ax^{2} + bx + c$ **and the roots of the quadratic** equation $ax^{2} + bx + c = 0$ **are the same**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.499,
+            0.901,
+            0.538
+          ],
+          "content": "You have observed, in Chapter 2, that a quadratic polynomial can have at most two zeroes. So, any quadratic equation can have atmost two roots."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.543,
+            0.902,
+            0.602
+          ],
+          "content": "You have learnt in Class IX, how to factorise quadratic polynomials by splitting their middle terms. We shall use this knowledge for finding the roots of a quadratic equation. Let us see how."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.614,
+            0.835,
+            0.634
+          ],
+          "content": "**Example 3 :** Find the roots of the equation $2x^{2} - 5x + 3 = 0$ , by factorisation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.64,
+            0.9,
+            0.678
+          ],
+          "content": "**Solution :** Let us first split the middle term – 5x as –2x –3x [because $(-2x) \\times (-3x) =$ $6 x ^ { 2 } = ( 2 x ^ { 2 } ) \\times 3 ]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.683,
+            0.841,
+            0.703
+          ],
+          "content": "So, $2x^{2}-5x+3=2x^{2}-2x-3x+3=2x(x-1)-3(x-1)=(2x-3)(x-1)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.709,
+            0.691,
+            0.728
+          ],
+          "content": "Now, $2x^{2} - 5x + 3 = 0$ can be rewritten as $(2x - 3)(x - 1) = 0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.734,
+            0.898,
+            0.772
+          ],
+          "content": "So, the values of x for which $2x^{2} - 5x + 3 = 0$ are the same for which $( 2 x - 3 ) ( x - 1 ) = 0 ,$ i.e., either $2x - 3 = 0   or   x - 1 = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.775,
+            0.626,
+            0.813
+          ],
+          "content": "Now, $2x - 3 = 0$ gives $x   =   \\frac { 3 } { 2 }$ and $x - 1 = 0 \\;  gives  \\; x = 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.809,
+            0.608,
+            0.845
+          ],
+          "content": "So, $x   =   \\frac { 3 } { 2 }$ and $x = 1$ are the solutions of the equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.84,
+            0.773,
+            0.879
+          ],
+          "content": "In other words, 1 and $\\frac { 3 } { 2 }$ are the roots of the equation $2x^{2} - 5x + 3 = 0$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.88,
+            0.601,
+            0.899
+          ],
+          "content": "**Verify** that these are the roots of the given equation."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

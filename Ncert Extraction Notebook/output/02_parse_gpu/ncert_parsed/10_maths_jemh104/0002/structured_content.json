@@ -1,0 +1,230 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.104,
+            0.286,
+            0.121
+          ],
+          "content": "QUADRATIC EQUATIONS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.874,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "39"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.139,
+            0.902,
+            0.256
+          ],
+          "content": "Sridharacharya (C.E. 1025) derived a formula, now known as the quadratic formula, (as quoted by Bhaskara II) for solving a quadratic equation by the method of completing the square. An Arab mathematician Al-Khwarizmi (about C.E. 800) also studied quadratic equations of different types. Abraham bar Hiyya Ha-Nasi, in his book ‘Liber embadorum’ published in Europe in C.E. 1145 gave complete solutions of different quadratic equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.261,
+            0.902,
+            0.318
+          ],
+          "content": "In this chapter, you will study quadratic equations, and various ways of finding their roots. You will also see some applications of quadratic equations in daily life situations."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.332,
+            0.37,
+            0.352
+          ],
+          "level": 2,
+          "content": "4.2 Quadratic Equations"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.359,
+            0.901,
+            0.436
+          ],
+          "content": "A quadratic equation in the variable x is an equation of the form $ax^{2}+bx+c=0$ where a, b, c are real numbers, $a \\neq 0$ . For example, $2x^{2} + x - 300 = 0$ is a quadratic equation. Similarly, $2x^{2}-3x+1=0,4x-3x^{2}+2=0$ and $1 - x ^ { 2 } + 3 0 0 = 0$ are also quadratic equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.443,
+            0.901,
+            0.524
+          ],
+          "content": "In fact, any equation of the form $p(x) \\equiv 0$ , where $p ( x )$ is a polynomial of degree 2, is a quadratic equation. But when we write the terms of ${ \\bar { p } } ( x )$ in descending order of their degrees, then we get the standard form of the equation. That is, $a x ^ { 2 } + b x + c = 0 .$ $a \\neq 0$ is called the **standard form of a quadratic equation**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.529,
+            0.901,
+            0.568
+          ],
+          "content": "Quadratic equations arise in several situations in the world around us and in different fields of mathematics. Let us consider a few examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.581,
+            0.709,
+            0.601
+          ],
+          "content": "**Example 1 :** Represent the following situations mathematically:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.606,
+            0.902,
+            0.665
+          ],
+          "content": "(i) John and Jivanti together have 45 marbles. Both of them lost 5 marbles each, and the product of the number of marbles they now have is 124. We would like to find out how many marbles they had to start with."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.67,
+            0.902,
+            0.748
+          ],
+          "content": "(ii) A cottage industry produces a certain number of toys in a day. The cost of production of each toy (in rupees) was found to be 55 minus the number of toys produced in a day. On a particular day, the total cost of production was \\` 750. We would like to find out the number of toys produced on that day."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.753,
+            0.204,
+            0.771
+          ],
+          "level": 2,
+          "content": "Solution :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.778,
+            0.549,
+            0.797
+          ],
+          "content": "(i) Let the number of marbles John had be x."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.804,
+            0.7,
+            0.822
+          ],
+          "content": "Then the number of marbles Jivanti had $= 45 - x \\left( \\mathrm{Why}? \\right)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.829,
+            0.817,
+            0.847
+          ],
+          "content": "The number of marbles left with John, when he lost $5 { \\mathrm { ~ m a r b l e s } } = x - 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.854,
+            0.891,
+            0.873
+          ],
+          "content": "The number of marbles left with Jivanti, when she lost $5 { \\mathrm { ~ m a r b l e s } } = 4 5 - x - 5$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.766,
+            0.879,
+            0.859,
+            0.897
+          ],
+          "content": "= 4 0 - x",
+          "image_source": "images/page_1_equation_16.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

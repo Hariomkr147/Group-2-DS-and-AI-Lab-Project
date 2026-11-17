@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 10.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:08:14Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.077,
+            0.084,
+            0.316,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.077,
+                0.084,
+                0.316,
+                0.267
+              ],
+              "image_path": "images/page_7_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 1,
+              "bbox": [
+                0.074,
+                0.268,
+                0.255,
+                0.326
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 10.9 Apparent star position due to atmospheric refraction"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.341,
+            0.085,
+            0.696,
+            0.105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.5 ATMOSPHERIC REFRACTION"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.338,
+            0.114,
+            0.901,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You might have observed the apparent random wavering or flickering of objects seen through a turbulent stream of hot air rising above a fire or a radiator. The air just above the fire becomes hotter than the air further up. The hotter air is lighter (less dense) than the cooler air above it, and has a refractive index slightly less than that of the cooler air. Since the physical conditions of the refracting medium (air) are not stationary, the apparent position of the object, as seen through the hot air, fluctuates. This wavering is thus an effect of atmospheric refraction (refraction of light by the earth’s atmosphere) on a small scale in our local environment. The twinkling of stars is a similar phenomenon on a much larger scale. Let us see how we can explain it.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.276,
+            0.322,
+            0.466,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Twinkling of stars"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.274,
+            0.338,
+            0.901,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The twinkling of a star is due to atmospheric refraction of starlight. The starlight, on entering the earth’s atmosphere, undergoes refraction continuously before it reaches the earth. The atmospheric refraction occurs in a medium of gradually changing refractive index. Since the atmosphere bends starlight towards the normal, the apparent position of the star is slightly different from its actual position. The star appears slightly higher (above) than its actual position when viewed near the horizon (Fig. 10.9). Further, this apparent position of the star is not stationary, but keeps on changing slightly, since the physical conditions of the earth’s atmosphere are not stationary, as was the case in the previous paragraph. Since the stars are very distant, they approximate point-sized sources of light. As the path of rays of light coming from the star goes on varying slightly, the apparent position of the star fluctuates and the amount of starlight entering the eye flickers – the star sometimes appears brighter, and at some other time, fainter, which is the twinkling effect.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.076,
+            0.616,
+            0.398,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.076,
+                0.616,
+                0.398,
+                0.811
+              ],
+              "image_path": "images/page_7_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 7,
+              "bbox": [
+                0.074,
+                0.819,
+                0.274,
+                0.876
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 10.10 Atmospheric refraction effects at sunrise and sunset"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.406,
+            0.595,
+            0.901,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why don’t the planets twinkle? The planets are much closer to the earth, and are thus seen as extended sources. If we consider a planet as a collection of a large number of point-sized sources of light, the total variation in the amount of light entering our eye from all the individual point-sized sources will average out to zero, thereby nullifying the twinkling effect.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.406,
+            0.719,
+            0.782,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Advance sunrise and delayed sunset"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.406,
+            0.734,
+            0.901,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Sun is visible to us about 2 minutes before the actual sunrise, and about 2 minutes after the actual sunset because of atmospheric refraction. By actual sunrise, we mean the actual crossing of the horizon by the Sun. Fig. 10.10 shows the actual and apparent positions of the Sun with respect to the horizon. The time difference between actual sunset and the apparent sunset is about 2 minutes. The apparent flattening of the Sun’s disc at sunrise and sunset is also due to the same phenomenon.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "168"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

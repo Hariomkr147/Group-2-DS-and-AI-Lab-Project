@@ -1,0 +1,112 @@
+{
+  "pages": [
+    {
+      "page_idx": 31,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.392,
+            0.037,
+            0.584,
+            0.066
+          ],
+          "level": 2,
+          "content": "IT's PUZZLE TIME!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.235,
+            0.03,
+            0.75,
+            0.136
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_31_image_1.jpg"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.41,
+            0.086,
+            0.592,
+            0.111
+          ],
+          "level": 1,
+          "content": "Game of Hex"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.145,
+            0.845,
+            0.31
+          ],
+          "content": "Hex is a two-player strategy game played on a rhombus-shaped board made of hexagonal cells, usually of size 11 × 11. Each player is assigned a colour and two opposite sides of the board. Players take turns placing a piece of their colour on any empty cell. Once placed, pieces can not be moved or removed. The objective is to create an unbroken chain of one’s own pieces connecting the two assigned sides. The first player to complete such a connection wins the game. The pictures below show two possible gameplays where blue wins in the first and red wins in the second board."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.31,
+            0.845,
+            0.349
+          ],
+          "content": "Here is an empty board. You can use pencils to play each round and erase the marks to play a fresh round."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.001,
+            0.358,
+            1.0,
+            0.996
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_31_image_5.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 31,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

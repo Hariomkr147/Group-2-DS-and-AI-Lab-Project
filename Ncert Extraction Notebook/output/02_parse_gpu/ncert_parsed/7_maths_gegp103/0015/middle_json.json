@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:00+05:30",
+      "modified_at": "2026-04-07T17:15:05+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 55,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.046,
+            0.367,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 1,
+          "bbox": [
+            0.171,
+            0.11,
+            0.818,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 1,
+              "bbox": [
+                0.171,
+                0.11,
+                0.818,
+                0.271
+              ],
+              "image_path": "images/page_14_chart_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "chart_caption",
+              "index": 2,
+              "bbox": [
+                0.11,
+                0.291,
+                0.434,
+                0.316
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Can we extend this further?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.109,
+            0.337,
+            0.775,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What will the fraction be when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 1 0 0 }"
+            },
+            {
+              "type": "text",
+              "content": " is split into 10 equal parts? It will be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 1 0 0 0 }"
+            },
+            {
+              "type": "text",
+              "content": " , i.e., a thousand such parts make up a unit."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 4,
+          "bbox": [
+            0.157,
+            0.415,
+            0.831,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 4,
+              "bbox": [
+                0.157,
+                0.415,
+                0.831,
+                0.784
+              ],
+              "image_path": "images/page_14_chart_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.801,
+            0.848,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Just as when we extend to the left of 10,000, we get bigger place values at each step, we can also extend to the right of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 1 0 0 0 }"
+            },
+            {
+              "type": "text",
+              "content": " , getting smaller place values at each step."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.159,
+            0.938,
+            0.186,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "60"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

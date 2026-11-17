@@ -1,0 +1,192 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.597,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Another Peek Beyond the Point"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.085,
+            0.843,
+            0.312
+          ],
+          "content": "| 1.64 × 6= 116040 × 6 = 918040 = 9.84 | 2 | 0 | 2 |\n| --- | --- | --- | --- |\n| 5.7 × 13.35= 5170 × 1130305= 5170 × × 1 130305 = 716000905=76.095 | 1 | 2 | 3 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_table_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.331,
+            0.773,
+            0.373
+          ],
+          "content": "? Suppose we know that $5 9 6 \\times 2 4 8 = 1 4 7 8 0 8 ,$ , can you immediately write down the product of $5 . 9 6 \\times 2 4 . 8 ?$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.813,
+            0.32,
+            0.906,
+            0.372
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.387,
+            0.846,
+            0.427
+          ],
+          "content": "By looking at the above examples, can you frame a rule to multiply two decimals?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.432,
+            0.847,
+            0.49
+          ],
+          "content": "Multiplication of decimals is the same as the multiplication of their corresponding fractions. When multiplying fractions, we multiply the numerators and denominators, respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.49,
+            0.846,
+            0.528
+          ],
+          "content": "The product of the numerators = Product of the numbers with the decimal points removed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.528,
+            0.847,
+            0.604
+          ],
+          "content": "Since both the denominators are of the form 1, 10, 100, 1000, … , the product of the denominators is also of the form 1 followed by zeroes. The number of zeroes in the product is the sum of the number of zeroes in each denominator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.604,
+            0.846,
+            0.642
+          ],
+          "content": "In the product, the decimal point is placed based on the total number of zeroes in the denominator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.643,
+            0.847,
+            0.7
+          ],
+          "content": "So, to multiply two decimals, we can multiply the two numbers obtained by removing the decimal point, and then place the decimal point appropriately as shown below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.7,
+            0.406,
+            0.718
+          ],
+          "content": "To evaluate 5.96 × 24.8:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.314,
+            0.732,
+            0.66,
+            0.851
+          ],
+          "content": "\\begin{aligned}&( \\begin{array}{ccc}596 \\times 248 = 147808 \\\\\\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}{}_{} \\underbrace{}_{} \\underbrace{}_{} \\underbrace{}_{}{}\\underbrace{}_{}\\underbrace{}_{}{}\\underbrace{}_{}\\underbrace{}_{}{}\\underbrace{}_{}{}\\underbrace{}_{}_{}\\underbrace{}{}_{}\\underbrace{}{}_{}\\underbrace{}{}_{}\\underbrace{}_{}{}\\underbrace{}_{}{}_{}\\underbrace{}{}_{}\\underbrace{}{}_{}{}\\underbrace{}_{}{}\\underbrace{}_{}{}_{}\\underbrace{}{}_{}{}\\underbrace{}_{}{}_{}{}\\underbrace{}_{}{}\\underbrace{}_{}{}_{}{}\\underbrace{}_{}{}_{}{}\\underbrace{}{}_{}{}_{}\\underbrace{}{}_{}{}\\underbrace{}_{}{}_{}{}\\underbrace{}{}_{}{}_{}{}\\underbrace{}_{}{}{}_{}{}\\underbrace{}_{}{}_{}{}\\underbrace{}{}_{}{}_{}{}\\underbrace{}{}_{}{}_{}{}{}_{}\\underbrace{}{}_{}{}_{}{}{}_{}{}\\underbrace{}_{}{}{}_{}{}_{}{}\\underbrace{}_{}{}{}_{}{}_{}{}{}_{}{}\\underbrace{}{}_{}{}{}_{}{}_{}{}{}_{}{}{}_{}{}{}_{}{}_{}{}\\underbrace{}_{}{}{}_{}{}_{}{}{}_{}{}{}_{}{}{}_{}{}_{}{}{}_{}{}{}_{}{}{}_{}{}{}_{}{}{}_{}{}_{}{}{}{}_{}{}{}_{}{}{ \\end{array} \\end{aligned}",
+          "image_source": "images/page_4_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.317,
+            0.856,
+            0.55,
+            0.878
+          ],
+          "content": "2 + 1 = 3   \\mathrm { d e c i m a l \\; p l a c e s }",
+          "image_source": "images/page_4_equation_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.933,
+            0.838,
+            0.95
+          ],
+          "content": "71"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

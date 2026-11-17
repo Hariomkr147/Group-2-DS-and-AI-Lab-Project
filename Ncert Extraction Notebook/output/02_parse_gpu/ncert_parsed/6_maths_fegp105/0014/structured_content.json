@@ -1,0 +1,278 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.12,
+            0.885,
+            0.164
+          ],
+          "content": "We can also write this as $2 \\times 2 \\times 2 \\times 3 \\times 3$ . Multiply and check that you get 72 back!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.166,
+            0.885,
+            0.209
+          ],
+          "content": "Observe how many times each prime factor occurs in the factorisation of 72."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.211,
+            0.887,
+            0.256
+          ],
+          "content": "Compare it with how many times it occurs in the factorisations of 12 and 6 put together."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.167,
+            0.269,
+            0.196,
+            0.29
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.166,
+            0.268,
+            0.358,
+            0.29
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.297,
+            0.884,
+            0.34
+          ],
+          "content": "1. Find the prime factorisations of the following numbers: 64, 104, 105, 243, 320, 141, 1728, 729, 1024, 1331, 1000."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.344,
+            0.884,
+            0.385
+          ],
+          "content": "2. The prime factorisation of a number has one 2, two 3s, and one 11. What is the number?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.389,
+            0.883,
+            0.409
+          ],
+          "content": "3. Find three prime numbers, all less than 30, whose product is 1955."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.411,
+            0.885,
+            0.453
+          ],
+          "content": "4. Find the prime factorisation of these numbers without multiplying first"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.247,
+            0.457,
+            0.613,
+            0.477
+          ],
+          "content": "\\begin{array}{l}\\text { a. } 56 \\times 25 \\quad \\text { b. } 108 \\times 75 \\quad \\text { c. } 1000 \\times 81\\end{array}",
+          "image_source": "images/page_13_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.48,
+            0.84,
+            0.5
+          ],
+          "content": "5. What is the smallest number whose prime factorisation has:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.247,
+            0.503,
+            0.594,
+            0.523
+          ],
+          "content": "a. three different prime numbers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.246,
+            0.525,
+            0.585,
+            0.545
+          ],
+          "content": "b. four different prime numbers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.551,
+            0.886,
+            0.596
+          ],
+          "content": "Prime factorisation is of fundamental importance in the study of numbers. Let us discuss two ways in which it can be useful."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.609,
+            0.886,
+            0.677
+          ],
+          "content": "**Using prime factorisation to check if two numbers are co-prime** Let us again take the numbers 56 and 63. How can we check if they are co-prime? We can use the prime factorisation of both numbers —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.681,
+            0.706,
+            0.701
+          ],
+          "content": "56 = 2 \\times 2 \\times 2 \\times 7 \\;  and  \\; 63 = 3 \\times 3 \\times 7",
+          "image_source": "images/page_13_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.708,
+            0.884,
+            0.751
+          ],
+          "content": "Now, we see that 7 is a prime factor of 56 as well as 63. Therefore, 56 and 63 are not co-prime."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.753,
+            0.883,
+            0.775
+          ],
+          "content": "What about 80 and 63? Their prime factorisations are as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.78,
+            0.725,
+            0.8
+          ],
+          "content": "80 = 2 \\times 2 \\times 2 \\times 2 \\times 5 \\mathrm{~and~} 63 = 3 \\times 3 \\times 7",
+          "image_source": "images/page_13_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.807,
+            0.885,
+            0.898
+          ],
+          "content": "There are no common prime factors. Can we conclude that they are co-prime? Suppose they have a common factor that is composite. Would the prime factors of this composite common factor appear in the prime factorisation of 80 and 63?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.941,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

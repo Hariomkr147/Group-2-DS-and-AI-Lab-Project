@@ -1,0 +1,310 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Exploring Algebraic Identities"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": "71"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.146
+          ],
+          "content": "For example, $x ^ { 2 } - 1 = 2 4$ is true for only $x = 5  or  -5$ . Hence, it is an equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.146,
+            0.883,
+            0.186
+          ],
+          "content": "But (x $+ y ) ^ { 2 } = x ^ { 2 } + 2 x y + y ^ { 2 }$ is true for all values of x and y. Therefore, this equation is also an identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.191,
+            0.884,
+            0.228
+          ],
+          "content": "By now you must have observed that $( a + b ) ^ { 2 } \\neq a ^ { 2 } + b ^ { 2 }$ . But can you find out which one of them will be greater?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.229,
+            0.885,
+            0.267
+          ],
+          "content": "For example, if $a = 1 0$ and $b = 2$ , what are the values of $( a + b ) ^ { 2 }$ and $a ^ { 2 } + b ^ { 2 } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.272,
+            0.746,
+            0.292
+          ],
+          "content": "(a + b)2 = (10 + 2)2 = 122 = 144 and $a ^ { 2 } + b ^ { 2 } = 1 0 ^ { 2 } + 2 ^ { 2 } = 1 0 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.298,
+            0.485,
+            0.317
+          ],
+          "content": "So in this case, $( a + b ) ^ { 2 } \\geq a ^ { 2 } + b ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.323,
+            0.56,
+            0.343
+          ],
+          "content": "But is it true for all numbers a and b?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.362,
+            0.398,
+            0.385
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.399,
+            0.673,
+            0.418
+          ],
+          "content": "1. What can you say about a and b if $(a + b)^{2} < a^{2} + b^{2} ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.159,
+            0.423,
+            0.672,
+            0.441
+          ],
+          "content": "2. What can you say about a and b if $(a + b)^{2} \\geq a^{2} + b^{2}?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.446,
+            0.542,
+            0.464
+          ],
+          "content": "3. When will $( a + b ) ^ { 2 }$ be equal to $a^{2} + b^{2} ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.468,
+            0.855,
+            0.508
+          ],
+          "content": "Did you observe that $( a + b ) ^ { 2 }$ and $a^{2} + b^{2}$ are both positive? What term will decide which is larger? Use the expansion of $(a + b)^{2}$ to decide."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.523,
+            0.886,
+            0.563
+          ],
+          "content": "We can use the identity $(a + b)^{2} = a^{2} + 2ab + b^{2}$ to find the square of general binomial expressions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.567,
+            0.885,
+            0.608
+          ],
+          "content": "**Example 3:** Let us try to expand $(5x + 2y)^{2}$ . Here $a ~ = ~ 5 x$ and $b = 2 y$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.614,
+            0.782,
+            0.635
+          ],
+          "content": "Then $(5x + 2y)^{2} = (5x)^{2} + 2(5x)(2y) + (2y)^{2} = 25x^{2} + 20xy + 4y^{2}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.643,
+            0.879,
+            0.663
+          ],
+          "content": "We can also use the identity to help us with numerical calculations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.671,
+            0.659,
+            0.691
+          ],
+          "content": "**Example 4:** To calculate $4 3 ^ { 2 } ,$ we can write it as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.698,
+            0.727,
+            0.718
+          ],
+          "content": "(40 + 3)^{2} = 40^{2} + 2 \\times 40 \\times 3 + 3^{2} = 1600 + 240 + 9 = 1849.",
+          "image_source": "images/page_3_equation_19.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.375,
+            0.755,
+            0.621,
+            0.782
+          ],
+          "level": 2,
+          "content": "Exercise Set 4.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.803,
+            0.849,
+            0.825
+          ],
+          "content": "1. Using the identity $(a+b)^{2}=a^{2}+2ab+b^{2},$ , expand the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.845,
+            0.21,
+            0.865
+          ],
+          "content": "(i)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.23,
+            0.845,
+            0.439,
+            0.866
+          ],
+          "content": "( 7 x + 4 y ) ^ { 2 }\\tag{ii}",
+          "image_source": "images/page_3_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.461,
+            0.833,
+            0.703,
+            0.881
+          ],
+          "content": "\\left( { \\frac { 7 } { 5 } } x   +   { \\frac { 3 } { 2 } } y \\right) ^ { 2 }\\tag{iii}",
+          "image_source": "images/page_3_equation_24.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.72,
+            0.844,
+            0.861,
+            0.867
+          ],
+          "content": "( 2 . 5 p \\pm 1 . 5 q ) ^ { 2 }",
+          "image_source": "images/page_3_equation_25.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,231 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "132"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.162,
+            0.143,
+            0.671,
+            0.179
+          ],
+          "content": "\\left( \\mathrm{ix} \\right) \\left( \\mathrm{c o s e c A} - \\sin \\mathrm{A} \\right) \\left( \\mathrm{s e c A} - \\cos \\mathrm{A} \\right) = \\frac{1}{\\tan \\mathrm{A} + \\cot \\mathrm{A}}",
+          "image_source": "images/page_19_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.203,
+            0.187,
+            0.567,
+            0.205
+          ],
+          "content": "**[Hint : Simplify LHS and RHS separately]**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.205,
+            0.213,
+            0.543,
+            0.26
+          ],
+          "content": "\\left( \\frac{1 + \\tan^{2} A}{1 + \\cot^{2} A} \\right) = \\left( \\frac{1 - \\tan A}{1 - \\cot A} \\right)^{2} = \\tan^{2} A",
+          "image_source": "images/page_19_equation_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.274,
+            0.252,
+            0.293
+          ],
+          "level": 2,
+          "content": "8.5 Summary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.301,
+            0.579,
+            0.318
+          ],
+          "content": "**In this chapter, you have studied the following points :**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.323,
+            0.518,
+            0.341
+          ],
+          "content": "**1. In a right triangle ABC, right-angled at B,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.154,
+            0.344,
+            0.754,
+            0.383
+          ],
+          "content": "\\sin \\mathrm{A}=\\frac{\\text { side opposite to angle A}}{\\text { hypotemuse }}, \\cos \\mathrm{A}=\\frac{\\text { side adjacent to angle A}}{\\text { hypotemuse }}",
+          "image_source": "images/page_19_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.387,
+            0.457,
+            0.426
+          ],
+          "content": "side opposite to angle A **tan A =** side adjacent to angle A"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.427,
+            0.758,
+            0.465
+          ],
+          "content": "**2.**cosec $\\mathrm { A } = { \\frac { 1 } { \\sin \\mathrm { A } } } ;$ sec $\\mathrm { A } = { \\frac { 1 } { \\cos \\mathrm { A } } }$ ; tan $\\mathrm{A} \\rightrightarrows \\frac{\\mathrm{A}}{\\cot \\mathrm{A}}$ ,  tan $\\mathrm{A} \\geq \\frac{\\sin \\mathrm{A}_{i}}{\\cos \\mathrm{A}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.465,
+            0.9,
+            0.5
+          ],
+          "content": "**3. If one of the trigonometric ratios of an acute angle is known, the remaining trigonometric ratios of the angle can be easily determined.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.503,
+            0.754,
+            0.521
+          ],
+          "content": "4. The values of trigonometric ratios for angles $0^{\\circ},30^{\\circ},45^{\\circ},60^{\\circ}$ and $9 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.524,
+            0.9,
+            0.559
+          ],
+          "content": "**5. The value of sin A or cos A never exceeds 1, whereas the value of sec A** $( 0 ^ { \\circ } \\leq \\mathrm { A } < 9 0 ^ { \\circ } )$ **or cosec** $\\mathrm{A}(0^{\\circ}<\\mathrm{A} \\leq 90^{\\circ})$ **is always greater than or equal to 1.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.562,
+            0.322,
+            0.578
+          ],
+          "content": "**6. sin**<strong><sup>2</sup></strong> $A + \\cos^{2}A = 1$ **,**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.582,
+            0.475,
+            0.599
+          ],
+          "content": "se $\\mathrm{c}^{2} \\mathrm{A}-\\tan ^{2} \\mathrm{A}=1$ **for** $0 ^ { \\circ } \\leq \\mathrm { A } < 9 0 ^ { \\circ }$ **,**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.602,
+            0.495,
+            0.619
+          ],
+          "content": "cosec $^{2}\\mathrm{A}=1+\\cot^{2}\\mathrm{A}$ **for** $0^{\\circ} <  A  \\leq 90^{\\circ}$ **.**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.436,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

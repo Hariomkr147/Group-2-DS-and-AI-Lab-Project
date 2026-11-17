@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.682,
+            0.072,
+            0.812,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "53"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.11,
+            0.882,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To prepare, let us first consider how we can define a triangle. Let A, B and C be three points. Can we say that ∆ABC consists of points on the three line segments AB, BC, CA? Yes, provided A, B, C are not collinear. Otherwise, we just get a line segment: see Fig. 12.3."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.322,
+            0.196,
+            0.711,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.322,
+                0.196,
+                0.711,
+                0.232
+              ],
+              "image_path": "images/page_2_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.383,
+                0.239,
+                0.614,
+                0.259
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.3: Not a triangle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.116,
+            0.274,
+            0.881,
+            0.315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When A, B, C are non-collinear, we call them the "
+            },
+            {
+              "type": "text",
+              "content": "vertices",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of ∆ABC and the three segments AB, BC and CA the "
+            },
+            {
+              "type": "text",
+              "content": "sides",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of ∆ABC."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.136,
+            0.33,
+            0.401,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.134,
+            0.367,
+            0.592,
+            0.388
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we similarly define a quadrilateral ABCD?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.116,
+            0.408,
+            0.882,
+            0.486
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take any 4 distinct non-collinear points A, B, C and D. Will segments AB, BC, CD and DA always form a quadrilateral as we visualise it? See figures NOPE, SILY, DART, CUTS, OPENS and BENT in Fig. 12.2 again. Do you see, OPENS that there are some subtle new issues to consider?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.116,
+            0.486,
+            0.882,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First, to rule out examples like NOPE and SILY, no three vertices should be collinear. Otherwise, the two adjacent sides formed by the three collinear vertices will be along the same line, giving a triangle like NOPE or a figure with overlapping sides like in SILY."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.116,
+            0.562,
+            0.883,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Second, to rule out examples like BENT, all four vertices should be in the same plane. Four-sided figures like BENT are called "
+            },
+            {
+              "type": "text",
+              "content": "non-planar",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " quadrilaterals. We will study only planar quadrilaterals (except in a few exercises)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.116,
+            0.638,
+            0.881,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Third, do we want to call CUTS a quadrilateral? The answer depends on what we decide! Ordinarily, CUTS is not considered a quadrilateral. If we want to include it, we call it a self-intersecting quadrilateral."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.116,
+            0.696,
+            0.882,
+            0.753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you come up with a definition that rules out self-intersecting quadrilaterals like CUTS? Answer: we should require that all the points of the quadrilateral, other than the vertices, must lie on exactly one side."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.153,
+            0.753,
+            0.672,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you see how to rule out figures like OPENS?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.116,
+            0.772,
+            0.882,
+            0.81
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Putting together all three requirements, we get the following definition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.116,
+            0.81,
+            0.883,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Definition 1.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Suppose A, B, C, D are four distinct points in a plane. Then the points on the 4 segments AB, BC, CD and DA are said to form "
+            },
+            {
+              "type": "text",
+              "content": "quadrilateral",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " ABCD if every such point other than A, B, C, and D lies on exactly one of these four segments."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

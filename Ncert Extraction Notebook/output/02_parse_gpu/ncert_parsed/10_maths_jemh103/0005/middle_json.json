@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "28"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.138,
+            0.901,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Let us denote the number of pants by",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " x "
+            },
+            {
+              "type": "text",
+              "content": "and the number of skirts by",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " y. "
+            },
+            {
+              "type": "text",
+              "content": "Then the equations formed are :",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.451,
+            0.183,
+            0.898,
+            0.203
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "y = 2 x - 2\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.103,
+            0.209,
+            0.148,
+            0.226
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.451,
+            0.208,
+            0.898,
+            0.228
+          ],
+          "image_path": "images/page_4_equation_5.jpg",
+          "content": "y = 4 x - 4\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.242,
+            0.438,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us draw the graphs of Equations (1) and (2) by finding two solutions for each of the equations. They are given in Table 3.3.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 8,
+          "bbox": [
+            0.157,
+            0.36,
+            0.41,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.236,
+                0.331,
+                0.34,
+                0.349
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 3.3"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 8,
+              "bbox": [
+                0.157,
+                0.36,
+                0.41,
+                0.434
+              ],
+              "image_path": "images/page_4_table_8.jpg",
+              "content": "<table><tbody><tr><td>x</td><td>2</td><td>0</td></tr><tr><td>y = 2x - 2</td><td>2</td><td>- 2</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 9,
+          "bbox": [
+            0.157,
+            0.449,
+            0.41,
+            0.523
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 9,
+              "bbox": [
+                0.157,
+                0.449,
+                0.41,
+                0.523
+              ],
+              "image_path": "images/page_4_table_9.jpg",
+              "content": "<table><tbody><tr><td>x</td><td>0</td><td>1</td></tr><tr><td>y = 4x - 4</td><td>- 4</td><td>0</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.444,
+            0.247,
+            0.898,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.444,
+                0.247,
+                0.898,
+                0.529
+              ],
+              "image_path": "images/page_4_image_10.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 11,
+              "bbox": [
+                0.629,
+                0.536,
+                0.715,
+                0.556
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 3.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.572,
+            0.9,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plot the points and draw the lines passing through them to represent the equations, as shown in Fig. 3.2.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.617,
+            0.901,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The two lines intersect at the point (1, 0). So,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " x "
+            },
+            {
+              "type": "text",
+              "content": "= 1,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " y "
+            },
+            {
+              "type": "text",
+              "content": "= 0 is the required solution of the pair of linear equations, i.e., the number of pants she purchased is 1 and she did not buy any skirt.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.095,
+            0.692,
+            0.901,
+            0.733
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Verify the answer by checking whether it satisfies the conditions of the given problem.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.41,
+            0.753,
+            0.587,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISE 3.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.125,
+            0.783,
+            0.901,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Form the pair of linear equations in the following problems, and find their solutions graphically.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.171,
+            0.824,
+            0.902,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) 10 students of Class X took part in a Mathematics quiz. If the number of girls is 4 more than the number of boys, find the number of boys and girls who took part in the quiz.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

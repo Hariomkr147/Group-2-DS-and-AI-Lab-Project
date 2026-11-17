@@ -1,0 +1,282 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "chart",
+          "bbox": [
+            0.039,
+            0.08,
+            0.464,
+            0.216
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.07,
+                0.225,
+                0.405,
+                0.242
+              ],
+              "content": "Fig. 4.2: An athlete running on a straight track"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.472,
+            0.087,
+            0.889,
+            0.123
+          ],
+          "content": "Let us take the example of an athlete running on a straight track (Fig. 4.2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.471,
+            0.124,
+            0.891,
+            0.245
+          ],
+          "content": "To describe the position of the athlete, let us take her starting point as the reference point. As shown in Fig. 4.3, let us make a straight line with distances marked on it and mark the reference point on it as the **origin** ʻOʼ. The athlete starts running from O, and her positions at two instants of time are marked by points B and A."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.107,
+            0.248,
+            0.896,
+            0.297
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.25,
+                0.303,
+                0.766,
+                0.334
+              ],
+              "content": "Fig. 4.3: Reference point and positions of the athlete at different instants of time on a straight line"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.074,
+            0.313,
+            0.131,
+            0.33
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.067,
+            0.333,
+            0.213,
+            0.598
+          ],
+          "content": "An instant of time and a time interval are not the same thing. An **instant of time** is a single reading of clock at a given point of time. Whereas, a **time interval** is the time duration between two instants of time, i.e., between two readings of a clock."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.339,
+            0.891,
+            0.443
+          ],
+          "content": "To describe the position of an object, we also need to specify its direction. For the object moving in a straight line, the object can move only in one of the two directions — forward and backward. Thus, the direction is represented by plus ( ) and minus (–) signs as shown in Fig. 4.3. Positions to the right of the reference point O are generally taken as positive, and to the left of O as negative (Fig. 4.3)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.236,
+            0.45,
+            0.708,
+            0.47
+          ],
+          "level": 2,
+          "content": "4.1.2 Distance travelled and displacement"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.024,
+            0.618,
+            0.087,
+            0.678
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.472,
+            0.891,
+            0.559
+          ],
+          "content": "Suppose an athlete starts running from point O at time t = 0 s, reaches point B at t = 4 s, then reaches point A at t = 10 s, then runs back along the same path till point B reaching there at t = 16 s (Fig. 4.4). How much is the total **distance travelled** by the athlete between the starting and stopping positions? The total distance travelled is OA + AB = 100 m + 60 m = 160 m."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.089,
+            0.633,
+            0.207,
+            0.671
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.161,
+            0.863,
+            0.215,
+            0.902
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.055,
+            0.863,
+            0.155,
+            0.911
+          ],
+          "content": "about these in higher grades."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.053,
+            0.678,
+            0.216,
+            0.863
+          ],
+          "content": "Physical quantities which can be specified by just their numerical value are called scalars. Physical quantities which require specifying both the direction and magnitude are called vectors. You will learn"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.251,
+            0.567,
+            0.838,
+            0.694
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.271,
+                0.696,
+                0.812,
+                0.712
+              ],
+              "content": "Fig. 4.4: Reference point and positions of athlete at different instants of time"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.719,
+            0.89,
+            0.789
+          ],
+          "content": "Let us now think about the distance between the starting and the stopping positions of the athlete. It is OB = 40 m, which is different from the total distance travelled by the athlete. So, let us now define another quantity — displacement."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.79,
+            0.891,
+            0.928
+          ],
+          "content": "**Displacement** is the net change in the position of an object between the two given instants of time. A complete description of physical quantities like displacement requires specifying both a direction and its numerical value (with units). The numerical value (with units) of such a physical quantity is called its **magnitude**. The magnitude of displacement is the distance between the object’s positions at the two instants. The direction of displacement is specified from the position at the first instant towards the position at the second instant. To describe the total distance travelled,"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.079,
+            0.943,
+            0.11,
+            0.96
+          ],
+          "content": "50"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,27 @@
+Profit percentage is calculated based on the revenue (sales amount) when we want to know “How much (net) profit did I make on my overall revenue?”.
+
+Suppose, in a month she made sales of ₹1,50,000. The cost of buying the goods was ₹1,00,000. So, the gross profit is ₹50,000. The monthly expenses amounted to ₹5,000. The net profit is ₹45,000. Out of monthly revenue (₹1,50,000), the net profit percentage is $\frac{45000}{150000} \times 100 = \frac{3}{10} \times 100 = 30\%.$
+
+## Taxes
+
+Tax rates, like the GST (Goods and Services Tax) rate or the Income Tax rates, are also specified as percentages. You may have noticed GST mentioned as part of bills. This means that the tax is part of the amount we pay and this amount goes to the government.
+
+？ Check if the calculations are correct in the bill shown.
+
+![](images/page_18_image_6.jpg)
+
+？ You may share any bills you have at home with the class. Observe the different elements present in the bills. Are there any similarities or differences in these bills?
+
+![](images/page_18_image_8.jpg)
+
+## Figure it Out
+
+1. If a shopkeeper buys a geometry box for ₹75 and sells it for ₹110, what is his profit margin with respect to the cost?
+
+2. I am a carpenter and I make chairs. The cost of materials for a chair is ₹475 and I want to have a profit margin of 50%. At what price should I sell a chair?
+
+3. The total sales of a company (also called revenue) was ₹2.5 crore last year. They had a healthy profit margin of 25%. What was the total expenditure (costs) of the company last year?
+
+4. A clothing shop offers a 25% discount on all shirts. If the original price of a shirt is ₹300, how much will Anwar have to pay to buy this shirt?
+
+5. The petrol price in 2015 was ₹60 and ₹100 in 2025. What is the percentage increase in the price of petrol? (i) 50% (ii) 40% (iii) 60% (iv) 66.66% (v) 140% (vi) 160.66%

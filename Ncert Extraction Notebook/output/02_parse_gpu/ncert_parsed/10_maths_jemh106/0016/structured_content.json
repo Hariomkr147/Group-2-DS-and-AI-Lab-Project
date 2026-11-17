@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "88"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.902,
+            0.178
+          ],
+          "content": "If two angles of one triangle are respectively equal to two angles of another triangle, then the two triangles are similar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.183,
+            0.845,
+            0.203
+          ],
+          "content": "This may be referred to as the AA similarity criterion for two triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.208,
+            0.902,
+            0.326
+          ],
+          "content": "You have seen above that if the three angles of one triangle are respectively equal to the three angles of another triangle, then their corresponding sides are proportional (i.e., in the same ratio). What about the converse of this statement? Is the converse true? In other words, if the sides of a triangle are respectively proportional to the sides of another triangle, is it true that their corresponding angles are equal? Let us examine it through an activity :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.337,
+            0.9,
+            0.376
+          ],
+          "content": "**Activity 5 :** Draw two triangles ABC and DEF such that $\\mathbf { A B } = 3$ cm, $BC  \\equiv 6$ 6 cm, CA = 8 cm, DE = 4.5 cm, EF = 9 cm and FD = 12 cm (see Fig. 6.25)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.178,
+            0.384,
+            0.81,
+            0.524
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.533,
+                0.551,
+                0.553
+              ],
+              "content": "Fig. 6.25"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.578,
+            0.243,
+            0.598
+          ],
+          "content": "So, you have :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.297,
+            0.565,
+            0.733,
+            0.608
+          ],
+          "content": "$\\frac{\\mathrm{AB}}{\\mathrm{DE}}=\\frac{\\mathrm{BC}}{\\mathrm{EF}}=\\frac{\\mathrm{CA}}{\\mathrm{FD}}$ (each equal to $\\frac { 2 } { 3 } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.611,
+            0.902,
+            0.67
+          ],
+          "content": "Now measure $\\angle \\mathrm{A}, \\angle \\mathrm{B}, \\angle \\mathrm{C}, \\angle \\mathrm{D}, \\angle \\mathrm{E}$ and $\\angle \\mathrm { ~ F . ~ }$ You will observe that $\\angle \\mathrm{A} = \\angle \\mathrm{D}, \\angle \\mathrm{B} = \\angle \\mathrm{E}$ and $\\angle C \\equiv \\angle  F$ i.e., the corresponding angles of the two triangles are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.674,
+            0.901,
+            0.734
+          ],
+          "content": "You can repeat this activity by drawing several such triangles (having their sides in the same ratio). Everytime you shall see that their corresponding angles are equal. It is due to the following criterion of similarity of two triangles:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.746,
+            0.902,
+            0.805
+          ],
+          "content": "**Theorem 6.4 :** If in two triangles, sides of one triangle are proportional to (i.e., in the same ratio of ) the sides of the other triangle, then their corresponding angles are equal and hence the two triangles are similiar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.809,
+            0.902,
+            0.849
+          ],
+          "content": "This criterion is referred to as the SSS (Side–Side–Side) similarity criterion for two triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.854,
+            0.901,
+            0.917
+          ],
+          "content": "This theorem can be proved by taking two triangles ABC and DEF such that $\\frac{\\mathrm{AB}}{\\mathrm{DE}}=\\frac{\\mathrm{BC}}{\\mathrm{EF}}=\\frac{\\mathrm{CA}}{\\mathrm{FD}} (<1)$ (see Fig. 6.26):"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

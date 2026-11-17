@@ -1,0 +1,211 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.816,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "125"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.732,
+            0.13
+          ],
+          "content": "India) is celebrated each year as **Pi Approximation Day**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.153,
+            0.587,
+            0.176
+          ],
+          "level": 2,
+          "content": "6.4 Length of an Arc of a Circle"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.176,
+            0.195,
+            0.421,
+            0.341
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.156,
+                0.35,
+                0.442,
+                0.384
+              ],
+              "content": "Fig. 6.8: Two semicircles making a full circle"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.483,
+            0.201,
+            0.877,
+            0.297
+          ],
+          "content": "The circumference of a circle of diameter d is π d. Since the diameter is twice the radius, we can also write the circumference of a circle as 2πr, where r is the radius."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.483,
+            0.297,
+            0.878,
+            0.355
+          ],
+          "content": "What will be the length of a **semicircle** with the same radius r (see Fig. 6.8)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.483,
+            0.354,
+            0.877,
+            0.454
+          ],
+          "content": "If we reflect the circle in the diameter AB, the red semicircle and the blue semicircle exchange places. This means that they have equal length, which is $2\\pi r \\div 2 = \\pi r$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.464,
+            0.886,
+            0.543
+          ],
+          "content": "Instead of reflecting the figure in the diameter AB, we can also imagine rotating the whole figure around the centre O through an angle of $1 8 0 ^ { \\circ }$ , i.e., through a half-turn. The effect is the same, and we get the same formula for the length of the semicircular arc."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.178,
+            0.554,
+            0.449,
+            0.733
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.175,
+                0.74,
+                0.424,
+                0.773
+              ],
+              "content": "Fig. 6.9: Four quarter circles make a full circle"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.484,
+            0.573,
+            0.877,
+            0.613
+          ],
+          "content": "What will be the length of a **quarter circle** with the same radius (Fig. 6.9)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.483,
+            0.613,
+            0.877,
+            0.764
+          ],
+          "content": "Imagine rotating the entire figure through $9 0 ^ { \\circ } ,$ , clockwise or anticlockwise. Each quarter circle moves and covers another quarter circle. So each quarter circle has the same arc length, and this is equal to $2 \\pi r \\div 4 = \\frac{\\pi r}{2}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.781,
+            0.327,
+            0.801
+          ],
+          "content": "Note the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.808,
+            0.885,
+            0.863
+          ],
+          "content": "• The formula for the length of a semicircle may also be written as $2 \\pi r \\times \\frac { 1 8 0 ^ { \\circ } } { 3 6 0 ^ { \\circ } }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

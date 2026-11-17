@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.114,
+            0.577,
+            0.147,
+            0.603
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.154,
+            0.05,
+            0.431,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.088,
+            0.413,
+            0.132
+          ],
+          "level": 2,
+          "content": "A Pointed Arch Some arches look like this."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.156,
+            0.141,
+            0.842,
+            0.524
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.214,
+                0.533,
+                0.738,
+                0.563
+              ],
+              "content": "https://en.m.wikipedia.org/wiki/File:Diwan-i-Aam,\\_Red\\_Fort,\\_Delhi\\_-\\_2.jpgDiwan-i-Aam, Red Fort"
+            }
+          ],
+          "image_source": "images/page_14_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.578,
+            0.475,
+            0.601
+          ],
+          "content": "How do we construct this shape?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.605,
+            0.56,
+            0.644
+          ],
+          "content": "What supporting lines will you use to draw this arch?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.662,
+            0.56,
+            0.701
+          ],
+          "content": "Remember ‘Wavy Wave’ from the Grade 6 Textbook?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.597,
+            0.598,
+            0.833,
+            0.738
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.719,
+            0.56,
+            0.76
+          ],
+          "content": "The supporting lines are just two line segments of equal length."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.114,
+            0.811,
+            0.147,
+            0.837
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.813,
+            0.571,
+            0.854
+          ],
+          "content": "If their midpoints are marked, will you be able to construct a pointed arch?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.598,
+            0.746,
+            0.832,
+            0.885
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.683,
+                0.883,
+                0.75,
+                0.899
+              ],
+              "content": "Fig. 6.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.192,
+            0.95
+          ],
+          "content": "150"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.049,
+            0.432,
+            0.067
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.087,
+            0.846,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ What are the maximum possible marks in the exam? What are the minimum possible marks?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.142,
+            0.847,
+            0.221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? "
+            },
+            {
+              "type": "text",
+              "content": "Example 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " There is an elevator in a mining shaft that moves above and below the ground. The elevator’s positions above the ground are represented as positive integers and positions below the ground are represented as negative integers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.231,
+            0.471,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) The elevator moves 3 metres per minute. If it descends into the shaft from the ground level (0), what will be its position after one hour?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.35,
+            0.471,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) If it begins to descend from 15 m above the ground, what will be its position after 45 minutes?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.433,
+            0.252,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.457,
+            0.471,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution to part (a) of the question:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.485,
+            0.215,
+            0.843,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.485,
+                0.215,
+                0.843,
+                0.551
+              ],
+              "image_path": "images/page_12_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.506,
+            0.26,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 1:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.526,
+            0.471,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can model this using subtraction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.15,
+            0.564,
+            0.847,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The elevator moves at 3 metres per minute. So in one hour it moves 180 metres (60 × 3). If it started at ground level (0 metres) and descended, we should subtract 180 from 0."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.418,
+            0.632,
+            0.578,
+            0.652
+          ],
+          "image_path": "images/page_12_equation_11.jpg",
+          "content": "0 = 180 = (-180)."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.66,
+            0.846,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, it will reach the (–180) metre position, which is 180 metres below the ground."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.153,
+            0.705,
+            0.26,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 2:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.724,
+            0.847,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us say that the speed and direction of the elevator are represented by an integer (metres per minute). It is +3 when it is moving up and it is (–3) when moving down."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.781,
+            0.846,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the elevator is moving down, the speed is (–3) metres per minute. It moves for 60 minutes. So it goes"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.412,
+            0.83,
+            0.584,
+            0.85
+          ],
+          "image_path": "images/page_12_equation_16.jpg",
+          "content": "6 0 \\times ( - 3 ) = ( - 1 8 0 ) ."
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "36"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

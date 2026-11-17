@@ -1,0 +1,252 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.087,
+            0.848,
+            0.145
+          ],
+          "content": "Each landmark number is 10 times the previous one. Since 1 is the first landmark number, they are all powers of 10. The following are the symbols given to these numbers —"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.163,
+            0.148,
+            0.839,
+            0.22
+          ],
+          "content": "| 1 | 102 10 | 103 10⁵ 104 | 10⁶ | 107 |\n| --- | --- | --- | --- | --- |\n|  |  |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.228,
+            0.848,
+            0.284
+          ],
+          "content": "As in the case of Roman numbers, a given number is counted in groups of the landmark numbers, starting from the largest landmark number less than the given number. This is then used to assign the numeral."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.283,
+            0.848,
+            0.322
+          ],
+          "content": "For example 324 which equals 100 + 100 + 100 + 10 + 10 + 4 is written as ."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.331,
+            0.293,
+            0.354
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.356,
+            0.847,
+            0.395
+          ],
+          "content": "1. Represent the following numbers in the Egyptian system: 10458, 1023, 2660, 784, 1111, 70707."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.405,
+            0.624,
+            0.424
+          ],
+          "content": "2. What numbers do these numerals stand for?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.229,
+            0.446,
+            0.254,
+            0.466
+          ],
+          "content": "(i)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.268,
+            0.44,
+            0.372,
+            0.554
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.571,
+            0.446,
+            0.603,
+            0.466
+          ],
+          "content": "(ii)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.611,
+            0.439,
+            0.768,
+            0.54
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_11.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.149,
+            0.574,
+            0.849,
+            0.617
+          ],
+          "level": 2,
+          "content": "II. Variations on the Egyptian System and the Notion of Base"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.627,
+            0.848,
+            0.722
+          ],
+          "content": "？ Instead of grouping together 10 collections of size equal to the previous landmark number (as in the case of the Egyptian system), can we get a number system by grouping together 5 collections of size equal to the previous landmark number? Can this 5 be replaced by any positive integer?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.725,
+            0.804,
+            0.745
+          ],
+          "content": "Let us examine this possibility. Let 1 be the first landmark number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.745,
+            0.848,
+            0.781
+          ],
+          "content": "Group together 5 collections of size equal to the previous landmark number (1). Its size is the second landmark number which is 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.781,
+            0.848,
+            0.819
+          ],
+          "content": "Group together 5 collections of size equal to the previous landmark number (5). Its size is the third landmark number which is 5 × 5 = 25."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.819,
+            0.848,
+            0.856
+          ],
+          "content": "Group together 5 collections of size equal to the previous landmark number (5). Its size is the fourth landmark number which is 5 × 25 = 125."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": "62"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

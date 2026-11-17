@@ -1,0 +1,150 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.497,
+            0.069,
+            0.818,
+            0.086
+          ],
+          "content": "Introduction to Linear Polynomials"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.068,
+            0.886,
+            0.084
+          ],
+          "content": "29"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.129,
+            0.103,
+            0.873,
+            0.383
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.459,
+                0.39,
+                0.541,
+                0.408
+              ],
+              "content": "Fig. 2.6"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.415,
+            0.891,
+            0.454
+          ],
+          "content": "For each point, the value of the y-coordinate is three times that of the x-coordinate. We can therefore say that y = 3x."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.455,
+            0.891,
+            0.553
+          ],
+          "content": "**Example 13:** Let us plot the points (– 3, 6), (– 2, 4), (0, 0), (1, – 2), (2, – 4), (3, – 6) in the coordinate plane on a graph paper as shown in Fig. 2.7. Join the points (– 3, 6) and (3, – 6) using a ruler. Doing so, observe that all five points lie on a straight line. Can you guess the equation of this line by looking at the relationship between the x and y coordinates of each point?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.196,
+            0.556,
+            0.797,
+            0.786
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.46,
+                0.788,
+                0.541,
+                0.806
+              ],
+              "content": "Fig. 2.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.81,
+            0.891,
+            0.854
+          ],
+          "content": "**Example 14:** Draw the graphs of $y=\\frac{1}{2}x,y=x,y=2x$ by selecting suitable points on these lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.858,
+            0.889,
+            0.91
+          ],
+          "content": "(**Hint:** In order to graph $y \\; = \\; { \\frac { 1 } { 2 } } \\; x ,$ we could take the points (0, 0) and (4, 2). Can you verify that these lie on the line?)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

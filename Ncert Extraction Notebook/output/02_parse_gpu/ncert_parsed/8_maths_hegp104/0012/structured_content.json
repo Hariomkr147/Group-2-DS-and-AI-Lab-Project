@@ -1,0 +1,266 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.74,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.849,
+            0.183
+          ],
+          "content": "This shows that the diagonals of a square bisect each other at right angles. This means that the diagonals have to be drawn such that they are of equal lengths and bisect each other at right angles. Since the endpoints of the diagonals uniquely determine the vertices of a quadrilateral, we will get a square when the diagonals are joined this way."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.191,
+            0.798,
+            0.215
+          ],
+          "content": "？ Using this fact, construct a square with a diagonal of length 8 cm."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.232,
+            0.427,
+            0.255
+          ],
+          "level": 2,
+          "content": "Properties of a Square"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.264,
+            0.848,
+            0.304
+          ],
+          "content": "Since a square is a special type of rectangle, all the properties of a rectangle hold true for a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.312,
+            0.848,
+            0.353
+          ],
+          "content": "？ Verify if this is true by going through geometric reasoning in Deduction 1 and Deduction 2, and see if they apply to a square as well."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.362,
+            0.74,
+            0.383
+          ],
+          "content": "**Property 1:** All the sides of a square are equal to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.386,
+            0.82,
+            0.407
+          ],
+          "content": "**Property 2:** The opposite sides of a square are parallel to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.411,
+            0.6,
+            0.432
+          ],
+          "content": "**Property 3:** The angles of a square are all 90°."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.435,
+            0.847,
+            0.473
+          ],
+          "content": "**Property 4:** The diagonals of a square are of equal length and they bisect each other at 90°."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.473,
+            0.614,
+            0.493
+          ],
+          "content": "There is one more special property of a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.503,
+            0.847,
+            0.542
+          ],
+          "content": "？ What are the measures of $\\angle 1,   \\angle 2,   \\angle 3,$ , and ∠4? See if you can reason and/or experiment to figure this out!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.164,
+            0.549,
+            0.418,
+            0.743
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.42,
+            0.61,
+            0.604,
+            0.628
+          ],
+          "content": "In ∆ADC, we have,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.422,
+            0.628,
+            0.605,
+            0.646
+          ],
+          "content": "\\angle 1 + \\angle 3 + 90 = 180",
+          "image_source": "images/page_11_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.42,
+            0.646,
+            0.738,
+            0.665
+          ],
+          "content": "Since $\\mathrm { A D } = \\mathrm { D C } _ { \\mathrm { ; } }$ we have $\\angle 1 = \\angle 3.$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.421,
+            0.665,
+            0.619,
+            0.684
+          ],
+          "content": "Thus, $\\angle 1 = \\angle 3 = 45^{\\circ}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.751,
+            0.409,
+            0.772
+          ],
+          "content": "Similarly, find $\\angle 2$ and $\\angle 4$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.775,
+            0.608,
+            0.796
+          ],
+          "content": "Thus, we have another property of a square —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.8,
+            0.848,
+            0.859
+          ],
+          "content": "**Property 5:** The diagonals of a square divide the angles of the square into equal halves. This can also be expressed as—The diagonals of a square bisect the angles of the square."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.913,
+            0.936
+          ],
+          "content": "93"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

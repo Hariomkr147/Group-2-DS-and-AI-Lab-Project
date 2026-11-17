@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.479,
+            0.069,
+            0.816,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Measuring Space: Perimeter and Area"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "145"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.107,
+            0.739,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "this may also be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\approx \\left( \\frac{64}{81} \\right) 4 r^2, \\quad \\mathrm{i.e.}, \\quad A \\approx \\left( \\frac{256}{81} \\right) r^2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.152,
+            0.886,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Amazingly, the same formula appears in the Baudhāyana Śhulbasūtra (800 BCE) via a geometric method for constructing a square with (approximately) the same area as a circle."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.234,
+            0.566,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Familiar Formula in Use Today"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.269,
+            0.886,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The ancient Greeks also knew that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { A } { r ^ { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " is some constant — but did not know what that constant was. Two different civilisations approximated it to be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 2 5 6 } { 8 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.374,
+            0.886,
+            0.491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, in c. 250 BCE, Archimedes showed that the constant is exactly π (i.e., the same constant that occurs in the formula for perimeter of a circle!); so, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A \\; = \\; \\pi r ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " He expressed the formula this way: “The area of a circle is equal to the area of a right angle triangle with sides equal to the radius and the circumference of the circl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e ^ { \\flat }"
+            },
+            {
+              "type": "text",
+              "content": " That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.178,
+            0.505,
+            0.818,
+            0.55
+          ],
+          "image_path": "images/page_27_equation_7.jpg",
+          "content": "\\mathrm{Area}   of circle =\\frac{1}{2}\\times\\mathrm{circm}   forence \\times\\mathrm{radius}=\\frac{1}{2}\\times2\\pi r\\times r=\\pi r^{2}."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.564,
+            0.886,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The proof given by Archimedes is very clever. It is based on a property shared by all regular polygons: The area enclosed by a regular polygon is equal to half the perimeter × the radius of the circle that fits tightly within the polygon (Fig. 6.36). (The proof of this formula is an extension of the proof of the formula of the area of a triangle in terms of the radius of its incircle.)"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.134,
+            0.71,
+            0.358,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.134,
+                0.71,
+                0.358,
+                0.823
+              ],
+              "image_path": "images/page_27_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.394,
+            0.702,
+            0.604,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.394,
+                0.702,
+                0.604,
+                0.832
+              ],
+              "image_path": "images/page_27_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.658,
+            0.701,
+            0.847,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.658,
+                0.701,
+                0.847,
+                0.833
+              ],
+              "image_path": "images/page_27_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.173,
+                0.857,
+                0.824,
+                0.89
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "1 Fig. 6.36: Area of a regular polygon = 2 × perimeter of the polygon × radius"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

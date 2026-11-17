@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.593,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "The World of Algorithms"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.852,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "49"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.11,
+            0.884,
+            0.171
+          ],
+          "content": "The above modified algorithm can be carried out concisely using the “long division” method given by Indians at least from the time of Āryabhaṭa. We illustrate the method through the following examples—"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.177,
+            0.874,
+            0.282
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.294,
+            0.448,
+            0.316
+          ],
+          "content": "Here is another example—"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.322,
+            0.518,
+            0.458
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.464,
+            0.884,
+            0.545
+          ],
+          "content": "In fact, it can be shown that the number of reductions needed in Āryabhaṭa’s division algorithm is now proportional to the number of digits in m and n. Unfortunately, the justification for this fact is too involved to present here, but you will learn about it in future grades."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.559,
+            0.356,
+            0.581
+          ],
+          "level": 2,
+          "content": "A Pinch of History"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.591,
+            0.884,
+            0.901
+          ],
+          "content": "The influential Persian mathematician Al-Khwārizmī (780–850 CE), a scholar at the “House of Wisdom” in Baghdad, developed a great liking for Indian mathematics. He learnt Sanskrit, and around 820 CE wrote a detailed treatise expounding the Indian place value number system and the Indian procedures for the four fundamental operations — addition, subtraction, multiplication, and division. His original is lost, but its 12th-century Latin translation, Liber Algorismi de numero Indorum (“The Book of Al-Khwārizmī on Indian Numerals”), survives and played a major role in spreading Indian arithmetic through medieval Europe. Al-Khwārizmī’s name became so closely tied to these methods that the word algorismus — from Algoritmi, the Latin form of his name — came to mean any Indian method for numerical computation; it later contracted to algorism and then algorithm. Etymologically, then, “algorithm” originally denoted an Indian method of arithmetic, before it broadened to mean any well-defined, step-by-step systematic procedure for solving a class of problems."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

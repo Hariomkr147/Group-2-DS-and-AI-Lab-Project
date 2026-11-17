@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.12
+          ],
+          "content": "177"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.159,
+            0.195,
+            0.177
+          ],
+          "content": "We have,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.44,
+            0.149,
+            0.562,
+            0.187
+          ],
+          "content": "u _ { _ i } = \\; \\frac { x _ { _ i } - a } { h }",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.233,
+            0.205,
+            0.252
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434,
+            0.205,
+            0.805,
+            0.381
+          ],
+          "content": "\\begin{aligned}\\overline{\\overline{u}} &= \\frac{\\Sigma f_{i} \\frac{\\left( x_{i} - a \\right)}{h}}{\\Sigma f_{i}} = \\frac{1}{h} \\left[ \\frac{\\Sigma f_{i} x_{i} - a \\Sigma f_{i}}{\\Sigma f_{i}} \\right] \\\\&= \\frac{1}{h} \\left[ \\frac{\\Sigma f_{i} x_{i}}{\\Sigma f_{i}} - a \\frac{\\Sigma f_{i}}{\\Sigma f_{i}} \\right] \\\\&= \\frac{1}{h} \\big[ \\overline{x} - a \\big]\\end{aligned}",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.395,
+            0.135,
+            0.413
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.391,
+            0.554,
+            0.412
+          ],
+          "content": "\\left[ h \\overline { { u } } \\right. = \\left. \\overline { { x } } - a \\right.",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.424,
+            0.139,
+            0.442
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.422,
+            0.567,
+            0.442
+          ],
+          "content": "\\overline{x} = a + \\overline{h} \\overline{u}",
+          "image_source": "images/page_6_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.475,
+            0.134,
+            0.493
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.438,
+            0.457,
+            0.626,
+            0.506
+          ],
+          "content": "\\bar{x} \\leq a + h \\left( \\frac{\\Sigma f_i u_i}{\\Sigma f_i} \\right)",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.512,
+            0.816,
+            0.532
+          ],
+          "content": "Now, substituting the values of $a , h , \\Sigma f _ { i } u _ { i }$ and $\\Sigma f_{i}$ from Table 14.5, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.436,
+            0.545,
+            0.664,
+            0.589
+          ],
+          "content": "\\overline{x} = 47.5 + 15 \\times \\left( \\frac{29}{30} \\right)",
+          "image_source": "images/page_6_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.462,
+            0.598,
+            0.652,
+            0.618
+          ],
+          "content": "47.5 + 14.5 = 62",
+          "image_source": "images/page_6_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.625,
+            0.556,
+            0.644
+          ],
+          "content": "So, the mean marks obtained by a student is 62"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.65,
+            0.738,
+            0.669
+          ],
+          "content": "The method discussed above is called the Step-deviation method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.676,
+            0.291,
+            0.694
+          ],
+          "content": "We note that :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.701,
+            0.902,
+            0.738
+          ],
+          "content": "• the step-deviation method will be convenient to apply if all the $d _ { i } ^ { \\; \\prime } \\: \\mathrm { s }$ have a common factor."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.745,
+            0.724,
+            0.764
+          ],
+          "content": "• The mean obtained by all the three methods is the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.77,
+            0.9,
+            0.808
+          ],
+          "content": "• The assumed mean method and step-deviation method are just simplified forms of the direct method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.813,
+            0.9,
+            0.878
+          ],
+          "content": "• The formula $\\overline{x} = a + h\\overline{u}$ still holds if a and h are not as given above, but are any non-zero numbers such that $u _ { _ i } = \\frac { x _ { _ i } - a } { h }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.879,
+            0.607,
+            0.899
+          ],
+          "content": "Let us apply these methods in another example."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,45 @@
+It was found experimentally that the magnitudes of such two forces are equal. Can you also observe this in some other way? You know how to measure the magnitude of the force using a spring balance.
+
+## Activity 6.6: Let us verify
+
+1. Take two identical spring balances.
+
+2. Place them in horizontal position on a table and connect them by their hooks as shown in Fig. 6.26. Fix the free end of one of the spring balances to an immovable object or hold it fixed by your hand.
+
+3. Imagine that you are pulling the free end of the other spring balance with your other hand. **Predict** what will be the readings of their scales if the spring balances are stationary.
+
+4. Now, carry out step 3. Repeat it multiple times by varying the magnitude of the force applied by you. Is your observation same as your prediction?
+
+![](images/page_14_image_6.jpg)
+
+Fig. 6.26: Two spring balances connected together are pulled in opposite directions
+
+The readings of the scales of two spring balances are the same every time. What does it indicate?
+
+It indicates that the forces applied by them on each other in the opposite direction are equal in magnitude.
+
+All these observations are summed up in the **Newton’s third law of motion**, which can be stated as:
+
+Force of friction pushing a person up
+
+![](images/page_14_image_12.jpg)
+
+Person pushing the trunk down
+
+Whenever one object is exerting a force on a second object, the second object is simultaneously exerting an equal and opposite force on the first object.
+
+Fig. 6.27: A person climbing a coconut tree
+
+![](images/page_14_image_16.jpg)
+
+Water pushing the paddle and canoe forward
+
+Fig. 6.28: Rowing a canoe
+
+## Note
+
+The forces always occur in pairs but remember that these two forces act on two different objects.
+
+Many daily life observations can be understood on the basis of the Newton’s third law of motion. You might have seen a person climbing a coconut tree or palm tree (Fig. 6.27). The legs of the person climbing the vertically erect tree push down against the trunk. The friction between the trunk and the legs of the person pushes the person upwards by an equal force. Thus, it is harder to climb up the smooth tree trunks that have lesser friction.
+
+Have you ever noticed how a boat or a canoe moves forward (Fig. 6.28)? When the canoeist pushes the water backwards with their paddle, the water pushes the paddle forward with an equal force. The two forces are equal in magnitude but act on different objects, the paddle and the water, so they do not cancel each other. The force on the paddle makes the paddle and the canoe move forward. When the canoeist pushes harder on the water, the forward force on the paddle is larger, and the canoe’s velocity increases.

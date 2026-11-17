@@ -1,0 +1,148 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.148,
+            0.087
+          ],
+          "content": "42"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.11,
+            0.882,
+            0.245
+          ],
+          "content": "\u0007divisors(81000) = [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 25, 27, 30, 36, 40, 45, 50, 54, 60, 72, 75, 81, 90, 100, 108, 120, 125, 135, 150, 162, 180, 200, 216, 225, 250, 270, 300, 324, 360, 375, 405, 450, 500, 540, 600, 648, 675, 750, 810, 900, 1000, 1080, 1125, 1350, 1500, 1620, 1800, 2025, 2250, 2700, 3000, 3240, 3375, 4050, 4500, 5400, 6750, 8100, 9000, 10125, 13500, 16200, 20250, 27000, 40500, 81000]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.254,
+            0.882,
+            0.293
+          ],
+          "content": "It is no longer so simple to just inspect the lists to find the largest element common to both of them! We need to do this systematically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.294,
+            0.884,
+            0.408
+          ],
+          "content": "We compute a new list, the list of common divisors. As before, when we compute the list of divisors, this list is initially empty. For each divisor in the first list, we check if it belongs to the second list. If it does, we add it to the list of common divisors. Notice that 1 divides every number, so the list of common divisors will have at least one entry, 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.407,
+            0.882,
+            0.523
+          ],
+          "content": "Using this, we can compute the list of common divisors of 54000 and 81000, to be [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 25, 27, 30, 36, 40, 45, 50, 54, 60, 72, 75, 90, 100, 108, 120, 125, 135, 150, 180, 200, 216, 225, 250, 270, 300, 360, 375, 450, 500, 540, 600, 675, 750, 900, 1000, 1080, 1125, 1350, 1500, 1800, 2250, 2700, 3000, 3375, 4500, 5400, 6750, 9000, 13500, 27000]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.523,
+            0.883,
+            0.601
+          ],
+          "content": "Since we know that each list of divisors is in increasing order, it must be the case that the list of common divisors is also in increasing order. Hence the largest common divisor is the rightmost element in the list. In other words the gcd of 54000 and 81000 is 27000."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.618,
+            0.491,
+            0.641
+          ],
+          "level": 2,
+          "content": "11.2.3 First Algorithm for gcd"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.649,
+            0.882,
+            0.71
+          ],
+          "content": "Combining the steps above, we can write out a complete algorithm to compute the gcd of two numbers m and n. This makes use of the earlier algorithm to compute the list of divisors of a number."
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.12,
+            0.721,
+            0.879,
+            0.865
+          ],
+          "sub_type": "code",
+          "content": "```txt\nAlgorithm to find gcd(m, n)\n1. Let divisors-of-m be the list obtained by computing\ndivisors(m)\nLet divisors-of-n be the list obtained by computing\ndivisors(n)\n3. Start with an empty list common-divisors\n```",
+          "captions": [],
+          "footnotes": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

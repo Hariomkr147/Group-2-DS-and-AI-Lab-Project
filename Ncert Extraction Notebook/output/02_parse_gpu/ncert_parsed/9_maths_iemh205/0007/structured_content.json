@@ -1,0 +1,143 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.596,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": "Two Variables, One Line"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.851,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "91"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.249,
+            0.107,
+            0.749,
+            0.387
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.253,
+                0.397,
+                0.746,
+                0.417
+              ],
+              "content": "Fig. 13.3: Graph of the linear equation 4x + 3y = 12"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.431,
+            0.884,
+            0.553
+          ],
+          "content": "(ii) Substituting $x = 0 ,$ we get 5y = 0, that is, y = 0. So (0, 0) is a solution of the given equation. To get another solution, substitute x = 1. The corresponding value of y is $-\\frac{2}{5}, \\mathrm{~S}0, (1, -\\frac{2}{5})$ is also a solution. In fact, we can substitute any value for x and obtain a corresponding value of y. For example, substituting $x = 5$ we obtain $y = - 2$ . Let us represent these solutions or ordered pairs in the form of a table."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.297,
+            0.558,
+            0.648,
+            0.642
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.652,
+            0.883,
+            0.698
+          ],
+          "content": "When we plot the ordered pairs A (0, 0), $\\mathrm { B } \\left( 1 , { \\frac { - 2 } { 5 } } \\right)$ and C (5, –2) we see that they lie on a line."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.19,
+            0.702,
+            0.752,
+            0.853
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.259,
+                0.863,
+                0.74,
+                0.883
+              ],
+              "content": "Fig. 13.4: Graph of the linear equation $2x + 5y = 0$"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_7.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

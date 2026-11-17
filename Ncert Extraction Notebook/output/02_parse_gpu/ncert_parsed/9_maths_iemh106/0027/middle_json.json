@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "144"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.132,
+            0.115,
+            0.398,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.152,
+            0.856,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why were human beings so fond of using circular shapes? Was this only for practical reasons, or could there have been other reasons too? What kinds of uses have human beings found for the circular shape?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.229,
+            0.886,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Early on, human beings faced the challenge of finding the area A enclosed by a circle. They may have needed, for example, to work out how much grain can be kept in a cylindrical tower (which has a circular cross section), or how much area is occupied by a circular garden or a circular building. They needed such data for planning out their cities, for tax purposes, etc."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.345,
+            0.885,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Early societies understood very well that the area A must be proportional to the "
+            },
+            {
+              "type": "text",
+              "content": "square",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the circumference C. Let’s see why this is so."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.142,
+            0.387,
+            0.885,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we are given a square. Let its side be a. It has perimeter "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } = 4 a"
+            },
+            {
+              "type": "text",
+              "content": " and area "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { A } = a ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . So the ratio "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{P}^{2}:\\mathrm{A}=(4a^{2}):a^{2}=16a^{2}:a^{2}="
+            },
+            {
+              "type": "text",
+              "content": " 16 : 1. So the ratio "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P ^ { 2 } : A }"
+            },
+            {
+              "type": "text",
+              "content": " is 16 : 1 for all squares; the ratio does not depend on the size of the square — it is the same for all squares."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.142,
+            0.467,
+            0.884,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Consider an equilateral triangle with side a. Its perimeter is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } = 3 a"
+            },
+            {
+              "type": "text",
+              "content": " and its area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A=\\frac{\\sqrt{3}}{4}a^{2}.\\mathrm{S}0P^{2};A=(3a)^{2}:\\frac{\\sqrt{3}}{4}a^{2}=9a^{2}:\\frac{\\sqrt{3}}{4}a^{2}=36:\\sqrt{3}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.536,
+            0.884,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the ratio "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P ^ { 2 } } \\colon \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 6 : \\sqrt { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " for all equilateral triangles; the ratio does not depend on the size of the equilateral triangle — it is the same for all equilateral triangles."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.142,
+            0.599,
+            0.885,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, for various shapes, as we change the scale, the ratio P"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " : A stays fixed. The value of the ratio depends only on the shape, not on its scale."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.666,
+            0.885,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Such reasoning suggests that for a circle too, if C = circumference and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } = \\mathrm { a r e a }"
+            },
+            {
+              "type": "text",
+              "content": " , the ratio C"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " : A must be some fixed constant. But what is this constant?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.113,
+            0.723,
+            0.884,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Well before 1500 BCE, the Babylonians had found through actual measurement that the constant is close to 12; that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { C } ^ { 2 } : \\mathbb { A } \\approx \\dot { 1 } 2 : 1 . \\mathrm { S o }"
+            },
+            {
+              "type": "text",
+              "content": " their formula for the area of a circle was "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } \\approx { \\frac { C ^ { 2 } } { 1 2 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.807,
+            0.885,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Around 1500 BCE, the ancient Egyptians came up with another such formula which resembles the one described above but is much more accurate: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A   \\approx   \\left( { \\frac { 8 d } { 9 } } \\right) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " where d is the diameter of the circle. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = 2 r"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

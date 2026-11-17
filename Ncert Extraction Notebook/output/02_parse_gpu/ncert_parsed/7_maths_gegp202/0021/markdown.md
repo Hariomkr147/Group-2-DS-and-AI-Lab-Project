@@ -1,0 +1,37 @@
+Yes, we can use 10 coins of +13 pibs and 5 coins of – 9 pibs to make a total of + 85. Using the two denominations, try to get the following totals:
+
+(a)	 + 20 (b)	 + 40
+
+(c) $- 5 0$ (d) $+   8$
+
+(e) $+ 1 0$ (f ) $- 2$
+
+(g)	 + 1
+
+[**Hint:** Writing down a few multiples of 13 and 9 can help.]
+
+(h) Is it possible to purchase an item that costs 1568 pibs?
+
+![](images/page_20_image_8.jpg)
+
+11. Find the values of: (a)	 (32 × (– 18)) ÷ ((– 36)) (b)	 (32 ) ÷ ((– 36) × (– 18)) (c)	 (25 × (– 12)) ÷ ((45) × (– 27)) (d)	 (280 × (– 7)) ÷ ((– 8) × (– 35))
+
+12. Arrange the expressions given below in increasing order. (a)	 (– 348) + (– 1064) (b)	 (– 348) – (– 1064) (c)	 348 – (– 1064) (d)	 (– 348) × (– 1064) (e)	 348 × (– 1064) (f) 348 × 964
+
+13. Given that (– 548) × 972 = – 532656, write the values of: (a)	 (– 547) × 972 (b)	 (– 548) × 971 (c)	 (– 547) × 971
+
+14. Given that $207 \times (-33+7) = -5382$ write the value of – 207 × (33 – 7) =
+
+15. Use the numbers 3, – 2, 5, – 6 exactly once and the operations ‘+’, ‘–’, and ‘×’ exactly once and brackets as necessary to write an expression such that —
+
+(a) the result is the maximum possible
+
+(b) the result is the minimum possible
+
+16. Fill in the blanks in at least 5 different ways with integers:
+
+(a) $\boxdot \boxdot + \boxdot \boxdot \times \boxdot = - 3 6$ (b) ( ) × = 12
+
+$$
+\left( \left( \left( \begin{array}{c} \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \quad \left( \right) \right) \quad \left( \right) \right) = - 1 \right. \end{array}
+$$

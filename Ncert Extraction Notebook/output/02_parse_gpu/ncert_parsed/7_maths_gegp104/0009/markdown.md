@@ -1,0 +1,31 @@
+The expression means 5 times c is added to 3 times c is added to 10 times c. So in total, the letter-number c is added $( 5 + 3 + 1 0 )$ times. This is what we have seen as the distributive property of numbers. Thus,
+
+$$
+5 \times c + 3 \times c + 10 \times c = (5 + 3 + 10) \times c
+$$
+
+(5 + 3 + 10) × c can be simplified to $1 8 \times c = 1 8 c .$
+
+？ If $c = \mp 5 0$ , find the total amount earned by the scale of pencils.
+
+？ Write the expression for the total money earned by selling erasers. Then, simplify the expression.
+
+The expression for the total money earned by selling pencils and erasers during these three days is 18c + 11d.
+
+## ？ Can the expression 18c + 11d be simplified further?
+
+There is no way of further simplifying this expression as it contains different letter-numbers. It is in its simplest form.
+
+In this problem, we saw the expression 5c + 3c + 10c getting simplified to the expression 18c.
+
+？ Check that both expressions take the same value when c is replaced by different numbers.
+
+? **Example 6:** A big rectangle is split into two smaller rectangles as shown. Write an expression describing the area of the bigger rectangle.
+
+![](images/page_8_image_13.jpg)
+
+The areas of the smaller rectangles are 4v sq. units and 3v sq. units. The area of the bigger rectangle can be found in two ways: (i) by directly using its side lengths v and (4 + 3), or (ii) by adding the areas of the smaller rectangles.
+
+The first way gives 7v, and the second way gives $4 \nu   +   3 \nu$ . We know that they are equal: $4v + 3v = 7v,$ and this is the required expression for the area of the bigger rectangle.
+
+As earlier, a big rectangle is split into two smaller rectangles as shown below. Write an expression to find the area of the rectangle AEFD.

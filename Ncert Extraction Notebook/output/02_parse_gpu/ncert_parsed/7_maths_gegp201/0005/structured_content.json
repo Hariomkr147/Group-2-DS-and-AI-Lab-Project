@@ -1,0 +1,180 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.707,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Geometric Twins"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.086,
+            0.466,
+            0.11
+          ],
+          "level": 2,
+          "content": "What do you think they can do?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.13,
+            0.482,
+            0.152
+          ],
+          "level": 2,
+          "content": "Measuring the Sidelengths"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.157,
+            0.847,
+            0.214
+          ],
+          "content": "Can certain measurements of the triangle be used for this? Using a measuring tape, the girls measure the sides of the triangle to be 40 cm, 60 cm, and 80 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.215,
+            0.847,
+            0.253
+          ],
+          "content": "Then, Rabia takes out her protractor to measure the angles. She is stopped by Meera."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.253,
+            0.847,
+            0.309
+          ],
+          "content": "**Meera:** The angles of the triangle are not required! With the side lengths we have measured, we can create a triangle congruent to this one."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.319,
+            0.412,
+            0.343
+          ],
+          "level": 2,
+          "content": "Do you agree with Meera?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.361,
+            0.847,
+            0.403
+          ],
+          "content": "？ Instead of the lengths being 40 cm, 60 cm, and 80 cm, suppose the sidelengths had been 4 cm, 6 cm, 8 cm (this triangle can fit on our page)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.423,
+            0.846,
+            0.464
+          ],
+          "content": "？ Is this information sufficient to replicate the triangle with the same size and shape? If yes, can you do so?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.474,
+            0.848,
+            0.571
+          ],
+          "content": "**Rabia:** If I were to construct this triangle, I would first draw a line segment having one of the given lengths, say 6 cm, and then draw circles from each of its end points with radii 4 cm and 8 cm. But the circles would intersect at two points, forming two triangles: ∆ABE and ∆ABF"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.31,
+            0.573,
+            0.686,
+            0.83
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.841,
+            0.847,
+            0.901
+          ],
+          "content": "**Rabia:** Do these two triangles have the same shape and size? If not, then we will not be sure which of these would actually be congruent to the original triangle we are trying to replicate."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.818,
+            0.934,
+            0.833,
+            0.95
+          ],
+          "content": "5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

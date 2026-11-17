@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:31+05:30",
+      "modified_at": "2026-05-15T17:58:36+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.087,
+            0.847,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "linked proportionally, out of which three are known and we must find the fourth, unknown, quantity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.125,
+            0.848,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To solve such problems, we can model two proportional ratios using algebraic notation as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.442,
+            0.162,
+            0.556,
+            0.181
+          ],
+          "image_path": "images/page_9_equation_3.jpg",
+          "content": "a : b : : c : d ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.186,
+            0.848,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For these two ratios to be proportional, we know that term c should be a multiple of term a by a factor, say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f ,"
+            },
+            {
+              "type": "text",
+              "content": " and term d should be a multiple of term b by the same factor f. So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.43,
+            0.246,
+            0.568,
+            0.291
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "\\begin{aligned}c &= f a \\quad \\ldots (1) \\\\d &= f b \\quad \\ldots (2)\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.174,
+            0.294,
+            0.503,
+            0.315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From (1) and (2), we can say that,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.414,
+            0.316,
+            0.58,
+            0.351
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "f = \\frac{c}{a}  and  f = \\frac{d}{b}."
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.413,
+            0.353,
+            0.583,
+            0.386
+          ],
+          "image_path": "images/page_9_equation_8.jpg",
+          "content": "\\mathrm{Therefore}, \\frac{c}{a} = \\frac{d}{b}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.174,
+            0.39,
+            0.533,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Multiplying both sides by ab, we get,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.433,
+            0.414,
+            0.593,
+            0.447
+          ],
+          "image_path": "images/page_9_equation_10.jpg",
+          "content": "ab \\times \\frac{c}{a} = ab \\times \\frac{d}{b}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.431,
+            0.449,
+            0.592,
+            0.484
+          ],
+          "image_path": "images/page_9_equation_11.jpg",
+          "content": "ab \\times \\frac{c}{a} = ab \\times \\frac{d}{b}"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.423,
+            0.486,
+            0.6,
+            0.506
+          ],
+          "image_path": "images/page_9_equation_12.jpg",
+          "content": "b\\bar{c} = ad\\  or\\ ad = bc"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.508,
+            0.848,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, when a : b :: c : d, then ad = bc. This is known as cross multiplication of terms."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.174,
+            0.545,
+            0.486,
+            0.565
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since ad "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= b c ,"
+            },
+            {
+              "type": "text",
+              "content": " we can show that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.46,
+            0.568,
+            0.536,
+            0.599
+          ],
+          "image_path": "images/page_9_equation_15.jpg",
+          "content": "d = { \\frac { b c } { a } } ."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.162,
+            0.616,
+            0.835,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two ratios are proportional if their terms are equal when cross multiplied. The fourth unknown quantity can be found through such cross multiplication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.149,
+            0.686,
+            0.848,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In ancient India, Āryabhaṭa (199 CE) and others called such problems of proportionality Rule of Three problems. There were 3 numbers given—the pramāṇa (measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- \\mathbf { a } ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " in our case), the phala (fruit — ‘b’ in our case), and the ichchhā (requisition "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- c"
+            },
+            {
+              "type": "text",
+              "content": " in our case). To find the ichchhāphala (yield—‘d’ in our case), Āryabhaṭa says,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.779,
+            0.848,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "“Multiply the phala by the ichchhā and divide the resulting product by the pramāṇa.”"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.175,
+            0.816,
+            0.489,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In other words, Āryabhaṭa says,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.247,
+            0.834,
+            0.775,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "“pramāṇa : phala :: ichchhā : ichchhāphala,” therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.299,
+            0.858,
+            0.721,
+            0.88
+          ],
+          "image_path": "images/page_9_equation_21.jpg",
+          "content": "p r a m { \\bar { a } } n a \\times i c h c h h { \\bar { a } } p h a l a = p h a l a \\times i c h c h h { \\bar { a } } ."
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.078,
+            0.914,
+            0.128,
+            0.938
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.448,
+            0.969,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

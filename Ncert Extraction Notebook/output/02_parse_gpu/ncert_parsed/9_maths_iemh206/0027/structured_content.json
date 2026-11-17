@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.331,
+            0.067,
+            0.666,
+            0.1
+          ],
+          "level": 2,
+          "content": "Learning Material"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.396,
+            0.113,
+            0.605,
+            0.14
+          ],
+          "content": "GRAPH PAPER"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.145,
+            0.888,
+            0.93
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_26_image_2.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.045,
+            0.927,
+            0.078,
+            0.951
+          ],
+          "content": "米"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

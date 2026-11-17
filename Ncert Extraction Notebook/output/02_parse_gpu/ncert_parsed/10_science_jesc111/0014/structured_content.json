@@ -1,0 +1,317 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.085,
+            0.899,
+            0.117
+          ],
+          "content": "**On applying Ohm’s law to the three resistors separately, we further have**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.117,
+            0.896,
+            0.136
+          ],
+          "content": "V _ { _ { \\cal I } } = { \\cal I }   R _ { _ { \\cal I } }\\tag{[11.13(a)]}",
+          "image_source": "images/page_13_equation_1.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.138,
+            0.896,
+            0.157
+          ],
+          "content": "V _ { _ 2 } = I   R _ { _ 2 }\\tag{[11.13(b)]}",
+          "image_source": "images/page_13_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.16,
+            0.455,
+            0.178
+          ],
+          "content": "**and** $V _ { _ 3 } = I   R _ { _ 3 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.811,
+            0.159,
+            0.897,
+            0.176
+          ],
+          "content": "**[11.13(c)]**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.183,
+            0.468,
+            0.2
+          ],
+          "content": "**From Eq. (11.11),**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.204,
+            0.546,
+            0.222
+          ],
+          "content": "IR = IR_{1} + IR_{2} + IR_{3}",
+          "image_source": "images/page_13_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.222,
+            0.335,
+            0.234
+          ],
+          "content": "**or**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.235,
+            0.897,
+            0.254
+          ],
+          "content": "R_{s}=R_{l}+R_{2}+R_{3}\\tag{11.14}",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.276,
+            0.259,
+            0.899,
+            0.31
+          ],
+          "content": "**We can conclude that when several resistors are joined in series, the** resistance of the combination $R _ { s }$ **equals the sum of their individual** resistances**,** $R _ { \\iota } , R _ { \\iota ^ { \\prime } } R _ { \\substack { 3 ^ { \\prime } } }$ **and is thus greater than any individual resistance.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.318,
+            0.454,
+            0.333
+          ],
+          "level": 2,
+          "content": "Example 11.7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.334,
+            0.899,
+            0.4
+          ],
+          "content": "**An electric lamp, whose resistance is 20** Ω**, and a conductor of 4** Ω **resistance are connected to a 6 V battery (Fig. 11.9). Calculate (a) the total resistance of the circuit, (b) the current through the circuit, and (c) the potential difference across the electric lamp and conductor.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.269,
+            0.409,
+            0.712,
+            0.631
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.273,
+                0.639,
+                0.702,
+                0.668
+              ],
+              "content": "Figure 11.9 An electric lamp connected in series with a resistor of 4 Ω to a 6 V battery"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.676,
+            0.401,
+            0.691
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.693,
+            0.677,
+            0.709
+          ],
+          "content": "The resistance of electric lamp, $R _ { \\iota }   = 2 0 \\: \\Omega$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.708,
+            0.844,
+            0.725
+          ],
+          "content": "The resistance of the conductor connected in series, $R _ {   _ { 2 } }   = 4 \\; \\Omega .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.725,
+            0.647,
+            0.741
+          ],
+          "content": "**Then the total resistance in the circuit**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.744,
+            0.425,
+            0.76
+          ],
+          "content": "R_{ 滘 } = R_{_l} + R_{_2}",
+          "image_source": "images/page_13_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.761,
+            0.522,
+            0.777
+          ],
+          "content": "R_{_s} = 20 \\; \\Omega + 4 \\; \\Omega = 24 \\; \\Omega.",
+          "image_source": "images/page_13_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.78,
+            0.898,
+            0.811
+          ],
+          "content": "**The total potential difference across the two terminals of the battery** $V   = 6 \\; \\mathrm { V } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.816,
+            0.854,
+            0.833
+          ],
+          "content": "**Now by Ohm’s law, the current through the circuit is given by**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.835,
+            0.446,
+            0.882
+          ],
+          "content": "\\begin{array} { r c l } { { I } } & { { = } } & { { V / R _ { \\mathrm { s } } } } \\\\ { { } } & { { = } } & { { 6   \\mathrm { V } / 2 4   \\Omega } } \\\\ { { } } & { { = } } & { { 0 . 2 5   \\mathrm { A } . } } \\end{array}",
+          "image_source": "images/page_13_equation_22.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": "184"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": "Science"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

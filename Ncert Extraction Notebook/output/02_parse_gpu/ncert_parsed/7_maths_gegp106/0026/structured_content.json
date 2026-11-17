@@ -1,0 +1,200 @@
+{
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.181,
+            0.086,
+            0.558,
+            0.106
+          ],
+          "content": "(a) After increasing each number by 1:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.421,
+            0.126,
+            0.622,
+            0.244
+          ],
+          "content": "| 9 | 2 | 7 |\n| --- | --- | --- |\n| 4 | 6 | 8 |\n| 5 | 10 | 3 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_table_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.267,
+            0.428,
+            0.286
+          ],
+          "content": "This is still a magic square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.181,
+            0.316,
+            0.499,
+            0.335
+          ],
+          "content": "(b) After Doubling each number:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.418,
+            0.354,
+            0.624,
+            0.471
+          ],
+          "content": "| 16 | 2 | 12 |\n| --- | --- | --- |\n| 6 | 10 | 14 |\n| 8 | 18 | 4 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.493,
+            0.449,
+            0.511
+          ],
+          "content": "This is still a magic square"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.513,
+            0.834,
+            0.554
+          ],
+          "content": "In case (a), magic sum is increased by 3 times that constant. (i.e., 1) In case (b), magic sum is multiplied by that constant. (i.e., 2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.563,
+            0.862,
+            0.603
+          ],
+          "content": "**4. What other operations can be performed on a magic square to yield another magic square?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.606,
+            0.169,
+            0.622
+          ],
+          "content": "**Ans:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.626,
+            0.924,
+            0.668
+          ],
+          "content": "Operations like Addition, subtraction, multiplication and division can be performed on a magic square to yield another magic square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.677,
+            0.924,
+            0.717
+          ],
+          "content": "**5. Discuss ways of creating a magic square using any set of 9 consecutive numbers (like 2 – 10, 3 – 11, 9 – 17, etc.).**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.721,
+            0.169,
+            0.736
+          ],
+          "content": "**Ans:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.74,
+            0.495,
+            0.759
+          ],
+          "content": "Magic square with numbers 1 – 9:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.422,
+            0.779,
+            0.62,
+            0.903
+          ],
+          "content": "| 8 | 1 | 6 |\n| --- | --- | --- |\n| 3 | 5 | 7 |\n| 4 | 9 | 2 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_table_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.515,
+            0.928,
+            0.527,
+            0.941
+          ],
+          "content": "7"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

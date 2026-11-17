@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.582,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Some Geometric Themes"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.429,
+            0.086,
+            0.57,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.429,
+                0.086,
+                0.57,
+                0.193
+              ],
+              "image_path": "images/page_1_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.435,
+                0.198,
+                0.565,
+                0.214
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Sierpinski Carpet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.231,
+            0.847,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Draw the initial few steps (at least till Step 2) of the shape sequence that leads to the Sierpinski Carpet."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.274,
+            0.634,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By its construction, each step in the sequence has"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.197,
+            0.297,
+            0.848,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) squares of the same size that remain in the figure, and the size of these squares becomes smaller and smaller as the step number increases, and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.191,
+            0.358,
+            0.782,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) square holes that are formed by removing square pieces."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.114,
+            0.388,
+            0.845,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Do you see any pattern in the number of holes and squares that remain at each step?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.431,
+            0.845,
+            0.47
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " represent the number of remaining squares at the nth step, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "H _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " represent the number of holes at the nth step."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.468,
+            0.845,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us understand how these numbers grow by analysing how the holes and squares that remain are generated from the previous step."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.506,
+            0.845,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Every square that remains at a given step, say Step n, gives rise to 8 squares that remain at the (n + 1)th step. Thus, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.442,
+            0.546,
+            0.555,
+            0.569
+          ],
+          "image_path": "images/page_1_equation_11.jpg",
+          "content": "R_{n + 1} = 8 R_n"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.575,
+            0.544,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can this be used to get a formula for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { n ^ { \\sharp } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.601,
+            0.245,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.435,
+            0.619,
+            0.576,
+            0.677
+          ],
+          "image_path": "images/page_1_equation_14.jpg",
+          "content": "\\begin{array} { l } R _ { 0 } = 1 \\\\ R _ { 1 } = 8 \\times 1 = 8 \\\\ R _ { 2 } = 8 \\times 8 = 8 ^ { 2 } . \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.153,
+            0.674,
+            0.332,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ n } = 8 _ { _ \\odot } ^ { n }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.111,
+            0.703,
+            0.758,
+            0.726
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, how do we find the number of holes at a given step?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.729,
+            0.846,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Every square that remains at the nth step gives rise to a hole in the (n + 1)th step. All the holes present at the nth step remain in the (n + 1)th step as well. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.152,
+            0.802,
+            0.269,
+            0.821
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.399,
+            0.784,
+            0.712,
+            0.897
+          ],
+          "image_path": "images/page_1_equation_19.jpg",
+          "content": "\\begin{array} { c } { { H _ { _ { n \\; + \\; 1 } } = H _ { _ { n } } + R _ { _ { n } } . } } \\\\ { { } } \\\\ { { R _ { _ { 0 } } = 1 } } \\\\ { { R _ { _ { 1 } } = 8 } } \\\\ { { R _ { _ { 2 } } = 8 ^ { 2 } } } \\\\ { { R _ { _ { 3 } } = 8 ^ { 3 } } } \\end{array} \\begin{array} { c } { { H _ { _ { 0 } } = 0 } } \\\\ { { H _ { _ { 1 } } = 1 } } \\\\ { { H _ { _ { 2 } } = 1 } } \\\\ { { H _ { _ { 3 } } = 1 + 8 } } \\\\ { { H _ { _ { 3 } } = 1 + 8 + 8 ^ { 2 } } } \\end{array}"
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.878,
+            0.913,
+            0.908,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "71"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

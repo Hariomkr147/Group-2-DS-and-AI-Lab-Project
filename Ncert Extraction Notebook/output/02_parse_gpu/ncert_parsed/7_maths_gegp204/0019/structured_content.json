@@ -1,0 +1,285 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.595,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Another Peek Beyond the Point"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.851,
+            0.128
+          ],
+          "content": "**Step 3:** Regroup 1 Tenths as 10 Hundredths. 10 Hundredths $\\div   3 \\rightarrow 3$ Hundredths , and 1 Hundredths remain. 3) 10 (3 333"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.732,
+            0.119,
+            0.879,
+            0.138
+          ],
+          "content": "3) 10 ( 3.333 ..."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.131,
+            0.718,
+            0.209
+          ],
+          "content": "**Step 4:** Regroup 1 Hundredths as 10 Thousandths. 10 Thousandths ÷ 3 3 Thousandths, and 1 Thousandths remain. Regroup 1 Thousandths as 10 TenThousandths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.213,
+            0.717,
+            0.252
+          ],
+          "content": "This never seems to end! Each time we divide by 3, there is a remainder of 1."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.252,
+            0.371,
+            0.271
+          ],
+          "level": 2,
+          "content": "Will this process end?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.735,
+            0.137,
+            0.84,
+            0.285
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.276,
+            0.717,
+            0.315
+          ],
+          "content": "In long division, we see that at each step we get a remainder of 1. So, the process will never end!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.315,
+            0.718,
+            0.354
+          ],
+          "content": "So, 10 ÷ 3 cannot be expressed using a finite number of digits in the decimal form."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.358,
+            0.512,
+            0.377
+          ],
+          "content": "10 \\div 3 = 3.333 \\ldots",
+          "image_source": "images/page_18_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.382,
+            0.847,
+            0.424
+          ],
+          "content": "There are decimal divisions where the quotient never ends! We will explore such numbers in greater detail in a later class."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.431,
+            0.641,
+            0.454
+          ],
+          "level": 2,
+          "content": "Can you find the quotients of 10 ÷ 9, and 100 ÷ 11?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.699,
+            0.436,
+            0.888,
+            0.455
+          ],
+          "content": "7) 1 ( 0.142857142857..."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.457,
+            0.399,
+            0.477
+          ],
+          "content": "Now divide 1 by 7 (1 ÷ 7)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.481,
+            0.294,
+            0.5
+          ],
+          "content": "Will this end?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.505,
+            0.684,
+            0.563
+          ],
+          "content": "Note all the remainders we get. It starts with 1, then 3, then 2, then 6, and so on. Let us represent this as a chain."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.569,
+            0.449,
+            0.67
+          ],
+          "content": "\\begin{array}{l}1 \\xrightarrow{ \\text{1 }} 3 \\xrightarrow{ \\text{2 }} 2 \\xrightarrow{ \\text{3 }} 6 \\xrightarrow{ \\text{4 }} 4 \\xrightarrow{ \\text{5 }} 5 \\\\5 \\xleftarrow{ \\text{3 }} 4 \\xleftarrow{ \\text{4 }} 6 \\xleftarrow{ \\text{1 }} 2 \\xleftarrow{ \\text{2 }} 3 \\xleftarrow{ \\text{1 }} 1 \\\\\\downarrow \\\\1 \\xrightarrow{ \\text{1 }} 3 \\ldots\\end{array}",
+          "image_source": "images/page_18_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.686,
+            0.684,
+            0.725
+          ],
+          "content": "What do you observe? Can you explain why this division never ends?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.725,
+            0.684,
+            0.784
+          ],
+          "content": "Not only do the remainders repeat in a cycle, the digits of the quotient also repeat in a cycle! 0.142857 142857 14…"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.806,
+            0.453,
+            0.829
+          ],
+          "level": 2,
+          "content": "A Magic Number: 142857"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.833,
+            0.685,
+            0.874
+          ],
+          "content": "Let us consider the number 142857 that arose when dividing 1 by 7. Multiply 142857 by numbers from 1 to 6."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.706,
+            0.453,
+            0.863,
+            0.869
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_image_21.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": "85"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

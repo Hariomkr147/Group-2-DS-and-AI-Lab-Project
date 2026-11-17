@@ -1,0 +1,31 @@
+![](images/page_1_image_2.jpg)
+
+Fig. 2.2
+
+What will be the total cost incurred?
+
+Cost of wire fencing along the garden length = 2l × 100 = \`200l
+
+Cost of wooden fencing along the garden width $2w \times 80 = \bar{x}160w$
+
+Cost of sowing seeds throughout the entire garden (depends on the area) = 50 × l × w = \`50lw
+
+Total cost = \` (200l + 160w + 50lw).
+
+Thus, 200l + 160w + 50lw is the algebraic expression for the total cost.
+
+## Think and Reflect
+
+1. Can you identify the terms, variables and coefficients of this algebraic expression?
+
+2. How is it different from the algebraic expression in Example 1?
+
+**Example 3:** A wire of length 20 cm is bent in different ways to form rectangles. For example, we can have a rectangle with length 7 cm and width 3 cm. We can also have one of length 5.5 cm and width 4.5 cm. (Think of a few more ways of forming such rectangles.) Can you write an expression for the area of such rectangles?
+
+If the length of the rectangle is x cm, then the width is (10 – x) cm. The expression for the area of these rectangles is x(10 – x) or $1 0 X - X ^ { 2 } .$
+
+## Think and Reflect
+
+1. Can you identify the terms, variables and coefficients of this algebraic expression?
+
+2. Can you point out any similarity or difference between the algebraic expressions obtained in Examples 1 and 3?

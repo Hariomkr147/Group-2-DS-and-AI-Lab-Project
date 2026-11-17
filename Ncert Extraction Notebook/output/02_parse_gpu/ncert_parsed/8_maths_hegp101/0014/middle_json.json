@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.346,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.088,
+            0.707,
+            0.111
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Perfect Cubes and Consecutive Odd Numbers"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.12,
+            0.848,
+            0.159
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consecutive odd numbers have a role to play with cubes too. Look at the following pattern:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.464,
+            0.161,
+            0.56,
+            0.181
+          ],
+          "image_path": "images/page_13_equation_3.jpg",
+          "content": "1 = 1 = 1 ^ { 3 }"
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.447,
+            0.191,
+            0.576,
+            0.211
+          ],
+          "image_path": "images/page_13_equation_4.jpg",
+          "content": "3+5=8=2^{3}"
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.42,
+            0.221,
+            0.604,
+            0.241
+          ],
+          "image_path": "images/page_13_equation_5.jpg",
+          "content": "7+9+11=27=3^{3}"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.387,
+            0.251,
+            0.638,
+            0.271
+          ],
+          "image_path": "images/page_13_equation_6.jpg",
+          "content": "13+15+17+19=64=4^{3}"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.358,
+            0.281,
+            0.665,
+            0.301
+          ],
+          "image_path": "images/page_13_equation_7.jpg",
+          "content": "21+23+25+27+29=125=5^{3}"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.333,
+            0.311,
+            0.689,
+            0.331
+          ],
+          "image_path": "images/page_13_equation_8.jpg",
+          "content": "31+33+35+37+39+41=216=6^{3}."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.336,
+            0.817,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Later in this series, we get the following set of consecutive numbers:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.251,
+            0.36,
+            0.746,
+            0.38
+          ],
+          "image_path": "images/page_13_equation_10.jpg",
+          "content": "91+93+95+97+99+101+103+105+107+109."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.39,
+            0.735,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can you tell what this sum is without doing the calculation?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.429,
+            0.295,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Cube Roots"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.46,
+            0.352,
+            0.48
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 = 2 ^ { 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.485,
+            0.672,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We call 2 the cube root of 8 and denote this by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\equiv \\sqrt [ 3 ] { 8 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.149,
+            0.509,
+            0.846,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "More generally, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 3 } ,"
+            },
+            {
+              "type": "text",
+              "content": " then x is the cube root of y. This is denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\sqrt[3]{y} . \\mathrm{SO}, \\sqrt[3]{8} = \\sqrt[3]{2^3} = 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.556,
+            0.751,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt[3]{27} = \\sqrt[3]{3^3} = 3"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt[3]{1000} = \\sqrt[3]{10^{3}} = 3;"
+            },
+            {
+              "type": "text",
+              "content": " . In general, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt[3]{n^{3}} = n"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.15,
+            0.578,
+            0.847,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we find out if a number is a cube? Taking inspiration from the case of squares, let us see if we can use prime factorisations."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.111,
+            0.625,
+            0.514,
+            0.648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Let us check if 3375 is a perfect cube."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.369,
+            0.65,
+            0.628,
+            0.669
+          ],
+          "image_path": "images/page_13_equation_19.jpg",
+          "content": "3375 = 3 \\times 3 \\times 3 \\times 5 \\times 5 \\times 5."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.149,
+            0.675,
+            0.847,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can the factors be split into three identical groups? For 3375, we can form three groups of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(3 \\times 5)"
+            },
+            {
+              "type": "text",
+              "content": " . So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.363,
+            0.712,
+            0.658,
+            0.748
+          ],
+          "image_path": "images/page_13_equation_21.jpg",
+          "content": "\\begin{array} { r l } & { 3 3 7 5 = ( 3 \\times 5 ) \\times ( 3 \\times 5 ) \\times ( 3 \\times 5 ) } \\\\ & { \\quad = ( 3 \\times 5 ) ^ { 3 } = 1 5 ^ { 3 } . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.151,
+            0.754,
+            0.831,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another way is to check if the factors can be grouped into triplet(s): "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 3 7 5 = ( \\overline { 3 } \\times \\overline { 3 \\times 3 } ) \\times ( 5 \\times 5 \\times 5 ) = 3 ^ { 3 } \\times 5 ^ { 3 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.152,
+            0.793,
+            0.377,
+            0.812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This means "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt[3]{3375} = 15"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 24,
+          "bbox": [
+            0.112,
+            0.822,
+            0.367,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Is 500 a perfect cube?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.149,
+            0.847,
+            0.847,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "50 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2 \\times 5 \\times 5 \\times 5"
+            },
+            {
+              "type": "text",
+              "content": " . We see that the factors cannot be split into three identical groups. Therefore, 500 is not a perfect cube."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 26,
+          "bbox": [
+            0.086,
+            0.915,
+            0.119,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 4"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 27,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

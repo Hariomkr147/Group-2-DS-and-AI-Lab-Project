@@ -1,0 +1,172 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.166,
+            0.084,
+            0.855,
+            0.293
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.216,
+                0.303,
+                0.807,
+                0.319
+              ],
+              "content": "Figure 12.15 A schematic diagram of one of the common domestic circuits"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.333,
+            0.723,
+            0.437
+          ],
+          "content": "**Figure 12.15 gives a schematic diagram of one of the common domestic circuits. In each separate circuit, different appliances can be connected across the live and neutral wires. Each appliance has a separate switch to ‘ON’/‘OFF’ the flow of current through it. In order that each appliance has equal potential difference, they are connected parallel to each other.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.438,
+            0.724,
+            0.684
+          ],
+          "content": "**Electric fuse is an important component of all domestic circuits. We have already studied the principle and working of a fuse in the previous chapter (see Section 11.7). A fuse in a circuit prevents damage to the appliances and the circuit due to overloading. Overloading can occur when the live wire and the neutral wire come into direct contact. (This occurs when the insulation of wires is damaged or there is a fault in the appliance.) In such a situation, the current in the circuit abruptly increases. This is called short-circuiting. The use of an electric fuse prevents the electric circuit and the appliance from a possible damage by stopping the flow of unduly high electric current. The Joule heating that takes place in the fuse melts it to break the electric circuit. Overloading can also occur due to an accidental hike in the supply voltage. Sometimes overloading is caused by connecting too many appliances to a single socket.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.281,
+            0.703,
+            0.769,
+            0.731
+          ],
+          "level": 2,
+          "content": "Q U E S T I O N S"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.747,
+            0.774,
+            0.779
+          ],
+          "content": "**1. Name two safety measures commonly used in electric circuits and appliances.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.784,
+            0.775,
+            0.83
+          ],
+          "content": "**2. An electric oven of 2 kW power rating is operated in a domestic electric circuit (220 V) that has a current rating of 5 A. What result do you expect? Explain.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.834,
+            0.775,
+            0.866
+          ],
+          "content": "**3. What precaution should be taken to avoid the overloading of domestic electric circuits?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.802,
+            0.755,
+            0.881,
+            0.853
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_8.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1,
+            0.916,
+            0.366,
+            0.931
+          ],
+          "content": "Magnetic Effects of Electric Current"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.878,
+            0.915,
+            0.916,
+            0.93
+          ],
+          "content": "205"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 12.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:58:40Z",
+      "modified_at": "2026-03-24T12:00:59+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

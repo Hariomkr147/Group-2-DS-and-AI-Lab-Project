@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "212"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.148,
+            0.511,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of the lak "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{e}=(2.5 \\times 3) \\mathrm{~km}^{2}=7.5 \\mathrm{~km}^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.175,
+            0.72,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, P (helicopter crashed in the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{lake}) = \\frac{7.5}{40.5} = \\frac{75}{405} = \\frac{5}{27}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.233,
+            0.903,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 12 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects. Jimmy, a trader, will only accept the shirts which are good, but Sujatha, another trader, will only reject the shirts which have major defects. One shirt is drawn at random from the carton. What is the probability that"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.118,
+            0.341,
+            0.405,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) it is acceptable to Jimmy?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.115,
+            0.377,
+            0.412,
+            0.398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) it is acceptable to Sujatha?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.414,
+            0.9,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " One shirt is drawn at random from the carton of 100 shirts. Therefore, there are 100 equally likely outcomes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.118,
+            0.474,
+            0.887,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The number of outcomes favourable (i.e., acceptable) to Jimmy = 88 (Why?) Therefore, P (shirt is acceptable to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{Jimmy})=\\frac{88}{100}=0.88"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.115,
+            0.546,
+            0.833,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) The number of outcomes favourable to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{S\\bar{q}\\bar{q}th\\bar{a}=88+8=96\\quad(Why?)}"
+            },
+            {
+              "type": "text",
+              "content": " So, P (shirt is acceptable to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{Sujatha}) = \\frac{96}{100} = 0.96"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.62,
+            0.901,
+            0.724
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 13 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Two dice, one blue and one grey, are thrown at the same time. Write down all the possible outcomes. What is the probability that the sum of the two numbers appearing on the top of the dice is (i) 8? (ii) 13? (iii) less than or equal to 12?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.739,
+            0.902,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " When the blue die shows ‘1’, the grey die could show any one of the numbers 1, 2, 3, 4, 5, 6. The same is true when the blue die shows "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { * } 2 ^ { , } , ^ { * } 3 ^ { , } , ^ { * } 4 ^ { , } , ^ { * } 5 ^ { , }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } 6 ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . The possible outcomes of the experiment are listed in the table below; the first number in each ordered pair is the number appearing on the blue die and the second number is that on the grey die."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

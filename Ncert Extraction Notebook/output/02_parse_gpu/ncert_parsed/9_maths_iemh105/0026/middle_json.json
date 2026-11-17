@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.451,
+            0.069,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "117"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.148,
+            0.108,
+            0.886,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A circle has "
+            },
+            {
+              "type": "text",
+              "content": "rotational symmetry",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " about its centre, through any angle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.147,
+            0.157,
+            0.886,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Infinitely many circles can be drawn through two given points. The centres of these circles lie on the perpendicular bisector of the line segment joining the two given points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.147,
+            0.229,
+            0.886,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given any three points not on a straight line, a "
+            },
+            {
+              "type": "text",
+              "content": "unique circle",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " can be drawn through them; it is called the "
+            },
+            {
+              "type": "text",
+              "content": "circumcircle",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the triangle whose vertices are the three given points. The centre of this circle is called the "
+            },
+            {
+              "type": "text",
+              "content": "circumcentre",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the three points, lies at the intersection of the perpendicular bisectors of the line segments joining the points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.148,
+            0.361,
+            0.885,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Equal chords subtend equal angles at the centre of the circle. Conversely, if two chords subtend equal angles at the centre, the chords are equal in length."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.147,
+            0.431,
+            0.886,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A line drawn from the centre to the midpoint of a chord is perpendicular to that chord. Conversely, a perpendicular from the centre to a chord bisects it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.147,
+            0.502,
+            0.886,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chords of equal length lie at equal distance from the centre. Conversely, chords that lie at the same distance from the centre are equal in length."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.148,
+            0.573,
+            0.885,
+            0.615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given two unequal chords, the longer chord is closer to the centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.147,
+            0.623,
+            0.887,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The angle subtended by an arc at the centre of a circle is twice the angle it subtends at any point on the remaining part of the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.148,
+            0.694,
+            0.885,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The angle subtended by a diameter at any point on the circle is 90°."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.147,
+            0.744,
+            0.886,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a line segment between two points subtends equal angles at two other points on the same side of the segment, all four points lie on a single circle (i.e., the points are "
+            },
+            {
+              "type": "text",
+              "content": "concyclic",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ")."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.147,
+            0.815,
+            0.887,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A quadrilateral inscribed in a circle is called "
+            },
+            {
+              "type": "text",
+              "content": "cyclic",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". In a cyclic quadrilateral, the sum of opposite pairs of angles is 180°. Conversely, if two opposite angles of a quadrilateral add up to 180°, then it is a cyclic quadrilateral."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

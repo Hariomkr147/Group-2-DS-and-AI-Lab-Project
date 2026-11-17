@@ -1,0 +1,144 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.144,
+            0.085
+          ],
+          "content": "48"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.185,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.108,
+            0.885,
+            0.201
+          ],
+          "content": "1 (that is, p and q are **co-prime**). So, on the number line, among the infinitely many fractions equivalent to ${ \\frac { 1 } { 2 } } \\left( \\mathrm { i . e . } \\right.$ , the fractions ${ \\frac { 1 } { 2 ^ { , } } } ,$ $\\textstyle { \\frac { 2 } { 4 } } , { \\frac { 3 } { 9 } } , { \\frac { 6 } { 1 2 } } , \\ldots , { \\frac { 1 0 1 3 } { 2 0 2 6 } } , \\ldots ) ,$ , we choose $\\frac { 1 } { 2 }$ to represent all of them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.201,
+            0.886,
+            0.279
+          ],
+          "content": "As you will remember from Grades 6 and 7, Brahmagupta also gave rules for addition, subtraction, multiplication, and division of fractions. He noted that these rules also apply to both positive and negative fractions which together constitute the rational numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.282,
+            0.441,
+            0.302
+          ],
+          "content": "Here are the various laws:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.306,
+            0.882,
+            0.341
+          ],
+          "content": "1. **Equality:** Two rational numbers ${ \\frac { a } { b } } \\operatorname { a n d } { \\frac { c } { d } }$ are said to be equal if $ad \\equiv bc.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.341,
+            0.885,
+            0.47
+          ],
+          "content": "2. **Addition and subtraction of two rational numbers**: We first express the two rational numbers as fractions $\\frac{a}{b}$ and $\\frac { \\mathrm { c } } { \\mathrm { b } }$ with the same denominator, b. Then we use the rules $\\frac{a}{b} + \\frac{c}{b} = \\frac{a + c}{b}$ and ${ \\frac { a } { b } } - { \\frac { c } { b } } = { \\frac { a - c } { b } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.485,
+            0.885,
+            0.621
+          ],
+          "content": "3. **Multiplication and division of two rational numbers**: We use the rules $\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}$ provided that $( b \\neq 0 , d \\neq 0 )$ and $\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}$ provided that $( b \\neq 0 ,$ $d \\neq 0 ,   c \\neq 0 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.626,
+            0.886,
+            0.74
+          ],
+          "content": "4. With the arithmetic laws defined as above, addition and multiplication are both commutative (i.e., $\\frac{a}{b} + \\frac{c}{d} = \\frac{c}{d} + \\frac{a}{b}$ and $\\frac{a}{b} \\times \\frac{c}{d} = \\frac{c}{d} \\times \\frac{a}{b}$ , and they follow the law of distributivity: if p, q and r are rational numbers, then $p \\left( q + r \\right) = p q + p r$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.749,
+            0.886,
+            0.886
+          ],
+          "content": "Rational numbers are closed under addition, subtraction, and multiplication; that is, if one adds two rational numbers, or subtracts two rational numbers, or multiplies two rational numbers, a rational number is again obtained. Rational numbers are also closed under division, provided that one does not divide by zero. That is, the quotient of two rational numbers is again a rational number, as long as one does not divide by zero."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

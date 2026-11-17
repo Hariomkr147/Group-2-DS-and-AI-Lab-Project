@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.118,
+            0.072,
+            0.149,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "96"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.071,
+            0.496,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.238,
+            0.112,
+            0.759,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.238,
+                0.112,
+                0.759,
+                0.35
+              ],
+              "image_path": "images/page_11_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.452,
+                0.353,
+                0.548,
+                0.372
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.387,
+            0.884,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Point B can be reached from point A by moving 2 units along the positive x-direction (the run), and 3 units along the positive y-direction (the rise). Hence slope of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{line} = \\frac{\\mathrm{Rise}}{\\mathrm{Run}} = \\frac{3}{2}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.462,
+            0.883,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now consider the same line AB further extended beyond B as shown in Fig. 13.8."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.22,
+            0.513,
+            0.77,
+            0.866
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.22,
+                0.513,
+                0.77,
+                0.866
+              ],
+              "image_path": "images/page_11_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.454,
+            0.871,
+            0.545,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 13.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.451,
+            0.068,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "101"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.108,
+            0.889,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The line joining the centre of a circle and the midpoint of a chord of the circle is perpendicular to the chord."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.136,
+            0.222,
+            0.427,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.136,
+                0.222,
+                0.427,
+                0.435
+              ],
+              "image_path": "images/page_9_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.246,
+                0.441,
+                0.325,
+                0.46
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.454,
+            0.169,
+            0.878,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see why this is true. Draw a circle with centre C (Fig. 5.12). Draw any chord AB. Let M be the midpoint of AB. We must show that CM is perpendicular to AB."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.455,
+            0.27,
+            0.877,
+            0.329
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explanation:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " CAB is an isosceles triangle. AB is the base and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "CA = CB"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{S}0,\\angle \\mathrm{A} = \\angle \\mathrm{B}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.455,
+            0.334,
+            0.877,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "M is the midpoint of AB. So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AM} = \\mathrm{BM}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.455,
+            0.379,
+            0.877,
+            0.462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By the SAS congruence, ∆ CMA is congruent to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  CMB.    SO , \\angle  CMB = \\angle  CMA."
+            },
+            {
+              "type": "text",
+              "content": " But "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle CMB \\pm \\angle CMA = 180^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " (angles on a line)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.455,
+            0.467,
+            0.877,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, both angles are 90°. That is, CM is perpendicular to AB."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.374,
+            0.567,
+            0.622,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 5.3"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.132,
+            0.616,
+            0.885,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Can you explain why the converse to Theorem 4 is true, i.e., why does the perpendicular from the centre of a circle to a chord of the circle bisect the chord?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.165,
+            0.681,
+            0.884,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Use Fig. 5.12. You are told that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle CMA = \\angle CMB = 90^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " . You need to show that AM = BM.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.132,
+            0.727,
+            0.886,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. An isosceles triangle ABC is inscribed in a circle, with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB} = \\mathrm{AC}"
+            },
+            {
+              "type": "text",
+              "content": " Show that the altitude from A to BC passes through the centre of the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.131,
+            0.794,
+            0.886,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Two parallel chords of lengths 6 cm and 8 cm are on opposite sides of the centre of a circle. If the radius of the circle is 5 cm, find the distance between the midpoints of the chords."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

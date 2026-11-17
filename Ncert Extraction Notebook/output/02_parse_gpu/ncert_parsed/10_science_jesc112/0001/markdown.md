@@ -1,0 +1,31 @@
+![](images/page_0_image_1.jpg)
+
+# Magnetic Effects of Electric Current
+
+1064CH13
+
+**n the previous Chapter on ‘Electricity’ we learnt about the heating effects of electric current. What could be the other effects of electric current? We know that an electric current-carrying wire behaves like a magnet. Let us perform the following Activity to reinforce it.**
+
+## Activity 12.1
+
+**Take a straight thick copper wire and place it between the points X and Y in an electric circuit, as shown in Fig. 12.1. The wire XY is kept perpendicular to the plane of paper.**
+
+**Horizontally place a small compass near to this copper wire. See the position of its needle.**
+
+**Pass the current through the circuit by inserting the key into the plug.**
+
+**Observe the change in the position of the compass needle.**
+
+![](images/page_0_image_11.jpg)
+
+Figure 12.1
+
+Compass needle is deflected on passing an electric current through a metallic conductor
+
+**We see that the needle is deflected. What does it mean? It means that the electric current through the copper wire has produced a magnetic effect. Thus we can say that electricity and magnetism are linked to each other. Then, what about the reverse possibility of an electric effect of moving magnets? In this Chapter we will study magnetic fields and such electromagnetic effects. We shall also study about electromagnets which involve the magnetic effect of electric current.**
+
+## Hans Christian Oersted (1777–1851)
+
+**Hans Christian Oersted, one of the leading scientists of the 19**<strong><sup>th</sup></strong> **century, played a crucial role in understanding electromagnetism. In 1820 he accidentally discovered that a compass needle got deflected when an electric current passed through a metallic wire placed nearby. Through this observation Oersted showed that electricity and magnetism were related phenomena. His research later created technologies such as the radio, television and fiber optics. The unit of magnetic field strength is named the oersted in his honor.**
+
+![](images/page_0_image_17.jpg)

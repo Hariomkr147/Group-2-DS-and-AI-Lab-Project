@@ -1,0 +1,172 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.263,
+            0.2,
+            0.279
+          ],
+          "content": "个个个个个个个个个个个个"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.792,
+            0.263,
+            0.999,
+            0.279
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.001,
+            0.998,
+            0.245
+          ],
+          "content": "AREA"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.331,
+            0.515,
+            0.357
+          ],
+          "level": 2,
+          "content": "7.1 Rectangle and Squares"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.376,
+            0.846,
+            0.415
+          ],
+          "level": 2,
+          "content": "？ How many different ways can you divide a square into 4 parts of equal area?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.419,
+            0.846,
+            0.457
+          ],
+          "content": "One can actually think of infinitely many such ways! Consider a division, such as"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.402,
+            0.458,
+            0.595,
+            0.604
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.613,
+            0.448,
+            0.633
+          ],
+          "content": "and alter each part as follows."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.403,
+            0.635,
+            0.595,
+            0.781
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.789,
+            0.847,
+            0.847
+          ],
+          "content": "In each part, the area is compressed along one edge and expanded along another edge. If both the compression and expansion are of the same magnitude, then all 4 parts still have the same area!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.859,
+            0.761,
+            0.898
+          ],
+          "content": "Try to think of different creative ways to divide a square into 4 parts of equal area."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.772,
+            0.849,
+            0.858,
+            0.899
+          ],
+          "content": "Math Talk"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

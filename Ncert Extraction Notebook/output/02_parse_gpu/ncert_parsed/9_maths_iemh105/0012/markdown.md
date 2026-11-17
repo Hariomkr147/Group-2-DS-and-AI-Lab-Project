@@ -1,0 +1,33 @@
+Is this a totally convincing explanation? No, we have only given examples where our guess holds true. A statement may be true on a large number of examples, but it does not mean the statement is true in general. So let us explain why the statement is true.
+
+**Theorem 6:** Chords of a circle having the same length are all at the same distance from the centre of the circle.
+
+Draw the figure (Fig. 5.14).
+
+![](images/page_11_image_5.jpg)
+
+Fig. 5.14
+
+**Given:** Circle with centre C AB = FG; E, H are midpoints of AB, FG respectively.
+
+**To show:** CE = CH.
+
+**Why is this true?** From Theorem 5, CE and CH are the perpendiculars from C to the chords AB and FG respectively.
+
+So, CE and CH are the distances from the centre C to the chords AB and FG respectively.
+
+We shall explain this result in two different ways.
+
+(1) Triangles CAB and CFG are congruent.
+
+CA = CF (both are equal to the radius of the circle). Likewise, CB = CG.
+
+We are given that $\mathrm{AB} = \mathrm{FG}.\ \mathrm{SO},$ , by the SSS congruence, $\Delta \mathrm { C A B } \cong \Delta \mathrm { C F G }$
+
+Hence the altitudes of the congruent triangles are congruent. CE = CH. Therefore, the chords AB and FG are equidistant from the centre C.
+
+(2) Consider triangles CEA and CHF.
+
+From Theorem 5, the perpendicular from the centre bisects the chord.
+
+Hence, E and H are the midpoints of the chords AB and FG respectively.

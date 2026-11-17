@@ -1,0 +1,27 @@
+**Example:** Find the angles of symmetry of the following strip.
+
+![](images/page_15_image_2.jpg)
+
+Solution: Let us rotate the strip in a clockwise direction about its centre.
+
+![](images/page_15_image_4.jpg)
+
+A rotation of 180° results in the figure above. Does this overlap with the original figure.
+
+No. Why?
+
+Another rotation through 180° from this position gives the original shape.
+
+This figure comes back to its original shape only after **one** complete rotation through 360°. So, we say that this figure **does not have rotational symmetry**.
+
+## Rotational Symmetry of Figures with Radial Arms
+
+Consider this figure, a picture with 4 radial arms. How many angles of symmetry does it have? What are they? Note that the angle between adjacent central dotted lines is 90°.
+
+![](images/page_15_image_11.jpg)
+
+Can you change the angles between the radial arms so that the figure still has 4 angles of symmetry? Try drawing it.
+
+To check if the figure drawn indeed has 4 angles of symmetry, you could draw the figure on two different pieces of paper. Cut out the radial arms from one of the papers. Keep the figure on the paper fixed and rotate the cutout to check for rotational symmetry.
+
+How will you modify the figure above so that it has only two angles of symmetry?

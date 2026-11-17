@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Tale of Three Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.085,
+            0.293,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.112,
+            0.847,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Construct triangles for the following measurements where the angle is included between the sides:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.206,
+            0.155,
+            0.409,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) 3 cm, 75°, 7 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.206,
+            0.178,
+            0.409,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) 6 cm, 25°, 3 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.206,
+            0.202,
+            0.419,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) 3 cm, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 0 ^ { \\circ } ,"
+            },
+            {
+              "type": "text",
+              "content": " 8 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.232,
+            0.838,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? We have seen that triangles do not exist for all sets of sidelengths. Is there a combination of measurements in the case of two sides M and the included angle where a triangle is not possible? Justify T your answer using what you observe during construction."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.809,
+            0.252,
+            0.896,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.809,
+                0.252,
+                0.896,
+                0.304
+              ],
+              "image_path": "images/page_15_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.337,
+            0.568,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Angles and the Included Side"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.369,
+            0.849,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this case, we are given two angles and the side that is a part of both angles, which we call the included side. Here are some examples of such measurements:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.155,
+            0.428,
+            0.843,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.155,
+                0.428,
+                0.843,
+                0.575
+              ],
+              "image_path": "images/page_15_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.591,
+            0.8,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Construct a triangle ABC where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } = 5"
+            },
+            {
+              "type": "text",
+              "content": " cm, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{A} = 45^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{B} = 80^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " Let us take the given side as the base."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.404,
+            0.652,
+            0.594,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.404,
+                0.652,
+                0.594,
+                0.757
+              ],
+              "image_path": "images/page_15_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.764,
+            0.557,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw the base AB of length 5 cm."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.783,
+            0.617,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { B }"
+            },
+            {
+              "type": "text",
+              "content": " of measures "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ } ;"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.819,
+            0.617,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The point of intersection of the two new line segments is the third vertex C."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.631,
+            0.722,
+            0.862,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.631,
+                0.722,
+                0.862,
+                0.888
+              ],
+              "image_path": "images/page_15_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.808,
+            0.938,
+            0.845,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "161"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

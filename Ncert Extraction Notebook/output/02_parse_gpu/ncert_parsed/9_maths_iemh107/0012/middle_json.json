@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "166"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.108,
+            0.844,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Suppose you roll a 6-sided die 12 times and get a ‘3’ three times."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.179,
+            0.135,
+            0.8,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) What is the experimental probability of rolling a ‘3’?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.172,
+            0.16,
+            0.773,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) What is the theoretical probability of rolling a ‘3’?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.166,
+            0.184,
+            0.885,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Why might these probabilities be different? What would you expect to happen if you roll the die 60, 600, or 6000 times?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.249,
+            0.797,
+            0.298
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.3 Elements of Probability: Sample Spaces and Events"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.114,
+            0.317,
+            0.357,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.3.1 Sample Space"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.346,
+            0.885,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that the sample space, denoted by S, is the list of all possible outcomes. Each possible outcome is called an element of the sample space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.142,
+            0.39,
+            0.82,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• The sample space S must include "
+            },
+            {
+              "type": "text",
+              "content": "every possible outcome",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.142,
+            0.416,
+            0.686,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• No outcome should be "
+            },
+            {
+              "type": "text",
+              "content": "listed more than once",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.142,
+            0.443,
+            0.884,
+            0.482
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number of elements in the sample space is called the "
+            },
+            {
+              "type": "text",
+              "content": "sample size",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and is denoted by n(S)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.114,
+            0.487,
+            0.425,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Examples of Sample Space"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.131,
+            0.516,
+            0.883,
+            0.557
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. The sample space for whether it rains tomorrow could be S = {Rain, No Rain} and the sample size n(S) = 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.131,
+            0.56,
+            0.883,
+            0.602
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The sample space for a match, i.e., the possible outcomes for a team playing — could be S = {Win, Lose, Draw} and sample size n(S) = 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.132,
+            0.605,
+            0.337,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Tossing a Coin:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.177,
+            0.628,
+            0.618,
+            0.647
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Experiment: Tossing a fair coin once."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.177,
+            0.649,
+            0.64,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Sample Space: S = {Heads (H), Tails (T)}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.178,
+            0.669,
+            0.39,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Sample Size = 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.133,
+            0.697,
+            0.32,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Rolling a Die:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.178,
+            0.721,
+            0.686,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Experiment: Rolling a standard 6-sided die."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.177,
+            0.742,
+            0.571,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Sample Space: S = {1, 2, 3, 4, 5, 6}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.178,
+            0.762,
+            0.388,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Sample Size = 6"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 23,
+          "bbox": [
+            0.133,
+            0.79,
+            0.381,
+            0.808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Tossing Two Coins:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.176,
+            0.813,
+            0.615,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Experiment: Tossing two coins simultaneously."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.176,
+            0.853,
+            0.599,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Sample Space: S = {HH, HT, TH, TT}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.178,
+            0.874,
+            0.39,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Sample Size = 4"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 27,
+          "bbox": [
+            0.628,
+            0.75,
+            0.916,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 27,
+              "bbox": [
+                0.628,
+                0.75,
+                0.916,
+                0.888
+              ],
+              "image_path": "images/page_11_table_27.jpg",
+              "content": "<table><tbody><tr><td>Coin 1</td><td>Coin 2</td><td>Outcome</td></tr><tr><td>H</td><td>H</td><td>HH</td></tr><tr><td>H</td><td>T</td><td>HT</td></tr><tr><td>T</td><td>H</td><td>TH</td></tr><tr><td>T</td><td>T</td><td>TT</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

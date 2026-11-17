@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.136,
+            0.045,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.086,
+            0.77,
+            0.13
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can we say that 16384 (4"
+            },
+            {
+              "type": "text",
+              "content": "7",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ") is 16 (4"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ") times larger than 1,024 (4"
+            },
+            {
+              "type": "text",
+              "content": "5",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ")? Yes, since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { 7 } \\div 4 ^ { 5 } = 4 ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.109,
+            0.132,
+            0.52,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many times larger than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { - 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { 2 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.169,
+            0.726,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Use the power line for 7 to answer the following questions."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.204,
+            0.488,
+            0.538
+          ],
+          "image_path": "images/page_11_equation_4.jpg",
+          "content": "\\begin{array}{l}7^{7} \\quad \\uparrow \\quad 823543 \\quad 2,401 \\times 49 = \\\\7^{6} \\quad \\downarrow \\quad 117649 \\quad 49^{3} = \\\\7^{7} \\quad \\uparrow \\quad 16807 \\quad 343 \\times 2,401 = \\\\7^{3} \\quad \\downarrow \\quad 2401 \\quad 343 \\quad 46,807 = \\\\7^{7} \\quad \\downarrow \\quad 49 \\quad \\downarrow \\quad \\frac{7}{343} = \\\\7^{1} \\quad \\uparrow \\quad 7 \\quad \\frac{1}{3} \\quad 16,807 = \\\\7^{7} \\quad \\uparrow \\quad \\frac{1}{4} \\quad 1 \\quad \\frac{16,807}{8,23,543} = \\\\7^{2} \\quad \\downarrow \\quad \\frac{1}{49} \\quad 1,17,649 \\times \\frac{1}{343} \\\\\\uparrow \\quad \\frac{1}{343} \\quad \\frac{1}{343} \\quad \\frac{1}{343} \\times \\frac{1}{343} = \\\\7 \\quad \\downarrow \\quad \\frac{1}{2401} \\quad \\frac{1}{343} = \\\\\\end{array}"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.559,
+            0.376,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.4 Powers of 10"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.593,
+            0.848,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have used numbers like 10, 100, 1000, and so on when writing Indian numerals in an expanded form. For example,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.228,
+            0.635,
+            0.769,
+            0.655
+          ],
+          "image_path": "images/page_11_equation_7.jpg",
+          "content": "47561 = (4 \\times 10000) + (7 \\times 1000) + (5 \\times 100) + (6 \\times 10) + 1."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.174,
+            0.66,
+            0.583,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can be written using powers of 10 as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.256,
+            0.683,
+            0.741,
+            0.704
+          ],
+          "image_path": "images/page_11_equation_9.jpg",
+          "content": "( 4 \\times 1 0 ^ { 4 } ) + ( 7 \\times 1 0 ^ { 3 } ) + ( 5 \\times 1 0 ^ { 2 } ) + ( 6 \\times 1 0 ^ { 1 } ) + ( 1 \\times 1 0 ^ { 0 } ) ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.113,
+            0.719,
+            0.781,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Write these numbers in the same way: (i) 172, (ii) 5642, (iii) 6374."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.112,
+            0.756,
+            0.424,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ How can we write 561.903?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.192,
+            0.778,
+            0.803,
+            0.808
+          ],
+          "image_path": "images/page_11_equation_12.jpg",
+          "content": "5 \\bar { 6 } \\underline { 1 } \\underline { 9 } \\bar { 0 } \\underline { 3 } = ( 5 \\times 1 0 0 ) + ( 6 \\times 1 0 ) + 1 + ( 9 \\times \\frac { 1 } { 1 0 } ) + ( 0 \\times \\frac { 1 } { 1 0 0 } ) + ( 3 \\times \\frac { 1 } { 1 0 0 0 } ) ."
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.174,
+            0.806,
+            0.557,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Writing it using powers of 10, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.83,
+            0.845,
+            0.851
+          ],
+          "image_path": "images/page_11_equation_14.jpg",
+          "content": "5 6 1 . 9 0 3 = ( 5 \\times 1 0 ^ { 2 } ) + ( 6 \\times 1 0 ^ { 1 } ) + ( 1 \\times 1 0 ^ { 0 } ) + ( 9 \\times 1 0 ^ { - 1 } ) + ( 0 \\times 1 0 ^ { - 2 } ) + ( 3 \\times 1 0 ^ { - 3 } ) ."
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.092,
+            0.923,
+            0.127,
+            0.944
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "30"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

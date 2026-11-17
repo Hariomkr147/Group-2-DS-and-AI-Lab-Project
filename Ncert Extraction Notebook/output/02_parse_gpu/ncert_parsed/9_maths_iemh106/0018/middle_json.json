@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Measuring Space: Perimeter and Area"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "135"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.107,
+            0.884,
+            0.169
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All three sides have length a, so the semi-perimeter is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = \\frac{1}{2}(a + a + a) = \\frac{3}{2}a"
+            },
+            {
+              "type": "text",
+              "content": " units. Heron’s formula now yields,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.207,
+            0.165,
+            0.792,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "area of triangle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{\\frac{3}{2}a\\left(\\frac{1}{2}a\\right)\\left(\\frac{1}{2}a\\right)\\left(\\frac{1}{2}a\\right)}=\\frac{\\sqrt{3}}{4}a^{2}"
+            },
+            {
+              "type": "text",
+              "content": " sq. units"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.222,
+            0.426,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.125,
+                0.222,
+                0.426,
+                0.44
+              ],
+              "image_path": "images/page_17_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.237,
+                0.447,
+                0.316,
+                0.466
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.438,
+            0.223,
+            0.877,
+            0.302
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us check this against the ‘half base times height’ formula. Let h units be the height of the triangle. Then, by the Baudhāyana–Pythagoras theorem,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.448,
+            0.31,
+            0.866,
+            0.356
+          ],
+          "image_path": "images/page_17_equation_7.jpg",
+          "content": "a^{2}-h^{2}=\\frac{a^{2}}{4}, \\quad \\therefore h^{2}=\\frac{3a^{2}}{4}, \\quad \\therefore h=\\frac{\\sqrt{3}}{2}a"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.438,
+            0.365,
+            0.875,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2} \\times \\frac{\\sqrt{3}}{2}a \\times a = \\frac{\\sqrt{3}}{4}a^{2}"
+            },
+            {
+              "type": "text",
+              "content": " sq. units. Same formula!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.487,
+            0.885,
+            0.528
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Notice the symbol "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\therefore"
+            },
+            {
+              "type": "text",
+              "content": " . This symbol is used regularly by mathematicians; it means and is read as ‘therefore’."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.113,
+            0.539,
+            0.883,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " An isosceles triangle with equal sides a units and base 2b units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.114,
+            0.565,
+            0.883,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The semi-perimeter is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}(a + a + 2b) = a + b"
+            },
+            {
+              "type": "text",
+              "content": " units. Heron’s formula now yields,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.134,
+            0.62,
+            0.872,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "area of the triangle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e = \\sqrt{(a + b)(a + b - a)(a + b - a)(a + b - 2b)} = b\\sqrt{a^{2} - b^{2}}"
+            },
+            {
+              "type": "text",
+              "content": " sq. units."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.119,
+            0.671,
+            0.415,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.119,
+                0.671,
+                0.415,
+                0.855
+              ],
+              "image_path": "images/page_17_image_13.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 14,
+              "bbox": [
+                0.232,
+                0.863,
+                0.31,
+                0.881
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.425,
+            0.682,
+            0.877,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us check this against the ‘half base times height’ formula. Let h units be the height of the triangle. Then, by the Baudhāyana–Pythagoras theorem,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.422,
+            0.773,
+            0.877,
+            0.801
+          ],
+          "image_path": "images/page_17_equation_16.jpg",
+          "content": "a^{2}-h^{2}=b^{2},\\quad \\therefore h^{2}=a^{2}-b^{2},h=\\sqrt{a^{2}-b^{2}}."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.426,
+            0.817,
+            0.87,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2} \\times \\sqrt{a^{2} - b^{2}} \\times 2b = b\\sqrt{a^{2} - b^{2}}"
+            },
+            {
+              "type": "text",
+              "content": " sq. units, the same as earlier."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

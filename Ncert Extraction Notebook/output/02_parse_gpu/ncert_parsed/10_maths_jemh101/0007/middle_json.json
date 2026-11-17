@@ -1,0 +1,986 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.229,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REAL NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.885,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.137,
+            0.651,
+            0.17
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, we can find integers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " r "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s \\left( \\neq 0 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "such that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ { \\sqrt { 2 } } = { \\frac { r } { s } } \\right."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.174,
+            0.9,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " r "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " s "
+            },
+            {
+              "type": "text",
+              "content": "have a common factor other than 1. Then, we divide by the common factor to get",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\sqrt { 2 } } = { \\frac { a } { b } }"
+            },
+            {
+              "type": "text",
+              "content": " , where a and b "
+            },
+            {
+              "type": "text",
+              "content": "are coprime.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.238,
+            0.235,
+            0.259
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b   { \\sqrt { 2 } } \\; = a ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.097,
+            0.267,
+            0.868,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Squaring on both sides and rearranging, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 b ^ { 2 } = a ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ". Therefore, 2 divides",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " Now, by Theorem 1.2, it follows that 2 divides a."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.318,
+            0.518,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, we can write",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 2 c"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "for some integer",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " c."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.343,
+            0.598,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting for",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 b ^ { 2 } = 4 c ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } = 2 c ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.097,
+            0.367,
+            0.897,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This means that 2 divides",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ", and so 2 divides",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "(again using Theorem 1.2 with",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { p }   =   2 )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Therefore,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "have at least 2 as a common factor.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.419,
+            0.853,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But this contradicts the fact that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "have no common factors other than 1.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.097,
+            0.448,
+            0.898,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This contradiction has arisen because of our incorrect assumption that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is rational. So, we conclude that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is irrational.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.514,
+            0.494,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5 : Prove that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is irrational.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.543,
+            0.691,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Let us assume, to the contrary, that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is rational.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.578,
+            0.694,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, we can find integers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ( \\neq 0 )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "such that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\lceil { \\sqrt { 3 } } \\right. = { \\frac { a } { b } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.096,
+            0.617,
+            0.9,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "have a common factor other than 1, then we can divide by the common factor, and assume that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "are coprime.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.098,
+            0.664,
+            0.231,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b { \\sqrt { 3 } } = a"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.097,
+            0.693,
+            0.642,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Squaring on both sides, and rearranging, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 b ^ { 2 } = a ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.097,
+            0.718,
+            0.9,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is divisible by 3, and by Theorem 1.2, it follows that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a "
+            },
+            {
+              "type": "text",
+              "content": "is also divisible by 3.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.097,
+            0.763,
+            0.518,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, we can write",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\tilde { a } = 3 c"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "for some integer",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " c."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.097,
+            0.787,
+            0.598,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting for",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 b ^ { 2 } = 9 c ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " , that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } = 3 c ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.096,
+            0.813,
+            0.901,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This means that",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is divisible by 3, and so",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " b "
+            },
+            {
+              "type": "text",
+              "content": "is also divisible by 3 (using Theorem 1.2 with",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 3 )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ".",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.436,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

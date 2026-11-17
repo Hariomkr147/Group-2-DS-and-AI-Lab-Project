@@ -1,0 +1,19 @@
+![](images/page_3_image_1.jpg)
+
+However, it isn’t just changes in materials around us that we see, or the hidden changes in water that we do not see. As we are growing, our bodies are changing as well. Especially around the middle-school years, our bodies are changing rapidly! Why? Not just us humans, there are life processes that are essential to all animals for their survival. To grow, we have to eat and breathe, blood has to circulate the nutrients from the food all over the body and so on. But why animals alone? Don’t plants also need food to grow? How do they get their food? Do they also breathe? How? Over the time that life has evolved
+
+![](images/page_3_image_3.jpg)
+
+on our planet Earth, it has figured out how to do this in a beautiful and carefully balanced way. Ah, but what is time? The clock on the wall or a wrist watch tells us the time and how it passes. We get prepared to go to school in the morning and are ready to sleep at night but have you thought about how we measure time? And how fast does something happen?
+
+Long before the age of electric clocks and digital watches, early humans observed the shadows of objects in the Sun and used the position of the shadows to tell the time. Light and shadows are
+
+![](images/page_3_image_6.jpg)
+
+not just useful for shadow puppets or to tell the time. Naturally, light helps us see and today, we’ve developed a lot of ways to generate light (so we can read a book at night, even when the Sun doesn’t shine). But, more importantly, asking questions about the nature
+
+![](images/page_3_image_8.jpg)
+
+![](images/page_3_image_9.jpg)
+
+![](images/page_3_image_10.jpg)

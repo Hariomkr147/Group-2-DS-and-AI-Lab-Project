@@ -1,0 +1,412 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.048,
+            0.619,
+            0.228,
+            0.708
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.053,
+                0.192,
+                0.22,
+                0.249
+              ],
+              "content": "Fig. 2.21: Experimental set-up having carrot (a) in plain water, and (b) in salt solution"
+            }
+          ],
+          "image_source": "images/page_18_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.049,
+            0.094,
+            0.124,
+            0.167
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.08,
+                0.171,
+                0.094,
+                0.183
+              ],
+              "content": "A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.146,
+            0.092,
+            0.22,
+            0.167
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.183,
+                0.171,
+                0.196,
+                0.182
+              ],
+              "content": "B"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.087,
+            0.89,
+            0.157
+          ],
+          "content": "8. A researcher carried out an experiment in which she took two carrots of similar size. She placed one carrot in plain water and the other carrot in concentrated salt solution (Fig. 2.21). After 24 hours she recorded her observations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.262,
+            0.161,
+            0.869,
+            0.179
+          ],
+          "content": "(i) What hypothesis does she want to test through this experiment?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.257,
+            0.18,
+            0.885,
+            0.199
+          ],
+          "content": "(ii) What would you suggest for the improvement of this experiment?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.253,
+            0.199,
+            0.888,
+            0.235
+          ],
+          "content": "(iii) Why does the carrot in plain water stay stiff and crunchy, but the carrot in concentrated salt solution become rubbery and limp?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.244,
+            0.888,
+            0.279
+          ],
+          "content": "9. Indicate the presence or absence of following structures in bacterial and animal cells:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.26,
+            0.282,
+            0.884,
+            0.424
+          ],
+          "content": "| Structures in a cell | Bacterial cell | Animal cell |\n| --- | --- | --- |\n| Chromosome |  |  |\n| Nucleus |  |  |\n| Mitochondria |  |  |\n| Golgi complex |  |  |\n| Chromoplasts |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_table_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.433,
+            0.58,
+            0.451
+          ],
+          "content": "10. Carry out the following experiment:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.251,
+            0.452,
+            0.888,
+            0.522
+          ],
+          "content": "Take four peeled potato halves and scoop each one out to make potato cups. One of these potato cups should be made from a boiled potato. Place each of the potato cups in a beaker containing water (Fig. 2.22). Now, set up the experiment as follows:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.511,
+            0.128,
+            0.578
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.073,
+                0.578,
+                0.087,
+                0.59
+              ],
+              "content": "A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.145,
+            0.494,
+            0.225,
+            0.578
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.182,
+                0.578,
+                0.194,
+                0.589
+              ],
+              "content": "B"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.255,
+            0.526,
+            0.457,
+            0.544
+          ],
+          "content": "(a) Keep Cup A empty."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.255,
+            0.544,
+            0.587,
+            0.562
+          ],
+          "content": "(b) Add one teaspoon sugar in Cup B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.255,
+            0.562,
+            0.569,
+            0.58
+          ],
+          "content": "(c) Add one teaspoon salt in Cup C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.255,
+            0.58,
+            0.765,
+            0.598
+          ],
+          "content": "(d) Add one teaspoon sugar in the boiled potato in Cup D."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.255,
+            0.599,
+            0.888,
+            0.633
+          ],
+          "content": "Observe the four potato cups at least two hours and answer the following questions:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.262,
+            0.634,
+            0.888,
+            0.669
+          ],
+          "content": "(i) Explain why water gathers in the hollowed portion of Cup B and Cup C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.258,
+            0.671,
+            0.696,
+            0.689
+          ],
+          "content": "(ii) Why is Cup A necessary for this experiment?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.253,
+            0.69,
+            0.89,
+            0.724
+          ],
+          "content": "(iii) Explain why water does not gather in the hollowed portions of Cups A and D."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.055,
+            0.723,
+            0.223,
+            0.753
+          ],
+          "content": "Fig. 2.22: Experimental set-up"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.227,
+            0.726,
+            0.888,
+            0.761
+          ],
+          "content": "11. Identify the pair that incorrectly matches the cell organelle with its function."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.263,
+            0.765,
+            0.568,
+            0.783
+          ],
+          "content": "(i) Ribosome — Protein synthesis"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.257,
+            0.785,
+            0.617,
+            0.803
+          ],
+          "content": "(ii) SER — Lipid and cellulose synthesis"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.253,
+            0.805,
+            0.653,
+            0.823
+          ],
+          "content": "(iii) Lysosome — Digestion of foreign agents"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.827,
+            0.888,
+            0.863
+          ],
+          "content": "12. What outcome do you expect, if all the mitochondria are removed from a eukaryotic cell?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.87,
+            0.888,
+            0.907
+          ],
+          "content": "13. Which phenomenon inhibits the formation of tumors in the human body? Can plants also develop tumors? Explain."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.079,
+            0.943,
+            0.109,
+            0.96
+          ],
+          "content": "26"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.946,
+            0.303,
+            0.963
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-03T19:27:48+05:30",
+      "modified_at": "2026-05-13T10:46:59+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,23 @@
+z Cover the dough with a damp cloth and keep it in a warm place.
+
+z Observe both the bowls after 4–5 hours.
+
+Did you find any change in the volume, smell, or texture of the dough? If not, leave the dough for some more time. After some time, you may notice that the dough in bowl A, where yeast was added, has risen slightly, become fluffy, and has a different smell compared to the dough kneaded without yeast. Why does this happen? What is the role of yeast? Why did we add sugar and warm water to the flour?
+
+Yeast is a type of microorganism. It belongs to a group of microorganisms, called **fungi**. Yeast grows well in warm conditions. You may recall from chapter ‘Life Process in Animals’ in Grade 7 that, like other organisms, yeast also respires and breaks down food to release energy for their growth and carry out life processes. During this process, carbon dioxide is released, which forms bubbles that makes the dough soft and fluffy. Yeast also produces a small amount of alcohol during this process, which gives the dough a slightly different smell. This special property of yeast is used in the process of making breads, cakes, and more! In addition to yeast, some bacteria, such as Lactobacillus, help in fermentation of batter for making idli and dosa, and dough for making bhatura.
+
+## Activity 2.9: Let us prepare
+
+z Take two small glass bowls—label them ‘A’ and ‘B’.
+
+z Pour lukewarm milk in bowl A, and cold milk in bowl B.
+
+z Now, add a small spoonful of curd to each bowl and mix well using a spoon.
+
+z Cover both bowls. Keep bowl A in a warm place and bowl B in a cool place (like a refrigerator) for a few hours or overnight.
+
+z Observe the changes in the glass bowls. Write your predictions and observations in Table 2.4.
+
+**Table 2.4: Testing for curd for**<strong><u>mation using milk in</u></strong> **different conditions**
+
+<table><tr><td rowspan=2></td><td colspan=2>Change in theappearance of milk</td><td colspan=2>Change in thecolour of milk</td><td rowspan=2>Possiblereason</td></tr><tr><td>Bowl A</td><td>Bowl B</td><td>Bowl A</td><td>Bowl B</td></tr><tr><td>Prediction</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Observation</td><td></td><td></td><td></td><td></td><td></td></tr></table>

@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "A Tale of Three Intersecting Lines"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.31,
+            0.086,
+            0.695,
+            0.211
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.229,
+            0.828,
+            0.267
+          ],
+          "content": "The blue line is the line with the least rightward bend that doesn’t meet the line $\\bar { \\mathcal { C } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.272,
+            0.846,
+            0.309
+          ],
+          "content": "Visually, it is clear that the line that creates the smallest $\\angle \\mathrm { B }$ has to be the one parallel to l. Let us call this parallel line m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.309,
+            0.676,
+            0.328
+          ],
+          "content": "Can you tell the actual value of ∠B be in this case?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.328,
+            0.561,
+            0.346
+          ],
+          "content": "[**Hint:** Note that AB is the transversal.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.346,
+            0.846,
+            0.383
+          ],
+          "content": "We have seen that when two lines are parallel, the internal angles on the same side of the transversal add up to $1 8 0 ^ { \\circ }$ . So $\\angle \\mathrm{B} = 140^{\\circ}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.383,
+            0.846,
+            0.42
+          ],
+          "content": "So, for what values of $\\angle \\mathrm { B } ,$ does a triangle not exist? Does the length AB play any part here?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.419,
+            0.848,
+            0.477
+          ],
+          "content": "From the discussion above, it can be seen that the length AB does not play any part in deciding the existence of a triangle. We can say that a triangle does not exist when $\\angle \\mathrm { B }$ is greater than or equal to $1 4 0 ^ { \\circ }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.483,
+            0.294,
+            0.507
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.509,
+            0.848,
+            0.567
+          ],
+          "content": "1. For each of the following angles, find another angle for which a triangle is (a) possible, (b) not possible. Find at least two different angles for each category:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.57,
+            0.293,
+            0.59
+          ],
+          "content": "(a) $3 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.594,
+            0.293,
+            0.614
+          ],
+          "content": "(b) $7 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.618,
+            0.293,
+            0.638
+          ],
+          "content": "(c) $5 4 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.643,
+            0.304,
+            0.662
+          ],
+          "content": "(d) $1 4 4 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.667,
+            0.848,
+            0.802
+          ],
+          "content": "2. Determine which of the following pairs can be the angles of a triangle and which cannot: (a) $3 5 ^ { \\circ } , 1 5 0 ^ { \\circ }$ (b) $70^{\\circ},30^{\\circ}$ (c) $90^{\\circ} , 85^{\\circ}$ (d) $5 0 ^ { \\circ } , 1 5 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.81,
+            0.846,
+            0.851
+          ],
+          "content": "？ Like the triangle inequality, can you form a rule that describes the two angles for which a triangle is possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.859,
+            0.751,
+            0.881
+          ],
+          "content": "Can the sum of the two angles be used for framing this rule?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.806,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

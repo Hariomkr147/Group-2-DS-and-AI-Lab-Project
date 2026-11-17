@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.815,
+            0.05,
+            0.861,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.087,
+            0.682,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What can we say about the lengths of AB and its reflection "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B ^ { \\prime } } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.13,
+            0.447,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm{AXB} \\cong \\Delta \\mathrm{AXB}', \\Delta \\mathrm{B} = \\mathrm{AB}'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.155,
+            0.341,
+            0.174
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AC} = \\mathrm{AC}'"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.178,
+            0.682,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the length of the path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B } \\to \\mathrm { A } \\to \\mathrm { C }"
+            },
+            {
+              "type": "text",
+              "content": " is the same as the length of the path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { \\mathsf { B } } }   \\xrightarrow { }   \\mathsf { A }   \\xrightarrow { }   \\mathsf { C } ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.178,
+            0.228,
+            0.43,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.178,
+                0.228,
+                0.43,
+                0.441
+              ],
+              "image_path": "images/page_9_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.691,
+            0.068,
+            0.891,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.691,
+                0.068,
+                0.891,
+                0.282
+              ],
+              "image_path": "images/page_9_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.455,
+            0.315,
+            0.836,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is true no matter where point A is on line l."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.46,
+            0.681,
+            0.517
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, finding point A that gives the shortest possible path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B \\rightarrow } \\mathrm { A \\rightarrow } \\mathrm { C }"
+            },
+            {
+              "type": "text",
+              "content": " is the same as finding a point A that gives the shortest possible path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{B} \\to \\mathrm{A} \\to \\mathrm{C}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.516,
+            0.68,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But the solution to the latter problem is clear — choose A on the straight line "
+            },
+            {
+              "type": "equation_inline",
+              "content": "$\\mathrm { B } \\mathbb { C } \\mathrm {  勺  } ,$"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { ~ B C ~ } _ { 1 } ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " is the shortest possible path from B to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathsf { C } ^ { \\prime }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.696,
+            0.395,
+            0.891,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.696,
+                0.395,
+                0.891,
+                0.607
+              ],
+              "image_path": "images/page_9_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.571,
+            0.679,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, this triangle ∆ABC has the minimum perimeter."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.114,
+            0.618,
+            0.729,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Analyse whether A lies on the perpendicular bisector of BC."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.114,
+            0.654,
+            0.294,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.815,
+            0.61,
+            0.902,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.815,
+                0.61,
+                0.902,
+                0.666
+              ],
+              "image_path": "images/page_9_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.152,
+            0.679,
+            0.584,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the areas of the following triangles:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.152,
+            0.74,
+            0.36,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.152,
+                0.74,
+                0.36,
+                0.886
+              ],
+              "image_path": "images/page_9_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 17,
+              "bbox": [
+                0.235,
+                0.887,
+                0.255,
+                0.902
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(i)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.389,
+            0.736,
+            0.639,
+            0.885
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.389,
+                0.736,
+                0.639,
+                0.885
+              ],
+              "image_path": "images/page_9_image_18.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 19,
+              "bbox": [
+                0.502,
+                0.887,
+                0.527,
+                0.903
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(ii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.647,
+            0.709,
+            0.842,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.647,
+                0.709,
+                0.842,
+                0.886
+              ],
+              "image_path": "images/page_9_image_20.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 21,
+              "bbox": [
+                0.747,
+                0.887,
+                0.777,
+                0.902
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iii)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.871,
+            0.913,
+            0.916,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "157"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

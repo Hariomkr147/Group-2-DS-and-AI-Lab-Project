@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.69,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "A Square and A Cube"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.085,
+            0.585,
+            0.109
+          ],
+          "content": "Write the locker numbers that remain open."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.128,
+            0.83,
+            0.186
+          ],
+          "content": "Khoisnam immediately collects word clues from these 10 lockers and reads, “The passcode consists of the first five locker numbers that were touched exactly twice.”"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.195,
+            0.455,
+            0.217
+          ],
+          "level": 2,
+          "content": "Which are these five lockers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.22,
+            0.829,
+            0.277
+          ],
+          "content": "The lockers that are toggled twice are the prime numbers, since each prime number has 1 and the number itself as factors. So, the code is 2-3-5-7-11."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.302,
+            0.435,
+            0.327
+          ],
+          "level": 2,
+          "content": "1.1 Square Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.335,
+            0.849,
+            0.411
+          ],
+          "content": "Why are the numbers, 1, 4, 9, 16, …, called squares? We know that the number of unit squares in a square (the area of a square) is the product of its sides. The table below gives the areas of squares with different sides."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.188,
+            0.421,
+            0.846,
+            0.671
+          ],
+          "content": "| Sidelength | Area |\n| --- | --- |\n| (in units) | (in sq units) |\n| 1 | 1 × 1 = 1 sq. unit |\n| 2 | 2 × 2 = 4 sq. units |\n| 3 | 3 × 3 = 9 sq. units |\n| 4 | 4 × 4 = 16 sq. units |\n| 5 | 5 × 5 = 25 sq. units |\n| 10 | 10 × 10 = 100 sq. units |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.684,
+            0.567,
+            0.705
+          ],
+          "content": "We use the following notation for squares."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434,
+            0.704,
+            0.56,
+            0.722
+          ],
+          "content": "1 \\times 1 = 1 ^ { 2 } = 1",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434,
+            0.722,
+            0.562,
+            0.74
+          ],
+          "content": "2 \\times 2 = 2^{2} = 4",
+          "image_source": "images/page_2_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434,
+            0.74,
+            0.565,
+            0.758
+          ],
+          "content": "3 \\times 3 = 3 ^ { 2 } = 9 ,",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.435,
+            0.758,
+            0.573,
+            0.776
+          ],
+          "content": "4 \\times 4 = 4 ^ { 2 } = 1 6",
+          "image_source": "images/page_2_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.435,
+            0.776,
+            0.576,
+            0.796
+          ],
+          "content": "5 \\times 5 = 5^{2} = 25.",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.817,
+            0.846,
+            0.839
+          ],
+          "content": "In general, for any number n, we write $n \\times n = n ^ { 2 } ,$ , which is read as ‛n squared’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.838,
+            0.639,
+            0.86
+          ],
+          "content": "Can we have a square of sidelength $\\frac{3}{5}$ or 2.5 units?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.861,
+            0.689,
+            0.888
+          ],
+          "content": "Yes, there area in square units are $( \\frac { 3 } { 5 } ) ^ { 2 } = ( \\frac { 3 } { 5 } ) \\times ( \\frac { 3 } { 5 } ) = ( \\frac { 9 } { 2 5 } ) ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.89,
+            0.443,
+            0.912
+          ],
+          "content": "and $(2.5)^{2} = (2.5) \\times (2.5) = 6.25.$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.915,
+            0.906,
+            0.937
+          ],
+          "content": "3"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

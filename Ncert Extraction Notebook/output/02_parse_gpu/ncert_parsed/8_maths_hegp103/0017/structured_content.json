@@ -1,0 +1,159 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.088,
+            0.472,
+            0.108
+          ],
+          "level": 2,
+          "content": "Advantages of a Base-n System"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.114,
+            0.848,
+            0.172
+          ],
+          "content": "What is the advantage of having landmark numbers that are all the powers of a number? To understand this, let us perform some arithmetic operations using them."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.181,
+            0.626,
+            0.203
+          ],
+          "level": 2,
+          "content": "？ Example: Add the following Egyptian numerals:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.338,
+            0.209,
+            0.661,
+            0.443
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.462,
+            0.847,
+            0.502
+          ],
+          "content": "Let us find the total number of | and and group them starting from the largest possible landmark number. It has a total of—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.427,
+            0.504,
+            0.553,
+            0.525
+          ],
+          "content": "15 and 15"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.529,
+            0.847,
+            0.566
+          ],
+          "content": "Since 10 gives the next landmark number , the sum can be regrouped as—"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.312,
+            0.561,
+            0.629,
+            0.764
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_8.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.083,
+            0.915,
+            0.121,
+            0.936
+          ],
+          "content": "64"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

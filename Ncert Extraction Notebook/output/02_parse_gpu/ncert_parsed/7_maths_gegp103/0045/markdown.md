@@ -1,0 +1,5 @@
+<table><tbody><tr><td>f</td><td>1500</td><td>-</td><td>-</td><td>-</td><td></td><td>5</td><td>-</td><td>1500= 0.05</td><td>Zero point zero five (or five hundredths)</td></tr><tr><td>g</td><td>110</td><td>-</td><td>-</td><td>-</td><td>1</td><td>-</td><td>-</td><td>110= 0.1</td><td>Zero point one (or one tenth)</td></tr><tr><td rowspan="2">h</td><td rowspan="2">2110, 4110,and 710700</td><td rowspan="2"></td><td rowspan="2">-</td><td rowspan="2">247</td><td rowspan="2">01-</td><td rowspan="2">1--</td><td rowspan="2">--7</td><td>2.014+ 1 =4.1107+ 0 + 0 + 710 100 1000= 7.007</td><td>Two point zero one and Four point one and Seven point zero zero seven</td></tr><tr><td>13.117</td><td>Thirteen point one one seven.</td></tr></tbody></table>
+
+**Page No. 64**
+
+？ **Write these quantities in decimal form: (a) 234 hundredths Ans:** 2.34 **(b) 105 tenths. Ans:** 10.5

@@ -1,0 +1,25 @@
+# Exercise Set 5.1
+
+1. Draw ΔABC with AB = 5 cm, $\angle \mathrm{A} = 70^{\circ}$ and $\angle \mathrm{B} = 60^{\circ}$ . Draw the circumcircle of ΔABC. Is the centre inside or outside the triangle?
+
+2. Draw ΔABC with AB = 5 cm, $\angle \mathrm{A} = 100^{\circ}$ , AC = 4 cm. Draw the circumcircle of $\Delta \mathrm { A B C } .$ Is the centre inside or outside the triangle?
+
+3. Draw ΔABC, with AB = 6 cm, BC = 7 cm and CA = 7 cm. Draw the circumcircle of ΔABC. Let the circumcentre be O. Measure OA, OB, OC.
+
+4. What is the least possible radius of a circle through two points A and B?
+
+## Think, Draw and Infer
+
+1. A, B and C are three collinear points. Can you find a point P such that PA = PB = PC ? What can you say about the perpendicular bisectors of AB and BC? Draw and check. Can you show that for three collinear points A, B and C, the perpendicular bisector of AB and BC are parallel? Is it possible for a circle to pass through collinear points? Can you draw a line that cuts a given circle in three distinct points?
+
+2. The circumcircle of a given ΔABC is drawn. Can there be other triangles congruent to ΔABC that share the same circumcircle?
+
+## 5.4 Chords and the Angles They Subtend
+
+You may want to know when 4 points lie on the same circle. That will have to wait till the end of this chapter. We need to do some more work to get there.
+
+![](images/page_6_image_12.jpg)
+
+Fig. 5.8: Chords and radii
+
+Tie a thread at two points on a wheel; pull it tight (Fig. 5.8). The thread can be thought of as a chord of the wheel (a circle). Imagine joining the end points of the thread to the centre. The thread subtends an angle at the centre. Now, rotate the wheel. The thread rotates around the centre along with the wheel.

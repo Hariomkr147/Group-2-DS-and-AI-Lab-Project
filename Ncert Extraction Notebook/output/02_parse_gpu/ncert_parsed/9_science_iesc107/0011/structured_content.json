@@ -1,0 +1,436 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.024,
+            0.07,
+            0.085,
+            0.133
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.085,
+            0.088,
+            0.212,
+            0.124
+          ],
+          "content": "**Ready to Go Beyond**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.055,
+            0.134,
+            0.147,
+            0.15
+          ],
+          "content": "Expression"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.053,
+            0.147,
+            0.204,
+            0.394
+          ],
+          "continues_prev": true,
+          "content": "(Eq. 7.8) for the potential energy of an object at height h is valid only near the Earth’s surface. Further away from the Earth’s surface, the gravitational acceleration g decreases. You will learn about the gravitational potential energy of objects far from"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.055,
+            0.394,
+            0.132,
+            0.441
+          ],
+          "content": "the Earth in higher grades."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.143,
+            0.398,
+            0.197,
+            0.436
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.161,
+            0.515,
+            0.218,
+            0.531
+          ],
+          "content": "\\mathrm { ~ \\textit ~ { ~ A ~ } ~ } t = 0",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.048,
+            0.536,
+            0.214,
+            0.756
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.061,
+                0.761,
+                0.202,
+                0.805
+              ],
+              "content": "Fig. 7.19 An object falling freely due to gravity"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.087,
+            0.889,
+            0.156
+          ],
+          "content": "**Example 7.7:** After taking a catch, a fielder threw the cricket ball of mass 200 g high up in the air about 10 m above the ground in celebration. How much potential energy does the ball have when the ball reaches its maximum height? Assume $g = 10    m     s ^{-2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.159,
+            0.859,
+            0.178
+          ],
+          "content": "**Answer:** Using Eq. (7.8), the potential energy of the ball will be equal to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.255,
+            0.179,
+            0.572,
+            0.198
+          ],
+          "content": "mgh = 0.2    kg  \\times 10    m     s ^{-2} \\times 10    m  = 20    J",
+          "image_source": "images/page_10_equation_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.248,
+            0.204,
+            0.308,
+            0.235
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.312,
+            0.209,
+            0.504,
+            0.229
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.248,
+            0.24,
+            0.87,
+            0.289
+          ],
+          "content": "6. Does the potential energy of an object near the surface of the Earth change if it moves with constant velocity in the horizontal direction? What if the object is gradually raised in the vertical direction?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.228,
+            0.303,
+            0.287,
+            0.37
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.301,
+            0.318,
+            0.51,
+            0.337
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.286,
+            0.346,
+            0.875,
+            0.426
+          ],
+          "content": "Work done on a system against its internal forces, such as gravitational, electric or magnetic forces, can result in a gain of the potential energy of the system. But this is not true for all internal forces. For example, Next work done against friction does not lead to a storage of energy. Level Up You will learn how to identify such forces in higher grades."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.819,
+            0.38,
+            0.869,
+            0.418
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_18.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.224,
+            0.448,
+            0.665,
+            0.467
+          ],
+          "level": 2,
+          "content": "7.4.3 Conservation of mechanical energy"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.47,
+            0.889,
+            0.522
+          ],
+          "content": "The sum of the kinetic energy and the potential energy of the object is called its **mechanical energy**. Let us find the mechanical energy of an object at different points as it falls freely due to the gravitational force."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.524,
+            0.889,
+            0.576
+          ],
+          "content": "Once again, consider an object with mass m which has been lifted to a Point A at height h and dropped (Fig. 7.19). Its initial velocity u is equal to zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.578,
+            0.581,
+            0.597
+          ],
+          "content": "Thus, at point A (using Eqs. 7.6 and 7.8):"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.6,
+            0.692,
+            0.618
+          ],
+          "content": "\\mathrm { p o t e n t i a l \\; e n e r g y \\; o f \\; t h e \\; o b j e c t = m g h }",
+          "image_source": "images/page_10_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.6,
+            0.886,
+            0.639
+          ],
+          "content": "kinetic energy of the object = 0\\tag{7.9a}",
+          "image_source": "images/page_10_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.835,
+            0.621,
+            0.885,
+            0.637
+          ],
+          "content": "(7.9b)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.641,
+            0.886,
+            0.659
+          ],
+          "content": "\\mathrm{mechanism\\ energy}=0+mgh=mgh\\tag{7.9c}",
+          "image_source": "images/page_10_equation_26.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.661,
+            0.889,
+            0.731
+          ],
+          "content": "As the object falls due to the gravitational force (mg) for a time t till point B, its velocity increases to a value v. You can find the velocity v of the object and the height $h ^ { \\prime }$ of point B from ground by using the kinematic equations (Use acceleration a to be equal to the acceleration due to gravity $g )$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.459,
+            0.733,
+            0.656,
+            0.751
+          ],
+          "content": "v = u + g t = 0 + g t = g t",
+          "image_source": "images/page_10_equation_28.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.75,
+            0.779,
+            0.789
+          ],
+          "content": "s = u t + \\frac{1}{2} g t^2 \\rightarrow h - h' = 0 + \\frac{1}{2} g t^2 \\rightarrow h' = h - \\frac{1}{2} g t^2",
+          "image_source": "images/page_10_equation_29.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.793,
+            0.375,
+            0.811
+          ],
+          "content": "Thus, at point B:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.256,
+            0.815,
+            0.886,
+            0.848
+          ],
+          "content": "potential energy of the object  = mgh' = mgh - \\frac{1}{2}mg^2t^2\\tag{7.10a}",
+          "image_source": "images/page_10_equation_31.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.258,
+            0.849,
+            0.886,
+            0.883
+          ],
+          "content": "kinetic energy of the object  = \\frac{1}{2}mv^{2} = \\frac{1}{2}mg^{2}t^{2}\\tag{7.10b}",
+          "image_source": "images/page_10_equation_32.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.258,
+            0.887,
+            0.886,
+            0.922
+          ],
+          "content": "\\mathrm{mechanism\\ energy} = mgh - \\frac{1}{2}mg^{2}t^{2} + \\frac{1}{2}mg^{2}t^{2} = mgh\\tag{7.10c}",
+          "image_source": "images/page_10_equation_33.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.942,
+            0.115,
+            0.96
+          ],
+          "content": "126"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,253 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.085,
+            0.721,
+            0.136
+          ],
+          "content": "**used for removing the gangue from the ore are based on the differences between the physical or chemical properties of the gangue and the ore. Different separation techniques are accordingly employed.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.149,
+            0.617,
+            0.169
+          ],
+          "level": 2,
+          "content": "3.4.3 Extracting Metals Low in the Activity Series"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.178,
+            0.723,
+            0.259
+          ],
+          "content": "**Metals low in the activity series are very unreactive. The oxides of these metals can be reduced to metals by heating alone. For example, cinnabar (HgS) is an ore of mercury. When it is heated in air, it is first converted into mercuric oxide (HgO). Mercuric oxide is then reduced to mercury on further heating.**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.263,
+            0.514,
+            0.285
+          ],
+          "content": "2HgS(s)  +  3O _2 (g)  \\xrightarrow{\\quad  Heat \\quad}  2HgO(s)  +  2SO _2 (g)",
+          "image_source": "images/page_14_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.291,
+            0.397,
+            0.311
+          ],
+          "content": "2HgO(s)  \\xrightarrow{\\  Heat \\  }  2Hg(l)  +  O _{2}(g)",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.313,
+            0.721,
+            0.347
+          ],
+          "content": "Similarly, copper which is found as $\\mathbf { C u } _ { 2 } \\mathbf { S }$ **in nature can be obtained from its ore by just heating in air.**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.354,
+            0.504,
+            0.4
+          ],
+          "content": "\\begin{aligned} &2 Cu _2 S  + 3 O _2 (\\underline{ g }) \\xrightarrow{\\quad  Heat  \\quad} 2 Cu _2 O(s)  + 2 SO _2 (\\underline{ g })\\\\ &2 Cu _2 O  +  Cu _2 S  \\xrightarrow{\\quad  Heat  \\quad} 6 Cu(s)  +  SO _2 (\\underline{ g })\\\\ \\end{aligned}",
+          "image_source": "images/page_14_equation_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.417,
+            0.718,
+            0.437
+          ],
+          "level": 2,
+          "content": "3.4.4 Extracting Metals in the Middle of the Activity Series"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.446,
+            0.723,
+            0.623
+          ],
+          "content": "**The metals in the middle of the activity series such as iron, zinc, lead, copper, are moderately reactive. These are usually present as sulphides or carbonates in nature. It is easier to obtain a metal from its oxide, as compared to its sulphides and carbonates. Therefore, prior to reduction, the metal sulphides and carbonates must be converted into metal oxides. The sulphide ores are converted into oxides by heating strongly in the presence of excess air. This process is known as roasting. The carbonate ores are changed into oxides by heating strongly in limited air. This process is known as calcination. The chemical reaction that takes place during roasting and calcination of zinc ores can be shown as follows –**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.623,
+            0.186,
+            0.639
+          ],
+          "content": "**Roasting**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.132,
+            0.643,
+            0.505,
+            0.664
+          ],
+          "content": "2ZnS(s)  +  3O _2 (g)  \\xrightarrow{\\  Heat \\  }  2ZnO(s)  +  2SO _2 (g)",
+          "image_source": "images/page_14_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.666,
+            0.207,
+            0.682
+          ],
+          "content": "**Calcination**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.132,
+            0.687,
+            0.424,
+            0.707
+          ],
+          "content": "\\mathrm{ZnCO_{3}(s) \\xrightarrow{Heat} ZnO(s) + CO_{2}(g)}",
+          "image_source": "images/page_14_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.71,
+            0.723,
+            0.758
+          ],
+          "content": "**The metal oxides are then reduced to the corresponding metals by using suitable reducing agents such as carbon. For example, when zinc oxide is heated with carbon, it is reduced to metallic zinc.**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.129,
+            0.765,
+            0.393,
+            0.782
+          ],
+          "content": "\\mathrm{ZnO(s)+C(s) \\rightarrow Zn(s)+CO(g)}",
+          "image_source": "images/page_14_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.789,
+            0.722,
+            0.837
+          ],
+          "content": "**You are already familiar with the process of oxidation and reduction explained in the first Chapter. Obtaining metals from their compounds is also a reduction process.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.838,
+            0.723,
+            0.887
+          ],
+          "content": "**Besides using carbon (coke) to reduce metal oxides to metals, sometimes displacement reactions can also be used. The highly reactive metals such as sodium, calcium, aluminium, etc., are used as reducing**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.099,
+            0.916,
+            0.27,
+            0.93
+          ],
+          "content": "Metals and Non-metals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.916,
+            0.91,
+            0.93
+          ],
+          "content": "51"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 3.pmd",
+      "authors": [
+        "dtpcell5"
+      ],
+      "created_at": "2017-12-21T14:20:56Z",
+      "modified_at": "2026-03-24T12:00:48+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 21,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

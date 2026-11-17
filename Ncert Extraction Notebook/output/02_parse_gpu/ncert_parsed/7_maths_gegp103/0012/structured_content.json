@@ -1,0 +1,209 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.645,
+            0.047,
+            0.847,
+            0.063
+          ],
+          "content": "A Peek Beyond the Point"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.085,
+            0.494,
+            0.109
+          ],
+          "level": 2,
+          "content": "Are both these methods different?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.127,
+            0.775,
+            0.167
+          ],
+          "content": "? Observe the addition done below for 483 + 268. Do you see any similarities between the methods shown above?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.119,
+            0.906,
+            0.172
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.176,
+            0.655,
+            0.287
+          ],
+          "content": "\\begin{array} { r l } & { \\quad ( 4 0 0 + 8 0 + 3 ) + ( 2 0 0 + 6 0 + 8 ) } \\\\ & { = ( 4 0 0 + 2 0 0 ) + ( 8 0 + 6 0 ) + ( 3 + 8 ) } \\\\ & { = 6 0 0 + 1 4 0 + 1 1 } \\\\ & { = 6 0 0 + 1 5 0 + 1 } \\\\ & { = 7 0 0 + 5 0 + 1 } \\\\ & { = 7 5 1 } \\end{array}",
+          "image_source": "images/page_11_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.289,
+            0.849,
+            0.335
+          ],
+          "content": "One can also find the sum 15 $\\frac{3}{10}   \\frac{4}{100}   +   2   \\frac{6}{10}   \\frac{8}{100}$ by converting to hundredths, as follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.184,
+            0.351,
+            0.215,
+            0.37
+          ],
+          "content": "(c)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.226,
+            0.34,
+            0.441,
+            0.499
+          ],
+          "content": "\\begin{aligned} &\\begin{aligned}\\\\ &\\left(15 + 2\\right) + \\left(\\frac{34}{100} + \\frac{68}{100}\\right) \\\\&= 17 + \\frac{102}{100} \\\\&= 17 + 1 + \\frac{2}{100} \\\\&= 18   \\frac{2}{100}\\\\ &\\end{aligned}\\\\ \\end{aligned}",
+          "image_source": "images/page_11_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.589,
+            0.416,
+            0.73,
+            0.449
+          ],
+          "content": "100 hundredths is same as 1 unit."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.184,
+            0.507,
+            0.373,
+            0.666
+          ],
+          "content": "\\begin{aligned} (d)  \\quad & \\left(\\frac{1534}{100}\\right) + \\left(\\frac{268}{100}\\right) \\\\& = \\frac{1802}{100} \\\\& = \\frac{1800}{100} + \\frac{2}{100} \\\\& = 18 \\frac{2}{100}\\end{aligned}",
+          "image_source": "images/page_11_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.583,
+            0.549,
+            0.734,
+            0.61
+          ],
+          "content": "15 is the same as 1500 hundredths and 2 is the same as 200 hundredths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.682,
+            0.564,
+            0.718
+          ],
+          "content": "What is the difference: 25 $\\frac { 9 } { 1 0 }   -   6   \\frac { 4 } { 1 0 }   \\frac { 7 } { 1 0 0 }   ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.72,
+            0.523,
+            0.739
+          ],
+          "content": "One way to solve this is as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.209,
+            0.751,
+            0.772,
+            0.88
+          ],
+          "content": "\\begin{array}{ccccc}& \\multicolumn{4}{c}{\\xrightarrow{9}} & \\xrightarrow{\\quad} & 25\\ \\frac{8}{10}\\ \\frac{10}{100} & \\xrightarrow{\\quad} & 25\\ \\frac{8}{10}\\ \\frac{10}{100} \\\\\\hline& \\multicolumn{4}{\\xrightarrow{7}}{\\xrightarrow{}} & \\xrightarrow{\\quad -6\\ \\frac{4}{10}\\ \\frac{7}{100} & \\quad} & \\xrightarrow{\\quad -6\\ \\frac{4}{10}\\ \\frac{7}{100}} \\\\& \\quad & \\xrightarrow{\\quad } & \\xrightarrow{\\quad -19\\ \\frac{4}{10}\\ \\frac{3}{100}} \\\\\\end{array}",
+          "image_source": "images/page_11_equation_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.938,
+            0.84,
+            0.954
+          ],
+          "content": "57"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:00+05:30",
+      "modified_at": "2026-04-07T17:15:05+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 55,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

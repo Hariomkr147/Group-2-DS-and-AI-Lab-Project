@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.048,
+            0.419,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.086,
+            0.802,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we want to know the expression/formula to find the total interest amount gained at the end of the maturity period. What would be the formula for each of the two options?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.816,
+            0.09,
+            0.905,
+            0.151
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.816,
+                0.09,
+                0.905,
+                0.151
+              ],
+              "image_path": "images/page_23_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.158,
+            0.294,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.184,
+            0.847,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Jasmine invests amount "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } p ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " for 4 years at an interest of 6% p.a. Which of the following expression(s) describe the total amount she will get after 4 years when compounding is not done?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.205,
+            0.251,
+            0.329,
+            0.272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\times 6 \\times 4"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.473,
+            0.252,
+            0.575,
+            0.271
+          ],
+          "image_path": "images/page_23_equation_6.jpg",
+          "content": "p \\times 0 . 6 \\times 4"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.646,
+            0.247,
+            0.75,
+            0.274
+          ],
+          "image_path": "images/page_23_equation_7.jpg",
+          "content": "p \\times \\frac { 0 . 6 } { 1 0 0 } \\times 4"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.193,
+            0.277,
+            0.352,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p \\times \\frac { 0 . 0 6 } { 1 0 0 } \\times 4"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.431,
+            0.282,
+            0.576,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "p \\times 1 . 6 \\times 4"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.646,
+            0.283,
+            0.758,
+            0.303
+          ],
+          "image_path": "images/page_23_equation_10.jpg",
+          "content": "p \\times 1 . 0 6 \\times 4"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.189,
+            0.309,
+            0.402,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(vii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p + ( p \\times 0 . 0 6 \\times 4 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.338,
+            0.847,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. The post office offers an interest of 7% p.a. How much interest would one get if one invests ₹50,000 for 3 years without compounding? How much more would one get if it was compounded?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.405,
+            0.847,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Giridhar borrows a loan of ₹12,500 at 12% per annum for 3 years without compounding and Raghava borrows the same amount for the same time period at 10% per annum, compounded annually. Who pays more interest and by how much?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.489,
+            0.801,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Consider an amount ₹1000. If this grows at 10% p.a., how long will it take to double when compounding is done vs. when compounding is not done? Is compounding an example of exponential growth and not-compounding an example of linear growth?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.815,
+            0.49,
+            0.902,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.815,
+                0.49,
+                0.902,
+                0.574
+              ],
+              "image_path": "images/page_23_image_15.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.152,
+            0.593,
+            0.847,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. The population of a city is rising by about 3% every year. If the current population is 1.5 crore, what is the expected population after 3 years?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.659,
+            0.847,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. In a laboratory, the number of bacteria in a certain experiment increases at the rate of 2.5% per hour. Find the number of bacteria at the end of 2 hours if the initial count is 5,06,000."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.152,
+            0.733,
+            0.239,
+            0.752
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Decline"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.15,
+            0.757,
+            0.848,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Several items or materials lose financial value over time. Suppose someone buys a bike at your home for ₹1,00,000 and after a few years they want to sell it. The value of the bike at that time will be less than ₹1,00,000. It could depend on various factors, including how many years have passed since the purchase, how many kilometres the vehicle has been used for, if there has been any damage, or if any parts have been replaced. This is called "
+            },
+            {
+              "type": "text",
+              "content": "depreciation",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " — reduction of value due to use and age of the item."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.086,
+            0.914,
+            0.121,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

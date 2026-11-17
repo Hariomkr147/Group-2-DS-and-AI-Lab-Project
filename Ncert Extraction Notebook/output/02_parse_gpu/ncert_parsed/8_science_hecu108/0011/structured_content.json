@@ -1,0 +1,449 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.051,
+            0.098,
+            0.131,
+            0.116
+          ],
+          "content": "Sample A"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.14,
+            0.065,
+            0.305,
+            0.161
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.082,
+                0.164,
+                0.301,
+                0.198
+              ],
+              "content": "Fig. 8.14: A mixture of iron filings and sulfur powder"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.318,
+            0.083,
+            0.883,
+            0.122
+          ],
+          "content": "Mix them thoroughly in a watch glass. Label this mixture as Sample A (Fig. 8.14)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.319,
+            0.126,
+            0.542,
+            0.146
+          ],
+          "content": "z Observe it carefully."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.318,
+            0.149,
+            0.882,
+            0.189
+          ],
+          "content": "z Is this a uniform or a non-uniform mixture? Can you still observe both iron and sulfur as separate substances?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.044,
+            0.209,
+            0.349,
+            0.372
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.142,
+                0.372,
+                0.17,
+                0.389
+              ],
+              "content": "(a)"
+            },
+            {
+              "bbox": [
+                0.131,
+                0.397,
+                0.504,
+                0.415
+              ],
+              "content": "Fig. 8.15: (a) Heating Sample A; (b) Black mass"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.371,
+            0.216,
+            0.571,
+            0.355
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.458,
+                0.372,
+                0.486,
+                0.389
+              ],
+              "content": "(b)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.582,
+            0.192,
+            0.883,
+            0.285
+          ],
+          "content": "Take half of Sample A in a china dish and gently heat it (Fig. 8.15a) with continuous stirring until a black mass is formed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.583,
+            0.287,
+            0.882,
+            0.324
+          ],
+          "content": "Let the content of the china dish cool."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.583,
+            0.327,
+            0.883,
+            0.383
+          ],
+          "content": "Place this black mass in a mortar and grind it with the help of a pestle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.583,
+            0.384,
+            0.883,
+            0.441
+          ],
+          "content": "Now, put it on another watch glass and label it as Sample B (Fig. 8.15b)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.272,
+            0.441,
+            0.884,
+            0.499
+          ],
+          "content": "z Now, you have two samples— Sample A and Sample B (Fig. 8.16a and 8.16b). **Compare** both the Samples A and B step by step and **record** your observations in Table 8.2."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.023,
+            0.497,
+            0.311,
+            0.65
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.381,
+            0.503,
+            0.554,
+            0.6
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.453,
+                0.6,
+                0.481,
+                0.616
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.585,
+            0.502,
+            0.757,
+            0.6
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.441,
+                0.619,
+                0.71,
+                0.636
+              ],
+              "content": "Fig. 8.16: (a) Sample A; (b) Sample B"
+            },
+            {
+              "bbox": [
+                0.659,
+                0.603,
+                0.684,
+                0.618
+              ],
+              "content": "(b)"
+            },
+            {
+              "bbox": [
+                0.087,
+                0.659,
+                0.193,
+                0.677
+              ],
+              "content": "(a) Sample A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_19.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.256,
+            0.642,
+            0.498,
+            0.663
+          ],
+          "level": 2,
+          "content": "Step 1 — Appearance"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.024,
+            0.67,
+            0.252,
+            0.828
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.048,
+                0.835,
+                0.234,
+                0.902
+              ],
+              "content": "(b) Sample B Fig. 8.17: Responses of Samples A and B to a magnet"
+            }
+          ],
+          "image_source": "images/page_10_image_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.271,
+            0.664,
+            0.882,
+            0.702
+          ],
+          "content": "Compare the appearance of Sample A and Sample B like colour and texture."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.256,
+            0.713,
+            0.502,
+            0.734
+          ],
+          "level": 2,
+          "content": "Step 2 — Magnet test"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.271,
+            0.736,
+            0.882,
+            0.775
+          ],
+          "content": "Take a magnet and move it over the Samples A (Fig. 8.17a) and B (Fig. 8.17b), one by one."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.272,
+            0.776,
+            0.52,
+            0.795
+          ],
+          "content": "What do you observe?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.256,
+            0.807,
+            0.455,
+            0.826
+          ],
+          "level": 2,
+          "content": "Step 3 — Gas test"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.272,
+            0.829,
+            0.583,
+            0.905
+          ],
+          "content": "Take a small amount of Sample A in a test tube and add a few drops of dilute hydrochloric acid (Fig. 8.18a)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.6,
+            0.827,
+            0.735,
+            0.849
+          ],
+          "level": 2,
+          "content": "Safety first"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.599,
+            0.859,
+            0.855,
+            0.897
+          ],
+          "content": "Be careful while handling hydrochloric acid."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.856,
+            0.837,
+            0.939,
+            0.904
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_34.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.001,
+            0.923,
+            0.16,
+            0.999
+          ],
+          "content": "126"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.165,
+            0.947,
+            0.493,
+            0.963
+          ],
+          "content": "— Textbook of Science for Grade 8"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-06-28T14:51:12+05:30",
+      "modified_at": "2026-03-24T12:21:14+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 18,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

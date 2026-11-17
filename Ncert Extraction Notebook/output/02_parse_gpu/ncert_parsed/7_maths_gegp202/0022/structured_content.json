@@ -1,0 +1,237 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.645,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Operations with Integers"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.408,
+            0.101,
+            0.589,
+            0.125
+          ],
+          "level": 2,
+          "content": "SUMMARY"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.177,
+            0.137,
+            0.821,
+            0.156
+          ],
+          "level": 2,
+          "content": "• When two integers are multiplied, the product is positive when both"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.193,
+            0.156,
+            0.421,
+            0.308
+          ],
+          "content": "the multiplier and multiplicand are positive, or when both are negative. The product is negative if one of them is positive and the other is negative."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.309,
+            0.42,
+            0.423
+          ],
+          "content": "When two integers are divided, the quotient is positive when both the dividend and divisor are positive, or both are negative. The quotient"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.431,
+            0.16,
+            0.82,
+            0.395
+          ],
+          "content": "| - 9 | - 6 | - 3 | 3 | 3 | 6 | 9 |\n| --- | --- | --- | --- | --- | --- | --- |\n| - 6 | - 4 | - 2 | 2 | 2 | 4 | 6 |\n| - 3 | - 2 | - 1 | 1 | 1 | 2 | 3 |\n| - 3 | - 2 | - 1 | × | 1 | 2 | 3 |\n| 3 | 2 | 1 | 1 | - 1 | - 2 | - 3 |\n| 6 | 4 | 2 | 2 | - 2 | - 4 | - 6 |\n| 9 | 6 | 3 | 3 | - 3 | - 6 | - 9 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.424,
+            0.789,
+            0.442
+          ],
+          "content": "is negative when one of them is positive and the other is negative."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.443,
+            0.821,
+            0.462
+          ],
+          "content": "• Integer multiplication is commutative, i.e., for any two integers a and b,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.463,
+            0.556,
+            0.479
+          ],
+          "content": "a \\times b = b \\times a.",
+          "image_source": "images/page_21_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.481,
+            0.821,
+            0.518
+          ],
+          "content": "Integer multiplication is associative, i.e., for any three integers, a, b, and c,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.399,
+            0.519,
+            0.6,
+            0.537
+          ],
+          "content": "\\overline{a} \\times (b \\times c) = (a \\times b) \\times c.",
+          "image_source": "images/page_21_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.538,
+            0.821,
+            0.576
+          ],
+          "content": "Integer multiplication is distributive over addition, i.e., for any three integers, a, b, and c,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.379,
+            0.577,
+            0.619,
+            0.595
+          ],
+          "content": "a \\times (b + c) = (a \\times b) + (a \\times c).",
+          "image_source": "images/page_21_equation_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.313,
+            0.643,
+            0.397,
+            0.717
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_13.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.426,
+            0.647,
+            0.56,
+            0.669
+          ],
+          "level": 2,
+          "content": "IT's PUZZLE TIME!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.441,
+            0.682,
+            0.547,
+            0.701
+          ],
+          "level": 2,
+          "content": "Terhüchü"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.732,
+            0.835,
+            0.848
+          ],
+          "content": "Terhüchü is a game played in Assam and Nagaland. The board has 16 squares and diagonals are marked as shown in the following figure. This is usually roughly scratched on a large piece of stone or just drawn on mud. There are 2 players, and each player has a set of 9 coins placed as shown. The coins in one set look different from those in the other set."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "45"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.167
+          ],
+          "content": "This is similar to the procedure for prime factorisation. At each step, the two numbers are divided by a common prime factor, and the two quotients are written down in the next row. This continues till we get two numbers that do not have any common prime factors."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.175,
+            0.724,
+            0.198
+          ],
+          "level": 2,
+          "content": "How do we use this to find the HCF of 84 and 180? Explore."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.206,
+            0.846,
+            0.246
+          ],
+          "content": "[**Hint:** Observe that $8 4 = 2 \\times 2 \\times 3 \\times 7$ , and $180 = 2 \\times 2 \\times 3 \\times 15$ similar to prime factorisation]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.254,
+            0.502,
+            0.278
+          ],
+          "content": "Find the HCF in the following cases."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.27,
+            0.284,
+            0.417,
+            0.412
+          ],
+          "content": "\\begin{array}{c|cccc}\\overbrace{2} & 300,150 &  &  \\\\\\overbrace{5} & 150,75 &  &  \\\\\\underbrace{5} & \\underbrace{30,15} &  &  \\\\\\underbrace{3} & \\underbrace{6,3} &  &  \\\\& 2,1 &  &  \\\\\\end{array}",
+          "image_source": "images/page_14_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.589,
+            0.284,
+            0.726,
+            0.386
+          ],
+          "content": "\\begin{array}{c|c}\\widehat{2} & 630, 770 \\\\\\hline5 & 315, 385 \\\\\\hline7 & 63, 77 \\\\\\hline& 9, 11 \\\\\\end{array}",
+          "image_source": "images/page_14_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.243,
+            0.424,
+            0.423,
+            0.443
+          ],
+          "content": "\\mathrm{HCF} = 2 \\times 5 \\times 5 \\times 3",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.59,
+            0.424,
+            0.738,
+            0.443
+          ],
+          "content": "\\mathrm{HCF} = 2 \\times 5 \\times 7",
+          "image_source": "images/page_14_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.453,
+            0.846,
+            0.492
+          ],
+          "content": "This procedure not only gives the HCF but can also be used to find the LCM! Can you see how?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.259,
+            0.499,
+            0.408,
+            0.627
+          ],
+          "content": "\\begin{array}{c|ccc}\\widehat{2} & \\widehat{300,150} &  \\\\\\hline5 & \\widehat{150,75} &  \\\\\\hline5 & \\widehat{30,15} &  \\\\\\hline3 & \\widehat{5,3} &  \\\\\\hline2,1 &  \\\\\\end{array}",
+          "image_source": "images/page_14_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.575,
+            0.5,
+            0.727,
+            0.627
+          ],
+          "content": "\\begin{array}{c|ccc}\\widehat{2} & 630, 770 &  \\\\\\hline5 & 315, 385 &  \\\\\\hline7 & 63, 77 &  \\\\\\hline3 & \\underbrace{9, 11}_{3, 11} &  \\\\\\end{array}",
+          "image_source": "images/page_14_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.208,
+            0.642,
+            0.457,
+            0.661
+          ],
+          "content": "\\mathrm{LCM}=2 \\times 5 \\times 5 \\times 3 \\times 2 \\times 1",
+          "image_source": "images/page_14_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.524,
+            0.642,
+            0.783,
+            0.661
+          ],
+          "content": "\\mathrm{LCM}=2 \\times 5 \\times 7 \\times 3 \\times 3 \\times 11",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.675,
+            0.402,
+            0.699
+          ],
+          "content": "Why are these the LCMs?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.702,
+            0.847,
+            0.758
+          ],
+          "content": "[**Hint:** Will the product of the factors marked as the LCM of 300 and 150 contain the prime factorisations of both 300 and 150? Is this the smallest such number?]"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.108,
+            0.759,
+            0.254,
+            0.902
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.268,
+            0.759,
+            0.846,
+            0.798
+          ],
+          "content": "Guna says “I found a better way to factorise to find HCF/LCM. This is faster than what was taught in class!”"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.267,
+            0.798,
+            0.846,
+            0.834
+          ],
+          "content": "“For the numbers 300 and 150, I can first directly divide both numbers by 50."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.294,
+            0.836,
+            0.518,
+            0.855
+          ],
+          "content": "The HCF will be 50 × 3."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.648,
+            0.823,
+            0.775,
+            0.894
+          ],
+          "content": "\\begin{array}{c|ccc}50 & 300, 150 \\\\\\hline3 & 6, & 3 \\\\\\hline& 2, & 1 \\\\\\end{array}",
+          "image_source": "images/page_14_equation_20.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.836,
+            0.949
+          ],
+          "content": "61"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

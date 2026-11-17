@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.104,
+            0.295,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COORDINATE GEOMETRY"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "107"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Draw AR, PS and BT perpendicular to the x-axis. Draw AQ and PC parallel to the x-axis. Then, by the AA similarity criterion,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.362,
+            0.183,
+            0.534,
+            0.202
+          ],
+          "image_path": "images/page_8_equation_3.jpg",
+          "content": "\\Delta \\mathrm { \\scriptsize ~ P A Q } \\sim \\Delta \\mathrm { \\scriptsize ~ B P C }"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.223,
+            0.206,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.097,
+            0.256,
+            0.156,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.353,
+            0.209,
+            0.702,
+            0.345
+          ],
+          "image_path": "images/page_8_equation_6.jpg",
+          "content": "\\begin{aligned}&\\frac{ PA }{ BP } = \\frac{ AQ }{ PC } = \\frac{ PQ }{ BC } \\quad &(1) \\\\& AQ  =  RS  =  OS  -  OR  = x - x_{_1} \\\\& PC  =  ST  =  OT  -  OS  = x_{_2} - x \\\\& PQ  =  PS  -  QS  =  PS  -  AR  = y - y_{_1} \\\\& BC  =  BT  -  CT  =  BT  -  PS  = y_{_2} - y_{_1}\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.349,
+            0.472,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting these values in (1), we get"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.097,
+            0.432,
+            0.17,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Taking"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.48,
+            0.253,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, taking"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.307,
+            0.375,
+            0.704,
+            0.514
+          ],
+          "image_path": "images/page_8_equation_10.jpg",
+          "content": "\\begin{aligned}\\frac{m_{1}}{m_{2}} &= \\frac{x - x_{1}}{x_{2} - x} = \\frac{y - y_{1}}{y_{2} - y} \\\\\\frac{m_{1}}{m_{2}} &= \\frac{x - x_{1}}{x_{2} - x}, \\quad \\text { we get } x = \\frac{m_{1}x_{2} + m_{2}x_{1}}{m_{1} + m_{2}} \\\\\\frac{m_{1}}{m_{2}} &= \\frac{y - y_{1}}{y_{2} - y}, \\quad \\text { we get } y = \\frac{m_{1}y_{2} + m_{2}y_{1}}{m_{1} + m_{2}}\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.522,
+            0.899,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " the coordinates of the point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{P}(\\bar{x}, \\bar{y})"
+            },
+            {
+              "type": "text",
+              "content": " which divides the line segment joining the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } ( \\boldsymbol { x } _ { 1 } , \\boldsymbol { y } _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } ( x _ { _ 2 } , y _ { _ 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " , internally, in the ratio "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m _ { _ 1 } : m _ { _ 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.333,
+            0.573,
+            0.897,
+            0.622
+          ],
+          "image_path": "images/page_8_equation_12.jpg",
+          "content": "\\left( \\frac{m_{1}x_{2} + m_{2}x_{1}}{m_{1} + m_{2}}, \\frac{m_{1}y_{2} + m_{2}y_{1}}{m_{1} + m_{2}} \\right)\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.147,
+            0.622,
+            0.526,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is known as the section formula"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.095,
+            0.647,
+            0.899,
+            0.687
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can also be derived by drawing perpendiculars from A, P and B on the y-axis and proceeding as above."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.146,
+            0.691,
+            0.9,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the ratio in which P divides AB is k : 1, then the coordinates of the point P will be"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.391,
+            0.718,
+            0.608,
+            0.765
+          ],
+          "image_path": "images/page_8_equation_16.jpg",
+          "content": "\\left( \\frac{kx_{2} + x_{1}}{k + 1}, \\frac{ky_{2} + y_{1}}{k + 1} \\right)."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.095,
+            0.772,
+            0.899,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Special Case : The mid-point of a line segment divides the line segment in the ratio 1 : 1. Therefore, the coordinates of the mid-point P of the join of the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } ( x _ { 1 } , y _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } ( x _ { 2 } , y _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.255,
+            0.829,
+            0.741,
+            0.874
+          ],
+          "image_path": "images/page_8_equation_18.jpg",
+          "content": "\\left( \\frac{1 \\cdot x_{1} + 1 \\cdot x_{2}}{1 + 1}, \\frac{1 \\cdot y_{1} + 1 \\cdot y_{2}}{1 + 1} \\right) = \\left( \\frac{x_{1} + x_{2}}{2}, \\frac{y_{1} + y_{2}}{2} \\right)"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.146,
+            0.879,
+            0.713,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us solve a few examples based on the section formula."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

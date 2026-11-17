@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.752,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.148,
+            0.087,
+            0.849,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, "
+            },
+            {
+              "type": "text",
+              "content": "if a divides M and a divides N, then a divides M + N and a divides M – N. In other words, if M and N are multiples of a, then M + N and M – N will also be multiples of a.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.152,
+            0.848,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ 2. If a number is divisible by 8, then 8 also divides any two numbers (separately) that add up to the number."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 4,
+          "bbox": [
+            0.11,
+            0.201,
+            0.886,
+            0.463
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 4,
+              "bbox": [
+                0.11,
+                0.201,
+                0.886,
+                0.463
+              ],
+              "image_path": "images/page_7_table_4.jpg",
+              "content": "<table><tr><td colspan=3>Explanation with Algebra and Visualisation</td><td>Examples</td></tr><tr><td>A numberdivisible by 8 isa multiple of 8.</td><td>8m</td><td rowspan=2>nrows  u(a+b) rows,            <img src=\"images/page_7_table_image_4_1.jpg\"/>b rowsoooo</td><td rowspan=2>8, 16, 56, 72.72 = 48 + 24(8×98×6+8×3).72 = 50 + 22</td></tr><tr><td>A numberdivisibleby 8 can beexpressed asa sum of twomultiples of 8 orsum of two non-multiples of 8.</td><td><eq>8m = 8a + 8b</eq>8m = p + q(p, q notmultiples of8)</td></tr></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 5,
+              "bbox": [
+                0.149,
+                0.467,
+                0.485,
+                0.486
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "So, statement 2 is sometimes true."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.493,
+            0.847,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. If a number is divisible by 7, then all multiples of that number will be divisible by 7."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.115,
+            0.541,
+            0.889,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.115,
+                0.541,
+                0.889,
+                0.852
+              ],
+              "image_path": "images/page_7_table_7.jpg",
+              "content": "<table><tr><td colspan=\"4\">Explanation with Algebra and Visualisation Examples</td></tr><tr><td>Numbers divisible by 7 will have 7 as a factor.</td><td colspan=\"2\">7j</td><td><eq>14 = 7 \\times 2 (j = 2).</eq> <eq>42 = 7 \\times 6 (j = 6).</eq> <eq>98 = 7 \\times 14 (j = 14).</eq></td></tr><tr><td>This contains a total of mj rows. So this is also a multiple of 7.</td><td>(7j)×m</td><td><img src=\"images/page_7_table_image_7_1.jpg\"/> m times <img src=\"images/page_7_table_image_7_2.jpg\"/></td><td>Some multiples of 14: <eq>2 8 = ( 7 \\times 2 ) \\times 2 .</eq> <eq>7 0 = ( 7 \\times 2 ) \\times 5 .</eq> <eq>1 5 4 = ( 7 \\times 2 ) \\times 1 1</eq></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.862,
+            0.848,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number 7jm or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 7   \\times   j   \\times   m )"
+            },
+            {
+              "type": "text",
+              "content": " has a factor of 7. We can see that Statement 3 is always true."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 9,
+          "bbox": [
+            0.872,
+            0.914,
+            0.918,
+            0.937
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "119"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

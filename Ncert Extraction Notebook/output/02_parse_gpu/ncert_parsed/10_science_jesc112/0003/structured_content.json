@@ -1,0 +1,241 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.1,
+            0.5,
+            0.115
+          ],
+          "content": "n **Mark the position of two ends of the needle.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.116,
+            0.502,
+            0.178
+          ],
+          "content": "**Now move the needle to a new position such that its south pole occupies the position previously occupied by its north pole.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.179,
+            0.502,
+            0.226
+          ],
+          "content": "**In this way, proceed step by step till you reach the south pole of the magnet as shown in Fig. 12.3.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.227,
+            0.502,
+            0.273
+          ],
+          "content": "**Join the points marked on the paper by a smooth curve. This curve represents a field line.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.274,
+            0.502,
+            0.368
+          ],
+          "content": "**Repeat the above procedure and draw as many lines as you can. You will get a pattern shown in Fig. 12.4. These lines represent the magnetic field around the magnet. These are known as magnetic field lines.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.369,
+            0.502,
+            0.432
+          ],
+          "content": "**Observe the deflection in the compass needle as you move it along a field line. The deflection increases as the needle is moved towards the poles.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.6,
+            0.086,
+            0.858,
+            0.201
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.57,
+                0.218,
+                0.679,
+                0.232
+              ],
+              "content": "Figure 12.3"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.557,
+            0.268,
+            0.918,
+            0.427
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.569,
+                0.231,
+                0.924,
+                0.26
+              ],
+              "content": "Drawing a magnetic field line with the help of a compass needle"
+            },
+            {
+              "bbox": [
+                0.561,
+                0.431,
+                0.806,
+                0.46
+              ],
+              "content": "Figure 12.4 Field lines around a bar magnet"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.482,
+            0.723,
+            0.604
+          ],
+          "content": "**Magnetic field is a quantity that has both direction and magnitude. The direction of the magnetic field is taken to be the direction in which a north pole of the compass needle moves inside it. Therefore it is taken by convention that the field lines emerge from north pole and merge at the south pole (note the arrows marked on the field lines in Fig. 12.4). Inside the magnet, the direction of field lines is from its south pole to its north pole. Thus the magnetic field lines are closed curves.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.605,
+            0.723,
+            0.673
+          ],
+          "content": "**The relative strength of the magnetic field is shown by the degree of closeness of the field lines. The field is stronger, that is, the force acting on the pole of another magnet placed is greater where the field lines are crowded (see Fig. 12.4).**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.674,
+            0.723,
+            0.727
+          ],
+          "content": "**No two field-lines are found to cross each other. If they did, it would mean that at the point of intersection, the compass needle would point towards two directions, which is not possible.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.749,
+            0.722,
+            0.793
+          ],
+          "level": 2,
+          "content": "12.2 MAGNETIC FIELD DUE TO A CURRENT-CARRYING CONDUCTOR"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.811,
+            0.724,
+            0.881
+          ],
+          "content": "**In Activity 12.1, we have seen that an electric current through a metallic conductor produces a magnetic field around it. In order to find the direction of the field produced let us repeat the activity in the following way –**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.099,
+            0.916,
+            0.366,
+            0.931
+          ],
+          "content": "Magnetic Effects of Electric Current"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.913,
+            0.93
+          ],
+          "content": "197"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 12.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:58:40Z",
+      "modified_at": "2026-03-24T12:00:59+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

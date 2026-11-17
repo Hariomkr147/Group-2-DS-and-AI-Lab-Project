@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.846,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The prime factorisation of 30 has only one 2. So, the largest common subpart should contain only one 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.127,
+            0.464,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many 3s will it contain?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.145,
+            0.847,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The prime factorisation of 30 has only one 3. So, the largest common subpart should contain only one 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.175,
+            0.183,
+            0.495,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This has been carried out below."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.385,
+            0.21,
+            0.584,
+            0.27
+          ],
+          "image_path": "images/page_7_equation_5.jpg",
+          "content": "\\begin{array} { l } 3 0 = \\boxed 2 \\times \\boxed 3 \\times 5 \\\\ 7 2 = \\boxed 2 \\times \\boxed 2 \\times \\boxed 3 \\times 3 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.369,
+            0.276,
+            0.518,
+            0.295
+          ],
+          "image_path": "images/page_7_equation_6.jpg",
+          "content": "\\mathrm{HCF} = 2 \\times 3 = 6"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.307,
+            0.849,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, to find the HCF, we identify the common primes and find the the given numbers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.374,
+            0.553,
+            0.398
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5: Find the HCF of 225 and 750."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.411,
+            0.405,
+            0.621,
+            0.45
+          ],
+          "image_path": "images/page_7_equation_9.jpg",
+          "content": "\\begin{aligned}225 &= 3 \\times 3 \\times 5 \\times 5 \\\\750 &= 2 \\times 3 \\times 5 \\times 5 \\times 5\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.459,
+            0.846,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Common primes: 3 and 5. Let us find the largest common subpart. How many 3s will it contain?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.497,
+            0.846,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "750 contains only one 3, which is the minimum number of 3 across both numbers. So the largest common subpart should contain only one 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.536,
+            0.442,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many 5s will it contain?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.555,
+            0.615,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "225 contains the minimum number of 5s which occurs two times. So, the largest common subpart should contain two "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{fs}, \\mathrm{i.e.}, 5 \\times 5."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.656,
+            0.536,
+            0.864,
+            0.594
+          ],
+          "image_path": "images/page_7_equation_14.jpg",
+          "content": "\\begin{array} { l } 2 2 5 = 3 \\times \\boxed 3 \\times \\boxed 5 \\times \\boxed 5 \\\\ 7 5 0 = 2 \\times \\boxed 3 \\times \\boxed 5 \\times \\boxed 5 \\times 5 \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.653,
+            0.6,
+            0.844,
+            0.62
+          ],
+          "image_path": "images/page_7_equation_15.jpg",
+          "content": "\\mathrm{HCF} = 3 \\times 5 \\times 5 = 75"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.634,
+            0.847,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To find the HCF of more than 2 numbers, a similar method of finding the largest common subpart of the common primes can be followed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.112,
+            0.684,
+            0.316,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.162,
+            0.711,
+            0.6,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the HCF of the following numbers: (a) 24, 180 (b) 42, 75, 24 (c) 240, 378 (d) 400, 2500 (e) 300, 800"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.163,
+            0.816,
+            0.848,
+            0.894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Consider the numbers 72 and 144. Suppose they are factorised into composite numbers as: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7 2 = 6 \\times 1 2"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 4 4 = 8 \\times 1 8 ."
+            },
+            {
+              "type": "text",
+              "content": " . Seeing this, can one say that these two numbers have no common factor other than 1? Why not?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.949
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "54"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

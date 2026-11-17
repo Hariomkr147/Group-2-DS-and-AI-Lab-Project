@@ -1,0 +1,168 @@
+{
+  "pages": [
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.161,
+            0.066,
+            0.374,
+            0.084
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.163,
+            0.121,
+            0.885,
+            0.164
+          ],
+          "level": 2,
+          "content": "Subtraction of fractions with the same fractional unit or denominator"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.178,
+            0.845,
+            0.201
+          ],
+          "content": "Brahmagupta’s method also applies when subtracting fractions!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.201,
+            0.884,
+            0.256
+          ],
+          "content": "Let us start with the problem of subtracting $\\frac { 4 } { 7 }$ from ${ \\frac { 6 } { 7 } } ,$ i.e., what is $\\frac { 6 } { 7 } - \\frac { 4 } { 7 } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.274,
+            0.885,
+            0.365
+          ],
+          "content": "To solve this problem, we can again use the rectangular strips. In both fractions, the fractional unit is the same, i.e., ${ \\frac { 1 } { 7 } } .$ . Let us first represent the bigger fraction using a rectangular strip model as shown:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.353,
+            0.365,
+            0.698,
+            0.464
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.476,
+            0.884,
+            0.528
+          ],
+          "content": "Each shaded part represents ${ \\frac { 1 } { 7 } } .$ Now, we need to subtract ${ \\frac { 4 } { 7 } } .$ To do this let us remove 4 of the shaded parts:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.166,
+            0.541,
+            0.932,
+            0.792
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.814,
+            0.672,
+            0.842
+          ],
+          "content": "So, we are left with 2 shaded parts, i.e., $\\frac { 6 } { 7 } - \\frac { 4 } { 7 } = \\frac { 2 } { 7 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.853,
+            0.717,
+            0.878
+          ],
+          "content": "Try doing this same exercise using the number line."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.941,
+            0.117,
+            0.96
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.986
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 29,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

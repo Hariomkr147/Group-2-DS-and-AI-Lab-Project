@@ -1,0 +1,183 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.176,
+            0.085,
+            0.83,
+            0.244
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.129,
+            0.317,
+            0.879,
+            0.465
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.239,
+                0.272,
+                0.786,
+                0.303
+              ],
+              "content": "Figure 9.16 The position, size and the nature of the image formed by a convex lens for various positions of the object"
+            },
+            {
+              "bbox": [
+                0.18,
+                0.479,
+                0.844,
+                0.495
+              ],
+              "content": "Figure 9.17 Nature, position and relative size of the image formed by a concave lens"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_21_image_2.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.527,
+            0.56,
+            0.548
+          ],
+          "level": 2,
+          "content": "9.3.6 Sign Convention for Spherical Lenses"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.557,
+            0.722,
+            0.659
+          ],
+          "content": "**For lenses, we follow sign convention, similar to the one used for spherical mirrors. We apply the rules for signs of distances, except that all measurements are taken from the optical centre of the lens. According to the convention, the focal length of a convex lens is positive and that of a concave lens is negative. You must take care to apply appropriate signs for the values of u,** $v , f ,$ **object height h and image height h**′."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.673,
+            0.503,
+            0.693
+          ],
+          "level": 2,
+          "content": "9.3.7 Lens Formula and Magnification"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.702,
+            0.721,
+            0.77
+          ],
+          "content": "**As we have a formula for spherical mirrors, we also have formula for spherical lenses. This formula gives the relationship between objectdistance (u), image-distance (v) and the focal length (f ). The lens formula is expressed as**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.133,
+            0.783,
+            0.717,
+            0.819
+          ],
+          "content": "\\frac { 1 } { v } - \\frac { 1 } { u } = \\frac { 1 } { f }\\tag{9.8}",
+          "image_source": "images/page_21_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.83,
+            0.72,
+            0.882
+          ],
+          "content": "**The lens formula given above is general and is valid in all situations for any spherical lens. Take proper care of the signs of different quantities, while putting numerical values for solving problems relating to lenses.**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1,
+            0.916,
+            0.343,
+            0.931
+          ],
+          "content": "Light – Reflection and Refraction"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.914,
+            0.93
+          ],
+          "content": "155"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,203 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.237,
+            0.091,
+            0.35,
+            0.213
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.203,
+                0.099,
+                0.222,
+                0.113
+              ],
+              "content": "C."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_27_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.464,
+            0.092,
+            0.597,
+            0.213
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.43,
+                0.094,
+                0.452,
+                0.109
+              ],
+              "content": "d."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_27_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.232,
+            0.881,
+            0.266
+          ],
+          "content": "**Q5. Suppose you have to get each of these shapes with some folds and a single straight cut. How will you do it?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.277,
+            0.466,
+            0.294
+          ],
+          "content": "**a. The hole in the centre is square.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.304,
+            0.481,
+            0.321
+          ],
+          "content": "**b. The hole in the centre is a square.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.331,
+            0.881,
+            0.367
+          ],
+          "content": "Note : For the above two questions, check if the 4-sided figures in the centre satisfy both the properties of a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.376,
+            0.606,
+            0.394
+          ],
+          "content": "**Ans.** a. At first fold the paper horizontally then vertically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.404,
+            0.678,
+            0.421
+          ],
+          "content": "Now cut a small square at the center (all sides closed corner)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.192,
+            0.44,
+            0.531,
+            0.516
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.537,
+            0.606,
+            0.555
+          ],
+          "content": "b. At first fold the paper horizontally then vertically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.565,
+            0.604,
+            0.582
+          ],
+          "content": "Now at closed corner, cut along with a slanting line."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.19,
+            0.602,
+            0.528,
+            0.678
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.488,
+            0.926,
+            0.512,
+            0.942
+          ],
+          "content": "[3]"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:10+05:30",
+      "modified_at": "2026-04-07T17:41:10+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

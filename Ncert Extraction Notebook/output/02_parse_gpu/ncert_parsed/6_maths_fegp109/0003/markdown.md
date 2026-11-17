@@ -1,0 +1,25 @@
+## 9.1 Line of Symmetry
+
+Figure (a) shows the picture of a blue triangle with a dotted line. What if you fold the triangle along the dotted line? Yes, one half of the triangle covers the other half completely. These are called **mirror halves**!
+
+![](images/page_2_image_3.jpg)
+
+(a)
+
+![](images/page_2_image_5.jpg)
+
+(b)
+
+What about Figure (b) with the four puzzle pieces and a dotted line passing through the middle? Are they mirror halves? No, when we fold along the line, the left half does not exactly fit over the right half.
+
+A line that cuts a figure into two parts that exactly overlap when folded along that line is called a **line of symmetry** of the figure.
+
+![](images/page_2_image_9.jpg)
+
+## Figure it Out
+
+1. Do you see any line of symmetry in the figures at the start of the chapter? What about in the picture of the cloud?
+
+2. For each of the following figures, identify the line(s) of symmetry if it exists.
+
+![](images/page_2_image_13.jpg)

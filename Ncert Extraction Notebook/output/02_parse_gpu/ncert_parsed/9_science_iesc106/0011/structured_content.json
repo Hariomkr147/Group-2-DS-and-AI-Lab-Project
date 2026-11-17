@@ -1,0 +1,334 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.047,
+            0.927,
+            0.121,
+            0.992
+          ],
+          "content": "104"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.29,
+            0.087,
+            0.633,
+            0.106
+          ],
+          "content": "Mathematically it can be expressed as"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.053,
+            0.177,
+            0.116,
+            0.21
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_2.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.496,
+            0.107,
+            0.886,
+            0.14
+          ],
+          "content": "\\alpha = { \\frac { F } { m } }\\tag{6.1}",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.055,
+            0.219,
+            0.233,
+            0.328
+          ],
+          "content": "How much does a force of 1 N feel? If you hold a 100 g mass in your palm, the upward force your palm applies on the mass is around 1 N."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.12,
+            0.172,
+            0.238,
+            0.21
+          ],
+          "level": 2,
+          "content": "Threads of Curiosity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.053,
+            0.38,
+            0.227,
+            0.46
+          ],
+          "content": "The acceleration due to gravitational force by the Earth ( g) does not depend on the mass of the object."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.058,
+            0.364,
+            0.113,
+            0.38
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.139,
+            0.886,
+            0.156
+          ],
+          "content": "for $F { = } m a$\\tag{6.2}",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.258,
+            0.16,
+            0.889,
+            0.211
+          ],
+          "content": "where a denotes acceleration, F denotes force, and m denotes mass of the object. The direction of acceleration is the same as the direction of net force."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.259,
+            0.214,
+            0.889,
+            0.25
+          ],
+          "content": "You know that the SI units of mass and acceleration are kg and m $s ^ { - 2 }$ respectively. If m = 1 kg , a = 1 m ${ \\bf S } ^ { - 2 } ,$ then using Eq. (6.2) we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.41,
+            0.251,
+            0.74,
+            0.269
+          ],
+          "content": "F = (1\\  kg ) \\times (1\\  m \\  s ^{-2}) = 1\\  kg \\  m \\  s ^{-2} = 1\\  N",
+          "image_source": "images/page_10_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.259,
+            0.272,
+            0.888,
+            0.308
+          ],
+          "content": "One newton of force is defined as the force that produces an acceleration of 1 m $S ^ { - 2 }$ on an object of mass 1 kg."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.259,
+            0.31,
+            0.889,
+            0.396
+          ],
+          "content": "You know that under the influence of gravitational force, an object falls towards the Earth. During this motion, the acceleration involved is called the **acceleration due to the gravitational force by the Earth** and is denoted by $g .$ Its unit is the same as that of acceleration, m $\\mathbb { S } ^ { - 2 }$ Using Eq. (6.2), the gravitational force acting on an object of mass m is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.512,
+            0.398,
+            0.886,
+            0.416
+          ],
+          "content": "F = m g\\tag{6.3}",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.258,
+            0.418,
+            0.89,
+            0.471
+          ],
+          "content": "The value of acceleration due to gravitational force by the Earth is $g = 9.8    m     s ^{-2}$ . It can be taken to be nearly constant near the surface of the Earth. For quick estimations, one can also take g = 10 m s<sup>–2</sup>."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.07,
+            0.471,
+            0.133,
+            0.504
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_16.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.142,
+            0.483,
+            0.358,
+            0.501
+          ],
+          "level": 2,
+          "content": "Threads of Curiosity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.069,
+            0.511,
+            0.862,
+            0.591
+          ],
+          "content": "As per Eq. (6.1), in Activity 6.3, doubling the force on the cart should have doubled the acceleration you measured. But in reality, you may have found the increase to be little less than a factor of two. Similarly in Activity 6.4, when you doubled the mass of the cart, the acceleration should have been halved but you might have found a slightly different value. Apart from measurement errors, the friction between the cart’s wheels and the surface can lead to such differences."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.019,
+            0.615,
+            0.08,
+            0.681
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_19.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.09,
+            0.628,
+            0.302,
+            0.647
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.076,
+            0.656,
+            0.861,
+            0.75
+          ],
+          "content": "The more complete form of Newton’s second law is expressed in terms of momentum. The momentum of an object is defined as the product of its mass and velocity. The direction of the momentum is same as that of the velocity. Newton’s second law states that the rate of change of momentum of an object is proportional to the net force and takes place in the direction in which the net force acts. Newton’s second law expressed in this form is applicable to situations even where the mass of the object is not constant."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.068,
+            0.782,
+            0.22,
+            0.889
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.075,
+                0.894,
+                0.223,
+                0.922
+              ],
+              "content": "Fig. 6.18: Catching a cricket ball"
+            }
+          ],
+          "image_source": "images/page_10_image_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.259,
+            0.776,
+            0.889,
+            0.828
+          ],
+          "content": "Newton’s second law of motion is considered to be a fundamental law of nature. Many events around us can be explained on the basis of Newton’s second law of motion."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.258,
+            0.83,
+            0.89,
+            0.917
+          ],
+          "content": "In a game of cricket, you might have noticed that while catching a fast-moving ball, the fielder gradually pulls their hands backwards with the moving ball just after catching it (Fig. 6.18). In doing so, the time duration is increased during which the high velocity of the ball reduces to zero. This reduces the magnitude of the acceleration of the"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.946,
+            0.304,
+            0.964
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:47:36+05:30",
+      "modified_at": "2026-05-13T10:46:38+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

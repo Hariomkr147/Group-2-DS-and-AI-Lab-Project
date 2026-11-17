@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "62"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.135,
+            0.114,
+            0.399,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.132,
+            0.154,
+            0.853,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try to prove directly that the four smaller triangles are congruent. You will see that no congruence test applies, because many quantities are unknown."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.116,
+            0.231,
+            0.882,
+            0.29
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is one idea. The difficulty might be because we are considering too many new things at once: three new points and three new segments. Can we try to break this down into steps?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.162,
+            0.311,
+            0.449,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.162,
+                0.311,
+                0.449,
+                0.435
+              ],
+              "image_path": "images/page_11_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.256,
+                0.442,
+                0.355,
+                0.462
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.483,
+            0.295,
+            0.883,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see what happens with just one of the three new segments. Can you make a guess about this new segment, specifically about its direction and length compared with the unused third side? The triangles you cut earlier will help. It appears that the segment is parallel to the third side and has half the length! Let us try to justify this using reasoning."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.116,
+            0.495,
+            0.882,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Geometric reasoning:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " To set up, suppose that in ∆ABC, P and Q are the midpoints of side AB and AC respectively. Now comes the key idea. Construct the line l through C parallel to BA. Suppose it intersects line PQ at point R."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.116,
+            0.571,
+            0.884,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(See the comment about this line immediately after the statement of Theorem 6.)"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.616,
+            0.454,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.13,
+                0.616,
+                0.454,
+                0.757
+              ],
+              "image_path": "images/page_11_image_10.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 11,
+              "bbox": [
+                0.194,
+                0.761,
+                0.293,
+                0.78
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.47,
+            0.64,
+            0.881,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In ∆APQ and ∆CRQ, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AQ} = \\mathrm{CQ}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AQP = \\angle CQR"
+            },
+            {
+              "type": "text",
+              "content": " (vertically opposite angles), and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.47,
+            0.697,
+            0.881,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\angle APQ = \\angle CRQ"
+            },
+            {
+              "type": "text",
+              "content": " (since AP ‖RC by construction)."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.506,
+            0.736,
+            0.774,
+            0.757
+          ],
+          "image_path": "images/page_11_equation_14.jpg",
+          "content": "\\mathrm{SO} \\; \\Delta \\mathrm{APQ} \\cong \\Delta \\mathrm{CRQ} \\; \\mathrm{by} \\; \\mathrm{AAS}."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.116,
+            0.793,
+            0.883,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQ = QR"
+            },
+            {
+              "type": "text",
+              "content": " (by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathrm { c o n g r u e n c e } } ) = { \\frac { \\mathrm { P R } } { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{CR} = \\mathrm{AP}."
+            },
+            {
+              "type": "text",
+              "content": " Combining "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{CR} = \\mathrm{AP}"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A P } = \\mathrm { B P } ,"
+            },
+            {
+              "type": "text",
+              "content": " we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { C R } = \\mathrm { B P } ."
+            },
+            {
+              "type": "text",
+              "content": " Hence by Theorem 5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

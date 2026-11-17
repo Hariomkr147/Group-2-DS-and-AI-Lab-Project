@@ -1,0 +1,186 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.732,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "Prime Time"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.12,
+            0.834,
+            0.188
+          ],
+          "content": "orders. As we explain below, the order is not important. However, as we saw in these examples, there are many ways to arrive at the prime factorisation!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.2,
+            0.382,
+            0.221
+          ],
+          "content": "**Does the order matter?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.349,
+            0.226,
+            0.587,
+            0.393
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.411,
+            0.326,
+            0.432
+          ],
+          "content": "Using this diagram,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.434,
+            0.833,
+            0.477
+          ],
+          "content": "can you explain why $3 0 = 2 \\times 3 \\times 5 ;$ **,** no matter which way you multiply 2, 3, and 5?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.479,
+            0.836,
+            0.592
+          ],
+          "content": "When multiplying numbers, we can do so in any order. The end result is the same. That is why, when two 2s and two 3s are multiplied in any order, we get 36. In a later class, we shall study this under the names of **commutativity and associativity of multiplication**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.593,
+            0.834,
+            0.66
+          ],
+          "content": "Thus, the order does not matter. Usually we write the prime numbers in increasing order. For example, $2 2 5 = 3 \\times 3 \\times 5 \\times 5$ or 30 = $2 \\times 3 \\times 5$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.673,
+            0.707,
+            0.695
+          ],
+          "level": 2,
+          "content": "Prime factorisation of a product of two numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.696,
+            0.834,
+            0.808
+          ],
+          "content": "When we find the prime factorisation of a number, we first write it as a product of two factors. For example, $7 2   =   1 2   \\times   6$ . Then, we find the prime factorisation of each of the factors. In the above example, $1 2 = 2 \\times 2 \\times 3$ and 6 = 2 × 3. Now, can you say what the prime factorisation of 72 is?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.81,
+            0.834,
+            0.856
+          ],
+          "content": "The prime factorisation of the original number is obtained by putting these together."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.367,
+            0.856,
+            0.582,
+            0.877
+          ],
+          "content": "7 2 = 2 \\times 2 \\times 3 \\times 2 \\times 3",
+          "image_source": "images/page_12_equation_11.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.986
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.941,
+            0.918,
+            0.959
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

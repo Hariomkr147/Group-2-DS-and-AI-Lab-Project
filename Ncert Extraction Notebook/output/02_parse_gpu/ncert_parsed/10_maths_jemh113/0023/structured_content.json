@@ -1,0 +1,219 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "193"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.9,
+            0.177
+          ],
+          "content": "a class interval. It is, therefore, necessary to find the value inside a class that divides the whole distribution into two halves. But which class should this be?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.192,
+            0.9,
+            0.358
+          ],
+          "content": "To find this class, we find the cumulative frequencies of all the classes and $\\frac { n } { 2 }$ We now locate the class whose cumulative frequency is greater than (and nearest to) $\\frac { n } { 2 }$ This is called the median class. In the distribution above, $n = 53.\\  So , \\frac{n}{2} = 26.5$ Now 60 – 70 is the class whose cumulative frequency 29 is greater than (and nearest $\\mathrm{t o)} \\frac{n}{2}   , \\mathrm{i.e.}, 26.5.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.367,
+            0.487,
+            0.386
+          ],
+          "content": "Therefore, 60 – 70 is the **median class**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.395,
+            0.9,
+            0.432
+          ],
+          "content": "After finding the median class, we use the following formula for calculating the median."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.443,
+            0.578,
+            0.526
+          ],
+          "content": "\\mathrm{Media} = l + \\left(\\frac{\\frac{n}{2} - \\mathrm{cf}}{f}\\right) \\times h,",
+          "image_source": "images/page_22_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.533,
+            0.542,
+            0.552
+          ],
+          "content": "where l = lower limit of median class,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.227,
+            0.558,
+            0.508,
+            0.577
+          ],
+          "content": "n = number of observations,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.221,
+            0.583,
+            0.833,
+            0.603
+          ],
+          "content": "cf = cumulative frequency of class preceding the median class,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.228,
+            0.608,
+            0.538,
+            0.628
+          ],
+          "content": "f = frequency of median class,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.228,
+            0.634,
+            0.692,
+            0.653
+          ],
+          "content": "h = class size (assuming class size to be equal)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.663,
+            0.694,
+            0.702
+          ],
+          "content": "Substituting the values $\\frac{n}{2}=26.5,\\;l=60,\\;cf=22,\\;f=7,\\;h=10.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.706,
+            0.377,
+            0.724
+          ],
+          "content": "in the formula above, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.291,
+            0.732,
+            0.628,
+            0.857
+          ],
+          "content": "\\begin{aligned} \\text{1 }  Mediam  = 60 + \\left( \\frac{26.5 - 22}{7} \\right) \\times 100 \\\\ \\text{2 } \\\\ \\text{3 } \\\\ \\text{4 } \\\\ \\text{5 } \\\\ \\text{6 } \\\\ \\text{6 } \\\\ \\text{7 } \\\\ \\text{8 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{3 } \\\\ \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{1 } \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{2 } \\\\ \\text{2 } \\text{2 } \\\\ \\text{2 } \\\\ \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 } \\text{2 2 } \\text{2 } \\text{2 } \\text{2 2 } \\text{2 } \\text{2 2 } \\text{2 2 } \\text{2 } \\text{2 2 } \\text{2 2 \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 } \\text{2 2 2 } \\text{2 2 2 \\text{2 2 } \\text{2 2 2 } \\text{2 2 2 } \\text{2 2 2 } \\text{2 2 2 } \\text{2 2 2 2 } \\text{ 2 2 2 } \\text{ 2 2 2 2 \\text{2 2 2 2 } \\text{ 2 2 2 2 2 2 } \\text{ 2 2 2 2 } \\text{ 2 2 2 2 2 } \\text{ 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 } \\text{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 \\end{aligned}",
+          "image_source": "images/page_22_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.864,
+            0.9,
+            0.903
+          ],
+          "content": "So, about half the students have scored marks less than 66.4, and the other half have scored marks more than 66.4."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

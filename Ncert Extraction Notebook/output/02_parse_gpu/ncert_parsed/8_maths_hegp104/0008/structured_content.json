@@ -1,0 +1,275 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.74,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.125
+          ],
+          "content": "The Carpenter’s Problem shows that rectangles can also be defined as follows—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.13,
+            0.848,
+            0.168
+          ],
+          "content": "**Rectangle:** A rectangle is a quadrilateral whose diagonals are equal and bisect each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.171,
+            0.848,
+            0.229
+          ],
+          "content": "Observe how different this definition is from the earlier one. Yet, both capture the same class of quadrilaterals. Further, it turns out that the first definition can be simplified."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.238,
+            0.848,
+            0.298
+          ],
+          "content": "？ In the earlier definition, we stated that a rectangle has (a) opposite sides of equal length, and (b) all angles equal to $9 0 ^ { \\circ }$ . Would we be wrong if we just define a rectangle as a quadrilateral in which all the angles are $9 0 ^ { \\circ } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.306,
+            0.848,
+            0.363
+          ],
+          "content": "？ If you think that this definition is incomplete, try constructing a quadrilateral in which the angles are all $9 0 ^ { \\circ }$ but the opposite sides are not equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.367,
+            0.611,
+            0.407
+          ],
+          "content": "Are you able to construct such a quadrilateral? Let us prove why this is impossible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.412,
+            0.847,
+            0.451
+          ],
+          "content": "**Deduction 4—What is the shape of a quadrilateral with all the** angles equal to $\\mathbf { 9 0 ^ { \\circ } ? }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.459,
+            0.847,
+            0.5
+          ],
+          "content": "？ Consider a quadrilateral ABCD with all angles measuring $9 0 ^ { \\circ }$ . What can we say about the opposite sides of such a quadrilateral?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.503,
+            0.811,
+            0.524
+          ],
+          "content": "Join BD. ∆BAD and ∆DCB seem congruent. Can we justify this claim?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.531,
+            0.483,
+            0.688
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.489,
+            0.579,
+            0.848,
+            0.638
+          ],
+          "content": "Two equalities can be directly seen in the triangles. What can we say about $\\angle 1$ and ∠2?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.695,
+            0.846,
+            0.733
+          ],
+          "content": "Recall that we tackled a very similar problem in Deduction 2. We can use the same reasoning here."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.152,
+            0.735,
+            0.483,
+            0.886
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.202,
+            0.889,
+            0.344,
+            0.907
+          ],
+          "content": "\\mathrm{Since} \\angle \\mathrm{B} = 90^{\\circ},",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.202,
+            0.908,
+            0.336,
+            0.926
+          ],
+          "content": "\\angle 3 + \\angle 1 = 90^{\\circ}.",
+          "image_source": "images/page_7_equation_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.502,
+            0.731,
+            0.838,
+            0.887
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.584,
+            0.89,
+            0.725,
+            0.909
+          ],
+          "content": "\\mathrm { I n }   \\Delta \\mathrm { B C D } , \\mathrm { s i n c e }",
+          "image_source": "images/page_7_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.585,
+            0.908,
+            0.778,
+            0.926
+          ],
+          "content": "\\angle 3 + \\angle 2 + 90^{\\circ} = 180^{\\circ},",
+          "image_source": "images/page_7_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.585,
+            0.926,
+            0.719,
+            0.945
+          ],
+          "content": "\\angle 3 + \\angle 2 = 90^{\\circ}.",
+          "image_source": "images/page_7_equation_20.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": "89"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

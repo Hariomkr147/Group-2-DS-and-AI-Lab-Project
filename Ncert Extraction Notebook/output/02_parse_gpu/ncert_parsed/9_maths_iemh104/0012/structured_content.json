@@ -1,0 +1,199 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Exploring Algebraic Identities"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "79"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.156,
+            0.106,
+            0.496,
+            0.342
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.534,
+            0.126,
+            0.885,
+            0.359
+          ],
+          "content": "Fig. 4.7 helps to visualise the product of $x \\quad + \\quad 3$ and $x \\; + \\; 4$ using algebra tiles. The expression $x + 3$ is represented using an x-tile and three unit tiles. Similarly $x \\quad + \\quad 4$ is represented using an x-tile and four unit tiles. The product of these two linear factors is shown in the inner rectangle comprising the $x \\mathrm { { - } t i l e } ,$ the x-tiles, and 12 unit tiles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.355,
+            0.487,
+            0.374
+          ],
+          "content": "Fig. 4.7: Factorisation o $f x ^ { 2 } + 7 x + 1 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.383,
+            0.887,
+            0.501
+          ],
+          "content": "Note that the 7x in $x^{2} + 7x + 12$ has been split as $3x \\pm 4x.$ This is represented by the fact that three x-tiles are placed on the right side of the x<sup>2</sup>-tile and four x-tiles are arranged below it. Also, the 12 unit tiles are arranged in a 3 by 4 array. Once the rectangular arrangement is formed, we observe that the dimensions of the rectangle are $x + 3$ and $x + 4$ units respectively."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.517,
+            0.399,
+            0.54
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.553,
+            0.855,
+            0.593
+          ],
+          "content": "Suppose 7x is split as $2x + 5x;$ can a similar rectangular arrangement be formed? Consider other possibilities and check."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.606,
+            0.718,
+            0.628
+          ],
+          "content": "Fig. 4.7 helps us to visualise two algebraic identities:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.635,
+            0.883,
+            0.677
+          ],
+          "content": "(i) The linear expressions $x \\mp 3$ and $x + 4$ can be multiplied to obtain the identity $(x + 3)(x + 4) = x^{2} + 7x + 12.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.68,
+            0.884,
+            0.742
+          ],
+          "content": "(ii) Also the expression $x^{2} + 7x + 12$ can be factored into the linear factors $( x   +   3 )$ and $( x   +   4 )$ , giving the same identity $x^{2} + 7x + 12 =$ $(x + 3)(x + 4)$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.129,
+            0.756,
+            0.396,
+            0.78
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.794,
+            0.768,
+            0.814
+          ],
+          "content": "Algebra tiles can be used to represent products and find factors."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.816,
+            0.765,
+            0.837
+          ],
+          "content": "1. Figure out the product of $x + 2$ and $x + 3$ using algebra tiles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.84,
+            0.854,
+            0.878
+          ],
+          "content": "2. Lay out algebra tiles for $x^{2} + 11x + 30$ in such a way that you will see its factors."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

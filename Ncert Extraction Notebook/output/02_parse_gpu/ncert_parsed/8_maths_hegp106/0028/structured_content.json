@@ -1,0 +1,237 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.089,
+            0.288,
+            0.109
+          ],
+          "level": 2,
+          "content": "Page No. 149"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.122,
+            0.294,
+            0.145
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.153,
+            0.741,
+            0.2
+          ],
+          "content": "1. Which is greater: $( a - b ) ^ { 2 }$ or $( b - a ) ^ { 2 } ?$ Justify your answer. **Ans.** Both are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.21,
+            0.634,
+            0.23
+          ],
+          "content": "2. Express 100 as the difference of two squares."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.236,
+            0.724,
+            0.256
+          ],
+          "content": "**Ans.** Try to find square numbers with a difference of 100."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.364,
+            0.26,
+            0.692,
+            0.482
+          ],
+          "content": "| a | b | Difference |\n| --- | --- | --- |\n| 25 | 125 | Not a square |\n| 36 | 136 | Not a square |\n| 49 | 149 | Not a square |\n| . |  |  |\n| . |  |  |\n| . |  |  |\n| 676 | 576 | Square |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.497,
+            0.379,
+            0.516
+          ],
+          "content": "676 – 576 = 100 or"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.203,
+            0.516,
+            0.346,
+            0.535
+          ],
+          "content": "26<sup>2</sup> – 24<sup>2</sup> = 100"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.537,
+            0.506,
+            0.556
+          ],
+          "content": "Check for more such numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.565,
+            0.846,
+            0.605
+          ],
+          "content": "3. Find 406<sup>2</sup>, 72<sup>2</sup>, 145<sup>2</sup>, 1097<sup>2</sup>, and 124<sup>2</sup> using the identities you have learnt so far."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.611,
+            0.205,
+            0.629
+          ],
+          "level": 2,
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.212,
+            0.634,
+            0.323,
+            0.655
+          ],
+          "content": "(i) 164836"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.659,
+            0.302,
+            0.679
+          ],
+          "content": "(ii) 5184"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.682,
+            0.312,
+            0.703
+          ],
+          "content": "(iii) 21025"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.706,
+            0.334,
+            0.727
+          ],
+          "content": "(iv) 1203409"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.731,
+            0.313,
+            0.751
+          ],
+          "content": "(v) 15376"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.761,
+            0.847,
+            0.817
+          ],
+          "content": "4. Do Patterns 1 and 2 hold only for counting numbers? Do they hold for negative integers as well? What about fractions? Justify your answer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.824,
+            0.847,
+            0.864
+          ],
+          "content": "**Ans.** Pattern 1 and Pattern 2 hold for all numbers. Verify it by taking different values for a and b."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.879,
+            0.923,
+            0.899,
+            0.945
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

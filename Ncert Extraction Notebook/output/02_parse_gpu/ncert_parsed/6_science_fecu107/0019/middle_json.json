@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:14:45+05:30",
+      "modified_at": "2026-03-27T11:31:45+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.168,
+            0.092,
+            0.733,
+            0.133
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Record your readings. Compare the readings and draw your conclusions. Repeat this for two weeks."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.14,
+            0.139,
+            0.719,
+            0.49
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.14,
+                0.139,
+                0.719,
+                0.49
+              ],
+              "image_path": "images/page_18_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.138,
+                0.509,
+                0.721,
+                0.528
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.11: Set up to measure temperature of water and room temperature"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.13,
+            0.585,
+            0.202,
+            0.635
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.13,
+                0.585,
+                0.202,
+                0.635
+              ],
+              "image_path": "images/page_18_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 4,
+              "bbox": [
+                0.114,
+                0.642,
+                0.217,
+                0.684
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "More to know!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.239,
+            0.601,
+            0.707,
+            0.786
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The temperature at the core of the Sun reaches as high as 15 million degrees Celsius. Are there objects in the sky that have even higher temperatures? There is no limit on the highest temperature that can exist. However, as per scientific understanding, there is a limit to the lowest temperature that can be achieved. It is close to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-273.15\\;^{\\circ} C"
+            },
+            {
+              "type": "text",
+              "content": " (0 kelvin) and is called absolute zero."
+            }
+          ]
+        },
+        {
+          "type": "aside_text",
+          "index": 6,
+          "bbox": [
+            0.866,
+            0.69,
+            0.886,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Temperature and its Measurement"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.86,
+            0.892,
+            0.894,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "141"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

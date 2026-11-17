@@ -1,0 +1,27 @@
+Do you think that plants can be grouped on the basis of venation present in their leaves?
+
+Now, let us try to **explore** roots of the plants. Do all plants have roots? Are these roots similar?
+
+## Activity 2.6: Let us find out
+
+ Visit an open area where wild herbs and grasses are growing. You may use small herbs for this exercise.
+
+ Using a khurpi (trowel), carefully dig out a few different herbs without damaging the roots. To do this, you may wet the soil and loosen it.
+
+Wash the roots with water and observe them.
+
+ After you are done observing, make sure to replant the herbs so that they may continue to thrive and grow.
+
+What are the similarities and differences in the roots of the plants collected by you? What differences do you see in the roots of plants shown in Fig. 2.5a and Fig. 2.5b?
+
+![](images/page_9_image_10.jpg)
+
+(a) Taproot system in a mustard plant
+
+![](images/page_9_image_12.jpg)
+
+(b) Fibrous root system in common grass
+
+Fig. 2.5: Types of roots
+
+Carefully observe the roots of a mustard plant in Fig. 2.5a. The roots of this plant consist of one main root and small side roots arising from it. The main root is called **taproot**. Another example of a plant having taproots is hibiscus observed by you in Activity 2.1. The plant in Fig. 2.5b is a common grass plant. The roots of this plant appear as a bunch of similar-sized thin roots arising from the base of the stem. Such roots are called **fibrous roots** (Fig. 2.5b). Does your collection include any other grasses? What kind of roots do they have?

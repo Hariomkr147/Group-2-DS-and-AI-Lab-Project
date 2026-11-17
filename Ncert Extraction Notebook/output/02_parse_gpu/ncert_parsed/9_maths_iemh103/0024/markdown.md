@@ -1,0 +1,17 @@
+Is the journey over? Are there more numbers waiting to be discovered beyond the Real Number line?
+
+## Think and Reflect
+
+Consider this puzzle: What is the square root of –1? We know that $1 \times 1 = 1$ We also know that $( - 1 ) \times ( - 1 ) = 1$ There is no Real Number that, when multiplied by itself, results in a negative number. Thus, $\sqrt { - 1 }$ cannot exist on number line.
+
+To solve this, mathematicians stepped completely off the line and invented a new dimension of numbers, denoted by the letter i, standing for **Imaginary Numbers**. While they sound like fiction, they are essential for modern electrical engineering, quantum mechanics, and the technology that powers your mobile phone. But that is a journey for another year. For now, master the Real Numbers. The universe is largely written in their language.
+
+## End-of-Chapter Exercises
+
+1. Convert the following rational numbers in the form of a terminating decimal or non-terminating and repeating decimal, whichever the case may be, by the process of long division: (i) $\frac { 3 } { 5 0 }$ (ii) $\frac{2}{9}$
+
+2. Prove that $\sqrt { 5 }$ is an irrational number.
+
+3. Convert the following decimal numbers in the form of $\frac { p } { q } ,$ (i) 12.6 (ii) 0.0120 (iii) 3.052 (iv) 1.235 (v) 0.23 (vi) 2.05 (vii) 2.125 (viii) 3.125 (ix) 2.1625
+
+4. Locate the following rational numbers on the number line. (i) 0.532 (ii) 1.15

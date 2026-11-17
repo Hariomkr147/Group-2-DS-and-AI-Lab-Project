@@ -1,0 +1,239 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.467,
+            0.042,
+            0.848,
+            0.059
+          ],
+          "content": "Sound Waves: Characteristics and Applications"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": "N 203"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.088,
+            0.359,
+            0.309
+          ],
+          "content": "Humans have adapted the same principle in underwater exploration through sonar (sound navigation and ranging). In sonar, ultrasonic waves are sent into water and the reflected waves are analysed to determine the distance, direction, and speed of underwater objects, such as submarines or shipwrecks (Fig. 10.28)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.368,
+            0.087,
+            0.841,
+            0.286
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.502,
+                0.292,
+                0.732,
+                0.308
+              ],
+              "content": "Fig. 10.28: Functioning of sonar"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.314,
+            0.774,
+            0.371
+          ],
+          "content": "**Example 10.6:** A naval sonar signal sent into seawater returns after 0.90 s. The speed of sound in seawater is $1 5 3 0 \\; \\mathrm { m \\; s ^ { - 1 } }$ . How far is the object? **Answer:** Time taken for the signal to reach the object and travel back = 0.90 s"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.37,
+            0.732,
+            0.405
+          ],
+          "content": "Time taken to reach the object is half of above time $\\frac{0.90    s }{2} = 0.45    s$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.406,
+            0.675,
+            0.425
+          ],
+          "content": "Thus, distance = speed × time = 1530 m s<sup>–1</sup> × 0.45 s = 688.5 m"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.101,
+            0.426,
+            0.172,
+            0.479
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.183,
+            0.444,
+            0.482,
+            0.463
+          ],
+          "level": 2,
+          "content": "Bridging Science and Society"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.48,
+            0.624,
+            0.575
+          ],
+          "content": "Drones (Fig. 10.29) and aircrafts produce characteristic sound from their motors and engines. Even when they are hard to see, the low frequency humming they generate can be detected using sensitive sound sensors. This method, called audio surveillance, helps monitor airspace for safety and security."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.645,
+            0.493,
+            0.772,
+            0.548
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.645,
+                0.568,
+                0.782,
+                0.583
+              ],
+              "content": "Fig. 10.29: A drone"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_11.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.202,
+            0.615,
+            0.392,
+            0.633
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.646,
+            0.813,
+            0.711
+          ],
+          "content": "13. Sound travels much farther in water than light, and thus, is used for various underwater applications. A sonar signal sent to find the depth of ocean takes 4 s to return. What is the depth of the ocean at that location if the speed of sound in seawater is 1500 m s<sup>–1</sup>?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.114,
+            0.736,
+            0.15,
+            0.77
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.75,
+            0.391,
+            0.769
+          ],
+          "level": 2,
+          "content": "The Quest Continues …"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.783,
+            0.816,
+            0.908
+          ],
+          "content": "Sound helps us explore places and phenomenon beyond human hearing. Space probes have recorded the first sounds from Mars, scientists are timing the sound of distant earthquakes to measure tiny changes in ocean temperature to understand the Earth’s changing climate, biologists are using the buzz of mosquitoes to identify disease-carrying mosquitoes, and researchers are listening to the tiny crackles produced by microbes in the soil to study soil health and biodiversity. As technology improves, sound is becoming an even more powerful tool to explore planets, living organisms, and the hidden activities of nature."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "ar-SA"
+      ],
+      "created_at": "2026-04-03T20:04:36+05:30",
+      "modified_at": "2026-05-13T10:46:25+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

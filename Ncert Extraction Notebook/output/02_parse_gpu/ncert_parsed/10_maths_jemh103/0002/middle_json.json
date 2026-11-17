@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.104,
+            0.475,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "25"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.139,
+            0.335,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us try this approach."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.164,
+            0.9,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Denote the number of rides that Akhila had by x, and the number of times she played Hoopla by y. Now the situation can be represented by the two equations:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.45,
+            0.211,
+            0.898,
+            0.25
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "y = \\frac{1}{2}x\\tag{1}"
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.392,
+            0.255,
+            0.898,
+            0.274
+          ],
+          "image_path": "images/page_1_equation_5.jpg",
+          "content": "3x + 4y = 20\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.281,
+            0.902,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we find the solutions of this pair of equations? There are several ways of finding these, which we will study in this chapter."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.096,
+            0.332,
+            0.779,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2 Graphical Method of Solution of a Pair of Linear Equations"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.095,
+            0.359,
+            0.902,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A pair of linear equations which has no solution, is called an inconsistent pair of linear equations. A pair of linear equations in two variables, which has a solution, is called a consistent pair of linear equations. A pair of linear equations which are equivalent has infinitely many distinct common solutions. Such a pair is called a dependent pair of linear equations in two variables. Note that a dependent pair of linear equations is always consistent."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.485,
+            0.9,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can now summarise the behaviour of lines representing a pair of linear equations in two variables and the existence of solutions as follows:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.165,
+            0.534,
+            0.9,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the lines may intersect in a single point. In this case, the pair of equations has a unique solution (consistent pair of equations)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.162,
+            0.581,
+            0.9,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the lines may be parallel. In this case, the equations have no solution (inconsistent pair of equations)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.158,
+            0.627,
+            0.9,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) the lines may be coincident. In this case, the equations have infinitely many solutions [dependent (consistent) pair of equations]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.148,
+            0.671,
+            0.602,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the following three pairs of equations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.165,
+            0.693,
+            0.775,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - 2y = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3x + 4y - 20 = 0"
+            },
+            {
+              "type": "text",
+              "content": " (The lines intersect)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.162,
+            0.716,
+            0.772,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x + 3y - 9 = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4x + 6y - 18 = 0"
+            },
+            {
+              "type": "text",
+              "content": " (The lines coincide)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.158,
+            0.739,
+            0.799,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + 2y - 4 = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x + 4y - 12 = 0"
+            },
+            {
+              "type": "text",
+              "content": " (The lines are parallel)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.097,
+            0.77,
+            0.901,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us now write down, and compare, the values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { a _ { 1 } } { a _ { 2 } } , \\frac { b _ { 1 } } { b _ { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { c _ { 1 } } { c _ { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " in all the three examples. Here, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { \\mathrm { 1 } } , \\; b _ { \\mathrm { 1 } } , \\; c _ { \\mathrm { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { _ 2 } , \\; b _ { _ 2 } , \\; c _ { _ 2 }"
+            },
+            {
+              "type": "text",
+              "content": " denote the coefficents of equations given in the general form in Section 3.2."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

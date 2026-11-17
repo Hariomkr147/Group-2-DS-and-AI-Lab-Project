@@ -1,0 +1,49 @@
+5. Verify which of the following statements are true.
+
+(i) $( k + 1 )   ( k + 2 ) - ( k + 3 )$ is always 2.
+
+(ii) $\left( 2 q + 1 \right) \left( 2 q - 3 \right)$ is a multiple of 4.
+
+(iii) Squares of even numbers are multiples of 4, and squares of odd numbers are 1 more than multiples of 8.
+
+(iv) $( 6 n + 2 ) ^ { 2 } - ( 4 n + 3 ) ^ { 2 }$ is 5 less than a square number.
+
+**Ans.**
+
+(i) False
+
+(ii) False
+
+(iii) True
+
+(iv) False
+
+6. A number leaves a remainder of 3 when divided by 7, and another number leaves a remainder of 5 when divided by 7. What is the remainder when their sum, difference, and product are divided by 7?
+
+**Ans.** Let $n _ { 1 } = 7 a + 3$ and $n _ { 2 } = 7 b + 5$
+
+(i) When adding both, the remainder is 1.
+
+(ii) When taking difference, the remainder is 2.
+
+(iii) When taking product, the remainder is 1.
+
+Choose three consecutive numbers, square the middle one, and subtract the product of the other two. Repeat the same with other sets of numbers. What pattern do you notice? How do we write this as an algebraic equation? Expand both sides of the equation to check that it is a true identity.
+
+**Ans.** Let (n – 1), n and (n + 1) be the consecutive numbers,
+
+Then $n^{2}-(n-1)(n+1)=n^{2}-(n^{2}-1)=1$
+
+Hence, the result is always ‘1’.
+
+Check for different sets of consecutive numbers.
+
+8. What is the algebraic expression describing the following steps— add any two numbers. Multiply this by half of the sum of the two numbers? Prove that this result will be half of the square of the sum of the two numbers.
+
+**Ans.** Let a and b be two numbers.
+
+Adding both = a + b
+
+Now multiplying this by half of the sum of two numbers.
+
+Then we get, $( a + b ) \times { \frac { 1 } { 2 } } ( a + b ) = { \frac { 1 } { 2 } } ( a + b ) ^ { 2 }$

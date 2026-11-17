@@ -1,0 +1,286 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": "INTRODUCTION TO TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "117"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.153,
+            0.278,
+            0.172
+          ],
+          "content": "From this, we find"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.418,
+            0.139,
+            0.628,
+            0.182
+          ],
+          "content": "\\frac{\\mathrm{MP}}{\\mathrm{AP}}=\\frac{\\mathrm{BC}}{\\mathrm{AC}}=\\sin\\mathrm{A}",
+          "image_source": "images/page_4_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.198,
+            0.19,
+            0.219
+          ],
+          "content": "Similarly,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.187,
+            0.865,
+            0.23
+          ],
+          "content": "\\frac{AM}{AP}=\\frac{AB}{AC}=\\cos A,\\frac{MP}{AM}=\\frac{BC}{AB}=\\tan A and so on.",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.237,
+            0.901,
+            0.276
+          ],
+          "content": "This shows that the trigonometric ratios of angle A in   PAM not differ from those of angle A in $\\Delta   \\mathrm { C A B }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.282,
+            0.902,
+            0.321
+          ],
+          "content": "In the same way, you should check that the value of sin A (and also of other trigonometric ratios) remains the same in   QAN also."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.326,
+            0.902,
+            0.385
+          ],
+          "content": "From our observations, it is now clear that **the values of the trigonometric ratios of an angle do not vary with the lengths of the sides of the triangle, if the angle remains the same.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.39,
+            0.902,
+            0.487
+          ],
+          "content": "**Note :** For the sake of convenience, we may write sin<sup>2</sup>A, cos<sup>2</sup>A, etc., in place of (sin $\\mathrm { A ) ^ { 2 } }$ , (cos $\\mathrm { A } ) ^ { 2 }$ , etc., respectively. But cosec $\\mathrm{A} \\equiv (\\sin \\mathrm{A})^{-1} \\neq \\sin^{-1} \\mathrm{A}$ (it is called sine inverse A). sin<sup>–1</sup> A has a different meaning, which will be discussed in higher classes. Similar conventions hold for the other trigonometric ratios as well. Sometimes, the Greek letter   (theta) is also used to denote an angle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.493,
+            0.901,
+            0.531
+          ],
+          "content": "We have defined six trigonometric ratios of an acute angle. If we know any one of the ratios, can we obtain the other ratios? Let us see."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.532,
+            0.518,
+            0.679
+          ],
+          "content": "If in a right triangle ABC, sin $\\left| \\mathrm { A } = { \\frac { 1 } { 3 } } , \\right.$ then this means that $\\frac { \\mathrm { B C } } { \\mathrm { A C } }   =   \\frac { 1 } { 3 }$ , i.e., the lengths of the sides BC and AC of the triangle ABC are in the ratio 1 : 3 (see Fig. 8.7). So if BC is equal to k, then AC will be 3k, where k is any positive number. To determine other"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.528,
+            0.532,
+            0.899,
+            0.671
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.679,
+            0.902,
+            0.737
+          ],
+          "content": "trigonometric ratios for the angle A, we need to find the length of the third side AB. Do you remember the Pythagoras theorem? Let us use it to determine the required length AB."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.314,
+            0.736,
+            0.808,
+            0.758
+          ],
+          "content": "\\mathrm{AB}^{2}=\\mathrm{AC}^{2}-\\mathrm{BC}^{2}=(3k)^{2}-(k)^{2}=8k^{2}=(2\\sqrt{2}\\ k)^{2}",
+          "image_source": "images/page_4_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.767,
+            0.205,
+            0.786
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.323,
+            0.764,
+            0.475,
+            0.786
+          ],
+          "content": "\\mathrm { A B } = \\pm   2 { \\sqrt { 2 } }   k",
+          "image_source": "images/page_4_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.799,
+            0.207,
+            0.818
+          ],
+          "content": "So, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.322,
+            0.795,
+            0.734,
+            0.819
+          ],
+          "content": "\\mathrm{AB} = 2\\sqrt{2}   k \\quad (\\mathrm{Why~is~AB~not~-2\\sqrt{2}~k~?})",
+          "image_source": "images/page_4_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.842,
+            0.155,
+            0.859
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.265,
+            0.825,
+            0.555,
+            0.869
+          ],
+          "content": "\\cos A = \\frac{AB}{AC} = \\frac{2\\sqrt{2}k}{3k} = \\frac{2\\sqrt{2}}{3}",
+          "image_source": "images/page_4_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.875,
+            0.758,
+            0.896
+          ],
+          "content": "Similarly, you can obtain the other trigonometric ratios of the angle A."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

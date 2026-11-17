@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–9 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–9 (11th Nov.)",
+      "description": "Chap–9 (11th Nov.)",
+      "created_at": "2022-08-17T11:57:18+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "140"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.319,
+            0.146,
+            0.715,
+            0.189
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "\\frac{\\mathrm{PD}}{\\mathrm{BD}} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}} \\quad  or  \\quad \\mathrm{BD} = \\mathrm{PD} \\sqrt{3}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.199,
+            0.351,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In right "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\; \\mathrm { P A C }"
+            },
+            {
+              "type": "text",
+              "content": " , we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.318,
+            0.231,
+            0.51,
+            0.272
+          ],
+          "image_path": "images/page_7_equation_4.jpg",
+          "content": "\\frac{PC}{AC} = \\tan 45^{\\circ} = 1"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.097,
+            0.283,
+            0.142,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.307,
+            0.155,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.326,
+            0.281,
+            0.772,
+            0.326
+          ],
+          "image_path": "images/page_7_equation_7.jpg",
+          "content": "\\begin{aligned} & PC  =  AC  \\\\& PC  =  PD  +  DC ,  therefore ,  PD  +  DC  =  AC .\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.338,
+            0.873,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A C } = \\mathrm { B D }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{DC} = \\mathrm{AB} = 8"
+            },
+            {
+              "type": "text",
+              "content": " m, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PD + 8 = BD = PD\\sqrt{3} (\\text{Why?})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.097,
+            0.398,
+            0.206,
+            0.418
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.326,
+            0.375,
+            0.829,
+            0.436
+          ],
+          "image_path": "images/page_7_equation_10.jpg",
+          "content": "\\mathrm{PD} = \\frac{8}{\\sqrt{3} - 1} = \\frac{8\\left( \\sqrt{3} + 1 \\right)}{\\left( \\sqrt{3} + 1 \\right)\\left( \\sqrt{3} - 1 \\right)} = 4\\left( \\sqrt{3} + 1 \\right)\\mathrm{m}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.096,
+            0.443,
+            0.895,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " the height of the multi-storeyed building is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left\\{ 4\\left( \\sqrt{3} + 1 \\right) + 8 \\right\\} = 4\\left( 3 + \\sqrt{3} \\right)"
+            },
+            {
+              "type": "text",
+              "content": " m and the distance between the two buildings is also "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4(3 + \\sqrt{3})  m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.095,
+            0.517,
+            0.902,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , respectively. If the bridge is at a height of 3 m from the banks, find the width of the river."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.58,
+            0.422,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In Fig 9.10, A and B represent points on the bank on opposite sides of the river, so that AB is the width of the river. P is a point on the bridge at a height of 3 m , i . e . , "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { D P } = 3 \\mathrm { ~ m } ."
+            },
+            {
+              "type": "text",
+              "content": " We are interested to determine the width of the river, which is the length of the side AB of the D APB."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.438,
+            0.588,
+            0.894,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.438,
+                0.588,
+                0.894,
+                0.676
+              ],
+              "image_path": "images/page_7_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 15,
+              "bbox": [
+                0.623,
+                0.693,
+                0.722,
+                0.712
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 9.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.098,
+            0.762,
+            0.157,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.255,
+            0.761,
+            0.423,
+            0.778
+          ],
+          "image_path": "images/page_7_equation_17.jpg",
+          "content": "\\mathrm{AB} = \\mathrm{AD} + \\mathrm{DB}"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.097,
+            0.786,
+            0.372,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In right "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  APD , \\angle  A = 30^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.832,
+            0.136,
+            0.849
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.217,
+            0.818,
+            0.369,
+            0.859
+          ],
+          "image_path": "images/page_7_equation_20.jpg",
+          "content": "\\tan   30^{\\circ}   =   \\frac{ PD }{ AD }"
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

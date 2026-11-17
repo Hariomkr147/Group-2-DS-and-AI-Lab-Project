@@ -1,0 +1,33 @@
+7. When divided by 7, the number 661 leaves a remainder of 3, and 4779 leaves a remainder of 5. Without calculating, can you say what remainders the following expressions will leave when divided by 7? Show the solution both algebraically and visually.
+
+(i) 4779 + 661 (ii) 4779 – 661
+
+8. Find a number that leaves a remainder of 2 when divided by 3, a remainder of 3 when divided by 4, and a remainder of 4 when divided by 5. What is the smallest such number? Can you give a simple explanation of why it is the smallest?
+
+## 5.2 Checking Divisibility Quickly
+
+Earlier, you have learnt shortcuts to check whether a given number, written in the Indian number system is divisible by 2, 4, 5, 8, and 10. Let us revisit them.
+
+**Divisibility by 10, 5, and 2:** If the units digit of a number is ‘0’, then it is divisible by 10. Let us understand why this works through algebra.
+
+We can write the general form of a number in the Indian system using a set of letter-numbers. For example, a 5-digit number can be expressed as, edcba denoting $e \times 10000 \pm \overline{d} \times 1000 \pm \overline{c} \times 100 + b \times 10 + a.$ The letter-numbers e, d, c, b, and a denote each digit of a 5-digit number.
+
+Any number can be written in general as…dcba, where the letternumbers a, b, c and d represent the units, tens, hundreds and thousands digit, respectively, and so on. As a sum of place values, this number is
+
+$$
++ 1000d + 100c + 10b + a
+$$
+
+(For example, in the number 4075, d = 4, c = 0, b = 7, and a = 5.)
+
+We know that each place value, with the exception of the units place, is a multiple of 10. So, 10b, 100c, … all will be multiples of 10. Hence, the number will be divisible by 10 if and only if the units digit a is 0.
+
+？ Similarly, explain using algebra why the divisibility shortcuts for 5, 2, 4, and 8 work.
+
+Let us now examine shortcuts to check divisibility by some other numbers and explain why they work!
+
+## A Shortcut for Divisibility by 9
+
+？ Can you say, without actually calculating, which of these numbers are divisible by 9: 999, 909, 900, 90, 990?
+
+All of them.

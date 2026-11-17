@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.537,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Division with a Decimal Divisor"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.115,
+            0.846,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? "
+            },
+            {
+              "type": "text",
+              "content": "Example 12:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ravi went from Pune to Matheran by scooter in 2.5 hours. The distance was 126 km. What was his average speed?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.16,
+            0.847,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can get the average speed by dividing the distance by the time taken."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.198,
+            0.246,
+            0.216
+          ],
+          "image_path": "images/page_17_equation_4.jpg",
+          "content": "1 2 6 \\div 2 . 5 ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.174,
+            0.221,
+            0.842,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the divisor is a decimal, we convert the divisor into a fraction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.246,
+            0.419,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "126 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{25}{10}=126\\times\\frac{10}{25}=\\frac{1260}{25}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.286,
+            0.749,
+            0.306
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With the long division procedure we find the quotient is 50.4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.31,
+            0.809,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the average speed at which Ravi travelled was 50.4 km per hour."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.111,
+            0.344,
+            0.431,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 13: Find 4.68 ÷ 1.3."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.37,
+            0.643,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Again converting the divisor into a fraction we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.4,
+            0.417,
+            0.437
+          ],
+          "image_path": "images/page_17_equation_11.jpg",
+          "content": "4.68 \\div \\frac{13}{10} = 4.68 \\times \\frac{10}{13} = \\frac{46.8}{13}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.44,
+            0.439,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, what about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4.68 \\div 0.13?"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.469,
+            0.563,
+            0.507
+          ],
+          "image_path": "images/page_17_equation_13.jpg",
+          "content": "4.68 \\div 0.13 = 4.68 \\div \\frac{13}{100} = 4.68 \\times \\frac{100}{13} = \\frac{468}{13}"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.518,
+            0.494,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What do you notice in these cases?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.551,
+            0.847,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the divisor is a decimal, we can convert it into a counting number by suitably multiplying it by 10, 100, 1000, and so on. We must also multiply the dividend by the same number. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.382,
+            0.613,
+            0.615,
+            0.651
+          ],
+          "image_path": "images/page_17_equation_16.jpg",
+          "content": "\\frac{4.68}{0.13} = \\frac{4.68 \\times 100}{0.13 \\times 100} = \\frac{468}{13}"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.654,
+            0.846,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Once we convert the divisor into a counting number, we can then follow the division using place value procedure to find the quotient."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.711,
+            0.402,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Does This Ever End?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.111,
+            0.735,
+            0.715,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Can you calculate 10 ÷ 3? Try dividing using long division."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.152,
+            0.762,
+            0.374,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10 1 Tens + 0 Ones."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.15,
+            0.786,
+            0.846,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Regroup 1 Tens into 10 Ones. 10 Ones ÷ 3 3 Ones, and 1 Ones remain."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.151,
+            0.829,
+            0.846,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Regroup 1 Ones as 10 Tenths. 10 Tenths ÷ 3 3 Tenths, and 1 Tenths remain."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.16,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "84"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

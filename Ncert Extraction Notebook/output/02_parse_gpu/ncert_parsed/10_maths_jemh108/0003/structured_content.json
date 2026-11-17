@@ -1,0 +1,235 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": "INTRODUCTION TO TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "115"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.149,
+            0.548,
+            0.208
+          ],
+          "content": "Note that the position of sides change when you consider angle C in place of A (see Fig. 8.5)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.213,
+            0.548,
+            0.291
+          ],
+          "content": "You have studied the concept of ‘ratio’ in your earlier classes. We now define certain ratios involving the sides of a right triangle, and call them trigonometric ratios."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.296,
+            0.548,
+            0.353
+          ],
+          "content": "**The trigonometric ratios** of the angle A in right triangle ABC (see Fig. 8.4) are defined as follows :"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.626,
+            0.146,
+            0.887,
+            0.347
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.702,
+                0.354,
+                0.79,
+                0.373
+              ],
+              "content": "Fig. 8.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.361,
+            0.592,
+            0.405
+          ],
+          "content": "\\mathrm{sine~of~\\angle A} = \\frac{\\mathrm{side~opposite~to~angle~A}}{\\mathrm{hypotenuse}} = \\frac{\\mathrm{BC}}{\\mathrm{AC}}",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.146,
+            0.417,
+            0.612,
+            0.463
+          ],
+          "content": "\\mathrm{cosine\\ of\\ \\angle A=\\frac{side\\ adjacent\\ to\\ angle\\ A}{hypotenuse}=\\frac{AB}{AC}}",
+          "image_source": "images/page_2_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.146,
+            0.471,
+            0.619,
+            0.516
+          ],
+          "content": "\\mathrm{tangent of} \\angle \\mathrm{A}=\\frac{\\mathrm{side opposite to angle}}{\\mathrm{side adjacent to angle}}=\\frac{\\mathrm{BC}}{\\mathrm{AB}}",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.524,
+            0.782,
+            0.568
+          ],
+          "content": "\\mathrm{cosecant of} \\angle \\mathrm{A}=\\frac{1}{\\mathrm{sine of} \\angle \\mathrm{A}}=\\frac{\\mathrm{hypot} \\bar{\\mathrm{s}} \\mathrm{a} \\mathrm{s}}{\\mathrm{side} opposite to a�除 \\mathrm{A}}=\\frac{\\mathrm{AC}}{\\mathrm{BC}}",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.146,
+            0.574,
+            0.782,
+            0.619
+          ],
+          "content": "\\mathrm{sccant~of~ \\angle A} = \\frac{1}{\\mathrm{cosine~of~ \\angle A}} = \\frac{\\mathrm{hypotenuse}}{\\mathrm{side~adjacent~to~angle~A}} = \\frac{\\mathrm{AC}}{\\mathrm{AB}}",
+          "image_source": "images/page_2_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.627,
+            0.825,
+            0.674
+          ],
+          "content": "cotangent of $\\angle \\mathrm{A} = \\frac{1}{1   agent of   \\angle \\mathrm{A}} = \\frac{ side adjacent to angle   \\mathrm{A}}{ side opposite to angle   \\mathrm{A}} = \\frac{\\mathrm{AB}}{\\mathrm{BC}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.684,
+            0.901,
+            0.742
+          ],
+          "content": "The ratios defined above are abbreviated as sin A, cos A, tan A, cosec A, sec A and cot A respectively. Note that the ratios **cosec A, sec A and cot A** are respectively, the reciprocals of the ratios sin A, cos A and tan A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.75,
+            0.796,
+            0.829
+          ],
+          "content": "Also, observe that tan $\\frac{BC}{AB} = \\frac{\\frac{BC}{AC}}{\\frac{AB}{AC}} = \\frac{\\sin A}{\\cos A}$ and cot $\\mathrm { A } = { \\frac { \\cos \\mathrm { A } } { \\sin \\mathrm { A } } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.831,
+            0.901,
+            0.87
+          ],
+          "content": "So, the **trigonometric ratios** of an acute angle in a right triangle express the relationship between the angle and the length of its sides."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.873,
+            0.902,
+            0.913
+          ],
+          "content": "Why don’t you try to define the trigonometric ratios for angle C in the right triangle? (See Fig. 8.5)"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,491 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.256,
+            0.095,
+            0.751,
+            0.122
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.101,
+            0.136,
+            0.751,
+            0.168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. A ray of light travelling in air enters obliquely into water. Does the light ray bend towards the normal or away from the normal? Why?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.099,
+            0.172,
+            0.749,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Light enters from air to glass having refractive index 1.50. What is the",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " speed of light in the glass? The speed of light in vacuum is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times 1 0 ^ { 8 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m s",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "bold",
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1,
+            0.209,
+            0.75,
+            0.241
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Find out, from Table 9.3, the medium having highest optical density. Also find the medium with lowest optical density.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.1,
+            0.244,
+            0.751,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. You are given kerosene, turpentine and water. In which of these does the light travel fastest? Use the information given in Table 9.3.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.101,
+            0.281,
+            0.75,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. The refractive index of diamond is 2.42. What is the meaning of this statement?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.772,
+            0.172,
+            0.894,
+            0.318
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.772,
+                0.172,
+                0.894,
+                0.318
+              ],
+              "image_path": "images/page_16_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.275,
+            0.342,
+            0.669,
+            0.361
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.3.3 Refraction by Spherical Lenses"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.274,
+            0.37,
+            0.9,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You might have seen watchmakers using a small magnifying glass to see tiny parts. Have you ever touched the surface of a magnifying glass with your hand? Is it plane surface or curved? Is it thicker in the middle or at the edges? The glasses used in spectacles and that by a watchmaker are examples of lenses. What is a lens? How does it bend light rays? We shall discuss these in this section.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.306,
+            0.467,
+            0.899,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A transparent material bound by two surfaces, of which one or both",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.114,
+            0.484,
+            0.459,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.114,
+                0.484,
+                0.459,
+                0.619
+              ],
+              "image_path": "images/page_16_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.079,
+            0.639,
+            0.454,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.256,
+                0.624,
+                0.278,
+                0.638
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(a)"
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.079,
+                0.639,
+                0.454,
+                0.777
+              ],
+              "image_path": "images/page_16_image_13.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 14,
+              "bbox": [
+                0.081,
+                0.779,
+                0.189,
+                0.794
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 9.12"
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "index": 15,
+              "bbox": [
+                0.081,
+                0.794,
+                0.459,
+                0.822
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(a) Converging action of a convex lens, (b) diverging action of a concave lens"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.475,
+            0.483,
+            0.9,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "surfaces are spherical, forms a lens. This means that a lens is bound by at least one spherical surface. In such lenses, the other surface would be plane. A lens may have two spherical surfaces, bulging outwards. Such a lens is called a double convex lens. It is simply called a convex lens. It is thicker at the middle as compared to the edges. Convex lens converges light rays as shown in Fig. 9.12 (a). Hence convex lenses are also called converging lenses. Similarly, a double concave lens is bounded by two spherical surfaces, curved inwards. It is thicker at the edges than at the middle. Such lenses diverge light rays as shown in Fig. 9.12 (b). Such lenses are also called diverging lenses. A double concave lens is simply called a concave lens.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.475,
+            0.74,
+            0.899,
+            0.837
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A lens, either a convex lens or a concave lens, has two spherical surfaces. Each of these surfaces forms a part of a sphere. The centres of these spheres are called centres of curvature of the lens. The centre of curvature of a lens is usually represented by the letter C. Since there are two",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.275,
+            0.836,
+            0.9,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "centres of curvature, we may represent them as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } _ { \\mathrm { { i } } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { C } _ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "An imaginary straight line passing through the two centres of curvature of a lens is called its principal axis. The central point of a lens is its optical centre. It is",
+              "styles": [
+                "bold"
+              ]
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.091,
+            0.917,
+            0.124,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "150"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

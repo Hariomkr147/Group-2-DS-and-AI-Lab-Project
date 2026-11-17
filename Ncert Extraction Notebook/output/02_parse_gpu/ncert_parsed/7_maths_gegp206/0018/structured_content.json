@@ -1,0 +1,213 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.639,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Constructions and Tilings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.435,
+            0.109
+          ],
+          "content": "**Construction of a** $6 0 ^ { \\circ }$ **angle**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.111,
+            0.484,
+            0.135
+          ],
+          "content": "How do we construct a $6 0 ^ { \\circ }$ angle?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.138,
+            0.846,
+            0.176
+          ],
+          "content": "We get a $6 0 ^ { \\circ }$ angle if we construct an equilateral triangle! We can use the following steps for this."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.176,
+            0.747,
+            0.197
+          ],
+          "content": "Suppose we need a $6 0 ^ { \\circ }$ angle at point A on a line segment AX."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.2,
+            0.222,
+            0.221
+          ],
+          "content": "**Step 1**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.372,
+            0.24,
+            0.615,
+            0.31
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.267,
+            0.319,
+            0.721,
+            0.339
+          ],
+          "content": "Construct an arc with centre A and any radius."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.359,
+            0.222,
+            0.381
+          ],
+          "content": "**Step 2**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.402,
+            0.38,
+            0.508,
+            0.491
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.514,
+            0.792,
+            0.554
+          ],
+          "content": "With the same radius, cut another arc from B that meets the first arc. Let C be the point at which the arcs meet."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.576,
+            0.369,
+            0.597
+          ],
+          "content": "We have $\\angle CAX = 60^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.611,
+            0.709,
+            0.659
+          ],
+          "content": "Why is $\\angle CAX = 60^{\\circ}?$ Is there an equilateral triangle here? We can use these ideas to construct a regular hexagon —"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.383,
+            0.675,
+            0.638,
+            0.804
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.853,
+            0.618,
+            0.878
+          ],
+          "content": "Construct a regular hexagon of sidelength 5 cm."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.807,
+            0.933,
+            0.845,
+            0.95
+          ],
+          "content": "153"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

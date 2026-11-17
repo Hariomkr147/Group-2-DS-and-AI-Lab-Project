@@ -1,0 +1,239 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.639,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Constructions and Tilings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.846,
+            0.126
+          ],
+          "content": "Covering a region using a set of shapes, without gaps or overlaps, is called **tiling**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.127,
+            0.681,
+            0.146
+          ],
+          "content": "Consider a rectangu<u>lar grid made of unit square</u>s —"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.367,
+            0.149,
+            0.644,
+            0.297
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.314,
+            0.718,
+            0.334
+          ],
+          "content": "We call this a $4 \\times 6$ grid, since it has 4 rows and 6 columns."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.343,
+            0.722,
+            0.389
+          ],
+          "content": "? Can a $4 \\times 6$ grid be tiled using multiple copies of $2 \\times 1$ tiles? We are allowed to rotate a $2 \\times 1$ tile and use it."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.328,
+            0.904,
+            0.383
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.343,
+            0.399,
+            0.401,
+            0.478
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.33,
+                0.483,
+                0.415,
+                0.497
+              ],
+              "content": "Vertical tile"
+            }
+          ],
+          "image_source": "images/page_21_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.561,
+            0.434,
+            0.671,
+            0.48
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.556,
+                0.484,
+                0.666,
+                0.499
+              ],
+              "content": "Horizontal tile"
+            }
+          ],
+          "image_source": "images/page_21_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.512,
+            0.316,
+            0.531
+          ],
+          "content": "Here is one way."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.315,
+            0.532,
+            0.672,
+            0.706
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.719,
+            0.584,
+            0.74
+          ],
+          "content": "Obviously, this is not the only tiling possible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.752,
+            0.546,
+            0.776
+          ],
+          "content": "Can a $4 \\times 7$ grid be tiled using $2 \\times 1$ tiles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.788,
+            0.394,
+            0.812
+          ],
+          "content": "What about a $5 \\times 7$ grid?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.815,
+            0.847,
+            0.855
+          ],
+          "content": "To see that there is no way to tile a $5 \\times 7$ grid using $2 \\times 1$ tiles, observe that this grid has 35 unit squares. Each tile covers exactly 2 unit squares."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.806,
+            0.933,
+            0.845,
+            0.95
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

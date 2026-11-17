@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 1,
+          "bbox": [
+            0.219,
+            0.084,
+            0.792,
+            0.184
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 1,
+              "bbox": [
+                0.219,
+                0.084,
+                0.792,
+                0.184
+              ],
+              "image_path": "images/page_5_chart_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.195,
+            0.555,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can see that the average has doubled."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.176,
+            0.216,
+            0.465,
+            0.234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us prove it using algebra."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.233,
+            0.846,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose there are n values in the collection. Let these values be represented by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X_{1},X_{2},X_{3},\\ldots X_{n}."
+            },
+            {
+              "type": "text",
+              "content": " Their average is —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.392,
+            0.274,
+            0.608,
+            0.303
+          ],
+          "image_path": "images/page_5_equation_5.jpg",
+          "content": "\\frac{X_{1}^{'} + X_{2}^{'} + X_{3}^{'} + \\cdots + X_{n}^{'}}{n} = a."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.307,
+            0.848,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When a fixed number, for example, 5 is multiplied to every value in the collection, the new average becomes —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.247,
+            0.348,
+            0.753,
+            0.472
+          ],
+          "image_path": "images/page_5_equation_7.jpg",
+          "content": "\\begin{aligned}\\underbrace{\\frac{(5x_{1})_{+}(5x_{2})_{+}(5x_{3})_{+}\\cdots+(5x_{n})}{n}}_{} \\\\= \\frac{\\begin{array}{c}(x_{1} + x_{2} + x_{3} + \\cdots + x_{n}) \\times 5 \\\\n \\\\\\end{array}( using the distribution property )}{\\underbrace{\\begin{array}{c}(x_{1} + x_{2} + x_{3} + \\cdots + x_{n}) \\\\n \\\\\\end{array}}_{ 产  5a.}} \\times 5.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.176,
+            0.476,
+            0.83,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, the new average is 5 times more than the previous average."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.153,
+            0.51,
+            0.434,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Tinkering with Median"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.542,
+            0.846,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that the median is the middle value in the sorted data — there are an equal number of values less than it and greater than it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.113,
+            0.59,
+            0.847,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Will including a new value to the data increase or decrease the median? Let us consider the following data. The median of this data is 8."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.307,
+            0.647,
+            0.718,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.307,
+                0.647,
+                0.718,
+                0.715
+              ],
+              "image_path": "images/page_5_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.305,
+            0.739,
+            0.608,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.305,
+                0.739,
+                0.608,
+                0.8
+              ],
+              "image_path": "images/page_5_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 14,
+          "bbox": [
+            0.306,
+            0.816,
+            0.731,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 14,
+              "bbox": [
+                0.306,
+                0.816,
+                0.731,
+                0.884
+              ],
+              "image_path": "images/page_5_chart_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.08,
+            0.913,
+            0.131,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "108"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

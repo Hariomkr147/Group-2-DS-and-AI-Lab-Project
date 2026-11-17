@@ -1,0 +1,127 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.067
+          ],
+          "content": "Exploring Some Geometric Themes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.088,
+            0.846,
+            0.127
+          ],
+          "content": "? Find another object that makes the same projection as that of a given cone."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.139,
+            0.847,
+            0.233
+          ],
+          "content": "For this reason, we often take three mutually perpendicular projections of an object. As shown in the figure, we consider a plane in front of the object called the **vertical plane**, a plane below the object called the **horizontal plane** and a plane to the side of the object called the **side plane**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.213,
+            0.24,
+            0.844,
+            0.662
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.677,
+            0.847,
+            0.772
+          ],
+          "content": "We give names to the projections on these three planes based on the directions from which the object is viewed. The projection on the vertical plane is called the **front view**, on the horizontal plane the **top view** and on the side plane the **side view**. These projections formalise the notion of profiles that we explored in an earlier section."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.78,
+            0.845,
+            0.82
+          ],
+          "content": "？ Let us see what these projections are for the objects shown in Fig. 4.6, when the planes shown are taken to be vertical planes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.822,
+            0.591,
+            0.844
+          ],
+          "content": "Projections of the different lines in Fig. 4.6 —"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.913,
+            0.911,
+            0.935
+          ],
+          "content": "91"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

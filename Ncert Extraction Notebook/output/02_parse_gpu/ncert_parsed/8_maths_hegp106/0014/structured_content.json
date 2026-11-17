@@ -1,0 +1,243 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.624,
+            0.261,
+            0.744,
+            0.306
+          ],
+          "content": "What do we get when this piece is moved?"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.088,
+            0.211,
+            0.106
+          ],
+          "level": 2,
+          "content": "Hint:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.236,
+            0.099,
+            0.745,
+            0.318
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.345,
+            0.848,
+            0.403
+          ],
+          "content": "Sridharacharya (750 CE) gave an interesting method to quickly compute the squares of numbers using Identity 1C! Consider the following modified form of this identity —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.394,
+            0.405,
+            0.605,
+            0.425
+          ],
+          "content": "a^{2}=(a+b)(a-b)+b^{2}",
+          "image_source": "images/page_13_equation_5.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.441,
+            0.403,
+            0.464
+          ],
+          "level": 2,
+          "content": "？ Why is this identity true?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.469,
+            0.75,
+            0.49
+          ],
+          "content": "Now, for example, $3 1 ^ { 2 }$ can be found by taking $a \\equiv 3 1$ and $b = 1$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.43,
+            0.492,
+            0.678,
+            0.573
+          ],
+          "content": "\\begin{aligned}31^{2} &= (31 + 1)(31 - 1) + 1^{2} \\\\&= 32 \\times 30 + 1 \\\\&= 961.\\end{aligned}",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.576,
+            0.621,
+            0.598
+          ],
+          "content": "$1 9 7 ^ { 2 }$ can be found by taking $a = 1 9 7 ,$ and $b = 3$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.6,
+            0.692,
+            0.681
+          ],
+          "content": "\\begin{aligned}197^{2} &= (197 + 3) (197 - 3) + 3^{2} \\\\&= 200 \\times 194 + 9 \\\\&= 38809.\\end{aligned}",
+          "image_source": "images/page_13_equation_10.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.697,
+            0.293,
+            0.72
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.722,
+            0.733,
+            0.744
+          ],
+          "content": "1. Which is greater: $( a - b ) ^ { 2 }$ or $( b - a ) ^ { 2 } ?$ Justify your answer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.752,
+            0.625,
+            0.773
+          ],
+          "content": "2. Express 100 as the difference of two squares."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.813,
+            0.714,
+            0.901,
+            0.82
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.781,
+            0.798,
+            0.821
+          ],
+          "content": "3. Find 406<sup>2</sup>, 72<sup>2</sup>, 145<sup>2</sup>, $1 0 9 7 ^ { 2 } ,$ and $1 2 4 ^ { 2 }$ using the identities you have learnt so far."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.831,
+            0.798,
+            0.888
+          ],
+          "content": "4. Do Patterns 1 and 2 hold only for counting numbers? Do they hold for negative integers as well? What about fractions? Justify your answer."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.915,
+            0.918,
+            0.936
+          ],
+          "content": "149"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

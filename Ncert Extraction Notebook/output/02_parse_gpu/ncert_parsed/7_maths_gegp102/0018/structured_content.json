@@ -1,0 +1,376 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.652,
+            0.047,
+            0.848,
+            0.063
+          ],
+          "content": "Arithmetic Expressions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.085,
+            0.652,
+            0.108
+          ],
+          "content": "**Example 17:** Given $53 \\times 18 = 954.$ Find out $6 3 \\times 1 8 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.112,
+            0.45,
+            0.131
+          ],
+          "content": "As 63 × 18 means 63 times 18,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.131,
+            0.406,
+            0.204
+          ],
+          "content": "63 × 18 = (53 + 10) × 18 = 53 ×18 + 10×18 = 954 + 180 = 1134."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.213,
+            0.715,
+            0.236
+          ],
+          "content": "**Example 18:** Find an effective way of evaluating $9 7 \\times 2 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.239,
+            0.42,
+            0.258
+          ],
+          "content": "97 × 25 means 97 times 25."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.258,
+            0.493,
+            0.276
+          ],
+          "content": "We can write it as $( 1 0 0 - 3 ) \\times 2 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.276,
+            0.849,
+            0.313
+          ],
+          "content": "We know that this is the same as the difference of 100 times 25 and 3 times 25:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.369,
+            0.318,
+            0.629,
+            0.338
+          ],
+          "content": "9 7 \\times 2 5 = 1 0 0 \\times 2 5 - 3 \\times 2 5",
+          "image_source": "images/page_17_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.343,
+            0.335,
+            0.362
+          ],
+          "content": "Find this value."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.37,
+            0.621,
+            0.394
+          ],
+          "content": "Use this method to find the following products:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182,
+            0.408,
+            0.296,
+            0.427
+          ],
+          "content": "(a) $9 5 \\times 8$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182,
+            0.431,
+            0.318,
+            0.452
+          ],
+          "content": "(b) $1 0 4 \\times 1 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182,
+            0.456,
+            0.307,
+            0.476
+          ],
+          "content": "(c) $4 9 \\times 5 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.486,
+            0.848,
+            0.507
+          ],
+          "content": "Is this quicker than the multiplication procedure you use generally?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.514,
+            0.783,
+            0.537
+          ],
+          "content": "? Which other products might be quicker to find like the ones above?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.504,
+            0.905,
+            0.555
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.544,
+            0.294,
+            0.567
+          ],
+          "content": "**Figure it Out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.57,
+            0.848,
+            0.608
+          ],
+          "content": "1. Fill in the blanks with numbers, and boxes by signs, so that the expressions on both sides are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.612,
+            0.497,
+            0.632
+          ],
+          "content": "(a) $3 \\times (6 + 7) = 3 \\times 6 \\pm 3 \\times 7$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.253,
+            0.637,
+            0.491,
+            0.655
+          ],
+          "content": "( 8 + 3 ) \\times 4 = 8 \\times 4 + 3 \\times 4",
+          "image_source": "images/page_17_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.66,
+            0.557,
+            0.682
+          ],
+          "content": "(c) $3 \\times (5 + 8) = 3 \\times 5 \\boxed{\\quad} 3 \\times \\underline{\\quad}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.686,
+            0.553,
+            0.707
+          ],
+          "content": "(d) $(9 + 2) \\times 4 = 9 \\times 4$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.712,
+            0.512,
+            0.731
+          ],
+          "content": "(e) $3 \\times ( \\frac{ 寳 }{ 寳 } + 4 ) = 3 \\frac{ 寳 }{ 寳 } + \\frac{ 寳 }{ 寳 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.735,
+            0.518,
+            0.755
+          ],
+          "content": "(f) $( \\frac{1}{2} + 6 ) \\times 4 = 13 \\times 4 + \\frac{1}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.759,
+            0.536,
+            0.779
+          ],
+          "content": "(g) $3 \\times ( \\underline{\\hspace{1cm}} + \\underline{\\hspace{1cm}} ) = 3 \\times 5 + 3 \\times 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.783,
+            0.545,
+            0.802
+          ],
+          "content": "(h) $( \\underline{\\hspace{1cm}} + \\underline{\\hspace{1cm}} ) \\times \\underline{\\hspace{1cm}} = 2 \\times 4 + 3 \\times 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.808,
+            0.518,
+            0.827
+          ],
+          "content": "(i) $5 \\times (9 - 2) = 5 \\times 9 - 5 \\times \\underline{\\hspace{1cm}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.831,
+            0.516,
+            0.851
+          ],
+          "content": "(j) $(5 - 2) \\times 7 = 5 \\times 7 - 2 \\times \\underline{\\quad}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.855,
+            0.556,
+            0.877
+          ],
+          "content": "(k) $5 \\times (8 - 3) = 5 \\times 8 \\boxed{\\quad} 5 \\times$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.881,
+            0.531,
+            0.903
+          ],
+          "content": "(l) $(8 - 3) \\times 7 = 8 \\times 7 \\boxed{\\quad} 3 \\times 7$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.81,
+            0.937,
+            0.843,
+            0.955
+          ],
+          "content": "41"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:14:35+05:30",
+      "modified_at": "2026-04-07T17:14:43+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

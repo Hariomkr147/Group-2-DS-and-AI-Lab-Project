@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.229,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REAL NUMBERS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.884,
+            0.105,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.138,
+            0.634,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The prime factorisation of 96 and 404 gives :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.371,
+            0.163,
+            0.637,
+            0.182
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "9 6 = 2 ^ { 5 } \\times 3 , 4 0 4 = 2 ^ { 2 } \\times 1 0 1"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.189,
+            0.589,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the HCF of these two integers is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { 2 } = 4"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.098,
+            0.234,
+            0.155,
+            0.252
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.319,
+            0.222,
+            0.826,
+            0.264
+          ],
+          "image_path": "images/page_4_equation_6.jpg",
+          "content": "\\mathrm{LCM}(96,404)=\\frac{96 \\times 404}{\\mathrm{HCF}(96,404)}=\\frac{96 \\times 404}{4}=9696"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.284,
+            0.901,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the HCF and LCM of 6, 72 and 120, using the prime factorisation method."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.329,
+            0.307,
+            0.347
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We have :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.39,
+            0.353,
+            0.778,
+            0.372
+          ],
+          "image_path": "images/page_4_equation_9.jpg",
+          "content": "6 = 2 \\times 3, \\; 72 = 2^3 \\times 3^2, \\; 120 = 2^3 \\times 3 \\times 5"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.378,
+            0.899,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " are the smallest powers of the common factors 2 and 3, respectively. So, HCF (6, 72, 120) = 2"
+            },
+            {
+              "type": "text",
+              "content": "1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × 3"
+            },
+            {
+              "type": "text",
+              "content": "1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 2 × 3 = 6"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.432,
+            0.9,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 ^ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " are the greatest powers of the prime factors 2, 3 and 5 respectively involved in the three numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.479,
+            0.668,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, LCM (6, 72, 120) = 2"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × 3"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × 5"
+            },
+            {
+              "type": "text",
+              "content": "1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 360"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.515,
+            0.901,
+            0.557
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Notice, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 \\times 72 \\times 120 \\neq  HCF"
+            },
+            {
+              "type": "text",
+              "content": " (6, 72, 120) × LCM (6, 72, 120). So, the product of three numbers is not equal to the product of their HCF and LCM."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.298,
+            0.569,
+            0.368,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.298,
+                0.569,
+                0.368,
+                0.611
+              ],
+              "image_path": "images/page_4_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.408,
+            0.582,
+            0.589,
+            0.602
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISE 1.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.123,
+            0.613,
+            0.872,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Express each number as a product of its prime factors: (i) 140 (ii) 156 (iii) 3825 (iv) 5005 (v) 7429"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.123,
+            0.659,
+            0.9,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the LCM and HCF of the following pairs of integers and verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{LCM} \\times \\mathrm{HCF} ="
+            },
+            {
+              "type": "text",
+              "content": " product of the two numbers. (i) 26 and 91 (ii) 510 and 92 (iii) 336 and 54"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.725,
+            0.899,
+            0.786
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the LCM and HCF of the following integers by applying the prime factorisation method. (i) 12, 15 and 21 (ii) 17, 23 and 29 (iii) 8, 9 and 25"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.124,
+            0.791,
+            0.596,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Given that HCF (306, 657) = 9, find LCM (306, 657)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.124,
+            0.816,
+            0.739,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Check whether "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " can end with the digit 0 for any natural number n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.124,
+            0.841,
+            0.878,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Explain why "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7 \\times 1 1 \\times 1 3 + 1 3"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 + 5"
+            },
+            {
+              "type": "text",
+              "content": " are composite numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.124,
+            0.866,
+            0.902,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " There is a circular path around a sports field. Sonia takes 18 minutes to drive one round of the field, while Ravi takes 12 minutes for the same. Suppose they both start at the"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

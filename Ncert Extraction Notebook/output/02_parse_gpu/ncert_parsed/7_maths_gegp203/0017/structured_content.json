@@ -1,0 +1,254 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.087,
+            0.847,
+            0.128
+          ],
+          "content": "？ Do you see that, in each case, the number by which the LCM is multiplied to get the product is actually the HCF?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.132,
+            0.7,
+            0.152
+          ],
+          "content": "Thus, our observations seem to suggest the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.293,
+            0.157,
+            0.704,
+            0.177
+          ],
+          "content": "HCF × LCM = Product of the two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.185,
+            0.755,
+            0.209
+          ],
+          "content": "Why does this happen? Can you give an explanation or proof?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.826,
+            0.165,
+            0.928,
+            0.221
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.217,
+            0.848,
+            0.334
+          ],
+          "content": "**[Hint:** Consider the prime factorisation of the given numbers. Among their prime factors, some are common to both factorisations, and the rest occur in only one of them. Between the HCF and the LCM, see how the common and non-common prime factors get distributed. In the product, observe how these two kinds of prime factors occur. Compare them.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.342,
+            0.824,
+            0.366
+          ],
+          "content": "Explore whether this property holds when 3 numbers are considered."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.831,
+            0.325,
+            0.93,
+            0.381
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.386,
+            0.315,
+            0.409
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.413,
+            0.846,
+            0.452
+          ],
+          "content": "1. In the two rows below, colours repeat as shown. When will the blue stars meet next?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.167,
+            0.464,
+            0.814,
+            0.555
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.572,
+            0.695,
+            0.591
+          ],
+          "content": "2. (a) Is $5 \\times 7 \\times 11 \\times 11$ a multiple of $5 \\times 7 \\times 7 \\times 11 \\times 2 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.591,
+            0.674,
+            0.61
+          ],
+          "content": "(b) Is $5 \\times 7 \\times 11 \\times 11$ a factor of $5 \\times 7 \\times 7 \\times 11 \\times 2 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.616,
+            0.846,
+            0.654
+          ],
+          "content": "3. Find the HCF and LCM of the following (state your answers in the form of prime factorisations):"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.66,
+            0.531,
+            0.679
+          ],
+          "content": "(a) $3 \\times 3 \\times 5 \\times 7 \\times 7$ and $1 2 \\times 7 \\times 1 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.685,
+            0.334,
+            0.703
+          ],
+          "content": "(b) 45 and 36"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.709,
+            0.667,
+            0.729
+          ],
+          "content": "4. Find two numbers whose HCF is 1 and LCM is 66."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.735,
+            0.849,
+            0.869
+          ],
+          "content": "5. A cowherd took all his cows to graze in the fields. The cows came to a crossing with 3 gates. An equal number of cows passed through each gate. Later at another crossing with 5 gates again an equal number of cows passed through each gate. The same happened at the third crossing with 7 gates. If the cowherd had less than 200 cows, how many cows did he have? (Based on the folklore mathematics from Karnataka.)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "63"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

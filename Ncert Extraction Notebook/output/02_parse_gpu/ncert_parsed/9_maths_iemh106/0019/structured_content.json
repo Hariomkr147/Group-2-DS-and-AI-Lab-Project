@@ -1,0 +1,252 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "136"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.489,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.107,
+            0.767,
+            0.129
+          ],
+          "content": "**Example 5:** A triangle with sides 3 units, 4 units and 5 units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.142,
+            0.883,
+            0.186
+          ],
+          "content": "The semi-perimeter is $s = \\frac{1}{2}(3 + 4 + 5) = 6$ units. Heron’s formula now yields,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.195,
+            0.856,
+            0.218
+          ],
+          "content": "area of triangle $\\sqrt{6 \\times (6 - 3) \\times (6 - 4) \\times (6 - 5)} = \\sqrt{6 \\times 3 \\times 2} = 6$ sq. units."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.123,
+            0.233,
+            0.303,
+            0.406
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.179,
+                0.413,
+                0.259,
+                0.43
+              ],
+              "content": "Fig. 6.25"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.322,
+            0.247,
+            0.886,
+            0.326
+          ],
+          "content": "Let us check this against the ‘half base times height’ formula. See Fig. 6.25; note that $3 ^ { 2 }   +   4 ^ { 2 }   =   5 ^ { 2 }$ . Therefore, by the converse of the Baudhāyana–Pythagoras hypotenuse theorem, ΔABC is right-angled at B. So,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.434,
+            0.331,
+            0.773,
+            0.352
+          ],
+          "content": "base = 3 units, height = 4 units,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.322,
+            0.359,
+            0.884,
+            0.418
+          ],
+          "content": "so the area is $\\frac{1}{2}( base  \\times  height ) = \\frac{1}{2}(3 \\times 4) = 6.$ sq. units, the same as earlier."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.44,
+            0.563,
+            0.458
+          ],
+          "content": "We get the correct result in each case."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.46,
+            0.885,
+            0.536
+          ],
+          "content": "You may wonder how Heron’s formula is proved. There are many proofs known; one of them uses the Baudhāyana–Pythagoras theorem and repeated use of the ‘difference-of-two-squares’ formula $a^{2}-b^{2}=(a-b)(a+b)$ . We will study some of these proofs in Grade 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.536,
+            0.884,
+            0.575
+          ],
+          "content": "There are two other such formulas for the area of a triangle. Both have a connection with circles. See Fig. 6.26."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.575,
+            0.884,
+            0.614
+          ],
+          "content": "Given any triangle ABC, there is exactly one circle that passes through its three vertices. This is called the **circumcircle** of $\\Delta \\mathrm { A B C }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.613,
+            0.883,
+            0.653
+          ],
+          "content": "There is also exactly one circle that fits tightly in the triangle, touching its three sides. This is called the **incircle** of ∆ABC."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.666,
+            0.421,
+            0.857
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.247,
+                0.866,
+                0.328,
+                0.883
+              ],
+              "content": "Fig. 6.26"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.459,
+            0.685,
+            0.877,
+            0.782
+          ],
+          "content": "Let the sides of $\\Delta \\mathrm { A B C }$ be a, b, and c. Let the radius of the circumcircle be R. Let the radius of the incircle be r. Then we have the following two formulas for the area:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.559,
+            0.784,
+            0.77,
+            0.825
+          ],
+          "content": "\\mathrm{Area}   of   \\Delta \\mathrm{ABC} = \\frac{abc}{4R}",
+          "image_source": "images/page_18_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.839,
+            0.804,
+            0.88
+          ],
+          "content": "\\mathrm{Area}   of   \\Delta \\mathrm{ABC} = \\frac{r(a + b + c)}{2}",
+          "image_source": "images/page_18_equation_19.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

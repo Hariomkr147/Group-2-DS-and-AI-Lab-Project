@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.847,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. The hypotenuse of an isosceles right triangle is 10. What are its other two sidelengths? ["
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the area of the square composed of two such right triangles.]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.153,
+            0.162,
+            0.337,
+            0.181
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "General Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.185,
+            0.847,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The relation between the areas of a square and the square on its diagonal can be used to find a general relation between the hypotenuse and the other two sides of an isosceles right triangle."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.348,
+            0.247,
+            0.685,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.348,
+                0.247,
+                0.685,
+                0.504
+              ],
+              "image_path": "images/page_7_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.176,
+            0.509,
+            0.845,
+            0.53
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let a be the length of the equal sides and c the length of the hypotenuse."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.34,
+            0.533,
+            0.66,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of SQVU = 2 × Area of PQRS"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.419,
+            0.556,
+            0.531,
+            0.577
+          ],
+          "image_path": "images/page_7_equation_7.jpg",
+          "content": "S 0 , c ^ { 2 } = 2 \\bar { a } ^ { 2 }"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.581,
+            0.845,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This formula can be used to find c when a is known, or to find a when c is known."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.629,
+            0.845,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the hypotenuse of an isosceles right triangle whose equal sides have length 12."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.672,
+            0.562,
+            0.693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 1 2"
+            },
+            {
+              "type": "text",
+              "content": " . Using the formula, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.395,
+            0.7,
+            0.6,
+            0.724
+          ],
+          "image_path": "images/page_7_equation_11.jpg",
+          "content": "c = \\sqrt{2 \\times 12^{2}} = \\sqrt{288}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.732,
+            0.476,
+            0.753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 6 ^ { 2 } = 2 5 6"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 7 ^ { 2 } = 2 8 9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.757,
+            0.474,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 8 8 }"
+            },
+            {
+              "type": "text",
+              "content": " lies between 16 and 17."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.782,
+            0.846,
+            0.822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The length of the hypotenuse of an isosceles right triangle, whose length of the equal sides is 12 units, is between 16 and 17 units."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.113,
+            0.83,
+            0.846,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Example 2: If the hypotenuse of an isosceles right triangle is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\sqrt { 7 2 } } ,"
+            },
+            {
+              "type": "text",
+              "content": " find its other two sides."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.153,
+            0.873,
+            0.573,
+            0.894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = { \\sqrt { 7 2 } } ."
+            },
+            {
+              "type": "text",
+              "content": " . Using the formula, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.462,
+            0.896,
+            0.537,
+            0.916
+          ],
+          "image_path": "images/page_7_equation_17.jpg",
+          "content": "c ^ { 2 }   = 2 a ^ { 2 }"
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.093,
+            0.922,
+            0.129,
+            0.942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "40"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

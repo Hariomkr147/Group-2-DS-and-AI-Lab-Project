@@ -1,0 +1,220 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.197,
+            0.12,
+            0.828,
+            0.164
+          ],
+          "content": "6. Can you fill a supercell table without repeating numbers such that there are no supercells? Why or why not?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.845,
+            0.117,
+            0.944,
+            0.183
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.171,
+            0.828,
+            0.239
+          ],
+          "content": "7. Will the cell having the largest number in a table always be a supercell? Can the cell having the smallest number in a table be a supercell? Why or why not?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.197,
+            0.245,
+            0.828,
+            0.289
+          ],
+          "content": "8. Fill a table such that the cell having the second largest number is not a supercell."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.197,
+            0.296,
+            0.829,
+            0.363
+          ],
+          "content": "9. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Is it possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.37,
+            0.827,
+            0.413
+          ],
+          "content": "10. Make other variations of this puzzle and challenge your classmates."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.421,
+            0.669,
+            0.442
+          ],
+          "content": "Let’s do the supercells activity with more rows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.448,
+            0.884,
+            0.494
+          ],
+          "content": "Here the neighbouring cells are those that are immediately to the left, right, top and bottom. Table 1 Table 1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.5,
+            0.507,
+            0.66
+          ],
+          "content": "The rule remains the same: a cell becomes a supercell if the number in it is greater than all the numbers in its neighbouring cells. In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.524,
+            0.51,
+            0.876,
+            0.662
+          ],
+          "content": "| 2430 | 7500 | 7350 | 9870 |\n| --- | --- | --- | --- |\n| 3115 | 4795 | 9124 | 9230 |\n| 4580 | 8632 | 8280 | 3446 |\n| 5785 | 1944 | 5805 | 6034 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_table_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.67,
+            0.512,
+            0.808
+          ],
+          "content": "Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order. Only a coloured cell should have a number greater than all its neighbours."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.812,
+            0.506,
+            0.858
+          ],
+          "content": "The biggest number in the table is"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.524,
+            0.726,
+            0.88,
+            0.862
+          ],
+          "content": "|  | 96,301 | 36,109 |  |\n| --- | --- | --- | --- |\n|  | 13,609 | 60,319 | 19,306 |\n|  |  | 60,193 |  |\n|  | 10,963 |  |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.659,
+                0.702,
+                0.746,
+                0.721
+              ],
+              "content": "Table 2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_table_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.087,
+            0.942,
+            0.113,
+            0.959
+          ],
+          "content": "58"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

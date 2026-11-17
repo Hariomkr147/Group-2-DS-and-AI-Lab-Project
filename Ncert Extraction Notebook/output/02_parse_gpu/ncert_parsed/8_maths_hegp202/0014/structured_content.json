@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.326,
+            0.085,
+            0.673,
+            0.38
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.388,
+            0.683,
+            0.41
+          ],
+          "content": "Cover the square on the hypotenuse using your pieces."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.312,
+            0.416,
+            0.671,
+            0.713
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.722,
+            0.846,
+            0.78
+          ],
+          "content": "This shows that if a right triangle has shorter sides of length a and b, and hypotenuse of length c, then the areas of the two smaller squares, $a ^ { 2 }$ and $b ^ { \\bar { 2 } } ,$ , add up to the area of the larger square, $c ^ { 2 }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.444,
+            0.781,
+            0.553,
+            0.8
+          ],
+          "content": "a ^ { 2 } + b ^ { 2 } = c ^ { 2 } .",
+          "image_source": "images/page_13_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.806,
+            0.845,
+            0.847
+          ],
+          "content": "This is the famous and fundamental theorem of Baudhāyana on right-angled triangles:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.861,
+            0.828,
+            0.919
+          ],
+          "content": "**Baudhāyana’s Theorem on Right-angled triangles:** If a right-angled triangle has sidelengths a, b, and c, where c is the length of the hypotenuse, then $a ^ { 2 } \\stackrel { \\smile } { + } b ^ { 2 } = c ^ { 2 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.093,
+            0.923,
+            0.129,
+            0.942
+          ],
+          "content": "46"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

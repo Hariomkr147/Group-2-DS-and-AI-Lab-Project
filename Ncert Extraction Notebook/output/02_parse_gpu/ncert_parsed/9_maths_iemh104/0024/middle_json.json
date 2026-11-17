@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "91"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.108,
+            0.791,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have studied the following identities in this chapter:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.188,
+            0.132,
+            0.459,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( x + y ) ^ { 2 } = x ^ { 2 } + 2 x y + y ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.189,
+            0.155,
+            0.456,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "■ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x - y ) ^ { 2 } = x ^ { 2 } - 2 x y + y ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.189,
+            0.178,
+            0.656,
+            0.199
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( x + y + z ) ^ { 2 } = x ^ { 2 } + y ^ { 2 } + z ^ { 2 } + 2 x y + 2 y z + 2 z x"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.19,
+            0.203,
+            0.458,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "■ "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x + y)(x - y) = x^2 - y^2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.189,
+            0.228,
+            0.576,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\left( x + a \\right) \\left( x + b \\right) = x ^ { 2 } + \\left( a + b \\right) x + a b"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.189,
+            0.251,
+            0.649,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\left( a x + b \\right) \\left( c x + d \\right) = a c x ^ { 2 } + \\left( a d + b c \\right) x + b d"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.19,
+            0.275,
+            0.52,
+            0.295
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "x^{3}-y^{3}=(x-y)\\left(x^{2}+xy+y^{2}\\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.19,
+            0.298,
+            0.522,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 } + y ^ { 3 } = ( x + y ) \\left( x ^ { 2 } - x y + y ^ { 2 } \\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.19,
+            0.322,
+            0.534,
+            0.342
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( x + y ) ^ { 3 } = x ^ { 3 } + 3 x ^ { 2 } y + 3 x y ^ { 2 } + y ^ { 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.19,
+            0.345,
+            0.531,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( x - y ) ^ { 3 } = x ^ { 3 } - 3 x ^ { 2 } y + 3 x y ^ { 2 } - y ^ { 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.189,
+            0.369,
+            0.801,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "■ x"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + y"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + z"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " – 3xyz = (x + y + z)(x"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + y"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + z"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " – xy – xz – yz)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

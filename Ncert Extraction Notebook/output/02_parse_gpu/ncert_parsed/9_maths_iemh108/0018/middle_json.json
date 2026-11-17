@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.213,
+            0.069,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Predicting What Comes Next: Exploring Sequences and Progressions"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "191"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 2,
+          "bbox": [
+            0.116,
+            0.104,
+            0.881,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 2,
+              "bbox": [
+                0.116,
+                0.104,
+                0.881,
+                0.167
+              ],
+              "image_path": "images/page_17_table_2.jpg",
+              "content": "<table><tbody><tr><td>Stage number</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>…</td><td>n</td></tr><tr><td>Number of squares</td><td>3</td><td>6</td><td>12</td><td>24</td><td>48</td><td>…</td><td>3 × 2n-1</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.176,
+            0.886,
+            0.272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider the pairs of numbers (x, y) where x represents the stage number and y the corresponding number of squares. When we plot the ordered pairs emerging from the above table, that is, (1, 3), (2, 6), (3, 12), (4, 24), (5, 48), we observe that they do not lie on a straight line! This is shown in Fig. 8.9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.109,
+            0.272,
+            0.888,
+            0.429
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, when we plot the pairs of numbers (x, y) where x represents stage number and y the number of black triangles in the Sierpiński triangle we get the graph in Fig. 8.10 A. Fig. 8.10 B shows the graph where stage numbers are represented on the x-axis and the area of the black region of the stages on the y-axis. The graphs tell us that as the stage numbers increase, the number of shaded triangles increases very quickly whereas the area of black region diminishes, getting closer and closer to 0."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.19,
+            0.434,
+            0.717,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.19,
+                0.434,
+                0.717,
+                0.878
+              ],
+              "image_path": "images/page_17_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.223,
+                0.886,
+                0.776,
+                0.904
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.9: Points emerging from a GP do not lie on a straight line"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

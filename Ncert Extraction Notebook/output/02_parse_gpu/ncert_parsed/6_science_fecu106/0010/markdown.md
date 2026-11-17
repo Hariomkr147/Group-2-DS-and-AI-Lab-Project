@@ -1,0 +1,34 @@
+**Is water** transparent? Can it be made opaque?
+
+Table 6.4: Classification of objects
+
+| Transparent | Translucent | Opaque |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
+## 6.3.4 What is soluble in water; what is not?
+
+![](images/page_9_image_6.jpg)
+
+Ghulan was sweating when he came home after playing in the evening. He was feeling tired and thirsty. Ghulan’s mother mixed a spoonful of sugar, a pinch of salt and some lemon juice in a glass tumbler of water and offered him this shikanji (lemonade) to drink.
+
+Ghulan noticed that while his mother was mixing sugar and salt in water, the salt and the sugar disappeared after a while.
+
+Let us try a simple activity to explore how different materials behave when we mix them in water!
+
+## Activity 6.7: Let us explore
+
+Collect small amounts of sugar, salt, chalk powder, sand and sawdust.
+
+Take five glass tumblers and fill them about two-third with water.
+
+ Put a teaspoonful of sugar in the first glass tumbler, salt in the second one, chalk powder in the third, sand in the fourth and sawdust in the fifth glass tumbler.
+
+ On stirring, **predict** what will happen in each case.
+
+ Use a spoon to stir well the contents of each glass tumbler.
+
+Wait for a few minutes and watch what happens.
+
+ Write down your observations in Table 6.5.

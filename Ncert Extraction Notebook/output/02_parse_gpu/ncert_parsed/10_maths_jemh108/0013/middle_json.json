@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "INTRODUCTION TO TRIGONOMETRY"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.862,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "125"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.101,
+            0.162,
+            0.897,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.447,
+                0.138,
+                0.552,
+                0.156
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 8.1"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.101,
+                0.162,
+                0.897,
+                0.552
+              ],
+              "image_path": "images/page_12_table_3.jpg",
+              "content": "<table><tbody><tr><td> A</td><td>0°</td><td>30°</td><td>45°</td><td>60°</td><td>90°</td></tr><tr><td>sin A cos A tan A cosec A sec A cot A</td><td>010Not defined1Not defined</td><td>1232132233</td><td>12121221</td><td>3212323213</td><td>10Not defined1Not defined0</td></tr></tbody></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 4,
+              "bbox": [
+                0.096,
+                0.559,
+                0.901,
+                0.598
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Remark : From the table above you can observe that as "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "\\angle \\mathrm { A }"
+                },
+                {
+                  "type": "text",
+                  "content": " increases from "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "0 ^ { \\circ }"
+                },
+                {
+                  "type": "text",
+                  "content": " to "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "9 0 ^ { \\circ }"
+                },
+                {
+                  "type": "text",
+                  "content": " , sin A increases from 0 to 1 and cos A decreases from 1 to 0."
+                }
+              ]
+            },
+            {
+              "type": "table_footnote",
+              "index": 5,
+              "bbox": [
+                0.146,
+                0.604,
+                0.9,
+                0.624
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Let us illustrate the use of the values in the table above through some examples."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.636,
+            0.592,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 6 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B C }"
+            },
+            {
+              "type": "text",
+              "content": " , right-angled at B, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B }   =   5"
+            },
+            {
+              "type": "text",
+              "content": " cm and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACB = 30^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " (see Fig. 8.19). Determine the lengths of the sides BC and AC."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.7,
+            0.594,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " To find the length of the side BC, we will choose the trigonometric ratio involving BC and the given side AB. Since BC is the side adjacent to angle C and AB is the side opposite to angle C, therefore"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.612,
+            0.641,
+            0.899,
+            0.752
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.612,
+                0.641,
+                0.899,
+                0.752
+              ],
+              "image_path": "images/page_12_image_8.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 9,
+              "bbox": [
+                0.707,
+                0.758,
+                0.806,
+                0.777
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.368,
+            0.785,
+            0.501,
+            0.827
+          ],
+          "image_path": "images/page_12_equation_10.jpg",
+          "content": "{ \\frac { \\mathrm { A B } } { \\mathrm { B C } } } = \\tan \\mathrm { C }"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.847,
+            0.14,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.37,
+            0.833,
+            0.575,
+            0.875
+          ],
+          "image_path": "images/page_12_equation_12.jpg",
+          "content": "\\frac{5}{BC} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.097,
+            0.881,
+            0.217,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.377,
+            0.878,
+            0.53,
+            0.902
+          ],
+          "image_path": "images/page_12_equation_14.jpg",
+          "content": "\\mathrm{BC} = 5\\sqrt{3}    cm"
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

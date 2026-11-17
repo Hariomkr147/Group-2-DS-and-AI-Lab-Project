@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "73"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.108,
+            0.72,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us focus on the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.134,
+            0.744,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think of a term whose square is 25p2. What about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 q ^ { 2 } ?"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.16,
+            0.35,
+            0.182
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "5 0 p ^ { 2 } \\pm 6 0 p q \\pm 1 8 q ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.155,
+            0.193,
+            0.459,
+            0.227
+          ],
+          "image_path": "images/page_5_equation_5.jpg",
+          "content": "2 \\left[ ( 5 p ) ^ { 2 } + 2 ( 5 p ) ( 3 q ) + ( 3 q ) ^ { 2 } \\right]"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.156,
+            0.238,
+            0.304,
+            0.26
+          ],
+          "image_path": "images/page_5_equation_6.jpg",
+          "content": "= 2 \\; ( 5 p + 3 q ) ^ { 2 } ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.264,
+            0.883,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here we have used the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " to factor the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " , after taking 2 as a common factor."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.113,
+            0.302,
+            0.884,
+            0.343
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In all the examples described so far, we have used the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a+b)^{2}=a^{2}+2ab+b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " to find factors of different algebraic expressions."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.367,
+            0.399,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.129,
+            0.404,
+            0.64,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What if we replace b by – b in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.112,
+            0.455,
+            0.883,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " which is also an identity and can be used in ways similar to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.5,
+            0.885,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us revisit the pattern we observed in Example 1. Any three consecutive numbers can be taken as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\underline { { n } } \\mathrm { ~ - \\textbackslash ~ } 1 )"
+            },
+            {
+              "type": "text",
+              "content": " , n and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n ~ + ~ 1 )"
+            },
+            {
+              "type": "text",
+              "content": " . Their respective squares are of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(n - 1)^{2}, n^{2}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n + 1 ) ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.148,
+            0.558,
+            0.653,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The sum of the smallest and largest squares is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.246,
+            0.582,
+            0.788,
+            0.602
+          ],
+          "image_path": "images/page_5_equation_14.jpg",
+          "content": "(n - 1)^{2} + (n + 1)^{2} = n^{2} - 2n + 1 + n^{2} + 2n + 1 = 2n^{2} + 2."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.607,
+            0.886,
+            0.686
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Subtracting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 n ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " from this leads to 2. Hence you always get 2! This is in fact a proof of the fact that if we add the smallest and largest of any three consecutive square numbers and subtract two times the middle square number, we will always arrive at 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.112,
+            0.685,
+            0.885,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Just as the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a^{2}+b)^{2}=a^{2}+2ab+b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " can be used to find the squares of numbers, we can also use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a - b)^{2} = a^{2} - 2ab + b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " in a similar manner."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.113,
+            0.748,
+            0.884,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 8:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Suppose we have to calculate 29"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". We can express this as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(30 - 1)^{2} = 30^{2} - 2 \\times 30 \\times 1 + 1^{2} = 900 - 60 + 1 = 841."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.112,
+            0.793,
+            0.886,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To visualise the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " , let us draw a square of side a units and split a in two parts, one of length "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b )"
+            },
+            {
+              "type": "text",
+              "content": " units and another of length b units. Then the figure will look like this."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

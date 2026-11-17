@@ -1,0 +1,256 @@
+{
+  "pages": [
+    {
+      "page_idx": 31,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.117,
+            0.812,
+            0.156
+          ],
+          "level": 2,
+          "content": "9. What is the parity of the 20th term of the Virahanka sequence? Ans:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.159,
+            0.626,
+            0.178
+          ],
+          "content": "Consider the Virahanka sequence given below:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.18,
+            0.689,
+            0.199
+          ],
+          "content": "1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, …."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.201,
+            0.655,
+            0.22
+          ],
+          "content": "The pattern of odd/even in Virahanka numbers is:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.222,
+            0.331,
+            0.241
+          ],
+          "content": "O, E, O, O, E, O …"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.243,
+            0.669,
+            0.262
+          ],
+          "content": "So the 20th term of the Virahanka sequence is even."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.285,
+            0.47,
+            0.303
+          ],
+          "level": 2,
+          "content": "10. Identify the true statements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.305,
+            0.696,
+            0.324
+          ],
+          "content": "(a) The expression 4m – 1 always gives odd numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.327,
+            0.646,
+            0.345
+          ],
+          "content": "(b) All even numbers can be expressed as 6j – 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.347,
+            0.799,
+            0.367
+          ],
+          "content": "(c) Both expressions $2 p + 1$ and $2 q - 1$ describe all odd numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.368,
+            0.758,
+            0.388
+          ],
+          "content": "(d) The expression 2f + 3 gives both even and odd numbers."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.399,
+            0.171,
+            0.416
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.42,
+            0.269,
+            0.439
+          ],
+          "content": "(a) True"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.44,
+            0.272,
+            0.46
+          ],
+          "content": "(b) False"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.461,
+            0.272,
+            0.481
+          ],
+          "content": "(c) False"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.482,
+            0.271,
+            0.501
+          ],
+          "content": "(d) False"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.133,
+            0.525,
+            0.413,
+            0.544
+          ],
+          "level": 2,
+          "content": "11. Solve this cryptarithm:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.467,
+            0.583,
+            0.609,
+            0.673
+          ],
+          "content": "UT TA TAT"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.718,
+            0.17,
+            0.736
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.762,
+            0.376,
+            0.781
+          ],
+          "content": "U = 9, T = 1 and A = 0."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.51,
+            0.927,
+            0.534,
+            0.941
+          ],
+          "content": "13"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 31,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

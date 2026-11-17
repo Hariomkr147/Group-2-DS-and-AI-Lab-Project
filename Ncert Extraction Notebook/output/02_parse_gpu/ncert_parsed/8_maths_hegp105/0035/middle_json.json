@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 34,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 34,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.202,
+            0.088,
+            0.689,
+            0.108
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also it is divisible by 6 if it is divisible by 2 and 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.202,
+            0.108,
+            0.833,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the 6-digit number is divisible by 15 then it ends with 0 and 5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.202,
+            0.133,
+            0.574,
+            0.154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose the 6-digit number is abcdef."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.202,
+            0.154,
+            0.577,
+            0.172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since it is divisible by 15, so, f = 0 or 5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.202,
+            0.173,
+            0.642,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If f = 0, then original number will be abcde0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.201,
+            0.194,
+            0.846,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "After reversing the digits it becomes 0edcba which is not a six digit number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.204,
+            0.233,
+            0.309,
+            0.252
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, f = 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.202,
+            0.253,
+            0.833,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, the new number after reversing the digits is divisible by 2. So, a = 2, 4, 6, 8, (a ≠ 0)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.202,
+            0.293,
+            0.501,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, possible numbers are —"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.202,
+            0.313,
+            0.708,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a = 2, f = 5, and sum of th digits is divisible by 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.202,
+            0.333,
+            0.553,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "200025, 200055, 200085, 202005, … ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.202,
+            0.358,
+            0.46,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find more such numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.168,
+            0.388,
+            0.847,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. Deepak claims, “There are some multiples of 11 which, when doubled, are still multiples of 11. But other multiples of 11 don’t remain multiples of 11 when doubled”. Examine if his conjecture is true; explain your conclusion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.469,
+            0.484,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Deepak’s conjecture is false."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.202,
+            0.49,
+            0.543,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let n be a multiple of 11 so n = 11k"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.202,
+            0.509,
+            0.638,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When doubled the result 2n = 22k = 11 × (2k)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.168,
+            0.539,
+            0.847,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. Determine whether the statements below are ‘Always True’, ‘Sometimes True’, or ‘Never True’. Explain your reasoning."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.213,
+            0.581,
+            0.847,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The product of a multiple of 6 and a multiple of 3 is a multiple of 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.207,
+            0.623,
+            0.847,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) The sum of three consecutive even numbers will be divisible by 6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.202,
+            0.666,
+            0.846,
+            0.687
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) If abcdef is a multiple of 6, then badcef will be a multiple of 6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.203,
+            0.689,
+            0.649,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) 8 (7b – 3) – 4 (11b + 1) is a multiple of 12."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 21,
+          "bbox": [
+            0.152,
+            0.718,
+            0.204,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.214,
+            0.736,
+            0.385,
+            0.756
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Always true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.208,
+            0.759,
+            0.389,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Always true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.203,
+            0.783,
+            0.385,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Always true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.204,
+            0.807,
+            0.374,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) Never true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.168,
+            0.837,
+            0.847,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Choose any 3 numbers. When is their sum divisible by 3? Explore all possible cases and generalise."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 27,
+          "bbox": [
+            0.856,
+            0.917,
+            0.887,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

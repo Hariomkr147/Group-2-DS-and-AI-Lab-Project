@@ -1,0 +1,295 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.766,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": "Power Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.087,
+            0.848,
+            0.164
+          ],
+          "content": "It might be hard to digest the fact that after just 46 folds, the thickness is more than 7,00,000 km. This is the power of **multiplicative growth,** also called **exponential growth.** Let us analyse the growth. We have seen that the thickness doubles after every fold."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.209,
+            0.178,
+            0.472,
+            0.234
+          ],
+          "content": "| Fold 4 | 0.016 cm |\n| --- | --- |\n| Fold 5 | 0.032 cm |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_2.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.528,
+            0.179,
+            0.79,
+            0.234
+          ],
+          "content": "| Fold 9 | 0.512 cm |\n| --- | --- |\n| Fold 10 | 1.024 cm |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.253,
+            0.604,
+            0.29
+          ],
+          "content": "Notice the change in thickness after two folds. By how much does it increase?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.611,
+            0.254,
+            0.842,
+            0.309
+          ],
+          "content": "| Fold 4 | 0.016 cm |\n| --- | --- |\n| Fold 6 | 0.064 cm |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.291,
+            0.605,
+            0.328
+          ],
+          "content": "After any 3 folds, the thickness increases 8 times $( = 2 \\times 2 \\times 2 )$ . Check if that is true. Similarly,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.327,
+            0.848,
+            0.365
+          ],
+          "continues_prev": true,
+          "content": "(= 2 multiplied by itself 10 times), as shown in the table below."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.195,
+            0.368,
+            0.803,
+            0.594
+          ],
+          "content": "| Fold | Thickness | Times increased by |\n| --- | --- | --- |\n| 0 to 10 | 1.024 cm - 0.001 cm = 1.023 cm | 1.024 ÷ 0.001= 1024 |\n| 10 to 20 | 10.485 m - 1.024 cm ≈ 10.474 m | 10.485 m ÷ 1.024 cm= 1024 |\n| 20 to 30 | 10.737 km - 10.485 m ≈ 10.726 km | 10.737 km ÷ 10.485 m= 1024 |\n| 30 to 40 | 10995 km - 10.737 km ≈ 10984.2 km | 10995 km ÷ 10.737 km = 1024 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_8.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.627,
+            0.716,
+            0.652
+          ],
+          "level": 2,
+          "content": "2.2 Exponential Notation and Operations"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.661,
+            0.615,
+            0.68
+          ],
+          "content": "The initial thickness of the paper was 0.001 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.68,
+            0.777,
+            0.699
+          ],
+          "content": "Upon folding once, its thickness became 0.001 cm × 2 = 0.002 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.699,
+            0.567,
+            0.717
+          ],
+          "content": "Folding it twice, its thickness became —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.717,
+            0.831,
+            0.736
+          ],
+          "content": "0.001 cm $\\times 2 \\times 2 = 0.004$ cm, or 0.001 cm $\\times ~ 2 ^ { 2 } = 0 . 0 0 4$ cm (in shorthand)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.736,
+            0.625,
+            0.754
+          ],
+          "content": "Upon folding it thrice, its thickness became —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.754,
+            0.617,
+            0.772
+          ],
+          "content": "0.001 cm $\\times 2 \\times 2 \\times 2 ,$ , or 0.001 cm $2^{3}=0.008\\  cm .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.772,
+            0.648,
+            0.79
+          ],
+          "content": "When folded four times, its thickness became —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.791,
+            0.649,
+            0.808
+          ],
+          "content": "0.001 $\\mathrm{cm} \\times 2 \\times 2 \\times 2 \\times 2,$ , or 0.001 cm $2^{4}=0.016\\  cm$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.808,
+            0.848,
+            0.826
+          ],
+          "content": "Similarly, the expression for the thickness of the paper when folded 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.826,
+            0.845,
+            0.846
+          ],
+          "content": "times will be 0.001 cm $\\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 ,$ , or 0.001 cm × 2<sup>7</sup> = 0.128 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.846,
+            0.847,
+            0.881
+          ],
+          "content": "We have seen that square numbers can be expressed as $n ^ { 2 }$ and cube numbers as $n ^ { 3 } ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.882,
+            0.709,
+            0.902
+          ],
+          "content": "$n \\times n = n ^ { 2 }$ (read as ‘n squared’ or ‘n raised to the power 2’)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.879,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": "2 1"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

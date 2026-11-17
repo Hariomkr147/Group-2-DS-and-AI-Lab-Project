@@ -1,0 +1,384 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.758,
+            0.306,
+            0.781,
+            0.338
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.197,
+            0.131,
+            0.241,
+            0.157
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_1.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.7,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "A Story of Numbers"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.328,
+            0.121,
+            0.421,
+            0.164
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.496,
+            0.096,
+            0.797,
+            0.197
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.218,
+            0.848,
+            0.274
+          ],
+          "content": "Thus, we have a new number system where each landmark number is 5 times the previous one. Since 1 is the first landmark number, they are all powers of 5."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.212,
+            0.281,
+            0.26,
+            0.299
+          ],
+          "content": "5 ^ { 0 }   = 1",
+          "image_source": "images/page_15_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.313,
+            0.282,
+            0.361,
+            0.299
+          ],
+          "content": "5 ^ { 1 }   =   5",
+          "image_source": "images/page_15_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.413,
+            0.282,
+            0.469,
+            0.299
+          ],
+          "content": "5 ^ { 2 }   = 2 5",
+          "image_source": "images/page_15_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.512,
+            0.282,
+            0.579,
+            0.299
+          ],
+          "content": "5 ^ { 3 }   = 1 2 5",
+          "image_source": "images/page_15_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.621,
+            0.282,
+            0.687,
+            0.299
+          ],
+          "content": "5 ^ { 4 }   = 6 2 5",
+          "image_source": "images/page_15_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.73,
+            0.282,
+            0.805,
+            0.299
+          ],
+          "content": "5 ^ { 5 }   = 3 1 2 5",
+          "image_source": "images/page_15_equation_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.214,
+            0.309,
+            0.26,
+            0.339
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_13.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.414,
+            0.308,
+            0.457,
+            0.341
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.516,
+            0.306,
+            0.565,
+            0.34
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.621,
+            0.315,
+            0.683,
+            0.331
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_16.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.355,
+            0.582,
+            0.376
+          ],
+          "level": 2,
+          "content": "？ Express the number 143 in this new system."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.379,
+            0.847,
+            0.418
+          ],
+          "content": "Let us start grouping, starting with the size $5 ^ { 3 }   =   1 2 5$ , as this is the largest landmark number smaller than 143. We get—"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.422,
+            0.649,
+            0.44
+          ],
+          "content": "143 = 125 + 5 + 5 + 5 + 1 + 1 + 1.",
+          "image_source": "images/page_15_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.445,
+            0.76,
+            0.469
+          ],
+          "content": "So the number 143 in the new system is $\\textcircled{O}  \\square \\square \\square \\square \\triangle \\triangle \\triangle \\cdot$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.471,
+            0.712,
+            0.492
+          ],
+          "content": "Number systems having landmark numbers in which the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.496,
+            0.57,
+            0.515
+          ],
+          "content": "(a) first landmark number is 1, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.52,
+            0.847,
+            0.576
+          ],
+          "content": "(b) every next landmark number is obtained by multiplying the current landmark number by some fixed number n is said to be a **base-n** number system."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.576,
+            0.848,
+            0.633
+          ],
+          "content": "The Egyptian number system is a base-10 system, and the number system that we created is a base-5 system. A base-10 number system is also called a **decimal number system.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.642,
+            0.293,
+            0.664
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.667,
+            0.847,
+            0.706
+          ],
+          "content": "1. Write the following numbers in the above base-5 system using the symbols in Table 2: 15, 50, 137, 293, 651."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.716,
+            0.847,
+            0.754
+          ],
+          "content": "2. Is there a number that cannot be represented in our base-5 system above? Why or why not?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.764,
+            0.848,
+            0.802
+          ],
+          "content": "3. Compute the landmark numbers of a base-7 system. In general, what are the landmark numbers of a base-n system?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.806,
+            0.848,
+            0.845
+          ],
+          "content": "The landmark numbers of a base-n number system are the powers of n starting from $n ^ { 0 } = 1 , n , n ^ { 2 } , n ^ { 3 } ,$ ..."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.913,
+            0.936
+          ],
+          "content": "63"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

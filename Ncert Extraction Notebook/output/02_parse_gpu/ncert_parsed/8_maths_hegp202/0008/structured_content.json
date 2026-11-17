@@ -1,0 +1,242 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.847,
+            0.147
+          ],
+          "content": "3. The hypotenuse of an isosceles right triangle is 10. What are its other two sidelengths? [**Hint:** Find the area of the square composed of two such right triangles.]"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.162,
+            0.337,
+            0.181
+          ],
+          "level": 2,
+          "content": "General Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.185,
+            0.847,
+            0.243
+          ],
+          "content": "The relation between the areas of a square and the square on its diagonal can be used to find a general relation between the hypotenuse and the other two sides of an isosceles right triangle."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.348,
+            0.247,
+            0.685,
+            0.504
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.509,
+            0.845,
+            0.53
+          ],
+          "content": "Let a be the length of the equal sides and c the length of the hypotenuse."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.34,
+            0.533,
+            0.66,
+            0.553
+          ],
+          "content": "Area of SQVU = 2 × Area of PQRS"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.419,
+            0.556,
+            0.531,
+            0.577
+          ],
+          "content": "S 0 , c ^ { 2 } = 2 \\bar { a } ^ { 2 }",
+          "image_source": "images/page_7_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.581,
+            0.845,
+            0.62
+          ],
+          "content": "This formula can be used to find c when a is known, or to find a when c is known."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.629,
+            0.845,
+            0.669
+          ],
+          "content": "？ **Example 1:** Find the hypotenuse of an isosceles right triangle whose equal sides have length 12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.672,
+            0.562,
+            0.693
+          ],
+          "content": "We have $a = 1 2$ . Using the formula, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.395,
+            0.7,
+            0.6,
+            0.724
+          ],
+          "content": "c = \\sqrt{2 \\times 12^{2}} = \\sqrt{288}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.732,
+            0.476,
+            0.753
+          ],
+          "content": "We have $1 6 ^ { 2 } = 2 5 6$ , and $1 7 ^ { 2 } = 2 8 9$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.757,
+            0.474,
+            0.778
+          ],
+          "content": "So, $\\sqrt { 2 8 8 }$ lies between 16 and 17."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.782,
+            0.846,
+            0.822
+          ],
+          "content": "The length of the hypotenuse of an isosceles right triangle, whose length of the equal sides is 12 units, is between 16 and 17 units."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.83,
+            0.846,
+            0.87
+          ],
+          "level": 2,
+          "content": "？ Example 2: If the hypotenuse of an isosceles right triangle is ${ \\sqrt { 7 2 } } ,$ find its other two sides."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.873,
+            0.573,
+            0.894
+          ],
+          "content": "We have $c = { \\sqrt { 7 2 } } .$ . Using the formula, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.462,
+            0.896,
+            0.537,
+            0.916
+          ],
+          "content": "c ^ { 2 }   = 2 a ^ { 2 }",
+          "image_source": "images/page_7_equation_17.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.093,
+            0.922,
+            0.129,
+            0.942
+          ],
+          "content": "40"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

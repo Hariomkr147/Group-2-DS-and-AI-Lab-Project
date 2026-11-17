@@ -1,0 +1,207 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.167,
+            0.466,
+            0.196,
+            0.488
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.121,
+            0.885,
+            0.21
+          ],
+          "content": "As we saw in the discussion above, if 75 was a multiple of 21, then all prime factors of 21 would also be prime factors of 75. However, 7 is a prime factor of 21 but not a prime factor of 75. Therefore, 75 is not divisible by 21."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.219,
+            0.873,
+            0.241
+          ],
+          "content": "**Example:** Is 42 divisible by 12? Find the prime factorisations of both:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.245,
+            0.689,
+            0.265
+          ],
+          "content": "42=2\\times3\\times7\\  and \\ 12=2\\times2\\times3",
+          "image_source": "images/page_15_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.272,
+            0.885,
+            0.384
+          ],
+          "content": "All prime factors of 12 are also prime factors of 42. But the prime factorisation of 12 is not included in the prime factorisation of 42. This is because 2 occurs twice in the prime factorisation of 12 but only once in the prime factorisation of 42. This means that 42 is not divisible by 12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.386,
+            0.885,
+            0.453
+          ],
+          "content": "We can say that if one number is divisible by another, then the prime factorisation of the second number is included in the prime factorisation of the first number."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.166,
+            0.466,
+            0.353,
+            0.488
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.495,
+            0.884,
+            0.583
+          ],
+          "content": "1. Are the following pairs of numbers co-prime? Guess first and then use prime factorisation to verify your answer. a. 30 and 45 b. 57 and 85 c. 121 and 1331 d. 343 and 216"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.586,
+            0.883,
+            0.651
+          ],
+          "content": "2. Is the first number divisible by the second? Use prime factorisation. a. 225 and 27 b. 96 and 24 c. 343 and 17 d. 999 and 99"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.655,
+            0.885,
+            0.719
+          ],
+          "content": "3. The first number has prime factorisation 2 × 3 × 7 and the second number has prime factorisation 3 × 7 × 11. Are they co-prime? Does one of them divide the other?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.723,
+            0.878,
+            0.743
+          ],
+          "content": "4. Guna says, “Any two prime numbers are co-prime?”. Is he right?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.165,
+            0.771,
+            0.466,
+            0.797
+          ],
+          "level": 2,
+          "content": "5.5 Divisibility Tests"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.811,
+            0.885,
+            0.879
+          ],
+          "content": "So far, we have been finding factors of numbers in different contexts, including to determine if a number is prime or not, or if a given pair of numbers is co-prime or not."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.085,
+            0.941,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

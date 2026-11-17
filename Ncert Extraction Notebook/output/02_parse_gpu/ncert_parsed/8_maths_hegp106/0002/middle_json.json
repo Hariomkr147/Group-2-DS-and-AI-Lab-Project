@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We Distribute, Yet Things Multiply"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.49,
+            0.084,
+            0.662,
+            0.125
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "\\overbrace { a \\left( b + c \\right) } ^ { \\frown } = a b + a c"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.179,
+            0.137,
+            0.775,
+            0.16
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This property can be visualised nicely using a diagram:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.236,
+            0.173,
+            0.769,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.236,
+                0.173,
+                0.769,
+                0.387
+              ],
+              "image_path": "images/page_1_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.525,
+            0.397,
+            0.607,
+            0.417
+          ],
+          "image_path": "images/page_1_equation_4.jpg",
+          "content": "a \\left( b + c \\right)"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.435,
+            0.848,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is called the "
+            },
+            {
+              "type": "text",
+              "content": "distributive property",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of multiplication over addition. Using the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a(b + c) = ab + ac"
+            },
+            {
+              "type": "text",
+              "content": " with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 23,   b = 27"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = 1"
+            },
+            {
+              "type": "text",
+              "content": " , we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.336,
+            0.503,
+            0.608,
+            0.558
+          ],
+          "image_path": "images/page_1_equation_6.jpg",
+          "content": "23(27 + 1) = 23 \\times 27 + \\boxed{23}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.564,
+            0.847,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remember that here, a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( b   +   c )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "23   (27   +   1)"
+            },
+            {
+              "type": "text",
+              "content": " mean "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\times ( b + c ) ,"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 3 \\times ( 2 7 \\pm 1 )"
+            },
+            {
+              "type": "text",
+              "content": " , respectively. We usually skip writing the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } \\times ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " symbol before or after brackets, just as in the case of expressions like 5a, xy, etc."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.62,
+            0.847,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( a + b )"
+            },
+            {
+              "type": "text",
+              "content": " c using the distributive property as follows —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.277,
+            0.656,
+            0.78,
+            0.713
+          ],
+          "image_path": "images/page_1_equation_9.jpg",
+          "content": "\\begin{array} { r l } & { \\left( a + b \\right) c = c \\left( a + b \\right) \\left( \\mathrm { c o m m u t a t i v i t y ~ o f ~ m u l t i p l i c a t i o n } \\right) } \\\\ & { \\quad = c a + c b \\left( \\mathrm { d i s t r i b u t i v i t y } \\right) } \\\\ & { \\quad = a c + b c \\left( \\mathrm { c o m m u t a t i v i t y ~ o f ~ m u l t i p l i c a t i o n } \\right) } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.716,
+            0.848,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can use the distributive property to find, in general, how much a product increases if one or both the numbers in the product are increased by 1. Suppose the initial two numbers are a and b. If one of the numbers, say b, is increased by 1, then we have—"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.379,
+            0.797,
+            0.579,
+            0.85
+          ],
+          "image_path": "images/page_1_equation_11.jpg",
+          "content": "\\overbrace { a   (   b + 1 ) } ^ { \\overbrace { a   (   b + 1 ) } ^ { \\overbrace { a   (   b + 1 ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a   (   a ) } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { a } } ^ { a } ^ { \\overbrace { a } } ^ { a } ^ { a } } ^ { a } ^ { a } } ^ { a } } ^ { a } } ^ { a } = a b \\times \\boxed { a } } ^ { a } ^ { a } } ^ { a } } = a b \\overbrace { a b \\times \\boxed { a } } ^ { a } ^ { a } } = a b \\overbrace \\overbrace { a \\overbrace { a \\overbrace { a \\over \\over { a \\over ( ( ) ) } } ^ { a } ^ { a \\overbrace { a \\overbrace \\over { a \\over ( ) } } ^ { a } ^ { a \\overbrace { a \\over \\over { a \\over } } ^ { a } } ^ { a } ^ { a \\overbrace { a } } ^ { a } ^ { \\overbrace \\overbrace { a } } ^ { a } ^ { a \\overbrace } { a } ^ { a \\overbrace } } ^ { a } ^ { a \\overbrace { a } } ^ { a \\overbrace } ^ { a } } ^ { a } ^ { a \\overbrace } } ^ { a } ^ { a } } = a b \\overbrace \\overbrace \\overbrace \\overbrace { a \\over \\over { a \\over \\over { a \\over \\over { a \\over ( \\over ( ) ) } } } ^ { a } ^ { a } ^ { a } } ^ { a } = a \\overbrace \\over \\over \\over \\over { a \\over \\over \\over { a \\over \\over \\over { a \\over \\over { a ( \\over ( ) ( ) } } } ^ { a } ^ { a } } ^ { a } ^ = a \\over \\over \\over \\over \\over \\over \\over { a \\over \\over \\over { a \\over"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.149,
+            0.863,
+            0.848,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us see what happens if both numbers in a product are increased by 1. If in a product ab, both a and b are increased by 1, then we obtain (a + 1) (b + 1)."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.873,
+            0.915,
+            0.919,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "137"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

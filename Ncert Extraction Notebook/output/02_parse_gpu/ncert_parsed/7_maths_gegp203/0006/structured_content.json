@@ -1,0 +1,355 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.159,
+            0.107,
+            0.226,
+            0.153
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.234,
+            0.099,
+            0.825,
+            0.166
+          ],
+          "content": "In mathematics, statements or claims made without proof or verification are called ‘conjectures’. Anshu’s claim is a conjecture. We disproved this conjecture by finding a counterexample, i.e., an example where the conjecture is false."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.185,
+            0.813,
+            0.207
+          ],
+          "level": 2,
+          "content": "Finding the HCF of Numbers Using Prime Factorisation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.212,
+            0.847,
+            0.252
+          ],
+          "content": "We now see how to make use of the observations made so far to find common factors and the Highest Common Factor (HCF)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.258,
+            0.148,
+            0.284
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.261,
+            0.775,
+            0.282
+          ],
+          "content": "**Example 1:** Find the common factors, and the HCF of 45 and 75."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.286,
+            0.682,
+            0.306
+          ],
+          "content": "Calculate the prime factorisation for both numbers:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.433,
+            0.311,
+            0.565,
+            0.33
+          ],
+          "content": "4 5 = 3 \\times 3 \\times 5",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.432,
+            0.335,
+            0.566,
+            0.355
+          ],
+          "content": "7 5 = 3 \\times 5 \\times 5 .",
+          "image_source": "images/page_5_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.361,
+            0.299,
+            0.38
+          ],
+          "content": "We have seen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.38,
+            0.846,
+            0.418
+          ],
+          "content": "Factors of 45 are subparts of factors occurring in $3 \\times 3 \\times 5$ and factors of 75 are subparts of factors occurring in $3 \\times 5 \\times 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.419,
+            0.846,
+            0.458
+          ],
+          "content": "So the common factors should be subparts of both the factorisations. Can you write them down?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.159,
+            0.48,
+            0.225,
+            0.523
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.234,
+            0.489,
+            0.824,
+            0.524
+          ],
+          "content": "While exploring or solving problems you might also get some conjectures. You can try to reason and verify these and also share with the class."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.548,
+            0.483,
+            0.57
+          ],
+          "content": "\\textcircled{3}  \\times \\overline { { 3 } } \\times 5",
+          "image_source": "images/page_5_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.384,
+            0.575,
+            0.483,
+            0.597
+          ],
+          "content": "\\textcircled{3}  \\times 5 \\times 5",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.597,
+            0.563,
+            0.614,
+            0.58
+          ],
+          "content": "3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.611,
+            0.485,
+            0.661
+          ],
+          "content": "3 \\times 3 \\times \\textcircled { 5 }",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.597,
+            0.626,
+            0.613,
+            0.644
+          ],
+          "content": "5"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.674,
+            0.5,
+            0.697
+          ],
+          "content": "3 \\times \\textcircled{3} \\times \\textcircled{5}",
+          "image_source": "images/page_5_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.563,
+            0.689,
+            0.615,
+            0.708
+          ],
+          "content": "3 \\times 5",
+          "image_source": "images/page_5_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.701,
+            0.489,
+            0.724
+          ],
+          "content": "\\textcircled{3} \\times \\textcircled{5} \\times 5",
+          "image_source": "images/page_5_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.733,
+            0.846,
+            0.773
+          ],
+          "content": "3, 5, 3 × 5 = 15 are subparts of both, and hence, they are the common factors along with 1. The highest among them is 15. So, their HCF = 15."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.781,
+            0.786,
+            0.805
+          ],
+          "level": 2,
+          "content": "Example 2: Find the common factors, and the HCF of 112 and 84."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.807,
+            0.571,
+            0.828
+          ],
+          "content": "Calculating prime factorisations, we get,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.405,
+            0.831,
+            0.657,
+            0.852
+          ],
+          "content": "1 1 2 = 2 \\times 2 \\times 2 \\times 2 \\times 7   \\mathrm { a n d }",
+          "image_source": "images/page_5_equation_26.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.414,
+            0.856,
+            0.584,
+            0.877
+          ],
+          "content": "8 4 = 2 \\times 2 \\times 3 \\times 7 .",
+          "image_source": "images/page_5_equation_27.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "52"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,179 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.762,
+            0.273,
+            0.898,
+            0.347
+          ],
+          "content": "14"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.426,
+            0.133,
+            0.574,
+            0.236
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.475,
+            0.237,
+            0.53,
+            0.248
+          ],
+          "content": "1062CH15"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.451,
+            0.312,
+            0.746,
+            0.348
+          ],
+          "level": 1,
+          "content": "PROBABILITY"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.172,
+            0.393,
+            0.825,
+            0.453
+          ],
+          "content": "The theory of probabilities and the theory of errors now constitute a formidable body of great mathematical interest and of great practical importance."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.664,
+            0.461,
+            0.825,
+            0.479
+          ],
+          "content": "R.S. Woodward"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.522,
+            0.568,
+            0.543
+          ],
+          "level": 2,
+          "content": "14.1 Probability — A Theoretical Approach"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.549,
+            0.475,
+            0.568
+          ],
+          "content": "**Let us consider the following situation :**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.574,
+            0.501,
+            0.594
+          ],
+          "content": "**Suppose a coin is tossed** at random."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.613,
+            0.883,
+            0.694
+          ],
+          "content": "**When we speak of a coin, we assume it to be ‘fair’, that is, it is symmetrical so that there is no reason for it to come down more often on one side than the other. We call this property of the coin as being ‘unbiased’. By the phrase ‘random toss’, we mean that the coin is allowed to fall freely without any** bias **or** interference."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.712,
+            0.902,
+            0.809
+          ],
+          "content": "**We know, in advance, that the coin can only land in one of two possible ways — either head up or tail up (we dismiss the possibility of its ‘landing’ on its edge, which may be possible, for example, if it falls on sand). We can reasonably assume that each outcome, head or tail, is** as likely to occur as the other. **We refer to this by saying that** the outcomes **head and tail,** are equally likely."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.814,
+            0.902,
+            0.893
+          ],
+          "content": "**For another example of equally likely outcomes, suppose we throw a die once. For us, a die will always mean a fair die. What are the possible outcomes? They are 1, 2, 3, 4, 5, 6. Each number has the same possibility of showing up. So the** equally likely outcomes **of throwing a die are 1, 2, 3, 4, 5 and 6.**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

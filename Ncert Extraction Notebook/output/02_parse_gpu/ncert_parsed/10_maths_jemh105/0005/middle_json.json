@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.319,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ARITHMETIC PROGRESSIONS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.104,
+            0.9,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "53"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.148,
+            0.139,
+            0.302,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, when"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.225,
+            0.161,
+            0.765,
+            0.293
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "\\begin{aligned} &a = - 7, \\quad d = - 2, \\quad  the AP is   - 7, - 9, - 11, - 13, \\ldots \\\\&a = 1.0, \\quad d = 0.1, \\quad  the AP is   1.0, 1.1, 1.2, 1.3, \\ldots \\\\&a = 0, \\quad d = 1 \\frac{1}{2}, \\quad  the AP is   0, 1 \\frac{1}{2}, 3, 4 \\frac{1}{2}, 6, \\ldots \\\\&a = 2, \\quad d = 0, \\quad  the AP is   2, 2, 2, 2, \\ldots\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.297,
+            0.903,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, if you know what a and d are, you can list the AP. What about the other way round? That is, if you are given a list of numbers can you say that it is an AP and then find a and d? Since a is the first term, it can easily be written. We know that in an AP, every succeeding term is obtained by adding d to the preceding term. So, d found by subtracting any term from its succeeding term, i.e., the term which immediately follows it should be same for an AP."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.147,
+            0.419,
+            0.508,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, for the list of numbers :"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.468,
+            0.192,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.369,
+            0.444,
+            0.592,
+            0.538
+          ],
+          "image_path": "images/page_4_equation_7.jpg",
+          "content": "\\begin{array}{l}6, 9, 12, 15, \\cdots, \\cdots \\\\a_{2}-a_{1}=9 \\quad 令 6=3, \\\\a_{3}-a_{2}=12-9=3, \\\\a_{4}-a_{3}=15-12=3.\\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.095,
+            0.541,
+            0.902,
+            0.581
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here the difference of any two consecutive terms in each case is 3. So, the given list is an AP whose first term a is 6 and common difference d is 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.146,
+            0.584,
+            0.538,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the list of numbers : 6, 3, 0, – 3, . . .,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.374,
+            0.607,
+            0.597,
+            0.676
+          ],
+          "image_path": "images/page_4_equation_10.jpg",
+          "content": "\\begin{array}{l}a_{2}-a_{1}=3-6=-3 \\\\a_{3}-a_{2}=0-3=-3 \\\\a_{4}-a_{3}=-3-0=-3\\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.682,
+            0.901,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly this is also an AP whose first term is 6 and the common difference is –3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.146,
+            0.728,
+            0.583,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, for an AP "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { _ 1 } , a _ { _ 2 } , \\ldots , a _ { _ n } ,"
+            },
+            {
+              "type": "text",
+              "content": " we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.412,
+            0.756,
+            0.552,
+            0.776
+          ],
+          "image_path": "images/page_4_equation_13.jpg",
+          "content": "d =   a _ {   _ { k   +   1 } } - a _ {   _ { k } }"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.096,
+            0.781,
+            0.755,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { k \\textrm { + } 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { _ k }"
+            },
+            {
+              "type": "text",
+              "content": " are the ( k + 1)th and the kth terms respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.095,
+            0.808,
+            0.9,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To obtain d in a given AP, we need not find all of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{_2}-a_{_1},a_{_3}-a_{_2},a_{_4}-a_{_3},\\cdots."
+            },
+            {
+              "type": "text",
+              "content": " It is enough to find only one of them."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.095,
+            0.852,
+            0.902,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the list of numbers 1, 1, 2, 3, 5, . . . . By looking at it, you can tell that the difference between any two consecutive terms is not the same. So, this is not an AP."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

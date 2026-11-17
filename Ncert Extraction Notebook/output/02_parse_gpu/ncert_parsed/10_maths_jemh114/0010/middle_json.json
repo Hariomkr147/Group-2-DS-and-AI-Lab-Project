@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.207,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROBABILITY"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.862,
+            0.104,
+            0.898,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "211"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.138,
+            0.795,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let E be the event that ‘the music is stopped within the first half-minute’."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.17,
+            0.796,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The outcomes favourable to E are points on the number line from 0 to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.206,
+            0.742,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The distance from 0 to 2 is 2, while the distance from 0 to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.251,
+            0.9,
+            0.317
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since all the outcomes are equally likely, we can argue that, of the total distance of 2, the distance favourable to the event E is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.364,
+            0.135,
+            0.382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.221,
+            0.329,
+            0.793,
+            0.396
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "\\mathrm{P}(\\mathrm{E})=\\frac{\\text { Distance forourable to the event E }}{\\text { Total distance in which outcomes can lie }}=\\frac{\\frac{1}{2}}{\\frac{1}{4}}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.407,
+            0.902,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we now extend the idea of Example 10 for finding the probability as the ratio of the favourable area to the total area?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.095,
+            0.458,
+            0.901,
+            0.516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11* :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A missing helicopter is reported to have crashed somewhere in the rectangular region shown in Fig. 14.2. What is the probability that it crashed inside the lake shown in the figure?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.196,
+            0.519,
+            0.837,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.196,
+                0.519,
+                0.837,
+                0.789
+              ],
+              "image_path": "images/page_9_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.799,
+            0.807,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The helicopter is equally likely to crash anywhere in the region. Area of the entire region where the helicopter can crash "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(4.5 \\times 9)    km ^2 = 40.5    km ^2"
+            }
+          ]
+        },
+        {
+          "type": "page_footnote",
+          "index": 13,
+          "bbox": [
+            0.097,
+            0.882,
+            0.467,
+            0.902
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "* Not from the examination point of view."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.222,
+            0.088,
+            0.89,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "final velocity and it undergoes a displacement s. To simplify the situation, let us assume that the force F acting on the object is constant. In that case, the acceleration a is also constant, and the kinematic equations can be used. We can then write"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.405,
+            0.156,
+            0.887,
+            0.217
+          ],
+          "image_path": "images/page_6_equation_1.jpg",
+          "content": "\\begin{array} { r l r } & { } & { \\upsilon ^ { 2 } = u ^ { 2 } + 2 a s , } \\\\ & { } & { \\mathrm { o r } \\quad s = \\cfrac { \\left( \\upsilon ^ { 2 } - u ^ { 2 } \\right) } { \\left( 2 a \\right) } , } \\end{array}\\tag{7.4}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.224,
+            0.222,
+            0.845,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the definition of work (Eq. 7.2), the work done W by the force is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.465,
+            0.243,
+            0.557,
+            0.259
+          ],
+          "image_path": "images/page_6_equation_3.jpg",
+          "content": "W = F \\times s"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.224,
+            0.263,
+            0.606,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using Newton’s second law, F = ma, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.465,
+            0.284,
+            0.573,
+            0.3
+          ],
+          "image_path": "images/page_6_equation_5.jpg",
+          "content": "W = m a \\times s"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.224,
+            0.304,
+            0.688,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting the value of s from Eq. (7.4), we obtain,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.461,
+            0.326,
+            0.887,
+            0.405
+          ],
+          "image_path": "images/page_6_equation_7.jpg",
+          "content": "\\begin{aligned} &W = ma \\times \\frac{\\left( \\nu^{2} - u^{2} \\right)}{\\left( 2a \\right)}\\\\ &W = \\frac{1}{2}m\\left( \\nu^{2} - u^{2} \\right)\\\\ \\end{aligned}\\tag{7.5}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.223,
+            0.406,
+            0.889,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the work-energy theorem (Eq. 7.3), the work done by the force acting on the object translates into the change in the energy of the object. Thus, Eq. (7.5) represents the change in the energy of the object."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.222,
+            0.459,
+            0.889,
+            0.513
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the initial velocity of the object is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " the change in the energy of the object is equal to its final kinetic energy. Thus, using Eq. (7.5), the kinetic energy of an object of mass m moving with a velocity v is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.474,
+            0.511,
+            0.887,
+            0.546
+          ],
+          "image_path": "images/page_6_equation_10.jpg",
+          "content": "\\tilde { K } = \\frac { 1 } { 2 } m v ^ { 2 }\\tag{7.6}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.222,
+            0.546,
+            0.89,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "text",
+              "content": "SI unit of kinetic energy",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is the "
+            },
+            {
+              "type": "text",
+              "content": "joule (J)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The kinetic energy has no direction. When positive work is done on the object and its velocity increases, its kinetic energy also increases. If negative work is done on the object and its velocity decreases, its kinetic energy will also decrease. If no work is done by the force on the object "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( W   = 0 )"
+            },
+            {
+              "type": "text",
+              "content": " and its velocity does not change, then its kinetic energy remains constant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.223,
+            0.657,
+            0.889,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7.4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If the velocity of a vehicle doubles in magnitude, what will its kinetic energy be compared to its original value?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.222,
+            0.699,
+            0.89,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let the mass of the vehicle be m and its initial velocity be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\upsilon ."
+            },
+            {
+              "type": "text",
+              "content": " Its initial kinetic energy will be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 } m \\nu ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . If the vehicle travels with a velocity of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 v ,"
+            },
+            {
+              "type": "text",
+              "content": " its kinetic energy will be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}m(2\\nu)^{2}=4\\times\\frac{1}{2}m\\nu^{2}"
+            },
+            {
+              "type": "text",
+              "content": " . The new value of the kinetic energy will be 4 times the previous value."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.223,
+            0.796,
+            0.89,
+            0.866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7.5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In one of their fastest deliveries, an Indian cricketer bowled a cricket ball with an approximate mass of 0.2 kg at a velocity of about 154.8 km "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { h } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . "
+            },
+            {
+              "type": "text",
+              "content": "Calculate",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the kinetic energy of the ball at the time of its delivery."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.224,
+            0.868,
+            0.59,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Mass of the cricket ball = 0.2 kg"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.254,
+            0.888,
+            0.638,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Velocity of the ball = 154.8 km h"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 43 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.256,
+            0.906,
+            0.655,
+            0.939
+          ],
+          "image_path": "images/page_6_equation_17.jpg",
+          "content": "K = \\frac{1}{2}mv^{2} = \\frac{1}{2} \\times 0.2\\  kg  \\times \\left(43\\  m \\  s ^{-1}\\right)^{2} = 184.9 J"
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.074,
+            0.942,
+            0.114,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "122"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 19,
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

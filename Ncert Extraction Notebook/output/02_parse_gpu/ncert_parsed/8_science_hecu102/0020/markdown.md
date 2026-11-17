@@ -1,0 +1,17 @@
+## Discover, design, and debate
+
+z India has a long history of biogas production. One of our oldest biogas plant was set up in late 1850s. Find out about the Biogas Program initiated by the Ministry of New and Renewable Energy, Government of India.
+
+z Fermented food items like fermented soya bean and fermented bamboo shoots are consumed as traditional food in some parts of India. With the help of your parents and teachers, list some traditional food items from your area that utilise the process of fermentation. Investigate the ingredients used in the preparation of these fermented food items; the method of preparing them; the microorganism responsible for the fermentation of the food, and the cultural and nutritional importance of the fermented food.
+
+![](images/page_19_image_6.jpg)
+
+**Interdisciplinary Projects**
+
+z Study the different parts of a macro fungus mushroom using a magnifying glass and microscope. Take the help of students from senior classes and explore the internal structure of different parts of mushrooms under the microscope in your school laboratory.
+
+z Interact with an entrepreneur and learn the steps for cultivation of mushroom.
+
+**Reflect on the questions framed by your** friends and try to answer
+
+![](images/page_19_image_11.jpg)

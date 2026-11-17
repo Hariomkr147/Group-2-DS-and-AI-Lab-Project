@@ -1,0 +1,29 @@
+![](images/page_3_image_1.jpg)
+
+Let us now further explore to understand how day and night occur on the Earth due to its rotation.
+
+![](images/page_3_image_3.jpg)
+
+Fig. 12.4(b): Using a globe and a torchlight to understand day and night
+
+ Use a torch to represent the Sun. Go to a relatively dark room to carry out the further steps of the activity.
+
+ Now, shine light from the torch placed at some distance, say 1.5 metres, on the globe as shown in Fig. 12.4b. Do you **notice** how half of the globe receives the light from the torch, while the other half stays dark?
+
+It is day time in that half of the globe which receives light, and night time in the other half.
+
+ In India, sunrise first occurs in the eastern part and then in other
+
+parts. While looking at the eastern part of India on the globe, rotate the globe in one direction and then in the opposite direction. What is the direction of rotation when light falls on the eastern part of India first?
+
+The light falls on the eastern part of India first when the globe rotates from West to East with respect to the North-South axis of the globe.
+
+ Now while rotating the globe from West to East, observe your location on the Earth. Does it go through a cycle of day and night?
+
+Sunrise occurs as your location moves into light and sunset occurs as it moves into darkness.
+
+The Earth’s rotation from West to East causes the day-night cycle. As shown in Fig. 12.5, the side facing the Sun experiences daytime, while the other side is dark and experiences night.
+
+![](images/page_3_image_14.jpg)
+
+Fig. 12.5: Sunlight falls on half of the Earth’s surface

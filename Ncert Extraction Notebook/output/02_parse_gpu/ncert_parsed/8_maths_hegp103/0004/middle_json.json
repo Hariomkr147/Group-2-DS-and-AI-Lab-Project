@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.7,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Story of Numbers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "shall take a glimpse of some of them. We will not be looking at different systems in a chronological order, but rather an order that shows us the main stages in the development of the idea of number representation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.144,
+            0.848,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But first, let us explore some of the foundational ideas needed to count and to determine the number of objects in a given collection."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.197,
+            0.492,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Mechanism of Counting"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.228,
+            0.847,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Imagine that we are living in the Stone Age, say, around ten thousand years ago. Suppose we have a herd of cows. Here are some natural questions that we might ask about our herd—"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.295,
+            0.77,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Q1. How do we ensure that all cows have returned safely after grazing?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.115,
+            0.35,
+            0.628,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q2. Do we have fewer cows than our neighbour?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.805,
+            0.298,
+            0.903,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.805,
+                0.298,
+                0.903,
+                0.399
+              ],
+              "image_path": "images/page_3_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.386,
+            0.77,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Q3. If there are fewer, how many more cows would we need so that we have the same number of cows as our neighbour?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.429,
+            0.77,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We need to tackle these questions without the use of the number names or written numbers of the Hindu number system. How do we do it?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.175,
+            0.485,
+            0.502,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here are some possible methods."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.502,
+            0.848,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We could tackle the questions by using pebbles, sticks or any object that is available in abundance. Let us choose sticks. For every cow in the herd, we could keep a stick. The final collection of sticks tells us the number of cows, which can be used to check if any cows have gone missing."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.18,
+            0.646,
+            0.842,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.18,
+                0.646,
+                0.842,
+                0.835
+              ],
+              "image_path": "images/page_3_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.878,
+            0.915,
+            0.911,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5 1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

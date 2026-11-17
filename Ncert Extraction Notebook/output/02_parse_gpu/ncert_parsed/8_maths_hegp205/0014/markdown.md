@@ -1,0 +1,23 @@
+(e) The following week, if all of them cycled 1 more time than they did the previous week, what would be the average and median of the next week’s data?
+
+11. A dart-throwing competition was organised in a school. The number of throws participants took to hit the bull’s eye (the centre circle) is given in the table below. Describe the data using its minimum, maximum, mean and median.
+
+![](images/page_13_image_3.jpg)
+
+| No. of trials | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| No. of students | 1 | 0 | 0 | 1 | 4 | 9 | 12 | 15 | 10 | 10 |
+
+## 5.2 Visualising and Interpreting Data
+
+So far we have learnt how to read and make pictographs, bar graphs, clustered-bar graphs, and dot plots. We now examine some more ways of visualising data.
+
+## Line Graphs
+
+## Temperature
+
+The following figure is a clustered-column graph that shows the monthly maximum temperature in Kerala and Punjab in 2023.
+
+![](images/page_13_chart_10.jpg)
+
+？ Now, observe the following graph. Do both these graphs represent the same information?

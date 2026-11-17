@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.562,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Expressions Using Letter-Numbers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.088,
+            0.847,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What could be an expression describing the rule/formula to find out the number of matchsticks at any step?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.125,
+            0.848,
+            0.199
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The pattern is such that in Step 10, nine 2s and an added 3 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 3 + 2 \\times"
+            },
+            {
+              "type": "text",
+              "content": " 9) gives the number of matchsticks; in Step 11, ten 2s and an added "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3   ( 3   +   2   \\times   1 0 )"
+            },
+            {
+              "type": "text",
+              "content": " gives the number of matchsticks. For step y, what is the expression?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.174,
+            0.203,
+            0.583,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is: one less than y (i.e. y – 1) 2s and a 3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.175,
+            0.222,
+            0.459,
+            0.241
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the expression is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.429,
+            0.246,
+            0.568,
+            0.266
+          ],
+          "image_path": "images/page_20_equation_5.jpg",
+          "content": "3 + 2 \\times ( y - 1 ) ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.27,
+            0.847,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This expression gives the number of matchsticks in Step y. Now we can find the number of matchsticks at any step quickly."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.307,
+            0.847,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You might have already noticed that there is a 2 in the first step also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 = 1 + 2"
+            },
+            {
+              "type": "text",
+              "content": " . Using this, the expression we get is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.464,
+            0.35,
+            0.534,
+            0.369
+          ],
+          "image_path": "images/page_20_equation_8.jpg",
+          "content": "2 y + 1 ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11,
+            0.377,
+            0.846,
+            0.418
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Does the above expression also give the number of matchsticks at each step correctly? Are these expressions the same?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.174,
+            0.427,
+            0.749,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can check by simplifying the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 + 2 \\times (y - 1)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.376,
+            0.451,
+            0.624,
+            0.471
+          ],
+          "image_path": "images/page_20_equation_11.jpg",
+          "content": "3+2\\times(y-1)=3+2y-2"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.455,
+            0.481,
+            0.542,
+            0.501
+          ],
+          "image_path": "images/page_20_equation_12.jpg",
+          "content": "2y + 1."
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.175,
+            0.506,
+            0.492,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Both expressions are the same."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.149,
+            0.525,
+            0.847,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There is a different way to count, or see the pattern. Let us take a look at the picture again."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.264,
+            0.573,
+            0.728,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.264,
+                0.573,
+                0.728,
+                0.662
+              ],
+              "image_path": "images/page_20_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.149,
+            0.689,
+            0.848,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Matchsticks are placed in two orientations — (a) horizontal ones at the top and bottom, and (b) the ones placed diagonally in the middle. For example, in step 2 there are 2 matchsticks placed horizontally and 3 matchsticks placed diagonally."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.111,
+            0.773,
+            0.61,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What are these numbers in Step 3 and Step 4?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.11,
+            0.814,
+            0.849,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How does the number of matchsticks change in each orientation as the steps increase? Write an expression for the number of matchsticks at Step ‘y’ in each orientation. Do the two expressions add up to 2y + 1?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.806,
+            0.938,
+            0.845,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "101"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

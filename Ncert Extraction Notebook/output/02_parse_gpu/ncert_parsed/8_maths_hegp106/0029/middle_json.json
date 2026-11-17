@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.089,
+            0.287,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Page No. 153"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.124,
+            0.622,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? How many square tiles are there in each figure?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.153,
+            0.157,
+            0.204,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.314,
+            0.181,
+            0.685,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.314,
+                0.181,
+                0.685,
+                0.369
+              ],
+              "image_path": "images/page_28_table_3.jpg",
+              "content": "<table><tbody><tr><td>Fig. No.</td><td>Number of square</td><td>Pattern</td></tr><tr><td>1</td><td>8</td><td>3<sup>2</sup> - 1<sup>2</sup></td></tr><tr><td>2</td><td>12</td><td>4<sup>2</sup> - 2<sup>2</sup></td></tr><tr><td>3</td><td>16</td><td>5<sup>2</sup> - 3<sup>2</sup></td></tr><tr><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td><td>.</td></tr><tr><td>.</td><td></td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11,
+            0.378,
+            0.815,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many are there in Step 4 of the sequence? What about Step 10?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.411,
+            0.569,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Step 4 → Number of squares "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6^{2} - 4^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.443,
+            0.558,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 10 → Number of squares → "
+            },
+            {
+              "type": "equation_inline",
+              "content": "12^{2} = 10^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.481,
+            0.846,
+            0.538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Write an algebraic expression for the number of tiles in Step n. Share your methods with the class. Can you find more than one method to arrive at the answer?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.549,
+            0.315,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n + 2 ) ^ { 2 } - n ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.586,
+            0.287,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Page No. 154",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.622,
+            0.845,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Write an expression for the area of the dashed region in the figure below. Use more than one method to arrive at the answer. Substitute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 6 ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "r = 3 . 5"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = 9"
+            },
+            {
+              "type": "text",
+              "content": " , and calculate the area."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.392,
+            0.696,
+            0.606,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.392,
+                0.696,
+                0.606,
+                0.85
+              ],
+              "image_path": "images/page_28_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.153,
+            0.871,
+            0.205,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.101,
+            0.924,
+            0.12,
+            0.945
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

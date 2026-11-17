@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:14:09+05:30",
+      "modified_at": "2026-04-07T17:14:16+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 34,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 34,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.086,
+            0.282,
+            0.106
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.116,
+            0.122,
+            0.241,
+            0.141
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Page No. 19",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.144,
+            0.151,
+            0.882,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Using all digits from 0 – 9 exactly once (the first digit cannot be 0) to create a 10-digit number, write the — (a)Largest multiple of 5 Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " largest multiple of 5 = 9876543210"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.175,
+            0.249,
+            0.673,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b)Smallest even number Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The smallest such even number = 1023456798"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.145,
+            0.307,
+            0.883,
+            0.386
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The number 10,30,285 in words is ten lakhs thirty thousand two hundred eighty-five, which has 42 letters. Give a 7-digit number name which has the maximum number of letters. Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " One such number is 77,77,777, which has 60 letters."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.145,
+            0.404,
+            0.883,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Write a 9-digit number where exchanging any two digits results in a bigger number. How many such numbers exist? Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " One such number is 987654312. Exchanging last two digits, we get 987654321, which is bigger number than the initial number. Try more!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.145,
+            0.54,
+            0.882,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Strike out 10 digits from the number 12345123451234512345 so that the remaining number is as large as possible. Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 5534512345"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.143,
+            0.617,
+            0.882,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Suppose you write down all the numbers 1, 2, 3, 4, …, 9, 10, 11, and so on. The tenth digit you write is ‘1’ and the eleventh digit is ‘0’, as part of the number 10. (This question can be solved in different ways. One of the way is —) (a)What would the 1000th digit be? At which number would it occur? Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Digits from 1 to 9 = 9 digits Digits from 10 to 99 = 99-10+1 = 90 numbers × 2 = 180 digits Total digits from 1 to 99 = 9 + 180 = 189 digits Remaining digits to reach 1000th digit = 1000 – 189 = 811 Number of 3-digit numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 8 1 1 } { 3 } } = 2 7 0"
+            },
+            {
+              "type": "text",
+              "content": " full numbers + 1 digit left over. The first 3-digit number is 100 270th 3-digit number is 100 + 270 – 1 = 369"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.489,
+            0.928,
+            0.511,
+            0.941
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

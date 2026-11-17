@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.668,
+            0.05,
+            0.844,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Connecting the Dots…"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.09,
+            0.148,
+            0.116
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.113,
+                0.09,
+                0.148,
+                0.116
+              ],
+              "image_path": "images/page_12_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.092,
+            0.778,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Discuss the effect on the mean and median when outliers are present on both sides. You may take some example data to examine and explain this."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.806,
+            0.09,
+            0.894,
+            0.143
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.806,
+                0.09,
+                0.894,
+                0.143
+              ],
+              "image_path": "images/page_12_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.162,
+            0.848,
+            0.221
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mean and Median are called measures of central tendency, i.e., the tendency of the values to pile up around a particular value. In other words, they represent the ‘centre’ of the data."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.243,
+            0.448,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Of Ends and the Essence"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.27,
+            0.848,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As we have just seen, the mean and the median can give different perspectives on the data. As part of analysing data, it can also be valuable to look at the variability in the given data, i.e., its extremes (minimum and maximum values)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.358,
+            0.396,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How Tall is Your Class?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.382,
+            0.847,
+            0.421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose you are asked the question, “How tall is your class?” What would you say?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.421,
+            0.846,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The table below shows the heights of students in a Grade 5 class in centimeters."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.156,
+            0.469,
+            0.841,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Boys",
+              "styles": [
+                "bold",
+                "underline"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "147, 135, 130, 154, 128, 135, 134, 158, 155, 146, 146, 142, 140, 141, 144, 145, 150",
+              "styles": [
+                "underline"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Girls",
+              "styles": [
+                "bold",
+                "underline"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "143, 136, 150, 144, 154, 140, 145, 148, 156, 150, 150",
+              "styles": [
+                "underline"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.533,
+            0.849,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can visualise the data using a dot plot, identify the ends and patterns, and look at the variability. We can also find the measures of central tendency. The dot plot for the whole class, followed by the dot plots for boys and girls, respectively, are shown. The mean and the median are also shown for each collection."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 12,
+          "bbox": [
+            0.181,
+            0.63,
+            0.798,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 12,
+              "bbox": [
+                0.181,
+                0.63,
+                0.798,
+                0.736
+              ],
+              "image_path": "images/page_12_chart_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 13,
+          "bbox": [
+            0.19,
+            0.739,
+            0.796,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 13,
+              "bbox": [
+                0.19,
+                0.739,
+                0.796,
+                0.823
+              ],
+              "image_path": "images/page_12_chart_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 14,
+          "bbox": [
+            0.19,
+            0.831,
+            0.796,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 14,
+              "bbox": [
+                0.19,
+                0.831,
+                0.796,
+                0.915
+              ],
+              "image_path": "images/page_12_chart_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.807,
+            0.932,
+            0.846,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "109 V"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

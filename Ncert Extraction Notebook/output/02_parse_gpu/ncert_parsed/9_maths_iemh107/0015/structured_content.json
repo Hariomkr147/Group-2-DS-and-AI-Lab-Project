@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.331,
+            0.068,
+            0.815,
+            0.087
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": "169"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.149
+          ],
+          "content": "Also, the theoretical probabilities of each outcome are mentioned on the branch representing that outcome."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.159,
+            0.852,
+            0.209
+          ],
+          "content": "\\mathrm{Thecritical probability}(\\mathrm{P}) = \\frac{\\text { Number of favorable outcomes }}{\\text { Number of possible outcomes }}",
+          "image_source": "images/page_14_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.223,
+            0.885,
+            0.262
+          ],
+          "content": "Let us consider the event of getting Heads twice. This is represented by the outcome HH."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.266,
+            0.54,
+            0.306
+          ],
+          "content": "Probability of HH $\\frac{1}{4} = 0.25   or   25\\%.$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.323,
+            0.399,
+            0.346
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.359,
+            0.785,
+            0.38
+          ],
+          "content": "Can you calculate the probability of getting one head and one tail?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.374,
+            0.422,
+            0.624,
+            0.451
+          ],
+          "level": 2,
+          "content": "Exercise Set 7.4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.474,
+            0.886,
+            0.534
+          ],
+          "content": "1. There are two fruit baskets A and B. Basket A has one apple and two oranges. Basket B has one banana and one mango. You randomly pick one fruit from each basket."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.537,
+            0.838,
+            0.559
+          ],
+          "content": "(i) Draw a tree diagram showing all possible pairs of fruits."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.562,
+            0.471,
+            0.583
+          ],
+          "content": "(ii) List the sample space."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.586,
+            0.885,
+            0.627
+          ],
+          "content": "(iii) What is the probability of picking one apple and one banana?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.631,
+            0.886,
+            0.69
+          ],
+          "content": "2. Let us say that you have a box containing 3 red pens, 4 black pens and 2 green pens. You pick a pen (without looking) from the box and put it back. Then your friend does the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.694,
+            0.885,
+            0.736
+          ],
+          "content": "(i) What are the possible outcomes of the pen colours? Can you draw a tree diagram representing the possible outcomes?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.739,
+            0.885,
+            0.782
+          ],
+          "content": "(ii) Can you use the tree diagram to guess the probability that both you and your friend pick pens of the same colour?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.305,
+            0.804,
+            0.692,
+            0.83
+          ],
+          "level": 2,
+          "content": "End-of-Chapter Exercises"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.847,
+            0.362,
+            0.867
+          ],
+          "content": "1. Fill in the blanks."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18,
+            0.875,
+            0.757,
+            0.897
+          ],
+          "content": "(i) The probability of an impossible event is"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

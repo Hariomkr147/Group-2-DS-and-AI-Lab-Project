@@ -1,0 +1,35 @@
+![](images/page_5_image_2.jpg)
+
+![](images/page_5_image_3.jpg)
+
+(a)
+
+![](images/page_5_image_5.jpg)
+
+(b)
+
+![](images/page_5_image_7.jpg)
+
+Fig. 4.4: Compass needle near (a) End A; (b) End B of an electromagnet
+
+As we have learnt earlier, when two magnets are brought close to each other, their unlike poles (North–South) attract each other. So, if north pole of the magnetic compass is attracted towards end A of the electromagnet, then end A is south pole.
+
+z Repeat this procedure to find the polarity of end B as well (Fig. 4.4b). Did you find that the polarity of end B is opposite to the polarity of end A?
+
+We learnt in grade 6 that a magnet has two poles. Just like a magnet, an electromagnet also has two poles—North and South.
+
+## Think like a scientist
+
+Repeat Activity 4.3 with — (i) 2 and 4 cells with the same coil, (ii) 2 cells but different number of turns of the coil. What do you observe?
+
+A single cell provides only a small amount of current, so the magnetic field is weak. As a result, the deflection of compass needle is less and the coil can only attract a few clips. A battery with more cells gives a larger current as compared to that with a single cell. This creates a stronger magnetic field, so the deflection of the compass needle is more and the coil can attract more clips. The increase in number of turns of the coil also makes the coil a stronger magnet!
+
+Also, repeat Activity 4.4 by changing the direction of the current. So, the strength of an electromagnet can be changed by changing the amount of electric current flowing through the coil or the number of turns of the coil, or both. Also, its poles can be reversed by changing the direction of the current.
+
+![](images/page_5_image_16.jpg)
+
+## A step further
+
+Do you remember learning earlier (in the chapter ‘Exploring Magnets’ in Curiosity, Grade 6) that a freely suspended magnet rests along the north–south direction because our Earth itself behaves like a giant magnet? But why does Earth behave like a magnet? Deep inside the Earth, the movement of liquid iron in the core creates electric currents, which generate a magnetic field. Many migratory birds, fish, and animals use this field to navigate across continents and oceans. The Earth’s magnetic field also acts as a shield, blocking harmful particles from space, and helps protect life on Earth.
+
+![](images/page_5_image_19.jpg)

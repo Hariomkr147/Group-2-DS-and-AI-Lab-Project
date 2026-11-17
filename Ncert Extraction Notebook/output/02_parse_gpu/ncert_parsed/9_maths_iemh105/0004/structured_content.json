@@ -1,0 +1,168 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.452,
+            0.068,
+            0.817,
+            0.087
+          ],
+          "content": "I’m Up and Down, and Round and Round"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "95"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.887,
+            0.265
+          ],
+          "content": "Are there more circles passing through both A and B? Clearly, any point equidistant from A and B can be the centre of a circle passing through A and B. Do you know of such points? We have seen that the perpendicular bisector of the line segment AB is the locus of points equidistant from A and B. Every point on the perpendicular bisector is equidistant from A and B, and every point that is equidistant from A and B is on the perpendicular bisector! So, the centres of all circles through A and B lie on the perpendicular bisector of AB."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.123,
+            0.27,
+            0.579,
+            0.557
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.198,
+                0.565,
+                0.506,
+                0.583
+              ],
+              "content": "Fig. 5.4: Circles through two points"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.587,
+            0.31,
+            0.88,
+            0.544
+          ],
+          "content": "In Fig. 5.4, we see circles through points A and B, and through C and D, and the perpendicular bisector of CD. Every point on the perpendicular bisector is the centre of a circle passing through C and D. So we have circles with centres K, J and L containing points C and D."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.605,
+            0.399,
+            0.629
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.643,
+            0.703,
+            0.663
+          ],
+          "content": "1. How many circles pass through two points on a plane?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.666,
+            0.855,
+            0.725
+          ],
+          "content": "2. Are there circles of all possible radii passing through A and B? What is the radius of the smallest circle passing through A and B? What is the radius of the largest circle passing through A and B?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.728,
+            0.855,
+            0.767
+          ],
+          "content": "3. As you move away from segment AB along its perpendicular bisector, do the radii of the circles containing A and B increase or decrease?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.771,
+            0.855,
+            0.81
+          ],
+          "content": "4. As you go along the perpendicular bisector, will the circle drawn from that point through A and B appear more curved or less curved?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.813,
+            0.856,
+            0.89
+          ],
+          "content": "5. You are given two points A and B on a plane. How many squares can you draw on the same plane with A and B on the boundary? How many squares can you draw on the plane with A and B as the corners of the square?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

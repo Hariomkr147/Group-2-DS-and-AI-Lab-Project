@@ -1,0 +1,31 @@
+## 11. Karim and the Genie
+
+Karim was taking a nap under a tree. He had a dream about a magical lamp and a genie. He heard a voice saying, “I have come to serve you, Oh master”. He woke up and to his surprise, it was a genie!
+
+“Do you want to make money?”, asked the genie. Karim nodded dumbly in bewilderment. The genie continued, “Do you see the banyan tree over there? All you have to do is go around it once. The money in your pocket will double”.
+
+Karim immediately started towards the tree, only to be stopped by the genie. “One moment!”, said the genie. “Since I am bringing you great riches, you should share some of your gains with me. You must give me 8 coins each time you go around the tree.”
+
+Thinking that was a trifling amount, Karim readily agreed.
+
+He went around the tree once. Just as the genie had said, the number of coins in his pocket doubled! He gave 8 coins to the genie. He made another round. Again the number of coins doubled. He gave 8 more coins to the genie. He went around the tree for the third time. The number of coins doubled again, but to his horror, he was left with only 8 coins, exactly the number of coins he owed the genie!
+
+![](images/page_12_image_7.jpg)
+
+As Karim began to wonder how the genie tricked him, the genie let out a loud laugh and disappeared.
+
+(i) How many coins did Karim initially have?
+
+(ii) For what cost per round should Karim agree to the deal, if he wants to increase the number of coins he has?
+
+(iii) Through its magical powers, the genie knows the number of coins that Karim has. How should the genie set the cost per round so that it gets all of Karim’s coins?
+
+![](images/page_12_image_13.jpg)
+
+## SUMMARY
+
+Algebra is very useful in modeling and understanding numerical scenarios. Because of this, it occurs in almost all areas of mathematics, science and beyond.
+
+Algebra is an indispensable tool in justifying mathematical statements.
+
+We applied algebra to analyse ‘Think of a Number’ tricks, number pyramids, grids, ways of forming numbers using given digits to maximise certain products, divisibility tricks, and various other problems.

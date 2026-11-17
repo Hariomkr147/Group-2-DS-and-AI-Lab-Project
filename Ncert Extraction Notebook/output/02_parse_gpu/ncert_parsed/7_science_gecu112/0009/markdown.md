@@ -1,0 +1,19 @@
+## 12.2.2 Seasons on the Earth
+
+![](images/page_8_image_2.jpg)
+
+I have noticed that we go through a cycle of seasons every year. Is it related to the revolution of the Earth around the Sun in some way?
+
+I have also noticed that days are longer in summer than in winter.
+
+![](images/page_8_image_5.jpg)
+
+The Earth’s axis of rotation is not upright with respect to the orbit, but is tilted. The Earth maintains this tilt as it orbits around the Sun (Fig. 12.9). The tilt of the Earth’s axis and the spherical shape of the Earth gives rise to seasons. Let us find out, how.
+
+![](images/page_8_image_7.jpg)
+
+Fig. 12.9: Different positions of the Earth while revolving around the Sun (The Earth’s orbit appears elongated because this is a side view and not the top view. The sizes and distances are not to scale)
+
+In June, the Northern Hemisphere is tilted towards the Sun while the Southern Hemisphere is tilted away from the Sun (Fig. 12.9). As seen in Fig. 12.10a, a given amount of sunrays are spread in a smaller area in the Northern Hemisphere as compared to the Southern Hemisphere due to the spherical shape of the Earth’s surface. So that area is heated more.
+
+Further, the Northern Hemisphere receives sunlight for more than 12 hours in June (Fig. 12.11a). So, the Northern Hemisphere experiences more intense sunlight, which lasts for a longer time, causing the summer season. In December, the situation is opposite in the Northern Hemisphere and it experiences winter season with sunlight for shorter time (Fig. 12.10b and Fig. 12.11b).

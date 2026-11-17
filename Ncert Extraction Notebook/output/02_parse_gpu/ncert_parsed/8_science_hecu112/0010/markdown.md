@@ -1,0 +1,41 @@
+## Activity 12.6: Let us link (relate)
+
+z Take an example of a grassland ecosystem.
+
+Consider the following organisms that we can spot in a grassland ecosystem: grass, frog, hare, grasshopper, snake, and eagle.
+
+z In Fig. 12.8, a relationship of who eats whom is shown among some of the organisms.
+
+**Draw** the feeding relationships for the remaining organisms by adding arrows, similar to those in Fig. 12.8.
+
+In Fig 12.8, you can see that the grass is eaten by the hare and the hare is eaten by the leopard. This is a representation of a food chain in a grassland ecosystem. Which is another food chain that can be drawn for the organisms given in this activity? One example may be as follows:
+
+Grass Grasshopper Frog Snake Eagle
+
+The interactions between biotic components based on feeding relationships can be represented in the form of a linear chain. A **food chain** is a simple sequence showing ‘who eats whom’ in an ecosystem. One such example is given in Fig. 12.9.
+
+![](images/page_9_image_10.jpg)
+
+## Activity 12.7: Let us draw
+
+Fig. 12.10a represents a crop field with millets, mouse, and eagle.
+
+z **Count** the number of each type of organism in Fig. 12.10a.
+
+Make a table and set a number in the table against each of the organisms.
+
+Arrange the numbers in the ascending order, consider the highest number at the base and the lowest at the top.
+
+Place the mouse, millet, and eagle appropriately in Fig. 12.10b.
+
+What figure do you get? It looks like a pyramid. Complete the pyramid in Fig. 12.10b.
+
+Each organism in a food chain has a specific position, called a **trophic level** (troph = food):
+
+Producers (like green plants) are at the first trophic level.
+
+Fig. 12.9: Another food chain in a grassland
+
+![](images/page_9_image_21.jpg)
+
+Fig. 12.10: (a) Food chain of millet, mouse, and eagle in a crop field

@@ -1,0 +1,249 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.331,
+            0.068,
+            0.816,
+            0.087
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "173"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.107,
+            0.318,
+            0.129
+          ],
+          "content": "(i) {1, 2, 3}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.133,
+            0.318,
+            0.155
+          ],
+          "content": "(ii) {0, 1, 2}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.161,
+            0.365,
+            0.183
+          ],
+          "content": "(iii) {0, 1, 2, 3, 4}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.187,
+            0.342,
+            0.209
+          ],
+          "content": "(iv) {0, 1, 2, 3}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.218,
+            0.624,
+            0.298
+          ],
+          "content": "\\*16. Suppose you drop a dye at random on the rectangular region shown in Fig. 7.8. What is the probability that it will land inside the circle with a diameter of 1 m?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.635,
+            0.17,
+            0.879,
+            0.288
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.721,
+                0.294,
+                0.79,
+                0.312
+              ],
+              "content": "Fig. 7.8"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.37,
+            0.322,
+            0.63,
+            0.344
+          ],
+          "level": 2,
+          "content": "Chapter Summary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.359,
+            0.806,
+            0.38
+          ],
+          "content": "z Probability is a measurement of the likelihood of an event."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.383,
+            0.886,
+            0.461
+          ],
+          "content": "Probability is expressed on a scale from 0 (indicating impossibility) to 1 (indicating certainty), representing the likelihood of an event occurring. The probability of an event E is denoted as P(E), where $0 \\leq \\mathbb { P } ( \\mathbb { E } ) \\leq 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.465,
+            0.884,
+            0.505
+          ],
+          "content": "Experimental probability is determined by conducting an experiment and is calculated as:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.508,
+            0.874,
+            0.557
+          ],
+          "content": "Number of times the event occurred Experimental Probability Total number of trials"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.56,
+            0.884,
+            0.602
+          ],
+          "content": "Theoretical probability is based on all possible outcomes in a fair situation, assuming each is equally likely:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.603,
+            0.599,
+            0.624
+          ],
+          "content": "Theoretical Probability of an event A is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.168,
+            0.628,
+            0.606,
+            0.678
+          ],
+          "content": "\\mathrm{P}(\\mathrm{A})=\\frac{\\text { Number of failures } \\text { outcomes }}{\\text { Number of possible outcomes }}",
+          "image_source": "images/page_18_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.683,
+            0.884,
+            0.743
+          ],
+          "content": "z A sample space is the list of all possible outcomes of a random experiment. It is represented as a set $\\mathrm{S} = \\mathrm{function}_{1},$ outcome …, outcome }."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.746,
+            0.886,
+            0.805
+          ],
+          "content": "An event is any one or a group of possible outcomes from a random experiment. It is like picking results or outcomes from all that could happen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.807,
+            0.887,
+            0.867
+          ],
+          "content": "Tree diagrams help us to list and visualise all possible outcomes of a random experiment. They also help us calculate probabilities of events related to random experiments."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

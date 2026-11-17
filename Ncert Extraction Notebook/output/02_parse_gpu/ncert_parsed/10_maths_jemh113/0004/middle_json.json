@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "174"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.101,
+            0.161,
+            0.897,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.442,
+                0.138,
+                0.558,
+                0.156
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.3"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.101,
+                0.161,
+                0.897,
+                0.381
+              ],
+              "image_path": "images/page_3_table_3.jpg",
+              "content": "<table><tbody><tr><td>Class interval</td><td>Number of students (f<sub>i</sub>)</td><td>Class mark (x<sub>i</sub>)</td><td>f<sub>i</sub>x<sub>i</sub></td></tr><tr><td>10 - 25</td><td>2</td><td>17.5</td><td>35.0</td></tr><tr><td>25 - 40</td><td>3</td><td>32.5</td><td>97.5</td></tr><tr><td>40 - 55</td><td>7</td><td>47.5</td><td>332.5</td></tr><tr><td>55 - 70</td><td>6</td><td>62.5</td><td>375.0</td></tr><tr><td>70 - 85</td><td>6</td><td>77.5</td><td>465.0</td></tr><tr><td>85 - 100</td><td>6</td><td>92.5</td><td>555.0</td></tr><tr><td>Total</td><td>Σf<sub>i</sub> = 30</td><td></td><td>Σf<sub>i</sub>x<sub>i</sub> = 1860.0</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.386,
+            0.9,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The sum of the values in the last column gives us "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Sigma f _ { i } x _ { i } ."
+            },
+            {
+              "type": "text",
+              "content": " So, the mean "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline { { x } }"
+            },
+            {
+              "type": "text",
+              "content": " of the given data is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.342,
+            0.42,
+            0.602,
+            0.464
+          ],
+          "image_path": "images/page_3_equation_5.jpg",
+          "content": "\\overline{x} = \\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}} = \\frac{1860.0}{30} = 62"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.148,
+            0.467,
+            0.832,
+            0.487
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This new method of finding the mean is known as the "
+            },
+            {
+              "type": "text",
+              "content": "Direct Method",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.096,
+            0.494,
+            0.902,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe that Tables 13.1 and 13.3 are using the same data and employing the same formula for the calculation of the mean but the results obtained are different. Can you think why this is so, and which one is more accurate? The difference in the two values is because of the mid-point assumption in Table 13.3, 59.3 being the exact mean, while 62 an approximate mean."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.602,
+            0.902,
+            0.663
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Sometimes when the numerical values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " are large, finding the product of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " becomes tedious and time consuming. So, for such situations, let us think of a method of reducing these calculations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.669,
+            0.902,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can do nothing with the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i } ^ { \\flat } \\mathrm { { S } }"
+            },
+            {
+              "type": "text",
+              "content": " , but we can change each "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " to a smaller number so that our calculations become easy. How do we do this? What about subtracting a fixed number from each of these "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } ^ {   ^ { \\prime } } \\mathrm { S }   _ { \\cdot } ^ { \\mathrm { ? } }"
+            },
+            {
+              "type": "text",
+              "content": " Let us try this method."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.736,
+            0.902,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The first step is to choose one among the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " s as the assumed mean, and denote it by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } a ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, to further reduce our calculation work, we may take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ \\circ a ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " to be that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " which lies in the centre of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x_{_1},x_{_2},\\ldots,x_{_n}"
+            },
+            {
+              "type": "text",
+              "content": " . So, we can choose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 4 7 . 5"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 6 2 . 5"
+            },
+            {
+              "type": "text",
+              "content": " . Let us choose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 4 7 . 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.096,
+            0.824,
+            0.899,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The next step is to find the difference "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " between a and each of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } ^ { \\mathrm { ~ \\prime ~ } } \\mathrm { S }"
+            },
+            {
+              "type": "text",
+              "content": " , that is, the "
+            },
+            {
+              "type": "text",
+              "content": "deviation",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } a ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " from each of the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } ^ { \\mathrm { ~ \\prime ~ } } \\mathrm { S }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.872,
+            0.139,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.342,
+            0.871,
+            0.566,
+            0.892
+          ],
+          "image_path": "images/page_3_equation_13.jpg",
+          "content": "d _ { _ i } = x _ { _ i } - a = x _ { _ i } - 4 7 . 5"
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

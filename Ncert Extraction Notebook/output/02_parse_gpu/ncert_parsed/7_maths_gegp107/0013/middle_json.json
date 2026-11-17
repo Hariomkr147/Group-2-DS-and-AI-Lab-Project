@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.047,
+            0.364,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.365,
+            0.083,
+            0.633,
+            0.214
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.365,
+                0.083,
+                0.633,
+                0.214
+              ],
+              "image_path": "images/page_12_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.151,
+                0.233,
+                0.589,
+                0.253
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Case 2: Circles do not intersect internally"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.267,
+            0.848,
+            0.306
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ For this case to happen, what should be the relation between the radii and AB?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.174,
+            0.316,
+            0.524,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It can be seen from the figure that,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.37,
+            0.346,
+            0.628,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "sum of the two radii < AB"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.486,
+            0.385,
+            0.514,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.245,
+            0.417,
+            0.753,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "sum of the the two smaller lengths < longest length"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.357,
+            0.444,
+            0.644,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.357,
+                0.444,
+                0.644,
+                0.583
+              ],
+              "image_path": "images/page_12_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.211,
+            0.628,
+            0.756,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 9,
+              "bbox": [
+                0.152,
+                0.599,
+                0.523,
+                0.619
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Case 3: Circles intersect each other"
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.211,
+                0.628,
+                0.756,
+                0.898
+              ],
+              "image_path": "images/page_12_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.154,
+            0.938,
+            0.193,
+            0.955
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

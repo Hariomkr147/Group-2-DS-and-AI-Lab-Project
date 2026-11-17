@@ -1,0 +1,160 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.104,
+            0.229,
+            0.121
+          ],
+          "content": "REAL NUMBERS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.903,
+            0.295
+          ],
+          "content": "**So we have factorised 32760 as** $2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 5 \\times 7 \\times 1 3$ **as a product of** primes, i.e., $32760 = 2^{3} \\times 3^{2} \\times 5 \\times 7 \\times 13$ **as a product of powers of primes. Let us try** another number, say, 123456789. This can be written as $3 ^ { 2 } \\times 3 8 0 3 \\times 3 6 0 7$ **. Of course, you have to check that 3803 and 3607 are primes! (Try it out for several other natural numbers yourself.) This leads us to a conjecture that every composite number can be written as the product of powers of primes. In fact, this statement is true, and is called the Fundamental Theorem of Arithmetic because of its basic crucial importance to the study of integers. Let us now formally state this theorem.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.299,
+            0.902,
+            0.359
+          ],
+          "content": "**Theorem 1.1 (Fundamental Theorem of Arithmetic) :** Every composite number can be expressed (factorised) as a product of primes, and this factorisation is unique, apart from the order in which the prime factors occur."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.394,
+            0.631,
+            0.512
+          ],
+          "content": "**An equivalent version of Theorem 1.2 was probably first recorded as Proposition 14 of Book IX in Euclid’s Elements, before it came to be known as the Fundamental Theorem of Arithmetic. However, the first correct proof was given by Carl Friedrich Gauss in his** Disquisitiones Arithmeticae."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.516,
+            0.63,
+            0.614
+          ],
+          "content": "**Carl Friedrich Gauss is often referred to as the ‘Prince of Mathematicians’ and is considered one of the three greatest mathematicians of all time, along with Archimedes and Newton. He has made fundamental contributions to both mathematics and science.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.654,
+            0.382,
+            0.885,
+            0.559
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.664,
+                0.574,
+                0.888,
+                0.611
+              ],
+              "content": "Carl Friedrich Gauss (1777 – 1855)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.644,
+            0.902,
+            0.799
+          ],
+          "content": "**The Fundamental Theorem of Arithmetic says that every composite number can be factorised as a product of primes. Actually it says more. It says that given any** composite number it can be factorised as a product of prime numbers in a ‘unique **way, except for the order in which the primes occur. That is, given any composite number there is one and only one way to write it as a product of primes, as long as we are not particular about the order in which the primes occur. So, for example, we regard** $2 \\times 3 \\times 5 \\times 7$ **as the same as** $3 \\times 5 \\times 7 \\times 2$ **, or any other possible order in which these primes are written. This fact is also stated in the following form:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.805,
+            0.901,
+            0.844
+          ],
+          "content": "The prime factorisation of a natural number is unique, except for the order of its factors."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

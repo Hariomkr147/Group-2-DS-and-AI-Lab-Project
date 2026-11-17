@@ -1,0 +1,347 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.045,
+            0.078,
+            0.208,
+            0.173
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.045,
+            0.178,
+            0.208,
+            0.289
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.116,
+                0.291,
+                0.139,
+                0.306
+              ],
+              "content": "(b)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.311,
+            0.208,
+            0.441
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.117,
+                0.444,
+                0.138,
+                0.457
+              ],
+              "content": "(c)"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.045,
+                0.462,
+                0.212,
+                0.533
+              ],
+              "content": "Fig. 7.8: (a) Throwing a cricket ball, (b) ball hitting the wickets, and (c) a flower pot falling from a height"
+            }
+          ],
+          "image_source": "images/page_4_image_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.034,
+            0.585,
+            0.2,
+            0.602
+          ],
+          "level": 2,
+          "content": "Meet a Scientist"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.198,
+            0.518,
+            0.259,
+            0.582
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.038,
+            0.611,
+            0.121,
+            0.688
+          ],
+          "content": "The SI unit of work and energy, joule,"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.124,
+            0.616,
+            0.199,
+            0.68
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.037,
+            0.688,
+            0.196,
+            0.905
+          ],
+          "content": "is named after the scientist, **James Prescott Joule**. He studied how mechanical energy and thermal energy are related, and can be converted from one to the other. This helped develop a unified way to understand energy."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.225,
+            0.083,
+            0.618,
+            0.105
+          ],
+          "level": 2,
+          "content": "7.2 The Work-Energy Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.107,
+            0.889,
+            0.143
+          ],
+          "content": "We have seen that when a force is applied and an object is displaced, work is done on it. Does this cause the object to gain capacity to do further work?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.145,
+            0.89,
+            0.282
+          ],
+          "content": "Consider some everyday life examples. A fielder throws a cricket ball towards the wicket (Fig. 7.8a). The moving ball hits the wicket, making it fall (Fig. 7.8b). Similarly, a flowerpot raised to a height can damage an object below it if it falls (Fig. 7.8c). So, in each case, the ball or the pot has acquired a capacity to do some work. An object having the capacity to do work is said to possess **energy**. But how did the ball or the pot get their energy? The ball gained energy from the work done by the fielder in throwing it. The pot gained energy from the work done in raising it to a height."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.283,
+            0.89,
+            0.37
+          ],
+          "content": "When positive work is done on an object, it gains energy. Subsequently, the object can use that energy to apply a force on another object and cause it to move, thereby transferring energy. For example, when the ball hits the wickets, it transfers its energy to the wickets, making them move. Thus, work done on an object and its energy are closely related to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.372,
+            0.889,
+            0.423
+          ],
+          "content": "Work done on an object appears as a change in its energy. The relation between the work done on an object and the change in its energy is called the **work-energy theorem**, which can be stated as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.426,
+            0.886,
+            0.444
+          ],
+          "content": "\\mathrm { w o r k \\; d o n e \\; o n \\; a n \\; o b j e c t \\; \\bar { = } \\; c h a n g e \\; i n \\; i t s \\; e n e r g y }\\tag{7.3}",
+          "image_source": "images/page_4_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.446,
+            0.889,
+            0.498
+          ],
+          "content": "This theorem also holds for a system of objects or even when the forces applied on an object are not constant. This theorem can help us solve problems which we could not have done easily otherwise."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.254,
+            0.5,
+            0.858,
+            0.519
+          ],
+          "content": "The **SI unit of energy** is the same as the SI unit of work, the **joule (J)**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.279,
+            0.536,
+            0.49,
+            0.556
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.252,
+            0.56,
+            0.867,
+            0.67
+          ],
+          "content": "Doing mechanical work is one way of transferring energy from one object to another. But that is not the only way! Energy can also be transferred as heat. When two objects at different temperatures come in contact, energy flows from the hotter one to the colder one. Energy can also move without direct contact. For example, the Sun’s energy reaches the Earth through radiation. Energy is transferred in electric circuits, as well as via sound waves, and even in nuclear reactions that power the Sun."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.694,
+            0.889,
+            0.747
+          ],
+          "content": "**Example 7.3:** In a game of carrom, a player played the shot shown in Fig. 7.9 to pocket the black coin. Identify who does work, and the changes in energy that occur at each collision."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.75,
+            0.889,
+            0.784
+          ],
+          "content": "**Answer:** The moving striker collides with the white coin, which in turn collides with the black coin. The moving striker applies force in the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.783,
+            0.722,
+            0.921
+          ],
+          "continues_prev": true,
+          "content": "direction of displacement of the white coin. The striker, thus, does positive work on the white coin, increasing its energy. By Newton’s third law, the white coin applies an opposite force and does negative work on the striker, decreasing its energy. Similarly, the white coin does positive work on the black coin increasing its energy, while the black coin does negative work on the white coin, decreasing its energy."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.73,
+            0.789,
+            0.886,
+            0.905
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.727,
+                0.908,
+                0.893,
+                0.923
+              ],
+              "content": "Fig. 7.9: A carrom shot"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_24.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.114,
+            0.96
+          ],
+          "content": "120"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

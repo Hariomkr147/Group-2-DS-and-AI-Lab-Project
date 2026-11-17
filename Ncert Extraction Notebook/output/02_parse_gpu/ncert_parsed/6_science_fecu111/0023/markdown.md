@@ -1,0 +1,15 @@
+13. A family uses solar panels to generate electricity, a gas stove to cook food and a windmill for pumping water from a well. What would happen if there were no sunlight for a week?
+
+14. Fill up the blanks using the following terms— (fossil fuels, forest, air, petroleum, coal, water and non-renewable resource)
+
+![](images/page_22_image_2.jpg)
+
+15. There is an increasing demand of trees to meet the requirements of industries and for housing. Therefore, trees are being felled. Is it justified? Discuss and prepare a brief report.
+
+16. Propose a plan to use less water in your school. What steps would you take to make this plan happen and how would it help the environment?
+
+## Learning further
+
+![](images/page_22_image_6.jpg)
+
+ Rainwater harvesting is an age-old practice in India. Find out some of the traditional rainwater harvesting techniques being used in your state or in other parts of the country.

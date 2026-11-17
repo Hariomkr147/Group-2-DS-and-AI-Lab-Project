@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.592,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The World of Algorithms"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "41"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.144,
+            0.111,
+            0.802,
+            0.131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6 divides 18, so we update list-of-divisors to [1, 2, 3, 6]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.145,
+            0.136,
+            0.881,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7 and 8 do not divide 18, so we leave list-of-divisors unchanged as [1, 2, 3, 6]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.145,
+            0.182,
+            0.826,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• 9 divides 18, so we update list-of-divisors to [1, 2, 3, 6, 9]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.145,
+            0.208,
+            0.881,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10, 11, 12, … , 17 do not divide 18, so we keep list-of-divisors unchanged as [1, 2, 3, 6, 9]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.145,
+            0.253,
+            0.875,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "18 divides 18, so we update list-of-divisors to [1, 2, 3, 6, 9, 18]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.284,
+            0.881,
+            0.341
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, at the end of the algorithm we have divisors(18) = [1, 2, 3, 6, 9, 18]. Notice that the list is also in increasing order, because we checked for divisors systematically, from 1 to 18."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.115,
+            0.342,
+            0.882,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the basic step that we assumed in this algorithm? It is that we know how to compute when a smaller number divides a larger number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.116,
+            0.404,
+            0.88,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we go through the steps of the algorithm, we get the following answers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.144,
+            0.429,
+            0.628,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• divisors(375) = [1, 3, 5, 15, 25, 75, 125, 375]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.144,
+            0.453,
+            0.784,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• divisors(825) = [1, 3, 5, 11, 15, 25, 33, 55, 75, 165, 275, 825]"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.136,
+            0.491,
+            0.4,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.132,
+            0.531,
+            0.851,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try to execute the algorithm to compute the divisors of 15, 135, and 775. How does the amount of work increase as the numbers grow?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.117,
+            0.606,
+            0.674,
+            0.628
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.2.2 Finding the Greatest Common Divisor"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.116,
+            0.637,
+            0.881,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The second step in our procedure to find the gcd is to compare the lists of divisors of the two numbers and find the largest number that appears in both lists."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.116,
+            0.695,
+            0.881,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we look through the divisiors of 375 and 825 above, we see that the answer is 75. What if the numbers were 54000 and 81000?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.144,
+            0.743,
+            0.883,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "divisors(54000) = [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 27, 30, 36, 40, 45, 48, 50, 54, 60, 72, 75, 80, 90, 100, 108, 120, 125, 135, 144, 150, 180, 200, 216, 225, 240, 250, 270, 300, 360, 375, 400, 432, 450, 500, 540, 600, 675, 720, 750, 900, 1000, 1080, 1125, 1200, 1350, 1500, 1800, 2000, 2160, 2250, 2700, 3000, 3375, 3600, 4500, 5400, 6000, 6750, 9000, 10800, 13500, 18000, 27000, 54000]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

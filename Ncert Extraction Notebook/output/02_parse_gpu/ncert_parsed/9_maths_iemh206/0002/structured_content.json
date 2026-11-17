@@ -1,0 +1,243 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.159,
+            0.087
+          ],
+          "content": "124"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.186,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.111,
+            0.884,
+            0.247
+          ],
+          "content": "Volume measures the amount of three-dimensional space an object or a container occupies. It is measured in cubic units, e.g., cubic meters $( m ^ { 3 } )$ or cubic centimeters (cm<sup>3</sup>). We set the volume of a unit cube (i.e., a cuboid measuring one unit in each direction) to be one cubic unit (e.g., 1 $\\mathrm { m ^ { 3 } }$ or 1 cm<sup>3</sup>, as the case may be). The volume of a general cuboid is the number of unit cubes that fit into it. Accordingly, the formula for the volume $V$ of a cuboid is length × width × height or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.454,
+            0.255,
+            0.544,
+            0.275
+          ],
+          "content": "V   =   l w h .",
+          "image_source": "images/page_1_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.292,
+            0.544,
+            0.352
+          ],
+          "content": "Compare the formula for the volume of a cuboid with the formula for the area of a rectangle (length × width)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.355,
+            0.546,
+            0.492
+          ],
+          "content": "Here is a way of understanding why the formula V = lwh is true: think of a cuboid as a large number of thin rectangular pieces (length $l ,$ width w) stacked on top of each other, like a pack of playing cards. (Fig. 14.3)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.57,
+            0.298,
+            0.898,
+            0.46
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.691,
+                0.468,
+                0.778,
+                0.488
+              ],
+              "content": "Fig. 14.3"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.514,
+            0.4,
+            0.538
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.551,
+            0.852,
+            0.591
+          ],
+          "content": "Try to work out for yourself why this model explains the formula for the volume of a cuboid, i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.331,
+            0.599,
+            0.652,
+            0.619
+          ],
+          "content": "\\underline { { \\mathrm { v o l u m e } } } = \\underline { { \\mathrm { a r e a } } } \\underline { { \\mathrm { o f } } } \\; \\mathsf { b a s e } \\times \\mathsf { h e i g h t } .",
+          "image_source": "images/page_1_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.628,
+            0.792,
+            0.648
+          ],
+          "content": "Write the formula for the surface area and the volume of a cube."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.672,
+            0.676,
+            0.732
+          ],
+          "content": "A particular and important case of a cuboid is a cube, whose length, width, and height are the same. This length is the ‘side’ of the cube."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.738,
+            0.407,
+            0.758
+          ],
+          "content": "Let the side be $a .$ Then:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.763,
+            0.577,
+            0.782
+          ],
+          "content": "• Total surface area of the cube is $6 a ^ { 2 }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.699,
+            0.67,
+            0.857,
+            0.779
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.735,
+                0.787,
+                0.822,
+                0.806
+              ],
+              "content": "Fig. 14.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.788,
+            0.456,
+            0.808
+          ],
+          "content": "• Volume of the cube is $a ^ { 3 }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.832,
+            0.881,
+            0.871
+          ],
+          "content": "Observe how these two formulas are special cases of the formulas 2(wl + hl + hw) and whl, when $w = h = l ,$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.271,
+            0.337,
+            0.815,
+            0.494
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.088,
+            0.847,
+            0.147
+          ],
+          "level": 2,
+          "content": "？ Net of a sphere? Experiment and see if you can make a paper cutout that can perfectly wrap around a ball without leaving any wrinkles, gaps or overlaps."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.166,
+            0.456,
+            0.187
+          ],
+          "level": 2,
+          "content": "Shortest Paths on a Cube"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.197,
+            0.847,
+            0.289
+          ],
+          "content": "Let us consider an interesting problem related to the discussion so far. We know that on a plane, the shortest path between two points is the straight line between them. Now, what is the shortest path between two points on the surface of a cuboid, if we are allowed to travel only along its surface?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.289,
+            0.846,
+            0.328
+          ],
+          "content": "Let us imagine a hungry ant living on the surface of a cuboid. To its good fortune, there is a laddu on the surface."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.418,
+            0.337,
+            0.688,
+            0.355
+          ],
+          "content": "**Laddu** (at the centre of the top face)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.56,
+            0.412,
+            0.814,
+            0.432
+          ],
+          "content": "**Ant** (at the centre of the side face)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.511,
+            0.698,
+            0.535
+          ],
+          "content": "？ What is the shortest path for the ant to reach the laddu?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.547,
+            0.488,
+            0.571
+          ],
+          "content": "？ What about in the following case?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.813,
+            0.492,
+            0.903,
+            0.596
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.295,
+            0.576,
+            0.688,
+            0.734
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.439,
+            0.597,
+            0.685,
+            0.616
+          ],
+          "content": "**Laddu** (at the centre of the edge)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.746,
+            0.847,
+            0.788
+          ],
+          "content": "？ If we think that a certain path is the shortest, how can we be sure that it truly is, among all the infinite possibilities?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.792,
+            0.644,
+            0.817
+          ],
+          "content": "For example, are either of these the shortest path?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.25,
+            0.822,
+            0.523,
+            0.936
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_15.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.913,
+            0.123,
+            0.935
+          ],
+          "content": "84"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

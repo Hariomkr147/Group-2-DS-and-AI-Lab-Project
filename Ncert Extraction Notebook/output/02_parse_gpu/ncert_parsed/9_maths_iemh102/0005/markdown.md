@@ -1,0 +1,21 @@
+the amount paid by a player increases by \`50 for every additional match played. Such patterns are called **linear patterns**.
+
+When we equate a linear polynomial in one variable to a constant, we get a **linear equation**. Let us consider the following example.
+
+**Example 6:** The sum of two numbers is 64. One of the numbers is 10 more than the other. What are the two numbers?
+
+Let the smaller number be x. Then the larger number must be $x + 1 0 ,$ Since their sum is 64, we have the linear equation $x + (x + 10) = 64$ This implies that $2x + 10 = 64$ . Note that $2 x \pm 1 0$ is a linear polynomial. By equating it to 64 we get a linear equation 2x = 54 or x = 27. The numbers are therefore, 27 and 37.
+
+Polynomials can also be thought of as input-output processes. For instance, consider the linear polynomial 2x + 3. For every x, there is a corresponding value of the polynomial 2x + 3. For instance, if $x = 4$ we substitute 4 in the expression to get $2 \times 4 + 3 = 11$
+
+If x = –6, then we substitute –6 in the expression to get $2x - 6 + 3 = - 9$
+
+Fig. 2.3 shows this process as an input-output machine where the input is the value of x and the output is the value of 2x + 3. This process can be referred to as a **function** where the expression 2x + 3 is a function of the variable x. You will learn more about functions in later grades.
+
+![](images/page_4_image_9.jpg)
+
+Fig. 2.3: A linear expression as an input-output process
+
+## Think and Reflect
+
+We have learnt that to evaluate the value of an algebraic expression, we substitute a value of the variable in the given expression. Consider Example 3, where the wire is bent to form a rectangle. Here, the area of the rectangle, $1 0 x   -   x ^ { 2 } ,$ is a function of x. Can you interpret this as an input-output process? What value does the expression take when $x = 6    cm ?$

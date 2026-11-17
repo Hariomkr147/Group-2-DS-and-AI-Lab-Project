@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.639,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Constructions and Tilings"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.088,
+            0.846,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Covering a region using a set of shapes, without gaps or overlaps, is called "
+            },
+            {
+              "type": "text",
+              "content": "tiling",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.127,
+            0.681,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a rectangu"
+            },
+            {
+              "type": "text",
+              "content": "lar grid made of unit square",
+              "styles": [
+                "underline"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "s —"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.367,
+            0.149,
+            0.644,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.367,
+                0.149,
+                0.644,
+                0.297
+              ],
+              "image_path": "images/page_21_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.314,
+            0.718,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We call this a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 \\times 6"
+            },
+            {
+              "type": "text",
+              "content": " grid, since it has 4 rows and 6 columns."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.343,
+            0.722,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Can a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 \\times 6"
+            },
+            {
+              "type": "text",
+              "content": " grid be tiled using multiple copies of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1"
+            },
+            {
+              "type": "text",
+              "content": " tiles? We are allowed to rotate a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1"
+            },
+            {
+              "type": "text",
+              "content": " tile and use it."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.816,
+            0.328,
+            0.904,
+            0.383
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.816,
+                0.328,
+                0.904,
+                0.383
+              ],
+              "image_path": "images/page_21_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.343,
+            0.399,
+            0.401,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.343,
+                0.399,
+                0.401,
+                0.478
+              ],
+              "image_path": "images/page_21_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 8,
+              "bbox": [
+                0.33,
+                0.483,
+                0.415,
+                0.497
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Vertical tile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.561,
+            0.434,
+            0.671,
+            0.48
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.561,
+                0.434,
+                0.671,
+                0.48
+              ],
+              "image_path": "images/page_21_image_9.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 10,
+              "bbox": [
+                0.556,
+                0.484,
+                0.666,
+                0.499
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Horizontal tile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.152,
+            0.512,
+            0.316,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is one way."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.315,
+            0.532,
+            0.672,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.315,
+                0.532,
+                0.672,
+                0.706
+              ],
+              "image_path": "images/page_21_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.719,
+            0.584,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Obviously, this is not the only tiling possible."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.752,
+            0.546,
+            0.776
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " grid be tiled using "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1"
+            },
+            {
+              "type": "text",
+              "content": " tiles?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.788,
+            0.394,
+            0.812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What about a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " grid?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.815,
+            0.847,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To see that there is no way to tile a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " grid using "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1"
+            },
+            {
+              "type": "text",
+              "content": " tiles, observe that this grid has 35 unit squares. Each tile covers exactly 2 unit squares."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.806,
+            0.933,
+            0.845,
+            0.95
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

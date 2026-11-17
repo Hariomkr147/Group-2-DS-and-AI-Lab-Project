@@ -1,0 +1,622 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "71"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } - 1 = 2 4"
+            },
+            {
+              "type": "text",
+              "content": " is true for only "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 5  or  -5"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, it is an equation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.146,
+            0.883,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But (x "
+            },
+            {
+              "type": "equation_inline",
+              "content": "+ y ) ^ { 2 } = x ^ { 2 } + 2 x y + y ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is true for all values of x and y. Therefore, this equation is also an identity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.191,
+            0.884,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By now you must have observed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 } \\neq a ^ { 2 } + b ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . But can you find out which one of them will be greater?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.229,
+            0.885,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 1 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = 2"
+            },
+            {
+              "type": "text",
+              "content": " , what are the values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } + b ^ { 2 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.272,
+            0.746,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a + b)2 = (10 + 2)2 = 122 = 144 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } + b ^ { 2 } = 1 0 ^ { 2 } + 2 ^ { 2 } = 1 0 4"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.298,
+            0.485,
+            0.317
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So in this case, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 } \\geq a ^ { 2 } + b ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.323,
+            0.56,
+            0.343
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But is it true for all numbers a and b?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.132,
+            0.362,
+            0.398,
+            0.385
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.158,
+            0.399,
+            0.673,
+            0.418
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. What can you say about a and b if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} < a^{2} + b^{2} ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.159,
+            0.423,
+            0.672,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. What can you say about a and b if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} \\geq a^{2} + b^{2}?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.158,
+            0.446,
+            0.542,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. When will "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " be equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{2} + b^{2} ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.128,
+            0.468,
+            0.855,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Did you observe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{2} + b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " are both positive? What term will decide which is larger? Use the expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " to decide."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.112,
+            0.523,
+            0.886,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can use the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}"
+            },
+            {
+              "type": "text",
+              "content": " to find the square of general binomial expressions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.112,
+            0.567,
+            0.885,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us try to expand "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(5x + 2y)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " . Here "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ~ = ~ 5 x"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = 2 y"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.149,
+            0.614,
+            0.782,
+            0.635
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(5x + 2y)^{2} = (5x)^{2} + 2(5x)(2y) + (2y)^{2} = 25x^{2} + 20xy + 4y^{2}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.148,
+            0.643,
+            0.879,
+            0.663
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also use the identity to help us with numerical calculations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.671,
+            0.659,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " To calculate "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 3 ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " we can write it as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.15,
+            0.698,
+            0.727,
+            0.718
+          ],
+          "image_path": "images/page_3_equation_19.jpg",
+          "content": "(40 + 3)^{2} = 40^{2} + 2 \\times 40 \\times 3 + 3^{2} = 1600 + 240 + 9 = 1849."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 20,
+          "bbox": [
+            0.375,
+            0.755,
+            0.621,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 4.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.132,
+            0.803,
+            0.849,
+            0.825
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Using the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a+b)^{2}=a^{2}+2ab+b^{2},"
+            },
+            {
+              "type": "text",
+              "content": " , expand the following:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.183,
+            0.845,
+            0.21,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.23,
+            0.845,
+            0.439,
+            0.866
+          ],
+          "image_path": "images/page_3_equation_23.jpg",
+          "content": "( 7 x + 4 y ) ^ { 2 }\\tag{ii}"
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.461,
+            0.833,
+            0.703,
+            0.881
+          ],
+          "image_path": "images/page_3_equation_24.jpg",
+          "content": "\\left( { \\frac { 7 } { 5 } } x   +   { \\frac { 3 } { 2 } } y \\right) ^ { 2 }\\tag{iii}"
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.72,
+            0.844,
+            0.861,
+            0.867
+          ],
+          "image_path": "images/page_3_equation_25.jpg",
+          "content": "( 2 . 5 p \\pm 1 . 5 q ) ^ { 2 }"
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

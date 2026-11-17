@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.113,
+            0.33,
+            0.148,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.113,
+                0.33,
+                0.148,
+                0.356
+              ],
+              "image_path": "images/page_0_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.109,
+            0.082,
+            0.774,
+            0.185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 FINDING COMMON GROUND"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.298,
+            0.46,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.1 The Greatest of All"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.112,
+            0.331,
+            0.848,
+            0.43
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Sameeksha is building her new house. The main room of the house is 12 ft by 16 ft. She feels that the room would look nice if the floor is covered with square tiles of the same size. She also wants to use as few tiles as possible, and for the length of the tile to be a whole number of feet. What size tiles should she buy?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.433,
+            0.847,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us explore how to find the largest square tile that can be used. The breadth of the room is 12 ft and the length is 16 ft."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.311,
+            0.487,
+            0.72,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.311,
+                0.487,
+                0.72,
+                0.688
+              ],
+              "image_path": "images/page_0_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.701,
+            0.847,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the tiles to fit the breadth of the room exactly, the side of the tile should be a factor of 12. Similarly, for the tiles to fit the length of the room exactly, the side should be a factor of 16. So the side of the tile should be a factor of both 12 and 16. What are the common factors of 12 and 16?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.174,
+            0.796,
+            0.843,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The factors of 12 are 1, 2, 3, 4, 6, 12. The factors of 16 are 1, 2, 4, 8, 16. The common factors are 1, 2, and 4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.835,
+            0.846,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the square tiles can have sides 1 ft, 2 ft, and 4 ft. Among these, she should use the largest sized square tile. Can you explain why?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.175,
+            0.873,
+            0.538,
+            0.893
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, she needs tiles of size 4 ft."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 10,
+          "bbox": [
+            0.843,
+            0.186,
+            0.9,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0789CH03"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 11,
+          "bbox": [
+            0.809,
+            0.091,
+            0.935,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "口"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

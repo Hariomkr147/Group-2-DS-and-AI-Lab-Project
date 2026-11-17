@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "192"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.181,
+            0.162,
+            0.864,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.435,
+                0.138,
+                0.565,
+                0.157
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.14"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.181,
+                0.162,
+                0.864,
+                0.436
+              ],
+              "image_path": "images/page_21_table_3.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Marks obtained</td><td rowspan=\"2\">Number of students (Cumulative frequency)</td></tr><tr></tr><tr><td>More than or equal to 0</td><td>53</td></tr><tr><td>More than or equal to 10</td><td>53 - 5 = 48</td></tr><tr><td>More than or equal to 20</td><td>48 - 3 = 45</td></tr><tr><td>More than or equal to 30</td><td>45 - 4 = 41</td></tr><tr><td>More than or equal to 40</td><td>41 - 3 = 38</td></tr><tr><td>More than or equal to 50</td><td>38 - 3 = 35</td></tr><tr><td>More than or equal to 60</td><td>35 - 4 = 31</td></tr><tr><td>More than or equal to 70</td><td>31 - 7 = 24</td></tr><tr><td>More than or equal to 80</td><td>24 - 9 = 15</td></tr><tr><td>More than or equal to 90</td><td>15 - 7 = 8</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.45,
+            0.902,
+            0.491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The table above is called a cumulative frequency distribution of the more than type. Here 0, 10, 20, . . ., 90 give the lower limits of the respective class intervals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.494,
+            0.901,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, to find the median of grouped data, we can make use of any of these cumulative frequency distributions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.146,
+            0.538,
+            0.827,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us combine Tables 13.12 and 13.13 to get Table 13.15 given below:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 8,
+          "bbox": [
+            0.101,
+            0.593,
+            0.896,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.434,
+                0.57,
+                0.566,
+                0.589
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.15"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 8,
+              "bbox": [
+                0.101,
+                0.593,
+                0.896,
+                0.846
+              ],
+              "image_path": "images/page_21_table_8.jpg",
+              "content": "<table><tbody><tr><td>Marks</td><td>Number of students (f)</td><td>Cumulative frequency (cf)</td></tr><tr><td>0 - 10</td><td>5</td><td>5</td></tr><tr><td>10 - 20</td><td>3</td><td>8</td></tr><tr><td>20 - 30</td><td>4</td><td>12</td></tr><tr><td>30 - 40</td><td>3</td><td>15</td></tr><tr><td>40 - 50</td><td>3</td><td>18</td></tr><tr><td>50 - 60</td><td>4</td><td>22</td></tr><tr><td>60 - 70</td><td>7</td><td>29</td></tr><tr><td>70 - 80</td><td>9</td><td>38</td></tr><tr><td>80 - 90</td><td>7</td><td>45</td></tr><tr><td>90 - 100</td><td>8</td><td>53</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.856,
+            0.902,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now in a grouped data, we may not be able to find the middle observation by looking at the cumulative frequencies as the middle observation will be some value in"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

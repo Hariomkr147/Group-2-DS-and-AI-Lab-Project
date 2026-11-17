@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.071,
+            0.159,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "100"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.186,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.29,
+            0.108,
+            0.709,
+            0.548
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.29,
+                0.108,
+                0.709,
+                0.548
+              ],
+              "image_path": "images/page_15_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.257,
+                0.557,
+                0.742,
+                0.576
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.11: Graph of the linear equation y = –5x + 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.586,
+            0.882,
+            0.626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us further explore the geometrical meaning of the slope of a line y = mx + d. To do this we will consider the following cases:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.137,
+            0.63,
+            0.884,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Positive Slope (m > 0). The line goes upward from left to right. As x increases, y increases. In y = 2x + 1, the slope is m = 2. It means for every unit you move to the right, you also go up 2 units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.137,
+            0.712,
+            0.884,
+            0.79
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Negative Slope (m < 0). The line goes downward from left to right. As x increases, y decreases. In y = –3x + 4, the slope is m = –3. It means for every unit you move to the right, you go down by 3 units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.137,
+            0.795,
+            0.884,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Zero Slope (m = 0). In this case the line is horizontal and parallel to the x-axis. That is, y remains constant as x changes. For example, in y = 5, the slope = m = 0."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

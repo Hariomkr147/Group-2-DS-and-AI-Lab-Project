@@ -1,0 +1,173 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "90"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.194,
+            0.148,
+            0.799,
+            0.281
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.299,
+                0.549,
+                0.319
+              ],
+              "content": "Fig. 6.27"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.337,
+            0.902,
+            0.46
+          ],
+          "content": "Here, you may observe that ${ \\frac { \\mathrm { A B } } { \\mathrm { D E } } }   =   { \\frac { \\mathrm { A C } } { \\mathrm { D F } } }$ (each equal to $\\frac { 2 } { 3 } )$ and $\\angle \\mathrm { A }$ (included between the sides AB and $\\mathrm { A C )   =   \\angle D }$ (included between the sides DE and DF). That is, one angle of a triangle is equal to one angle of another triangle and sides including these angles are in the same ratio (i.e., proportion). Now let us measure $\\angle \\mathrm { B } , \\angle \\mathrm { C } ,$ $\\angle \\mathrm { E } { \\mathrm { ~ a n d ~ } } \\angle \\mathrm { F } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.464,
+            0.902,
+            0.583
+          ],
+          "content": "You will find that $\\angle \\mathrm{B} = \\angle \\mathrm{E}$ and $\\angle C = \\angle F$ That is, $\\angle \\mathrm{A} = \\angle \\mathrm{D}, \\angle \\mathrm{B} = \\angle \\mathrm{E}$ and $\\angle C = \\angle  F. So$ , by AAA similarity criterion, $\\Delta  ABC  \\sim \\Delta  DEF$ You may repeat this activity by drawing several pairs of such triangles with one angle of a triangle equal to one angle of another triangle and the sides including these angles are proportional. Everytime, you will find that the triangles are similar. It is due to the following criterion of similarity of triangles:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.594,
+            0.902,
+            0.653
+          ],
+          "content": "**Theorem 6.5 :** If one angle of a triangle is equal to one angle of the other triangle and the sides including these angles are proportional, then the two triangles are similar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.657,
+            0.44,
+            0.736
+          ],
+          "content": "This criterion is referred to as the SAS (Side–Angle–Side) s i m i l a r i t y c r i t e r i o n fo r t w o triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.741,
+            0.44,
+            0.891
+          ],
+          "content": "As before, this theorem can be proved by taking two triangles ABC and DEF such that $\\frac{ AB }{ DE } = \\frac{ AC }{ DF } \\quad (< 1)   and   \\angle  A  = \\angle  D$ (see Fig. 6.28). Cut $\\mathrm { D P } = \\mathrm { A B }$ , DQ $= \\mathrm { A C }$ and join PQ."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.464,
+            0.685,
+            0.901,
+            0.833
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.629,
+                0.851,
+                0.728,
+                0.871
+              ],
+              "content": "Fig. 6.28"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_9.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,693 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:47:36+05:30",
+      "modified_at": "2026-05-13T10:46:38+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.224,
+            0.088,
+            0.589,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 6.6:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A sports car of mass 1500 kg is moving towards the east and its velocity-time graph is shown in Fig. 6.21. Calculate the force acting on the car during"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.236,
+            0.176,
+            0.352,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) 0 s to 5 s"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.23,
+            0.196,
+            0.361,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) 5 s to 10 s"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.226,
+            0.217,
+            0.371,
+            0.234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) 10 s to 15 s"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.226,
+            0.238,
+            0.31,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "chart",
+          "index": 5,
+          "bbox": [
+            0.597,
+            0.072,
+            0.902,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 5,
+              "bbox": [
+                0.597,
+                0.072,
+                0.902,
+                0.242
+              ],
+              "image_path": "images/page_12_chart_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "chart_caption",
+              "index": 7,
+              "bbox": [
+                0.658,
+                0.244,
+                0.906,
+                0.274
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.21: Velocity-time graph for a sports car"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.225,
+            0.258,
+            0.406,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) During 0 s to 5 s:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.224,
+            0.279,
+            0.889,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As the velocity-time graph is a straight line inclined to the time axis, it indicates that the sports car is moving with a constant acceleration during this time interval with u = 0 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", v = 10 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and t = 5 s."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.254,
+            0.332,
+            0.868,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the kinematic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\upsilon = u + a t ,"
+            },
+            {
+              "type": "text",
+              "content": " we can find the acceleration,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.255,
+            0.351,
+            0.49,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 0 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + (a × 5 s)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.256,
+            0.372,
+            0.352,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a = 2 m s"
+            },
+            {
+              "type": "text",
+              "content": "–2",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.224,
+            0.393,
+            0.887,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, using the Newton’s second law of the motion F = ma, we can find the force acting on the sports car as,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.255,
+            0.43,
+            0.732,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "F = 1500 kg × 2 m s"
+            },
+            {
+              "type": "text",
+              "content": "–2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 3000 N acting towards the east."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.225,
+            0.451,
+            0.422,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) During 5 s to 10 s:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.224,
+            0.47,
+            0.889,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As the velocity-time graph is a straight line parallel to the time axis, it indicates that the sports car is moving with a constant velocity. Hence, no force is acting on the sports car."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.225,
+            0.523,
+            0.443,
+            0.541
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) During 10 s to 15 s:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.223,
+            0.543,
+            0.889,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As the velocity-time graph is a straight line inclined to the time axis, it indicates that the sports car is moving with a constant acceleration in this time interval with u = 10 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", v = 0 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and t = 5 s. Using the kinematic equation v = u + at  , we can find the acceleration,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.255,
+            0.612,
+            0.493,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 10 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + (a × 5 s)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.256,
+            0.633,
+            0.364,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a = – 2 m s"
+            },
+            {
+              "type": "text",
+              "content": "–2",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.224,
+            0.654,
+            0.888,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, using the Newton’s second law of the motion F = ma  , we can find the force acting on the sports car as,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.255,
+            0.691,
+            0.557,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "F = 1500 kg × (– 2 m s"
+            },
+            {
+              "type": "text",
+              "content": "–2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ") = – 3000 N"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.224,
+            0.712,
+            0.888,
+            0.747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The negative sign shows that the force is acting in a direction opposite to the direction of motion, that is towards the west."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 23,
+          "bbox": [
+            0.253,
+            0.752,
+            0.312,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 23,
+              "bbox": [
+                0.253,
+                0.752,
+                0.312,
+                0.783
+              ],
+              "image_path": "images/page_12_image_23.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 24,
+          "bbox": [
+            0.319,
+            0.759,
+            0.508,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Pause and Ponder"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.253,
+            0.79,
+            0.857,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. A toy car of mass 100 g is moving with a constant velocity of 0.5 m s"
+            },
+            {
+              "type": "text",
+              "content": "–1",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". What is the net force acting on the toy car?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.254,
+            0.825,
+            0.859,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Two children of different masses are sitting on identical swings. To impart identical initial acceleration, for which child would you require to apply a larger force? Explain why."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.253,
+            0.875,
+            0.858,
+            0.908
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. How are glass items packed for transportation using a bubble wrap or hay protected from damage?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 28,
+          "bbox": [
+            0.074,
+            0.942,
+            0.114,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "106"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 29,
+          "bbox": [
+            0.133,
+            0.946,
+            0.303,
+            0.963
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

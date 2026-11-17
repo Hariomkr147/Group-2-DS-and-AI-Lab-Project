@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.69,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Square and A Cube"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.087,
+            0.647,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "squares. What are the possible last digits of cubes?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.109,
+            0.122,
+            0.846,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Similar to squares, can you find the number of cubes with 1 digit, 2 digits, and 3 digits? What do you observe?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11,
+            0.176,
+            0.675,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can a cube end with exactly two zeroes (00)? Explain."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.148,
+            0.206,
+            0.848,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Just as we can take squares of fractions/decimals — "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( { \\frac { 4 } { 6 } } ) ^ { 2 } ;"
+            },
+            {
+              "type": "text",
+              "content": " , (13.08)"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( - 6 ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " — we also can compute cubes of such numbers — "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( { \\frac { \\dot { 4 } } { 6 } } ) ^ { 3 } ;"
+            },
+            {
+              "type": "text",
+              "content": " , (13.08)"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", and (– 6)3."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.371,
+            0.275,
+            0.628,
+            0.304
+          ],
+          "image_path": "images/page_12_equation_6.jpg",
+          "content": "( \\frac { 4 } { 6 } ) ^ { 3 } = ( \\frac { 4 } { 6 } ) \\times ( \\frac { 4 } { 6 } ) \\times ( \\frac { 4 } { 6 } ) = ( \\frac { 6 4 } { 2 1 6 } )"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.281,
+            0.305,
+            0.718,
+            0.326
+          ],
+          "image_path": "images/page_12_equation_7.jpg",
+          "content": "( 1 3 . 0 8 ) ^ { 3 } = 1 3 . 0 8 \\times 1 3 . 0 8 \\times 1 3 . 0 8 = 2 2 3 7 . 8 1 0 1 1 2"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.359,
+            0.33,
+            0.638,
+            0.349
+          ],
+          "image_path": "images/page_12_equation_8.jpg",
+          "content": "(-6)^{3} = -6 \\times -6 \\times -6 = -216."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.369,
+            0.373,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Taxicab Numbers"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.4,
+            0.671,
+            0.586
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Once when Srinivasa Ramanujan was working with G. H. Hardy at the University of Cambridge, Hardy had come to visit Ramanujan at a hospital when he was ill. Hardy had ridden in a taxicab numbered 1729 and he remarked that 1729 was ‘rather a dull number,’ adding that he hoped that this was not a bad sign. Ramanujan immediately replied, “No, Hardy, it is a very interesting number. It is the smallest number that can be expressed as the sum of two cubes in two different ways”."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.681,
+            0.381,
+            0.916,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.681,
+                0.381,
+                0.916,
+                0.57
+              ],
+              "image_path": "images/page_12_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.427,
+            0.588,
+            0.573,
+            0.609
+          ],
+          "image_path": "images/page_12_equation_12.jpg",
+          "content": "1729 = 1^{3} + 12^{3}"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.478,
+            0.617,
+            0.576,
+            0.638
+          ],
+          "image_path": "images/page_12_equation_13.jpg",
+          "content": "= 9 ^ { 3 } + 1 0 ^ { 3 } ."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.149,
+            0.644,
+            0.849,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because of this story, 1729 has since been known as the "
+            },
+            {
+              "type": "text",
+              "content": "Hardy– Ramanujan",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Number. And numbers that can be expressed as the sum of two cubes in two different ways are called "
+            },
+            {
+              "type": "text",
+              "content": "taxicab numbers.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.71,
+            0.82,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ The next two taxicab numbers after 1729 are 4104 and 13832. Find the two ways in which each of these can be expressed as the sum of two positive cubes."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.828,
+            0.701,
+            0.928,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.828,
+                0.701,
+                0.928,
+                0.755
+              ],
+              "image_path": "images/page_12_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.149,
+            0.774,
+            0.849,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How did Ramanujan know this? Well, he loved numbers. All through his life, he tinkered with numbers. During Ramanujan’s time in Cambridge, his colleagues often marveled at his ability to see deep patterns in numbers that seemed arbitrary to others. His colleague, John Littlewood, once said, “Every positive integer was one of his [Ramanujan's] personal friends”."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.879,
+            0.915,
+            0.911,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

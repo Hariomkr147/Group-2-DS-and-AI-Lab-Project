@@ -1,0 +1,537 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.69,
+            0.046,
+            0.863,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Square and A Cube"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.087,
+            0.849,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. We know that a perfect square is obtained by multiplying an integer by itself. Will looking at a number’s prime factorisation help in determining whether it is a perfect square?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.185,
+            0.149,
+            0.848,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Yes, if we can divide the prime factors of a number into two equal groups, then the product of the prime factors in either group combine to form the square root."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.215,
+            0.388,
+            0.237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is 324 a perfect square?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.361,
+            0.24,
+            0.608,
+            0.258
+          ],
+          "image_path": "images/page_8_equation_5.jpg",
+          "content": "3 2 4 = 2 \\times 2 \\times 3 \\times 3 \\times 3 \\times 3 ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.174,
+            0.258,
+            0.421,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These can be grouped as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.361,
+            0.282,
+            0.635,
+            0.324
+          ],
+          "image_path": "images/page_8_equation_7.jpg",
+          "content": "\\begin{aligned}324 &= (2 \\times 3 \\times 3) \\times (2 \\times 3 \\times 3) . \\\\&= (2 \\times 3 \\times 3)^2 = 18^2 .\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.174,
+            0.325,
+            0.685,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also write the prime factors in pairs. That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.361,
+            0.349,
+            0.65,
+            0.368
+          ],
+          "image_path": "images/page_8_equation_9.jpg",
+          "content": "3 2 4 = ( 2 \\times 2 ) \\times ( 3 \\times 3 ) \\times ( 3 \\times 3 ) ,"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.174,
+            0.373,
+            0.638,
+            0.393
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which shows that 324 is a perfect square. Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.361,
+            0.396,
+            0.558,
+            0.416
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "324 = (2 \\times 3 \\times 3)^{2} = 18^{2}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.239,
+            0.418,
+            0.449,
+            0.437
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{324} = 18."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.439,
+            0.388,
+            0.463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is 156 a perfect square?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.464,
+            0.602,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The prime factorisation of 156 is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2 \\times 3 \\times 13."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.484,
+            0.471,
+            0.503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We cannot pair up these factors."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.502,
+            0.524,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, 156 is not a perfect square."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11,
+            0.523,
+            0.846,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Find whether 1156 and 2800 are perfect squares using prime factorisation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.548,
+            0.848,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can estimate the square root of larger perfect squares by looking at the closest perfect squares we are familiar with and then narrowing down the interval to search."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.15,
+            0.607,
+            0.674,
+            0.627
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, to find 1936 , we can reason as follows:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.202,
+            0.633,
+            0.837,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) 1936 is between 1600 (402) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 5 0 0 \\: ( 5 0 ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " , so "
+            },
+            {
+              "type": "equation_inline",
+              "content": "40 < \\sqrt{1936} < 50."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.197,
+            0.658,
+            0.848,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) The last digit of 1936 is 6. So, the last digit of the square root must either be 4 or 6. It can be 44 or 46."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.193,
+            0.7,
+            0.848,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) If we calculate "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { 2 } ;"
+            },
+            {
+              "type": "text",
+              "content": " we can compare it with 1936 to halve the interval to search from 40–50 to either 40–45 or 45–50. We can write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(40 + 5)(40 + 5) = 40^2 + 2 \\times 40 \\times 5 + 5^2"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1600+400+25=2025"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.195,
+            0.781,
+            0.56,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) 2025 > 1936. So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "40 < \\sqrt{1936} < 45"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.198,
+            0.807,
+            0.847,
+            0.847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(v) From the observation in point b we can guess and then verify that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 1 9 3 6 }"
+            },
+            {
+              "type": "text",
+              "content": " is 44."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.151,
+            0.854,
+            0.503,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the following situations —"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.15,
+            0.873,
+            0.848,
+            0.913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Aribam and Bijou play a game. One says a number and the other replies with its square root. Aribam starts. He says 25, and Bijou quickly"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 27,
+          "bbox": [
+            0.884,
+            0.915,
+            0.905,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

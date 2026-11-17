@@ -1,0 +1,333 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.562,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "Expressions Using Letter-Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.845,
+            0.126
+          ],
+          "content": "same values for any given value of u. But we can see that they do not. So, these two expressions are not equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.136,
+            0.625,
+            0.157
+          ],
+          "content": "Are the expressions 10y – 3 and 10(y – 3) equal?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.114,
+            0.905,
+            0.166
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.166,
+            0.735,
+            0.185
+          ],
+          "content": "10y – 3, short for 10 × y – 3, means 3 less than 10 times y,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.185,
+            0.777,
+            0.203
+          ],
+          "content": "10(y – 3), short for 10 × (y – 3), means 10 times (3 less than y)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.204,
+            0.847,
+            0.241
+          ],
+          "content": "Let us compare the values that these expressions take for different values of y."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.174,
+            0.255,
+            0.844,
+            0.456
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.469,
+            0.846,
+            0.509
+          ],
+          "content": "equal?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.528,
+            0.64,
+            0.587
+          ],
+          "content": "**Example 11:** What is the sum of the numbers in the picture (unknown values are denoted by letter-numbers)?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.656,
+            0.515,
+            0.844,
+            0.545
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.656,
+            0.549,
+            0.75,
+            0.583
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.592,
+            0.64,
+            0.628
+          ],
+          "content": "There are many ways to go about it. Here, we show some of them."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.656,
+            0.587,
+            0.749,
+            0.621
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.634,
+            0.447,
+            0.654
+          ],
+          "content": "1. Adding row wise gives:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.657,
+            0.624,
+            0.845,
+            0.654
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.658,
+            0.651,
+            0.676
+          ],
+          "content": "(4 \\times 3) + (r + s) + (r + s) + (4 \\times 3)",
+          "image_source": "images/page_12_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.687,
+            0.543,
+            0.707
+          ],
+          "content": "2. Adding like terms together gives:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.387,
+            0.712,
+            0.611,
+            0.73
+          ],
+          "content": "( 8 \\times 3 ) + ( r + r ) + ( s + s )",
+          "image_source": "images/page_12_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.741,
+            0.633,
+            0.762
+          ],
+          "content": "3. Adding the upper half and doubling gives:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.416,
+            0.765,
+            0.582,
+            0.784
+          ],
+          "content": "2 \\times ( 4 \\times 3 + r + s )",
+          "image_source": "images/page_12_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.79,
+            0.847,
+            0.828
+          ],
+          "content": "The three expressions might seem different. We can simplify each one and see that they all are the same: 2r + 2s + 24."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.835,
+            0.293,
+            0.859
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.861,
+            0.803,
+            0.92
+          ],
+          "content": "1. Add the numbers in each picture below. Write their corresponding expressions and simplify them. Try adding the numbers in each picture in a couple different ways and see"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.817,
+            0.848,
+            0.905,
+            0.911
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.939,
+            0.84,
+            0.954
+          ],
+          "content": "93"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

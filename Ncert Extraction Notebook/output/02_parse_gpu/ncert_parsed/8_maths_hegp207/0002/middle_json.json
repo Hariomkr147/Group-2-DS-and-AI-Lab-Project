@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.815,
+            0.049,
+            0.861,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.088,
+            0.847,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You might have seen the rangoli art form, in which regions of different shapes are beautifully coloured using rangoli powder."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.337,
+            0.136,
+            0.674,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.337,
+                0.136,
+                0.674,
+                0.389
+              ],
+              "image_path": "images/page_1_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.413,
+            0.557,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Which of these rectangles requires more rangoli powder to be coloured, if the colouring is done evenly?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.475,
+            0.558,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can answer this by counting the number of non-overlapping unit squares (squares of sidelength 1 cm in this case) that can be packed into each of the rectangles."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.562,
+            0.409,
+            0.845,
+            0.568
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.562,
+                0.409,
+                0.845,
+                0.568
+              ],
+              "image_path": "images/page_1_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.176,
+            0.567,
+            0.557,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clearly, the rectangle having"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.584,
+            0.846,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "sidelengths 7 cm and 4 cm contains 7 × 4 = 28 unit squares, and the rectangle having sidelengths 8 cm and 3 cm contains 8 × 3 = 24 unit squares."
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.639,
+            0.846,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the rectangle of sidelengths 7 cm and 4 cm requires more powder to be coloured."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.688,
+            0.847,
+            0.744
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that we measure the area of a region by finding the number of unit squares (which can also be a fraction) whose area equals that of the given region."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.743,
+            0.845,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that the number of unit squares contained in a rectangle is given by the product of its length and width —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.323,
+            0.795,
+            0.672,
+            0.817
+          ],
+          "image_path": "images/page_1_equation_11.jpg",
+          "content": "A r e a \\; o f a \\; r e c t a n g l e = l e n g t h \\times w i d t h ."
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.837,
+            0.846,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The areas of the rectangles as seen in the previous problem are generally written as 28 sq. cm and 24 sq. cm, or as 28 cm"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and 24 cm"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.869,
+            0.913,
+            0.917,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "149"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,21 @@
+## 8.5 How can Water be Evaporated Faster or Slower?
+
+In section 8.1, we have learnt about evaporation. Let us explore it more!
+
+Observe your surroundings. What are the conditions that affect how fast water evaporates? What differences do you see in evaporation on a cold day versus a hot day? Discuss with your friends. The following words may help in your discussion—fan, drying cloth, sweating, windy day, hot day, rainy day.
+
+Let us perform Activity 8.7 to investigate conditions that will affect how fast water will evaporate.
+
+## Activity 8.7: Let us investigate
+
+ Take water in a small cap of a bottle (you may use sanitiser in place of water).
+
+ Take the same amount of water in a plate. The exposed area of water in the bottle cap and the plate are different.
+
+Keep both of them near each other.
+
+Record the time taken for the water to completely evaporate in each case in Table 8.4.
+
+![](images/page_10_image_9.jpg)
+
+Let us investigate

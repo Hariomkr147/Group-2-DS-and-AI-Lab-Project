@@ -1,0 +1,319 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "138"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.141,
+            0.593,
+            0.182
+          ],
+          "content": "Since, we know the height of the building AB, we will first consider the right $\\Delta   \\mathrm { P A B }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.208,
+            0.191,
+            0.227
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.293,
+            0.195,
+            0.442,
+            0.237
+          ],
+          "content": "\\tan 3 0 ^ { \\circ } = { \\frac { \\mathrm { A B } } { \\mathrm { A P } } }",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.268,
+            0.14,
+            0.287
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.325,
+            0.254,
+            0.439,
+            0.297
+          ],
+          "content": "{ \\frac { 1 } { \\sqrt { 3 } } } \\; = \\; { \\frac { 1 0 } { \\mathrm { A P } } }",
+          "image_source": "images/page_5_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.315,
+            0.205,
+            0.334
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.331,
+            0.31,
+            0.454,
+            0.335
+          ],
+          "content": "\\mathrm { A P } = { \\stackrel { \\cdot } { 1 0 { \\sqrt { 3 } } } }",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.488,
+            0.138,
+            0.898,
+            0.309
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.652,
+                0.317,
+                0.74,
+                0.337
+              ],
+              "content": "Fig. 9.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.365,
+            0.687,
+            0.386
+          ],
+          "content": "i.e., the distance of the building from P is $10\\sqrt{3}\\  m =17.32\\  m .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.398,
+            0.632,
+            0.418
+          ],
+          "content": "Next, let us suppose $\\mathrm { D B } = x   \\mathrm { m }$ . Then $\\mathrm{AD} = (10 + x)   \\mathrm{m}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.452,
+            0.308,
+            0.472
+          ],
+          "content": "Now, in right   PAD,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39,
+            0.437,
+            0.627,
+            0.481
+          ],
+          "content": "\\tan 45^{\\circ} = \\frac{ AD }{ AP } = \\frac{10 \\mp x}{10\\sqrt{3}}",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.511,
+            0.205,
+            0.531
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.499,
+            0.565,
+            0.541
+          ],
+          "content": "\\frac{10 + x}{10\\sqrt{3}}",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.565,
+            0.14,
+            0.583
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.556,
+            0.585,
+            0.587
+          ],
+          "content": "x = 10 \\left( \\sqrt{3} - 1 \\right) = 7.32",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.597,
+            0.479,
+            0.617
+          ],
+          "content": "$\\mathrm { S o } ,$ the length of the flagstaff is 7.32 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.63,
+            0.517,
+            0.708
+          ],
+          "content": "**Example 5 :** The shadow of a tower standing on a level ground is found to be 40 m longer when the Sun’s altitude is $3 0 ^ { \\circ }$ than when it is $6 0 ^ { \\circ }$ . Find the height of the tower."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.713,
+            0.518,
+            0.848
+          ],
+          "content": "**Solution :** In Fig. 9.8, AB is the tower and BC is the length of the shadow when the $\\mathrm { S u n } ^ { \\mathrm { { \\textquotesingle } } } \\mathrm { s }$ altitude is $6 0 ^ { \\circ }$ , i.e., the angle of elevation of the top of the tower from the tip of the shadow is $6 0 ^ { \\circ }$ and DB is the length of the shadow, when the angle of elevation is $3 0 ^ { \\circ }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.531,
+            0.599,
+            0.902,
+            0.768
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.667,
+                0.78,
+                0.755,
+                0.8
+              ],
+              "content": "Fig. 9.8"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.861,
+            0.902,
+            0.899
+          ],
+          "content": "Now, let AB be h m and BC be x m. According to the question, DB is 40 m longer than BC."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–9 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–9 (11th Nov.)",
+      "description": "Chap–9 (11th Nov.)",
+      "created_at": "2022-08-17T11:57:18+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

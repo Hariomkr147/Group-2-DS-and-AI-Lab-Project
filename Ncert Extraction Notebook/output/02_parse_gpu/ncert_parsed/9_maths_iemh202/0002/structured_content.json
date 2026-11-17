@@ -1,0 +1,297 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.406,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "How Quantities Combine: Understanding Data"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.071,
+            0.881,
+            0.086
+          ],
+          "content": "9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.11,
+            0.882,
+            0.151
+          ],
+          "content": "Method 1 does not work because it treats the average heights of seniors and of juniors equally — but there are many more seniors than juniors!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.12,
+            0.156,
+            0.379,
+            0.346
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.443,
+            0.152,
+            0.822,
+            0.173
+          ],
+          "content": "Shreyas calculated it differently as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.467,
+            0.183,
+            0.73,
+            0.222
+          ],
+          "content": "\\frac{(165.5 \\times 8) + (149.33 \\times 3)}{8 + 3}",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.468,
+            0.247,
+            0.705,
+            0.317
+          ],
+          "content": "\\begin{aligned}=\\frac{1324 + 448}{11} &= \\frac{1772}{11} \\\\&= 161.09.\\end{aligned}",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.443,
+            0.327,
+            0.876,
+            0.348
+          ],
+          "content": "Do you understand why this also works?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.352,
+            0.881,
+            0.391
+          ],
+          "content": "Can you see why $1 6 5 . 5 \\times 8$ gives the sum of the heights of all the seniors and 149.33 × 3 gives the sum of the heights of all the juniors?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.392,
+            0.881,
+            0.432
+          ],
+          "content": "This phenomenon is explained below with a generalisation. Suppose we have two collections of data — Collection 1 and Collection 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.446,
+            0.486,
+            0.511
+          ],
+          "content": "Suppose the data in Collection 1, having n values, is $X_{1},X_{2},X_{3},\\ldots,X_{n}$ The average of Collection 1 is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.508,
+            0.446,
+            0.883,
+            0.489
+          ],
+          "content": "Suppose the data in Collection 2, having m values, is $y _ { 1 } , y _ { 2 } , y _ { 3 } , \\ldots , y _ { m }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.119,
+            0.519,
+            0.375,
+            0.556
+          ],
+          "content": "\\frac{X_{_1} + X_{_2} + X_{_3} + \\cdots + X_{_n}}{n} = a.",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.51,
+            0.492,
+            0.832,
+            0.514
+          ],
+          "content": "The average of Collection 2 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.511,
+            0.521,
+            0.768,
+            0.56
+          ],
+          "content": "\\frac{y_{1}+y_{2}+y_{3}+\\cdots+y_{m}}{m}=b.",
+          "image_source": "images/page_1_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.564,
+            0.488,
+            0.605
+          ],
+          "content": "Thus the sum of the data in Collection 1 is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.509,
+            0.567,
+            0.811,
+            0.606
+          ],
+          "content": "Thus the sum of the data in Collection 2 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.121,
+            0.611,
+            0.388,
+            0.633
+          ],
+          "content": "X_{1} + X_{2} + X_{3} + \\cdots + X_{n} = an.",
+          "image_source": "images/page_1_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.512,
+            0.613,
+            0.789,
+            0.636
+          ],
+          "content": "y_{1} + y_{2} + y_{3} + \\cdots + y_{m} = bm.",
+          "image_source": "images/page_1_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.641,
+            0.617,
+            0.662
+          ],
+          "content": "The average of the combined data is therefore"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.669,
+            0.868,
+            0.709
+          ],
+          "content": "(Sum of values in Collection 1) + (Sum of values in Collection 2) (Number of values in Collection 1) + (Number of values in Collection 2)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.455,
+            0.717,
+            0.579,
+            0.754
+          ],
+          "content": "\\operatorname { = } { \\frac { a n + b m } { n + m } } .",
+          "image_source": "images/page_1_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.774,
+            0.535,
+            0.909
+          ],
+          "content": "**Example 2:** Jaspreet recently learnt cycling. She has explored different routes in her town. She tracked how much time she cycled on weekdays over the last 3 weeks. Find the mean time spent cycling per weekday over the last 3 weeks."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.574,
+            0.758,
+            0.865,
+            0.91
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_23.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

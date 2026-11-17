@@ -1,0 +1,272 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "Exploring Some Geometric Themes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.847,
+            0.128
+          ],
+          "content": "There are multiple types of prisms and pyramids, whose names depend on the shapes of their faces."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.222,
+            0.129,
+            0.363,
+            0.283
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.249,
+                0.292,
+                0.332,
+                0.321
+              ],
+              "content": "Triangular Prism"
+            }
+          ],
+          "image_source": "images/page_9_image_2.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.429,
+            0.158,
+            0.606,
+            0.287
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.46,
+                0.292,
+                0.547,
+                0.321
+              ],
+              "content": "Pentagonal Prism"
+            }
+          ],
+          "image_source": "images/page_9_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.659,
+            0.183,
+            0.778,
+            0.285
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.671,
+                0.292,
+                0.754,
+                0.321
+              ],
+              "content": "Hexagonal Prism"
+            }
+          ],
+          "image_source": "images/page_9_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.337,
+            0.847,
+            0.43
+          ],
+          "content": "**Prism:** A prism, in general, has two congruent polygons as opposite faces, with edges connecting the corresponding vertices of these polygons. All the other faces are parallelograms. Based on the shape of the congruent polygons, prisms may be called triangular prisms, pentagonal prisms, and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.429,
+            0.847,
+            0.523
+          ],
+          "content": "**Pyramids:** A pyramid, in general, has a polygonal base and a point outside it, and edges connect the point with each of the vertices of the base. Based on the shape of the base, pyramids may be called triangular pyramids, square pyramids, pentagonal pyramids, and so on. A triangular pyramid is also known as a **tetrahedron**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.208,
+            0.53,
+            0.376,
+            0.648
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.244,
+                0.659,
+                0.327,
+                0.688
+              ],
+              "content": "Triangular Pyramid"
+            }
+          ],
+          "image_source": "images/page_9_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.419,
+            0.533,
+            0.601,
+            0.655
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.464,
+                0.659,
+                0.55,
+                0.689
+              ],
+              "content": "Pentagonal Pyramid"
+            }
+          ],
+          "image_source": "images/page_9_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.657,
+            0.534,
+            0.781,
+            0.648
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.679,
+                0.659,
+                0.761,
+                0.689
+              ],
+              "content": "Hexagonal Pyramid"
+            }
+          ],
+          "image_source": "images/page_9_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.7,
+            0.847,
+            0.758
+          ],
+          "content": "？ If the congruent polygons of a prism have 10 sides, how many faces, edges and vertices does the prism have? What if the polygons have n sides?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.773,
+            0.846,
+            0.814
+          ],
+          "content": "？ If the base of a pyramid has 10 sides, how many faces, edges and vertices does the pyramid have? What if the base is an n-sided polygon?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.822,
+            0.846,
+            0.86
+          ],
+          "content": "Now we will see how to make different solids using a foldable flat surface such as paper, cardboard, etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.859,
+            0.847,
+            0.917
+          ],
+          "content": "The basic idea is to create a shape on a flat surface that can be folded into the solid. Such a shape is called a **net**. In other words, a net is obtained by ‘unfolding’ a solid onto a plane."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.876,
+            0.913,
+            0.909,
+            0.935
+          ],
+          "content": "79"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

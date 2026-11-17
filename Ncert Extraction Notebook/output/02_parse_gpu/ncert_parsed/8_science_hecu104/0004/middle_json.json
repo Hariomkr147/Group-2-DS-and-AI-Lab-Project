@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-06-28T15:49:25+05:30",
+      "modified_at": "2026-03-24T12:21:17+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.699,
+            0.079,
+            0.809,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.699,
+                0.079,
+                0.809,
+                0.18
+              ],
+              "image_path": "images/page_3_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.446,
+            0.026,
+            0.845,
+            0.044
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chapter 4 — Electricity: Magnetic and Heating Effects"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 2,
+          "bbox": [
+            0.893,
+            0.03,
+            0.917,
+            0.045
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "49"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.083,
+            0.497,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The magnetic effect of electric current has many practical applications, such as in devices like electromagnets, electric bells, motors, fans, loudspeakers, and more."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.519,
+            0.089,
+            0.692,
+            0.143
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we use electric current to make a magnet?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.187,
+            0.358,
+            0.209
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1.1 Electromagnets"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.234,
+            0.482,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 4.2: Let us explore"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.133,
+            0.283,
+            0.63,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Take around 50 cm long length of a flexible insulated wire, an iron nail, an electric cell, and few iron paper clips."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.134,
+            0.345,
+            0.629,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Tightly wrap the wire around the nail in the form of a coil, as shown in Fig. 4.2, and secure it with an adhesive tape."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.133,
+            0.405,
+            0.629,
+            0.48
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Connect the ends of the wire to the cell. Take care to not connect the wires to the cell for more than a few seconds; otherwise, the cell may weaken quickly."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.638,
+            0.29,
+            0.919,
+            0.501
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.638,
+                0.29,
+                0.919,
+                0.501
+              ],
+              "image_path": "images/page_3_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.134,
+            0.484,
+            0.63,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Bring the nail close to the iron paper clips and lift up. Do the clips hang to the ends of the nail?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.687,
+            0.501,
+            0.855,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 4.2: Coil of wire connected with a cell"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.134,
+            0.527,
+            0.63,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Disconnect the wire from the cell to stop the flow of electric current in the wire. Do the clips fall down?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.114,
+            0.588,
+            0.743,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When electric current flows through the coil, the clips cling to it. But when the current is stopped, the clips no longer cling to it. Let us now try to "
+            },
+            {
+              "type": "text",
+              "content": "investigate",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " these observations in detail through Activity 4.3."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.129,
+            0.681,
+            0.537,
+            0.705
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 4.3: Let us experiment"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.133,
+            0.724,
+            0.743,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Take around 100 cm long flexible insulated wire, a piece of chart paper, an iron nail, an electric cell, two magnetic compasses, and few iron/steel paper clips."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.133,
+            0.785,
+            0.744,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Roll a piece of chart paper to make a cylinder of diameter roughly equal to the width of a pencil. Secure it with an adhesive tape."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.132,
+            0.846,
+            0.743,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z Tightly wind around 50 turns of the insulated wire on the cylinder to form a cylindrical coil as shown in Fig. 4.3a. Secure the wire with an adhesive tape."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.77,
+            0.733,
+            0.901,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.77,
+                0.733,
+                0.901,
+                0.832
+              ],
+              "image_path": "images/page_3_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 20,
+              "bbox": [
+                0.767,
+                0.836,
+                0.909,
+                0.869
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.3: (a) A coil of insulated wire"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.048,
+            0.419,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.09,
+            0.759,
+            0.112
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You could also draw it all at once, by counting edges as you go:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.153,
+            0.115,
+            0.846,
+            0.293
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.153,
+                0.115,
+                0.846,
+                0.293
+              ],
+              "image_path": "images/page_30_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.307,
+            0.847,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, you could draw the shape oriented along the height axis or the length axis."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.349,
+            0.848,
+            0.528
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.153,
+                0.349,
+                0.848,
+                0.528
+              ],
+              "image_path": "images/page_30_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.535,
+            0.847,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In your drawing, moving in the vertical direction on the isometric paper corresponds to moving along the height axis of the solid. Similarly, moving along the or direction on the paper corresponds to moving along the length or depth axis respectively of the solid."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.62,
+            0.846,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Why is this correspondence between directions on isometric paper and axes of the solid so effective for communicating the shape of the solid?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.663,
+            0.848,
+            0.776
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Earlier we observed that parallel lines project to parallel lines. This geometric fact ensures that the three families of parallel edges on the solid (corresponding to height, the length, and depth) project to three families of parallel edges on the isometric paper: |, , and . Moreover, the isometric nature of the projection ensures that the projections of unit distances along the three axes are equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.785,
+            0.773,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you try drawing the other tetris shapes on isometric paper?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.114,
+            0.814,
+            0.294,
+            0.837
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.162,
+            0.839,
+            0.801,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. In addition to the 5 ways shown in Fig. 4.8, are there any additional ways of gluing four cubes together along faces? Can you visualise and draw these as well?"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.816,
+            0.836,
+            0.903,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 Math Talk"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.081,
+            0.914,
+            0.128,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "100"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

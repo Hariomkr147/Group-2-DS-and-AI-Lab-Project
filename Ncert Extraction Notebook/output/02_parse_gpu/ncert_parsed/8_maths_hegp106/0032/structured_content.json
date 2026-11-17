@@ -1,0 +1,301 @@
+{
+  "pages": [
+    {
+      "page_idx": 31,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.678,
+            0.109
+          ],
+          "content": "5. Verify which of the following statements are true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.21,
+            0.112,
+            0.57,
+            0.133
+          ],
+          "content": "(i) $( k + 1 )   ( k + 2 ) - ( k + 3 )$ is always 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.204,
+            0.136,
+            0.568,
+            0.157
+          ],
+          "content": "(ii) $\\left( 2 q + 1 \\right) \\left( 2 q - 3 \\right)$ is a multiple of 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.16,
+            0.848,
+            0.199
+          ],
+          "content": "(iii) Squares of even numbers are multiples of 4, and squares of odd numbers are 1 more than multiples of 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.202,
+            0.733,
+            0.224
+          ],
+          "content": "(iv) $( 6 n + 2 ) ^ { 2 } - ( 4 n + 3 ) ^ { 2 }$ is 5 less than a square number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.231,
+            0.205,
+            0.248
+          ],
+          "content": "**Ans.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.21,
+            0.253,
+            0.306,
+            0.274
+          ],
+          "content": "(i) False"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.204,
+            0.277,
+            0.307,
+            0.298
+          ],
+          "content": "(ii) False"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.3,
+            0.305,
+            0.323
+          ],
+          "content": "(iii) True"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.325,
+            0.307,
+            0.346
+          ],
+          "content": "(iv) False"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.355,
+            0.848,
+            0.429
+          ],
+          "content": "6. A number leaves a remainder of 3 when divided by 7, and another number leaves a remainder of 5 when divided by 7. What is the remainder when their sum, difference, and product are divided by 7?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.437,
+            0.491,
+            0.459
+          ],
+          "content": "**Ans.** Let $n _ { 1 } = 7 a + 3$ and $n _ { 2 } = 7 b + 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.21,
+            0.466,
+            0.625,
+            0.486
+          ],
+          "content": "(i) When adding both, the remainder is 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.204,
+            0.489,
+            0.672,
+            0.511
+          ],
+          "content": "(ii) When taking difference, the remainder is 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.514,
+            0.65,
+            0.535
+          ],
+          "content": "(iii) When taking product, the remainder is 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.544,
+            0.848,
+            0.638
+          ],
+          "content": "Choose three consecutive numbers, square the middle one, and subtract the product of the other two. Repeat the same with other sets of numbers. What pattern do you notice? How do we write this as an algebraic equation? Expand both sides of the equation to check that it is a true identity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.644,
+            0.713,
+            0.663
+          ],
+          "content": "**Ans.** Let (n – 1), n and (n + 1) be the consecutive numbers,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.664,
+            0.582,
+            0.683
+          ],
+          "content": "Then $n^{2}-(n-1)(n+1)=n^{2}-(n^{2}-1)=1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.684,
+            0.497,
+            0.703
+          ],
+          "content": "Hence, the result is always ‘1’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.704,
+            0.678,
+            0.724
+          ],
+          "content": "Check for different sets of consecutive numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.733,
+            0.849,
+            0.809
+          ],
+          "content": "8. What is the algebraic expression describing the following steps— add any two numbers. Multiply this by half of the sum of the two numbers? Prove that this result will be half of the square of the sum of the two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.815,
+            0.488,
+            0.834
+          ],
+          "content": "**Ans.** Let a and b be two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.834,
+            0.399,
+            0.854
+          ],
+          "content": "Adding both = a + b"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.854,
+            0.762,
+            0.875
+          ],
+          "content": "Now multiplying this by half of the sum of two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.879,
+            0.587,
+            0.905
+          ],
+          "content": "Then we get, $( a + b ) \\times { \\frac { 1 } { 2 } } ( a + b ) = { \\frac { 1 } { 2 } } ( a + b ) ^ { 2 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.879,
+            0.923,
+            0.899,
+            0.944
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 31,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

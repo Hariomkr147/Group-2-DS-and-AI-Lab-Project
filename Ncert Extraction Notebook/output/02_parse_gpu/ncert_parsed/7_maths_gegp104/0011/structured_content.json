@@ -1,0 +1,286 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.562,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "Expressions Using Letter-Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.088,
+            0.847,
+            0.108
+          ],
+          "content": "Recalling how we open brackets in an arithmetic expression, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.271,
+            0.113,
+            0.728,
+            0.132
+          ],
+          "content": "(40x+75y)-(6x+10y)=(40x+75y)-6x-10y",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.136,
+            0.848,
+            0.174
+          ],
+          "content": "Since the terms can be added in any order, the remaining bracket can be opened and the expression becomes $40x+75y+-6x+-10y$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.174,
+            0.696,
+            0.192
+          ],
+          "content": "We can group the like terms together, This results in"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.197,
+            0.615,
+            0.276
+          ],
+          "content": "\\begin{aligned}&40x + - 6x + 75y + - 10y \\\\&= (40 - 6)x + (75 - 10)y \\\\&\\quad\\quad\\quad= 34x + 65y.\\end{aligned}",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.281,
+            0.846,
+            0.319
+          ],
+          "content": "The expression $( 4 0 x + 7 5 y ) - ( 6 x + 1 0 y )$ is simplified to $3 4 x   \\text{+ }   6 5 y _ { \\text{: } }$ which is the total amount paid in rupees."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.327,
+            0.621,
+            0.368
+          ],
+          "content": "Could we have written the initial expression as (40x + 75y) + (– 6x – 10y)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.815,
+            0.316,
+            0.906,
+            0.369
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.387,
+            0.848,
+            0.463
+          ],
+          "content": "**Example 8:** Charu has been through three rounds of a quiz. Her scores in the three rounds are $7 p - 3 q ,   8 p - 4 q ,$ and 6p – 2q. Here, p represents the score for a correct answer and q represents the penalty for an incorrect answer."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.478,
+            0.548,
+            0.501
+          ],
+          "level": 2,
+          "content": "What do each of the expressions mean?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.509,
+            0.848,
+            0.547
+          ],
+          "content": "If the score for a correct answer is 4 (p = 4) and the penalty for a wrong answer is 1 (q = 1), find Charu’s score in the first round."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.547,
+            0.847,
+            0.583
+          ],
+          "content": "Charu’s score is $7 \\times 4 = 3 \\times 1$ . We can evaluate this expression by writing it as a sum of terms."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.175,
+            0.584,
+            0.589,
+            0.601
+          ],
+          "content": "7 \\times 4 - 3 \\times 1 = 7 \\times 4 - 3 \\times 1 = 28 + -3 = 25",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.602,
+            0.701,
+            0.62
+          ],
+          "content": "What are her scores in the second and third rounds?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.62,
+            0.848,
+            0.656
+          ],
+          "content": "What if there is no penalty? What will be the value of q in that situation?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.656,
+            0.639,
+            0.675
+          ],
+          "content": "What is her final score after the three rounds?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.676,
+            0.846,
+            0.713
+          ],
+          "content": "Her final score will be the sum of the three scores: $( 7 p - 3 q ) + ( 8 p - 4 q ) + ( 6 p - 2 q ) .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.713,
+            0.846,
+            0.748
+          ],
+          "content": "Since the terms can be added in any order, we can remove the brackets and write"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.75,
+            0.836,
+            0.833
+          ],
+          "content": "7p + – 3q + 8p + – 4q + 6p + –2q = 7p + 8p + 6p + – (3q) + – (4q) + – (2q) (by swapping and grouping) = (7 + 8 + 6)p + – (3 + 4 + 2)q = 21p + – 9q"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.824,
+            0.284,
+            0.841
+          ],
+          "content": "= 2 1 p - 9 q .",
+          "image_source": "images/page_10_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.84,
+            0.847,
+            0.879
+          ],
+          "content": "Charu’s total score after three rounds is 21p – 9q. Her friend Krishita’s score after three rounds is $2 3 p - 7 q$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.939,
+            0.838,
+            0.954
+          ],
+          "content": "91"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

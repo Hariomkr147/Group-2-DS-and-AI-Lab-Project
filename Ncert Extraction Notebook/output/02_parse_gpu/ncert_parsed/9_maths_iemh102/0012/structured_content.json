@@ -1,0 +1,187 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.502,
+            0.069,
+            0.815,
+            0.086
+          ],
+          "content": "Introduction to Linear Polynomials"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": "27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.108,
+            0.884,
+            0.146
+          ],
+          "content": "We substitute the values of a and b in the equation $y = ax + b$ to obtain y = 20x + 150."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.146,
+            0.886,
+            0.205
+          ],
+          "content": "Thus, y = 20x + 150 represents the linear relationship between y, the bill amount in Rupees, and x, the number of GB of the internet data used."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.222,
+            0.399,
+            0.246
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.259,
+            0.868,
+            0.298
+          ],
+          "content": "Can you guess what the numbers 20 and 150 in the equation $y = 20x + 150$ represent?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.374,
+            0.329,
+            0.622,
+            0.357
+          ],
+          "level": 2,
+          "content": "Exercise Set 2.5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.382,
+            0.886,
+            0.499
+          ],
+          "content": "1. A learning platform charges a fixed monthly fee and an additional cost per digital learning module accessed. A student observes that when she accessed 10 modules, her bill was \\`400. When she accessed 14 modules, her bill was \\`500. If the monthly bill y depends on the number of modules accessed, x, according to the relation $y = a x + b ,$ , find the values of a and b."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.499,
+            0.886,
+            0.614
+          ],
+          "content": "2. A gym charges a fixed monthly fee and an additional cost per hour for using the badminton court. A student using the gym observed that when she used the badminton court for 10 hours, her bill was \\`800. When she used it for 15 hours, her bill was \\`1100. If the monthly bill y depends on the hours of the use of the badminton court, x, according to the relation $y = a x + b ,$ find the values of a and b."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.614,
+            0.886,
+            0.71
+          ],
+          "content": "3. Consider the relationship between temperature measured in degrees Celsius (°C) and degrees Fahrenheit (°F), which is given by $^{\\circ}C = a^{\\circ}F + b$ . Find a and b, given that ice melts at 0 degrees Celsius and 32 degrees Fahrenheit, and water boils at 100 degrees Celsius and 212 degrees Fahrenheit."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.71,
+            0.886,
+            0.769
+          ],
+          "content": "(**Hint:** When °C = 0, °F = 32 and when $^{\\circ}C = 100,   ^{\\circ}F = 212$ . Use this information to find a and b, and thus, the linear relationship between °C and °F.)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.779,
+            0.641,
+            0.801
+          ],
+          "level": 2,
+          "content": "2.6 Visualising linear relationships"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.809,
+            0.884,
+            0.868
+          ],
+          "content": "As we have seen in many examples in this chapter, a linear pattern or relationship can be expressed in the form of an equation $y = ax + b.$ Now we shall learn to plot such an equation as a straight line."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.867,
+            0.886,
+            0.907
+          ],
+          "content": "To plot a linear equation, we need to identify any two points on the line. For example, to plot y = 2x + 1, we may identify two points as follows:"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

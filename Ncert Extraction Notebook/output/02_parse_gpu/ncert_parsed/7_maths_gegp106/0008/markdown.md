@@ -1,0 +1,35 @@
+？ Make a couple of questions like this on your own and challenge your peers.
+
+Try solving the problem below.
+
+You might have realised that it is not possible to find a solution for this grid. Why is this the case?
+
+The smallest sum possible is $6 = 1 + 2 + 3$ . The largest sum possible is $24 = 9 + 8 + 7.$ . Clearly, any number in a circle cannot be less than 6 or greater than 24. The grid has sums 5 and 26. Therefore, this is impossible!
+
+![](images/page_7_image_5.jpg)
+
+In the earlier grids which we solved, Kishor noticed that the sum of all the numbers in the circles was always 90. Also, Vidya observed that the sum of the circled numbers for all three rows, or for all three columns, was always 45. Check if this is true in the previous grids you have solved.
+
+![](images/page_7_image_7.jpg)
+
+The 3 row sums added together gives 45! So does adding the column sums.
+
+## Why should the row sums and column sums always add to 45?
+
+From this grid, we can see that all the row sums added together will be the same as the sum of the numbers 1 – 9. This can be seen for column sums as well. The sum of the numbers 1 – 9 is
+
+$$
+1+2+3+4+5+6+7+8+9=45.
+$$
+
+![](images/page_7_image_12.jpg)
+
+A square grid of numbers is called a **magic square** if each row, each column and each diagonal, add up to the same number. This number is called the **magic sum**. Diagonals are shown in the picture.
+
+Trying to create a magic square by randomly filling the grid with numbers may be difficult! This is because there are a large number of ways of filling a 3 × 3 grid using the numbers 1 – 9 without repetition. In fact, it can be found that there are exactly 3,62,880 such ways. Surprisingly, the number of ways to fill in the grid can be found without listing all of them. We will see in later years how to do this.
+
+![](images/page_7_image_15.jpg)
+
+Instead, we should proceed systematically to make a magic square. For this, let us ask ourselves some questions.
+
+1. What can the magic sum be? Can it be any number?

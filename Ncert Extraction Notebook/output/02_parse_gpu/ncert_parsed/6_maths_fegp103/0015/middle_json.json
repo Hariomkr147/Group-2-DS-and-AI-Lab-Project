@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.721,
+            0.064,
+            0.835,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.112,
+            0.12,
+            0.835,
+            0.188
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The rule is: one starts with any number; if the number is even, take half of it; if the number is odd, multiply it by 3 and add 1; repeat."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.189,
+            0.837,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that all four sequences above eventually reached the number 1. In 1937, the German mathematician, Lothar Collatz conjectured that the sequence will always reach 1, regardless of the whole number you start with. Even today — despite many mathematicians working on it — it remains an unsolved problem as to whether Collatz’s conjecture is true! Collatz’s conjecture is one of the most famous unsolved problems in mathematics."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.112,
+            0.359,
+            0.834,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Make some more Collatz sequences like those above, starting with your favourite whole numbers. Do you always reach 1?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.113,
+            0.406,
+            0.834,
+            0.45
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you believe the conjecture of Collatz that all such sequences will eventually reach 1? Why or why not?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.477,
+            0.456,
+            0.503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.11 Simple Estimation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.518,
+            0.835,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "At times, we may not know or need an exact count of things and an estimate is sufficient for the purpose at hand. For example, your school headmaster might know the exact number of students enrolled in your school, but you may only know an estimated count. How many students are in your school? About 150? 400? A thousand?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.112,
+            0.655,
+            0.836,
+            0.791
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Paromita’s class section has 32 children. The other 2 sections of her class have 29 and 35 children. So, she estimated the number of children in her class to be about 100. Along with Class 6, her school also has Classes 7–10 and each class has 3 sections each. She assumed a similar number in each class and estimated the number of students in her school to be around 500."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.113,
+            0.802,
+            0.302,
+            0.824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.154,
+            0.831,
+            0.834,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We shall do some simple estimates. It is a fun exercise, and you may find it amusing to know the various numbers around us. Remember,"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.888,
+            0.943,
+            0.913,
+            0.959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "69"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

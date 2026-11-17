@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.451,
+            0.069,
+            0.816,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "99"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the new position, the thread is another chord on the circle. What is common to the first and second chords? They have the same length, equal to the length of the thread. What about the angle subtended by the second chord at the centre? It must surely be the same as the angle subtended by the first chord at the centre. We now explain why this is true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.112,
+            0.229,
+            0.885,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Equal chords of a circle subtend equal angles at the centre of the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.273,
+            0.885,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What does the theorem say? It talks of two chords of the circle with equal length. In geometry, it always helps to draw a figure! (See Fig. 5.9). AB and DE are chords of the same length. We need to explain why ∠ACB is equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  DCE"
+            },
+            {
+              "type": "text",
+              "content": " . What are we given? "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB} = \\mathrm{DE}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.112,
+            0.351,
+            0.885,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To explain why two angles in two different triangles are equal, we use congruence of triangles. If the angles which we want to show equal are corresponding angles, then our task would be done!"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.42,
+            0.373,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.149,
+                0.42,
+                0.373,
+                0.577
+              ],
+              "image_path": "images/page_7_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.228,
+                0.591,
+                0.297,
+                0.609
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.414,
+            0.42,
+            0.594,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB} \\equiv \\mathrm{DE}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.414,
+            0.446,
+            0.679,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To show:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACB = \\angle DCE"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.413,
+            0.471,
+            0.877,
+            0.51
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why is this true?",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " First, we see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "CA = CB = r"
+            },
+            {
+              "type": "text",
+              "content": " , the radius of the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.413,
+            0.514,
+            0.867,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, CD = CE = r. So, CA = CD and CB = CE."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.412,
+            0.54,
+            0.877,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But AB = DE is given! By the SSS congruence, ∆CAB is congruent to ∆CDE. So, ∠ACB is equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  DCE _{:}"
+            },
+            {
+              "type": "text",
+              "content": " , i.e., the angles subtended at the centre are equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.635,
+            0.886,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now suppose we have two chords that subtend equal angles at the centre. Are the chords equal? What does our intuition tell us? Let the chords be AB and DE. Let us use our imagination. Assume that B, A, E, and D are located clockwise on the circle as shown in Fig 5.10."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.718,
+            0.373,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.151,
+                0.718,
+                0.373,
+                0.879
+              ],
+              "image_path": "images/page_7_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 15,
+              "bbox": [
+                0.224,
+                0.888,
+                0.303,
+                0.906
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.411,
+            0.726,
+            0.884,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Imagine you are standing at the centre C of a circle. Stretch your arms so that they are at a certain angle. Let your arms intersect the circle at A, B. The distance between your arm ends must be the length of chord AB. Now let the floor rotate magically. You start rotating (say clockwise) about C. Don’t change the angle your arms make! At some point your left arm meets point E."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

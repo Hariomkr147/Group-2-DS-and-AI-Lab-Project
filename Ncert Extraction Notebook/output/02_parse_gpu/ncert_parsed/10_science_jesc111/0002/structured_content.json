@@ -1,0 +1,266 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.276,
+            0.086,
+            0.9,
+            0.121
+          ],
+          "content": "**If a net charge Q, flows across any cross-section of a conductor in time t, then the current I, through the cross-section is**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.311,
+            0.128,
+            0.897,
+            0.162
+          ],
+          "content": "I = \\frac { Q } { t }\\tag{11.1}",
+          "image_source": "images/page_1_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.276,
+            0.174,
+            0.901,
+            0.297
+          ],
+          "content": "**The SI unit of electric charge is coulomb (C), which is equivalent to the charge contained in nearly** $6 \\times 1 0 ^ { 1 8 }$ **electrons. (We know that an electron possesses a negative charge of** $1 . 6   \\times   1 0 ^ { - 1 9 }   \\mathrm { C } . )$ **The electric current is expressed by a unit called ampere (A), named after the French scientist, Andre-Marie Ampere (1775–1836). One ampere is constituted by the flow of one coulomb of charge per second, that is,** $1   \\mathrm { A }   =   1   \\mathrm { C } / 1$ **s. Small quantities of current are expressed in milliampere**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.076,
+            0.31,
+            0.439,
+            0.465
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.075,
+                0.472,
+                0.182,
+                0.489
+              ],
+              "content": "Figure 11.1"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.073,
+                0.487,
+                0.427,
+                0.531
+              ],
+              "content": "A schematic diagram of an electric circuit comprising – cell, electric bulb, ammeter and plug key"
+            }
+          ],
+          "image_source": "images/page_1_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.453,
+            0.298,
+            0.901,
+            0.473
+          ],
+          "content": "(1 $\\mathrm { m A } = 1 0 ^ { - 3 }   \\mathrm { A } )$ or in microampere (1 $\\mu \\mathrm{A} = 10^{-6}   \\mathrm{A}$ **An instrument called ammeter measures electric current in a circuit. It is always connected in series in a circuit through which the current is to be measured. Figure 11.1 shows the schematic diagram of a typical electric circuit comprising a cell, an electric bulb, an ammeter and a plug key. Note that the electric current flows in the circuit from the positive terminal of the cell to the negative terminal of the cell through the bulb and ammeter.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.555,
+            0.453,
+            0.572
+          ],
+          "level": 2,
+          "content": "Example 11.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.305,
+            0.571,
+            0.9,
+            0.621
+          ],
+          "content": "**A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes. Find the amount of electric charge that flows through the circuit.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.627,
+            0.398,
+            0.643
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.644,
+            0.669,
+            0.661
+          ],
+          "content": "**We are given, I = 0.5 A; t = 10 min = 600 s.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.66,
+            0.534,
+            0.677
+          ],
+          "content": "**From Eq. (11.1), we have**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.675,
+            0.486,
+            0.722
+          ],
+          "content": "\\begin{array}{l}Q_{ 氵 } \\stackrel{ 氵 }{=} I t \\\\\\stackrel{ 氵 }{=} 0.5  A  \\times 600  s  \\\\\\stackrel{ 氵 }{=} 300  C \\end{array}",
+          "image_source": "images/page_1_equation_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.251,
+            0.749,
+            0.749,
+            0.777
+          ],
+          "level": 2,
+          "content": "Q U E S T I O N S"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.802,
+            0.446,
+            0.82
+          ],
+          "content": "**1. What does an electric circuit mean?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.821,
+            0.364,
+            0.838
+          ],
+          "content": "**2. Define the unit of current.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.839,
+            0.717,
+            0.857
+          ],
+          "content": "**3. Calculate the number of electrons constituting one coulomb of charge.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.79,
+            0.791,
+            0.852,
+            0.867
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_17.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.089,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": "172"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": "Science"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

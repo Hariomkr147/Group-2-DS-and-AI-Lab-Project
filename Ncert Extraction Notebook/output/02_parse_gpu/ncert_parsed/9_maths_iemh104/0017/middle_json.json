@@ -1,0 +1,544 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.144,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "84"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.107,
+            0.852,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This gives us, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 3 } = ( a + b ) ( a ^ { 2 } + 2 a b + b ^ { 2 } ) = a ^ { 3 } + 3 a ^ { 2 }   b + 3 a b ^ { 2 } + b ^ { 3 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.137,
+            0.632,
+            0.157
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here we have found a new identity, namely,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.361,
+            0.162,
+            0.672,
+            0.184
+          ],
+          "image_path": "images/page_16_equation_4.jpg",
+          "content": "(a+b)^{3}=a^{3}+3a^{2}b+3ab^{2}+b^{3}."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.188,
+            0.836,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens when we replace b with – b in this new identity?"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.303,
+            0.218,
+            0.728,
+            0.242
+          ],
+          "image_path": "images/page_16_equation_6.jpg",
+          "content": "\\left[ a + ( - b ) \\right] ^ { 3 } = a ^ { 3 } + 3 a ^ { 2 } ( - b ) + 3 a ( - b ) ^ { 2 } + ( - b ) ^ { 3 } ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.249,
+            0.885,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This leads to the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a - b)^{3} = a^{3} - 3a^{2}b + 3ab^{2} - b^{3}"
+            },
+            {
+              "type": "text",
+              "content": " .     Note that out of the four terms, two are positive and two are negative. They appear alternately in the expression."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.309,
+            0.666,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see how we can use these new identities."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.333,
+            0.884,
+            0.374
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 13:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " What is the side of the cube whose volume is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ^ { 3 } + 6 p ^ { 2 } q + 1 2 p q ^ { 2 } + 8 q ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " cubic units?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.114,
+            0.374,
+            0.884,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Comparing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ^ { 3 } + 6 p ^ { 2 } q + 1 2 p q ^ { 2 } + 8 q ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " with the right side of the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a+b)^{3}=a^{3}+3a^{2}b+3ab^{2}+b^{3}"
+            },
+            {
+              "type": "text",
+              "content": " , we may rewrite it as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.153,
+            0.431,
+            0.5,
+            0.455
+          ],
+          "image_path": "images/page_16_equation_11.jpg",
+          "content": "( p ) ^ { 3 } + 3   ( p ) ^ { 2 } ( 2 q ) + 3 ( p ) ( 2 q ) ^ { 2 } + ( 2 q ) ^ { 3 }"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.459,
+            0.875,
+            0.5
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( p + 2 q ) ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " , so that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = p"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = 2 q"
+            },
+            {
+              "type": "text",
+              "content": " . Hence a side of the cube will be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p + 2 q"
+            },
+            {
+              "type": "text",
+              "content": " units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.149,
+            0.512,
+            0.616,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 14:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Now consider the expression"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.337,
+            0.536,
+            0.665,
+            0.556
+          ],
+          "image_path": "images/page_16_equation_14.jpg",
+          "content": "8n^{3}-60n^{2}m+150nm^{2}-125m^{3}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.561,
+            0.751,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If you write it in the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 3 } ,"
+            },
+            {
+              "type": "text",
+              "content": " what will be a and b?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.587,
+            0.778,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Rewriting the expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8n^{3}-60n^{2}m+150nm^{2}-125m^{3}"
+            },
+            {
+              "type": "text",
+              "content": " as"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.61,
+            0.799,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "( 2 n ) ^ { 3 } - 3 ( 2 n ) ^ { 2 } ( 5 m ) + 3 ( 2 n ) ( 5 m ) ^ { 2 } - ( 5 m ) ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and comparing it with"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.112,
+            0.638,
+            0.884,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "a^{3}-3a^{2}b+3ab^{2}-b^{3}=(a-b)^{3}"
+            },
+            {
+              "type": "text",
+              "content": " , we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 n \\mathrm { ~ - ~ } 5 m ) ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " . Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 2 n"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b = 5 m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.112,
+            0.684,
+            0.883,
+            0.726
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us play with known identities to discover more identities. Try to multiply the following using the distributive property."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.133,
+            0.733,
+            0.368,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x - y)(x^{2} + xy + y^{2})"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.133,
+            0.756,
+            0.368,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x + y)(x^2 - xy + y^2)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.15,
+            0.782,
+            0.625,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us work out the product of the first one."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.152,
+            0.809,
+            0.792,
+            0.87
+          ],
+          "image_path": "images/page_16_equation_23.jpg",
+          "content": "\\begin{aligned}(x - y)(x^{2} + xy + y^{2}) &= x^{3} + x^{2}y + xy^{2} - x^{2}y - xy^{2} - y^{3} \\\\&= x^{3} + x^{2}y + xy^{2} - x^{2}y - xy^{2} - y^{3} = x^{3} - y^{3}.\\end{aligned}"
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

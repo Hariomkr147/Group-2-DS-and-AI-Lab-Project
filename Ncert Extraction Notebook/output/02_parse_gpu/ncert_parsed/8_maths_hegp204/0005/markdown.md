@@ -1,0 +1,13 @@
+## Fractals in Art
+
+Fractals have also long been used in human-made art! Perhaps the oldest such fractals appear in the temples of India. An example occurs in the Kandariya Mahadev Temple in Khajuraho, Madhya Pradesh which was completed in around 1025 C.E.; there one sees a tall temple structure, which is made up of smaller copies of the full structure, on which there are even smaller copies of the same structure, and so on. Fractal-like patterns also occur in temples in Madurai, Hampi, Rameswaram, Varanasi, among many others.
+
+![](images/page_4_image_3.jpg)
+
+Kandariya Mahadev Temple
+
+Fractals are also common in traditional African cultures. For example, patterns on Nigerian Fulani wedding blankets often exhibit fractal structures.
+
+![](images/page_4_image_6.jpg)
+
+Nigerian Fulani Wedding Blanket

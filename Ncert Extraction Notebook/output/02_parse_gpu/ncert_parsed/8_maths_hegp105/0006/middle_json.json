@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.752,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.085,
+            0.743,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? When will two even numbers add up to give a multiple of 4?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.111,
+            0.849,
+            0.151
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This problem is similar to the question of identifying when adding two numbers will result in an even number. Can you see this?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.157,
+            0.485,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are three cases to examine:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.093,
+            0.192,
+            0.918,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.093,
+                0.192,
+                0.918,
+                0.706
+              ],
+              "image_path": "images/page_5_table_5.jpg",
+              "content": "<table><tr><td colspan=\"4\">Explanation with Algebra and Visualisation</td><td>Examples 4, 12, 16, 24,</td></tr><tr><td>Adding two (even) numbers that are multiples of 4 will always give a multiple of 4.</td><td>4p and 4q. <eq>4 p + 4 q</eq> <eq>= 4 \\: ( p + q ) .</eq></td><td><img src=\"images/page_5_table_image_5_1.jpg\"/> <img src=\"images/page_5_table_image_5_2.jpg\"/></td><td></td><td>36. <eq>\\begin{array}{l}12 + 16 \\\\= 4\\left(3 + 4\\right) \\\\= 28.\\end{array}</eq> <eq>\\begin{array}{l}\\frac{46 + 28}{= 4\\ (4 + 7)} \\\\= 44.\\end{array}</eq></td></tr><tr><td>Adding two even numbers that are not multiples of 4 will always give a multiple of 4 because their remainders of 2 add up to 4.</td><td><eq>( 4 p + 2 ) \\; \\mathrm { a n d } \\; ( 4 q + 2 ) .</eq> <eq>\\begin{array} { r l } &amp; { ( 4 p + 2 ) + ( 4 q + 2 ) } \\\\ &amp; { = 4 p + 4 q + 4 } \\\\ &amp; { = 4   ( p + q + 1 ) . } \\end{array}</eq></td><td><img src=\"images/page_5_table_image_5_3.jpg\"/></td><td><img src=\"images/page_5_table_image_5_4.jpg\"/></td><td>2, 6, 10, 18, 22,42. <eq>2 + 6 = 8.</eq> <eq>\\begin{array} { l } 6 + 1 0 = 1 6 . \\\\ 2 2 + 6 = 2 8 . \\end{array}</eq></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.726,
+            0.849,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens when we add a multiple of 4 to an even number that is not a multiple of 4? Is it similar to the case of the parity of the sum of an even and an odd number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.11,
+            0.793,
+            0.848,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Look at the following expressions and the visualisation. Write the corresponding explanation and examples."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.874,
+            0.914,
+            0.918,
+            0.938
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "117"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,235 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.306,
+            0.536,
+            0.87,
+            0.635
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.847,
+            0.129
+          ],
+          "content": "So, the good people who designed calendars decided that they will not add 1 extra day in every hundredth year!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.145,
+            0.5,
+            0.168
+          ],
+          "level": 2,
+          "content": "Making Another Adjustment"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.207,
+            0.2,
+            0.792,
+            0.392
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.294,
+            0.417,
+            0.572,
+            0.439
+          ],
+          "content": "Is the year divisible by 100?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.321,
+            0.462,
+            0.36,
+            0.48
+          ],
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.502,
+            0.462,
+            0.54,
+            0.481
+          ],
+          "content": "No"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.515,
+            0.372,
+            0.537
+          ],
+          "content": "The year has 365 days"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.475,
+            0.516,
+            0.73,
+            0.538
+          ],
+          "content": "Is the year divisible by 4?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.477,
+            0.557,
+            0.518,
+            0.576
+          ],
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.66,
+            0.558,
+            0.696,
+            0.576
+          ],
+          "content": "No"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.652,
+            0.802,
+            0.693
+          ],
+          "content": "? Can you write an expression for the number of days in 100 calendar years with this new adjustment?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.642,
+            0.904,
+            0.695
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.697,
+            0.848,
+            0.774
+          ],
+          "content": "We saw that there are 25 years divisible by 4 in 100 years. 100 is also divisible by 4, but we have to exclude it. So only 24 years have 366 days, and the rest (76 years) have 365 days. So the expression can be written as,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.283,
+            0.778,
+            0.716,
+            0.845
+          ],
+          "content": "\\begin{aligned}\\left( \\frac{100}{4} - \\frac{100}{100} \\right) \\times 366 + (100 - \\left( \\frac{100}{4} - \\frac{100}{100} \\right)) \\times 365 \\\\= (24 \\times 366) + (76 \\times 365) = 36, & 524 \\;  days. \\end{aligned}",
+          "image_source": "images/page_23_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.849,
+            0.847,
+            0.888
+          ],
+          "content": "This is close to 36524.22 days but is it close enough? What happens after 1000 years with this adjustment?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "90"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

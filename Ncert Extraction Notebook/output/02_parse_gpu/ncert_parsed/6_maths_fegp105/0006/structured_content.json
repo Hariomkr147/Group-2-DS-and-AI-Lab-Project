@@ -1,0 +1,225 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.165,
+            0.122,
+            0.452,
+            0.147
+          ],
+          "level": 2,
+          "content": "5.2 Prime Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.16,
+            0.885,
+            0.226
+          ],
+          "content": "Guna and Anshu want to pack figs (anjeer) that grow in their farm. Guna wants to put 12 figs in each box and Anshu wants to put 7 figs in each box."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.229,
+            0.585,
+            0.249
+          ],
+          "content": "How many arrangements are possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.251,
+            0.675,
+            0.271
+          ],
+          "content": "Think and find out the different ways how—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.274,
+            0.777,
+            0.295
+          ],
+          "content": "1. Guna can arrange 12 figs in a rectangular manner."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.297,
+            0.776,
+            0.317
+          ],
+          "content": "2. Anshu can arrange 7 figs in a rectangular manner."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.32,
+            0.603,
+            0.34
+          ],
+          "content": "Guna has listed out these possibilities."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.343,
+            0.552,
+            0.409
+          ],
+          "content": "Observe the number of rows and columns in each of the arrangements. How are they related to 12?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.411,
+            0.552,
+            0.477
+          ],
+          "content": "In the second arrangement, for example, 12 figs are arranged in two columns of 6 each or 12 = 2 × 6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.479,
+            0.552,
+            0.569
+          ],
+          "content": "Anshu could make only one arrangement: 7 × 1 or 1 × 7. There are no other rectangular arrangements possible."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.564,
+            0.361,
+            0.882,
+            0.643
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.57,
+            0.552,
+            0.682
+          ],
+          "content": "In each of Guna’s arrangements, multiplying the number of rows by the number of columns gives the number 12. So, the number of rows or columns are factors of 12."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.684,
+            0.885,
+            0.751
+          ],
+          "content": "We saw that the number 12 can be arranged in a rectangle in more than one way as 12 has more than two factors. The number 7 can be arranged in only one way, as it has only two factors — 1 and 7."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.752,
+            0.885,
+            0.819
+          ],
+          "content": "Numbers that have only two factors are called **prime numbers** or primes. Here are the first few primes — 2, 3, 5, 7, 11, 13, 17, 19. Notice that the factors of a prime number are 1 and the number itself."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.821,
+            0.885,
+            0.888
+          ],
+          "content": "What about numbers that have more than two factors? They are called **composite numbers**. The first few composite numbers are — 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.085,
+            0.941,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,219 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.721,
+            0.065,
+            0.834,
+            0.081
+          ],
+          "content": "Number Play"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.121,
+            0.299,
+            0.142
+          ],
+          "level": 2,
+          "content": "Digit Detectives"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.149,
+            0.518,
+            0.217
+          ],
+          "content": "After writing numbers from 1 to 100, Dinesh wondered how many times he would have written the digit ‘7’!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.228,
+            0.519,
+            0.32
+          ],
+          "content": "Among the numbers 1–100, how many times will the digit ‘7’ occur? Among the numbers 1–1000, how many times will the digit ‘7’ occur?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.534,
+            0.156,
+            0.82,
+            0.321
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.346,
+            0.581,
+            0.371
+          ],
+          "level": 2,
+          "content": "3.5 Pretty Palindromic Patterns"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.386,
+            0.835,
+            0.477
+          ],
+          "content": "What pattern do you see in these numbers: 66, 848, 575, 797, 1111? These numbers read the same from left to right and from right to left. Try and see. Such numbers are called **palindromes** or **palindromic numbers**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.155,
+            0.489,
+            0.48,
+            0.511
+          ],
+          "level": 2,
+          "content": "All palindromes using 1, 2, 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.518,
+            0.833,
+            0.563
+          ],
+          "content": "The numbers 121, 313, 222 are some examples of palindromes using the digits ‘1’, ‘2’, 3’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.574,
+            0.746,
+            0.597
+          ],
+          "content": "嶽 Write all possible 3-digit palindromes using these digits."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.609,
+            0.458,
+            0.629
+          ],
+          "level": 2,
+          "content": "Reverse-and-add palindromes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.636,
+            0.806,
+            0.659
+          ],
+          "content": "Now, look at these additions. Try to figure out what is happening."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.66,
+            0.478,
+            0.796
+          ],
+          "content": "**Steps to follow:** Start with a 2-digit number. Add this number to its reverse. Stop if you get a palindrome or else repeat the steps of reversing the digits and adding."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.797,
+            0.478,
+            0.865
+          ],
+          "content": "Try the same procedure for some other numbers, and perform the same steps. Stop if"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.513,
+            0.677,
+            0.815,
+            0.818
+          ],
+          "content": "\\begin{array}{ccc}\\underline{3} \\underline{4} & \\underline{2} \\underline{9} & \\underline{4} \\underline{8} & \\underline{7} \\underline{6} \\\\\\underline{4} \\underline{3} & \\underline{9} \\underline{2} & \\underline{8} \\underline{4} & \\underline{6} \\overline{7} \\\\\\overline{7} \\overline{7} & \\underline{4} \\underline{2} \\underline{4} & \\underline{9} \\underline{3} \\underline{2} & \\underline{9} \\underline{4} \\underline{3} \\\\& & \\underline{2} \\underline{3} \\underline{1} & \\underline{3} \\underline{4} \\underline{1} \\\\& & \\underline{3} \\underline{6} \\underline{3} & \\underline{4} \\underline{8} \\underline{4} \\\\\\end{array}",
+          "image_source": "images/page_6_equation_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.888,
+            0.942,
+            0.912,
+            0.959
+          ],
+          "content": "61"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

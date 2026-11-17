@@ -1,0 +1,264 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "26"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.102,
+            0.156,
+            0.898,
+            0.453
+          ],
+          "content": "| Sl No. | Pair of lines | a1a2 | b1b2 | c1c2 | Compare the ratios | Graphical representation | Algebraic interpretation |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 1.2.3. | x - 2y = 0 3x + 4y - 20 = 0 2x + 3y - 9 = 0 4x + 6y - 18 = 0 x + 2y - 4 = 0 2x + 4y - 12 = 0 | 132412 | -243624 | 0-20-9-18-4-12 | a1 ≠ b1 a2 b2 a1 = b1 = c1 a2 b2 c2 a1 = b1 ≠ c1 a2 b2 c2 | Intersecting lines Coincident lines Parallel lines | Exactly one solution (unique) Infinitely many solutions No solution |",
+          "captions": [
+            {
+              "bbox": [
+                0.448,
+                0.139,
+                0.551,
+                0.156
+              ],
+              "content": "Table 3.1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.467,
+            0.9,
+            0.487
+          ],
+          "content": "**From the table above, you can observe that if the lines represented by the equation**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.327,
+            0.496,
+            0.515,
+            0.517
+          ],
+          "content": "a_{1}x + b_{1}y + c_{1} = 0",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.526,
+            0.192,
+            0.543
+          ],
+          "content": "**and**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.327,
+            0.525,
+            0.513,
+            0.547
+          ],
+          "content": "a_{2}x + b_{2}y + c_{2} = 0",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.555,
+            0.492,
+            0.596
+          ],
+          "content": "**are (i) intersecting, then** $\\frac { a _ { 1 } } { a _ { 2 } }   \\neq   \\frac { b _ { 1 } } { b _ { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.601,
+            0.535,
+            0.643
+          ],
+          "content": "**(ii) coincident, then** $\\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}\\neq\\frac{c_{1}}{c_{2}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.197,
+            0.645,
+            0.503,
+            0.688
+          ],
+          "content": "**(iii) parallel, then** $\\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}\\neq\\frac{c_{1}}{c_{2}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.691,
+            0.9,
+            0.731
+          ],
+          "content": "**In fact, the converse is also true for any pair of lines. You can verify them by considering some more examples by yourself.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.734,
+            0.688,
+            0.754
+          ],
+          "content": "**Let us now consider some more examples to illustrate it.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.766,
+            0.69,
+            0.786
+          ],
+          "content": "**Example 1 : Check graphically whether the pair of equations**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.792,
+            0.898,
+            0.811
+          ],
+          "content": "x + 3y = 6\\tag{1}",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.817,
+            0.142,
+            0.834
+          ],
+          "content": "**and**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.392,
+            0.816,
+            0.524,
+            0.835
+          ],
+          "content": "2x - 3y = 12",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.868,
+            0.817,
+            0.897,
+            0.835
+          ],
+          "content": "**(2)**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.842,
+            0.504,
+            0.862
+          ],
+          "content": "**is consistent. If so, solve them graphically.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.867,
+            0.901,
+            0.907
+          ],
+          "content": "**Solution : Let us draw the graphs of the Equations (1) and (2). For this, we find two solutions of each of the equations, which are given in Table 3.2**"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

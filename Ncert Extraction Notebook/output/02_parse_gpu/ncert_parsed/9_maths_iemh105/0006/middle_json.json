@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.451,
+            0.068,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.068,
+            0.884,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "97"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.887,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The centre O of the circle that passes through the vertices A, B and C of ΔABC is called the "
+            },
+            {
+              "type": "text",
+              "content": "circumcentre",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of ΔABC (Fig. 5.5). The circle is called the "
+            },
+            {
+              "type": "text",
+              "content": "circumcircle",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and is said to circumscribe the triangle. Conversely, the triangle is said to be inscribed in the circle. Since, the intersection of the perpendicular bisectors of AB and BC is a single point, there is just one such circle for a given triangle. Further, for an acute-angled triangle, the circumcentre lies inside the triangle (see Fig. 5.5). For an obtuse-angled triangle, the circumcentre lies outside the triangle (Fig. 5.6). And for a right-angled triangle, the circumcentre lies at the midpoint of the hypotenuse (Fig. 5.7)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.313,
+            0.866,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.128,
+                0.313,
+                0.866,
+                0.569
+              ],
+              "image_path": "images/page_5_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.193,
+                0.574,
+                0.805,
+                0.593
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.6: Obtuse-angled triangle: Circumcentre O is outside the triangle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.612,
+            0.842,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.151,
+                0.612,
+                0.842,
+                0.86
+              ],
+              "image_path": "images/page_5_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.255,
+                0.87,
+                0.741,
+                0.905
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.7: Right-angled triangle: Circumcentre O is at the midpoint of the hypotenuse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

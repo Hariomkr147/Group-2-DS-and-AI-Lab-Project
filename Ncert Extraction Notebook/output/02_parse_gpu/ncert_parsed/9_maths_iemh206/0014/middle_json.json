@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.071,
+            0.159,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "136"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.11,
+            0.883,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the three-dimensional (3D) equivalent of a circle. Whereas a circle is the collection of all points "
+            },
+            {
+              "type": "text",
+              "content": "in a plane",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " that are at some given distance from some given point, a sphere is the collection of all points in 3D space that are at some given distance r (the radius of the sphere) from a given point O, the centre of the sphere. If we rotate the circle about any diameter, we obtain a hollow sphere."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.158,
+            0.24,
+            0.875,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.158,
+                0.24,
+                0.875,
+                0.441
+              ],
+              "image_path": "images/page_13_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.115,
+            0.45,
+            0.884,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Archimedes showed that the surface area A of a sphere with radius r is equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 \\pi r ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . He did this by showing that the surface area of a sphere is exactly equal to the curved surface area of a cylinder with radius r and height h = 2r that fits tightly over the sphere, Fig. 14.12."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.301,
+            0.536,
+            0.607,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.301,
+                0.536,
+                0.607,
+                0.718
+              ],
+              "image_path": "images/page_13_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.451,
+                0.721,
+                0.549,
+                0.74
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 14.12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.153,
+            0.754,
+            0.729,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The curved surface area of such a cylinder is equal to"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.378,
+            0.779,
+            0.62,
+            0.799
+          ],
+          "image_path": "images/page_13_equation_8.jpg",
+          "content": "2\\pi r h = 2\\pi r \\times 2r = 4\\pi r^{2},"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.154,
+            0.809,
+            0.633,
+            0.829
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the formula obtained by Archimedes."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

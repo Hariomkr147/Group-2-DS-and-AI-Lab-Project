@@ -1,0 +1,17 @@
+c. What will be the year 320 years after 680 BCE?
+
+6. Complete the following sequences: a. (– 40), (– 34), (– 28), (– 22), b. 3, 4, 2, 5, 1, 6, 0, 7, \_ c. , 12, 6, 1, (– 3), (– 6),
+
+7. Here are six integer cards: (+ 1), (+ 7), (+ 18), (– 5), (– 2), (– 9). You can pick any of these and make an expression using addition(s) and subtraction(s). Here is an expression: (+18)+(+1)–(+7) – (–2) which gives a value (+14). Now, pick cards and make an expression such that its value is closer to (–   30).
+
+8. The sum of two positive integers is always positive but a (positive integer) – (positive integer) can be positive or negative. What about a. (positive) – (negative) b. (positive) + (negative) c. (negative) + (negative) d. (negative) – (negative) e. (negative) – (positive) f. (negative) + (positive)
+
+9. This string has a total of 100 tokens arranged in a particular pattern. What is the value of the string?
+
+![](images/page_24_image_6.jpg)
+
+## 10.5 A Pinch of History
+
+Like general fractions, general integers (including zero and the negative numbers) were first conceived of and used in Asia, thousands of years ago, before they eventually spread across the world in more modern times.
+
+The first known instances of the use of negative numbers occurred in the context of accounting. In one of China’s most important mathematical works, The Nine Chapters on Mathematical Art (Jiuzhang Suanshu)—which was completed by the first or second century CE—positive and negative numbers were represented using red and black rods, much like the way we represented them using green and red tokens!

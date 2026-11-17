@@ -1,0 +1,162 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.35,
+            0.121
+          ],
+          "content": "SURFACE AREAS AND VOLUMES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "165"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.147,
+            0.517,
+            0.37
+          ],
+          "content": "**Example 3 :** A wooden toy rocket is in the shape of a cone mounted on a cylinder, as shown in Fig. 12.8. The height of the entire rocket is 26 cm, while the height of the conical part is 6 cm. The base of the conical portion has a diameter of 5 cm, while the base diameter of the cylindrical portion is 3 cm. If the conical portion is to be painted orange and the cylindrical portion yellow, find the area of the rocket painted with each of these colours. (Take   = 3.14)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.377,
+            0.516,
+            0.478
+          ],
+          "content": "**Solution :** Denote radius of cone by r, slant height of cone by l, height of cone by h, radius of cylinder by $r ^ { \\prime }$ and height of cylinder by h . Then r = 2.5 cm, h = 6 cm, r  = 1.5 cm, $h^{\\prime} = 26 - 6 = 20$ cm and"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.524,
+            0.146,
+            0.908,
+            0.46
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.272,
+            0.489,
+            0.681,
+            0.518
+          ],
+          "content": "l = \\sqrt{r^{2} + h^{2}} = \\sqrt{2.5^{2} + 6^{2}}  cm  = 6.5  cm",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.527,
+            0.902,
+            0.586
+          ],
+          "content": "Here, the conical portion has its circular base resting on the base of the cylinder, but the base of the cone is larger than the base of the cylinder. So, a part of the base of the cone (a ring) is to be painted."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.591,
+            0.885,
+            0.63
+          ],
+          "content": "So, the area to be painted orange CSA of the cone + base area of the cone base area of the cylinder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.458,
+            0.632,
+            0.837,
+            0.731
+          ],
+          "content": "\\begin{aligned} &=   \\pi r l   +   \\pi r^{2}   -   \\pi (r^{\\prime})^{2} \\\\&=   \\pi [ (2.5 \\times 6.5)   +   (2.5)^{2}   -   (1.5)^{2} ] \\;  cm ^{2} \\\\&=   \\pi [20.25] \\;  cm ^{2}   =   3.14 \\times 20.25 \\;  cm ^{2} \\\\&=   63.585 \\;  cm ^{2}\\\\ \\end{aligned}",
+          "image_source": "images/page_4_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.094,
+            0.737,
+            0.815,
+            0.905
+          ],
+          "content": "Now, the area to be painted yellow = CSA of the cylinder + area of one base of the cylinder = 2πr′h′ + π(r′)² = πr′ (2h′ + r′) = (3.14 × 1.5) (2 × 20 + 1.5) cm<sup>2</sup> = 4.71 × 41.5 cm<sup>2</sup> = 195.465 cm<sup>2</sup>"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-12 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-12 (14th Nov.)",
+      "description": "Chap-12 (14th Nov.)",
+      "created_at": "2022-08-17T11:59:52+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

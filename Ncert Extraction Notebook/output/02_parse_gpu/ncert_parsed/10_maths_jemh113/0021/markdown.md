@@ -1,0 +1,11 @@
+How many students have scored less than 20 marks? Observe that the number of students who have scored less than 20 include the number of students who have scored marks from 0 - 10 as well as the number of students who have scored marks from 10 - 20. So, the total number of students with marks less than 20 is 5 + 3, i.e., 8. We say that the cumulative frequency of the class 10 -20 is 8.
+
+Similarly, we can compute the cumulative frequencies of the other classes, i.e., the number of students with marks less than 30, less than 40, . . ., less than 100. We give them in Table 13.13 given below:
+
+Table 13.13
+
+<table><tbody><tr><td rowspan="2">Marks obtained</td><td rowspan="2">Number of students (Cumulative frequency)</td></tr><tr></tr><tr><td>Less than 10</td><td>5</td></tr><tr><td>Less than 20</td><td>5 + 3 = 8</td></tr><tr><td>Less than 30</td><td>8 + 4 = 12</td></tr><tr><td>Less than 40</td><td>12 + 3 = 15</td></tr><tr><td>Less than 50</td><td>15 + 3 = 18</td></tr><tr><td>Less than 60</td><td>18 + 4 = 22</td></tr><tr><td>Less than 70</td><td>22 + 7 = 29</td></tr><tr><td>Less than 80</td><td>29 + 9 = 38</td></tr><tr><td>Less than 90</td><td>38 + 7 = 45</td></tr><tr><td>Less than 100</td><td>45 + 8 = 53</td></tr></tbody></table>
+
+The distribution given above is called the cumulative frequency distribution of the less than type. Here 10, 20, 30, . . . 100, are the upper limits of the respective class intervals.
+
+We can similarly make the table for the number of students with scores, more than or equal to 0, more than or equal to 10, more than or equal to 20, and so on. From Table 13.12, we observe that all 53 students have scored marks more than or equal to 0. Since there are 5 students scoring marks in the interval 0 - 10, this means that there are $53 - 5 = 48$ students getting more than or equal to 10 marks. Continuing in the same manner, we get the number of students scoring 20 or above as 48 – 3 = 45, 30 or above as $4 5 - 4 = 4 1$ , and so on, as shown in Table 13.14.

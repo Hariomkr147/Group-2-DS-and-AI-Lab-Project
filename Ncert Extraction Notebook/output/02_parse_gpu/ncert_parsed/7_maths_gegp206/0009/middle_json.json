@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.087,
+            0.78,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we construct these congruent triangles, given the angle?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.113,
+            0.846,
+            0.171
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If A and B are marked such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { O A = O B } ,"
+            },
+            {
+              "type": "text",
+              "content": " , and if C is chosen such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{BC} = \\mathrm{AC}_{:}"
+            },
+            {
+              "type": "text",
+              "content": " , then by the SSS congruence condition, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { O B C } \\cong \\Delta \\mathrm { O A C } ."
+            },
+            {
+              "type": "text",
+              "content": " So we can bisect an angle as follows."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.182,
+            0.413,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Steps for Angle Bisection",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.276,
+            0.574,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Mark points A and B such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { O A } = \\mathrm { O B }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.633,
+            0.216,
+            0.821,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.633,
+                0.216,
+                0.821,
+                0.322
+              ],
+              "image_path": "images/page_8_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.371,
+            0.592,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Choosing any sufficiently long radius, cut arcs from A and B, keeping the radius same. Mark the point of intersection as C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.153,
+            0.435,
+            0.366,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. OC bisects "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  AOB."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.632,
+            0.368,
+            0.819,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.632,
+                0.368,
+                0.819,
+                0.477
+              ],
+              "image_path": "images/page_8_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.491,
+            0.846,
+            0.53
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle can be constructed by first constructing a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle and then bisecting it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.54,
+            0.315,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.573,
+            0.747,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Construct at least 4 different angles. Draw their bisectors."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.598,
+            0.66,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Construct the 8-petalled figure shown in Fig. 6.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.624,
+            0.561,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. In Step 2 of angle bisection, if arcs of equal radius are drawn on the other side, as shown in the figure, will the line OC still be an angle bisector? Explore this through construction, and then justify your answer."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.581,
+            0.624,
+            0.846,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.581,
+                0.624,
+                0.846,
+                0.749
+              ],
+              "image_path": "images/page_8_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.764,
+            0.801,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. What are the other angles that can be constructed using angle bisection? Can you construct "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 5 . 5 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.818,
+            0.744,
+            0.904,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.818,
+                0.744,
+                0.904,
+                0.793
+              ],
+              "image_path": "images/page_8_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.808,
+            0.802,
+            0.847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Come up with a method to construct the angle bisector using a rope."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.156,
+            0.934,
+            0.191,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "144"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

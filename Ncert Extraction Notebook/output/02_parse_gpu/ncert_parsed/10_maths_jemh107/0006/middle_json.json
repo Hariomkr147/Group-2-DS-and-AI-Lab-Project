@@ -1,0 +1,591 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "104"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.138,
+            0.559,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Using the distance formula, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.147,
+            0.167,
+            0.637,
+            0.193
+          ],
+          "image_path": "images/page_5_equation_3.jpg",
+          "content": "AB = \\sqrt{\\left(6-3\\right)^{2}+\\left(4-1\\right)^{2}}=\\sqrt{9+9}=\\sqrt{18}=3\\sqrt{2}."
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.147,
+            0.202,
+            0.635,
+            0.227
+          ],
+          "image_path": "images/page_5_equation_4.jpg",
+          "content": "\\mathrm{BC} = \\sqrt{\\left( 8 - 6 \\right)^{2} + \\left( 6 - 4 \\right)^{2}} = \\sqrt{4 + 4} = \\sqrt{8} = 2\\sqrt{2}"
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.148,
+            0.237,
+            0.664,
+            0.263
+          ],
+          "image_path": "images/page_5_equation_5.jpg",
+          "content": "AC  = \\sqrt{ \\left( 8 - 3 \\right)^{2} + \\left( 6 - 1 \\right)^{2} } = \\sqrt{ 25 + 25 } = \\sqrt{ 50 } = 5\\sqrt{ 2 }"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.275,
+            0.901,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB + BC = 3\\sqrt{2} + 2\\sqrt{2} = 5\\sqrt{2} = AC"
+            },
+            {
+              "type": "text",
+              "content": " ,  we can say that the points A, B and C are collinear. Therefore, they are seated in a line."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.096,
+            0.333,
+            0.901,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find a relation between x and y such that the point (x , y) is equidistant from the points (7, 1) and (3, 5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.378,
+            0.789,
+            0.397
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } ( x , y )"
+            },
+            {
+              "type": "text",
+              "content": " be equidistant from the points A(7, 1) and B(3, 5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.402,
+            0.515,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are given that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AP} = \\mathrm{BP}. \\mathrm{So}, \\mathrm{AP}^2 = \\mathrm{BP}^2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.098,
+            0.429,
+            0.139,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.292,
+            0.427,
+            0.675,
+            0.448
+          ],
+          "image_path": "images/page_5_equation_11.jpg",
+          "content": "(x - 7)^{2} + (y - 1)^{2} = (x - 3)^{2} + (y - 5)^{2}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.098,
+            0.454,
+            0.139,
+            0.472
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.205,
+            0.453,
+            0.758,
+            0.473
+          ],
+          "image_path": "images/page_5_equation_13.jpg",
+          "content": "x^{2}-14x+49+y^{2}-2y+1=x^{2}-6x+9+y^{2}-10y+25"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.098,
+            0.479,
+            0.14,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.414,
+            0.479,
+            0.514,
+            0.498
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "x - y = 2"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.097,
+            0.512,
+            0.385,
+            0.531
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is the required relation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.095,
+            0.544,
+            0.518,
+            0.681
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Note that the graph of the equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - y = 2"
+            },
+            {
+              "type": "text",
+              "content": " is a line. From your earlier studies, you know that a point which is equidistant from A and B lies on the perpendicular bisector of AB. Therefore, the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - y = 2"
+            },
+            {
+              "type": "text",
+              "content": " is the perpendicular bisector of AB (see Fig. 7.7)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.096,
+            0.687,
+            0.516,
+            0.746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find a point on the y-axis which is equidistant from the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } ( 6 ,   5 )"
+            },
+            {
+              "type": "text",
+              "content": " and B(– 4, 3)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.524,
+            0.509,
+            0.898,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.524,
+                0.509,
+                0.898,
+                0.792
+              ],
+              "image_path": "images/page_5_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.095,
+            0.751,
+            0.516,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We know that a point on the y-axis is of the form (0, y). So, let the point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } ( 0 , y )"
+            },
+            {
+              "type": "text",
+              "content": " be equidistant from A and B. Then"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.662,
+            0.784,
+            0.748,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 7.7"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.291,
+            0.813,
+            0.691,
+            0.833
+          ],
+          "image_path": "images/page_5_equation_22.jpg",
+          "content": "( 6 - 0 ) ^ { 2 } + ( 5 - y ) ^ { 2 } = ( - 4 - 0 ) ^ { 2 } + ( 3 - y ) ^ { 2 }"
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.098,
+            0.838,
+            0.139,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.288,
+            0.837,
+            0.654,
+            0.857
+          ],
+          "image_path": "images/page_5_equation_24.jpg",
+          "content": "36+25+y^{2}-10y=16+9+y^{2}-6y"
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.098,
+            0.862,
+            0.139,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 26,
+          "bbox": [
+            0.439,
+            0.861,
+            0.525,
+            0.88
+          ],
+          "image_path": "images/page_5_equation_26.jpg",
+          "content": "4 y = 3 6"
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.097,
+            0.886,
+            0.14,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 28,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 29,
+          "bbox": [
+            0.45,
+            0.885,
+            0.513,
+            0.904
+          ],
+          "image_path": "images/page_5_equation_29.jpg",
+          "content": "y = 9"
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

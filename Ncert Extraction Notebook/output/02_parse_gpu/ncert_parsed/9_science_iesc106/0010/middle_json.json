@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:47:36+05:30",
+      "modified_at": "2026-05-13T10:46:38+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.635,
+            0.042,
+            0.848,
+            0.058
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How Forces Affect Motion"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 103"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.121,
+            0.087,
+            0.775,
+            0.14
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Read the time when you released the cart and when it reached the end of the table by seeing the slow-motion video, and record the difference as time "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { \\uparrow }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.121,
+            0.142,
+            0.774,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. Now double the mass of the cup with the objects inside it, and repeat steps 5 and 6 to record the time difference "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.108,
+            0.18,
+            0.775,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the values of the time measured, let us do some analysis. For both cases, the cart starts with zero velocity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = 0"
+            },
+            {
+              "type": "text",
+              "content": " and travels the same distance s. If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { \\uparrow }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are the accelerations in the two cases respectively, using kinematic equation, we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.236,
+            0.249,
+            0.645,
+            0.282
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "s = \\frac{1}{2}   a_1   T_1^2 \\quad  and  \\quad s = \\frac{1}{2}   a_2   T_2^2"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.139,
+            0.283,
+            0.489,
+            0.302
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Equating the two equations, we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.417,
+            0.301,
+            0.496,
+            0.34
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "\\frac { a _ { 1 } } { a _ { 2 } } = \\frac { T _ { 2 } ^ {   2 } } { T _ { 1 } ^ {   2 } }"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.109,
+            0.346,
+            0.774,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting the values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "T _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " you find that when you increased the force for the same mass of the cart, the acceleration increased."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.108,
+            0.383,
+            0.774,
+            0.419
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You may conclude that the acceleration of an object of fixed mass increases as the net force applied on it increases."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.087,
+            0.424,
+            0.155,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.087,
+                0.424,
+                0.155,
+                0.475
+              ],
+              "image_path": "images/page_9_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.155,
+            0.434,
+            0.361,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think as a Scientist"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.14,
+            0.457,
+            0.879,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Apart from force, does acceleration depends on any other factor? From everyday experiences, you know that with the same magnitude of force, it is easier to set lighter objects in motion than heavier ones. This leads to a second hypothesis, that for the same force, a smaller mass has a larger acceleration (or a larger mass has a smaller acceleration). Now how can you test your second hypothesis?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.109,
+            0.558,
+            0.687,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 6.4: Let us experiment (Demonstration activity)"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.108,
+            0.579,
+            0.774,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This activity is recommended to be performed as a classroom group activity facilitated by the teacher."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.121,
+            0.617,
+            0.774,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Repeat Activity 6.3 with a variation. Keep the mass of the cup and objects inside it constant. Double the mass of the cart by adding more objects in it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.121,
+            0.652,
+            0.774,
+            0.686
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Measure the mass of the cart along with the objects inside it with a weighing scale."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.122,
+            0.687,
+            0.488,
+            0.704
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Carry out steps 5 and 6 of Activity 6.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.108,
+            0.705,
+            0.775,
+            0.79
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the values of time measured, find the ratio of acceleration for these two cases. Do you find that for the same force, when you increased the mass of the cart, the acceleration decreased? This means that for a given magnitude of a force, the acceleration produced is inversely related to the mass of the object."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.108,
+            0.79,
+            0.774,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The relation between force, mass and acceleration is expressed in the Newton’s second law, one of the most fundamental ideas in all of science. "
+            },
+            {
+              "type": "text",
+              "content": "Newton’s second law of motion",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " can be stated as:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.108,
+            0.842,
+            0.776,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When a net force acts on an object, the object accelerates in the direction of the net force. The magnitude of the acceleration is proportional to the magnitude of the net force and is inversely proportional to the mass of the object."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

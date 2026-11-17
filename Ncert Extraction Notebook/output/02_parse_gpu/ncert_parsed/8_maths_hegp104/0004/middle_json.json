@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.741,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.088,
+            0.384,
+            0.106
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 1 = \\angle 2 ( = 90^{\\circ} - \\angle 3 ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.106,
+            0.715,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, by the AAS condition for congruence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  AOB  \\cong \\Delta  COD"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.125,
+            0.848,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "OA = OC"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "OB = OD"
+            },
+            {
+              "type": "text",
+              "content": " , since they are corresponding parts of congruent triangles. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathsf { S o } , 0"
+            },
+            {
+              "type": "text",
+              "content": " is the midpoint of AC and BD."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.162,
+            0.847,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This shows that "
+            },
+            {
+              "type": "text",
+              "content": "the diagonals of a rectangle always intersect at their midpoints.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.198,
+            0.848,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, to get a rectangle, the diagonals must be drawn so that they are equal and intersect at their midpoints."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.235,
+            0.847,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the diagonals cross at their midpoints, we say that the diagonals bisect each other. "
+            },
+            {
+              "type": "text",
+              "content": "Bisecting",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " a quantity means "
+            },
+            {
+              "type": "text",
+              "content": "dividing it into two equal parts.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.272,
+            0.847,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Verify this property by constructing some rectangles and measuring their diagonals and the points of intersection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.111,
+            0.311,
+            0.801,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can the following equalities be used to establish that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta AOD \\cong \\Delta COB?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.337,
+            0.412,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "AO = CO"
+            },
+            {
+              "type": "text",
+              "content": " (proved above)"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.814,
+            0.301,
+            0.904,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.814,
+                0.301,
+                0.904,
+                0.355
+              ],
+              "image_path": "images/page_3_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.175,
+            0.356,
+            0.584,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\angle AOB = \\angle COD"
+            },
+            {
+              "type": "text",
+              "content": " (vertically opposite angles)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.177,
+            0.374,
+            0.26,
+            0.392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "AD = CB"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.403,
+            0.761,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Deduction 3— What are the angles between the diagonals?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.433,
+            0.668,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us check what quadrilateral we get if we draw the two diagonals such that their lengths are equal, they bisect each other and have an arbitrary angle, say 60°, between them as shown in the figure to the right."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.112,
+            0.509,
+            0.531,
+            0.533
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you find all the remaining angles?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.154,
+            0.58,
+            0.339,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.154,
+                0.58,
+                0.339,
+                0.795
+              ],
+              "image_path": "images/page_3_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.676,
+            0.434,
+            0.859,
+            0.646
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.676,
+                0.434,
+                0.859,
+                0.646
+              ],
+              "image_path": "images/page_3_image_18.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.343,
+            0.656,
+            0.847,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can find the remaining angles between the diagonals using our understanding of vertically opposite angles and linear pairs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.151,
+            0.821,
+            0.661,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A O B } _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { O A = O B } ,"
+            },
+            {
+              "type": "text",
+              "content": " the angles opposite them are equal, say a."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.112,
+            0.861,
+            0.428,
+            0.885
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you find the value of a?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 22,
+          "bbox": [
+            0.656,
+            0.725,
+            0.843,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 22,
+              "bbox": [
+                0.656,
+                0.725,
+                0.843,
+                0.932
+              ],
+              "image_path": "images/page_3_image_22.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.878,
+            0.915,
+            0.913,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "85"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

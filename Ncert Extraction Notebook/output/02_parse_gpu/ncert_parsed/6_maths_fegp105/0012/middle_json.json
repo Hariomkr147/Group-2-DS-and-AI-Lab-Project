@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 6"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.165,
+            0.122,
+            0.409,
+            0.141
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Prime factorisation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.163,
+            0.145,
+            0.885,
+            0.28
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take a number such as 56. It is composite, as we saw that it can be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "56 = 4 \\times 14.50"
+            },
+            {
+              "type": "text",
+              "content": " , both 4 and 14 are factors of 56. Now take one of these, say 14. It is also composite and can be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 4 = 2 \\times 7 ."
+            },
+            {
+              "type": "text",
+              "content": " Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 6 = 4 \\times 2 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " . Now, 4 is composite and can be written as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 = 2 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 6 = 2 \\times 2 \\times 2 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " . All the factors appearing here, 2 and 7, are prime numbers. So, we cannot divide them further."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.164,
+            0.282,
+            0.884,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In conclusion, we have written 56 as a product of prime numbers. This is called "
+            },
+            {
+              "type": "text",
+              "content": "prime factorisation",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of 56. The individual factors are called prime factors. For example, the prime factors of 56 are 2 and 7."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.164,
+            0.35,
+            0.884,
+            0.416
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Every number greater than 1 has a prime factorisation. The idea is the same: keep breaking the composite numbers into factors till only primes are left."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.164,
+            0.418,
+            0.884,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number 1 does not have any prime factorisation. It is not divisible by any prime number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.164,
+            0.463,
+            0.884,
+            0.507
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the prime factorisation of a prime number like 7? It is just 7 (we cannot break it down any further)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.194,
+            0.509,
+            0.541,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see a few more examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.163,
+            0.532,
+            0.885,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By going through different ways of breaking down the number, we wrote 63 as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times 3 \\times 7"
+            },
+            {
+              "type": "text",
+              "content": " and as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times 7 \\times 3"
+            },
+            {
+              "type": "text",
+              "content": " . Are they different? Not really! The same prime numbers 3 and 7 occur in both cases. Further,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.164,
+            0.6,
+            0.434,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 appears two times in both and 7 appears once."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.164,
+            0.647,
+            0.434,
+            0.78
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, you see four different ways get prime factorisation of 36. Observe that in all four cases, we get two 2s and two 3s."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.44,
+            0.601,
+            0.881,
+            0.771
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.44,
+                0.601,
+                0.881,
+                0.771
+              ],
+              "image_path": "images/page_11_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.194,
+            0.782,
+            0.434,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Multiply back to see"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.164,
+            0.805,
+            0.504,
+            0.826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "that you get 36 in all four cases."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.164,
+            0.828,
+            0.885,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For any number, it is a remarkable fact that there is only one prime factorisation, except that the prime factors may come in different"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.084,
+            0.941,
+            0.117,
+            0.959
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

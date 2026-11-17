@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:36:20+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.148,
+            0.048,
+            0.429,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.112,
+            0.086,
+            0.846,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 2 pumps can fill a tank in 18 hours. How much time will it take to fill the tank if we add 2 more pumps of the same kind?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.128,
+            0.847,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we add 2 more pumps, we will have 4 pumps. Let us denote the time taken to fill the tank with 4 pumps by x. If we increase the number of pumps by n, then the time taken to fill the tank will decrease by the same factor n, so the quantities are inversely proportional. Since the quantities are inversely proportional, the product remains constant. So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.431,
+            0.232,
+            0.566,
+            0.252
+          ],
+          "image_path": "images/page_11_equation_3.jpg",
+          "content": "2 \\times 18 = 4 \\times x."
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.433,
+            0.259,
+            0.564,
+            0.286
+          ],
+          "image_path": "images/page_11_equation_4.jpg",
+          "content": "x = \\frac{2 \\times 18}{4} = 9."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.299,
+            0.485,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It will take 9 hours to fill the tank."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.33,
+            0.847,
+            0.388
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Example 5: A school has food provisions to feed 80 students for 15 days. If 20 more students join the school, for how many days will the provisions last?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.391,
+            0.845,
+            0.43
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "More students → fewer days the provisions will last. The quantities are inversely proportional. If x is the number of days,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.414,
+            0.439,
+            0.583,
+            0.46
+          ],
+          "image_path": "images/page_11_equation_8.jpg",
+          "content": "80 \\times 15 = 100 \\times x."
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.418,
+            0.466,
+            0.578,
+            0.496
+          ],
+          "image_path": "images/page_11_equation_9.jpg",
+          "content": "x = \\frac{80 \\times 15}{100} = 12."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.507,
+            0.546,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The provisions will last for only 12 days."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.112,
+            0.537,
+            0.847,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? "
+            },
+            {
+              "type": "text",
+              "content": "Example 6:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If Ram takes 1 hour to cut a given quantity of vegetables and Shyam takes 1.5 hours to cut the same quantity of vegetables, how much time will they take to cut the vegetables if they do it together?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.599,
+            0.845,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the work done to cut the given quantity of vegetables as 1 unit of work. Let us figure out the work done by each person in 1 hour."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.636,
+            0.844,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ram finishes the work in 1 hour, so in 1 hour he does 1 unit of work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.657,
+            0.846,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Shyam finishes the work in 1.5 hours, so in 1 hour he does "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 1 } { 1 . 5 } }   =   { \\frac { 2 } { 3 } }"
+            },
+            {
+              "type": "text",
+              "content": " units of work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.705,
+            0.746,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the work done by both in 1 hour is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 + { \\frac { 2 } { 3 } } = { \\frac { 5 } { 3 } }"
+            },
+            {
+              "type": "text",
+              "content": " units of work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.738,
+            0.842,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, to complete "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 5 } { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " units of work, it takes them 1 hour if they work together. How much time will it take them to complete 1 unit of work? M"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.794,
+            0.799,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is the quantity of work and time taken to complete it directly or inversely proportional?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.176,
+            0.831,
+            0.721,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is directly proportional. So, this can be represented as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.315,
+            0.856,
+            0.681,
+            0.884
+          ],
+          "image_path": "images/page_11_equation_19.jpg",
+          "content": "$\\textstyle { \\frac { 5 } { 3 } } : 1 : : 1 : x { \\mathrm { ~ w h e r e ~ } } x$ is the time taken."
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.816,
+            0.764,
+            0.902,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Math Talk"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.085,
+            0.914,
+            0.122,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "66"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

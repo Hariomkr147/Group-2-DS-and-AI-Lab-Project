@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:16:32+05:30",
+      "modified_at": "2026-03-27T11:31:43+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "aside_text",
+          "index": 0,
+          "bbox": [
+            0.074,
+            0.662,
+            0.096,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Curiosity | Textbook of Science | Grade 6"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.083,
+            0.899,
+            0.112,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "36"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.262,
+            0.105,
+            0.877,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.344,
+                0.08,
+                0.795,
+                0.101
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 3.1: Food items consumed over a week"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.262,
+                0.105,
+                0.877,
+                0.448
+              ],
+              "image_path": "images/page_1_table_3.jpg",
+              "content": "<table><tr><td>Day</td><td>Food items</td></tr><tr><td>Monday</td><td></td></tr><tr><td>Tuesday</td><td></td></tr><tr><td>Wednesday</td><td></td></tr><tr><td>Thursday</td><td></td></tr><tr><td>Friday</td><td></td></tr><tr><td>Saturday</td><td></td></tr><tr><td>Sunday</td><td></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.253,
+            0.47,
+            0.885,
+            0.65
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What observations can you make about your food from the data collected in Table 3.1? Do you eat the same kind of food in every meal or do your choices vary? "
+            },
+            {
+              "type": "text",
+              "content": "Compare",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " your list with those prepared by your friends. Find similarities and differences in the food consumed by you and your friends. What did you find? Record your findings in your notebook. You may have noticed that there is a variety in the food eaten by you and your friends."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.254,
+            0.653,
+            0.883,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you think that such diversity in food exists in all states of our country?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.255,
+            0.705,
+            0.61,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.1.1 Food in different regions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.254,
+            0.746,
+            0.546,
+            0.769
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 3.2: Let us explore"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.256,
+            0.78,
+            0.885,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": " Find out the types of food traditionally consumed and the crops grown in various states of India. You may refer to books in your library, search the internet, and interact with your friends, family and neighbours to collect information."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

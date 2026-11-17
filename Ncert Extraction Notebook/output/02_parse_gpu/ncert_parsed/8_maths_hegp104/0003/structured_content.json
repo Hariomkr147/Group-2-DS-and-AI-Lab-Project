@@ -1,0 +1,313 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.087,
+            0.727,
+            0.108
+          ],
+          "level": 2,
+          "content": "Deduction 1— What is the length of the other diagonal?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.117,
+            0.656,
+            0.137
+          ],
+          "content": "This can be deduced using congruence as follows—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.167,
+            0.494,
+            0.187
+          ],
+          "content": "Since ABCD is a rectangle, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.152,
+            0.192,
+            0.236,
+            0.21
+          ],
+          "content": "\\mathrm{AB} = \\mathrm{CD}",
+          "image_source": "images/page_2_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.152,
+            0.211,
+            0.348,
+            0.229
+          ],
+          "content": "\\angle BAD = \\angle CDA = 90^{\\circ}",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.23,
+            0.468,
+            0.249
+          ],
+          "content": "AD is common to both triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.255,
+            0.557,
+            0.294
+          ],
+          "content": "So, $\\Delta  ADC \\cong \\Delta  DAB$ by the SAS congruence condition."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.56,
+            0.138,
+            0.897,
+            0.302
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.323,
+            0.849,
+            0.379
+          ],
+          "content": "Therefore, AC = BD, since they are corresponding parts of congruent triangles. This shows that the diagonals of a rectangle always have the same length."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.379,
+            0.847,
+            0.418
+          ],
+          "content": "So the other diagonal must also be 8 cm long. You can verify this property by constructing/measuring some rectangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.426,
+            0.847,
+            0.447
+          ],
+          "content": "**Deduction 2—What is the point of intersection of the two diagonals?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.456,
+            0.848,
+            0.514
+          ],
+          "content": "This can also be found using congruence. Since we need to know the relation between OA and OC, and OB and OD, which two triangles of the rectangle ABCD should we consider?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.137,
+            0.519,
+            0.48,
+            0.677
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.678,
+            0.47,
+            0.735
+          ],
+          "content": "The blue angles are equal since they are vertically opposite angles."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.138,
+            0.739,
+            0.481,
+            0.914
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.219,
+            0.913,
+            0.359,
+            0.932
+          ],
+          "content": "\\angle 3 + \\angle 1 = 90^{\\circ}.",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.523,
+            0.518,
+            0.86,
+            0.677
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.532,
+                0.678,
+                0.845,
+                0.735
+              ],
+              "content": "In order to show congruence, consider $\\angle 1$ and $\\angle 2 .$ . Are they equal?"
+            }
+          ],
+          "image_source": "images/page_2_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.523,
+            0.74,
+            0.86,
+            0.904
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.578,
+            0.895,
+            0.725,
+            0.913
+          ],
+          "content": "\\mathrm { I n }   \\Delta \\mathrm { B C D } , \\mathrm { s i n c e }",
+          "image_source": "images/page_2_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.579,
+            0.913,
+            0.767,
+            0.932
+          ],
+          "content": "\\angle 3 + \\angle 2 + 90 = 180,",
+          "image_source": "images/page_2_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.578,
+            0.932,
+            0.804,
+            0.95
+          ],
+          "content": "\\mathrm{We have} \\angle 3 + \\angle 2 = 90^{\\circ}.",
+          "image_source": "images/page_2_equation_22.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": "84"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,37 @@
+[{"stream_name":"stderr","time":10.291593753,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":10.291634146,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":11.620176178,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.620201646,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.620206844,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.620210993,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.355324946,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.355367259,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.355373099,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.355377547,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":31.672238115,"data":"Note: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stderr","time":61.489965171,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":61.489993044,"data":"\n"}
+,{"stream_name":"stderr","time":61.490004064,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":1027.659341048,"data":"{\n"}
+,{"stream_name":"stdout","time":1027.659406187,"data":"  \"passages\": 7221,\n"}
+,{"stream_name":"stdout","time":1027.659412878,"data":"  \"dimensions\": 1024,\n"}
+,{"stream_name":"stdout","time":1027.659417352,"data":"  \"model_id\": \"Qwen/Qwen3-Embedding-0.6B\",\n"}
+,{"stream_name":"stdout","time":1027.659421738,"data":"  \"model_revision\": \"97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3\",\n"}
+,{"stream_name":"stdout","time":1027.659426219,"data":"  \"pooling\": \"last token\",\n"}
+,{"stream_name":"stdout","time":1027.659430525,"data":"  \"normalization\": \"L2\",\n"}
+,{"stream_name":"stdout","time":1027.659434671,"data":"  \"document_prefix\": \"\",\n"}
+,{"stream_name":"stdout","time":1027.65943893,"data":"  \"query_prefix\": \"Instruct: Given a question, retrieve relevant passages that answer the question\\nQuery: \",\n"}
+,{"stream_name":"stdout","time":1027.65944346,"data":"  \"source_sha256\": \"48008ffb9e9faf4f298d60a3be50db847dc568f6c075b167ae05b5eccd511a45\",\n"}
+,{"stream_name":"stdout","time":1027.659447887,"data":"  \"status\": \"candidate\",\n"}
+,{"stream_name":"stdout","time":1027.659452008,"data":"  \"seconds\": 946.8706230739999,\n"}
+,{"stream_name":"stdout","time":1027.659456197,"data":"  \"vectors_sha256\": \"982909a484bcab25fed43b6cdac96f315ceca2f4ba9fc80fc53314b39bfc6e22\"\n"}
+,{"stream_name":"stdout","time":1027.6594627,"data":"}\n"}
+,{"stream_name":"stderr","time":1033.662379316,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1033.662424921,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1033.873406129,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1033.873429633,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1034.693696649,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1034.770816778,"data":"[NbConvertApp] Writing 54812 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1037.211270483,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1037.730985219,"data":"[NbConvertApp] Writing 331562 bytes to __results__.html\n"}
+]

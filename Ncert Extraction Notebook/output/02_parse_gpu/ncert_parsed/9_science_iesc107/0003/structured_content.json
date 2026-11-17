@@ -1,0 +1,347 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.795,
+            0.768,
+            0.847,
+            0.806
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.026,
+            0.087,
+            0.085,
+            0.15
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.085,
+            0.1,
+            0.214,
+            0.136
+          ],
+          "content": "**Ready to Go Beyond**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.059,
+            0.149,
+            0.196,
+            0.35
+          ],
+          "content": "Force and displacement have both magnitude and direction. Work, however, does not have a direction. It can be described using a number with a positive or a negative sign."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.086,
+            0.889,
+            0.139
+          ],
+          "content": "The **SI unit of work done** is **joule** which is represented by J. The SI unit of force is the newton (N) and the SI unit of displacement is the metre (m). Thus, using Eq. (7.2), 1 joule can be defined as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.466,
+            0.141,
+            0.601,
+            0.158
+          ],
+          "content": "1  J =1  N \\times1  m",
+          "image_source": "images/page_2_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.161,
+            0.889,
+            0.212
+          ],
+          "content": "That is, 1 joule of work is done on an object when a constant force of 1 newton is applied to it and it is displaced by 1 metre in the direction of the force. Since 1 N = 1 kg m s<sup>–2</sup>, note that N"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.299,
+            0.215,
+            0.595,
+            0.234
+          ],
+          "content": "1 \\mathrm { J } = 1 \\mathrm { k g m s ^ { - 2 } } \\times 1 \\mathrm { m } = 1 \\mathrm { k g m ^ { 2 } s ^ { - 2 } }",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.236,
+            0.639,
+            0.339
+          ],
+          "content": "In the graph shown in Fig. 7.4, the force on an object is plotted on the Y-axis against the displacement in the direction of force on the X-axis. In this case, the work done on the object by the force is equal to the area of the shaded rectangle in the graph which is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.341,
+            0.508,
+            0.359
+          ],
+          "content": "10\\mathrm{~N} \\times 1\\mathrm{~m}=10\\mathrm{~J}",
+          "image_source": "images/page_2_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.362,
+            0.639,
+            0.431
+          ],
+          "content": "Even when the force is not constant, work done can still be calculated by finding the area under the force-displacement graph between the initial and the final positions."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.644,
+            0.204,
+            0.887,
+            0.378
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.716,
+                0.379,
+                0.851,
+                0.393
+              ],
+              "content": "Displacement (m)"
+            },
+            {
+              "bbox": [
+                0.658,
+                0.394,
+                0.905,
+                0.411
+              ],
+              "content": "Fig. 7.4: Force-displacement graph"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_11.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.224,
+            0.439,
+            0.663,
+            0.459
+          ],
+          "level": 2,
+          "content": "7.1.1 When is work done equal to zero?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.076,
+            0.464,
+            0.199,
+            0.57
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.077,
+                0.574,
+                0.198,
+                0.603
+              ],
+              "content": "Fig. 7.5: Pushing a wall"
+            }
+          ],
+          "image_source": "images/page_2_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.462,
+            0.89,
+            0.564
+          ],
+          "content": "From the definition of work done (Eq. 7.2), you can see that if the force acting on an object is zero, i.e., F = 0, then no work is done on the object. The work done on an object is also zero if there is no displacement of the object, i.e., s = 0, regardless of the force being applied on it. For example, if you apply a force on an object, such as a rigid wall (Fig. 7.5), there is no displacement in the wall and you have done no work on the wall."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.564,
+            0.89,
+            0.633
+          ],
+          "content": "This may seem odd because you feel tired. To apply a force, the muscles in your body repeatedly expand and contract, and use up the internal energy of your body. Thus, you may feel tired even though, in a scientific sense, you have not done any work on the object."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.038,
+            0.629,
+            0.104,
+            0.695
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_19.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.65,
+            0.318,
+            0.668
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.679,
+            0.318,
+            0.708
+          ],
+          "content": "Force applied by the girl on the box"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.064,
+            0.676,
+            0.314,
+            0.805
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.318,
+            0.672,
+            0.852,
+            0.814
+          ],
+          "content": "If a force acts in a direction perpendicular to the displacement of an object, the work done by that force is zero (Fig. 7.6) because there is no displacement in the direction of the force. For example, when a girl carries a box while walking, she applies an upward force to balance its weight, while the box moves horizontally. Since, the force and displacement are perpendicular to each other, no work is done by this force on the box. In higher grades, Next you will learn how to calculate the work done when force Level Up and displacement are at an angle to each other."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.224,
+            0.84,
+            0.647,
+            0.86
+          ],
+          "level": 2,
+          "content": "7.1.2 Positive and negative work done"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.862,
+            0.89,
+            0.932
+          ],
+          "content": "The work done by a force on an object can either be positive or negative depending upon the relative directions of the force and the displacement. When the displacement is in the same direction as the applied force, the work done by the force on the object is said to be **positive**. For example,"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": "118"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

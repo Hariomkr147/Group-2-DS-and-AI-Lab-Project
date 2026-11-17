@@ -1,0 +1,25 @@
+## Think and Reflect
+
+What procedure would you use to square a given triangle? Here, the task is to construct a square whose area is equal to the area of some given triangle. Think carefully. How would you proceed?
+
+## Exercise Set 6.2
+
+1. Find the area of triangle ADE in Fig. 6.31.
+
+![](images/page_24_chart_6.jpg)
+
+Fig. 6.31
+
+2. The parallel sides of a trapezium are 40 cm and 20 cm. If its non-parallel sides are both equal, each being 26 cm, find the area of the trapezium.
+
+3. Find the area of a triangle, given that its sides are 8 cm and 11 cm long, and its perimeter is 32 cm.
+
+4. The sides of a triangular plot are in the ratio 3: 5: 7; its perimeter is 300 m. Find its area.
+
+5. One diagonal of a rhombus is twice as long as the other diagonal. If the rhombus has area 128 cm<sup>2</sup>, find the length of the shorter diagonal.
+
+6. ABCD is a parallelogram. P and Q are any two points on side AB. What can you say about the ratio area (∆PCD): area (∆QCD)?
+
+7. O is any point on the diagonal PR of a parallelogram PQRS. Prove that the areas of triangles PSO and PQO are equal.
+
+8. If the mid-points of the sides of a 4-gon (also known as a quadrilateral, but we prefer to call it a ‘4-gon’) are joined in order, prove that the area of the parallelogram thus formed will be half of the area of the given 4-gon. (You may wonder whether

@@ -1,0 +1,29 @@
+In some species, when the young ones are born, they are ready to find their own food, whereas in others an extended period of post-hatching or post-birth feeding and care is necessary. This broadly depends on how long the embryo develops inside an egg or inside the mother’s body. Mammals typically feed their young ones via breast milk for some duration after birth.
+
+## 11.5 Reproduction in Human Beings
+
+## 11.5.1 Reproductive maturity
+
+You have learnt about the physical and emotional changes that take place as a child grows into an adult, when reproductive organs mature and begin producing gametes (sperm in male and egg in female).
+
+4 **Grade 7** Curiosity **Chapter 6**
+
+The human reproductive system consists of special organs (Fig. 11.18 and Fig. 11.19). When a sperm meets an egg inside the female body, they form a zygote that develops into an embryo and eventually into a foetus in the uterus. In this section, we will study how gametes form and meet, and how new life develops in human beings.
+
+## 11.5.2 What are the parts of the male reproductive system?
+
+The male reproductive system (Fig. 11.18) Grade 7 has organs that produce male germ cells Curiosity Chapter 6 called sperm and help them transfer to the female body. Sperm are produced in two oval-shaped organs called testes (testis singular), present in a pouch of skin called the scrotum. The scrotum keeps the testes slightly cooler than normal body temperature, which is necessary for sperm formation. The testes also produce a hormone (chemicals that regulate different functions), which controls sperm production and causes the physical changes seen in boys during puberty.
+
+From the testes, sperm travel through a long tube called the vas deferens, which ultimately opens into the urethra, a common passage for the urine and the sperm. Glands like the seminal vesicles and the prostate add fluids to nourish the sperm, and help them remain active and move. Each sperm has a head containing genetic material and a long tail that helps it swim towards the egg.
+
+## 11.5.3 What are the parts of the female reproductive system?
+
+Look at the Fig. 11.19 and identify various parts of the female reproductive system. The female reproductive system has a pair of ovaries, oviducts (fallopian tubes), a uterus, and a vagina. The ovaries produce the female germ cells (eggs) and also release hormones.
+
+![](images/page_11_image_13.jpg)
+
+Fig. 11.18: Male reproductive system
+
+![](images/page_11_image_15.jpg)
+
+Fig. 11.19: Female reproductive system

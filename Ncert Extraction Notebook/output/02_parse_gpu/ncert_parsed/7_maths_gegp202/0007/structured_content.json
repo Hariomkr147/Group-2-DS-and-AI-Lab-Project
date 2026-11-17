@@ -1,0 +1,382 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.081,
+            0.148,
+            0.106
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.084,
+            0.766,
+            0.104
+          ],
+          "content": "Why are we trying to remove green tokens and not red tokens?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.061,
+            0.904,
+            0.114
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.11,
+            0.847,
+            0.186
+          ],
+          "content": "But there are no tokens in the bag, because we start with an empty bag. Just as in the case of subtraction, to remove 2 positives from an empty bag, we need to first place 2 zero pairs inside and then remove the 2 positives. We need to do this 4 times."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.218,
+            0.194,
+            0.353,
+            0.324
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.371,
+            0.194,
+            0.492,
+            0.298
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.511,
+            0.194,
+            0.632,
+            0.298
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.652,
+            0.194,
+            0.779,
+            0.324
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.307,
+                0.339,
+                0.694,
+                0.355
+              ],
+              "content": "Remove 2 green tokens from the zero pairs, 4 times"
+            },
+            {
+              "bbox": [
+                0.45,
+                0.358,
+                0.551,
+                0.373
+              ],
+              "content": "(–  4) × 2 = –  8"
+            }
+          ],
+          "image_source": "images/page_6_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.387,
+            0.845,
+            0.425
+          ],
+          "content": "After removing the positives, 8 negatives are left in the bag. This is – 8. This shows that (– 4) × 2 = – 8."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.432,
+            0.148,
+            0.458
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.434,
+            0.846,
+            0.475
+          ],
+          "content": "？ What happens when both the integers in the multiplication are negative? How do we model (–4) × (–2) with tokens?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.48,
+            0.847,
+            0.537
+          ],
+          "content": "For (– 4) × (– 2), we need to remove 2 negatives from the bag 4 times. Since there are no red tokens in the bag, we need to place 2 zero pairs and remove 2 negatives, and we need to do this 4 times."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.22,
+            0.545,
+            0.372,
+            0.676
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.371,
+            0.542,
+            0.497,
+            0.667
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.505,
+            0.541,
+            0.63,
+            0.65
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.646,
+            0.546,
+            0.776,
+            0.671
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.314,
+                0.691,
+                0.684,
+                0.706
+              ],
+              "content": "Remove 2 red tokens from the zero pairs, 4 times"
+            }
+          ],
+          "image_source": "images/page_6_image_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.445,
+            0.71,
+            0.556,
+            0.725
+          ],
+          "content": "(-4) \\times (-2) = 8",
+          "image_source": "images/page_6_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.73,
+            0.543,
+            0.75
+          ],
+          "content": "8 positives are left in the bag. This is + 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.752,
+            0.187,
+            0.768
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.418,
+            0.77,
+            0.548,
+            0.786
+          ],
+          "content": "-4 \\times -2 = +8.",
+          "image_source": "images/page_6_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.794,
+            0.78,
+            0.813
+          ],
+          "content": "So far, we have established the following results by using tokens:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.418,
+            0.816,
+            0.508,
+            0.833
+          ],
+          "content": "4 \\times 2 = 8 ,",
+          "image_source": "images/page_6_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.417,
+            0.839,
+            0.549,
+            0.856
+          ],
+          "content": "4 \\times ( - 2 ) = - 8",
+          "image_source": "images/page_6_equation_26.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.418,
+            0.862,
+            0.591,
+            0.879
+          ],
+          "content": "(-4) \\times 2 = -8,  and",
+          "image_source": "images/page_6_equation_27.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.419,
+            0.885,
+            0.563,
+            0.902
+          ],
+          "content": "(-4) \\times (-2) = 8.",
+          "image_source": "images/page_6_equation_28.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.949
+          ],
+          "content": "30"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

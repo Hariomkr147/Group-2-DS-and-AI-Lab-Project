@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.64,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Constructions and Tilings"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.492,
+            0.113
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Angle Bisection for a Design",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.212,
+            0.484,
+            0.237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we construct this figure?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.563,
+            0.12,
+            0.784,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.563,
+                0.12,
+                0.784,
+                0.285
+              ],
+              "image_path": "images/page_7_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.649,
+                0.289,
+                0.709,
+                0.305
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.158,
+            0.398,
+            0.496,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The supporting lines for this figure will look like this."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.557,
+            0.325,
+            0.785,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.557,
+                0.325,
+                0.785,
+                0.495
+              ],
+              "image_path": "images/page_7_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.517,
+            0.606,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the angle between two adjacent lines?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.542,
+            0.846,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We need the angle between every pair of adjacent lines to be equal. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 6 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " is equally divided into 8 parts, every angle is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.591,
+            0.846,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? How do we construct a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle using only a ruler and a compass? We know how to construct a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle. If we can divide it into two equal parts, or bisect it, then we get a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 5 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " angle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.705,
+            0.629,
+            0.745
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will now develop a general method to bisect any angle. Consider an angle ∠XOY."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.651,
+            0.661,
+            0.836,
+            0.771
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.651,
+                0.661,
+                0.836,
+                0.771
+              ],
+              "image_path": "images/page_7_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.813,
+            0.63,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can bisect it if we can draw two congruent triangles ΔOBC and ΔOAC as shown in the figure. Then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle BOC = \\angle AOC"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.649,
+            0.789,
+            0.837,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.649,
+                0.789,
+                0.837,
+                0.895
+              ],
+              "image_path": "images/page_7_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.809,
+            0.934,
+            0.844,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "143"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

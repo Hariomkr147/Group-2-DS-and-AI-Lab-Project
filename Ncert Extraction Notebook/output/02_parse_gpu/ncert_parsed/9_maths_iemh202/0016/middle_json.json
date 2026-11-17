@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.407,
+            0.072,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How Quantities Combine: Understanding Data"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "23"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 3,
+          "bbox": [
+            0.122,
+            0.125,
+            0.874,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "chart_caption",
+              "index": 2,
+              "bbox": [
+                0.15,
+                0.109,
+                0.571,
+                0.125
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Relative expenditure of families across categories"
+                }
+              ]
+            },
+            {
+              "type": "chart_body",
+              "index": 3,
+              "bbox": [
+                0.122,
+                0.125,
+                0.874,
+                0.274
+              ],
+              "image_path": "images/page_15_chart_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "chart_caption",
+              "index": 4,
+              "bbox": [
+                0.227,
+                0.285,
+                0.771,
+                0.305
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.4: A 100% stacked bar chart of data in Table 10.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.32,
+            0.883,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, the total expenditure of each of the three families is shown by a stacked bar of a fixed length. The lengths of the smaller bars in each stacked bar are proportional to the corresponding expenditures of that family. Such a chart is called a "
+            },
+            {
+              "type": "text",
+              "content": "100% stacked bar chart",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". It is similar to a pie chart — the complete angle in a pie chart is split proportionately based on the quantities, whereas here, a fixed length is split proportionately."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.115,
+            0.454,
+            0.883,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In pie charts, comparing angles in different orientations may be difficult. It may be easier to compare lengths across stacked bars. However, even in 100% stacked bar charts, if the lengths of a particular bar are similar across the stacked bars but the location is different, comparison may be difficult, as in the chart above."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.117,
+            0.568,
+            0.293,
+            0.591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Powering Up!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.116,
+            0.599,
+            0.881,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The average category-wise daily electricity consumption of a house, in kWh, in 2005 and 2025 is shown in the table below. The corresponding stacked bar chart is also shown."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 9,
+          "bbox": [
+            0.12,
+            0.67,
+            0.877,
+            0.799
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 9,
+              "bbox": [
+                0.12,
+                0.67,
+                0.877,
+                0.799
+              ],
+              "image_path": "images/page_15_table_9.jpg",
+              "content": "<table><tbody><tr><td></td><td>Lighting</td><td>Cooling</td><td>Kitchen appliances</td><td>Other appliances</td></tr><tr><td>2005</td><td>360</td><td>300</td><td>120</td><td>220</td></tr><tr><td>2025</td><td>220</td><td>800</td><td>460</td><td>520</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.815,
+            0.873,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 10,
+              "bbox": [
+                0.125,
+                0.815,
+                0.873,
+                0.92
+              ],
+              "image_path": "images/page_15_chart_10.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

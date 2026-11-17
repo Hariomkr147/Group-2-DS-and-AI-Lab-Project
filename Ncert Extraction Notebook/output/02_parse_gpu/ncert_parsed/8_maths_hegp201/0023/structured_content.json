@@ -1,0 +1,367 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.689,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": "Fractions in Disguise"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.848,
+            0.148
+          ],
+          "content": "2. Bank of Wahapur offers an interest of 5% p.a. Compare how much one gets if one deposits ₹20,000 for a period of 4 years with compounding and without compounding annually."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.156,
+            0.846,
+            0.194
+          ],
+          "content": "3. Do you observe anything interesting in the solutions of the two questions above? Share and discuss."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.198,
+            0.801,
+            0.22
+          ],
+          "content": "Let us try to generalise the pattern observed in each of the options."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.227,
+            0.845,
+            0.268
+          ],
+          "content": "？ **Example 9:** What is the amount we get back if we invest ₹6000 at an interest rate of 10% p.a. for ‘t’ years?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.276,
+            0.342,
+            0.297
+          ],
+          "level": 2,
+          "content": "No Compounding"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.3,
+            0.848,
+            0.357
+          ],
+          "content": "Here, the interest gained every term is paid back. Therefore, the principal amount for every term shall remain the same, and as a result, the interest gained every term also shall be the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.37,
+            0.485,
+            0.405
+          ],
+          "content": "The interest gained in 1 term is 6000 × 0.1 The interest gained in 3 terms is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.239,
+            0.404,
+            0.364,
+            0.421
+          ],
+          "content": "6 0 0 0 \\times 0 . 1 \\times 3",
+          "image_source": "images/page_22_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.421,
+            0.484,
+            0.454
+          ],
+          "content": "The total amount at the end of an FD of 3 years is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.199,
+            0.454,
+            0.401,
+            0.473
+          ],
+          "content": "6 0 0 0 \\div ( 6 0 0 0 \\times 0 . 1 \\times 3 ) .",
+          "image_source": "images/page_22_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.494,
+            0.37,
+            0.883,
+            0.422
+          ],
+          "content": "The interest gained in 1 term is p × r (p is the principal, r is the rate of interest in percentage)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.544,
+            0.421,
+            0.832,
+            0.44
+          ],
+          "content": "The interest gained in t terms is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.65,
+            0.439,
+            0.729,
+            0.455
+          ],
+          "content": "p \\times r \\times t",
+          "image_source": "images/page_22_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.506,
+            0.454,
+            0.871,
+            0.487
+          ],
+          "content": "The total amount at the end of an FD of t years is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.587,
+            0.488,
+            0.787,
+            0.524
+          ],
+          "content": "p + (p \\times r \\times t) = p + rrt",
+          "image_source": "images/page_22_equation_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.555,
+            0.364,
+            0.575
+          ],
+          "level": 2,
+          "content": "With Compounding"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.578,
+            0.847,
+            0.637
+          ],
+          "content": "Here, the interest gained every term/year is added back to the FD. Therefore, the principal amount increases after every term, and as a result, the interest gained every term also increases proportionately."
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.118,
+            0.65,
+            0.494,
+            0.873
+          ],
+          "sub_type": "algorithm",
+          "content": "The total amount in the FD after Year 1 is\n$\\widehat{(6000) \\times 1.1}$\n(principal for Year 1)\nThe total amount in the FD after Year 2 is\n$\\hat{(6000 \\times 1.1) \\times 1.1}$\n(principal for Year 2)\nThe total amount in the FD after Year 3 is\n$\\angle (6000 \\times 1.1 \\times 1.1) \\times 1.1$\n(principal for Year 3)\nThe total amount in the FD after t years is\n6000 × (1.1 × 1.1 × 1.1…..× 1.1)\nt times\n6000 × (1.1)t.",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.507,
+            0.65,
+            0.877,
+            0.67
+          ],
+          "content": "The total amount in the FD after Year 1 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.558,
+            0.668,
+            0.743,
+            0.686
+          ],
+          "content": "\\frac{(p) \\times (1 + r)}{}",
+          "image_source": "images/page_22_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.505,
+            0.685,
+            0.695,
+            0.703
+          ],
+          "content": "(principal for Year 1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.506,
+            0.701,
+            0.876,
+            0.719
+          ],
+          "content": "The total amount in the FD after Year 2 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.549,
+            0.719,
+            0.772,
+            0.736
+          ],
+          "content": "p \\times (1 + r) \\times (1 + r)",
+          "image_source": "images/page_22_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.505,
+            0.735,
+            0.695,
+            0.753
+          ],
+          "content": "(principal for Year 2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.506,
+            0.752,
+            0.877,
+            0.77
+          ],
+          "content": "The total amount in the FD after Year 3 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.546,
+            0.77,
+            0.807,
+            0.787
+          ],
+          "content": "\\curvearrowleft p \\times ( 1 + r ) \\times ( 1 + r ) \\times ( 1 + r )",
+          "image_source": "images/page_22_equation_26.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.505,
+            0.786,
+            0.695,
+            0.804
+          ],
+          "content": "(principal for Year 3)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.505,
+            0.803,
+            0.88,
+            0.821
+          ],
+          "content": "The total amount in the FD after t years is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.552,
+            0.82,
+            0.829,
+            0.872
+          ],
+          "content": "\\begin{array}{c}\\mathrm{p} \\times(1+r) \\times(1+r) \\times \\cdots \\times(1+r) \\\\t \\operatorname{timeses} \\\\\\mathrm{p} \\times(1+\\mathrm{r})^{\\mathrm{t}} .\\end{array}",
+          "image_source": "images/page_22_equation_29.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.876,
+            0.914,
+            0.91,
+            0.934
+          ],
+          "content": "23"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

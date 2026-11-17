@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.194,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TRIANGLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.104,
+            0.897,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "81"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.139,
+            0.508,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, from (1), (2) and (3), we have :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.32,
+            0.171,
+            0.44,
+            0.212
+          ],
+          "image_path": "images/page_8_equation_3.jpg",
+          "content": "{ \\frac { \\mathrm { A D } } { \\mathrm { D B } } } = { \\frac { \\mathrm { A E } } { \\mathrm { E C } } }"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.222,
+            0.9,
+            0.261
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is the converse of this theorem also true (For the meaning of converse, see Appendix 1)? To examine this, let us perform the following activity:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.273,
+            0.547,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 3 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw an angle XAY on your notebook and on ray AX, mark points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } _ { 1 } ,   \\mathbf { B } _ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } _ { 3 } ,   \\mathbf { B } _ { 4 }"
+            },
+            {
+              "type": "text",
+              "content": " and B such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB}_{1}=\\mathrm{B}_{1} \\mathrm{B}_{2}=\\mathrm{B}_{2} \\mathrm{B}_{3}="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { \\widetilde { B _ { 3 } } } \\mathbf { \\widetilde { B _ { 4 } } } = \\mathbf { B _ { 4 } } \\mathbf { B }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.358,
+            0.547,
+            0.444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, on ray AY, mark points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{1}, C_{2}, C_{3}, C_{4}"
+            },
+            {
+              "type": "text",
+              "content": " and C such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AC}_{1} = \\mathrm{C}_{1}\\mathrm{C}_{2}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "C_{2}C_{3}=C_{3}C_{4}=C_{4}C"
+            },
+            {
+              "type": "text",
+              "content": " . Then join "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B _ { 1 } C _ { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " and BC (see Fig. 6.11)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.574,
+            0.27,
+            0.895,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.574,
+                0.27,
+                0.895,
+                0.458
+              ],
+              "image_path": "images/page_8_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.474,
+            0.247,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.313,
+            0.457,
+            0.652,
+            0.502
+          ],
+          "image_path": "images/page_8_equation_9.jpg",
+          "content": "\\frac{\\mathrm{AB}_{1}}{\\mathrm{B}_{1}\\mathrm{B}}=\\frac{\\mathrm{AC}_{1}}{\\mathrm{C}_{1}\\mathrm{C}}\\left(\\text { Each equal } \\cup \\frac{1}{4}\\right)"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.148,
+            0.512,
+            0.826,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can also see that lines "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{B_{1}C_{1}}"
+            },
+            {
+              "type": "text",
+              "content": " and BC are parallel to each other, i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.413,
+            0.537,
+            0.896,
+            0.559
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "B _{1} C _{1}\\parallel  BC\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.563,
+            0.665,
+            0.584
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, by joining "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{B}_{2} \\mathrm{C}_{2}, \\mathrm{B}_{3} \\mathrm{C}_{3}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B _ { 4 } C _ { 4 } } ;"
+            },
+            {
+              "type": "text",
+              "content": " you can see that:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.299,
+            0.595,
+            0.896,
+            0.642
+          ],
+          "image_path": "images/page_8_equation_13.jpg",
+          "content": "\\frac{\\mathrm{AB}_{2}}{\\mathrm{B}_{2}\\mathrm{B}}=\\frac{\\mathrm{AC}_{2}}{\\mathrm{C}_{2}\\mathrm{C}}\\left(=\\frac{2}{3}\\right)\\text { and }\\mathrm{B}_{2}\\mathrm{C}_{2}\\parallel\\mathrm{BC}\\tag{2}"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.301,
+            0.656,
+            0.896,
+            0.701
+          ],
+          "image_path": "images/page_8_equation_14.jpg",
+          "content": "\\frac{\\mathrm{AB}_{3}}{\\mathrm{B}_{3}\\mathrm{B}}=\\frac{\\mathrm{AC}_{3}}{\\mathrm{C}_{3}\\mathrm{C}}\\left(=\\frac{3}{2}\\right)\\text { and }\\mathrm{B}_{3}\\mathrm{C}_{3}\\parallel\\mathrm{BC}\\tag{3}"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.3,
+            0.715,
+            0.896,
+            0.761
+          ],
+          "image_path": "images/page_8_equation_15.jpg",
+          "content": "\\frac{\\mathrm{AB}_{4}}{\\mathrm{B}_{4}\\mathrm{B}}=\\frac{\\mathrm{AC}_{4}}{\\mathrm{C}_{4}\\mathrm{C}}\\left(=\\frac{4}{1}\\right)\\text { and }\\mathrm{B}_{4}\\mathrm{C}_{4}\\parallel\\mathrm{BC}\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.096,
+            0.773,
+            0.901,
+            0.813
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From (1), (2), (3) and (4), it can be observed that if a line divides two sides of a triangle in the same ratio, then the line is parallel to the third side."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.095,
+            0.819,
+            0.903,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can repeat this activity by drawing any angle XAY of different measure and taking any number of equal parts on arms AX and AY . Each time, you will arrive at the same result. Thus, we obtain the following theorem, which is the converse of Theorem 6.1:"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

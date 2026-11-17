@@ -1,0 +1,290 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.091,
+            0.795,
+            0.116
+          ],
+          "level": 2,
+          "content": "2.5 Right–Triangles Having Integer Sidelengths"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.124,
+            0.846,
+            0.199
+          ],
+          "content": "In his Śulba-Sūtra (Verse 1.13) Baudhāyana lists a number of integer triples $( a , b , c )$ that form the sidelengths of a right-triangle and therefore satisfy $a ^ { 2 } + b ^ { 2 } = c ^ { 2 }$ . These include (3, 4, 5), (5, 12, 13) (8, 15, 17), (7, 24, 25), (12, 35, 37), and (15, 36, 39)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.198,
+            0.847,
+            0.274
+          ],
+          "content": "For this reason, such triples $( a ,   b ,   c )$ that form the sidelengths of a right triangle (equivalently, satisfy $a ^ { 2 }   +   b ^ { 2 }   =   c ^ { 2 } )$ **a**re called Baudhāyana **triples.** They are also called **Baudhāyana-Pythagoras triples, Pythagorean triples,** and **right-angled triangle triples.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.282,
+            0.801,
+            0.323
+          ],
+          "content": "？ List down all the Baudhāyana triples with numbers less than or equal to 20."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.267,
+            0.904,
+            0.319
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_5.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.337,
+            0.683,
+            0.359
+          ],
+          "level": 2,
+          "content": "？ Is there an unending sequence of Baudhāyana triples?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.362,
+            0.847,
+            0.416
+          ],
+          "content": "Mathematicians have answered this question and have found a method to generate all such triples! Let us take a few steps in this direction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.416,
+            0.659,
+            0.437
+          ],
+          "content": "We have seen that (3, 4, 5) is a Baudhāyana triple."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.445,
+            0.497,
+            0.469
+          ],
+          "content": "Is (30, 40, 50) a Baudhāyana triple?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.478,
+            0.533,
+            0.498
+          ],
+          "content": "Is (300, 400, 500) a Baudhāyana triple?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.501,
+            0.845,
+            0.54
+          ],
+          "content": "The list of Baudhāyana triples having numbers less than or equal to 20 contains the following triples"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.543,
+            0.691,
+            0.565
+          ],
+          "content": "(3, 4, 5), (6, 8, 10), (9, 12, 15), (12, 16, 20)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.578,
+            0.518,
+            0.602
+          ],
+          "content": "Do you see any pattern among them?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.604,
+            0.846,
+            0.643
+          ],
+          "content": "All these triples can be obtained by multiplying each term of (3, 4, 5) by a certain positive integer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.652,
+            0.845,
+            0.692
+          ],
+          "content": "? Can we form a conjecture on Baudhāyana triples based on this observation?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.702,
+            0.845,
+            0.742
+          ],
+          "content": "**Conjecture:** (3k, 4k, 5k) is a Baudhāyana triple, where k is any positive integer."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.754,
+            0.275,
+            0.778
+          ],
+          "level": 2,
+          "content": "Is this true?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.78,
+            0.528,
+            0.8
+          ],
+          "content": "We have to check if $( 3 k ) ^ { 2 } + ( 4 k ) ^ { 2 } = ( 5 k ) ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.804,
+            0.752,
+            0.824
+          ],
+          "content": "We have $( 3 k ) ^ { 2 } + ( 4 k ) ^ { 2 } = 9 k ^ { 2 } + 1 6 k ^ { 2 } = 2 5 k ^ { 2 } ,$ , which is equal to (5k)<sup>2</sup>."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.828,
+            0.593,
+            0.849
+          ],
+          "content": "So, (3k, 4k, 5k) is indeed a Baudhāyana triple."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.851,
+            0.753,
+            0.873
+          ],
+          "content": "This shows that there are infinitely many Baudhāyana triples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.876,
+            0.564,
+            0.897
+          ],
+          "content": "Can we further generalise the conjecture?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.093,
+            0.922,
+            0.129,
+            0.942
+          ],
+          "content": "48"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

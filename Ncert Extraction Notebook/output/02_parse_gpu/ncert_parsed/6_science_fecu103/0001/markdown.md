@@ -1,0 +1,25 @@
+## Chapter 3 Mindful Eating: A Pathto a Healthy Body
+
+## 66 कोऽरुक्? कोऽरुक्? कोऽरुक्? हितभुक् मितभुक् ऋतुभुक्
+
+**(सभाु षित)**
+
+Who is healthy? Who is healthy? Who is healthy? One who eats food that is wholesome, in moderate quantities, and appropriate for the season, time, and place.
+
+![](images/page_0_image_4.jpg)
+
+0677CH03
+
+(Wise saying)
+
+![](images/page_0_image_7.jpg)
+
+Medu and Mishti read ‘thought of the day’ on the school noticeboard every day. Today’s thought, ‘annena jātāni jivanti’, makes them curious. Mishti tells Medu that it is a Sanskrit saying which means ‘food gives life to living beings.’
+
+Let us try to understand the significance of this saying.
+
+## 3.1 What Do We Eat?
+
+## Activity 3.1: Let us record
+
+All of us eat food every day. Food is an essential component of our daily life. List the food items you have consumed over the week in Table 3.1.

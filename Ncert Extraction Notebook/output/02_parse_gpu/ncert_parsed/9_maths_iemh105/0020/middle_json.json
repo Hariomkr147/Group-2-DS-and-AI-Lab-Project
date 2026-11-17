@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.452,
+            0.069,
+            0.816,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "111"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.108,
+            0.725,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let A and B be two points on a circle with centre O."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.18,
+            0.135,
+            0.883,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Are there points X, Y on the circle, on the same side of AB,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.225,
+            0.157,
+            0.661,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "such that ∠AXB is different from ∠AYB?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.173,
+            0.182,
+            0.661,
+            0.223
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Is it true that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AXB = \\angle AHB"
+            },
+            {
+              "type": "text",
+              "content": " , then X and Y lie on the same side of the circle?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.167,
+            0.229,
+            0.661,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle AXB = \\angle AHB"
+            },
+            {
+              "type": "text",
+              "content": " , and X and Y do not lie on the circle, does the circle through A, B and X also pass through Y?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.671,
+            0.159,
+            0.884,
+            0.317
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.671,
+                0.159,
+                0.884,
+                0.317
+              ],
+              "image_path": "images/page_19_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.131,
+            0.301,
+            0.37,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Find x in Fig. 5.26."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.745,
+            0.322,
+            0.822,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 5.26"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.114,
+            0.338,
+            0.492,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.8 Concyclicity of Points"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.113,
+            0.367,
+            0.885,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we address the question about when 4 points lie on the same circle. And we will let you explore the question for 5 points, 6 points and so on! We call points that are on the same circle "
+            },
+            {
+              "type": "text",
+              "content": "concyclic",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.113,
+            0.429,
+            0.886,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 10:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If a line segment AB joining two points A, B subtends equal angles at two other points C, D that lie on the same side of AB, then the four points lie on a circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.149,
+            0.491,
+            0.543,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As always we draw the picture first."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.113,
+            0.514,
+            0.886,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider segment AB. Points C and D lie on the same side of AB; points C and D are not on the line AB; and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACB = \\angle ADB"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.149,
+            0.557,
+            0.599,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To show:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A, B, C, D lie on the same circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.113,
+            0.581,
+            0.883,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why is this true?",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The points A, B, C are noncollinear points. So, using Theorem 1, there is a circle passing through A, B, C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.113,
+            0.625,
+            0.884,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us show that D also lies on that circle. For this, let us draw the circle through A, B and C."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.114,
+            0.667,
+            0.884,
+            0.706
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose D is not on the circle; then it is either inside or outside the circle. Join AD."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.154,
+            0.711,
+            0.418,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.154,
+                0.711,
+                0.418,
+                0.897
+              ],
+              "image_path": "images/page_19_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.245,
+                0.906,
+                0.337,
+                0.923
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.27 A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.596,
+            0.705,
+            0.875,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.596,
+                0.705,
+                0.875,
+                0.897
+              ],
+              "image_path": "images/page_19_image_21.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 22,
+              "bbox": [
+                0.702,
+                0.906,
+                0.793,
+                0.923
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.27 B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

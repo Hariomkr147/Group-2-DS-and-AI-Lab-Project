@@ -1,0 +1,322 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.086,
+            0.847,
+            0.127
+          ],
+          "content": "？ Take a pair of natural numbers. Calculate the sum of their squares. Can you write twice this sum as a sum of two squares?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.133,
+            0.828,
+            0.176
+          ],
+          "content": "Try this with other pairs of numbers. Have you figured out a pattern? Notice that $2 \\; ( 5 ^ { 2 } + 6 ^ { 2 } ) = \\; ( 6 + 5 ) ^ { 2 } + ( 6 - 5 ) ^ { 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.176,
+            0.778,
+            0.2
+          ],
+          "content": "Do the identities below help in explaining the observed pattern?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393,
+            0.202,
+            0.607,
+            0.222
+          ],
+          "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}",
+          "image_source": "images/page_12_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.394,
+            0.232,
+            0.605,
+            0.252
+          ],
+          "content": "(a - b)^{2} = a^{2} - 2ab + b^{2}",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.268,
+            0.262,
+            0.729,
+            0.282
+          ],
+          "content": "( a + b ) ^ { 2 } + ( a - b ) ^ { 2 } = ( a ^ { 2 } + 2 a b + b ^ { 2 } ) + ( a ^ { 2 } - 2 a b + b ^ { 2 } )",
+          "image_source": "images/page_12_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.286,
+            0.796,
+            0.326
+          ],
+          "content": "Adding the like terms $a^{2}+a^{2}=2a^{2},b^{2}+b^{2}=2b^{2}$ and $2ab - 2ab = 0,$ we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.329,
+            0.637,
+            0.349
+          ],
+          "content": "2 \\; ( a ^ { 2 } + b ^ { 2 } ) = ( a + b ) ^ { 2 } + ( a - b ) ^ { 2 } .",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.367,
+            0.256,
+            0.386
+          ],
+          "level": 2,
+          "content": "Pattern 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.402,
+            0.847,
+            0.441
+          ],
+          "content": "？ Here is a related pattern. Try to describe the pattern using algebra to determine if the pattern always holds."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.449,
+            0.596,
+            0.469
+          ],
+          "content": "9 \\times 9 - 1 \\times 1 = 10 \\times 8",
+          "image_source": "images/page_12_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.479,
+            0.598,
+            0.499
+          ],
+          "content": "8 \\times 8 - 6 \\times 6 = 14 \\times 2",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.4,
+            0.509,
+            0.594,
+            0.529
+          ],
+          "content": "7 \\times 7 - 2 \\times 2 = 9 \\times 5",
+          "image_source": "images/page_12_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.39,
+            0.539,
+            0.609,
+            0.559
+          ],
+          "content": "10 \\times 10 - 4 \\times 4 = 14 \\times 6",
+          "image_source": "images/page_12_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.564,
+            0.682,
+            0.583
+          ],
+          "content": "The pattern here appears to be $a^{2}-b^{2}=(a+b)\\times(a-b)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.583,
+            0.767,
+            0.603
+          ],
+          "content": "Is this a true identity? Using the distributive property, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.339,
+            0.605,
+            0.658,
+            0.625
+          ],
+          "content": "(a+b)\\times(a-b)=a^{2}-ab+ba-a^{2}.",
+          "image_source": "images/page_12_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.63,
+            0.716,
+            0.651
+          ],
+          "content": "Adding the like terms, $ab + (-ab) = 0$ , we see that indeed"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.301,
+            0.679,
+            0.421,
+            0.701
+          ],
+          "content": "**Identity 1C**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.444,
+            0.679,
+            0.673,
+            0.7
+          ],
+          "content": "(a + b) \\times (a - b) = a^2 - b^2.",
+          "image_source": "images/page_12_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.728,
+            0.675,
+            0.748
+          ],
+          "content": "You had seen this identity earlier in Figure it Out 5 (i)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.758,
+            0.627,
+            0.78
+          ],
+          "content": "？ Use Identity 1C to calculate $9 8 \\times 1 0 2 ,$ , and $4 5 \\times 5 5 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.794,
+            0.619,
+            0.817
+          ],
+          "content": "？ Show that $(a + b) \\times (a - b) = a^{2} - b^{2}$ geometrically."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.826,
+            0.78,
+            0.928,
+            0.836
+          ],
+          "content": "Try This"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.078,
+            0.915,
+            0.128,
+            0.937
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

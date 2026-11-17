@@ -1,0 +1,221 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.12,
+            0.815,
+            0.143
+          ],
+          "content": "**Example:** Find the angles of symmetry of the following strip."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.328,
+            0.146,
+            0.722,
+            0.198
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.21,
+            0.869,
+            0.232
+          ],
+          "content": "Solution: Let us rotate the strip in a clockwise direction about its centre."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.328,
+            0.24,
+            0.722,
+            0.293
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.309,
+            0.884,
+            0.354
+          ],
+          "content": "A rotation of 180° results in the figure above. Does this overlap with the original figure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.195,
+            0.355,
+            0.306,
+            0.376
+          ],
+          "content": "No. Why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.378,
+            0.884,
+            0.421
+          ],
+          "content": "Another rotation through 180° from this position gives the original shape."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.424,
+            0.885,
+            0.491
+          ],
+          "content": "This figure comes back to its original shape only after **one** complete rotation through 360°. So, we say that this figure **does not have rotational symmetry**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.164,
+            0.504,
+            0.603,
+            0.547
+          ],
+          "level": 2,
+          "content": "Rotational Symmetry of Figures with Radial Arms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.549,
+            0.605,
+            0.662
+          ],
+          "content": "Consider this figure, a picture with 4 radial arms. How many angles of symmetry does it have? What are they? Note that the angle between adjacent central dotted lines is 90°."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.631,
+            0.485,
+            0.914,
+            0.702
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.664,
+            0.603,
+            0.731
+          ],
+          "content": "Can you change the angles between the radial arms so that the figure still has 4 angles of symmetry? Try drawing it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.732,
+            0.885,
+            0.822
+          ],
+          "content": "To check if the figure drawn indeed has 4 angles of symmetry, you could draw the figure on two different pieces of paper. Cut out the radial arms from one of the papers. Keep the figure on the paper fixed and rotate the cutout to check for rotational symmetry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.823,
+            0.884,
+            0.869
+          ],
+          "content": "How will you modify the figure above so that it has only two angles of symmetry?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.083,
+            0.941,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:10+05:30",
+      "modified_at": "2026-04-07T17:41:10+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

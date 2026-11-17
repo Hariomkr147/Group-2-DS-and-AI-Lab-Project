@@ -1,0 +1,292 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.108,
+            0.252,
+            0.127
+          ],
+          "content": "**Page No- 142**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.138,
+            0.605,
+            0.157
+          ],
+          "content": "？ **Write the next 3 numbers in the sequence:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.159,
+            0.617,
+            0.178
+          ],
+          "content": "1, 2, 3, 5, 8, 13, 21, 34, 55, 89, \\_\\_\\_\\_, \\_\\_\\_\\_"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.18,
+            0.926,
+            0.242
+          ],
+          "content": "**If you have to write one more number in the sequence above, can you tell whether it will be an odd number or an even number (without adding the two previous numbers)?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.252,
+            0.611,
+            0.27
+          ],
+          "content": "**Ans:** 55 + 89 = **144,** 89 + 144 = **233,** 144 + 233 = **3779**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.274,
+            0.578,
+            0.293
+          ],
+          "content": "The next number will be an even number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.306,
+            0.925,
+            0.347
+          ],
+          "content": "？ **What is the parity of each number in the sequence? Do you notice any pattern in the sequence of parities?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.358,
+            0.384,
+            0.377
+          ],
+          "content": "The parity patterns —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.379,
+            0.722,
+            0.398
+          ],
+          "content": "Sequence: 1(O), 2(E), 3(O), 5(O), 8(E), 13(O), 21(O), 34(E), …"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.399,
+            0.778,
+            0.419
+          ],
+          "content": "The pattern is: **Odd, Even, Odd, Odd, Even, Odd, Odd, Even…**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.421,
+            0.497,
+            0.44
+          ],
+          "content": "The group odd, even, odd repeats."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.443,
+            0.562,
+            0.461
+          ],
+          "content": "3<sup>rd</sup> term = 1<sup>st</sup> term + 2<sup>nd</sup> term = O + E = O;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.466,
+            0.564,
+            0.484
+          ],
+          "content": "4<sup>th</sup> term = 2<sup>nd</sup> term + 3<sup>rd</sup> term = E + O = O;"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.169,
+            0.488,
+            0.57,
+            0.506
+          ],
+          "content": "5<sup>th</sup> term = 3<sup>rd</sup> term + 4<sup>th</sup> term = O + O = E…"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.531,
+            0.281,
+            0.55
+          ],
+          "level": 2,
+          "content": "Page No- 143-44"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.561,
+            0.3,
+            0.579
+          ],
+          "content": "？ **Figure it out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.582,
+            0.925,
+            0.621
+          ],
+          "content": "**1. A light bulb is ON. Dorjee toggles its switch 77 times. Will the bulb be on or off? Why?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.624,
+            0.377,
+            0.643
+          ],
+          "content": "**Ans.** The bulb will be OFF."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.666,
+            0.926,
+            0.747
+          ],
+          "content": "**2. Liswini has a large old encyclopaedia. When she opened it, several loose pages fell out of it. She counted 50 sheets in total, each printed on both sides. Can the sum of the page numbers of the loose sheets be 6000? Why or why not?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.75,
+            0.924,
+            0.786
+          ],
+          "content": "**Ans.** Each sheet has two pages, one with an even number and the other with an odd number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.788,
+            0.924,
+            0.826
+          ],
+          "content": "Since there are 50 sheets, so there will be fifty pages with an even number and 50 pages with an odd number"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.828,
+            0.537,
+            0.846
+          ],
+          "content": "The sum of the even numbers is **even**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.847,
+            0.847,
+            0.865
+          ],
+          "content": "The sum of the odd numbers taken even number of times is also **even**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.867,
+            0.925,
+            0.904
+          ],
+          "content": "Thus, 6000 being even, it is possible that sum of all the page numbers of the loose sheets could be 6000."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.51,
+            0.928,
+            0.533,
+            0.941
+          ],
+          "content": "10"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

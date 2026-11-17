@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.049,
+            0.433,
+            0.067
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.119,
+            0.664,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since removing 2 positive tokens is the same as adding 2 negative tokens, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- 4 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " can also be obtained by adding 2 negative tokens to the empty bag 4 times."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.686,
+            0.087,
+            0.847,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.686,
+                0.087,
+                0.847,
+                0.204
+              ],
+              "image_path": "images/page_8_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.225,
+            0.563,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Patterns in Integer Multiplication"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.257,
+            0.849,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have explored the multiplication of integers in cases where the multiplier is positive, when it is negative, when the multiplicand is positive and when it is negative. Using this understanding, let us construct a sequence of multiplications and observe the patterns."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11,
+            0.366,
+            0.651,
+            0.408
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What do you notice in this pattern? Can you describe it?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.411,
+            0.651,
+            0.472
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can see that, when the multiplicand is positive, for every unit "
+            },
+            {
+              "type": "text",
+              "content": "decrease",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " in the multiplier the product "
+            },
+            {
+              "type": "text",
+              "content": "decreases",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " by the multiplicand."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.666,
+            0.352,
+            0.833,
+            0.481
+          ],
+          "image_path": "images/page_8_equation_7.jpg",
+          "content": "\\begin{array}{l}4 \\times 3 = 12 \\\\3 \\times 3 = 9 \\\\2 \\times 3 = 6 \\\\1 \\times 3 = 3 \\\\0 \\times 3 = 0 \\\\\\end{array}\\begin{array}{l}\\sum - 3 \\\\\\sum - 3 \\\\\\sum - 3 \\\\\\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11,
+            0.494,
+            0.647,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Will this pattern continue when the multiplier goes below zero and becomes a negative number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.539,
+            0.645,
+            0.58
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Yes indeed! The same pattern continues when the multiplier becomes a negative number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11,
+            0.587,
+            0.646,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the pattern when the multiplicand is a negative integer?"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.3,
+            0.632,
+            0.511,
+            0.751
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "\\begin{array}{l}4 \\times (-3) = -12 \\\\3 \\times (-3) = -9 \\\\2 \\times (-3) = -6 \\\\1 \\times (-3) = -3 \\\\0 \\times (-3) = 0\\end{array}\\quad\\begin{array}{l}\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + 3 \\\\\\infty + \\infty + 3 \\\\\\infty + 3 \\\\\\infty + \\infty + 3 \\\\\\infty + 3 \\\\\\infty + \\infty + 3 \\\\\\infty + \\infty + 3 \\\\\\infty + \\infty + 3 \\infty + \\infty + 3 \\\\\\infty + \\infty + \\infty + 3 \\infty + \\infty + \\infty \\infty + \\infty \\infty + \\infty + \\infty \\infty + \\infty \\infty + \\infty \\infty \\infty + \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\quad \\infty \\quad \\infty \\infty \\infty \\quad \\infty \\quad \\infty \\infty \\quad \\infty \\infty \\quad \\infty \\quad \\infty \\quad \\infty \\infty \\quad \\infty \\quad \\quad \\infty \\quad \\quad \\infty \\� \\quad \\infty \\� \\quad \\quad \\� \\� \\� \\� \\quad \\� \\� \\quad \\� \\� \\quad \\� \\� \\� \\� \\quad \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\quad \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\� \\ \\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.658,
+            0.492,
+            0.833,
+            0.714
+          ],
+          "image_path": "images/page_8_equation_12.jpg",
+          "content": "\\begin{array} { r } { 4 \\times 3 = 1 2 \\quad \\bigotimes - 3 } \\\\ { 3 \\times 3 = 9 \\quad \\bigotimes - 3 } \\\\ { 2 \\times 3 = 6 \\quad \\bigotimes - 3 } \\\\ { 1 \\times 3 = 3 \\quad \\bigotimes - 3 } \\\\ { 0 \\times 3 = 0 \\quad \\bigotimes - 3 } \\\\ { - 1 \\times 3 = - 3 \\quad \\bigotimes - 3 } \\\\ { - 2 \\times 3 = - 6 \\quad \\bigotimes - 3 } \\\\ { - 3 \\times 3 = - 9 \\quad \\bigotimes - 3 } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.754,
+            0.848,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is the inverse of the previous pattern. When the multiplicand is negative, for every unit "
+            },
+            {
+              "type": "text",
+              "content": "decrease",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the multiplier, the product "
+            },
+            {
+              "type": "text",
+              "content": "increases",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " by the multiplicand."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11,
+            0.822,
+            0.847,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Will this pattern continue when the multiplier goes below zero and becomes a negative integer?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.867,
+            0.2,
+            0.885
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Yes!"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.16,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "32"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,370 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.05,
+            0.07,
+            0.547,
+            0.149
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.272,
+                0.151,
+                0.296,
+                0.165
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.048,
+            0.164,
+            0.546,
+            0.268
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.272,
+                0.267,
+                0.296,
+                0.281
+              ],
+              "content": "(b)"
+            },
+            {
+              "bbox": [
+                0.084,
+                0.282,
+                0.514,
+                0.311
+              ],
+              "content": "Fig. 6.4: Two forces applied in opposite direction of (a) equal magnitudes, (b) unequal magnitudes"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.558,
+            0.084,
+            0.89,
+            0.304
+          ],
+          "content": "force, the rope does not move (Fig. 6.4a). Such two forces, which are equal in magnitude but opposite in direction are called **balanced forces**. However, if one team pulls harder, i.e., it applies a force of larger magnitude, the forces are no longer balanced and the rope moves in the direction of the larger force (Fig. 6.4b). The rope does not move if the forces applied on it are balanced but moves if the forces are unbalanced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.32,
+            0.89,
+            0.406
+          ],
+          "content": "If the forces applied on an object are not balanced, a non-zero **net force** acts on the object. When two forces are opposite in direction but unequal in magnitude (Fig. 6.4b), the magnitude of net force is equal to the difference between the magnitudes of two forces and the direction is along the force of the larger magnitude."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.046,
+            0.407,
+            0.402,
+            0.503
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.048,
+                0.508,
+                0.399,
+                0.524
+              ],
+              "content": "Fig. 6.5: Two forces applied in the same direction"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.412,
+            0.41,
+            0.889,
+            0.528
+          ],
+          "content": "Now, think of a situation where two people are applying forces in the same direction on a stalled car to make it move (Fig. 6.5). In this case, the magnitude of the net force applied by them on the car is the sum of the magnitudes of two forces. The direction of the net force is in the same direction as the two individual forces."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.531,
+            0.889,
+            0.583
+          ],
+          "content": "**Example 6.1:** Two forces of 10 N and 6 N are acting on a block lying on the table as shown in Fig. 6.6. What is the magnitude and the direction of the net force acting on the block in each case?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.142,
+            0.587,
+            0.368,
+            0.639
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.261,
+                0.635,
+                0.286,
+                0.648
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.372,
+            0.588,
+            0.607,
+            0.644
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.494,
+                0.634,
+                0.517,
+                0.648
+              ],
+              "content": "(b)"
+            },
+            {
+              "bbox": [
+                0.294,
+                0.648,
+                0.742,
+                0.662
+              ],
+              "content": "Fig. 6.6: Two forces acting on a block in three different manner"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_13.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.656,
+            0.587,
+            0.887,
+            0.644
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.745,
+                0.635,
+                0.767,
+                0.648
+              ],
+              "content": "(c)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.668,
+            0.309,
+            0.683
+          ],
+          "content": "**Answer:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.687,
+            0.784,
+            0.705
+          ],
+          "content": "(a) Net force $e = 10    N  + 6    N  = 16    N ,$ acting towards the right side."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.706,
+            0.775,
+            0.723
+          ],
+          "content": "(b) Net $\\mathrm{force}=10\\mathrm{~N}-6\\mathrm{~N}=4\\mathrm{~N}$ , acting towards the right side."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.724,
+            0.76,
+            0.741
+          ],
+          "content": "(c) Net force = 10 N – 6 N = 4 N, acting towards the left side."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.101,
+            0.742,
+            0.162,
+            0.808
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_22.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.176,
+            0.751,
+            0.386,
+            0.769
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.073,
+            0.855,
+            0.127,
+            0.892
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.778,
+            0.648,
+            0.904
+          ],
+          "content": "There are situations in which forces do not act parallel or opposite to each other but act at an angle to each other. You will learn in higher grades how to calculate the net force in such cases. Also, there are situations where equal and opposite forces are applied to the two ends of an extended object which make the object rotate (Fig. 6.7). For example, applying equal and opposite forces to a handlebar or a tap makes it turn. You will also learn about this in higher grades."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.667,
+            0.769,
+            0.852,
+            0.873
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.662,
+                0.875,
+                0.868,
+                0.904
+              ],
+              "content": "Fig. 6.7: Equal and opposite forces on an extended object"
+            }
+          ],
+          "image_source": "images/page_2_image_26.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.079,
+            0.943,
+            0.11,
+            0.96
+          ],
+          "content": "96"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.947,
+            0.303,
+            0.963
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:47:36+05:30",
+      "modified_at": "2026-05-13T10:46:38+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

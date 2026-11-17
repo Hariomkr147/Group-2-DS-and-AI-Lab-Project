@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.682,
+            0.071,
+            0.812,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "75"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.138,
+            0.11,
+            0.882,
+            0.17
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Draw a non-convex 4-gon DART. Show how we can tile the plane with copies of DART. Both methods that we discussed earlier will work. Which do you prefer?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.307,
+            0.212,
+            0.69,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "End-of-Chapter Exercises"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.14,
+            0.257,
+            0.881,
+            0.317
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Using a fact about parallelograms, show how to tile the plane using any given triangle. ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Can you use the parallelogram tiling in the introduction?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.14,
+            0.32,
+            0.883,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Mark the midpoint of the line drawn on the paper (see Fig. 12.33), given that the horizontal lines are equally spaced. Justify your answer."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.369,
+            0.38,
+            0.667,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.369,
+                0.38,
+                0.667,
+                0.552
+              ],
+              "image_path": "images/page_24_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.451,
+                0.557,
+                0.548,
+                0.576
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.139,
+            0.587,
+            0.882,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. You know that the sum of angles of a quadrilateral is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 6 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , even for a non-convex quadrilateral. (Recall the proof.) Now consider a self-intersecting quadrilateral ABCD, where AB and CD intersect at point E. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle A + \\angle B + \\angle C + \\angle D < 360^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " . Can you construct ABCD such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle A + \\angle B + \\angle C + \\angle D = 2^{\\circ}?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.138,
+            0.688,
+            0.882,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. In a parallelogram ABCD, two points P and Q are taken on diagonal BD such that DP = BQ (see Fig. 12.34). Show that APCQ is a parallelogram."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.388,
+            0.753,
+            0.644,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.388,
+                0.753,
+                0.644,
+                0.865
+              ],
+              "image_path": "images/page_24_image_10.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 11,
+              "bbox": [
+                0.451,
+                0.874,
+                0.548,
+                0.892
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.34"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

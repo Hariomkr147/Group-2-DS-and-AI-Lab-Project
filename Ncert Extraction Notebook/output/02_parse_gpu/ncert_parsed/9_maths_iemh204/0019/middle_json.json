@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "69"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.189,
+            0.11,
+            0.883,
+            0.225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) There are multiple ways to construct AʹBʹCʹDʹ in (i). Justify why the quadrilateral AʹBʹCʹDʹ you constructed is congruent to ABCD. You may need to show why S is collinear with the points Aʹ and Dʹ that you constructed, and similarly for P, Q and R. ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Use congruence of triangles, for example ∆SDR ≅ ∆SDʹR. )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.183,
+            0.225,
+            0.881,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Show that if PQRS is a square, then AC and BD are perpendicular and equal. Prove the converse."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.117,
+            0.28,
+            0.664,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.4 Tiling the Plane Using Any 4-gon"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.314,
+            0.883,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "There are many ways to tile the plane, using a single shape or multiple shapes, leading to beautiful pictures. These occur in mosaics in several ancient civilizations to more recent artwork, such as that of M.C. Escher, in nature (for example, a honeycomb) and in decorative patterns we encounter in daily life."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.249,
+            0.415,
+            0.749,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.249,
+                0.415,
+                0.749,
+                0.669
+              ],
+              "image_path": "images/page_18_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.192,
+            0.718,
+            0.39,
+            0.825
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.192,
+                0.718,
+                0.39,
+                0.825
+              ],
+              "image_path": "images/page_18_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.25,
+                0.85,
+                0.348,
+                0.869
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.47,
+            0.686,
+            0.882,
+            0.766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will see how the plane can be tiled with any given 4-gon, not just a parallelogram as we saw at the beginning of the chapter."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.47,
+            0.765,
+            0.883,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Before you see the answer in Fig. 12.28, see the hints below and try to find a tiling using the given irregular 4-gon SOME. First, trace SOME on paper with its four angles labelled 1, 2, 3, 4. Remember that they add up to 360°. Cut out 15 identical copies."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

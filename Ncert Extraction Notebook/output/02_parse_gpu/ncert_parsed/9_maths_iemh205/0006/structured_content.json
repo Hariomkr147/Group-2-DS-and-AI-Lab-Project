@@ -1,0 +1,180 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.118,
+            0.072,
+            0.149,
+            0.087
+          ],
+          "content": "90"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.11,
+            0.885,
+            0.149
+          ],
+          "content": "We can represent these solutions or ordered pairs in the form of a table."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.388,
+            0.148,
+            0.612,
+            0.238
+          ],
+          "content": "<table><tbody><tr><td rowspan=\"2\">x</td><td rowspan=\"2\">0</td><td rowspan=\"2\">72</td></tr><tr></tr><tr><td>y</td><td>7</td><td>0</td></tr></tbody></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.248,
+            0.832,
+            0.269
+          ],
+          "content": "Using these two points, we can draw the graph of the equation."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.248,
+            0.279,
+            0.749,
+            0.59
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.263,
+                0.597,
+                0.734,
+                0.617
+              ],
+              "content": "Fig. 13.2: Graph of the linear equation 2x + y = 7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.626,
+            0.882,
+            0.668
+          ],
+          "content": "From the graph, we see that (1, 5), (2, 3), (3, 1), $\\left( { \\frac { 3 } { 2 } } , 4 \\right)$ are also solutions of $2x + y = 7.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.668,
+            0.884,
+            0.765
+          ],
+          "content": "Note that an easy way of identifying two points on a line is to substitute $x = 0$ in the linear equation and obtain the corresponding value of y. This will give us the point where the line intersects the y-axis. Similarly, we can substitute $y = 0$ and obtain the corresponding value of x. This will give us the point where the line intersects the x-axis."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.769,
+            0.883,
+            0.809
+          ],
+          "content": "**Example 3:** Find any two solutions for each of the following equations and draw their graphs:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.813,
+            0.679,
+            0.834
+          ],
+          "content": "(i) $4x + 3y = 12$ (ii) 2x + 5y = 0"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.839,
+            0.268,
+            0.857
+          ],
+          "content": "**Solution:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.863,
+            0.884,
+            0.923
+          ],
+          "content": "(i) Substituting $x \\quad = \\quad 0$ in the equation, we get $3 y ~ = ~ 1 2 ,$ that is, $y = 4.50 (0,4)$ is a solution of the given equation. Similarly, by substituting $y = 0 ,$ , we get x = 3. Thus, (3, 0) is also a solution."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

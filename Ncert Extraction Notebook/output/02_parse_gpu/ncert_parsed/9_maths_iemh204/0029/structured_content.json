@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": "79"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.11,
+            0.881,
+            0.168
+          ],
+          "content": "12.  (i) Suppose ABCD is a parallelogram and M, N are midpoints of AB and CD respectively. Show that segments DM and BN trisect segment AC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.167,
+            0.881,
+            0.227
+          ],
+          "content": "(ii) Use part (i) to find a procedure to trisect any given segment PQ. Find two other ways to trisect PQ, one using Exercise 11 above and a third using the Centroid Theorem."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.405,
+            0.238,
+            0.628,
+            0.331
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.336,
+                0.548,
+                0.355
+              ],
+              "content": "Fig. 12.40"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.369,
+            0.882,
+            0.447
+          ],
+          "content": "13. Is the Midpoint Theorem for Quadrilaterals (Theorem 9) true when the quadrilateral is non-convex? How about when it is self-intersecting? Experiment and check. The pictures may look strange, but the theorem appears to be true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.197,
+            0.447,
+            0.881,
+            0.485
+          ],
+          "content": "(i) Can you explain why this is so? See the geometric reasoning in the text."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.485,
+            0.881,
+            0.542
+          ],
+          "content": "(ii) There is one exception: In a very special case the Varignon parallelogram becomes a single segment. When will this happen?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.541,
+            0.881,
+            0.564
+          ],
+          "content": "\\*(iii) Does your reasoning apply even when ABCD is non-planar?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.572,
+            0.882,
+            0.652
+          ],
+          "content": "14. Let P, Q, R, S be four points on sides AB, BC, CD and DA respectively of a quadrilateral ABCD. Suppose PQRS is a parallelogram. Must P, Q, R and S be midpoints of the respective sides? This can be considered a possible converse question to Theorem 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.655,
+            0.882,
+            0.714
+          ],
+          "content": "15.  (i) Complete the following proof of the Midpoint Theorem. Extend segment PQ beyond Q until point S. By how much should we extend PQ?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.347,
+            0.733,
+            0.717,
+            0.863
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.874,
+                0.547,
+                0.893
+              ],
+              "content": "Fig. 12.41"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_12.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

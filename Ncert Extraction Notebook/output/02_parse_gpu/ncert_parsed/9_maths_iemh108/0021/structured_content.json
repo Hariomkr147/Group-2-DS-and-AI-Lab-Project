@@ -1,0 +1,266 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "194"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.11,
+            0.691,
+            0.131
+          ],
+          "content": "6. Which term of the sequence $2 , 2 \\sqrt { 2 } , 4 , \\ldots$ is 128?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.134,
+            0.887,
+            0.291
+          ],
+          "content": "7. Fig. 8.12 shows Stages 0 to 3 of the Sierpiński square carpet. Stage 0 of this fractal is a square sheet of paper. To construct Stage 1, each side of the square is trisected and the points of trisection of opposite sides are joined to obtain nine smaller squares. The centre square is then removed and the 8 smaller squares are retained, leaving a square hole in the centre. The same process is repeated on the eight smaller shaded squares to obtain Stage 2 and so on."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.231,
+            0.309,
+            0.344,
+            0.391
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.252,
+                0.395,
+                0.32,
+                0.412
+              ],
+              "content": "Stage 0"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.37,
+            0.309,
+            0.484,
+            0.393
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.395,
+                0.395,
+                0.461,
+                0.412
+              ],
+              "content": "Stage 1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.512,
+            0.308,
+            0.628,
+            0.392
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.539,
+                0.395,
+                0.606,
+                0.411
+              ],
+              "content": "Stage 2"
+            }
+          ],
+          "image_source": "images/page_20_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.655,
+            0.308,
+            0.769,
+            0.391
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.68,
+                0.394,
+                0.746,
+                0.412
+              ],
+              "content": "Stage 3"
+            },
+            {
+              "bbox": [
+                0.238,
+                0.417,
+                0.762,
+                0.436
+              ],
+              "content": "Fig. 8.12: Stages 0, 1, 2 and 3 of the Sierpiński square carpet"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.448,
+            0.809,
+            0.47
+          ],
+          "content": "Look at Fig. 8.12 and try to answer the following questions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18,
+            0.476,
+            0.768,
+            0.498
+          ],
+          "content": "(i) How many red squares are there in Stages 0 to 3?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.503,
+            0.883,
+            0.525
+          ],
+          "content": "(ii) Can you predict the number of red squares in Stages 4 and 5?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.53,
+            0.886,
+            0.593
+          ],
+          "content": "(iii) Can you find a rule for the number of red squares at the $n ^ { t h }$ stage? Write the explicit formula as well as the recursive formula for the number of red squares at any stage."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.598,
+            0.886,
+            0.724
+          ],
+          "content": "(iv) Suppose the area of the square in Stage 0 is 1 square unit. What is the area of the red region in Stages 1, 2 and 3? What will be the area of the red region in Stages 4 and 5? Find the explicit as well as the recursive formula for the area of the red region at the $n ^ { t h }$ stage. What happens to this area as n, the number of stages, goes on increasing?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.304,
+            0.765,
+            0.692,
+            0.793
+          ],
+          "level": 2,
+          "content": "End-of-Chapter Exercises"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.809,
+            0.885,
+            0.85
+          ],
+          "content": "1. Find the 31<sup>st</sup> term of an AP whose $1 1 ^ { \\mathrm { t h } }$ term is 38 and $1 6 ^ { \\mathrm { t h } }$ term is 73."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.854,
+            0.886,
+            0.893
+          ],
+          "content": "2. Determine the AP whose third term is 16 and whose $7 ^ { \\mathrm { t h } }$ term exceeds the $5 ^ { \\mathrm { t h } }$ term by 12."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

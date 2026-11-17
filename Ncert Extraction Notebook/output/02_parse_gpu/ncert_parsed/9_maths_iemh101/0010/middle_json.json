@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.114,
+            0.069,
+            0.148,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.181,
+            0.069,
+            0.492,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.2,
+            0.106,
+            0.799,
+            0.415
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.2,
+                0.106,
+                0.799,
+                0.415
+              ],
+              "image_path": "images/page_9_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.459,
+                0.422,
+                0.543,
+                0.44
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 1.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.145,
+            0.448,
+            0.644,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We similarly find the distances DM and MA:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.353,
+            0.477,
+            0.649,
+            0.502
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "DM  = \\sqrt{2^2 + 5^2} = \\sqrt{29}   units"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.351,
+            0.512,
+            0.65,
+            0.539
+          ],
+          "image_path": "images/page_9_equation_6.jpg",
+          "content": "\\mathrm{MA} = \\sqrt{6^{2} + 2^{2}} = \\sqrt{40}   units."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.145,
+            0.552,
+            0.886,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, the distance between the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\bar { x } _ { 1 } , y _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { 2 } , y _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.375,
+            0.579,
+            0.621,
+            0.608
+          ],
+          "image_path": "images/page_9_equation_8.jpg",
+          "content": "\\sqrt{ \\left( x_{2} - x_{1} \\right)^{2} + \\left( y_{2} - y_{1} \\right)^{2} }"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.145,
+            0.618,
+            0.568,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and is cal"
+            },
+            {
+              "type": "text",
+              "content": "culated as shown in Fig. 1.8.",
+              "styles": [
+                "underline"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.214,
+            0.639,
+            0.752,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.214,
+                0.639,
+                0.752,
+                0.888
+              ],
+              "image_path": "images/page_9_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.463,
+            0.897,
+            0.537,
+            0.913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 1.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

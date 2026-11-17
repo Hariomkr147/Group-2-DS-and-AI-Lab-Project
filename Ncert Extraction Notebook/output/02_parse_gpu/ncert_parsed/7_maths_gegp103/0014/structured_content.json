@@ -1,0 +1,226 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.085,
+            0.148,
+            0.11
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.645,
+            0.047,
+            0.848,
+            0.064
+          ],
+          "content": "A Peek Beyond the Point"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.086,
+            0.847,
+            0.127
+          ],
+          "content": "Can we not split a unit into 4 equal parts, 5 equal parts, 8 equal parts, or any other number of equal parts instead?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.136,
+            0.507,
+            0.229
+          ],
+          "content": "Yes, we can. The example below compares how the same length is represented when the unit is split into 10 equal parts and when the unit is split into 4 equal parts."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.518,
+            0.135,
+            0.851,
+            0.22
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.23,
+            0.508,
+            0.341
+          ],
+          "content": "If an even more precise measure is needed, each quarter can further be split into four equal parts. Each part then measures $\\frac { 1 } { 1 6 }$ of a unit, i.e., 16 such parts make 1 unit."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.517,
+            0.229,
+            0.852,
+            0.316
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.333,
+            0.353,
+            0.664,
+            0.44
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_7.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.458,
+            0.617,
+            0.481
+          ],
+          "content": "Then why split a unit into 10 parts every time?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.49,
+            0.849,
+            0.601
+          ],
+          "content": "The reason is the special role that 10 plays in the Indian place value system. For a whole number written in the Indian place value system — for example, 281 — the place value of 2 is hundreds (100), that of 8 is tens (10), and that of 1 is one (1). Each place value is 10 times bigger than the one immediately to its right. Equivalently, each place value is 10 times smaller than the one immediately to its left:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.601,
+            0.376,
+            0.618
+          ],
+          "content": "10 ones make 1 ten,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.619,
+            0.424,
+            0.637
+          ],
+          "content": "10 tens make 1 hundred,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.637,
+            0.59,
+            0.656
+          ],
+          "content": "10 hundreds make 1 thousand, and so on."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.315,
+            0.669,
+            0.693,
+            0.794
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.807,
+            0.848,
+            0.882
+          ],
+          "content": "In order to extend this system of writing numbers to quantities smaller than one, we divide one into 10 equal parts. What does this give? It gives one-tenth. Further dividing it into 10 parts gives one-hundredth, and so on."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.938,
+            0.84,
+            0.955
+          ],
+          "content": "59"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:00+05:30",
+      "modified_at": "2026-04-07T17:15:05+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 55,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

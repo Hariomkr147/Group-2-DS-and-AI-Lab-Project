@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.082,
+            0.773,
+            0.107
+          ],
+          "level": 2,
+          "content": "6.2 Special Cases of the Distributive Property"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.133,
+            0.715,
+            0.155
+          ],
+          "level": 2,
+          "content": "Square of the Sum/Difference of Two Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.164,
+            0.848,
+            0.223
+          ],
+          "content": "？ The area of a square of sidelength 60 units is 3600 sq. units (60<sup>2</sup>) and that of a square of sidelength 5 units is 25 sq. units (5<sup>2</sup>). Can we use this to find the area of a square of sidelength 65 units?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.226,
+            0.849,
+            0.301
+          ],
+          "content": "A square of sidelength 65 can be split into 4 regions as shown in the figure—a square of sidelength 60, a square of sidelength 5, and two rectangles of sidelengths 60 and 5. The area of the square of sidelength 65 is the sum of the areas of all its constituent parts. Can you find the areas"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.3,
+            0.513,
+            0.319
+          ],
+          "continues_prev": true,
+          "content": "of the four parts in the figure above?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.319,
+            0.225,
+            0.337
+          ],
+          "content": "We get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.335,
+            0.614,
+            0.373
+          ],
+          "content": "\\begin{array} { r l } { 6 5 ^ { 2 } \\stackrel { \\circ } { = } ( 6 0 + 5 ) ^ { 2 } = 6 0 ^ { 2 } + 5 ^ { 2 } + 2 \\times ( 6 0 \\times 5 ) . \\quad } & { } \\\\ { = 3 6 0 0 + 2 5 + 6 0 0 = 4 2 2 5 \\quad \\mathrm { s q . \\quad u n i t s } . } \\end{array}",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.373,
+            0.619,
+            0.411
+          ],
+          "content": "Let us multiply (60 + 5) × (60 + 5) using the distributive property."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.155,
+            0.414,
+            0.614,
+            0.464
+          ],
+          "content": "\\begin{aligned}(60 + 5) \\times (60 + 5) &= 60 \\times 60 + 5 \\times 60 + 60 \\times 5 \\div 5 \\times 5 \\\\&= 60^2 + 2 \\times (60 \\times 5) + 5^2,\\end{aligned}",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.481,
+            0.619,
+            0.521
+          ],
+          "content": "？ What if we write $6 5 ^ { 2 }$ as $(30 + 35)^{2}$ or $( \\bar { 5 } 2   \\pm   1 3 ) ^ { 2 } ?$ Draw the figures and check the area that you get."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.634,
+            0.302,
+            0.936,
+            0.517
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.526,
+            0.619,
+            0.565
+          ],
+          "content": "Let us look at the general expression for the square of sum of two numbers, $\\overline{(a+b)^{2}}.$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.138,
+            0.567,
+            0.439,
+            0.784
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.441,
+            0.582,
+            0.815,
+            0.62
+          ],
+          "content": "Using the distributive property, $(a + b)^{2}$ can be expanded as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.443,
+            0.623,
+            0.795,
+            0.696
+          ],
+          "content": "\\overbrace{(a^{+}b) \\times (a^{+}b)}^{ 乙一个 } = a \\times a + a \\times b + b \\times a + b \\times b,",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.442,
+            0.697,
+            0.808,
+            0.718
+          ],
+          "content": "as we had already seen in Example 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.457,
+            0.739,
+            0.579,
+            0.76
+          ],
+          "content": "**Identity 1A**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.612,
+            0.74,
+            0.807,
+            0.758
+          ],
+          "content": "(a+b)^{2}=a^{2}+2ab+b^{2}",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.795,
+            0.746,
+            0.84
+          ],
+          "content": "？ If a and b are any two integers, is $( a + b ) ^ { 2 }$ always greater than $a ^ { 2 }   + b ^ { 2 } ?$ If not, when is it greater?"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.112,
+            0.855,
+            0.848,
+            0.895
+          ],
+          "content": "？ Use Identity 1A to find the values of 104<sup>2</sup>, 37<sup>2</sup>. (Hint: Decompose 104 and 37 into sums or differences of numbers whose squares are easy to compute.)"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.817,
+            0.782,
+            0.904,
+            0.835
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.915,
+            0.92,
+            0.936
+          ],
+          "content": "145"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

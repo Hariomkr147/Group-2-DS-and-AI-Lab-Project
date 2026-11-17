@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.597,
+            0.05,
+            0.847,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another Peek Beyond the Point"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.153,
+            0.088,
+            0.265,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Examples:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 2,
+          "bbox": [
+            0.154,
+            0.113,
+            0.844,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 2,
+              "bbox": [
+                0.154,
+                0.113,
+                0.844,
+                0.215
+              ],
+              "image_path": "images/page_2_table_2.jpg",
+              "content": "<table><tbody><tr><td>24 ÷ 100 = 0.24</td><td>678 ÷ 1000 = 0.678</td></tr><tr><td>12÷1000 = 0.012</td><td>12345÷1000 = 12.345</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.246,
+            0.518,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2 Decimal Multiplication"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.279,
+            0.849,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Arshad goes to a stationery shop and purchases 5 pens. If one pen costs ₹9.5 (9 rupees and 50 paisa), how much should he pay the shopkeeper?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.353,
+            0.495,
+            0.376
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What operation must we use here?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.379,
+            0.827,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have to multiply 9.5 by 5, which is the same as adding 9.5, 5 times. That is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9.5 \\times 5 = 9.5 + 9.5 + 9.5 + 9.5 + 9.5 = 47.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.428,
+            0.846,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also directly multiply the numbers by converting them into fractions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.468,
+            0.463,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.5 is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 9 5 } { 1 0 }"
+            },
+            {
+              "type": "text",
+              "content": " and 5 is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 5 } { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " as a fraction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.508,
+            0.418,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The cost of 5 pens "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= { \\frac { 5 } { 1 } }   \\times   { \\frac { 9 5 } { 1 0 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.548,
+            0.846,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that, to find the product of two fractions, we multiply the numerators and multiply the denominators."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.421,
+            0.586,
+            0.572,
+            0.687
+          ],
+          "image_path": "images/page_2_equation_11.jpg",
+          "content": "\\frac{5}{1} \\times \\frac{95}{10} = \\frac{5 \\times 95}{1 \\times 10} = \\frac{475}{10} = 47.5"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.692,
+            0.41,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The cost of 5 pens is ₹47.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.721,
+            0.846,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A car travels 12.5 km per litre of petrol. What is the distance covered with 7.5 litres of petrol? We have to multiply 12.5 by 7.5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.175,
+            0.791,
+            0.498,
+            0.81
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The distance covered = 12.5 × 7.5"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.334,
+            0.816,
+            0.665,
+            0.854
+          ],
+          "image_path": "images/page_2_equation_15.jpg",
+          "content": "\\frac{125}{10} \\times \\frac{75}{10} = \\frac{125 \\times 75}{10 \\times 10} = \\frac{9375}{100} = 93.75"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.86,
+            0.481,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The distance covered is 93.75 km."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "69"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.144,
+            0.405,
+            0.849,
+            0.67
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.144,
+                0.405,
+                0.849,
+                0.67
+              ],
+              "image_path": "images/page_18_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.553,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Baudhāyana-Pythagoras Theorem"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that there are an infinite number of square numbers that can be written as a sum of two square numbers. This made Fermat wonder if there is a perfect cube that can be written as a sum of two perfect cubes, a fourth power that can be written as a sum of two fourth powers, and so on. In other words, he wondered if there is a solution to the equation"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.445,
+            0.2,
+            0.553,
+            0.219
+          ],
+          "image_path": "images/page_18_equation_3.jpg",
+          "content": "x ^ { n } + y ^ { n } = z ^ { n } ,"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.223,
+            0.628,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where x, y, and z are natural numbers, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\geq 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.249,
+            0.848,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the margin of a book that dealt with properties and patterns of positive integers (like that of Baudhāyana triples), Fermat wrote that amongst the unending sequence of numbers, one cannot find a single perfect cube that is a sum of two perfect cubes, a fourth power that is a sum of two fourth powers, and so on. So, the equation has no solution for powers greater than 2. In addition to stating this, Fermat wrote,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.365,
+            0.845,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "“I have found a truly marvellous proof of this statement, but the margin is too small to contain it”."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.701,
+            0.845,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "No one could ever find Fermat’s proof of this statement, which is called "
+            },
+            {
+              "type": "text",
+              "content": "Fermat’s Last Theorem.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.738,
+            0.846,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "After his death, many great mathematicians tried their hand at proving this theorem. There followed more than 300 years of failed attempts in proving it."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.793,
+            0.847,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In 1963, a 10-year-old boy named Andrew Wiles read a book (The Last Problem by Eric Bell) about Fermat’s Last Theorem and its history. Despite reading about the failures of so many great mathematicians, this young boy resolved to prove this theorem."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.176,
+            0.866,
+            0.625,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "He eventually did prove this theorem in 1994!"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.876,
+            0.914,
+            0.91,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "51"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

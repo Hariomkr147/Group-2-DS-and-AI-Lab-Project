@@ -1,0 +1,168 @@
+{
+  "pages": [
+    {
+      "page_idx": 34,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.121,
+            0.834,
+            0.196
+          ],
+          "content": "another fractional unit, that is different from ${ \\frac { 1 } { 2 } } ,$ is to replace it by ${ \\frac { 1 } { 3 } } .$ So two of the fractions must be $\\frac { 1 } { 2 }$ and $\\frac { 1 } { 3 } !$ What must be third fraction then, so that the three fractions add up to 1?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.202,
+            0.834,
+            0.225
+          ],
+          "content": "This explains why there is only one solution to the above problem."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.369,
+            0.224,
+            0.579,
+            0.381
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_34_chart_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.414,
+            0.387,
+            0.546,
+            0.419
+          ],
+          "content": "{ \\frac { 1 } { 2 } }   +   { \\frac { 1 } { 3 } }   +   { \\frac { 1 } { 6 } }   =   1",
+          "image_source": "images/page_34_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.437,
+            0.834,
+            0.461
+          ],
+          "content": "What if we look for four different fractional units that add up to 1?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.472,
+            0.756,
+            0.519
+          ],
+          "content": "2.  Can you find four different fractional units that add up to 1?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.77,
+            0.472,
+            0.872,
+            0.539
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_34_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.525,
+            0.756,
+            0.637
+          ],
+          "content": "It turns out that this problem has six solutions! Can you find at least one of them? Can you find them all? You can try using similar reasoning as in the cases of two and three fractional units — or find your own method!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.639,
+            0.756,
+            0.685
+          ],
+          "content": "Once you find one solution, try to divide a circle into parts like in the figure above to visualise it!"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.918,
+            0.96
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 34,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

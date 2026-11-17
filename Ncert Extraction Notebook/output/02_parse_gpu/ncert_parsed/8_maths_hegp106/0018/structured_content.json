@@ -1,0 +1,369 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.586,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.087,
+            0.622,
+            0.109
+          ],
+          "content": "？ How many square tiles are there in each figure?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.123,
+            0.814,
+            0.146
+          ],
+          "content": "How many are there in Step 4 of the sequence? What about Step 10?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.159,
+            0.801,
+            0.217
+          ],
+          "content": "？ Write an algebraic expression for the number of tiles in Step n. Share your methods with the class. Can you find more than one method to arrive at the answer?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.154,
+            0.904,
+            0.207
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.232,
+            0.846,
+            0.271
+          ],
+          "content": "？ Find the area of the (interior) shaded region in the figure below. All four rectangles have the same dimensions. m"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.276,
+            0.339,
+            0.294
+          ],
+          "content": "**Tadang’s method:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.294,
+            0.704,
+            0.33
+          ],
+          "content": "The total region is a square of side (m + n) with an area $( m + n ) ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.331,
+            0.704,
+            0.387
+          ],
+          "content": "Subtracting the area of four rectangles from the total area will give the area of the interior shaded region. That is, $( m + n ) ^ { 2 } - 4 m n$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.393,
+            0.324,
+            0.411
+          ],
+          "level": 2,
+          "content": "Yusuf’s method:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.716,
+            0.255,
+            0.921,
+            0.413
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.412,
+            0.705,
+            0.449
+          ],
+          "content": "The shaded region is a square with sidelength (n – m). So, its area is $( n - m ) ^ { 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.458,
+            0.465,
+            0.482
+          ],
+          "content": "By expanding both expressions,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.484,
+            0.49,
+            0.504
+          ],
+          "content": "check that $(m + n)^{2} - 4mn = (n - m)^{2}$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.519,
+            0.72,
+            0.577
+          ],
+          "content": "? Find out the area of the region with slanting lines in the figure. All three rectangles have the same dimensions (Fig. 1)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.727,
+            0.433,
+            0.882,
+            0.582
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.797,
+                0.587,
+                0.84,
+                0.602
+              ],
+              "content": "Fig. 1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.64,
+            0.342,
+            0.658
+          ],
+          "content": "**Anusha’s method:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.658,
+            0.579,
+            0.678
+          ],
+          "content": "Required area = Area (ABCD) – Area (EFGH)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.678,
+            0.333,
+            0.695
+          ],
+          "content": "Area of ABCD = x<sup>2</sup>."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.696,
+            0.335,
+            0.713
+          ],
+          "content": "Area of EFGH = xy."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.714,
+            0.382,
+            0.734
+          ],
+          "content": "Required $\\mathrm{arc} \\underline{a} = x^{2} - \\overline{x} y.$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.714,
+            0.615,
+            0.889,
+            0.756
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.778,
+            0.365,
+            0.796
+          ],
+          "content": "**Vaishnavi’s method:**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.797,
+            0.464,
+            0.832
+          ],
+          "content": "\\begin{array} { l } { { \\mathrm { Q S } = y + x + y } } \\\\ { { \\quad = x + 2 y . } } \\end{array}",
+          "image_source": "images/page_17_equation_25.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.232,
+            0.833,
+            0.474,
+            0.851
+          ],
+          "content": "Area of $PQSR = x(x + 2y)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.852,
+            0.708,
+            0.889
+          ],
+          "content": "Required area = Area of PQSR – (area of the three rectangles)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31,
+            0.888,
+            0.476,
+            0.908
+          ],
+          "content": "x \\left( x + 2y \\right) - 3xy.",
+          "image_source": "images/page_17_equation_28.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.702,
+            0.764,
+            0.89,
+            0.907
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_29.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.915,
+            0.919,
+            0.936
+          ],
+          "content": "153"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

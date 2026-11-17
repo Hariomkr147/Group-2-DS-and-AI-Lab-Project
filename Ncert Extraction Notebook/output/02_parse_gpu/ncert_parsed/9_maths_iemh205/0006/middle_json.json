@@ -1,0 +1,348 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.118,
+            0.072,
+            0.149,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "90"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.11,
+            0.885,
+            0.149
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can represent these solutions or ordered pairs in the form of a table."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.388,
+            0.148,
+            0.612,
+            0.238
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.388,
+                0.148,
+                0.612,
+                0.238
+              ],
+              "image_path": "images/page_5_table_3.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">x</td><td rowspan=\"2\">0</td><td rowspan=\"2\">72</td></tr><tr></tr><tr><td>y</td><td>7</td><td>0</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.248,
+            0.832,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using these two points, we can draw the graph of the equation."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.248,
+            0.279,
+            0.749,
+            0.59
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.248,
+                0.279,
+                0.749,
+                0.59
+              ],
+              "image_path": "images/page_5_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.263,
+                0.597,
+                0.734,
+                0.617
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.2: Graph of the linear equation 2x + y = 7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.114,
+            0.626,
+            0.882,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the graph, we see that (1, 5), (2, 3), (3, 1), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( { \\frac { 3 } { 2 } } , 4 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " are also solutions of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x + y = 7."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.668,
+            0.884,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that an easy way of identifying two points on a line is to substitute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 0"
+            },
+            {
+              "type": "text",
+              "content": " in the linear equation and obtain the corresponding value of y. This will give us the point where the line intersects the y-axis. Similarly, we can substitute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = 0"
+            },
+            {
+              "type": "text",
+              "content": " and obtain the corresponding value of x. This will give us the point where the line intersects the x-axis."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.769,
+            0.883,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find any two solutions for each of the following equations and draw their graphs:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.168,
+            0.813,
+            0.679,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4x + 3y = 12"
+            },
+            {
+              "type": "text",
+              "content": " (ii) 2x + 5y = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.839,
+            0.268,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11,
+            0.863,
+            0.884,
+            0.923
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\quad = \\quad 0"
+            },
+            {
+              "type": "text",
+              "content": " in the equation, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 y ~ = ~ 1 2 ,"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = 4.50 (0,4)"
+            },
+            {
+              "type": "text",
+              "content": " is a solution of the given equation. Similarly, by substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , we get x = 3. Thus, (3, 0) is also a solution."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

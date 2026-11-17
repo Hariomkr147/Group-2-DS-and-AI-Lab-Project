@@ -1,0 +1,221 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.668,
+            0.05,
+            0.844,
+            0.066
+          ],
+          "content": "Connecting the Dots…"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.09,
+            0.148,
+            0.116
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.092,
+            0.778,
+            0.152
+          ],
+          "content": "？ Discuss the effect on the mean and median when outliers are present on both sides. You may take some example data to examine and explain this."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.806,
+            0.09,
+            0.894,
+            0.143
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.162,
+            0.848,
+            0.221
+          ],
+          "content": "Mean and Median are called measures of central tendency, i.e., the tendency of the values to pile up around a particular value. In other words, they represent the ‘centre’ of the data."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.243,
+            0.448,
+            0.265
+          ],
+          "level": 2,
+          "content": "Of Ends and the Essence"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.27,
+            0.848,
+            0.348
+          ],
+          "content": "As we have just seen, the mean and the median can give different perspectives on the data. As part of analysing data, it can also be valuable to look at the variability in the given data, i.e., its extremes (minimum and maximum values)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.358,
+            0.396,
+            0.377
+          ],
+          "level": 2,
+          "content": "How Tall is Your Class?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.382,
+            0.847,
+            0.421
+          ],
+          "content": "Suppose you are asked the question, “How tall is your class?” What would you say?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.421,
+            0.846,
+            0.459
+          ],
+          "content": "The table below shows the heights of students in a Grade 5 class in centimeters."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.469,
+            0.841,
+            0.521
+          ],
+          "content": "<strong><u>Boys</u></strong> <u>147, 135, 130, 154, 128, 135, 134, 158, 155, 146, 146, 142, 140, 141, 144, 145, 150</u> <strong><u>Girls</u></strong> <u>143, 136, 150, 144, 154, 140, 145, 148, 156, 150, 150</u>"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.533,
+            0.849,
+            0.629
+          ],
+          "content": "We can visualise the data using a dot plot, identify the ends and patterns, and look at the variability. We can also find the measures of central tendency. The dot plot for the whole class, followed by the dot plots for boys and girls, respectively, are shown. The mean and the median are also shown for each collection."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.181,
+            0.63,
+            0.798,
+            0.736
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_chart_12.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.19,
+            0.739,
+            0.796,
+            0.823
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_chart_13.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.19,
+            0.831,
+            0.796,
+            0.915
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_chart_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.807,
+            0.932,
+            0.846,
+            0.95
+          ],
+          "content": "109 V"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

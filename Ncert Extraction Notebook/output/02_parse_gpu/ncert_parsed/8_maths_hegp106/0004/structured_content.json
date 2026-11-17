@@ -1,0 +1,212 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.585,
+            0.046,
+            0.863,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.127
+          ],
+          "content": "numbers could be any integers. Mathematical statements that express the equality of two algebraic expressions, such as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.408,
+            0.13,
+            0.589,
+            0.15
+          ],
+          "content": "a \\left( b + 8 \\right) = ab + 8a,",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.16,
+            0.659,
+            0.18
+          ],
+          "content": "( a + 1 )   ( b - 1 ) = a b + b - a - 1 ,   { \\mathrm { e t c . } } ,",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.184,
+            0.362,
+            0.204
+          ],
+          "content": "are called **identities.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.214,
+            0.847,
+            0.254
+          ],
+          "level": 2,
+          "content": "？ By how much will the product of two numbers change if one of the numbers is increased by m and the other by n?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.257,
+            0.848,
+            0.295
+          ],
+          "content": "If a and b are the initial numbers being multiplied, they become $a + m$ and $b + n$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.299,
+            0.67,
+            0.349
+          ],
+          "content": "\\begin{aligned}\\left( a + m \\right) \\left( b + n \\right) &= (a + m)b + (a + m)n \\\\&= ab + mb + an + mn.\\end{aligned}",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.354,
+            0.439,
+            0.372
+          ],
+          "content": "The increase is $a n + b m + m n$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.372,
+            0.849,
+            0.411
+          ],
+          "content": "Notice that the product is the sum of the product of each term of $( a + m )$ with each term of $( b + n )$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.268,
+            0.423,
+            0.721,
+            0.493
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18,
+            0.519,
+            0.585,
+            0.539
+          ],
+          "content": "This identity can be visualised as follows —"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.217,
+            0.54,
+            0.743,
+            0.85
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.509,
+            0.858,
+            0.647,
+            0.877
+          ],
+          "content": "\\left( a + m \\right) \\left( b + n \\right)",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.915,
+            0.919,
+            0.937
+          ],
+          "content": "139"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

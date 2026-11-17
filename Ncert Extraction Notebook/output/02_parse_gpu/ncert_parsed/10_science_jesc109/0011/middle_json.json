@@ -1,0 +1,627 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.308,
+            0.089,
+            0.441,
+            0.105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.306,
+            0.105,
+            0.9,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A convex mirror used for rear-view on an automobile has a radius of curvature of 3.00 m. If a bus is located at 5.00 m from this mirror, find the position, nature and size of the image.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.307,
+            0.164,
+            0.397,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.308,
+            0.181,
+            0.618,
+            0.198
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Radius of curvature,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = + \\: 3 . 0 0"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m;",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.308,
+            0.198,
+            0.617,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Object-distance, u = – 5.00 m;",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.308,
+            0.215,
+            0.546,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Image-distance,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v = 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.308,
+            0.231,
+            0.546,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Height of the image, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime }   = 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.308,
+            0.254,
+            0.9,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Focal length, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = R / 2 = + \\frac{3.00   m }{2} = + 1.50"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m",
+              "styles": [
+                "bold",
+                "underline"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " (as the principal focus of "
+            },
+            {
+              "type": "text",
+              "content": "a convex mirror is behind the mirror)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.308,
+            0.313,
+            0.461,
+            0.349
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\frac { 1 } { v } }   +   { \\frac { 1 } { u } } = { \\frac { 1 } { f } }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.309,
+            0.356,
+            0.748,
+            0.443
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "\\frac{1}{v}=\\frac{1}{f}-\\frac{1}{u}=+\\frac{1}{1.50}-\\frac{1}{(-5.00)}=\\frac{1}{1.50}+\\frac{1}{5.00}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.308,
+            0.45,
+            0.511,
+            0.484
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "v = \\frac{+7.50}{6.50} = +1.15   m"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.307,
+            0.486,
+            0.713,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The image is 1.15 m at the back of the mirror.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.307,
+            0.508,
+            0.674,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Magnification,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m = \\frac{h'}{h} = - \\frac{v}{u} = - \\frac{1.15   m }{-5.00   m }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "=",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " + 0.23"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.306,
+            0.567,
+            0.875,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The image is virtual, erect and smaller in size by a factor of 0.23.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.307,
+            0.602,
+            0.441,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.306,
+            0.618,
+            0.899,
+            0.686
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An object, 4.0 cm in size, is placed at 25.0 cm in front of a concave mirror of focal length 15.0 cm. At what distance from the mirror should a screen be placed in order to obtain a sharp image? Find the nature and the size of the image.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.308,
+            0.692,
+            0.397,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.308,
+            0.709,
+            0.541,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Object-size, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = + 4.0\\  cm ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.308,
+            0.726,
+            0.586,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Object-distance, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u = - 25.0\\  cm ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.308,
+            0.742,
+            0.547,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Focal length, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f = -15.0    cm ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.308,
+            0.76,
+            0.514,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Image-distance, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "v = 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.308,
+            0.776,
+            0.469,
+            0.792
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Image-size, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h ^ { \\prime }   = 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.308,
+            0.792,
+            0.458,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Eq. (10.1):",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.318,
+            0.815,
+            0.414,
+            0.851
+          ],
+          "image_path": "images/page_10_equation_23.jpg",
+          "content": "{ \\frac { 1 } { v } } + { \\frac { 1 } { u } } = { \\frac { 1 } { f } }"
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.307,
+            0.861,
+            0.731,
+            0.897
+          ],
+          "image_path": "images/page_10_equation_24.jpg",
+          "content": "\\frac{1}{v}=\\frac{1}{f}-\\frac{1}{u}=\\frac{1}{-15.0}-\\frac{1}{-25.0}=-\\frac{1}{15.0}+\\frac{1}{25.0}"
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 26,
+          "bbox": [
+            0.089,
+            0.917,
+            0.125,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "144"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

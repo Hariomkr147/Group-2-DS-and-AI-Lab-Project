@@ -1,0 +1,193 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.689,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": "Fractions in Disguise"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.101,
+            0.795,
+            0.152
+          ],
+          "content": "More generally, y% of some value, say 80, is given by $\\frac{y}{100} \\times 80.$ We can also say that 45% of some value, say z, is given by ${ \\frac { 4 5 } { 1 0 0 } } \\times z .$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.178,
+            0.456,
+            0.201
+          ],
+          "level": 2,
+          "content": "Free-hand Computations"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.208,
+            0.787,
+            0.309
+          ],
+          "content": "We just calculated 25% of 120. Is 25% the same as $\\frac { 1 } { 4 }$ <sup>th</sup> (a quarter)? Suppose we want to find 25% of 40. Is it the same as $\\frac { 1 } { 4 }$ <sup>th</sup> of 40? Yes, since 25 is $\\frac { 1 } { 4 }$ th (a quarter) of 100 $\\left( { \\frac { 2 5 } { 1 0 0 } } = { \\frac { 1 } { 4 } } \\right)$ Therefore 25% of $40=\\frac{25}{100}\\times40$ is the same as ${ \\frac { 1 } { 4 } } \\times 4 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.316,
+            0.846,
+            0.357
+          ],
+          "content": "？ Try to calculate (without using pen and paper) the indicated percentages of the values shown in the table below. Write your answers in the table."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.208,
+            0.371,
+            0.789,
+            0.617
+          ],
+          "content": "|  | 100 | 200 | 50 | 80 | 10 | 35 | 287 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 25% | 25 |  |  |  |  |  |  |\n| 10% |  |  |  |  |  |  |  |\n| 20% |  |  |  |  |  |  |  |\n| 5% |  |  |  |  |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.632,
+            0.799,
+            0.673
+          ],
+          "content": "? How did you find these values? Discuss the methods with the class. Do you find anything interesting in the table?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.675,
+            0.802,
+            0.733
+          ],
+          "content": "You may have noticed that 20% of a value is double that of 10% of the same value. This will always happen as 20% (20 parts out of 100) is twice that of 10% (10 parts out of 100)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.643,
+            0.902,
+            0.699
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.741,
+            0.845,
+            0.781
+          ],
+          "level": 2,
+          "content": "？ Using this understanding, mentally calculate how much 40% of the values in the table above would be."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.784,
+            0.841,
+            0.804
+          ],
+          "content": "What relationship do you observe among 20%, 5% and 25% of a value?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.802,
+            0.845,
+            0.841
+          ],
+          "content": "It appears that (20% of y) + (5% of y) = 25% of y. We can verify that this property always holds:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.839,
+            0.642,
+            0.87
+          ],
+          "content": "{ \\Big ( } { \\frac { 2 0 } { 1 0 0 } } \\times y { \\Big ) } + { \\Big ( } { \\frac { 5 } { 1 0 0 } } \\times y { \\Big ) } = { \\Big ( } { \\frac { 2 5 } { 1 0 0 } } \\times y { \\Big ) } .",
+          "image_source": "images/page_6_equation_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.882,
+            0.913,
+            0.903,
+            0.935
+          ],
+          "content": "7"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

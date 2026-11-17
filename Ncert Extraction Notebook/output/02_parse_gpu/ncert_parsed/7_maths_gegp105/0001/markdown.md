@@ -1,0 +1,19 @@
+# PARALLEL AND 5 INTERSECTING LINES
+
+0774CH05
+
+## 5.1 Across the Line
+
+Take a piece of square paper and fold it in different ways. Now, on the creases formed by the folds, draw lines using a pencil and a scale. You will notice different lines on the paper. Take any pair of lines and observe their relationship with each other. Do they meet? If they do not meet within the paper, do you think they would meet if they were extended beyond the paper?
+
+![](images/page_0_image_4.jpg)
+
+Fig. 5.1
+
+In this chapter, we will explore the relationship between lines on a **plane surface**. The table top, your piece of paper, the blackboard, and the bulletin board are all examples of plane surfaces.
+
+Let us observe a pair of lines that meet each other. You will notice that they meet at a point. When a pair of lines meet each other at a point on a plane surface, we say that the lines **intersect** each other. Let us observe what happens when two lines intersect.
+
+## How many angles do they form?
+
+In Fig. 5.2, where line l intersects line m, we can see that four angles are formed.

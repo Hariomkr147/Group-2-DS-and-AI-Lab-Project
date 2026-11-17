@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.44,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Orienting Yourself: The Use of Coordinates"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.856,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.159,
+            0.108,
+            0.884,
+            0.149
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z The coordinates of a point on the x-axis are of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , 0 )"
+            },
+            {
+              "type": "text",
+              "content": " , and those of the points on the y-axis are of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 0 , y )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.158,
+            0.157,
+            0.606,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z The coordinates of the origin are (0, 0)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.159,
+            0.186,
+            0.885,
+            0.248
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z The coordinates of a point are of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( + , + )"
+            },
+            {
+              "type": "text",
+              "content": " in the first quadrant, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( - , + )"
+            },
+            {
+              "type": "text",
+              "content": " in the second quadrant, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( - , - )"
+            },
+            {
+              "type": "text",
+              "content": " in the third quadrant and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( + , - )"
+            },
+            {
+              "type": "text",
+              "content": " in the fourth quadrant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.159,
+            0.256,
+            0.748,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = y ,"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) = ( y , x )"
+            },
+            {
+              "type": "text",
+              "content": " . If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\neq y"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y ) \\neq ( y , x )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.159,
+            0.285,
+            0.883,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z The distance between points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { \\mathrm { { } _ { 1 } } } , y )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { _ 2 } , y )"
+            },
+            {
+              "type": "text",
+              "content": " is the absolute value "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mathbf { X } _ { 2 } \\mathbf { - X } _ { 1 } |"
+            },
+            {
+              "type": "text",
+              "content": " of the difference between "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { 2 ^ { \\prime } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.158,
+            0.335,
+            0.883,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z The distance between points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x , y _ { _ 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " is the absolute value "
+            },
+            {
+              "type": "equation_inline",
+              "content": "| \\mathrm { y _ { 2 } } \\mathrm { - y _ { 1 } } |"
+            },
+            {
+              "type": "text",
+              "content": " of the difference between "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y _ { 2 ^ { \\prime } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.159,
+            0.39,
+            0.883,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "z By the Baudhāyana–Pythagoras Theorem, the distance between points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { \\mathrm { { } _ { 1 } } } , y _ { \\mathrm { { } _ { 1 } } } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { \\mathrm { { } _ { 2 } } } , y _ { \\mathrm { { } _ { 2 } } } )"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{ \\left( x_{2} - x_{1} \\right)^{2} + \\left( y_{2} - y_{1} \\right)^{2} }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

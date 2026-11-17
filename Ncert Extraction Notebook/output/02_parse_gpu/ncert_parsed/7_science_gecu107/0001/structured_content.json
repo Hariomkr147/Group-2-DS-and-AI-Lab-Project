@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.003,
+            0.0,
+            0.25,
+            0.214
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_0.jpg"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.316,
+            0.07,
+            0.652,
+            0.154
+          ],
+          "level": 1,
+          "content": "Heat Transfer in Nature"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.764,
+            0.0,
+            0.998,
+            0.215
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.199,
+            0.744,
+            0.312
+          ],
+          "content": "Pema and her brother Palden reside in Gangtok. On a cold winter evening, they are sitting around a fireplace. Palden shares his experiences of visiting Kerala during the winter vacation. He says that compared to Gangtok, winter in Kerala is comparatively warm and humid. Both Pema and Palden are curious about why some places are so cold and others quite hot."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.771,
+            0.199,
+            0.889,
+            0.29
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.808,
+                0.291,
+                0.854,
+                0.3
+              ],
+              "content": "0777CH07"
+            }
+          ],
+          "image_source": "images/page_0_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.313,
+            0.744,
+            0.444
+          ],
+          "content": "Hearing them express their curiosity, their grandfather, a retired science teacher, says, “Kerala is closer to the equator than Sikkim and it also has a long coastline, which results in warmer and more humid weather conditions”. Palden replies, “Yes, we learnt in Grade 6 Science and Social Science that for us on the Earth, the Sun is the main source of heat and light, and around the equator, the climate is generally hot”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.444,
+            0.744,
+            0.557
+          ],
+          "content": "As they are talking, Pema is keenly observing her grandmother cooking thukpa (a traditional Sikkimese dish) in a large metal pan. Pema asks, “Why are cooking utensils generally made of metals?” Palden immediately responds that they had studied in the chapter ‘The World of Metals and Non-metals’ that such materials are good conductors of heat."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.0,
+            0.565,
+            1.0,
+            1.0
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_8.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-04-03T16:53:53+05:30",
+      "modified_at": "2026-03-27T13:54:26+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

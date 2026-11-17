@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.64,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Constructions and Tilings"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.086,
+            0.576,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we get these different shapes? Try!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.113,
+            0.705,
+            0.172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One way is to choose two other points C and D such that CX = CY = DX = DY. An eye of a different shape can be drawn using these points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.113,
+            0.179,
+            0.644,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Will C and D lie on the perpendicular bisector AB?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.723,
+            0.079,
+            0.847,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.723,
+                0.079,
+                0.847,
+                0.286
+              ],
+              "image_path": "images/page_3_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.206,
+            0.707,
+            0.304
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The points C and D are at the same distance from both X and Y. We have just seen that joining any two such points gives the perpendicular bisector of XY. Since XY has only one perpendicular bisector, which is the line AB, the points C and D must lie on the line AB."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.311,
+            0.848,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Justify the following statement using the facts that we have established. Any point that has the same distance from X and Y lies on the perpendicular bisector of XY."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.375,
+            0.848,
+            0.435
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, eyes of different shapes can be drawn by suitably choosing different pairs of points on the perpendicular bisector as centres to construct the upper and lower arcs of the eyes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.153,
+            0.451,
+            0.63,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Construction of Perpendicular Bisector"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.476,
+            0.598,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7 Given a line segment XY, how do we draw its perpendicular bisector using only an unmarked ruler and a compass?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.54,
+            0.599,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that joining any two points — one above XY and one below — that are at equal distances from X and Y, gives the perpendicular bisector of XY. This gives a method to construct the perpendicular bisector."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.153,
+            0.66,
+            0.597,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Taking some fixed radius, from X and then Y, construct two sufficiently long arcs above XY. Name the point where the arcs meet as A."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.612,
+            0.486,
+            0.846,
+            0.735
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.612,
+                0.486,
+                0.846,
+                0.735
+              ],
+              "image_path": "images/page_3_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.349,
+            0.754,
+            0.406,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.349,
+                0.754,
+                0.406,
+                0.801
+              ],
+              "image_path": "images/page_3_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.27,
+            0.829,
+            0.481,
+            0.845
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "X Y"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.807,
+            0.932,
+            0.845,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "139"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

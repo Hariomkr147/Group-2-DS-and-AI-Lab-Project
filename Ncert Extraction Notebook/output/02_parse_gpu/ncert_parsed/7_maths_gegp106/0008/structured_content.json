@@ -1,0 +1,266 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.046,
+            0.367,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.086,
+            0.848,
+            0.126
+          ],
+          "content": "？ Make a couple of questions like this on your own and challenge your peers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.136,
+            0.488,
+            0.157
+          ],
+          "content": "Try solving the problem below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.164,
+            0.627,
+            0.204
+          ],
+          "content": "You might have realised that it is not possible to find a solution for this grid. Why is this the case?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.214,
+            0.627,
+            0.306
+          ],
+          "content": "The smallest sum possible is $6 = 1 + 2 + 3$ . The largest sum possible is $24 = 9 + 8 + 7.$ . Clearly, any number in a circle cannot be less than 6 or greater than 24. The grid has sums 5 and 26. Therefore, this is impossible!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.647,
+            0.136,
+            0.854,
+            0.282
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.306,
+            0.586,
+            0.437
+          ],
+          "content": "In the earlier grids which we solved, Kishor noticed that the sum of all the numbers in the circles was always 90. Also, Vidya observed that the sum of the circled numbers for all three rows, or for all three columns, was always 45. Check if this is true in the previous grids you have solved."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.61,
+            0.289,
+            0.859,
+            0.489
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.63,
+            0.307,
+            0.777,
+            0.364
+          ],
+          "content": "The 3 row sums added together gives 45! So does adding the column sums."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.445,
+            0.585,
+            0.485
+          ],
+          "level": 2,
+          "content": "Why should the row sums and column sums always add to 45?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.495,
+            0.587,
+            0.588
+          ],
+          "content": "From this grid, we can see that all the row sums added together will be the same as the sum of the numbers 1 – 9. This can be seen for column sums as well. The sum of the numbers 1 – 9 is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.197,
+            0.592,
+            0.538,
+            0.611
+          ],
+          "content": "1+2+3+4+5+6+7+8+9=45.",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.621,
+            0.503,
+            0.86,
+            0.649
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.616,
+            0.585,
+            0.709
+          ],
+          "content": "A square grid of numbers is called a **magic square** if each row, each column and each diagonal, add up to the same number. This number is called the **magic sum**. Diagonals are shown in the picture."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.708,
+            0.693,
+            0.819
+          ],
+          "content": "Trying to create a magic square by randomly filling the grid with numbers may be difficult! This is because there are a large number of ways of filling a 3 × 3 grid using the numbers 1 – 9 without repetition. In fact, it can be found that there are exactly 3,62,880 such ways. Surprisingly, the number of ways to fill in the grid can be"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.709,
+            0.705,
+            0.845,
+            0.809
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.818,
+            0.846,
+            0.837
+          ],
+          "continues_prev": true,
+          "content": "found without listing all of them. We will see in later years how to do this."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.837,
+            0.846,
+            0.875
+          ],
+          "content": "Instead, we should proceed systematically to make a magic square. For this, let us ask ourselves some questions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.879,
+            0.705,
+            0.899
+          ],
+          "content": "1. What can the magic sum be? Can it be any number?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.155,
+            0.938,
+            0.192,
+            0.955
+          ],
+          "content": "134"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

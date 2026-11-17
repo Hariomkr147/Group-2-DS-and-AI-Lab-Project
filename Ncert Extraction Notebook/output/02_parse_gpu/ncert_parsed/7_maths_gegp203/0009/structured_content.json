@@ -1,0 +1,287 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.091,
+            0.464,
+            0.113
+          ],
+          "level": 2,
+          "content": "3.2 Least, but not Last!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.122,
+            0.146,
+            0.146
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.124,
+            0.847,
+            0.202
+          ],
+          "content": "？ Anshu and Guna make torans out of strips of cloth. Multiple strips are placed one next to another to make a toran. Anshu uses strips of length 6 cm and Guna uses strips of 8 cm length. If both have to make torans of the same length, what is the smallest possible length, the torans could be?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.202,
+            0.808,
+            0.22
+          ],
+          "content": "What is the length of the shortest toran that they can both make?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.221,
+            0.844,
+            0.239
+          ],
+          "content": "Anshu uses cloth strips of 6 cm each. Any toran he makes will be a"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.24,
+            0.57,
+            0.296
+          ],
+          "content": "multiple of 6. So, the length of the toran could be 6, 12, 18, 24, 30, 36, 42, 48, 54 cm, and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.297,
+            0.57,
+            0.373
+          ],
+          "content": "Similarly, any toran Guna makes should be a multiple of 8. So, the length of the toran he makes could be 8, 16, 24, 32, 40, 48, 56, 64, 72 cm, and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.374,
+            0.571,
+            0.411
+          ],
+          "content": "From this, we can see that if both have to make torans of the same length, the length"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.588,
+            0.249,
+            0.899,
+            0.399
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.412,
+            0.676,
+            0.43
+          ],
+          "content": "of the toran should be a common multiple of 6 and 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.431,
+            0.845,
+            0.487
+          ],
+          "content": "From the two lists, we can see that 24 and 48 are two of the common multiples of 6 and 8. So, 24 cm and 48 cm are lengths of toran that Anshu and Guna can both stitch."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.488,
+            0.845,
+            0.544
+          ],
+          "content": "24 is the smallest among them. So, 24 cm is the length of the shortest toran that both can stitch. 24 is the lowest number among all the common multiples of 6 and 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.545,
+            0.845,
+            0.564
+          ],
+          "content": "What about the largest common multiple? Does such a number exist?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.575,
+            0.598,
+            0.71
+          ],
+          "content": "A sweet shop gives out free gajak to school children on Mondays. Today is a Monday and Kabamai enjoyed eating the gajak. But she visits the sweet shop once every 10 days. When is the next time she would be able to get free gajak from Sweet shop? (Answer in number of days.)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.611,
+            0.57,
+            0.842,
+            0.676
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.613,
+                0.684,
+                0.839,
+                0.714
+              ],
+              "content": "Gajak is a sweet made from sesame seeds, jaggery and ghee"
+            }
+          ],
+          "image_source": "images/page_8_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.158,
+            0.728,
+            0.224,
+            0.772
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.233,
+            0.739,
+            0.823,
+            0.773
+          ],
+          "content": "As we saw before, imagining or visualising the scenario helped us to see that it can be solved using multiples of the strips’ lengths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.795,
+            0.844,
+            0.832
+          ],
+          "content": "Since the shop gives free sweets every Monday, it will give free sweets again after"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.285,
+            0.833,
+            0.71,
+            0.852
+          ],
+          "content": "7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, ... days."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.857,
+            0.392,
+            0.877
+          ],
+          "content": "These are multiples of 7."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "55"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

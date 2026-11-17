@@ -1,0 +1,515 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.319,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "ARITHMETIC PROGRESSIONS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "61"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.139,
+            0.899,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is an AP as the difference between the consecutive terms in the list is 80, i.e., d = 80. Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 8 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.186,
+            0.698,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " to find the interest at the end of 30 years, we shall find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 3 0 ^ { \\circ } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.215,
+            0.155,
+            0.233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.312,
+            0.214,
+            0.732,
+            0.235
+          ],
+          "image_path": "images/page_12_equation_5.jpg",
+          "content": "a_{30}=a+(30-1)d=80+29\\times80=2400"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.242,
+            0.602,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " the interest at the end of 30 years will be ` 2400."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.275,
+            0.902,
+            0.336
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 10 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In a flower bed, there are 23 rose plants in the first row, 21 in the second, 19 in the third, and so on. There are 5 rose plants in the last row. How many rows are there in the flower bed?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.095,
+            0.343,
+            0.791,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The number of rose plants in the 1st, 2nd, 3rd, . . ., rows are :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.415,
+            0.369,
+            0.584,
+            0.388
+          ],
+          "image_path": "images/page_12_equation_9.jpg",
+          "content": "2 3 , 2 1 , 1 9 , \\ldots , 5"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.395,
+            0.783,
+            0.415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It forms an AP (Why?). Let the number of rows in the flower bed be n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.422,
+            0.155,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.215,
+            0.422,
+            0.575,
+            0.441
+          ],
+          "image_path": "images/page_12_equation_12.jpg",
+          "content": "a = 23, \\quad d = 21 - 23 = -2, \\quad a_{n} = 5"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.449,
+            0.138,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.308,
+            0.449,
+            0.498,
+            0.468
+          ],
+          "image_path": "images/page_12_equation_14.jpg",
+          "content": "a_{n} = a + (n - 1)   d"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.098,
+            0.474,
+            0.194,
+            0.493
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.318,
+            0.475,
+            0.531,
+            0.493
+          ],
+          "image_path": "images/page_12_equation_16.jpg",
+          "content": "5 = 23 + (n - 1)( - 2)"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.098,
+            0.502,
+            0.139,
+            0.519
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.288,
+            0.501,
+            0.481,
+            0.519
+          ],
+          "image_path": "images/page_12_equation_18.jpg",
+          "content": "-18 = (n - 1)(-2)"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.528,
+            0.139,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.318,
+            0.528,
+            0.394,
+            0.545
+          ],
+          "image_path": "images/page_12_equation_20.jpg",
+          "content": "n = \\: 1 0"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.096,
+            0.553,
+            0.481,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, there are 10 rows in the flower bed."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 22,
+          "bbox": [
+            0.298,
+            0.573,
+            0.368,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 22,
+              "bbox": [
+                0.298,
+                0.573,
+                0.368,
+                0.616
+              ],
+              "image_path": "images/page_12_image_22.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 23,
+          "bbox": [
+            0.409,
+            0.599,
+            0.589,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISE 5.2"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.125,
+            0.629,
+            0.899,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Fill in the blanks in the following table, given that a is the first term, d the common difference and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " the nth term of the AP:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 25,
+          "bbox": [
+            0.178,
+            0.681,
+            0.739,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 25,
+              "bbox": [
+                0.178,
+                0.681,
+                0.739,
+                0.874
+              ],
+              "image_path": "images/page_12_table_25.jpg",
+              "content": "<table><tbody><tr><td></td><td>a</td><td>d</td><td>n</td><td>a<sub>n</sub></td></tr><tr><td>(i)</td><td>7</td><td>3</td><td>8</td><td>. . .</td></tr><tr><td>(ii)</td><td>- 18</td><td>. . .</td><td>10</td><td>0</td></tr><tr><td>(iii)</td><td>. . .</td><td>- 3</td><td>18</td><td>- 5</td></tr><tr><td>(iv)</td><td>- 18.9</td><td>2.5</td><td>. . .</td><td>3.6</td></tr><tr><td>(v)</td><td>3.5</td><td>0</td><td>105</td><td>. . .</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 26,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:00+05:30",
+      "modified_at": "2026-04-07T17:15:05+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 55,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.046,
+            0.367,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.362,
+            0.086,
+            0.631,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.362,
+                0.086,
+                0.631,
+                0.4
+              ],
+              "image_path": "images/page_2_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.43,
+            0.849,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As seen here, when exact measures are required we can make use of smaller units of measurement."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.492,
+            0.381,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2 A Tenth Part"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.535,
+            0.847,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The length of the pencil shown in the figure below is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ 3 \\frac { 4 } { 1 0 }"
+            },
+            {
+              "type": "text",
+              "content": " units, which can also be read as 3 units and four one-tenths, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 3 \\times 1 ) + \\left( 4 \\times { \\cfrac { 1 } { 1 0 } } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " units."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.308,
+            0.606,
+            0.692,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.308,
+                0.606,
+                0.692,
+                0.855
+              ],
+              "image_path": "images/page_2_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.857,
+            0.847,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This length is the same as 34 one-tenths units because 10 one-tenths units make one unit."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.16,
+            0.939,
+            0.187,
+            0.954
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "48"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,29 @@
+Under special conditions, it might also fall as hail or snow. Aavi enjoys the rain and creates a poem. You can complete the poem and present it in your class.
+
+**I wonder, oh! I wonder so, Which path does water choose to go? I wonder, oh! I wonder so, When does it snow? I wonder, oh! I got a wonder call, How does rain fall?**
+
+**I wonder, ponder and dream each day, As water's journey takes its way.**
+
+![](images/page_15_image_5.jpg)
+
+Activity 8.10 demonstrates the role of dust particles in the formation of clouds.
+
+![](images/page_15_image_7.jpg)
+
+## Activity 8.10: Let us engage in a group activity
+
+## Caution Handle burning paper carefully.
+
+ Take an empty discarded one litre plastic bottle. Pour about one cup of water into it.
+
+ Close the lid tightly. Now quickly squeeze and release the bottle continuously for about 2–3 minutes. Observe the space above the water in the bottle.
+
+ Repeat the same activity after adding a small burnt piece of newspaper into the water.
+
+ What will you observe?
+
+In this case, you will observe some haziness (clouds) above the water in the bottle.
+
+ The burnt newspaper provides very small invisible dust particles, around which water vapour condenses and forms clouds.
+
+Let us perform Activity 8.11 to represent our understanding of how water changes its state and its movement.

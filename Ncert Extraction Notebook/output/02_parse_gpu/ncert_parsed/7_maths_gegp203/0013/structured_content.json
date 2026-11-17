@@ -1,0 +1,298 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.847,
+            0.067
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.847,
+            0.146
+          ],
+          "content": "If n is a number, then any multiple of n can be written as a positive integer multiplied by n. For example, if we take n and 5n (short for 5 × n), then 5n is a multiple of n, and n is a factor of 5n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.146,
+            0.417,
+            0.166
+          ],
+          "content": "The HCF of n and 5n = n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.174,
+            0.847,
+            0.215
+          ],
+          "content": "？ For number pairs satisfying this property (i.e., one of the numbers is the HCF),"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.22,
+            0.692,
+            0.241
+          ],
+          "content": "(a) if m is a number, what could be the other number?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.245,
+            0.695,
+            0.265
+          ],
+          "content": "(b) if 7k is a number, what could be the other number?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.275,
+            0.316,
+            0.3
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.303,
+            0.804,
+            0.38
+          ],
+          "content": "1. Make a general statement about the HCF for the following pairs of numbers. You could consider examples before coming up they hold."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.809,
+            0.302,
+            0.906,
+            0.381
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.385,
+            0.546,
+            0.405
+          ],
+          "content": "(a) Two consecutive even numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.409,
+            0.537,
+            0.43
+          ],
+          "content": "(b) Two consecutive odd numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.435,
+            0.428,
+            0.454
+          ],
+          "content": "(c) Two even numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.459,
+            0.495,
+            0.479
+          ],
+          "content": "(d) Two consecutive numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.484,
+            0.468,
+            0.503
+          ],
+          "content": "(e) Two co-prime numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.504,
+            0.536,
+            0.524
+          ],
+          "content": "Share your observations with the class."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.534,
+            0.791,
+            0.554
+          ],
+          "content": "2. The LCM of 3 and 24 is 24 (it is one of the two given numbers)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.558,
+            0.846,
+            0.598
+          ],
+          "content": "(a) Find more such number pairs where the LCM is one of the two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.602,
+            0.846,
+            0.643
+          ],
+          "content": "(b) Make a general statement about such numbers. Describe such number pairs using algebra."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.646,
+            0.848,
+            0.706
+          ],
+          "content": "3. Make a general statement about the LCM for the following pairs of numbers. You could consider examples before coming up with these general statements. Look for possible explanations of why they hold."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.709,
+            0.42,
+            0.73
+          ],
+          "content": "(a) Two multiples of 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.735,
+            0.545,
+            0.754
+          ],
+          "content": "(b) Two consecutive even numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.76,
+            0.495,
+            0.779
+          ],
+          "content": "(c) Two consecutive numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.785,
+            0.468,
+            0.805
+          ],
+          "content": "(d) Two co-prime numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.813,
+            0.847,
+            0.873
+          ],
+          "content": "？ What happens to the HCF of two numbers if both numbers are doubled? Take some pairs of numbers and explore. Are you able to see why the HCF will also double?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": "59"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

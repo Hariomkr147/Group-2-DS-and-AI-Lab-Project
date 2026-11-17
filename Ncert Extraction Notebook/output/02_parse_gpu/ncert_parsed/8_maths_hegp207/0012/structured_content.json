@@ -1,0 +1,243 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.815,
+            0.049,
+            0.862,
+            0.065
+          ],
+          "content": "Area"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.81,
+            0.129
+          ],
+          "content": "7. If M and N are the midpoints of XY and XZ, what fraction of the area of ∆XYZ is the area of ∆XMN? [**Hint:** Join NY]"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.37,
+            0.132,
+            0.591,
+            0.281
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_2.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.812,
+            0.09,
+            0.914,
+            0.144
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.294,
+            0.814,
+            0.373
+          ],
+          "content": "8. Gopal needs to carry water from the river to his water tank. He starts from his house. What is the shortest path he can take from his house to the river and then to the water tank? Roughly recreate the map in your notebook and trace the shortest path."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.465,
+            0.395,
+            0.513,
+            0.412
+          ],
+          "level": 2,
+          "content": "River"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.289,
+            0.904,
+            0.364
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.512,
+            0.437,
+            0.602,
+            0.455
+          ],
+          "level": 2,
+          "content": "Water tank"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.418,
+            0.47,
+            0.473,
+            0.496
+          ],
+          "level": 2,
+          "content": "House"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.505,
+            0.4,
+            0.53
+          ],
+          "level": 2,
+          "content": "Area of any Polygon"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.548,
+            0.677,
+            0.589
+          ],
+          "content": "？ How do we find the area of this quadrilateral? What measurements do we need for this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.591,
+            0.677,
+            0.65
+          ],
+          "content": "If we join BD, the quadrilateral ABCD gets divided into two triangles. By finding their areas, we can find the area of ABCD."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.68,
+            0.557,
+            0.889,
+            0.655
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.657,
+            0.568,
+            0.682
+          ],
+          "content": "？ How do we find the area of this pentagon?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.421,
+            0.692,
+            0.576,
+            0.808
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.82,
+            0.571,
+            0.844
+          ],
+          "content": "？ Can any polygon be divided into triangles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.845,
+            0.849,
+            0.904
+          ],
+          "content": "It can be seen that any polygon can be divided into triangles. Thus, by knowing how to compute the area of a triangle, we can find the area of any polygon."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.869,
+            0.912,
+            0.918,
+            0.936
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

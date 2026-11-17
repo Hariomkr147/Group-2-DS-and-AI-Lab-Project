@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "139"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.107,
+            0.886,
+            0.219
+          ],
+          "content": "If we imagine a perpendicular dropped from B to the base CD, its length (recall the Baudhāyana–Pythagoras theorem) is $\\sqrt{c^{2}-\\left ( b-a \\right ) ^{2} }$ Hence, the area is $( a + b ) h$ . We get exactly the same formula if we recall that the area of an isosceles trapezium is half the sum of the parallel sides times the distance between the parallel sides."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.238,
+            0.851,
+            0.262
+          ],
+          "level": 2,
+          "content": "Special Cases and Generalisation in Mathematics"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.276,
+            0.855,
+            0.333
+          ],
+          "content": "The notion of a ‘special case’ occurs often in higher mathematics. A special case results from a general result whenever we apply some extra condition. We list a few such examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.336,
+            0.855,
+            0.375
+          ],
+          "content": "The general result is also called a **generalisation** of the special case. The process of generalisation is an extremely important part of mathematics."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.378,
+            0.629,
+            0.398
+          ],
+          "content": "**Example:** A square is a special case of a rectangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.402,
+            0.854,
+            0.44
+          ],
+          "content": "So, the formula for the area of a square $( A = a ^ { 2 } )$ is a special case of the formula for the area of a rectangle $(A = ab)$ obtained by putting $b = a ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.444,
+            0.855,
+            0.482
+          ],
+          "content": "Similarly, the formula for the perimeter of a square is a special case of the formula for the perimeter of a rectangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.485,
+            0.853,
+            0.525
+          ],
+          "content": "**Example:** An isosceles right-angled triangle is a special case of a right-angled triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.528,
+            0.854,
+            0.567
+          ],
+          "content": "So, from any theorem about all right-angled triangles, we can extract a special case that applies to isosceles, right-angled triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.569,
+            0.855,
+            0.706
+          ],
+          "content": "Take a right-angled triangle ABC with $\\angle C = 90^{\\circ}$ ; then we have $a ^ { 2 } + b ^ { 2 } = c ^ { 2 }$ (this is the Baudhāyana–Pythagoras theorem). Let us take a special case of this with $a = b$ (this corresponds to the triangle being isosceles). We get $a ^ { 2 } \\quad + \\quad b ^ { 2 } \\quad = \\quad c ^ { 2 } ,$ i.e., $c^{2} = 2a^{2}$ and so $c = a { \\sqrt { 2 } }$ The general theorem $( a ^ { 2 } + b ^ { 2 } = c ^ { 2 } )$ has reduced to this special case $( c = a { \\sqrt { 2 } } )$ for isosceles right-angled triangles (with $a = b )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.708,
+            0.854,
+            0.729
+          ],
+          "content": "Here is another example. Compare the following identities from algebra:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.133,
+            0.733,
+            0.365,
+            0.763
+          ],
+          "content": "(a + b)^{2} = a^{2} + b^{2} + 2ab,",
+          "image_source": "images/page_21_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.773,
+            0.554,
+            0.805
+          ],
+          "content": "\\left(a+b+c\\right)^{2}=a^{2}+b^{2}+c^{2}+2ab+2bc+2ca.",
+          "image_source": "images/page_21_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.81,
+            0.856,
+            0.867
+          ],
+          "content": "Can you see that the first identity is a special case of the second one (put $c = 0$ in the second identity), and the second identity is a generalisation of the first one?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.87,
+            0.855,
+            0.909
+          ],
+          "content": "You will meet many examples of special cases and generalisation in later years."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

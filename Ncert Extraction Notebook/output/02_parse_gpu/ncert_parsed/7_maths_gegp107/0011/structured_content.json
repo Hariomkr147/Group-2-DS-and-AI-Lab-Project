@@ -1,0 +1,195 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.046,
+            0.364,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.848,
+            0.127
+          ],
+          "content": "Since BX = 4 cm, and the radius of the circle centred at B is 5 cm, it is clear that the circles will intersect each other at two points."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.18,
+            0.14,
+            0.845,
+            0.429
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.288,
+                0.432,
+                0.713,
+                0.448
+              ],
+              "content": "Fig. 7.5: Circles intersecting each other at two points"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.465,
+            0.848,
+            0.542
+          ],
+          "content": "What does this tell us about the existence of a triangle? The points A and B along with either of the points of intersection of the circles will give us the required triangle. Thus, there exists a triangle having sidelengths 4 cm, 5 cm and 8 cm."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.548,
+            0.293,
+            0.571
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.574,
+            0.847,
+            0.63
+          ],
+          "content": "1. Which of the following lengths can be the sidelengths of a triangle? Explain your answers. Note that for each set, the three lengths have the same unit of measure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.634,
+            0.63,
+            0.657
+          ],
+          "content": "(a) 2, 2, 5 (b) 3, 4, 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.659,
+            0.63,
+            0.68
+          ],
+          "content": "(c) 2, 4, 8 (d) 5, 5, 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.683,
+            0.663,
+            0.704
+          ],
+          "content": "(e) 10, 20, 25 (f) 10, 20, 35"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.707,
+            0.353,
+            0.728
+          ],
+          "content": "(g) 24, 26, 28"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.731,
+            0.848,
+            0.808
+          ],
+          "content": "We observe from the previous problems that **whenever there is a set of lengths satisfying the triangle inequality (each length < sum of the other two lengths), there is a triangle with those three lengths as sidelengths**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.815,
+            0.846,
+            0.856
+          ],
+          "content": "？ Will triangles always exist when a set of lengths satisfies the triangle inequality? How can we be sure?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.155,
+            0.938,
+            0.194,
+            0.955
+          ],
+          "content": "156"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

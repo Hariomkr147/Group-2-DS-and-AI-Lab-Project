@@ -1,0 +1,220 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.947,
+            0.05,
+            0.981,
+            0.069
+          ],
+          "content": "95"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.083,
+            0.743,
+            0.121
+          ],
+          "content": "Measure the temperature of soil and water every 5 minutes and record the data in Table 7.4."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.12,
+            0.162,
+            0.772,
+            0.345
+          ],
+          "content": "| S.No. | Time(min) | Temperatureofsoil (°C) | Temperature ofwater (°C) |\n| --- | --- | --- | --- |\n|  | 0 |  |  |\n| 2. | 5 |  |  |\n| 3. | 10 |  |  |\n| 4. | 15 |  |  |\n| 5. | 20 |  |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.127,
+                0.13,
+                0.664,
+                0.151
+              ],
+              "content": "Table 7.4: Temperature of soil and water when heated"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.128,
+                0.354,
+                0.619,
+                0.373
+              ],
+              "content": "Study the rise in temperature of soil and water."
+            }
+          ],
+          "image_source": "images/page_6_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.377,
+            0.743,
+            0.415
+          ],
+          "content": "Did the temperature rise by the same amount for both the soil and the water at the same time?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.418,
+            0.505,
+            0.437
+          ],
+          "content": "If not, which one got heated faster?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.44,
+            0.743,
+            0.478
+          ],
+          "content": "How much was the rise in temperature of the soil and the water in 20 minutes?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.48,
+            0.743,
+            0.537
+          ],
+          "content": "After 20 minutes, you will find that the temperature of the soil rises more than that of the water. This indicates that the soil heats up faster than water."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.538,
+            0.744,
+            0.577
+          ],
+          "content": "Does the soil also cool faster than water? After letting the soil and water get heated, bring the set-up indoors and let it cool for"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.576,
+            0.449,
+            0.632
+          ],
+          "content": "20 minutes. You will observe that the soil cools faster than water, just as it gets heated faster."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.633,
+            0.451,
+            0.853
+          ],
+          "content": "People living in coastal areas experience an interesting phenomenon caused by the heating and cooling of land and water at different rates. As the land gets heated faster than water during the day, it causes warm air above the land to rise. This causes cooler air to move from the sea towards the land. This movement of cooler air from the sea to the land is called **sea breeze**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.461,
+            0.582,
+            0.948,
+            0.815
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.636,
+                0.82,
+                0.825,
+                0.838
+              ],
+              "content": "Fig. 7.7(a): Sea breeze"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.853,
+            0.744,
+            0.911
+          ],
+          "content": "(Fig. 7.7a). Hence, in hot places, sea breeze relieves people from the heat. That is why, windows of the houses in coastal areas are placed facing the sea."
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.959,
+            0.119,
+            0.98,
+            0.279
+          ],
+          "content": "Heat Transfer in Nature"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-04-03T16:53:53+05:30",
+      "modified_at": "2026-03-27T13:54:26+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

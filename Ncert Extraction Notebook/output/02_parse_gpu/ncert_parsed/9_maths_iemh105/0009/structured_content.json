@@ -1,0 +1,209 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "100"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.477,
+            0.087
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.888,
+            0.205
+          ],
+          "content": "Where will your right hand be? It should be at D, should it not? That is because we assumed that angles ACB and DCF are equal, and you have not moved your hands. The distance between the ends of your arms must be the length of DE as well. Let us now explain why this is true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.21,
+            0.886,
+            0.25
+          ],
+          "content": "**Theorem 3:** Chords of a circle that subtend equal angles at the centre are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.254,
+            0.558,
+            0.276
+          ],
+          "content": "Let us draw the figure, as in Fig. 5.11."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.161,
+            0.3,
+            0.429,
+            0.495
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.263,
+                0.503,
+                0.341,
+                0.521
+              ],
+              "content": "Fig. 5.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_8_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.303,
+            0.733,
+            0.323
+          ],
+          "content": "**Given:** $\\angle ACB = \\angle DCE$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.329,
+            0.697,
+            0.349
+          ],
+          "content": "**To show:** AB = ED."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.491,
+            0.353,
+            0.877,
+            0.432
+          ],
+          "content": "**Why is this true?** We see that AC = BC = the radius of the circle. Likewise, EC = DC = the radius. So, AC = DC and BC = EC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.435,
+            0.877,
+            0.495
+          ],
+          "content": "Since, $\\angle ACB = \\angle DCE$ , by the SAS congruence, ∆ACB ≅ ∆DCE. Hence, AB = ED."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.374,
+            0.562,
+            0.622,
+            0.591
+          ],
+          "level": 2,
+          "content": "Exercise Set 5.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.616,
+            0.885,
+            0.658
+          ],
+          "content": "1. Show that the triangle formed by a chord and the centre of the circle is isosceles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.666,
+            0.886,
+            0.728
+          ],
+          "content": "2. Show that if two such isosceles triangles (occurring in the previous question) have equal base length, they are congruent to each other."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.752,
+            0.885,
+            0.776
+          ],
+          "level": 2,
+          "content": "5.5 Midpoints and Perpendicular Bisectors of Chords"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.785,
+            0.886,
+            0.866
+          ],
+          "content": "We will explore more properties of chords. Do we get something special when we draw a line segment from the centre of a circle to the midpoint of a chord? What if we draw the perpendicular bisector of a chord? Does it pass through a special point?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

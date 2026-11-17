@@ -1,0 +1,267 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.644,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Operations with Integers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.09,
+            0.846,
+            0.13
+          ],
+          "content": "？ Does the sign of the product change if we swap the multiplier and multiplicand?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.134,
+            0.846,
+            0.173
+          ],
+          "content": "If both are positive or both are negative, the product is positive before and after swapping. So the sign does not change in this case."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.173,
+            0.846,
+            0.211
+          ],
+          "content": "If one is positive and the other negative, the product is negative before and after swapping. So the sign does not change in this case either."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.212,
+            0.847,
+            0.269
+          ],
+          "content": "Hence, the product does not change when the multiplier and multiplicand are swapped, whatever their signs may be. Thus, multiplication is **commutative** for integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.271,
+            0.703,
+            0.292
+          ],
+          "content": "In general, for any two integers, a and $b ,$ we can say that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.436,
+            0.295,
+            0.561,
+            0.312
+          ],
+          "content": "a \\times b = b \\times a .",
+          "image_source": "images/page_11_equation_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.318,
+            0.847,
+            0.356
+          ],
+          "level": 2,
+          "content": "Negative Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.356,
+            0.848,
+            0.453
+          ],
+          "content": "Just like for addition and subtraction of integers, Brahmagupta in his Brāhmasphuṭasiddhānta (628 CE) also articulated explicit rules for integer multiplication and division. He used the notions of fortune (dhana) for positive values and debt (ṛṇa) for negative values. In his Brāhmasphuṭasiddhānta (18.30-32), Brahmagupta wrote:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.221,
+            0.456,
+            0.742,
+            0.476
+          ],
+          "content": "“The product or quotient of two fortunes is a fortune."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22,
+            0.477,
+            0.704,
+            0.496
+          ],
+          "content": "The product or quotient of two debts is a fortune."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22,
+            0.497,
+            0.776,
+            0.517
+          ],
+          "content": "The product or quotient of a debt and a fortune is a debt."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.221,
+            0.518,
+            0.786,
+            0.536
+          ],
+          "content": "The product or quotient of a fortune and a debt is a debt.”"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.538,
+            0.847,
+            0.596
+          ],
+          "content": "This represented the first time that rules for multiplication and division of positive and negative numbers were articulated, and was an important step in the development of arithmetic and algebra!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.599,
+            0.847,
+            0.676
+          ],
+          "content": "? **Example 1:** An exam has 50 multiple choice questions. 5 marks are given for every correct answer and 2 negative marks for every wrong answer. What are Mala’s total marks if she had 30 correct answers and 20 wrong answers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.679,
+            0.847,
+            0.738
+          ],
+          "content": "**Solution:** We use positive and negative integers. The mark for each correct answer is a positive integer 5 and for each wrong answer is a negative integer – 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.74,
+            0.524,
+            0.759
+          ],
+          "content": "Marks for 30 correct answers = 30 × 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.762,
+            0.545,
+            0.782
+          ],
+          "content": "Marks for 20 wrong answers = 20 × (– 2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.785,
+            0.847,
+            0.823
+          ],
+          "content": "Thus the arithmetic expression for 30 correct answers and 20 wrong answers is:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.414,
+            0.826,
+            0.583,
+            0.888
+          ],
+          "content": "\\begin{aligned}30 \\times 5 + 20 \\times (-2) & \\\\= 150 + (-40) & \\\\= 110. &\\end{aligned}",
+          "image_source": "images/page_11_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.89,
+            0.472,
+            0.909
+          ],
+          "content": "Mala got 110 marks in the exam."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": "35"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

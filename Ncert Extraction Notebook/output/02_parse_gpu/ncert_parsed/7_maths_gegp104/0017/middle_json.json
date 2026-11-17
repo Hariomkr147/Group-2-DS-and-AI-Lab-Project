@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.562,
+            0.047,
+            0.848,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Expressions Using Letter-Numbers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.088,
+            0.848,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us start with design C. It appears for the first time at position 3, the second time at position 6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.134,
+            0.617,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Where would design C appear for the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " time?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.166,
+            0.849,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can see that this design appears in positions that are multiples of 3. So the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " occurrence of Design C will be at position 3n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.11,
+            0.213,
+            0.848,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Similarly, find the formula that gives the position where the other Designs appear for the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.174,
+            0.262,
+            0.749,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The positions where B occurs are 2, 5, 8, 11, 14, and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.282,
+            0.848,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can see that the position of the nth appearance of Design B is one less than the position at which Design C appears for the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " time. Thus, the nth occurrence of Design B is at position:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.467,
+            0.343,
+            0.531,
+            0.36
+          ],
+          "image_path": "images/page_16_equation_8.jpg",
+          "content": "3 n - 1"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.365,
+            0.848,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, the expression describing the position at which the design A appears for the nth time is: 3n – 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11,
+            0.412,
+            0.847,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Given a position number can we find out the design that appears there? Which Design appears at Position 122?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.149,
+            0.462,
+            0.848,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the position is a multiple of 3, then clearly we have Design C. As seen earlier, if the position is one less than a multiple of 3, it has Design B, and if it is 2 less than a multiple of 3, then it has Design A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.11,
+            0.527,
+            0.847,
+            0.568
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can the remainder obtained by dividing the position number by 3 be used for this? Observe the table below."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 13,
+          "bbox": [
+            0.155,
+            0.577,
+            0.824,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 13,
+              "bbox": [
+                0.155,
+                0.577,
+                0.824,
+                0.694
+              ],
+              "image_path": "images/page_16_table_13.jpg",
+              "content": "<table><tbody><tr><td>Position no.</td><td>Quotient on division by 3</td><td>Remainder</td></tr><tr><td>99</td><td>33</td><td>0</td></tr><tr><td>122</td><td>40</td><td>2</td></tr><tr><td>148</td><td>49</td><td>1</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11,
+            0.714,
+            0.8,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use this to find what design appears at positions 99, 122, and 148."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.766,
+            0.432,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Patterns in a Calendar"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.149,
+            0.797,
+            0.848,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is the calendar of November 2024. Consider "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2"
+            },
+            {
+              "type": "text",
+              "content": " squares, as marked in the calendar. The numbers in this square show an interesting property."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.812,
+            0.938,
+            0.84,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "97"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

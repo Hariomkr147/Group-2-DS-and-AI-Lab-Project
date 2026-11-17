@@ -1,0 +1,188 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.406,
+            0.071,
+            0.813,
+            0.09
+          ],
+          "content": "How Quantities Combine: Understanding Data"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "17"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.11,
+            0.881,
+            0.151
+          ],
+          "content": "whether there are more male langurs or more female langurs? Or are they equal in number?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.303,
+            0.166,
+            0.74,
+            0.327
+          ],
+          "content": "|  | Male langurs | Female langurs | All langurs |\n| --- | --- | --- | --- |\n| Average weight | 16.5 kg | 13.8 kg | 14.925 kg |\n| Number of langurs |  |  | 60 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.351,
+            0.881,
+            0.39
+          ],
+          "content": "(i) Which of the following expression(s) describes the scenario?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.242,
+            0.401,
+            0.526,
+            0.442
+          ],
+          "content": "(a) $\\frac{16.5x + 13.8y}{x + y} = 14.925$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.242,
+            0.447,
+            0.544,
+            0.485
+          ],
+          "content": "(b) $\\frac{16.5x + 13.8y}{60} = -14.925$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.244,
+            0.491,
+            0.541,
+            0.529
+          ],
+          "content": "\\frac{16.5x + 13.8y}{2} = - 14.925",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.242,
+            0.536,
+            0.543,
+            0.576
+          ],
+          "content": "(d) $\\frac{16.5x + 13.8y}{16.5 + 13.8} = -14.925$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.584,
+            0.732,
+            0.604
+          ],
+          "content": "(ii) Find out how many male langurs are present."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.184,
+            0.604,
+            0.882,
+            0.66
+          ],
+          "content": "(iii) A female langur weighing 15.2 kg is admitted to the facility. What is the average weight of the female langurs after this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.185,
+            0.66,
+            0.881,
+            0.718
+          ],
+          "content": "(iv) Two male langurs weighing 16.9 kg and 16.1 kg are released from the facility. What is the average weight of the male langurs after this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.718,
+            0.882,
+            0.777
+          ],
+          "content": "(v) Now, suppose one of the male langurs lost 1 kg of weight. What is the average weight of all the male langurs after this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.786,
+            0.884,
+            0.847
+          ],
+          "content": "8. Dorjee has collected 1 litre of water from the Dead Sea! Using the information in the table, answer the following questions. A calculator can be used if necessary."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

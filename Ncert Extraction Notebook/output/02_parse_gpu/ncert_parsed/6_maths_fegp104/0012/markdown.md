@@ -1,0 +1,33 @@
+Prepare a pictograph using the symbol to represent 100 kites.
+
+Answer the following questions:
+
+a. How many symbols represent the kites that Rani purchased?
+
+b. Who purchased the maximum number of kites?
+
+c. Who purchased more kites, Jasmeet or Chaman?
+
+d. Rukhsana says Poonam Ben purchased more than double the number of kites that Rani purchased. Is she correct? Why?
+
+## 4.3 Bar Graphs
+
+Have you seen graphs like this on TV or in a newspaper?
+
+Like pictographs, such **bar graphs** can help us to quickly understand and interpret information, such as the highest value, the comparison of values of different categories, etc. However, when the amount of data is large, presenting it by a pictograph is not only time consuming but at times difficult too. Let us
+
+## The Number of Endangered Species is Rising
+
+Number of animal species on the IUCN Red List, by class
+
+![](images/page_11_chart_12.jpg)
+
+Source: https://www.statista.com/chart/17122/number-of-threatened-species-red-list/
+
+see how data can be presented instead using a bar graph.
+
+Let’s take the data collected by Lakhanpal earlier, regarding the number of students absent on one day in each class:
+
+| Class | I | II | III | IV | V | VI | VII | VIII |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| No. of students | 3 | 5 | 4 | 2 | 0 | 1 | 5 | 7 |

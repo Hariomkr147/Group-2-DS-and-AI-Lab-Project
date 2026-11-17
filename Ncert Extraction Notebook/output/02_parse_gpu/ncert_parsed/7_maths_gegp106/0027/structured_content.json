@@ -1,0 +1,181 @@
+{
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.108,
+            0.925,
+            0.148
+          ],
+          "content": "Magic square with numbers 2 – 10 can be created by adding 1 to each number of the magic square 1 – 9."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.418,
+            0.167,
+            0.625,
+            0.291
+          ],
+          "content": "| 9 | 2 | 7 |\n| --- | --- | --- |\n| 4 | 6 | 8 |\n| 5 | 10 | 3 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_26_table_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.313,
+            0.925,
+            0.353
+          ],
+          "content": "Magic square with numbers 3 – 11 can be created by adding 2 to each number of the magic square 1 – 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.355,
+            0.925,
+            0.395
+          ],
+          "content": "Magic square with numbers 9 – 17 can be created by adding 8 to each number of the magic square 1 – 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.407,
+            0.926,
+            0.509
+          ],
+          "content": "? **Choose any magic square that you have made so far using consecutive numbers. If m is the letter-number of the number in the centre, express how other numbers are related to m, how much more or less than m. [Hint: Remember, how we described a 2 × 2 grid of a calendar month in the Algebraic Expressions chapter].**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.103,
+            0.511,
+            0.925,
+            0.551
+          ],
+          "content": "**Ans:** Taking ‘m’ as the letter-number of the number in the centre and expressing other numbers in relation to ‘m’."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.404,
+            0.57,
+            0.638,
+            0.694
+          ],
+          "content": "| m+ 3 | m-4 | m+ 1 |\n| --- | --- | --- |\n| m-2 | m | m+ 2 |\n| m-1 | m+ 4 | m-3 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_26_table_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.717,
+            0.251,
+            0.736
+          ],
+          "level": 2,
+          "content": "Page No- 137"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.747,
+            0.299,
+            0.765
+          ],
+          "content": "？ **Figure it out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.768,
+            0.925,
+            0.807
+          ],
+          "content": "**1. Using this generalised form, find a magic square if the centre number is 25.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.811,
+            0.169,
+            0.827
+          ],
+          "content": "**Ans:**"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.426,
+            0.828,
+            0.616,
+            0.912
+          ],
+          "content": "| 28 | 21 | 26 |\n| --- | --- | --- |\n| 23 | 25 | 27 |\n| 24 | 29 | 22 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_26_table_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.515,
+            0.928,
+            0.528,
+            0.94
+          ],
+          "content": "8"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

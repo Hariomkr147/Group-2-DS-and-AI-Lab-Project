@@ -1,0 +1,37 @@
+![](images/page_3_image_0.jpg)
+
+The magnetic effect of electric current has many practical applications, such as in devices like electromagnets, electric bells, motors, fans, loudspeakers, and more.
+
+Can we use electric current to make a magnet?
+
+## 4.1.1 Electromagnets
+
+## Activity 4.2: Let us explore
+
+z Take around 50 cm long length of a flexible insulated wire, an iron nail, an electric cell, and few iron paper clips.
+
+z Tightly wrap the wire around the nail in the form of a coil, as shown in Fig. 4.2, and secure it with an adhesive tape.
+
+z Connect the ends of the wire to the cell. Take care to not connect the wires to the cell for more than a few seconds; otherwise, the cell may weaken quickly.
+
+![](images/page_3_image_10.jpg)
+
+z Bring the nail close to the iron paper clips and lift up. Do the clips hang to the ends of the nail?
+
+Fig. 4.2: Coil of wire connected with a cell
+
+Disconnect the wire from the cell to stop the flow of electric current in the wire. Do the clips fall down?
+
+When electric current flows through the coil, the clips cling to it. But when the current is stopped, the clips no longer cling to it. Let us now try to **investigate** these observations in detail through Activity 4.3.
+
+## Activity 4.3: Let us experiment
+
+z Take around 100 cm long flexible insulated wire, a piece of chart paper, an iron nail, an electric cell, two magnetic compasses, and few iron/steel paper clips.
+
+z Roll a piece of chart paper to make a cylinder of diameter roughly equal to the width of a pencil. Secure it with an adhesive tape.
+
+z Tightly wind around 50 turns of the insulated wire on the cylinder to form a cylindrical coil as shown in Fig. 4.3a. Secure the wire with an adhesive tape.
+
+![](images/page_3_image_19.jpg)
+
+Fig. 4.3: (a) A coil of insulated wire

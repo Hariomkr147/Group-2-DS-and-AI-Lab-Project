@@ -1,0 +1,348 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.247,
+            0.12,
+            0.794,
+            0.141
+          ],
+          "content": "Here is one possible way of thinking about Powers of 2:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.442,
+            0.168,
+            0.502,
+            0.214
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.266,
+            0.239,
+            0.281,
+            0.255
+          ],
+          "content": "1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.353,
+            0.239,
+            0.37,
+            0.255
+          ],
+          "content": "2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.464,
+            0.239,
+            0.48,
+            0.255
+          ],
+          "content": "4"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.552,
+            0.162,
+            0.63,
+            0.22
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.582,
+            0.239,
+            0.599,
+            0.255
+          ],
+          "content": "8"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.68,
+            0.149,
+            0.834,
+            0.234
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.746,
+            0.241,
+            0.771,
+            0.256
+          ],
+          "content": "**16**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.165,
+            0.276,
+            0.753,
+            0.301
+          ],
+          "level": 2,
+          "content": "1.4 Relations among Number Sequences"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.315,
+            0.884,
+            0.36
+          ],
+          "content": "Sometimes, number sequences can be related to each other in surprising ways."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.369,
+            0.861,
+            0.391
+          ],
+          "content": "**Example**: What happens when we start adding up odd numbers?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.397,
+            0.389,
+            0.417
+          ],
+          "content": "1 = 1",
+          "image_source": "images/page_5_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.331,
+            0.42,
+            0.427,
+            0.44
+          ],
+          "content": "1 + 3 = 4",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.442,
+            0.463,
+            0.462
+          ],
+          "content": "1+3+5=9",
+          "image_source": "images/page_5_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.465,
+            0.513,
+            0.485
+          ],
+          "content": "1+3+5+7=16",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.488,
+            0.547,
+            0.508
+          ],
+          "content": "1+3+5+7+9=25",
+          "image_source": "images/page_5_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.332,
+            0.51,
+            0.597,
+            0.532
+          ],
+          "content": "1+3+5+7+9+11=36",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.557,
+            0.521,
+            0.579
+          ],
+          "content": "This is a really beautiful pattern!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.589,
+            0.841,
+            0.613
+          ],
+          "content": "Why does this happen? Do you think it will happen forever?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.621,
+            0.885,
+            0.69
+          ],
+          "content": "The answer is that the pattern does happen forever. But why? As mentioned earlier, the reason why the pattern happens is just as important and exciting as the pattern itself."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.165,
+            0.701,
+            0.437,
+            0.723
+          ],
+          "level": 2,
+          "content": "A picture can explain it"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.729,
+            0.885,
+            0.797
+          ],
+          "content": "Visualising with a picture can help explain the phenomenon. Recall that square numbers are made by counting the number of dots in a square grid."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.803,
+            0.817,
+            0.848
+          ],
+          "content": "How can we partition the dots in a square grid into odd numbers of dots: 1, 3, 5, 7,... ?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.858,
+            0.764,
+            0.881
+          ],
+          "content": "Think about it for a moment before reading further!"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.831,
+            0.796,
+            0.917,
+            0.845
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.09,
+            0.942,
+            0.11,
+            0.96
+          ],
+          "content": "6"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.986
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:37:44+05:30",
+      "modified_at": "2026-04-07T17:38:06+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 17,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

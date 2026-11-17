@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.11,
+            0.083,
+            0.736,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6 CONSTRUCTIONS AND TILINGS"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.814,
+            0.186,
+            0.87,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0789CH06"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.78,
+            0.092,
+            0.906,
+            0.179
+          ],
+          "content": []
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.153,
+            0.324,
+            0.547,
+            0.347
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.1 Geometric Constructions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.359,
+            0.208,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Eyes",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.382,
+            0.694,
+            0.402
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you recall the ‘Eyes’ construction we did in Grade 6?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.171,
+            0.42,
+            0.846,
+            0.561
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.171,
+                0.42,
+                0.846,
+                0.561
+              ],
+              "image_path": "images/page_0_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.571,
+            0.848,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Of course, eyes can be drawn freehand, but we wanted to construct them so that the lower arc and upper arc of each eye look symmetrical."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.171,
+            0.61,
+            0.848,
+            0.628
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We relied on our spatial estimation to determine the two centres, A"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.628,
+            0.596,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and B (see the figure), from which we drew the lower arc and upper arc respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.667,
+            0.597,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The arcs define a line XY that ‘supports’ the drawing though it is not part of the final figure. We can start with this supporting line and systematically find the centres A and B."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.152,
+            0.743,
+            0.597,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For the eye to be symmetrical, or for the supporting line to be the line of symmetry, the upper and lower arcs should have the same radius. In other words, we must have AX = BX."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.153,
+            0.819,
+            0.528,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since AX = AY and BX = BY, this means"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.285,
+            0.839,
+            0.465,
+            0.856
+          ],
+          "image_path": "images/page_0_equation_13.jpg",
+          "content": "AX = AX = BX = BX"
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.605,
+            0.641,
+            0.849,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.605,
+                0.641,
+                0.849,
+                0.785
+              ],
+              "image_path": "images/page_0_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 15,
+              "bbox": [
+                0.724,
+                0.816,
+                0.746,
+                0.844
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "● B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

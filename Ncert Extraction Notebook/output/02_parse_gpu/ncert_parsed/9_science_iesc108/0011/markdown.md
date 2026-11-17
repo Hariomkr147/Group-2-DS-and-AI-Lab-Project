@@ -1,0 +1,51 @@
+![](images/page_10_image_0.jpg)
+
+![](images/page_10_image_1.jpg)
+
+Fig. 8.10: Neutrons and protons in the nucleus
+
+Since the atom as a whole is neutral, the number of protons in it equals the number of electrons orbiting the nucleus. For example, hydrogen has one proton and one electron, so its atomic number is 1. Helium, with atomic number 2, has 2 protons and 2 electrons.
+
+Can you now say that elements with different atomic numbers are distinct from each other, and the atomic number uniquely identifies an element? Observe Fig. 8.10. How many neutrons and protons are present in a lithium atom, and what is its atomic number?
+
+## 8.6 Mass Number
+
+As stated earlier, helium has two protons, but its mass is about four times that of a proton. The total number of protons and neutrons present in the nucleus of an atom is called its **mass number**, and is denoted by A. The protons and neutrons present in the nucleus are called **nucleons**.
+
+**Mass number = Number of protons + Number of neutrons**
+
+Since, the mass of a neutron is roughly equal to that of a proton, the mass of a helium atom can be accounted by two protons and two neutrons. A few examples are given in Table 8.3.
+
+Table 8.3: Mass number of different elements
+
+| Element | Protons (p+) | Neutrons (n<sup>0</sup>) | Mass number (A) |
+| --- | --- | --- | --- |
+| Hydrogen | 1 | 0 | 1 |
+| Helium | 2 | 2 | 4 |
+| Lithium | 3 | 4 | 7 |
+
+## Pause and Ponder
+
+The electron, in comparison, has almost negligible mass, and hence, can be ignored in calculations.
+
+10. An atom with an atomic number of 26 has 56 nucleons. Find out its number of electrons, protons and neutrons.
+
+11. The nucleus of an atom contains 20 protons. If its mass number is 41, find the number of neutrons in it.
+
+12. An atom has 18 neutrons and an atomic number of 17. What is its mass number?
+
+13. An atom 23<sub>A</sub> has 11 electrons. Find the number of neutrons in it.
+
+In the standard notation for an atom, the symbol, the atomic number (Z) and mass number (A) of the element are written as —
+
+$$
+\begin{array} { r } { \mathrm { M a s s \: N u m b e r } } \\ { \mathrm { A t o m i c \: N u m b e r } \boxed { \mathrm { S y m b o l \: o f \: e l e m e n t } } } \end{array}
+$$
+
+For example, the symbol for carbon is C, its atomic number is 6, and its mass number is 12. In notation, it would be written as —
+
+$$
+^ { 1 2 } _ { 6 } \mathbb { C }
+$$
+
+So far, you know that protons and neutrons are located in the nucleus of an atom, while electrons move around the nucleus. Now, let us explore how electrons are arranged around the nucleus.

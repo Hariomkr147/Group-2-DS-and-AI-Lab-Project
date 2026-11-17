@@ -1,0 +1,135 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": "63"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.11,
+            0.882,
+            0.177
+          ],
+          "content": "(equal parallel sides test), BCRP is a parallelogram. This gives PQ ‖BC and also $PQ = \\frac{PR}{2} = \\frac{BC}{2}$ . We have deduced the following important fact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.188,
+            0.882,
+            0.248
+          ],
+          "content": "**Theorem 6 (Midpoint Theorem):** The segment joining the midpoints of two sides of a triangle is parallel to the third side and has half the length."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.252,
+            0.884,
+            0.426
+          ],
+          "content": "In the reasoning for this theorem, the idea to take a completely new line l appeared out of nowhere, and worked like magic. What is your reaction to this? Do you feel a sense of wonder? Do you perhaps feel discouraged because it seems impossible to think of such an idea on your own? This type of auxiliary construction is a classic geometric trick that one learns with experience, so no need to be disheartened! See Exercise 15 at the end of the chapter for another proof that uses a different, slightly less magical construction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.43,
+            0.882,
+            0.49
+          ],
+          "content": "Can you now prove the original claim about cutting ∆ABC into four congruent parts by using midpoints of all three sides? You are asked to do this in Exercise Set 12.3 Q1 below."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.136,
+            0.501,
+            0.4,
+            0.524
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.54,
+            0.855,
+            0.715
+          ],
+          "content": "Read the statement of the Midpoint Theorem again. The following questions seem natural to ask. What can we say about (1) a segment PQ (with P on side AB and Q on side AC) that is parallel to the third side and has half the length, and (2) the line that passes through the midpoint of one side and is parallel to another side? We will address question (1) in Exercise 22 at the end of the chapter. For now, experiment and see if you can make a guess about question (2). It appears that this line must bisect the remaining side! Let us try to justify this."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.731,
+            0.883,
+            0.83
+          ],
+          "content": "**Geometric reasoning:** To set up, take ∆ABC and suppose the line through midpoint P of AB, drawn parallel to BC, meets AC at point Q. Again draw the line parallel to BA through C, intersecting line PQ at point R. Tracing the proof of the Midpoint Theorem backwards works easily as follows."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

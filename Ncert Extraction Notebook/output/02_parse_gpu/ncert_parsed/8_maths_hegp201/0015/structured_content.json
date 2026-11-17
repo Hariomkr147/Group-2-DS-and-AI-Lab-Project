@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.69,
+            0.049,
+            0.86,
+            0.065
+          ],
+          "content": "Fractions in Disguise"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.09,
+            0.436,
+            0.109
+          ],
+          "level": 2,
+          "content": "Know Your Contents (KYC)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.117,
+            0.446,
+            0.338
+          ],
+          "content": "? **Example 2:** Madhu and Madhav recently learnt about the importance of reading labels on processed food before purchase. They are at a shop to buy badam drink mix. They are looking at two products and wondering which has a larger share of badam. Can you figure it out? Which product uses a smaller proportion of food chemicals?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.475,
+            0.117,
+            0.638,
+            0.296
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.668,
+            0.108,
+            0.902,
+            0.295
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.338,
+            0.847,
+            0.376
+          ],
+          "content": "It is easier to compare the proportions of the ingredients if we convert them into percentages. For example,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.378,
+            0.821,
+            0.402
+          ],
+          "content": "DEF’s sugar content as a percentage of total weight $\\frac{99}{150} \\times 100 = 66\\%.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.403,
+            0.845,
+            0.443
+          ],
+          "content": "? Complete this table by calculating the percentages to answer the questions:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.111,
+            0.464,
+            0.534,
+            0.64
+          ],
+          "content": "<table><tr><td></td><td></td><td>Mids</td><td>Bada</td><td>Cheddals</td></tr><tr><td></td><td></td><td><img src=\"images/page_14_table_image_8_1.jpg\"/></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_table_8.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.67,
+            0.689,
+            0.694
+          ],
+          "level": 2,
+          "content": "Check if the percentages of each product add up to 100."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.713,
+            0.549,
+            0.733
+          ],
+          "level": 2,
+          "content": "Percentage Increase or Decrease"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.74,
+            0.845,
+            0.778
+          ],
+          "content": "Percentages are often used to describe the rate of change of quantities. For example,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.782,
+            0.845,
+            0.82
+          ],
+          "content": "1. Suppose the price of 1 kg tomatoes 3 years ago was ₹30, and the price now is ₹42. The increase in the price is ₹12."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.827,
+            0.709,
+            0.893
+          ],
+          "content": "\\begin{aligned} &\\text { (Percentage increases=} \\frac{a m o u n t   o f i n c r e a s e}{o r i g i n a l   a m o u n t   o r   b a s e} \\times 100 \\text {) }\\\\ &\\quad = \\frac{12}{30} \\times 100 = 40\\% .\\\\ \\end{aligned}",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.897,
+            0.81,
+            0.917
+          ],
+          "content": "We say the price of tomatoes increased by 40% over the last 3 years."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.914,
+            0.91,
+            0.934
+          ],
+          "content": "15"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

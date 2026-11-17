@@ -1,0 +1,227 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.611,
+            0.549,
+            0.884,
+            0.692
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.609,
+            0.064,
+            0.834,
+            0.082
+          ],
+          "content": "Playing with Constructions"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.154,
+            0.12,
+            0.402,
+            0.14
+          ],
+          "level": 2,
+          "content": "4. Square with a Hole"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.367,
+            0.152,
+            0.496,
+            0.249
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.572,
+                0.173,
+                0.822,
+                0.236
+              ],
+              "content": "Observe that the circular hole is the same as the centre of the square."
+            }
+          ],
+          "image_source": "images/page_16_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.269,
+            0.712,
+            0.29
+          ],
+          "content": "Hint: Think where the centre of the circle should be."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.154,
+            0.304,
+            0.455,
+            0.324
+          ],
+          "level": 2,
+          "content": "5. Square with more Holes"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.348,
+            0.338,
+            0.6,
+            0.529
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.155,
+            0.55,
+            0.409,
+            0.57
+          ],
+          "level": 2,
+          "content": "6. Square with Curves"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.581,
+            0.578,
+            0.602
+          ],
+          "content": "This is a square with 8 cm sidelengths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.607,
+            0.582,
+            0.693
+          ],
+          "content": "Hint: Think where the tip of the compass can be placed to get all the 4 arcs to bulge uniformly from each of the sides. Try it out!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.72,
+            0.83,
+            0.748
+          ],
+          "level": 2,
+          "content": "8.5 Exploring Diagonals of Rectangles and Squares"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.761,
+            0.562,
+            0.827
+          ],
+          "content": "Consider a rectangle PQRS. Join PR and QS. These two lines are called the **diagonals** of the rectangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.829,
+            0.563,
+            0.874
+          ],
+          "content": "Compare the lengths of the diagonals. First predict the answer. Then construct a"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.59,
+            0.763,
+            0.837,
+            0.904
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

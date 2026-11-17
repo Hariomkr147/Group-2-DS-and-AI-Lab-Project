@@ -1,0 +1,350 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": "Describing Motion Around Us"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": "51 N"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.087,
+            0.775,
+            0.123
+          ],
+          "content": "only the numerical value (with units) is required, not the direction of motion. The **SI unit** for both is the **metre (m)**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.125,
+            0.775,
+            0.211
+          ],
+          "content": "For example, in Fig. 4.4, between t = 0 s and t = 16 s, the total distance travelled by the athlete is 160 m, but her displacement is 40 m in the positive direction. We find that between these two instants, the total distance travelled and the magnitude of displacement are not equal. Can these quantities ever be equal?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.219,
+            0.388,
+            0.237
+          ],
+          "level": 2,
+          "content": "Activity 4.1: Let us analyse"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.24,
+            0.775,
+            0.292
+          ],
+          "content": "1. As shown in Fig. 4.5, a ball is thrown vertically upwards from O. It moves up straight till B and then falls back to O. Can this be considered a motion in a straight line?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.295,
+            0.56,
+            0.313
+          ],
+          "content": "2. For this motion, fill up the values in Table 4.1."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.112,
+            0.338,
+            0.771,
+            0.516
+          ],
+          "content": "| S. No. | Position | Total distance travelled by the ball from O till that position | Displacement of the ball from O till that position |\n| --- | --- | --- | --- |\n| 1. | O | 0 cm | 0 cm |\n| 2. | A | 40 cm | 40 cm in upward direction |\n| 3. | B |  |  |\n| 4. | C |  |  |\n| 5. | O |  |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.193,
+                0.319,
+                0.689,
+                0.335
+              ],
+              "content": "Table 4.1: Distance travelled and displacement of the ball"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_table_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.526,
+            0.775,
+            0.561
+          ],
+          "content": "3. **Analyse** the data filled in Table 4.1 and choose which of the following is true for displacement:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.565,
+            0.347,
+            0.581
+          ],
+          "content": "(i) It is never zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.581,
+            0.739,
+            0.599
+          ],
+          "content": "(ii) Its magnitude can be greater than the total distance travelled."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.598,
+            0.762,
+            0.615
+          ],
+          "content": "(iii) Its magnitude is less than or equal to the total distance travelled."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.615,
+            0.763,
+            0.633
+          ],
+          "content": "(iv) Its magnitude is less than the total distance travelled in all cases."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.803,
+            0.085,
+            0.858,
+            0.1
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.779,
+            0.325,
+            0.955,
+            0.552
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.782,
+                0.571,
+                0.965,
+                0.654
+              ],
+              "content": "in vertical motion (two separate lines are shown only for clarity; in reality, the object goes up and falls back in the same straight line)"
+            }
+          ],
+          "image_source": "images/page_3_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.8,
+            0.105,
+            0.941,
+            0.289
+          ],
+          "content": "For motion in a straight line, the total distance travelled and the magnitude of displacement are equal if the object moves without turning back, i.e., if it moves in one direction."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.128,
+            0.649,
+            0.188,
+            0.681
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.82,
+                0.556,
+                0.927,
+                0.57
+              ],
+              "content": "Fig. 4.5: A ball"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_18.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.192,
+            0.658,
+            0.382,
+            0.677
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.687,
+            0.876,
+            0.734
+          ],
+          "content": "1. In the example of an athlete running back and forth on a straight track (Fig. 4.4), when will the displacement of the athlete be zero? What will be the total distance travelled in that case?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.737,
+            0.847,
+            0.754
+          ],
+          "content": "2. Fuel used up in a vehicle depends on which of the following? Justify your answer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.756,
+            0.399,
+            0.772
+          ],
+          "content": "(i) Total distance travelled"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.775,
+            0.319,
+            0.792
+          ],
+          "content": "(ii) Displacement"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.794,
+            0.506,
+            0.856
+          ],
+          "content": "3. A ball rolls down an inclined track as shown in Fig. 4.6. Is its motion, a straight line motion? Assuming the starting point of the ball (O) to be the origin, can its"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.505,
+            0.761,
+            0.868,
+            0.83
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.527,
+                0.833,
+                0.85,
+                0.849
+              ],
+              "content": "Fig. 4.6: A ball rolling down an inclined track"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_26.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.855,
+            0.876,
+            0.903
+          ],
+          "continues_prev": true,
+          "content": "motion from O to D be depicted using a horizontal line as shown in Fig. 4.3? Are the values of total distance travelled and magnitude of displacement from O equal or different at positions A, B, C and D?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

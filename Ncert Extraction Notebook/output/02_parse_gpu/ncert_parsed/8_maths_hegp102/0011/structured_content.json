@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.766,
+            0.047,
+            0.862,
+            0.063
+          ],
+          "content": "Power Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.457,
+            0.119
+          ],
+          "content": "Similarly, $10^{-3} = \\frac{1}{10^{3}}, 7^{-2} = \\frac{1}{7^{2}}$ , etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.122,
+            0.391,
+            0.169
+          ],
+          "content": "Can we write $1 0 ^ { 3 } = \\frac { 1 } { 1 0 ^ { ^ { - 3 } } }   ?$ We can write,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.177,
+            0.661,
+            0.212
+          ],
+          "content": "\\frac{1}{10^{-3}} = \\frac{1}{1/10^{3}} = 1 \\div \\frac{1}{10^{3}} = 1 \\times 10^{3} = 10^{3}.",
+          "image_source": "images/page_10_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.213,
+            0.448,
+            0.245
+          ],
+          "content": "Similarly, $\\nabla ^ { 2 } = { \\frac { 1 } { 7 ^ { -   2 } } }$ and $4 ^ { a } = { \\frac { 1 } { 4 ^ { - a } } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.244,
+            0.395,
+            0.264
+          ],
+          "content": "In a generalised form,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.332,
+            0.27,
+            0.664,
+            0.302
+          ],
+          "content": "$n ^ { -   a } = { \\frac { 1 } { n ^ { a } } }$ and $n ^ { a } = { \\frac { 1 } { n ^ { - a } } }$ , where $n \\neq 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.778,
+            0.247,
+            0.865,
+            0.299
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.301,
+            0.705,
+            0.321
+          ],
+          "content": "Consider the following general forms we have identified."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.326,
+            0.792,
+            0.354
+          ],
+          "content": "| $n^{a} \\times n^{b} = n^{a + b}$ | $( n ^ { a } ) ^ { b } = ( n ^ { b } ) ^ { a } = n ^ { a \\times b }$ | $n^{a} \\div n^{b} = n^{a - b}$ |\n| --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_table_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.367,
+            0.846,
+            0.407
+          ],
+          "content": "？ We had required a and b to be counting numbers. Can a and b be any integers? Will the generalised forms still hold true?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.421,
+            0.743,
+            0.486
+          ],
+          "content": "Write equivalent forms of the following. (i) 2– 4 (ii) $1 0 ^ { - 5 }$ $( = 7 ) ^ { - 2 }$ (iv) $( - 5 ) ^ { -   3 }$ (v) $1 0 ^ { - 1 0 0 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.494,
+            0.758,
+            0.559
+          ],
+          "content": "? Simplify and write the answers in exponential form. (i) $2 ^ { - 4 } \\times 2 ^ { 7 }$ (ii) $3^{2} \\times 3^{-5} \\times 3^{6}$ (iii) $p ^ { 3 } \\times p ^ { - 1 0 }$ (iv) $2 ^ { 4 }   \\times \\left( - 4 \\right) ^ { - 2 }$ (v) $8 ^ { p } \\times 8 ^ { q }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.574,
+            0.305,
+            0.593
+          ],
+          "level": 2,
+          "content": "Power Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.605,
+            0.574,
+            0.625
+          ],
+          "content": "Let us arrange the powers of 4 along a line."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.25,
+            0.63,
+            0.738,
+            0.914
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": "29"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

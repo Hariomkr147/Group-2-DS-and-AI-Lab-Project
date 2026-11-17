@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.729,
+            0.687,
+            0.929,
+            0.894
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.77,
+            0.109
+          ],
+          "content": "In 1000 calendar years, how many years are divisible by 400? 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.113,
+            0.846,
+            0.15
+          ],
+          "content": "In 1000 calendar years, how many years are divisible by 100 but not divisible by 400? 10 – 2 = 8."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.151,
+            0.846,
+            0.189
+          ],
+          "content": "In 1000 calendar years, how many years are divisible by 4 but not divisible by 100 and 400? 250 – 10 = 240."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.189,
+            0.638,
+            0.208
+          ],
+          "content": "The rest of the years are 1000 – (2 + 8 + 240) = 750."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.213,
+            0.698,
+            0.232
+          ],
+          "content": "So, the total number of days in 1000 calendar years is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.2,
+            0.232,
+            0.796,
+            0.252
+          ],
+          "content": "(750 × 365) + (240 × 366) + (8 × 365) + (2 × 366) = 3,65,242 days."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.257,
+            0.847,
+            0.332
+          ],
+          "content": "The Earth needs 3,65,242.2 days to go around the Sun 1000 times. Hence, in 1000 years, the calendar year is slightly shorter (by 0.2 days) than the actual number of days the Earth takes to go around the Sun."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.333,
+            0.847,
+            0.391
+          ],
+          "content": "The calendar makers did not want to bother about a small difference that would happen in 1000 years! So, they left the scheme of leap years as is …"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.409,
+            0.545,
+            0.431
+          ],
+          "level": 2,
+          "content": "Making Yet Another Adjustment"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.177,
+            0.459,
+            0.823,
+            0.652
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_image_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.177,
+            0.678,
+            0.272,
+            0.773
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.167,
+            0.816,
+            0.257,
+            0.882
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_25_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.26,
+            0.729,
+            0.729,
+            0.866
+          ],
+          "content": "With this final scheme of leap years can you calculate the number of calendar days in 10,000 years and the number of actual days the Earth will take to make 10,000 revolutions around the Sun? What is the difference? If there is a big difference, can you suggest a way to fix this problem?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.949
+          ],
+          "content": "92"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

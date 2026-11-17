@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Describing Motion Around Us"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 49"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.108,
+            0.088,
+            0.775,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "about some more physical quantities, such as displacement, average velocity and average acceleration. You will also learn to describe motion not only in words, but also with numbers, equations and graphs."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.156,
+            0.478,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1 Motion in a Straight Line"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.108,
+            0.182,
+            0.776,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You have learnt that when an object moves in a straight line, its motion is called linear motion. It can also be called "
+            },
+            {
+              "type": "text",
+              "content": "motion in a straight line",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". It is the simplest kind of motion. Have you noticed it around you, such as children in a swimming race, a vertically falling ball, a car moving along a straight stretch of a highway or a train moving on a straight track (Fig. 4.1)?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.285,
+            0.953,
+            0.647
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.113,
+                0.285,
+                0.953,
+                0.647
+              ],
+              "image_path": "images/page_1_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.385,
+                0.65,
+                0.679,
+                0.667
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.1: Objects in a straight line motion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.109,
+            0.678,
+            0.774,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To discuss about the motion of an object, you first need to describe its position at various instants of time."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.11,
+            0.723,
+            0.388,
+            0.743
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1.1 Describing position"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.107,
+            0.745,
+            0.776,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we describe the position of an object? For that, as you learnt earlier, we first need to specify a fixed point as the "
+            },
+            {
+              "type": "text",
+              "content": "reference point",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The distance and direction of the object with respect to the reference point, at any instant of time, describes the "
+            },
+            {
+              "type": "text",
+              "content": "position of the object",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " at that instant of time. Note that apart from the distance, we also specify the direction from the reference point in which the object is located to describe its position. And when do we say that an object is in motion? If the position of the object with respect to the reference point changes with time, the object is said to be "
+            },
+            {
+              "type": "text",
+              "content": "in motion",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". On the other hand, the object is said to be "
+            },
+            {
+              "type": "text",
+              "content": "at rest",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " if its position with respect to the reference point does not change with time."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

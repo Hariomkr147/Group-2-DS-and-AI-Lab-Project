@@ -1,0 +1,35 @@
+Even in this case, the area of rectangle AEFD can be found in two ways: (i) by directly using the side lengths n and (12 – 4), or (ii) subtracting the area of the rectangle EBCF from that of ABCD.
+
+![](images/page_9_chart_2.jpg)
+
+The first method gives us 8n, and the second method gives us $1 2 n - 4 n$ , and they are equal, since $12n - 4n = 8n$ . This is the expression for the area of the rectangle AEFD.
+
+Sets of terms such as (5c, c, 10c), $(12n, -4n)$ that involve the same letter-numbers are called **like terms**. Sets of terms such as {18c, 11d} are called **unlike terms** as they have different letter-numbers.
+
+As we have seen, like terms can be added together and simplified into a single term.
+
+**Example 7:** A shop rents out chairs and tables for a day’s use. To rent them, one has to first pay the following amount per piece.
+
+| Item | Amount |
+| --- | --- |
+| Chair | ₹40 |
+| Table | ₹75 |
+
+When the furniture is returned, the shopkeeper pays back some amount as follows.
+
+Write an expression for the total number of rupees paid if x chairs and y tables are rented.
+
+|  | Amount returned |
+| --- | --- |
+| Chair | ₹6 |
+| Table | ₹10 |
+
+For x chairs and y tables, let us find the total amount paid at the beginning and the amount one gets back after returning the furniture.
+
+Describe the procedure to get these amounts.
+
+The total amount in rupees paid at the beginning is $4 0 x \pm 7 5 y$ , and the total amount returned is $6 x + 1 0 y .$
+
+So, the total amount pai $\mathbf{d} = (40x + 75y) - (6x + 10y).$
+
+? Can we simplify this expression? If yes, how? If not, why not?

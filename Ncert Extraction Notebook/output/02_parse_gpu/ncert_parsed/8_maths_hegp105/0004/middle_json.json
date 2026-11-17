@@ -1,0 +1,538 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.753,
+            0.047,
+            0.862,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.088,
+            0.557,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explanation 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " This can also be explained using the positive and negative token model you studied in the chapter on Integers. Try to think how."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.162,
+            0.558,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number of ways to choose 4 numbers a, b, c, d and combine them using ‘+’ and ‘–’ signs is infinite. Mathematical reasoning allows us to prove that all the combinations "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b \\pm c \\pm d"
+            },
+            {
+              "type": "text",
+              "content": " always have the same parity, without having to go through them one by one."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.57,
+            0.08,
+            0.816,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.57,
+                0.08,
+                0.816,
+                0.294
+              ],
+              "image_path": "images/page_3_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.102,
+            0.317,
+            0.187,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.102,
+                0.317,
+                0.187,
+                0.373
+              ],
+              "image_path": "images/page_3_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.196,
+            0.312,
+            0.826,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Several problems in mathematics can be thought about and solved in different ways. While the method you came up with may be dear to you, it can be amusing and enriching to know how others thought about it. Two tidbits: ‘share’ and ‘listen’."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.408,
+            0.847,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Is the phenomenon of all the expressions having the same parity limited to taking 4 numbers? What do you think?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.096,
+            0.47,
+            0.188,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.096,
+                0.47,
+                0.188,
+                0.534
+              ],
+              "image_path": "images/page_3_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.205,
+            0.475,
+            0.825,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "‘What if …?’, ‘Will it always happen?’— Wondering and posing questions and conjectures is as much a part of mathematics as problem solving."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.559,
+            0.332,
+            0.58
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Breaking Even"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.59,
+            0.846,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know how to identify even numbers. Without computing them, find out which of the following arithmetic expressions are even."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.23,
+            0.652,
+            0.299,
+            0.671
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "4 3 \\pm 3 7"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.37,
+            0.652,
+            0.457,
+            0.671
+          ],
+          "image_path": "images/page_3_equation_12.jpg",
+          "content": "6 7 2 - 3 4 8"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.514,
+            0.652,
+            0.612,
+            0.67
+          ],
+          "image_path": "images/page_3_equation_13.jpg",
+          "content": "4 \\times 3 4 7 \\times 3"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.668,
+            0.652,
+            0.755,
+            0.671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "708 – 477"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.22,
+            0.702,
+            0.309,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "809 + 214"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.369,
+            0.702,
+            0.458,
+            0.72
+          ],
+          "image_path": "images/page_3_equation_17.jpg",
+          "content": "1 1 9 \\times 3 0 3"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.519,
+            0.703,
+            0.607,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "543 – 479"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.69,
+            0.701,
+            0.734,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "513"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.119,
+            0.749,
+            0.848,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Using our understanding of how parity behaves under different operations, identify which of the following algebraic expressions give an even number for any integer values for the letter-numbers."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.223,
+            0.823,
+            0.292,
+            0.842
+          ],
+          "image_path": "images/page_3_equation_21.jpg",
+          "content": "2 a \\pm 2 b"
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.373,
+            0.824,
+            0.441,
+            0.843
+          ],
+          "image_path": "images/page_3_equation_22.jpg",
+          "content": "3 g \\pm 5 h"
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.519,
+            0.824,
+            0.594,
+            0.842
+          ],
+          "image_path": "images/page_3_equation_23.jpg",
+          "content": "4 m \\pm 2 n"
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.672,
+            0.822,
+            0.74,
+            0.841
+          ],
+          "image_path": "images/page_3_equation_24.jpg",
+          "content": "2 u - 4 v"
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.165,
+            0.874,
+            0.243,
+            0.892
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13k – 5k"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 26,
+          "bbox": [
+            0.315,
+            0.875,
+            0.389,
+            0.892
+          ],
+          "image_path": "images/page_3_equation_26.jpg",
+          "content": "6 m - 3 n"
+        },
+        {
+          "type": "equation",
+          "index": 27,
+          "bbox": [
+            0.472,
+            0.873,
+            0.526,
+            0.892
+          ],
+          "image_path": "images/page_3_equation_27.jpg",
+          "content": "x ^ { 2 } + 2"
+        },
+        {
+          "type": "equation",
+          "index": 28,
+          "bbox": [
+            0.621,
+            0.873,
+            0.673,
+            0.892
+          ],
+          "image_path": "images/page_3_equation_28.jpg",
+          "content": "b ^ { 2 } + 1"
+        },
+        {
+          "type": "equation",
+          "index": 29,
+          "bbox": [
+            0.763,
+            0.874,
+            0.831,
+            0.894
+          ],
+          "image_path": "images/page_3_equation_29.jpg",
+          "content": "4 k \\times 3 j"
+        },
+        {
+          "type": "page_number",
+          "index": 30,
+          "bbox": [
+            0.874,
+            0.915,
+            0.918,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "115"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

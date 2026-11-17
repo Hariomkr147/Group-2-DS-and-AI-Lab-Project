@@ -1,0 +1,200 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.234,
+            0.077,
+            0.75,
+            0.183
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.192,
+            0.845,
+            0.268
+          ],
+          "content": "Binairo, also known as Takuzu, is a logic puzzle with simple rules. Binairo is generally played on a square grid with no particular size. Some cells start out filled with two symbols: here horizontal and vertical lines. The rest of the cells are empty. The task is to fill cells in such a way that:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.272,
+            0.846,
+            0.31
+          ],
+          "content": "1. Each row and each column must contain an equal number of horizontal and vertical lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.32,
+            0.77,
+            0.34
+          ],
+          "content": "2. More than two horizontal or vertical lines can’t be adjacent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.35,
+            0.614,
+            0.369
+          ],
+          "content": "3. Each row is unique. Each column is unique."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.201,
+            0.38,
+            0.455,
+            0.571
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.522,
+            0.38,
+            0.776,
+            0.573
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.288,
+                0.582,
+                0.358,
+                0.601
+              ],
+              "content": "Puzzle"
+            },
+            {
+              "bbox": [
+                0.606,
+                0.582,
+                0.693,
+                0.6
+              ],
+              "content": "Solution"
+            },
+            {
+              "bbox": [
+                0.15,
+                0.613,
+                0.501,
+                0.633
+              ],
+              "content": "Solve the following Binairo puzzles:"
+            }
+          ],
+          "image_source": "images/page_19_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.193,
+            0.647,
+            0.386,
+            0.791
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.404,
+            0.647,
+            0.595,
+            0.792
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_11.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.614,
+            0.647,
+            0.806,
+            0.791
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.053,
+            0.842,
+            0.922,
+            0.994
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_13.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:31+05:30",
+      "modified_at": "2026-05-15T17:58:36+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

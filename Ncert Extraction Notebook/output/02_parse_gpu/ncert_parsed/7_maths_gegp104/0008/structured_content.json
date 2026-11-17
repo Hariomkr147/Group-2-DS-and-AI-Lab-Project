@@ -1,0 +1,259 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.046,
+            0.364,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.126
+          ],
+          "content": "As in the previous cases, we will first describe how to get the perimeter when the length and the breadth of the rectangle are known:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.238,
+            0.13,
+            0.76,
+            0.15
+          ],
+          "content": "Find the sum of length + breadth + length + breadth."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.154,
+            0.848,
+            0.194
+          ],
+          "content": "Let us use the letter-numbers l and b in place of length and breadth respectively. Let p denote the perimeter of the rectangle. Then we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.197,
+            0.574,
+            0.217
+          ],
+          "content": "p = l + b + l + b",
+          "image_source": "images/page_7_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.221,
+            0.848,
+            0.277
+          ],
+          "content": "As we know, these represent numbers, and so the terms of an expression can be added in any order. Hence the above expression can be written as:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.435,
+            0.282,
+            0.565,
+            0.3
+          ],
+          "content": "l + l + b + b",
+          "image_source": "images/page_7_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.305,
+            0.656,
+            0.325
+          ],
+          "content": "As l + l = 2 × l = 2l, and b + b = 2 × b = 2b, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.331,
+            0.554,
+            0.35
+          ],
+          "content": "p = 2l + 2b.",
+          "image_source": "images/page_7_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.354,
+            0.849,
+            0.465
+          ],
+          "content": "Notice that the initial expression (l + b + l + b) and the final expression (2l + 2b) that we got for the perimeter look different. However, they are equal since the expression was obtained from the initial one by applying the same rules and operations we do for numbers; they are equal in the sense that they both take the same values when letternumbers are replaced by numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.465,
+            0.61,
+            0.485
+          ],
+          "content": "For example, if we assign l = 3, b = 4, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.488,
+            0.67,
+            0.508
+          ],
+          "content": "l+b+l+b=3+4+3+4=14",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37,
+            0.518,
+            0.628,
+            0.537
+          ],
+          "content": "2l + 2b = 2 \\times 3 + 2 \\times 4 = 14.",
+          "image_source": "images/page_7_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.542,
+            0.791,
+            0.582
+          ],
+          "content": "We call the expression 2l + 2b the **simplified form** of l + b + l + b. Let us see some more examples of simplification."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.589,
+            0.848,
+            0.649
+          ],
+          "content": "? **Example 5:** Here is a table showing the number of pencils and erasers sold in a shop. The price per pencil is c, and the price per eraser is d. Find the total money earned by the shopkeeper during these three days."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.659,
+            0.845,
+            0.813
+          ],
+          "content": "|  | Day 1 | Day 2 | Day 3 |\n| --- | --- | --- | --- |\n| Pencils (Price 'c') | 5 | 3 | 10 |\n| Erasers (Price 'd') | 4 | 6 | 1 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.151,
+                0.819,
+                0.707,
+                0.837
+              ],
+              "content": "Let us first find the money earned by the sale of pencils."
+            }
+          ],
+          "image_source": "images/page_7_table_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.837,
+            0.846,
+            0.875
+          ],
+          "content": "The money earned by selling pencils on Day 1 is 5c. Similarly, the money earned by selling pencils on Day 2 is \\_\\_\\_\\_\\_, and Day 3 is"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.875,
+            0.847,
+            0.913
+          ],
+          "content": "The total money earned by the sale of pencils is 5c + 3c + 10c. Can we simplify this expression further and reduce the number of terms?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16,
+            0.939,
+            0.186,
+            0.955
+          ],
+          "content": "88"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

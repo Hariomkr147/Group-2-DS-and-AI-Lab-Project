@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.7,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Story of Numbers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An obvious limitation of using only the letters of the English alphabet in this form is that it cannot be used to count collections having more than 26 objects."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.155,
+            0.801,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ How many numbers can you represent in this way using the sounds of the letters of your language?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.818,
+            0.143,
+            0.905,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.818,
+                0.143,
+                0.905,
+                0.196
+              ],
+              "image_path": "images/page_5_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.174,
+            0.198,
+            0.801,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We could use a sequence of written symbols as follows."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.131,
+            0.255,
+            0.867,
+            0.444
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 5,
+              "bbox": [
+                0.453,
+                0.229,
+                0.529,
+                0.247
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 1"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.131,
+                0.255,
+                0.867,
+                0.444
+              ],
+              "image_path": "images/page_5_table_6.jpg",
+              "content": "<table><tbody><tr><td>Number</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Representation using symbols</td><td>I</td><td>II</td><td>III</td><td>IV</td><td>V</td><td>VI</td><td>VII</td><td>VIII</td><td>IX</td><td>X</td></tr><tr><td>Number</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr><tr><td>Representation using symbols</td><td>XI</td><td>XII</td><td>XIII</td><td>XIV</td><td>XV</td><td>XVI</td><td>XVII</td><td>XVIII</td><td>XIX</td><td>XX</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.112,
+            0.467,
+            0.846,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Do you see a way of extending this method to represent bigger numbers as well? How?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.509,
+            0.848,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the discussion above, we see that for counting and finding the size of a collection, we need a standard sequence of objects, or names, or written symbols, that has a fixed order. Let us call this standard sequence a "
+            },
+            {
+              "type": "text",
+              "content": "number system.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A collection of objects can be counted by making a one-to-one mapping between them and the standard sequence, following the sequence order."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.62,
+            0.849,
+            0.88
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since there is no end to numbers, the challenge is to come up with an unending standard sequence/number system that is easy to count with. Using sticks gives an unending standard sequence/number system. However, it is not convenient to count larger collections, as we will need as many sticks as the number of objects being counted. Using the sounds of the letters of a language, as in Method 2, is convenient for the counting process but is not an unending standard sequence/number system. The standard sequence/number system given in Method 3 was actually the system used in Europe before it got replaced by the Hindu number system. It is called the "
+            },
+            {
+              "type": "text",
+              "content": "Roman number system.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " It was widely used in Europe for centuries, and was convenient for many purposes, but had the similar drawback that one cannot write arbitrarily large numbers without introducing more and more symbols. We will learn more about this system of writing numbers later on."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "53"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

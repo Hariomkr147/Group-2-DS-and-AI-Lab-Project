@@ -1,0 +1,181 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.083,
+            0.81,
+            0.141
+          ],
+          "content": "9. Find the area of an equilateral triangle with sidelength 6 units. [Hint: Show that an altitude bisects the opposite side. Use this to find the height.]"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.824,
+            0.082,
+            0.926,
+            0.145
+          ],
+          "content": "Try This"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.406,
+            0.158,
+            0.592,
+            0.184
+          ],
+          "level": 2,
+          "content": "SUMMARY"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.207,
+            0.822,
+            0.265
+          ],
+          "content": "The Baudhāyana-Pythagoras Theorem is one of the most fundamental theorems in geometry. It expresses the relationship among the three sides of a right-angled triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.268,
+            0.823,
+            0.307
+          ],
+          "content": "If a, b, c, are the sidelengths of a right-angled triangle, where c is the length of hypotenuse, then $\\bar { a ^ { 2 } } + \\bar { b ^ { 2 } } = \\bar { c ^ { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.311,
+            0.822,
+            0.352
+          ],
+          "content": "In an isosceles triangle with sidelengths a, a, c, we have the relation $a^{2}+a^{2}=2a^{2}=c^{2},\\mathrm{i.e.},c=a\\sqrt{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.359,
+            0.824,
+            0.426
+          ],
+          "content": "The number $\\sqrt { 2 }$ lies between 1.414 and 1.415. However, it cannot be expressed as a terminating decimal. It also cannot be expressed as a fraction $\\frac { m } { n }$ with m, n positive integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.427,
+            0.822,
+            0.503
+          ],
+          "content": "A triple (a, b, c) of positive integers satisfying $a^{2} + b^{2} = c^{2}$ is called a Baudhāyana-Pythagoras triple. Examples include (3, 4, 5), (6, 8, 10), and (5, 12, 13). Infinitely many such triples can be constructed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.507,
+            0.822,
+            0.565
+          ],
+          "content": "The equation $a^{n} + b^{n} = c^{n}$ has no solution in positive integers when $n   \\geq   2$ This is known as ‘Fermat’s Last Theorem’. It was proven by Andrew Wiles in 1994."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.239,
+            0.584,
+            0.754,
+            0.715
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.729,
+            0.846,
+            0.824
+          ],
+          "content": "There are 3 closed boxes—one containing only red balls, the second containing only blue balls and the third containing only green balls. The boxes are labelled RED, BLUE and GREEN such that ‘no’ box has the correct label. We need to find which label goes with which box. How can this be done if we are allowed to open only one box?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.053,
+            0.842,
+            0.918,
+            0.994
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_12.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

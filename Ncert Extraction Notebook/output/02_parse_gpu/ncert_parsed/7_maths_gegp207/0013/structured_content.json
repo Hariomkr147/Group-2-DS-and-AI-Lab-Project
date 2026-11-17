@@ -1,0 +1,183 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.696,
+            0.541,
+            0.735
+          ],
+          "content": "What are Sunita’s savings after m months?"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.067
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.118,
+            0.086,
+            0.881,
+            0.498
+          ],
+          "content": "| Mahesh represented the unknown quantity of the total number of people who can attend the party, including Madhubanthi and her family members, as p. Cost incurred = 25p + 50. Since this cost should be 500, we have the equation 25p + 50 = 500. Subtracting 50 from both sides, we get 25p = 500 - 50. 25p = 450. Dividing both sides by 25, we get p = 450 ÷ 25 = 18. 18 people can be at her party, including her 5 family members. That means 13 friends can be invited. | Srikanth decided to represent the unknown quantity of the total number of friends Madhubanthi can invite as f. What will be the cost in this case? Cost incurred = 25 (f + 5). Since Madhubanthi has ₹450 for snacks, we have the equation 25 (f + 5) = 450. Dividing both sides by 25, f + 5 = 18. Subtracting 5 from both sides, f = 13. |\n| --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.512,
+            0.848,
+            0.593
+          ],
+          "content": "? **Example 9:** Two friends want to save money. Jahnavi starts with an initial amount of ₹4000, and in addition, saves ₹650 per month. Sunita starts with ₹5050 and saves ₹500 per month. After how many months will they have the same amount of money?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.596,
+            0.847,
+            0.635
+          ],
+          "content": "Let m denote the number of months after which their savings are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.634,
+            0.541,
+            0.673
+          ],
+          "content": "What are Jahnavi’s savings after m months?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.561,
+            0.649,
+            0.907,
+            0.746
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.759,
+            0.541,
+            0.799
+          ],
+          "content": "As these amounts are equal after m months, we get the following equation:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.797,
+            0.638,
+            0.817
+          ],
+          "content": "4000+650m=5050+500m",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.821,
+            0.808,
+            0.842
+          ],
+          "content": "4000 + 650 m – 500 m = 5050 (subtracting 500 m from both sides)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.399,
+            0.845,
+            0.6,
+            0.866
+          ],
+          "content": "4000+150m=5050",
+          "image_source": "images/page_12_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.233,
+            0.869,
+            0.765,
+            0.89
+          ],
+          "content": "1 5 0   m = 5 0 5 0 - 4 0 0 0   ( \\mathrm { s u b t r a c t i n g ~ 4 0 0 0 ~ f r o m ~ b o t h ~ s i d e s } )",
+          "image_source": "images/page_12_equation_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": "176"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

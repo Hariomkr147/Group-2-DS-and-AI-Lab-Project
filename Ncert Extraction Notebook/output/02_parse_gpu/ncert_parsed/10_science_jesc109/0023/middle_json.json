@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.276,
+            0.085,
+            0.42,
+            0.102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Magnification"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.274,
+            0.105,
+            0.9,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The magnification produced by a lens, similar to that for spherical mirrors, is defined as the ratio of the height of the image and the height of the object. Magnification is represented by the letter m. If h is the height of the object and h",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "′ "
+            },
+            {
+              "type": "text",
+              "content": "is the height of the image given by a lens, then the magnification produced by the lens is given by,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.308,
+            0.197,
+            0.896,
+            0.233
+          ],
+          "image_path": "images/page_22_equation_2.jpg",
+          "content": "m = { \\frac { \\mathrm { H e i g h t ~ o f ~ t h e ~ I m a g e } } { \\mathrm { H e i g h t ~ o f ~ t h e ~ o b j e c t } } } = { \\frac { h ^ { \\prime } } { h } }\\tag{9.9}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.277,
+            0.241,
+            0.899,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Magnification produced by a lens is also related to the object-distance u, and the image-distance v. This relationship is given by",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "code",
+          "index": 4,
+          "bbox": [
+            0.308,
+            0.278,
+            0.585,
+            0.295
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 4,
+              "bbox": [
+                0.308,
+                0.278,
+                0.585,
+                0.295
+              ],
+              "content": "Magnification (m ) = h′/h = v/u"
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.843,
+            0.278,
+            0.896,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(9.10)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.308,
+            0.3,
+            0.441,
+            0.317
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9.3"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.307,
+            0.317,
+            0.899,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A concave lens has focal length of 15 cm. At what distance should the object from the lens be placed so that it forms an image at 10 cm from the lens? Also, find the magnification produced by the lens.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.308,
+            0.373,
+            0.396,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.307,
+            0.389,
+            0.899,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A concave lens always forms a virtual, erect image on the same side of the object.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.309,
+            0.455,
+            0.527,
+            0.472
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Object-distance u = ?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.308,
+            0.479,
+            0.466,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.309,
+            0.524,
+            0.43,
+            0.561
+          ],
+          "image_path": "images/page_22_equation_12.jpg",
+          "content": "\\frac{1}{u}=\\frac{1}{v}-\\frac{1}{f}"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.343,
+            0.569,
+            0.571,
+            0.607
+          ],
+          "image_path": "images/page_22_equation_13.jpg",
+          "content": "\\frac{1}{u}=\\frac{1}{-10}-\\frac{1}{(-15)}=-\\frac{1}{10}+\\frac{1}{15}"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.346,
+            0.616,
+            0.488,
+            0.651
+          ],
+          "image_path": "images/page_22_equation_14.jpg",
+          "content": "\\frac{1}{u}=\\frac{-3+2}{30}=\\frac{1}{-30}"
+        },
+        {
+          "type": "code",
+          "index": 15,
+          "bbox": [
+            0.309,
+            0.654,
+            0.454,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 15,
+              "bbox": [
+                0.309,
+                0.654,
+                0.454,
+                0.668
+              ],
+              "content": "or, u = – 30 cm"
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.307,
+            0.668,
+            0.619,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the object-distance is 30 cm.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.307,
+            0.685,
+            0.511,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Magnification "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m   =   v / u"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.339,
+            0.707,
+            0.551,
+            0.742
+          ],
+          "image_path": "images/page_22_equation_18.jpg",
+          "content": "m = \\frac{-10    cm }{-30    cm } = \\frac{1}{3} ; + 0.33"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.306,
+            0.747,
+            0.898,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The positive sign shows that the image is erect and virtual. The image is one-third of the size of the object.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 20,
+          "bbox": [
+            0.309,
+            0.799,
+            0.441,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.307,
+            0.814,
+            0.9,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A 2.0 cm tall object is placed perpendicular to the principal axis of a convex lens of focal length 10 cm. The distance of the object from the lens is 15 cm. Find the nature, position and size of the image. Also find its magnification.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.091,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "156"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

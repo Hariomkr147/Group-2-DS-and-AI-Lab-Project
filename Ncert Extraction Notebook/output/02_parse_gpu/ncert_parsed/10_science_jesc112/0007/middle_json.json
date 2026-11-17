@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 12.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:58:40Z",
+      "modified_at": "2026-03-24T12:00:59+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.097,
+            0.085,
+            0.724,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that the magnetic field produced by a current-carrying wire at a given point depends directly on the current passing through it. Therefore, if there is a circular coil having n turns, the field produced is n times as large as that produced by a single turn. This is because the current in each circular turn has the same direction, and the field due to each turn then just adds up.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.134,
+            0.197,
+            0.306,
+            0.22
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 12.6"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.234,
+            0.582,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take a rectangular cardboard having two holes. Insert a circular coil having large number of turns through them, normal to the plane of the cardboard.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.278,
+            0.581,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Connect the ends of the coil in series with a battery, a key and a rheostat, as shown in Fig. 12.9.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.307,
+            0.562,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Sprinkle iron filings uniformly on the cardboard.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.126,
+            0.322,
+            0.263,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plug the key.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.125,
+            0.336,
+            0.583,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Tap the cardboard gently a few times. Note the pattern of the iron filings that emerges on the cardboard.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.624,
+            0.196,
+            0.922,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.624,
+                0.196,
+                0.922,
+                0.339
+              ],
+              "image_path": "images/page_6_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 8,
+              "bbox": [
+                0.621,
+                0.346,
+                0.924,
+                0.389
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 12.9 Magnetic field produced by a currentcarrying circular coil."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.1,
+            0.408,
+            0.659,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.2.4 Magnetic Field due to a Current in a Solenoid"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.098,
+            0.437,
+            0.661,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder is called a solenoid. The pattern of the magnetic field lines around a current-carrying solenoid is shown in Fig. 12.10. Compare the pattern of the field with the magnetic field around a bar magnet (Fig. 12.4). Do they look similar? Yes, they are similar. In fact, one end of the solenoid behaves as a magnetic north pole, while the other behaves as the south pole. The field lines inside the solenoid are in the form of parallel straight lines. This indicates that the magnetic field is the same at all points inside the solenoid. That is, the field is uniform inside the solenoid.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.701,
+            0.403,
+            0.921,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.701,
+                0.403,
+                0.921,
+                0.546
+              ],
+              "image_path": "images/page_6_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 12,
+              "bbox": [
+                0.697,
+                0.55,
+                0.925,
+                0.607
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 12.10 Field lines of the magnetic field through and around a current carrying solenoid."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.614,
+            0.66,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A strong magnetic field produced inside a solenoid can be used to magnetise a piece of magnetic material, like soft iron, when placed inside the coil (Fig. 12.11). The magnet so formed is called an electromagnet.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.143,
+            0.698,
+            0.641,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.696,
+            0.629,
+            0.921,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.696,
+                0.629,
+                0.921,
+                0.712
+              ],
+              "image_path": "images/page_6_image_15.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 17,
+              "bbox": [
+                0.695,
+                0.722,
+                0.813,
+                0.736
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 12.11"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 18,
+              "bbox": [
+                0.694,
+                0.736,
+                0.924,
+                0.779
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "A current-carrying solenoid coil is used to magnetise steel rod inside it – an electromagnet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.744,
+            0.51,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Consider a circular loop of wire lying in the plane of the table. Let the current pass through the loop clockwise. Apply the right-hand rule to find out the direction of the magnetic field inside and outside the loop.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.123,
+            0.839,
+            0.509,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The magnetic field in a given region is uniform. Draw a diagram to represent it.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.537,
+            0.761,
+            0.622,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.537,
+                0.761,
+                0.622,
+                0.867
+              ],
+              "image_path": "images/page_6_image_20.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.1,
+            0.916,
+            0.366,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Magnetic Effects of Electric Current"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.879,
+            0.916,
+            0.915,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "201"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.448,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

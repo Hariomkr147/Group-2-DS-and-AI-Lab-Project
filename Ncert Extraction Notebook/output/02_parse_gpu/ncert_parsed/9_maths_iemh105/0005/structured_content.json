@@ -1,0 +1,197 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.085
+          ],
+          "content": "96"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.477,
+            0.087
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.205
+          ],
+          "content": "It is natural to ask: How many circles can you draw through three distinct points A, B and C on a plane? Is there always at least one such circle? Not necessarily! What if A, B and C lie on a straight line, i.e., are **collinear**? Can you explain why, in this case, there is no circle through A, B and C?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.204,
+            0.886,
+            0.264
+          ],
+          "content": "Let us assume that A, B and C are not collinear. Is there always a circle passing through A, B and C? Can there be more than one circle through A, B and C?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.268,
+            0.885,
+            0.308
+          ],
+          "content": "**Theorem 1:** There is a unique circle passing through three non-collinear points."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.311,
+            0.886,
+            0.37
+          ],
+          "content": "**Why is this true?** If there is a circle that passes through non-collinear A, B and C, the circle must have a centre. Let’s call that centre O (we will discover O soon)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.37,
+            0.883,
+            0.389
+          ],
+          "content": "Since OA = OB, we know that O lies on the perpendicular bisector of AB."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.39,
+            0.886,
+            0.427
+          ],
+          "content": "Since OA = OC, we know that O lies on the perpendicular bisector of AC as well."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.427,
+            0.886,
+            0.486
+          ],
+          "content": "But A, B and C are **not** collinear. So, the perpendicular bisectors of AB and AC will intersect at a unique point, since two intersecting lines meet at exactly one point on the plane. That point must be O."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.486,
+            0.885,
+            0.544
+          ],
+          "content": "Using O as the centre we can draw a circle with radius equal to the length of OA. That will pass through A, B and C. This explains why the statement is true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.549,
+            0.885,
+            0.609
+          ],
+          "content": "Now three non-collinear points also determine a triangle. What we have described above is the construction of a circle that passes through the vertices of the triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.39,
+            0.618,
+            0.652,
+            0.636
+          ],
+          "content": "Perpendicular bisector of BC"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.652,
+            0.405,
+            0.671
+          ],
+          "content": "Perpendicular bisector of AB"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.179,
+            0.626,
+            0.848,
+            0.899
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.32,
+                0.902,
+                0.679,
+                0.921
+              ],
+              "content": "Fig. 5.5: The circumcircle of triangle ABC"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_13.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

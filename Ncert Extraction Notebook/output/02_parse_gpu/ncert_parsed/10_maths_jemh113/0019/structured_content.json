@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.299,
+            0.584,
+            0.368,
+            0.614
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "189"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.138,
+            0.902,
+            0.253
+          ],
+          "content": "Here $n = 1 0 0$ , which is even. The median will be the average of the $\\frac { n } { 2 }$ th and the $\\left( { \\frac { n } { 2 } } + 1 \\right)$ th observations, i.e., the 50th and 51st observations. To find these observations, we proceed as follows:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.207,
+            0.279,
+            0.826,
+            0.533
+          ],
+          "content": "| Marks obtained | Number of students |\n| --- | --- |\n| 20 | 6 |\n| upto 25 | 6 + 20 = 26 |\n| upto 28 | 26 + 24 = 50 |\n| upto 29 | 50 + 28 = 78 |\n| upto 33 | 78 + 15 = 93 |\n| upto 38 | 93 + 4 = 97 |\n| upto 42 | 97 + 2 = 99 |\n| upto 43 | 99 + 1 = 100 |",
+          "captions": [
+            {
+              "bbox": [
+                0.435,
+                0.257,
+                0.565,
+                0.276
+              ],
+              "content": "Table 13.10"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.545,
+            0.9,
+            0.586
+          ],
+          "content": "Now we add another column depicting this information to the frequency table above and name it as cumulative frequency column."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.102,
+            0.617,
+            0.896,
+            0.894
+          ],
+          "content": "| Marks obtained | Number of students | Cumulative frequency |\n| --- | --- | --- |\n| 20 | 6 | 6 |\n| 25 | 20 | 26 |\n| 28 | 24 | 50 |\n| 29 | 28 | 78 |\n| 33 | 15 | 93 |\n| 38 | 4 | 97 |\n| 42 | 2 | 99 |\n| 43 | 1 | 100 |",
+          "captions": [
+            {
+              "bbox": [
+                0.435,
+                0.597,
+                0.563,
+                0.616
+              ],
+              "content": "Table 13.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_table_8.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.17,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CIRCLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "147"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.138,
+            0.709,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take a point Q on XY other than P and join OQ (see Fig. 10.5).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.164,
+            0.562,
+            0.26
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The point Q must lie outside the circle. (Why? Note that if Q lies inside the circle, XY will become a secant and not a tangent to the circle). Therefore, OQ is longer than the radius OP of the circle. That is,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.288,
+            0.261,
+            0.399,
+            0.279
+          ],
+          "image_path": "images/page_3_equation_4.jpg",
+          "content": "\\mathrm { O Q } > \\mathrm { O P } ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.285,
+            0.563,
+            0.383
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since this happens for every point on the line XY except the point P, OP is the shortest of all the distances of the point O to the points of XY. So OP is perpendicular to XY. (as shown in Theorem A1.7.)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.586,
+            0.188,
+            0.882,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.586,
+                0.188,
+                0.882,
+                0.35
+              ],
+              "image_path": "images/page_3_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.678,
+                0.358,
+                0.778,
+                0.377
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.098,
+            0.414,
+            0.202,
+            0.433
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.44,
+            0.901,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. By theorem above, we can also conclude that at any point on a circle there can be one and only one tangent.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.484,
+            0.9,
+            0.523
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The line containing the radius through the point of contact is also sometimes called the ‘normal’ to the circle at the point.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.402,
+            0.542,
+            0.595,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISE 10.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.124,
+            0.573,
+            0.495,
+            0.591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. How many tangents can a circle have?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.124,
+            0.596,
+            0.315,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Fill in the blanks :",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.168,
+            0.62,
+            0.718,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) A tangent to a circle intersects it in point (s).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.164,
+            0.643,
+            0.774,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) A line intersecting a circle in two points is called a",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.161,
+            0.666,
+            0.735,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) A circle can have parallel tangents at the most.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.159,
+            0.69,
+            0.896,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) The common point of a tangent to a circle and the circle is called",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.123,
+            0.713,
+            0.9,
+            0.778
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. A tangent PQ at a point P of a circle of radius 5 cm meets a line through the centre O at a point Q so that OQ = 12 cm. Length PQ is : (A) 12 cm (B) 13 cm (C) 8.5 cm (D)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ { \\sqrt { 1 1 9 } } { \\mathrm { ~ c m . } } \\right."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.123,
+            0.781,
+            0.9,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Draw a circle and two lines parallel to a given line such that one is a tangent and the other, a secant to the circle.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 20,
+          "bbox": [
+            0.098,
+            0.829,
+            0.64,
+            0.849
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.3 Number of Tangents from a Point on a Circle"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.096,
+            0.855,
+            0.901,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To get an idea of the number of tangents from a point on a circle, let us perform the following activity:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,161 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.452,
+            0.068,
+            0.816,
+            0.087
+          ],
+          "content": "I’m Up and Down, and Round and Round"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "107"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.122,
+            0.498,
+            0.336
+          ],
+          "content": "**Exercise:** A circle with centre O is drawn, and A, B, C, D are points on the circle (see Fig. 5.19). Measure the angles subtended by arc AKB and arc CLD at the centre O. If the angle at the centre is less than $1 8 0 ^ { \\circ }$ , it is a minor arc. If the angle at the centre is greater than $1 8 0 ^ { \\circ }$ , it is a major arc. State whether arcs AKB and CLD are minor arcs or major arcs."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.536,
+            0.121,
+            0.877,
+            0.349
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.651,
+                0.352,
+                0.731,
+                0.371
+              ],
+              "content": "Fig. 5.19"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.401,
+            0.813,
+            0.445
+          ],
+          "level": 2,
+          "content": "5.7.1 Angle subtended by an arc at a point on the circle outside the arc"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.452,
+            0.886,
+            0.55
+          ],
+          "content": "By ʻangle subtended by arc AXB at a point on the circle outside the arcʼ we mean the angle ACB where C is any point on the circle but not on arc AXB. Remarkably, the measure of this angle does not depend upon which specific point C we pick, so long as it is on the circle and outside the arc!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.554,
+            0.588,
+            0.71
+          ],
+          "content": "**Activity:** Draw a circle and a chord AB. Fix an arc AKB formed by AB and a point K between A, B on the circle. Measure the angle subtended at the centre by arc AKB. Take three points P, Q, R on the circle outside arc AKB. Measure the angles subtended by arc AKB at points P, Q, R. What do you notice?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.714,
+            0.589,
+            0.833
+          ],
+          "content": "Repeat this activity for a different arc AKB. Based on this activity, we can make a statement about the angles subtended by an arc of a circle at the centre and at a point of the circle outside the arc. We shall show that the following is true."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.618,
+            0.559,
+            0.896,
+            0.765
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.72,
+                0.772,
+                0.799,
+                0.791
+              ],
+              "content": "Fig. 5.20"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_9.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

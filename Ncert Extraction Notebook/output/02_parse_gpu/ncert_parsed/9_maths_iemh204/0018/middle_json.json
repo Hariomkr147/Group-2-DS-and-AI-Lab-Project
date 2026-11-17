@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "68"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.138,
+            0.11,
+            0.88,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. In "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B C } _ { ; }"
+            },
+            {
+              "type": "text",
+              "content": " , let M and N be midpoints of AB and AC respectively. Let D be any point on BC. Show that MN bisects AD."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.38,
+            0.158,
+            0.619,
+            0.279
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.38,
+                0.158,
+                0.619,
+                0.279
+              ],
+              "image_path": "images/page_17_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.451,
+                0.288,
+                0.549,
+                0.307
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.139,
+            0.318,
+            0.882,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. In a quadrilateral ABCD, suppose AB ‖DC and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } \\neq \\mathrm { C D } ."
+            },
+            {
+              "type": "text",
+              "content": " . Suppose G and H are the midpoints of AC and BD respectively. Prove that GH "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\parallel \\mathrm { A B }"
+            },
+            {
+              "type": "text",
+              "content": " . (Why did we assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } \\neq \\mathrm { C D ? ) }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.373,
+            0.387,
+            0.613,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.373,
+                0.387,
+                0.613,
+                0.497
+              ],
+              "image_path": "images/page_17_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.45,
+                0.502,
+                0.548,
+                0.521
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.138,
+            0.535,
+            0.881,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Suppose the midpoints of sides AB, BC, CD and DA of a quadrilateral ABCD are P, Q, R and S respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.197,
+            0.574,
+            0.658,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Show that PR and QS bisect each other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.191,
+            0.593,
+            0.88,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Show that if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AC = BD"
+            },
+            {
+              "type": "text",
+              "content": " then PR and QS are perpendicular. Is the converse true?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.139,
+            0.642,
+            0.769,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Suppose PQRS is the Varignon parallelogram of ABCD."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.236,
+            0.674,
+            0.79,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.236,
+                0.674,
+                0.79,
+                0.782
+              ],
+              "image_path": "images/page_17_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.451,
+                0.792,
+                0.549,
+                0.812
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.198,
+            0.82,
+            0.883,
+            0.919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Copy only PQRS on another paper. Show how you will recreate a congruent copy AʹBʹCʹDʹ of ABCD from PQRS. This will be relevant when we return to study tilings at the end of this chapter. ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " How will you place vertex Aʹ? How will you place Bʹ, Cʹ and Dʹ?)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

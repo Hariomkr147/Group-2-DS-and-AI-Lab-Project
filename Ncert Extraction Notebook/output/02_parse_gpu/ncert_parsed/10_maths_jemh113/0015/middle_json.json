@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.298,
+            0.572,
+            0.368,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.298,
+                0.572,
+                0.368,
+                0.616
+              ],
+              "image_path": "images/page_14_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 2,
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "185"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.305,
+            0.145,
+            0.785,
+            0.262
+          ],
+          "image_path": "images/page_14_equation_3.jpg",
+          "content": "\\begin{aligned} &\\text { Monte }=\\stackrel{\\text { }}{l}+\\left(\\frac{f_{1}-f_{0}}{2 f_{1}-f_{0}-f_{2}}\\right) \\times h\\\\ &\\quad \\stackrel{\\text { }}{=} 3+\\left(\\frac{8-7}{2 \\times 8-7-2}\\right) \\times 2=3+\\frac{2}{7}=3.286\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.274,
+            0.556,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the mode of the data above is 3.286."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.307,
+            0.902,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 6 : The marks distribution of 30 students in a mathematics examination are given in Table 13.3 of Example 1. Find the mode of this data. Also compare and interpret the mode and the mean."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.375,
+            0.901,
+            0.416
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Refer to Table 13.3 of Example 1. Since the maximum number of students (i.e., 7) have got marks in the interval 40 - 55, the modal class is 40 - 55. Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.146,
+            0.422,
+            0.557,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the lower limit (l) of the modal class = 40,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.147,
+            0.448,
+            0.373,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the class size (h) = 15,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.147,
+            0.474,
+            0.52,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the frequency "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " of modal class = 7,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.147,
+            0.501,
+            0.742,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the frequency "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f _ { 0 } )"
+            },
+            {
+              "type": "text",
+              "content": " of the class preceding the modal class = 3,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.147,
+            0.527,
+            0.756,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the frequency "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( f _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " of the class succeeding the modal class = 6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.553,
+            0.331,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, using the formula:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.406,
+            0.577,
+            0.732,
+            0.627
+          ],
+          "image_path": "images/page_14_equation_13.jpg",
+          "content": "\\mathrm{Model} = l + \\left( \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\right) \\times h,"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.098,
+            0.654,
+            0.172,
+            0.671
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.406,
+            0.636,
+            0.769,
+            0.682
+          ],
+          "image_path": "images/page_14_equation_15.jpg",
+          "content": "\\mathrm{Model} = 40 + \\left( \\frac{7 - 3}{14 - 6 - 3} \\right) \\times 15 = 52"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.097,
+            0.691,
+            0.348,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the mode marks is 52."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.097,
+            0.717,
+            0.672,
+            0.737
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, from Example 1, you know that the mean marks is 62."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.096,
+            0.744,
+            0.901,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the maximum number of students obtained 52 marks, while on an average a student obtained 62 marks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.789,
+            0.218,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks :"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.096,
+            0.816,
+            0.901,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. In Example 6, the mode is less than the mean. But for some other problems it may be equal or more than the mean also."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.095,
+            0.862,
+            0.902,
+            0.902
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. It depends upon the demand of the situation whether we are interested in finding the average marks obtained by the students or the average of the marks obtained by most"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

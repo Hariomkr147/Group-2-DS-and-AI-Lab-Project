@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.559,
+            0.041,
+            0.854,
+            0.059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Work, Energy, and Simple Machines"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.109,
+            0.085,
+            0.518,
+            0.106
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.1 Work Done by a Constant Force"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.108,
+            0.108,
+            0.519,
+            0.16
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us begin by doing some thinking based on our experience of lifting objects to a height."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.108,
+            0.161,
+            0.521,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a wheat bag of mass 5 kg kept on the floor (Fig. 7.2a). Gravitational force mg acts downwards on the bag, where m is the mass of the bag and g is the acceleration due to gravity. To lift the bag slowly to a height of 1 m, you must apply an upward force equal to mg. The force applied by you acts upwards on the bag as the bag is displaced through a distance of 1 m in the direction of the force. In everyday language, you would say that you did some work."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.522,
+            0.086,
+            0.967,
+            0.343
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.522,
+                0.086,
+                0.967,
+                0.343
+              ],
+              "image_path": "images/page_1_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.108,
+            0.346,
+            0.776,
+            0.415
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If you lift 3 such bags one after the other to the same height (Fig. 7.2b), you would have done 3 times more work than to lift 1 bag. If the bag is lifted to the same height by a machine using some fuel, it will require 3 times more fuel to lift 3 bags."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.108,
+            0.416,
+            0.775,
+            0.518
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, suppose you lift all the 3 bags together to the same height (Fig. 7.2c). You would need to apply a force 3 times larger than that required for a single bag. Since, you have done the same task as in Fig. 7.2b, the work done by you would be 3 times the work required to lift 1 bag. This shows that applying a larger force over the same distance allows you to proportionally do more work."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.108,
+            0.517,
+            0.776,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Next, consider lifting a single 5 kg bag of wheat but to a height of 3 m (Fig. 7.2d). You would have carried out 3 times more work as compared to the work required to lift the same bag by 1 m. Or if the same machine is used three times in succession to lift the bag by 1 m each time, it would require 3 times more fuel. Thus, applying the same force over a larger distance allows you to proportionally do more work."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.796,
+            0.444,
+            0.853,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.8,
+            0.468,
+            0.939,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While describing the work done, it is important to specify the force (or agency) doing the work and the object on which the work is done."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.108,
+            0.619,
+            0.775,
+            0.673
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The scientific definition of work done by a force is based on the above observations. The "
+            },
+            {
+              "type": "text",
+              "content": "work done by a constant force acting on an object",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " in bringing about a certain displacement can be defined as:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.108,
+            0.679,
+            0.775,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "work done on an object by a constant force = force applied × displacement in the direction of the force (7.1)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.108,
+            0.724,
+            0.565,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the example that we discussed, the displacement was in the vertical direction, however, Eq. (7.1) can be used even if the force and displacement, both are in a horizontal direction, or any other direction for that matter."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.108,
+            0.812,
+            0.565,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, consider an object upon which a constant force F is acting, and it undergoes a displacement s in the direction of force (Fig. 7.3). Then, the work done W by the force on the object is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.268,
+            0.887,
+            0.562,
+            0.904
+          ],
+          "image_path": "images/page_1_equation_14.jpg",
+          "content": "W = F \\times s\\tag{7.2}"
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.576,
+            0.719,
+            0.947,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.576,
+                0.719,
+                0.947,
+                0.87
+              ],
+              "image_path": "images/page_1_image_15.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 16,
+              "bbox": [
+                0.603,
+                0.877,
+                0.939,
+                0.92
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.3: Work done by a force while displacing an object in (a) horizontal direction, and (b) vertical direction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

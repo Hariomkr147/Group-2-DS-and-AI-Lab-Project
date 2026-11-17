@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.067
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finding the Unknown"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.088,
+            0.847,
+            0.187
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that in the case of the weighing scale, we didn’t use the trial and error method! For some problems, finding the solution was straightforward. For others, we used the fact that when we remove equal weights from both the plates of a balanced weighing scale, it remains balanced. Do equations have a similar property?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.194,
+            0.847,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Consider an equation 15 + 8 = 23. If we add, subtract, multiply or divide the same number on both sides, will it still preserve the equality of LHS and RHS?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.269,
+            0.686,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, you can check by adding 10 to both sides."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.293,
+            0.847,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the LHS and the RHS of an equation have the same value, performing the same operation on both sides will clearly not change their equality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.351,
+            0.847,
+            0.43
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the weighing scale problems, we removed equal weights so that all the unknown weights were on only one plate of the scale. This made the problem easier to solve. We can use this same strategy to solve an equation as well! Let us first solve some arithmetic problems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.437,
+            0.846,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " It is known that 14593 – 1459 + 145 – 14 + 88 = 13353. What is the value of 14593 – 1459 + 145 – 14?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.174,
+            0.481,
+            0.814,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To find the value, do we need to evaluate 14593 – 1459 + 145 – 14? No, we can get it by subtracting 88 from 13353."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.529,
+            0.359,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why can we do this?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.556,
+            0.847,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can do this because addition and subtraction are inverse operations. So, the value of the required expression can be found by subtracting 88 from both sides (LHS and RHS), which removes the term 88 and leaves only the expression to be evaluated on the LHS."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.28,
+            0.639,
+            0.72,
+            0.659
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14593 – 1459 + 145 – 14 + 88 – 88 = 13353 – 88"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11,
+            0.671,
+            0.846,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? "
+            },
+            {
+              "type": "text",
+              "content": "Example 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " It is known that 23 × 41 × 11 × 8 × 7 = 5,80,888. What is the value of the expression 23 × 41 × 11 × 8?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.716,
+            0.846,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the fact that multiplication and division are inverse operations, we can simply divide 5,80,888 by 7 to get the value of the expression."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.11,
+            0.764,
+            0.803,
+            0.807
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 Is this the same as dividing both sides by 7, which removes the factor 7 and leaves only the expression to be evaluated on the LHS?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.817,
+            0.764,
+            0.904,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.817,
+                0.764,
+                0.904,
+                0.819
+              ],
+              "image_path": "images/page_5_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.819,
+            0.801,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " It is known that 12345 – 5432 + 135 – 24 – (–67) = 7091. What is the value of the expression 12345 – 5432 + 135 – 24?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.809,
+            0.933,
+            0.843,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "169"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,268 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.086,
+            0.926,
+            0.128
+          ],
+          "content": "？ **Given the dimensions of a grid, can you tell the parity of the number of small squares without calculating the product?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.371,
+            0.159,
+            0.702,
+            0.351
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_1.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.381,
+            0.169,
+            0.397
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.409,
+            0.927,
+            0.447
+          ],
+          "content": "The parity of the number of small squares in a grid (with m rows and n columns) is:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.457,
+            0.778,
+            0.476
+          ],
+          "content": "(i) Even, if at least one of the numbers (either m or n) is even."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.477,
+            0.606,
+            0.495
+          ],
+          "content": "(ii) Odd, if both numbers (m and n) are odd."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.496,
+            0.623,
+            0.515
+          ],
+          "content": "(iii) Even, if both numbers (m and n) are even."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.554,
+            0.252,
+            0.573
+          ],
+          "level": 2,
+          "content": "Page No- 132"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.583,
+            0.81,
+            0.603
+          ],
+          "content": "**Find the parity of the number of small squares in these grids:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.613,
+            0.272,
+            0.632
+          ],
+          "content": "(a) $2 7 \\times 1 3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.634,
+            0.273,
+            0.652
+          ],
+          "content": "(b) $4 2 \\times 7 8$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.655,
+            0.292,
+            0.674
+          ],
+          "content": "(c) 135 × 654"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.687,
+            0.169,
+            0.703
+          ],
+          "content": "**Ans:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.707,
+            0.245,
+            0.725
+          ],
+          "content": "(a) Odd"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.728,
+            0.252,
+            0.746
+          ],
+          "content": "(b) Even"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.749,
+            0.251,
+            0.767
+          ],
+          "content": "(c) Even"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.779,
+            0.74,
+            0.799
+          ],
+          "content": "？ **Come up with an expression that always has odd parity.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.801,
+            0.17,
+            0.817
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.821,
+            0.736,
+            0.84
+          ],
+          "content": "Some such expressions are 2m + 1, 8a + 3; 4n + 3, 6n + 5 etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.851,
+            0.925,
+            0.891
+          ],
+          "content": "**Come up with other expressions, like 3n + 4, which could have either odd or even parity.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.894,
+            0.169,
+            0.911
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.514,
+            0.928,
+            0.528,
+            0.941
+          ],
+          "content": "4"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

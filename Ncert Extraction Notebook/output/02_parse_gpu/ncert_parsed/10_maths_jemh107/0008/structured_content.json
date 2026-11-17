@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "106"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.138,
+            0.9,
+            0.174
+          ],
+          "content": "**9.** If Q(0, 1) is equidistant from $\\mathrm{P}(5, -3)$ and $\\mathrm { R } ( x ,   6 )$ , find the values of x. Also find the distances QR and PR."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.179,
+            0.901,
+            0.216
+          ],
+          "content": "**10.** Find a relation between x and y such that the point $( x , y )$ is equidistant from the point (3, 6) and (– 3, 4)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.235,
+            0.324,
+            0.255
+          ],
+          "level": 2,
+          "content": "7.3 Section Formula"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.263,
+            0.517,
+            0.493
+          ],
+          "content": "Let us recall the situation in Section 7.2. Suppose a telephone company wants to position a relay tower at P between A and B is such a way that the distance of the tower from B is twice its distance from A. If P lies on AB, it will divide AB in the ratio 1 : 2 (see Fig. 7.9). If we take A as the origin O, and 1 km as one unit on both the axis, the coordinates of B will be (36, 15). In order to know the position of the tower, we must know the coordinates of P. How do we find these coordinates?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.542,
+            0.287,
+            0.898,
+            0.45
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.5,
+            0.902,
+            0.559
+          ],
+          "content": "Let the coordinates of P be $( x ,   y )$ Draw perpendiculars from P and B to the x-axis, meeting it in D and E, respectively. Draw PC perpendicular to BE. Then, by the AA similarity criterion, studied in Chapter 6,   POD and $\\Delta   \\mathrm { B P C }$ are similar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.564,
+            0.579,
+            0.608
+          ],
+          "content": "Therefore , $\\frac{OD}{PC} = \\frac{OP}{PB} = \\frac{1}{2}$ , and $\\frac{\\mathrm{PD}}{\\mathrm{BC}} = \\frac{\\mathrm{OP}}{\\mathrm{PB}} = \\frac{1}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.613,
+            0.451,
+            0.653
+          ],
+          "content": "So, $\\frac { x } { 3 6   -   x }   =   \\frac { 1 } { 2 }$ and $\\frac{y}{15 - y} \\div \\frac{1}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.656,
+            0.482,
+            0.675
+          ],
+          "content": "These equations give $x = 1 2$ and $y = 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.681,
+            0.516,
+            0.719
+          ],
+          "content": "You can check that P(12, 5) meets the condition that $\\mathrm{OP}:\\mathrm{PB}=1:2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.726,
+            0.516,
+            0.784
+          ],
+          "content": "Now let us use the understanding that you may have developed through this example to obtain the general formula."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.788,
+            0.517,
+            0.898
+          ],
+          "content": "Consider any two points $\\mathrm { A } ( x _ { 1 } , y _ { 1 } )$ and $\\mathbf { B } ( x _ { _ 2 } ,   y _ { _ 2 } )$ and assume that $\\mathrm { ~ P ~ } ( x ,   y )$ divides AB internally in the ratio $m _ { _ 1 } : m _ { _ 2 } ,$ i.e., $\\frac { \\mathrm { P A } } { \\mathrm { P B } }   =   \\frac { m _ { 1 } } { m _ { 2 } }$ (see Fig. 7.10)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.548,
+            0.635,
+            0.897,
+            0.863
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.675,
+                0.868,
+                0.774,
+                0.887
+              ],
+              "content": "Fig. 7.10"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_14.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

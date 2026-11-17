@@ -1,0 +1,21 @@
+## 12.1 Stars and Constellations
+
+At night, when we look up at the sky, we see many stars. Some stars are bright and others are dim. Stars shine with their own light.
+
+Do we find patterns among the stars just or un f f or is there some us some use of these pa tterns?
+
+Some groups of stars appear to form patterns which are like shapes of familiar things. Long ago, when watching stars in the night sky was a favourite pastime of our ancestors, they identified these star patterns with animals, things or characters in stories. Many cultures had names for patterns based on their own stories. These imaginary shapes helped them in recognising stars in the sky.
+
+![](images/page_2_image_4.jpg)
+
+Recognising stars and their patterns was a useful skill for navigation in the olden times. Before the arrival of modern technology or even before the invention of the magnetic compass, it helped people, particularly sailors and travellers, in finding directions at sea or on land. It is still used in emergencies as a backup method.
+
+In earlier times, groups of stars forming patterns were called constellations. Currently, the term constellation refers to defined regions of the sky that often include these patterns of stars. However, as the patterns of stars are often the most noticeable feature, the term constellation is still commonly used for these groups of stars.
+
+Since different cultures denoted the constellation boundaries in different ways, an internationally agreed set of constellation boundaries were defined by the International Astronomical Union (IAU) in the early twentieth century. 88 constellations were officially listed, thus, dividing the entire sky into 88 regions. These regions of sky are now defined as constellations.
+
+![](images/page_2_image_8.jpg)
+
+**More to know!**
+
+Some constellations are shown in Fig. 12.3. The stars are joined by imaginary lines, drawn for easy identification. The constellation Orion is often represented as a hunter. There are three stars in the middle, which represent the belt of the hunter. Some people imagine that the hunter Orion, followed by his dog (constellation Canis Major), is battling a bull (constellation Taurus). Canis Major contains a star

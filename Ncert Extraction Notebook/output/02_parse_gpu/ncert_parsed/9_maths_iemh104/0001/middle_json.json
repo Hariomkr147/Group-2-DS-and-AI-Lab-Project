@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.131,
+            0.147,
+            0.16,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 1,
+          "bbox": [
+            0.25,
+            0.125,
+            0.587,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.717,
+            0.058,
+            0.87,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "国中"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 3,
+          "bbox": [
+            0.747,
+            0.165,
+            0.829,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0904CH04"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.114,
+            0.24,
+            0.361,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.112,
+            0.274,
+            0.885,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In earlier chapters, you learnt about linear polynomials and how they can be used to represent and solve real-life problems. You also studied linear equations and discovered how they describe relationships between quantities."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.352,
+            0.885,
+            0.429
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this chapter, we will take the next step by exploring algebraic identities. These are special mathematical rules that not only make it easier to simplify complicated calculations but also help us work efficiently with algebraic expressions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.429,
+            0.672,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us begin by exploring a few simple patterns."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.113,
+            0.452,
+            0.885,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider any three consecutive square numbers. For example, 1, 4, and 9. Add the smallest and the largest squares. Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1+9=10"
+            },
+            {
+              "type": "text",
+              "content": " . Then subtract twice the middle square from this sum. This leads to 10 – (2 × 4) = 10 – 8 = 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.53,
+            0.884,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now try the same process with another set of three consecutive square numbers. Say 9, 16, 25."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.302,
+            0.575,
+            0.685,
+            0.774
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.302,
+                0.575,
+                0.685,
+                0.774
+              ],
+              "image_path": "images/page_0_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.788,
+            0.769,
+            0.808
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, consider the consecutive squares 25, 36, 49."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.814,
+            0.819,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Applying the same rule we get (25 + 49) – (2 × 36) = 74 – 72 = 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.114,
+            0.839,
+            0.883,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Repeat this process with other sets of three consecutive square numbers. The result always seems to be 2!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.113,
+            0.877,
+            0.884,
+            0.917
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The pattern may look surprising, but soon we will uncover the reason behind it using algebra."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}
