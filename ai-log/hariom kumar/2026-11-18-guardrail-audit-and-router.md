@@ -39,4 +39,4 @@ After comparing the benchmark metrics, I chose TF-IDF with Logistic Regression. 
 - Checked that backend unit tests pass (`uv run pytest -q`).
 - Verified memory consumption remains well below Render's 512MB limit.
 
-**References:** `backend/Guardrail_implementation_plan.md`, `backend/eval/message_router/REPORT.md`, `backend/app/services/guardrails.py`, `backend/app/services/tutor.py`.
+**References:** `backend/Guardrail_implementation_plan.md`, `backend/eval/message_router/REPORT.md`, `backend/eval/message_router/cases.json`, `backend/app/services/guardrails.py`, `backend/app/services/tutor.py`, [arXiv:2502.15096](https://arxiv.org/abs/2502.15096).
