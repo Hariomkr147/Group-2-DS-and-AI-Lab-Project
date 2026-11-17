@@ -8,10 +8,14 @@ dependencies = [
     "uvicorn[standard]>=0.30",
     "sqlalchemy>=2.0",
     "psycopg[binary]>=3.2",
+    "pyjwt>=2.15.1",
+    "google-genai>=3.3.0",
     "pg8000>=1.31,<2",
 ]
 
 [project.optional-dependencies]
+openai = ["openai>=1.50"]        # also used for ollama
+anthropic = ["anthropic>=0.40"]
 rag = [
     "torch==2.11.0",
     "transformers>=4.57,<5",
