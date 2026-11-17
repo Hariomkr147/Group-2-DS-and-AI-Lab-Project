@@ -101,6 +101,22 @@ Log in first (`POST /auth/login`) and send the token as a bearer token; the coll
 | `POST /practice` | Practice questions for a concept (answers hidden) |
 | `POST /diagnostics` | Short test, lowest level first (answers hidden) |
 
+## NCERT Classes 6–10 Textbook Retrieval & Tutoring
+
+In addition to sample course packs, the backend supports direct grounded tutoring against the approved NCERT textbook corpus (Classes 6–10 Maths and Science).
+
+| Setting | Purpose |
+|---|---|
+| `NCERT_DATABASE_URL` | Supabase PostgreSQL connection with pgvector for the textbook corpus. |
+| `NCERT_SSL_ROOT_CERT` | Optional path to CA certificate for SSL verification. |
+| `NCERT_MODEL_URL` | Hosted Socratic tutoring model URL (`/predict`). |
+| `NCERT_MODEL_API_KEY` | Bearer or API key for the model endpoint. |
+| `NCERT_MODEL_AUTH_HEADER` | Header format: `Authorization` (default) or `X-API-Key`. |
+
+- **Sessions with NCERT**: `POST /sessions` with `course_id: "ncert"` and optional `grade` (6-10) and `subject` (`maths` or `science`).
+- **Query / Search**: `GET /search?course_id=ncert&q=...&grade=10&subject=science`.
+- **Grounded Tutoring**: `POST /sessions/{id}/messages` automatically matches relevant textbook passages, cites the chapter and physical PDF page, and provides Socratic guidance. Send `new_topic: true` to clear chapter context.
+
 A sample NCERT-style pack (`ncert-maths`: multiplication → division → fractions → percentages) is loaded at startup.
 
 ## Where the models plug in

@@ -1,5 +1,6 @@
 """Request and response models shared by the routers and services."""
 from enum import Enum
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
@@ -84,6 +85,8 @@ class CourseGraph(BaseModel):
 class SessionCreate(BaseModel):
     learner_id: str | None = None  # defaults to the signed-in username
     course_id: str
+    grade: int | None = Field(default=None, ge=6, le=10)
+    subject: Literal["maths", "science"] | None = None
 
 
 class Turn(BaseModel):
@@ -102,12 +105,21 @@ class SessionInfo(BaseModel):
 
 class MessageIn(BaseModel):
     text: str = Field(min_length=1, max_length=2000)
+    new_topic: bool = False
 
 
 class Resource(BaseModel):
     source: str
     page: str = ""
     url: str = ""
+    passage_id: str | None = None
+
+
+class Chapter(BaseModel):
+    grade: int
+    subject: Literal["maths", "science"]
+    book_code: str
+    chapter: int
 
 
 class TutorReply(BaseModel):
@@ -119,6 +131,8 @@ class TutorReply(BaseModel):
     resource: Resource | None = None
     misconception: str | None = None   # unconfirmed suggestion: a rule name ("divides_by_the_percent") or one sentence
     wrong_step: int | None = None      # first wrong line of the learner's working (1-based), when working was sent
+    chapter: Chapter | None = None
+    generation: Literal["hosted", "extractive"] | None = None
 
 
 # ── Learner model ────────────────────────────────────────────────────────────
@@ -149,6 +163,8 @@ class SearchHit(BaseModel):
     concept_id: str
     score: float
     material: Material
+    chapter: Chapter | None = None
+    passage_id: str | None = None
 
 
 class PracticeRequest(BaseModel):

@@ -1,9 +1,11 @@
 """One tutoring turn: guardrails -> learner model -> controller -> Socratic model -> guardrails."""
+import re
+
 from sqlalchemy.orm import Session
 
 from ..db import SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
-from . import controller, course_store, guardrails, learner_model, misconception, retrieval, socratic, step_finder
+from . import controller, course_store, guardrails, learner_model, misconception, ncert, retrieval, socratic, step_finder
 
 ASK_FOR_WORKING = "Show your steps, one per line, so I can see where it went wrong."
 
@@ -45,7 +47,71 @@ def _finish(db: Session, session: SessionRow, learner_text: str, reply: TutorRep
     return reply
 
 
-def handle_message(db: Session, session: SessionRow, text: str) -> TutorReply:
+def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool) -> TutorReply:
+    if guardrails.requests_answer(text):
+        return _finish(db, session, text, TutorReply(
+            reply=socratic.REDIRECT_ANSWER, action=Action.REDIRECT, label=InputLabel.ANSWER_REQUEST))
+
+    state = session.pending or {}
+    scope = state.get("scope", {})
+    chapter = None if new_topic else state.get("chapter")
+    previous = state.get("question", "")
+    # shortcut: pattern-based follow-ups, upgrade after evaluating real conversations.
+    followup = chapter and (
+        re.fullmatch(r"[\s\d.,/%+\-*x÷=]+", text)
+        or re.match(r"(?i)^(i (?:got|tried|think|used)|what next|why (?:is|does) (?:that|it)|(?:give me )?a hint|hint|can you explain (?:that|it))\b", text)
+    )
+    clarification = re.fullmatch(
+        r"(?i)(?:(?:class|grade)\s+([6-9]|10)(?:\s+(maths|science))?|(maths|science))[.!]?", text)
+    query = text
+    if clarification and state.get("clarify") and not new_topic:
+        grade, subject, subject_only = clarification.groups()
+        scope = {**scope, "grade": int(grade) if grade else scope.get("grade"),
+                 "subject": (subject or subject_only or scope.get("subject") or "").lower() or None}
+        query = previous
+
+    if followup:
+        passages = ncert.rank(f"{previous}\n{query}", chapter, limit=1)
+    else:
+        passages = ncert.rank(query, scope, limit=2, chapters=True)
+
+    if not passages or passages[0]["score"] < ncert.MIN_SCORE:
+        if not followup:
+            session.pending = {"scope": scope, "question": query, "clarify": True}
+        message = ("Which part of the current textbook topic are you working on?" if chapter else
+                   "I couldn't find a matching NCERT passage. What class, subject or textbook topic is this about?")
+        return _finish(db, session, text, TutorReply(
+            reply=message, action=Action.REDIRECT, label=InputLabel.OFF_TOPIC))
+
+    best = passages[0]
+    if len(passages) > 1 and best["score"] - passages[1]["score"] < ncert.CHAPTER_MARGIN:
+        other = passages[1]
+        if best["grade"] != other["grade"] or best["subject"] != other["subject"]:
+            session.pending = {"scope": scope, "question": query, "clarify": True}
+            return _finish(db, session, text, TutorReply(
+                reply=f"This could be Class {best['grade']} {best['subject']} or Class {other['grade']} "
+                      f"{other['subject']}. Which class and subject are you studying?",
+                action=Action.PROBE, label=InputLabel.ON_TOPIC))
+
+    selected = ncert.chapter_of(best)
+    concept = ncert.concept_id(best)
+    same_topic = chapter == selected.model_dump()
+    context = previous if followup else query
+    reply, generation = socratic.grounded(text, context, best)
+    session.current_concept = concept
+    if not same_topic:
+        session.target_concept = concept
+    session.pending = {"scope": scope, "chapter": selected.model_dump(), "question": context}
+    return _finish(db, session, text, TutorReply(
+        reply=reply, action=Action.HINT if same_topic else Action.ASK, label=InputLabel.ON_TOPIC,
+        concept_id=concept, level=selected.grade, chapter=selected, resource=ncert.resource(best),
+        generation=generation))
+
+
+def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False) -> TutorReply:
+    text = text.strip()
+    if session.course_id == ncert.COURSE_ID:
+        return _handle_ncert(db, session, text, new_topic)
     label = guardrails.classify_input(db, text, session.course_id)
     working = step_finder.split_working(text) if session.pending else None
     if label == InputLabel.OFF_TOPIC and working and step_finder.has_arithmetic(working):
