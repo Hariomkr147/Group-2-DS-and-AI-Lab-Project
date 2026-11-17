@@ -1,0 +1,264 @@
+{
+  "candidate": "minilm",
+  "dataset_sha256": "35b4eb49d941984f060596967f997e3b79027d29fc84d27e768348a23ca3f87c",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "runtime": "ONNX Runtime UINT8 AVX2",
+  "examples": {
+    "train": 132,
+    "dev": 45,
+    "test": 104
+  },
+  "load_seconds_cached_files": 9.494715799984988,
+  "fit_seconds": 6.476946799957659,
+  "artifact_bytes_excluding_tokenizer": 23085538,
+  "baseline_python_rss_mib": 25.36328125,
+  "baseline_backend_rss_mib": 73.41796875,
+  "resident_backend_and_router_rss_mib": 267.10546875,
+  "sampled_peak_backend_and_router_rss_mib": 267.10546875,
+  "sampled_inference_peak_backend_and_router_rss_mib": 267.10546875,
+  "os_peak_working_set_mib": 267.109375,
+  "intent_accuracy": 0.7019230769230769,
+  "scope_accuracy": 0.8942307692307693,
+  "joint_accuracy": 0.6538461538461539,
+  "intent_macro_f1": 0.6887653694621533,
+  "scope_macro_f1": 0.8187715665976536,
+  "supported_switches_correct_intent_and_scope": [
+    5,
+    9
+  ],
+  "false_unsupported_redirects": 7,
+  "latency_ms_p50": 34.54434999730438,
+  "latency_ms_p95": 132.17599998461083,
+  "dev_selected_joint_confidence_threshold": null,
+  "test_accepted_count": 0,
+  "test_total_count": 104,
+  "test_accepted_joint_accuracy": null,
+  "intent_report": {
+    "answer_attempt": {
+      "precision": 0.6923076923076923,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.75,
+      "support": 11.0
+    },
+    "doubt": {
+      "precision": 0.8571428571428571,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.5714285714285714,
+      "support": 14.0
+    },
+    "hint_request": {
+      "precision": 0.42857142857142855,
+      "recall": 0.3,
+      "f1-score": 0.35294117647058826,
+      "support": 10.0
+    },
+    "explanation_request": {
+      "precision": 1.0,
+      "recall": 0.46153846153846156,
+      "f1-score": 0.631578947368421,
+      "support": 13.0
+    },
+    "topic_switch": {
+      "precision": 0.6666666666666666,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6896551724137931,
+      "support": 14.0
+    },
+    "answer_request": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    },
+    "bypass_attempt": {
+      "precision": 0.6,
+      "recall": 0.9,
+      "f1-score": 0.72,
+      "support": 10.0
+    },
+    "other": {
+      "precision": 0.631578947368421,
+      "recall": 1.0,
+      "f1-score": 0.7741935483870968,
+      "support": 12.0
+    },
+    "clarification_reply": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 10.0
+    },
+    "accuracy": 0.7019230769230769,
+    "macro avg": {
+      "precision": 0.7232889917100443,
+      "recall": 0.7136197136197135,
+      "f1-score": 0.6887653694621533,
+      "support": 104.0
+    },
+    "weighted avg": {
+      "precision": 0.7321799320787173,
+      "recall": 0.7019230769230769,
+      "f1-score": 0.6848686746715645,
+      "support": 104.0
+    }
+  },
+  "scope_report": {
+    "supported": {
+      "precision": 0.9859154929577465,
+      "recall": 0.8860759493670886,
+      "f1-score": 0.9333333333333333,
+      "support": 79.0
+    },
+    "unsupported": {
+      "precision": 0.5,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.6086956521739131,
+      "support": 9.0
+    },
+    "uncertain": {
+      "precision": 0.8421052631578947,
+      "recall": 1.0,
+      "f1-score": 0.9142857142857143,
+      "support": 16.0
+    },
+    "accuracy": 0.8942307692307693,
+    "macro avg": {
+      "precision": 0.7760069187052138,
+      "recall": 0.8879512423816222,
+      "f1-score": 0.8187715665976536,
+      "support": 104.0
+    },
+    "weighted avg": {
+      "precision": 0.9217404630210412,
+      "recall": 0.8942307692307693,
+      "f1-score": 0.9023092849179807,
+      "support": 104.0
+    }
+  },
+  "intent_confusion_matrix_labels": [
+    "answer_attempt",
+    "doubt",
+    "hint_request",
+    "explanation_request",
+    "topic_switch",
+    "answer_request",
+    "bypass_attempt",
+    "other",
+    "clarification_reply"
+  ],
+  "intent_confusion_matrix": [
+    [
+      9,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      2,
+      0,
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      0,
+      1,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      6,
+      2,
+      0,
+      2,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      10,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "host": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.13.15",
+    "logical_cpus": 16,
+    "native_inference_threads": 1
+  },
+  "package_versions": {
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0",
+    "onnxruntime": "1.20.1",
+    "torch": "2.11.0",
+    "transformers": "4.57.6",
+    "psutil": "7.2.2"
+  }
+}

@@ -95,3 +95,34 @@ def test_hosted_reply_uses_retrieved_evidence_and_backend_citation(ncert_client,
     assert reply["generation"] == "hosted"
     assert reply["reply"] == "What quantity flows per second?"
     assert reply["resource"]["passage_id"] == _passage()["passage_id"]
+
+
+def test_topic_switch_respects_selected_subject(ncert_client, monkeypatch):
+    fractions = {**_passage(7, "maths"), "chapter": 8, "heading": "Fractions"}
+    photosynthesis = {**_passage(7), "chapter": 2, "heading": "Photosynthesis"}
+
+    def rank(query, scope, **kwargs):
+        if "photosynthesis" in query:
+            return [] if scope.get("subject") == "maths" else [photosynthesis]
+        if "fractions" in query:
+            return [fractions]
+        if query == "What is a cell?":
+            return [_passage(7, score=0.80), _passage(10, score=0.79)]
+        return []
+
+    monkeypatch.setattr(ncert, "rank", rank)
+    for scope in ({}, {"subject": "maths"}):
+        path = _start(ncert_client, **scope)
+        first = ncert_client.post(path, json={"text": "Teach me fractions"}).json()
+        assert first["chapter"]["subject"] == "maths"
+        switched = ncert_client.post(path, json={"text": "Can we learn photosynthesis now?"}).json()
+        if scope:
+            assert switched["label"] == "off_topic"
+            hint = ncert_client.post(path, json={"text": "I don't understand why"}).json()
+            assert hint["chapter"]["subject"] == "maths"
+        else:
+            assert switched["chapter"]["subject"] == "science"
+
+    path = _start(ncert_client)
+    cell = ncert_client.post(path, json={"text": "What is a cell?"}).json()
+    assert cell["action"] == "probe" and cell["resource"] is None

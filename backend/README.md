@@ -131,12 +131,18 @@ Each is a stub in `app/services/` with the interface the real model must keep.
 | `socratic.py` | fine-tuned Qwen (`qwen_finetuned`) writes hint and probe turns; templates for the rest and as fallback | Qwen for every turn, with conversation history |
 | `misconception.py` | error patterns and expression search on a bare wrong answer | kept as the fallback when no working is sent |
 | `step_finder.py` | first wrong step in the learner's working: code checks the sums, fine-tuned Qwen names a wrong method (`STEP_FINDER_PROVIDER`) | model fine-tuned for this task; evaluation in `eval/misconception/` |
-| `guardrails.py` | keyword rules | input classifier and output checker |
+| `guardrails.py` | packaged TF-IDF and logistic-regression intent and scope classifier, plus answer-disclosure checks | evaluate on reviewed learner conversations |
 | `retrieval.py` | keyword overlap | pgvector embedding search (the database image already includes pgvector) |
 
 To use the fine-tuned Qwen, run `docs/milestone-3/model_hosting/hosting-qwen.ipynb` on a Kaggle or Colab GPU and set `QWEN_URL` and `QWEN_API_KEY` in `.env`. If the model is not set up, unreachable, cut off or gives away the answer, the template reply is used. `SOCRATIC_PROVIDER=templates` switches the model off.
 
-`app/services/tutor.py` runs one turn: input check → learner model → controller → Socratic model → output check. Off-topic messages and answer requests get a redirect and are never written to the learner model.
+`app/services/tutor.py` classifies each chat message before choosing the course-pack or NCERT path. The classifier predicts intent and curriculum scope from the message and up to six recent turns. Topic switches require a match in the selected course. In course-pack chat, only a recognizable answer to a pending assessment reaches grading. NCERT chapter chat provides ungraded guidance. When classification is uncertain or unavailable, explicit requests and recognizable answers use backend checks. Other ambiguous turns prompt for clarification.
+
+The app loads `app/services/message_router.joblib` once on demand. To rebuild it from the repository root, run the command below in an environment with the backend dependencies. See the [router evaluation notes](eval/message_router/README.md) for training data and results.
+
+```bash
+python backend/eval/message_router/export_router.py
+```
 
 Tables (`app/db.py`): `courses`, `concepts` (prerequisites, material and questions stored as JSON), `sessions`, `turns`, `answers`. Learner history is the `answers` table, so DKT reads it per learner, per course and per session.
 
