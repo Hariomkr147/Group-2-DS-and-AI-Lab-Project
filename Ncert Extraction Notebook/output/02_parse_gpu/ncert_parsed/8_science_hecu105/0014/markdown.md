@@ -1,0 +1,32 @@
+You can repeat Activities 5.10 to 5.12 for the mass scale shown on the left side on the spring balance (Fig. 5.13) to measure the mass of an object.
+
+## A step further
+
+The mass of an object can be measured indirectly by measuring its weight (using a spring balance) or by comparing its weight with the weight of an object of a known mass (using a beam balance). Since the weight of an object remains almost the same everywhere on the Earth, so for all practical purposes it is acceptable to weigh an object to find its mass.
+
+![](images/page_13_image_4.jpg)
+
+As we have learnt earlier (in the chapter ‘Materials Around Us’ in Curiosity, Grade 6), mass is the amount of matter in an object and is measured in grams (g) or kilograms (kg). Its value remains the same at every
+
+What is the difference between weight and mass?
+
+![](images/page_13_image_7.jpg)
+
+place. Weight, on the other hand, is the gravitational force with which the Earth (or another planet) pulls an object. Since gravitational force can vary very slightly from place to place on the Earth (and can be very different on different planets), weight can change, but mass does not.
+
+## A step further
+
+The following table illustrates that although the mass of an object remains the same, its weight is different on the Earth, the Moon, and other planets.
+
+|  | Earth | Moon | Mars | Venus | Jupiter |
+| --- | --- | --- | --- | --- | --- |
+| Mass ofthe object | 1 kg | 1kg | 1kg | 1kg | 1 kg |
+| Weight ofthe object | 10 N | 1.6 N | 3.8 N | 9N | 25.4 N |
+
+![](images/page_13_image_12.jpg)
+
+## A step further
+
+In everyday life, particularly for the goods we commonly use, we are more interested in the amount of matter in an object (its mass), rather than the force applied by the Earth upon it (its weight). However, though while the units of mass are used, instead of the term mass, the term weight is typically used. For example, it is said that the weight of the wheat bag is 10 kg. But in scientific use, this is not correct and it is important to use the correct terms with their correct units, even if every day language is more casual.
+
+![](images/page_13_image_15.jpg)

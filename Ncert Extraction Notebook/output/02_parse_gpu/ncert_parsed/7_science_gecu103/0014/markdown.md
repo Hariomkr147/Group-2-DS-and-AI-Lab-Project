@@ -1,0 +1,29 @@
+**Analyse** your observations. Did the lamp glow for all materials?
+
+The lamp glows for some materials only. This means that electric current can pass easily through some materials but not through others. The materials through which electric current can flow easily are called **good conductors**, or **conductors of electricity**. The materials through which current cannot pass through are called **insulators**, or **poor conductors of electricity**.
+
+Based on the observations you have recorded in Table 3.3, **conclude** which materials are conductors of electricity and which are insulators. Note it in Table 3.3.
+
+From your conclusions in Table 3.3, you would have realised that metals are conductors of electricity, and thus, are used for making wires.
+
+## D <sup>IVE</sup> EEPER
+
+![](images/page_13_image_7.jpg)
+
+Silver, copper, and gold are the best electrical conductors. However, for making electrical wires, mainly copper is used due to its comparatively lower cost and abundant supply. Different types of electrical wires are used for different uses.
+
+From Table 3.3, you would have also realised that plastic, rubber, and ceramics are electrical insulators. Have you now understood why wires are covered with those materials?
+
+Conductors and insulators are both important. Electrical wires, switches, connectors of plugs, and sockets are made of conductors. Insulators like rubber, plastics, and ceramics are used to cover wires, plug tops, and switches to protect people from electric shocks.
+
+![](images/page_13_image_11.jpg)
+
+**Caution** — Our body is a conductor of electricity. Electric current passing through our body may cause severe injury or even death. Always handle electrical appliances with care. Never touch switches or plugs with wet hands, or use electrical devices in wet areas, or handle equipment with damaged insulation or broken plugs.equipment with damaged insulation or broken plugs.
+
+## D <sup>IVE</sup> EEPER
+
+![](images/page_13_image_14.jpg)
+
+Have you ever wondered how the electricity from a cell or battery is different from the electricity coming from a wall socket? Electricity from batteries usually powers small devices and is of a type called Direct Current (DC). In contrast, the electricity from power plants that come to the wall socket is known as Alternating Current (AC) and can run larger appliances.
+
+![](images/page_13_image_16.jpg)

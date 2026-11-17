@@ -1,0 +1,222 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.138,
+            0.12
+          ],
+          "content": "176"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.138,
+            0.778,
+            0.159
+          ],
+          "content": "Substituting the values of $a , \\Sigma f d _ { i }$ and $\\Sigma f _ { i }$ from Table 13.4, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.171,
+            0.666,
+            0.212
+          ],
+          "content": "\\left[ \\overline{x} \\right. = \\left. 47.5 + \\frac{435}{30} \\right] = 47.5 + 14.5 = 62 .",
+          "image_source": "images/page_5_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.221,
+            0.716,
+            0.241
+          ],
+          "content": "Therefore, the mean of the marks obtained by the students is $6 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.246,
+            0.815,
+            0.266
+          ],
+          "content": "The method discussed above is called the **Assumed Mean Method**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.278,
+            0.901,
+            0.337
+          ],
+          "content": "**Activity 1 :** From the Table 13.3 find the mean by taking each of $x _ { i }$ (i.e., 17.5, 32.5, and so on) as $^ { \\circ } a ^ { \\prime }$ . What do you observe? You will find that the mean determined in each case is the same, i.e., 62. (Why ?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.343,
+            0.901,
+            0.381
+          ],
+          "content": "So, we can say that the value of the mean obtained does not depend on the choice of $^ { \\circ } a ^ { \\prime }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.386,
+            0.902,
+            0.447
+          ],
+          "content": "Observe that in Table 13.4, the values in Column 4 are all multiples of 15. So, if we divide the values in the entire Column 4 by 15, we would get smaller numbers to multiply with $f _ { i ^ { * } }$ (Here, 15 is the class size of each class interval.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.461,
+            0.844,
+            0.5
+          ],
+          "content": "So, let $u _ { _ i } = \\frac { x _ { _ i } - a } { h }$ , where a is the assumed mean and h is the class size."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.508,
+            0.901,
+            0.549
+          ],
+          "content": "Now, we calculate $u _ { _ i }$ in this way and continue as before (i.e., find $f _ { i }   u _ { i }$ and then $\\Sigma f _ { i } u _ { i } )$ . Taking $h = 1 5 ^ { \\circ }$ , let us form Table 13.5."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.58,
+            0.896,
+            0.809
+          ],
+          "content": "| Class interval | f<sub>i</sub> | x<sub>i</sub> | d<sub>i</sub> = x<sub>i</sub> - a | xi - a u<sub>i</sub> = h | f<sub>i</sub>u<sub>i</sub> |\n| --- | --- | --- | --- | --- | --- |\n| 10 - 25 | 2 | 17.5 | -30 | -2 | -4 |\n| 25 - 40 | 3 | 32.5 | -15 | -1 | -3 |\n| 40 - 55 | 7 | 47.5 | 0 | 0 | 0 |\n| 55 - 70 | 6 | 62.5 | 15 | 1 | 6 |\n| 70 - 85 | 6 | 77.5 | 30 | 2 | 12 |\n| 85 - 100 | 6 | 92.5 | 45 | 3 | 18 |\n| Total | Σf<sub>i</sub> = 30 |  |  |  | Σf<sub>i</sub>u<sub>i</sub> = 29 |",
+          "captions": [
+            {
+              "bbox": [
+                0.441,
+                0.559,
+                0.56,
+                0.578
+              ],
+              "content": "Table 13.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_table_12.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.843,
+            0.138,
+            0.861
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.438,
+            0.83,
+            0.546,
+            0.874
+          ],
+          "content": "\\overline { { u } } \\; = \\; \\frac { \\Sigma f _ { i } u _ { i } } { \\Sigma f _ { i } }",
+          "image_source": "images/page_5_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.881,
+            0.609,
+            0.902
+          ],
+          "content": "Here, again let us find the relation between $\\left[ \\overline { { u } } \\right]$ and $\\left[ { \\overline { { x } } } \\right]$ ."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

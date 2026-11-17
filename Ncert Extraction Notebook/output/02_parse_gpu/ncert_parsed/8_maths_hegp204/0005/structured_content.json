@@ -1,0 +1,141 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.091,
+            0.334,
+            0.11
+          ],
+          "level": 2,
+          "content": "Fractals in Art"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.11,
+            0.848,
+            0.26
+          ],
+          "content": "Fractals have also long been used in human-made art! Perhaps the oldest such fractals appear in the temples of India. An example occurs in the Kandariya Mahadev Temple in Khajuraho, Madhya Pradesh which was completed in around 1025 C.E.; there one sees a tall temple structure, which is made up of smaller copies of the full structure, on which there are even smaller copies of the same structure, and so on. Fractal-like patterns also occur in temples in Madurai, Hampi, Rameswaram, Varanasi, among many others."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.35,
+            0.266,
+            0.648,
+            0.552
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.41,
+                0.559,
+                0.614,
+                0.576
+              ],
+              "content": "Kandariya Mahadev Temple"
+            }
+          ],
+          "image_source": "images/page_4_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.592,
+            0.845,
+            0.649
+          ],
+          "content": "Fractals are also common in traditional African cultures. For example, patterns on Nigerian Fulani wedding blankets often exhibit fractal structures."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.309,
+            0.659,
+            0.689,
+            0.876
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.379,
+                0.892,
+                0.62,
+                0.908
+              ],
+              "content": "Nigerian Fulani Wedding Blanket"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_6.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.087,
+            0.914,
+            0.12,
+            0.934
+          ],
+          "content": "74"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

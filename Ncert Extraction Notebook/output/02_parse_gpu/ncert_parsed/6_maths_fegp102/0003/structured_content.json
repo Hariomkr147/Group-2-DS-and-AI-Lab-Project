@@ -1,0 +1,258 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.116,
+            0.567,
+            0.146,
+            0.59
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.69,
+            0.064,
+            0.835,
+            0.082
+          ],
+          "content": "Lines and Angles"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.122,
+            0.226,
+            0.15
+          ],
+          "level": 2,
+          "content": "2.4 Ray"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.162,
+            0.835,
+            0.232
+          ],
+          "content": "A **ray** is a portion of a line that starts at one point (called the **starting point** or **initial point** of the ray) and goes on endlessly in a direction. The following are some models for a ray:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.163,
+            0.248,
+            0.26,
+            0.39
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.127,
+                0.398,
+                0.293,
+                0.431
+              ],
+              "content": "Beam of light from a lighthouse"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.352,
+            0.283,
+            0.572,
+            0.381
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.359,
+                0.397,
+                0.557,
+                0.416
+              ],
+              "content": "Ray of light from a torch"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.624,
+            0.257,
+            0.802,
+            0.379
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.676,
+                0.399,
+                0.752,
+                0.417
+              ],
+              "content": "Sun rays"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.459,
+            0.722,
+            0.553
+          ],
+          "content": "Look at the diagram (Fig. 2.3) of a ray. Two points are marked on it. One is the starting point A and the other is a point P on the path of the ray. We then denote the ray by $\\overrightarrow { \\mathrm { A P } } .$ A"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.686,
+            0.457,
+            0.833,
+            0.557
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.729,
+                0.558,
+                0.791,
+                0.577
+              ],
+              "content": "Fig. 2.3"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_11.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.566,
+            0.302,
+            0.592
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.616,
+            0.185,
+            0.637
+          ],
+          "content": "1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.221,
+            0.645,
+            0.464,
+            0.761
+          ],
+          "content": "Rihan marked a point on a piece of paper. How many lines can he draw that pass through the point?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.528,
+            0.646,
+            0.804,
+            0.762
+          ],
+          "content": "Sheetal marked two points on a piece of paper. How many different lines can she draw that pass through both of the points?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.196,
+            0.799,
+            0.707,
+            0.822
+          ],
+          "content": "Can you help Rihan and Sheetal find their answers?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.888,
+            0.941,
+            0.915,
+            0.96
+          ],
+          "content": "15"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:38:25+05:30",
+      "modified_at": "2026-04-07T17:39:03+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 53,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

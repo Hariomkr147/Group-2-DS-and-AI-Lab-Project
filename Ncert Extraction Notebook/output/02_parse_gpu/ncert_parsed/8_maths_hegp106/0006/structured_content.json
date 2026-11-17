@@ -1,0 +1,336 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.09,
+            0.685,
+            0.116
+          ],
+          "content": "Using exponent notation, we can write ${ \\frac { 3 } { 2 } } \\times ( a \\times a ) = { \\frac { 3 } { 2 } }   a ^ { 2 } .$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.378,
+            0.116,
+            0.619,
+            0.144
+          ],
+          "content": "\\frac{3a}{2} \\times b = \\frac{3}{2} \\times (a \\times b) = \\frac{3}{2}ab.",
+          "image_source": "images/page_5_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.393,
+            0.147,
+            0.606,
+            0.177
+          ],
+          "content": "\\frac{3a}{2} \\times \\frac{1}{5} = (\\frac{3}{2} \\times \\frac{1}{5}) a = \\frac{3}{10} a",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.178,
+            0.276,
+            0.197
+          ],
+          "content": "So we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.198,
+            0.648,
+            0.228
+          ],
+          "content": "\\frac{3a}{2}\\left(a-b+\\frac{1}{5}\\right)=\\frac{3}{2}a^{2}-\\frac{3}{2}ab+\\frac{3}{10}a.",
+          "image_source": "images/page_5_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.238,
+            0.633,
+            0.263
+          ],
+          "content": "Can any two terms be added to get a single term?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.27,
+            0.763,
+            0.297
+          ],
+          "content": "For example, can ${ \\frac { 3 } { 2 } }   a ^ { 2 }$ and $\\frac { 3 } { 1 0 }$ a be added to get a single term?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.298,
+            0.849,
+            0.355
+          ],
+          "content": "We see that no two terms have exactly the same letter-numbers, a further simplification of the expression is not possible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.353,
+            0.824,
+            0.373
+          ],
+          "content": "Recall that we call terms having the same letter-numbers **like terms.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.383,
+            0.483,
+            0.405
+          ],
+          "level": 2,
+          "content": "？ Example 2: Expand $\\left(a+b\\right)\\left(a+b\\right)$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.174,
+            0.418,
+            0.82,
+            0.469
+          ],
+          "content": "We have (a+b)(a+b)=(a+b) a+(a+b) b=a \\times a+b \\times a+a b+b \\times b",
+          "image_source": "images/page_5_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.474,
+            0.848,
+            0.512
+          ],
+          "content": "Since $b a = a b ,$ , we have two terms having the same letter-numbers ab (or, that are like terms), and so can be added —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.386,
+            0.516,
+            0.611,
+            0.535
+          ],
+          "content": "b \\overline{a} \\pm \\overline{ab} = ab + ab \\pm 2ab",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.541,
+            0.276,
+            0.56
+          ],
+          "content": "So we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.363,
+            0.564,
+            0.634,
+            0.583
+          ],
+          "content": "(a+b)(a+b)=a^{2}+2ab+b^{2}.",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.599,
+            0.553,
+            0.621
+          ],
+          "level": 2,
+          "content": "？ Example 3: Expand $(a + b)(a^{2} + 2ab + b^{2})$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.624,
+            0.832,
+            0.662
+          ],
+          "content": "\\begin{aligned}(a + b) \\; (a^2 + 2ab + b^2) &= (a + b)a^2 + (\\overline{a} + b) \\times 2ab + (a + b)b^2 \\\\&= (a \\times \\overline{a}^2) \\div ba^2 + (a \\times 2ab) \\div (b \\times 2ab) \\div ab^2 + (b \\times b^2)\\end{aligned}",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.662,
+            0.577,
+            0.681
+          ],
+          "content": "The terms can be simplified as follows—"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.413,
+            0.684,
+            0.584,
+            0.705
+          ],
+          "content": "a \\times a^{2} = a^{3}   (\\mathrm{why?})",
+          "image_source": "images/page_5_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.455,
+            0.714,
+            0.544,
+            0.734
+          ],
+          "content": "b a ^ { 2 }   = a ^ { 2 } b",
+          "image_source": "images/page_5_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.361,
+            0.745,
+            0.636,
+            0.764
+          ],
+          "content": "a \\times 2ab = 2 \\times a \\times a \\times b = 2a^{2}b",
+          "image_source": "images/page_5_equation_22.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.774,
+            0.639,
+            0.794
+          ],
+          "content": "b \\times 2ab = 2 \\times a \\times b \\times b = 2ab^{2}",
+          "image_source": "images/page_5_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.449,
+            0.803,
+            0.549,
+            0.823
+          ],
+          "content": "b \\times b ^ { 2 }   = b ^ { 3 }",
+          "image_source": "images/page_5_equation_24.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.226,
+            0.833,
+            0.77,
+            0.853
+          ],
+          "content": "\\mathrm{S}0,(a+b)(a^{2}+2ab+b^{2})=a^{3}+a^{2}b+2a^{2}b+2ab^{2}+ab^{2}+b^{3}.",
+          "image_source": "images/page_5_equation_25.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.859,
+            0.848,
+            0.897
+          ],
+          "content": "We see that $a ^ { 2 } b$ and $2 a ^ { 2 } b$ have the same letter-numbers (or, are like terms) and so can be added—"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.873,
+            0.915,
+            0.919,
+            0.936
+          ],
+          "content": "141"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

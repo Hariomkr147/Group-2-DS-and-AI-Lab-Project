@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.276,
+            0.086,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a net charge Q, flows across any cross-section of a conductor in time t, then the current I, through the cross-section is",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.311,
+            0.128,
+            0.897,
+            0.162
+          ],
+          "image_path": "images/page_1_equation_1.jpg",
+          "content": "I = \\frac { Q } { t }\\tag{11.1}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.276,
+            0.174,
+            0.901,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The SI unit of electric charge is coulomb (C), which is equivalent to the charge contained in nearly",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 \\times 1 0 ^ { 1 8 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "electrons. (We know that an electron possesses a negative charge of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 . 6   \\times   1 0 ^ { - 1 9 }   \\mathrm { C } . )"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "The electric current is expressed by a unit called ampere (A), named after the French scientist, Andre-Marie Ampere (1775–1836). One ampere is constituted by the flow of one coulomb of charge per second, that is,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1   \\mathrm { A }   =   1   \\mathrm { C } / 1"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "s. Small quantities of current are expressed in milliampere",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.076,
+            0.31,
+            0.439,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.076,
+                0.31,
+                0.439,
+                0.465
+              ],
+              "image_path": "images/page_1_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.075,
+                0.472,
+                0.182,
+                0.489
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.1"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 5,
+              "bbox": [
+                0.073,
+                0.487,
+                0.427,
+                0.531
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "A schematic diagram of an electric circuit comprising – cell, electric bulb, ammeter and plug key"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.453,
+            0.298,
+            0.901,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(1 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { m A } = 1 0 ^ { - 3 }   \\mathrm { A } )"
+            },
+            {
+              "type": "text",
+              "content": " or in microampere (1 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mu \\mathrm{A} = 10^{-6}   \\mathrm{A}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "An instrument called ammeter measures electric current in a circuit. It is always connected in series in a circuit through which the current is to be measured. Figure 11.1 shows the schematic diagram of a typical electric circuit comprising a cell, an electric bulb, an ammeter and a plug key. Note that the electric current flows in the circuit from the positive terminal of the cell to the negative terminal of the cell through the bulb and ammeter.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.307,
+            0.555,
+            0.453,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.305,
+            0.571,
+            0.9,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes. Find the amount of electric charge that flows through the circuit.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.307,
+            0.627,
+            0.398,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.307,
+            0.644,
+            0.669,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are given, I = 0.5 A; t = 10 min = 600 s.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.307,
+            0.66,
+            0.534,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Eq. (11.1), we have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.308,
+            0.675,
+            0.486,
+            0.722
+          ],
+          "image_path": "images/page_1_equation_12.jpg",
+          "content": "\\begin{array}{l}Q_{ 氵 } \\stackrel{ 氵 }{=} I t \\\\\\stackrel{ 氵 }{=} 0.5  A  \\times 600  s  \\\\\\stackrel{ 氵 }{=} 300  C \\end{array}"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.251,
+            0.749,
+            0.749,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.099,
+            0.802,
+            0.446,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. What does an electric circuit mean?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.098,
+            0.821,
+            0.364,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Define the unit of current.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.098,
+            0.839,
+            0.717,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Calculate the number of electrons constituting one coulomb of charge.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.79,
+            0.791,
+            0.852,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.79,
+                0.791,
+                0.852,
+                0.867
+              ],
+              "image_path": "images/page_1_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.089,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "172"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 19,
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

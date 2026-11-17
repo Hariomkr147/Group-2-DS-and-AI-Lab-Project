@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:25+05:30",
+      "modified_at": "2026-04-07T17:41:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "iLovePDF",
+      "page_count": 56,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 39,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 39,
+      "blocks": [
+        {
+          "type": "chart",
+          "index": 1,
+          "bbox": [
+            0.066,
+            0.087,
+            0.953,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "chart_caption",
+              "index": 0,
+              "bbox": [
+                0.113,
+                0.049,
+                0.566,
+                0.074
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Note: Cut the tiles along the white border."
+                }
+              ]
+            },
+            {
+              "type": "chart_body",
+              "index": 1,
+              "bbox": [
+                0.066,
+                0.087,
+                0.953,
+                0.96
+              ],
+              "image_path": "images/page_39_chart_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 2,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

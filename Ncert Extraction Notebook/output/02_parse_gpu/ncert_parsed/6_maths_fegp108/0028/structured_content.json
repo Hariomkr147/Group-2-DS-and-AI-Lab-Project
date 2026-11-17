@@ -1,0 +1,148 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.89,
+            0.419,
+            0.912
+          ],
+          "content": "The house is ready!"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.383,
+            0.118,
+            0.702,
+            0.376
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.394,
+            0.609,
+            0.416
+          ],
+          "content": "Join A to B and A to C by straight lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.434,
+            0.885,
+            0.504
+          ],
+          "content": "Having obtained point A, what remains is the construction of the remaining arc. How do we do it? Can we use the fact that A is of distance 5 cm from both B and C?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.206,
+            0.523,
+            0.29,
+            0.542
+          ],
+          "level": 2,
+          "content": "Step 4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.548,
+            0.885,
+            0.593
+          ],
+          "content": "Take 5 cm radius in the compass and from A, draw the arc touching B and C as shown in the figure."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.387,
+            0.609,
+            0.665,
+            0.885
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_7.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.082,
+            0.941,
+            0.116,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

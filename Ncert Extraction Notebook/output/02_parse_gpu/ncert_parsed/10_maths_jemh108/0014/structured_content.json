@@ -1,0 +1,399 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "126"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.139,
+            0.542,
+            0.158
+          ],
+          "content": "To find the length of the side AC, we consider"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.344,
+            0.17,
+            0.488,
+            0.212
+          ],
+          "content": "\\sin 3 0 ^ { \\circ }   =   { \\frac { \\mathrm { A B } } { \\mathrm { A C } } }",
+          "image_source": "images/page_13_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.56,
+            0.183,
+            0.639,
+            0.205
+          ],
+          "content": "( \\mathrm { W h y } ? )",
+          "image_source": "images/page_13_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.243,
+            0.139,
+            0.26
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.228,
+            0.489,
+            0.271
+          ],
+          "content": "{ \\frac { 1 } { 2 } } \\; = \\; { \\frac { 5 } { \\mathrm { A C } } }",
+          "image_source": "images/page_13_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.279,
+            0.14,
+            0.297
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.278,
+            0.507,
+            0.297
+          ],
+          "content": "AC = 10    cm",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.304,
+            0.901,
+            0.343
+          ],
+          "content": "Note that alternatively we could have used Pythagoras theorem to determine the third side in the example above,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.361,
+            0.14,
+            0.378
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.374,
+            0.355,
+            0.847,
+            0.383
+          ],
+          "content": "\\mathrm{AC} = \\sqrt{\\mathrm{AB}^{2} + \\mathrm{BC}^{2}} = \\sqrt{5^{2} + (5\\sqrt{3})^{2}} \\mathrm{cm} = 10\\mathrm{cm}",
+          "image_source": "images/page_13_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.399,
+            0.534,
+            0.418
+          ],
+          "content": "**Example 7 :** In   PQR, right-angled at"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.419,
+            0.532,
+            0.438
+          ],
+          "content": "Q (see Fig. 8.20), $\\mathrm { P Q } = 3$ cm and $\\mathrm{PR} = 6\\ \\mathrm{cm}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.438,
+            0.408,
+            0.457
+          ],
+          "content": "Determine $\\angle \\mathrm { Q P R }$ and $\\angle \\mathrm { P R Q }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.464,
+            0.534,
+            0.483
+          ],
+          "content": "**Solution :** Given $\\mathrm { P Q } = 3$ cm and $PR = 6   cm .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.509,
+            0.205,
+            0.528
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.496,
+            0.478,
+            0.537
+          ],
+          "content": "\\frac{PQ}{PR} \\approx \\sin R",
+          "image_source": "images/page_13_equation_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.585,
+            0.423,
+            0.871,
+            0.535
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.685,
+                0.539,
+                0.785,
+                0.557
+              ],
+              "content": "Fig. 8.20"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.569,
+            0.126,
+            0.584
+          ],
+          "content": "or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.553,
+            0.49,
+            0.595
+          ],
+          "content": "\\sin R = \\frac{3}{6} = \\frac{1}{2}",
+          "image_source": "images/page_13_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.607,
+            0.135,
+            0.625
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32,
+            0.606,
+            0.461,
+            0.626
+          ],
+          "content": "\\angle PRQ = 30^{\\circ}",
+          "image_source": "images/page_13_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.636,
+            0.238,
+            0.654
+          ],
+          "content": "and therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.634,
+            0.563,
+            0.655
+          ],
+          "content": "\\angle  QPR = 60^{\\circ}. \\quad ( Why? )",
+          "image_source": "images/page_13_equation_25.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.666,
+            0.902,
+            0.723
+          ],
+          "content": "You may note that if one of the sides and any other part (either an acute angle or any side) of a right triangle is known, the remaining sides and angles of the triangle can be determined."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.725,
+            0.901,
+            0.784
+          ],
+          "content": "**Example 8 :** If sin $( \\mathrm { A } - \\mathrm { B } ) = \\frac { 1 } { 2 } , \\cos ( \\mathrm { A } + \\mathrm { B } ) = \\frac { 1 } { 2 } , 0 ^ { \\circ } < \\mathrm { A } + \\mathrm { B } \\leq 9 0 ^ { \\circ } , \\mathrm { A } > \\mathrm { B } .$ , find A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.789,
+            0.752,
+            0.833
+          ],
+          "content": "**Solution :** Since, sin $( \\mathrm { A } - \\mathrm { B } ) = { \\frac { 1 } { 2 } }$ , therefore, $\\mathrm { A - B } = 3 0 ^ { \\circ } \\quad \\mathrm { ( W h y ? ) }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.868,
+            0.805,
+            0.898,
+            0.822
+          ],
+          "content": "(1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.834,
+            0.7,
+            0.872
+          ],
+          "content": "Also, since cos $( \\mathbf { A } + \\mathbf { B } ) = { \\frac { 1 } { 2 } }$ , therefore, $\\mathrm { A + B = 6 0 ^ { \\circ } \\quad ( W h y ? ) }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.868,
+            0.846,
+            0.898,
+            0.863
+          ],
+          "content": "(2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.877,
+            0.588,
+            0.897
+          ],
+          "content": "Solving (1) and (2), we get : $\\mathrm { A }   = 4 5 ^ { \\circ }$ and $\\mathbf { B } = 1 5 ^ { \\circ }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

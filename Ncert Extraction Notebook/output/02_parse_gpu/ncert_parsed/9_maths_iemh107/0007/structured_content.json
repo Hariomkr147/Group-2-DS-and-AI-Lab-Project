@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.331,
+            0.068,
+            0.815,
+            0.087
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "161"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.133,
+            0.528,
+            0.371
+          ],
+          "content": "Did you know? The game of Snakes and Ladders originates in ancient India. It evolved from a traditional dice game called **Jñān-Chaupad̤** , which was used as an educational tool. Jñān-Chaupad̤ aimed to convey moral lessons, with each ladder symbolising a virtue and each snake representing a vice. Through gameplay, it illustrated the consequences of good and bad behaviour. Various versions of Jñān-Chaupad̤ have been found in different parts of India."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.596,
+            0.111,
+            0.861,
+            0.382
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.562,
+                0.388,
+                0.869,
+                0.437
+              ],
+              "content": "Fig. 7.4: A Jain Jñān-Chaupad̤ game on cloth, National Museum (India, 19th century)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.479,
+            0.477,
+            0.501
+          ],
+          "level": 2,
+          "content": "7.2.2 Theoretical Probability"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.508,
+            0.886,
+            0.606
+          ],
+          "content": "Theoretical probability studies the likelihood of an event happening based on all possible outcomes being **equally likely**. It is what we expect to happen in an ideal, **perfectly fair situation**. In this scenario, no experiment or data is required. Theoretical probability is usually denoted as P (Event) or P (Outcome)."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.606,
+            0.811,
+            0.646
+          ],
+          "content": "\\mathrm{Theoretical probability}(\\mathrm{P}) = \\frac{\\mathrm{number of favorable outcomes}}{\\mathrm{ Number of possible outcomes}}",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.647,
+            0.884,
+            0.688
+          ],
+          "content": "**Example 3:** If you roll a standard 6-sided die, what is the theoretical probability of getting a 4?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.692,
+            0.262,
+            0.711
+          ],
+          "content": "**Solution:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.717,
+            0.765,
+            0.737
+          ],
+          "content": "Number of favourable outcomes = 1 (only the number 4)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.741,
+            0.835,
+            0.763
+          ],
+          "content": "Number of all possible outcomes = 6 (the numbers 1 through 6)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.768,
+            0.643,
+            0.808
+          ],
+          "content": "\\mathrm{P}(\\mathrm{rolling} \\; \\mathrm{a} \\; 4)=\\frac{1}{6}=0.1666 \\ldots \\approx 0.167 \\; \\mathrm{or} \\; 16.7 \\%.",
+          "image_source": "images/page_6_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.814,
+            0.885,
+            0.854
+          ],
+          "content": "**Example 4:** A letter is picked at random from the word ‘PROBABILITY’. What is the probability of picking the letter B?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

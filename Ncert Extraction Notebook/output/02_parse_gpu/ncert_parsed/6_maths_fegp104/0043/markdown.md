@@ -1,0 +1,25 @@
+**Q.9 A survey of 120 school students was conducted to find out which activity they preferred to do in their free time. Draw a bar graph to illustrate the above data taking the scale of 1 unit length = 5 students. Which activity is preferred by most students other than playing?**
+
+Ans.
+
+![](images/page_42_chart_2.jpg)
+
+Preferred Activity
+
+Other than playing, reading story books is preferred by most students.
+
+**Q.10 Students and teachers of a primary school decided to plant tree saplings in the school campus and in the surrounding village during the first week of July. Details of the saplings they planted are as follows —**
+
+**a. The total number of saplings planted on Wednesday and Thursday is**
+
+b. The total number of saplings planted during the whole week is
+
+c. The greatest number of saplings were planted on , and the least number of saplings were planted on . Why do you think that is the **case? Why were more saplings planted on certain days of the week and less on others? Can you think of possible explanations or reasons? How could you try and figure out whether your explanations are correct?**
+
+Ans. a. 70
+
+b. 310
+
+c. Saturday, Wednesday
+
+The variation in the number of saplings planted on different days may be because of rainy season or different number of students present on different days. (Discuss for other reasons.)

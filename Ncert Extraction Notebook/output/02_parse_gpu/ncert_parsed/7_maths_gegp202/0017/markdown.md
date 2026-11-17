@@ -1,0 +1,55 @@
+？ Take a few more examples of multiplication of 3 integers and check this property. What do you observe?
+
+We can see that the product is the same when we ‘group’ the multiplications in these two ways. So, integer multiplication is associative, just like integer addition.
+
+In general, for any three integers a, b, and c,
+
+$$
+a \times ( b \times c ) = ( a \times b ) \times c .
+$$
+
+In the expression $5 \times - 3 \times 4 ,$ try to multiply 5 and 4 first and then multiply the product with – 3: $( 5 \times 4 ) \times - 3$
+
+$$
+5 \times 4 = 20, \mathrm{and} 20 \times -3 = -60.
+$$
+
+This also gives the same product.
+
+？ Are there orders in which $5 \times - 3 \times 4$ can be evaluated? Will the product be the same in all these cases?
+
+？ Multiply the expression 25 × – 6 × 12 in all the different orders and check if the product is the same in all cases.
+
+The product remains the same when 3 or more numbers are multiplied in any order.
+
+Look at the following series of multiplications:
+
+$$
+-1 \times -1 = 1
+$$
+
+$$
+-1 \times -1 \times -1 = -1
+$$
+
+$$
+-1 \times -1 \times -1 \times -1 = 1
+$$
+
+$$
+-1 \times -1 \times -1 \times -1 \times -1 = 1
+$$
+
+When –1 is multiplied 2 or 4 times the product is positive. When it is multiplied 3 or 5 times the product is negative. <u>Can you generalise these statements further?</u>
+
+? Using this understanding of multiplication of many integers, can you give a simple rule to find the sign of the product of many integers?
+
+![](images/page_16_image_18.jpg)
+
+？ Now, consider the expression $5 \times ( 4 + ( - 2 ) )$ . As in the case of positive integers, is this expression equal to $5 \times 4 + 5 \times ( - 2) ?$
+
+We see that it does. Recall that we call this property the distributive property.
+
+？ Check if the distributive property holds for $( - 2 ) \times ( 4 + ( - 3 ) )$ (that is, if this expression equals $( - 2 ) \times 4 + ( - 2 ) \times ( - 3 ) )$ , and for a few other such expressions of your choice.
+
+What do you observe? We see that the distributive property seems to hold for integers, as well. Will this always happen?

@@ -1,0 +1,291 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.089,
+            0.254,
+            0.11
+          ],
+          "content": "We get,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.108,
+            0.697,
+            0.147
+          ],
+          "content": "\\begin{array} { c } { { 3 6 = 2 \\times 2 \\times 3 \\times 3 , } } \\\\ { { 6 4 8 = 3 6 \\times 1 8 = ( 2 \\times 2 \\times 3 \\times 3 ) \\times ( 2 \\times 3 \\times 3 ) . } } \\end{array}",
+          "image_source": "images/page_10_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.152,
+            0.847,
+            0.21
+          ],
+          "content": "What do you observe? We can see that the prime factors of the multiple contain the prime factors of the number along with some more prime factors. Will this happen with every multiple?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.209,
+            0.506,
+            0.229
+          ],
+          "content": "Can this be used to find the LCM?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.238,
+            0.534,
+            0.261
+          ],
+          "level": 2,
+          "content": "Example 6: Find the LCM of 14 and 35."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.265,
+            0.255,
+            0.285
+          ],
+          "content": "We get,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.449,
+            0.283,
+            0.554,
+            0.321
+          ],
+          "content": "\\begin{array} { l } { 1 4 = 2 \\times 7 } \\\\ { 3 5 = 5 \\times 7 . } \\end{array}",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.327,
+            0.848,
+            0.367
+          ],
+          "content": "Common multiples should contain each prime factor as a subpart: $2 \\times 7$ as a subpart and $5 \\times 7$ as a subpart."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.366,
+            0.308,
+            0.385
+          ],
+          "content": "For example,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.263,
+            0.385,
+            0.757,
+            0.404
+          ],
+          "content": "$2 \\times 7 \\times 5 \\times 7 \\times 3$ is a common multiple of 14 and 35."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.268,
+            0.404,
+            0.752,
+            0.424
+          ],
+          "content": "$2 \\times 2 \\times 5 \\times 7 \\times 7 \\times 1$ 1 is another common multiple."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.432,
+            0.541,
+            0.456
+          ],
+          "content": "Is $2 \\times 3 \\times 5 \\times 7$ also a common multiple?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.474,
+            0.79,
+            0.498
+          ],
+          "level": 2,
+          "content": "? What is the lowest among all the common multiples of 14 and 35?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.507,
+            0.847,
+            0.566
+          ],
+          "content": "It is $2 \\times 5 \\times 7 = 70$ because $2 \\times 5 \\times 7$ contains $1 4 = 2 \\times 7$ as well as $3 5 = 5 \\times 7 ,$ and removing any number from $2 \\times 5 \\times 7$ will give a number that is not a common multiple of 14 and 35."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.574,
+            0.545,
+            0.597
+          ],
+          "level": 2,
+          "content": "Example 7: Find the LCM of 96 and 360."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.6,
+            0.273,
+            0.619
+          ],
+          "content": "We have,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.619,
+            0.622,
+            0.658
+          ],
+          "content": "\\begin{aligned}96 &= 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 3 \\\\360 &= 2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 5.\\end{aligned}",
+          "image_source": "images/page_10_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.663,
+            0.847,
+            0.72
+          ],
+          "content": "Every common multiple should contain the prime factors of both 96 and 360. For the LCM, we will need the smallest such number. Let us build the LCM looking at each prime factor."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.72,
+            0.8,
+            0.74
+          ],
+          "content": "The prime factors appearing in both the numbers are 2, 3 and 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.74,
+            0.847,
+            0.779
+          ],
+          "content": "Now, we shall find out how many occurrences there are for each prime factor."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.787,
+            0.534,
+            0.81
+          ],
+          "level": 2,
+          "content": "How many 2s should the LCM contain?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.813,
+            0.849,
+            0.892
+          ],
+          "content": "The factorisation of 96 contains $2 \\times 2 \\times 2 \\times 2 \\times 2$ (five occurrences of 2s) and the factorisation of 360 contains $2 \\times 2 \\times 2$ (three occurrences of 2s). Choosing five occurrences of 2s as part of LCM will contain both these subparts."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": "57"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

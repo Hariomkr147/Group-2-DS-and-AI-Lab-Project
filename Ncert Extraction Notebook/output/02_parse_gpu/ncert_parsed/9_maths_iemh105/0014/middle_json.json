@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.451,
+            0.068,
+            0.817,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I’m Up and Down, and Round and Round"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.845,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "105"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.148
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What do you observe? The longer the chord, the closer it is to the centre. Let us try to understand why this is true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.152,
+            0.886,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Theorem 8:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let AB and DE be two chords of a circle with centre C. Suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A B \\geq D E ,"
+            },
+            {
+              "type": "text",
+              "content": " . Then the distance from C to AB is less than the distance from C to DE."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.216,
+            0.886,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As always, we draw the figure. Remember: by ‘distance from C to AB’ we mean the perpendicular distance. So, we drop perpendiculars CF and CG from C to AB and DE, respectively."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.144,
+            0.294,
+            0.414,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.144,
+                0.294,
+                0.414,
+                0.483
+              ],
+              "image_path": "images/page_13_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.244,
+                0.491,
+                0.323,
+                0.51
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.453,
+            0.294,
+            0.632,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Given:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " AB > DE."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.452,
+            0.32,
+            0.706,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To show that:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " CF < CG."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.452,
+            0.344,
+            0.877,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why is this true?",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In Fig. 5.16, both AC and CD are radii. So, AC = CD. By the Baudhāyana–Pythagoras Theorem, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{CD^{2} = CG^{2} + GD^{2}}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AC^{2} = CF^{2} + AF^{2}}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.454,
+            0.428,
+            0.737,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{CF^{2}+AF^{2}=CG^{2}+GD^{2}}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.452,
+            0.454,
+            0.876,
+            0.513
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now AB is greater than DE. So AF is greater than GD (because F and G are the midpoints of AB and DE)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.452,
+            0.516,
+            0.828,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AF^{2} \\geq GD^{2}}"
+            },
+            {
+              "type": "text",
+              "content": " we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathsf { C F } ^ { 2 } \\leq \\mathsf { C G } ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " So, CF < CG."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.582,
+            0.886,
+            0.64
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Comment:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The chord nearest to the centre is the chord containing the centre. Its distance to C is zero! So the diameter is the greatest chord."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.64,
+            0.886,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If one pushes the chord away from the centre, at some stage the chord becomes a single point, its length is zero, and the distance of C from this chord is the radius."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.374,
+            0.733,
+            0.622,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 5.5"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.131,
+            0.78,
+            0.885,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the length of the chord of a circle where the radius is 7 cm and perpendicular distance is 6 cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.131,
+            0.829,
+            0.886,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Explain why the following statement is true: If the perpendicular distance of a chord from the centre is d and the radius is r, then the chord length is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\sqrt { r ^ { 2 } - \\boldsymbol { d } ^ { 2 } }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

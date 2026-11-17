@@ -1,0 +1,75 @@
+[{"stream_name":"stderr","time":6.79164927,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.791693414,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.846541634,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.846576238,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.846582094,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.846586934,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.568053143,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.568088386,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.56810241,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.568106682,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":1238.801234643,"data":"{\n"}
+,{"stream_name":"stdout","time":1238.801279916,"data":"  \"source_chapters\": 130,\n"}
+,{"stream_name":"stdout","time":1238.801286783,"data":"  \"physical_pages\": 3066,\n"}
+,{"stream_name":"stdout","time":1238.801291958,"data":"  \"nonempty_pages\": 3047,\n"}
+,{"stream_name":"stdout","time":1238.801296817,"data":"  \"empty_pages\": 19,\n"}
+,{"stream_name":"stdout","time":1238.801302033,"data":"  \"flag_counts\": {\n"}
+,{"stream_name":"stdout","time":1238.801306975,"data":"    \"figure_requires_review\": 2303,\n"}
+,{"stream_name":"stdout","time":1238.801312055,"data":"    \"math_requires_review\": 1324,\n"}
+,{"stream_name":"stdout","time":1238.8013169,"data":"    \"table_requires_review\": 385,\n"}
+,{"stream_name":"stdout","time":1238.801321715,"data":"    \"replacement_character\": 7,\n"}
+,{"stream_name":"stdout","time":1238.801326464,"data":"    \"empty\": 19\n"}
+,{"stream_name":"stdout","time":1238.801331423,"data":"  },\n"}
+,{"stream_name":"stdout","time":1238.801334598,"data":"  \"by_grade_subject\": {\n"}
+,{"stream_name":"stdout","time":1238.80133796,"data":"    \"6_maths\": {\n"}
+,{"stream_name":"stdout","time":1238.801341008,"data":"      \"chapters\": 10,\n"}
+,{"stream_name":"stdout","time":1238.801344751,"data":"      \"pages\": 392\n"}
+,{"stream_name":"stdout","time":1238.801349547,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801354136,"data":"    \"6_science\": {\n"}
+,{"stream_name":"stdout","time":1238.801359021,"data":"      \"chapters\": 12,\n"}
+,{"stream_name":"stdout","time":1238.801364083,"data":"      \"pages\": 254\n"}
+,{"stream_name":"stdout","time":1238.801369201,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.80137426,"data":"    \"7_maths\": {\n"}
+,{"stream_name":"stdout","time":1238.801379092,"data":"      \"chapters\": 15,\n"}
+,{"stream_name":"stdout","time":1238.801383822,"data":"      \"pages\": 511\n"}
+,{"stream_name":"stdout","time":1238.80138861,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.80139317,"data":"    \"7_science\": {\n"}
+,{"stream_name":"stdout","time":1238.801407208,"data":"      \"chapters\": 12,\n"}
+,{"stream_name":"stdout","time":1238.80141143,"data":"      \"pages\": 188\n"}
+,{"stream_name":"stdout","time":1238.801415261,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801418939,"data":"    \"8_maths\": {\n"}
+,{"stream_name":"stdout","time":1238.801449046,"data":"      \"chapters\": 14,\n"}
+,{"stream_name":"stdout","time":1238.801452803,"data":"      \"pages\": 423\n"}
+,{"stream_name":"stdout","time":1238.801457091,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801460784,"data":"    \"8_science\": {\n"}
+,{"stream_name":"stdout","time":1238.801464746,"data":"      \"chapters\": 13,\n"}
+,{"stream_name":"stdout","time":1238.801468697,"data":"      \"pages\": 228\n"}
+,{"stream_name":"stdout","time":1238.801472528,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801476129,"data":"    \"9_maths\": {\n"}
+,{"stream_name":"stdout","time":1238.801479946,"data":"      \"chapters\": 14,\n"}
+,{"stream_name":"stdout","time":1238.801483687,"data":"      \"pages\": 364\n"}
+,{"stream_name":"stdout","time":1238.801487491,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801491118,"data":"    \"9_science\": {\n"}
+,{"stream_name":"stdout","time":1238.801495246,"data":"      \"chapters\": 13,\n"}
+,{"stream_name":"stdout","time":1238.801499078,"data":"      \"pages\": 272\n"}
+,{"stream_name":"stdout","time":1238.801502915,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.801506585,"data":"    \"10_maths\": {\n"}
+,{"stream_name":"stdout","time":1238.801510399,"data":"      \"chapters\": 14,\n"}
+,{"stream_name":"stdout","time":1238.801514202,"data":"      \"pages\": 217\n"}
+,{"stream_name":"stdout","time":1238.801518025,"data":"    },\n"}
+,{"stream_name":"stdout","time":1238.80152165,"data":"    \"10_science\": {\n"}
+,{"stream_name":"stdout","time":1238.80152566,"data":"      \"chapters\": 13,\n"}
+,{"stream_name":"stdout","time":1238.801529311,"data":"      \"pages\": 217\n"}
+,{"stream_name":"stdout","time":1238.801532941,"data":"    }\n"}
+,{"stream_name":"stdout","time":1238.801536158,"data":"  }\n"}
+,{"stream_name":"stdout","time":1238.801539679,"data":"}\n"}
+,{"stream_name":"stdout","time":1241.500055403,"data":"Candidate passages: 7221 Median characters: 584\n"}
+,{"stream_name":"stderr","time":1244.624929017,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1244.624967676,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1244.832542087,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1244.832570687,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1245.738277115,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1245.825324971,"data":"[NbConvertApp] Writing 12093 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1248.767596898,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1249.411930938,"data":"[NbConvertApp] Writing 310273 bytes to __results__.html\n"}
+]

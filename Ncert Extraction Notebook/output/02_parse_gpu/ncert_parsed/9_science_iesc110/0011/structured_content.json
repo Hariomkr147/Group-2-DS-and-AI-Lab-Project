@@ -1,0 +1,306 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.129,
+            0.267,
+            0.274
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.089,
+                0.277,
+                0.238,
+                0.293
+              ],
+              "content": "(a) Long wavelength"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.302,
+            0.271,
+            0.453
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.092,
+                0.456,
+                0.244,
+                0.472
+              ],
+              "content": "(b) Short wavelength"
+            },
+            {
+              "bbox": [
+                0.073,
+                0.477,
+                0.245,
+                0.493
+              ],
+              "content": "Fig. 10.18: Sound waves"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_2.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.284,
+            0.089,
+            0.759,
+            0.111
+          ],
+          "level": 2,
+          "content": "10.6 Characteristics of a Sound Wave"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.283,
+            0.12,
+            0.798,
+            0.14
+          ],
+          "level": 2,
+          "content": "10.6.1 Wavelength, frequency and time period"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.143,
+            0.89,
+            0.246
+          ],
+          "content": "Let us learn about some quantities which are used to describe a sound wave. The distance between the two consecutive crests or two consecutive troughs is called the **wavelength** of a wave. This is shown in Fig. 10.18 where two sound waves are shown with long and short wavelengths. The wavelength is usually represented by (Greek letter **lambda**). Its SI unit is the **metre (m)**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.248,
+            0.89,
+            0.367
+          ],
+          "content": "Another characteristic of sound wave is how often the density variations occur at a given position in the medium when a sound wave passes through that position. The density of the medium at the given position changes alternately between a maximum density (crest) and a minimum density (trough). The change in the density of the medium at a fixed point, from maximum to minimum and then again to maximum (or vice versa), makes one complete **oscillation**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.369,
+            0.89,
+            0.439
+          ],
+          "content": "The number of density oscillations at a fixed point per unit time is the **frequency** of the sound wave. It is usually represented by (Greek letter **nu**). Its SI unit is per second $( \\frac{1}{s} \\mathrm{~or~} \\mathrm{s}^{-1} )$ also called a **hertz** (symbol **Hz**)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.442,
+            0.89,
+            0.495
+          ],
+          "content": "The time taken for one complete density oscillation at a fixed point is defined as the **time period** of the wave. The time period of the wave is represented by the symbol T. Its SI unit is second (s)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.497,
+            0.889,
+            0.533
+          ],
+          "content": "The time period and frequency are inversely related; a shorter time period corresponds to a higher frequency."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.524,
+            0.534,
+            0.887,
+            0.568
+          ],
+          "content": "\\textcircled{2} \\frac { 1 } { T }\\tag{10.1}",
+          "image_source": "images/page_10_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.567,
+            0.89,
+            0.621
+          ],
+          "content": "Usually, everyday sounds contain a mixture of many frequencies. Nearly single frequency sounds can be made by striking a tuning fork (Section 10.1.1) or by oral whistling."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.038,
+            0.624,
+            0.108,
+            0.663
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_14.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.621,
+            0.229,
+            0.659
+          ],
+          "level": 2,
+          "content": "Threads of Curiosity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.057,
+            0.668,
+            0.243,
+            0.917
+          ],
+          "content": "There are some free apps which can be used by the teacher to produce as well as identify the sounds of different frequencies. Phyphox is one such app. In fact, using the ‘Audio Scope’ in the Phyphox app and whistling carefully will often produce a graph like Fig. 10.18 indicating that it is almost a single frequency sound."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.628,
+            0.888,
+            0.685
+          ],
+          "content": "**Activity 10.7: Let us experiment (demonstration activity)** This activity is recommended to be performed as a classroom group activity facilitated by the teacher."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.295,
+            0.686,
+            0.889,
+            0.739
+          ],
+          "content": "1. Use a mobile app, such as Phyphox that can identify frequencies of sounds. Use the ‘Audio Spectrum’ option that displays the frequency graphically or in hertz (Hz)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.296,
+            0.74,
+            0.89,
+            0.81
+          ],
+          "content": "2. Try to sing the musical notes ‘Sa, Re, Ga, Ma, Pa, Dha, Ni, Sa’ one after another, or use a music or tone generating app on another phone to produce those notes. Observe how the frequency changes as each note is produced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.295,
+            0.811,
+            0.889,
+            0.846
+          ],
+          "content": "3. **Record** the approximate frequency values for each musical note."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.295,
+            0.849,
+            0.888,
+            0.884
+          ],
+          "content": "4. **Compare** the musical notes by taking the ratio of each frequency with respect to the ‘Sa’. Do you observe any pattern?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.295,
+            0.887,
+            0.889,
+            0.922
+          ],
+          "content": "5. If both voice and mobile-generated notes are used, compare their frequencies for the same musical notes."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.114,
+            0.96
+          ],
+          "content": "194"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.947,
+            0.303,
+            0.963
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "ar-SA"
+      ],
+      "created_at": "2026-04-03T20:04:36+05:30",
+      "modified_at": "2026-05-13T10:46:25+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

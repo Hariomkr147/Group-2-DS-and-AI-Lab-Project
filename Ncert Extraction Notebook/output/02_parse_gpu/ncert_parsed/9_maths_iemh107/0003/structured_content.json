@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.331,
+            0.068,
+            0.816,
+            0.087
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.084
+          ],
+          "content": "157"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.111,
+            0.886,
+            0.181
+          ],
+          "content": "for tails is ${ \\frac { 1 } { 2 } } ,$ because each is **equally likely**. In a random experiment, every outcome has a chance to occur, but you can only determine the likelihood, not the exact result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.181,
+            0.887,
+            0.376
+          ],
+          "content": "**Have you wondered what makes an event like rain random?** An event like rain is considered random because it depends on many complex factors in the atmosphere (such as temperature, humidity, wind patterns, and pressure) and is so sensitive to these factors that it is impossible to predict it with total certainty. Thus, it is impossible to know with absolute certainty whether it will rain on a specific day. Randomness in rain means that while the exact timing and location of rainfall cannot be predicted perfectly, we can estimate the likelihood or probability of rain in different locations based on patterns and probabilities derived from data."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.395,
+            0.399,
+            0.419
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.434,
+            0.856,
+            0.511
+          ],
+          "content": "Ask your friend to predict the outcome of a \\` 1 coin you toss. Do you see that your friend could guess heads or tails but could not know for certain? That’s randomness! All possible results are known, but each individual try is unpredictable."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.549,
+            0.453,
+            0.571
+          ],
+          "level": 2,
+          "content": "7.1.2 The Probability Scale"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.578,
+            0.887,
+            0.83
+          ],
+          "content": "Probability is measured on a scale from 0 to 1 to indicate the likelihood of the occurrence of an event. If the probability of your school winning the hockey match is 0.75, that means there is a 75% chance your school will win. This means that it is **more likely** than not that your school will win the match. If the probability of your school winning the hockey match is 0.5, that means there is a 50% chance your school will win. This means that it is **equally likely** that your school will win or lose the match. On the other hand, if the probability is 0, it would mean winning is **impossible** (for example, winning without playing), and if the probability is 1, it would mean your school is certain to win. The probabilities of most events fall somewhere strictly between 0 and 1, expressing how likely they are to happen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.829,
+            0.887,
+            0.889
+          ],
+          "content": "Imagine a deck of six cards where the number of purple and green cards is unknown. The probability of picking a purple card from the deck (see Fig. 7.1) can range from impossible (if there are"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

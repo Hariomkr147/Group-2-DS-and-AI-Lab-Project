@@ -1,0 +1,223 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.179,
+            0.094,
+            0.669,
+            0.122
+          ],
+          "level": 1,
+          "content": "Q U E S T I O N S"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.135,
+            0.571,
+            0.167
+          ],
+          "content": "**1. On what factors does the resistance of a conductor depend?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.172,
+            0.57,
+            0.219
+          ],
+          "content": "**2. Will current flow more easily through a thick wire or a thin wire of the same material, when connected to the same source? Why?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.222,
+            0.571,
+            0.299
+          ],
+          "content": "**3. Let the resistance of an electrical component remains constant while the potential difference across the two ends of the component decreases to half of its former value. What change will occur in the current through it?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.302,
+            0.571,
+            0.348
+          ],
+          "content": "**4. Why are coils of electric toasters and electric irons made of an alloy rather than a pure metal?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.602,
+            0.241,
+            0.682,
+            0.339
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.353,
+            0.571,
+            0.385
+          ],
+          "content": "**5. Use the data in Table 11.2 to answer the following –**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.389,
+            0.575,
+            0.421
+          ],
+          "content": "**(a) Which among iron and mercury is a better conductor?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.425,
+            0.543,
+            0.443
+          ],
+          "content": "**(b) Which material is the best conductor?**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.489,
+            0.644,
+            0.51
+          ],
+          "level": 2,
+          "content": "11.6 RESISTANCE OF A SYSTEM OF RESISTORS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.518,
+            0.723,
+            0.599
+          ],
+          "content": "**In preceding sections, we learnt about some simple electric circuits. We have noticed how the current through a conductor depends upon its resistance and the potential difference across its ends. In various electrical gadgets, we often use resistors in various combinations. We now therefore intend to see how Ohm’s law can be applied to combinations of resistors.**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.599,
+            0.723,
+            0.663
+          ],
+          "content": "**There are two methods of joining the resistors together. Figure 11.6** shows an electric circuit in which three resistors having resistances $R _ { _ { I } } ,$ $R _ { z }$ and $R _ { 3 ^ { \\circ } }$ respectively, are joined end to end. Here the resistors are said **to be connected in series.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.201,
+            0.682,
+            0.617,
+            0.854
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.284,
+                0.866,
+                0.538,
+                0.882
+              ],
+              "content": "Figure 11.6 Resistors in series"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_13.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.101,
+            0.916,
+            0.177,
+            0.93
+          ],
+          "content": "Electricity"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.882,
+            0.915,
+            0.913,
+            0.93
+          ],
+          "content": "181"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

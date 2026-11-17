@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.582,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Some Geometric Themes"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.211,
+            0.083,
+            0.349,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.211,
+                0.083,
+                0.349,
+                0.164
+              ],
+              "image_path": "images/page_11_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 2,
+              "bbox": [
+                0.275,
+                0.168,
+                0.305,
+                0.183
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(iv)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.425,
+            0.086,
+            0.56,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.425,
+                0.086,
+                0.56,
+                0.163
+              ],
+              "image_path": "images/page_11_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 4,
+              "bbox": [
+                0.496,
+                0.168,
+                0.521,
+                0.183
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(v)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.651,
+            0.084,
+            0.788,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.651,
+                0.084,
+                0.788,
+                0.163
+              ],
+              "image_path": "images/page_11_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 6,
+              "bbox": [
+                0.713,
+                0.168,
+                0.744,
+                0.184
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "(vi)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.163,
+            0.198,
+            0.847,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. A cube has 11 possible net structures in total. In this count, two nets are considered the same if one can be obtained from the other by a rotation or a flip. For example, the following nets are all considered the same —"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.243,
+            0.278,
+            0.376,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.243,
+                0.278,
+                0.376,
+                0.357
+              ],
+              "image_path": "images/page_11_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.432,
+            0.279,
+            0.566,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.432,
+                0.279,
+                0.566,
+                0.357
+              ],
+              "image_path": "images/page_11_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.193,
+            0.369,
+            0.479,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find all the 11 nets of a cube."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.624,
+            0.279,
+            0.757,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.624,
+                0.279,
+                0.757,
+                0.357
+              ],
+              "image_path": "images/page_11_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.163,
+            0.398,
+            0.608,
+            0.419
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Draw a net of a cuboid having sidelengths:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.827,
+            0.364,
+            0.927,
+            0.416
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.827,
+                0.364,
+                0.927,
+                0.416
+              ],
+              "image_path": "images/page_11_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.196,
+            0.429,
+            0.436,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) 5 cm, 3 cm, and 1 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.192,
+            0.453,
+            0.436,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) 6 cm, 3 cm, and 2 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.176,
+            0.49,
+            0.55,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us find out the nets of other solids."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.508,
+            0.846,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A tetrahedron whose faces are equilateral triangles is called a regular "
+            },
+            {
+              "type": "text",
+              "content": "tetrahedron",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.113,
+            0.556,
+            0.845,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ What is a net of a regular tetrahedron? Which of the following are nets of a regular tetrahedron?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.167,
+            0.602,
+            0.297,
+            0.687
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.167,
+                0.602,
+                0.297,
+                0.687
+              ],
+              "image_path": "images/page_11_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.338,
+            0.6,
+            0.474,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.338,
+                0.6,
+                0.474,
+                0.695
+              ],
+              "image_path": "images/page_11_image_20.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.498,
+            0.62,
+            0.657,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.498,
+                0.62,
+                0.657,
+                0.668
+              ],
+              "image_path": "images/page_11_image_21.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 22,
+          "bbox": [
+            0.671,
+            0.603,
+            0.83,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 22,
+              "bbox": [
+                0.671,
+                0.603,
+                0.83,
+                0.689
+              ],
+              "image_path": "images/page_11_image_22.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.115,
+            0.708,
+            0.488,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Are there any other possible nets?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.152,
+            0.734,
+            0.607,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A regular tetrahedron has only 2 possible nets."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.113,
+            0.763,
+            0.801,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Draw a net with appropriate measurements that can be folded into a regular tetrahedron. Verify if it works by making an actual cutout."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 26,
+          "bbox": [
+            0.816,
+            0.762,
+            0.903,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 26,
+              "bbox": [
+                0.816,
+                0.762,
+                0.903,
+                0.811
+              ],
+              "image_path": "images/page_11_image_26.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.114,
+            0.817,
+            0.801,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Draw a net with appropriate measurements that can be folded into a square pyramid. Verify if it works by making an actual cutout."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 28,
+          "bbox": [
+            0.877,
+            0.913,
+            0.91,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "81"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

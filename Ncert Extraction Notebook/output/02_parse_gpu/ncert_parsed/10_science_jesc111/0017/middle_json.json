@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.13,
+            0.085,
+            0.469,
+            0.105
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The current "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I_{2}, \\mathrm{through} R_{2} = V/R_{2}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.244,
+            0.106,
+            0.469,
+            0.125
+          ],
+          "image_path": "images/page_16_equation_2.jpg",
+          "content": "I_{_2} = 12\\  V  / 10\\ \\Omega = 1.2\\  A ."
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13,
+            0.127,
+            0.466,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The current "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I_{3}, \\mathrm{through} R_{3} = V/R_{3}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.244,
+            0.148,
+            0.47,
+            0.167
+          ],
+          "image_path": "images/page_16_equation_4.jpg",
+          "content": "I_{3} = 12\\  V  / 30\\ \\Omega = 0.4\\  A ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.13,
+            0.169,
+            0.407,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The total current in the circuit,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.243,
+            0.19,
+            0.448,
+            0.239
+          ],
+          "image_path": "images/page_16_equation_6.jpg",
+          "content": "\\begin{array} { l } { { I \\quad = \\quad I _ { _ { 1 } } + I _ { _ { 2 } } + I _ { _ { 3 } } } } \\\\ { { \\quad = \\quad \\left( 2 . 4 + 1 . 2 + 0 . 4 \\right) \\mathrm { A } } } \\\\ { { \\quad = \\quad 4 \\mathrm { ~ A } } } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.13,
+            0.241,
+            0.547,
+            0.26
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The total resistance "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { p ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is given by [Eq. (11.18)]",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.133,
+            0.265,
+            0.303,
+            0.302
+          ],
+          "image_path": "images/page_16_equation_8.jpg",
+          "content": "\\left[ \\frac{1}{R_{p}} = \\frac{1}{5} + \\frac{1}{10} + \\frac{1}{30} = \\frac{1}{3} \\right."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.308,
+            0.27,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ { p } } = 3 \\; \\Omega ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.131,
+            0.342,
+            0.276,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.9"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.129,
+            0.358,
+            0.724,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If in Fig. 11.12, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R_{1}=10\\Omega,R_{2}=40\\Omega,R_{3}=30\\Omega,R_{4}=20\\Omega,R_{5}=60\\Omega,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "and a 12 V battery is connected to the arrangement. Calculate (a) the total resistance in the circuit, and (b) the total current flowing in the circuit.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.131,
+            0.442,
+            0.224,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.129,
+            0.458,
+            0.634,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we replace the parallel resistors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { I }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "by an equivalent resistor of resistance,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Similarly we replace",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the parallel resistors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ 3 } , R _ { _ 4 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { \\bar { 5 } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "by an equivalent single resistor of resistance",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\dot { R ^ { \\prime } } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Then using Eq. (11.18), we have",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 / R^{\\prime} = 1 / 10 + 1 / 40 = 5 / 40;"
+            },
+            {
+              "type": "text",
+              "content": " that is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { \\prime } = 8 \\; \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Similarly,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1/R'' \\quad = \\quad 1/30 \\pm 1/20 + 1/60 = 6/60;"
+            },
+            {
+              "type": "text",
+              "content": " that is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ^ { \\prime \\prime } \\equiv 1 0 \\; \\Omega ."
+            },
+            {
+              "type": "text",
+              "content": " Thus, the total resistance, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R = R' + R'' = 18 \\Omega."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "To calculate the current, we use Ohm’s law, and get",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I = V / R = 12\\  V  / 18\\ \\Omega = 0.67\\  A ."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.646,
+            0.421,
+            0.922,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.646,
+                0.421,
+                0.922,
+                0.656
+              ],
+              "image_path": "images/page_16_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.097,
+            0.642,
+            0.724,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that in a series circuit the current is constant throughout the electric circuit. Thus it is obviously impracticable to connect an electric bulb and an electric heater in series, because they need currents of widely different values to operate properly (see Example 11.3). Another major disadvantage of a series circuit is that when one component fails the circuit is broken and none of the components works. If you have used ‘fairy lights’ to decorate buildings on festivals, on marriage celebrations etc., you might have seen the electrician spending lot of time in trouble-locating and replacing the ‘dead’ bulb – each has to be tested to find which has fused or gone. On the other hand, a parallel circuit divides the current through the electrical gadgets. The total resistance in a parallel circuit is decreased as per Eq. (11.18). This is helpful particularly when each gadget has different resistance and requires different current to operate properly.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.729,
+            0.663,
+            0.924,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure 11.12 An electric circuit showing the combination of series and parallel resistors"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.1,
+            0.915,
+            0.178,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Electricity"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.881,
+            0.915,
+            0.912,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "187"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

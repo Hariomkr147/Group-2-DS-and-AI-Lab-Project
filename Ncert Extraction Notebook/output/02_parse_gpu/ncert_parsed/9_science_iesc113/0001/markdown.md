@@ -1,0 +1,27 @@
+![](images/page_0_image_0.jpg)
+
+0906CH13
+
+13
+
+# Earth as a System: Energy, Matter, and Life
+
+![](images/page_0_image_5.jpg)
+
+![](images/page_0_image_6.jpg)
+
+## Think It Over
+
+How does the warming of Arabian Sea water affect the southwest monsoon in India?
+
+If a large forest is cleared, how can that affect the flow of a river in that area?
+
+What might happen to coastal cities in India if glaciers and polar ice keep melting faster?
+
+y How would increasing carbon dioxide levels in the atmosphere affect the ocean plankton?
+
+Life on Earth is powered by a constant flow of energy and matter. The Sun is the main source of energy. In addition, the Earth’s hot interior and chemical reactions in the air, water, and rocks also drive the flow of energy and matter. During the middle stage in Curiosity (Grades 6 – 8) and in earlier chapters of this textbook, you explored these ideas as separate content pieces. For example, you learnt how sunlight drives winds and the water cycle; how plants and microbes cycle nutrients; how the Earth’s tilt causes seasons; and how human activities are modifying air, water, soil and climate. In this chapter, we will consider these processes together as belonging to one Earth system made up of interacting ‘spheres’ —
+
+**Geosphere:** Solid rocks, soil, landforms (like the Deccan plateau and the Thar desert), and the Earth’s interior.
+
+**Hydrosphere:** Liquid water in the form of surface water, such as oceans, rivers (like the Ganga – Brahmaputra river system), lakes and groundwater.

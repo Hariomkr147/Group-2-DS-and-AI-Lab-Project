@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "186"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.489,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.108,
+            0.886,
+            0.148
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. How many 2-digit numbers are divisible by 3? What is the sum of all these 2-digit numbers?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.131,
+            0.155,
+            0.886,
+            0.214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Harish started work at an annual salary of `5,00,000 and received an increment of `20,000 each year. After how many years did his income reach `7,00,000?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.131,
+            0.222,
+            0.886,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. A child arranges marbles in rows so that the first row has 1 marble, the second has 2 marbles, the third has 3, and so on up to 25 rows. How many marbles does the child use in all?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.114,
+            0.305,
+            0.514,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.6 Geometric Progressions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.339,
+            0.886,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this section, we explore yet another special kind of sequence called a "
+            },
+            {
+              "type": "text",
+              "content": "geometric progression (GP)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Consider the growing pattern of squares shown in Fig. 8.6. The first four stages of the pattern are shown."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.269,
+            0.403,
+            0.77,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.269,
+                0.403,
+                0.77,
+                0.622
+              ],
+              "image_path": "images/page_12_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.331,
+                0.633,
+                0.668,
+                0.652
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.6: A growing pattern of squares"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.66,
+            0.886,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we count the total number of green squares in the four stages of the pattern, we get the sequence 3, 6, 12, 24."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.131,
+            0.718,
+            0.399,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.128,
+            0.755,
+            0.856,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you predict the number of squares in Stages 5 and 6 of the pattern? In Stages 10, 11 and 12? In Stage 20? At any stage? How is this different from the growing pattern in Fig. 8.3?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.829,
+            0.887,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe that at each stage, the number of green squares is doubled or is twice the number of squares in the previous stage. The number of squares at successive stages is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3,3+3=6,6+6=12,12+12=24,"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

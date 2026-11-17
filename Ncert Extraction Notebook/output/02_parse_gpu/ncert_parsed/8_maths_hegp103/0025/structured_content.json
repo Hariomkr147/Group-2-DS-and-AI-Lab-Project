@@ -1,0 +1,203 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.045,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.086,
+            0.549,
+            0.132
+          ],
+          "content": "？ Can we represent this more compactly? We can simply represent this number as"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.415,
+            0.143,
+            0.571,
+            0.201
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.217,
+            0.848,
+            0.257
+          ],
+          "content": "which can be read as ten 60s and one 40, just as we have written in the equation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.266,
+            0.598,
+            0.289
+          ],
+          "level": 2,
+          "content": "？ Example: Let us try another number — 7530."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.296,
+            0.65,
+            0.316
+          ],
+          "content": "7530 = (2) \\times 3600 + (5) \\times 60 + 30",
+          "image_source": "images/page_24_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.325,
+            0.459,
+            0.346
+          ],
+          "content": "So, its representation would be"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.358,
+            0.359,
+            0.633,
+            0.409
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.419,
+            0.848,
+            0.495
+          ],
+          "content": "Note that when a number is grouped into powers of 60 for its representation, no power of 60 can occur 60 or more times. If this happens, then 60 of them can be grouped to form the next power of 60. For example, consider the expression—"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.497,
+            0.679,
+            0.553
+          ],
+          "content": "(1) \\times 3600 + (70) \\times 60 + 2 = (1) \\times 60^2 + (60 + 10) \\times 60 + 2 = (1) \\times 60^2 + 60^2 + (10) \\times 60 + 2 = (2) \\times 60^2 + (10) \\times 60 + 2",
+          "image_source": "images/page_24_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.553,
+            0.848,
+            0.591
+          ],
+          "content": "Therefore, any number can be represented using the numerals from 1–59, along with the numerals for landmark numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.591,
+            0.847,
+            0.63
+          ],
+          "content": "Now, what if we make the representation even more compact by dropping the symbols for the different powers of 60 altogether?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.178,
+            0.643,
+            0.832,
+            0.875
+          ],
+          "content": "<table><tr><td rowspan=\"2\">Our earlier representation</td><td>640</td><td>7530</td></tr><tr><td><img src=\"images/page_24_table_image_12_1.jpg\"/></td><td><img src=\"images/page_24_table_image_12_2.jpg\"/></td></tr><tr><td>Our compact representation</td><td><img src=\"images/page_24_table_image_12_3.jpg\"/></td><td><img src=\"images/page_24_table_image_12_4.jpg\"/></td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_table_12.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.119,
+            0.936
+          ],
+          "content": "7 2"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:36:20+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.65,
+            0.049,
+            0.86,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proportional Reasoning–2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.407,
+            0.101,
+            0.59,
+            0.126
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SUMMARY"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.179,
+            0.142,
+            0.822,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ratios in the form a : b : c : d : … indicate that for every a units of the first quantity, there are b units of the second quantity, c units of the third quantity, and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.179,
+            0.209,
+            0.823,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If x is divided into many parts in the ratio p : q : r : s : …, then the quantity of the first part is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\chi \\times \\frac{p}{(p + q + r + s + \\cdots)}"
+            },
+            {
+              "type": "text",
+              "content": " , the quantity of the second part is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\times { \\frac { q } { (   p + q + r + s + \\cdots ) } }"
+            },
+            {
+              "type": "text",
+              "content": " , and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.179,
+            0.29,
+            0.823,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two quantities are directly proportional when they both change by the same factor, and their quotient remains the same. For example, if x and y are two quantities that are directly proportional, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x _ { 1 } , x _ { 2 } , x _ { 3 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( y _ { 1 } , y _ { 2 } , y _ { 3 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " are the corresponding values of x and y, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{x_{1}}{y_{1}}=\\frac{x_{2}}{y_{2}}=\\frac{x_{3}}{y_{3}}=\\cdots=k,"
+            },
+            {
+              "type": "text",
+              "content": " where k is a constant."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.178,
+            0.422,
+            0.822,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quantities are inversely proportional if, when one quantity changes by a factor n, the other quantity changes by the inverse "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { n }"
+            },
+            {
+              "type": "text",
+              "content": " . For example, if x and y are two quantities that are inversely proportional, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( X_{1},X_{2},X_{3},\\cdots \\right)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( y _ { 1 } , y _ { 2 } , y _ { 3 } , \\ldots )"
+            },
+            {
+              "type": "text",
+              "content": " are the corresponding values of x and y, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X_{1}y_{1}=X_{2}y_{2}=X_{3}y_{3}=\\cdots=n,"
+            },
+            {
+              "type": "text",
+              "content": " where n is a constant."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 6,
+          "bbox": [
+            0.875,
+            0.914,
+            0.911,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "69"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

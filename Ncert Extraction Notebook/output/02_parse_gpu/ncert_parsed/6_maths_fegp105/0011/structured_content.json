@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.732,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "Prime Time"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.12,
+            0.552,
+            0.142
+          ],
+          "content": "Make such pictures for the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.143,
+            0.822,
+            0.165
+          ],
+          "content": "a. 15 pegs, thread-gap of 10 b. 10 pegs, thread-gap of 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.166,
+            0.812,
+            0.189
+          ],
+          "content": "c. 14 pegs, thread-gap of 6 d. 8 pegs, thread-gap of 3"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.211,
+            0.461,
+            0.236
+          ],
+          "level": 2,
+          "content": "5.4 Prime Factorisation"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.253,
+            0.551,
+            0.275
+          ],
+          "level": 2,
+          "content": "Checking if two numbers are co-prime"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.281,
+            0.575,
+            0.302
+          ],
+          "content": "Teacher: Are 56 and 63 co-prime?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.304,
+            0.834,
+            0.348
+          ],
+          "content": "Anshu and Guna: If they have a common factor other than 1, then they are not co-prime. Let us check."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.35,
+            0.836,
+            0.438
+          ],
+          "content": "Anshu: I can write 56 = 14 × 4 and 63 = 21 × 3. So, 14 and 4 are factors, of 56. Further, 21 and 3 are factors of 63. So, there are no common factors. The numbers are co-prime."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.44,
+            0.834,
+            0.508
+          ],
+          "content": "Guna: Hold on. I can also write 56 = 7 × 8 and 63 = 9 × 7. We see that 7 is a factor of both numbers, so, they are not co-prime."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.516,
+            0.634,
+            0.539
+          ],
+          "content": "Clearly Guna is right, as 7 is a common factor."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.545,
+            0.497,
+            0.569
+          ],
+          "level": 2,
+          "content": "But where did Anshu go wrong?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.577,
+            0.834,
+            0.621
+          ],
+          "content": "Writing 56 = 14 × 4 tells us that 14 and 4 are both factors of 56, but it does not tell all the factors of 56. The same holds for the factors of 63."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.623,
+            0.833,
+            0.665
+          ],
+          "content": "both numbers."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.143,
+            0.668,
+            0.573,
+            0.689
+          ],
+          "content": "80 = 40 \\times 2 = 20 \\times 4 = 10 \\times 8 = 16 \\times 5 = ? ? ?",
+          "image_source": "images/page_10_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.692,
+            0.392,
+            0.711
+          ],
+          "content": "63 = 9 × 7 = 3 × 21 = ???"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.715,
+            0.835,
+            0.85
+          ],
+          "content": "We have written ‘???’ to say that there may be more ways to factorise these numbers. But if we take any of the given factorisations, for example, $80 = 16 \\times 5$ and $6 3 = 9 \\times 7 ,$ , then there are no common factors. Can we conclude that 80 and 63 are co-prime? As Anshu’s mistake above shows, we cannot conclude that as there may be other ways to factorise the numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.851,
+            0.833,
+            0.896
+          ],
+          "content": "What this means is that we need a more systematic approach to check if two numbers are co-prime."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.918,
+            0.959
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 29,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.167,
+            0.079,
+            0.83,
+            0.155
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Hidato, a grid of cells is given. It is usually square-shaped, like Sudoku or Kakuro, but it can also include hexagons or any shape that forms a tessellation. It can have inner holes (like a disc), but it is made of only one piece."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.168,
+            0.156,
+            0.829,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Usually, in every Hidato puzzle the lowest and the highest numbers are given on the grid."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.168,
+            0.194,
+            0.83,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Your task is to fill the grid such that there is a continuous path of consecutive numbers from the lowest to the highest number. The next number must be in any one of the adjacent cells, including diagonally adjacent cells."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.168,
+            0.271,
+            0.83,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The grid comes pre-filled with some numbers (with values between the smallest and the highest) to ensure that these puzzles have a single solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.193,
+            0.328,
+            0.592,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try solving the following Hidato puzzles."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.235,
+            0.377,
+            0.433,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.235,
+                0.377,
+                0.433,
+                0.512
+              ],
+              "image_path": "images/page_29_table_5.jpg",
+              "content": "<table><tr><td>25</td><td></td><td>1</td><td></td><td></td></tr><tr><td></td><td>20</td><td></td><td></td><td>4</td></tr><tr><td></td><td>14</td><td></td><td>8</td><td></td></tr><tr><td></td><td></td><td>15</td><td></td><td>9</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.51,
+            0.349,
+            0.791,
+            0.538
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.51,
+                0.349,
+                0.791,
+                0.538
+              ],
+              "image_path": "images/page_29_table_6.jpg",
+              "content": "<table><tr><td></td><td>36</td><td>1</td><td>2</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>4</td><td>6</td><td>13</td><td></td></tr><tr><td></td><td></td><td>34</td><td></td><td></td><td>12</td><td></td></tr><tr><td>39</td><td></td><td></td><td>30</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>31</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>17</td><td></td></tr><tr><td></td><td>26</td><td></td><td>23</td><td>21</td><td></td><td></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.273,
+            0.564,
+            0.672,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.273,
+                0.564,
+                0.672,
+                0.834
+              ],
+              "image_path": "images/page_29_table_7.jpg",
+              "content": "<table><tr><td rowspan=7 colspan=4></td><td rowspan=2></td><td rowspan=2>9</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=6 colspan=4>[|.</td></tr><tr><td>7</td><td>10</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td>1</td><td>17</td><td>15</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>44</td><td></td><td>49</td><td></td><td></td><td>28</td><td></td><td></td></tr><tr><td></td><td>54</td><td>42</td><td></td><td>50</td><td></td><td>29</td><td>26</td><td></td><td></td></tr><tr><td>56</td><td></td><td></td><td></td><td></td><td>35</td><td>34</td><td>25</td><td>23</td><td></td></tr><tr><td rowspan=2 colspan=4></td><td></td><td></td><td rowspan=2 colspan=4></td></tr><tr><td>39</td><td></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.156,
+            0.838,
+            0.844,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.156,
+                0.838,
+                0.844,
+                0.96
+              ],
+              "image_path": "images/page_29_image_8.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

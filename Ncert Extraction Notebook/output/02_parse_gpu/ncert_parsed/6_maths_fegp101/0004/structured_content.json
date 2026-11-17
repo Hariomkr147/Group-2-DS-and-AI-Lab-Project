@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.167,
+            0.162,
+            0.881,
+            0.871
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.184,
+                0.12,
+                0.865,
+                0.144
+              ],
+              "content": "Table 2: Pictorial representation of some number sequences"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_2.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.089,
+            0.942,
+            0.111,
+            0.96
+          ],
+          "content": "4"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:37:44+05:30",
+      "modified_at": "2026-04-07T17:38:06+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 17,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

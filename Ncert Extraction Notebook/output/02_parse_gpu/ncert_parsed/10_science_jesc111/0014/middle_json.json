@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.306,
+            0.085,
+            0.899,
+            0.117
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On applying Ohm’s law to the three resistors separately, we further have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.367,
+            0.117,
+            0.896,
+            0.136
+          ],
+          "image_path": "images/page_13_equation_1.jpg",
+          "content": "V _ { _ { \\cal I } } = { \\cal I }   R _ { _ { \\cal I } }\\tag{[11.13(a)]}"
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.367,
+            0.138,
+            0.896,
+            0.157
+          ],
+          "image_path": "images/page_13_equation_2.jpg",
+          "content": "V _ { _ 2 } = I   R _ { _ 2 }\\tag{[11.13(b)]}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.307,
+            0.16,
+            0.455,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { _ 3 } = I   R _ { _ 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.811,
+            0.159,
+            0.897,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[11.13(c)]",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.307,
+            0.183,
+            0.468,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Eq. (11.11),",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.366,
+            0.204,
+            0.546,
+            0.222
+          ],
+          "image_path": "images/page_13_equation_6.jpg",
+          "content": "IR = IR_{1} + IR_{2} + IR_{3}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.308,
+            0.222,
+            0.335,
+            0.234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.366,
+            0.235,
+            0.897,
+            0.254
+          ],
+          "image_path": "images/page_13_equation_8.jpg",
+          "content": "R_{s}=R_{l}+R_{2}+R_{3}\\tag{11.14}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.276,
+            0.259,
+            0.899,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can conclude that when several resistors are joined in series, the",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " resistance of the combination "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { s }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "equals the sum of their individual",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " resistances"
+            },
+            {
+              "type": "text",
+              "content": ",",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { \\iota } , R _ { \\iota ^ { \\prime } } R _ { \\substack { 3 ^ { \\prime } } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "and is thus greater than any individual resistance.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.307,
+            0.318,
+            0.454,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.7"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.306,
+            0.334,
+            0.899,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An electric lamp, whose resistance is 20",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", and a conductor of 4",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistance are connected to a 6 V battery (Fig. 11.9). Calculate (a) the total resistance of the circuit, (b) the current through the circuit, and (c) the potential difference across the electric lamp and conductor.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.269,
+            0.409,
+            0.712,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.269,
+                0.409,
+                0.712,
+                0.631
+              ],
+              "image_path": "images/page_13_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.273,
+                0.639,
+                0.702,
+                0.668
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.9 An electric lamp connected in series with a resistor of 4 Ω to a 6 V battery"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.307,
+            0.676,
+            0.401,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.306,
+            0.693,
+            0.677,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The resistance of electric lamp, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { \\iota }   = 2 0 \\: \\Omega"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.306,
+            0.708,
+            0.844,
+            0.725
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The resistance of the conductor connected in series, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ {   _ { 2 } }   = 4 \\; \\Omega ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.307,
+            0.725,
+            0.647,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then the total resistance in the circuit",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.308,
+            0.744,
+            0.425,
+            0.76
+          ],
+          "image_path": "images/page_13_equation_18.jpg",
+          "content": "R_{ 滘 } = R_{_l} + R_{_2}"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.307,
+            0.761,
+            0.522,
+            0.777
+          ],
+          "image_path": "images/page_13_equation_19.jpg",
+          "content": "R_{_s} = 20 \\; \\Omega + 4 \\; \\Omega = 24 \\; \\Omega."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.306,
+            0.78,
+            0.898,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The total potential difference across the two terminals of the battery",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V   = 6 \\; \\mathrm { V } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.307,
+            0.816,
+            0.854,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now by Ohm’s law, the current through the circuit is given by",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.307,
+            0.835,
+            0.446,
+            0.882
+          ],
+          "image_path": "images/page_13_equation_22.jpg",
+          "content": "\\begin{array} { r c l } { { I } } & { { = } } & { { V / R _ { \\mathrm { s } } } } \\\\ { { } } & { { = } } & { { 6   \\mathrm { V } / 2 4   \\Omega } } \\\\ { { } } & { { = } } & { { 0 . 2 5   \\mathrm { A } . } } \\end{array}"
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "184"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

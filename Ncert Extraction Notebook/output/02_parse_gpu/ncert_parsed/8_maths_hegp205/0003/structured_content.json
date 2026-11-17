@@ -1,0 +1,184 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.669,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "Tales by Dots and Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.846,
+            0.127
+          ],
+          "content": "Both these cases are illustrated in the following diagram. Therefore, there is only one centre."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.181,
+            0.131,
+            0.816,
+            0.266
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.283,
+            0.848,
+            0.363
+          ],
+          "content": "？ Will including a new value in the data increase or decrease the mean? When a new value greater than the mean is included, the mean LHS and RHS, as illustrated below."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.224,
+            0.367,
+            0.785,
+            0.652
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_chart_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.659,
+            0.846,
+            0.698
+          ],
+          "content": "Similarly, if a value smaller than the mean is included, then the new mean will be less than before."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.708,
+            0.801,
+            0.748
+          ],
+          "content": "？ What happens to the mean when an existing value is removed? When will the mean increase, decrease, or stay the same?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.698,
+            0.904,
+            0.758
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.753,
+            0.801,
+            0.793
+          ],
+          "content": "？ What happens to the mean if a value equal to the mean is included or removed?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.797,
+            0.846,
+            0.836
+          ],
+          "content": "Try to explain this using the fair-share interpretation of mean that we studied last year."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.85,
+            0.383,
+            0.873
+          ],
+          "level": 2,
+          "content": "Unchanging Mean!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.881,
+            0.846,
+            0.919
+          ],
+          "content": "We saw earlier how the mean varies when a value is included or removed."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.869,
+            0.913,
+            0.919,
+            0.935
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

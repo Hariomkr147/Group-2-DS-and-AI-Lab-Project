@@ -1,0 +1,33 @@
+Mami: We use a sieve for this purpose.
+
+**Sieving** allows the fine flour particles to pass through the holes of the sieve as shown in Fig. 9.5. The bigger particles such as bran and small stones remain on the sieve.
+
+Carefully observe a sieve. Are all the holes of the sieve the same size? Will sieving work if the holes of the sieve are larger than the substances? Is there any difference in the size between the particles that pass through the sieve and the particles that remain on the sieve? Sieving is used when components of a solid–solid mixture have different sizes.
+
+![](images/page_4_image_3.jpg)
+
+Fig. 9.5: Sieving
+
+Upon reaching Ahmedabad, they visit Sabarmati Ashram along with Ghanshyam bhai where they learn about the Namak Satyagrah (Dandi March).
+
+**Have you ever observed sieves being used at construction sites to separate pebbles and** stones from the sand?
+
+![](images/page_4_image_7.jpg)
+
+**More to do!**
+
+What is Sabarmati Ashram famous for? Draw a poster showing Dandi March and discuss why it was organised.
+
+![](images/page_4_image_10.jpg)
+
+Malli asks, “Where is namak (common salt) obtained from?”
+
+“From seawater”, replies Ghanshyam bhai.
+
+Seawater is a mixture of salts and some other substances dissolved in water. To obtain salt, the seawater is kept in shallow pits and exposed to sunlight and air. In a few days, the water
+
+![](images/page_4_image_14.jpg)
+
+Fig. 9.6: Obtaining salt from seawater
+
+in Everyday Life Methods of Separation

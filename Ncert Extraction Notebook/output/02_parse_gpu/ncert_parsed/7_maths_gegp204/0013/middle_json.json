@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.596,
+            0.05,
+            0.847,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another Peek Beyond the Point"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.153,
+            0.086,
+            0.843,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.153,
+                0.086,
+                0.843,
+                0.314
+              ],
+              "image_path": "images/page_12_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.327,
+            0.389,
+            0.347
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are left with 1 Ones."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.352,
+            0.846,
+            0.392
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is not clear how to divide 1 Ones into 4 equal parts. But we can regroup this as 10 tenths."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.225,
+            0.395,
+            0.774,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.225,
+                0.395,
+                0.774,
+                0.599
+              ],
+              "image_path": "images/page_12_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.623,
+            0.754,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10 Tenths ÷ 4 Each part gets 2 Tenths and 2 Tenths remain."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.153,
+            0.655,
+            0.866,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.153,
+                0.655,
+                0.866,
+                0.883
+              ],
+              "image_path": "images/page_12_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.813,
+            0.933,
+            0.839,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "79"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

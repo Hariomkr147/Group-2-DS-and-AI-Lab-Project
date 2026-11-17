@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.598,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "87"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.366,
+            0.117,
+            0.629,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 13.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.139,
+            0.165,
+            0.881,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Write a linear equation in two variables in which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 3,   b = 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = - { \\frac { 1 } { 5 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.138,
+            0.227,
+            0.881,
+            0.268
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Complete the following table after expressing the given linear equations in standard form."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.176,
+            0.273,
+            0.877,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.176,
+                0.273,
+                0.877,
+                0.653
+              ],
+              "image_path": "images/page_2_table_5.jpg",
+              "content": "<table><tbody><tr><td>Linear equation in two variables</td><td>Standard Form</td><td>Coefficient of x</td><td>Coefficient of y</td><td>Constant term</td></tr><tr><td>y - 15 = 2x</td><td></td><td></td><td></td><td></td></tr><tr><td>3y - 2x = 0</td><td></td><td></td><td></td><td></td></tr><tr><td>5x = 3y</td><td></td><td></td><td></td><td></td></tr><tr><td>x = 8</td><td></td><td></td><td></td><td></td></tr><tr><td>3y = 1</td><td></td><td></td><td></td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.138,
+            0.668,
+            0.881,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. (i) The cost of a notebook is twice the cost of a pen. Consider the cost of a notebook to be ₹t and that of a pen to be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathfrak { F } } p ."
+            },
+            {
+              "type": "text",
+              "content": " Charlie wrote "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t = 2 p ,"
+            },
+            {
+              "type": "text",
+              "content": " , whereas Meera wrote "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p = 2 t ."
+            },
+            {
+              "type": "text",
+              "content": " Which of these two representations is correct?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.188,
+            0.75,
+            0.883,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) In a one-day International Cricket match between India and Sri Lanka played in Nagpur, two Indian batsmen together scored 176 runs. Manisha expressed this situation as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x + y = 176"
+            },
+            {
+              "type": "text",
+              "content": " , where the number of runs scored by one batsman is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ,"
+            },
+            {
+              "type": "text",
+              "content": " and the number of runs scored by the other is y. Is this a correct representation?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

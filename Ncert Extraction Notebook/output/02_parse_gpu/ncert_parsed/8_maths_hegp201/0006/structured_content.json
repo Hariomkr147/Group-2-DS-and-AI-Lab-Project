@@ -1,0 +1,267 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.419,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.091,
+            0.599,
+            0.115
+          ],
+          "level": 2,
+          "content": "1.2 Percentage of Some Quantity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.122,
+            0.601,
+            0.197
+          ],
+          "content": "? **Example 1:** Madhu and Madhav each ate biscuits of a different variety. Madhu’s biscuits had 25% sugar, while Madhav’s had 35% sugar. Can you tell who ate more sugar?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.198,
+            0.602,
+            0.289
+          ],
+          "content": "As we just saw, percentages represent fractional quantities or proportions. It would be inappropriate to compare just the percentages when they are referring to different quantities or wholes. That is, if they"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.616,
+            0.125,
+            0.872,
+            0.279
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.288,
+            0.848,
+            0.346
+          ],
+          "continues_prev": true,
+          "content": "both had 100 g of biscuits, then clearly Madhav ate more sugar — 35 g (35% of 100 g is 35 g per 100 g) vs. Madhu’s 25 g (25% of 100 g is 25 g per 100 g)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.351,
+            0.844,
+            0.391
+          ],
+          "content": "? Suppose Madhu ate 120 g of biscuits and Madhav ate 95 g of biscuits. Who consumed more sugar? Try to find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.395,
+            0.847,
+            0.451
+          ],
+          "content": "We know that the weight of sugar is proportional to the weight of the biscuits consumed. Madhu ate 120 g of biscuits having 25% sugar. The amount of sugar he ate is the value in the blank —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.454,
+            0.596,
+            0.475
+          ],
+          "content": "25:100 \\cdots :120.",
+          "image_source": "images/page_5_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.479,
+            0.547,
+            0.5
+          ],
+          "content": "A few ways of going forward are shown."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.12,
+            0.512,
+            0.549,
+            0.646
+          ],
+          "content": "| 25% sugar means - 25 g sugar per 100 g of biscuits, which means 5 g sugar per 20 g | The proportional relationship can be written as ${ \\frac { 2 5 } { 1 0 0 } } = { \\frac { s } { 1 2 0 } } .$ |\n| --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_10.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.579,
+            0.513,
+            0.864,
+            0.632
+          ],
+          "content": "| 0 | 25% | 50% | 75% | 100% |\n| --- | --- | --- | --- | --- |\n|  | I |  | I |  |\n|  | I |  | I |  |\n|  | Sugar | I |  |  |\n|  |  | 1 |  |  |\n|  | I | - - | - - |  |\n| 0 | 30 g | 60 g | 90 g | 120 g |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.665,
+            0.845,
+            0.702
+          ],
+          "content": "Do any of the methods match your thinking? Were you able to understand all the methods?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.702,
+            0.848,
+            0.757
+          ],
+          "content": "Now, let us find out how much sugar Madhav ate. He ate 95 g of biscuits with 35% sugar. Sometimes the numbers may not be convenient to calculate using different methods as we did just before."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.757,
+            0.581,
+            0.777
+          ],
+          "content": "100 g of the biscuits he ate has 35 g of sugar."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.779,
+            0.646,
+            0.803
+          ],
+          "content": "This means, 1 g of the biscuits has $\\frac { 3 5 } { 1 0 0 }$ g of sugar."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.731,
+            0.759,
+            0.88,
+            0.789
+          ],
+          "content": "\\frac{35}{100} = \\frac{x}{1} \\rightarrow x = \\frac{35}{100}",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.805,
+            0.79,
+            0.828
+          ],
+          "content": "We can say that 95 g of the biscuit will have $\\frac{35}{100} \\;  g  \\times 95 = 33.25 \\;  g .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.831,
+            0.845,
+            0.877
+          ],
+          "content": "This can also be solved by finding the value of s in the proportional relationship $\\frac { 3 5 } { 1 0 0 } = \\frac { s } { 9 5 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.182,
+            0.881,
+            0.526,
+            0.9
+          ],
+          "content": "Therefore, Madhav ate more sugar."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.093,
+            0.915,
+            0.114,
+            0.934
+          ],
+          "content": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

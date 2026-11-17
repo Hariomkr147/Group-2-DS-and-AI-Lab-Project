@@ -1,0 +1,23 @@
+## Chapter Exploring Magnets
+
+![](images/page_0_image_1.jpg)
+
+Reshma lives in a coastal town of Kerala and is very fond of writing short stories. Her grandmother loves listening to her stories, so Reshma was writing a new story to share with her grandmother on her 60th birthday.
+
+![](images/page_0_image_3.jpg)
+
+0677CH04
+
+The story was based on a ship carrying spices from Kerala for trade in the olden days. Reshma was aware that in those days, the sailors used stars to find directions at night. But in her story, a situation arose wherein the sailors got caught in a storm with an overcast sky and stars
+
+![](images/page_0_image_6.jpg)
+
+were not visible. Reshma could not take her story forward as she could not think of a way for sailors to find directions.
+
+She searched for information on the internet and her school library. She learnt that the travellers used a device,
+
+known as a magnetic compass, for finding directions.
+
+![](images/page_0_image_10.jpg)
+
+Reshma had seen pencil boxes and purses which had magnets to keep them closed. A writing board in her school also had a duster with a magnet. But she had never looked at those carefully. She now became curious to learn more about magnets and magnetic compasses.

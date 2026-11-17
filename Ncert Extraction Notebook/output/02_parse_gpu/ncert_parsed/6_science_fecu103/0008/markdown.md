@@ -1,0 +1,27 @@
+The right amount of protein must be included in the diet of growing children for their proper growth and development. Which of these food components are part of your daily diet?
+
+![](images/page_7_image_3.jpg)
+
+**More to know!**
+
+Have you ever seen mushrooms? They grow mostly in dark and moist places. Edible mushrooms are good sources of protein.
+
+![](images/page_7_image_6.jpg)
+
+Mushroom
+
+Why do you think we are advised to include servings of fruits, vegetables and other plant-based foods in our daily diet? Let us understand the importance of some other **food components** by reading the following two cases—
+
+## Case 1
+
+In earlier times, during long voyages, sailors often suffered from bleeding and swollen gums. During a voyage in 1746, Scottish physician James Lind observed that sailors who consumed lemons and oranges recovered from these symptoms. Bleeding and swollen gums are symptoms of a disease called **scurvy**.
+
+What do you **interpret** by reading Case 1? What cures scurvy? Lemons and oranges help in curing scurvy. Scurvy is caused due to deficiency of Vitamin C. **Vitamin C** present in citrus fruits like lemons and oranges helps in curing this disease.
+
+## Case 2
+
+In the 1960s, Indian scientists found that among the human population in the Himalayan region and the Northern plains of India, symptoms of swelling at the front of the neck were prevalent. As per norms of the Government of India, an effort was made to supplement common salt with iodine for preparing **iodised salt**. Consumption of iodised
+
+![](images/page_7_image_14.jpg)
+
+salt visibly reduced the above symptoms. These symptoms were due to a deficiency of iodine in the soil of this region resulting in a lack of iodine in the local food and water supply. Swelling at the front of the neck is a symptom of a disease called **goitre**.

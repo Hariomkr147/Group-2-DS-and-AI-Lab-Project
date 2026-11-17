@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.407,
+            0.09,
+            0.591,
+            0.115
+          ],
+          "level": 2,
+          "content": "SUMMARY"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.132,
+            0.822,
+            0.169
+          ],
+          "content": "Last year, we looked at common multiples, and common factors, and were also introduced to the amazing world of primes!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.17,
+            0.823,
+            0.206
+          ],
+          "content": "In this chapter, we learnt a method to find the prime factorisation of a number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.208,
+            0.822,
+            0.246
+          ],
+          "content": "Finding all the factors of a number from its prime factorisation is easy but quite tedious — we have to list every possible subpart!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.247,
+            0.822,
+            0.283
+          ],
+          "content": "The **Highest Common Factor (HCF)** is the highest among all the common factors of a group of numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.211,
+            0.283,
+            0.823,
+            0.318
+          ],
+          "content": " Every common factor is contained in the prime factorisation of the number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.319,
+            0.823,
+            0.354
+          ],
+          "content": "To find the HCF, we include the minimum number of occurances of each prime across the prime factorisation of all the numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.355,
+            0.822,
+            0.392
+          ],
+          "content": "The **Lowest Common Multiple (LCM)** is the lowest among all the common multiples of a group of numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.212,
+            0.392,
+            0.821,
+            0.426
+          ],
+          "content": "Every common multiple contains the prime factorisation of the numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.212,
+            0.427,
+            0.821,
+            0.462
+          ],
+          "content": "To find the LCM, we include the highest number of occurrences of each prime across the prime factorisations of all the numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.463,
+            0.822,
+            0.519
+          ],
+          "content": "We explored more about HCF and LCM; we discovered related properties and patterns when numbers are consecutive, even, co-prime, etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.521,
+            0.821,
+            0.558
+          ],
+          "content": "We learnt a procedure to get both the HCF and the LCM at the same time! We also saw how to make this even quicker!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.559,
+            0.821,
+            0.597
+          ],
+          "content": "We learned some terms that are used when discussing mathematics, such as ‘**conjecture**’ and ‘**generalisation**’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.239,
+            0.742,
+            0.582,
+            0.799
+          ],
+          "content": "The largest prime found so far has 4,10,24,320 digits! It was discovered on October 12, 2024."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.631,
+            0.65,
+            0.779,
+            0.761
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.65,
+            0.765,
+            0.786,
+            0.829
+          ],
+          "content": "If I start writing this number, how long could it take me?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "65"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

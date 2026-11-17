@@ -1,0 +1,159 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.668,
+            0.049,
+            0.843,
+            0.066
+          ],
+          "content": "Connecting the Dots…"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.848,
+            0.187
+          ],
+          "content": "The data shows the monthly hours of daylight (i.e., the Sun is at least partly above the horizon) in these two cities over the year. Based on this data, a clustered bar graph showing the average daylight hours per day in each month is given below. This average is obtained by dividing the monthly daylight hours by the number of days in the month."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.205,
+            0.202,
+            0.807,
+            0.489
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_chart_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.51,
+            0.846,
+            0.549
+          ],
+          "content": "Let us follow the 2-step process to identify and interpret the information presented."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.559,
+            0.454,
+            0.58
+          ],
+          "level": 2,
+          "content": "Step 1: Identify what is given"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.583,
+            0.846,
+            0.623
+          ],
+          "content": "? Notice how the graph is organised, what scale is used, and what patterns the data shows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.627,
+            0.847,
+            0.705
+          ],
+          "content": "The horizontal line shows the months of the year. The vertical line shows the average daylight hours per day, using the scale 1 unit = 5 hours. The month of June has the maximum value for City 1 and the minimum value for City 2."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.715,
+            0.482,
+            0.735
+          ],
+          "level": 2,
+          "content": "Step 2: Infer from what is given"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.738,
+            0.846,
+            0.779
+          ],
+          "content": "？ Analyse and interpret each of your observations. Share appropriate summary and conclusion statements."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.783,
+            0.847,
+            0.842
+          ],
+          "content": "The average number of daylight hours per day in City 1 increases from January, reaching a maximum of about 17 – 18 hours in June. It then decreases, reaching a minimum of about 6 hours in December."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.807,
+            0.933,
+            0.844,
+            0.95
+          ],
+          "content": "119"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

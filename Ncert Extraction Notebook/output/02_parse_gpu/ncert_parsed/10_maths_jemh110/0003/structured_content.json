@@ -1,0 +1,183 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.105,
+            0.137,
+            0.119
+          ],
+          "content": "146"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.105,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.147,
+            0.534,
+            0.456
+          ],
+          "content": "**Activity 2 :** On a paper, draw a circle and a secant PQ of the circle. Draw various lines parallel to the secant on both sides of it. You will find that after some steps, the length of the chord cut by the lines will gradually decrease, i.e., the two points of intersection of the line and the circle are coming closer and closer [see Fig. 10.3(ii)]. In one case, it becomes zero on one side of the secant and in another case, it becomes zero on the other side of the secant. See the positions $\\mathrm { P ^ { \\prime } Q ^ { \\prime } }$ and $\\mathrm { P ^ { \\prime \\prime } Q ^ { \\prime \\prime } }$ of the secant in Fig. 10.3 (ii). These are the tangents to the circle parallel to the given secant PQ. This also helps you to see that there cannot be more than two tangents parallel to a given secant."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.548,
+            0.149,
+            0.899,
+            0.389
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.669,
+                0.397,
+                0.805,
+                0.417
+              ],
+              "content": "Fig. 10.3 (ii)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.462,
+            0.902,
+            0.521
+          ],
+          "content": "This activity also establishes, what you must have observed, while doing Activity 1, namely, a tangent is the secant when both of the end points of the corresponding chord coincide."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.526,
+            0.902,
+            0.584
+          ],
+          "content": "The common point of the tangent and the circle is called the **point of contact** [the point A in Fig. 10.1 (iii)]and the tangent is said to **touch** the circle at the common point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.589,
+            0.595,
+            0.804
+          ],
+          "content": "Now look around you. Have you seen a bicycle or a cart moving? Look at its wheels. All the spokes of a wheel are along its radii. Now note the position of the wheel with respect to its movement on the ground. Do you see any tangent anywhere? (See Fig. 10.4). In fact, the wheel moves along a line which is a tangent to the circle representing the wheel. Also, notice that in all positions, the radius through the point of contact with the ground appears to be at right angles to the tangent (see Fig. 10.4). We shall now prove this property of the tangent."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.619,
+            0.597,
+            0.888,
+            0.735
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.695,
+                0.759,
+                0.792,
+                0.778
+              ],
+              "content": "Fig. 10.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.815,
+            0.901,
+            0.854
+          ],
+          "content": "**Theorem 10.1 :** The tangent at any point of a circle is perpendicular to the radius through the point of contact."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.86,
+            0.902,
+            0.899
+          ],
+          "content": "**Proof :** We are given a circle with centre O and a tangent XY to the circle at a point P. We need to prove that OP is perpendicular to XY."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

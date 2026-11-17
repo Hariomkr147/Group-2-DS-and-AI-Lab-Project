@@ -1,0 +1,242 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.275,
+            0.086,
+            0.688,
+            0.103
+          ],
+          "content": "**The following are the laws of refraction of light.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.106,
+            0.9,
+            0.153
+          ],
+          "content": "**(i) The incident ray, the refracted ray and the normal to the interface of two transparent media at the point of incidence, all lie in the same plane.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.302,
+            0.152,
+            0.902,
+            0.217
+          ],
+          "content": "**(ii) The ratio of sine of angle of incidence to the sine of angle of refraction is a constant, for the light of a given colour and for the given pair of media. This law is also known as Snell’s law of** refraction. (This is true for angle $0 < i   <   9 0 ^ { \\circ } )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.338,
+            0.216,
+            0.897,
+            0.233
+          ],
+          "content": "**If i is the angle of incidence and r is the angle of refraction, then,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.341,
+            0.243,
+            0.896,
+            0.276
+          ],
+          "content": "\\frac { \\sin i } { \\sin r } = c o n s t a n t\\tag{9.4}",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.275,
+            0.284,
+            0.899,
+            0.318
+          ],
+          "content": "**This constant value is called the refractive index of the second medium with respect to the first. Let us study about refractive index in some detail.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.276,
+            0.331,
+            0.561,
+            0.351
+          ],
+          "level": 2,
+          "content": "9.3.2 The Refractive Index"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.275,
+            0.359,
+            0.899,
+            0.439
+          ],
+          "content": "**You have already studied that a ray of light that travels obliquely from one transparent medium into another will change its direction in the second medium. The extent of the change in direction that takes place in a given pair of media may be expressed in terms of the refractive index, the “constant” appearing on the right-hand side of Eq.(9.4).**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.274,
+            0.438,
+            0.9,
+            0.564
+          ],
+          "content": "**The refractive index can be linked to an important physical quantity, the relative speed of propagation of light in different media. It turns out that light propagates with different speeds in different media. Light** travels fastest in vacuum with speed of $3 \\times 10^{8}    m     s ^{-1}$ **. In air, the speed of light is only marginally less, compared to that in vacuum. It reduces considerably in glass or water. The value of the refractive index for a given pair of media depends upon the speed of light in the two media, as given below.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.275,
+            0.563,
+            0.9,
+            0.66
+          ],
+          "content": "**Consider a ray of light travelling from medium 1 into medium 2, as** shown in Fig.9.11. Let $v _ { \\mathrm { { _ 1 } } }$ **be the** speed of light in medium 1 and $v _ { 2 }$ be the **speed of light in medium 2. The refractive index of medium 2 with respect to medium 1 is given by the ratio of the speed of light in medium 1 and the speed of light in medium 2. This is usually represented by the symbol** $n _ { _ { 2 1 } }$ **. This can be expressed in an equation form as**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.079,
+            0.631,
+            0.38,
+            0.804
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.076,
+                0.808,
+                0.182,
+                0.823
+              ],
+              "content": "Figure 9.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.679,
+            0.896,
+            0.714
+          ],
+          "content": "n_{21} = \\frac{\\textrm{Specd of light in medium 1}}{\\textrm{Specd of light in medium 2}} = \\frac{v_1}{v_2}\\tag{9.5}",
+          "image_source": "images/page_14_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.394,
+            0.717,
+            0.899,
+            0.766
+          ],
+          "content": "**By the same argument, the refractive index of medium 1 with respect to medium 2 is represented as** $n _ { _ { I 2 ^ { \\circ } } }$ **It is given by**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.789,
+            0.896,
+            0.826
+          ],
+          "content": "n_{12}=\\frac{\\text { speed of light in medium 2}}{\\text { speed of light in medium 1}}=\\frac{v_{2}}{v_{1}}\\tag{9.6}",
+          "image_source": "images/page_14_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.274,
+            0.833,
+            0.901,
+            0.884
+          ],
+          "content": "**If medium 1 is vacuum or air, then the refractive index of medium 2 is considered with respect to vacuum. This is called the absolute refractive** index of the medium. It is simply represented as $n _ { \\mathrm { 2 } }$ **. If c is the speed of**"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.09,
+            0.917,
+            0.125,
+            0.932
+          ],
+          "content": "148"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.93
+          ],
+          "content": "Science"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,43 @@
+the work done when the distance travelled is 2 units? Verify it by plotting it on the graph.
+
+\*10. The graph of a linear polynomial p(x) passes through the points (1, 5) and (3, 11).
+
+(i) Find the polynomial p(x).
+
+(ii) Find the coordinates where the graph of p(x) cuts the axes.
+
+(iii) Draw the graph of p(x) and verify your answers.
+
+\*11. Let p(x) = ax + b and $q(x) = cx + d$ be two linear polynomials such that:
+
+(i) p(0) = 5.
+
+(ii) The polynomial p(x) – q(x) cuts the x-axis at (3, 0).
+
+(iii) The sum p(x) + q(x) is equal to 6x + 4 for all real x.
+
+Find the polynomials p(x) and q(x).
+
+\*12. Look at the first three stages of a growing pattern of hexagons made using matchsticks. A new hexagon gets added at every stage which shares a side with the last hexagon of the previous stage.
+
+![](images/page_22_image_13.jpg)
+
+Stage 1
+
+![](images/page_22_image_15.jpg)
+
+Stage 2
+
+![](images/page_22_image_17.jpg)
+
+Stage 3
+
+(i) Draw the next two stages of the pattern. How many matchsticks will be required at these stages?
+
+(ii) Complete the following table.
+
+| Stage Number | 1 | 2 | 3 | 4 | 5 | … | n |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Number of matchsticks |  |  |  |  |  |  |  |
+
+(iii) Find a rule to determine the number of matchsticks required for the $n ^ { t h }$ stage.

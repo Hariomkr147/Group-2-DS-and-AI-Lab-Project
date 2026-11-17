@@ -1,0 +1,261 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "178"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.108,
+            0.685,
+            0.127
+          ],
+          "content": "a rule that can predict the next few prime numbers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.128,
+            0.641,
+            0.148
+          ],
+          "content": "**Exercise:** Consider the expression $t _ { n } = 3 n - 7 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.15,
+            0.722,
+            0.171
+          ],
+          "content": "(i) Find its first, second, third, 12<sup>th</sup>, 18<sup>th</sup> and $5 0 ^ { \\mathrm { t h } }$ terms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.119,
+            0.174,
+            0.559,
+            0.194
+          ],
+          "content": "(ii) Which term of the sequence is 332?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.197,
+            0.696,
+            0.219
+          ],
+          "content": "(iii) Is 557 a term of this sequence? Why or why not?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.236,
+            0.61,
+            0.258
+          ],
+          "level": 2,
+          "content": "8.3 Recursive Rule for a Sequence"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.269,
+            0.886,
+            0.514
+          ],
+          "content": "So far, we have used a formula in terms of n for the $n ^ { t h }$ term as the explicit rule for a sequence. There is another way of writing the rule for a sequence. Consider the sequence 1, 4, 7, 10, 13, The $n ^ { t h }$ term is $t_{n} = 3n - 2$ (verify this for yourself). Note that each term is 3 more than its previous term. Thus, $t_{2} = t_{1} + 3, \\quad t_{3} = t_{2} + 3$ $t _ { _ { 4 } } \\: = \\: t _ { _ { 3 } } + \\: 3$ and so on. In general, we can say $t_{n} = t_{n - 1} + 3 \\mathrm{for} - n \\geq 2$ Or we can describe the sequence as $t_{1} = 1, t_{n} = t_{n - 1} + 3$ , where n can take the values 2, 3, 4, … This way of describing a sequence by relating terms to previous terms is known as a **recursive rule** or **recursive formula**. If you know earlier terms of the sequence, then you can find the next terms using the rule. Note that the earlier terms need to be known to us to use the recursive rule to find the next terms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.518,
+            0.884,
+            0.556
+          ],
+          "content": "**Example 3:** Find the first four terms of the sequence given by the recursive rule"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.557,
+            0.794,
+            0.578
+          ],
+          "content": "$u_{1}=1,u_{n}=2u_{n-1}+3\\ \\mathrm{for}\\ n\\geq2.$ . Is 133 a term of this sequence?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.581,
+            0.884,
+            0.619
+          ],
+          "content": "We successively insert the values of n as 2, 3, 4, etc., and compute the values of each term."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.378,
+            0.624,
+            0.656,
+            0.647
+          ],
+          "content": "u_{2}=2u_{1}+3=2\\times 1+3=5",
+          "image_source": "images/page_4_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.649,
+            0.669,
+            0.671
+          ],
+          "content": "u_{3} = 2u_{2} + 3 = 2 \\times 5 + 3 = 13",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.379,
+            0.675,
+            0.68,
+            0.697
+          ],
+          "content": "u_{4} = 2u_{3} + 3 = 2 \\times 13 + 3 = 29",
+          "image_source": "images/page_4_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.7,
+            0.885,
+            0.74
+          ],
+          "content": "Thus, the first four terms of the sequence are 1, 5, 13, 29. Calculating subsequent terms, we can check if 133 is a term of this sequence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.744,
+            0.885,
+            0.788
+          ],
+          "content": "**Example 4:** Find the first four terms of the sequence given by the recursive rule $s_{1}=3,s_{n}=s_{n-1}(s_{n-1}-1)$ for $n \\geq 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.789,
+            0.886,
+            0.827
+          ],
+          "content": "Substitute the values of n as 2, 3, 4, etc., and compute the values of each term as follows."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.831,
+            0.708,
+            0.854
+          ],
+          "content": "s_{2}=s_{1}(s_{1}-1)=3\\times(3-1)=3\\times2=6",
+          "image_source": "images/page_4_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.855,
+            0.728,
+            0.877
+          ],
+          "content": "s_{3}=s_{2}(s_{2}-1)=6\\times(6-1)=6\\times5=30",
+          "image_source": "images/page_4_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.878,
+            0.783,
+            0.901
+          ],
+          "content": "s_{4}=s_{3}(s_{3}-1)=30\\times(30-1)=30\\times29=870",
+          "image_source": "images/page_4_equation_20.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

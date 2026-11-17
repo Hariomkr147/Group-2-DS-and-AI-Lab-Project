@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.74,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.131,
+            0.087,
+            0.326,
+            0.299
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.131,
+                0.087,
+                0.326,
+                0.299
+              ],
+              "image_path": "images/page_5_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.376,
+            0.139,
+            0.845,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can compute the four angles between the diagonals to be x, x, 180 – x, and 180 – x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.376,
+            0.181,
+            0.679,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you find the other angles?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.309,
+            0.651,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since we know that ∆AOB is isosceles, we can denote the measures of both of its base angles by a."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.356,
+            0.625,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the value of a (in degrees) in terms of x? We have,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.345,
+            0.406,
+            0.491,
+            0.423
+          ],
+          "image_path": "images/page_5_equation_6.jpg",
+          "content": "a+a+x=180"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.221,
+            0.424,
+            0.614,
+            0.444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(sum of the interior angles of a triangle)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.357,
+            0.453,
+            0.48,
+            0.473
+          ],
+          "image_path": "images/page_5_equation_8.jpg",
+          "content": "2 a = 1 8 0 - x"
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.318,
+            0.479,
+            0.517,
+            0.509
+          ],
+          "image_path": "images/page_5_equation_9.jpg",
+          "content": "a = \\frac{(180 - x)}{2} = 90 - \\frac{x}{2}"
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.696,
+            0.306,
+            0.88,
+            0.503
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.696,
+                0.306,
+                0.88,
+                0.503
+              ],
+              "image_path": "images/page_5_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.515,
+            0.696,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, in the isosceles ∆AOD, let the base angles be b."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.398,
+            0.539,
+            0.601,
+            0.559
+          ],
+          "image_path": "images/page_5_equation_12.jpg",
+          "content": "b+b+180-x=180"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.325,
+            0.568,
+            0.514,
+            0.59
+          ],
+          "image_path": "images/page_5_equation_13.jpg",
+          "content": "2b = 180 - (180 - x)"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.331,
+            0.597,
+            0.508,
+            0.619
+          ],
+          "image_path": "images/page_5_equation_14.jpg",
+          "content": "2b = 180 - 180 + x"
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.386,
+            0.627,
+            0.454,
+            0.648
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "2b = \\overline{x}"
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.387,
+            0.664,
+            0.449,
+            0.69
+          ],
+          "image_path": "images/page_5_equation_16.jpg",
+          "content": "\\begin{array} { r } { b = \\frac { X } { 2 }   . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.696,
+            0.661,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "All the angles of the quadrilateral are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b ,"
+            },
+            {
+              "type": "text",
+              "content": " , which is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.347,
+            0.732,
+            0.49,
+            0.759
+          ],
+          "image_path": "images/page_5_equation_18.jpg",
+          "content": "9 0 - { \\frac { x } { 2 } } + { \\frac { x } { 2 } } = 9 0 ."
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.692,
+            0.587,
+            0.88,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.692,
+                0.587,
+                0.88,
+                0.803
+              ],
+              "image_path": "images/page_5_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.111,
+            0.764,
+            0.684,
+            0.811
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, all four angles of the quadrilateral ABCD are 90°. What can we say about AB and CD, and AD and BC?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.15,
+            0.812,
+            0.848,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  AOB  \\cong \\Delta  COD"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta AOD \\cong \\Delta COB"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB} = \\mathrm{CD}_{:}"
+            },
+            {
+              "type": "text",
+              "content": " , and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AD} = \\mathrm{CB}"
+            },
+            {
+              "type": "text",
+              "content": " since they are the corresponding parts of congruent triangles."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.878,
+            0.915,
+            0.912,
+            0.937
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8 7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

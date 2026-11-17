@@ -1,0 +1,225 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.379,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.119,
+            0.885,
+            0.163
+          ],
+          "content": "One way is to visualise the final figure by drawing a rough diagram of it."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.388,
+            0.171,
+            0.676,
+            0.315
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.34,
+            0.593,
+            0.361
+          ],
+          "content": "What can we infer from this figure?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.366,
+            0.564,
+            0.388
+          ],
+          "content": "Can you identify the equal sides?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.393,
+            0.593,
+            0.415
+          ],
+          "content": "Since, the two squares are identical,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.42,
+            0.43,
+            0.441
+          ],
+          "content": "AB = BC and FE = ED"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.446,
+            0.884,
+            0.491
+          ],
+          "content": "Since ABEF and BCDE are squares, all the sides in each of the squares are equal. This is written as —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.495,
+            0.401,
+            0.516
+          ],
+          "content": "AF = AB = BE = FE"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.518,
+            0.403,
+            0.538
+          ],
+          "content": "BE = BC = CD = ED"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.545,
+            0.572,
+            0.567
+          ],
+          "content": "So, all the shorter lines are equal!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.571,
+            0.884,
+            0.617
+          ],
+          "content": "A convention is followed to represent equal sides. It is done by putting a ‘|’ on the line. Refer to the rough figure."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.621,
+            0.885,
+            0.688
+          ],
+          "content": "Using this analysis, can you try constructing it? Remember, all that was asked for is a rectangle that can be divided into two identical squares and with no measurements imposed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.689,
+            0.885,
+            0.736
+          ],
+          "content": "To draw the rectangle ACDF, one could assign any length to AF. For example, if we assign AF = 4 cm, then what must the length of AC be?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.206,
+            0.753,
+            0.735,
+            0.776
+          ],
+          "level": 2,
+          "content": "Explore: Can the rectangle now be completed?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.205,
+            0.789,
+            0.886,
+            0.88
+          ],
+          "content": "In fact, one could proceed by drawing AF without even measuring its length using a ruler. We could then construct a line perpendicular to AF that is long enough to contain the other side. As, AB = AF, we need to somehow transfer the length of AF"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.082,
+            0.941,
+            0.117,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.986
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

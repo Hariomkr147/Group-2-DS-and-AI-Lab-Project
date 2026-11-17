@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.175,
+            0.397,
+            0.877,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.175,
+                0.397,
+                0.877,
+                0.63
+              ],
+              "image_path": "images/page_13_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.167,
+            0.064,
+            0.377,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 6"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.2,
+            0.117,
+            0.518,
+            0.376
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.167,
+                0.121,
+                0.185,
+                0.136
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "c."
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.2,
+                0.117,
+                0.518,
+                0.376
+              ],
+              "image_path": "images/page_13_table_3.jpg",
+              "content": "<table><tbody><tr><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td></tr><tr><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td></tr><tr><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td></tr><tr><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td><td>32</td></tr><tr><td>64</td><td>64</td><td>64</td><td rowspan=\"4\" colspan=\"4\"></td><td>64</td></tr><tr><td>64</td><td>64</td><td>64</td><td>64</td></tr><tr><td>64</td><td>64</td><td>64</td><td>64</td></tr><tr><td>64</td><td>64</td><td>64</td><td>64</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.609,
+            0.118,
+            0.783,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.579,
+                0.119,
+                0.599,
+                0.136
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "d."
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.609,
+                0.118,
+                0.783,
+                0.303
+              ],
+              "image_path": "images/page_13_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.165,
+            0.663,
+            0.882,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.10 An Unsolved Mystery — the Collatz Conjecture!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.164,
+            0.703,
+            0.884,
+            0.748
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Look at the sequences below—the same rule is applied in all the sequences:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.194,
+            0.754,
+            0.497,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "a. 12, 6, 3, 10, 5, 16, 8, 4, 2, 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.194,
+            0.782,
+            0.629,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "b. 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.195,
+            0.81,
+            0.462,
+            0.831
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "c. 21, 64, 32, 16, 8, 4, 2, 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.195,
+            0.837,
+            0.737,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "d. 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.164,
+            0.866,
+            0.667,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you see how these sequences were formed?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.088,
+            0.943,
+            0.112,
+            0.959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "68"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

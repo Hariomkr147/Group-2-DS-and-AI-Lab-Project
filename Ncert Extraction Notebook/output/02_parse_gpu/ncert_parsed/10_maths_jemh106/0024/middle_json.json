@@ -1,0 +1,577 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.105,
+            0.126,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "96"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.783,
+            0.105,
+            0.899,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.124,
+            0.147,
+            0.546,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. In Fig. 6.36, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\mathrm { Q R } } { \\mathrm { Q S } } = \\frac { \\mathrm { Q T } } { \\mathrm { P R } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 1 = \\angle 2"
+            },
+            {
+              "type": "text",
+              "content": " .Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\operatorname { P Q S } \\sim \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " TQR."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.221,
+            0.548,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. S and T are points on sides PR and QR of ∆ PQR such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{P} = \\angle \\mathrm{RTS}"
+            },
+            {
+              "type": "text",
+              "content": " . Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { R P Q } \\sim \\Delta \\mathrm { R T S }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.294,
+            0.546,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. In Fig. 6.37, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\; \\mathrm { A B E } \\cong \\Delta \\; \\mathrm { A C D }"
+            },
+            {
+              "type": "text",
+              "content": " , show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  ADE  \\sim \\Delta  ABC"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.349,
+            0.516,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. In Fig. 6.38, altitudes AD and CE of ∆ ABC intersect each other at the point P. Show that:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.156,
+            0.411,
+            0.328,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  AEP  \\sim \\Delta  CDP"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.157,
+            0.437,
+            0.336,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  ABD  \\sim \\Delta  CBE"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.157,
+            0.463,
+            0.339,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  AEP  \\sim \\Delta  ADB"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.156,
+            0.489,
+            0.338,
+            0.507
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { P D C } \\sim \\Delta \\mathrm { B E C }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.517,
+            0.517,
+            0.571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. E is a point on the side AD produced of a parallelogram ABCD and BE intersects CD at F. Show that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B E } \\sim \\Delta \\mathrm { C F B }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.59,
+            0.515,
+            0.644
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. In Fig. 6.39, ABC and AMP are two right triangles, right angled at B and M respectively. Prove that:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.156,
+            0.649,
+            0.338,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  ABC  \\sim \\Delta  AMP"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.157,
+            0.679,
+            0.295,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\mathrm { C A } } { \\mathrm { P A } }   =   \\frac { \\mathrm { B C } } { \\mathrm { M P } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.114,
+            0.725,
+            0.517,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. CD and GH are respectively the bisectors of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle ACB   and   \\angle EGF"
+            },
+            {
+              "type": "text",
+              "content": " such that D and H lie on sides AB and FE of ∆ ABC and ∆ EFG respectively. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{If} \\Delta \\mathrm{ABC} \\sim \\Delta \\mathrm{FEG}."
+            },
+            {
+              "type": "text",
+              "content": " show that: (i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\mathrm { C D } } { \\mathrm { G H } } = \\frac { \\mathrm { A C } } { \\mathrm { F G } }"
+            },
+            {
+              "type": "text",
+              "content": " (ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  DCB  \\sim \\Delta  HGE"
+            },
+            {
+              "type": "text",
+              "content": " (iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { D C A }   \\sim   \\Delta \\mathrm { H G F }"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.57,
+            0.138,
+            0.899,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.57,
+                0.138,
+                0.899,
+                0.257
+              ],
+              "image_path": "images/page_23_image_15.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 16,
+              "bbox": [
+                0.688,
+                0.26,
+                0.786,
+                0.279
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.598,
+            0.294,
+            0.885,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.598,
+                0.294,
+                0.885,
+                0.477
+              ],
+              "image_path": "images/page_23_image_17.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 18,
+              "bbox": [
+                0.668,
+                0.481,
+                0.768,
+                0.5
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.563,
+            0.515,
+            0.891,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.563,
+                0.515,
+                0.891,
+                0.666
+              ],
+              "image_path": "images/page_23_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.675,
+                0.675,
+                0.774,
+                0.695
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.584,
+            0.707,
+            0.879,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.584,
+                0.707,
+                0.879,
+                0.867
+              ],
+              "image_path": "images/page_23_image_21.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 22,
+              "bbox": [
+                0.688,
+                0.873,
+                0.785,
+                0.892
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.436,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

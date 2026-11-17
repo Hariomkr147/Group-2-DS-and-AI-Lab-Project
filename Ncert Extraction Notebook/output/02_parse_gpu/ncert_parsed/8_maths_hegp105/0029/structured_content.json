@@ -1,0 +1,175 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "table",
+          "bbox": [
+            0.21,
+            0.087,
+            0.759,
+            0.415
+          ],
+          "content": "<table><tbody><tr><td rowspan=\"2\">Number</td><td colspan=\"9\">Divisible by</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>8</td><td>9</td><td>10</td><td>11</td></tr><tr><td>128</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>990</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>1586</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr><tr><td>275</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>6686</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr><tr><td>639210</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td>429714</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>Yes</td><td>No</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>2856</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr><tr><td>3060</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td></tr><tr><td>406839</td><td>No</td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td><td>No</td></tr></tbody></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.153,
+                0.432,
+                0.287,
+                0.452
+              ],
+              "content": "Page No. 130"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_table_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.467,
+            0.846,
+            0.508
+          ],
+          "content": "？ What property do you think this digital root will have? Recall that we did this while finding the divisibility shortcut for 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.517,
+            0.847,
+            0.578
+          ],
+          "content": "**Ans.** If a number is divided by 9 then the digital root of the dividend is the remainder. If the number is exactly divisible by 9 then its digital root will be 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.58,
+            0.845,
+            0.622
+          ],
+          "content": "Between the numbers 600 and 700, which numbers have the digital root: (i) 5, (ii) 7, (iii) 3?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.628,
+            0.205,
+            0.645
+          ],
+          "content": "**Ans.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.214,
+            0.645,
+            0.847,
+            0.684
+          ],
+          "content": "(i) Digital root 5, from 600 to 700 are (Sum of digits are 5(1 + 4 or 2 + 3)) 608, 617, 626, 635, 644, 653, 662, 671, 680, 689, 698."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.687,
+            0.846,
+            0.726
+          ],
+          "content": "(ii) Digital root 7, Sum of digits are 7, 16 (0 + 7, 1 + 6) 601, 610, 619, 628, 637, 646, 655, 664, 673, 682, 691"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.73,
+            0.845,
+            0.769
+          ],
+          "content": "(iii) Digital root 3, sum of digits (3 means 12, 21) 606, 615, 624, 633, 642, 651, 660, 669, 678, 687, 696"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.776,
+            0.846,
+            0.817
+          ],
+          "content": "？ Now, find the digital roots of some consecutive multiples of (i) 3, (ii) 4, and (iii) 6."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.824,
+            0.205,
+            0.842
+          ],
+          "level": 2,
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.847,
+            0.574,
+            0.869
+          ],
+          "content": "(i) Digital roots → 3, 6, 9; 3, 6, 9; ......"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.917,
+            0.881,
+            0.936
+          ],
+          "content": "5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

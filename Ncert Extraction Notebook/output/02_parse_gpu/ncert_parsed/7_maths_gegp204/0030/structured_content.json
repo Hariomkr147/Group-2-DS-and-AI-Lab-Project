@@ -1,0 +1,146 @@
+{
+  "pages": [
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.079,
+            0.83,
+            0.155
+          ],
+          "content": "In Hidato, a grid of cells is given. It is usually square-shaped, like Sudoku or Kakuro, but it can also include hexagons or any shape that forms a tessellation. It can have inner holes (like a disc), but it is made of only one piece."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.156,
+            0.829,
+            0.193
+          ],
+          "content": "Usually, in every Hidato puzzle the lowest and the highest numbers are given on the grid."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.194,
+            0.83,
+            0.27
+          ],
+          "content": "Your task is to fill the grid such that there is a continuous path of consecutive numbers from the lowest to the highest number. The next number must be in any one of the adjacent cells, including diagonally adjacent cells."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.271,
+            0.83,
+            0.326
+          ],
+          "content": "The grid comes pre-filled with some numbers (with values between the smallest and the highest) to ensure that these puzzles have a single solution."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.193,
+            0.328,
+            0.592,
+            0.348
+          ],
+          "content": "Try solving the following Hidato puzzles."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.235,
+            0.377,
+            0.433,
+            0.512
+          ],
+          "content": "| 25 |  | 1 |  |  |\n| --- | --- | --- | --- | --- |\n|  | 20 |  |  | 4 |\n|  | 14 |  | 8 |  |\n|  |  | 15 |  | 9 |\n|  |  |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_table_5.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.51,
+            0.349,
+            0.791,
+            0.538
+          ],
+          "content": "|  | 36 | 1 | 2 |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 4 | 6 | 13 |  |\n|  |  | 34 |  |  | 12 |  |\n| 39 |  |  | 30 |  |  |  |\n|  |  | 31 |  |  |  |  |\n|  |  |  |  |  | 17 |  |\n|  | 26 |  | 23 | 21 |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_table_6.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.273,
+            0.564,
+            0.672,
+            0.834
+          ],
+          "content": "<table><tr><td rowspan=7 colspan=4></td><td rowspan=2></td><td rowspan=2>9</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=6 colspan=4>[|.</td></tr><tr><td>7</td><td>10</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td>1</td><td>17</td><td>15</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>44</td><td></td><td>49</td><td></td><td></td><td>28</td><td></td><td></td></tr><tr><td></td><td>54</td><td>42</td><td></td><td>50</td><td></td><td>29</td><td>26</td><td></td><td></td></tr><tr><td>56</td><td></td><td></td><td></td><td></td><td>35</td><td>34</td><td>25</td><td>23</td><td></td></tr><tr><td rowspan=2 colspan=4></td><td></td><td></td><td rowspan=2 colspan=4></td></tr><tr><td>39</td><td></td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_table_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.156,
+            0.838,
+            0.844,
+            0.96
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_image_8.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 29,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,55 @@
+![](images/page_14_image_1.jpg)
+
+## Snapshots
+
+Pressure is defined as force per unit area.
+
+The SI unit of pressure is newton/metre2 (N/m2) and is also called pascal denoted by Pa.
+
+Liquids and gases exert pressure on the walls of a container.
+
+The pressure exerted by the air around us is known as atmospheric pressure.
+
+Differences in air pressure cause winds to blow.
+
+ Warm air rises, creating a low-pressure area. Cooler air from surrounding higher-pressure regions moves in to take its place.
+
+ Important requirements for the formation of thunderstorms are moisture and strong winds.
+
+Strong winds moving upwards and downwards facilitate rubbing of ice particles with water droplets, causing electric charges to develop in clouds.
+
+ Collision of electric charges within a clouds, or between clouds, or between a cloud and the ground causes lightning.
+
+Lightning strikes can cause destruction to life and property.
+
+ Lightning conductors protect buildings from the effects of lightning.
+
+The India Meteorological Department (IMD) constantly monitors cyclones and thunderstorms in India.
+
+## Keep the curiosity alive
+
+## 1. Choose the correct statement.
+
+![](images/page_14_image_17.jpg)
+
+Fig. 6.21
+
+(i) Look at Fig. 6.21 carefully. Vessel R is filled with water. When pouring of water is stopped, the level of water will be
+
+(a) the highest in vessel P
+
+(b) the highest in vessel Q
+
+(c) the highest in vessel R
+
+(d) equal in all three vessels
+
+(ii) A rubber sucker (M) is pressed on a flat smooth surface and an identical sucker (N) is pressed on a rough surface:
+
+(a) Both M and N will stick to their surfaces.
+
+(b) Both M and N will not stick to their surfaces.
+
+(c) M will stick but N will not stick.
+
+(d) M will not stick but N will stick.

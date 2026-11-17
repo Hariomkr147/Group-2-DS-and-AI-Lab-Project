@@ -1,0 +1,331 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.319,
+            0.121
+          ],
+          "content": "ARITHMETIC PROGRESSIONS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.873,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "61"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.899,
+            0.177
+          ],
+          "content": "It is an AP as the difference between the consecutive terms in the list is 80, i.e., d = 80. Also, $a = 8 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.186,
+            0.698,
+            0.206
+          ],
+          "content": "$\\mathrm { S o } ,$ to find the interest at the end of 30 years, we shall find $a _ { 3 0 ^ { \\circ } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.215,
+            0.155,
+            0.233
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.312,
+            0.214,
+            0.732,
+            0.235
+          ],
+          "content": "a_{30}=a+(30-1)d=80+29\\times80=2400",
+          "image_source": "images/page_12_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.242,
+            0.602,
+            0.262
+          ],
+          "content": "$\\mathrm { S o } ,$ the interest at the end of 30 years will be \\` 2400."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.275,
+            0.902,
+            0.336
+          ],
+          "content": "**Example 10 :** In a flower bed, there are 23 rose plants in the first row, 21 in the second, 19 in the third, and so on. There are 5 rose plants in the last row. How many rows are there in the flower bed?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.343,
+            0.791,
+            0.362
+          ],
+          "content": "**Solution :** The number of rose plants in the 1st, 2nd, 3rd, . . ., rows are :"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.415,
+            0.369,
+            0.584,
+            0.388
+          ],
+          "content": "2 3 , 2 1 , 1 9 , \\ldots , 5",
+          "image_source": "images/page_12_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.395,
+            0.783,
+            0.415
+          ],
+          "content": "It forms an AP (Why?). Let the number of rows in the flower bed be n."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.422,
+            0.155,
+            0.439
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.215,
+            0.422,
+            0.575,
+            0.441
+          ],
+          "content": "a = 23, \\quad d = 21 - 23 = -2, \\quad a_{n} = 5",
+          "image_source": "images/page_12_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.449,
+            0.138,
+            0.466
+          ],
+          "content": "As,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.449,
+            0.498,
+            0.468
+          ],
+          "content": "a_{n} = a + (n - 1)   d",
+          "image_source": "images/page_12_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.474,
+            0.194,
+            0.493
+          ],
+          "content": "We have,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.475,
+            0.531,
+            0.493
+          ],
+          "content": "5 = 23 + (n - 1)( - 2)",
+          "image_source": "images/page_12_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.502,
+            0.139,
+            0.519
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.288,
+            0.501,
+            0.481,
+            0.519
+          ],
+          "content": "-18 = (n - 1)(-2)",
+          "image_source": "images/page_12_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.528,
+            0.139,
+            0.545
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.528,
+            0.394,
+            0.545
+          ],
+          "content": "n = \\: 1 0",
+          "image_source": "images/page_12_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.553,
+            0.481,
+            0.572
+          ],
+          "content": "So, there are 10 rows in the flower bed."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.298,
+            0.573,
+            0.368,
+            0.616
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_22.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.409,
+            0.599,
+            0.589,
+            0.618
+          ],
+          "level": 2,
+          "content": "EXERCISE 5.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.629,
+            0.899,
+            0.665
+          ],
+          "content": "**1.** Fill in the blanks in the following table, given that a is the first term, d the common difference and $a _ { n }$ the nth term of the AP:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.178,
+            0.681,
+            0.739,
+            0.874
+          ],
+          "content": "|  | a | d | n | a<sub>n</sub> |\n| --- | --- | --- | --- | --- |\n| (i) | 7 | 3 | 8 | . . . |\n| (ii) | - 18 | . . . | 10 | 0 |\n| (iii) | . . . | - 3 | 18 | - 5 |\n| (iv) | - 18.9 | 2.5 | . . . | 3.6 |\n| (v) | 3.5 | 0 | 105 | . . . |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_25.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "A Tale of Three Intersecting Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.605,
+            0.107
+          ],
+          "content": "Does everything look right with this triangle?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.107,
+            0.848,
+            0.162
+          ],
+          "content": "If this triangle were possible, then the direct path between any two vertices should be shorter than the roundabout path via the third vertex. Is this true for our rough diagram?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.162,
+            0.603,
+            0.181
+          ],
+          "content": "Let us consider the paths between B and C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.186,
+            0.492,
+            0.206
+          ],
+          "content": "Direct path length = BC = 10 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.211,
+            0.847,
+            0.25
+          ],
+          "content": "What is the length of the roundabout path via the vertex A? It is the sum of the lengths of line segments BA and AC."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.254,
+            0.764,
+            0.274
+          ],
+          "content": "Roundabout path length = BA + AC = 15 cm + 30 cm = 45 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.279,
+            0.846,
+            0.317
+          ],
+          "content": "Is the direct path length shorter than the roundabout path length? Yes. Let us now consider the paths between A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.322,
+            0.493,
+            0.342
+          ],
+          "content": "Direct path length = AB = 15 cm"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.346,
+            0.832,
+            0.367
+          ],
+          "content": "Finding the length of the roundabout path via the vertex C, we get"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.371,
+            0.763,
+            0.391
+          ],
+          "content": "Roundabout path length = AC + CB = 30 cm + 10 cm = 40 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.395,
+            0.846,
+            0.435
+          ],
+          "content": "Is the direct path length shorter than the roundabout path length? Yes. Finally, consider paths between C and A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.439,
+            0.492,
+            0.459
+          ],
+          "content": "Direct path length = CA = 30 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.464,
+            0.762,
+            0.484
+          ],
+          "content": "Roundabout path length = CB + BA = 10 cm + 15 cm = 25 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.489,
+            0.847,
+            0.544
+          ],
+          "content": "Is the direct path length shorter than the roundabout path length? In this case, the direct path is longer, which is absurd. Can such a triangle exist? No."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.544,
+            0.847,
+            0.581
+          ],
+          "content": "Therefore, a triangle having sidelengths 10 cm, 15 cm and 30 cm cannot exist."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.581,
+            0.848,
+            0.637
+          ],
+          "content": "We are thus able to see without construction why a triangle for the set of lengths 10 cm, 15 cm and 30 cm cannot exist. We have been able to figure this out through spatial intuition and reasoning."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.637,
+            0.848,
+            0.694
+          ],
+          "content": "Recall how we used similar intuition and reasoning to discover properties of intersecting and parallel lines. We will continue to do this as we explore geometry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.701,
+            0.847,
+            0.723
+          ],
+          "content": "？ Can we say anything about the existence of a triangle having sidelengths"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.722,
+            0.727,
+            0.742
+          ],
+          "content": "3 cm, 3 cm and 7 cm? Verify your answer by construction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.761,
+            0.73,
+            0.839
+          ],
+          "content": "? “In the rough diagram in Fig. 7.4, is it possible to assign lengths in a different order such that the direct paths are always coming out to be shorter than the roundabout paths? If this is possible, then a triangle might exist.”"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.844,
+            0.724,
+            0.869
+          ],
+          "content": "? Is such rearrangement of lengths possible in the triangle?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.738,
+            0.722,
+            0.896,
+            0.887
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_23.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": "153"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

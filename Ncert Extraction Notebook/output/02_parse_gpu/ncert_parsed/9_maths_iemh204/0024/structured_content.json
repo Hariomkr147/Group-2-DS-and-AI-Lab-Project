@@ -1,0 +1,166 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": "74"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.493,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.136,
+            0.118,
+            0.504,
+            0.143
+          ],
+          "level": 2,
+          "content": "A Cutting-edge Discovery"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.154,
+            0.615,
+            0.232
+          ],
+          "content": "The following shape— the first of its kind!— that leads to aperiodic tilings was discovered only recently in 2023 by a team of four mathematicians (Smith, Myers, Kaplan and Goodman-Strauss)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.234,
+            0.616,
+            0.35
+          ],
+          "content": "Cut out 15 identical copies of the following shape (known as the ‘hat’) and start to tile with it. Do you see any pattern? You will find that the hat shape will tile the plane endlessly, but without ever quite repeating the same pattern. That is why it is called an ‘aperiodic’ tiling."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.638,
+            0.189,
+            0.86,
+            0.308
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_5.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.366,
+            0.418,
+            0.631,
+            0.446
+          ],
+          "level": 2,
+          "content": "Exercise Set 12.4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.472,
+            0.882,
+            0.57
+          ],
+          "content": "1. Justify why the plane cannot be tiled with a regular pentagon. (**Hint:** Read the first 3 sentences of ‘Think and Reflect’ in the section on tiling.) (There are many ways to tile the plane using a suitable irregular pentagon. The most recent method was found in 2015.)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.14,
+            0.573,
+            0.409,
+            0.697
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.149,
+            0.71,
+            0.411,
+            0.868
+          ],
+          "content": "\\begin{aligned} A  &= 60^{\\circ} \\\\ B  &= 135^{\\circ} \\\\ C  &= 105^{\\circ} \\\\ D  &= 90^{\\circ} \\\\ E  &= 150^{\\circ}\\end{aligned}\\quad\\begin{aligned}a &= 1 \\\\b &= \\frac{1}{2} \\\\c &= \\frac{1}{\\sqrt{2}(\\sqrt{3}-1)} \\\\d &= \\frac{1}{2} \\\\e &= \\frac{1}{2}\\end{aligned}",
+          "image_source": "images/page_23_equation_9.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.435,
+            0.603,
+            0.895,
+            0.842
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_10.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

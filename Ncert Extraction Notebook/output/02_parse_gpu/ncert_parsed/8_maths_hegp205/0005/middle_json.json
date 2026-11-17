@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.669,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Tales by Dots and Lines"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.847,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The mean of the new collection also increases by 10. Notice that the relative position of the mean stays the same."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 2,
+          "bbox": [
+            0.219,
+            0.13,
+            0.79,
+            0.221
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 2,
+              "bbox": [
+                0.219,
+                0.13,
+                0.79,
+                0.221
+              ],
+              "image_path": "images/page_4_chart_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.244,
+            0.727,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We get the following dot plot if we reduce every value by 1."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 4,
+          "bbox": [
+            0.222,
+            0.267,
+            0.789,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 4,
+              "bbox": [
+                0.222,
+                0.267,
+                0.789,
+                0.357
+              ],
+              "image_path": "images/page_4_chart_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.37,
+            0.53,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can be explained using algebra —"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.389,
+            0.845,
+            0.429
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose there are n values in the collection. Let these values be represented by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X _ { 1 } , X _ { 2 } , X _ { 3 } , \\ldots X _ { n } ."
+            },
+            {
+              "type": "text",
+              "content": " Their average is given by —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.392,
+            0.432,
+            0.608,
+            0.462
+          ],
+          "image_path": "images/page_4_equation_7.jpg",
+          "content": "\\frac{X_{1}+X_{2}+X_{3}+\\cdots+X_{n}}{n}=a."
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.464,
+            0.845,
+            0.502
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When a fixed number, for example, 3 is added to every value in the collection, the new average becomes —"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.311,
+            0.503,
+            0.664,
+            0.627
+          ],
+          "image_path": "images/page_4_equation_9.jpg",
+          "content": "\\frac{\\overbrace{x_{1}+3)_{+}(x_{2}+3)_{+}(x_{3}+3)_{+}\\cdots+(x_{n}+3)}^{n}}{n}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.632,
+            0.772,
+            0.653
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, the new average is 3 more than the previous average."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.11,
+            0.654,
+            0.808,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try to explain, using algebra, what the average is when a fixed number, e.g., 2 is subtracted from every value in the collection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.109,
+            0.7,
+            0.808,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try to explain this using the fair-share interpretation of average that you learnt last year."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.82,
+            0.652,
+            0.924,
+            0.763
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.82,
+                0.652,
+                0.924,
+                0.763
+              ],
+              "image_path": "images/page_4_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.112,
+            0.755,
+            0.808,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ What happens to the average if every value in the collection is doubled?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.798,
+            0.847,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You may have guessed that the average also doubles. The following is an example with the data we saw earlier —"
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 16,
+          "bbox": [
+            0.221,
+            0.84,
+            0.792,
+            0.939
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 16,
+              "bbox": [
+                0.221,
+                0.84,
+                0.792,
+                0.939
+              ],
+              "image_path": "images/page_4_chart_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.869,
+            0.912,
+            0.919,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "107"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Describing Motion Around Us"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.856,
+            0.018,
+            0.953,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 61"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.109,
+            0.088,
+            0.401,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.2.3 Velocity-time graphs"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.107,
+            0.111,
+            0.776,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The velocity-time graph of an object in motion represents the change in its velocity with time. In a manner similar to the position-time graph, you can plot velocity-time graphs following the steps of Activity 4.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.108,
+            0.166,
+            0.51,
+            0.251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us take the example of a car moving in the same direction on a straight stretch of a highway at a steady velocity of 72 km "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { h } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 0 \\; \\mathrm { { m } \\; s ^ { - 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " The velocity-time graph corresponding to it is shown in Fig. 4.17a."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.108,
+            0.253,
+            0.509,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider another car that starts moving from rest and its velocity increases with time as shown in Table 4.5. The velocity-time graph plotted for this case is shown in Fig. 4.17b."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.108,
+            0.341,
+            0.509,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider yet another car moving with a velocity of 15.0 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " . Its velocity decreases with time as shown in Table 4.6 and its velocity-time graph is shown in Fig. 4.17c."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 9,
+          "bbox": [
+            0.517,
+            0.211,
+            0.727,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.519,
+                0.178,
+                0.703,
+                0.21
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 4.5: Increasing velocity"
+                }
+              ]
+            },
+            {
+              "type": "table_caption",
+              "index": 8,
+              "bbox": [
+                0.742,
+                0.178,
+                0.929,
+                0.21
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 4.6: Decreasing velocity"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 9,
+              "bbox": [
+                0.517,
+                0.211,
+                0.727,
+                0.406
+              ],
+              "image_path": "images/page_13_table_9.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Time</td><td rowspan=\"2\">Velocity of car</td></tr><tr></tr><tr><td>0 s</td><td>0 m s<sup>-1</sup></td></tr><tr><td>5 s</td><td>2.5 m s<sup>-1</sup></td></tr><tr><td>10 s</td><td>5.0 m s<sup>-1</sup></td></tr><tr><td>15 s</td><td>7.5 m s<sup>-1</sup></td></tr><tr><td>20 s</td><td>10.0 m s<sup>-1</sup></td></tr><tr><td>25 s</td><td>12.5 m s<sup>-1</sup></td></tr><tr><td rowspan=\"2\">30 s</td><td rowspan=\"2\">15.0 m s<sup>-1</sup></td></tr><tr></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 10,
+          "bbox": [
+            0.741,
+            0.211,
+            0.953,
+            0.405
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 10,
+              "bbox": [
+                0.741,
+                0.211,
+                0.953,
+                0.405
+              ],
+              "image_path": "images/page_13_table_10.jpg",
+              "content": "<table><tbody><tr><td>Time</td><td>Velocity of car</td></tr><tr><td>0 s</td><td>15.0 m s<sup>-1</sup></td></tr><tr><td>5 s</td><td>12.5 m s<sup>-1</sup></td></tr><tr><td>10 s</td><td>10.0 m s<sup>-1</sup></td></tr><tr><td>15 s</td><td>7.5 m s<sup>-1</sup></td></tr><tr><td>20 s</td><td>5.0 m s<sup>-1</sup></td></tr><tr><td>25 s</td><td>2.5 m s<sup>-1</sup></td></tr><tr><td>30 s</td><td>0 m s<sup>-1</sup></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.108,
+            0.417,
+            0.775,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What does the shape of the velocity-time graph indicate about the nature of motion?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "chart",
+          "index": 12,
+          "bbox": [
+            0.115,
+            0.457,
+            0.391,
+            0.759
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 12,
+              "bbox": [
+                0.115,
+                0.457,
+                0.391,
+                0.759
+              ],
+              "image_path": "images/page_13_chart_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 13,
+          "bbox": [
+            0.391,
+            0.464,
+            0.669,
+            0.766
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 13,
+              "bbox": [
+                0.391,
+                0.464,
+                0.669,
+                0.766
+              ],
+              "image_path": "images/page_13_chart_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 14,
+          "bbox": [
+            0.671,
+            0.466,
+            0.948,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 14,
+              "bbox": [
+                0.671,
+                0.466,
+                0.948,
+                0.765
+              ],
+              "image_path": "images/page_13_chart_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "chart_caption",
+              "index": 15,
+              "bbox": [
+                0.351,
+                0.772,
+                0.681,
+                0.789
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.17: Velocity-time graph of a moving car"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.107,
+            0.792,
+            0.778,
+            0.913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the velocity of the car is constant, the velocity-time graph is a straight line parallel to the X-axis (Fig. 4.17a) and acceleration is zero. A straight line velocity-time graph as shown in Fig. 4.17b indicates that the velocity is increasing with a constant acceleration (in the direction of velocity). Whereas, a straight line velocity-time graph as shown in Fig. 4.17c indicates that the velocity is decreasing with a constant acceleration (opposite to the direction of velocity)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

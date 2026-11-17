@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.087,
+            0.848,
+            0.145
+          ],
+          "content": "？ What could be the difficulties with using a number system that counts only in groups of a single particular size? How would you represent a number like 1345 in a system that counts only by 5s?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.148,
+            0.849,
+            0.224
+          ],
+          "content": "Even though counting in groups of a particular size and using it for number representation is more efficient than the tally system, this method can still become cumbersome for larger numbers. The next system shows a refinement of this idea."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.238,
+            0.454,
+            0.259
+          ],
+          "level": 2,
+          "content": "IV. The Roman Numerals"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.278,
+            0.275,
+            0.725,
+            0.487
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.501,
+            0.846,
+            0.538
+          ],
+          "content": "We have already seen the Roman number system till 20 (Table 1). We have seen that it uses I for 1, V for 5, X for 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.537,
+            0.847,
+            0.613
+          ],
+          "content": "To get the Roman numeral for any number till 39, it is first grouped into as many 10s as possible, the remaining is grouped into as many 5s as possible, and finally the remaining is grouped into 1s. **Example:** Let us take the number 27."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.387,
+            0.616,
+            0.608,
+            0.635
+          ],
+          "content": "27 = 10 + 10 + 5 + 1 + 1",
+          "image_source": "images/page_10_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.641,
+            0.497,
+            0.66
+          ],
+          "content": "So, 27 in Roman numerals is XXVII."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.66,
+            0.848,
+            0.752
+          ],
+          "content": "Instead of representing 50 as XXXXX, a new symbol is given to it: L. Following the way the number 4 is represented as 1 less than 5 — that is, as IV — 40 is represented as 10 less than 50 — that is, as XL. However, people using this system were not always consistent with this practice. Sometimes, 40 was also represented as XXXX."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.752,
+            0.848,
+            0.827
+          ],
+          "content": "The Roman number system introduces newer symbols to represent certain bigger numbers. Let us call all these numbers that have a new basic symbol as **landmark numbers**. Here are some of the landmark numbers of the Roman system and their associated numerals."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.233,
+            0.842,
+            0.765,
+            0.914
+          ],
+          "content": "| I | V | X | L | C | D | M |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | 5 | 10 | 50 | 100 | 500 | 1,000 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_table_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": "58"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

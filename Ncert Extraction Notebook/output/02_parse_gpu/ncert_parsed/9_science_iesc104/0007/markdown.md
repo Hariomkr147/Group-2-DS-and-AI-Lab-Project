@@ -1,0 +1,43 @@
+![](images/page_6_image_0.jpg)
+
+## Threads of Curiosity
+
+The reading of the speedometer of a vehicle is nearly (but not exactly) the same as the magnitude of the velocity at an instant while the direction of tyres gives the direction of velocity at that instant.
+
+The average velocity of an object over a large time interval may differ from its velocity at a particular instant. Throughout this chapter, we will use the term ‘velocity’ to mean the velocity of an object at a particular instant.
+
+![](images/page_6_image_4.jpg)
+
+## Ready to Go Beyond
+
+What we simply called ‘velocity at an instant’ is known as ‘instantaneous velocity’. As the time interval around an instant is made progressively smaller (Eqn. 4.2b), the change in average velocity gets smaller and smaller. When the time interval becomes infinitesimally small, the average value of velocity approaches a fixed value called the Next instantaneous velocity. You will learn more about this physical Level Up quantity in higher grades.
+
+![](images/page_6_image_7.jpg)
+
+The velocity of an object can be constant or it can change with time. How can we express the change in velocity of an object?
+
+## 4.1.4 Average acceleration
+
+When you sit in a vehicle and it suddenly moves from rest, you feel a noticeable jolt. Similarly, when the vehicle is in motion and suddenly stops, you experience a jolt. These occurrences capture the feeling of the change in velocity. You can find the change in velocity if you know the velocity at two different instants of time.
+
+Let us now learn another physical quantity, the average acceleration. The **average acceleration** of an object over a time interval is the change in its velocity divided by the time interval. That is,
+
+$$
+\mathrm{average acceleration} = \frac{\mathrm{change~in~velocity}}{\mathrm{time interval}}\tag{4.3a}
+$$
+
+$$
+average acceleration  = \frac{ final velocity - initial velocity }{ time interval }\tag{4.3b}
+$$
+
+If the velocity of an object changes from an initial value u at time $t _ { 1 }$ to the final value v at time $t_{2},$ the average acceleration a is,
+
+$$
+a = \frac { \nu - u } { t _ { _ 2 } - t _ { _ 1 } }\tag{4.3c}
+$$
+
+The **SI unit of average acceleration** is m $\mathbb { S } ^ { - 2 }$ or $\mathrm { m / s ^ { 2 } }$ . Like displacement and velocity, we need to specify the magnitude as well as the direction of acceleration. For motion in a straight line, if the magnitude of velocity is increasing in a given time interval, the average acceleration is in the direction of velocity (Fig. 4.8). Whereas, the average acceleration is opposite to the direction of velocity if the magnitude of velocity is decreasing.
+
+![](images/page_6_image_17.jpg)
+
+Fig. 4.8: Direction of average acceleration when magnitude of velocity is (a) increasing, and (b) decreasing

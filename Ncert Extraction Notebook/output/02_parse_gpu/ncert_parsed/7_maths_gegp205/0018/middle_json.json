@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.092,
+            0.426,
+            0.116
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3 Visualising Data"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.12,
+            0.847,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can often understand data more clearly if it is presented as a picture. This is called "
+            },
+            {
+              "type": "text",
+              "content": "data visualisation",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Last year, we saw how to visualise data using graphs. Let us explore visualisation further."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.196,
+            0.424,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Clubbing the Columns"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.155,
+            0.248,
+            0.843,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 0,
+              "bbox": [
+                0.41,
+                0.648,
+                0.644,
+                0.663
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Monthly onion prices in Wahapur"
+                }
+              ]
+            },
+            {
+              "type": "table_caption",
+              "index": 5,
+              "bbox": [
+                0.153,
+                0.222,
+                0.846,
+                0.243
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Earlier, we looked at the monthly onion prices in Yahapur and Wahapur."
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.155,
+                0.248,
+                0.843,
+                0.321
+              ],
+              "image_path": "images/page_17_table_6.jpg",
+              "content": "<table><tbody><tr><td></td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td><td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td></tr><tr><td>Yahapur</td><td>25</td><td>24</td><td>26</td><td>28</td><td>30</td><td>35</td><td>39</td><td>43</td><td>49</td><td>56</td><td>59</td><td>44</td></tr><tr><td>Wahapur</td><td>19</td><td>17</td><td>23</td><td>30</td><td>38</td><td>35</td><td>42</td><td>39</td><td>53</td><td>60</td><td>52</td><td>42</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.176,
+            0.343,
+            0.659,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two column graphs for this data are given below."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 8,
+          "bbox": [
+            0.24,
+            0.373,
+            0.781,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 8,
+              "bbox": [
+                0.24,
+                0.373,
+                0.781,
+                0.63
+              ],
+              "image_path": "images/page_17_chart_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 9,
+          "bbox": [
+            0.239,
+            0.657,
+            0.773,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 9,
+              "bbox": [
+                0.239,
+                0.657,
+                0.773,
+                0.896
+              ],
+              "image_path": "images/page_17_chart_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "114"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

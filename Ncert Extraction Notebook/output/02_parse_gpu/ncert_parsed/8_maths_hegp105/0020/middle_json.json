@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.753,
+            0.046,
+            0.862,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.087,
+            0.848,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Aryabhata II’s (c. 950 CE) work Mahāsiddhānta, mentions the method of computing the digital root of a number by repeatedly adding the digits till a single-digit number is obtained. This method is known to have been used to perform checks on calculations of arithmetic operations."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.114,
+            0.172,
+            0.293,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.196,
+            0.847,
+            0.235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. The digital root of an 8-digit number is 5. What will be the digital root of 10 more than that number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.245,
+            0.849,
+            0.302
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Write any number. Generate a sequence of numbers by repeatedly adding 11. What would be the digital roots of this sequence of numbers? Share your observations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.311,
+            0.746,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. What will be the digital root of the number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9a + 36b + 13?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.342,
+            0.802,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Make conjectures by examining if there are any patterns or relations between"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.197,
+            0.379,
+            0.661,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the parity of a number and its digital root."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.192,
+            0.401,
+            0.801,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the digital root of a number and the remainder obtained when the number is divided by 3 or 9."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.807,
+            0.307,
+            0.906,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.807,
+                0.307,
+                0.906,
+                0.436
+              ],
+              "image_path": "images/page_19_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.469,
+            0.439,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.3 Digits in Disguise"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.149,
+            0.503,
+            0.849,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Last year, we saw cryptarithms—puzzles where each letter stands for a digit, each digit is represented by at most one letter, and the first digit of a number is never 0."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.569,
+            0.503,
+            0.592
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Solve the cryptarithms given below."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "table",
+          "index": 13,
+          "bbox": [
+            0.221,
+            0.594,
+            0.749,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 13,
+              "bbox": [
+                0.221,
+                0.594,
+                0.749,
+                0.668
+              ],
+              "image_path": "images/page_19_table_13.jpg",
+              "content": "<table><tr><td><eq>\\frac { \\mathrm { ~ \\scriptsize ~ \\mathrm { ~ A 1 ~ } ~ } } { \\mathrm { ~ \\scriptsize ~ \\mathrm { ~ A B ~ } ~ } }</eq> (i) (ii)</td><td><eq>\\frac{\\frac{ AB }{1 + 37}}{6A}</eq> (iii)</td><td><eq>\\frac { \\begin{array} { c } { \\mathrm { O N } } \\\\ { \\mathrm { O N } } \\\\ { \\mathrm { O N } } \\end{array} } { \\begin{array} { c } { \\mathrm { P O } } \\end{array} }</eq> QR QR (iv) <eq>\\frac { \\mathrm { ~  ~ { ~ + ~ }  { Q \\mathrm { R } } ~ } } { \\mathrm { P R R } }</eq></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.671,
+            0.802,
+            0.692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us now try solving some cryptarithms involving multiplication."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.112,
+            0.705,
+            0.303,
+            0.727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(v) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQ \\times 8 = RS,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.149,
+            0.731,
+            0.667,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Guna says, “Oh, this means a 2-digit number multiplied by 8 should give another 2-digit number. I know that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "10 \\times 8 = 80"
+            },
+            {
+              "type": "text",
+              "content": " . But the units digits of 10 and 80 are the same, which we don’t want. For the same reason PQ cannot be 11 as P and Q correspond to different digits. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 \\times 8 = 9 6"
+            },
+            {
+              "type": "text",
+              "content": " fits all the conditions”. Can PQ be 13? Think."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.676,
+            0.723,
+            0.893,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.676,
+                0.723,
+                0.893,
+                0.857
+              ],
+              "image_path": "images/page_19_image_18.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.86,
+            0.779,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is not possible because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 3 \\times 8 = 1 0 4 ."
+            },
+            {
+              "type": "text",
+              "content": " . For all 2-digit numbers greater than 12, the product with 8 is a 3-digit number."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.874,
+            0.915,
+            0.918,
+            0.937
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "131"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,286 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "80"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.147,
+            0.902,
+            0.204
+          ],
+          "content": "**Theorem 6.1 :** If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.211,
+            0.593,
+            0.269
+          ],
+          "content": "**Proof :** We are given a triangle ABC in which a line parallel to side BC intersects other two sides AB and AC at D and E respectively (see Fig. 6.10)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.282,
+            0.432,
+            0.323
+          ],
+          "content": "We need to prove that $\\frac { \\mathrm { A D } } { \\mathrm { D B } }   =   \\frac { \\mathrm { A E } } { \\mathrm { E C } }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.588,
+            0.203,
+            0.898,
+            0.342
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.332,
+            0.592,
+            0.369
+          ],
+          "content": "Let us join BE and CD and then draw $\\mathrm { D M } \\bot \\mathrm { A C }$ and $\\mathrm { E N } \\perp \\mathrm { A B }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.693,
+            0.349,
+            0.792,
+            0.367
+          ],
+          "content": "Fig. 6.10"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.384,
+            0.658,
+            0.426
+          ],
+          "content": "Now, area of $\\Delta \\mathrm { A D E } ( = { \\frac { 1 } { 2 } } \\mathrm { b a s e } \\times \\mathrm { h e i g h t } ) = { \\frac { 1 } { 2 } } \\mathrm { A D } \\times \\mathrm { E N } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.434,
+            0.732,
+            0.453
+          ],
+          "content": "Recall from Class IX, that area of $\\Delta   \\mathrm { A D E }$ is denoted as ar(ADE)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.479,
+            0.135,
+            0.497
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.276,
+            0.466,
+            0.523,
+            0.507
+          ],
+          "content": "\\mathrm{ar}(\\mathrm{ADE}) = \\frac{1}{2} \\mathrm{AD} \\times \\mathrm{EN}",
+          "image_source": "images/page_7_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.536,
+            0.188,
+            0.556
+          ],
+          "content": "Similarly,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.278,
+            0.522,
+            0.527,
+            0.567
+          ],
+          "content": "\\mathrm{ar}(\\mathrm{BDE}) = \\frac{1}{2} \\mathrm{DB} \\times \\mathrm{EN},",
+          "image_source": "images/page_7_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.275,
+            0.578,
+            0.826,
+            0.622
+          ],
+          "content": "\\mathrm{ar}(\\mathrm{ADE})=\\frac{1}{2}\\mathrm{AE}\\times\\mathrm{DM}\\ \\mathrm{and}\\ \\mathrm{ar}(\\mathrm{ DEC})=\\frac{1}{2}\\mathrm{EC}\\times\\mathrm{DM}.",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.671,
+            0.205,
+            0.69
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.265,
+            0.643,
+            0.897,
+            0.719
+          ],
+          "content": "\\frac{\\frac{1}{2}\\mathrm{AD} \\times \\mathrm{EN}}{\\frac{1}{2}\\mathrm{DB} \\times \\mathrm{EN}} = \\frac{\\frac{1}{2}\\mathrm{AD} \\times \\mathrm{EN}}{\\frac{1}{2}\\mathrm{DB} \\times \\mathrm{EN}} = \\frac{\\mathrm{AD}}{\\mathrm{DB}}\\tag{1}",
+          "image_source": "images/page_7_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.775,
+            0.141,
+            0.791
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.263,
+            0.743,
+            0.896,
+            0.821
+          ],
+          "content": "\\frac{\\mathrm{ar}(\\mathrm{ADE})}{\\mathrm{ar}(\\mathrm{DEC})}=\\frac{\\frac{1}{2}\\mathrm{AE}\\times\\mathrm{DM}}{\\frac{1}{2}\\mathrm{EC}\\times\\mathrm{DM}}=\\frac{\\mathrm{AE}}{\\mathrm{EC}}\\tag{2}",
+          "image_source": "images/page_7_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.835,
+            0.9,
+            0.873
+          ],
+          "content": "Note that $\\Delta$ BDE and DEC are on the same base DE and between the same parallels BC and DE."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.881,
+            0.135,
+            0.898
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.278,
+            0.879,
+            0.897,
+            0.899
+          ],
+          "content": "\\mathrm{ar}(\\mathrm{BDE}) = \\mathrm{ar}(\\mathrm{DEC})\\tag{3}",
+          "image_source": "images/page_7_equation_22.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,326 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.298,
+            0.575,
+            0.368,
+            0.615
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_0.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.105,
+            0.127,
+            0.119
+          ],
+          "content": "36"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.9,
+            0.196
+          ],
+          "content": "**Solution :** Let the ten’s and the unit’s digits in the first number be x and y, respectively. $\\mathrm { S o } ,$ , the first number may be written as $1 0 x + y$ in the expanded form (for example, $5 6 = 1 0 ( 5 ) + 6 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.203,
+            0.901,
+            0.261
+          ],
+          "content": "When the digits are reversed, x becomes the unit’s digit and y becomes the ten’s digit. This number, in the expanded notation is $1 0 y   +   x$ (for example, when 56 is reversed, we get $6 5 = 1 0 ( 6 ) + 5 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.266,
+            0.415,
+            0.285
+          ],
+          "content": "According to the given condition."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.265,
+            0.291,
+            0.524,
+            0.309
+          ],
+          "content": "(10x + y) + (10y + x) = 66",
+          "image_source": "images/page_12_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.315,
+            0.138,
+            0.332
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.314,
+            0.524,
+            0.333
+          ],
+          "content": "11(x + y) = 66",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.338,
+            0.138,
+            0.355
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.414,
+            0.338,
+            0.897,
+            0.356
+          ],
+          "content": "x + y = 6\\tag{1}",
+          "image_source": "images/page_12_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.361,
+            0.616,
+            0.38
+          ],
+          "content": "We are also given that the digits differ by 2, therefore,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.386,
+            0.159,
+            0.403
+          ],
+          "content": "either"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.415,
+            0.386,
+            0.897,
+            0.404
+          ],
+          "content": "x - y = 2\\tag{2}",
+          "image_source": "images/page_12_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.412,
+            0.125,
+            0.425
+          ],
+          "content": "or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.415,
+            0.409,
+            0.897,
+            0.427
+          ],
+          "content": "y - x = 2\\tag{3}",
+          "image_source": "images/page_12_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.433,
+            0.86,
+            0.475
+          ],
+          "content": "If $x - y = 2$ , then solving (1) and (2) by elimination, we get $x = 4$ and $y = 2$ In this case, we get the number 42."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.102,
+            0.48,
+            0.872,
+            0.524
+          ],
+          "content": "If $y - x = 2$ , then solving (1) and (3) by elimination, we get $x = 2$ and $y = 4$ In this case, we get the number 24."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.531,
+            0.53,
+            0.549
+          ],
+          "content": "Thus, there are two such numbers 42 and 24."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.555,
+            0.87,
+            0.574
+          ],
+          "content": "**Verification :** Here $42+24=66$ and $4 - 2 = 2$ . Also $24 + 42 = 66$ and $4 - 2 = 2$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.41,
+            0.593,
+            0.588,
+            0.612
+          ],
+          "level": 2,
+          "content": "EXERCISE 3.3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.623,
+            0.899,
+            0.726
+          ],
+          "content": "**1.** Solve the following pair of linear equations by the elimination method and the substitution method : (i) $x + y = 5$ and $2x - 3y = 4$ (ii) $3x + 4y = 10$ and $2x - 2y = 2$ (iii) $3x-5y-4=0 \\quad  and  \\quad 9x=2y+7$ (iv) $\\frac{x}{2} + \\frac{2y}{3} = -1   and   x - \\frac{y}{3} = 3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.736,
+            0.899,
+            0.772
+          ],
+          "content": "**2.** Form the pair of linear equations in the following problems, and find their solutions (if they exist) by the elimination method :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.777,
+            0.898,
+            0.841
+          ],
+          "content": "(i) If we add 1 to the numerator and subtract 1 from the denominator, a fraction reduces to 1. It becomes $\\frac { 1 } { 2 }$ if we only add 1 to the denominator. What is the fraction?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.847,
+            0.9,
+            0.881
+          ],
+          "content": "(ii) Five years ago, Nuri was thrice as old as Sonu. Ten years later, Nuri will be twice as old as Sonu. How old are Nuri and Sonu?"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.885,
+            0.901,
+            0.919
+          ],
+          "content": "(iii) The sum of the digits of a two-digit number is 9. Also, nine times this number is twice the number obtained by reversing the order of the digits. Find the number."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

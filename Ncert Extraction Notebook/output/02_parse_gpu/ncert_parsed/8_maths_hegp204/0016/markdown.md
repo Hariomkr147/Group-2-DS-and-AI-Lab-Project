@@ -1,0 +1,23 @@
+[**Hint:** Draw the net and see how these paths appear on the net.]
+
+![](images/page_15_image_2.jpg)
+
+![](images/page_15_image_3.jpg)
+
+## What does this show?
+
+A path on the surface of the cuboid can be transformed to a path of the same length on the net. Conversely, every path on the net transforms to a path of the same length on the cuboid.
+
+In the first case, the path marked on the cuboid is the shortest since it transforms to a straight line between the ant and laddu on the net, which is the shortest path between them.
+
+In the second case, the path marked on the cuboid does not transform to a straight line path on the net, and hence is not the shortest path for the ant to take.
+
+![](images/page_15_image_8.jpg)
+
+**Laddu** (at the centre of the edge)
+
+The red path is the shortest
+
+Thus, by using a net, we convert the problem of finding the shortest path on a cuboid to the problem of finding the shortest path on the net.
+
+Have we now completely analysed the problem of finding the shortest path between two points on a cuboid?

@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.179,
+            0.503,
+            0.768,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.179,
+                0.503,
+                0.768,
+                0.712
+              ],
+              "image_path": "images/page_20_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.609,
+            0.064,
+            0.835,
+            0.082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Playing with Constructions"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.394,
+            0.171,
+            0.555,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.155,
+                0.119,
+                0.267,
+                0.164
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Step 4 Method 1"
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.394,
+                0.171,
+                0.555,
+                0.389
+              ],
+              "image_path": "images/page_20_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.159,
+            0.408,
+            0.742,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Draw a line perpendicular to BC at C to get the point D."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.156,
+            0.456,
+            0.268,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 2",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.154,
+            0.747,
+            0.725,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using a compass, mark the point D such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AD} = \\mathrm{BC}"
+            },
+            {
+              "type": "text",
+              "content": " Join CD to get the required rectangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.8,
+            0.833,
+            0.845
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen how to construct rectangles when their sides are given. But what do we do if a side and a diagonal is given?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.884,
+            0.942,
+            0.916,
+            0.959
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

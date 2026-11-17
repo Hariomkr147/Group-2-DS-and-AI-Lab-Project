@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.118,
+            0.072,
+            0.149,
+            0.087
+          ],
+          "content": "96"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.071,
+            0.496,
+            0.088
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.238,
+            0.112,
+            0.759,
+            0.35
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.452,
+                0.353,
+                0.548,
+                0.372
+              ],
+              "content": "Fig. 13.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.387,
+            0.884,
+            0.461
+          ],
+          "content": "Point B can be reached from point A by moving 2 units along the positive x-direction (the run), and 3 units along the positive y-direction (the rise). Hence slope of the $\\mathrm{line} = \\frac{\\mathrm{Rise}}{\\mathrm{Run}} = \\frac{3}{2}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.462,
+            0.883,
+            0.502
+          ],
+          "content": "Now consider the same line AB further extended beyond B as shown in Fig. 13.8."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.22,
+            0.513,
+            0.77,
+            0.866
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_6.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.454,
+            0.871,
+            0.545,
+            0.89
+          ],
+          "content": "Fig. 13.8"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

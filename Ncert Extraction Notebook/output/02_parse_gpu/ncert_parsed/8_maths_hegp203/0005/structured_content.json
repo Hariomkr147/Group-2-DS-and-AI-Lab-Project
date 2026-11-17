@@ -1,0 +1,202 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.65,
+            0.049,
+            0.861,
+            0.066
+          ],
+          "content": "Proportional Reasoning–2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.628,
+            0.108
+          ],
+          "content": "We can extend this to ratios with multiple terms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.108,
+            0.846,
+            0.147
+          ],
+          "content": "Let us look at the earlier example of making a concrete mixture. We need to mix cement, sand, and gravel in the ratio of 1 : 1.5 : 3 to get the concrete."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.156,
+            0.845,
+            0.213
+          ],
+          "level": 2,
+          "content": "？ Example 3: For some construction, 110 units of concrete are needed. How many units of cement, sand, and gravel are needed if these are to be mixed in the ratio 1 : 1.5 : 3?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.217,
+            0.847,
+            0.292
+          ],
+          "content": "For 1 unit of cement, we need to add 1.5 units of sand and 3 units of gravel. Together, they add up to 5.5 units of concrete. We need to do this 20 times $(110 \\div 5.5 = 20)$ to get 110 units of concrete. So each term has to be multiplied by 20."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.291,
+            0.651,
+            0.347
+          ],
+          "content": "\\begin{array} { c } { { 1 \\times 2 0 = 2 0 \\; \\mathrm { u n i t s \\; o f \\; c e m e n t } , } } \\\\ { { 1 . 5 \\times 2 0 = 3 0 \\; \\mathrm { u n i t s \\; o f \\; s a n d , \\; a n d } , } } \\\\ { { 3 \\times 2 0 = 6 0 \\; \\mathrm { u n i t s \\; o f \\; g r a v e l } . } } \\end{array}",
+          "image_source": "images/page_4_equation_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.222,
+            0.353,
+            0.769,
+            0.586
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.602,
+            0.845,
+            0.638
+          ],
+          "content": "So, we need 20 units of cement, 30 units of sand, and 60 units of gravel to make the concrete."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.639,
+            0.845,
+            0.676
+          ],
+          "content": "When we divide a quantity x in the ratio $a : b : c : \\dots ,$ the terms in the ratio are —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.684,
+            0.797,
+            0.713
+          ],
+          "content": "$\\begin{aligned}\\overline{X} \\times \\frac{a}{(a + b + c + \\cdots)}, \\overline{X} \\times \\frac{b}{(a + b + c + \\cdots)}, \\overline{X} \\times \\frac{c}{(a + b + c + \\cdots)}\\end{aligned}$ , and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.722,
+            0.846,
+            0.78
+          ],
+          "content": "？ **Example 4:** You get a particular shade of purple paint by mixing red, blue, and white paint in the ratio 2 : 3 : 5. If you need 50 ml of purple paint, how many ml of red, blue, and white paint will you mix together?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.785,
+            0.705,
+            0.813
+          ],
+          "content": "\\mathrm{Red}\\;\\mathrm{point}=50\\times\\frac{2}{(2+3+5)}=50\\times\\frac{2}{10}=10\\;\\mathrm{ml}.",
+          "image_source": "images/page_4_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.815,
+            0.708,
+            0.842
+          ],
+          "content": "\\mathrm{Blue\\ paint} = 50 \\times \\frac{3}{(2 + 3 + 5)} = 50 \\times \\frac{3}{10} = 15\\ \\mathrm{m}",
+          "image_source": "images/page_4_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.283,
+            0.843,
+            0.715,
+            0.87
+          ],
+          "content": "\\mathrm{While\\ point}=50\\times\\frac{5}{(2+3+5)}=50\\times\\frac{5}{10}=25\\mathrm{~ml}.",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.874,
+            0.914,
+            0.911,
+            0.934
+          ],
+          "content": "59"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:36:20+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

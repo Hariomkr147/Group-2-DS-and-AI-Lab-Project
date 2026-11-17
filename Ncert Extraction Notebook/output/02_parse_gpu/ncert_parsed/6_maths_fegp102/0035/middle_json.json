@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:38:25+05:30",
+      "modified_at": "2026-04-07T17:39:03+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 53,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 34,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 34,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.69,
+            0.064,
+            0.834,
+            0.082
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Lines and Angles"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.112,
+            0.59,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We begin with the base and draw "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array}{c}\\rightarrow \\\\ \\overrightarrow{IN};\\end{array}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.306,
+            0.167,
+            0.639,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.306,
+                0.167,
+                0.639,
+                0.202
+              ],
+              "image_path": "images/page_34_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.113,
+            0.223,
+            0.834,
+            0.268
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We will place the centre point of the protractor on I and align IN to the 0 line."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.215,
+            0.281,
+            0.741,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.215,
+                0.281,
+                0.741,
+                0.479
+              ],
+              "image_path": "images/page_34_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.113,
+                0.497,
+                0.833,
+                0.543
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Step 3: Now, starting from 0, count your degrees (0, 10, 30) up to 30 on the protractor. Mark point T at the label 30°."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.216,
+            0.56,
+            0.738,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.216,
+                0.56,
+                0.738,
+                0.767
+              ],
+              "image_path": "images/page_34_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.113,
+                0.782,
+                0.568,
+                0.832
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Step 4: Using a ruler join the point I and T. "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "\\angle \\mathrm{TIN} = 30^{\\circ}"
+                },
+                {
+                  "type": "text",
+                  "content": " is the required angle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 9,
+          "bbox": [
+            0.887,
+            0.941,
+            0.914,
+            0.959
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "47"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

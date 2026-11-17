@@ -1,0 +1,213 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.084
+          ],
+          "content": "138"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.123,
+            0.113,
+            0.401,
+            0.32
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.159,
+                0.329,
+                0.368,
+                0.346
+              ],
+              "content": "Fig. 6.28: A cyclic 4-gon"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.414,
+            0.124,
+            0.876,
+            0.246
+          ],
+          "content": "The formula states that if the sides of the cyclic 4-gon have lengths $a ,   b ,   c ,   d ,$ and the semi-perimeter s is $\\frac{1}{2}(a + b + c + d)$ , then: Area\u001bof $4-\\mathrm{gen}=\\sqrt{(s-a)(s-b)(s-c)(s-d)}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.413,
+            0.261,
+            0.877,
+            0.33
+          ],
+          "content": "It is an amazing and beautiful formula! Does it not remind us of Heron’s formula for the area of a triangle?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.355,
+            0.883,
+            0.394
+          ],
+          "content": "We can verify that the formula works out correctly in various special cases."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.394,
+            0.884,
+            0.486
+          ],
+          "content": "**Example 6:** Verify Brahmagupta’s formula for the case of a rectangle. All rectangles are cyclic, so Brahmagupta’s formula should apply. Let the sides of the rectangle be a, b. Then $s = \\frac{1}{2}(2a + 2b) = a + b$ , so the formula yields:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.172,
+            0.503,
+            0.825,
+            0.532
+          ],
+          "content": "\\mathrm{Area}=\\sqrt{(a+b-a)(a+b-b)(a+b-a)(a+b-b)}=\\sqrt{ab\\cdot ab}=ab,",
+          "image_source": "images/page_20_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.549,
+            0.884,
+            0.615
+          ],
+          "content": "which is correct. Please check out the formula against other special cases. **Example 7:** Verify Brahmagupta’s formula for the case of an isosceles trapezium."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.139,
+            0.626,
+            0.461,
+            0.757
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.171,
+                0.763,
+                0.429,
+                0.781
+              ],
+              "content": "Fig. 6.29: Isosceles trapezium"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.482,
+            0.621,
+            0.875,
+            0.72
+          ],
+          "content": "All isosceles trapezia are cyclic, hence the formula should apply. The perimeter is $2 a \\; + \\; 2 b \\; + \\; \\bar { 2 c } _ { \\mathrm { s } }$ , so $s = a + b + c.$ . Hence, the area as given by the formula should be"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.528,
+            0.725,
+            0.829,
+            0.755
+          ],
+          "content": "\\sqrt{(s - 2a)(s - 2b)(s - c)(s - c)}",
+          "image_source": "images/page_20_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.483,
+            0.763,
+            0.875,
+            0.822
+          ],
+          "content": "Since $s - 2a = c + b - a, \\; s - 2b = c + a$ $-2b,   s-c=a+b$ the above formula simplifies to"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.241,
+            0.829,
+            0.754,
+            0.863
+          ],
+          "content": "(a+b)\\sqrt{(c+b-a)(c+a-b)}=(a+b)\\sqrt{c^2-(b-a)^2}.",
+          "image_source": "images/page_20_equation_15.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

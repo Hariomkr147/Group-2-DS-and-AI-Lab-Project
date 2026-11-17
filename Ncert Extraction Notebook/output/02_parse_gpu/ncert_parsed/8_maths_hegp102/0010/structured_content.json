@@ -1,0 +1,270 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.045,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.109,
+            0.085,
+            0.33,
+            0.11
+          ],
+          "content": "Why can’t n be 0?"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.817,
+            0.076,
+            0.905,
+            0.13
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.123,
+            0.801,
+            0.161
+          ],
+          "content": "？ We have not covered the case when the exponent is $0 ;$ for example, what is $2 ^ { 0 } \\sharp$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.165,
+            0.837,
+            0.186
+          ],
+          "content": "Let us define $2 ^ { 0 }$ in a way that the generalised form above holds true."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.343,
+            0.192,
+            0.654,
+            0.22
+          ],
+          "content": "2^{0}=2^{4-4}=2^{4}\\div2^{4}=\\frac{2\\times2\\times2\\times2}{2\\times2\\times2\\times2}=1.",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.221,
+            0.474,
+            0.24
+          ],
+          "content": "In fact for any letter number a"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.398,
+            0.239,
+            0.599,
+            0.258
+          ],
+          "content": "2^{0}=2^{a-a}=2^{a}\\div2^{a}=1.",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.263,
+            0.287,
+            0.283
+          ],
+          "content": "In general,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.287,
+            0.616,
+            0.306
+          ],
+          "content": "X ^ { a } \\div X ^ { a } = X ^ { a - a } = X ^ { 0 } , \\mathrm { a n d } \\mathrm { s o }",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.466,
+            0.311,
+            0.532,
+            0.33
+          ],
+          "content": "1 = x ^ { 0 }   ,",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.301,
+            0.335,
+            0.696,
+            0.356
+          ],
+          "content": "where $x \\neq 0$ and a is a counting number."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.37,
+            0.398,
+            0.389
+          ],
+          "level": 2,
+          "content": "When Zero is in Power!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.152,
+            0.397,
+            0.857,
+            0.682
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.694,
+            0.64,
+            0.714
+          ],
+          "content": "When a line of length $2 ^ { 4 }$ units is halved 5 times,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.343,
+            0.722,
+            0.654,
+            0.75
+          ],
+          "content": "2^{4} \\div 2^{5} = \\frac{2 \\times 2 \\times 2 \\times 2}{2 \\times 2 \\times 2 \\times 2 \\times 2} = \\frac{1}{2} \\times \\frac{1}{2}",
+          "image_source": "images/page_9_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.751,
+            0.666,
+            0.771
+          ],
+          "content": "Using the generalised form, we get $2^{4} \\div 2^{5} = 2^{(4 - 5)} = 2^{-1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.774,
+            0.272,
+            0.8
+          ],
+          "content": "So, $2 ^ { - 1 } \\leq \\frac { 1 } { 2 }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.802,
+            0.625,
+            0.841
+          ],
+          "content": "When a line of length $2 ^ { 4 }$ units is halved 10 times, we get $2^{4} \\div 2^{10} = 2^{(4 - 10)} = 2^{-6}$ units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.843,
+            0.848,
+            0.887
+          ],
+          "content": "When expanded, $2^{4} \\div 2^{10} = \\frac{2 \\times 2 \\times 2 \\times 2}{2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2} = \\frac{1}{2^{6}} = \\frac{1}{64}$ which is also written as $2 ^ { -   6 }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.092,
+            0.922,
+            0.128,
+            0.944
+          ],
+          "content": "28"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

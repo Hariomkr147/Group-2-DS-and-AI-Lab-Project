@@ -1,0 +1,252 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.476,
+            0.121
+          ],
+          "content": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.873,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "31"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.146,
+            0.9,
+            0.211
+          ],
+          "content": "**Verification : Substituting** $x = \\frac{49}{29}   and   y = \\frac{19}{29}$ **, you can verify that both the Equations (1) and (2) are satisfied.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.216,
+            0.9,
+            0.283
+          ],
+          "content": "**To understand the substitution method more clearly, let us consider it stepwise: Step 1 : Find the value of one variable, say** y **in terms of the other variable, i.e.,** x **from either equation, whichever is convenient.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.289,
+            0.902,
+            0.391
+          ],
+          "content": "**Step 2 : Substitute this value of** y **in the other equation, and reduce it to an equation in one variable, i.e., in terms of** x**, which can be solved. Sometimes, as in Examples 9 and 10 below, you can get statements with no variable. If this statement is true, you can conclude that the pair of linear equations has infinitely many solutions. If the statement is false, then the pair of linear equations is inconsistent.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.396,
+            0.902,
+            0.437
+          ],
+          "content": "**Step 3 : Substitute the value of** x **(or** y**) obtained in Step 2 in the equation used in Step 1 to obtain the value of the other variable.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.45,
+            0.902,
+            0.511
+          ],
+          "content": "**Remark : We have substituted the value of one variable by expressing it in terms of the other variable to solve the pair of linear equations. That is why the method is known as the** substitution method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.524,
+            0.902,
+            0.604
+          ],
+          "content": "**Example 5 : Solve the following question—Aftab tells his daughter, “Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be.” (Isn’t this interesting?) Represent this situation algebraically and graphically by the method of substitution.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.609,
+            0.899,
+            0.649
+          ],
+          "content": "**Solution : Let** s **and** t **be the ages (in years) of Aftab and his daughter, respectively. Then, the pair of linear equations that represent the situation is**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.268,
+            0.655,
+            0.898,
+            0.674
+          ],
+          "content": "s - 7 = 7 - 7 , \\mathrm { i . e . } , s - 7 t + 4 2 = 0\\tag{1}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.683,
+            0.142,
+            0.7
+          ],
+          "content": "**and**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.269,
+            0.682,
+            0.898,
+            0.701
+          ],
+          "content": "s+3=3(t+3), \\mathrm{i.e.}, s-3t=6\\tag{2}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.708,
+            0.46,
+            0.728
+          ],
+          "content": "**Using Equation (2), we get** $s = 3 t + 6$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.735,
+            0.532,
+            0.754
+          ],
+          "content": "**Putting this value of** s **in Equation (1), we get**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.761,
+            0.517,
+            0.779
+          ],
+          "content": "( 3 t + 6 ) - 7 t + 4 2 = 0 ,",
+          "image_source": "images/page_7_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.787,
+            0.139,
+            0.805
+          ],
+          "content": "**i.e.,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.444,
+            0.786,
+            0.712,
+            0.806
+          ],
+          "content": "4t = 48,  which gives   t = 12.",
+          "image_source": "images/page_7_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.813,
+            0.529,
+            0.833
+          ],
+          "content": "**Putting this value of** t **in Equation (2), we get**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.452,
+            0.839,
+            0.645,
+            0.858
+          ],
+          "content": "s = 3 \\; ( 1 2 ) + 6 = 4 2",
+          "image_source": "images/page_7_equation_18.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

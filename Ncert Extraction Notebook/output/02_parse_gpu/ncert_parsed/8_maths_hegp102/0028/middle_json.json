@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.407,
+            0.095,
+            0.591,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SUMMARY"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.132,
+            0.824,
+            0.209
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We analysed some situations, asked questions, and found answers by first guessing, then modelling the problem statement, followed by making assumptions and approximations to carry out the calculations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.175,
+            0.217,
+            0.823,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We experienced how rapid exponential growth, also called multiplicative growth, can be compared to additive growth."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.175,
+            0.27,
+            0.821,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "n ^ { a }"
+            },
+            {
+              "type": "text",
+              "content": " is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n \\times n \\times n \\times n \\times \\ldots \\times n"
+            },
+            {
+              "type": "text",
+              "content": " (n multiplied by itself a times) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { - a }   =   \\frac { 1 } { n ^ { a } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.176,
+            0.302,
+            0.546,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": " Operations with exponents satisfy"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.238,
+            0.331,
+            0.379,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { a } \\times n ^ { b } = n ^ { a + b }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.238,
+            0.354,
+            0.427,
+            0.375
+          ],
+          "image_path": "images/page_27_equation_7.jpg",
+          "content": "\\bullet ( n ^ { a } ) ^ { b } = ( n ^ { b } ) ^ { a } = n ^ { a   \\times   b }"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.237,
+            0.379,
+            0.448,
+            0.4
+          ],
+          "image_path": "images/page_27_equation_8.jpg",
+          "content": "\\bullet \\; n^{a} \\div n^{b} = n^{a - b} \\; (n \\neq 0)"
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.238,
+            0.404,
+            0.424,
+            0.424
+          ],
+          "image_path": "images/page_27_equation_9.jpg",
+          "content": "\\bullet \\; n^{a} \\times m^{a} = (n \\times m)^{a}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.238,
+            0.429,
+            0.493,
+            0.448
+          ],
+          "image_path": "images/page_27_equation_10.jpg",
+          "content": "\\bullet \\; n^{a} \\div m^{a} = (n \\div m)^{a}(m \\neq 0)"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.239,
+            0.452,
+            0.381,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { 0 } = 1 \\; ( n \\neq 0 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.175,
+            0.476,
+            0.823,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The scientific notation for the number 308100000 is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 . 0 8 1 \\times 1 0 ^ { 8 } ."
+            },
+            {
+              "type": "text",
+              "content": " The standard form of the scientific notation of any number is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\times 1 0 ^ { y } ,"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x < 1 0"
+            },
+            {
+              "type": "text",
+              "content": " and y is an integer."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.175,
+            0.543,
+            0.823,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Engaging in interesting thought experiments can be used as means to understand how large a number or a quantity is."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.091,
+            0.923,
+            0.128,
+            0.944
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "46"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

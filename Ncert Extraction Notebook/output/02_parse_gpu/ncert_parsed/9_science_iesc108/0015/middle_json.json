@@ -1,0 +1,580 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-03T20:02:26+05:30",
+      "modified_at": "2026-05-13T10:46:33+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.228,
+            0.089,
+            0.753,
+            0.112
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.9 A Deeper Look into Atomic Structure"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.224,
+            0.12,
+            0.381,
+            0.14
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.9.1 Isotopes"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.222,
+            0.142,
+            0.89,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Dalton proposed that all atoms of an element are identical and have the same mass. But scientists later discovered that there were atoms of the same element that could have the same number of protons (atomic number, Z) yet could have different numbers of neutrons, and thus, different mass numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( A = p ^ { + } + n ^ { 0 } )"
+            },
+            {
+              "type": "text",
+              "content": " . These ʻtwin atomsʼ with the same atomic number but different mass numbers are called "
+            },
+            {
+              "type": "text",
+              "content": "isotopes",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.222,
+            0.248,
+            0.89,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us take hydrogen as an example. Naturally occurring hydrogen is a mixture of three different isotopes: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ 1 _ { 1 } \\mathrm { H }"
+            },
+            {
+              "type": "text",
+              "content": " (protium, ~99.98%), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\phantom { \\frac { 1 } { 2 } } } { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " H (deuterium, ~0.015%), and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ 3 _ { 1 } \\mathrm { H }"
+            },
+            {
+              "type": "text",
+              "content": " (tritium, in traces) (Fig. 8.12). All of these contain one proton each, whereas deuterium contains one neutron, and tritium contains two neutrons. Can you guess how many electrons each of these isotopes have?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.272,
+            0.357,
+            0.415,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.272,
+                0.357,
+                0.415,
+                0.466
+              ],
+              "image_path": "images/page_14_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 5,
+              "bbox": [
+                0.308,
+                0.467,
+                0.372,
+                0.48
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Protium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.487,
+            0.357,
+            0.631,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.487,
+                0.357,
+                0.631,
+                0.466
+              ],
+              "image_path": "images/page_14_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.517,
+                0.467,
+                0.598,
+                0.48
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Deuterium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.697,
+            0.355,
+            0.839,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.697,
+                0.355,
+                0.839,
+                0.467
+              ],
+              "image_path": "images/page_14_image_8.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 9,
+              "bbox": [
+                0.741,
+                0.467,
+                0.798,
+                0.48
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Tritium"
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "index": 10,
+              "bbox": [
+                0.345,
+                0.483,
+                0.768,
+                0.5
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.12: Schematic representation of isotopes of hydrogen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.03,
+            0.498,
+            0.093,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.03,
+                0.498,
+                0.093,
+                0.564
+              ],
+              "image_path": "images/page_14_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.527,
+            0.308,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ready to Go Beyond"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.084,
+            0.551,
+            0.317,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Atoms are too tiny to be weighed in kilograms or grams like everyday objects. Just as it is easier to weigh a grain of wheat in milligrams rather than kilograms, scientists use a special unit called the unified atomic mass unit (u) to measure the mass of atoms. This is because a kilogram is too large for such small particles. Earlier, atomic mass was expressed in atomic mass unit (abbreviated as ‘amu’)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.335,
+            0.508,
+            0.89,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The chemical properties of isotopes are similar. Do you know why? It is so because they have the same number of electrons and the same electronic configuration. As you have learnt, chemical properties depend mainly on the number of valence electrons. All the isotopes will have the same chemical properties although they differ in their physical properties, for example, boiling and melting points."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.335,
+            0.629,
+            0.89,
+            0.719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, carbon has three isotopes: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } _ { 6 } ^ { 1 2 } \\mathsf { C } , { } _ { 6 } ^ { 1 3 } \\mathsf { C } ,"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } _ { 6 } ^ { 1 4 } \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " (Fig. 8.13). Each of these has six protons and six electrons. 12C is the most abundant isotope in nature. You may note that 6 these three isotopes differ in terms of the number of neutrons in them."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.338,
+            0.727,
+            0.482,
+            0.837
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.338,
+                0.727,
+                0.482,
+                0.837
+              ],
+              "image_path": "images/page_14_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 17,
+              "bbox": [
+                0.364,
+                0.842,
+                0.453,
+                0.856
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Carbon – 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.54,
+            0.727,
+            0.685,
+            0.837
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.54,
+                0.727,
+                0.685,
+                0.837
+              ],
+              "image_path": "images/page_14_image_18.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 19,
+              "bbox": [
+                0.571,
+                0.842,
+                0.661,
+                0.856
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Carbon – 13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.744,
+            0.727,
+            0.889,
+            0.836
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.744,
+                0.727,
+                0.889,
+                0.836
+              ],
+              "image_path": "images/page_14_image_20.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 21,
+              "bbox": [
+                0.412,
+                0.861,
+                0.817,
+                0.877
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.13: Schematic representation of isotopes of carbon"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 22,
+              "bbox": [
+                0.777,
+                0.842,
+                0.867,
+                0.856
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Carbon – 14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.254,
+            0.89,
+            0.888,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us learn about the essential uses of some isotopes in our daily lives."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 24,
+          "bbox": [
+            0.075,
+            0.943,
+            0.114,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "154"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

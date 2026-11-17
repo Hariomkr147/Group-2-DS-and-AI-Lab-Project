@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.668,
+            0.049,
+            0.844,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Connecting the Dots…"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.123,
+            0.087,
+            0.878,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.123,
+                0.087,
+                0.878,
+                0.442
+              ],
+              "image_path": "images/page_6_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.149,
+                0.455,
+                0.849,
+                0.573
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "The prices in Yahapur are in green and those in Wahapur are in purple. The horizontal line shows the prices from 10 to 60 (instead of starting from 0 as there are no values from 0 – 10 or above 60). The dots on the vertical line give the number of occurrences of a data value. Notice the equal spacing between the units along the horizontal as well as the vertical lines."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.58,
+            0.847,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Does this visualisation capture all the data presented in the tables earlier?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.11,
+            0.634,
+            0.847,
+            0.677
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Looking at it, can we tell the price of onions in Yahapur in the month of January?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.68,
+            0.848,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This method of presentation orders or sorts the data, but it loses the original (month-wise) sequence of the values. However, it allows us to group the data however we wish, just as Vishal did. For instance, there are 2 data values between 11 – 20 for Wahapur, while Yahapur has none. This representation makes it easier to observe the variation in the data — where and how the data is clustered or spread out. We can easily see that the prices in Wahapur are more spread out than those in Yahapur. It is also easy to spot the highest and lowest values."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.833,
+            0.847,
+            0.873
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also use the average as one of the ways to compare the prices at these two places."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

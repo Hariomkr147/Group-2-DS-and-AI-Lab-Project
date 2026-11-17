@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "87"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.132,
+            0.114,
+            0.398,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.13,
+            0.152,
+            0.616,
+            0.172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try to simplify the following rational expression:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.135,
+            0.18,
+            0.506,
+            0.226
+          ],
+          "image_path": "images/page_19_equation_4.jpg",
+          "content": "\\frac{36s^{2}-12st+t^{2}}{t^{2}+2ts-48s^{2}}=\\frac{(6s-t)^{2}}{(\\frac{1}{2}+\\frac{1}{2})(\\frac{1}{2}+\\frac{1}{2})}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.235,
+            0.855,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Factor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t ^ { 2 } ~ + ~ 2 t s ~ - ~ 4 8 s ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and simplify the rational expressions assuming that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t ^ { 2 } + 2 t s - 4 8 s ^ { 2 } \\neq 0 )"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.375,
+            0.327,
+            0.621,
+            0.355
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 4.5"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.131,
+            0.38,
+            0.884,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Simplify the following rational expressions assuming that the expressions in the denominators are not equal to zero:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.183,
+            0.444,
+            0.21,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.232,
+            0.43,
+            0.61,
+            0.479
+          ],
+          "image_path": "images/page_19_equation_9.jpg",
+          "content": "\\frac{3p^{2}-3pq-18q^{2}}{p^{2}+3pq-10q^{2}}\\tag{ii}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.168,
+            0.428,
+            0.868,
+            0.521
+          ],
+          "image_path": "images/page_19_equation_10.jpg",
+          "content": "\\frac{n^{3}-3n^{2}m+3nm^{2}-m^{3}}{5m^{2}-10mn+5n^{2}}\\tag{iii}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.232,
+            0.489,
+            0.548,
+            0.536
+          ],
+          "image_path": "images/page_19_equation_11.jpg",
+          "content": "\\frac{w^{3}-v^{3}+x^{3}+3w v x}{w^{2}+v^{2}+x^{2}-2w v-2v x+2w x}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.57,
+            0.502,
+            0.61,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.631,
+            0.485,
+            0.822,
+            0.539
+          ],
+          "image_path": "images/page_19_equation_13.jpg",
+          "content": "\\frac{4y^{2}-20yz+25z^{2}}{\\left ( 25z^{2}-4y^{2} \\right ) }"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.177,
+            0.565,
+            0.211,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(v)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.233,
+            0.541,
+            0.61,
+            0.599
+          ],
+          "image_path": "images/page_19_equation_15.jpg",
+          "content": "\\frac{\\left(x^{2}+x-6\\right)\\left(x^{2}-7x+12\\right)}{\\left(x^{2}-6x+8\\right)\\left(x^{2}-9\\right)}\\tag{vi}"
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.631,
+            0.551,
+            0.747,
+            0.598
+          ],
+          "image_path": "images/page_19_equation_16.jpg",
+          "content": "\\frac { p ^ { 4 } - 1 6 } { p ^ { 2 } - 4 p + 4 }"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.112,
+            0.616,
+            0.885,
+            0.693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 17:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Saira has arranged a square of side x units, 8 rectangular strips of sides x units and width 1 unit, and 15 squares of side 1 unit to form a bigger rectangle. Find the length and breadth of the rectangle in terms of x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.696,
+            0.727,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area covered by a square of side x units "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " sq. units"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.149,
+            0.718,
+            0.852,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area covered by rectangle of sides x units and 1 unit = x sq. units"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.149,
+            0.74,
+            0.727,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Total area covered by 8 such rectangles = 8x sq. units"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.15,
+            0.763,
+            0.712,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area covered by a square of side 1 unit = 1 sq. units"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.149,
+            0.784,
+            0.714,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Total area covered by 15 such squares = 15 sq. units"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.149,
+            0.807,
+            0.716,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Total area covered by all the squares and rectangles"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.15,
+            0.829,
+            0.397,
+            0.849
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "x^{2} + 8x + 15"
+            },
+            {
+              "type": "text",
+              "content": " sq. units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.15,
+            0.851,
+            0.663,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of Saira’s rectangl "
+            },
+            {
+              "type": "equation_inline",
+              "content": "e = x^{2} + 8x + 15"
+            },
+            {
+              "type": "text",
+              "content": " sq. units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.113,
+            0.873,
+            0.884,
+            0.914
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can factor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + 8 x + 1 5"
+            },
+            {
+              "type": "text",
+              "content": " to obtain the dimensions of the rectangle prepared by Saira."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

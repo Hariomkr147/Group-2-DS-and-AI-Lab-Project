@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-11 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-11 (11th Nov.)",
+      "description": "Chap-11 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:45+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 7,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "158"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.159,
+            0.135,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.246,
+            0.146,
+            0.898,
+            0.232
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "\\begin{aligned} area of   \\Delta  OAB  &= \\frac{1}{2}  AB  \\times  OM  = \\frac{1}{2} \\times 21\\sqrt{3} \\times \\frac{21}{2}  cm ^2 \\\\&= \\frac{441}{4} \\sqrt{3}  cm ^2\\end{aligned}\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.097,
+            0.243,
+            0.899,
+            0.342
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, area of the segment "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AYB} = \\left(462 - \\frac{441}{4}\\sqrt{3}\\right) \\mathrm{cm}^2"
+            },
+            {
+              "type": "text",
+              "content": " [From (1), (2) and (3)] "
+            },
+            {
+              "type": "equation_inline",
+              "content": "=   \\frac{21}{4}   ( 88 - 21\\sqrt{3} )  cm ^2"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 5,
+          "bbox": [
+            0.406,
+            0.351,
+            0.592,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXERCISE 11.1"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.386,
+            0.422,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Unless stated otherwise, use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi = { \\frac { 2 2 } { 7 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.123,
+            0.436,
+            0.839,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the area of a sector of a circle with radius 6 cm if angle of the sector is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.123,
+            0.46,
+            0.748,
+            0.479
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the area of a quadrant of a circle whose circumference is 22 cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.123,
+            0.484,
+            0.901,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.123,
+            0.526,
+            0.902,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the corresponding : (i) minor segment (ii) major sector. (Use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi   =   3 . 1 4 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.124,
+            0.563,
+            0.832,
+            0.581
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In a circle of radius 21 cm, an arc subtends an angle of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " at the centre. Find:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.154,
+            0.586,
+            0.73,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the length of the arc (ii) area of the sector formed by the arc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.155,
+            0.611,
+            0.685,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) area of the segment formed by the corresponding chord"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.124,
+            0.635,
+            0.9,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A chord of a circle of radius 15 cm subtends an angle of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " at the centre. Find the areas of the corresponding minor and major"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.156,
+            0.694,
+            0.411,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Use   = 3.14 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{3} = 1.73"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.124,
+            0.722,
+            0.594,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A chord of a circle of radius 12 cm subtends an angle of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 0 \\%"
+            },
+            {
+              "type": "text",
+              "content": " at the centre. Find the area of the corresponding segment of the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.156,
+            0.781,
+            0.411,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Use   = 3.14 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\sqrt { 3 } }   =   1 . 7 3 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.124,
+            0.809,
+            0.594,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5"
+            },
+            {
+              "type": "text",
+              "content": " m long rope (see Fig. 11.8). Find"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.656,
+            0.672,
+            0.896,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.656,
+                0.672,
+                0.896,
+                0.835
+              ],
+              "image_path": "images/page_4_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.732,
+                0.844,
+                0.828,
+                0.864
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 11.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

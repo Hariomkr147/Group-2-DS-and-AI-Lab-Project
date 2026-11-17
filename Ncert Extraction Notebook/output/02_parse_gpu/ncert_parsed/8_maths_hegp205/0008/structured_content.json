@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.09,
+            0.585,
+            0.112
+          ],
+          "level": 2,
+          "content": "Mean and Median with Frequencies"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.12,
+            0.845,
+            0.16
+          ],
+          "content": "? What is the average family size of students in your class? How would you find this out?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.163,
+            0.665,
+            0.238
+          ],
+          "content": "We can collect the data of how many family members each student has, add them up, and divide it by the number of students. The family size data of students in a class is shown in the table here."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.24,
+            0.587,
+            0.263
+          ],
+          "content": "What is the average family size of this class?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.27,
+            0.663,
+            0.319
+          ],
+          "content": "Some of you may have thought, “Easy! It will be $\\frac{3+4+5+6+7+8+9+10}{8}=\\frac{52}{8}=6.5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.319,
+            0.664,
+            0.393
+          ],
+          "content": "Remember that finding the average involves adding all the values in the data. The number 3 occurs three times, the number 4 occurs eleven times, and so on. Do these reflect in your calculation?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.689,
+            0.147,
+            0.895,
+            0.386
+          ],
+          "content": "| Number | Frequency |\n| --- | --- |\n| 3 | 3 |\n| 4 | 11 |\n| 5 | 9 |\n| 6 | 7 |\n| 7 | 3 |\n| 8 | 1 |\n| 9 | 1 |\n| 10 | 1 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_table_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.395,
+            0.685,
+            0.425
+          ],
+          "content": "We know that the average <u>Sum of all the values in the data</u>Number of value in the data ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.426,
+            0.782,
+            0.446
+          ],
+          "content": "Accounting for the frequencies of each value, the average will be"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.449,
+            0.736,
+            0.48
+          ],
+          "content": "\\frac{(3 \\times 3) \\div (4 \\times 11) \\div (5 \\times 9) \\div (6 \\times 7) \\div (7 \\times 3) \\div (8 \\times 1) \\div (9 \\times 1) \\div (10 \\times 1)}{3 \\div 11 + 9 \\div 7 \\div 3 \\div 1 \\div 1 \\div 1}",
+          "image_source": "images/page_7_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.485,
+            0.455,
+            0.541
+          ],
+          "content": "\\begin{aligned}=&\\frac{9 + 44 + 45 + 42 + 21 + 8 + 9 + 10}{36} \\\\=&\\frac{188}{36} = 5.22.\\end{aligned}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.541,
+            0.584,
+            0.562
+          ],
+          "content": "The average family size of this class is 5.22."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.572,
+            0.583,
+            0.594
+          ],
+          "content": "？ What is the median family size of this class?"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.59,
+            0.481,
+            0.897,
+            0.619
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_chart_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.596,
+            0.587,
+            0.634
+          ],
+          "content": "We know that there are 36 values in the data. The median would be the average of"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.633,
+            0.793,
+            0.652
+          ],
+          "continues_prev": true,
+          "content": "the 18th and 19th value in the sequence when the data is ordered."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.654,
+            0.845,
+            0.694
+          ],
+          "content": "？ Do we need to write all the 36 numbers in order? Is there a quicker way to find out?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.697,
+            0.846,
+            0.754
+          ],
+          "content": "We can make use of the table where the frequencies are listed. We successively add the frequencies starting from the smallest value until we reach 18 and 19."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.169,
+            0.757,
+            0.83,
+            0.812
+          ],
+          "content": "| Number | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Frequency | 3 | 11 | 9 | 7 | 3 | 1 | 1 | 1 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_table_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.822,
+            0.847,
+            0.916
+          ],
+          "content": "Adding the frequencies of 3 and 4, we get $3 + 11 = 14.$ This means the value in the 14th position when the data is sorted is 4. Adding the frequencies of 3, 4, and 5, we get $3+11+9=23$ . This means the value in the 23rd position when the data is sorted is 5. We can see that all the values from positions 15 to 23 are 5. Therefore, the median of this data is 5."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.082,
+            0.914,
+            0.126,
+            0.935
+          ],
+          "content": "110"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

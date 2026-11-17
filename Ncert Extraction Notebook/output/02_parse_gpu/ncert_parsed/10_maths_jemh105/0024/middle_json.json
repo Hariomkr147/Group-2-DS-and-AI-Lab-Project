@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "72"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.139,
+            0.252,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5 Summary"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.166,
+            0.578,
+            0.184
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this chapter, you have studied the following points :"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.125,
+            0.189,
+            0.902,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " An "
+            },
+            {
+              "type": "text",
+              "content": "arithmetic progression",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " (AP) is a list of numbers in which each term is obtained by adding a fixed number d to the preceding term, except the first term. The fixed number d is called the "
+            },
+            {
+              "type": "text",
+              "content": "common difference",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.249,
+            0.65,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The general form of an AP is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a, \\; a+d, \\; a+2d, \\; a+3d, \\; \\ldots"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.273,
+            0.898,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A given list of numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{1}, a_{2}, a_{3}, \\cdots"
+            },
+            {
+              "type": "text",
+              "content": " is an AP, if the differences "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{_2} - a_{_1}, a_{_3} - a_{_2},"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { 4 } - a _ { 3 } , \\ldots , \\mathrm { g i v e }"
+            },
+            {
+              "type": "text",
+              "content": " the same value, i.e., if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { { } _ { k + 1 } } - a _ { { } _ { k } }"
+            },
+            {
+              "type": "text",
+              "content": " is the same for different values of k."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.313,
+            0.9,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In an AP with first term a and common difference d, the nth term (or the general term) is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{n}=a+(n-1)"
+            },
+            {
+              "type": "text",
+              "content": " d."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.358,
+            0.585,
+            0.376
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The sum of the first n terms of an AP is given by :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.377,
+            0.393,
+            0.585,
+            0.426
+          ],
+          "image_path": "images/page_23_equation_9.jpg",
+          "content": "\\mathbb { S } = \\; { \\frac { n } { 2 } } { \\big [ } 2 a + ( n - 1 ) d { \\big ] }"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.123,
+            0.434,
+            0.9,
+            0.471
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If l is the last term of the finite AP, say the nth term, then the sum of all terms of the AP is given by :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.382,
+            0.486,
+            0.502,
+            0.519
+          ],
+          "image_path": "images/page_23_equation_11.jpg",
+          "content": "S = \\frac{n}{2}(a + l)"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.364,
+            0.572,
+            0.634,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A NOTE TO THE READER"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.139,
+            0.62,
+            0.855,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a, b, c are in AP, then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline{b} \\geq \\frac{\\overline{a} + \\overline{c}}{2}"
+            },
+            {
+              "type": "text",
+              "content": " and b is called the arithmetic mean of a and c."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.436,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

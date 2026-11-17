@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.11,
+            0.094,
+            0.875,
+            0.141
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take out the plug from the key. Remove the ammeter and voltmeter from the circuit.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Insert the ammeter in series with the resistor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { \\jmath }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "as shown in Fig. 11.11. Note the ammeter",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " reading, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { \\iota } ."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.212,
+            0.153,
+            0.698,
+            0.259
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.212,
+                0.153,
+                0.698,
+                0.259
+              ],
+              "image_path": "images/page_15_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.427,
+                0.276,
+                0.546,
+                0.291
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.099,
+            0.296,
+            0.873,
+            0.329
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, measure the currents through "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ { 3 ^ { \\prime } } }"
+            },
+            {
+              "type": "text",
+              "content": " Let these be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { \\mathfrak { z } } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "respectively.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " What is the relationship between "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I , \\; I _ { 1 } , \\; I _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I _ { 3 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.276,
+            0.35,
+            0.898,
+            0.384
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is observed that the total current I, is equal to the sum of the separate currents through each branch of the combination.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.308,
+            0.386,
+            0.897,
+            0.405
+          ],
+          "image_path": "images/page_15_equation_5.jpg",
+          "content": "I = I_{_1} + I_{_2} + I_{_3}\\tag{11.15}"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.275,
+            0.406,
+            0.9,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { p }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "be the equivalent resistance of the parallel combination of resistors. By applying Ohm’s law to the parallel combination of resistors, we have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.308,
+            0.458,
+            0.896,
+            0.477
+          ],
+          "image_path": "images/page_15_equation_7.jpg",
+          "content": "\\boldsymbol { \\mathit { \\Pi } } = \\boldsymbol { V } / R _ { p }\\tag{11.16}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.307,
+            0.478,
+            0.737,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On applying Ohm’s law to each resistor, we have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.307,
+            0.497,
+            0.896,
+            0.517
+          ],
+          "image_path": "images/page_15_equation_9.jpg",
+          "content": "I_{1}=V/R_{1}; \\quad I_{2}=V/R_{2}; \\quad  and   I_{3}=V/R_{3}\\tag{11.17}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.307,
+            0.518,
+            0.644,
+            0.535
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From Eqs. (11.15) to (11.17), we have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.411,
+            0.537,
+            0.644,
+            0.558
+          ],
+          "image_path": "images/page_15_equation_11.jpg",
+          "content": "V/R_{p}=V/R_{1}+V/R_{2}+V/R_{3}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.308,
+            0.556,
+            0.334,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.414,
+            0.569,
+            0.896,
+            0.589
+          ],
+          "image_path": "images/page_15_equation_13.jpg",
+          "content": "1 / R_{p}=1 / R_{l}+1 / R_{2}+1 / R_{3}\\tag{11.18}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.275,
+            0.593,
+            0.899,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, we may conclude that the reciprocal of the equivalent resistance of a group of resistances joined in parallel is equal to the sum of the reciprocals of the individual resistances.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.307,
+            0.653,
+            0.454,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.8"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.306,
+            0.668,
+            0.899,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the circuit diagram given in Fig. 11.10, suppose the resistors "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { _ I } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "have the values 5",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", 10",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", 30",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", respectively, which have been connected to a battery of 12 V. Calculate (a) the current through each resistor, (b) the total current in the circuit, and (c) the total circuit resistance.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 18,
+          "bbox": [
+            0.308,
+            0.757,
+            0.399,
+            0.771
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.307,
+            0.772,
+            0.619,
+            0.789
+          ],
+          "image_path": "images/page_15_equation_19.jpg",
+          "content": "R_{1}=5\\ \\Omega, R_{2}=10\\ \\Omega, \\mathrm{and} R_{3}=30\\ \\Omega."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.307,
+            0.789,
+            0.731,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Potential difference across the battery, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V   = 1 2   \\mathrm { V } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.307,
+            0.805,
+            0.899,
+            0.852
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is also the potential difference across each of the individual resistor; therefore, to calculate the current in the resistors, we use Ohm’s law.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.307,
+            0.853,
+            0.644,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The current",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I_{l}, \\mathrm{through} R_{l} = \\mathrm{V/R}_{l}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "I",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " = 12 V/5 Ω = "
+            },
+            {
+              "type": "text",
+              "content": "2.4 A.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "186"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

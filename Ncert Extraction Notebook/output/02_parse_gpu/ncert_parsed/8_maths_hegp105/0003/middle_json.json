@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.087,
+            0.848,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now take any 4 numbers, place ‘+’ and ‘–’ signs in the eight different ways, and evaluate the resulting expression. What do you observe about their parities?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.143,
+            0.552,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Repeat this with other sets of 4 numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.172,
+            0.581,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is there a way to explain why this happens?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.817,
+            0.151,
+            0.904,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.817,
+                0.151,
+                0.904,
+                0.204
+              ],
+              "image_path": "images/page_2_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.197,
+            0.8,
+            0.235
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Think of the rules for parity of the sum or difference of two numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.24,
+            0.848,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explanation 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us consider any of the 8 expressions formed by four numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c ,"
+            },
+            {
+              "type": "text",
+              "content": " and d. When one of its signs is switched, its value always increases or decreases by an even number! Let us see why."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.296,
+            0.588,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider one of the expressions: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b - c - d ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.314,
+            0.417,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Replacing +b by – b, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.438,
+            0.339,
+            0.559,
+            0.356
+          ],
+          "image_path": "images/page_2_equation_9.jpg",
+          "content": "a - b - c - d ."
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.362,
+            0.743,
+            0.382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By how much has the number changed? It has changed by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.361,
+            0.386,
+            0.638,
+            0.405
+          ],
+          "image_path": "images/page_2_equation_11.jpg",
+          "content": "( a + b - c - d ) - ( a - b - c - d )"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.173,
+            0.415,
+            0.825,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "a+b-c-d-a+b+c+"
+            },
+            {
+              "type": "text",
+              "content": " d (notice how the signs changed when we opened the second set of brackets)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.352,
+            0.464,
+            0.644,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "= 2b (this is an even number)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.488,
+            0.848,
+            0.526
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the difference between two numbers is even, can they have different parities? No! So either both are even or both are odd."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.149,
+            0.525,
+            0.847,
+            0.565
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, let us see what happens when a negative sign is switched to a positive sign."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11,
+            0.571,
+            0.847,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Replace any negative sign in the expression a + b – c – d with a positive sign and find the difference between the two numbers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.62,
+            0.6,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What do you conclude from this observation?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.15,
+            0.65,
+            0.847,
+            0.689
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Starting from any expression, we can get 7 expressions by switching one or more ‘+’ and ‘–’ signs. Thus, all the expressions have the same parity!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.692,
+            0.447,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explanation 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We know that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.412,
+            0.716,
+            0.587,
+            0.736
+          ],
+          "image_path": "images/page_2_equation_20.jpg",
+          "content": "\\mathrm{odd} \\pm \\mathrm{odd} = \\mathrm{even}"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.404,
+            0.742,
+            0.596,
+            0.76
+          ],
+          "image_path": "images/page_2_equation_21.jpg",
+          "content": "\\mathrm { e v e n } \\pm \\mathrm { e v e n } = \\mathrm { e v e n }"
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.41,
+            0.765,
+            0.587,
+            0.784
+          ],
+          "image_path": "images/page_2_equation_22.jpg",
+          "content": "\\mathrm{odd} \\pm \\mathrm{even} = \\mathrm{odd}."
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.15,
+            0.789,
+            0.847,
+            0.826
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that the parity of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b"
+            },
+            {
+              "type": "text",
+              "content": " and a – b is the same, regardless of the parities of a and b."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.15,
+            0.826,
+            0.848,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In short, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b"
+            },
+            {
+              "type": "text",
+              "content": " have the same parity. By the same argument, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b \\pm c"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b - c"
+            },
+            {
+              "type": "text",
+              "content": " have the same parity. Extending this further, we can say that all the expressions "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b \\pm c \\pm"
+            },
+            {
+              "type": "text",
+              "content": " d have the same parity."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 25,
+          "bbox": [
+            0.08,
+            0.915,
+            0.126,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "114"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 26,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

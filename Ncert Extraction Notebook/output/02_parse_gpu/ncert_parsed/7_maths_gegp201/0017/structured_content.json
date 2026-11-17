@@ -1,0 +1,249 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.707,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Geometric Twins"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.088,
+            0.847,
+            0.185
+          ],
+          "content": "？ Consider the downward extension of line l below QR. Would the arc from R meet this line downwards as well (as in the case of triangle construction when the sidelengths are given)? If so, would this lead to a triangle whose size and shape are different from ΔPQR, and yet has the given measurements?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.189,
+            0.847,
+            0.246
+          ],
+          "content": "It can be seen that the other triangle we get below is also congruent to ΔPQR. Why? Therefore, all triangles having these measurements will be congruent to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.247,
+            0.539,
+            0.264
+          ],
+          "content": "Thus, we conclude that $\\Delta \\mathrm { A B C } \\cong \\Delta \\mathrm { X Y Z } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.266,
+            0.846,
+            0.305
+          ],
+          "content": "In the case that we have considered, the parts that are equal to their corresponding parts in another triangle are"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.31,
+            0.362,
+            0.33
+          ],
+          "content": "(a) the right angle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.178,
+            0.334,
+            0.846,
+            0.372
+          ],
+          "content": "(b) two other sides, one of which is opposite to the right angle. This side is called the hypotenuse."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.373,
+            0.846,
+            0.411
+          ],
+          "content": "This is called the **RHS (Right Hypotenuse Side)** condition, and is one more condition for congruence."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.412,
+            0.718,
+            0.43
+          ],
+          "level": 2,
+          "content": "Conditions that are sufficient to guarantee congruence"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.431,
+            0.846,
+            0.469
+          ],
+          "content": "From the discussions so far, we can see that two triangles are congruent if any of the following conditions are satisfied:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.178,
+            0.473,
+            0.679,
+            0.493
+          ],
+          "content": "(a) SSS condition (b) SAS condition"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.499,
+            0.357,
+            0.518
+          ],
+          "content": "(c) ASA condition"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.498,
+            0.681,
+            0.519
+          ],
+          "content": "(d) AAS condition"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.524,
+            0.358,
+            0.542
+          ],
+          "content": "(e) RHS condition"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.568,
+            0.812,
+            0.593
+          ],
+          "level": 2,
+          "content": "1.3 Angles of Isosceles and Equilateral Triangles"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.602,
+            0.847,
+            0.661
+          ],
+          "content": "Congruence is a very powerful tool for studying properties of geometric figures. Let us use it to discover an important property of isosceles triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.669,
+            0.846,
+            0.71
+          ],
+          "content": "？ ΔABC is isosceles with $\\mathrm{AB} = \\mathrm{AC},$ and $\\angle \\mathrm { A } = 8 0 ^ { \\circ }$ . What can we say about ∠B and ∠C?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.363,
+            0.721,
+            0.634,
+            0.851
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.867,
+            0.499,
+            0.886
+          ],
+          "content": "Construct the altitude from A to BC."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.951
+          ],
+          "content": "17"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

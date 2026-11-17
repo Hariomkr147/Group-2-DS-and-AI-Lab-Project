@@ -1,0 +1,211 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.146
+          ],
+          "content": "In Fig. 1.2, the equalities are between two angles and the non-included side of the two triangles. This condition is referred to as the **AAS (Angle Angle Side)** condition."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.147,
+            0.759,
+            0.166
+          ],
+          "content": "As we have seen, the AAS condition guarantees congruence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.166,
+            0.848,
+            0.225
+          ],
+          "content": "We have seen that the SSA condition doesn’t always guarantee congruence. However, there are some special cases when SSA does guarantee congruence. Here is one such important case."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.241,
+            0.648,
+            0.264
+          ],
+          "level": 2,
+          "content": "Measuring Two Sides in a Right Triangle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.266,
+            0.846,
+            0.308
+          ],
+          "content": "？ ΔABC and ΔXYZ are right-angled triangles such that $BC = YZ = 4$ cm, $\\angle \\mathrm{B} = \\angle \\mathrm{Y} = 90^{\\circ}$ and AC = XZ=5cm. Are they congruent?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.327,
+            0.847,
+            0.368
+          ],
+          "content": "？ Can there exist non-congruent triangles having these measurements? Construct and find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.39,
+            0.787,
+            0.411
+          ],
+          "content": "Looking at the rough diagram helps in planning the construction."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.373,
+            0.419,
+            0.625,
+            0.577
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.59,
+            0.549,
+            0.608
+          ],
+          "content": "**Step 1:** Draw the base QR of length 4 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.608,
+            0.634,
+            0.628
+          ],
+          "content": "**Step 2:** Draw a line l perpendicular to QR from Q."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.628,
+            0.639,
+            0.646
+          ],
+          "content": "**Step 3:** From R, cut an arc on line l of radius 5 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.646,
+            0.832,
+            0.667
+          ],
+          "content": "**Step 4:** Let P be the point at which the arc intersects the line l. Join PR."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.363,
+            0.671,
+            0.627,
+            0.85
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_15_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.862,
+            0.445,
+            0.883
+          ],
+          "content": "ΔPQR is the required triangle."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.188,
+            0.95
+          ],
+          "content": "16"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

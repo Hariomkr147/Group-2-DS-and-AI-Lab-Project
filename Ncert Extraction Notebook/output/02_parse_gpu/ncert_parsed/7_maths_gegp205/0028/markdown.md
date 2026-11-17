@@ -1,0 +1,18 @@
+2. Preyashi asked her students ‘If you were to get a super power to become aquatic (water-borne), aerial (air-borne), or spaceborne which one would you choose?’. The responses are shown below. Some chose none. Draw a double-bar graph comparing how both <u>grades chose each option. Choose an appropriate scale.</u>
+
+| Grade 5 | w, a, a, a, w, n, s, a, n, w, a, a, a, a, a, w, w, s, a, a, n, w, a, a, n |
+| --- | --- |
+| Grade 9 | n, w, s, a, s, w, s, s, a, a, w, s, s, a, s, a, n, w, s, s, a, w, a, w, a |
+
+3. The temperature variation over two days in different months in Jodhpur, Rajasthan, is given below. Draw a double-bar graph. Use the scale 1 unit = 4°C. Can you guess which two months these days might belong to?
+
+|  | 12 am | 3 am | 6 am | 9 am | 12 pm | 3 pm | 6 pm | 9 pm |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Day 1 | 20°C | 18°C | 16°C | 20°C | 26°C | 34°C | 30°C | 24°C |
+| Day 2 | 37°C | 34°C | 30°C | 33°C | 37°C | 43°C | 42°C | 39°C |
+
+4. The following clustered-bar graph shows the number of electric vehicles registered in some states every year from 2022 to 2024.
+
+Number of Electric Vehicles Registered Per Year
+
+![](images/page_27_chart_7.jpg)

@@ -1,0 +1,273 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.067
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.087,
+            0.846,
+            0.127
+          ],
+          "content": "？ **Example 11:** Riyaz created a math trick, which he tries out on his friend Akash."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.132,
+            0.847,
+            0.171
+          ],
+          "content": "Riyaz asked Akash to perform the following steps without revealing the answer to any of the intermediate steps."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.176,
+            0.38,
+            0.195
+          ],
+          "content": "1. Think of a number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.2,
+            0.468,
+            0.22
+          ],
+          "content": "2. Subtract 3 from the number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.226,
+            0.425,
+            0.246
+          ],
+          "content": "3. Multiply the result by 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.251,
+            0.399,
+            0.27
+          ],
+          "content": "4. Add 8 to the product."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.275,
+            0.425,
+            0.294
+          ],
+          "content": "5. Reveal the final answer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.3,
+            0.626,
+            0.377
+          ],
+          "content": "The final answer revealed by Akash was 24. Using this, Riyaz correctly figured out the starting number that Akash had thought of. Find this number."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.649,
+            0.175,
+            0.938,
+            0.373
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.382,
+            0.624,
+            0.401
+          ],
+          "content": "Try the steps using different numbers as the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.4,
+            0.847,
+            0.44
+          ],
+          "continues_prev": true,
+          "content": "starting number. Do you see any relation between the starting number and final answer?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.445,
+            0.847,
+            0.504
+          ],
+          "content": "The answer can be found by algebraically modeling this scenario. In other words, we can form an equation using an unknown. Let the unknown starting number be x."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.513,
+            0.628,
+            0.536
+          ],
+          "content": "What are the expressions we get after each step?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.543,
+            0.843,
+            0.712
+          ],
+          "content": "| Steps | Expression |\n| --- | --- |\n| Think of a number. | x |\n| Subtract 3 from the number. | x - 3 |\n| Multiply the result by 4. | 4 (x - 3) = 4x - 12 |\n| Add 8 to the product. | 4x - 12 + 8 = 4x - 4 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.151,
+                0.729,
+                0.709,
+                0.75
+              ],
+              "content": "Since Akash’s final answer was 24, we have the equation:"
+            }
+          ],
+          "image_source": "images/page_14_table_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.754,
+            0.533,
+            0.773
+          ],
+          "content": "4x - 4 = 24",
+          "image_source": "images/page_14_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.777,
+            0.552,
+            0.797
+          ],
+          "content": "4(x - 1) = 24",
+          "image_source": "images/page_14_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.423,
+            0.801,
+            0.757,
+            0.823
+          ],
+          "content": "x – 1 = 6 (Dividing both sides by 4)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.826,
+            0.523,
+            0.846
+          ],
+          "content": "Thus, Akash thought of the number 7."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.855,
+            0.846,
+            0.895
+          ],
+          "content": "？ Can you think of a simple rule that you can use to get the starting number from the final answer?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": "178"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

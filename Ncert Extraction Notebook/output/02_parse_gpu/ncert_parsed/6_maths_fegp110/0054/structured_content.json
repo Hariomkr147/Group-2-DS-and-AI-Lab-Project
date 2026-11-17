@@ -1,0 +1,282 @@
+{
+  "pages": [
+    {
+      "page_idx": 53,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.086,
+            0.201,
+            0.103
+          ],
+          "level": 2,
+          "content": "Page 262"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.119,
+            0.11,
+            0.146,
+            0.132
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_53_image_1.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.118,
+            0.111,
+            0.268,
+            0.133
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.142,
+            0.883,
+            0.213
+          ],
+          "content": "**Q.2 Leh in Ladakh gets very cold during the winter. The following is a table of temperature readings taken during different times of the day and night in Leh on a day in November. Match the temperature with the appropriate time of the day and night.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.224,
+            0.16,
+            0.239
+          ],
+          "content": "Ans."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.201,
+            0.247,
+            0.489,
+            0.334
+          ],
+          "content": "| Temperature | Time |\n| --- | --- |\n| 14°C | 02:00 p.m. |\n| 8°C | 11:00 a.m |\n| -2°C | 11:00 p.m. |\n| -4°C | 02:00 a.m. |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_53_table_5.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.362,
+            0.227,
+            0.379
+          ],
+          "level": 2,
+          "content": "Section 10.4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.389,
+            0.201,
+            0.407
+          ],
+          "content": "**Page 263**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.119,
+            0.414,
+            0.146,
+            0.435
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_53_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.418,
+            0.267,
+            0.437
+          ],
+          "content": "**Figure it Out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.446,
+            0.726,
+            0.464
+          ],
+          "content": "**Q.1** Do the calculations for the second grid above and find the border sum."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.473,
+            0.264,
+            0.49
+          ],
+          "content": "Ans. -3, -3, -3, -3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.5,
+            0.585,
+            0.519
+          ],
+          "content": "**Q.2** Complete the grids to make the required border sum:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.528,
+            0.302,
+            0.545
+          ],
+          "content": "Ans. One of the ways:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.309,
+            0.552,
+            0.502,
+            0.606
+          ],
+          "content": "| -10 | 10 | 4 |\n| --- | --- | --- |\n| 5 |  | -5 |\n| 9 | -10 | 5 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.306,
+                0.608,
+                0.43,
+                0.622
+              ],
+              "content": "Border sum +4"
+            }
+          ],
+          "image_source": "images/page_53_table_14.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.31,
+            0.659,
+            0.502,
+            0.711
+          ],
+          "content": "| 6 | 8 | -16 |\n| --- | --- | --- |\n| 11 |  | -5 |\n| -19 | -2 | 19 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.285,
+                0.714,
+                0.406,
+                0.729
+              ],
+              "content": "Border sum -2"
+            }
+          ],
+          "image_source": "images/page_53_table_16.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.31,
+            0.765,
+            0.502,
+            0.818
+          ],
+          "content": "| 7 | -2 | -9 |\n| --- | --- | --- |\n| -3 |  | -5 |\n| -8 | -6 | 10 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.276,
+                0.82,
+                0.395,
+                0.834
+              ],
+              "content": "Border sum -4"
+            }
+          ],
+          "image_source": "images/page_53_table_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.846,
+            0.29,
+            0.863
+          ],
+          "content": "Think of other ways."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.482,
+            0.926,
+            0.517,
+            0.942
+          ],
+          "content": "[11]"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:25+05:30",
+      "modified_at": "2026-04-07T17:41:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "iLovePDF",
+      "page_count": 56,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 53,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

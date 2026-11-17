@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.104,
+            0.372,
+            0.12
+          ],
+          "content": "INTRODUCTION TO TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "131"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.214,
+            0.146,
+            0.535,
+            0.188
+          ],
+          "content": "\\frac{-1}{\\tan \\theta - \\sec \\theta} = \\frac{1}{\\sec \\theta - \\tan \\theta}",
+          "image_source": "images/page_18_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.202,
+            0.658,
+            0.221
+          ],
+          "content": "which is the RHS of the identity, we are required to prove."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.408,
+            0.246,
+            0.59,
+            0.265
+          ],
+          "level": 2,
+          "content": "EXERCISE 8.3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.276,
+            0.784,
+            0.294
+          ],
+          "content": "1. Express the trigonometric ratios sin A, sec A and tan A in terms of cot A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.3,
+            0.708,
+            0.318
+          ],
+          "content": "2. Write all the other trigonometric ratios of $\\angle \\mathrm { A }$ in terms of sec A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.323,
+            0.805,
+            0.388
+          ],
+          "content": "3. Choose the correct option. Justify your choice. (i) 9 $\\sec^{2}A - 9\\tan^{2}A =$ (A) 1 (B) 9 (C) 8 (D) 0"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.393,
+            0.812,
+            0.435
+          ],
+          "content": "(ii) (1 + tan θ + sec θ) (1 + cot θ − cosec θ) = (A) 0 (B) 1 (C) 2 (D) -1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.44,
+            0.843,
+            0.483
+          ],
+          "content": "(iii) (sec A + tan A) (1 − sin A) = (A) sec A (B) sin A (C) cosec A (D) cos A"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.159,
+            0.493,
+            0.846,
+            0.566
+          ],
+          "content": "(iv) $\\frac{1 + \\tan^{2}\\mathrm{A}}{1 + \\cot^{2}\\mathrm{A}}$ (A) $\\sec ^ { 2 } \\mathbf { A }$ (B) -1 $\\cot ^ { 2 } \\mathrm { A }$ (D) $\\tan ^ { 2 } \\mathbf { A }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.57,
+            0.899,
+            0.663
+          ],
+          "content": "4. Prove the following identities, where the angles involved are acute angles for which the expressions are defined. (i) $( \\csc \\theta - \\cot \\theta ) ^ { 2 } = { \\frac { 1 - \\cos \\theta } { 1 + \\cos \\theta } }$ (ii) $\\frac{\\cos  A }{1 + \\sin  A } + \\frac{1 + \\sin  A }{\\cos  A } = 2 \\sec  A$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.668,
+            0.568,
+            0.707
+          ],
+          "content": "(iii) $\\frac{\\tan \\theta}{1 - \\cot \\theta} + \\frac{\\cot \\theta}{1 - \\tan \\theta} = 1 + \\sec \\theta$ cosec θ"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.203,
+            0.712,
+            0.688,
+            0.73
+          ],
+          "content": "[Hint : Write the expression in terms of sin θ and cos θ]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.734,
+            0.812,
+            0.773
+          ],
+          "content": "(iv) $\\frac{1 + \\sec A}{\\sec A} = \\frac{\\sin^{2}A}{1 - \\cos A}$ [Hint : Simplify LHS and RHS separately]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.776,
+            0.898,
+            0.865
+          ],
+          "content": "(v) $\\frac{\\cos^{-}A-\\sin A+1}{\\cos A+\\sin A-1}=\\csc\\mathrm{A}+\\cot\\mathrm{A}$ , using the identity cosec² $\\mathrm { A }   =   1 + \\cot ^ { 2 } \\mathrm { A }$ (vi) $\\sqrt{\\frac{1 + \\sin A}{1 - \\sin A}} = \\sec A + \\tan A$ (vii) $\\frac{\\sin \\theta - 2\\sin^{3}\\theta}{2\\cos^{3}\\theta - \\cos \\theta} = \\tan \\theta$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.873,
+            0.703,
+            0.892
+          ],
+          "content": "(viii) $(\\sin \\mathrm{A} + \\csc \\mathrm{c} \\mathrm{A})^2 + (\\cos \\mathrm{A} + \\sec \\mathrm{A})^2 = 7 + \\tan^2 \\mathrm{A} + \\cot^2 \\mathrm{A}$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

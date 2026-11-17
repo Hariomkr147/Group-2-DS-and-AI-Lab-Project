@@ -1,0 +1,167 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.743,
+            0.065,
+            0.835,
+            0.082
+          ],
+          "content": "Symmetry"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.121,
+            0.326,
+            0.142
+          ],
+          "content": "Here is one way:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.333,
+            0.135,
+            0.615,
+            0.353
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.364,
+            0.834,
+            0.431
+          ],
+          "content": "We have seen figures having 4 and 2 angles of symmetry. Can we get a figure having exactly 3 angles of symmetry? Can you use radial arms for this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.433,
+            0.833,
+            0.477
+          ],
+          "content": "Let us try with 3 radial arms as in the figure below. How many angles of symmetry does it have and what are they?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.478,
+            0.563,
+            0.5
+          ],
+          "content": "Here is a figure with three radial arms."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.313,
+            0.508,
+            0.623,
+            0.701
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.712,
+            0.833,
+            0.756
+          ],
+          "content": "Trace and cut out a copy of this figure. By rotating the cutout over this figure determine its angles of rotation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.757,
+            0.834,
+            0.825
+          ],
+          "content": "We see that only a full turn or a rotation of 360° will bring the figure back into itself. So this figure does not have rotational symmetry as 360 degrees is its only angle of symmetry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.826,
+            0.833,
+            0.871
+          ],
+          "content": "However, can anything in the figure be changed to make it have 3 angles of symmetry?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:10+05:30",
+      "modified_at": "2026-04-07T17:41:10+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

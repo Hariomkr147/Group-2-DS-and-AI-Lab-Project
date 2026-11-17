@@ -1,0 +1,179 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.942,
+            0.05,
+            0.988,
+            0.069
+          ],
+          "content": "113"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.12,
+            0.08,
+            0.739,
+            0.318
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.24,
+                0.325,
+                0.634,
+                0.342
+              ],
+              "content": "Fig. 8.10: Boys running a race on a straight track"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_8_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.349,
+            0.744,
+            0.405
+          ],
+          "content": "Someone who is ahead of others at some instant of time, is running faster than them. Hence, someone who has covered more distance within the same time is running faster."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.407,
+            0.744,
+            0.482
+          ],
+          "content": "The distances moved by objects in a given interval of time decide which one is faster or slower. We often say that the faster runner has a higher speed. You are probably familiar with the word ‘speed’."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.5,
+            0.279,
+            0.525
+          ],
+          "level": 2,
+          "content": "8.3 Speed"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.545,
+            0.744,
+            0.638
+          ],
+          "content": "By comparing the distances moved by two or more objects in a unit time, it can be found out which of them is moving faster. The unit time may be one second or one minute or one hour. We call the distance covered by an object in a unit time as the **speed** of the object."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.639,
+            0.744,
+            0.714
+          ],
+          "content": "How can we **determine** the speed of an object? It can be calculated, if we know the total distance covered by an object and the time taken to cover it. The speed of an object is the total distance covered divided by the total time taken to cover it. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.254,
+            0.722,
+            0.58,
+            0.765
+          ],
+          "content": "\\mathrm{Speed} = \\frac{\\mathrm{Total distance covered}}{\\mathrm{Total time taken}}",
+          "image_source": "images/page_8_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.77,
+            0.745,
+            0.828
+          ],
+          "content": "What would be the unit of speed? We know the SI units of length and time. Since the speed is distance/time, the **SI unit of speed** is **metre/second** and is expressed as **m/s**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.829,
+            0.744,
+            0.887
+          ],
+          "content": "Speed can also be expressed in other units. If we **express** the distance in kilometre and time in hour, then the unit of speed is **kilometre/hour**, expressed as **km/h**."
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.959,
+            0.119,
+            0.98,
+            0.345
+          ],
+          "content": "Measurement of Time and Motion"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-04-03T16:54:28+05:30",
+      "modified_at": "2026-03-27T13:54:27+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "INTRODUCTION TO TRIGONOMETRY"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "123"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.139,
+            0.901,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As you know, for finding the trigonometric ratios, we need to know the lengths of the sides of the triangle. So, let us suppose that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } = 2 a"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.203,
+            0.158,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.428,
+            0.19,
+            0.595,
+            0.231
+          ],
+          "image_path": "images/page_10_equation_4.jpg",
+          "content": "\\mathrm { B D } =   { \\frac { 1 } { 2 } } \\mathrm { B C } = a ."
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.098,
+            0.242,
+            0.141,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.285,
+            0.24,
+            0.673,
+            0.259
+          ],
+          "image_path": "images/page_10_equation_6.jpg",
+          "content": "\\mathrm{AD}^{2}=\\mathrm{AB}^{2}-\\mathrm{BD}^{2}=(2a)^{2}-(a)^{2}=3a^{2},"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.278,
+            0.205,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.427,
+            0.27,
+            0.546,
+            0.295
+          ],
+          "image_path": "images/page_10_equation_8.jpg",
+          "content": "AD =\\overset{\\cdot}{a\\sqrt{3}}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.302,
+            0.255,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, we have :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.224,
+            0.313,
+            0.747,
+            0.358
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "\\sin 30^{\\circ} = \\frac{BD}{AB} = \\frac{a}{2a} = \\frac{1}{2}, \\cos 30^{\\circ} = \\frac{AD}{AB} = \\frac{a\\sqrt{3}}{2a} = \\frac{\\sqrt{3}}{2}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.222,
+            0.359,
+            0.508,
+            0.401
+          ],
+          "image_path": "images/page_10_equation_11.jpg",
+          "content": "\\tan 30^{\\circ} = \\frac{\\mathrm{BD}}{\\mathrm{AD}} = \\frac{a}{a\\sqrt{3}} = \\frac{1}{\\sqrt{3}}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.098,
+            0.408,
+            0.697,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, cosec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 0 ^ { \\circ } = \\frac { 1 } { \\sin 3 0 ^ { \\circ } } = 2 ,"
+            },
+            {
+              "type": "text",
+              "content": " sec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "30^{\\circ} - \\frac{1}{\\cos 30^{\\circ}} = \\frac{2}{\\sqrt[3]{3}}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.221,
+            0.458,
+            0.465,
+            0.5
+          ],
+          "image_path": "images/page_10_equation_13.jpg",
+          "content": "\\cot 30^{\\circ} = \\frac{1}{\\tan 30^{\\circ}} = \\sqrt{3}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.097,
+            0.507,
+            0.189,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.224,
+            0.517,
+            0.775,
+            0.563
+          ],
+          "image_path": "images/page_10_equation_15.jpg",
+          "content": "\\sin 60^{\\circ} = \\frac{AD}{AB} = \\frac{a\\sqrt{3}}{2a} = \\frac{\\sqrt{3}}{2}, \\cos 60^{\\circ} = \\frac{1}{2}, \\tan 60^{\\circ} = \\sqrt{3}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.196,
+            0.567,
+            0.665,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "cosec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ } = ( \\frac { 2 } { \\sqrt { 3 } } )"
+            },
+            {
+              "type": "text",
+              "content": " sec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ } = 2"
+            },
+            {
+              "type": "text",
+              "content": " and cot "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ } = { \\frac { 1 } { \\sqrt { 3 } } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.097,
+            0.619,
+            0.47,
+            0.639
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Trigonometric Ratios of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 0 } ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { 9 0 ^ { \\circ } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.095,
+            0.646,
+            0.672,
+            0.775
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see what happens to the trigonometric ratios of angle A, if it is made smaller and smaller in the right triangle ABC (see Fig. 8.16), till it becomes zero. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A s }   \\angle \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " gets smaller and smaller, the length of the side BC decreases.The point C gets closer to point B, and finally when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { \\angle A }"
+            },
+            {
+              "type": "text",
+              "content": " becomes very close to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " , AC becomes almost the same as AB (see Fig. 8.17)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.722,
+            0.656,
+            0.839,
+            0.744
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.722,
+                0.656,
+                0.839,
+                0.744
+              ],
+              "image_path": "images/page_10_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.732,
+                0.75,
+                0.83,
+                0.769
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 21,
+          "bbox": [
+            0.096,
+            0.79,
+            0.905,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 21,
+              "bbox": [
+                0.096,
+                0.79,
+                0.905,
+                0.877
+              ],
+              "image_path": "images/page_10_image_21.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 22,
+              "bbox": [
+                0.449,
+                0.889,
+                0.549,
+                0.909
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

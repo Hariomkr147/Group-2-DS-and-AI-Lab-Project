@@ -1,0 +1,273 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.232,
+            0.079,
+            0.291,
+            0.109
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_0.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.296,
+            0.087,
+            0.486,
+            0.105
+          ],
+          "level": 2,
+          "content": "Pause and Ponder"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.26,
+            0.114,
+            0.862,
+            0.147
+          ],
+          "content": "3. Assertion (A): We cannot hear the sound of a bell ringing in a closed jar after most of the air is pumped out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.149,
+            0.674,
+            0.167
+          ],
+          "content": "Reason (R): Sound requires a medium to travel."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.283,
+            0.168,
+            0.53,
+            0.184
+          ],
+          "content": "Choose the correct statement:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.285,
+            0.187,
+            0.825,
+            0.205
+          ],
+          "content": "(i) Both A and R are true, but R is not the correct explanation of A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.281,
+            0.206,
+            0.799,
+            0.224
+          ],
+          "content": "(ii) Both A and R are true, and R is the correct explanation of A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.276,
+            0.225,
+            0.504,
+            0.242
+          ],
+          "content": "(iii) A is true, but R is false."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.278,
+            0.244,
+            0.503,
+            0.261
+          ],
+          "content": "(iv) A is false, but R is true."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.225,
+            0.287,
+            0.458,
+            0.308
+          ],
+          "level": 2,
+          "content": "10.3 Sound Waves"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.312,
+            0.89,
+            0.43
+          ],
+          "content": "Sound needs a material medium to propagate but how does it propagate through that medium? In Activity 10.2, you could hear a sound when you held the vibrating tuning fork near your ear in different orientations. This indicates that sound propagates in multiple directions from a source (in this case from the tuning fork). In general, the directions in which sound propagates may depend on the shape of the source. However, for simplicity, we will consider and illustrate sound as moving in only one direction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.43,
+            0.89,
+            0.499
+          ],
+          "content": "Let us begin with a simple activity using a slinky (a long, flexible metal or plastic spring toy) as an analogy for the medium through which sound travels. To simulate the production of sound, we will vibrate one end of the slinky."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.225,
+            0.506,
+            0.517,
+            0.525
+          ],
+          "level": 2,
+          "content": "Activity 10.5: Let us observe"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.236,
+            0.527,
+            0.515,
+            0.544
+          ],
+          "content": "1. Take a slinky and a marker."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.236,
+            0.545,
+            0.888,
+            0.58
+          ],
+          "content": "2. Make a mark on a turn of the slinky with the marker. Lay out the slinky horizontally on a table or floor."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.236,
+            0.58,
+            0.888,
+            0.615
+          ],
+          "content": "3. Ask a friend to hold one end of the slinky fixed while you hold the other end keeping the slinky slightly stretched."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.616,
+            0.889,
+            0.667
+          ],
+          "content": "4. Give the slinky at your end a sharp push towards your friend and then quickly pull it back again (Fig. 10.8). Do you **observe** a disturbance created in the slinky which moves towards your friend?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.236,
+            0.667,
+            0.89,
+            0.77
+          ],
+          "content": "5. Now, push and pull the slinky end multiple times in quick succession (The pulling and pushing of the end of the slinky is similar to the sound being produced continuously). Are a series of disturbances produced in the slinky? Do these disturbances move across the length of slinky? Does the mark on the slinky move back and forth parallel to the direction of the disturbance?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.773,
+            0.876,
+            0.892
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.329,
+                0.892,
+                0.664,
+                0.909
+              ],
+              "content": "Fig. 10.8: Disturbance travelling along a slinky"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.114,
+            0.96
+          ],
+          "content": "188"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.946,
+            0.303,
+            0.963
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "ar-SA"
+      ],
+      "created_at": "2026-04-03T20:04:36+05:30",
+      "modified_at": "2026-05-13T10:46:25+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

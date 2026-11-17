@@ -1,0 +1,296 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.653,
+            0.046,
+            0.862,
+            0.065
+          ],
+          "content": "Proportional Reasoning-1"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.089,
+            0.291,
+            0.113
+          ],
+          "level": 2,
+          "content": "7.2 Ratios"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.123,
+            0.847,
+            0.16
+          ],
+          "content": "We use the notion of a **ratio** to represent such proportional relationships in mathematics."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.16,
+            0.728,
+            0.18
+          ],
+          "content": "We can say that the ratio of width to height of image A is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.461,
+            0.183,
+            0.537,
+            0.203
+          ],
+          "content": "6 0 : 4 0 .",
+          "image_source": "images/page_2_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.208,
+            0.704,
+            0.228
+          ],
+          "content": "The numbers 60 and 40 are called the **terms** of the ratio."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.231,
+            0.846,
+            0.27
+          ],
+          "content": "The ratio of width to height of image C is 30 : 20, and that of image D is 90 : 60."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.281,
+            0.835,
+            0.322
+          ],
+          "content": "In a ratio of the form a : b, we can say that for every ‘a’ units of the first quantity, there are ‘b’ units of the second quantity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.336,
+            0.848,
+            0.374
+          ],
+          "content": "So, in image A, we can say that for every 60 mm of width, there are 40 mm of height."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.373,
+            0.848,
+            0.43
+          ],
+          "content": "We can say that the ratios of width to height of images A, C, and D are proportional because the terms of these ratios change by the same factor. Let us see how."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.409,
+            0.434,
+            0.591,
+            0.455
+          ],
+          "content": "\\mathrm { I m a g e ~ A } = 6 0 : 4 0",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.46,
+            0.561,
+            0.482
+          ],
+          "content": "Multiplying both the terms by ${ \\frac { 1 } { 2 } } ,$ we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.432,
+            0.483,
+            0.566,
+            0.511
+          ],
+          "content": "60 \\times \\frac{1}{2} : 40 \\times \\frac{1}{2}",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.511,
+            0.687,
+            0.532
+          ],
+          "content": "which is 30 : 20, the ratio of width to height in image C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.542,
+            0.847,
+            0.581
+          ],
+          "content": "？ By what factor should we multiply the ratio 60 : 40 (image A) to get 90 : 60 (image D)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.585,
+            0.848,
+            0.642
+          ],
+          "content": "A more systematic way to compare whether the ratios are proportional is to reduce them to their **simplest form** and see if these simplest forms are the same."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.657,
+            0.605,
+            0.682
+          ],
+          "level": 2,
+          "content": "7.3 Ratios in their Simplest Form"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.691,
+            0.847,
+            0.729
+          ],
+          "content": "We can reduce ratios to their simplest form by dividing the terms by their HCF."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.728,
+            0.848,
+            0.784
+          ],
+          "content": "In image A, the terms are 60 and 40. What is the HCF of 60 and 40? It is 20. Dividing the terms by 20, we get the ratio of image A to be 3 : 2 in its simplest form."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.783,
+            0.849,
+            0.84
+          ],
+          "content": "The ratio of image D is 90 : 60. Dividing both terms by 30 (HCF of 90 and 60), we get the simplest form to be 3 : 2. So the ratios of images A and D are proportional as well."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.84,
+            0.716,
+            0.86
+          ],
+          "content": "What is the simplest form of the ratios of images B and E?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.859,
+            0.731,
+            0.878
+          ],
+          "content": "The ratio of image B is 40 : 20; in its simplest form, it is 2 : 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.878,
+            0.732,
+            0.898
+          ],
+          "content": "The ratio of image E is 60 : 60; in its simplest form, it is 1 : 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.872,
+            0.914,
+            0.92,
+            0.938
+          ],
+          "content": "161"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:31+05:30",
+      "modified_at": "2026-05-15T17:58:36+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

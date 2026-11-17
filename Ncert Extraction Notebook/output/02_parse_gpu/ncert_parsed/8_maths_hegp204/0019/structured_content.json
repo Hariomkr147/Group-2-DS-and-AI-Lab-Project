@@ -1,0 +1,181 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.419,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.845,
+            0.126
+          ],
+          "content": "to be detailed enough so that one can physically construct the objects they depict."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.126,
+            0.772,
+            0.147
+          ],
+          "content": "We will now explore some ways of drawing solids on a plane."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.156,
+            0.278,
+            0.175
+          ],
+          "level": 2,
+          "content": "Projections"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.18,
+            0.846,
+            0.236
+          ],
+          "content": "The net of a solid (when it exists) is one way of representing a solid on the plane. But it can be difficult to visualise the solid from the net, without physically cutting out the net and folding it up."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.236,
+            0.847,
+            0.31
+          ],
+          "content": "Another way to represent a solid is by looking at the **projections** of all its points on a plane. This idea is closely related to the profile of a solid from a specific viewpoint, which we discussed earlier. Let us see how this technique works."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.348,
+            0.307,
+            0.666,
+            0.53
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_18_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.548,
+            0.845,
+            0.585
+          ],
+          "content": "Consider a point P in space, and a plane M. Imagine a line from P intersecting the plane M at a point O."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.585,
+            0.847,
+            0.661
+          ],
+          "content": "We say that OP is **perpendicular to the plane** if for any line OX on the plane, $\\angle POX = 90^{\\circ}$ In this case, we say that point O is the **projection** of point P on the plane. The projections of all the points of an object together form the **projection of the object on the plane**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.669,
+            0.534,
+            0.692
+          ],
+          "content": "? Let us visualise the projection of a line."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.185,
+            0.691,
+            0.813,
+            0.914
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.473,
+                0.914,
+                0.531,
+                0.93
+              ],
+              "content": "Fig. 4.2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_10.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.913,
+            0.123,
+            0.935
+          ],
+          "content": "88"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

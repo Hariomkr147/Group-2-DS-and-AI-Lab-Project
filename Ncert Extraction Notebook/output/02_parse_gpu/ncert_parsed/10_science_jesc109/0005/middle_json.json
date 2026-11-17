@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.079,
+            0.716,
+            0.58,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.079,
+                0.716,
+                0.58,
+                0.882
+              ],
+              "image_path": "images/page_4_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.278,
+            0.084,
+            0.904,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You will see in the above Activity that the nature, position and size of the image formed by a concave mirror depends on the position of the object in relation to points P, F and C. The image formed is real for some positions of the object. It is found to be a virtual image for a certain other position. The image is either magnified, reduced or has the same size, depending on the position of the object. A summary of these observations is given for your reference in Table 9.1.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.077,
+            0.227,
+            0.898,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.073,
+                0.205,
+                0.804,
+                0.222
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 9.1 Image formation by a concave mirror for different positions of the object"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.077,
+                0.227,
+                0.898,
+                0.436
+              ],
+              "image_path": "images/page_4_table_3.jpg",
+              "content": "<table><tbody><tr><td>Position of the</td><td>Position of the</td><td>Size of the</td><td>Nature of the</td></tr><tr><td>object</td><td>image</td><td>image</td><td>image</td></tr><tr><td>At infinity</td><td>At the focus F</td><td>Highly diminished, point-sized</td><td>Real and inverted</td></tr><tr><td>Beyond C</td><td>Between F and C</td><td>Diminished</td><td>Real and inverted</td></tr><tr><td>At C</td><td>At C</td><td>Same size</td><td>Real and inverted</td></tr><tr><td>Between C and F</td><td>Beyond C</td><td>Enlarged</td><td>Real and inverted</td></tr><tr><td>At F</td><td>At infinity</td><td>Image would</td><td>not be formed</td></tr><tr><td>Between P and F</td><td>Behind the mirror</td><td>Enlarged</td><td>Virtual and erect</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.276,
+            0.455,
+            0.899,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9.2.2 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.276,
+            0.509,
+            0.901,
+            0.666
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can also study the formation of images by spherical mirrors by drawing ray diagrams. Consider an extended object, of finite size, placed in front of a spherical mirror. Each small portion of the extended object acts like a point source. An infinite number of rays originate from each of these points. To construct the ray diagrams, in order to locate the image of an object, an arbitrarily large number of rays emanating from a point could be considered. However, it is more convenient to consider only two rays, for the sake of clarity of the ray diagram. These rays are so chosen that it is easy to know their directions after reflection from the mirror.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.276,
+            0.666,
+            0.901,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The intersection of at least two reflected rays give the position of image of the point object. Any two of the following rays can be considered for locating the image.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.618,
+            0.732,
+            0.901,
+            0.88
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A ray parallel to the principal axis"
+            },
+            {
+              "type": "text",
+              "content": ", after reflection, will pass through the principal focus in case of a concave mirror or appear to diverge from the principal focus in case of a convex mirror. This is illustrated in Fig.9.3 (a) and (b).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "138"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.447,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

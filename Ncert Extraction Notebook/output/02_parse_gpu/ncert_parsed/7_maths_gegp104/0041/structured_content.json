@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "page_idx": 40,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.088,
+            0.744,
+            0.106
+          ],
+          "content": "**Do you see any pattern in it? List other patterns that you see.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.121,
+            0.603,
+            0.138
+          ],
+          "content": "1. All numbers in Column 4 are multiples of 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.141,
+            0.729,
+            0.158
+          ],
+          "content": "2. Even numbers always appear in column 2 and column 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.162,
+            0.721,
+            0.202
+          ],
+          "content": "3. Odd numbers always appear in column 1 and column 3. Find some more!"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.488,
+            0.928,
+            0.513,
+            0.942
+          ],
+          "content": "16"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 40,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

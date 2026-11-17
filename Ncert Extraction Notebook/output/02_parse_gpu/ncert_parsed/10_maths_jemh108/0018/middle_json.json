@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "130"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.105,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.482,
+            0.14,
+            0.852,
+            0.232
+          ],
+          "image_path": "images/page_17_equation_2.jpg",
+          "content": "\\begin{aligned}&=\\frac{(1-\\sin A)(1+\\sin A)}{\\cos^{2}A}=\\frac{1-\\sin^{2}A}{\\cos^{2}A}\\\\&=\\frac{\\cos^{2}A}{\\cos^{2}A}=1= RHS \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.248,
+            0.647,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11 : Prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{\\cot \\mathrm{A}-\\cos \\mathrm{A}}{\\cot \\mathrm{A}+\\cos \\mathrm{A}}=\\frac{\\csc \\mathrm{A}-1}{\\csc \\mathrm{A}+1}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.306,
+            0.898,
+            0.482
+          ],
+          "image_path": "images/page_17_equation_4.jpg",
+          "content": "\\begin{aligned}\\text { solution : LHS = \\frac{\\text { cost A - cos A}}{\\text { cost A + cos A}}=\\frac{\\frac{\\text { cos A }}{\\text { sin A }}-\\text { cos A}}{\\frac{\\text { cos A }}{\\text { sin A }}+\\text { cos A}}} \\\\=\\frac{\\text { cos A}\\left(\\frac{1}{\\text { sin A }}-1\\right)}{\\text { cos A}\\left(\\frac{1}{\\text { sin A }}+1\\right)}=\\frac{\\left(\\frac{1}{\\text { sin A }}-1\\right)}{\\left(\\frac{1}{\\text { sin A }}+1\\right)}=\\frac{\\frac{\\text { cos } \\text { sec A }}{\\text { cos } \\text { c A }}-1}{\\frac{\\text { cos } \\text { c A }}{\\text { cos } \\text { c A }}+1}=\\text { RHS}\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.506,
+            0.899,
+            0.571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 12 : Prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{\\sin \\theta - \\cos \\theta + 1}{\\sin \\theta + \\cos \\theta - 1} = \\frac{1}{\\sec \\theta - \\tan \\theta}"
+            },
+            {
+              "type": "text",
+              "content": " using the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sec ^ { 2 } \\Theta = 1 + \\tan ^ { 2 } \\Theta ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.581,
+            0.901,
+            0.645
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Since we will apply the identity involving sec θ and tan θ, let us first convert the LHS (of the identity we need to prove) in terms of sec θ and tan θ by dividing numerator and denominator by cos θ."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.161,
+            0.657,
+            0.786,
+            0.893
+          ],
+          "image_path": "images/page_17_equation_7.jpg",
+          "content": "\\begin{aligned} \\mathrm{LHS} &= \\frac{\\sin \\theta - \\cos \\theta + 1}{\\sin \\theta + \\cos \\theta - 1} = \\frac{\\tan \\theta - 1 + \\sec \\theta}{\\tan \\theta + 1 - \\sec \\theta} \\\\&= \\frac{(\\tan \\theta + \\sec \\theta) - 1}{(\\tan \\theta - \\sec \\theta) + 1} = \\frac{\\{(\\tan \\theta + \\sec \\theta) - 1\\}(\\tan \\theta - \\sec \\theta)}{\\{(\\tan \\theta - \\sec \\theta) + 1\\}(\\tan \\theta - \\sec \\theta)} \\\\&= \\frac{(\\tan^2 \\theta - \\sec^2 \\theta) - (\\tan \\theta - \\sec \\theta)}{\\{\\tan \\theta - \\sec \\theta + 1\\}(\\tan \\theta - \\sec \\theta)} \\\\&= \\frac{-1 - \\tan \\theta + \\sec \\theta}{\\{\\tan \\theta - \\sec \\theta + 1\\}(\\tan \\theta - \\sec \\theta)}\\\\ \\end{aligned}"
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

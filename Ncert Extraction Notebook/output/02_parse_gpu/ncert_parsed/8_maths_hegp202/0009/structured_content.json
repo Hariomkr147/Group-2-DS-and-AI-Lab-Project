@@ -1,0 +1,215 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.553,
+            0.048,
+            0.862,
+            0.066
+          ],
+          "content": "The Baudhāyana-Pythagoras Theorem"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.424,
+            0.087,
+            0.576,
+            0.109
+          ],
+          "content": "\\mathrm{S}0,(\\sqrt{72})^{2}=2a^{2}",
+          "image_source": "images/page_8_equation_1.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.489,
+            0.118,
+            0.578,
+            0.138
+          ],
+          "content": "7 2 = 2 a ^ { 2 } .",
+          "image_source": "images/page_8_equation_2.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.436,
+            0.151,
+            0.614,
+            0.178
+          ],
+          "content": "\\mathrm{Thus}, a^{2} = \\frac{72}{2} = 36.",
+          "image_source": "images/page_8_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.465,
+            0.184,
+            0.616,
+            0.206
+          ],
+          "content": "\\mathrm{S}0, a = \\sqrt{36} = 6.",
+          "image_source": "images/page_8_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.21,
+            0.649,
+            0.23
+          ],
+          "content": "Therefore, each of the other two sides has length 6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.229,
+            0.839,
+            0.25
+          ],
+          "content": "Use this formula to check your answers in the Figure it Out on page 39."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.273,
+            0.668,
+            0.297
+          ],
+          "level": 2,
+          "content": "2.4 Combining Two Different Squares"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.306,
+            0.848,
+            0.364
+          ],
+          "content": "We have seen in the previous sections how to combine two copies of the same square to make a larger square whose area is the sum of the areas of the two smaller squares."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.192,
+            0.376,
+            0.807,
+            0.514
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.532,
+            0.847,
+            0.572
+          ],
+          "content": "The sidelength of the larger square is the length of the diagonal of either of the smaller squares."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.58,
+            0.846,
+            0.621
+          ],
+          "content": "？ What if we wish to combine two squares of ‘different’ sizes to make a large square whose area is the sum of the two smaller squares?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.192,
+            0.634,
+            0.732,
+            0.774
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.793,
+            0.847,
+            0.851
+          ],
+          "content": "In his Śulba-Sūtra (Verse 1.12), Baudhāyana also gives a truly remarkable solution to this more general problem of combining two different sized squares. He writes:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.872,
+            0.829,
+            0.913
+          ],
+          "content": "The area of the square produced by the diagonal is the sum of the areas of the squares produced by the two sides."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.876,
+            0.914,
+            0.911,
+            0.935
+          ],
+          "content": "41"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

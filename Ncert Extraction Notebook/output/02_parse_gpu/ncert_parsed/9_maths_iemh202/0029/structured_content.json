@@ -1,0 +1,206 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.071,
+            0.147,
+            0.087
+          ],
+          "content": "36"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.195,
+            0.11,
+            0.881,
+            0.148
+          ],
+          "content": "(i) % of cows decreased, % of sheep decreased, % of chickens decreased"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.148,
+            0.881,
+            0.186
+          ],
+          "content": "(ii) % of cows increased, % of sheep increased, % of chickens increased"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.184,
+            0.187,
+            0.881,
+            0.225
+          ],
+          "content": "(iii) % of cows remained the same, % of sheep remained the same, % of chickens remained the same"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.185,
+            0.225,
+            0.881,
+            0.263
+          ],
+          "content": "(iv) % of cows decreased, % of sheep increased, % of chickens remained the same"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.263,
+            0.881,
+            0.302
+          ],
+          "content": "(v) % of cows increased, % of sheep increased, % of chickens decreased."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.371,
+            0.328,
+            0.629,
+            0.349
+          ],
+          "level": 2,
+          "content": "Chapter Summary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.366,
+            0.881,
+            0.408
+          ],
+          "content": "The **weighted average** or **weighted mean** of $X_{1},X_{2},X_{3},\\ldots,X_{n}$ with weights $w _ { 1 } , w _ { 2 } , w _ { 3 } , \\ldots , w _ { n }$ respectively is given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.331,
+            0.413,
+            0.699,
+            0.452
+          ],
+          "content": "\\chi = \\frac{W_{1}X_{1} + W_{2}X_{2} + W_{3}X_{3} + \\cdots + W_{n}X_{n}}{W_{1} + W_{2} + W_{3} + \\cdots + W_{n}}",
+          "image_source": "images/page_28_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.464,
+            0.881,
+            0.523
+          ],
+          "content": "An average of averages can be computed using the weighted mean. The weighted mean can also be used to calculate the mean when certain values are added to or removed from data."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.527,
+            0.881,
+            0.567
+          ],
+          "content": "• The weighted average is also useful in calculating the concentration of mixtures."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.571,
+            0.884,
+            0.669
+          ],
+          "content": "Whenever different parts of data have different number of values or levels of importance, the weighted mean can be used by assigning appropriate weights to each part of the data. Examples include rating systems and combining marks of different assessments to get a final score."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.672,
+            0.883,
+            0.713
+          ],
+          "content": "**Stacked bar charts** may be used in place of cluster bar charts if the total of each cluster is also a matter of interest."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.717,
+            0.881,
+            0.756
+          ],
+          "content": "**100% stacked bar charts**, like pie charts, compare proportions and not absolute values."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.761,
+            0.881,
+            0.8
+          ],
+          "content": "• Given a stacked bar chart, a corresponding 100% stacked bar chart can be made but not vice versa."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

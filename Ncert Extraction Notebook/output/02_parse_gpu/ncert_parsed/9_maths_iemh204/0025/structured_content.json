@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.682,
+            0.071,
+            0.812,
+            0.089
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": "75"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.11,
+            0.882,
+            0.17
+          ],
+          "content": "2. Draw a non-convex 4-gon DART. Show how we can tile the plane with copies of DART. Both methods that we discussed earlier will work. Which do you prefer?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.212,
+            0.69,
+            0.239
+          ],
+          "level": 2,
+          "content": "End-of-Chapter Exercises"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.257,
+            0.881,
+            0.317
+          ],
+          "content": "1. Using a fact about parallelograms, show how to tile the plane using any given triangle. (**Hint:** Can you use the parallelogram tiling in the introduction?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.32,
+            0.883,
+            0.379
+          ],
+          "content": "2. Mark the midpoint of the line drawn on the paper (see Fig. 12.33), given that the horizontal lines are equally spaced. Justify your answer."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.369,
+            0.38,
+            0.667,
+            0.552
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.557,
+                0.548,
+                0.576
+              ],
+              "content": "Fig. 12.33"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_24_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.587,
+            0.882,
+            0.683
+          ],
+          "content": "3. You know that the sum of angles of a quadrilateral is $3 6 0 ^ { \\circ }$ , even for a non-convex quadrilateral. (Recall the proof.) Now consider a self-intersecting quadrilateral ABCD, where AB and CD intersect at point E. Show that $\\angle A + \\angle B + \\angle C + \\angle D < 360^{\\circ}$ . Can you construct ABCD such that $\\angle A + \\angle B + \\angle C + \\angle D = 2^{\\circ}?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.688,
+            0.882,
+            0.748
+          ],
+          "content": "4. In a parallelogram ABCD, two points P and Q are taken on diagonal BD such that DP = BQ (see Fig. 12.34). Show that APCQ is a parallelogram."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.388,
+            0.753,
+            0.644,
+            0.865
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.874,
+                0.548,
+                0.892
+              ],
+              "content": "Fig. 12.34"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_24_image_10.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

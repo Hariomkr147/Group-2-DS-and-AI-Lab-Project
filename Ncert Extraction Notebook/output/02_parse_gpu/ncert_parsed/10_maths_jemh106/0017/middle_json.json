@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.195,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "TRIANGLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "89"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.196,
+            0.148,
+            0.803,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.196,
+                0.148,
+                0.803,
+                0.319
+              ],
+              "image_path": "images/page_16_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.448,
+                0.325,
+                0.55,
+                0.344
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.355,
+            0.5,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Cut DP = AB and DQ = AC and join PQ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.406,
+            0.284,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It can be seen that"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.393,
+            0.391,
+            0.758,
+            0.435
+          ],
+          "image_path": "images/page_16_equation_6.jpg",
+          "content": "\\left[ \\frac{\\mathrm{DP}}{\\mathrm{PE}} = \\frac{\\mathrm{DQ}}{\\mathrm{QF}} \\quad  and   \\mathrm{PQ} \\parallel \\mathrm{EF} \\quad (\\mathrm{flow}?) \\right]"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.445,
+            0.135,
+            0.463
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.395,
+            0.443,
+            0.702,
+            0.464
+          ],
+          "image_path": "images/page_16_equation_8.jpg",
+          "content": "\\angle \\mathrm{P} = \\angle \\mathrm{E} \\quad  and  \\quad \\angle \\mathrm{Q} = \\angle \\mathrm{F}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.097,
+            0.489,
+            0.206,
+            0.509
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.416,
+            0.476,
+            0.609,
+            0.521
+          ],
+          "image_path": "images/page_16_equation_10.jpg",
+          "content": "\\left( \\frac{\\mathrm{DP}}{\\mathrm{DE}} = \\frac{\\mathrm{DQ}}{\\mathrm{DF}} = \\frac{\\mathrm{PQ}}{\\mathrm{EE}} \\right)"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.547,
+            0.135,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.415,
+            0.533,
+            0.708,
+            0.576
+          ],
+          "image_path": "images/page_16_equation_12.jpg",
+          "content": "\\frac{ DP }{ DE } = \\frac{ DQ }{ DF } = \\frac{ BC }{ EF } \\quad ( Why? )"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.592,
+            0.135,
+            0.609
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.425,
+            0.59,
+            0.528,
+            0.611
+          ],
+          "image_path": "images/page_16_equation_14.jpg",
+          "content": "BC \\geq PQ"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.626,
+            0.591,
+            0.71,
+            0.612
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Why?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.098,
+            0.616,
+            0.157,
+            0.635
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.38,
+            0.615,
+            0.567,
+            0.636
+          ],
+          "image_path": "images/page_16_equation_17.jpg",
+          "content": "\\Delta  ABC  \\cong \\Delta  DPQ"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.629,
+            0.616,
+            0.718,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Why ?)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.642,
+            0.135,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.267,
+            0.641,
+            0.802,
+            0.661
+          ],
+          "image_path": "images/page_16_equation_20.jpg",
+          "content": "\\angle \\mathrm{A} = \\angle \\mathrm{D}, \\angle \\mathrm{B} = \\angle \\mathrm{E} \\quad  and  \\quad \\angle \\mathrm{C} = \\angle \\mathrm{F} \\quad (\\mathrm{How} ?)"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.095,
+            0.674,
+            0.902,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " You may recall that either of the two conditions namely, (i) corresponding angles are equal and (ii) corresponding sides are in the same ratio is not sufficient for two polygons to be similar. However, on the basis of Theorems 6.3 and 6.4, you can now say that in case of similarity of the two triangles, it is not necessary to check both the conditions as one condition implies the other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.095,
+            0.776,
+            0.902,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us now recall the various criteria for congruency of two triangles learnt in Class IX. You may observe that SSS similarity criterion can be compared with the SSS congruency criterion.This suggests us to look for a similarity criterion comparable to SAS congruency criterion of triangles. For this, let us perform an activity."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.095,
+            0.866,
+            0.898,
+            0.906
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 6 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw two triangles ABC and DEF such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AB = 2  cm , \\angle A = 50^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AC = 4   cm , DE = 3   cm , \\angle D = 50^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " and DF = 6 cm (see Fig.6.27)."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

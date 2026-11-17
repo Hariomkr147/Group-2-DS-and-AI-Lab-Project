@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.553,
+            0.048,
+            0.862,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Baudhāyana-Pythagoras Theorem"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.089,
+            0.847,
+            0.148
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mark a rectangular portion of the larger square using a side of the smaller one, and draw its diagonal. By doing this, we get a right triangle with perpendicular sides a and b."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.202,
+            0.16,
+            0.226,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1."
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 4,
+          "bbox": [
+            0.158,
+            0.195,
+            0.452,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "chart_caption",
+              "index": 0,
+              "bbox": [
+                0.204,
+                0.401,
+                0.227,
+                0.42
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "2."
+                }
+              ]
+            },
+            {
+              "type": "chart_body",
+              "index": 4,
+              "bbox": [
+                0.158,
+                0.195,
+                0.452,
+                0.346
+              ],
+              "image_path": "images/page_10_chart_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 5,
+          "bbox": [
+            0.547,
+            0.195,
+            0.847,
+            0.347
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 5,
+              "bbox": [
+                0.547,
+                0.195,
+                0.847,
+                0.347
+              ],
+              "image_path": "images/page_10_chart_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.175,
+            0.351,
+            0.846,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Make a 4-sided figure over the hypotenuse by drawing three more of such right triangles:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.204,
+            0.437,
+            0.537,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.204,
+                0.437,
+                0.537,
+                0.616
+              ],
+              "image_path": "images/page_10_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.142,
+            0.633,
+            0.463,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.204,
+                0.622,
+                0.226,
+                0.64
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "3."
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.142,
+                0.633,
+                0.463,
+                0.876
+              ],
+              "image_path": "images/page_10_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.587,
+            0.639,
+            0.908,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.587,
+                0.639,
+                0.908,
+                0.877
+              ],
+              "image_path": "images/page_10_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.874,
+            0.914,
+            0.911,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "43"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

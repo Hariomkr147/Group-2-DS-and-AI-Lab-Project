@@ -1,0 +1,15 @@
+## 4. We, therefore, get a bar graph as shown below —
+
+Sweet preferences of students
+
+![](images/page_16_chart_3.jpg)
+
+When the frequencies are larger and we cannot use the scale of 1 unit length = 1 number (frequency), we need to choose a different scale like we did in the case of pictographs.
+
+**Example**: The number of runs scored by Smriti in each of the 8 matches are given in the table below:
+
+| Match | Match1 | Match2 | Match3 | Match4 | Match5 | Match6 | Match7 | Match8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Runs | 80 | 50 | 10 | 100 | 90 | 0 | 90 | 50 |
+
+In this example, the minimum score is 0 and the maximum score is 100. Using a scale of 1 unit length = l run would mean that we have to go all the way from 0 to 100 runs in steps of l. This would be unnecessarily tedious. Instead, let us use a scale where 1 unit length = 10 runs. We mark this scale on the vertical line and draw the bars according to the scores in each match. We get the following bar graph representing the above data.

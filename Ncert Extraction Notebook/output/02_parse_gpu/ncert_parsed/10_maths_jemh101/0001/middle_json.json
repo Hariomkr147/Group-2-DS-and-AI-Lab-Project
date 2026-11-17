@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.426,
+            0.115,
+            0.575,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "回口口"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.476,
+            0.219,
+            0.529,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH01"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.392,
+            0.291,
+            0.745,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "REAL NUMBERS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.377,
+            0.278,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.403,
+            0.9,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Class IX, you began your exploration of the world of real numbers and encountered irrational numbers. We continue our discussion on real numbers in this chapter. We begin with very important properties of positive integers in Sections 1.2, namely the Euclid’s division algorithm and the Fundamental Theorem of Arithmetic."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.482,
+            0.902,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Euclid’s division algorithm, as the name suggests, has to do with divisibility of integers. Stated simply, it says any positive integer a can be divided by another positive integer b in such a way that it leaves a remainder r that is smaller than b. Many of you probably recognise this as the usual long division process. Although this result is quite easy to state and understand, it has many applications related to the divisibility properties of integers. We touch upon a few of them, and use it mainly to compute the HCF of two positive integers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.615,
+            0.902,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Fundamental Theorem of Arithmetic, on the other hand, has to do something with multiplication of positive integers. You already know that every composite number can be expressed as a product of primes in a unique way— this important fact is the Fundamental Theorem of Arithmetic. Again, while it is a result that is easy to state and understand, it has some very deep and significant applications in the field of mathematics. We use the Fundamental Theorem of Arithmetic for two main applications. First, we use it to prove the irrationality of many of the numbers you studied in Class IX, such as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ { \\sqrt { 2 } } , { \\sqrt { 3 } } \\right]"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " . Second, we apply this theorem to explore when exactly the decimal expansion of a rational number, say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { p } { q } ( q \\neq 0 )"
+            },
+            {
+              "type": "text",
+              "content": " , is terminating and when it is non-terminating repeating. We do so by looking at the prime factorisation of the denominator q of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { p } { q }"
+            },
+            {
+              "type": "text",
+              "content": " . You will see that the prime factorisation of q will completely reveal the nature of the decimal expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { p } { q }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.147,
+            0.887,
+            0.445,
+            0.908
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So let us begin our exploration."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.435,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

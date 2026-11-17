@@ -1,0 +1,664 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:14:35+05:30",
+      "modified_at": "2026-04-07T17:14:43+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.652,
+            0.047,
+            0.848,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Arithmetic Expressions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.109,
+            0.085,
+            0.652,
+            0.108
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 17:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Given "
+            },
+            {
+              "type": "equation_inline",
+              "content": "53 \\times 18 = 954."
+            },
+            {
+              "type": "text",
+              "content": " Find out "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 3 \\times 1 8 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.148,
+            0.112,
+            0.45,
+            0.131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As 63 × 18 means 63 times 18,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.131,
+            0.406,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "63 × 18 = (53 + 10) × 18 = 53 ×18 + 10×18 = 954 + 180 = 1134."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.109,
+            0.213,
+            0.715,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 18:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find an effective way of evaluating "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 7 \\times 2 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.239,
+            0.42,
+            0.258
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "97 × 25 means 97 times 25."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.173,
+            0.258,
+            0.493,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can write it as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 1 0 0 - 3 ) \\times 2 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.276,
+            0.849,
+            0.313
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that this is the same as the difference of 100 times 25 and 3 times 25:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.369,
+            0.318,
+            0.629,
+            0.338
+          ],
+          "image_path": "images/page_17_equation_8.jpg",
+          "content": "9 7 \\times 2 5 = 1 0 0 \\times 2 5 - 3 \\times 2 5"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.174,
+            0.343,
+            0.335,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find this value."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.109,
+            0.37,
+            0.621,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use this method to find the following products:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.182,
+            0.408,
+            0.296,
+            0.427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 5 \\times 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.182,
+            0.431,
+            0.318,
+            0.452
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 4 \\times 1 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.182,
+            0.456,
+            0.307,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 9 \\times 5 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.173,
+            0.486,
+            0.848,
+            0.507
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is this quicker than the multiplication procedure you use generally?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.109,
+            0.514,
+            0.783,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Which other products might be quicker to find like the ones above?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.818,
+            0.504,
+            0.905,
+            0.555
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.818,
+                0.504,
+                0.905,
+                0.555
+              ],
+              "image_path": "images/page_17_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.11,
+            0.544,
+            0.294,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.149,
+            0.57,
+            0.848,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Fill in the blanks with numbers, and boxes by signs, so that the expressions on both sides are equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.206,
+            0.612,
+            0.497,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times (6 + 7) = 3 \\times 6 \\pm 3 \\times 7"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.253,
+            0.637,
+            0.491,
+            0.655
+          ],
+          "image_path": "images/page_17_equation_20.jpg",
+          "content": "( 8 + 3 ) \\times 4 = 8 \\times 4 + 3 \\times 4"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.205,
+            0.66,
+            0.557,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times (5 + 8) = 3 \\times 5 \\boxed{\\quad} 3 \\times \\underline{\\quad}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.206,
+            0.686,
+            0.553,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(9 + 2) \\times 4 = 9 \\times 4"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.447,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.206,
+            0.712,
+            0.512,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(e) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times ( \\frac{ 寳 }{ 寳 } + 4 ) = 3 \\frac{ 寳 }{ 寳 } + \\frac{ 寳 }{ 寳 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 25,
+          "bbox": [
+            0.205,
+            0.735,
+            0.518,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(f) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\frac{1}{2} + 6 ) \\times 4 = 13 \\times 4 + \\frac{1}{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.206,
+            0.759,
+            0.536,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(g) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 \\times ( \\underline{\\hspace{1cm}} + \\underline{\\hspace{1cm}} ) = 3 \\times 5 + 3 \\times 2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.206,
+            0.783,
+            0.545,
+            0.802
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(h) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\underline{\\hspace{1cm}} + \\underline{\\hspace{1cm}} ) \\times \\underline{\\hspace{1cm}} = 2 \\times 4 + 3 \\times 4"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 28,
+          "bbox": [
+            0.206,
+            0.808,
+            0.518,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\times (9 - 2) = 5 \\times 9 - 5 \\times \\underline{\\hspace{1cm}}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 29,
+          "bbox": [
+            0.206,
+            0.831,
+            0.516,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(j) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(5 - 2) \\times 7 = 5 \\times 7 - 2 \\times \\underline{\\quad}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 30,
+          "bbox": [
+            0.206,
+            0.855,
+            0.556,
+            0.877
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(k) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\times (8 - 3) = 5 \\times 8 \\boxed{\\quad} 5 \\times"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 31,
+          "bbox": [
+            0.208,
+            0.881,
+            0.531,
+            0.903
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(l) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(8 - 3) \\times 7 = 8 \\times 7 \\boxed{\\quad} 3 \\times 7"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 32,
+          "bbox": [
+            0.81,
+            0.937,
+            0.843,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "41"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

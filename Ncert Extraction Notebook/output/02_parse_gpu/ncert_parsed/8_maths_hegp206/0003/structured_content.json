@@ -1,0 +1,325 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.753,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": "Algebra Play"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.089,
+            0.342,
+            0.108
+          ],
+          "content": "• Add 6: 5M + 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.113,
+            0.436,
+            0.133
+          ],
+          "content": "• Multiply by 4: 20M + 24"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.137,
+            0.364,
+            0.156
+          ],
+          "content": "• Add 9: 20M + 33"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.162,
+            0.458,
+            0.181
+          ],
+          "content": "• Multiply by 5: 100M + 165"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.185,
+            0.482,
+            0.205
+          ],
+          "content": "• Add the day: 100M + 165 + D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.21,
+            0.399,
+            0.228
+          ],
+          "content": "Mukta’s answer was 291."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.233,
+            0.413,
+            0.252
+          ],
+          "content": "• 291 = 100M + 165 + D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.258,
+            0.411,
+            0.276
+          ],
+          "content": "• 291 – 165 = 100M + D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.281,
+            0.358,
+            0.299
+          ],
+          "content": "126 = 100M + D"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.3,
+            0.847,
+            0.357
+          ],
+          "content": "Since D is a day within a month, it is atmost 31 and requires only 2 digits. So the last 2 digits are D and what comes before that is M. In this case, M is 1 and D is 26, i.e., the 26th of January."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.367,
+            0.846,
+            0.405
+          ],
+          "content": "？ Mukta thinks of another date, follows the same steps, and reports her answer as 1390. What date did Mukta start with this time?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.414,
+            0.593,
+            0.435
+          ],
+          "content": "• Subtracting 165 from 1390, we get 1225."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.439,
+            0.784,
+            0.459
+          ],
+          "content": "• This means that the date she thought of was 25th December."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.468,
+            0.662,
+            0.491
+          ],
+          "level": 2,
+          "content": "？ Find the dates if the final answers are the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.169,
+            0.498,
+            0.257,
+            0.518
+          ],
+          "content": "(i) 1269"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.523,
+            0.247,
+            0.542
+          ],
+          "content": "(ii) 394"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.157,
+            0.546,
+            0.246,
+            0.566
+          ],
+          "content": "(iii) 296"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.571,
+            0.846,
+            0.61
+          ],
+          "content": "You can try this trick with your friends. Ask them to choose the starting date as their birthday."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.619,
+            0.801,
+            0.677
+          ],
+          "content": "？ Can you change the steps in this trick and still find the original date? Instead of subtracting 165 from the final answer, you might have to subtract some other number."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.611,
+            0.903,
+            0.67
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.692,
+            0.634,
+            0.715
+          ],
+          "content": "? Try to devise your own ‘Think of a Number’ trick."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.676,
+            0.903,
+            0.725
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_22.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.741,
+            0.453,
+            0.766
+          ],
+          "level": 2,
+          "content": "6.3 Number Pyramids"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.775,
+            0.845,
+            0.814
+          ],
+          "content": "In a number pyramid, each number is the sum of the two numbers directly below it (see the figure)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.424,
+            0.816,
+            0.574,
+            0.905
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_25.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.913,
+            0.915,
+            0.935
+          ],
+          "content": "137"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

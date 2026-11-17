@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.425,
+            0.116,
+            0.573,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "口"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.474,
+            0.219,
+            0.529,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH02"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.432,
+            0.289,
+            0.745,
+            0.325
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "POLYNOMIALS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.376,
+            0.28,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.414,
+            0.901,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Class IX, you have studied polynomials in one variable and their degrees. Recall that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\mathrm { i f } }   p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in x, the highest power of x in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( \\vec { x } )"
+            },
+            {
+              "type": "text",
+              "content": " is called "
+            },
+            {
+              "type": "text",
+              "content": "the degree of the polynomial",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ( x )"
+            },
+            {
+              "type": "text",
+              "content": " . For example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4x + 2"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in the variable x of degree "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 , 2 y ^ { 2 } - 3 y + 4"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in the variable y of degree 2, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x^{3}-4x^{2}+x-\\sqrt{2}"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in the variable x of degree 3 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "7u^{6}-\\frac{3}{2}u^{4}+4u^{2}+u-8"
+            },
+            {
+              "type": "text",
+              "content": " is a polynomial in the variable u of degree 6. Expressions like "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{x - 1}, \\sqrt{x} + 2, \\frac{1}{x^2 + 2x + 3}"
+            },
+            {
+              "type": "text",
+              "content": " etc., are not polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.098,
+            0.622,
+            0.899,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A polynomial of degree 1 is called a "
+            },
+            {
+              "type": "text",
+              "content": "linear polynomial",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". For example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 x - 3 ."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{3}x+5, y+\\sqrt{2}, x-\\frac{2}{11}, 3z+4, \\frac{2}{3}u+1, \\text { etc. }"
+            },
+            {
+              "type": "text",
+              "content": " , are all linear polynomials. Polynomials such as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x + 5 - x^{2}, x^{3} + 1"
+            },
+            {
+              "type": "text",
+              "content": " , etc., are not linear polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.717,
+            0.901,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A polynomial of degree 2 is called a "
+            },
+            {
+              "type": "text",
+              "content": "quadratic polynomial",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The name ‘quadratic has been derived from the word ‘quadrate’, which means ‘square’. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 x ^ { 2 } + 3 x - { \\frac { 2 } { 5 } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y^{2}-2,\\quad 2-x^{2}+\\sqrt{3}x,\\quad \\frac{u}{3}-2u^{2}+5,\\quad \\sqrt{5}v^{2}-\\frac{2}{3}v,\\quad 4z^{2}+\\frac{1}{7}"
+            },
+            {
+              "type": "text",
+              "content": " are some examples of quadratic polynomials (whose coefficients are real numbers). More generally, any quadratic polynomial in x is of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a x ^ { 2 } + b x + c"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c"
+            },
+            {
+              "type": "text",
+              "content": " are real numbers and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a   \\neq   0 .   \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " polynomial of degree 3 is called a cubic polynomial. Some examples of"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

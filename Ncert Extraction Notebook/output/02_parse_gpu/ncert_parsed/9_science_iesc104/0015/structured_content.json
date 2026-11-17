@@ -1,0 +1,327 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.316,
+            0.088,
+            0.888,
+            0.126
+          ],
+          "level": 2,
+          "content": "Which physical quantities can be obtained from a velocity-time graph?"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.041,
+            0.149,
+            0.308,
+            0.339
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.045,
+                0.34,
+                0.309,
+                0.371
+              ],
+              "content": "Fig. 4.17(d): Calculating acceleration from a velocity-time graph"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_chart_1.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.04,
+            0.41,
+            0.308,
+            0.602
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.047,
+                0.602,
+                0.308,
+                0.633
+              ],
+              "content": "Fig. 4.17(e): Calculating acceleration from a velocity-time graph"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_chart_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.316,
+            0.128,
+            0.889,
+            0.18
+          ],
+          "content": "Apart from finding the magnitude of velocity of the object at each instant of time, what other physical quantities can be calculated from the velocity-time graph?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.316,
+            0.183,
+            0.644,
+            0.201
+          ],
+          "level": 2,
+          "content": "Slope of the straight line on graph"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.2,
+            0.89,
+            0.286
+          ],
+          "content": "In Section 4.2.2, we found that velocity can be determined from the slope of the straight line on position-time graph. What can you find from the slope of the straight line on a velocity-time graph? The slope of the line on velocity-time graph gives how fast the velocity is changing with time, i.e., the acceleration."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.285,
+            0.889,
+            0.336
+          ],
+          "content": "For the graph shown in Fig. 4.17a, there is no change in the height of the line from the X-axis, i.e., its slope is zero. Hence, the velocity is constant and the acceleration is zero in this case."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.336,
+            0.89,
+            0.423
+          ],
+          "content": "Now consider the graph shown in Fig. 4.17d which is the same as Fig. 4.17b, except for some markings. Consider a part of the line, AB. Suppose at time $t _ { 1 }$ corresponding to point A, the velocity is denoted by ${ } ^ { \\circ } u ^ { \\flat } ;$ , and at time $t _ { 2 }$ corresponding to point B, it is represented by ${ } ^ { \\circ } \\nu ^ { \\flat } .$ By dividing the change in velocity (BC)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.316,
+            0.425,
+            0.762,
+            0.458
+          ],
+          "content": "by the change in time (CA), you get, $a \\geq \\frac{v - u}{t_{2} - t_{1}} = \\frac{BC}{CA}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.46,
+            0.89,
+            0.495
+          ],
+          "content": "Substituting the values from graph, we obtain the magnitude of average acceleration between the time interval from 10 s to 20 s"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.348,
+            0.494,
+            0.735,
+            0.532
+          ],
+          "content": "a = \\frac{10    ms ^{-1} - 5    ms ^{-1}}{20    s  - 10    s } = \\frac{5    ms ^{-1}}{10    s } = 0.5    ms ^{-2}",
+          "image_source": "images/page_14_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.533,
+            0.891,
+            0.618
+          ],
+          "content": "If we follow the above steps for the graph shown in Fig. 4.17e which is same as Fig. 4.17c, we obtain average acceleration to $\\mathrm{be} \\sim 0.5   \\mathrm{m}   \\mathrm{s}^{-2}$ . The minus sign indicates that the direction of acceleration is opposite to the direction of velocity (as the velocity is decreasing)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.618,
+            0.889,
+            0.653
+          ],
+          "content": "Can you calculate some other physical quantity from the velocity-time graph?"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.039,
+            0.671,
+            0.308,
+            0.868
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.075,
+                0.872,
+                0.296,
+                0.915
+              ],
+              "content": "4.18(a): Velocity-time graph of an object moving with constant velocity"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_chart_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.316,
+            0.656,
+            0.781,
+            0.673
+          ],
+          "level": 2,
+          "content": "Area enclosed by the line on graph and time axis"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.314,
+            0.674,
+            0.89,
+            0.743
+          ],
+          "content": "The graphs shown in Fig. 4.18 are same as Fig. 4.17, except that some parts between the line on graph and the time axis are shaded. Does the area of the shaded part represent some physical quantity?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.315,
+            0.742,
+            0.889,
+            0.777
+          ],
+          "content": "In Fig. 4.18a, OA is magnitude of the velocity and OC is the time interval."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.316,
+            0.779,
+            0.888,
+            0.833
+          ],
+          "content": "So, area of rectangle OABC = OA × OC = velocity × time interval (Since, in this case the velocity is constant, it is equal to the average velocity)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.316,
+            0.833,
+            0.567,
+            0.851
+          ],
+          "content": "Using Eq. (4.2a), we can say,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.345,
+            0.851,
+            0.698,
+            0.869
+          ],
+          "content": "area of rectangle OABC = displacement"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.317,
+            0.869,
+            0.728,
+            0.887
+          ],
+          "content": "Substituting the values from graph, we obtain"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.344,
+            0.887,
+            0.785,
+            0.922
+          ],
+          "content": "displacement between 0 s and 6 s = area of OABC = 20 m s<sup>–1</sup> × 6 s = 120 m"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.944,
+            0.108,
+            0.96
+          ],
+          "content": "62"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

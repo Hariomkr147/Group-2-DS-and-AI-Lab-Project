@@ -1,0 +1,297 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "102"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.147,
+            0.61,
+            0.242
+          ],
+          "content": "Let us now find the distance between any two points $\\mathrm { P } ( \\boldsymbol { x } _ { 1 } , \\boldsymbol { y } _ { 1 } )$ and $\\mathbb { Q } ( \\boldsymbol { x } _ { 2 } , \\boldsymbol { y } _ { 2 } )$ . Draw PR and QS perpendicular to the x-axis. A perpendicular from the point P on QS is drawn to meet it at the point T (see Fig. 7.5)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.248,
+            0.598,
+            0.269
+          ],
+          "content": "Then, $\\mathrm{OR}=x_{1}, \\mathrm{OS}=x_{2}. \\quad \\mathrm{So}, \\quad \\mathrm{RS}=x_{2}-x_{1}=\\mathrm{PT}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.273,
+            0.608,
+            0.295
+          ],
+          "content": "Also, $\\mathrm{SQ} = y_{2}, \\quad \\mathrm{ST} = \\mathrm{PR} = y_{1}.$ So, $\\mathrm { Q T } = \\boldsymbol { y } _ { 2 } - \\boldsymbol { y } _ { 1 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.299,
+            0.618,
+            0.319
+          ],
+          "content": "Now, applying the Pythagoras theorem in $\\Delta   \\mathrm { P T Q } ,$ we get"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.633,
+            0.145,
+            0.898,
+            0.328
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.383,
+            0.205,
+            0.402
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.298,
+            0.323,
+            0.609,
+            0.407
+          ],
+          "content": "\\begin{aligned} PQ ^{2} &=  PT ^{2} +  Q  T ^{2} \\\\&= (x_{_2} - x_{_1})^{2} + (y_{_2} - y_{_1})^{2} \\\\ PQ  &= \\sqrt{\\left(x_{_2} - x_{_1}\\right)^{2} + \\left(y_{_2} - \\underline{y}_{_1}\\right)^{2}}\\end{aligned}",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.715,
+            0.338,
+            0.801,
+            0.357
+          ],
+          "content": "Fig. 7.5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.417,
+            0.9,
+            0.457
+          ],
+          "content": "Note that since distance is always non-negative, we take only the positive square root. So, the distance between the points $\\mathrm{P}(x_1, y_1)$ and $\\mathrm{Q}(x_{2},\\overline{y}_{2})$ is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.463,
+            0.632,
+            0.494
+          ],
+          "content": "\\mathrm{PQ} = \\sqrt{\\left( x_{2} - x_{1} \\right)^{2} + \\left( y_{2} - y_{1} \\right)^{2}}",
+          "image_source": "images/page_3_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.503,
+            0.466,
+            0.522
+          ],
+          "content": "which is called the **distance formula**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.528,
+            0.216,
+            0.546
+          ],
+          "level": 2,
+          "content": "Remarks :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.553,
+            0.861,
+            0.573
+          ],
+          "content": "1. In particular, the distance of a point $\\mathrm { P } ( x , { \\hat { y } } )$ from the origin O(0, 0) is given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.345,
+            0.584,
+            0.519,
+            0.614
+          ],
+          "content": "\\mathrm{OP} = \\sqrt{x^{2} + y^{2}}",
+          "image_source": "images/page_3_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.62,
+            0.704,
+            0.649
+          ],
+          "content": "2. We can also write, $\\mathrm{PQ} = \\sqrt{\\left(x_{1} - x_{2}\\right)^{2} + \\left(y_{1} - y_{2}\\right)^{2}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.663,
+            0.9,
+            0.702
+          ],
+          "content": "**Example 1 :** Do the points $(3,2),(-2,-3)$ and (2, 3) form a triangle? If so, name the type of triangle formed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.707,
+            0.899,
+            0.746
+          ],
+          "content": "**Solution :** Let us apply the distance formula to find the distances PQ, QR and PR, where $P(3,2),Q(-2,-3)$ and R(2, 3) are the given points. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.758,
+            0.755,
+            0.785
+          ],
+          "content": "\\mathrm{PQ} = \\sqrt{(3 + 2)^2 + (2 + 3)^2} = \\sqrt{5^2 + 5^2} = \\sqrt{50} = 7.07   (\\mathrm{appmax.})",
+          "image_source": "images/page_3_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.795,
+            0.84,
+            0.821
+          ],
+          "content": "\\mathrm{QR} = \\sqrt{(-2-2)^2 + (-3-3)^2} = \\sqrt{(-4)^2 + (-6)^2} = \\sqrt{52} = 7.21 (\\mathrm{appox.})",
+          "image_source": "images/page_3_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.832,
+            0.773,
+            0.858
+          ],
+          "content": "\\mathrm{PR} = \\sqrt{(3 - 2)^2 + (2 - 3)^2} = \\sqrt{1^2 + (-1)^2} = \\sqrt{2} = 1.41 (\\mathrm{appmax.})",
+          "image_source": "images/page_3_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.868,
+            0.9,
+            0.907
+          ],
+          "content": "Since the sum of any two of these distances is greater than the third distance, therefore, the points P, Q and R form a triangle."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

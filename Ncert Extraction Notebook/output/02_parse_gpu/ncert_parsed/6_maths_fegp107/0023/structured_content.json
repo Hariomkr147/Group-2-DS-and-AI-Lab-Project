@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.121,
+            0.785,
+            0.142
+          ],
+          "content": "Expressing a fraction in lowest terms can also be done in steps."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.143,
+            0.833,
+            0.212
+          ],
+          "content": "Suppose we want to express $\\frac { 3 6 } { 6 0 }$ in lowest terms. First, we notice that both the numerator and denominator are even. So, we divide both by 2, and see that $\\frac{36}{60}   =   \\frac{18}{30}$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.218,
+            0.832,
+            0.265
+          ],
+          "content": "Both the numerator and denominator are even again, so we can divide them each by 2 again; we get $\\frac { 1 8 } { 3 0 }   =   \\frac { 9 } { 1 5 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.275,
+            0.833,
+            0.322
+          ],
+          "content": "We now notice that 9 and 15 are both multiples of 3, so we divide both by 3 to get $\\frac { 9 } { 1 5 }   =   \\frac { 3 } { 5 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.325,
+            0.834,
+            0.379
+          ],
+          "content": "Now, 3 and 5 have no common factor other than 1, so, $\\frac { 3 6 } { 6 0 }$ in lowest terms is $\\frac { 3 } { 5 } .$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.386,
+            0.834,
+            0.466
+          ],
+          "content": "Alternatively, we could have noticed that in $\\frac { 3 6 } { 6 0 }$ , both the numerator and denominator are multiples of 12 : we see that $36 = 3 \\times 12$ and $6 0 = 5 \\times 1 2$ . Therefore, we could have concluded that $\\frac{36}{60} \\equiv \\frac{3}{5}$ straight away."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.47,
+            0.833,
+            0.515
+          ],
+          "content": "Either method works and will give the same answer! But sometimes it can be easier to go in steps."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.527,
+            0.301,
+            0.55
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.556,
+            0.624,
+            0.613
+          ],
+          "content": "Express the following fractions in lowest terms: a. $\\frac { 1 7 } { 5 1 }$ b. $\\frac{\\left ( 64 \\right ) }{144}$ e. $\\frac{126}{147}$ d. $\\frac { 5 2 5 } { 1 1 2 }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.638,
+            0.478,
+            0.664
+          ],
+          "level": 2,
+          "content": "7.7 Comparing Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.676,
+            0.834,
+            0.766
+          ],
+          "content": "Which is greater, $\\frac{4}{5}$ or $\\frac { 7 } { 9 } ?$ It can be difficult to compare two such fractions directly. However, we know how to find fractions equivalent to two fractions with the same denominator. Let us see how we can use it:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.12,
+            0.771,
+            0.259,
+            0.803
+          ],
+          "content": "\\frac{4}{5} = \\frac{4 \\times 9}{5 \\times 9} = \\frac{36}{45}",
+          "image_source": "images/page_22_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.12,
+            0.813,
+            0.266,
+            0.846
+          ],
+          "content": "\\frac { 7 } { 9 } \\quad = \\quad \\frac { 7   \\times   5 } { 9   \\times   5 } \\quad = \\quad \\frac { 3 5 } { 4 5 } .",
+          "image_source": "images/page_22_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.422,
+            0.82,
+            0.627,
+            0.9
+          ],
+          "content": "45 is a common multiple of 5 and 9, so we can use 45 as a common denominator."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.659,
+            0.82,
+            0.803,
+            0.897
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

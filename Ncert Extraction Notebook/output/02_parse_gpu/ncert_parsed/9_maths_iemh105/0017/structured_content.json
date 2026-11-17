@@ -1,0 +1,282 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "108"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.477,
+            0.087
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.17
+          ],
+          "content": "**Theorem 9:** The angle subtended by an arc at the centre of the circle is double the angle subtended by the arc at any point on the circle outside the arc."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.145,
+            0.202,
+            0.415,
+            0.392
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.165,
+                0.401,
+                0.398,
+                0.434
+              ],
+              "content": "Fig. 5.21: Angle subtended by arc AFB"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_16_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.446,
+            0.216,
+            0.874,
+            0.295
+          ],
+          "content": "**Given:** AFB is an arc. ∠ACB is the angle subtended by arc AFB at centre C. D is a point on the circle outside arc AFB (see Fig. 5.21)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.446,
+            0.299,
+            0.875,
+            0.377
+          ],
+          "content": "We will assume for now that D is such that DC when extended cuts the circle at some point E on arc AFB, as shown."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.447,
+            0.382,
+            0.872,
+            0.422
+          ],
+          "content": "We will consider the other case later."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.458,
+            0.437,
+            0.478
+          ],
+          "content": "**To show:** $\\angle BCA = 2 \\angle BDA$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.485,
+            0.885,
+            0.546
+          ],
+          "content": "**Why is this true?** Join D to C and extend DC to cut the circle at a point E on arc AFB. Now ∆DCB is isosceles with $CB = CD$ $\\mathrm{S}0,\\angle\\mathrm{CBD}=\\angle\\mathrm{CDB}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.553,
+            0.869,
+            0.574
+          ],
+          "content": "∠BCE is the exterior angle of $\\Delta \\mathrm { B C D } ,$ By the exterior angle theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.341,
+            0.578,
+            0.693,
+            0.599
+          ],
+          "content": "\\angle BCE = \\angle CBD + \\angle CDB = 2\\angle BDC.",
+          "image_source": "images/page_16_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.605,
+            0.722,
+            0.626
+          ],
+          "content": "Similarly, ∆ADC is an isosceles triangle with $\\mathrm{CA}=\\mathrm{CD}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.633,
+            0.192,
+            0.651
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.342,
+            0.631,
+            0.501,
+            0.651
+          ],
+          "content": "\\angle CAD = \\angle CDA",
+          "image_source": "images/page_16_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.659,
+            0.871,
+            0.68
+          ],
+          "content": "$\\angle \\mathrm { A C E }$ is the exterior angle of $\\Delta \\mathrm { A D C } .$ By the exterior angle theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.339,
+            0.685,
+            0.695,
+            0.705
+          ],
+          "content": "\\angle ACE = \\angle CAD + \\angle CDA = 2\\angle CDA.",
+          "image_source": "images/page_16_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.712,
+            0.73,
+            0.732
+          ],
+          "content": "Now $\\angle BCA = \\angle BCE + \\angle ECA,$ and $\\angle BDA = \\angle BDE + \\angle EDA$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.739,
+            0.228,
+            0.759
+          ],
+          "content": "Hence"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34,
+            0.738,
+            0.728,
+            0.759
+          ],
+          "content": "\\angle BCA = 2 ( \\angle BDC + \\angle CDA ) = 2 \\angle BDA.",
+          "image_source": "images/page_16_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.765,
+            0.193,
+            0.785
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.339,
+            0.764,
+            0.517,
+            0.784
+          ],
+          "content": "\\angle BCA = 2\\angle BDA.",
+          "image_source": "images/page_16_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.792,
+            0.887,
+            0.874
+          ],
+          "content": "The explanation we have given does not work if the situation is as shown in Fig. 5.22, where the extension of DC meets the circle at a point E outside the arc AFB. We must rework the explanation for this case."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

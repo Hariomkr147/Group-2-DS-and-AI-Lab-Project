@@ -1,0 +1,233 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": "54"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.11,
+            0.882,
+            0.168
+          ],
+          "content": "Now that we have precisely defined a quadrilateral, let us give similarly precise definitions of familiar terms associated with a quadrilateral."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.168,
+            0.883,
+            0.321
+          ],
+          "content": "A, B, C, D are called the **vertices** of quadrilateral ABCD; segments AB, BC, CD, DA are its **sides** or **edges**; segments AC and BD are its **diagonals**. The two endpoints of a side are called **adjacent vertices**. Two sides with a common endpoint are called **adjacent sides**. A quadrilateral has 4 **internal angles**, each formed at a vertex by a pair of adjacent sides. Internal angles at adjacent vertices are called a pair of **adjacent angles**. How will you define **opposite sides**? **Opposite angles**? See Exercise Set 12.1, Q1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.321,
+            0.883,
+            0.379
+          ],
+          "content": "Note that quadrilateral ABCD can also be denoted as BCDA, CDAB, DABC, DCBA, ADCB, BADC or CBAD but not by any other sequence of vertices. (Draw ABCD and trace the vertices in various orders to see why.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.379,
+            0.881,
+            0.418
+          ],
+          "content": "When we refer to a quadrilateral, we always mean a planar non-self-intersecting quadrilateral, unless stated otherwise."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.429,
+            0.407,
+            0.45
+          ],
+          "level": 2,
+          "content": "Convex Quadrilaterals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.46,
+            0.883,
+            0.539
+          ],
+          "content": "Should DART in Fig. 12.2 be considered a quadrilateral? It seems different from our usual mental picture of a quadrilateral because it has a dent, as if someone has taken a bite out of triangle ART! We call DART a non-convex quadrilateral."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.12,
+            0.557,
+            0.283,
+            0.67
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.13,
+                0.671,
+                0.279,
+                0.689
+              ],
+              "content": "All angles < 180°"
+            }
+          ],
+          "image_source": "images/page_3_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.301,
+            0.546,
+            0.493,
+            0.664
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.371,
+                0.668,
+                0.46,
+                0.684
+              ],
+              "content": "∠D > 180°"
+            }
+          ],
+          "image_source": "images/page_3_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.543,
+            0.551,
+            0.881,
+            0.725
+          ],
+          "content": "A convex quadrilateral is one without a dent. How can we define this precisely? We can see in DART that at the dent at vertex D, the internal angle is more than 180°. So we call a quadrilateral convex when all of its internal angles are less than 180°."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.694,
+            0.536,
+            0.712
+          ],
+          "content": "Internal angles of convex and non-convex 4-gons"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.119,
+            0.745,
+            0.584,
+            0.899
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.285,
+                0.718,
+                0.374,
+                0.737
+              ],
+              "content": "Fig. 12.4"
+            },
+            {
+              "bbox": [
+                0.304,
+                0.906,
+                0.389,
+                0.925
+              ],
+              "content": "Fig. 12.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.585,
+            0.751,
+            0.881,
+            0.906
+          ],
+          "content": "There are other ways of testing convexity. For example, visually verify that the diagonals of a convex quadrilateral intersect while those of a non-convex quadrilateral don’t intersect."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

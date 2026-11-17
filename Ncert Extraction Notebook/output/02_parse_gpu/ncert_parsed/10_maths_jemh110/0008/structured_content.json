@@ -1,0 +1,339 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.105,
+            0.17,
+            0.119
+          ],
+          "content": "CIRCLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "151"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.144,
+            0.715,
+            0.164
+          ],
+          "content": "Now, $\\angle TPR  + \\angle RPO = 90^{\\circ} = \\angle TPR  + \\angle PTR$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.169,
+            0.341,
+            0.188
+          ],
+          "content": "So, $\\angle  RPO  = \\angle  PTR$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.195,
+            0.899,
+            0.215
+          ],
+          "content": "Therefore, right triangle TRP is similar to the right triangle PRO by AA similarity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.241,
+            0.201,
+            0.26
+          ],
+          "content": "This gives"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.364,
+            0.225,
+            0.789,
+            0.269
+          ],
+          "content": "\\frac{ TP }{ PO } = \\frac{ RP }{ RO },  i.e., \\frac{ TP }{5} = \\frac{4}{3}  or   TP  = \\frac{20}{3}  cm .",
+          "image_source": "images/page_7_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.277,
+            0.815,
+            0.297
+          ],
+          "content": "**Note :** TP can also be found by using the Pythagoras Theorem, as follows:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.304,
+            0.139,
+            0.32
+          ],
+          "content": "Let"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33,
+            0.302,
+            0.615,
+            0.322
+          ],
+          "content": "\\mathrm{TP} = x \\quad  and  \\quad \\mathrm{TR} = y. \\quad \\mathrm{Then}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.327,
+            0.896,
+            0.348
+          ],
+          "content": "x ^ { 2 } = y ^ { 2 } + 1 6 \\qquad \\mathrm { ( T a k i n g ~ r i g h t ~ \\Delta ~ P R T ) }\\tag{1}",
+          "image_source": "images/page_7_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.294,
+            0.353,
+            0.896,
+            0.373
+          ],
+          "content": "x ^ { 2 } + 5 ^ { 2 } = ( y + 3 ) ^ { 2 } \\qquad \\mathrm { ( T a k i n g ~ r i g h t ~ \\Delta ~ O P T ) }\\tag{2}",
+          "image_source": "images/page_7_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.379,
+            0.408,
+            0.398
+          ],
+          "content": "Subtracting (1) from (2), we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.336,
+            0.399,
+            0.644,
+            0.441
+          ],
+          "content": "25 = 6y - 7 \\quad  or  \\quad y = \\frac{32}{6} = \\frac{16}{3}",
+          "image_source": "images/page_7_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.464,
+            0.205,
+            0.483
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.448,
+            0.735,
+            0.492
+          ],
+          "content": "x^{2}=\\left(\\frac{16}{3}\\right)^{2}+16=\\frac{16}{9}(16+9)=\\frac{16\\times25}{9}",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.793,
+            0.464,
+            0.897,
+            0.483
+          ],
+          "content": "[From (1)]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.522,
+            0.125,
+            0.535
+          ],
+          "content": "or"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.347,
+            0.505,
+            0.429,
+            0.546
+          ],
+          "content": "x = \\frac{20}{3}",
+          "image_source": "images/page_7_equation_18.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.397,
+            0.576,
+            0.603,
+            0.594
+          ],
+          "level": 2,
+          "content": "EXERCISE 10.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.605,
+            0.618,
+            0.623
+          ],
+          "content": "In Q.1 to 3, choose the correct option and give justification."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.629,
+            0.9,
+            0.647
+          ],
+          "content": ". rom a po nt Q, t e engt o t e tangent to a c rcle is 24 cm and the distance of Q from 1 F i h l h f h i"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.629,
+            0.561,
+            0.712
+          ],
+          "continues_prev": true,
+          "content": "the centre is 25 cm. The radius of the circle is (A) 7 cm (B) 12 cm (C) 15 cm (D) 24.5 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.716,
+            0.563,
+            0.817
+          ],
+          "content": "**2.** In Fig. 10.11, if TP and TQ are the two tangents to a circle with centre O so that $\\angle POQ = 110^{\\circ}$ then $\\angle \\mathrm{PTQ}$ is equal to (A) $6 0 ^ { \\circ }$ (B) $7 0 ^ { \\circ }$ (C) $8 0 ^ { \\circ }$ (D) $9 0 ^ { \\circ }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.623,
+            0.647,
+            0.813,
+            0.797
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.661,
+                0.802,
+                0.769,
+                0.819
+              ],
+              "content": "Fig. 10.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.822,
+            0.901,
+            0.905
+          ],
+          "content": "**3.** If tangents PA and PB from a point P to a circle with centre O are inclined to each other at angle of $8 0 ^ { \\circ }$ , then $\\angle \\mathrm { P O A }$ is equal to (A) $5 0 ^ { \\circ }$ (B) $6 0 ^ { \\circ }$ (C) $7 0 ^ { \\circ }$ (D) $8 0 ^ { \\circ }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

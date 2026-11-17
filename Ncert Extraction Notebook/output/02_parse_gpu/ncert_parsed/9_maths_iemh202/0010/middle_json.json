@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.406,
+            0.071,
+            0.813,
+            0.09
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How Quantities Combine: Understanding Data"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.853,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "17"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.187,
+            0.11,
+            0.881,
+            0.151
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "whether there are more male langurs or more female langurs? Or are they equal in number?"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.303,
+            0.166,
+            0.74,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.303,
+                0.166,
+                0.74,
+                0.327
+              ],
+              "image_path": "images/page_9_table_3.jpg",
+              "content": "<table><tbody><tr><td></td><td>Male langurs</td><td>Female langurs</td><td>All langurs</td></tr><tr><td>Average weight</td><td>16.5 kg</td><td>13.8 kg</td><td>14.925 kg</td></tr><tr><td>Number of langurs</td><td></td><td></td><td>60</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.198,
+            0.351,
+            0.881,
+            0.39
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Which of the following expression(s) describes the scenario?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.242,
+            0.401,
+            0.526,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{16.5x + 13.8y}{x + y} = 14.925"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.242,
+            0.447,
+            0.544,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{16.5x + 13.8y}{60} = -14.925"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.244,
+            0.491,
+            0.541,
+            0.529
+          ],
+          "image_path": "images/page_9_equation_7.jpg",
+          "content": "\\frac{16.5x + 13.8y}{2} = - 14.925"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.242,
+            0.536,
+            0.543,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{16.5x + 13.8y}{16.5 + 13.8} = -14.925"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.189,
+            0.584,
+            0.732,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Find out how many male langurs are present."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.184,
+            0.604,
+            0.882,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) A female langur weighing 15.2 kg is admitted to the facility. What is the average weight of the female langurs after this?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.185,
+            0.66,
+            0.881,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) Two male langurs weighing 16.9 kg and 16.1 kg are released from the facility. What is the average weight of the male langurs after this?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.19,
+            0.718,
+            0.882,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(v) Now, suppose one of the male langurs lost 1 kg of weight. What is the average weight of all the male langurs after this?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.138,
+            0.786,
+            0.884,
+            0.847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. Dorjee has collected 1 litre of water from the Dead Sea! Using the information in the table, answer the following questions. A calculator can be used if necessary."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

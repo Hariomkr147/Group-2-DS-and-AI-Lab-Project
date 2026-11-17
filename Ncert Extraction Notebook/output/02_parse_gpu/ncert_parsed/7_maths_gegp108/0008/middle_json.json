@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:22+05:30",
+      "modified_at": "2026-04-07T17:16:32+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.046,
+            0.364,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.087,
+            0.847,
+            0.143
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, the next step is multiplying this result by 5. This gives the product of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 5 } { 4 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 } { 2 } ;"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.174,
+            0.148,
+            0.349,
+            0.185
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "\\frac{5}{4} \\times \\frac{3}{2} = 5 \\times \\frac{3}{8} = \\frac{15}{8}."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.205,
+            0.846,
+            0.249
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Connection between the Area of a Rectangle and Fraction Multiplication"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.258,
+            0.847,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the Fig. 8.3, what is the length and breadth of the shaded rectangle? Since we started with a unit square (of side 1 unit), the length and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.297,
+            0.449,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "breadth are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " unit and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 4 }"
+            },
+            {
+              "type": "text",
+              "content": " unit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.339,
+            0.599,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the area of this rectangle? We see that 8 such rectangles give the square of area 1 square unit. So, the area of each rectangle is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 8 }"
+            },
+            {
+              "type": "text",
+              "content": " square units."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.609,
+            0.307,
+            0.833,
+            0.436
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.609,
+                0.307,
+                0.833,
+                0.436
+              ],
+              "image_path": "images/page_7_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.433,
+            0.599,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you see any relation between the area and the product of length and breadth?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.713,
+            0.444,
+            0.778,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 8.3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.15,
+            0.483,
+            0.846,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The area of a rectangle of fractional sides equals the product of its sides."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.52,
+            0.847,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, if we want to find the product of two fractions, we can find the area of the rectangle formed with the two fractions as its sides."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.565,
+            0.293,
+            0.589
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.592,
+            0.846,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Find the following products. Use a unit square as a whole for representing the fractions:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.207,
+            0.637,
+            0.31,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 3 } \\times \\frac { 1 } { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 4 } \\times \\frac { 1 } { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " (c) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{5} \\times \\frac{1}{2}"
+            },
+            {
+              "type": "text",
+              "content": " (d) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{6} \\times \\frac{1}{5}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.188,
+            0.796,
+            0.369,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 1 2 } \\times \\frac { 1 } { 1 8 }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.154,
+            0.938,
+            0.192,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "180"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

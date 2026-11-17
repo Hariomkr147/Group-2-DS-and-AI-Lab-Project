@@ -1,0 +1,191 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.852,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "59"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.11,
+            0.883,
+            0.187
+          ],
+          "content": "Therefore $\\angle A + \\angle B = \\angle B + \\angle C = 180^{\\circ}$ . As in the proof of (b), we use the fact that AB is a transversal for the pair BC and AD. By $\\angle \\mathrm{A} + \\angle \\mathrm{B} = 180^{\\circ}$ we deduce BC ‖AD. Similarly, we get AB ‖DC by using $\\angle B + \\angle C = 180^{\\circ}$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.21,
+            0.4,
+            0.233
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.247,
+            0.854,
+            0.344
+          ],
+          "content": "The angles of a quadrilateral add up to $3 6 0 ^ { \\circ }$ Therefore, if the opposite angles are equal, what can we say about adjacent angles? Is the converse of your answer true? Conclude that Theorem 3 can also be stated as follows. “If each pair of adjacent angles in a quadrilateral ABCD…then ABCD is a parallelogram.” Fill in the blank."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.365,
+            0.881,
+            0.405
+          ],
+          "content": "**Theorem 4 (converse of (c)):** A quadrilateral whose diagonals bisect each other is a parallelogram."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.409,
+            0.882,
+            0.489
+          ],
+          "content": "**Proof:** Let ABCD be this quadrilateral. Let E be the intersection point of the diagonals AC and BD. As $\\mathrm{EA} = \\mathrm{EC}$ and $EB = \\pm  DD$ , we have $\\Delta  AED \\cong \\Delta  CEB$ by SAS. Now using $\\angle DAE = \\angle ECB$ along with transversal AC, we get AD ‖BC. Similarly, $\\Delta  EAB  \\cong \\Delta  ECD$ gives AB ‖ DC."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.423,
+            0.492,
+            0.617,
+            0.601
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.38,
+                0.608,
+                0.618,
+                0.626
+              ],
+              "content": "Fig. 12.9: Converse to (c)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_8_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.634,
+            0.881,
+            0.675
+          ],
+          "content": "Finally, there is one more useful test to check if a given quadrilateral ABCD is a parallelogram."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.679,
+            0.881,
+            0.72
+          ],
+          "content": "**Theorem 5 (equal parallel sides test)**: A quadrilateral with one pair of equal and parallel opposite sides is a parallelogram."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.14,
+            0.745,
+            0.41,
+            0.863
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.184,
+                0.873,
+                0.28,
+                0.893
+              ],
+              "content": "Fig. 12.10"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_8_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.456,
+            0.735,
+            0.881,
+            0.911
+          ],
+          "content": "**Proof:** Suppose in a quadrilateral ABCD we have AB ‖DC and $\\mathrm{AB} = \\mathrm{DC}$ Let E be the intersection point of the diagonals AC and BD. (Why must the diagonals intersect? See Exercise Set 12.1, Q3.) We have $\\Delta  EAB  \\cong \\Delta  ECD$ by ASA. So the diagonals bisect each other. By the converse of (c), ABCD is a parallelogram."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

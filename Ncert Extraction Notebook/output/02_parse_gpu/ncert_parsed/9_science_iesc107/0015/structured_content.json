@@ -1,0 +1,338 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.085,
+            0.516,
+            0.103
+          ],
+          "content": "Work done by the engine in 10 s"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.253,
+            0.106,
+            0.639,
+            0.125
+          ],
+          "content": "= final kinetic energy – initial kinetic energy"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.669,
+            0.081,
+            0.838,
+            0.098
+          ],
+          "content": "**Meet a Scientist**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.252,
+            0.125,
+            0.621,
+            0.197
+          ],
+          "content": "\\begin{aligned} &= \\frac{1}{2}mv^{2} - \\frac{1}{2}mu^{2} \\\\&= \\frac{1}{2} \\times 1000   kg  \\times \\left(20   ms ^{-1}\\right)^{2} - 0   J  = 200000   J \\\\ \\end{aligned}",
+          "image_source": "images/page_14_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.227,
+            0.197,
+            0.57,
+            0.235
+          ],
+          "content": "\\mathrm{Power} = \\frac{\\mathrm{work}}{\\mathrm{time}} = \\frac{200000\\mathrm{J}}{10\\mathrm{s}} = 20000\\mathrm{W}",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.668,
+            0.102,
+            0.76,
+            0.175
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.765,
+                0.102,
+                0.883,
+                0.179
+              ],
+              "content": "The unit of power, watt is named in the honour of James Watt."
+            }
+          ],
+          "image_source": "images/page_14_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.663,
+            0.179,
+            0.886,
+            0.242
+          ],
+          "content": "He invented an efficient steam engine that could generate rotational motion and move wheels."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.225,
+            0.246,
+            0.491,
+            0.268
+          ],
+          "level": 2,
+          "content": "7.6 Simple Machines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.271,
+            0.89,
+            0.356
+          ],
+          "content": "In everyday life, we often need to do work against gravity or other forces, such as lifting or moving heavy objects. Although the total work required for a task cannot be reduced, it can be made easier by changing the magnitude or direction of the force that needs to be applied. The devices that help us do this are called **simple machines**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.375,
+            0.176,
+            0.469
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.085,
+                0.474,
+                0.201,
+                0.49
+              ],
+              "content": "Fig. 7.23: Pulley"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.357,
+            0.89,
+            0.459
+          ],
+          "content": "In this section, we will study three simple machines — a pulley, an inclined plane and a lever — to understand how these make the task feel easier. The force we apply to a machine is called the **effort**, and force that needs to be overcome is called the **load**. To describe how a machine changes the magnitude of the applied force, we define **mechanical advantage** as the ratio of the load to the effort. It can be written as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.427,
+            0.457,
+            0.708,
+            0.494
+          ],
+          "content": "\\mathrm{mechanism\\_advantage} = \\frac{\\mathrm{load}}{\\mathrm{effort}}",
+          "image_source": "images/page_14_equation_13.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.208,
+            0.495,
+            0.374,
+            0.709
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.06,
+            0.54,
+            0.201,
+            0.709
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.835,
+            0.467,
+            0.886,
+            0.485
+          ],
+          "content": "(7.12)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.387,
+            0.495,
+            0.52,
+            0.516
+          ],
+          "level": 2,
+          "content": "7.6.1 Pulley"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.385,
+            0.517,
+            0.89,
+            0.739
+          ],
+          "content": "You may have seen a flag or a load being raised where a rope is pulled in the downward direction, while the flag or the load move in the upward direction. This is done with the help of a pulley fixed at the top. A **pulley** is a wheel with a groove that guides a rope (Fig. 7.23). A fixed pulley does not reduce the magnitude of the force required, it only changes its direction. It is easier for us to pull downward than to lift a load by applying an upward force directly (Figs. 7.24a and 7.24b). Thus, the pulley provides convenience by changing the direction of the effort. Since the effort and the load are equal in magnitude, the mechanical advantage of a fixed pulley is 1 (Eq. 7.12)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.075,
+            0.739,
+            0.139,
+            0.805
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.057,
+                0.711,
+                0.365,
+                0.741
+              ],
+              "content": "Fig. 7.24: Pulling up a load (a) directly, and (b) using a pulley"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_20.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.158,
+            0.751,
+            0.368,
+            0.77
+          ],
+          "level": 2,
+          "content": "Ready to Go Beyond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.777,
+            0.632,
+            0.904
+          ],
+          "content": "Movable pulleys or a system of pulleys (Fig. 7.25) can have a mechanical advantage greater than 1 and can lift much heavier objects with much smaller effort. In a movable pulley system, the load is attached to the movable pulley. One end of the rope is fixed to a point, while the other end is free to apply effort. Pulleys are widely used in real life, such as in elevators and cranes given the convenience they provide us."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.658,
+            0.778,
+            0.831,
+            0.881
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.644,
+                0.885,
+                0.851,
+                0.902
+              ],
+              "content": "Fig. 7.25: A system of pulleys"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_23.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.114,
+            0.96
+          ],
+          "content": "130"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.303,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

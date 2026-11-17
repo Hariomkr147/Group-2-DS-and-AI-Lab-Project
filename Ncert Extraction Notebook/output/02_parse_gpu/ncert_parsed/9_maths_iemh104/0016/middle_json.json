@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "83"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.108,
+            0.884,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that the volume of this cube is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " . Let us split this cube into smaller cubes and cuboids."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.155,
+            0.925,
+            0.703
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.111,
+                0.155,
+                0.925,
+                0.703
+              ],
+              "image_path": "images/page_15_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.325,
+                0.71,
+                0.673,
+                0.728
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.10: Representation of the identity"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.374,
+            0.728,
+            0.625,
+            0.745
+          ],
+          "image_path": "images/page_15_equation_5.jpg",
+          "content": "( a + b ) ^ { 3 } = a ^ { 3 } + 3 a ^ { 2 } b + 3 a b ^ { 2 } + b ^ { 3 }"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.756,
+            0.884,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that the larger cube can be split into two cubes and six cuboids. The cubes have volumes, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { \\overline { { 3 } } }"
+            },
+            {
+              "type": "text",
+              "content": " cubic units, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.112,
+            0.795,
+            0.885,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Amongst the other six cuboids, three have dimensions a units × a units "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\times \\textit { b }"
+            },
+            {
+              "type": "text",
+              "content": " units and other three have dimensions a units "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\times b"
+            },
+            {
+              "type": "text",
+              "content": " units × b units, and so their volumes are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { 2 } b"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " cubic units, respectively. Hence the total volume of the six cuboids is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 a ^ { 2 } b ^ { \\mathrm { ~ + ~ } } 3 a b ^ { 2 }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

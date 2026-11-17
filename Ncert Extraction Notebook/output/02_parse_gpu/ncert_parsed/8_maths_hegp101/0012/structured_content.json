@@ -1,0 +1,481 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.346,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.469,
+            0.107
+          ],
+          "content": "Consider the numbers 1, 8, 27, ..."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.107,
+            0.848,
+            0.143
+          ],
+          "content": "These numbers are called **perfect cubes.** Can you see why they are named so?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.143,
+            0.848,
+            0.181
+          ],
+          "content": "Each of them is obtained by multiplying a number by itself three times. We note that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.186,
+            0.559,
+            0.205
+          ],
+          "content": "1 = 1 \\times 1 \\times 1",
+          "image_source": "images/page_11_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.438,
+            0.209,
+            0.56,
+            0.228
+          ],
+          "content": "8 = 2 \\times 2 \\times 2",
+          "image_source": "images/page_11_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.434,
+            0.233,
+            0.565,
+            0.253
+          ],
+          "content": "2 7 = 3 \\times 3 \\times 3",
+          "image_source": "images/page_11_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.26,
+            0.272,
+            0.284
+          ],
+          "content": "Is 9 a cube?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.286,
+            0.738,
+            0.326
+          ],
+          "content": "We see that $2 \\times 2 \\times 2 = 8$ and $3 \\times 3 \\times 3 = 2 7$ . This shows that 9 is not a perfect cube. Nor is any number from 10 to 26."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.746,
+            0.204,
+            0.941,
+            0.345
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.334,
+            0.736,
+            0.374
+          ],
+          "content": "? Can you estimate the number of unit cubes in a cube with an edge length of 4 units?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.378,
+            0.682,
+            0.452
+          ],
+          "content": "It has 64 unit cubes! If you notice carefully, each layer of this cube has $4 \\times 4$ unit cubes. Each square layer has 16 unit cubes $( 4 \\times 4 )$ , and there are 4 such layers, so the total number of unit cubes is $4 \\times 4 \\times 4 = 64.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.451,
+            0.527,
+            0.47
+          ],
+          "content": "Since $5^{3} = 5 \\times 5 \\times 5 = 125,$ , 125 is a cube."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.47,
+            0.681,
+            0.508
+          ],
+          "content": "**In general, for any number n, we write the cube** $\\pmb { n } \\times \\pmb { n } \\times \\pmb { n }$ as $n ^ { 3 } .$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.686,
+            0.361,
+            0.942,
+            0.544
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_14.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.517,
+            0.407,
+            0.54
+          ],
+          "level": 2,
+          "content": "？ Complete the table below."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.554,
+            0.347,
+            0.573
+          ],
+          "content": "1 ^ { 3 } = 1",
+          "image_source": "images/page_11_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.441,
+            0.554,
+            0.544,
+            0.574
+          ],
+          "content": "1 1 ^ { 3 } = 1 3 3 1",
+          "image_source": "images/page_11_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.579,
+            0.349,
+            0.6
+          ],
+          "content": "2^{3} = 8",
+          "image_source": "images/page_11_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.441,
+            0.58,
+            0.495,
+            0.599
+          ],
+          "content": "1 2 ^ { 3 } =",
+          "image_source": "images/page_11_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.606,
+            0.359,
+            0.626
+          ],
+          "content": "3 ^ { 3 } = 2 7",
+          "image_source": "images/page_11_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.441,
+            0.605,
+            0.545,
+            0.627
+          ],
+          "content": "13^{3} = 2197",
+          "image_source": "images/page_11_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.633,
+            0.359,
+            0.653
+          ],
+          "content": "4 ^ { 3 } = 6 4",
+          "image_source": "images/page_11_equation_22.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.633,
+            0.545,
+            0.653
+          ],
+          "content": "1 4 ^ { 3 } = 2 7 4 4",
+          "image_source": "images/page_11_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.66,
+            0.37,
+            0.68
+          ],
+          "content": "5 ^ { 3 } = 1 2 5",
+          "image_source": "images/page_11_equation_24.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.443,
+            0.66,
+            0.494,
+            0.679
+          ],
+          "content": "15^{3} =",
+          "image_source": "images/page_11_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.686,
+            0.331,
+            0.706
+          ],
+          "content": "6^{3} \\equiv",
+          "image_source": "images/page_11_equation_26.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.686,
+            0.494,
+            0.706
+          ],
+          "content": "1 6 ^ { 3 } =",
+          "image_source": "images/page_11_equation_27.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.289,
+            0.713,
+            0.33,
+            0.732
+          ],
+          "content": "7 ^ { 3 } =",
+          "image_source": "images/page_11_equation_28.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.443,
+            0.713,
+            0.545,
+            0.734
+          ],
+          "content": "1 7 ^ { 3 } = 4 9 1 3",
+          "image_source": "images/page_11_equation_29.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.739,
+            0.332,
+            0.758
+          ],
+          "content": "8^{3}  三",
+          "image_source": "images/page_11_equation_30.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.443,
+            0.74,
+            0.545,
+            0.76
+          ],
+          "content": "1 8 ^ { 3 } = 5 8 3 2",
+          "image_source": "images/page_11_equation_31.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.766,
+            0.332,
+            0.785
+          ],
+          "content": "\\mathbf { \\hat { 9 } } ^ { 3 } =",
+          "image_source": "images/page_11_equation_32.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.766,
+            0.545,
+            0.786
+          ],
+          "content": "1 9 ^ { 3 } = 6 8 5 9",
+          "image_source": "images/page_11_equation_33.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.29,
+            0.793,
+            0.342,
+            0.813
+          ],
+          "content": "1 0 ^ { 3 } =",
+          "image_source": "images/page_11_equation_34.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.792,
+            0.494,
+            0.813
+          ],
+          "content": "2 0 ^ { 3 } =",
+          "image_source": "images/page_11_equation_35.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.835,
+            0.62,
+            0.859
+          ],
+          "content": "？ What patterns do you notice in the table above?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.871,
+            0.8,
+            0.895
+          ],
+          "content": "We know that 0, 1, 4, 5, 6, 9 are the only last digits possible for"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.817,
+            0.823,
+            0.903,
+            0.875
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.915,
+            0.118,
+            0.936
+          ],
+          "content": "1 2"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

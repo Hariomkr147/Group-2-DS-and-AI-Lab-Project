@@ -1,0 +1,223 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.152,
+            0.046,
+            0.363,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.361,
+            0.115,
+            0.66,
+            0.256
+          ],
+          "content": "| Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  | 1 | 2 |\n| 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n| 10 | 11 | 12 | 13 | 14 | 15 | 16 |\n| 17 | 18 | 19 | 20 | 21 | 22 | 23 |\n| 24 | 25 | 26 | 27 | 28 | 29 | 30 |",
+          "captions": [
+            {
+              "bbox": [
+                0.424,
+                0.089,
+                0.59,
+                0.108
+              ],
+              "content": "November 2024"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_table_2.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.174,
+            0.285,
+            0.312,
+            0.367
+          ],
+          "content": "| 12 | 13 |\n| --- | --- |\n| 19 | 20 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.322,
+            0.273,
+            0.848,
+            0.347
+          ],
+          "content": "Let us take the marked 2 × 2 square, and consider the numbers lying on the diagonals; 12 and 20; 13 and 19. Find their sums; 12 + 20, 13 + 19. What do you observe?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.347,
+            0.347,
+            0.505,
+            0.366
+          ],
+          "content": "They are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.365,
+            0.846,
+            0.404
+          ],
+          "content": "Let us extend the numbers in the calendar beyond 30, creating endless rows."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.362,
+            0.434,
+            0.635,
+            0.626
+          ],
+          "content": "| Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n| --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  | 1 | 2 |\n| 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n| 10 | 11 | 12 | 13 | 14 | 15 | 16 |\n| 17 | 18 | 19 | 20 | 21 | 22 | 23 |\n| 24 | 25 | 26 | 27 | 28 | 29 | 30 |\n| 31 | 32 | 33 | 34 | 35 | 36 | 37 |\n| 38 | 39 | 40 | 41 | 42 | 43 | 44 |\n|  |  |  |  |  |  |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.419,
+                0.411,
+                0.571,
+                0.429
+              ],
+              "content": "November 2024"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_table_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.668,
+            0.846,
+            0.709
+          ],
+          "content": "Will the diagonal sums be equal in every 2 × 2 square in this endless grid? How can we be sure?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.718,
+            0.846,
+            0.756
+          ],
+          "content": "To be sure of this we cannot check with all 2 × 2 squares as there are an unlimited number of them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.755,
+            0.845,
+            0.793
+          ],
+          "content": "Let us consider a 2 × 2 square. Its top left number can be any number. Let us call ${ \\mathrm { i } } { \\mathrm {  ~ \\bar { ~ } } } a ^ { \\prime }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.802,
+            0.694,
+            0.842
+          ],
+          "content": "? Given that we know the top left number, how do we find the other numbers in this 2 × 2 square?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.706,
+            0.784,
+            0.843,
+            0.864
+          ],
+          "content": "| a | ? |\n| --- | --- |\n| ? | ? |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_table_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.851,
+            0.694,
+            0.89
+          ],
+          "content": "As we have been doing, first let us describe the other numbers in words."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16,
+            0.939,
+            0.186,
+            0.955
+          ],
+          "content": "98"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

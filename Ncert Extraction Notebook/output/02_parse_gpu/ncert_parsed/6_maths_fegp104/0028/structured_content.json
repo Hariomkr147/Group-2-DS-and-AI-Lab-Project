@@ -1,0 +1,135 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.566,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "Data Handling and Presentation"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.122,
+            0.715,
+            0.147
+          ],
+          "level": 2,
+          "content": "4.5 Artistic and Aesthetic Considerations"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.164,
+            0.835,
+            0.391
+          ],
+          "content": "In addition to the steps described in previous sections, there are also some other more artistic and aesthetic aspects one can consider when preparing visual presentations of data to make them more interesting and effective. First, when making a visual presentation of data such as a pictograph or bar graph, it is important to make it fit in the intended space; this can be controlled, for example, by choosing the scale appropriately, as we have seen earlier. It is also desirable to make the data presentation visually appealing and easy-to-understand, so that the intended audience appreciates the information being conveyed."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.393,
+            0.834,
+            0.46
+          ],
+          "content": "Let us consider an example. Here is a table naming the tallest mountain on each continent, along with the height of each mountain in meters."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.119,
+            0.473,
+            0.827,
+            0.643
+          ],
+          "content": "| Continent | Asia | South America | North America | Africa | Europe | Antarctica | Australia |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Tallest Mountain | Everest | Aconcagua | Denali | Kiliman-jaro | Elbrus | Vinson Massif | Koscuiszko |\n| Height | 8848m | 6962m | 6194m | 5895m | 5642m | 4892m | 2228m |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.666,
+            0.834,
+            0.734
+          ],
+          "content": "How much taller is Mount Everest than Mount Koscuiszko? Are Mount Denali and Mount Kilimanjaro very different in height? This is not so easy to quickly discern from a large table of numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.736,
+            0.835,
+            0.85
+          ],
+          "content": "As we have seen earlier, we can convert the table of numbers into a bar graph, as shown on the right. Here, each value is drawn as a horizontal box. These are longer or shorter depending on the number they represent. This makes it easier to compare the heights of all these mountains at a glance."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.884,
+            0.941,
+            0.918,
+            0.96
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:45+05:30",
+      "modified_at": "2026-04-07T17:39:48+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 44,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.298,
+            0.1,
+            0.648,
+            0.245
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.298,
+                0.1,
+                0.648,
+                0.245
+              ],
+              "image_path": "images/page_7_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.088,
+                0.263,
+                0.884,
+                0.279
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.5 Electric circuit to study the factors on which the resistance of conducting wires depends"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.099,
+            0.293,
+            0.566,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Now, plug the key. Note the current in the ammeter.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.099,
+            0.307,
+            0.874,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Replace the nichrome wire by another nichrome wire of same thickness but twice the length, that is 2l [marked (2) in the Fig. 11.5].",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.1,
+            0.337,
+            0.352,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Note the ammeter reading.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.099,
+            0.35,
+            0.876,
+            0.394
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now replace the wire by a thicker nichrome wire, of the same length l [marked (3)]. A thicker wire has a larger cross-sectional area. Again note down the current through the circuit.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.099,
+            0.394,
+            0.875,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Instead of taking a nichrome wire, connect a copper wire [marked (4) in Fig. 11.5] in the circuit. Let the wire be of the same length and same area of cross-section as that of the first nichrome wire [marked (1)]. Note the value of the current.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.1,
+            0.439,
+            0.532,
+            0.453
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Notice the difference in the current in all cases.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.1,
+            0.452,
+            0.609,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Does the current depend on the length of the conductor?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.099,
+            0.467,
+            0.724,
+            0.482
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Does the current depend on the area of cross-section of the wire used?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.274,
+            0.521,
+            0.901,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It is observed that the ammeter reading decreases to one-half when the length of the wire is doubled. The ammeter reading is increased when a thicker wire of the same material and of the same length is used in the circuit. A change in ammeter reading is observed when a wire of different material of the same length and the same area of cross-section is used. On applying Ohm’s law [Eqs. (11.5) – (11.7)], we observe that the resistance of the conductor depends (i) on its length, (ii) on its area of cross-section, and (iii) on the nature of its material. Precise measurements have shown that resistance of a uniform metallic conductor is directly proportional to its length (l) and inversely proportional to the area of cross-section (A). That is,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.373,
+            0.698,
+            0.449,
+            0.729
+          ],
+          "image_path": "images/page_7_equation_11.jpg",
+          "content": "\\begin{array} { l } { { R \\propto \\mathcal { l } } } \\\\ { { R \\propto 1 / A } } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.308,
+            0.715,
+            0.35,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.843,
+            0.698,
+            0.896,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(11.8)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.843,
+            0.714,
+            0.896,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(11.9)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.277,
+            0.734,
+            0.635,
+            0.751
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Combining Eqs. (11.8) and (11.9) we get",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.374,
+            0.756,
+            0.436,
+            0.789
+          ],
+          "image_path": "images/page_7_equation_16.jpg",
+          "content": "R \\propto \\frac { l } { A }"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.309,
+            0.809,
+            0.335,
+            0.822
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.376,
+            0.798,
+            0.896,
+            0.829
+          ],
+          "image_path": "images/page_7_equation_18.jpg",
+          "content": "R = \\wp \\frac { l } { A } .\\tag{11.10}"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.275,
+            0.832,
+            0.899,
+            0.881
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "where",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " ρ "
+            },
+            {
+              "type": "text",
+              "content": "(rho) is a constant of proportionality and is called the electrical resistivity of the material of the conductor. The SI unit of resistivity is",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Omega"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m. It is a characteristic property of the material. The metals and alloys",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 20,
+          "bbox": [
+            0.091,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "178"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.929
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

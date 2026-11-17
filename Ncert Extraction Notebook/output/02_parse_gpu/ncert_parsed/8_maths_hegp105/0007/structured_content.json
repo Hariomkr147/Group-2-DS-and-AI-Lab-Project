@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.769,
+            0.092,
+            0.877,
+            0.113
+          ],
+          "content": "Examples"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.188,
+            0.091,
+            0.644,
+            0.113
+          ],
+          "content": "Explanation with Algebra and Visualisation"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.431,
+            0.12,
+            0.73,
+            0.195
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.264,
+            0.119,
+            0.731,
+            0.361
+          ],
+          "content": "\\begin{array} { r l } & { | \\begin{array} { l } { 4 p \\mathrm { ~ a n d ~ } ( 4 q + 2 ) } \\\\ { = 4 p + ( 4 q + 2 ) } \\\\ { = 4 p + 4 q + 2 } \\\\ { = 4 ( p + q ) + 2 . } \\end{array} | \\underbrace { \\overbrace { \\bigcirc \\bigcirc \\bigcirc \\bigcirc \\bigcirc } ^ { \\bigcirc } } _ { \\bigcirc \\bigcirc \\bigcirc \\bigcirc } | \\begin{array} { l } { \\overbrace { \\bigcirc \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\overbrace { \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\overbrace { \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\bigcirc \\bigcirc } \\end{array} + | \\begin{array} { l } { \\bigcirc \\bigcirc \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc } \\end{array} | \\begin{array} { l } { \\overbrace { \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} + | \\begin{array} { l } { \\bigcirc \\bigcirc \\bigcirc \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | \\begin{array} { l } { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | } \\\\ & { = \\underbrace { | \\begin{array} { l } { \\bigcirc \\bigcirc \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\bigcirc \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | } \\\\ & { = \\underbrace { | \\begin{array} { l } { \\bigcirc \\bigcirc \\bigcirc } ^ { \\bigcirc } } \\\\ { \\bigcirc \\bigcirc \\bigcirc } \\\\ { \\bigcirc \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | } \\end{array} | \\begin{array} { l } { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | \\begin{array} { l } { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array} | \\begin{array} { l } { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\\\ { \\bigcirc } \\end{array}",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.38,
+            0.849,
+            0.42
+          ],
+          "content": "Notice how we are able to generalise and prove properties of arithmetic using algebra and also using visualisation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.434,
+            0.508,
+            0.455
+          ],
+          "level": 2,
+          "content": "Always, Sometimes, or Never"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.463,
+            0.848,
+            0.52
+          ],
+          "content": "？ We examine different statements about factors and multiples and determine whether a statement is ‘Always True’, ‘Sometimes True’, or ‘Never True’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.52,
+            0.831,
+            0.541
+          ],
+          "content": "We know that the sum of any two multiples of 2 is also a multiple of 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.542,
+            0.848,
+            0.581
+          ],
+          "content": "？ 1. If 8 exactly divides two numbers separately, it must exactly divide their sum."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.093,
+            0.595,
+            0.905,
+            0.884
+          ],
+          "content": "<table><tr><td colspan=\"4\">Explanation with Algebra and Visualisation</td><td>Examples</td></tr><tr><td>The two numbers have 8 as a factor; in other words, the two numbers are multiples of 8.</td><td>8a and 8b.</td><td colspan=\"2\"></td><td>8 and 16. 16 and 56. 80 and 120.</td></tr><tr><td>As multiples of 8 are obtained by repeatedly adding 8, the sum of two multiples of 8 will also be a multiple of 8.</td><td> $8 a \\pm 8 b$   $= 8 \\: ( a + b ) .$ </td><td>00000000 00000000 00000000</td><td>7 a rows (a+b) rows b rows</td><td> $\\begin{array} { l } { { 8 \\pm 1 6 = 8 ( 1 \\pm 2 ) } } \\\\ { { = 2 4 . } } \\end{array}$   $16+56=72.$   $80+120=200.$ </td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_table_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.896,
+            0.798,
+            0.917
+          ],
+          "content": "Statement 1 is always true. Determine if it is true with subtraction."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.915,
+            0.126,
+            0.937
+          ],
+          "content": "118"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

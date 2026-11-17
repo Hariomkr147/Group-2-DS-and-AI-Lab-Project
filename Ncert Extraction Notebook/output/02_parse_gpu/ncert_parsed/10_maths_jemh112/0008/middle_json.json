@@ -1,0 +1,449 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-12 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-12 (14th Nov.)",
+      "description": "Chap-12 (14th Nov.)",
+      "created_at": "2022-08-17T11:59:52+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "168"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.145,
+            0.901,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The volume of air inside the shed (when there are no people or machinery) is given by the volume of air inside the cuboid and inside the half cylinder, taken together."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.208,
+            0.9,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, the length, breadth and height of the cuboid are 15 m, 7 m and 8 m, respectively. Also, the diameter of the half cylinder is 7 m and its height is 15 m."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.264,
+            0.858,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the required volume = volume of the cuboid "
+            },
+            {
+              "type": "equation_inline",
+              "content": "+ \\frac{1}{2}"
+            },
+            {
+              "type": "text",
+              "content": " volume of the cylinder"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.338,
+            0.323,
+            0.878,
+            0.369
+          ],
+          "image_path": "images/page_7_equation_5.jpg",
+          "content": "\\left[15 \\times 7 \\times 8 + \\frac{1}{2} \\times \\frac{22}{7} \\times \\frac{7}{2} \\times \\frac{7}{2} \\times 15\\right]  m ^3 = 1128.75  m ^3"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.379,
+            0.681,
+            0.399
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Next, the total space occupied by the machinery "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= 3 0 0 \\; \\mathrm { m } ^ { 3 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.404,
+            0.795,
+            0.424
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "And the total space occupied by the worker "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = 20 \\times 0.08\\  m ^3 = 1.6\\  m ^3"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.429,
+            0.792,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the volume of the air, when there are machinery and workers"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.46,
+            0.454,
+            0.878,
+            0.474
+          ],
+          "image_path": "images/page_7_equation_9.jpg",
+          "content": "1128.75-(300.00+1.60)=827.15\\mathrm{~m}^{3}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.481,
+            0.561,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 6 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A juice seller was serving his customers using glasses as shown in Fig. 12.13. The inner diameter of the cylindrical glass was 5 cm, but the bottom of the glass had a hemispherical raised portion which reduced the capacity of the glass. If the height of a glass was 10 cm, find the apparent capacity of the glass and its actual capacity. (Use "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi = 3.14.)"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.672,
+            0.482,
+            0.771,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.672,
+                0.482,
+                0.771,
+                0.608
+              ],
+              "image_path": "images/page_7_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.67,
+                0.615,
+                0.781,
+                0.634
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.096,
+            0.641,
+            0.82,
+            0.66
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Since the inner diameter of the glass = 5 cm and height = 10 cm,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.135,
+            0.666,
+            0.542,
+            0.686
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the apparent capacity of the glass =  r"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "h"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.462,
+            0.69,
+            0.871,
+            0.709
+          ],
+          "image_path": "images/page_7_equation_15.jpg",
+          "content": "3.14 \\times 2.5 \\times 2.5 \\times 10  cm ^3 = 196.25  cm ^3"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.096,
+            0.716,
+            0.901,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But the actual capacity of the glass is less by the volume of the hemisphere at the base of the glass."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.098,
+            0.775,
+            0.139,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.257,
+            0.76,
+            0.878,
+            0.803
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "it is less by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{2}{3} \\pi r^{3} = \\frac{2}{3} \\times 3.14 \\times 2.5 \\times 2.5 \\times 2.5  cm ^{3} = 32.71  cm ^{3}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.096,
+            0.813,
+            0.867,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the actual capacity of the glass = apparent capacity of glass – volume of the hemisphere "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= \\left( 196.25 - 32.71 \\right)  cm ^3"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= 1 6 3 . 5 4   \\mathrm { c m } ^ { 3 }"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

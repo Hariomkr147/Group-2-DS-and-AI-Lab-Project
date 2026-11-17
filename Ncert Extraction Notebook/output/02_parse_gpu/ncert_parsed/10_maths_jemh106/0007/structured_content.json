@@ -1,0 +1,254 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.194,
+            0.121
+          ],
+          "content": "TRIANGLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.873,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "79"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.139,
+            0.388,
+            0.159
+          ],
+          "level": 2,
+          "content": "6.3 Similarity of Triangles"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.165,
+            0.626,
+            0.185
+          ],
+          "content": "What can you say about the similarity of two triangles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.191,
+            0.9,
+            0.229
+          ],
+          "content": "You may recall that triangle is also a polygon. So, we can state the same conditions for the similarity of two triangles. That is:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.236,
+            0.442,
+            0.255
+          ],
+          "content": "Two triangles are similiar, if"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.261,
+            0.609,
+            0.281
+          ],
+          "content": "(i) their corresponding angles are equal and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.286,
+            0.826,
+            0.305
+          ],
+          "content": "(ii) their corresponding sides are in the same ratio (or proportion)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.311,
+            0.595,
+            0.408
+          ],
+          "content": "Note that if corresponding angles of two triangles are equal, then they are known as equiangular triangles. A famous Greek mathematician Thales gave an important truth relating to two equiangular triangles which is as follows:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.414,
+            0.595,
+            0.453
+          ],
+          "content": "The ratio of any two corresponding sides in two equiangular triangles is always the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.458,
+            0.594,
+            0.516
+          ],
+          "content": "It is believed that he had used a result called the Basic Proportionality Theorem (now known as the Thales Theorem) for the same."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.61,
+            0.313,
+            0.885,
+            0.532
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.522,
+            0.593,
+            0.561
+          ],
+          "content": "To understand the Basic Proportionality Theorem, let us perform the following activity:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.566,
+            0.593,
+            0.624
+          ],
+          "content": "**Activity 2 :** Draw any angle XAY and on its one arm AX, mark points (say five points) P, Q, D, R and B such that $\\mathrm{AP} = \\mathrm{PQ} = \\mathrm{QD} = \\mathrm{DR} = \\mathrm{RB}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.63,
+            0.592,
+            0.669
+          ],
+          "content": "Now, through B, draw any line intersecting arm AY at C (see Fig. 6.9)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.61,
+            0.578,
+            0.868,
+            0.702
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.675,
+            0.594,
+            0.762
+          ],
+          "content": "Also, through the point D, draw a line parallel to BC to intersect AC at E. Do you observe from your constructions that $\\frac { \\mathrm { A D } } { \\mathrm { D B } }   =   \\frac { 3 } { 2 }   ?$ Measure AE and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.701,
+            0.712,
+            0.786,
+            0.731
+          ],
+          "content": "Fig. 6.9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.765,
+            0.902,
+            0.878
+          ],
+          "content": "EC. What about $\\frac { \\mathrm { A E } } { \\mathrm { E C } }$ ? Observe that $\\frac { \\mathrm { A E } } { \\mathrm { E C } }$ is also equal to $\\frac { 3 } { 2 }$ . Thus, you can see that in $\\Delta   \\mathrm { A B C }$ , DE || BC and $\\frac { \\mathrm { A D } } { \\mathrm { D B } }   =   \\frac { \\mathrm { A E } } { \\mathrm { E C } }$ . Is it a coincidence? No, it is due to the following theorem (known as the Basic Proportionality Theorem):"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

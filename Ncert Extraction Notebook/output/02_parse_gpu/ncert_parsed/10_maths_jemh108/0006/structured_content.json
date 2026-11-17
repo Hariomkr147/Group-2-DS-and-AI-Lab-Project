@@ -1,0 +1,329 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "118"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.178
+          ],
+          "content": "**Remark :** Since the hypotenuse is the longest side in a right triangle, the value of sin A or cos A is always less than 1 (or, in particular, equal to 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.184,
+            0.409,
+            0.202
+          ],
+          "content": "Let us consider some examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.215,
+            0.595,
+            0.28
+          ],
+          "content": "**Example 1 :** Given tan $\\mathrm { A } = { \\frac { 4 } { 3 } }$ , find the other trigonometric ratios of the angle A."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.285,
+            0.594,
+            0.324
+          ],
+          "content": "**Solution :** Let us first draw a right   ABC (see Fig 8.8)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.331,
+            0.465,
+            0.372
+          ],
+          "content": "Now, we know that tan $\\mathrm{A}=\\frac{\\mathrm{BC}}{\\mathrm{AB}}=\\frac{4}{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.38,
+            0.595,
+            0.42
+          ],
+          "content": "Therefore, if $\\mathbf { B } \\mathbf { C } = 4 k ,$ then $\\mathrm { A B } = 3 k$ , where k is a positive number."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.643,
+            0.204,
+            0.883,
+            0.407
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.708,
+                0.413,
+                0.795,
+                0.432
+              ],
+              "content": "Fig. 8.8"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.425,
+            0.573,
+            0.445
+          ],
+          "content": "Now, by using the Pythagoras Theorem, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.334,
+            0.45,
+            0.738,
+            0.469
+          ],
+          "content": "AC^{2} = AB^{2} + BC^{2} = (4k)^{2} + (3k)^{2} = 25k^{2}",
+          "image_source": "images/page_5_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.477,
+            0.135,
+            0.494
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.343,
+            0.476,
+            0.439,
+            0.494
+          ],
+          "content": "\\mathrm { A C } = 5 k",
+          "image_source": "images/page_5_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.502,
+            0.75,
+            0.521
+          ],
+          "content": "Now, we can write all the trigonometric ratios using their definitions."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.327,
+            0.527,
+            0.555,
+            0.57
+          ],
+          "content": "\\sin A = \\frac{BC}{AC} = \\frac{4k}{5k} = \\frac{4}{5}",
+          "image_source": "images/page_5_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.574,
+            0.551,
+            0.617
+          ],
+          "content": "\\cos A = \\frac{AB}{AC} = \\frac{3k}{5k} = \\frac{3}{5}",
+          "image_source": "images/page_5_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.624,
+            0.845,
+            0.667
+          ],
+          "content": "Therefore, cot $\\mathrm{A} = \\frac{1}{\\tan \\mathrm{A}} = \\frac{3}{4},$ , cosec $\\mathrm{A} = \\frac{1}{\\sin \\mathrm{A}} = \\frac{5}{4}$ and sec $\\mathrm{A} = \\frac{1}{\\cos \\mathrm{A}} = \\frac{5}{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.687,
+            0.455,
+            0.752
+          ],
+          "content": "**Example 2 :** If $\\angle  B and  \\angle  Q$ are acute angles such that sin $\\mathbf { B } = \\sin \\mathbf { Q } ,$ then prove that $\\angle B = \\angle Q$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.759,
+            0.455,
+            0.823
+          ],
+          "content": "**Solution :** Let us consider two right triangles ABC and PQR where sin B = sin Q (see Fig. 8.9)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.467,
+            0.672,
+            0.896,
+            0.816
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.641,
+                0.825,
+                0.727,
+                0.844
+              ],
+              "content": "Fig. 8.9"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_image_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.842,
+            0.191,
+            0.86
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.413,
+            0.832,
+            0.537,
+            0.871
+          ],
+          "content": "\\sin \\mathbf { B } = { \\frac { \\mathrm { A C } } { \\mathrm { A B } } }",
+          "image_source": "images/page_5_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.887,
+            0.142,
+            0.904
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.875,
+            0.536,
+            0.915
+          ],
+          "content": "\\sin Q = \\frac{PR}{PQ}",
+          "image_source": "images/page_5_equation_25.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

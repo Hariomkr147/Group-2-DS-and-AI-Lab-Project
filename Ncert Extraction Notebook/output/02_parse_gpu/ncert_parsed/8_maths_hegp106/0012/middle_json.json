@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We Distribute, Yet Things Multiply"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.088,
+            0.211,
+            0.107
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.322,
+            0.111,
+            0.678,
+            0.172
+          ],
+          "image_path": "images/page_11_equation_3.jpg",
+          "content": "\\begin{aligned}(60 - 5)^{2} &= 60^{2} - (60 \\times 5) - (5 \\times 60) + 5^{2} \\\\&= 3600 - 300 - 300 + 25 \\\\&= 3025.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.177,
+            0.695,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The area of the square of sidelength 55 is 3025 sq. units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.197,
+            0.846,
+            0.233
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen what "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a ~ + ~ b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " gives when expanded. What is the expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.175,
+            0.234,
+            0.485,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the distributive property,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.333,
+            0.256,
+            0.602,
+            0.311
+          ],
+          "image_path": "images/page_11_equation_7.jpg",
+          "content": "\\begin{array} { l } ( a - b ) ^ { 2 } = ( a - b ) \\times ( a - b ) \\\\ \\quad = ( a ) ^ { 2 } - b a - a b + ( b ) ^ { 2 } \\\\ \\quad = a ^ { 2 } - 2 a b + b ^ { 2 } . \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.316,
+            0.849,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ We can also use the expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a ~ + ~ b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " to find the expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . Think how."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.358,
+            0.395,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 } = ( a + ( - b ) ) ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.377,
+            0.633,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can now directly use the expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a + b ) ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.324,
+            0.406,
+            0.678,
+            0.426
+          ],
+          "image_path": "images/page_11_equation_11.jpg",
+          "content": "(a+(-b)^{2}=(a)^{2}+(-b)^{2}+2\\times(a)\\times(-b)"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.326,
+            0.452,
+            0.672,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Identity 1B",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a - b)^{2} = a^{2} + b^{2} - 2ab"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.492,
+            0.839,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Find the general expansion of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - { \\bar { b } } ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " using geometry, as we did for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 5 ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.113,
+            0.528,
+            0.752,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Use the identity "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( a - b ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " to find the values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{(a)}   99^{2}"
+            },
+            {
+              "type": "text",
+              "content": " and (b) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 8 ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.565,
+            0.846,
+            0.633
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Expand the following using both Identity 1B and by applying the distributive property (i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( b - 6 ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " (ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(-2a + 3)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " (iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 7 y   -   \\frac { 3 } { 4 z } ) ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.151,
+            0.646,
+            0.424,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Investigating Patterns",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.675,
+            0.254,
+            0.693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Pattern 1",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.699,
+            0.444,
+            0.718
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Look at the following pattern."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.411,
+            0.721,
+            0.588,
+            0.741
+          ],
+          "image_path": "images/page_11_equation_19.jpg",
+          "content": "2 \\; ( 2 ^ { 2 } + 1 ^ { 2 } ) = 3 ^ { 2 } + 1 ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.412,
+            0.751,
+            0.588,
+            0.771
+          ],
+          "image_path": "images/page_11_equation_20.jpg",
+          "content": "2 \\; ( 3 ^ { 2 } + 1 ^ { 2 } ) = 4 ^ { 2 } + 2 ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.413,
+            0.78,
+            0.601,
+            0.802
+          ],
+          "image_path": "images/page_11_equation_21.jpg",
+          "content": "2 \\; ( 6 ^ { 2 } + 5 ^ { 2 } ) = 1 1 ^ { 2 } + 1 ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.412,
+            0.81,
+            0.597,
+            0.831
+          ],
+          "image_path": "images/page_11_equation_22.jpg",
+          "content": "2 \\; ( 5 ^ { 2 } + 3 ^ { 2 } ) = \\; 8 ^ { 2 } + 2 ^ { 2 } ."
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.872,
+            0.915,
+            0.918,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "147"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

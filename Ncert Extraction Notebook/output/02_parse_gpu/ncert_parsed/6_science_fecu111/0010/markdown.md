@@ -1,0 +1,21 @@
+![](images/page_9_image_0.jpg)
+
+Curiosity | Textbook of Science | Grade 6
+
+**What will happen if the Sun is not visible for a few days?**
+
+**1. We may have to depend on artificial lighting during day time also.**
+
+**2.**
+
+**3.**
+
+One cannot imagine life on Earth without the Sun. The Sun is the main source of energy on the Earth. Plants get energy from the Sun and produce food. Animals eat plants and grow. We get food from both plants and animals. This cycle on Earth is possible due to the Sun. So, we all are dependent on the Sun as the main source of energy. Where do we find a large variety of plants or animals? Let us explore.
+
+## 11.4 Forests
+
+One morning, Ajji takes Bhoomi and Surya for a walk in the forest. They find a variety of herbs, shrubs and trees in the forest. Ajji explains, “Forests are large areas with dense growth of various types of plants.” On the way, they collect some nellikai (Kannada term for Indian gooseberries) that have fallen on the ground. Ajji tells them, “We have a tradition in the village not to pluck fruits from the trees; they are left for animals and birds to eat.”
+
+![](images/page_9_image_10.jpg)
+
+A forest

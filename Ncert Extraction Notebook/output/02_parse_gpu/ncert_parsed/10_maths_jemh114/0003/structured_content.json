@@ -1,0 +1,222 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.136,
+            0.119
+          ],
+          "content": "204"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.105,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.148,
+            0.672,
+            0.401
+          ],
+          "content": "Probability theory had its origin in the 16th century when an Italian physician and mathematician J.Cardan wrote the first book on the subject, The Book on Games of Chance. Since its inception, the study of probability has attracted the attention of great mathematicians. James Bernoulli (1654 – 1705), A. de Moivre (1667 – 1754), and Pierre Simon Laplace are among those who made significant contributions to this field. Laplace’s Theorie Analytique des Probabilités, 1812, is considered to be the greatest contribution by a single person to the theory of probability. In recent years, probability has been used extensively in many areas such as biology, economics, genetics, physics, sociology etc."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.684,
+            0.148,
+            0.878,
+            0.316
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.678,
+                0.323,
+                0.882,
+                0.357
+              ],
+              "content": "Pierre Simon Laplace (1749 – 1827)"
+            }
+          ],
+          "image_source": "images/page_2_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.419,
+            0.9,
+            0.459
+          ],
+          "content": "Let us find the probability for some of the events associated with experiments where the equally likely assumption holds."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.472,
+            0.901,
+            0.513
+          ],
+          "content": "**Example 1 :** Find the probability of getting a head when a coin is tossed once. Also find the probability of getting a tail."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.519,
+            0.902,
+            0.58
+          ],
+          "content": "**Solution :** In the experiment of tossing a coin once, the number of possible outcomes is two — Head (H) and Tail (T). Let E be the event ‘getting a head’. The number of outcomes favourable to E, (i.e., of getting a head) is 1. Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.206,
+            0.591,
+            0.813,
+            0.636
+          ],
+          "content": "\\mathrm{P}(\\mathrm{E})=\\mathrm{P}(\\mathrm{head})=\\frac{\\text { Number of outcomes forourable to E}}{\\text { Number of all possible outcomes }}=\\frac{1}{2}",
+          "image_source": "images/page_2_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.642,
+            0.533,
+            0.662
+          ],
+          "content": "Similarly, if F is the event ‘getting a tail’, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.317,
+            0.664,
+            0.611,
+            0.704
+          ],
+          "content": "\\mathrm{P}(\\mathrm{F}) = \\mathrm{P}(\\mathrm{tail}) = \\frac{1}{2} \\quad (\\mathrm{Why~?})",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.724,
+            0.902,
+            0.785
+          ],
+          "content": "**Example 2 :** A bag contains a red ball, a blue ball and a yellow ball, all the balls being of the same size. Kritika takes out a ball from the bag without looking into it. What is the probability that she takes out the"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.791,
+            0.271,
+            0.811
+          ],
+          "content": "(i) yellow ball?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.333,
+            0.791,
+            0.455,
+            0.811
+          ],
+          "content": "(ii) red ball?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.539,
+            0.791,
+            0.676,
+            0.811
+          ],
+          "content": "(iii) blue ball?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.816,
+            0.899,
+            0.856
+          ],
+          "content": "**Solution :** Kritika takes out a ball from the bag without looking into it. So, it is equally likely that she takes out any one of them."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

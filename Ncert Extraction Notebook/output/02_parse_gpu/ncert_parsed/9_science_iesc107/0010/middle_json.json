@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.559,
+            0.041,
+            0.853,
+            0.059
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Work, Energy, and Simple Machines"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.857,
+            0.017,
+            0.952,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "N 125"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.11,
+            0.089,
+            0.458,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Gravitational Potential Energy"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.107,
+            0.111,
+            0.776,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Among the various types of possible ways in which objects can have potential energy, we will look at the simplest case of the gravitational potential energy of Earth-ball system. The Earth is much more massive than the ball, and thus, it hardly moves towards the ball, as discussed in Example 6.8 of Chapter 6, How Forces Affect Motion. Therefore, the stored energy of the Earth-ball system is often, simply referred to as the gravitational potential energy of the ball. Let us carry out an activity to learn more about the potential energy of the ball due to the gravitational force between the ball and the Earth. Henceforth, in this chapter, potential energy usually refers to the gravitational potential energy."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.109,
+            0.293,
+            0.424,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 7.1: Let us investigate"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.12,
+            0.314,
+            0.659,
+            0.35
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Take a heavy ball and a large container filled with loose sand."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.679,
+            0.279,
+            0.945,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.679,
+                0.279,
+                0.945,
+                0.338
+              ],
+              "image_path": "images/page_9_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.671,
+                0.347,
+                0.951,
+                0.377
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.17: Depressions created by a ball in sand dropped from different heights"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.121,
+            0.352,
+            0.662,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Raise the ball over the sand bed to a height of about 1 m and drop it (Fig. 7.17). Is a depression created in the sand? Why does the ball create a depression?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.12,
+            0.408,
+            0.776,
+            0.496
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Now, raise the ball to the height of 2 m and release it at a slightly different position over the sand bed such that the depressions do not overlap. Repeat this step one more time. "
+            },
+            {
+              "type": "text",
+              "content": "Compare",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the depths of the depressions. Is there any difference? In which case is the depression deepest and in which case the shallowest?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.107,
+            0.498,
+            0.776,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You find that the depression is deepest when the ball is dropped from the greatest height. Raising a ball to a greater height from the surface of the Earth requires more work. Thus, the ball possesses more energy at greater height. When the ball is released from a greater height, this energy creates a deeper depression. Thus, the greater the height of the ball above the Earth’s surface, the greater is its potential energy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.107,
+            0.605,
+            0.777,
+            0.727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can arrive at an expression for the potential energy of an object by using the work-energy theorem. Consider an object of mass m lying on the ground (Fig. 7.18). We can define the potential energy to be zero in this configuration. To raise the object gradually from the surface of the Earth to a height h , we need to apply a force equal to the force mg between the Earth and the object. The work done W by this applied force on the object is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.318,
+            0.728,
+            0.555,
+            0.748
+          ],
+          "image_path": "images/page_9_equation_12.jpg",
+          "content": "W = { \\mathrm { f o r c e } } \\times { \\mathrm { d i s p l a c e m e n t } }"
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.32,
+            0.754,
+            0.772,
+            0.773
+          ],
+          "image_path": "images/page_9_equation_13.jpg",
+          "content": "W = mg \\times h = mgh\\tag{7.7}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.108,
+            0.778,
+            0.775,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "According to the work-energy theorem (Eq. 7.3), the work done on the object appears as a change in its potential energy. Thus, the potential energy U of the object at a height h is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.328,
+            0.838,
+            0.772,
+            0.856
+          ],
+          "image_path": "images/page_9_equation_15.jpg",
+          "content": "U = m g h\\tag{7.8}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.108,
+            0.861,
+            0.775,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "text",
+              "content": "unit of potential energy",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is the "
+            },
+            {
+              "type": "text",
+              "content": "joule (J)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", which is the same as the unit of work done or that of kinetic energy."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.796,
+            0.631,
+            0.947,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.796,
+                0.631,
+                0.947,
+                0.861
+              ],
+              "image_path": "images/page_9_image_17.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 18,
+              "bbox": [
+                0.79,
+                0.868,
+                0.939,
+                0.898
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.18: Raising an object to a height"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

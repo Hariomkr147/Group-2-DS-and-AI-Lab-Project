@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.206,
+            0.664,
+            0.401,
+            0.819
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": "Ganita Prakash | Grade 6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.119,
+            0.884,
+            0.163
+          ],
+          "content": "before, one could trace these angles, superimpose them and then check. But can we do it without superimposition?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.165,
+            0.885,
+            0.209
+          ],
+          "content": "Suppose we have a transparent circle which can be moved and placed on figures. Can we use this for comparison?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.211,
+            0.886,
+            0.302
+          ],
+          "content": "Let us place the circular paper on the angle made by the first crane. The circle is placed in such a way that its centre is on the vertex of the angle. Let us mark the points A and B on the edge circle at the points where the arms of the angle pass through the circle."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.27,
+            0.317,
+            0.53,
+            0.522
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.543,
+            0.884,
+            0.587
+          ],
+          "content": "Can we use this to find out if this angle is greater than, or equal to or smaller than the angle made by the second crane?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.588,
+            0.885,
+            0.657
+          ],
+          "content": "Let us place it on the angle made by the second crane so that the vertex coincides with the centre of the circle and one of the arms passes through OA."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.413,
+            0.673,
+            0.63,
+            0.826
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.413,
+                0.833,
+                0.636,
+                0.877
+              ],
+              "content": "Can you now tell which angle is bigger?"
+            }
+          ],
+          "image_source": "images/page_11_image_8.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.086,
+            0.942,
+            0.112,
+            0.959
+          ],
+          "content": "24"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:38:25+05:30",
+      "modified_at": "2026-04-07T17:39:03+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 53,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

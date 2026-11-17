@@ -1,0 +1,206 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.085
+          ],
+          "content": "58"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.107,
+            0.886,
+            0.26
+          ],
+          "content": "Why do some rational numbers have repeating decimal representations? Imagine calculating $\\frac { 1 } { 7 }$ using long division. You are dividing by 7. What are the possible remainders at each step? They can only be 1, 2, 3, 4, 5, or 6 (why not 0?). Because there is a limited number of possible remainders eventually, a remainder must show up a second time. Once a remainder repeats, the entire division process loops, creating a repeating decimal!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.281,
+            0.649,
+            0.304
+          ],
+          "level": 2,
+          "content": "Predicting the Type of Decimal Expansion"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.31,
+            0.885,
+            0.37
+          ],
+          "content": "The interesting thing is that we can predict whether the decimal expansion of a rational number will terminate or go on forever without actually doing the long division process!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.369,
+            0.882,
+            0.389
+          ],
+          "content": "For this, we resort to finding the **prime factors** of the denominator."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.393,
+            0.885,
+            0.446
+          ],
+          "content": "Let $\\frac { p } { q } ,   q \\neq 0$ , be a rational number in its lowest terms (that is, p and q have no common factor other than 1)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.451,
+            0.83,
+            0.483
+          ],
+          "content": "Consider the fraction $\\frac { 3 } { 2 0 }$ . The prime factorisation of 20 is $2 ^ { 2 } \\times 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.499,
+            0.601,
+            0.544
+          ],
+          "content": "Hence, $\\frac{3}{20} = \\frac{3}{2^{2} \\times 5} = \\frac{3 \\times 5}{2^{2} \\times 5 \\times 5} = \\frac{15}{100} = 0.15$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.557,
+            0.884,
+            0.598
+          ],
+          "content": "We multiply the numerator and denominator by 5 to get 100 and arrive at 0.15 which is a terminating decimal."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.616,
+            0.399,
+            0.64
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.66,
+            0.855,
+            0.711
+          ],
+          "content": "The decimal expansion of $\\frac { p } { q }$ will be terminating precisely when the prime factors of q are only 2, only 5 or both 2 and 5. Can you explain why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.727,
+            0.885,
+            0.786
+          ],
+          "content": "This is because in such cases, we can make the denominator a power of 10 by multiplying both numerator and denominator by a suitable number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.788,
+            0.687,
+            0.823
+          ],
+          "content": "Converting Rational Decimals into the Form $\\frac { p } { q }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.829,
+            0.494,
+            0.849
+          ],
+          "content": "**Case 1: Terminating decimals**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.849,
+            0.885,
+            0.904
+          ],
+          "content": "We have already seen in earlier grades how to convert terminating decimals into the form $\\frac { p } { q }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

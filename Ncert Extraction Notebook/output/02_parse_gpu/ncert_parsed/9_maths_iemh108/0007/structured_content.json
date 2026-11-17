@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "180"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.183,
+            0.069,
+            0.489,
+            0.086
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.107,
+            0.884,
+            0.158
+          ],
+          "content": "6. Let $T_{1} = 1, T_{2} = 2, T_{3} = 4,$ and $\\mathrm{T}_{\\mathrm{n}}=\\mathrm{T}_{\\mathrm{n}-1}+\\mathrm{T}_{\\mathrm{n}-2}+\\mathrm{T}_{\\mathrm{n}-3}$ for $n \\geq 4 .$ Find $\\mathrm{T}_{4}, \\mathrm{T}_{5}, \\mathrm{T}_{6}, \\mathrm{T}_{7}$ and $\\mathrm { T } _ { \\mathrm { g } }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.18,
+            0.525,
+            0.202
+          ],
+          "level": 2,
+          "content": "8.4 Arithmetic Progressions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.213,
+            0.886,
+            0.291
+          ],
+          "content": "So far we have learnt that a sequence is an ordered list of numbers that may follow a particular rule. However, there may be sequences, such as the sequence of prime numbers, where there is no clear regularity in the rule."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.292,
+            0.885,
+            0.331
+          ],
+          "content": "In this section, we explore a special kind of sequence called an **arithmetic progression**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.331,
+            0.884,
+            0.371
+          ],
+          "content": "The first four stages of the pattern are shown."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.141,
+            0.38,
+            0.856,
+            0.589
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.338,
+                0.601,
+                0.66,
+                0.619
+              ],
+              "content": "Fig. 8.3: Growing pattern of squares"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.633,
+            0.884,
+            0.672
+          ],
+          "content": "If we count the number of tiny squares at each stage, we get sequence 1, 5, 9, 13."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.696,
+            0.399,
+            0.719
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.732,
+            0.855,
+            0.773
+          ],
+          "content": "Can you predict the number of squares in Stages 5 and 6 of the sequence? In Stages 10, 11 and 12? In Stage 20? At any stage?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.791,
+            0.885,
+            0.85
+          ],
+          "content": "We observe that at each stage, 4 squares get added to the corners of the pattern in the earlier stage. The number of squares at successive stages can be written as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.343,
+            0.852,
+            0.691,
+            0.872
+          ],
+          "content": "1,1+4,1+4+4,1+4+4+4,\\ldots",
+          "image_source": "images/page_6_equation_13.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

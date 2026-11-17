@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.331,
+            0.068,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Mathematics of Maybe: Introduction to Probability"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "169"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.149
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, the theoretical probabilities of each outcome are mentioned on the branch representing that outcome."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.159,
+            0.852,
+            0.209
+          ],
+          "image_path": "images/page_14_equation_3.jpg",
+          "content": "\\mathrm{Thecritical probability}(\\mathrm{P}) = \\frac{\\text { Number of favorable outcomes }}{\\text { Number of possible outcomes }}"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.223,
+            0.885,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider the event of getting Heads twice. This is represented by the outcome HH."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.266,
+            0.54,
+            0.306
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Probability of HH "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{4} = 0.25   or   25\\%."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.131,
+            0.323,
+            0.399,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.359,
+            0.785,
+            0.38
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you calculate the probability of getting one head and one tail?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.374,
+            0.422,
+            0.624,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 7.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.474,
+            0.886,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. There are two fruit baskets A and B. Basket A has one apple and two oranges. Basket B has one banana and one mango. You randomly pick one fruit from each basket."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.179,
+            0.537,
+            0.838,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Draw a tree diagram showing all possible pairs of fruits."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.173,
+            0.562,
+            0.471,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) List the sample space."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.165,
+            0.586,
+            0.885,
+            0.627
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) What is the probability of picking one apple and one banana?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.131,
+            0.631,
+            0.886,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Let us say that you have a box containing 3 red pens, 4 black pens and 2 green pens. You pick a pen (without looking) from the box and put it back. Then your friend does the same."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.179,
+            0.694,
+            0.885,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) What are the possible outcomes of the pen colours? Can you draw a tree diagram representing the possible outcomes?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.173,
+            0.739,
+            0.885,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Can you use the tree diagram to guess the probability that both you and your friend pick pens of the same colour?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.305,
+            0.804,
+            0.692,
+            0.83
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "End-of-Chapter Exercises"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.132,
+            0.847,
+            0.362,
+            0.867
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Fill in the blanks."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.18,
+            0.875,
+            0.757,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The probability of an impossible event is"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

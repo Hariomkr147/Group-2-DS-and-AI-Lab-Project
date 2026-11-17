@@ -1,0 +1,631 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.74,
+            0.047,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.086,
+            0.847,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Deduction 6— What can we say about the angles of a parallelogram?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.117,
+            0.823,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the parallelogram ABCD, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B }   |   |   \\mathrm { C D } |"
+            },
+            {
+              "type": "text",
+              "content": " , and AD is a transversal to them."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.147,
+            0.497,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{A} + \\angle \\mathrm{D} = 180^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " (sum of the internal angles on the same side of a transversal)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.175,
+            0.203,
+            0.284,
+            0.22
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.221,
+            0.461,
+            0.239
+          ],
+          "image_path": "images/page_15_equation_6.jpg",
+          "content": "\\angle \\mathrm{D}=180-\\angle \\mathrm{A}=180-30=150^{\\circ}."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.24,
+            0.503,
+            0.277
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A D }   |   |   \\mathrm { B C } ,"
+            },
+            {
+              "type": "text",
+              "content": " and AB and CD are transversals to them."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.507,
+            0.142,
+            0.931,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.507,
+                0.142,
+                0.931,
+                0.271
+              ],
+              "image_path": "images/page_15_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.415,
+            0.287,
+            0.606,
+            0.307
+          ],
+          "image_path": "images/page_15_equation_9.jpg",
+          "content": "\\mathrm{S}0,\\angle \\mathrm{A}+\\angle \\mathrm{B}=180^{\\circ}."
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.415,
+            0.317,
+            0.607,
+            0.336
+          ],
+          "image_path": "images/page_15_equation_10.jpg",
+          "content": "\\mathrm{S}0,\\angle \\mathrm{C}+\\angle \\mathrm{D}=180^{\\circ}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.34,
+            0.673,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using these equations, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{B} = 150^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle C = 30^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.37,
+            0.835,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that in this parallelogram, the "
+            },
+            {
+              "type": "text",
+              "content": "adjacent pairs of angles add up to 180° and opposite pairs of angles are equal.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.175,
+            0.409,
+            0.236,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.168,
+            0.431,
+            0.828,
+            0.452
+          ],
+          "image_path": "images/page_15_equation_14.jpg",
+          "content": "\\angle \\mathrm{A}+\\angle \\mathrm{B}=180^{\\circ},\\angle \\mathrm{A}+\\angle \\mathrm{D}=180^{\\circ},\\angle \\mathrm{C}+\\angle \\mathrm{D}=180^{\\circ},\\mathrm{and}\\angle \\mathrm{B}+\\angle \\mathrm{C}=180^{\\circ}."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.456,
+            0.204,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "And,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.386,
+            0.48,
+            0.612,
+            0.499
+          ],
+          "image_path": "images/page_15_equation_16.jpg",
+          "content": "\\angle \\mathrm{A} = \\angle \\mathrm{C}, \\mathrm{and} \\angle \\mathrm{B} = \\angle \\mathrm{D}."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.15,
+            0.515,
+            0.838,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the adjacent angles are the interior angles on the same side of a transversal to a pair of parallel lines, they must add up to 180°."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.111,
+            0.556,
+            0.847,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? What about the opposite angles? Will they be equal in all parallelograms?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.576,
+            0.424,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If yes, how can we be sure?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.15,
+            0.599,
+            0.505,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us take one of the angles to be x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.151,
+            0.618,
+            0.421,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What are the other angles?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.151,
+            0.636,
+            0.362,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{P} + \\angle \\mathrm{R} = 180^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.152,
+            0.655,
+            0.385,
+            0.672
+          ],
+          "image_path": "images/page_15_equation_23.jpg",
+          "content": "\\angle \\mathrm{R} = 180 - \\angle \\mathrm{P} = 180 - x."
+        },
+        {
+          "type": "equation",
+          "index": 24,
+          "bbox": [
+            0.151,
+            0.673,
+            0.458,
+            0.691
+          ],
+          "image_path": "images/page_15_equation_24.jpg",
+          "content": "Similarly, since   \\angle \\mathrm{A} + \\angle \\mathrm{R} = 180^{\\circ},"
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.151,
+            0.692,
+            0.605,
+            0.71
+          ],
+          "image_path": "images/page_15_equation_25.jpg",
+          "content": "\\angle A = 180 - \\angle R = 180 - (180 - x) = 180 - 180 + x = x."
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.152,
+            0.711,
+            0.332,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{P} = \\angle \\mathrm{A} = x."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 27,
+          "bbox": [
+            0.608,
+            0.583,
+            0.899,
+            0.726
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 27,
+              "bbox": [
+                0.608,
+                0.583,
+                0.899,
+                0.726
+              ],
+              "image_path": "images/page_15_image_27.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 28,
+          "bbox": [
+            0.151,
+            0.729,
+            0.624,
+            0.747
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, we can deduce that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{R} = \\angle \\mathrm{E} = 180 - x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 29,
+          "bbox": [
+            0.15,
+            0.747,
+            0.847,
+            0.785
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, this shows that "
+            },
+            {
+              "type": "text",
+              "content": "the opposite angles of a parallelogram are always equal.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 30,
+          "bbox": [
+            0.112,
+            0.794,
+            0.845,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Deduction 7— What can we say about the sides of a parallelogram?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 31,
+          "bbox": [
+            0.15,
+            0.825,
+            0.848,
+            0.862
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By looking at a parallelogram, it appears that the opposite sides are equal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 32,
+          "bbox": [
+            0.149,
+            0.862,
+            0.848,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we again use congruence to show this? Which two triangles can be considered for this?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 33,
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "97"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

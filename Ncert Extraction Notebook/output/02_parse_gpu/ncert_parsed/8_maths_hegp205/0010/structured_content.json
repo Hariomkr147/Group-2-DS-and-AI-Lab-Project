@@ -1,0 +1,187 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.847,
+            0.181
+          ],
+          "content": "Sudhakar has to calculate the total marks scored by each student. He is also interested in knowing the average marks scored in each subject. But there are so many numbers! He will have to spend too much time and effort to complete this task. Of course, he can use a calculator to speed up the task."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.181,
+            0.654,
+            0.2
+          ],
+          "content": "Is there any way to further quicken this process?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.2,
+            0.848,
+            0.33
+          ],
+          "content": "One way is to use a computer. Computers have different applications/ tools that can be used to perform tasks. One such application is a spreadsheet — it is like a digital notebook with rows and columns of small boxes called **cells**. In each cell, we can type text or numbers. The picture below shows a snapshot of a spreadsheet where Sudhakar has entered the marks data of his class. Try to get access to a computer before proceeding."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.167,
+            0.331,
+            0.827,
+            0.47
+          ],
+          "content": "|  | A | B | C | D | E | F | G | H |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Name | Odia(R1) | Telugu(R2) | English(R3) | Maths | Social | Science | Total |\n| 2 | Ratna | 25 | 39 | 29 | 36 | 34 | 37 |  |\n| 3 | Nagesh | 41 | 43 | 48 | 39 | 40 | 39 |  |\n| 4 | Ashwin | 29 | 31 | 33 | 34 | 30 | 28 |  |\n| 5 | Farooq | 47 | 46 | 38 | 42 | 49 | 44 |  |\n| 6 | Mrinal | 33 | 35 | 28 | 32 | 30 | 36 |  |\n| 7 | Gowri | 27 | 29 | 34 | 31 | 32 | 30 |  |\n| 8 | Pankaj | 16 | 19 | 22 | 17 | 18 | 20 |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.478,
+            0.846,
+            0.535
+          ],
+          "content": "Before learning how to calculate the average marks per subject and the total marks scored by each student, let us first understand the structure of spreadsheets and how to read them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.536,
+            0.845,
+            0.56
+          ],
+          "content": "？ Can you tell which cell has the marks obtained by Farooq in Mathematics?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.561,
+            0.846,
+            0.616
+          ],
+          "content": "Cells are named and referred to using the column headers labelled A, B, C, … , and row headers labelled 1, 2, 3, … Farooq’s score in Mathematics is in cell E5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.619,
+            0.54,
+            0.643
+          ],
+          "content": "Can you tell what data is in column B7?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.649,
+            0.723,
+            0.67
+          ],
+          "content": "In which subjects has Ashwin scored more than 30 marks?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.673,
+            0.846,
+            0.747
+          ],
+          "content": "How can we use spreadsheets to quickly calculate totals and averages? In addition to text and numbers, we can also enter formulae in a cell. We can write a formula that computes the sum or average of a row, or column of cells."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.746,
+            0.847,
+            0.857
+          ],
+          "content": "We can describe a row of cells by an expression of the form Start:End, indicating the first and last cell in the row. For instance, Nagesh’s marks are described by the expression B3:G3, while Gowri’s marks in Odiya, Telugu and English are described by the expression B7:D7. We can use similar expressions to describe columns. For instance, D2:D6 describes the marks in English for the first five students."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.857,
+            0.847,
+            0.932
+          ],
+          "content": "We can then write a formula to compute the sum or the average of a row or column. For instance =SUM(B3:G3) calculates the total marks for Nagesh across all subjects, while =AVERAGE(B7:D7) calculates Gowri’s average marks across Odia, Telugu and English."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.082,
+            0.914,
+            0.126,
+            0.935
+          ],
+          "content": "112"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

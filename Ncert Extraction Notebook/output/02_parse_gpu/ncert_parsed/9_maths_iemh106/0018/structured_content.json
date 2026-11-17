@@ -1,0 +1,232 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "135"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.107,
+            0.884,
+            0.169
+          ],
+          "content": "All three sides have length a, so the semi-perimeter is $s = \\frac{1}{2}(a + a + a) = \\frac{3}{2}a$ units. Heron’s formula now yields,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.165,
+            0.792,
+            0.215
+          ],
+          "content": "area of triangle $\\sqrt{\\frac{3}{2}a\\left(\\frac{1}{2}a\\right)\\left(\\frac{1}{2}a\\right)\\left(\\frac{1}{2}a\\right)}=\\frac{\\sqrt{3}}{4}a^{2}$ sq. units"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.125,
+            0.222,
+            0.426,
+            0.44
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.237,
+                0.447,
+                0.316,
+                0.466
+              ],
+              "content": "Fig. 6.23"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.438,
+            0.223,
+            0.877,
+            0.302
+          ],
+          "content": "Let us check this against the ‘half base times height’ formula. Let h units be the height of the triangle. Then, by the Baudhāyana–Pythagoras theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.448,
+            0.31,
+            0.866,
+            0.356
+          ],
+          "content": "a^{2}-h^{2}=\\frac{a^{2}}{4}, \\quad \\therefore h^{2}=\\frac{3a^{2}}{4}, \\quad \\therefore h=\\frac{\\sqrt{3}}{2}a",
+          "image_source": "images/page_17_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.438,
+            0.365,
+            0.875,
+            0.435
+          ],
+          "content": "So the area is $\\frac{1}{2} \\times \\frac{\\sqrt{3}}{2}a \\times a = \\frac{\\sqrt{3}}{4}a^{2}$ sq. units. Same formula!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.487,
+            0.885,
+            0.528
+          ],
+          "content": "**Note:** Notice the symbol $\\therefore$ . This symbol is used regularly by mathematicians; it means and is read as ‘therefore’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.539,
+            0.883,
+            0.561
+          ],
+          "content": "**Example 4:** An isosceles triangle with equal sides a units and base 2b units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.565,
+            0.883,
+            0.613
+          ],
+          "content": "The semi-perimeter is $\\frac{1}{2}(a + a + 2b) = a + b$ units. Heron’s formula now yields,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.62,
+            0.872,
+            0.665
+          ],
+          "content": "area of the triangle $e = \\sqrt{(a + b)(a + b - a)(a + b - a)(a + b - 2b)} = b\\sqrt{a^{2} - b^{2}}$ sq. units."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.119,
+            0.671,
+            0.415,
+            0.855
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.232,
+                0.863,
+                0.31,
+                0.881
+              ],
+              "content": "Fig. 6.24"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.425,
+            0.682,
+            0.877,
+            0.762
+          ],
+          "content": "Let us check this against the ‘half base times height’ formula. Let h units be the height of the triangle. Then, by the Baudhāyana–Pythagoras theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.422,
+            0.773,
+            0.877,
+            0.801
+          ],
+          "content": "a^{2}-h^{2}=b^{2},\\quad \\therefore h^{2}=a^{2}-b^{2},h=\\sqrt{a^{2}-b^{2}}.",
+          "image_source": "images/page_17_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.426,
+            0.817,
+            0.87,
+            0.878
+          ],
+          "content": "So the area is $\\frac{1}{2} \\times \\sqrt{a^{2} - b^{2}} \\times 2b = b\\sqrt{a^{2} - b^{2}}$ sq. units, the same as earlier."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,192 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": "Tales by Dots and Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.101,
+            0.416,
+            0.117
+          ],
+          "content": "Monthly Maximum Temperature"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.196,
+            0.116,
+            0.806,
+            0.372
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_chart_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.39,
+            0.845,
+            0.429
+          ],
+          "content": "We call such a graph made up of lines a **line graph**. Line graphs are generally used to visualise data across time."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.43,
+            0.805,
+            0.453
+          ],
+          "content": "How do we get the maximum temperature over a month in a state?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.455,
+            0.847,
+            0.53
+          ],
+          "content": "There could be a few weather stations across the state that regularly track the local temperature. We can get the monthly maximum temperature by looking at the maximum value among all the values recorded across the state."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.104,
+            0.569,
+            0.187,
+            0.626
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.555,
+            0.824,
+            0.65
+          ],
+          "content": "When we try to understand how the data is collected or produced, we gain a clearer idea of its scope and can interpret it more meaningfully. It also helps us identify any limitations, such as bias or missing information, and decide how confidently we can draw conclusions from the data."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.674,
+            0.845,
+            0.714
+          ],
+          "content": "To identify and interpret the information presented, let us follow a two-step process."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.724,
+            0.459,
+            0.744
+          ],
+          "level": 2,
+          "content": "Step 1: Identify what is given"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.746,
+            0.845,
+            0.785
+          ],
+          "level": 2,
+          "content": "？ Notice how the graph is organised, what scale is used, and what patterns the data shows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.795,
+            0.543,
+            0.907
+          ],
+          "content": "The data for each month for a city is marked and connected by lines to show the change over time. Kerala’s data is shown using blue circle marks connected by blue lines and Punjab’s data is shown in red."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.576,
+            0.79,
+            0.849,
+            0.895
+          ],
+          "content": "The different shape markers help in easily distinguishing if the graph is printed in greyscale/black-and-white, or for people who find it difficult to distinguish colour."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.873,
+            0.914,
+            0.914,
+            0.935
+          ],
+          "content": "117"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,316 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.151,
+            0.046,
+            0.363,
+            0.062
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.088,
+            0.367,
+            0.106
+          ],
+          "content": "(4 + 3) \\times 5 = 7 \\times 5 = 35",
+          "image_source": "images/page_16_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.116,
+            0.587,
+            0.139
+          ],
+          "content": "5 × 4 + 3 ≠ 5 × (4 + 3). Can you explain why?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.149,
+            0.147,
+            0.52,
+            0.166
+          ],
+          "content": "\\mathrm{I} \\mathrm{s} 5 \\times (4+3)=5 \\times (3+4)=(3+4) \\times 5?",
+          "image_source": "images/page_16_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.178,
+            0.846,
+            0.215
+          ],
+          "content": "The observations that we have made in the previous two examples can be seen in a general way as follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.215,
+            0.848,
+            0.252
+          ],
+          "content": "Consider $10 \\times 98 + 3 \\times 98$ . This means taking the sum of 10 times 98 and 3 times 98."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.188,
+            0.257,
+            0.797,
+            0.322
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.333,
+            0.7,
+            0.353
+          ],
+          "content": "Clearly, this is the same as $10+3=13$ times 98. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.357,
+            0.647,
+            0.376
+          ],
+          "content": "10 \\times 98 + 3 \\times 98 = (10 + 3) \\times 98.",
+          "image_source": "images/page_16_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.382,
+            0.604,
+            0.402
+          ],
+          "content": "Writing this equality the other way, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.406,
+            0.641,
+            0.425
+          ],
+          "content": "(10 + 3)\\;98 = 10 \\times 98 \\pm 3 \\times 98.",
+          "image_source": "images/page_16_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.43,
+            0.847,
+            0.469
+          ],
+          "content": "Swapping the numbers in the products above, this property can be seen in the following form:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.335,
+            0.472,
+            0.664,
+            0.492
+          ],
+          "content": "98 \\times 10 + 9 \\times 83 = 98(10 + 3)",
+          "image_source": "images/page_16_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.502,
+            0.642,
+            0.521
+          ],
+          "content": "98\\left (10 \\div 3\\right ) = 98 \\times 10 + 98 \\times 3.",
+          "image_source": "images/page_16_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.526,
+            0.847,
+            0.565
+          ],
+          "content": "Similarly, let us consider the expression $14 \\times 10 - 6 \\times 10$ . This means subtracting 6 times 10 from 14 times 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.458,
+            0.576,
+            0.536,
+            0.592
+          ],
+          "content": "14 times"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.182,
+            0.574,
+            0.814,
+            0.637
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.647,
+            0.567,
+            0.667
+          ],
+          "content": "Clearly, this is 14 – 6 = 8 times 10. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.347,
+            0.672,
+            0.651,
+            0.715
+          ],
+          "content": "\\begin{aligned}\\underbrace{14 \\times 10 - 6 \\times 10}_{ \\text{000000000}} &= (14 - 6) \\times 10, \\\\  or  \\end{aligned}",
+          "image_source": "images/page_16_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.72,
+            0.647,
+            0.739
+          ],
+          "content": "(14 - 6) \\times 10 = 14 \\times 10 - 6 \\times 10",
+          "image_source": "images/page_16_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.744,
+            0.682,
+            0.764
+          ],
+          "content": "This property can be nicely summed up as follows:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.768,
+            0.847,
+            0.808
+          ],
+          "content": "**The multiple of a sum (difference) is the same as the sum (difference) of the multiples.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.825,
+            0.396,
+            0.846
+          ],
+          "level": 2,
+          "content": "Tinker the Terms II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.856,
+            0.848,
+            0.896
+          ],
+          "content": "Let us understand what happens when we change the numbers occurring in a product."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.158,
+            0.938,
+            0.188,
+            0.953
+          ],
+          "content": "40"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:14:35+05:30",
+      "modified_at": "2026-04-07T17:14:43+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.001,
+            0.696,
+            0.41,
+            0.967
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_0.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.1,
+            0.081,
+            0.43,
+            0.103
+          ],
+          "level": 2,
+          "content": "Ready for New Horizons?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.108,
+            0.868,
+            0.279
+          ],
+          "content": "As you reach the end of this book, look back on your journey in science, from first being curious about the world around you to exploring it with deeper understanding and clearer ideas. You have travelled across the hidden world inside cells and atoms, learnt about the forces that shape motion, work and mechanical energy, the science of sound, and the systems that make our planet a living world. Together, these ideas show that science is not a collection of facts, but a connected way of understanding nature. More importantly, we hope you have learnt to think like a scientist — asking questions, looking for evidence and trying to understand patterns in nature. These ways of thinking also help us understand the technology around us, make informed choices, and see connections between the human life and the natural world."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.28,
+            0.868,
+            0.468
+          ],
+          "content": "In Grade 10, your journey of curiosity and exploration will become even more exciting. You will explore how life sustains itself, how traits are passed from one generation to the next, how chemical reactions transform matter, and how electricity, magnetism and light power our modern world. You will encounter ideas on scales from the large to the small, just as the electron microscope images given below reveal the beautiful structure of a butterfly wing at progressively higher magnifications. The habit of wondering why, testing how, and exploring what if are keys to solving the real-world challenges society is facing today. Science is an ongoing human adventure and you are now prepared not just to learn it but to question it, and to participate in it. The next discoveries may come from someone who is learning science today, someone like you!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.155,
+            0.5,
+            0.812,
+            0.697
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.435,
+                0.709,
+                0.799,
+                0.74
+              ],
+              "content": "Scanning electron microscope images of a butterfly wing at progressively higher magnification"
+            }
+          ],
+          "image_source": "images/page_17_image_4.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-13T10:38:25+05:30",
+      "modified_at": "2026-05-13T10:46:10+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 21,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,236 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.257,
+            0.669,
+            0.804,
+            0.746
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.19,
+                0.533,
+                0.22,
+                0.55
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_21_image_1.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.847,
+            0.128
+          ],
+          "content": "The power of algebra was well recognised by ancient Indian mathematicians. We hope you recognise it too — and enjoy using it!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.138,
+            0.316,
+            0.162
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.171,
+            0.494,
+            0.191
+          ],
+          "content": "1. Fill in the blanks with integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.196,
+            0.377,
+            0.215
+          ],
+          "content": "(a) $5 \\times \\_ -8 = 37$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.513,
+            0.196,
+            0.749,
+            0.215
+          ],
+          "content": "\\left( \\mathrm{b} \\right) \\quad 37-\\left( 33-\\underline{\\quad} \\right)=35",
+          "image_source": "images/page_21_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.221,
+            0.446,
+            0.239
+          ],
+          "content": "(c) $-3 \\times (-11+\\_\\_) = 45$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.251,
+            0.848,
+            0.31
+          ],
+          "content": "2. Ranju is a daily wage labourer. She earns ₹ 750 a day. Her employer pays her in 50 and 100 rupee notes. If Ranju gets an equal number of 50 and 100 rupee notes, how many notes of each does she have?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.34,
+            0.525,
+            0.457
+          ],
+          "content": "3. In the given picture, each black blob hides an equal number of blue dots. If there are 25 dots in total, how many dots are covered by one blob? Write an equation to describe this problem."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.697,
+            0.323,
+            0.76,
+            0.339
+          ],
+          "content": "25 dots"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.552,
+            0.325,
+            0.809,
+            0.467
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.48,
+            0.847,
+            0.518
+          ],
+          "content": "4. Here are machines that take an input, perform an operation on it and send out the result as an output."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.248,
+            0.532,
+            0.803,
+            0.616
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.233,
+            0.635,
+            0.604,
+            0.655
+          ],
+          "content": "Find the inputs in the following cases:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.366,
+            0.806,
+            0.405,
+            0.826
+          ],
+          "content": "+ 3",
+          "image_source": "images/page_21_equation_16.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.934,
+            0.844,
+            0.949
+          ],
+          "content": "185"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

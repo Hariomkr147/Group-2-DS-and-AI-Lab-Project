@@ -1,0 +1,285 @@
+{
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.087,
+            0.888,
+            0.123
+          ],
+          "content": "4. Place 1 coin in the left pan (call it effort) and 1 identical coin in the right pan (call it load). Observe that the beam stays horizontal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.125,
+            0.89,
+            0.178
+          ],
+          "content": "5. Add one more coin to the right pan, so that it contains 2 coins. The beam tilts. Move the heavier pan closer to the centre of the beam to balance the beam. **Measure** its distance from the centre."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.18,
+            0.888,
+            0.215
+          ],
+          "content": "6. Repeat step 5 with 4 coins and then 8 coins in the right pan. Each time, note its distance from the centre that balances the beam."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.235,
+            0.217,
+            0.888,
+            0.253
+          ],
+          "content": "7. **Record** all observations and measurements, and complete the Table 7.1 by adding more rows."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.227,
+            0.284,
+            0.886,
+            0.422
+          ],
+          "content": "| Number of Coinsin left pan,$n _ { 1 }$(Effort) | Distance of leftpan from thefulcrum,$L _ { 1 }$(cm) | Number of coinsin right pan,$n _ { 2 }$(Load) | Distance of rightpan from thefulcrum,$L _ { 2 }$(cm) |\n| --- | --- | --- | --- |\n| 1 |  | 1 |  |\n| 1 |  | 2 |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.223,
+                0.263,
+                0.828,
+                0.28
+              ],
+              "content": "Table 7.1: Number of coins in the left pan and its distance from the fulcrum"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.439,
+            0.888,
+            0.474
+          ],
+          "content": "By analysing the values recoded in Table 7.1, you can **conclude** that the beam balances when"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.482,
+            0.474,
+            0.625,
+            0.493
+          ],
+          "content": "n_{1} \\times L_{1}^{*} = n_{2} \\times L_{2}",
+          "image_source": "images/page_18_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.494,
+            0.259,
+            0.511
+          ],
+          "content": "Or,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.376,
+            0.494,
+            0.887,
+            0.512
+          ],
+          "content": "\\mathrm{effort} \\times \\mathrm{effort} \\; \\mathrm{arm} = \\mathrm{load} \\times \\mathrm{l} \\; \\mathrm{load} \\; \\mathrm{arm}\\tag{7.15}",
+          "image_source": "images/page_18_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.514,
+            0.888,
+            0.567
+          ],
+          "content": "If the effort arm is increased, the effort required to move the same load is reduced. You can calculate the mechanical advantage of the lever by using Eq. (7.12). Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.328,
+            0.565,
+            0.887,
+            0.602
+          ],
+          "content": "\\mathrm{mechanism\\_advantage} = \\frac{\\mathrm{load}}{\\mathrm{effort}} = \\frac{\\mathrm{effort\\ arm}}{\\mathrm{load\\ arm}}\\tag{7.16}",
+          "image_source": "images/page_18_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.602,
+            0.889,
+            0.67
+          ],
+          "content": "Hence, by increasing the effort arm, the lever applies a larger force $F _ { 2 }$ to the load than the effort $F_{1}^{\\cdot}$ The lever thus allows us to gain a mechanical advantage equal to the ratio of the distances, i.e., $\\frac { L _ { 1 } } { L _ { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.675,
+            0.89,
+            0.728
+          ],
+          "content": "With the use of a lever, the effort required is generally smaller but it has to move by a larger distance such that the total work done by the agency applying effort remains the same."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.082,
+            0.741,
+            0.305,
+            0.894
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.126,
+                0.898,
+                0.265,
+                0.913
+              ],
+              "content": "Fig. 7.34: A seesaw"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_18_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.318,
+            0.73,
+            0.89,
+            0.798
+          ],
+          "content": "**Example 7.13:** For a seesaw having four seats A, B, D, E and fulcrum at C (Fig. 7.34), AC = EC = 2 m and BC = DC = 1 m. On which seats should children of masses 15 kg and 30 kg sit to make the seesaw balanced?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.318,
+            0.801,
+            0.89,
+            0.851
+          ],
+          "content": "**Answer:** Suppose the child of mass 15 kg sits on seat A and the other child sits at a distance L from the fulcrum. Using Eq. (7.15), we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.855,
+            0.555,
+            0.874
+          ],
+          "content": "15\\; kg  \\times 2\\; m  = 30\\; kg  \\times L",
+          "image_source": "images/page_18_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.876,
+            0.423,
+            0.893
+          ],
+          "content": "L = 1   \\mathrm { m }",
+          "image_source": "images/page_18_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.32,
+            0.896,
+            0.684,
+            0.915
+          ],
+          "content": "Thus, the other child should sit at seat D."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": "134"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

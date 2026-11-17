@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "134"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.132,
+            0.115,
+            0.399,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.128,
+            0.153,
+            0.856,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we are given two polygons P and Q with equal area. Will it always be possible to divide one of them using straight cuts into two or more pieces and then rearrange the pieces to exactly cover the other polygon? Try this out for familiar shapes, e.g.,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.166,
+            0.243,
+            0.703,
+            0.262
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. A square and non-square rectangle with equal area,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.166,
+            0.266,
+            0.697,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Two triangles with different shapes but equal area,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.166,
+            0.289,
+            0.856,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. A triangle and a square with equal area. Formulate a conjecture of your own about this."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.128,
+            0.339,
+            0.854,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think of various rectangles with perimeter 40 units (the sides do not have to be integers)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.167,
+            0.382,
+            0.566,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. How many such rectangles are there?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.166,
+            0.404,
+            0.855,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Among them, is there one whose area is the largest? What are its dimensions?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.167,
+            0.446,
+            0.855,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Among all these rectangles, is there one whose area is the smallest? What are its dimensions? Do either of these answers come as a surprise to you?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.114,
+            0.538,
+            0.392,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6.8.1 Heron’s formula"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.566,
+            0.886,
+            0.682
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You already know a formula for the area of a triangle (half base times height). Are there other formulas for the area of a triangle? There are several. For now we mention Heron’s formula, discovered by the Greek mathematics and inventor, Heron. He taught at the Museum in Alexandria, a city in ancient Egypt located on the banks of the Nile."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.682,
+            0.886,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The formula states that if ΔABC has side lengths BC = a, CA = b, and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } \\; = \\; c ,"
+            },
+            {
+              "type": "text",
+              "content": " then its area can be found as follows. First, we compute the semi-perimeter, s which is half the perimeter: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = \\frac{1}{2}(a + b + c)"
+            },
+            {
+              "type": "text",
+              "content": " . Then the area (∆ABC) is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.389,
+            0.778,
+            0.607,
+            0.802
+          ],
+          "image_path": "images/page_16_equation_14.jpg",
+          "content": "\\sqrt{s(s - a)(s - b)(s - c)}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.112,
+            0.813,
+            0.884,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "I am sure you will find the formula extremely surprising and strange looking! Let us test it against some known cases."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.113,
+            0.861,
+            0.686,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " An equilateral triangle with side a units."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

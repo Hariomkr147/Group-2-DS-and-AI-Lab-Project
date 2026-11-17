@@ -1,0 +1,140 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "121"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.244
+          ],
+          "content": "which we now call π (we say ‘pi’ as in ‘pie’ and not as in ‘pizza’), represents a bridge between many different areas of mathematics, and connects the straight-edged world of polygons with the infinite curves of nature. While early civilisations relied on practical, ʻgood-enoughʼ values for construction and trade, the pursuit of this ratio eventually became an important pastime of mathematicians that helped to benchmark the sophistication of mathematical theories."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.243,
+            0.886,
+            0.354
+          ],
+          "content": "In Mesopotamia (c. 1900 BCE), mathematicians moved beyond the crude integer value of 3. They realised that a circle had a perimeter that was slightly larger than the hexagon inscribed within it. They concluded that π should therefore be larger than 3, and they set the value of π to be $3 + { \\frac { 1 } { 8 } } = 3 . 1 2 5$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.392,
+            0.346,
+            0.607,
+            0.499
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.242,
+                0.504,
+                0.753,
+                0.542
+              ],
+              "content": "Fig. 6.6 The Mesopotamian Hexagon-to-Circle comparison. Can you see why this shows that $\\pi \\geq 3 ?$"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.554,
+            0.886,
+            0.691
+          ],
+          "content": "By **250 BCE, Archimedes of Syracuse** brought a new level of rigor to the problem. He ‘trapped’ the value of π between the perimeters of inscribed and circumscribed polygons. By using both an inscribed and circumscribed hexagon, Archimedes showed that π is between 3 and $2 { \\sqrt { 3 } } \\approx 3 . 4 6$ . Working his way up to 96-sided polygons, Archimedes found that 3 $\\frac{10}{71} < \\pi < 3\\frac{1}{7}$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.393,
+            0.692,
+            0.606,
+            0.821
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.217,
+                0.827,
+                0.78,
+                0.903
+              ],
+              "content": "Fig. 6.7: Archimedes’ method utilising inscribed and circumscribed polygons. Can you see why this diagram of an inscribed and circumscribed hexagon tells us that π is between 3 and $2 { \\sqrt { 3 } }   { ? }$ (Hint: Use the Baudhāyana–Pythagoras Theorem.)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_7.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

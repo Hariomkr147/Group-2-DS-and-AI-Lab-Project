@@ -1,0 +1,133 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "199"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.208,
+            0.139,
+            0.851,
+            0.474
+          ],
+          "content": "| Age (in years) | Number of policy holders |\n| --- | --- |\n| Below 20 | 2 |\n| Below 25 | 6 |\n| Below 30 | 24 |\n| Below 35 | 45 |\n| Below 40 | 78 |\n| Below 45 | 89 |\n| Below 50 | 92 |\n| Below 55 | 98 |\n| Below 60 | 100 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_28_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.489,
+            0.9,
+            0.527
+          ],
+          "content": "**4.** The lengths of 40 leaves of a plant are measured correct to the nearest millimetre, and the data obtained is represented in the following table"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.206,
+            0.533,
+            0.826,
+            0.808
+          ],
+          "content": "| Length (in mm) | Number of leaves |\n| --- | --- |\n| 118 - 126 | 3 |\n| 127 - 135 | 5 |\n| 136 - 144 | 9 |\n| 145 - 153 | 12 |\n| 154 - 162 | 5 |\n| 163 - 171 | 4 |\n| 172 - 180 | 2 |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.155,
+                0.818,
+                0.481,
+                0.837
+              ],
+              "content": "Find the median length of the leaves."
+            }
+          ],
+          "image_source": "images/page_28_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.842,
+            0.901,
+            0.897
+          ],
+          "content": "(**Hint :** The data needs to be converted to continuous classes for finding the median, since the formula assumes continuous classes. The classes then change to 117.5 - 126.5, 126.5 - 135.5, . . ., 171.5 - 180.5.)"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

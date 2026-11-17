@@ -1,0 +1,225 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.815,
+            0.049,
+            0.861,
+            0.065
+          ],
+          "content": "Area"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.212,
+            0.088,
+            0.787,
+            0.317
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.326,
+            0.847,
+            0.437
+          ],
+          "content": "Since ABCD is a rhombus, all its sides have equal length, and the diagonals are perpendicular bisectors of each other. Therefore, ∆ABD and ∆CBD are isosceles triangles. Each of them can be transformed into a rectangle of equal area, and the two rectangles can then be joined to form a single rectangle. This rectangle, say WXYZ, has the same area as the rhombus ABCD."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.44,
+            0.629,
+            0.463
+          ],
+          "content": "What are the sidelengths of the rectangle WXYZ?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.465,
+            0.513,
+            0.484
+          ],
+          "content": "From the dissection, we can see that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.322,
+            0.491,
+            0.677,
+            0.51
+          ],
+          "content": "XW = length of the diagonal AC, and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.324,
+            0.51,
+            0.77,
+            0.53
+          ],
+          "content": "WZ = half the length of the other diagonal BD."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.535,
+            0.299,
+            0.555
+          ],
+          "content": "Thus, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.267,
+            0.564,
+            0.75,
+            0.672
+          ],
+          "content": "\\begin{aligned}\\underset{\\textcircled{C}}{\\operatorname{Area}} \\text { of} \\underset{\\text {hom}}{\\operatorname{hom}} \\underset{\\text {is }}{\\operatorname{ABCD}} & \\overset{\\rightharpoonup }{=} \\underset{\\text {A}}{\\operatorname{free}} \\text { of } \\underset{\\text {rectangle }}{\\operatorname{WXYZ}} \\\\& = \\underset{\\text {XW}}{\\operatorname{XW}} \\times \\underset{\\text {WZ}}{\\operatorname{WZ}} \\\\& = \\underset{\\text {AC}}{\\operatorname{AC}} \\times \\frac{\\mathrm{BD}}{2} \\\\& = \\frac{1}{2} \\times \\underset{\\text {AC}}{\\operatorname{AC}} \\times \\mathrm{BD}\\end{aligned}",
+          "image_source": "images/page_17_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.666,
+            0.261,
+            0.685
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28,
+            0.691,
+            0.715,
+            0.719
+          ],
+          "content": "\\scriptstyle { \\overline { { A r e a \\; o f { \\overline { { a } } } \\; r h o m b u s } } } \\; = \\; { \\frac { 1 } { 2 } } \\; \\times \\; p r o d u c t \\; o f d i a g o n a l s .",
+          "image_source": "images/page_17_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.745,
+            0.847,
+            0.785
+          ],
+          "content": "？ Area of rhombus ABCD can also be determined by finding the areas of ∆ADB and ∆CDB. What formula does this give us?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.791,
+            0.667,
+            0.828
+          ],
+          "content": "Since the diagonals are perpendicular to each other, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.254,
+            0.832,
+            0.566,
+            0.859
+          ],
+          "content": "\\mathrm{Area}(\\Delta \\mathrm{ADB})=\\frac{1}{2} \\times \\mathrm{AO} \\times \\mathrm{BD}, \\text { and }",
+          "image_source": "images/page_17_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.255,
+            0.865,
+            0.566,
+            0.892
+          ],
+          "content": "\\mathrm{Area}(\\Delta \\mathrm{CDB})=\\frac{1}{2} \\times \\mathrm{CO} \\times \\mathrm{BD}, \\mathrm{and}",
+          "image_source": "images/page_17_equation_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.677,
+            0.795,
+            0.887,
+            0.906
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.153,
+            0.897,
+            0.921,
+            0.936
+          ],
+          "content": "\\mathrm { A r e a ~ o f ~ r h o m b u s ~ A B C D } = \\mathrm { A r e a } \\left( \\Delta \\mathrm { A D B } \\right) + \\mathrm { A r e a } \\left( \\Delta \\mathrm { C D B } \\right) .\\tag{165}",
+          "image_source": "images/page_17_equation_16.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

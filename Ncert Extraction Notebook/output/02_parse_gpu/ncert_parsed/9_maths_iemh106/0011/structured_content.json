@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.084
+          ],
+          "content": "128"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.123,
+            0.108,
+            0.491,
+            0.321
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.501,
+            0.109,
+            0.878,
+            0.243
+          ],
+          "content": "Here, we have two congruent circles centered at A and B. Each one passes through the centre of the other one. The circles intersect at C and D. We need to find the total length of the two red arcs shown here, in terms of the radius r unit."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.502,
+            0.243,
+            0.877,
+            0.339
+          ],
+          "content": "Consider the triangle with vertices A, B, C. Since $\\mathrm { A B } = r ,$ $AC = r, BC = r,$ the triangle is equilateral, hence $\\angle CAB = 60^{\\circ} =$ $\\angle \\mathrm { C B A }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.36,
+            0.828,
+            0.381
+          ],
+          "content": "Similarly $\\angle BAD = 60^{\\circ} = \\angle ABD$ . It follows that $\\angle CAD = 120^{\\circ} = \\angle CBD.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.391,
+            0.883,
+            0.454
+          ],
+          "content": "Hence, each dotted arc is $\\frac { 1 } { 3 }$ of the circumference of the circle on which it lies. Hence, the total length of the two red arcs is $2 \\times \\frac{2}{3} \\times 2\\pi r = \\frac{8}{3}\\pi r$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.137,
+            0.479,
+            0.475,
+            0.654
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.26,
+                0.656,
+                0.339,
+                0.672
+              ],
+              "content": "Fig. 6.13"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.482,
+            0.482,
+            0.877,
+            0.697
+          ],
+          "content": "**Example 2:** In Fig. 6.13, we see points P and Q and two paths connecting them. The first path is made up of the semicircle a. The other path is made up of three semicircles (b, c and d). Which path is longer? Choose one: (i) Path a is longer. (ii) Path $b \\; + \\; c \\; + \\; d$ is longer. (iii) The two paths have equal length. (Try to answer this before reading on.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.718,
+            0.886,
+            0.829
+          ],
+          "content": "Let us solve the problem using algebra. Let the radii of the semicircles $a , b , c ,$ d be denoted by $\\bar { a ^ { \\prime } } , \\bar { b ^ { \\prime } } , \\bar { c ^ { \\prime } }$ and $d ^ { \\prime }$ . Then the length of semicircle $a \\mathrm{i}s \\frac{1}{2} (2\\pi) a' = \\pi a'.$ . Similarly, the lengths of the semicircles $b , \\; c ,$ and d are $\\pi b ^ { \\prime } ,   \\pi c ^ { \\prime }$ and πd'. So, the length of the second path is $\\pi ( b ^ { \\prime } + c ^ { \\prime } + d ^ { \\prime } )$ , and that of the first path is $\\pi a ^ { \\prime } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.829,
+            0.886,
+            0.909
+          ],
+          "content": "Which is bigger, $b' + c' + d'$ or $a ^ { \\prime } \\nmid$ Do you see that neither one is bigger? They are equal! Because, the length of PQ is $2 a ^ { \\prime }$ and it is also equal to $2b' + 2c' + 2d'$ . It follows that $a^{\\prime} = b^{\\prime} + c^{\\prime} + d^{\\prime}$ . Hence, the two paths have equal length!"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 33,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 33,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "84"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.158,
+            0.111,
+            0.884,
+            0.169
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Midpoint Theorem:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the line joining the two midpoints of any two sides of a triangle is parallel to the third side and has half the length of the third side."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.157,
+            0.174,
+            0.881,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Converse to the Midpoint Theorem:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the line passing through the midpoint of a side of a triangle and parallel to a second side bisects the third side."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.157,
+            0.237,
+            0.88,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Medians of a triangle are concurrent and the point of concurrence, called the "
+            },
+            {
+              "type": "text",
+              "content": "centroid",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", divides each median in a 2 : 1 ratio."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.158,
+            0.281,
+            0.881,
+            0.32
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The 4-gon formed by joining the midpoints of a given 4-gon is always a parallelogram."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.158,
+            0.325,
+            0.663,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• The plane can be tiled with any given 4-gon."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

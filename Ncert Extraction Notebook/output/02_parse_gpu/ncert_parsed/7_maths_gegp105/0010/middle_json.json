@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:45+05:30",
+      "modified_at": "2026-04-07T17:15:45+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.595,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Parallel and Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.09,
+            0.385,
+            0.113
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.5 Transversals"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.123,
+            0.848,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We saw what happens when two lines intersect in different ways. Let us explore what happens when one line intersects two different lines."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.383,
+            0.169,
+            0.615,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.383,
+                0.169,
+                0.615,
+                0.322
+              ],
+              "image_path": "images/page_9_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.463,
+                0.331,
+                0.537,
+                0.346
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.355,
+            0.845,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Fig. 5.14, line t intersects lines l and m. t is called a "
+            },
+            {
+              "type": "text",
+              "content": "transversal",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Notice that 8 angles are formed when a line crosses a pair of lines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.402,
+            0.847,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is it possible for all the eight angles to have different measurements? Why, why not?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.461,
+            0.655,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What about five different angles — 6, 5, 4, 3 and 2?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.493,
+            0.848,
+            0.568
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Fig. 5.14, since ∠1 and ∠3 are vertically opposite angles, they are equal. Are there other pairs of vertically opposite angles? We can see that there are a total of four pairs of vertically opposite angles and in each pair, the angles are equal to each other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.567,
+            0.847,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, when a transversal intersects two lines, it forms eight angles with a maximum of four distinct angle measures."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.628,
+            0.512,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5.6 Corresponding Angles"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.149,
+            0.662,
+            0.848,
+            0.774
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Fig. 5.14, we notice that the transversal t forms two sets of angles — one with line l and another with line m. There are angles in the first set that correspond to angles in the second set based on their position. ∠1 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 5"
+            },
+            {
+              "type": "text",
+              "content": " are called "
+            },
+            {
+              "type": "text",
+              "content": "corresponding angles",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Similarly, ∠2 and ∠6, ∠3 and ∠7, ∠4 and ∠8 are the corresponding angles formed when transversal t intersects lines l and m."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.783,
+            0.259,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 3"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.149,
+            0.802,
+            0.848,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Draw a pair of lines and a transversal such that they form two distinct angles."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.808,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

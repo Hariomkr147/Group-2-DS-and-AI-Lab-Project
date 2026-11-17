@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 12.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:58:40Z",
+      "modified_at": "2026-03-24T12:00:59+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.081,
+            0.087,
+            0.319,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.081,
+                0.087,
+                0.319,
+                0.205
+              ],
+              "image_path": "images/page_5_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.076,
+                0.206,
+                0.251,
+                0.235
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 12.7 Right-hand thumb rule"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.325,
+            0.085,
+            0.901,
+            0.168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Imagine that you are holding a current-carrying straight conductor in your right hand such that the thumb points towards the direction of current. Then your fingers will wrap around the conductor in the direction of the field lines of the magnetic field, as shown in Fig. 12.7. This is known as the right-hand thumb rule*.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.308,
+            0.184,
+            0.453,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 12.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.305,
+            0.199,
+            0.9,
+            0.251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A current through a horizontal power line flows in east to west direction. What is the direction of magnetic field at a point directly below it and at a point directly above it?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.307,
+            0.257,
+            0.398,
+            0.274
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.306,
+            0.273,
+            0.9,
+            0.356
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The current is in the east-west direction. Applying the right-hand thumb rule, we get that the magnetic field (at any point below or above the wire) turns clockwise in a plane perpendicular to the wire, when viewed from the east end, and anti-clockwise, when viewed from the west end.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.253,
+            0.375,
+            0.75,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.099,
+            0.423,
+            0.563,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Draw magnetic field lines around a bar magnet.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.441,
+            0.507,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. List the properties of magnetic field lines.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.098,
+            0.459,
+            0.632,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Why don’t two magnetic field lines intersect each other?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.277,
+            0.501,
+            0.899,
+            0.543
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.2.3 Magnetic Field due to a Current through a Circular Loop"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.079,
+            0.553,
+            0.367,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.079,
+                0.553,
+                0.367,
+                0.728
+              ],
+              "image_path": "images/page_5_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.076,
+                0.732,
+                0.185,
+                0.747
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 12.8"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 14,
+              "bbox": [
+                0.074,
+                0.744,
+                0.353,
+                0.79
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Magnetic field lines of the field produced by a current-carrying circular loop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.372,
+            0.551,
+            0.901,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have so far observed the pattern of the magnetic field lines produced around a current-carrying straight wire. Suppose this straight wire is bent in the form of a circular loop and a current is passed through it. How would the magnetic field lines look like? We know that the magnetic field produced by a current-carrying straight wire depends inversely on the distance from it. Similarly at every point of a current-carrying circular loop, the concentric circles representing the magnetic field around it would become larger and larger as we move away from the wire (Fig. 12.8). By the time we reach at the centre of the circular loop, the arcs of these big circles would appear as straight lines. Every point on the wire carrying current would give rise to the magnetic field appearing as straight lines at the center of the loop. By applying the right hand rule, it is easy to check that every section of the wire contributes to the magnetic field lines in the same direction within the loop.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.278,
+            0.838,
+            0.902,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "* This rule is also called Maxwell’s corkscrew rule. If we consider ourselves driving a corkscrew in the direction of the current, then the direction of the rotation of corkscrew is the direction of the magnetic field.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.087,
+            0.917,
+            0.126,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "200"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.831,
+            0.916,
+            0.899,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 19,
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

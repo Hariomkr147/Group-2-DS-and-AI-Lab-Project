@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.09,
+            0.877,
+            0.479
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.28,
+                0.491,
+                0.723,
+                0.508
+              ],
+              "content": "Fig. 12.7: An artist’s representation of the Solar System"
+            },
+            {
+              "bbox": [
+                0.126,
+                0.512,
+                0.879,
+                0.564
+              ],
+              "content": "(To fit this figure within the page, the sizes and distances of various objects are not as per their actual sizes and distances in relation to each other, that is, the sizes and distances are not to scale in the figure)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.586,
+            0.743,
+            0.647
+          ],
+          "content": "The eight planets, in order of their increasing distance from the Sun, are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune (Fig. 12.7)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.648,
+            0.744,
+            0.709
+          ],
+          "content": "The inner four planets nearest to the Sun—Mercury, Venus, Earth and Mars—are smaller in size. They have solid surfaces with rocks on them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.758,
+            0.661,
+            0.862
+          ],
+          "content": "From ancient times, various names have been used across India for the planets visible to the naked eye. For example, Budha (Mercury), Śhukra (Venus), Pṛithvī (Earth), Mangala (Mars), Bṛihaspati or Guru (Jupiter) and Śhani (Saturn)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.684,
+            0.778,
+            0.757,
+            0.836
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.668,
+            0.842,
+            0.77,
+            0.885
+          ],
+          "content": "**More to know!**"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.893,
+            0.806,
+            0.913,
+            0.876
+          ],
+          "content": "Beyond Earth"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.905,
+            0.92,
+            0.921
+          ],
+          "content": "241"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:06:42+05:30",
+      "modified_at": "2026-03-27T11:31:49+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

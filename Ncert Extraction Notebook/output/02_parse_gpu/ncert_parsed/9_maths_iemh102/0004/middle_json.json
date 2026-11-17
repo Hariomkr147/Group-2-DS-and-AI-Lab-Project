@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.502,
+            0.069,
+            0.815,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Introduction to Linear Polynomials"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.856,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "19"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.108,
+            0.813,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. What is the coefficient of z in the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 z ^ { 3 } + 5 z ^ { 2 } - 1 1 7"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.131,
+            0.132,
+            0.852,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. What is the constant term of the polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9x^{3} + 5x^{2} - 8x - 10?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.152,
+            0.884,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that polynomials of degree 1 are called "
+            },
+            {
+              "type": "text",
+              "content": "linear polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". In this chapter, we shall study linear polynomials."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.114,
+            0.216,
+            0.46,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.2 Linear Polynomials"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.25,
+            0.769,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We begin with some examples involving linear polynomials."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.112,
+            0.274,
+            0.884,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The perimeter of a square of side x is 4x, which is a linear polynomial in the variable x."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.132,
+            0.334,
+            0.398,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.128,
+            0.371,
+            0.866,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the perimeter of squares with sides 1 cm, 1.5 cm, 2 cm, 2.5 cm and 3 cm. What will happen to the perimeters if the sides increase by 0.5 cm?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.438,
+            0.885,
+            0.498
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A chess club charges a joining fee of `200 plus `50 for every match played. The following table shows the amount a player will have to pay as the number of matches varies."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 11,
+          "bbox": [
+            0.117,
+            0.508,
+            0.896,
+            0.615
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 11,
+              "bbox": [
+                0.117,
+                0.508,
+                0.896,
+                0.615
+              ],
+              "image_path": "images/page_3_table_11.jpg",
+              "content": "<table><tbody><tr><td>Number of matches played</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>…</td><td>m</td></tr><tr><td>Amount paid (`)</td><td>250</td><td>300</td><td>350</td><td>400</td><td>450</td><td>…</td><td>200 + 50m</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.63,
+            0.886,
+            0.711
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, if m is the number of matches played, the total cost will be `(200 + 50m). Observe that 200 + 50m is a linear polynomial in the variable m. The amount paid increases by the constant value of `50 for every additional match played."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.131,
+            0.734,
+            0.399,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.771,
+            0.662,
+            0.793
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a player paid `750, how many matches did he play?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.819,
+            0.886,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The examples given above highlight a characteristic feature of linear polynomials — that the difference between the successive values at integers is constant. In Example 4, the perimeters increase by 2 cm each time the side of the square increases by 0.5 cm. Similarly in Example 5,"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

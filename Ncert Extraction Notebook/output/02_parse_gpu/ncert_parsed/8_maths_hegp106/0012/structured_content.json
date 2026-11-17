@@ -1,0 +1,288 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.585,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "We Distribute, Yet Things Multiply"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.088,
+            0.211,
+            0.107
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.322,
+            0.111,
+            0.678,
+            0.172
+          ],
+          "content": "\\begin{aligned}(60 - 5)^{2} &= 60^{2} - (60 \\times 5) - (5 \\times 60) + 5^{2} \\\\&= 3600 - 300 - 300 + 25 \\\\&= 3025.\\end{aligned}",
+          "image_source": "images/page_11_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.177,
+            0.695,
+            0.197
+          ],
+          "content": "The area of the square of sidelength 55 is 3025 sq. units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.197,
+            0.846,
+            0.233
+          ],
+          "content": "We have seen what $( a ~ + ~ b ) ^ { 2 }$ gives when expanded. What is the expansion of $( a - b ) ^ { 2 } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.234,
+            0.485,
+            0.253
+          ],
+          "content": "Using the distributive property,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.333,
+            0.256,
+            0.602,
+            0.311
+          ],
+          "content": "\\begin{array} { l } ( a - b ) ^ { 2 } = ( a - b ) \\times ( a - b ) \\\\ \\quad = ( a ) ^ { 2 } - b a - a b + ( b ) ^ { 2 } \\\\ \\quad = a ^ { 2 } - 2 a b + b ^ { 2 } . \\end{array}",
+          "image_source": "images/page_11_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.316,
+            0.849,
+            0.353
+          ],
+          "content": "？ We can also use the expansion of $( a ~ + ~ b ) ^ { 2 }$ to find the expansion of $( a - b ) ^ { 2 }$ . Think how."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.358,
+            0.395,
+            0.377
+          ],
+          "content": "**Hint:** $( a - b ) ^ { 2 } = ( a + ( - b ) ) ^ { 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.377,
+            0.633,
+            0.396
+          ],
+          "content": "We can now directly use the expansion of $( a + b ) ^ { 2 }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.406,
+            0.678,
+            0.426
+          ],
+          "content": "(a+(-b)^{2}=(a)^{2}+(-b)^{2}+2\\times(a)\\times(-b)",
+          "image_source": "images/page_11_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.326,
+            0.452,
+            0.672,
+            0.474
+          ],
+          "content": "**Identity 1B** $(a - b)^{2} = a^{2} + b^{2} - 2ab$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.492,
+            0.839,
+            0.515
+          ],
+          "content": "？ Find the general expansion of $( a - { \\bar { b } } ) ^ { 2 }$ using geometry, as we did for $5 5 ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.528,
+            0.752,
+            0.551
+          ],
+          "content": "？ Use the identity $( a - b ) ^ { 2 }$ to find the values of $\\mathrm{(a)}   99^{2}$ and (b) $5 8 ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.565,
+            0.846,
+            0.633
+          ],
+          "content": "？ Expand the following using both Identity 1B and by applying the distributive property (i) $( b - 6 ) ^ { 2 }$ (ii) $(-2a + 3)^{2}$ (iii) $( 7 y   -   \\frac { 3 } { 4 z } ) ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.646,
+            0.424,
+            0.668
+          ],
+          "content": "**Investigating Patterns**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.675,
+            0.254,
+            0.693
+          ],
+          "content": "**Pattern 1**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.699,
+            0.444,
+            0.718
+          ],
+          "content": "Look at the following pattern."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.411,
+            0.721,
+            0.588,
+            0.741
+          ],
+          "content": "2 \\; ( 2 ^ { 2 } + 1 ^ { 2 } ) = 3 ^ { 2 } + 1 ^ { 2 }",
+          "image_source": "images/page_11_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.751,
+            0.588,
+            0.771
+          ],
+          "content": "2 \\; ( 3 ^ { 2 } + 1 ^ { 2 } ) = 4 ^ { 2 } + 2 ^ { 2 }",
+          "image_source": "images/page_11_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.413,
+            0.78,
+            0.601,
+            0.802
+          ],
+          "content": "2 \\; ( 6 ^ { 2 } + 5 ^ { 2 } ) = 1 1 ^ { 2 } + 1 ^ { 2 }",
+          "image_source": "images/page_11_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.81,
+            0.597,
+            0.831
+          ],
+          "content": "2 \\; ( 5 ^ { 2 } + 3 ^ { 2 } ) = \\; 8 ^ { 2 } + 2 ^ { 2 } .",
+          "image_source": "images/page_11_equation_22.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.915,
+            0.918,
+            0.936
+          ],
+          "content": "147"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

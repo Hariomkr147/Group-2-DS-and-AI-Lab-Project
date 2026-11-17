@@ -1,0 +1,209 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.639,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Constructions and Tilings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.489,
+            0.109
+          ],
+          "content": "6. Construct the following figure."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.407,
+            0.112,
+            0.59,
+            0.246
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.26,
+            0.846,
+            0.301
+          ],
+          "content": "How do we construct the petals so that they are of the maximum possible size within a given square?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.322,
+            0.612,
+            0.346
+          ],
+          "content": "**Repeating Units and Repeating Angles**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.347,
+            0.454,
+            0.371
+          ],
+          "content": "Construct the following figure."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.336,
+            0.381,
+            0.665,
+            0.49
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.501,
+            0.847,
+            0.559
+          ],
+          "content": "In this figure, there is a single unit repeating itself. To construct this figure, we need to make exact copies of this unit in two different orientations."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.311,
+            0.558,
+            0.66,
+            0.657
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.666,
+            0.847,
+            0.723
+          ],
+          "content": "In order to make exact copies, all the units must have the same arm lengths and the same angle between the arms. We can ensure equal arm lengths using a compass, but how do we ensure equal angles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.723,
+            0.804,
+            0.743
+          ],
+          "content": "Let us develop a method to create an exact copy of a given angle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.751,
+            0.781,
+            0.791
+          ],
+          "content": "Draw an angle. Create a copy of this angle using only a ruler and compass."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.733,
+            0.903,
+            0.785
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.418,
+            0.793,
+            0.601,
+            0.886
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.934,
+            0.844,
+            0.95
+          ],
+          "content": "145"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,412 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.098,
+            0.104,
+            0.128,
+            0.119
+          ],
+          "content": "92"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.248,
+            0.146,
+            0.748,
+            0.192
+          ],
+          "content": "\\frac{\\mathrm{AB}}{\\mathrm{RQ}}=\\frac{3.8}{7.6}=\\frac{1}{2}, \\frac{\\mathrm{BC}}{\\mathrm{QP}}=\\frac{6}{12}=\\frac{1}{2} \\text { and } \\frac{\\mathrm{CA}}{\\mathrm{PR}}=\\frac{3 \\sqrt{3}}{6 \\sqrt{3}}=\\frac{1}{2}",
+          "image_source": "images/page_19_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.224,
+            0.176,
+            0.243
+          ],
+          "content": "That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.241,
+            0.209,
+            0.412,
+            0.252
+          ],
+          "content": "\\frac{\\mathrm{AB}}{\\mathrm{RQ}}=\\frac{\\mathrm{BC}}{\\mathrm{QP}}=\\frac{\\mathrm{CA}}{\\mathrm{PR}}",
+          "image_source": "images/page_19_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.269,
+            0.135,
+            0.287
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.277,
+            0.268,
+            0.455,
+            0.288
+          ],
+          "content": "\\Delta   \\mathrm { A B C } \\sim \\Delta   \\mathrm { R Q P }",
+          "image_source": "images/page_19_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.746,
+            0.268,
+            0.9,
+            0.289
+          ],
+          "content": "(SSS similarity)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.301,
+            0.205,
+            0.321
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.306,
+            0.301,
+            0.426,
+            0.32
+          ],
+          "content": "\\angle C = \\angle  P",
+          "image_source": "images/page_19_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.301,
+            0.901,
+            0.323
+          ],
+          "content": "(Corresponding angles of similar triangles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.328,
+            0.142,
+            0.346
+          ],
+          "content": "But"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.306,
+            0.327,
+            0.559,
+            0.347
+          ],
+          "content": "\\angle C = 180^{\\circ} - \\angle A - \\angle B",
+          "image_source": "images/page_19_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.687,
+            0.327,
+            0.9,
+            0.349
+          ],
+          "content": "(Angle sum property)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.358,
+            0.604,
+            0.379
+          ],
+          "content": "=   180^{\\circ} - 80^{\\circ} - 60^{\\circ} = 40^{\\circ}",
+          "image_source": "images/page_19_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.386,
+            0.135,
+            0.403
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31,
+            0.384,
+            0.418,
+            0.403
+          ],
+          "content": "\\angle \\mathrm { P } = 4 0 ^ { \\circ }",
+          "image_source": "images/page_19_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.41,
+            0.352,
+            0.429
+          ],
+          "content": "**Example 6 :** In Fig. 6.31,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.216,
+            0.435,
+            0.435,
+            0.454
+          ],
+          "content": "OA. OB = OC. OD.",
+          "image_source": "images/page_19_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.459,
+            0.495,
+            0.479
+          ],
+          "content": "Show that $\\angle \\mathrm{A} = \\angle \\mathrm{C}   and   \\angle \\mathrm{B} = \\angle \\mathrm{D}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.485,
+            0.562,
+            0.505
+          ],
+          "content": "**Solution :** $OA. OB = OC. OD$ (Given)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.601,
+            0.383,
+            0.875,
+            0.544
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.532,
+            0.135,
+            0.549
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.274,
+            0.518,
+            0.562,
+            0.559
+          ],
+          "content": "\\frac{OA}{OC} = \\frac{OD}{OB}\\tag{1}",
+          "image_source": "images/page_19_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.568,
+            0.244,
+            0.587
+          ],
+          "content": "Also, we have"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.385,
+            0.567,
+            0.899,
+            0.588
+          ],
+          "content": "$\\angle AOD = \\angle COB$ (Vertically opposite angles) (2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.593,
+            0.84,
+            0.613
+          ],
+          "content": "Therefore, from (1) and (2), $\\Delta  AOD  \\sim \\Delta  COB$ (SAS similarity criterion)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.619,
+            0.135,
+            0.637
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.376,
+            0.618,
+            0.9,
+            0.658
+          ],
+          "content": "$\\angle A = \\angle C$ and $\\angle \\mathrm{D} = \\angle \\mathrm{B}$ (Corresponding angles of similar triangles)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.671,
+            0.503,
+            0.777
+          ],
+          "content": "**Example 7 :** A girl of height 90 cm is walking away from the base of a lamp-post at a speed of 1.2 m/s. If the lamp is 3.6 m above the ground, find the length of her shadow after 4 seconds."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.783,
+            0.502,
+            0.847
+          ],
+          "content": "**Solution :** Let AB denote the lamp-post and CD the girl after walking for 4 seconds away from the lamp-post (see Fig. 6.32)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.852,
+            0.502,
+            0.894
+          ],
+          "content": "From the figure, you can see that DE is the shadow of the girl. Let DE be x metres."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.515,
+            0.674,
+            0.9,
+            0.865
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.655,
+                0.868,
+                0.758,
+                0.888
+              ],
+              "content": "Fig. 6.32"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_33.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.12,
+            0.834,
+            0.247
+          ],
+          "content": "Shabnam: There is a condition. The fractional unit used for the two fractions have to be the same! Like $\\frac{2}{6}$ and $\\frac{3}{6}$ both use the same fractional unit $\\begin{array} { r } { \\frac { 1 } { 6 } \\left( \\mathbf { i . e . } \\right. } \\end{array}$ , the denominators are the same). But $\\frac{6}{8}$ and $\\frac { 2 1 } { 3 0 }$ do not use the same fractional units (they have different denominators)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.251,
+            0.767,
+            0.274
+          ],
+          "content": "Mukta: Okay, so let us start making equivalent fractions then:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.275,
+            0.688,
+            0.305
+          ],
+          "content": "${ \\frac { 3 } { 4 } } ~ = ~ { \\frac { 6 } { 8 } } ~ = ~ { \\frac { 9 } { 1 2 } } ~ = ~ { \\frac { 1 2 } { 1 6 } } ~ = ~ { \\frac { 1 5 } { 2 0 } } ~ .$ … But when do I stop?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.317,
+            0.673,
+            0.339
+          ],
+          "content": "Shabnam: \u0007Got it! How about we go on till $4 \\times 10 = 40$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.344,
+            0.711,
+            0.365
+          ],
+          "content": "Mukta: You mean the product of the two denominators?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.367,
+            0.343,
+            0.388
+          ],
+          "content": "Sounds good!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.393,
+            0.832,
+            0.443
+          ],
+          "content": "We have $\\frac { 3 } { 4 }$ and $\\frac { 7 } { 1 0 }$ . The product of the two denominators (4 and 10) is 40."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.197,
+            0.447,
+            0.584,
+            0.48
+          ],
+          "content": "\\frac{3}{4} = \\frac{6}{8} = \\frac{9}{12} = \\frac{12}{16} = \\frac{15}{20} = \\frac{18}{24} = \\ldots = \\frac{27}{36} = \\frac{30}{40}.",
+          "image_source": "images/page_20_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.199,
+            0.484,
+            0.373,
+            0.517
+          ],
+          "content": "{ \\frac { 7 } { 1 0 } }   =   { \\frac { 1 4 } { 2 0 } }   =   { \\frac { 2 1 } { 3 0 } }   =   { \\frac { 2 8 } { 4 0 } } .",
+          "image_source": "images/page_20_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.63,
+            0.463,
+            0.795,
+            0.503
+          ],
+          "content": "Go till we reach the denominator 40."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.557,
+            0.455,
+            0.61
+          ],
+          "content": "But notice that $\\frac { 1 5 } { 2 0 }$ and $\\frac { 1 4 } { 2 0 }$ also had the same denominator!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.319,
+            0.617,
+            0.439,
+            0.721
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.522,
+            0.565,
+            0.774,
+            0.625
+          ],
+          "content": "Yes! We just needed to get the same fractional units for each fraction."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.509,
+            0.643,
+            0.62,
+            0.71
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.735,
+            0.833,
+            0.845
+          ],
+          "content": "Shabnam: So, fractions equivalent to $\\frac { 3 } { 4 }$ and $\\frac { 7 } { 1 0 }$ with the same fractional unit (same denominators) are $\\frac { 3 0 } { 4 0 }$ and $\\frac { 2 8 } { 4 0 } ,$ , or $\\frac { 1 5 } { 2 0 }$ and $\\frac { 1 4 } { 2 0 }$ Since clearly $\\frac { 3 0 } { 4 0 } > \\frac { 2 8 } { 4 0 }$ , we conclude that $\\frac { 3 } { 4 } > \\frac { 7 } { 1 0 }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.941,
+            0.917,
+            0.96
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

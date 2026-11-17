@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "code",
+          "index": 0,
+          "bbox": [
+            0.124,
+            0.403,
+            0.811,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 0,
+              "bbox": [
+                0.124,
+                0.403,
+                0.811,
+                0.508
+              ],
+              "content": "Algorithm to find the divisors of n\n1. Start with an empty list-of-divisors.\n2. For each number j in the sequence 1,2,3,...,n\n– if j divides n, add j to the list-of-divisors."
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.119,
+            0.072,
+            0.148,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "40"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.117,
+            0.111,
+            0.66,
+            0.133
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.2.1 Computing the Divisors of a Number"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.116,
+            0.142,
+            0.587,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we want to compute gcd(375, 825)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.162,
+            0.883,
+            0.239
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we find the divisors of 375? The divisors of a number are just the factors of that number. Clearly any divisor, or factor, must lie between 1 and 375. The simplest way to find the divisors is to check each number between 1 and 375 and see if it divides 375."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.115,
+            0.239,
+            0.883,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We also have to keep track of the divisors of 375 so that we can compare them with the divisors of 825. We can maintain each of these in a sequence, or a "
+            },
+            {
+              "type": "text",
+              "content": "list",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". How do we create the list of divisors of a number? When we start, we do not know any divisors, so the list of divisors is initially empty. Every time we find a new divisor, we add it at the end of the list."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.353,
+            0.883,
+            0.393
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "divisors of any number n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.115,
+            0.52,
+            0.882,
+            0.598
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice how we use names list-of-divisors and j to identify the values that we keep track of in this algorithm. If we do not use j to identify the number we are checking next as a possible divisor, it would be clumsy to describe what to do each time we find a divisor."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.116,
+            0.598,
+            0.882,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Running through an algorithm step by step is also called "
+            },
+            {
+              "type": "text",
+              "content": "executing",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " the algorithm. Let us execute this algorithm for a small number, say 18. We use square brackets to denote a list of values — for instance, [1, 4, 9, 16]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.68,
+            0.837,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us see how this algorithm works for a small number, say 18."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.145,
+            0.706,
+            0.601,
+            0.727
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Initially list-of-divisors is empty [ ]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.145,
+            0.732,
+            0.731,
+            0.753
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• 1 divides 18, so we update list-of-divisors to [1]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.146,
+            0.758,
+            0.755,
+            0.779
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• 2 divides 18, so we update list-of-divisors to [1, 2]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.146,
+            0.784,
+            0.778,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• 3 divides 18, so we update list-of-divisors to [1, 2, 3]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.145,
+            0.811,
+            0.881,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4 does not divide 18, so we leave list-of-divisors unchanged as [1, 2, 3]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.145,
+            0.856,
+            0.882,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5 does not divide 18, so we leave list-of-divisors unchanged as [1, 2, 3]."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,41 @@
+![](images/page_3_image_0.jpg)
+
+## Addition to keep track of movement
+
+Start from the Food Court and press + 2 in the lift. Where will you reach?
+
+We can describe this using an expression:
+
+## Starting Floor + Movement = Target Floor.
+
+The starting floor is + 1 (Food Court) and the number of button presses is + 2. Therefore, you reach the target floor **(+ 1) + (+ 2) = + 3** (Book Store).
+
+## Figure it Out
+
+1. You start from Floor + 2 and press – 3 in the lift. Where will you reach? Write an expression for this movement.
+
+2. Evaluate these expressions (you may think of them as Starting Floor + Movement by referring to the Building of Fun).
+
+a. (+ 1) + (+ 4) =
+
+b. (+ 4) + (+ 1) =
+
+c. (+ 4) + (–   3) =
+
+d. (– 1) + (+ 2) =
+
+e. (– 1) + (+ 1) =
+
+f. 0 + (+ 2) =
+
+g. 0 + (–2) = \_
+
+3. Starting from different floors, find the movements required to reach Floor – 5. For example, if I start at Floor + 2, I must press – 7 to reach Floor – 5. The expression is (+ 2) + (– 7) = – 5.
+
+Find more such starting positions and the movements needed to reach Floor –5 and write the expressions.
+
+## Combining button presses is also addition
+
+Gurmit was in the Toy Store and wanted to go down two floors. But by mistake he pressed the ‘+’ button two times. He realised his mistake and quickly pressed the ‘–’ button three times. How many floors below or above the Toy Store will Gurmit reach?
+
+Gurmit will go one floor down. We can show the movement resulting from combining button presses as an expression: $(+2)+(-3)=-1$

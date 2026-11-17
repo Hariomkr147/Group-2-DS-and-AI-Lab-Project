@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Algebraic Identities"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "85"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.148,
+            0.107,
+            0.825,
+            0.18
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x - y ) ( x ^ { 2 } + x y + y ^ { 2 } ) = x ^ { 3 } - y ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " . This is also an identity! Verify this for yourself by choosing different values of x and y. Predict what "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x + y ) ( x ^ { 2 } - x y + y ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " will be."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.132,
+            0.204,
+            0.399,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.242,
+            0.605,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We already know that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{2}-y^{2}=(x-y)(x+y)"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.129,
+            0.272,
+            0.748,
+            0.301
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, we have verified that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{3}-y^{3}=(x-y)\\left(x^{2}+xy+y^{2}\\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.129,
+            0.303,
+            0.698,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X - y"
+            },
+            {
+              "type": "text",
+              "content": " is a common factor of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 2 }   -   y ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 3 }   -   y ^ { 3 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.329,
+            0.558,
+            0.349
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you think x – y is also a factor of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 4 }   -   y ^ { 4 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.13,
+            0.355,
+            0.585,
+            0.375
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 4 } - y ^ { 4 } = ( X ^ { 2 } ) ^ { 2 } - ( y ^ { 2 } ) ^ { 2 } = ( X ^ { 2 } - y ^ { 2 } ) \\; ( X ^ { 2 } + y ^ { 2 } ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.13,
+            0.382,
+            0.552,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you see how x – y is a factor of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 4 }   -   y ^ { 4 } ?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.13,
+            0.407,
+            0.673,
+            0.427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X ^ { 5 }   -   y ^ { 5 } ?"
+            },
+            {
+              "type": "text",
+              "content": " Does this also have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - y"
+            },
+            {
+              "type": "text",
+              "content": " as a factor?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.449,
+            0.881,
+            0.47
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring further, let us multiply "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x + y + z)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x^{2}+y^{2}+z^{2}-xy-xz-yz)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.149,
+            0.473,
+            0.822,
+            0.643
+          ],
+          "image_path": "images/page_17_equation_12.jpg",
+          "content": "\\begin{aligned} &\\left( (x + y + z)\\left( x^{2} + y^{2} + z^{2} - xy - xz^{2} - yz \\right) \\right. \\\\&= \\left. \\left( x^{3} + xy^{2} + xz^{2} - x^{2}y - xz^{2}z - yz \\right) + \\left( x^{2}y + y^{3} + yz^{2} - xy^{2} - xyz - y^{2}z \\right) \\right. \\\\&\\quad + \\left. \\left( x^{2}z + y^{2}z + z^{3} - xyz - xz^{2} - yz^{2} \\right) \\right. \\\\&= \\left. \\left( x^{3} + xy^{2} + xz^{2} - x^{2}y - xz^{2}z - xyz \\right) + \\left( x^{2}y + y^{3} + yz^{2} - xy^{2} - xyz - y^{2}z \\right) \\right. \\\\&\\quad + \\left. \\left( x^{2}z + y^{2}z^{2} + z^{3} - xyz - xz^{2} - yz^{2} \\right) \\right. \\\\&= x^{3} + y^{3} + z^{3} - 3xyz. \\\\&\\left. \\left( \\mathrm{So}, (x + y + z)\\left( x^{2} + y^{2} + z^{2} - xy - xz - yz \\right) = x^{3} + y^{3} + z^{3} - 3xyz. \\right. \\right.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.149,
+            0.647,
+            0.872,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is yet another identity. Let us explore some of its applications."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.112,
+            0.673,
+            0.885,
+            0.731
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 15:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The sum of three numbers is 10 and their product is 25. The sum of their squares is 38. Try to use the previous identity to find the sum of the cubes of these three numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.112,
+            0.731,
+            0.884,
+            0.771
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let the three numbers be x, y and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Z ,"
+            },
+            {
+              "type": "text",
+              "content": " respectively. According to the problem "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\mp y \\mp z = 10, \\quad xyz = 25"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + y ^ { 2 } + { \\bar { z ^ { 2 } } } = 3 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.149,
+            0.77,
+            0.447,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting in the identity"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.148,
+            0.795,
+            0.818,
+            0.815
+          ],
+          "image_path": "images/page_17_equation_17.jpg",
+          "content": "( x + y + z ) ( x ^ { 2 } + y ^ { 2 } + z ^ { 2 } - x y - x z - y z ) = x ^ { 3 } + y ^ { 3 } + z ^ { 3 } - 3 x y z , \\mathrm { w e ~ g e t }"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.15,
+            0.819,
+            0.611,
+            0.84
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(10) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 3 8 - x y - x z - y z ) = x ^ { 3 } + y ^ { 3 } + z ^ { 3 } - 3 \\; ( 2 5 ) ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.15,
+            0.844,
+            0.883,
+            0.866
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{3}+y^{3}+z^{3}=380-10\\left ( xy+xz+yz \\right ) +75=455-10\\left ( xy+xz+yz \\right ) ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

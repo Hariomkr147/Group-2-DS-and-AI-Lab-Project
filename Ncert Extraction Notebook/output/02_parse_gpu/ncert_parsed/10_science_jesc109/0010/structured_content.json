@@ -1,0 +1,244 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.493,
+            0.422,
+            0.593,
+            0.436
+          ],
+          "content": "Figure 9.9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.086,
+            0.723,
+            0.136
+          ],
+          "content": "**The New Cartesian Sign Convention described above is illustrated in Fig.9.9 for your reference. These sign conventions are applied to obtain the mirror formula and solve related numerical problems.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.15,
+            0.532,
+            0.171
+          ],
+          "level": 2,
+          "content": "9.2.4 Mirror Formula and Magnification"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.178,
+            0.478,
+            0.341
+          ],
+          "content": "**In a spherical mirror, the distance of the object from its pole is called the object distance (u). The distance of the image from the pole of the mirror is called the image distance (v). You already know that the distance of the principal focus from the pole is called the focal length (f) . There is a relationship between these three quantities given by the mirror formula which is expressed as**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.14,
+            0.346,
+            0.474,
+            0.381
+          ],
+          "content": "\\frac { 1 } { v } + \\frac { 1 } { u } = \\frac { 1 } { f }\\tag{9.1}",
+          "image_source": "images/page_9_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.391,
+            0.478,
+            0.491
+          ],
+          "content": "**This formula is valid in all situations for all spherical mirrors for all positions of the object. You must use the New Cartesian Sign Convention while substituting numerical values for u, v, f, and R in the mirror formula for solving problems.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.489,
+            0.192,
+            0.924,
+            0.42
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.493,
+                0.435,
+                0.917,
+                0.452
+              ],
+              "content": "The New Cartesian Sign Convention for spherical mirrors"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_6.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.099,
+            0.5,
+            0.238,
+            0.518
+          ],
+          "level": 2,
+          "content": "Magnification"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.521,
+            0.723,
+            0.585
+          ],
+          "content": "**Magnification produced by a spherical mirror gives the relative extent to which the image of an object is magnified with respect to the object size. It is expressed as the ratio of the height of the image to the height of the object. It is usually represented by the letter m.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.585,
+            0.722,
+            0.62
+          ],
+          "content": "**If h is the height of the object and h**′ **is the height of the image, then the magnification m produced by a spherical mirror is given by**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13,
+            0.622,
+            0.375,
+            0.659
+          ],
+          "content": "m = { \\frac { \\mathrm { H e i g h t ~ o f ~ t h e ~ i m a g e } \\left( h ^ { \\prime } \\right) } { \\mathrm { H e i g h t ~ o f ~ t h e ~ o b j e c t } \\left( h \\right) } }",
+          "image_source": "images/page_9_equation_11.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.667,
+            0.719,
+            0.701
+          ],
+          "content": "m = { \\frac { h ^ { \\prime } } { h } }\\tag{9.2}",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.71,
+            0.722,
+            0.744
+          ],
+          "content": "**The magnification m is also related to the object distance (u) and image distance (v). It can be expressed as:**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.13,
+            0.748,
+            0.719,
+            0.782
+          ],
+          "content": "\\mathrm{Magniification} \\left( \\underline{m} \\right) = \\frac{h'}{h} = - \\frac{v}{u}\\tag{9.3}",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.784,
+            0.724,
+            0.884
+          ],
+          "content": "**You may note that the height of the object is taken to be positive as the object is usually placed above the principal axis. The height of the image should be taken as positive for virtual images. However, it is to be taken as negative for real images. A negative sign in the value of the magnification indicates that the image is real. A positive sign in the value of the magnification indicates that the image is virtual.**"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.099,
+            0.915,
+            0.342,
+            0.931
+          ],
+          "content": "Light – Reflection and Refraction"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.914,
+            0.931
+          ],
+          "content": "143"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,35 @@
+6. Can you fill a supercell table without repeating numbers such that there are no supercells? Why or why not?
+
+![](images/page_3_image_2.jpg)
+
+7. Will the cell having the largest number in a table always be a supercell? Can the cell having the smallest number in a table be a supercell? Why or why not?
+
+8. Fill a table such that the cell having the second largest number is not a supercell.
+
+9. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Is it possible?
+
+10. Make other variations of this puzzle and challenge your classmates.
+
+Let’s do the supercells activity with more rows.
+
+Here the neighbouring cells are those that are immediately to the left, right, top and bottom. Table 1 Table 1
+
+The rule remains the same: a cell becomes a supercell if the number in it is greater than all the numbers in its neighbouring cells. In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944.
+
+| 2430 | 7500 | 7350 | 9870 |
+| --- | --- | --- | --- |
+| 3115 | 4795 | 9124 | 9230 |
+| 4580 | 8632 | 8280 | 3446 |
+| 5785 | 1944 | 5805 | 6034 |
+
+Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order. Only a coloured cell should have a number greater than all its neighbours.
+
+The biggest number in the table is
+
+Table 2
+
+|  | 96,301 | 36,109 |  |
+| --- | --- | --- | --- |
+|  | 13,609 | 60,319 | 19,306 |
+|  |  | 60,193 |  |
+|  | 10,963 |  |  |

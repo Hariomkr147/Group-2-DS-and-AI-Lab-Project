@@ -1,0 +1,43 @@
+(v) When we heat camphor in one corner of a room, the fragrance reaches all corners of the room.
+
+(vi) On heating, we are adding energy to the camphor, and the energy is released as a smell.
+
+3. Choose the correct answer with justification. If we could remove all the constituent particles from a chair, what would happen?
+
+(i) Nothing will change.
+
+(ii) The chair will weigh less due to lost particles.
+
+(iii) Nothing of the chair will remain.
+
+4. Why do gases mix easily, while solids do not?
+
+5. When spilled on the table, milk in a glass tumbler, flows and spreads out, but the glass tumbler stays in the same shape. Justify this statement.
+
+6. Represent diagrammatically the changes in the arrangement of particles as ice melts and transforms into water vapour.
+
+7. Draw a picture representing particles present in the following:
+
+(i) Aluminium foil
+
+![](images/page_16_image_11.jpg)
+
+(a)
+
+(ii) Glycerin
+
+(iii) Methane gas
+
+![](images/page_16_image_15.jpg)
+
+Fig. 7.16
+
+8. Observe Fig. 7.16a which shows the image of a candle that was just extinguished after burning for some time. Identify the different states of wax in the figure and match them with Fig. 7.16b showing the arrangement of particles.
+
+9. Why does the water in the ocean taste salty, even though the salt is not visible? Explain.
+
+10. Grains of rice and rice flour take the shape of the container when placed in different jars. Are they solids or liquids? Explain.
+
+![](images/page_16_image_20.jpg)
+
+## Reflect on the questions framed by your friends and try to answer ...

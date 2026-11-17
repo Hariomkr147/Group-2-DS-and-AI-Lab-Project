@@ -1,0 +1,242 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.047,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.09,
+            0.784,
+            0.113
+          ],
+          "level": 2,
+          "content": "Finding the Area Using Two Copies of the Trapezium"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.116,
+            0.846,
+            0.173
+          ],
+          "content": "There is another interesting way of finding the area of a trapezium. Consider two copies of the given trapezium in which AB‖CD. Rotate the second copy as shown."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.267,
+            0.176,
+            0.48,
+            0.27
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.509,
+            0.173,
+            0.721,
+            0.27
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.275,
+            0.847,
+            0.338
+          ],
+          "content": "？ What figure will we get when the two trapeziums are joined along BC? The possibilities are either a 6-sided figure or a 4-sided figure (quadrilateral)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.348,
+            0.287,
+            0.368
+          ],
+          "content": "**Possibilities**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.131,
+            0.367,
+            0.469,
+            0.534
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.496,
+            0.385,
+            0.86,
+            0.484
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.654,
+                0.487,
+                0.758,
+                0.503
+              ],
+              "content": "Quadrilateral"
+            },
+            {
+              "bbox": [
+                0.19,
+                0.533,
+                0.296,
+                0.549
+              ],
+              "content": "6-sided figure"
+            }
+          ],
+          "image_source": "images/page_20_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.556,
+            0.846,
+            0.631
+          ],
+          "content": "We can rule out the first possibility by looking at the sum of angles x and y. Since AB ‖ CD, we have $x + y = 180$ , since they are internal angles along the same side of the transversal (BC). So ABD́ and A ́CD are straight lines. Therefore, the resulting figure is a quadrilateral."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.632,
+            0.506,
+            0.655
+          ],
+          "content": "What type of a quadrilateral is this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.657,
+            0.659,
+            0.677
+          ],
+          "content": "Let us look at the other two angles of the trapezium."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.312,
+            0.681,
+            0.679,
+            0.779
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.787,
+            0.846,
+            0.844
+          ],
+          "content": "We have $u + v = 180$ . Therefore, AD‖D́ A ́, since the sum of the internal angles along the same side of the transversal A ́D is 180°. Since we already have AD́  ‖ A ́D, the quadrilateral AD́ A ́D is actually a parallelogram."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.08,
+            0.912,
+            0.131,
+            0.935
+          ],
+          "content": "168"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.216,
+            0.843,
+            0.782,
+            0.939
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_20_image_17.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:59:54+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

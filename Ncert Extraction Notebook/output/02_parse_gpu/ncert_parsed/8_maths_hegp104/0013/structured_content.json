@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.532,
+            0.281,
+            0.546,
+            0.295
+          ],
+          "content": "P"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.086,
+            0.293,
+            0.109
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.111,
+            0.734,
+            0.132
+          ],
+          "content": "1. Find all the other angles inside the following rectangles."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.198,
+            0.147,
+            0.461,
+            0.285
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.319,
+                0.284,
+                0.339,
+                0.299
+              ],
+              "content": "(i)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_12_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.532,
+            0.142,
+            0.775,
+            0.28
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.53,
+                0.137,
+                0.546,
+                0.152
+              ],
+              "content": "Q"
+            },
+            {
+              "bbox": [
+                0.764,
+                0.139,
+                0.778,
+                0.153
+              ],
+              "content": "R"
+            },
+            {
+              "bbox": [
+                0.641,
+                0.287,
+                0.665,
+                0.302
+              ],
+              "content": "(ii)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_12_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.307,
+            0.849,
+            0.371
+          ],
+          "content": "2. Draw a quadrilateral whose diagonals have equal lengths of 8 cm that bisect each other, and intersect at an angle of (i) $3 0 ^ { \\circ }$ (ii) $4 0 ^ { \\circ }$ (iii) $9 0 ^ { \\circ }$ (iv) $1 4 0 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.379,
+            0.848,
+            0.438
+          ],
+          "content": "3. Consider a circle with centre O. Line segments PL and AM are two perpendicular diameters of the circle. What is the figure APML? Reason and/or experiment to figure this out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.446,
+            0.801,
+            0.504
+          ],
+          "content": "4. We have seen how to get $9 0 ^ { \\circ }$ using paper folding. Now, suppose we do not have any paper but two sticks of equal length, and a thread. How do we make an exact $9 0 ^ { \\circ }$ using these?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.44,
+            0.905,
+            0.494
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.513,
+            0.819,
+            0.591
+          ],
+          "content": "5. We saw that one of the properties of a rectangle is that its opposite sides are parallel. Can this be chosen as a definition of a rectangle? In other words, is every quadrilateral that has opposite sides parallel and equal, a rectangle?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.826,
+            0.508,
+            0.929,
+            0.601
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_15.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.61,
+            0.548,
+            0.635
+          ],
+          "level": 2,
+          "content": "4.2 Angles in a Quadrilateral"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.646,
+            0.847,
+            0.686
+          ],
+          "content": "？ Is it possible to construct a quadrilateral with three angles equal to $9 0 ^ { \\circ }$ and the fourth angle not equal to $9 0 ^ { \\circ } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.689,
+            0.847,
+            0.729
+          ],
+          "content": "You might have observed through constructions that this may not be possible."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.737,
+            0.29,
+            0.76
+          ],
+          "level": 2,
+          "content": "？ But why not?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.763,
+            0.847,
+            0.8
+          ],
+          "content": "This is due to a general property of quadrilaterals related to their angles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.799,
+            0.848,
+            0.839
+          ],
+          "content": "We have seen that the sum of the angles of a triangle is 180°. There is a similar regularity in the sum of the angles of a quadrilateral."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": "94"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

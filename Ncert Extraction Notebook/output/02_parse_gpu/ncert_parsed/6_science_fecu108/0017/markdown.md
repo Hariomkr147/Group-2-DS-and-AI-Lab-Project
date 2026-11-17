@@ -1,0 +1,17 @@
+## Activity 8.11: Let us understand the process
+
+Label Fig. 8.9 using arrows shown and the words given in the box to show where water is stored, how water changes its state and where it moves.
+
+Cloud, Lake, Ocean, River, Groundwater, Evaporation, Condensation, Rain, Snow
+
+![](images/page_16_image_3.jpg)
+
+Fig. 8.9: Change of states and movement of water
+
+The water from the ocean and the Earth’s surface evaporates into the atmosphere as vapour and returns as rain, hail or snow, ultimately flowing back to the oceans. This circulation of water is known as the **water cycle**.
+
+What did I do well? Was I able to label all the parts of the water cycle? Which parts of the water cycle were unclear to me?
+
+![](images/page_16_image_7.jpg)
+
+Only a small portion of water available on the Earth is fit for use by plants, animals and humans. Most of the water is in the oceans and it cannot be used directly. We use water for drinking and also for many other activities. The number of people using water is increasing with a rise in population. The increasing demand for water causes its shortage in many parts of the world. Hence, it is very important to use water wisely and avoid wasting it. Let us keep our water bodies free from pollution. You will learn more about water and its conservation in the chapter ‘Nature’s Treasures’.

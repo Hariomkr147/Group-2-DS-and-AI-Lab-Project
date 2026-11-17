@@ -1,0 +1,167 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.7,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "A Story of Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.145
+          ],
+          "content": "An obvious limitation of using only the letters of the English alphabet in this form is that it cannot be used to count collections having more than 26 objects."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.155,
+            0.801,
+            0.194
+          ],
+          "content": "？ How many numbers can you represent in this way using the sounds of the letters of your language?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.143,
+            0.905,
+            0.196
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.198,
+            0.801,
+            0.218
+          ],
+          "content": "**Method 3:** We could use a sequence of written symbols as follows."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.131,
+            0.255,
+            0.867,
+            0.444
+          ],
+          "content": "| Number | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Representation using symbols | I | II | III | IV | V | VI | VII | VIII | IX | X |\n| Number | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n| Representation using symbols | XI | XII | XIII | XIV | XV | XVI | XVII | XVIII | XIX | XX |",
+          "captions": [
+            {
+              "bbox": [
+                0.453,
+                0.229,
+                0.529,
+                0.247
+              ],
+              "content": "Table 1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_5_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.467,
+            0.846,
+            0.505
+          ],
+          "content": "？ Do you see a way of extending this method to represent bigger numbers as well? How?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.509,
+            0.848,
+            0.621
+          ],
+          "content": "From the discussion above, we see that for counting and finding the size of a collection, we need a standard sequence of objects, or names, or written symbols, that has a fixed order. Let us call this standard sequence a **number system.** A collection of objects can be counted by making a one-to-one mapping between them and the standard sequence, following the sequence order."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.62,
+            0.849,
+            0.88
+          ],
+          "content": "Since there is no end to numbers, the challenge is to come up with an unending standard sequence/number system that is easy to count with. Using sticks gives an unending standard sequence/number system. However, it is not convenient to count larger collections, as we will need as many sticks as the number of objects being counted. Using the sounds of the letters of a language, as in Method 2, is convenient for the counting process but is not an unending standard sequence/number system. The standard sequence/number system given in Method 3 was actually the system used in Europe before it got replaced by the Hindu number system. It is called the **Roman number system.** It was widely used in Europe for centuries, and was convenient for many purposes, but had the similar drawback that one cannot write arbitrarily large numbers without introducing more and more symbols. We will learn more about this system of writing numbers later on."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": "53"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

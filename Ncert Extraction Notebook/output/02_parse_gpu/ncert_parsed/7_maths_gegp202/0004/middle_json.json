@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.644,
+            0.05,
+            0.847,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Operations with Integers"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.162,
+            0.088,
+            0.847,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. If there are multiple strikes causing movements in the order 1, – 2, 3, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "- 4 , . . . , - 1 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " , what is the final position of the coin?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.133,
+            0.848,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By modeling the movements as numbers, both positive and negative, we are able to capture two pieces of information — the distance (magnitude) and the direction (rightwards or leftwards). For example, when we say the movement is – 4, the "
+            },
+            {
+              "type": "text",
+              "content": "magnitude",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is 4 and the direction is leftward."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.238,
+            0.812,
+            0.298
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? From the figures below, what can you conclude about the magnitudes of a and b compared to each other, and what are their directions? Remember to start from 0."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.827,
+            0.231,
+            0.929,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.827,
+                0.231,
+                0.929,
+                0.287
+              ],
+              "image_path": "images/page_3_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.165,
+            0.305,
+            0.188,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.244,
+            0.318,
+            0.768,
+            0.463
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.244,
+                0.318,
+                0.768,
+                0.463
+              ],
+              "image_path": "images/page_3_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.197,
+            0.506,
+            0.8,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.165,
+                0.5,
+                0.187,
+                0.518
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "2."
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.197,
+                0.506,
+                0.8,
+                0.652
+              ],
+              "image_path": "images/page_3_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.206,
+            0.703,
+            0.765,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 9,
+              "bbox": [
+                0.166,
+                0.697,
+                0.187,
+                0.716
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "3."
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.206,
+                0.703,
+                0.765,
+                0.854
+              ],
+              "image_path": "images/page_3_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

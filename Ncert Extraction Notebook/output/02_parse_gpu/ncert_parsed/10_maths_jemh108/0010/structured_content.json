@@ -1,0 +1,362 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "122"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.138,
+            0.398,
+            0.157
+          ],
+          "level": 2,
+          "content": "Trigonometric Ratios of $4 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.164,
+            0.594,
+            0.222
+          ],
+          "content": "In $\\Delta   \\mathrm { A B C } ,$ right-angled at B, if one angle is $4 5 ^ { \\circ }$ , then the other angle is also $4 5 ^ { \\circ } , \\mathrm { i . e . } , \\angle \\mathrm { A } = \\angle \\mathrm { C } = 4 5 ^ { \\circ }$ (see Fig. 8.14)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.228,
+            0.135,
+            0.245
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.227,
+            0.51,
+            0.247
+          ],
+          "content": "\\mathrm{BC} = \\mathrm{AB} \\quad (\\mathrm{Why?})",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.713,
+            0.137,
+            0.893,
+            0.257
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.253,
+            0.384,
+            0.272
+          ],
+          "content": "Now, Suppose $\\mathrm{BC} = \\mathrm{AB} = a.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.759,
+            0.263,
+            0.858,
+            0.282
+          ],
+          "content": "Fig. 8.14"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.278,
+            0.726,
+            0.297
+          ],
+          "content": "Then by Pythagoras Theorem, $AC^{2} = AB^{2} + BC^{2} = a^{2} + a^{2} = 2a^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.309,
+            0.417,
+            0.33
+          ],
+          "content": "and, therefore, $\\mathrm { A C } =   a { \\sqrt { 2 } }   .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.341,
+            0.653,
+            0.36
+          ],
+          "content": "Using the definitions of the trigonometric ratios, we have :"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.186,
+            0.373,
+            0.736,
+            0.418
+          ],
+          "content": "\\sin 45^{\\circ} = \\frac{ side opposite to angle   45^{\\circ}}{ hyponeuse } = \\frac{BC}{AC} = \\frac{a}{a\\sqrt{2}} = \\frac{1}{\\sqrt{2}}",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.181,
+            0.435,
+            0.735,
+            0.481
+          ],
+          "content": "\\cos 45^{\\circ} = \\frac{\\overline{ side adjacent to angle 45^{\\circ}}}{\\overline{ hypotenuse }} = \\frac{\\overline{AB}}{\\overline{AC}} = \\frac{a}{a\\sqrt{2}} = \\frac{1}{\\sqrt{2}}",
+          "image_source": "images/page_9_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.185,
+            0.498,
+            0.682,
+            0.543
+          ],
+          "content": "\\tan 45^{\\circ} = \\frac{\\overline{side opposite to angle 45^{\\circ}}}{\\overline{side adjacent to angle 45^{\\circ}}} = \\frac{\\overline{BC}}{\\overline{AB}} = \\frac{a}{a} = 1",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.563,
+            0.896,
+            0.605
+          ],
+          "content": "Also, cosec $45^{\\circ} = \\frac{1}{\\sin 45^{\\circ}} = \\sqrt{2}$ , sec $45^{\\circ} = \\frac{1}{\\cos 45^{\\circ}} = \\sqrt{2}$ , cot $4 5 ^ { \\circ } = { \\frac { 1 } { \\tan   4 5 ^ { \\circ } } }   =   1$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.096,
+            0.624,
+            0.485,
+            0.644
+          ],
+          "level": 2,
+          "content": "Trigonometric Ratios of $\\mathbf { 3 0 ^ { \\circ } }$ and $\\mathbf { 6 0 ^ { \\circ } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.65,
+            0.595,
+            0.727
+          ],
+          "content": "Let us now calculate the trigonometric ratios of $3 0 ^ { \\circ }$ and $6 0 ^ { \\circ }$ . Consider an equilateral triangle ABC. Since each angle in an equilateral triangle is $6 0 ^ { \\circ }$ , therefore, $\\angle \\mathrm{A} = \\angle \\mathrm{B} = \\angle \\mathrm{C} = 60^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.733,
+            0.593,
+            0.771
+          ],
+          "content": "Draw the perpendicular AD from A to the side BC (see Fig. 8.15)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.667,
+            0.641,
+            0.862,
+            0.762
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.716,
+                0.769,
+                0.815,
+                0.787
+              ],
+              "content": "Fig. 8.15"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.776,
+            0.153,
+            0.793
+          ],
+          "content": "Now"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.389,
+            0.775,
+            0.662,
+            0.794
+          ],
+          "content": "\\Delta \\: \\mathrm { A B D } \\cong \\Delta \\: \\mathrm { A C D } \\quad \\mathrm { ( W h y ? ) }",
+          "image_source": "images/page_9_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.798,
+            0.204,
+            0.816
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.797,
+            0.535,
+            0.815
+          ],
+          "content": "\\mathrm { B D } = \\mathrm { D C }",
+          "image_source": "images/page_9_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.821,
+            0.142,
+            0.837
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.819,
+            0.667,
+            0.838
+          ],
+          "content": "\\angle  BAD = \\angle  CAD  \\left(  CPCT  \\right)",
+          "image_source": "images/page_9_equation_26.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.843,
+            0.281,
+            0.859
+          ],
+          "content": "Now observe that:"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.864,
+            0.901,
+            0.903
+          ],
+          "content": "ABD is a right triangle, right - angled at D with $\\angle BAD = 30^{\\circ}   and   \\angle ABD = 60^{\\circ}$ (see Fig. 8.15)."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This way of associating each cow with a stick, such that no two cows are associated or mapped to the same stick is called a one-to-one mapping. This mapping can then be used to come up with a way to represent numbers, as shown in the table."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 2,
+          "bbox": [
+            0.27,
+            0.166,
+            0.728,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 2,
+              "bbox": [
+                0.27,
+                0.166,
+                0.728,
+                0.4
+              ],
+              "image_path": "images/page_4_table_2.jpg",
+              "content": "<table><tbody><tr><td>Number</td><td>Its representation (using sticks)</td></tr><tr><td>12345...</td><td>...</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.109,
+            0.414,
+            0.847,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? How will you use such sticks to answer the other two questions (Q2 and Q3)?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.458,
+            0.849,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Method 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Instead of objects, we could use a standard sequence of sounds or names. For example, we could use the sounds of the letters of any language. While counting, we could make a one-to-one mapping between the objects and the letters: that is, associate each object to be counted with a letter, following the letter-order. This mapping can then be used to come up with a way of verbally representing numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.569,
+            0.847,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, we get the following number representation if we use English letters ‘a’ to ‘z’."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.282,
+            0.618,
+            0.716,
+            0.887
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.282,
+                0.618,
+                0.716,
+                0.887
+              ],
+              "image_path": "images/page_4_table_6.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Number</td><td rowspan=\"2\">Its representation (using sounds or names)</td></tr><tr></tr><tr><td>1</td><td>a</td></tr><tr><td>2</td><td>b</td></tr><tr><td>3</td><td>c</td></tr><tr><td>4</td><td>d</td></tr><tr><td>5</td><td>e</td></tr><tr><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>26</td><td>z</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "52"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

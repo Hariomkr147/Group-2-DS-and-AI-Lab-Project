@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.114,
+            0.069,
+            0.147,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "34"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.181,
+            0.069,
+            0.492,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.216,
+            0.105,
+            0.786,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.216,
+                0.105,
+                0.786,
+                0.346
+              ],
+              "image_path": "images/page_18_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.449,
+                0.348,
+                0.552,
+                0.365
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.12 B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.217,
+            0.373,
+            0.785,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.217,
+                0.373,
+                0.785,
+                0.616
+              ],
+              "image_path": "images/page_18_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.448,
+                0.615,
+                0.551,
+                0.633
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.12 C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.204,
+            0.647,
+            0.783,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.204,
+                0.647,
+                0.783,
+                0.895
+              ],
+              "image_path": "images/page_18_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.458,
+                0.899,
+                0.543,
+                0.916
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.13"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

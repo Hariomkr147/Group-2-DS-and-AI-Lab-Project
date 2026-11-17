@@ -1,0 +1,177 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.085
+          ],
+          "content": "94"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.476,
+            0.086
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.111,
+            0.496,
+            0.132
+          ],
+          "level": 2,
+          "content": "5.2 Symmetries of a Circle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.143,
+            0.886,
+            0.298
+          ],
+          "content": "What makes circles so appealing is that they are perfectly symmetrical. Say you are looking at a wheel of a vehicle. You see a point of the wheel touching the ground. When you look at the wheel again after some time, you again see a point of the wheel touching the ground. Can you tell if the two points are the same point? There is no way you can tell; a rotating wheel looks the same at all times! We say the circle has complete rotational symmetry: rotate it by any angle and it looks exactly the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.298,
+            0.886,
+            0.396
+          ],
+          "content": "Draw a circle on the paper and cut along the circle. Fold the circular paper so that the boundaries overlap, then open it. You see a crease; it is a line of reflection symmetry of the circle. Does this line pass through the centre of the circle? It does. It is a **diameter** of the circle. All diameters are lines of reflection symmetry."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.413,
+            0.399,
+            0.437
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.45,
+            0.856,
+            0.508
+          ],
+          "content": "1. What are the rotational symmetries of a square? How many lines of reflection symmetry does it have? What about a regular pentagon? A regular hexagon?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.511,
+            0.855,
+            0.55
+          ],
+          "content": "2. What is the length of the longest chord in a circle of radius 5 units? Is there a smallest chord?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.553,
+            0.855,
+            0.612
+          ],
+          "content": "3. The locus of points at a given distance from a given point is a circle. What can we say about the locus of points equidistant from two given points?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.615,
+            0.855,
+            0.693
+          ],
+          "content": "(**Hint:** We know that any point that is equidistant from two given points A and B lies on the perpendicular bisector of AB. Does this make the perpendicular bisector the locus? For this, we have to show that all the points on the perpendicular bisector are equidistant from A and B.)"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.71,
+            0.446,
+            0.733
+          ],
+          "level": 2,
+          "content": "5.3 How Many Circles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.744,
+            0.886,
+            0.802
+          ],
+          "content": "Now that we have defined a circle and listed some of its properties, let us ask this question: Given two points A and B on a plane, how many circles pass through A and B?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.802,
+            0.887,
+            0.9
+          ],
+          "content": "If a circle passes through A and B, it has a centre, say O. The lengths OA and OB are equal. Is there another point with this property? Yes, the midpoint of segment AB. With the midpoint as centre, a circle passing through A and B can be drawn. Its radius is half the length of AB, and AB is a diameter."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

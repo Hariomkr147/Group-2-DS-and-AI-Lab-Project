@@ -1,0 +1,29 @@
+term of an AP. Can we also find the recursive rule? Yes. It is $t _ { _ 1 } = a ,$ $t_{n}=t_{n-1}+d \text { for } n \geq 2$
+
+Consider once again the AP: 1, 5, 9, 13, 17, … Since every term is 4 more than the previous term, another way of writing this sequence is $t_{1} = 1, t_{n} = t_{n - 1} + 4$ for $n \geq 2$ . Verify for yourself that this recursive rule leads to the terms of the sequence.
+
+**Exercise:** Find recursive rules for the APs in the previous exercises.
+
+**Example 5:** A person books a taxi to travel in the city. The taxi company charges a fixed booking fee of \`200 plus \`40 per kilometre travelled. Let us write the sequence representing the total fare after travelling 1 km, 2 km, 3 km, and so on. If the person travels 10 km, what will be the total fare?
+
+Since the fixed amount is \`200, after 1 km the fare will be $200+\bar{x}40=\bar{x}240$ , after 2 km it will be $200+580=5280$ and after 3 km it will be $200+\bar{x}120=\bar{x}320$ . The sequence 240, 280, 320, … is an AP with first term 240 and common difference 40. The $n ^ { t h }$ term of the sequence is $240+(n-1)\times40=240+40n-40=200+40n$ where n represents the distance travelled in km.
+
+## 8.5 Sum of the First n Natural Numbers
+
+In this section, we derive a simple yet important rule for the sum of the first n natural numbers. To begin with, can you find the sum of the first ten natural numbers without actually adding all of them?
+
+Let us try a unique approach. Let S denote the sum of the first ten natural numbers. Thus $S = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10.$ We can also write it as $S = 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1$ . If we place these two equations, one below the other, we notice something interesting.
+
+$$
+\mathrm{S}=1+2+3+4+5+6+7+8+9+10
+$$
+
+Each pair of corresponding numbers, $1 + 1 0 , 2 + 9 , 3 + 8 , \ldots , 1 0 + 1$ , in the two equations add up to 11.
+
+Adding the two equations for S, we get
+
+$$
+2 \mathsf { S } = 1 1 + 1 1 + 1 1 + \cdots + 1 1   ( \mathsf { t h a t \: i s } , 1 1 \: \mathsf { a d d e d \: 1 0 \: t i m e s } ) .
+$$
+
+This leads to $2S = 110$ or $S = 5 5$ . The sum of the first 10 natural numbers is indeed 55.

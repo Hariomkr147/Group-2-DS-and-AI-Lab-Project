@@ -1,0 +1,196 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "70"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.245,
+            0.138,
+            0.747,
+            0.324
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.455,
+                0.333,
+                0.541,
+                0.353
+              ],
+              "content": "Fig. 5.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_21_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.364,
+            0.899,
+            0.4
+          ],
+          "content": "[**Hint :** Length of successive semicircles is $l _ { 1 } , l _ { 2 } , l _ { 3 } , l _ { 4 } , \\ldots$ . with centres at $\\mathrm { A } , \\mathrm { B } , \\mathrm { A } , \\mathrm { B } , \\ldots ,$ respectively.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.404,
+            0.901,
+            0.459
+          ],
+          "content": "**19.** 200 logs are stacked in the following manner: 20 logs in the bottom row, 19 in the next row, 18 in the row next to it and so on (see Fig. 5.5). In how many rows are the 200 logs placed and how many logs are in the top row?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.218,
+            0.467,
+            0.774,
+            0.553
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.455,
+                0.564,
+                0.542,
+                0.584
+              ],
+              "content": "Fig. 5.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_21_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.594,
+            0.9,
+            0.648
+          ],
+          "content": "**20.** In a potato race, a bucket is placed at the starting point, which is 5 m from the first potato, and the other potatoes are placed 3 m apart in a straight line. There are ten potatoes in the line (see Fig. 5.6)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.649,
+            0.897,
+            0.738
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.455,
+                0.753,
+                0.542,
+                0.772
+              ],
+              "content": "Fig. 5.6"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_21_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.783,
+            0.901,
+            0.854
+          ],
+          "content": "A competitor starts from the bucket, picks up the nearest potato, runs back with it, drops it in the bucket, runs back to pick up the next potato, runs to the bucket to drop it in, and she continues in the same way until all the potatoes are in the bucket. What is the total distance the competitor has to run?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.859,
+            0.899,
+            0.897
+          ],
+          "content": "[**Hint :** To pick up the first potato and the second potato, the total distance (in metres) run by a competitor is $2 \\times 5 + 2 \\times (5 + 3)$ 1"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,247 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.048,
+            0.86,
+            0.065
+          ],
+          "content": "Tales by Dots and Lines"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.172,
+            0.11,
+            0.836,
+            0.251
+          ],
+          "content": "|  | A | B | C | D | E | F | G | H |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Name | Odia(R1) | Telugu(R2) | English(R3) | Maths | Social | Science | Total |\n| 2 | Ratna | 25 | 39 | 29 | 36 | 34 | 37 | 250× |\n| 3 | Nagesh | 41 | 43 | 48 | 39 | 40 | 39 | =SUM(B3:G3) |\n| 4 | Ashwin | 29 | 31 | 33 | 34 | 30 | 28 |  |\n| 5 | Farooq | 47 | 46 | 38 | 42 | 49 | 44 |  |\n| 6 | Mrinal | 33 | 35 | 28 | 32 | 30 | 36 |  |\n| 7 | Gowri | 27 | 29 | 34 | 31 | 32 | 30 |  |\n| 8 | Pankaj | 16 | 19 | 22 | 17 | 18 | 20 |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.182,
+                0.095,
+                0.384,
+                0.11
+              ],
+              "content": "H3 fx =SUM(B3:G3)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.27,
+            0.845,
+            0.309
+          ],
+          "content": "？ What formula would you type to find out the class average marks in Science?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.316,
+            0.847,
+            0.357
+          ],
+          "content": "Find out if the class average marks in Odia is greater than the class average marks in Telugu."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.363,
+            0.845,
+            0.402
+          ],
+          "content": "？ Show the average marks in other subjects after the last row by typing the appropriate formulae."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.407,
+            0.687,
+            0.444
+          ],
+          "content": "Try these out on a computer. You can download the tabular data from this QR code."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.447,
+            0.686,
+            0.487
+          ],
+          "content": "Get the total scores of each student by typing the appropriate formulae."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.701,
+            0.387,
+            0.839,
+            0.49
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.504,
+            0.835,
+            0.585
+          ],
+          "content": "**Note to the Teacher:** You can use any spreadsheet software application such as Microsoft Excel, Google Sheets, LibreOffice Calc, etc. If there are not sufficient computers for each student, students can share a computer in groups. If that’s not possible, the computer screen can be projected for the whole class if there is only one computer available."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.605,
+            0.294,
+            0.627
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.63,
+            0.801,
+            0.651
+          ],
+          "content": "1. Find the mean of the following data and share your observations:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.203,
+            0.66,
+            0.524,
+            0.68
+          ],
+          "content": "(i) The first 50 natural numbers."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.607,
+            0.903,
+            0.666
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.684,
+            0.489,
+            0.704
+          ],
+          "content": "(ii) The first 50 odd numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.192,
+            0.708,
+            0.491,
+            0.728
+          ],
+          "content": "(iii) The first 50 multiples of 4."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.732,
+            0.847,
+            0.789
+          ],
+          "content": "2. The dot plot below shows a collection of data and its average; but one dot is missing. Mark the missing value so that the mean is 9 (as shown below)."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.263,
+            0.8,
+            0.752,
+            0.905
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_chart_17.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.871,
+            0.914,
+            0.916,
+            0.935
+          ],
+          "content": "113"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

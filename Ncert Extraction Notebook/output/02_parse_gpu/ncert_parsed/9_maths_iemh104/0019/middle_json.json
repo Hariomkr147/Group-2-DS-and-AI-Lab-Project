@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.144,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "86"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.489,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.108,
+            0.676,
+            0.128
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( x y + x z + y z )"
+            },
+            {
+              "type": "text",
+              "content": " , we need to use the identity"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.128,
+            0.585,
+            0.148
+          ],
+          "image_path": "images/page_18_equation_3.jpg",
+          "content": "( x + y + z ) ^ { 2 } = x ^ { 2 } + y ^ { 2 } + z ^ { 2 } + 2 x y + 2 x z + 2 y z ."
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.148,
+            0.152,
+            0.749,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We get 100 = 38 + 2 (xy + xz + yz). Thus xy + xz + yz = 31."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.148,
+            0.177,
+            0.783,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, substituting this into our earlier equation, we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.202,
+            0.863,
+            0.223
+          ],
+          "image_path": "images/page_18_equation_6.jpg",
+          "content": "x^{3}+y^{3}+z^{3}=455-10\\left ( xy+xz+yz \\right ) =455-10\\left ( 31 \\right ) =455-310=145."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.248,
+            0.646,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.8 Simplifying Rational Expressions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.281,
+            0.885,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the earlier sections of this chapter, we have learnt how to factorise algebraic expressions. Let us see how we can simplify some rational algebraic expressions using factorisation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.338,
+            0.883,
+            0.388
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 16:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Simplify the rational expression "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{x^{2}-7x+12}{5x^{2}+5x-100}"
+            },
+            {
+              "type": "text",
+              "content": " assuming that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x^{2} + 5x - 100 \\ne 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.39,
+            0.885,
+            0.446
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In order to simplify this rational expression, we need to cancel the common factors between the expressions in the numerator and denominator."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.113,
+            0.446,
+            0.885,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will need to use algebraic identities to simplify this rational expression."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.112,
+            0.485,
+            0.885,
+            0.562
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First, let us look at the numerator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X^{2}-7X^{\\prime \\prime}+12"
+            },
+            {
+              "type": "text",
+              "content": " . We need to find a and b such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\pm b = - 7"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ab = 12."
+            },
+            {
+              "type": "text",
+              "content": " Can you think of two such numbers? They are – 3 and – 4. Factor the expression, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{2}-7x+12=(x-3)(x-4)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.562,
+            0.886,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us look at the denominator "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\bar { x } ^ { 2 } + 5 x - 1 0 0"
+            },
+            {
+              "type": "text",
+              "content": " . We can see that all the three terms are multiples of 5 so we can take 5 as a common factor and simplify the expression: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x^{2}+5x-100=5(x^{2}+x-20)"
+            },
+            {
+              "type": "text",
+              "content": " . Now we need to find a and b such that, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b = 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b = - \\; 2 0 ."
+            },
+            {
+              "type": "text",
+              "content": " . Try to think of two such numbers. They are 5 and –4. Thus, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x^{2} + 5x - 100 ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 \\; ( x - 4 ) ( x + 5 )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.112,
+            0.678,
+            0.884,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substituting the factored expressions in the numerator and denominator, we arrive at"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.274,
+            0.72,
+            0.764,
+            0.771
+          ],
+          "image_path": "images/page_18_equation_15.jpg",
+          "content": "\\frac{x^{2}-7x+12}{5x^{2}+5x-100}=\\frac{x^{2}-7x+12}{5(x^{2}+x-20)}=\\frac{(x-4)(x-3)}{5(x-4)(x+5)}."
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.112,
+            0.777,
+            0.883,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the common factor "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X   -   4"
+            },
+            {
+              "type": "text",
+              "content": " can be cancelled as it is not equal to 0. We know this because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5x^{2} + 5x - 100 \\ne 0"
+            },
+            {
+              "type": "text",
+              "content": " . Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.39,
+            0.828,
+            0.652,
+            0.875
+          ],
+          "image_path": "images/page_18_equation_17.jpg",
+          "content": "\\frac{x^{2}-7x+12}{5x^{2}+5x-100}=\\frac{x-3}{5(x+5)}"
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

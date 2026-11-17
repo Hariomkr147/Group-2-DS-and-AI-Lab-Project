@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.428,
+            0.116,
+            0.577,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "CE"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.478,
+            0.219,
+            0.532,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH03"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.243,
+            0.747,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.098,
+            0.376,
+            0.279,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.403,
+            0.712,
+            0.423
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You must have come across situations like the one given below :"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.429,
+            0.902,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Akhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel and play Hoopla (a game in which you throw a ring on the items kept in a stall, and if the ring covers any object completely, you get it). The number of times she played Hoopla is half the number of rides she had on the Giant Wheel. If each ride costs ` 3, and a game of Hoopla costs ` 4, how would you find out the number of rides she had and how many times she played Hoopla, provided she spent ` 20."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.555,
+            0.902,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "May be you will try it by considering different cases. If she has one ride, is it possible? Is it possible to have two rides? And so on. Or you may use the knowledge of Class IX, to represent such situations as linear equations in two variables."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.252,
+            0.634,
+            0.768,
+            0.893
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.252,
+                0.634,
+                0.768,
+                0.893
+              ],
+              "image_path": "images/page_0_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.436,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

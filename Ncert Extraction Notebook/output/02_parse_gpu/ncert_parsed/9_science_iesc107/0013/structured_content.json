@@ -1,0 +1,300 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.035,
+            0.108,
+            0.097,
+            0.142
+          ],
+          "content": ""
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.1,
+            0.106,
+            0.216,
+            0.143
+          ],
+          "content": "**Threads of Curiosity**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.041,
+            0.153,
+            0.204,
+            0.478
+          ],
+          "content": "Solving problems directly through Newton’s laws can become cumbersome in many cases. Conservation of mechanical energy may offer a simpler route. By keeping track of the total mechanical energy, we can often find the final speed or the position of an object without working through all the detailed steps of the intermediate motion of an object."
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.224,
+            0.087,
+            0.889,
+            0.122
+          ],
+          "content": "Example 7.8: What will be the magnitude of velocity of the child on reaching the bottom of the slide of height h?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.125,
+            0.813,
+            0.144
+          ],
+          "content": "**Answer:** Potential energy of the child at the top of the slide = mgh"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.145,
+            0.889,
+            0.216
+          ],
+          "content": "Let the magnitude of velocity of the child on reaching the bottom of the slide be v. Then, the kinetic energy of the child at the bottom of the slide ${ = } { \\frac { 1 } { 2 } } m \\nu ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.223,
+            0.222,
+            0.89,
+            0.275
+          ],
+          "content": "The potential energy of the child at the top of the slide gets converted entirely to the child’s kinetic energy at the bottom of the slide (neglecting the effects of friction). Thus, equating the two, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.257,
+            0.277,
+            0.377,
+            0.314
+          ],
+          "content": "\\frac { 1 } { 2 } m \\upsilon ^ { 2 }   = m g h",
+          "image_source": "images/page_12_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.257,
+            0.318,
+            0.362,
+            0.341
+          ],
+          "content": "\\nu = { \\sqrt { \\left( 2 g h \\right) } } .",
+          "image_source": "images/page_12_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.345,
+            0.891,
+            0.52
+          ],
+          "content": "As this velocity of the child at the bottom of the slide depends only upon the height h, the shape of the slide or the mass of the child should not matter. **Example 7.9:** Escape ramps (Fig. 7.21) are inclined planes filled with sand or gravel that help stop trucks when their brakes fail on a highway. A truck of mass 10000 kg is moving at 72 km $\\mathrm { h } ^ { - 1 }$ when its brakes fail. The driver steers it onto an escape ramp inclined at 30°, where the truck comes to a rest. If the sand exerts a force of 50000 N opposite to truck’s motion, what is the minimum length of the ramp to be able to stop such a truck? Take $g = 10    m     s ^{-2}$ (Hint: For a $3 0 ^ { \\circ }$ incline, the truck rises 1 m vertically for every 2 m it travels along the ramp)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.525,
+            0.281,
+            0.643
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.084,
+                0.645,
+                0.248,
+                0.661
+              ],
+              "content": "Fig. 7.21: Escape ramp"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_12_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.288,
+            0.521,
+            0.746,
+            0.539
+          ],
+          "content": "nswer: e oc y o e ruc m A V l it f th t k = 72 k $\\mathrm{h}^{-1}=20\\mathrm{~m}\\mathrm{~s}^{-1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.287,
+            0.529,
+            0.898,
+            0.595
+          ],
+          "content": "Initial kinetic energy of the truck $\\frac{1}{2}mv^{2}=\\frac{1}{2}\\times10000\\  kg \\times\\left(20\\  ms ^{-1}\\right)^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.288,
+            0.598,
+            0.615,
+            0.617
+          ],
+          "content": "Initial potential energy of truck = 0 J"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.288,
+            0.62,
+            0.889,
+            0.679
+          ],
+          "content": "Total initial energy of truck = Initial kinetic energy + Initial potential energy = 2000000 J + 0 J = 2000000 J"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.683,
+            0.888,
+            0.749
+          ],
+          "content": "Let us assume that the truck travels a distance d along the ramp. Then, Height gained by the truck on $\\operatorname { r a n p } = { \\frac { d } { 2 } }$ (using hint given in the question) Final kinetic energy of truck = 0 J"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.748,
+            0.889,
+            0.801
+          ],
+          "content": "Final potential energy of truck mg   = × $\\frac{d}{2}=10000\\mathrm{kg}\\times10\\mathrm{ms}^{-2}\\times\\frac{d}{2}=50000\\mathrm{N}\\times d$ Total final energy $=0\\;J+50000\\;N\\times d$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.225,
+            0.801,
+            0.807,
+            0.841
+          ],
+          "content": "Change in total energy of the truck = Final energy – Initial energy = (50000 N × d) – 2000000 J"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.845,
+            0.621,
+            0.864
+          ],
+          "content": "Work done by sand on truck = – 50000 N × d"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.868,
+            0.484,
+            0.888
+          ],
+          "content": "Using work-energy theorem,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.224,
+            0.89,
+            0.808,
+            0.91
+          ],
+          "content": "Work done by sand on truck = Change in total energy of the truck"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.253,
+            0.913,
+            0.621,
+            0.932
+          ],
+          "content": "-50000\\mathrm{~N} \\times d = (50000\\mathrm{~N} \\times d) - 2000000\\mathrm{~J}",
+          "image_source": "images/page_12_equation_22.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": "128"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": "Exploration|Grade 9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

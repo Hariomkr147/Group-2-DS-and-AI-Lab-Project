@@ -1,0 +1,250 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.742,
+            0.186,
+            0.798,
+            0.197
+          ],
+          "content": "0889CH05"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.0,
+            0.262,
+            0.204,
+            0.279
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.796,
+            0.262,
+            1.0,
+            0.279
+          ],
+          "content": ""
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.233,
+            0.081,
+            0.651,
+            0.174
+          ],
+          "content": "TALES BY DOTS AND LINES"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.708,
+            0.092,
+            0.834,
+            0.179
+          ],
+          "content": ""
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.331,
+            0.45,
+            0.355
+          ],
+          "level": 2,
+          "content": "5.1 The Balancing Act"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.365,
+            0.848,
+            0.421
+          ],
+          "content": "Last year, we learnt about the mean and median. Recall that the mean of some data is the sum of all the values divided by the number of values in the data. The median is the middle value when the data is sorted."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.42,
+            0.847,
+            0.459
+          ],
+          "content": "We shall try to understand the mean and median from a different perspective and see how the mean behaves with changing data."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.468,
+            0.846,
+            0.508
+          ],
+          "content": "？ Consider any 2 numbers. Find their average/arithmetic mean. Repeat this by taking other pairs. What do you observe?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.51,
+            0.847,
+            0.588
+          ],
+          "content": "For example, let the two numbers be 3 and 7. Their average is $\\frac { 3 + 7 } { 2 } = 5$ . Taking another pair of numbers, say 8 and 9, their average is $\\frac { 8 + 9 } { 2 } = 8 . 5$ . Visualising these as dot plots we get"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.315,
+            0.586,
+            0.584,
+            0.654
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.598,
+            0.613,
+            0.692,
+            0.632
+          ],
+          "content": "Mean = 5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.661,
+            0.799,
+            0.681
+          ],
+          "content": "Notice that the mean is exactly halfway between the two numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.692,
+            0.847,
+            0.748
+          ],
+          "content": "We have learnt earlier that the arithmetic mean is a measure of central tendency and represents the ‘centre’ of the data. Let us see how the mean represents the ‘centre’ in the case of 3 numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.75,
+            0.755,
+            0.773
+          ],
+          "content": "Calculate and mark the mean of each collection of data below."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.166,
+            0.784,
+            0.488,
+            0.845
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.538,
+            0.787,
+            0.831,
+            0.842
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.166,
+            0.871,
+            0.488,
+            0.932
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.537,
+            0.871,
+            0.833,
+            0.927
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_image_18.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

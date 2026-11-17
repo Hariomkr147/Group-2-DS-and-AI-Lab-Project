@@ -1,0 +1,252 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "124"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.138,
+            0.902,
+            0.24
+          ],
+          "content": "When $\\angle \\mathrm { ~ A ~ }$ is very close to $0 ^ { \\circ }$ , BC gets very close to 0 and so the value of sin $\\mathrm { A } = { \\frac { \\mathrm { B C } } { \\mathrm { A C } } }$ is very close to 0. Also, when $\\angle \\mathrm { A }$ is very close to $0 ^ { \\circ }$ , AC is nearly the same as AB and so the value of cos $\\mathrm { A } = { \\frac { \\mathrm { A B } } { \\mathrm { A C } } }$ is very close to 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.258,
+            0.9,
+            0.298
+          ],
+          "content": "This helps us to see how we can define the values of sin A and cos A when $\\mathbf { A } = 0 ^ { \\circ }$ **.** We define : sin $\\mathbf { 0 } ^ { \\circ } = \\mathbf { 0 }$ and cos $\\mathbf { 0 } ^ { \\circ } = \\mathbf { 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.309,
+            0.372,
+            0.327
+          ],
+          "content": "Using these, we have :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.34,
+            0.798,
+            0.384
+          ],
+          "content": "tan $0 ^ { \\circ } = { \\frac { \\sin   0 ^ { \\circ } } { \\cos   0 ^ { \\circ } } }   = 0 ,$ cot $0 ^ { \\circ } = { \\frac { 1 } { \\tan 0 ^ { \\circ } } }$ ,   which is not defined. (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.396,
+            0.899,
+            0.439
+          ],
+          "content": "sec $0 ^ { \\circ } = { \\frac { 1 } { \\cos   0 ^ { \\circ } } } = 1$ and cosec $0 ^ { \\circ } = \\frac { 1 } { \\sin 0 ^ { \\circ } }$ which is again not defined.(Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.444,
+            0.902,
+            0.578
+          ],
+          "content": "Now, let us see what happens to the trigonometric ratios of $\\angle \\mathrm{A}$ , when it is made larger and larger in   ABC till it becomes $90^{\\circ}.\\mathrm{As} \\angle \\mathrm{A}$ gets larger and larger, $\\angle \\mathrm { C }$ gets smaller and smaller. Therefore, as in the case above, the length of the side AB goes on decreasing. The point A gets closer to point B. Finally when $\\angle \\mathrm { A }$ is very close to $9 0 ^ { \\circ }$ $\\angle \\mathrm { ~ C ~ }$ becomes very close to $0 ^ { \\circ }$ and the side AC almost coincides with side BC (see Fig. 8.18)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.108,
+            0.595,
+            0.225,
+            0.682
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.282,
+            0.571,
+            0.392,
+            0.683
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_9.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.445,
+            0.594,
+            0.562,
+            0.682
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.45,
+                0.693,
+                0.549,
+                0.712
+              ],
+              "content": "Fig. 8.18"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.616,
+            0.595,
+            0.726,
+            0.681
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.784,
+            0.595,
+            0.893,
+            0.681
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.726,
+            0.9,
+            0.791
+          ],
+          "content": "When $\\angle \\mathrm { C i \\vec { s } }$ very close to $0 ^ { \\circ } , \\angle \\mathrm { A }$ is very close to $9 0 ^ { \\circ }$ , side AC is nearly the same as side BC, and so sin A is very close to 1. Also when $\\angle \\mathrm { A }$ is very close to $9 0 ^ { \\circ }$ $\\angle \\mathrm { C }$ is very close to $0 ^ { \\circ }$ , and the side AB is nearly zero, so cos A is very close to 0."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.799,
+            0.7,
+            0.818
+          ],
+          "content": "So, we define : sin $\\mathbf { 9 0 ^ { \\circ } } = \\mathbf { 1 }$ and cos $\\mathbf { 9 0 ^ { \\circ } }   =   \\mathbf { 0 }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.828,
+            0.748,
+            0.847
+          ],
+          "content": "Now, why don’t you find the other trigonometric ratios of $9 0 ^ { \\circ } ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.857,
+            0.9,
+            0.899
+          ],
+          "content": "We shall now give the values of all the trigonometric ratios of $0 ^ { \\circ } , 3 0 ^ { \\circ } , 4 5 ^ { \\circ } , 6 0 ^ { \\circ }$ and $9 0 ^ { \\circ }$ in Table 8.1, for ready reference."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

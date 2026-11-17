@@ -1,0 +1,279 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.553,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "The Baudhāyana-Pythagoras Theorem"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.086,
+            0.831,
+            0.111
+          ],
+          "content": "Why is PQRS a square? Why is its area half that of the original paper?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.112,
+            0.844,
+            0.152
+          ],
+          "content": "Explain by connecting QS and PR, finding the different angles formed, and then using tringle congruence."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.174,
+            0.772,
+            0.2
+          ],
+          "level": 2,
+          "content": "2.3 Hypotenuse of an Isosceles Right Triangle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.207,
+            0.845,
+            0.247
+          ],
+          "content": "Recall that in a right triangle, the side opposite to the right angle is called the **hypotenuse.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.256,
+            0.647,
+            0.279
+          ],
+          "content": "？ Find the hypotenuse of this isosceles right triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.282,
+            0.692,
+            0.357
+          ],
+          "content": "We know that a square of side 1 unit is made of two such isosceles right triangles. We also know that the square constructed on the diagonal of this square has twice the area of the original square."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.702,
+            0.248,
+            0.855,
+            0.359
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.375,
+            0.362,
+            0.648,
+            0.579
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.587,
+            0.845,
+            0.625
+          ],
+          "content": "We do not yet know the length of the hypotenuse, but we know the area of the square REST on it!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.341,
+            0.629,
+            0.657,
+            0.649
+          ],
+          "content": "Area of REST = 2 × Area of PEAR"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.47,
+            0.659,
+            0.663,
+            0.679
+          ],
+          "content": "= 2 × 1 = 2 sq. units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.683,
+            0.846,
+            0.721
+          ],
+          "content": "We know the relation between the side and the area of a square. If c is the hypotenuse ER, then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.34,
+            0.725,
+            0.578,
+            0.744
+          ],
+          "content": "\\mathrm{Area}   of  \\mathrm{REST} = c \\times c = c^{2}.",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.416,
+            0.749,
+            0.511,
+            0.768
+          ],
+          "content": "\\scriptstyle { \\mathrm { S } } 0 ,   c ^ { 2 } \\; = \\; 2 .",
+          "image_source": "images/page_4_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.35,
+            0.772,
+            0.527,
+            0.794
+          ],
+          "content": "Therefore, $c = { \\sqrt { 2 } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.798,
+            0.567,
+            0.82
+          ],
+          "content": "Thus, the hypotenuse is of length $\\sqrt { 2 }$ units."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.318,
+            0.824,
+            0.459,
+            0.922
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.389,
+                0.923,
+                0.402,
+                0.935
+              ],
+              "content": "1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.547,
+            0.823,
+            0.683,
+            0.92
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.616,
+                0.921,
+                0.627,
+                0.933
+              ],
+              "content": "1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_19.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.914,
+            0.909,
+            0.934
+          ],
+          "content": "3 7"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

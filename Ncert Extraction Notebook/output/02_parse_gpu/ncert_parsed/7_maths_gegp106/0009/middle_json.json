@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.736,
+            0.047,
+            0.847,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us focus, for the moment, only on the row sums. We have seen that in a 3 × 3 grid with numbers 1 – 9, the total of row sums will always be 45. Since in a magic square the row sums are all equal, and they add up to 45, they have to be 15 each. Thus, we have the following observation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.162,
+            0.847,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observation 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In a magic square made using the numbers 1 – 9, the magic sum must be 15."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.161,
+            0.204,
+            0.846,
+            0.241
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. What are the possible numbers that could occur at the centre of a magic square?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.241,
+            0.627,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider the possibilities one by one. Can the central number be 9? If yes, then 8 must come in one of the other squares. For example,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.297,
+            0.627,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this, we must have 8 + 9 + other number = 15. But this is not possible! The same issue will occur no matter where we place 8."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.352,
+            0.627,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, 9 cannot be at the centre. Can the central number be 1?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.645,
+            0.239,
+            0.834,
+            0.371
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.645,
+                0.239,
+                0.834,
+                0.371
+              ],
+              "image_path": "images/page_8_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.388,
+            0.629,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If yes, then 2 should come in one of the other squares."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.425,
+            0.631,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, we must have 2 + 1 + other number = 15. But this is not possible because we are only using the numbers 1 – 9. The same issue will occur no matter where we place 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.174,
+            0.499,
+            0.532,
+            0.517
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, 1 cannot be at the centre, either."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.648,
+            0.4,
+            0.834,
+            0.532
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.648,
+                0.4,
+                0.834,
+                0.532
+              ],
+              "image_path": "images/page_8_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.526,
+            0.628,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using such reasoning, find out which other numbers 1 – 9 cannot occur at the centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.576,
+            0.634,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This exploration will lead us to the following interesting observation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.149,
+            0.613,
+            0.634,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observation 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The number occurring at the centre of a magic square, filled using 1 – 9, must be 5."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.984
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.653,
+            0.578,
+            0.838,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.653,
+                0.578,
+                0.838,
+                0.708
+              ],
+              "image_path": "images/page_8_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.149,
+            0.668,
+            0.636,
+            0.742
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us now see where the smallest number 1 and the largest number 9 should come in a magic square. Our second observation tells us that they will have to come in one of the boundary"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.742,
+            0.745,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "positions. Let us classify these positions into two categories:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.27,
+            0.769,
+            0.458,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.27,
+                0.769,
+                0.458,
+                0.899
+              ],
+              "image_path": "images/page_8_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.541,
+            0.769,
+            0.727,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.541,
+                0.769,
+                0.727,
+                0.899
+              ],
+              "image_path": "images/page_8_image_20.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.808,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

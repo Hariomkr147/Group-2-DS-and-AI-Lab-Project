@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.136,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.086,
+            0.848,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Let us consider the Carpenter’s Problem again. If the wooden strips have to be placed such that the thread passing through their endpoints forms a square, what must be done?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.157,
+            0.156,
+            0.393,
+            0.338
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.157,
+                0.156,
+                0.393,
+                0.338
+              ],
+              "image_path": "images/page_10_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.402,
+            0.148,
+            0.848,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in the previous case, let us try to construct a square, one of whose diagonals is of length 8 cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.401,
+            0.203,
+            0.849,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While solving the Carpenter’s Problem for the case of a rectangle, we have seen that to get a quadrilateral with all angles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "9 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " (and opposite sides of equal length), the diagonals have to be drawn such that —"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.464,
+            0.3,
+            0.792,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) they are of equal lengths, and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.459,
+            0.324,
+            0.721,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) they bisect each other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.35,
+            0.847,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What more needs to be done to get equal sidelengths as well? Can this be achieved by properly choosing the angle between the diagonals? See if you can reason and/or experiment to figure this out!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.418,
+            0.834,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Deduction 5— What should be the angle formed by the diagonals?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.449,
+            0.848,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The angle between the diagonals can be found using the notion of congruence! Suppose we join the equal diagonals such that they bisect each other and result in a square. Let us label the square ABCD."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.504,
+            0.848,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To find the angle formed by the diagonals, what are the two triangles we should consider for congruence?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.155,
+            0.547,
+            0.423,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.155,
+                0.547,
+                0.423,
+                0.74
+              ],
+              "image_path": "images/page_10_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.423,
+            0.626,
+            0.846,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By the SSS condition for congruence, ∆BOA ≅ ∆BOC"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.743,
+            0.847,
+            0.783
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can this be used to find the angles ∠"
+            },
+            {
+              "type": "text",
+              "content": "BOA and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " ∠"
+            },
+            {
+              "type": "text",
+              "content": "BOC",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " formed by the diagonals?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.149,
+            0.786,
+            0.848,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since these angles are corresponding parts of congruent triangles, they are equal. Further, these angles together form a straight angle. So "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle BOA + \\angle BOC = 180^{\\circ}"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, these angles have to be 90° each."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.084,
+            0.915,
+            0.12,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "92"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

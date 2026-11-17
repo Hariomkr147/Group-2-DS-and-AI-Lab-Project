@@ -1,0 +1,21 @@
+6. [Śulba-Sūtras] Give a method to obtain a rectangle of the same area as a given triangle.
+
+7. [Śulba-Sūtras] An isosceles triangle can be converted into a rectangle by dissection in a simpler way. Can you find out how to do it?
+
+![](images/page_16_image_3.jpg)
+
+[**Hint:** Show that triangles ∆ADB and ∆ADC can be made into halves of a rectangle. Figure out how they should be assembled to get a rectangle. Use cut-outs if necessary.]
+
+8. [Śulba-Sūtras] Give a method to convert a rectangle into an isosceles triangle by dissection.
+
+9. Which has greater area — an equilateral triangle or a square of the same sidelength as the triangle? Which has greater area — two identical equilateral triangles together or a square of the same sidelength as the triangle? Give reasons.
+
+## Rhombus
+
+Since a rhombus is a parallelogram, the area formula for a parallelogram holds for a rhombus as well. However, the additional properties of a rhombus give us another method to transform a rhombus into a rectangle of the same area by dissection. This method occurs in one of the Śulba-Sūtras.
+
+## ？ Try working this out!
+
+![](images/page_16_image_10.jpg)
+
+![](images/page_16_image_11.jpg)

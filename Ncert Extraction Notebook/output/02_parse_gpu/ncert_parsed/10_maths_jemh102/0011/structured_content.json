@@ -1,0 +1,264 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "20"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.163,
+            0.139,
+            0.181
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.258,
+            0.151,
+            0.768,
+            0.194
+          ],
+          "content": "sum of zeros  = \\alpha + \\beta = - \\frac{b}{a} = \\frac{- ( coefficient of   x)}{ Coefficient of   x^{2}},",
+          "image_source": "images/page_10_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.222,
+            0.214,
+            0.707,
+            0.256
+          ],
+          "content": "product of zeroes $\\alpha \\beta = \\frac{c}{a} = \\frac{ constant term }{ coefficient of   x^{2}}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.268,
+            0.461,
+            0.287
+          ],
+          "content": "Let us consider some examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.301,
+            0.901,
+            0.338
+          ],
+          "content": "Example 2 : Find the zeroes of the quadratic polynomial $x ^ { 2 } + 7 x + 1 0$ , and verify the relationship between the zeroes and the coefficients."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.345,
+            0.298,
+            0.363
+          ],
+          "content": "Solution : We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.358,
+            0.371,
+            0.639,
+            0.389
+          ],
+          "content": "x^{2}+7x+10=(x+2)(x+5)",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.395,
+            0.901,
+            0.435
+          ],
+          "content": "$\\mathrm { S o } ,$ the value of $x ^ { 2 } + 7 x + 1 0$ is zero when $x + 2 = 0   or   x + 5 = 0.$ , i.e., when $x = - 2$ or $x = - 5$ . Therefore, the zeroes of $x^{2}+7x+10\\mathrm{are}=2$ and – 5. Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.208,
+            0.448,
+            0.838,
+            0.491
+          ],
+          "content": "sum of zeros  = -2 + (-5) = -7 = \\frac{-(7)}{1} = \\frac{( Coefficient of   x)}{ Coefficient of   x^2}",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.175,
+            0.511,
+            0.788,
+            0.553
+          ],
+          "content": "product of zeros  = (-2) \\times (-5) = 10 = \\frac{10}{1} = \\frac{ constant term }{ coefficient of   x^2}.",
+          "image_source": "images/page_10_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.572,
+            0.901,
+            0.611
+          ],
+          "content": "Example 3 : Find the zeroes of the polynomial $x ^ { 2 } - 3$ and verify the relationship between the zeroes and the coefficients."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.616,
+            0.842,
+            0.636
+          ],
+          "content": "Solution : Recall the identity $a^{2}-b^{2}=(a-b)(a+b)$ . Using it, we can write:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.287,
+            0.648,
+            0.558,
+            0.678
+          ],
+          "content": "x^{2}-3=\\left(x-\\sqrt{3}\\right)\\left(x+\\sqrt{3}\\right)",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.693,
+            0.647,
+            0.716
+          ],
+          "content": "$\\mathrm { S o } ,$ the value of $x ^ { 2 } - 3$ is zero when $x = \\sqrt{3}  or  x = -\\sqrt{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.731,
+            0.576,
+            0.754
+          ],
+          "content": "Therefore, the zeroes of $x ^ { 2 } - 3$ are $\\sqrt { 3 }$ and $- { \\sqrt { 3 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.764,
+            0.156,
+            0.782
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.208,
+            0.798,
+            0.729,
+            0.839
+          ],
+          "content": "sum of zeros  = \\sqrt{3} - \\sqrt{3} = 0 = \\frac{-( coefficient of   x)}{ C coefficient of   x^2},",
+          "image_source": "images/page_10_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.861,
+            0.8,
+            0.902
+          ],
+          "content": "{ \\mathrm { p r o d u c t ~ o f ~ z e r o e s } } = { \\mathrm { ~ \\left( { \\sqrt { 3 } } \\right) \\left( - { \\sqrt { 3 } } \\right) ~ } } = - 3 = { \\frac { - 3 } { 1 } } = { \\frac { { \\mathrm { C o n s t a n t ~ t e r m } } } { { \\mathrm { C o e f f i c i e n t ~ o f ~ } } x ^ { 2 } } } .",
+          "image_source": "images/page_10_equation_19.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

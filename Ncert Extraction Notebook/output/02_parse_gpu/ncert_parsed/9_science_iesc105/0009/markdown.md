@@ -1,0 +1,21 @@
+## India’s Scientific Contributions
+
+Crystallization of salt was an ancient process used by the local communities of the coastal areas in India. The panga salt was obtained by boiling concentrated sea brines, while the evaporation of sea water produced the karkatch salt. Salt crystals of different sizes were produced by these methods.
+
+![](images/page_8_image_2.jpg)
+
+Fig. 5.11: Distillation process
+
+When we allow a solvent to evaporate to get a solute, such as salt from a salt solution, the solvent disappears. However, we may also want to recover the solvent. What should we do then?
+
+While experimenting in the laboratory, a student accidentally mixed acetone and water, two miscible liquids. How can we separate the two miscible liquids? Is it possible to separate the mixture of two miscible liquids by evaporation and obtain both the liquids?
+
+## 5.3.2 Distillation
+
+A homogeneous mixture of two miscible liquids can be separated by heating the mixture until the liquid with the lower boiling point vaporises. The vapour is then cooled, turning back into liquid (Fig. 5.11). This process is known as **distillation**. It allows the recovery of the solvent or the separation of liquids that differ in boiling point by at least about 25 °C. This method can also be used to separate a liquid from a solution containing dissolved solids.
+
+During the process, vapours of the lower-boiling liquid are passed through a condenser where they are cooled, usually by circulating water or air and condensed as a pure liquid. The pure liquid is collected in a separate vessel, while the solid or other liquid from the mixture remains in the distillation flask. A distillation set-up is shown in Fig. 5.12.
+
+![](images/page_8_image_9.jpg)
+
+Fig. 5.12: Distillation set-up

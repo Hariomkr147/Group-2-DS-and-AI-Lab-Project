@@ -1,0 +1,51 @@
+4. While practising for the snake boat race (Vallum kalli in Kerala), 100 oarsmen are rowing a boat together. Out of these, 95 row backwards to propel the boat forward. But by mistake, 5 oarsmen row in the opposite direction. If each oarsman applies a horizontal force of 200 N, what is the net force on the snake boat? (Ignore drag forces, air friction, etc.)
+
+5. When a net force acts on an object, we observe that the object accelerates:
+
+(i) opposite to the direction of force, with acceleration proportional to the force acting on the object.
+
+(ii) opposite to the direction of force, with acceleration proportional to the mass of the object.
+
+(iii) in the direction of force, with acceleration inversely proportional to the force acting on the object.
+
+(iv) in the direction of force, with acceleration proportional to the force acting on the object.
+
+6. The position-time graph for four objects A, B, C and D moving along a straight line are given in Fig. 6.37. A net force acts on:
+
+(i) Object A
+
+(ii) Object B
+
+(iii) Object C
+
+(iv) Object D
+
+![](images/page_19_chart_13.jpg)
+
+Object A
+
+![](images/page_19_chart_15.jpg)
+
+Object B
+
+![](images/page_19_chart_17.jpg)
+
+Fig. 6.37
+
+Object C
+
+![](images/page_19_chart_20.jpg)
+
+Object D
+
+7. A sailor jumps out from a small boat to the shore (Fig. 6.38). As the sailor jumps forward, will the boat move? If yes, in which direction and why.
+
+![](images/page_19_image_23.jpg)
+
+Fig. 6.38: A sailor jumping forward
+
+![](images/page_19_image_25.jpg)
+
+Fig. 6.39: A landing mat for a high jump event
+
+8. During a high jump event, a landing mat or sand bed is placed for the athlete to fall upon (Fig. 6.39). Explain the reason behind it.

@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.689,
+            0.048,
+            0.86,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fractions in Disguise"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.089,
+            0.847,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, a bank says that the interest rate for fixed deposits is 10% p.a. What do you understand by this statement? What is the ‘p.a.’ next to the percentage?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.144,
+            0.847,
+            0.255
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "‘p.a.’ is the short form of per annum, which means for every year. The specified interest rate indicates that if you invest ₹6000 as a deposit for a year with the bank, they will give you ₹600 as interest on this deposit. The 10% is the "
+            },
+            {
+              "type": "text",
+              "content": "rate of interest",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " and the ₹6000 on which the interest is calculated is the "
+            },
+            {
+              "type": "text",
+              "content": "principal",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The amount after 1 year in your bank account will be"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.254,
+            0.259,
+            0.45,
+            0.279
+          ],
+          "image_path": "images/page_20_equation_3.jpg",
+          "content": "6 0 0 0 \\pm ( 0 . 1 0 \\times 6 0 0 0 )"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.157,
+            0.288,
+            0.545,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(principal) + (10% interest on principal) = 6000 + 600 = 6600."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.593,
+            0.288,
+            0.779,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Principal (initial deposit)"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.834,
+            0.249,
+            0.933,
+            0.342
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.834,
+                0.249,
+                0.933,
+                0.342
+              ],
+              "image_path": "images/page_20_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.341,
+            0.795,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In other words, the amount deposited, Amount after 1 year ₹6000, will become 110% (or increase by 10%),"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.282,
+            0.388,
+            0.718,
+            0.415
+          ],
+          "image_path": "images/page_20_equation_8.jpg",
+          "content": "6000 \\times 110\\% = 6000 \\times \\frac{110}{100} = \\underline{6000 \\times 1.1} = 6600,"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.422,
+            0.442,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can also be expressed as"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.213,
+            0.445,
+            0.784,
+            0.467
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Amount after 1 year = Principal (P) + rate of interest (r) of P"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.114,
+            0.481,
+            0.845,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 7:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If one deposits ₹6000 in the bank, what is the amount after 3 years?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.524,
+            0.748,
+            0.544
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That depends on the choice of FD. There are two possibilities:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.152,
+            0.548,
+            0.845,
+            0.587
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Option 1: The interest is paid out regularly (for example, every year). The principal amount is returned after the maturity period."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 14,
+          "bbox": [
+            0.214,
+            0.595,
+            0.784,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 14,
+              "bbox": [
+                0.214,
+                0.595,
+                0.784,
+                0.896
+              ],
+              "image_path": "images/page_20_table_14.jpg",
+              "content": "<table><tr><td></td><td></td><td>Interest returned(10% p.a.)</td><td>Amount inthe FD</td></tr><tr><td rowspan=2>Year 1</td><td>Beginning</td><td>× 0.1</td><td>₹60000</td></tr><tr><td>Ending</td><td>₹600returned</td><td>₹6000</td></tr><tr><td rowspan=2>Year 2</td><td>Beginning</td><td>×0.1</td><td>₹60000</td></tr><tr><td>Ending</td><td>₹600returned</td><td>₹6000</td></tr><tr><td rowspan=2>Year 3</td><td>Beginning</td><td>× 0.1</td><td>₹60000</td></tr><tr><td>Ending</td><td>₹600returned</td><td>₹6000</td></tr><tr><td colspan=2>Total amount received</td><td colspan=2>₹1800 + ₹6000 = ₹7800</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.877,
+            0.914,
+            0.91,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

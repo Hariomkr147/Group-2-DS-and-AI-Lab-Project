@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.275,
+            0.085,
+            0.899,
+            0.135
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure 11.7 shows a combination of resistors in which three resistors are connected together between points X and Y. Here, the resistors are said to be connected in parallel.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.381,
+            0.16,
+            0.796,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.381,
+                0.16,
+                0.796,
+                0.363
+              ],
+              "image_path": "images/page_11_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.455,
+                0.375,
+                0.724,
+                0.39
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.7 Resistors in parallel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.277,
+            0.42,
+            0.553,
+            0.439
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.6.1 Resistors in Series"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.275,
+            0.448,
+            0.901,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What happens to the value of current when a number of resistors are connected in series in a circuit? What would be their equivalent resistance? Let us try to understand these with the help of the following activities.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.311,
+            0.542,
+            0.484,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 11.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.322,
+            0.586,
+            0.876,
+            0.656
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Join three resistors of different values in series. Connect them with a battery, an ammeter and a plug key, as shown in Fig. 11.6. You may use the resistors of values like 1",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", 2",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω"
+            },
+            {
+              "type": "text",
+              "content": ", 3",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "etc., and a battery of 6 V for performing this Activity.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.302,
+            0.661,
+            0.671,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plug the key. Note the ammeter reading.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.303,
+            0.682,
+            0.875,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Change the position of ammeter to anywhere in between the resistors. Note the ammeter reading each time.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.302,
+            0.722,
+            0.874,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you find any change in the value of current through the ammeter?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.275,
+            0.787,
+            0.901,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You will observe that the value of the current in the ammeter is the same, independent of its position in the electric circuit. It means that in a series combination of resistors the current is the same in every part of the circuit or the same current through each resistor.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 11,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "182"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

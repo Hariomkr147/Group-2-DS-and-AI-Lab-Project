@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page_idx": 35,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.545,
+            0.11
+          ],
+          "content": "**Ans.** Let $n _ { \\mathrm { { } _ { 1 } } } , n _ { \\mathrm { { } _ { 2 } } }$ and $n _ { 3 }$ be three numbers."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.11,
+            0.339,
+            0.129
+          ],
+          "content": "S = n_{1} + n_{2} + n_{3}",
+          "image_source": "images/page_35_equation_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.128,
+            0.845,
+            0.167
+          ],
+          "content": "By dividing a number by 3, the only possible remainders are 0, 1 and 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.173,
+            0.845,
+            0.214
+          ],
+          "content": "Case I : Suppose the remainders are $\\mathrm { R } _ { 1 } , \\mathrm { R } _ { 2 }$ and $\\mathtt { R _ { 3 } } .$ If $\\mathrm { R } _ { _ 1 } = 0$ and $\\mathrm { R } _ { 2 } \\neq \\mathrm { R } _ { 3 } ,$ then,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.203,
+            0.214,
+            0.578,
+            0.233
+          ],
+          "content": "\\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}=0+1+2=3 \\mathrm{or} 0+2+1=3",
+          "image_source": "images/page_35_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.233,
+            0.559,
+            0.253
+          ],
+          "content": "So, the Sum(S) will be divisible by 3."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.258,
+            0.474,
+            0.28
+          ],
+          "content": "Case II: Suppose $R_{1} = R_{2} = R_{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.284,
+            0.545,
+            0.307
+          ],
+          "content": "Then $\\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}=3\\mathrm{R}_{1} \\text { or } 3\\mathrm{R}_{2} \\text { or } 3\\mathrm{R}_{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.31,
+            0.847,
+            0.35
+          ],
+          "content": "So, the Sum(S) will be divisible by 3 if the sum of the remainders is 0, 3 or 6."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.359,
+            0.848,
+            0.453
+          ],
+          "content": "14. Is the product of two consecutive integers always multiple of 2? Why? What about the product of three consecutive integers? Is it always a multiple of 6? Why or why not? What can you say about the product of 4 consecutive integers? What about the product of five consecutive integers?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.461,
+            0.201,
+            0.478
+          ],
+          "level": 2,
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.216,
+            0.478,
+            0.621,
+            0.497
+          ],
+          "content": "(i) Product of two consecutive integers—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.22,
+            0.497,
+            0.845,
+            0.558
+          ],
+          "content": "Yes, product of two consecutive integers is always a multiple of 2, because if one is odd then the other will be even and multiple of even is even."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.258,
+            0.569,
+            0.648,
+            0.588
+          ],
+          "content": "Product of three consecutive integers—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.256,
+            0.589,
+            0.846,
+            0.65
+          ],
+          "content": "Yes, the product of three consecutive integers is always a multiple of 6. There is at least one multiple of 2 and one multiple of 3 in the product of three consecutive integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.257,
+            0.66,
+            0.609,
+            0.679
+          ],
+          "content": "Product of 4 consecutive integers—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.256,
+            0.679,
+            0.847,
+            0.739
+          ],
+          "content": "The product will be multiple of 24 because at least one of them is a multiple of 2, one is a multiple of 3, and one is a multiple of 4."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.105,
+            0.92,
+            0.14,
+            0.94
+          ],
+          "content": "1 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 35,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 1.pmd",
+      "authors": [
+        "dtpcell5"
+      ],
+      "created_at": "2017-12-20T12:15:25Z",
+      "modified_at": "2026-03-24T12:00:47+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.274,
+            0.085,
+            0.899,
+            0.134
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step I: To balance a chemical equation, first draw boxes around each formula. Do not change anything inside the boxes while balancing the equation.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.301,
+            0.143,
+            0.897,
+            0.172
+          ],
+          "image_path": "images/page_3_equation_1.jpg",
+          "content": "\\boxed { \\mathrm { F e } } + \\boxed { \\mathrm { H } _ { 2 } \\mathrm { O } } \\rightarrow \\boxed { \\mathrm { F e } _ { 3 } \\mathrm { O } _ { 4 } } + \\boxed { \\mathrm { H } _ { 2 } }\\tag{1.5}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.275,
+            0.18,
+            0.899,
+            0.214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step II: List the number of atoms of different elements present in the unbalanced equation (1.5).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.279,
+            0.22,
+            0.897,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.279,
+                0.22,
+                0.897,
+                0.31
+              ],
+              "image_path": "images/page_3_table_3.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Element</td><td rowspan=\"2\">Number of atoms in reactants (LHS)</td><td rowspan=\"2\">Number of atoms in products (RHS)</td></tr><tr></tr><tr><td>Fe</td><td>1</td><td>3</td></tr><tr><td>H</td><td>2</td><td>2</td></tr><tr><td>O</td><td>1</td><td>4</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.275,
+            0.318,
+            0.9,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step III: It is often convenient to start balancing with the compound that contains the maximum number of atoms. It may be a reactant or a product. In that compound, select the element which has the maximum",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " number of atoms. Using these criteria, we select "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { F e _ { 3 } O _ { 4 } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "and the element oxygen in it. There are four oxygen atoms on the RHS and only one on the LHS.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.307,
+            0.415,
+            0.587,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To balance the oxygen atoms –",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.28,
+            0.438,
+            0.897,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.28,
+                0.438,
+                0.897,
+                0.524
+              ],
+              "image_path": "images/page_3_table_6.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Atoms of oxygen</td><td rowspan=\"2\">In reactants</td><td rowspan=\"2\">In products</td></tr><tr></tr><tr><td>(i) Initial</td><td>1 (in H<sub>2</sub>O)</td><td>4 (in Fe<sub>3</sub>O<sub>4</sub>)</td></tr><tr><td>(ii) To balance</td><td>1×4</td><td>4</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.275,
+            0.531,
+            0.897,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To equalise the number of atoms, it must be remembered that we cannot alter the formulae of the compounds or elements involved in the reactions. For example, to balance oxygen atoms we can put coefficient",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " ‘4’ as 4 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array}{c} H _{2} O \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " and not "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{H_{2}O_{4}\\bar{or}(H_{2}O)_{4}}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ". Now the partly balanced equation becomes –",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.286,
+            0.611,
+            0.899,
+            0.641
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "\\boxed{ Fe } + 4 \\boxed{ H _2 O } \\Longrightarrow \\boxed{ Fe _3 O _4} + \\boxed{ H _2}\\tag{1.6}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.694,
+            0.626,
+            0.9,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(partly balanced equation)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.276,
+            0.65,
+            0.897,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step IV: Fe and H atoms are still not balanced. Pick any of these elements to proceed further. Let us balance hydrogen atoms in the partly balanced equation.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.276,
+            0.698,
+            0.896,
+            0.732
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To equalise the number of H atoms, make the number of molecules of hydrogen as four on the RHS.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 12,
+          "bbox": [
+            0.282,
+            0.734,
+            0.898,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 12,
+              "bbox": [
+                0.282,
+                0.734,
+                0.898,
+                0.823
+              ],
+              "image_path": "images/page_3_table_12.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Atoms of hydrogen</td><td rowspan=\"2\">In reactants</td><td rowspan=\"2\">In products</td></tr><tr></tr><tr><td>(i) Initial</td><td>8 (in 4 H<sub>2</sub>O)</td><td>2 (in H<sub>2</sub>)</td></tr><tr><td>(ii) To balance</td><td>8</td><td>2 × 4</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.306,
+            0.834,
+            0.532,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The equation would be –",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.285,
+            0.851,
+            0.898,
+            0.885
+          ],
+          "image_path": "images/page_3_equation_14.jpg",
+          "content": "\\begin{array}{l}\\boxed{ Fe } + \\ 4 \\boxed{ H _2 O } \\rightarrow \\boxed{ Fe _3 O _4} + \\ 4 \\boxed{ H _2}\\end{array}\\tag{1.7}"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.693,
+            0.867,
+            0.899,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(partly balanced equation)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.098,
+            0.917,
+            0.116,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 17,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

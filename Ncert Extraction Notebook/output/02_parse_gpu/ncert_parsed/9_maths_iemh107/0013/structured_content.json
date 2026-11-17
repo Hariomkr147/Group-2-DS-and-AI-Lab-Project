@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.331,
+            0.068,
+            0.815,
+            0.087
+          ],
+          "content": "The Mathematics of Maybe: Introduction to Probability"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "167"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.115,
+            0.398,
+            0.138
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.152,
+            0.874,
+            0.288
+          ],
+          "content": "When we used the sample space {Rain, No Rain} in Example 1, we focused only on whether it will rain or not. However, if we want to include different amounts of rainfall like drizzle, light rain or heavy rain, we need to expand the sample space to {No Rain, Drizzle, Light Rain, Heavy Rain} so that it better matches the level of detail required for the question. It is important to ensure the sample space is detailed enough to suit the specific problem being studied."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.33,
+            0.269,
+            0.35
+          ],
+          "level": 2,
+          "content": "7.3.2 Events"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.359,
+            0.886,
+            0.438
+          ],
+          "content": "An **event** is any single possible result or combination of results that might happen when you perform a random action. It is like choosing particular outcomes from all the things that could possibly occur. An event is a subset of a sample space."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.444,
+            0.604,
+            0.464
+          ],
+          "level": 2,
+          "content": "Examples of Sample Spaces and Events"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.473,
+            0.376,
+            0.493
+          ],
+          "content": "1. Tossing Two Coins"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.497,
+            0.883,
+            0.536
+          ],
+          "content": "Sample space: All possible results like Head–Head, Head–Tail, Tail–Head, Tail–Tail. S = Sample Space = {HH, HT, TH, TT}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.538,
+            0.811,
+            0.557
+          ],
+          "content": "Event: ‘At least one coin shows Head.’ E = {HH, HT, TH}."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.565,
+            0.396,
+            0.585
+          ],
+          "content": "2. Rolling a 6-sided Die"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.588,
+            0.883,
+            0.609
+          ],
+          "content": "• Sample space: All faces numbered 1 through 6. S = {1, 2, 3, 4, 5, 6}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.609,
+            0.801,
+            0.629
+          ],
+          "content": "• Event: ‘The number rolled is greater than 4.’ E = {5, 6}."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.637,
+            0.471,
+            0.657
+          ],
+          "content": "3. Picking Fruit from a Basket"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.661,
+            0.883,
+            0.701
+          ],
+          "content": "Sample space: Types of fruit you might pick, for example, Apple, Banana and Orange. S = {Apple, Banana, Orange}"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.701,
+            0.762,
+            0.721
+          ],
+          "content": "Event: ‘Picking a fruit that is yellow.’ E = {Banana}."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.375,
+            0.754,
+            0.622,
+            0.782
+          ],
+          "level": 2,
+          "content": "Exercise Set 7.3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.805,
+            0.886,
+            0.846
+          ],
+          "content": "1. When a single 6-sided die is rolled, what is the total number of possible outcomes in the sample space?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.848,
+            0.844,
+            0.869
+          ],
+          "content": "2. For the following experiments write down the sample space S."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18,
+            0.876,
+            0.668,
+            0.898
+          ],
+          "content": "(i) Rolling a die and tossing a coin together."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

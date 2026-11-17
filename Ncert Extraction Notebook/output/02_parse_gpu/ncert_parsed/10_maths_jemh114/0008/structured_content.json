@@ -1,0 +1,281 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.207,
+            0.121
+          ],
+          "content": "PROBABILITY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "209"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.255
+          ],
+          "content": "**Example 7 :** There are 40 students in Class X of a school of whom 25 are girls and 15 are boys. The class teacher has to select one student as a class representative. She writes the name of each student on a separate card, the cards being identical. Then she puts cards in a bag and stirs them thoroughly. She then draws one card from the bag. What is the probability that the name written on the card is the name of (i) a girl? (ii) a boy?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.261,
+            0.826,
+            0.279
+          ],
+          "content": "**Solution :** There are 40 students, and only one name card has to be chosen."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.285,
+            0.557,
+            0.304
+          ],
+          "content": "(i) The number of all possible outcomes is 40"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.311,
+            0.9,
+            0.329
+          ],
+          "content": "The number of outcomes favourable for a card with the name of a girl = 25 (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.337,
+            0.716,
+            0.378
+          ],
+          "content": "Therefore, P (card with name of $\\mathrm{a~girl)=P(Girl)=\\frac{25}{40}=\\frac{5}{8}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.382,
+            0.9,
+            0.401
+          ],
+          "content": "(ii) The number of outcomes favourable for a card with the name of a boy = 15 (Why?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.407,
+            0.722,
+            0.449
+          ],
+          "content": "Therefore, P(card with name of $\\mathrm{a~body} = \\mathrm{P}(\\mathrm{B} \\mathrm{o} \\mathrm{y}) = \\frac{15}{40} \\equiv \\frac{3}{8}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.458,
+            0.569,
+            0.478
+          ],
+          "content": "**Note :** We can also determine P(Boy), by taking"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.491,
+            0.821,
+            0.532
+          ],
+          "content": "\\mathrm{P}(\\mathrm{B} \\mathrm{o} \\mathrm{y})=1-\\mathrm{P}(\\mathrm{n} \\mathrm{o} \\mathrm{t} \\mathrm{B} \\mathrm{o} \\mathrm{y})=1-\\mathrm{P}(\\mathrm{G} \\mathrm{i} \\mathrm{r} \\mathrm{l})=1-\\frac{5}{8}=\\frac{3}{8}",
+          "image_source": "images/page_7_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.54,
+            0.9,
+            0.579
+          ],
+          "content": "**Example 8 :** A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn at random from the box, what is the probability that it will be"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.119,
+            0.584,
+            0.592,
+            0.605
+          ],
+          "content": "(i) white? (ii) blue? (iii) red?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.614,
+            0.901,
+            0.652
+          ],
+          "content": "**Solution :** Saying that a marble is drawn at random is a short way of saying that all the marbles are equally likely to be drawn. Therefore, the"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.148,
+            0.66,
+            0.702,
+            0.68
+          ],
+          "content": "number of possible outcomes  = 3 + 2 + 4 = 9 \\quad ( Why? )",
+          "image_source": "images/page_7_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.688,
+            0.899,
+            0.727
+          ],
+          "content": "Let W denote the event ‘the marble is white’, B denote the event ‘the marble is blue’ and R denote the event ‘marble is red’."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.736,
+            0.668,
+            0.755
+          ],
+          "content": "(i) The number of outcomes favourable to the event W = 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.776,
+            0.135,
+            0.794
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.763,
+            0.422,
+            0.803
+          ],
+          "content": "\\mathrm { P } ( \\mathbb { W } ) = { \\frac { 2 } { 9 } }",
+          "image_source": "images/page_7_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.827,
+            0.189,
+            0.847
+          ],
+          "content": "Similarly,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.278,
+            0.811,
+            0.69,
+            0.855
+          ],
+          "content": "\\mathrm{P}(\\mathrm{B})=\\frac{3}{9}=\\frac{1}{3} \\quad \\text { and } \\quad(\\mathrm{iii}) \\mathrm{P}(\\mathrm{R})=\\frac{4}{9}",
+          "image_source": "images/page_7_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.871,
+            0.442,
+            0.89
+          ],
+          "content": "Note that $\\mathrm{P}(\\mathrm{W}) + \\mathrm{P}(\\mathrm{B}) + \\mathrm{P}(\\mathrm{R}) = 1$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

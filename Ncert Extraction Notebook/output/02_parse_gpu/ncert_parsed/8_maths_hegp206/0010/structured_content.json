@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.09,
+            0.846,
+            0.129
+          ],
+          "content": "Since $q \\geq p ,$ we can see that $r p \\times q$ is bigger than $r q \\times p .$ . This leaves us with a comparison between $q p \\times r$ and $r p \\times q .$ If we expand these, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.133,
+            0.469,
+            0.152
+          ],
+          "content": "\\cdot \\quad q p \\times r = ( 1 0 \\times q \\times r ) + ( p \\times r )",
+          "image_source": "images/page_9_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.156,
+            0.47,
+            0.176
+          ],
+          "content": "$r p \\times q = ( 1 0 \\times r \\times q ) + ( p \\times q )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.18,
+            0.847,
+            0.274
+          ],
+          "content": "Once again, the first term is the same in both expressions. Since $r \\geq q$ the second term of the first expression is larger, so the largest product is $q p   \\times   r .$ . This matches our earlier observation that the largest digit should be the multiplier and the other two digits should be arranged in decreasing order to form the multiplicand."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.282,
+            0.295,
+            0.304
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.305,
+            0.847,
+            0.345
+          ],
+          "content": "1. Fill the digits 1, 3, and 7 in $\\bigsqcup \\bigsqcup \\times \\bigsqcup$ to make the largest product possible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.353,
+            0.847,
+            0.393
+          ],
+          "content": "2. Fill the digits 3, 5, and 9 in $\\bigsqcup \\bigsqcup \\times \\bigsqcup$ to make the largest product possible."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.153,
+            0.422,
+            0.584,
+            0.447
+          ],
+          "level": 2,
+          "content": "6.6 Decoding Divisibility Tricks"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.456,
+            0.773,
+            0.475
+          ],
+          "content": "It is now Mukta’s turn to show a mathematics trick to Shubham."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.156,
+            0.476,
+            0.871,
+            0.89
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_10.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.914,
+            0.13,
+            0.935
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

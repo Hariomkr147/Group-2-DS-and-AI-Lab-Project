@@ -1,0 +1,287 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.299,
+            0.574,
+            0.368,
+            0.616
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.194,
+            0.121
+          ],
+          "content": "TRIANGLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "97"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.152,
+            0.5,
+            0.222
+          ],
+          "content": "**11.** In Fig. 6.40, E is a point on side CB produced of an isosceles triangle ABC with AB = AC. If AD ⊥ BC and EF ⊥AC, prove that $\\Delta \\mathrm { A B D } \\sim \\Delta \\mathrm { E C F } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.227,
+            0.501,
+            0.315
+          ],
+          "content": "**12.** Sides AB and BC and median AD of a triangle ABC are respectively proportional to sides PQ and QR and median PM of   PQR (see Fig. 6.41). Show that $\\Delta  ABC  \\sim \\Delta  PQR$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.578,
+            0.151,
+            0.762,
+            0.27
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.633,
+                0.279,
+                0.731,
+                0.298
+              ],
+              "content": "Fig. 6.40"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_24_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.321,
+            0.5,
+            0.373
+          ],
+          "content": "**13.** D is a point on the side BC of a triangle ABC such that $\\angle ADC = \\angle BAC$ . Show that $CA^{2}=CB.CD$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.379,
+            0.501,
+            0.467
+          ],
+          "content": "**14.** Sides AB and AC and median AD of a triangle ABC are respectively proportional to sides PQ and PR and median PM of another triangle PQR. Show that $\\Delta \\mathrm { A B C } \\sim \\Delta \\mathrm { P Q R }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.51,
+            0.312,
+            0.906,
+            0.416
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.647,
+                0.432,
+                0.744,
+                0.452
+              ],
+              "content": "Fig. 6.41"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_24_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.473,
+            0.9,
+            0.509
+          ],
+          "content": "**15.** A vertical pole of length 6 m casts a shadow 4 m long on the ground and at the same time a tower casts a shadow 28 m long. Find the height of the tower."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.513,
+            0.9,
+            0.577
+          ],
+          "content": "**16.** If AD and PM are medians of triangles ABC and PQR, respectively where $\\Delta \\mathrm { A B C } \\sim \\Delta \\mathrm { P Q R }$ , prove that $\\frac{\\overline{AB}}{\\overline{PQ}} = \\frac{\\overline{AD}}{\\overline{PM}}$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.603,
+            0.252,
+            0.622
+          ],
+          "level": 2,
+          "content": "6.5 Summary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.629,
+            0.576,
+            0.647
+          ],
+          "content": "In this chapter you have studied the following points :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.649,
+            0.9,
+            0.684
+          ],
+          "content": "**1.** Two figures having the same shape but not necessarily the same size are called similar figures."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.687,
+            0.718,
+            0.705
+          ],
+          "content": "**2.** All the congruent figures are similar but the converse is not true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.708,
+            0.9,
+            0.744
+          ],
+          "content": "**3.** Two polygons of the same number of sides are similar, if (i) their corresponding angles are equal and (ii) their corresponding sides are in the same ratio (i.e., proportion)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.746,
+            0.9,
+            0.781
+          ],
+          "content": "**4.** If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then the other two sides are divided in the same ratio."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.784,
+            0.9,
+            0.818
+          ],
+          "content": "**5.** If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.822,
+            0.9,
+            0.858
+          ],
+          "content": "**6.** If in two triangles, corresponding angles are equal, then their corresponding sides are in the same ratio and hence the two triangles are similar (AAA similarity criterion)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.859,
+            0.902,
+            0.896
+          ],
+          "content": "**7.** If in two triangles, two angles of one triangle are respectively equal to the two angles of the other triangle, then the two triangles are similar (AA similarity criterion)."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.436,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

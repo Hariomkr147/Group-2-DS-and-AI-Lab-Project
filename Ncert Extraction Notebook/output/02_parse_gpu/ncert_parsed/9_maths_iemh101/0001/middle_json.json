@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.799,
+            0.056,
+            0.952,
+            0.154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "国F-车"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.252,
+            0.117,
+            0.756,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Orienting Yourself: The Use of Coordinates"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.146,
+            0.159,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "header",
+          "index": 3,
+          "bbox": [
+            0.838,
+            0.163,
+            0.909,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0904CH01"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.115,
+            0.26,
+            0.36,
+            0.281
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.112,
+            0.293,
+            0.885,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A system of coordinates is a structured framework (like the grid lines on a map or graph paper) that enables us to use numbers to describe the exact physical locations of points or objects."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.351,
+            0.886,
+            0.584
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The idea of ‘grid-based thinking’ and the geometry required to define the locations of points in space—indeed has deep roots in Bhārat. The first systematic use of grids occurred thousands of years ago — on a massive urban scale—in the Sindhu-Sarasvatī Civilisation, where city streets were constructed with striking precision in North–South and East–West directions at uniform distances of about 10 metres apart. This was a coordinate system in practice: a merchant could find a shop or a warehouse by counting North–South and East–West units of distance from the city centre. Baudhāyana (c. 800 C.E.), as we have seen, later used East–West and North–South lines for his deep geometric constructions, developing the Baudhāyana–Pythagoras Theorem and thus laying the foundation of coordinate geometry."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.112,
+            0.583,
+            0.886,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Putting coordinates on the Earth’s surface later became important for navigation. Ujjayinī was described in the ancient world—at least as early as the 4th century BCE in the early Siddhāntas—as the point marking the central longitude meridian from which all other locations were measured. The Greek mathematician Ptolemy (c. 150 BCE), building on earlier works including that of Hipparchus, later described the latitudes and longitudes of thousands of locations, including ‘Ozine’ (Ujjayinī). Āryabhaṭa (c. 499 CE) replaced the Greek ‘chords’ with ‘sines’, making it much easier to calculate the coordinates of a star or a city. He mapped the sky using Celestial Coordinates, measuring coordinate distances from the ecliptic (the path of the sun)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.795,
+            0.886,
+            0.893
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Brahmagupta (c. 628 CE) formalised the notion and use of zero and the negative numbers as algebraic entities; in modern coordinate systems, the ‘origin’ is zero and the ‘negative axes’ represent values less than zero. Without Brahmagupta’s work, the four-quadrant Cartesian plane, as we will study in this chapter, would be impossible."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

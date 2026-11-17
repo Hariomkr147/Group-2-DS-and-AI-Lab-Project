@@ -1,0 +1,446 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.286,
+            0.121
+          ],
+          "content": "QUADRATIC EQUATIONS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "41"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.138,
+            0.702,
+            0.157
+          ],
+          "content": "(ii) Since $x(x + 1) + 8 = x^2 + x + 8 \\mathrm{and} (x + 2)(x - 2) = x^2 - 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.162,
+            0.257,
+            0.181
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37,
+            0.162,
+            0.559,
+            0.181
+          ],
+          "content": "x^{2}+x+8=x^{2}-4",
+          "image_source": "images/page_3_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.186,
+            0.518,
+            0.205
+          ],
+          "content": "i.e., x + 12 = 0"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.21,
+            0.512,
+            0.228
+          ],
+          "content": "It is not of the form $a x ^ { 2 } + b x + c = 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.234,
+            0.695,
+            0.253
+          ],
+          "content": "Therefore, the given equation is not a quadratic equation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.257,
+            0.206,
+            0.276
+          ],
+          "level": 2,
+          "content": "(iii) Here,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.294,
+            0.257,
+            0.576,
+            0.275
+          ],
+          "content": "LHS =x\\left(2x+3\\right)=2x^{2}+3x",
+          "image_source": "images/page_3_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.281,
+            0.183,
+            0.298
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.362,
+            0.281,
+            0.741,
+            0.299
+          ],
+          "content": "$x \\left( 2x + 3 \\right) = x^{2} + 1$ can be rewritten as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.378,
+            0.304,
+            0.55,
+            0.322
+          ],
+          "content": "2x^{2} + 3x = x^{2} + 1",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.328,
+            0.509,
+            0.346
+          ],
+          "content": "Therefore, we get $x^{2} + 3x - 1 = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.352,
+            0.471,
+            0.37
+          ],
+          "content": "It is of the form $a x ^ { 2 } + b x + c = 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.144,
+            0.375,
+            0.585,
+            0.395
+          ],
+          "content": "So, the given equation is a quadratic equation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.399,
+            0.208,
+            0.418
+          ],
+          "level": 2,
+          "content": "(iv) Here,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.313,
+            0.399,
+            0.669,
+            0.417
+          ],
+          "content": "\\mathrm{LHS} = (x + 2)^3 = x^3 + 6x^2 + 12x + 8",
+          "image_source": "images/page_3_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.423,
+            0.749,
+            0.442
+          ],
+          "content": "Therefore, $(x + 2)^{3} = x^{3} - 4$ can be rewritten as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.446,
+            0.565,
+            0.465
+          ],
+          "content": "x^{3}+6x^{2}+12x+8=x^{3}-4",
+          "image_source": "images/page_3_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.471,
+            0.191,
+            0.488
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.326,
+            0.469,
+            0.726,
+            0.488
+          ],
+          "content": "6x^{2}+12x+12=0\\quad or \\quad x^{2}+2x+2=0",
+          "image_source": "images/page_3_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.494,
+            0.475,
+            0.513
+          ],
+          "content": "It is of the form $ax^{2}+bx+c=0.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.518,
+            0.59,
+            0.537
+          ],
+          "content": "So, the given equation is a quadratic equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.542,
+            0.899,
+            0.581
+          ],
+          "content": "equation, but it is not a quadratic equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.585,
+            0.901,
+            0.662
+          ],
+          "content": "In (iv) above, the given equation appears to be a cubic equation (an equation of degree 3) and not a quadratic equation. But it turns out to be a quadratic equation. As is quadratic or not."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.409,
+            0.687,
+            0.588,
+            0.706
+          ],
+          "level": 2,
+          "content": "EXERCISE 4.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.717,
+            0.627,
+            0.735
+          ],
+          "content": "**1.** Check whether the following are quadratic equations :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.74,
+            0.354,
+            0.758
+          ],
+          "content": "(i) $(x + 1)^{2} \\equiv 2(x - 3)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.542,
+            0.741,
+            0.752,
+            0.758
+          ],
+          "content": "(ii) $x^{2}-2x=(-2)(3-x)$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.764,
+            0.446,
+            0.782
+          ],
+          "content": "(iii) $(x - 2)(x + 1) = (x - 1)(x + 3)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.536,
+            0.765,
+            0.775,
+            0.782
+          ],
+          "content": "(iv) $(x - 3)(2x + 1) = x(x + 5)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.788,
+            0.455,
+            0.805
+          ],
+          "content": "(v) $(2x - 1)(x - 3) = (x + 5)(x - 1)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.536,
+            0.787,
+            0.752,
+            0.805
+          ],
+          "content": "(vi) $x^{2}+3x+1=(x-2)^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.156,
+            0.811,
+            0.375,
+            0.828
+          ],
+          "content": "(vii) $(x + 2)^{3} = 2x(x^{2} - 1)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.527,
+            0.811,
+            0.788,
+            0.828
+          ],
+          "content": "(viii) $x^{3}-4x^{2}-x+1=(x-2)^{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.834,
+            0.768,
+            0.852
+          ],
+          "content": "**2.** Represent the following situations in the form of quadratic equations :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.858,
+            0.901,
+            0.894
+          ],
+          "content": "(i) The area of a rectangular plot is $5 2 8 \\; \\mathrm { m } ^ { 2 } .$ . The length of the plot (in metres) is one more than twice its breadth. We need to find the length and breadth of the plot."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

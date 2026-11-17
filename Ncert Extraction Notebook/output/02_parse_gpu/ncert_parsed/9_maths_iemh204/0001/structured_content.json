@@ -1,0 +1,182 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.122,
+            0.148,
+            0.175,
+            0.179
+          ],
+          "content": "12"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.717,
+            0.061,
+            0.865,
+            0.159
+          ],
+          "content": ""
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.254,
+            0.155,
+            0.5,
+            0.185
+          ],
+          "level": 1,
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.758,
+            0.167,
+            0.824,
+            0.18
+          ],
+          "content": "0905CH12"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.259,
+            0.882,
+            0.319
+          ],
+          "content": "Quadrilaterals, which we also call 4-gons, occur everywhere in daily life. For example, we often see flooring made of square tiles. We say that the floor has been ‘tiled’ using those squares."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.137,
+            0.332,
+            0.4,
+            0.355
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.368,
+            0.852,
+            0.408
+          ],
+          "content": "Can we use any given quadrilateral to tile the plane? If not, which quadrilaterals can be used and which cannot?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.427,
+            0.882,
+            0.544
+          ],
+          "content": "Recall that **tiling** the plane means covering it with copies of the given shape or shapes without gaps or overlaps. Tiling the plane with a rectangle is easy, but it seems difficult with an irregular quadrilateral. We will answer the above question at the end of the chapter (can you do it now?) and understand the answer using what we learn in this chapter. However, to start with, we will discuss a simple new example of a tiling."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.543,
+            0.881,
+            0.601
+          ],
+          "content": "Imagine that tiling with rectangles is done using a grid of two sets of long wooden sticks, one set horizontal and the other set vertical. See Fig. 12.1A."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.243,
+            0.605,
+            0.503,
+            0.876
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.318,
+                0.889,
+                0.416,
+                0.909
+              ],
+              "content": "Fig. 12.1A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_9.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.517,
+            0.613,
+            0.799,
+            0.876
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.622,
+                0.889,
+                0.72,
+                0.909
+              ],
+              "content": "Fig. 12.1B"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_11.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

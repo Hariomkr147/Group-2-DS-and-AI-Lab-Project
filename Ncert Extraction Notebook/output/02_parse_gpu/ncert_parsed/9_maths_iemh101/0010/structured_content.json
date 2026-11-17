@@ -1,0 +1,173 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.114,
+            0.069,
+            0.148,
+            0.085
+          ],
+          "content": "10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.181,
+            0.069,
+            0.492,
+            0.086
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.2,
+            0.106,
+            0.799,
+            0.415
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.459,
+                0.422,
+                0.543,
+                0.44
+              ],
+              "content": "Fig. 1.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.448,
+            0.644,
+            0.469
+          ],
+          "content": "We similarly find the distances DM and MA:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.477,
+            0.649,
+            0.502
+          ],
+          "content": "DM  = \\sqrt{2^2 + 5^2} = \\sqrt{29}   units",
+          "image_source": "images/page_9_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.512,
+            0.65,
+            0.539
+          ],
+          "content": "\\mathrm{MA} = \\sqrt{6^{2} + 2^{2}} = \\sqrt{40}   units.",
+          "image_source": "images/page_9_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.552,
+            0.886,
+            0.575
+          ],
+          "content": "In general, the distance between the points $( \\bar { x } _ { 1 } , y _ { 1 } )$ and $( x _ { 2 } , y _ { 2 } )$ is given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.375,
+            0.579,
+            0.621,
+            0.608
+          ],
+          "content": "\\sqrt{ \\left( x_{2} - x_{1} \\right)^{2} + \\left( y_{2} - y_{1} \\right)^{2} }",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.618,
+            0.568,
+            0.638
+          ],
+          "content": "and is cal<u>culated as shown in Fig. 1.8.</u>"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.214,
+            0.639,
+            0.752,
+            0.888
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_9_image_10.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.463,
+            0.897,
+            0.537,
+            0.913
+          ],
+          "content": "Fig. 1.8"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

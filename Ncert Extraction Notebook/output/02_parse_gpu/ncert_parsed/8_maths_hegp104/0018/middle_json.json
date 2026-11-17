@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.741,
+            0.048,
+            0.862,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.088,
+            0.562,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "AE = YS (as they are the opposite sides of the parallelogram)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.125,
+            0.563,
+            0.199
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The angles marked using a single arc are equal, and so are the angles marked using a double arc, since they are alternate angles of parallel lines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.198,
+            0.562,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, by the ASA condition, the triangles are congruent, that is,"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.573,
+            0.076,
+            0.857,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.573,
+                0.076,
+                0.857,
+                0.218
+              ],
+              "image_path": "images/page_17_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.236,
+            0.286,
+            0.252
+          ],
+          "image_path": "images/page_17_equation_6.jpg",
+          "content": "\\Delta \\mathrm { A O E } \\cong \\Delta \\mathrm { Y O S } ."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.253,
+            0.847,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, OA = OY, and OE = OS, since they are corresponding parts of congruent triangles."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.29,
+            0.559,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, O is the midpoint of both diagonals."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.111,
+            0.319,
+            0.553,
+            0.342
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is it wrong to write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  AOE  \\cong \\Delta  SOY?"
+            },
+            {
+              "type": "text",
+              "content": " Why?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.35,
+            0.769,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Property 4:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The diagonals of a parallelogram bisect each other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.112,
+            0.381,
+            0.816,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Do the diagonals of a parallelogram intersect at a particular angle?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.423,
+            0.726,
+            0.448
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.4 Quadrilaterals with Equal Sidelengths"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.458,
+            0.608,
+            0.516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Are squares the only quadrilaterals that have equal sidelengths? Let us explore this question through construction."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.52,
+            0.608,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Draw two equal sides AD and AB, that are not perpendicular to each other."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.312,
+            0.571,
+            0.377,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.312,
+                0.571,
+                0.377,
+                0.616
+              ],
+              "image_path": "images/page_17_image_15.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.623,
+            0.446,
+            0.837,
+            0.602
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.623,
+                0.446,
+                0.837,
+                0.602
+              ],
+              "image_path": "images/page_17_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.619,
+            0.846,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can we complete this quadrilateral so that all its sides are of the same length?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.15,
+            0.662,
+            0.538,
+            0.755
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Mark a point C whose distance from B and D is equal to AB (or AD). To do this, measure AB using a compass. Keeping this length as the radius, cut arcs from B and D."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.547,
+            0.646,
+            0.879,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.547,
+                0.646,
+                0.879,
+                0.789
+              ],
+              "image_path": "images/page_17_image_19.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.151,
+            0.768,
+            0.539,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we have a quadrilateral with equal sidelengths and one of its angles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "5 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " . Note that we could have constructed"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.15,
+            0.823,
+            0.843,
+            0.844
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "such a quadrilateral by taking any angle less than "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 8 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " (in place of 50°)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.15,
+            0.847,
+            0.848,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A quadrilateral in which all the sides have the same length is a rhombus.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "99"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

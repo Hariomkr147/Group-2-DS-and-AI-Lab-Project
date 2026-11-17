@@ -1,0 +1,164 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.648,
+            0.046,
+            0.846,
+            0.064
+          ],
+          "content": "Working with Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.483,
+            0.124
+          ],
+          "content": "let us express $\\frac { 3 } { 4 }$ as $\\frac { 1 5 } { 2 0 }$ and $\\frac{2}{5}$ as ${ \\frac { 8 } { 2 0 } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.125,
+            0.846,
+            0.144
+          ],
+          "content": "From this we can see that the product is less than both the numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.144,
+            0.848,
+            0.198
+          ],
+          "content": "When do you think the product is greater than both the numbers multiplied, when is it in between the two numbers, and when is it smaller than both?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.198,
+            0.848,
+            0.276
+          ],
+          "content": "[**Hint:** The relationship between the product and the numbers multiplied depends on whether they are between 0 and 1 or they are greater than 1. Take different pairs of numbers and observe their product. For each multiplication, consider the following questions.]"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.283,
+            0.845,
+            0.66
+          ],
+          "content": "| Situation | Multiplication | Relationship |\n| --- | --- | --- |\n| Situation 1 | Both numbers are greater than 1 (e.g., 43× 4) | The product (136) is greater than both the numbers |\n| Situation 2 | Both numbers are between 0 and 1 (e.g., 34 × 25) | The product (130) is less than both the numbers |\n| Situation 3 | One number is between 0 and 1, and one number is greater than 1 (e.g., 34 × 5) | The product (145) is less than the number greater than 1 and greater than the number between 0 and 1 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.672,
+            0.847,
+            0.712
+          ],
+          "content": "Create more such examples for each situation and observe the relationship between the product and the numbers being multiplied."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.718,
+            0.847,
+            0.759
+          ],
+          "content": "？ What can you conclude about the relationship between the numbers multiplied and the product? Fill in the blanks:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.774,
+            0.846,
+            0.813
+          ],
+          "content": "• When one of the numbers being multiplied is between 0 and 1, the product is (greater/less) than the other number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.816,
+            0.848,
+            0.856
+          ],
+          "content": "When one of the numbers being multiplied is greater than 1, the product is (greater/less) than the other number."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.938,
+            0.846,
+            0.955
+          ],
+          "content": "185"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:22+05:30",
+      "modified_at": "2026-04-07T17:16:32+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

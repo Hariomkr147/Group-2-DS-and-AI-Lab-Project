@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.586,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We Distribute, Yet Things Multiply"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.407,
+            0.099,
+            0.59,
+            0.123
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SUMMARY"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.145,
+            0.825,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We extended the distributive property to find the product of two expressions each of which has two terms. The general form for the same is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a+b)\\times(c+d)=ac+ad+bc+bd."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.176,
+            0.212,
+            0.623,
+            0.232
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "� We saw some special cases of this identity."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.257,
+            0.241,
+            0.467,
+            0.26
+          ],
+          "image_path": "images/page_21_equation_4.jpg",
+          "content": "(a + b)^{2} = a^{2} + 2ab + b^{2}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.237,
+            0.265,
+            0.471,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a - b)^{2} = a^{2} - 2ab + b^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.238,
+            0.289,
+            0.471,
+            0.309
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a+b)(a-b)=a^{2}-b^{2}."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 7,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.175,
+            0.314,
+            0.825,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We considered different patterns, and explored how to understand them using algebra. We saw that, often, there are multiple ways to solve a problem and arrive at the same correct answer. Finding different methods to approach and solve the same problem is a creative process."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 9,
+          "bbox": [
+            0.872,
+            0.915,
+            0.918,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "157"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

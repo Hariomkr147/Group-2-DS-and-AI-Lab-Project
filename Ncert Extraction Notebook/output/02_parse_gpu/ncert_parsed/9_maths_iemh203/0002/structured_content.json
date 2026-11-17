@@ -1,0 +1,195 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.071,
+            0.148,
+            0.088
+          ],
+          "content": "38"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.186,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.108,
+            0.881,
+            0.148
+          ],
+          "content": "3. Move to the next column of digits on the left. Add the two digits and the current value of carry."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.226,
+            0.154,
+            0.882,
+            0.195
+          ],
+          "content": "– If the sum is less than 10, write the sum directly below the two digits. Set the value of carry to 0."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.227,
+            0.2,
+            0.882,
+            0.261
+          ],
+          "content": "– If the sum is more than 10, write the units digit of the sum directly below the two digits. Set the value of carry to 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.186,
+            0.267,
+            0.882,
+            0.307
+          ],
+          "content": "4. Repeat Step 3 until there are no more digits on the left."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.313,
+            0.882,
+            0.354
+          ],
+          "content": "5. If the value of carry is 1, write 1 to the left of the bottom row."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.366,
+            0.403,
+            0.631,
+            0.432
+          ],
+          "level": 2,
+          "content": "Exercise Set 11.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.451,
+            0.883,
+            0.529
+          ],
+          "content": "Add two 4-digit numbers using the steps we have written down. Make sure you follow the steps precisely; do not perform any action that is not explicitly mentioned. Are you able to obtain the correct result?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.534,
+            0.881,
+            0.574
+          ],
+          "content": "2. What happens if you add a 5-digit number to a 3-digit number. Do our steps handle this situation correctly?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.577,
+            0.809,
+            0.6
+          ],
+          "content": "3. Why is it important to align the columns from right to left?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.603,
+            0.788,
+            0.624
+          ],
+          "content": "4. In Step 3, why cannot the value of carry be more than 1?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.628,
+            0.883,
+            0.687
+          ],
+          "content": "5. What happens if we do not include the fifth step in the algorithm above? Give examples where the algorithm will work correctly and where it will fail to work."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.696,
+            0.882,
+            0.775
+          ],
+          "content": "There is also an important assumption in this algorithm, namely, that we know how to add single digit numbers without counting them out. Typically, any algorithm is built using such basic steps that we assume we can perform directly."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.774,
+            0.884,
+            0.911
+          ],
+          "content": "The main advantage of this algorithm is that it is much faster than counting explicitly. For instance, if we move from adding 3-digit numbers to adding 4-digit numbers, we have 10 times as many dots to draw and count. On the other hand, if we add the digits right to left, as in the algorithm above, we only have to add 1 more column. Likewise, 5-digit numbers would generate 100 times as many dots as 3-digit numbers, but only 2 more columns to be added."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

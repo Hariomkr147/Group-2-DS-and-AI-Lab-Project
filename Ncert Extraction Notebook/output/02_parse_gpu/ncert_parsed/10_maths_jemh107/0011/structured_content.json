@@ -1,0 +1,307 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.294,
+            0.121
+          ],
+          "content": "COORDINATE GEOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "109"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.139,
+            0.899,
+            0.177
+          ],
+          "content": "Therefore, the point (– 4, 6) divides the line segment joining the points A(– 6, 10) and B(3, – 8) in the ratio 2 : 7."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.197,
+            0.898,
+            0.26
+          ],
+          "content": "**Alternatively :** The ratio $m _ { _ 1 } : m _ { _ 2 }$ can also be written as $\\frac { m _ { 1 } } { m _ { 2 } } \\colon 1 ,$ , or k : 1. Let (– 4, 6) divide AB internally in the ratio k : 1. Using the section formula, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.387,
+            0.272,
+            0.897,
+            0.32
+          ],
+          "content": "(-4,6)=\\left(\\frac{3k-6}{k+1},\\frac{-8k+10}{k+1}\\right)\\tag{2}",
+          "image_source": "images/page_10_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.353,
+            0.135,
+            0.371
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.341,
+            0.565,
+            0.382
+          ],
+          "content": "-   4 =   { \\frac { 3 k - 6 } { k + 1 } }",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.396,
+            0.138,
+            0.414
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.378,
+            0.395,
+            0.558,
+            0.414
+          ],
+          "content": "-4k-4=3k-6",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.421,
+            0.139,
+            0.439
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.433,
+            0.42,
+            0.508,
+            0.439
+          ],
+          "content": "7 k = 2",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.447,
+            0.139,
+            0.465
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.415,
+            0.445,
+            0.538,
+            0.465
+          ],
+          "content": "k : 1 = 2 : 7",
+          "image_source": "images/page_10_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.472,
+            0.491,
+            0.491
+          ],
+          "content": "You can check for the y-coordinate also."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.496,
+            0.898,
+            0.536
+          ],
+          "content": "So, the point (– 4, 6) divides the line segment joining the points A(– 6, 10) and B(3, – 8) in the ratio 2 : 7."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.541,
+            0.899,
+            0.581
+          ],
+          "content": "**Note :** You can also find this ratio by calculating the distances PA and PB and taking their ratios provided you know that A, P and B are collinear."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.593,
+            0.901,
+            0.633
+          ],
+          "content": "**Example 8 :** Find the coordinates of the points of trisection (i.e., points dividing in three equal parts) of the line segment joining the points A(2, – 2) and B(– 7, 4)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.639,
+            0.487,
+            0.703
+          ],
+          "content": "**Solution :** Let P and Q be the points of trisection of AB i.e., $\\mathrm{AP} = \\mathrm{PQ} = \\mathrm{QB}$ (see Fig. 7.11)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.547,
+            0.641,
+            0.842,
+            0.684
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.65,
+                0.684,
+                0.744,
+                0.703
+              ],
+              "content": "Fig. 7.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.711,
+            0.9,
+            0.753
+          ],
+          "content": "Therefore, P divides AB internally in the ratio 1 : 2. Therefore, the coordinates of P, by applying the section formula, are"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.235,
+            0.763,
+            0.645,
+            0.807
+          ],
+          "content": "\\left( \\frac{1(-7)+2(2)}{1+2}, \\frac{1(4)+2(-2)}{1+2} \\right), \\mathrm{i.e.}, (-1,0)",
+          "image_source": "images/page_10_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.821,
+            0.859,
+            0.841
+          ],
+          "content": "Now, Q also divides AB internally in the ratio 2 : 1. So, the coordinates of Q are"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.236,
+            0.853,
+            0.651,
+            0.901
+          ],
+          "content": "\\left( \\frac{2(-7)+1(2)}{2+1}, \\frac{2(4)+1(-2)}{2+1} \\right), \\mathrm{i.e.}, (-4, 2)",
+          "image_source": "images/page_10_equation_23.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

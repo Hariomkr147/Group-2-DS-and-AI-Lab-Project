@@ -1,0 +1,220 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.581,
+            0.049,
+            0.861,
+            0.066
+          ],
+          "content": "Exploring Some Geometric Themes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.089,
+            0.745,
+            0.109
+          ],
+          "content": "5. Find the number of cubes in this stack of identical cubes."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.371,
+            0.12,
+            0.612,
+            0.298
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.163,
+            0.32,
+            0.802,
+            0.358
+          ],
+          "content": "6. What are the different shapes the projection of a cube can make under different orientations?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.812,
+            0.316,
+            0.905,
+            0.378
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.374,
+            0.416,
+            0.395
+          ],
+          "level": 2,
+          "content": "Isometric Projections"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.405,
+            0.847,
+            0.46
+          ],
+          "content": "In general we lose information when projecting a solid to a plane. But depending on the orientation of the solid, we can sometimes recover much of the information we’ve lost."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.46,
+            0.847,
+            0.533
+          ],
+          "content": "Let us consider an orientation of a cube in which the lengths of the projections of all the edges of the cube are equal. Such a projection is called the **isometric** projection of the cube. ‘Isometric’ means ‘equal measure’ in Greek."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.533,
+            0.846,
+            0.59
+          ],
+          "content": "Imagine balancing a cube perfectly on one of its corner vertices, and then projecting it down to the floor plane. This projection is isometric and appears as shown."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.429,
+            0.584,
+            0.591,
+            0.721
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.735,
+            0.807,
+            0.794
+          ],
+          "content": "？ Construct a model of a cube and use your hands to keep it balanced on one corner vertex. Can you try to understand why all the projected edges have equal length?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.733,
+            0.903,
+            0.785
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.804,
+            0.689,
+            0.859
+          ],
+          "content": "The isometric representation of a cube is a regular hexagon. If the cube is made of glass, then all the edges would be visible."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.859,
+            0.691,
+            0.898
+          ],
+          "content": "This structure is the basis for **isometric** drawing! Tile the plane with hexagons and we get an **isometric grid**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.698,
+            0.782,
+            0.853,
+            0.914
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.876,
+            0.914,
+            0.91,
+            0.935
+          ],
+          "content": "97"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

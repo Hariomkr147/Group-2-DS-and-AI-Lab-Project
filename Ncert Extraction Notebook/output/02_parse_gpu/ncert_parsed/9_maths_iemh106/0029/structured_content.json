@@ -1,0 +1,244 @@
+{
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "146"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.168
+          ],
+          "content": "Archimedes did a ‘thought experiment’; he asked himself what happens if the number of sides of the regular polygon gets larger and larger. Working out the details, he arrived at the result $A = \\pi \\mathbf { r } ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.179,
+            0.886,
+            0.277
+          ],
+          "content": "Here perhaps is the most visual and easy-to-understand explanation for why the area of a circle of radius r has area ${ \\pi } r ^ { 2 } ,$ This beautiful visual explanation for the area of the circle was first discovered by Nīlakaṇṭha Somayājī (c. 1500) in his commentary on the Āryabhaṭīya:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.223,
+            0.282,
+            0.435,
+            0.434
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.337,
+                0.44,
+                0.367,
+                0.456
+              ],
+              "content": "(A)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.44,
+            0.285,
+            0.777,
+            0.444
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.633,
+                0.44,
+                0.661,
+                0.456
+              ],
+              "content": "(B)"
+            },
+            {
+              "bbox": [
+                0.289,
+                0.462,
+                0.708,
+                0.497
+              ],
+              "content": "Fig. 6.37: The slices can be rearranged to form a parallelogram-like structure"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.505,
+            0.885,
+            0.565
+          ],
+          "content": "As the slices become smaller and smaller, the arcs in Fig. 6.37B become more and more closer to a line. This makes the figure more and more closer to a parallelogram with"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.268,
+            0.569,
+            0.729,
+            0.59
+          ],
+          "content": "base = half the circumference (why?) = πr,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.269,
+            0.594,
+            0.461,
+            0.615
+          ],
+          "content": "\\mathrm{height} = \\mathrm{radius} r.",
+          "image_source": "images/page_28_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.619,
+            0.884,
+            0.659
+          ],
+          "content": "This gives a way to argue that the area of the circle is equal to the area of a parallelogram!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.662,
+            0.868,
+            0.684
+          ],
+          "content": "Area of the circle = Area of the parallelogram = base × height = πr<sup>2</sup>."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.707,
+            0.516,
+            0.728
+          ],
+          "level": 2,
+          "content": "6.10.1 Area of Sector of a Circle"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.736,
+            0.61,
+            0.795
+          ],
+          "content": "A sector of a circle is the region bounded by an arc and the two radii containing the endpoints of the arc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.795,
+            0.612,
+            0.873
+          ],
+          "content": "The area within a sector of a circle may be found the same way that we found the length of a circular arc. Examine Fig. 6.39 and Fig. 6.40."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.634,
+            0.731,
+            0.854,
+            0.838
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.635,
+                0.845,
+                0.866,
+                0.864
+              ],
+              "content": "Fig. 6.38: Sector of a circle"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_28_image_17.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,220 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.611,
+            0.069,
+            0.815,
+            0.086
+          ],
+          "content": "The World of Numbers"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.856,
+            0.068,
+            0.883,
+            0.084
+          ],
+          "content": "57"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.166
+          ],
+          "content": "value that we get “closer” and “closer” to as we add more and more terms of the infinite sum, starting from the first term. You will learn more about infinite series in higher grades."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.166,
+            0.886,
+            0.225
+          ],
+          "content": "Thus, the number line is not only filled with rational numbers but also contains irrational numbers. We have seen how to mark some irrationals, and will simply conceive the rest of the irrationals to lie on the line."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.151,
+            0.232,
+            0.847,
+            0.312
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.46,
+                0.322,
+                0.539,
+                0.34
+              ],
+              "content": "Fig. 3.12"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_16_image_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.365,
+            0.809,
+            0.388
+          ],
+          "level": 2,
+          "content": "3.6 Real Numbers: Decimals and Cyclic Patterns"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.398,
+            0.886,
+            0.457
+          ],
+          "content": "When we unite the dense web of Rational Numbers with the unfillable gaps of Irrational Numbers, we create the unbroken, continuous line of the Real Numbers (R)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.457,
+            0.885,
+            0.497
+          ],
+          "content": "The easiest way to distinguish a rational number from an irrational number is to look at its decimal expansion."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.52,
+            0.772,
+            0.542
+          ],
+          "level": 2,
+          "content": "3.6.1 Rational Decimals: Terminating and Repeating"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.549,
+            0.884,
+            0.59
+          ],
+          "content": "If you divide the numerator of a rational number by its denominator, exactly one of two things will happen:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.592,
+            0.883,
+            0.631
+          ],
+          "content": "1. **It terminates:** The division eventually leaves a remainder of 0. The decimal stops."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.637,
+            0.884,
+            0.685
+          ],
+          "content": "Example $2:\\frac{3}{8}=0.375$ . (Can you tell for which rational numbers the decimal will be terminating?)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.686,
+            0.883,
+            0.727
+          ],
+          "content": "2. **It repeats:** The division never reaches a remainder of 0, but the sequence of digits begins to loop infinitely."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.728,
+            0.537,
+            0.762
+          ],
+          "content": "Example $3:\\frac{5}{11}=0.454545\\cdots=0.\\overline{45}.$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.78,
+            0.399,
+            0.803
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.818,
+            0.854,
+            0.87
+          ],
+          "content": "Try to find the decimal expansions of $\\frac { 1 0 } { 3 }$ and $\\frac { 1 1 } { 1 2 }$ What do you observe about the repetition of the digits after the decimal point?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

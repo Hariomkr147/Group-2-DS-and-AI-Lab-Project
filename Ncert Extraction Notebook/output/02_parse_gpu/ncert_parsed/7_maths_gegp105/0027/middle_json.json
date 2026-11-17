@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:45+05:30",
+      "modified_at": "2026-04-07T17:15:45+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.132,
+            0.086,
+            0.871,
+            0.188
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. In the given Fig.5.11, mark the parallel lines using the notation given above (single arrow, double arrow, etc). Mark the angle between perpendicular lines with a square symbol. (a)How did you spot the perpendicular lines? (b)How did you spot the parallel lines?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.27,
+            0.2,
+            0.722,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.27,
+                0.2,
+                0.722,
+                0.508
+              ],
+              "image_path": "images/page_26_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.458,
+                0.516,
+                0.539,
+                0.534
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 5.11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.27,
+            0.587,
+            0.744,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.27,
+                0.587,
+                0.744,
+                0.911
+              ],
+              "image_path": "images/page_26_image_3.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,196 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.476,
+            0.326,
+            0.566,
+            0.341
+          ],
+          "content": "Octahedron"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "Exploring Some Geometric Themes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.089,
+            0.847,
+            0.129
+          ],
+          "content": "Here is a solid called the **octahedron**, made by joining two square pyramids at their square bases."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.391,
+            0.139,
+            0.63,
+            0.319
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.357,
+            0.634,
+            0.377
+          ],
+          "content": "Can you visualise its net? This is one of its nets."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.391,
+            0.384,
+            0.63,
+            0.528
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.535,
+            0.787,
+            0.575
+          ],
+          "content": "？ Taking all the triangles in the net to be equilateral, make a cutout of the net and fold it to form an octahedron."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.801,
+            0.526,
+            0.889,
+            0.585
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.592,
+            0.767,
+            0.61
+          ],
+          "content": "As in the case of cubes, an octahedron too has 11 different nets."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.61,
+            0.846,
+            0.665
+          ],
+          "content": "So far, we have seen solids whose faces are all equilateral triangles (regular tetrahedrons), and all squares (cubes). Does there exist a solid whose faces are all pentagons? Interestingly, the answer is yes!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.665,
+            0.847,
+            0.722
+          ],
+          "content": "This solid is called a **dodecahedron**. This solid too can be made from a net! Mathematicians have been even able to determine exactly how many nets a dodecahedron has — 43,380."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.419,
+            0.736,
+            0.627,
+            0.89
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.468,
+                0.896,
+                0.576,
+                0.91
+              ],
+              "content": "Dodecahedron"
+            }
+          ],
+          "image_source": "images/page_13_image_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.876,
+            0.913,
+            0.911,
+            0.935
+          ],
+          "content": "83"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Tale of Three Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.151,
+            0.088,
+            0.847,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How did you construct this triangle and what tools did you use? Can this construction be done only using a marked ruler (and a pencil)?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.125,
+            0.849,
+            0.237
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Constructing this triangle using just a ruler is certainly possible. But this might require several trials. Say we draw the base — let us call it AB — of length 4 cm (see the figure below), and mark the third point C using a ruler such that AC = 4 cm. This may not lead to BC also having a length of 4 cm. If this happens, we will have to keep making attempts to mark C till we get BC to be 4 cm long."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.383,
+            0.246,
+            0.615,
+            0.429
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.383,
+                0.246,
+                0.615,
+                0.429
+              ],
+              "image_path": "images/page_1_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.442,
+            0.653,
+            0.465
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we make this construction more efficient?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.475,
+            0.848,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall solving a similar problem in the previous year using a compass (in the Chapter ‘Playing with Constructions’). We had to mark the top point of a ‘house’ which is 5 cm from two other points. The method we used to get that point can also be used here."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.174,
+            0.555,
+            0.715,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "After constructing "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AB} = 4"
+            },
+            {
+              "type": "text",
+              "content": " cm, we can do the following."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.58,
+            0.848,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Using a compass, construct a sufficiently long arc of radius 4 cm from A, as shown in the figure. The point C is somewhere on this arc. How do we mark it?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.314,
+            0.639,
+            0.668,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.314,
+                0.639,
+                0.668,
+                0.89
+              ],
+              "image_path": "images/page_1_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.807,
+            0.938,
+            0.846,
+            0.955
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

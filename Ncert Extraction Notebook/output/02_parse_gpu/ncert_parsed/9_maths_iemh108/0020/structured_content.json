@@ -1,0 +1,178 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.214,
+            0.069,
+            0.817,
+            0.087
+          ],
+          "content": "Predicting What Comes Next: Exploring Sequences and Progressions"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.885,
+            0.085
+          ],
+          "content": "193"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.267,
+            0.104,
+            0.725,
+            0.37
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.458,
+                0.377,
+                0.54,
+                0.396
+              ],
+              "content": "Fig. 8.11"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.41,
+            0.887,
+            0.512
+          ],
+          "content": "The sequence of heights forms a GP with a = 18 and $r = 0.75$ (or $\\frac { 3 } { 4 } )$ , that is, 18, 13.5, 10.125, 7.594, 5.695, 4.27125, 3.2034375, … . We see that after the seventh bounce the ball remains below $\\frac{1}{6}$ of the height at which it started."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.371,
+            0.539,
+            0.624,
+            0.569
+          ],
+          "level": 2,
+          "content": "Exercise Set 8.3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.591,
+            0.886,
+            0.63
+          ],
+          "content": "1. Find the $1 2 ^ { \\mathrm { t h } }$ term of a GP with common ratio 2, whose $8 ^ { \\mathrm { t h } }$ term is 192."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.634,
+            0.722,
+            0.655
+          ],
+          "content": "2. Find the $1 0 ^ { \\mathrm { t h } }$ and $n ^ { t h }$ terms of the GP: 5, 25, 125, … ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.658,
+            0.885,
+            0.698
+          ],
+          "content": "\\*3. A sequence is given by the recursive rule $t_{1} = 2, t_{n + 1} = 3t_{n} - 2$ for $n \\geq 1$ . Which term of the sequence is 730?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.701,
+            0.886,
+            0.741
+          ],
+          "content": "4. Which term of the GP: 2, 6, 18, … is 4374? Write the explicit formula as well as the recursive formula for the $n ^ { t h }$ term."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.743,
+            0.887,
+            0.823
+          ],
+          "content": "5. A ball is dropped from a height of 80 metres. After hitting the ground, it bounces back to 60% of the height from which it fell. It continues bouncing in this way — each time rising to 60% of the previous height."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.178,
+            0.826,
+            0.804,
+            0.848
+          ],
+          "content": "(i) What height does the ball reach after the $5 ^ { \\mathrm { t h } }$ bounce?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.172,
+            0.852,
+            0.886,
+            0.895
+          ],
+          "content": "(ii) What is the total vertical distance the ball has travelled by the time it hits the ground for the $6 ^ { \\mathrm { t h } }$ time?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

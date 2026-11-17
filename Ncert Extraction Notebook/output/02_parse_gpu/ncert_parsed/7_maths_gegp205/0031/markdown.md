@@ -1,0 +1,27 @@
+<table><tbody><tr><td>Age</td><td colspan="2">1989</td><td colspan="2">1999</td><td colspan="2">2009</td><td colspan="2">2019</td></tr><tr><td>5</td><td>101.3</td><td>100</td><td>102.4</td><td>101.7</td><td>105.1</td><td>104</td><td>107.1</td><td>107.2</td></tr><tr><td>6</td><td>107.5</td><td>106</td><td>108.7</td><td>107.5</td><td>111</td><td>109.7</td><td>113.1</td><td>112.9</td></tr><tr><td>7</td><td>113</td><td>111.4</td><td>114.2</td><td>112.6</td><td>116.2</td><td>114.8</td><td>118.6</td><td>118</td></tr><tr><td>8</td><td>118.1</td><td>116.5</td><td>119.2</td><td>117.5</td><td>120.9</td><td>119.6</td><td>123.5</td><td>122.7</td></tr><tr><td>9</td><td>122.9</td><td>121.7</td><td>123.9</td><td>122.4</td><td>125.2</td><td>124.5</td><td>128.1</td><td>127.6</td></tr><tr><td>10</td><td>127.5</td><td>127.3</td><td>128.3</td><td>127.8</td><td>129.4</td><td>129.9</td><td>132.6</td><td>132.8</td></tr><tr><td>11</td><td>132.2</td><td>133.4</td><td>132.8</td><td>133.6</td><td>133.7</td><td>135.7</td><td>137</td><td>138.6</td></tr><tr><td>12</td><td>137.7</td><td>139</td><td>138</td><td>139.1</td><td>138.9</td><td>141.1</td><td>142.2</td><td>143.8</td></tr><tr><td>13</td><td>144.2</td><td>143.2</td><td>144.3</td><td>143.1</td><td>145.2</td><td>145.1</td><td>148.4</td><td>147.7</td></tr><tr><td>14</td><td>150.6</td><td>146.2</td><td>150.5</td><td>146.1</td><td>151.5</td><td>148</td><td>154.4</td><td>150.4</td></tr><tr><td>15</td><td>155.4</td><td>148.5</td><td>155.2</td><td>148.4</td><td>156.3</td><td>150.1</td><td>159</td><td>152.4</td></tr><tr><td>16</td><td>158.9</td><td>150.1</td><td>158.7</td><td>150.1</td><td>159.9</td><td>151.6</td><td>162.3</td><td>153.8</td></tr><tr><td>17</td><td>161.3</td><td>151.2</td><td>161.4</td><td>151.3</td><td>162.6</td><td>152.6</td><td>164.6</td><td>154.7</td></tr><tr><td>18</td><td>162.9</td><td>151.8</td><td>163.2</td><td>152.1</td><td>164.3</td><td>153</td><td>166</td><td>155.2</td></tr><tr><td>19</td><td>163.5</td><td>151.9</td><td>164.2</td><td>152.4</td><td>165.1</td><td>153</td><td>166.5</td><td>155.2</td></tr></tbody></table>
+
+## Spend sufficient time observing the data presented in this table. Share your findings with the class.
+
+![](images/page_30_image_3.jpg)
+
+These are some prompts for you to probe —
+
+Changes in the heights of boys or girls of a certain age from 1989 to 2019.
+
+• The heights of boys vs. girls at different ages in a particular year.
+
+• Changes in height between successive ages in boys and girls in 2019.
+
+？ Which of the following statements can be justified using the data?
+
+1. The average heights of both boys and girls at every age increased from 1989 to 2019.
+
+2. The average height of 13-year-old girls in 1989 is more than the average height of 14-year-old girls in 2009.
+
+3. The average height of 15-year-old boys in 2019 is more than the average height of 16-year-old boys in 1989.
+
+4. All girls aged 13 are taller than all girls aged 11.
+
+5. Throughout the age period 5 to 19, the average boy's height is more than the average girl's height.
+
+6. Boys keep growing even beyond age 19.

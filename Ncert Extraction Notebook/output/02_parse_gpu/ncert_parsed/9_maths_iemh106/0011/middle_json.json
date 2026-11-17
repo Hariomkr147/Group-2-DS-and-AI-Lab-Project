@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "128"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.123,
+            0.108,
+            0.491,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.123,
+                0.108,
+                0.491,
+                0.321
+              ],
+              "image_path": "images/page_10_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.501,
+            0.109,
+            0.878,
+            0.243
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, we have two congruent circles centered at A and B. Each one passes through the centre of the other one. The circles intersect at C and D. We need to find the total length of the two red arcs shown here, in terms of the radius r unit."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.502,
+            0.243,
+            0.877,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the triangle with vertices A, B, C. Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } = r ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "AC = r, BC = r,"
+            },
+            {
+              "type": "text",
+              "content": " the triangle is equilateral, hence "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle CAB = 60^{\\circ} ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { C B A }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.36,
+            0.828,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle BAD = 60^{\\circ} = \\angle ABD"
+            },
+            {
+              "type": "text",
+              "content": " . It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle CAD = 120^{\\circ} = \\angle CBD."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.391,
+            0.883,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, each dotted arc is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 } { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " of the circumference of the circle on which it lies. Hence, the total length of the two red arcs is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times \\frac{2}{3} \\times 2\\pi r = \\frac{8}{3}\\pi r"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.137,
+            0.479,
+            0.475,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.137,
+                0.479,
+                0.475,
+                0.654
+              ],
+              "image_path": "images/page_10_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.26,
+                0.656,
+                0.339,
+                0.672
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.482,
+            0.482,
+            0.877,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " In Fig. 6.13, we see points P and Q and two paths connecting them. The first path is made up of the semicircle a. The other path is made up of three semicircles (b, c and d). Which path is longer? Choose one: (i) Path a is longer. (ii) Path "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b \\; + \\; c \\; + \\; d"
+            },
+            {
+              "type": "text",
+              "content": " is longer. (iii) The two paths have equal length. (Try to answer this before reading on.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.111,
+            0.718,
+            0.886,
+            0.829
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us solve the problem using algebra. Let the radii of the semicircles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , b , c ,"
+            },
+            {
+              "type": "text",
+              "content": " d be denoted by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { a ^ { \\prime } } , \\bar { b ^ { \\prime } } , \\bar { c ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . Then the length of semicircle "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\mathrm{i}s \\frac{1}{2} (2\\pi) a' = \\pi a'."
+            },
+            {
+              "type": "text",
+              "content": " . Similarly, the lengths of the semicircles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b , \\; c ,"
+            },
+            {
+              "type": "text",
+              "content": " and d are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi b ^ { \\prime } ,   \\pi c ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " and πd'. So, the length of the second path is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi ( b ^ { \\prime } + c ^ { \\prime } + d ^ { \\prime } )"
+            },
+            {
+              "type": "text",
+              "content": " , and that of the first path is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi a ^ { \\prime } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.829,
+            0.886,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Which is bigger, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b' + c' + d'"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ^ { \\prime } \\nmid"
+            },
+            {
+              "type": "text",
+              "content": " Do you see that neither one is bigger? They are equal! Because, the length of PQ is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 a ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " and it is also equal to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2b' + 2c' + 2d'"
+            },
+            {
+              "type": "text",
+              "content": " . It follows that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a^{\\prime} = b^{\\prime} + c^{\\prime} + d^{\\prime}"
+            },
+            {
+              "type": "text",
+              "content": " . Hence, the two paths have equal length!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

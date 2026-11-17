@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.586,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We Distribute, Yet Things Multiply"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.087,
+            0.622,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ How many square tiles are there in each figure?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.11,
+            0.123,
+            0.814,
+            0.146
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many are there in Step 4 of the sequence? What about Step 10?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.159,
+            0.801,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Write an algebraic expression for the number of tiles in Step n. Share your methods with the class. Can you find more than one method to arrive at the answer?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.817,
+            0.154,
+            0.904,
+            0.207
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.817,
+                0.154,
+                0.904,
+                0.207
+              ],
+              "image_path": "images/page_17_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.232,
+            0.846,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Find the area of the (interior) shaded region in the figure below. All four rectangles have the same dimensions. m"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.276,
+            0.339,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Tadang’s method:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.294,
+            0.704,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The total region is a square of side (m + n) with an area "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( m + n ) ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.331,
+            0.704,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Subtracting the area of four rectangles from the total area will give the area of the interior shaded region. That is, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( m + n ) ^ { 2 } - 4 m n"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.152,
+            0.393,
+            0.324,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Yusuf’s method:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.716,
+            0.255,
+            0.921,
+            0.413
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.716,
+                0.255,
+                0.921,
+                0.413
+              ],
+              "image_path": "images/page_17_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.15,
+            0.412,
+            0.705,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The shaded region is a square with sidelength (n – m). So, its area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n - m ) ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.109,
+            0.458,
+            0.465,
+            0.482
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By expanding both expressions,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.484,
+            0.49,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "check that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(m + n)^{2} - 4mn = (n - m)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.519,
+            0.72,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Find out the area of the region with slanting lines in the figure. All three rectangles have the same dimensions (Fig. 1)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.727,
+            0.433,
+            0.882,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.727,
+                0.433,
+                0.882,
+                0.582
+              ],
+              "image_path": "images/page_17_image_16.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 17,
+              "bbox": [
+                0.797,
+                0.587,
+                0.84,
+                0.602
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.64,
+            0.342,
+            0.658
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Anusha’s method:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.658,
+            0.579,
+            0.678
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Required area = Area (ABCD) – Area (EFGH)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.152,
+            0.678,
+            0.333,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of ABCD = x"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.152,
+            0.696,
+            0.335,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of EFGH = xy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.152,
+            0.714,
+            0.382,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Required "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{arc} \\underline{a} = x^{2} - \\overline{x} y."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 23,
+          "bbox": [
+            0.714,
+            0.615,
+            0.889,
+            0.756
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 23,
+              "bbox": [
+                0.714,
+                0.615,
+                0.889,
+                0.756
+              ],
+              "image_path": "images/page_17_image_23.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.151,
+            0.778,
+            0.365,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Vaishnavi’s method:",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.332,
+            0.797,
+            0.464,
+            0.832
+          ],
+          "image_path": "images/page_17_equation_25.jpg",
+          "content": "\\begin{array} { l } { { \\mathrm { Q S } = y + x + y } } \\\\ { { \\quad = x + 2 y . } } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 26,
+          "bbox": [
+            0.232,
+            0.833,
+            0.474,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "PQSR = x(x + 2y)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 27,
+          "bbox": [
+            0.15,
+            0.852,
+            0.708,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Required area = Area of PQSR – (area of the three rectangles)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 28,
+          "bbox": [
+            0.31,
+            0.888,
+            0.476,
+            0.908
+          ],
+          "image_path": "images/page_17_equation_28.jpg",
+          "content": "x \\left( x + 2y \\right) - 3xy."
+        },
+        {
+          "type": "image",
+          "index": 29,
+          "bbox": [
+            0.702,
+            0.764,
+            0.89,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 29,
+              "bbox": [
+                0.702,
+                0.764,
+                0.89,
+                0.907
+              ],
+              "image_path": "images/page_17_image_29.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 30,
+          "bbox": [
+            0.872,
+            0.915,
+            0.919,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "153"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

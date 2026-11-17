@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.598,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "109"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.135,
+            0.114,
+            0.399,
+            0.137
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.132,
+            0.154,
+            0.854,
+            0.251
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The method used in solving this problem is called the Elimination Method because we eliminate one of the variables to obtain a linear equation in the other variable. In the example above, we eliminated y. Try the same problem by eliminating x instead of y. Also try to solve the two equations using the Substitution Method. Assess the pros and cons of each method."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.116,
+            0.263,
+            0.882,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 10:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The sum of a two-digit number and the number obtained by reversing its digits is 66. If the digits of the number differ by 2, find the number. How many such numbers are there?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.328,
+            0.883,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let the ten’s and the unit’s digits in the first number be x and y, respectively. Also let us assume that x is the larger digit and y is the smaller one. So, the first number may be written as 10x + y in the expanded form (for example, 73 = 10 × 7 + 3)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.409,
+            0.882,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the digits are reversed, x becomes the unit’s digit and y becomes the ten’s digit. This number, in the expanded notation, is 10y + x (for example, when 73 is reversed, we get 37 = 10 × 3 + 7)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.473,
+            0.879,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "According to the given condition, we have (10x + y) + (10y + x) = 66. Thus"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.361,
+            0.516,
+            0.879,
+            0.538
+          ],
+          "image_path": "images/page_24_equation_8.jpg",
+          "content": "11(x + y) = 66, \\quad  i.e., \\quad x + y = 6\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.153,
+            0.541,
+            0.663,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are also given that the digits differ by 2, i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.456,
+            0.567,
+            0.879,
+            0.587
+          ],
+          "image_path": "images/page_24_equation_10.jpg",
+          "content": "x - y = 2\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.116,
+            0.591,
+            0.881,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solving (1) and (2) by elimination, we get x = 4 and y = 2, so, the two-digit number is 42."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.116,
+            0.646,
+            0.881,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The number 42 and its reverse 24 when added gives 66, and this is the unique solution."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.135,
+            0.7,
+            0.4,
+            0.723
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.132,
+            0.74,
+            0.854,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Does a pair of linear equations always have a unique solution? Can you analyse this using the Elimination Method? While subtracting the equations to eliminate a particular variable, if the other variable remains, then clearly there is a unique solution. But what if the second variable gets eliminated too while eliminating the first variable? Can you think of a situation where this happens?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

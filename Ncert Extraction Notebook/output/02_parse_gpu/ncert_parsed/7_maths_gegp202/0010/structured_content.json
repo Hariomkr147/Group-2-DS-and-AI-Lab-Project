@@ -1,0 +1,715 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.644,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Operations with Integers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.577,
+            0.184
+          ],
+          "content": "Even when the multiplier is negative, the same pattern is observed. When the multiplicand is negative, for every unit **decrease** in the multiplier, the product **increases** by the multiplicand."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.089,
+            0.726,
+            0.107
+          ],
+          "content": "4 \\times ( - 3) = - 12",
+          "image_source": "images/page_9_equation_2.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.117,
+            0.715,
+            0.136
+          ],
+          "content": "3 \\times ( - 3 ) = - 9",
+          "image_source": "images/page_9_equation_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.145,
+            0.714,
+            0.165
+          ],
+          "content": "2 \\times ( - 3 ) = - 6",
+          "image_source": "images/page_9_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.184,
+            0.577,
+            0.261
+          ],
+          "content": "We can see from these patterns that, what is true for multiplication when the integers are positive, is also true when the integers are negative."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.595,
+            0.175,
+            0.714,
+            0.194
+          ],
+          "content": "1 \\times ( - 3 ) = - 3",
+          "image_source": "images/page_9_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.203,
+            0.704,
+            0.221
+          ],
+          "content": "0 \\times ( - 3 ) = 0",
+          "image_source": "images/page_9_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.595,
+            0.231,
+            0.727,
+            0.252
+          ],
+          "content": "(-1) \\times (-3) = 3",
+          "image_source": "images/page_9_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.259,
+            0.726,
+            0.282
+          ],
+          "content": "(-2) \\times (-3) = 6",
+          "image_source": "images/page_9_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.594,
+            0.289,
+            0.728,
+            0.309
+          ],
+          "content": "(-3) \\times (-3) = 9",
+          "image_source": "images/page_9_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.324,
+            0.847,
+            0.383
+          ],
+          "content": "With this understanding of multiplication of integers, let us look at the times 3 tables when the multipliers and multiplicands are positive, and when they are negative."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.407,
+            0.285,
+            0.425
+          ],
+          "content": "1 \\times 3 = \\quad 3",
+          "image_source": "images/page_9_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.407,
+            0.467,
+            0.425
+          ],
+          "content": "-1 \\times 3 = -3",
+          "image_source": "images/page_9_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.526,
+            0.407,
+            0.64,
+            0.425
+          ],
+          "content": "1 \\times - 3 = - 3",
+          "image_source": "images/page_9_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.693,
+            0.407,
+            0.809,
+            0.425
+          ],
+          "content": "-1 \\times -3 = 3",
+          "image_source": "images/page_9_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.427,
+            0.283,
+            0.443
+          ],
+          "content": "2 \\times 3 = 6",
+          "image_source": "images/page_9_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.346,
+            0.427,
+            0.467,
+            0.443
+          ],
+          "content": "-2 \\times 3 = -6",
+          "image_source": "images/page_9_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.526,
+            0.427,
+            0.64,
+            0.443
+          ],
+          "content": "2 \\times -3 = -6",
+          "image_source": "images/page_9_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.694,
+            0.427,
+            0.808,
+            0.443
+          ],
+          "content": "-2 \\times -3 = 6",
+          "image_source": "images/page_9_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.446,
+            0.283,
+            0.462
+          ],
+          "content": "3 \\times 3 = 9",
+          "image_source": "images/page_9_equation_20.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.446,
+            0.467,
+            0.462
+          ],
+          "content": "-3 \\times 3 = -9",
+          "image_source": "images/page_9_equation_21.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.446,
+            0.64,
+            0.462
+          ],
+          "content": "3 \\times - 3 = - 9",
+          "image_source": "images/page_9_equation_22.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.693,
+            0.446,
+            0.808,
+            0.462
+          ],
+          "content": "-3 \\times -3 = 9",
+          "image_source": "images/page_9_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.187,
+            0.465,
+            0.283,
+            0.481
+          ],
+          "content": "4 \\times 3 = 1 2",
+          "image_source": "images/page_9_equation_24.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.465,
+            0.466,
+            0.481
+          ],
+          "content": "- 4 \\times 3 = - 1 2",
+          "image_source": "images/page_9_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.465,
+            0.64,
+            0.481
+          ],
+          "content": "4 \\times -3 = -12",
+          "image_source": "images/page_9_equation_26.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.693,
+            0.464,
+            0.808,
+            0.481
+          ],
+          "content": "-4 \\times -3 = 12",
+          "image_source": "images/page_9_equation_27.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.484,
+            0.283,
+            0.501
+          ],
+          "content": "5 \\times 3 = 1 5",
+          "image_source": "images/page_9_equation_28.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.484,
+            0.467,
+            0.501
+          ],
+          "content": "-5 \\times 3 = -15",
+          "image_source": "images/page_9_equation_29.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.484,
+            0.64,
+            0.501
+          ],
+          "content": "5 \\times - 3 \\equiv - 1 5",
+          "image_source": "images/page_9_equation_30.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.692,
+            0.484,
+            0.809,
+            0.501
+          ],
+          "content": "-5 \\times -3 = 15",
+          "image_source": "images/page_9_equation_31.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.503,
+            0.283,
+            0.519
+          ],
+          "content": "6 \\times 3 = 1 8",
+          "image_source": "images/page_9_equation_32.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.503,
+            0.467,
+            0.52
+          ],
+          "content": "-6 \\times 3 = -18",
+          "image_source": "images/page_9_equation_33.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.503,
+            0.64,
+            0.52
+          ],
+          "content": "6 \\times - 3 = - 18",
+          "image_source": "images/page_9_equation_34.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.692,
+            0.503,
+            0.809,
+            0.52
+          ],
+          "content": "-6 \\times -3 = 18",
+          "image_source": "images/page_9_equation_35.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.522,
+            0.282,
+            0.539
+          ],
+          "content": "7 \\times 3 = 2 1",
+          "image_source": "images/page_9_equation_36.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.522,
+            0.466,
+            0.539
+          ],
+          "content": "-7 \\times 3 = -21",
+          "image_source": "images/page_9_equation_37.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.525,
+            0.521,
+            0.639,
+            0.539
+          ],
+          "content": "7 \\times -3 = -21",
+          "image_source": "images/page_9_equation_38.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.692,
+            0.522,
+            0.807,
+            0.539
+          ],
+          "content": "-7 \\times -3 = 21",
+          "image_source": "images/page_9_equation_39.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.187,
+            0.541,
+            0.283,
+            0.558
+          ],
+          "content": "8 \\times 3 = 2 4",
+          "image_source": "images/page_9_equation_40.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.541,
+            0.467,
+            0.558
+          ],
+          "content": "-8 \\times 3 = -24",
+          "image_source": "images/page_9_equation_41.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.523,
+            0.541,
+            0.64,
+            0.558
+          ],
+          "content": "8x - 3 = -24",
+          "image_source": "images/page_9_equation_42.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.691,
+            0.541,
+            0.809,
+            0.558
+          ],
+          "content": "-8 \\times -3 = 24",
+          "image_source": "images/page_9_equation_43.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.187,
+            0.56,
+            0.283,
+            0.577
+          ],
+          "content": "9 \\times 3 = 2 7",
+          "image_source": "images/page_9_equation_44.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.56,
+            0.466,
+            0.577
+          ],
+          "content": "-9 \\times 3 = -27",
+          "image_source": "images/page_9_equation_45.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.523,
+            0.56,
+            0.64,
+            0.577
+          ],
+          "content": "9 \\times -3 = -27",
+          "image_source": "images/page_9_equation_46.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.69,
+            0.56,
+            0.809,
+            0.577
+          ],
+          "content": "-9 \\times -3 = 27",
+          "image_source": "images/page_9_equation_47.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.177,
+            0.579,
+            0.283,
+            0.597
+          ],
+          "content": "10 \\times 3 = 30",
+          "image_source": "images/page_9_equation_48.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337,
+            0.579,
+            0.467,
+            0.597
+          ],
+          "content": "-10 \\times 3 = -30",
+          "image_source": "images/page_9_equation_49.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.514,
+            0.579,
+            0.64,
+            0.596
+          ],
+          "content": "10 \\times -3 = -30",
+          "image_source": "images/page_9_equation_50.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.681,
+            0.579,
+            0.809,
+            0.597
+          ],
+          "content": "-10 \\times -3 = 30",
+          "image_source": "images/page_9_equation_51.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.61,
+            0.41,
+            0.629
+          ],
+          "content": "We observe the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.634,
+            0.846,
+            0.673
+          ],
+          "content": "• The magnitude of the product does not change with the change in the signs of the multiplier and the multiplicand."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.676,
+            0.846,
+            0.716
+          ],
+          "content": "When both the multiplier and the multiplicand are **positive**, the product is **positive**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.719,
+            0.846,
+            0.759
+          ],
+          "content": "When both the multiplier and the multiplicand are **negative**, the product is **positive**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.762,
+            0.847,
+            0.802
+          ],
+          "content": "When one of the multiplier or the multiplicand is **positive** and the other is negative, their product is **negative**."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.811,
+            0.315,
+            0.835
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.845,
+            0.43,
+            0.864
+          ],
+          "content": "Find the following products."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.189,
+            0.869,
+            0.311,
+            0.888
+          ],
+          "content": "( \\mathsf { a } ) \\setminus 4 \\times ( - 3 )",
+          "image_source": "images/page_9_equation_59.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.513,
+            0.869,
+            0.663,
+            0.888
+          ],
+          "content": "( \\mathrm { b } ) \\quad ( - 6 ) \\times ( - 3 )",
+          "image_source": "images/page_9_equation_60.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "33"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

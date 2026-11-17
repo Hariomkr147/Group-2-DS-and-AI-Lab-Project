@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.035,
+            0.108,
+            0.097,
+            0.142
+          ],
+          "content": []
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.1,
+            0.106,
+            0.216,
+            0.143
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Threads of Curiosity",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.041,
+            0.153,
+            0.204,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solving problems directly through Newton’s laws can become cumbersome in many cases. Conservation of mechanical energy may offer a simpler route. By keeping track of the total mechanical energy, we can often find the final speed or the position of an object without working through all the detailed steps of the intermediate motion of an object."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 3,
+          "bbox": [
+            0.224,
+            0.087,
+            0.889,
+            0.122
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7.8: What will be the magnitude of velocity of the child on reaching the bottom of the slide of height h?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.224,
+            0.125,
+            0.813,
+            0.144
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Potential energy of the child at the top of the slide = mgh"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.224,
+            0.145,
+            0.889,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let the magnitude of velocity of the child on reaching the bottom of the slide be v. Then, the kinetic energy of the child at the bottom of the slide "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ = } { \\frac { 1 } { 2 } } m \\nu ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.223,
+            0.222,
+            0.89,
+            0.275
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The potential energy of the child at the top of the slide gets converted entirely to the child’s kinetic energy at the bottom of the slide (neglecting the effects of friction). Thus, equating the two, we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.257,
+            0.277,
+            0.377,
+            0.314
+          ],
+          "image_path": "images/page_12_equation_7.jpg",
+          "content": "\\frac { 1 } { 2 } m \\upsilon ^ { 2 }   = m g h"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.257,
+            0.318,
+            0.362,
+            0.341
+          ],
+          "image_path": "images/page_12_equation_8.jpg",
+          "content": "\\nu = { \\sqrt { \\left( 2 g h \\right) } } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.222,
+            0.345,
+            0.891,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As this velocity of the child at the bottom of the slide depends only upon the height h, the shape of the slide or the mass of the child should not matter. "
+            },
+            {
+              "type": "text",
+              "content": "Example 7.9:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Escape ramps (Fig. 7.21) are inclined planes filled with sand or gravel that help stop trucks when their brakes fail on a highway. A truck of mass 10000 kg is moving at 72 km "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { h } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " when its brakes fail. The driver steers it onto an escape ramp inclined at 30°, where the truck comes to a rest. If the sand exerts a force of 50000 N opposite to truck’s motion, what is the minimum length of the ramp to be able to stop such a truck? Take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g = 10    m     s ^{-2}"
+            },
+            {
+              "type": "text",
+              "content": " (Hint: For a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " incline, the truck rises 1 m vertically for every 2 m it travels along the ramp)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.047,
+            0.525,
+            0.281,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.047,
+                0.525,
+                0.281,
+                0.643
+              ],
+              "image_path": "images/page_12_image_10.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.084,
+                0.645,
+                0.248,
+                0.661
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.21: Escape ramp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.288,
+            0.521,
+            0.746,
+            0.539
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "nswer: e oc y o e ruc m A V l it f th t k = 72 k "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{h}^{-1}=20\\mathrm{~m}\\mathrm{~s}^{-1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.287,
+            0.529,
+            0.898,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Initial kinetic energy of the truck "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{2}mv^{2}=\\frac{1}{2}\\times10000\\  kg \\times\\left(20\\  ms ^{-1}\\right)^{2}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.288,
+            0.598,
+            0.615,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Initial potential energy of truck = 0 J"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.288,
+            0.62,
+            0.889,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Total initial energy of truck = Initial kinetic energy + Initial potential energy = 2000000 J + 0 J = 2000000 J"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.224,
+            0.683,
+            0.888,
+            0.749
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us assume that the truck travels a distance d along the ramp. Then, Height gained by the truck on "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\operatorname { r a n p } = { \\frac { d } { 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " (using hint given in the question) Final kinetic energy of truck = 0 J"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.222,
+            0.748,
+            0.889,
+            0.801
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Final potential energy of truck mg   = × "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{d}{2}=10000\\mathrm{kg}\\times10\\mathrm{ms}^{-2}\\times\\frac{d}{2}=50000\\mathrm{N}\\times d"
+            },
+            {
+              "type": "text",
+              "content": " Total final energy "
+            },
+            {
+              "type": "equation_inline",
+              "content": "=0\\;J+50000\\;N\\times d"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.225,
+            0.801,
+            0.807,
+            0.841
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Change in total energy of the truck = Final energy – Initial energy = (50000 N × d) – 2000000 J"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.224,
+            0.845,
+            0.621,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Work done by sand on truck = – 50000 N × d"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.224,
+            0.868,
+            0.484,
+            0.888
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using work-energy theorem,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.224,
+            0.89,
+            0.808,
+            0.91
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Work done by sand on truck = Change in total energy of the truck"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.253,
+            0.913,
+            0.621,
+            0.932
+          ],
+          "image_path": "images/page_12_equation_22.jpg",
+          "content": "-50000\\mathrm{~N} \\times d = (50000\\mathrm{~N} \\times d) - 2000000\\mathrm{~J}"
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "128"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 24,
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

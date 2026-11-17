@@ -1,0 +1,219 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.847,
+            0.189
+          ],
+          "content": "Such problems and solutions were well understood in ancient India. In fact, a very systematic way to solve problems with single unknowns was first proposed by Aryabhata (499 CE) and Brahmagupta has outlined it in his Brāhmasphuṭasiddhānta (628 CE). Let us understand his method. Let us look at a few equations of the following form:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.341,
+            0.204,
+            0.656,
+            0.223
+          ],
+          "content": "5x + 4 = 3x + 8, \\quad  for  \\quad 3x - 6 = 2x + 4.",
+          "image_source": "images/page_20_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.243,
+            0.848,
+            0.325
+          ],
+          "content": "Can we come up with a formula to solve these equations? That is, for the first equation, can we perform some operations using 5, 4, 3, and 8 that will directly give us the solution? Using a similar method, can you solve the second equation using the numbers $3 , - 6 , 2$ and 4?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.328,
+            0.849,
+            0.369
+          ],
+          "content": "the four numbers as A, B, C, and D. That is,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.42,
+            0.38,
+            0.576,
+            0.398
+          ],
+          "content": "\\mathrm{A}x + \\mathrm{B} = \\mathrm{C}x + \\mathrm{D}.",
+          "image_source": "images/page_20_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.408,
+            0.847,
+            0.448
+          ],
+          "content": "Brahmagupta gives the solution to equations of this form with this formula:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.441,
+            0.453,
+            0.555,
+            0.489
+          ],
+          "content": "x = \\frac{D - B}{A - C}",
+          "image_source": "images/page_20_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.497,
+            0.75,
+            0.519
+          ],
+          "content": "Using this approach, we can find the solution to the equation:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.365,
+            0.534,
+            0.634,
+            0.554
+          ],
+          "content": "650m \\mp 4000 = 500m \\mp 5050",
+          "image_source": "images/page_20_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.563,
+            0.37,
+            0.584
+          ],
+          "content": "simply by calculating,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.412,
+            0.599,
+            0.583,
+            0.637
+          ],
+          "content": "\\frac{m}{}=\\frac{5050-4000}{650-500}",
+          "image_source": "images/page_20_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.646,
+            0.753,
+            0.669
+          ],
+          "content": "? Using this formula can you solve this equation $2x + 3 = 4x + 5?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.673,
+            0.847,
+            0.732
+          ],
+          "content": "Ancient Indian mathematicians were excellent at converting complex mathematical ideas into simple procedures so that everyone could use these procedures to solve problems!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.732,
+            0.848,
+            0.831
+          ],
+          "content": "Bījagaṇita or algebra is the branch of mathematics that uses letter symbols to solve mathematical problems. We have seen some examples in previous pages. By studying algebra, we learn to **generalise patterns**— in numbers, shapes, and situations. We express these generalisations using the language of algebra, which is both precise and powerful."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.831,
+            0.849,
+            0.89
+          ],
+          "content": "Bījagaṇita also gives us a way to justify mathematical claims (like why the sum of two odd numbers is always even) and to solve problems of many kinds."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.157,
+            0.934,
+            0.193,
+            0.95
+          ],
+          "content": "184"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

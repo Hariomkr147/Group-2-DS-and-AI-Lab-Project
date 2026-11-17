@@ -1,0 +1,274 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "A Tale of Three Intersecting Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.162
+          ],
+          "content": "We can be sure of the existence of a triangle only if we can show that the circles intersect internally (as in Fig. 7.5) whenever the triangle inequality is satisfied. But are there other possibilities when the two circles are constructed? Let us visualise and study them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.162,
+            0.648,
+            0.181
+          ],
+          "content": "The following different cases can be conceived:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.211,
+            0.2,
+            0.484,
+            0.33
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.178,
+                0.334,
+                0.498,
+                0.353
+              ],
+              "content": "Case 1: Circles touch each other"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.528,
+            0.2,
+            0.813,
+            0.331
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.523,
+                0.334,
+                0.822,
+                0.352
+              ],
+              "content": "Case 2: Circles do not intersect"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_11_image_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.375,
+            0.367,
+            0.624,
+            0.501
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.272,
+            0.512,
+            0.726,
+            0.531
+          ],
+          "content": "**Case 3:** Circles intersect each other internally"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.543,
+            0.657,
+            0.562
+          ],
+          "content": "Note that while constructing the circles, we take"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.569,
+            0.714,
+            0.588
+          ],
+          "content": "(a) the length of the base AB = longest of the given length"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.179,
+            0.591,
+            0.698,
+            0.61
+          ],
+          "content": "(b) the radii of the circles to be the smaller two lengths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.615,
+            0.848,
+            0.672
+          ],
+          "content": "Which of the above-mentioned cases will lead to the formation of a triangle? Clearly, triangles are formed only when the circles intersect each other internally (Case 3)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.678,
+            0.147,
+            0.703
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.68,
+            0.846,
+            0.721
+          ],
+          "content": "Let us study each of these cases by finding the relation between the radii (the smaller two lengths) and AB (longest length)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.741,
+            0.595,
+            0.761
+          ],
+          "content": "**Case 1: Circles touch each other at a point**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.765,
+            0.391,
+            0.785
+          ],
+          "content": "For this case to happen,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.37,
+            0.792,
+            0.628,
+            0.81
+          ],
+          "content": "sum of the two radii  =  AB",
+          "image_source": "images/page_11_equation_17.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.264,
+            0.856,
+            0.734,
+            0.877
+          ],
+          "content": "sum of the two smaller lengths = longest length"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.486,
+            0.828,
+            0.513,
+            0.842
+          ],
+          "content": "or"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.806,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

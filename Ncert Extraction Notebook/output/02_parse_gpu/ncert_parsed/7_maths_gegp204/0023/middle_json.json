@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.596,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another Peek Beyond the Point"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.351,
+            0.088,
+            0.603,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is the year divisible by 4?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.342,
+            0.114,
+            0.612,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.342,
+                0.114,
+                0.612,
+                0.186
+              ],
+              "image_path": "images/page_22_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.196,
+            0.189,
+            0.416,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The year has 366 days"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.538,
+            0.189,
+            0.757,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The year has 365 days"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.234,
+            0.604,
+            0.28
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Do you know which month has this extra day? Let us see how this solution works."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.154,
+            0.289,
+            0.846,
+            0.363
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.154,
+                0.289,
+                0.846,
+                0.363
+              ],
+              "image_path": "images/page_22_table_6.jpg",
+              "content": "<table><tbody><tr><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td><td>Year 6</td><td>Year 7</td><td>Year 8</td><td>…</td></tr><tr><td>365</td><td>365</td><td>365</td><td>366</td><td>365</td><td>365</td><td>365</td><td>366</td><td>…</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.374,
+            0.846,
+            0.413
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Looking at the above sequence, the number of days after 4 calendar years is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.383,
+            0.412,
+            0.614,
+            0.431
+          ],
+          "image_path": "images/page_22_equation_8.jpg",
+          "content": "4 \\times 3 6 5 + 1 = 1 4 6 1 { \\mathrm { ~ d a y s } } ."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.436,
+            0.846,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the number of days that the Earth needs to make 4 full revolutions around the Sun?"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.349,
+            0.48,
+            0.647,
+            0.499
+          ],
+          "image_path": "images/page_22_equation_10.jpg",
+          "content": "4 \\times 365.2422 = 1460.9688   days."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.514,
+            0.803,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? With this new scheme of adding one extra day every 4th year, what is the number of days in 100 calendar years? Can you write an expression to calculate that number?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.816,
+            0.508,
+            0.904,
+            0.572
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.816,
+                0.508,
+                0.904,
+                0.572
+              ],
+              "image_path": "images/page_22_image_12.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.578,
+            0.847,
+            0.637
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is one way to form the expression. Each calendar year has 365 days. In 100 calendar years, the number of days is 100 × 365. But years that are divisible by 4 have one extra day."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.645,
+            0.624,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many years are divisible by 4 in 100 years?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.174,
+            0.671,
+            0.642,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the number of days in 100 calendar years is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.329,
+            0.691,
+            0.667,
+            0.727
+          ],
+          "image_path": "images/page_22_equation_16.jpg",
+          "content": "(100 \\times 365 + \\frac{100}{4} \\times 1) = 36,525   days."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.732,
+            0.724,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you form different expressions for the same question?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 18,
+          "bbox": [
+            0.816,
+            0.718,
+            0.903,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 18,
+              "bbox": [
+                0.816,
+                0.718,
+                0.903,
+                0.773
+              ],
+              "image_path": "images/page_22_image_18.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.759,
+            0.8,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The actual number of days that the Earth takes to go around the Sun 100 times is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.355,
+            0.797,
+            0.667,
+            0.816
+          ],
+          "image_path": "images/page_22_equation_20.jpg",
+          "content": "1 0 0 \\times 3 6 5 . 2 4 2 2 = 3 6 , 5 2 4 . 2 2 \\; \\mathrm { d a y s } ."
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.151,
+            0.817,
+            0.848,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, by adding a day every fourth year, after 100 years, the calendar days are more than the actual number of days taken by the Earth to go around the Sun. We have overcompensated."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.812,
+            0.934,
+            0.838,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "89"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

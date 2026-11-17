@@ -1,0 +1,309 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.879,
+            0.914,
+            0.908,
+            0.935
+          ],
+          "content": "11"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.689,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "Fractions in Disguise"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.088,
+            0.651,
+            0.11
+          ],
+          "content": "The percentage target achieved is visualised below."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.228,
+            0.123,
+            0.472,
+            0.227
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_chart_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.277,
+            0.227,
+            0.41,
+            0.252
+          ],
+          "content": "\\frac{2000}{5000} \\times 100 = 40\\%",
+          "image_source": "images/page_10_equation_4.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.527,
+            0.123,
+            0.77,
+            0.227
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.576,
+                0.227,
+                0.708,
+                0.251
+              ],
+              "content": "3500 5000 × 100 = 70%"
+            }
+          ],
+          "image_source": "images/page_10_chart_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.279,
+            0.249,
+            0.425,
+            0.276
+          ],
+          "content": "40\\% = \\frac{40}{100} = \\frac{2}{5} = 0.4",
+          "image_source": "images/page_10_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.577,
+            0.249,
+            0.731,
+            0.276
+          ],
+          "content": "70\\% = \\frac{70}{100} = \\frac{7}{10} = 0.7",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.282,
+            0.511,
+            0.302
+          ],
+          "content": "It is 40% on Day 1 and 70% on Day 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.301,
+            0.845,
+            0.34
+          ],
+          "content": "Another way of saying it is — he was 60% short of his target on Day 1 and 30% short of his target on Day 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.341,
+            0.846,
+            0.382
+          ],
+          "content": "? In the next two days, he made ₹5000 and ₹6000 respectively. What percentage of his target are these values?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.384,
+            0.846,
+            0.423
+          ],
+          "content": "His target is ₹5000, and he made ₹5000 on Day 3 — this is 100%. On Day 4, he made ₹6000, which is 1000 more than his target."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.423,
+            0.683,
+            0.449
+          ],
+          "content": "? What percentage of the target was achieved on Day 4?"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.208,
+            0.459,
+            0.489,
+            0.556
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_chart_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.25,
+            0.555,
+            0.395,
+            0.58
+          ],
+          "content": "\\frac{5000}{5000} \\times 100 = 100\\%",
+          "image_source": "images/page_10_equation_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.523,
+            0.459,
+            0.793,
+            0.556
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.57,
+            0.555,
+            0.715,
+            0.58
+          ],
+          "content": "\\frac{6000}{5000} \\times 100 = 120\\%",
+          "image_source": "images/page_10_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.247,
+            0.578,
+            0.4,
+            0.604
+          ],
+          "content": "100\\% = \\frac{100}{100} = \\frac{1}{1} = 1.0",
+          "image_source": "images/page_10_equation_18.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.566,
+            0.578,
+            0.719,
+            0.604
+          ],
+          "content": "120\\% = \\frac{120}{100} = \\frac{6}{5} = 1.2",
+          "image_source": "images/page_10_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.61,
+            0.846,
+            0.675
+          ],
+          "content": "1000 is 20% of 5000. Therefore, 6000, (5000 + 1000) is $100\\% + 20\\%$ = 120% of 5000. It can also be computed as $\\frac{6000}{5000} \\times 100 = \\frac{6}{5} \\times 100 = 120\\%.$ This means he achieved 120% of his target, i.e., 20% more than his target."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.676,
+            0.846,
+            0.718
+          ],
+          "content": "？ On Days 5 and 6 his sales were ₹7800 and ₹9550 respectively. Calculate the percentage of the target achieved on these days."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.249,
+            0.725,
+            0.727,
+            0.825
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_22.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.273,
+            0.842,
+            0.726,
+            0.936
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_chart_23.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:28:46+05:30",
+      "modified_at": "2025-12-29T16:48:09+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

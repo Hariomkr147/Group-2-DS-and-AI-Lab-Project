@@ -1,0 +1,21 @@
+## 2.1 Doubling a Square
+
+In Baudhāyana’s Śulba-Sūtra (c. 800 BCE), Baudhāyana considers the following question:
+
+? How can one construct a square having double the area of a given square?
+
+A first guess might be to simply double the length of each side of the square. Will this new square have double the area of the original square?
+
+![](images/page_0_image_9.jpg)
+
+It’s not hard to see that the new square will have area $2 \times 2 = 4$ times the area of the original square:
+
+![](images/page_0_image_11.jpg)
+
+![](images/page_0_image_12.jpg)
+
+So how can one make a square that has double the area? Baudhāyana in his Śulba-Sūtra (Verse 1.9) gave an elegant answer to this question:
+
+The diagonal of a square produces a square of double the area of the original square.
+
+As Baudhāyana says, the key is to construct a square on the diagonal of the original square:

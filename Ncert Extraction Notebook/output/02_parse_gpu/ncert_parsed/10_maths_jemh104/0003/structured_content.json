@@ -1,0 +1,418 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.128,
+            0.119
+          ],
+          "content": "40"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.138,
+            0.607,
+            0.207
+          ],
+          "content": "Therefore, their product $= \\left( x - 5 \\right) \\left( 40 - x \\right)$ $= 40x - x^{2} - 200 + 5x$ $= -x^{2} + 45x - 200$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.214,
+            0.77,
+            0.234
+          ],
+          "content": "So, $-x^{2}+45x-200=124$ (Given that product = 124)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.239,
+            0.433,
+            0.258
+          ],
+          "content": "i.e., $-x^{2}+45x-324=0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.264,
+            0.433,
+            0.284
+          ],
+          "content": "i.e., $x^{2}-45x+324=0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.291,
+            0.868,
+            0.309
+          ],
+          "content": "Therefore, the number of marbles John had, satisfies the quadratic equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.322,
+            0.315,
+            0.514,
+            0.333
+          ],
+          "content": "x^{2}-45x+324=0",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.341,
+            0.793,
+            0.36
+          ],
+          "content": "which is the required representation of the problem mathematically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.366,
+            0.633,
+            0.385
+          ],
+          "content": "(ii) Let the number of toys produced on that day be x."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.391,
+            0.858,
+            0.435
+          ],
+          "content": "Therefore, the cost of production (in rupees) of each toy that day = 55 – x So, the total cost of production (in rupees) that day $x \\left( 55 - x \\right)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.441,
+            0.257,
+            0.46
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.441,
+            0.537,
+            0.461
+          ],
+          "content": "x \\left( 55 - x \\right) = 750",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.467,
+            0.19,
+            0.485
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.466,
+            0.536,
+            0.485
+          ],
+          "content": "55x - x^{2} = 750",
+          "image_source": "images/page_2_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.492,
+            0.19,
+            0.511
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.492,
+            0.515,
+            0.511
+          ],
+          "content": "-x^{2}+55x-750=0",
+          "image_source": "images/page_2_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.518,
+            0.19,
+            0.535
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.324,
+            0.516,
+            0.514,
+            0.535
+          ],
+          "content": "x^{2}-55x+750=0",
+          "image_source": "images/page_2_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.542,
+            0.901,
+            0.562
+          ],
+          "content": "Therefore, the number of toys produced that day satisfies the quadratic equation"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.319,
+            0.567,
+            0.515,
+            0.586
+          ],
+          "content": "x^{2}-55x+750=0",
+          "image_source": "images/page_2_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.593,
+            0.791,
+            0.612
+          ],
+          "content": "which is the required representation of the problem mathematically."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.625,
+            0.742,
+            0.644
+          ],
+          "content": "**Example 2 :** Check whether the following are quadratic equations:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.239,
+            0.65,
+            0.474,
+            0.668
+          ],
+          "content": "(i) $(x - 2)^{2} \\pm \\underline{1} = 2x - 3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.567,
+            0.65,
+            0.885,
+            0.669
+          ],
+          "content": "(ii) $x(x + 1) + 8 = (x + 2)(x - 2)$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.231,
+            0.682,
+            0.453,
+            0.702
+          ],
+          "content": "x(2x + 3) = x^{2} + 1",
+          "image_source": "images/page_2_equation_25.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.561,
+            0.683,
+            0.766,
+            0.702
+          ],
+          "content": "\\mathrm{(iv)} \\left(x + 2\\right)^{3} = x^{3} - 4",
+          "image_source": "images/page_2_equation_26.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.715,
+            0.205,
+            0.733
+          ],
+          "level": 2,
+          "content": "Solution :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.741,
+            0.622,
+            0.761
+          ],
+          "content": "(i) $\\mathrm{LHS} = (x - 2)^2 + 1 = x^2 - 4x + 4 + 1 = x^2 - 4x + 5$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.776,
+            0.629,
+            0.795
+          ],
+          "content": "Therefore, $(x - 2)^{2} + 1 = 2x - 3$ can be rewritten as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.358,
+            0.803,
+            0.563,
+            0.821
+          ],
+          "content": "x^{2}-4x+5=2x-3",
+          "image_source": "images/page_2_equation_30.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.83,
+            0.191,
+            0.847
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.36,
+            0.828,
+            0.517,
+            0.846
+          ],
+          "content": "x^{2}-6x+8=0",
+          "image_source": "images/page_2_equation_32.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.855,
+            0.473,
+            0.872
+          ],
+          "content": "It is of the form $ax^{2}+bx+c=0$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.88,
+            0.659,
+            0.899
+          ],
+          "content": "Therefore, the given equation is a quadratic equation."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

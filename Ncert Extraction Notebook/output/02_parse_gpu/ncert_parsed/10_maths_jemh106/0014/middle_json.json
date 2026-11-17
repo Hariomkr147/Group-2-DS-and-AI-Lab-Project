@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "86"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.139,
+            0.902,
+            0.236
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here, you can see that A corresponds to D, B corresponds to E and C corresponds to F. Symbolically, we write the similarity of these two triangles as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta  ABC  \\sim \\Delta  DEF"
+            },
+            {
+              "type": "text",
+              "content": " and read it as ‘triangle ABC is similar to triangle DEF’. The symbol ‘~’ stands for ‘is similar to’. Recall that you have used the symbol ‘ ’ for ‘is congruent to’ in Class IX."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.114,
+            0.261,
+            0.885,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It must be noted that as done in the case of congruency of two triangles, the similarity of two triangles should also be expressed symbolically, using correct correspondence of their vertices. For example, for the triangles ABC and DEF of Fig. 6.22, we cannot write ∆ ABC ∼ ∆ EDF or ∆ ABC ∼ ∆ FED. However, we can write "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\; \\mathrm { B A C } \\sim \\Delta"
+            },
+            {
+              "type": "text",
+              "content": " EDF."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.378,
+            0.902,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now a natural question arises : For checking the similarity of two triangles, say ABC and DEF, should we always look for all the equality relations of their corresponding angles "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\angle \\mathrm{A} = \\angle \\mathrm{D}, \\angle \\mathrm{B} = \\angle \\mathrm{E}, \\angle \\mathrm{C} = \\angle \\mathrm{F} \\right)"
+            },
+            {
+              "type": "text",
+              "content": " and all the equality relations of the ratios of their corresponding sides "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\frac{\\mathrm{AB}}{\\mathrm{DE}} = \\frac{\\mathrm{BC}}{\\mathrm{EF}} = \\frac{\\mathrm{CA}}{\\mathrm{FD}} \\right)"
+            },
+            {
+              "type": "text",
+              "content": " Let us examine. You may recall that in Class IX, you have obtained some criteria for congruency of two triangles involving only three pairs of corresponding parts (or elements) of the two triangles. Here also, let us make an attempt to arrive at certain criteria for similarity of two triangles involving relationship between less number of pairs of corresponding parts of the two triangles, instead of all the six pairs of corresponding parts. For this, let us perform the following activity:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.616,
+            0.902,
+            0.695
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 4 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw two line segments BC and EF of two different lengths, say 3 cm and 5 cm respectively. Then, at the points B and C respectively, construct angles PBC and QCB of some measures, say, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " . Also, at the points E and F, construct angles REF and SFE of 60° and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " respectively (see Fig. 6.23)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.175,
+            0.709,
+            0.4,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.175,
+                0.709,
+                0.4,
+                0.878
+              ],
+              "image_path": "images/page_13_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.478,
+            0.707,
+            0.823,
+            0.882
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.478,
+                0.707,
+                0.823,
+                0.882
+              ],
+              "image_path": "images/page_13_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.45,
+                0.883,
+                0.548,
+                0.903
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 6.23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

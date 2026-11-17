@@ -1,0 +1,267 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.645,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "A Peek Beyond the Point"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.183
+          ],
+          "content": "We start by comparing the most significant digits (digits with the highest place value) of the two numbers. If the digits are the same, we compare the next smaller place value. We keep going till we find a position where the digits are not equal. The number with the larger digit at this position is the greater of the two."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.19,
+            0.772,
+            0.247
+          ],
+          "content": "? Why can we stop comparing at this point? Can we be sure that whatever digits are there after this will not affect our conclusion?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.186,
+            0.905,
+            0.238
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.269,
+            0.5,
+            0.289
+          ],
+          "content": "Which decimal number is greater?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.305,
+            0.349,
+            0.324
+          ],
+          "content": "(a) 1.23 or 1.32"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.329,
+            0.37,
+            0.348
+          ],
+          "content": "(b) 3.81 or 13.800"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.353,
+            0.37,
+            0.373
+          ],
+          "content": "(c) 1.009 or 1.090"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.391,
+            0.364,
+            0.412
+          ],
+          "level": 2,
+          "content": "Closest Decimals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.422,
+            0.847,
+            0.46
+          ],
+          "content": "Consider the decimal numbers 0.9, 1.1, 1.01, and 1.11. Identify the decimal number that is closest to 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.46,
+            0.848,
+            0.534
+          ],
+          "content": "Let us compare the decimal numbers. Arranging these in ascending order, we get 0.9 < 1 < 1.01 < 1.1 < 1.11. Among the neighbours of 1, 1.01 is 1/100 away from 1 whereas 0.9 is 10/100 away from 1. Therefore, 1.01 is closest to 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.542,
+            0.522,
+            0.566
+          ],
+          "content": "Which of the above is closest to 1.09?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.584,
+            0.661,
+            0.607
+          ],
+          "content": "Which among these is closest to 4: 3.56, 3.65, 3.099?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.625,
+            0.639,
+            0.649
+          ],
+          "content": "Which among these is closest to 1: 0.8, 0.69, 1.08?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.667,
+            0.798,
+            0.707
+          ],
+          "content": "In each case below use the digits 4, 1, 8, 2, and 5 exactly once and try to make a decimal number as close as possible to 25."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.659,
+            0.905,
+            0.71
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.394,
+            0.718,
+            0.674,
+            0.757
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.447,
+            0.77,
+            0.675,
+            0.81
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.342,
+            0.822,
+            0.625,
+            0.862
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_27_image_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.938,
+            0.841,
+            0.955
+          ],
+          "content": "73"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:00+05:30",
+      "modified_at": "2026-04-07T17:15:05+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 55,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

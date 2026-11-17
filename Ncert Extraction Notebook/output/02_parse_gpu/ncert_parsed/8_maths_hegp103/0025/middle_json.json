@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.136,
+            0.045,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.113,
+            0.086,
+            0.549,
+            0.132
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can we represent this more compactly? We can simply represent this number as"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.415,
+            0.143,
+            0.571,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.415,
+                0.143,
+                0.571,
+                0.201
+              ],
+              "image_path": "images/page_24_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.217,
+            0.848,
+            0.257
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which can be read as ten 60s and one 40, just as we have written in the equation."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.112,
+            0.266,
+            0.598,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Example: Let us try another number — 7530."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.349,
+            0.296,
+            0.65,
+            0.316
+          ],
+          "image_path": "images/page_24_equation_5.jpg",
+          "content": "7530 = (2) \\times 3600 + (5) \\times 60 + 30"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.325,
+            0.459,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, its representation would be"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.358,
+            0.359,
+            0.633,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.358,
+                0.359,
+                0.633,
+                0.409
+              ],
+              "image_path": "images/page_24_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.419,
+            0.848,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that when a number is grouped into powers of 60 for its representation, no power of 60 can occur 60 or more times. If this happens, then 60 of them can be grouped to form the next power of 60. For example, consider the expression—"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.497,
+            0.679,
+            0.553
+          ],
+          "image_path": "images/page_24_equation_9.jpg",
+          "content": "(1) \\times 3600 + (70) \\times 60 + 2 = (1) \\times 60^2 + (60 + 10) \\times 60 + 2 = (1) \\times 60^2 + 60^2 + (10) \\times 60 + 2 = (2) \\times 60^2 + (10) \\times 60 + 2"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.553,
+            0.848,
+            0.591
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, any number can be represented using the numerals from 1–59, along with the numerals for landmark numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.591,
+            0.847,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, what if we make the representation even more compact by dropping the symbols for the different powers of 60 altogether?"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 12,
+          "bbox": [
+            0.178,
+            0.643,
+            0.832,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 12,
+              "bbox": [
+                0.178,
+                0.643,
+                0.832,
+                0.875
+              ],
+              "image_path": "images/page_24_table_12.jpg",
+              "content": "<table><tr><td rowspan=\"2\">Our earlier representation</td><td>640</td><td>7530</td></tr><tr><td><img src=\"images/page_24_table_image_12_1.jpg\"/></td><td><img src=\"images/page_24_table_image_12_2.jpg\"/></td></tr><tr><td>Our compact representation</td><td><img src=\"images/page_24_table_image_12_3.jpg\"/></td><td><img src=\"images/page_24_table_image_12_4.jpg\"/></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.084,
+            0.915,
+            0.119,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7 2"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

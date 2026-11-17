@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.313,
+            0.576,
+            0.377,
+            0.619
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.313,
+                0.576,
+                0.377,
+                0.619
+              ],
+              "image_path": "images/page_14_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.158,
+            0.199,
+            0.849,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.158,
+                0.199,
+                0.849,
+                0.494
+              ],
+              "image_path": "images/page_14_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.669,
+            0.05,
+            0.844,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Connecting the Dots…"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.173,
+            0.112,
+            0.449,
+            0.131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Zero Median Runs Scored!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.172,
+            0.132,
+            0.821,
+            0.17
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In a cricket match, can a team’s median runs scored by a player be 0 but the team’s total score be 407/10?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.184,
+            0.221,
+            0.354,
+            0.321
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In yesterday’s match, the median runs scored by England’s players was 0, and yet the team scored 407 for the loss of 10 wickets."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.36,
+            0.29,
+            0.596,
+            0.333
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SPORTS July 05 2025"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.349,
+            0.342,
+            0.494,
+            0.482
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the 2nd test match following India's 587 in the first innings England scored 407/10 (Zak Crawley 19, Ben Duckett 0. Ollie Pope 0, Joe Root 22. Harry Brook 158, Ben Stokes 0, Jamie Smith 184 Chris Woakes 5, Brydon Carse 0, Josh Tongue 0. Shoaib Bashir 0, and 19 extras; Akash Deep 4/88, M."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.168,
+            0.536,
+            0.829,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Accounting for the extras, the average runs scored by a player in this innings is (407 – 19) ÷ 11 = 35.27."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.153,
+            0.62,
+            0.337,
+            0.639
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Zero vs. No value"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.645,
+            0.847,
+            0.737
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose a player scores 57, 13, 0, 84, — , 51, 27 in a series. Notice that the player played Match 3 and scored 0 runs whereas the player did not play Match 5. So, we consider the total number of matches to be 6 and not 7. We calculate their average runs scored per match as (57 + 13 + 0 + 84 + 51 + 27) ÷ 6."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.741,
+            0.848,
+            0.858
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Sita has a mango tree in her backyard. The number of mangoes the tree gave every month over the last year, from January to December, is 0, 0, 8, 24, 41, 16, 5, 0, 0, 0, 0, 0 respectively. If we want to find the mean or median number of mangoes per month, it would be appropriate to consider only the (summer) months when mangoes are expected to grow."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.807,
+            0.933,
+            0.843,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "111"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

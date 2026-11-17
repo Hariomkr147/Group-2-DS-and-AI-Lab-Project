@@ -1,0 +1,306 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.67,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": "Tales by Dots and Lines"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.181
+          ],
+          "content": "Suppose we include a value 11. The new value included is greater than the (earlier) median — the median can no longer be 8 as there are more values greater than it. Therefore, the median will also increase. The median, now, will be the average of the two middle values 8 and 11, which is 9.5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.181,
+            0.847,
+            0.219
+          ],
+          "content": "We can similarly argue that when a value less than the median is included, the median will decrease."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.234,
+            0.417,
+            0.256
+          ],
+          "level": 2,
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.263,
+            0.695,
+            0.338
+          ],
+          "content": "？ Coach Balwan noted down the weights of the kushti players (wrestlers) and the mean as shown. But one value that was written down got smudged. Can you find out the missing value?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.337,
+            0.684,
+            0.388
+          ],
+          "content": "Sum of weight of all players Average weight of the players = Number of players Let the unknown weight be w kg."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.76,
+            0.296,
+            0.866,
+            0.368
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.208,
+            0.39,
+            0.639,
+            0.417
+          ],
+          "content": "\\frac{42 + 40 + 39 + 33 + 48 + 38 + 42 + 35 + 32 + w}{10} = 39.2.",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.419,
+            0.385,
+            0.44
+          ],
+          "content": "Simplifying this we get,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.712,
+            0.25,
+            0.748,
+            0.43
+          ],
+          "content": "42 40 39 33 48 38 42 3S 32"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.443,
+            0.495,
+            0.462
+          ],
+          "content": "349 + w = 392,",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.406,
+            0.467,
+            0.59,
+            0.486
+          ],
+          "content": "w = 392 - 349 = 43.",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.491,
+            0.415,
+            0.512
+          ],
+          "content": "The missing value is 43 kg."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.521,
+            0.601,
+            0.652
+          ],
+          "content": "? Venkayya keeps track of the coconut harvest in his farm. He calculates the average harvest per tree as 25.6. His son verifies the counts and finds that one tree’s harvest count is incorrectly noted as 3 more than the actual number. Can you find the correct average if the number of trees is 15?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.613,
+            0.456,
+            0.879,
+            0.646
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.652,
+            0.744,
+            0.687
+          ],
+          "content": "Total number of coconuts harvested The average harvest per tree = Number of trees"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.688,
+            0.549,
+            0.708
+          ],
+          "content": "The data of harvest per tree is not given."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.709,
+            0.697,
+            0.732
+          ],
+          "content": "Can we still find out the number of coconuts harvested?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.735,
+            0.845,
+            0.755
+          ],
+          "content": "Let the initial number of coconuts harvested be z. Based on what is given,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.452,
+            0.759,
+            0.546,
+            0.785
+          ],
+          "content": "\\begin{array} { r } { 2 5 . 6 = \\frac { z } { 1 5 } , } \\end{array}",
+          "image_source": "images/page_6_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.785,
+            0.276,
+            0.806
+          ],
+          "content": "Simplifying,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.406,
+            0.81,
+            0.592,
+            0.828
+          ],
+          "content": "z = 25.6 \\times 15 = 384.",
+          "image_source": "images/page_6_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.833,
+            0.598,
+            0.852
+          ],
+          "content": "The initial count of coconuts harvested is 384."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.852,
+            0.845,
+            0.914
+          ],
+          "content": "We know that one tree’s count is 3 more than the actual. Therefore, the actual total harvest count is 384 – 3 = 381. The correct average harvest is $\\textstyle { \\frac { 3 8 1 } { 1 5 } }   =   2 5 . 4 .$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.869,
+            0.913,
+            0.918,
+            0.935
+          ],
+          "content": "109"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:48:54+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

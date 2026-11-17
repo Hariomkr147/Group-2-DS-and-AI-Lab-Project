@@ -1,0 +1,227 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.033,
+            0.062,
+            0.249,
+            0.141
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.238,
+            0.065,
+            0.883,
+            0.123
+          ],
+          "content": "Broad straps reduce the pressure exerted by the bag onNarrow our shoulders as compared to narrow straps. Therefore, we feel more comfortable carrying a bag with broad straps."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.05,
+            0.193,
+            0.274,
+            0.373
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.043,
+                0.143,
+                0.268,
+                0.175
+              ],
+              "content": "Fig. 6.2: Buckets with broad and narrow handles"
+            },
+            {
+              "bbox": [
+                0.096,
+                0.38,
+                0.23,
+                0.413
+              ],
+              "content": "Fig. 6.3: Persons carrying loads"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.283,
+            0.123,
+            0.884,
+            0.253
+          ],
+          "content": "Can you now understand why it feels easier to lift a water-filled bucket with a broad handle than with a narrow handle (Fig. 6.2)? Similarly, we have seen that when people carry loads like pots or vegetable baskets on their heads, they often place a round piece of cloth under the loads (Fig. 6.3). In both cases, the objective is to reduce pressure by increasing the area over which the weight acts."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.282,
+            0.254,
+            0.883,
+            0.329
+          ],
+          "content": "Pressure is defined as the force per unit area. The **SI unit** of **force** is **newton** and that of **area** is **metre**<strong><sup>2</sup></strong>. Therefore, the **SI unit** of **pressure** is **newton/metre2 (N/m2**). This unit is also called a **pascal**, denoted by **Pa**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.283,
+            0.329,
+            0.882,
+            0.369
+          ],
+          "content": "If a force of 100 N is applied on a cardboard of area 2 m<sup>2</sup>, then the pressure applied on the cardboard will be:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.421,
+            0.376,
+            0.744,
+            0.411
+          ],
+          "content": "\\mathrm{pressure} = \\frac{\\mathrm{Fore}}{\\mathrm{Area}} = \\frac{100\\mathrm{~N}}{2\\mathrm{~m}^2} = 50\\mathrm{~N/m}^2",
+          "image_source": "images/page_2_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.254,
+            0.416,
+            0.885,
+            0.492
+          ],
+          "content": "There are many situations in daily life where pressure plays a role. **Conduct** the activities given in Table 6.1 and **record** your observations. **Explain** how pressure influences the mode of action undertaken for each activity."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.181,
+            0.495,
+            0.279,
+            0.576
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_10.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.257,
+            0.5,
+            0.41,
+            0.523
+          ],
+          "level": 2,
+          "content": "Safety first"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.279,
+            0.531,
+            0.863,
+            0.569
+          ],
+          "content": "The activities listed in Table 6.1 should be conducted under the supervision of an adult."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.166,
+            0.606,
+            0.882,
+            0.984
+          ],
+          "content": "<table><tr><td>Activity</td><td colspan=\"2\">Modes of action</td><td>Easy or difficult to perform? Give reasons.</td></tr><tr><td>Driving an iron nail</td><td><img src=\"images/page_2_table_image_14_1.jpg\"/> By the head of the nail</td><td><img src=\"images/page_2_table_image_14_2.jpg\"/> By the pointed end of the nail</td><td></td></tr><tr><td>Cutting an apple with a knife</td><td><img src=\"images/page_2_table_image_14_3.jpg\"/></td><td><img src=\"images/page_2_table_image_14_4.jpg\"/></td><td></td></tr><tr><td colspan=\"2\">Using the sharp edge of the knife</td><td>Using the blunt edge of the knife</td><td></td></tr></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.332,
+                0.585,
+                0.802,
+                0.609
+              ],
+              "content": "~~Table 6.1: Reco~~rd your observations"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_table_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.07,
+            0.927,
+            0.094,
+            0.941
+          ],
+          "content": "82"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.0,
+            0.939,
+            0.161,
+            1.0
+          ],
+          "content": ""
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-06-28T15:59:51+05:30",
+      "modified_at": "2026-03-24T12:21:15+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 18,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

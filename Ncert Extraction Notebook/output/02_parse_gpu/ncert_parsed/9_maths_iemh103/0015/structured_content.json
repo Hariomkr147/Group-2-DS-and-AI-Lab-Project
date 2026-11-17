@@ -1,0 +1,160 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.611,
+            0.068,
+            0.815,
+            0.087
+          ],
+          "content": "The World of Numbers"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": "55"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.108,
+            0.885,
+            0.154
+          ],
+          "content": "Because our logical steps are flawless, our initial assumption must be wrong. Therefore, $\\sqrt { 2 }$ cannot be expressed as a fraction. It is irrational."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.237,
+            0.183,
+            0.714,
+            0.485
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.525,
+            0.399,
+            0.55
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.565,
+            0.855,
+            0.611
+          ],
+          "content": "Try to prove the irrationality of $\\sqrt { 3 }$ using the approach of proof by contradiction. Will the same approach work for ${ \\sqrt { 5 } }   ,   { \\sqrt { 7 } }$ , or 10 ?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.647,
+            0.523,
+            0.671
+          ],
+          "level": 2,
+          "content": "3.5.2 Construction of Length $\\sqrt { \\mathrm { n } }$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.691,
+            0.399,
+            0.714
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.728,
+            0.854,
+            0.768
+          ],
+          "content": "We have seen how to obtain a line whose length is a rational number. How do we obtain lines whose lengths are irrational?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.784,
+            0.885,
+            0.826
+          ],
+          "content": "For example, to construct a line segment of length $\\sqrt { 2 }$ and mark its position on the number line, we may proceed as follows."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.83,
+            0.885,
+            0.871
+          ],
+          "content": "**Step 1:** On the number line (see Fig. 3.11), we measure OA = 1 unit and draw a perpendicular on OA through A."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

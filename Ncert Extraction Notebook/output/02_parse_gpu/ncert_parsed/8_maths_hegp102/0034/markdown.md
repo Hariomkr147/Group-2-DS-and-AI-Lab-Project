@@ -1,0 +1,51 @@
+## Ans:
+
+![](images/page_33_image_1.jpg)
+
+## ？ Express the following numbers in standard form.
+
+(i) 59,853 (ii) 65,950
+
+(iii) 34,30,000 (iv) 70,04,00,00,000
+
+**Ans:**
+
+(i) $5 . 9 8 5 3 \times 1 0 ^ { 4 }$ (ii) $6 . 5 9 5 \times 1 0 ^ { 4 }$
+
+(iii) $3 . 4 3 \times 1 0 ^ { 6 }$ (iv) $7 . 0 0 4 \times 1 0 ^ { 1 0 }$
+
+## Page No. 38
+
+？ Calculate and write the answer using scientific notation:
+
+(i) How many ants are there for every human in the world?
+
+(ii) If a flock of starlings contains 10,000 birds, how many flocks could there be in the world?
+
+(iii) If each tree had about 10<sup>4</sup> leaves, find the total number of leaves on all the trees in the world.
+
+(iv) If you stacked sheets of paper on top of each other, how many would you need to reach the Moon?
+
+## Ans:
+
+(i) $2 . 5 \times 1 0 ^ { 6 }$ ants
+
+(ii) $1 . 3 \times 1 0 ^ { 5 }$ flocks
+
+(iii) $3 \times 1 0 ^ { 1 6 }$ leaves
+
+(iv) $3 . 8 4 4 \times 1 0 ^ { 1 3 }$ sheets
+
+## Page No. 39
+
+## If you have lived for a million seconds, how old would you be?
+
+**Ans:** Lived for approximately 12 days.
+
+## Page No. 42
+
+Calculate and write the answer using scientific notation:
+
+(i) If one star is counted every second, how long would it take to count all the stars in the universe? Answer in terms of the number of seconds using scientific notation.
+
+(ii) If one could drink a glass of water (200 ml) every 10 seconds, how long would it take to finish the entire volume of water on Earth?

@@ -1,0 +1,300 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.045,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.088,
+            0.311,
+            0.106
+          ],
+          "content": "We can write"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.355,
+            0.105,
+            0.642,
+            0.124
+          ],
+          "content": "3 ^ { 7 } = ( 3 \\times 3 \\times 3 \\times 3 ) \\times ( 3 \\times 3 \\times 3 )",
+          "image_source": "images/page_5_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.13,
+            0.847,
+            0.168
+          ],
+          "content": "We had computed till $3 ^ { 4 }$ . To find $3 ^ { 7 } ;$ , we can just multiply $3 ^ { 4 } ( = 8 1 )$ with $3 ^ { 3 } ( = 2 7 )$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.38,
+            0.166,
+            0.539,
+            0.205
+          ],
+          "content": "{ \\begin{array} { r l } & { = 3 ^ { 4 } \\times 3 ^ { 3 } } \\\\ & { = 8 1 \\times 2 7 = 2 1 8 7 } \\end{array} }",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.633,
+            0.165,
+            0.84,
+            0.209
+          ],
+          "content": "\\underbrace{3 \\times 3 \\times 3 \\times 3}_{3^{4}} \\times \\underbrace{3 \\times 3 \\times 3}_{3^{3}}",
+          "image_source": "images/page_5_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.215,
+            0.709,
+            0.237
+          ],
+          "content": "？ $3 ^ { 7 }$ can also be written as $3 ^ { 2 } \\times 3 ^ { 5 }$ . Can you reason out why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.24,
+            0.847,
+            0.277
+          ],
+          "content": "This can be easily extended to products where exponents are the same letter-numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.28,
+            0.598,
+            0.303
+          ],
+          "content": "？ Write the product $p ^ { 4 } \\times p ^ { 6 }$ in exponential form."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.258,
+            0.31,
+            0.737,
+            0.332
+          ],
+          "content": "p ^ { 4 } \\times p ^ { 6 } = ( p \\times p \\times p \\times p ) \\times ( p \\times p \\times p \\times p \\times p \\times p ) = p ^ { 1 0 } .",
+          "image_source": "images/page_5_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.335,
+            0.449,
+            0.355
+          ],
+          "content": "We can generalise this to —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.253,
+            0.358,
+            0.743,
+            0.379
+          ],
+          "content": "$n ^ { a }   \\times   n ^ { b }   =   n ^ { a + b } ,$ , where a and b are counting numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.387,
+            0.605,
+            0.409
+          ],
+          "content": "？ Use this observation to compute the following."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.221,
+            0.41,
+            0.521,
+            0.431
+          ],
+          "content": "(i) $2 ^ { 9 }$ (ii) $5 ^ { 7 }$ (iii) $4 ^ { 6 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.817,
+            0.38,
+            0.903,
+            0.432
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.435,
+            0.527,
+            0.455
+          ],
+          "content": "$4 ^ { 6 }$ can be evaluated in these two ways,"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.458,
+            0.842,
+            0.582
+          ],
+          "content": "| (4 × 4 × 4) × (4 × 4 × 4) = 43 × 43= 64 × 64= 4096.43 × 43 is the square of 43, i.e., 43 × 43 can also be written as(4<sup>3</sup>)<sup>2</sup>. | (4 × 4) × (4 × 4) × (4 × 4) = 42 × 42 × 42= 16 × 16 × 16= 4096.42 × 42 × 42 is the cube of 42, i.e., 42 × 42 × 42 can also be written as (42)3. |\n| --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.591,
+            0.646,
+            0.612
+          ],
+          "content": "Similarly, $7^{4} = (7 \\times 7) \\times (7 \\times 7) = 7^{2} \\times 7^{2} = (7^{2})^{2},$ , and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.611,
+            0.588,
+            0.667
+          ],
+          "content": "\\begin{array} { r l } & { 2 ^ { 1 0 } = ( 2 \\times 2 ) \\times ( 2 \\times 2 ) \\times ( 2 \\times 2 ) \\times ( 2 \\times 2 ) \\times ( 2 \\times 2 ) } \\\\ & { \\quad = ( 2 ^ { 2 } ) \\times ( 2 ^ { 2 } ) \\times ( 2 ^ { 2 } ) \\times ( 2 ^ { 2 } ) \\times ( 2 ^ { 2 } ) } \\\\ & { \\quad = ( 2 ^ { 2 } ) ^ { 5 } . } \\end{array}",
+          "image_source": "images/page_5_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.668,
+            0.594,
+            0.693
+          ],
+          "content": "Is $2 ^ { 1 0 }$ also equal to $( 2 ^ { 5 } ) ^ { 2 } { \\widehat { ? } }$ Write it as a product."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.693,
+            0.542,
+            0.77
+          ],
+          "content": "\\begin{array} { r l } & { 2 ^ { 1 0 } { = ( 2 \\times 2 \\times 2 \\times 2 \\times 2 ) \\times ( 2 \\times 2 \\times 2 \\times 2 \\times 2 ) } } \\\\ & { \\quad { = ( 2 ^ { 5 } ) \\times ( 2 ^ { 5 } ) } } \\\\ & { \\quad { = ( 2 ^ { 5 } ) ^ { 2 } } . } \\\\ & { \\quad \\mathrm { I n ~ g e n e r a l } , } \\end{array}",
+          "image_source": "images/page_5_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.772,
+            0.783,
+            0.795
+          ],
+          "content": "$(n^{a})^{b} = (n^{b})^{a} = n^{a \\times b} = n^{ab}$ , where a and b are counting numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.81,
+            0.847,
+            0.874
+          ],
+          "content": "？ Write the following expressions as a power of a power in at least two different ways: (i) $8 ^ { 6 }$ (ii) $7 ^ { 1 5 }$ (iii) $9 ^ { 1 4 }$ (iv) $5 ^ { 8 }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.092,
+            0.923,
+            0.127,
+            0.944
+          ],
+          "content": "24"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

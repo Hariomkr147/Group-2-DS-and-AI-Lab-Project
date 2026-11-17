@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.598,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "111"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.154,
+            0.111,
+            0.477,
+            0.13
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the linear equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.465,
+            0.132,
+            0.879,
+            0.152
+          ],
+          "image_path": "images/page_26_equation_3.jpg",
+          "content": "x - y = 1 0\\tag{1}"
+        },
+        {
+          "type": "equation",
+          "index": 4,
+          "bbox": [
+            0.416,
+            0.154,
+            0.878,
+            0.174
+          ],
+          "image_path": "images/page_26_equation_4.jpg",
+          "content": "10x - 10y = 101\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.154,
+            0.18,
+            0.583,
+            0.201
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Multiplying both sides of (1) by 10 gives"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.417,
+            0.202,
+            0.879,
+            0.223
+          ],
+          "image_path": "images/page_26_equation_6.jpg",
+          "content": "10x - 10y = 100\\tag{3}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.229,
+            0.882,
+            0.288
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The left hand side in (2) and (3) are equal expressions, but the right hand side are not. Hence we cannot find values of x and y that satisfy both (2) and (3). Thus, this pair of equations has no solution!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.136,
+            0.302,
+            0.399,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.133,
+            0.338,
+            0.853,
+            0.378
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Give 3 more examples of pairs of equations that have no solution. Can you find a simple rule to check when this will happen?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.154,
+            0.393,
+            0.432,
+            0.414
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When a pair of equations"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.41,
+            0.418,
+            0.589,
+            0.441
+          ],
+          "image_path": "images/page_26_equation_11.jpg",
+          "content": "a_{1}x + b_{1}y + c_{1} = 0"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.41,
+            0.443,
+            0.588,
+            0.465
+          ],
+          "image_path": "images/page_26_equation_12.jpg",
+          "content": "a_{2}x + b_{2}y + c_{2} = 0"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.116,
+            0.465,
+            0.881,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a _ { _ 2 } , \\; b _ { _ 2 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { _ 2 }"
+            },
+            {
+              "type": "text",
+              "content": " all not equal to 0) is such that after suitable multiplications, we can make"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.195,
+            0.503,
+            0.762,
+            0.523
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the coefficients of x of both equations equal, and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.19,
+            0.523,
+            0.712,
+            0.544
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the coefficients of y of both equations equal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.153,
+            0.547,
+            0.879,
+            0.569
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "while the constants "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { \\mathrm { { _ 1 } } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " remain unequal, the pair has no solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.154,
+            0.572,
+            0.798,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "These conditions mean "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a_{1}=ka_{2},b_{1}=kb_{2},c_{1}\\neq kc_{2}"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k \\neq 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.153,
+            0.595,
+            0.688,
+            0.636
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}} \\neq \\frac{c_{1}}{c_{2}}"
+            },
+            {
+              "type": "text",
+              "content": " the pair has no solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.116,
+            0.643,
+            0.881,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { a _ { _ 1 } } { a _ { _ 2 } } { = } \\frac { b _ { _ 1 } } { b _ { _ 2 } }"
+            },
+            {
+              "type": "text",
+              "content": " , both the variables get eliminated during the Elimination Method. Based on what happens to the constants, the pair can either have an infinite number of solutions or no solution."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.116,
+            0.728,
+            0.882,
+            0.813
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have already seen that when one of the variables remains during the Elimination Method, there exists a unique solution. This can happen only when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { \\widetilde { a _ { _ { 1 } } }   \\neq   \\widetilde { b _ { _ { 1 } } } } { \\widetilde { a _ { _ { 2 } } } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.153,
+            0.821,
+            0.619,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Summarising, we have the following cases:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.117,
+            0.842,
+            0.627,
+            0.885
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. when "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { a _ { _ 1 } } { a _ { _ 2 } }   \\neq   \\frac { b _ { _ 1 } } { b _ { _ 2 } } ,"
+            },
+            {
+              "type": "text",
+              "content": " the pair has a unique solution,"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

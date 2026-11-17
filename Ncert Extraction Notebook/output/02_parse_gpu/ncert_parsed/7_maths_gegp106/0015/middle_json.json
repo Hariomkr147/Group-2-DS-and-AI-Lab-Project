@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.736,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Number Play"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 1,
+          "bbox": [
+            0.207,
+            0.085,
+            0.791,
+            0.187
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 1,
+              "bbox": [
+                0.207,
+                0.085,
+                0.791,
+                0.187
+              ],
+              "image_path": "images/page_14_table_1.jpg",
+              "content": "<table><tbody><tr><td>n = 5</td><td>1 + 1 + 1 + 1 + 11 + 1 + 1 + 21 + 1 + 2 + 11 + 2 + 1 + 11 + 2 + 2</td><td>2 + 1 + 1 + 12 + 1 + 22 + 2 + 1</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.175,
+            0.197,
+            0.593,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, there are 8 rhythms having 5 beats!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.216,
+            0.849,
+            0.345
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The reason this method works is that every 5-beat rhythm must begin with either a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } 1 + ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " or a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } 2 + ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " . If it begins with a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } 1 + ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " , then the remaining numbers must give a 4-beat rhythm, and we can write all those down. If it begins with a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 + ,"
+            },
+            {
+              "type": "text",
+              "content": " , then the remaining number must give a 3-beat rhythm, and we can write all those down. Therefore, the number of 5-beat rhythms is the number of 4-beat rhythms, plus the number of 3-beat rhythms."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.345,
+            0.848,
+            0.402
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How many 6-beat rhythms are there? By the same reasoning, it will be the number of 5-beat rhythms plus the number of 4-beat rhythms, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8+5=13"
+            },
+            {
+              "type": "text",
+              "content": " . Thus, there are 13 rhythms having 6 beats."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 5,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.409,
+            0.847,
+            0.451
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the systematic method to write down all 6-beat rhythms, i.e., write 6 as the sum of 1’s and 2’s in all possible ways. Did you get 13 ways?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.458,
+            0.849,
+            0.608
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This beautiful method for counting all the rhythms of short syllables and long syllables having any given number of beats was first given by the great Prakrit scholar "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " around the year 700 CE. He gave his method in the form of a Prakrit poem! For this reason, the sequence 1, 2, 3, 5, 8, 13, 21, 34, . . . is known as the "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka sequence",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", and the numbers in the sequence are known as the "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka numbers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " was the first known person in history to explicitly consider these important numbers and write down the rule for their formation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.607,
+            0.848,
+            0.699
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Other scholars in India also considered these numbers in the same poetic context. "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " was inspired by earlier work of the legendary Sanskrit scholar Piṅgala, who lived around 300 BCE. After "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", these numbers were also written about by Gopala (c. 1135 CE) and then by Hemachandra (c. 1150 CE)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.699,
+            0.849,
+            0.828
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the West, these numbers have been known as the "
+            },
+            {
+              "type": "text",
+              "content": "Fibonacci numbers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", after the Italian mathematician who wrote about them in the year 1202 CE — about 500 years after "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". As we can see, Fibonacci was not first, nor the second, not even the third person to write about these numbers! Sometimes the term “"
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "–Fibonacci numbers” is used so that everyone understands what is being referred to."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.15,
+            0.827,
+            0.847,
+            0.883
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, how many rhythms of short and long syllables are there having 8 beats? We simply take the 8th element of the "
+            },
+            {
+              "type": "text",
+              "content": "Virahāṅka",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " sequence: 1, 2, 3, 5, 8, 13, 21, 34 , 55, ..."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.175,
+            0.883,
+            0.602,
+            0.903
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, there are 34 rhythms having 8 beats."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.808,
+            0.938,
+            0.844,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "141"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

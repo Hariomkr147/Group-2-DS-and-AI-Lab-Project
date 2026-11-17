@@ -1,0 +1,256 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.641,
+            0.049,
+            0.847,
+            0.066
+          ],
+          "content": "Finding Common Ground"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.847,
+            0.146
+          ],
+          "content": "So far, we have been listing all the factors to find the HCF. This can become cumbersome for numbers with many factors, as you would have observed for the numbers 30 and 50, and 28 and 42."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.146,
+            0.84,
+            0.166
+          ],
+          "content": "Sometimes, we may also miss some factors which can lead to errors."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.175,
+            0.751,
+            0.198
+          ],
+          "level": 2,
+          "content": "？ Can this process be simplified? Can it be made more reliable?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.206,
+            0.827,
+            0.248
+          ],
+          "content": "It turns out that using prime factorisation can simplify the process. We will start by revisiting primes and prime factorisation."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.264,
+            0.245,
+            0.284
+          ],
+          "level": 2,
+          "content": "Primes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.29,
+            0.849,
+            0.369
+          ],
+          "content": "Recall that a prime is a number greater than 1 that has only 1 and the number itself as its factors. Last year, we tried to find patterns amongst primes between 1 to 100. We also came across the Sieve of Eratosthenes — a method to list all primes."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.385,
+            0.397,
+            0.407
+          ],
+          "level": 2,
+          "content": "Prime Factorisation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.412,
+            0.847,
+            0.451
+          ],
+          "content": "Any number can be written as a product of primes — keep rewriting composite factors until only primes are left."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.451,
+            0.847,
+            0.49
+          ],
+          "content": "Recall that we call this the prime factorisation of a given number. For example, we can find the prime factorisation of 90 as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.414,
+            0.494,
+            0.584,
+            0.514
+          ],
+          "content": "90 = 3 \\times 3 \\times 2 \\times 5.",
+          "image_source": "images/page_2_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.519,
+            0.847,
+            0.557
+          ],
+          "content": "The number 90 could also have been factorised as 3 × 30 or 2 × 45 or in a few other different ways. Will these all lead to the same prime factors?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.558,
+            0.848,
+            0.616
+          ],
+          "content": "Remarkably, the resulting prime factors are always the same with perhaps only a change in their order. For example, if we consider factorising 3 × 30 further, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.319,
+            0.62,
+            0.678,
+            0.639
+          ],
+          "content": "90 = 3 \\times 30 = 3 \\times 2 \\times 15 = 3 \\times 2 \\times 3 \\times 5,",
+          "image_source": "images/page_2_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.646,
+            0.847,
+            0.704
+          ],
+          "content": "and we have arrived at the same prime factors, just in a different order. Note that the prime factorisation of a prime number is the prime number itself."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.721,
+            0.571,
+            0.743
+          ],
+          "level": 2,
+          "content": "Procedure for Prime Factorisation"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.747,
+            0.532,
+            0.768
+          ],
+          "content": "Can you see what is happening below?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.334,
+            0.772,
+            0.434,
+            0.884
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_17.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.568,
+            0.771,
+            0.666,
+            0.884
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.934,
+            0.839,
+            0.95
+          ],
+          "content": "49"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

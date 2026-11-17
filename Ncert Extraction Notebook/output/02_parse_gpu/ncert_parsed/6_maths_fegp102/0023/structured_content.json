@@ -1,0 +1,232 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.69,
+            0.065,
+            0.834,
+            0.081
+          ],
+          "content": "Lines and Angles"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.121,
+            0.387,
+            0.143
+          ],
+          "level": 2,
+          "content": "Unlabelled protractor"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.151,
+            0.834,
+            0.172
+          ],
+          "content": "Here is a protractor. Do you see the straight angle at the center"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.173,
+            0.399,
+            0.263
+          ],
+          "content": "divided into 180 units of 1 degree? Only part of the lines dividing the straight angle are visible, though!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.265,
+            0.4,
+            0.423
+          ],
+          "content": "Starting from the marking on the rightmost point of the base, there is a long mark for every $1 0 ^ { \\circ }$ . From every such long mark, there is a medium sized mark after $5 ^ { \\circ }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.407,
+            0.181,
+            0.857,
+            0.358
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_5.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.434,
+            0.298,
+            0.457
+          ],
+          "level": 2,
+          "content": "Figure it out"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.151,
+            0.482,
+            0.476,
+            0.886
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.117,
+                0.638,
+                0.133,
+                0.653
+              ],
+              "content": "A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_22_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.487,
+            0.469,
+            0.833,
+            0.513
+          ],
+          "content": "Write the measures of the following angles:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.57,
+            0.521,
+            0.664,
+            0.54
+          ],
+          "content": "a.  \\angle  KAL",
+          "image_source": "images/page_22_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.487,
+            0.544,
+            0.835,
+            0.679
+          ],
+          "content": "Notice that the vertex of this angle coincides with the centre of the protractor. So the number of units of 1 degree angle between KA and AL gives the measure of ∠KAL. By counting, we get —"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.574,
+            0.68,
+            0.69,
+            0.699
+          ],
+          "content": "\\angle KAL = 30^{\\circ}",
+          "image_source": "images/page_22_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.487,
+            0.703,
+            0.834,
+            0.791
+          ],
+          "content": "Making use of the medium sized and large sized marks, is it possible to count the number of units in 5s or 10s?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.571,
+            0.8,
+            0.665,
+            0.819
+          ],
+          "content": "b. $\\angle \\mathrm { W A L }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.572,
+            0.828,
+            0.66,
+            0.848
+          ],
+          "content": "$\\mathtt { C } .$ $\\angle \\mathrm { T A K }$",
+          "image_source": "images/page_22_equation_15.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.887,
+            0.941,
+            0.914,
+            0.959
+          ],
+          "content": "7 35"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:38:25+05:30",
+      "modified_at": "2026-04-07T17:39:03+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 53,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

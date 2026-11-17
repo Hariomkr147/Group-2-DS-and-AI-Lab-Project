@@ -1,0 +1,33 @@
+$$
+\mathrm{CH_{3}-CH_{2}OH\xrightarrow[\mathrm{Cr}\alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha \alpha
+$$
+
+**We see that some substances are capable of adding oxygen to others. These substances are known as oxidising agents.**
+
+**Alkaline potassium permanganate or acidified potassium dichromate are oxidising alcohols to acids, that is, adding oxygen to the starting material. Hence they are known as oxidising agents.**
+
+## 4.3.3 Addition Reaction
+
+**Unsaturated hydrocarbons add hydrogen in the presence of catalysts such as palladium or nickel to give saturated hydrocarbons. Catalysts are substances that cause a reaction to occur or proceed at a different rate without the reaction itself being affected. This reaction is commonly used in the hydrogenation of vegetable oils using a nickel catalyst. Vegetable oils generally have long unsaturated carbon chains while animal fats have saturated carbon chains.**
+
+$$
+\mathbb{R}^{\mathbb{R}} \subset \mathbb{C}^{\mathbb{R}} \quad \stackrel{\mathbb{R}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{N} i c k e l \quad  c a t a l y s t }{\underset{\mathbb{H}_2}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{-}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{C}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}} \quad \stackrel{\mathbb{H}}{\underset{\mathbb{R}}{\rightleftharpoons}}
+$$
+
+**You must have seen advertisements stating that some vegetable oils are ‘healthy’. Animal fats generally contain saturated fatty acids which are said to be harmful for health. Oils containing unsaturated fatty acids should be chosen for cooking.**
+
+## 4.3.4 Substitution Reaction
+
+**Saturated hydrocarbons are fairly unreactive and are inert in the presence of most reagents. However, in the presence of sunlight, chlorine is added to hydrocarbons in a very fast reaction. Chlorine can replace the hydrogen atoms one by one. It is called a substitution reaction because one type of atom or a group of atoms takes the place of another. A number of products are usually formed with the higher homologues of alkanes.**
+
+CH + Cl → CH Cl + HCl (in the presence of sunlight)
+
+## Q U E S T I O N S
+
+**1. Why is the conversion of ethanol to ethanoic acid an oxidation reaction?**
+
+**2. A mixture of oxygen and ethyne is burnt for welding. Can you tell why a mixture of ethyne and air is not used?**
+
+## 4.4 SOME IMPORTANT CARBON COMPOUNDS – ETHANOL AND ETHANOIC ACID
+
+**Many carbon compounds are invaluable to us. But here we shall study the properties of two commercially important compounds – ethanol and ethanoic acid.**

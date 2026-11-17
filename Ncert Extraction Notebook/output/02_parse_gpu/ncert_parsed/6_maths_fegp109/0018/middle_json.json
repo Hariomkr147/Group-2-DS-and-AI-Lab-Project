@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:41:10+05:30",
+      "modified_at": "2026-04-07T17:41:10+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 40,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.258,
+            0.858,
+            0.821,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note: The colours have been added to show the rotations."
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.166,
+            0.064,
+            0.378,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 6"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.194,
+            0.12,
+            0.877,
+            0.142
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can it be done by changing the angles between the dotted lines?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.164,
+            0.143,
+            0.885,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a figure with three radial arms should have rotational symmetry, then a rotated version of it should overlap with the original. Here are rough diagrams of both of them."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.164,
+            0.212,
+            0.884,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If these two figures must overlap, what can you tell about the angles?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.306,
+            0.274,
+            0.757,
+            0.421
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.306,
+                0.274,
+                0.757,
+                0.421
+              ],
+              "image_path": "images/page_17_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.165,
+            0.446,
+            0.884,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observe that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { A }"
+            },
+            {
+              "type": "text",
+              "content": " must overlap "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{B}; \\angle \\mathrm{B}"
+            },
+            {
+              "type": "text",
+              "content": " must overlap "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 0"
+            },
+            {
+              "type": "text",
+              "content": " must overlap "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm { A }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.194,
+            0.491,
+            0.651,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle \\mathrm{A} = \\angle \\mathrm{B} = \\angle \\mathrm{C},"
+            },
+            {
+              "type": "text",
+              "content": " What must this angle be?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.165,
+            0.512,
+            0.884,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that a full turn has 360 degrees. This is equally distributed amongst these three angles. So each angle must be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{360^{\\circ}}{3} = 120^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.164,
+            0.563,
+            0.885,
+            0.63
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the radial arms figure with 3 arms shows rotational symmetry when the angle between the adjacent dotted lines is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 0 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " . Use paper cutouts to verify this observation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.165,
+            0.631,
+            0.884,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now how many angles of rotation does the figure have and what are they?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.166,
+            0.69,
+            0.883,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.166,
+                0.69,
+                0.883,
+                0.854
+              ],
+              "image_path": "images/page_17_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 12,
+              "bbox": [
+                0.575,
+                0.839,
+                0.647,
+                0.854
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "rotation"
+                }
+              ]
+            },
+            {
+              "type": "image_footnote",
+              "index": 13,
+              "bbox": [
+                0.761,
+                0.839,
+                0.834,
+                0.854
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "rotation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.083,
+            0.941,
+            0.115,
+            0.959
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

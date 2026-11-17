@@ -1,0 +1,206 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.64,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Constructions and Tilings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.492,
+            0.113
+          ],
+          "content": "**Angle Bisection for a Design**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.212,
+            0.484,
+            0.237
+          ],
+          "content": "How do we construct this figure?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.563,
+            0.12,
+            0.784,
+            0.285
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.649,
+                0.289,
+                0.709,
+                0.305
+              ],
+              "content": "Fig. 6.5"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.158,
+            0.398,
+            0.496,
+            0.438
+          ],
+          "content": "The supporting lines for this figure will look like this."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.557,
+            0.325,
+            0.785,
+            0.495
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.517,
+            0.606,
+            0.54
+          ],
+          "content": "What is the angle between two adjacent lines?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.542,
+            0.846,
+            0.583
+          ],
+          "content": "We need the angle between every pair of adjacent lines to be equal. Since $3 6 0 ^ { \\circ }$ is equally divided into 8 parts, every angle is $4 5 ^ { \\circ }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.591,
+            0.846,
+            0.657
+          ],
+          "content": "? How do we construct a $4 5 ^ { \\circ }$ angle using only a ruler and a compass? We know how to construct a $9 0 ^ { \\circ }$ angle. If we can divide it into two equal parts, or bisect it, then we get a $4 5 ^ { \\circ }$ angle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.705,
+            0.629,
+            0.745
+          ],
+          "content": "We will now develop a general method to bisect any angle. Consider an angle ∠XOY."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.651,
+            0.661,
+            0.836,
+            0.771
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.813,
+            0.63,
+            0.871
+          ],
+          "content": "We can bisect it if we can draw two congruent triangles ΔOBC and ΔOAC as shown in the figure. Then $\\angle BOC = \\angle AOC$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.649,
+            0.789,
+            0.837,
+            0.895
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_image_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.809,
+            0.934,
+            0.844,
+            0.95
+          ],
+          "content": "143"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:05:54+05:30",
+      "modified_at": "2025-11-08T13:44:26+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 28,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

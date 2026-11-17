@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.085,
+            0.481,
+            0.103
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Applying Ohm’s law [Eq. (11.5)], we get",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 1,
+          "bbox": [
+            0.132,
+            0.108,
+            0.527,
+            0.125
+          ],
+          "image_path": "images/page_18_equation_1.jpg",
+          "content": "H = I ^ { 2 }   R t\\tag{11.21}"
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.126,
+            0.531,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is known as Joule’s law of heating. The law implies that heat produced in a resistor is (i) directly proportional to the square of current for a given resistance, (ii) directly proportional to resistance for a given current, and (iii) directly proportional to the time for which the current flows through the resistor. In practical situations, when an electric appliance is connected to a known voltage source, Eq. (11.21) is used after calculating the current through it, using the",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " relation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   = V / R ."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.545,
+            0.115,
+            0.922,
+            0.271
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.545,
+                0.115,
+                0.922,
+                0.271
+              ],
+              "image_path": "images/page_18_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.552,
+                0.278,
+                0.671,
+                0.293
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.13"
+                }
+              ]
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.551,
+                0.292,
+                0.924,
+                0.308
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "A steady current in a purely resistive electric circuit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.131,
+            0.328,
+            0.29,
+            0.344
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.10"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.129,
+            0.344,
+            0.723,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An electric iron consumes energy at a rate of 840 W when heating is at the maximum rate and 360 W when the heating is at the minimum. The voltage is 220 V. What are the current and the resistance in each case?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.131,
+            0.426,
+            0.224,
+            0.441
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "code",
+          "index": 9,
+          "bbox": [
+            0.126,
+            0.44,
+            0.58,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 9,
+              "bbox": [
+                0.126,
+                0.44,
+                0.58,
+                0.629
+              ],
+              "content": "From Eq. (11.19), we know that the power input is\nP = V I\nThus the current I = P/V\n(a) When heating is at the maximum rate,\nI = 840 W/220 V = 3.82 A;\nand the resistance of the electric iron is\nR = V/I = 220 V/3.82 A = 57.60 Ω.\n(b) When heating is at the minimum rate,\nI = 360 W/220 V = 1.64 A;\nand the resistance of the electric iron is\nR = V/I = 220 V/1.64 A = 134.15 Ω."
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 10,
+          "bbox": [
+            0.131,
+            0.646,
+            0.288,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.11"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.13,
+            0.662,
+            0.721,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "100 J of heat is produced each second in a 4",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "resistance. Find the potential difference across the resistor.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "code",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.705,
+            0.714,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 12,
+              "bbox": [
+                0.129,
+                0.705,
+                0.714,
+                0.876
+              ],
+              "content": "Solution\nH = 100 J, R = 4 Ω, t = 1 s, V = ?\nFrom Eq. (11.21) we have the current through the resistor as\nI √(H/Rt)\n= √[100 J/(4 Ω × 1 s)]\n= 5 A\nThus the potential difference across the resistor, V [from Eq. (11.5)] is\nV = IR\n= 5 A × 4 Ω\n= 20 V."
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.1,
+            0.916,
+            0.177,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Electricity"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.881,
+            0.915,
+            0.913,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "189"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

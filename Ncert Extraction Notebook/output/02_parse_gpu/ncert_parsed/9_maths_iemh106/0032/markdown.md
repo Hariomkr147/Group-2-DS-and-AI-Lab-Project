@@ -1,0 +1,34 @@
+# End-of-Chapter Exercises
+
+In the problems below, unless stated otherwise, use the approximation $\frac { 2 2 } { 7 }$ for π.
+
+1. Identities in algebra can sometimes be shown as area relationships. For example:
+
+|  | a | b |
+| --- | --- | --- |
+| a | a<sup>2</sup> | ab |
+| b | ab | b<sup>2</sup> |
+
+Fig. 6.41: Area model of an identity
+
+The figure shown corresponds to the identity
+
+$$
+(a + b)^{2} = a^{2} + 2ab + b^{2}.
+$$
+
+Do you see how?
+
+Draw figures corresponding to the identities $(a + b)(a - b) =$ $a^{2}-b^{2}\mathrm{and}(a+b+c)^{2}=a^{2}+b^{2}+c^{2}+2ab+2bc+2ca.$
+
+2. An isosceles triangle has perimeter 40 cm; the equal sides are 15 cm each. Find the area of the triangle.
+
+3. An isosceles triangle has base 10 cm, and its area is $6 0 \; \mathtt { c m } ^ { 2 }$ . What are the lengths of the equal sides?
+
+4. The area of a right-angled triangle is 54 sq. cm. One of its legs has length 12 cm. Find its perimeter.
+
+5. The sides of a triangle are in the ratio 2: 3: 4, and its perimeter is 45 cm. Find its area.
+
+6. The sides of a triangle have lengths 7 cm, 24 cm, 25 cm. Find the area of the triangle in two different ways.
+
+7. If the wheel of a bicycle has a diameter of 60 cm, find how far a cyclist will have travelled after the wheel has rotated 100 times.

@@ -1,0 +1,250 @@
+{
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.046,
+            0.364,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.087,
+            0.603,
+            0.218
+          ],
+          "content": "11. A colony of ants set out in search of food. As they search, they keep splitting equally at each point (as shown in the Fig. 8.7) and reach two food sources, one near a mango tree and another near a sugarcane field. What fraction of the original group reached each food source?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.224,
+            0.336,
+            0.258
+          ],
+          "content": "12. What is $1 - { \\frac { 1 } { 2 } }   ?$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.258,
+            0.352,
+            0.297
+          ],
+          "content": "\\left( 1 - { \\cfrac { 1 } { 2 } } \\right) \\times \\left( 1 - { \\cfrac { 1 } { 3 } } \\right) ?",
+          "image_source": "images/page_25_equation_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.627,
+            0.081,
+            0.851,
+            0.275
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.704,
+                0.281,
+                0.77,
+                0.297
+              ],
+              "content": "Fig. 8.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_25_image_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.188,
+            0.297,
+            0.513,
+            0.338
+          ],
+          "content": "\\left( 1 - { \\frac { 1 } { 2 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 3 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 4 } } \\right) \\times \\left( 1 - { \\frac { 1 } { 5 } } \\right) ?",
+          "image_source": "images/page_25_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.187,
+            0.336,
+            0.864,
+            0.379
+          ],
+          "content": "\\left(1-\\frac{1}{2}\\right)\\times\\left(1-\\frac{1}{3}\\right)\\times\\left(1-\\frac{1}{4}\\right)\\times\\left(1-\\frac{1}{5}\\right)\\times\\left(1-\\frac{1}{6}\\right)\\times\\left(1-\\frac{1}{7}\\right)\\times\\left(1-\\frac{1}{8}\\right)\\times\\left(1-\\frac{1}{9}\\right)\\times\\left(1-\\frac{1}{10}\\right)^{-\\frac{1}{7}}",
+          "image_source": "images/page_25_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.38,
+            0.576,
+            0.401
+          ],
+          "content": "Make a general statement and explain."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.406,
+            0.435,
+            0.59,
+            0.46
+          ],
+          "level": 2,
+          "content": "SUMMARY"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.469,
+            0.701,
+            0.49
+          ],
+          "content": "• Brahmagupta’s formula for multiplication of fractions:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.492,
+            0.573,
+            0.526
+          ],
+          "content": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}.",
+          "image_source": "images/page_25_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.529,
+            0.823,
+            0.587
+          ],
+          "content": "When multiplying fractions, if the numerators and denominators have some common factors, we can cancel them first before multiplying the numerators and denominators."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.587,
+            0.825,
+            0.664
+          ],
+          "content": "In multiplication — when one of the numbers being multiplied is between 0 and 1, the product is less than the other number. If one of the numbers being multiplied is greater than 1, then the product is greater than the other number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.668,
+            0.823,
+            0.712
+          ],
+          "content": "The reciprocal of a fraction ${ \\frac { a } { b } } \\operatorname { i s } { \\frac { b } { a } } .$ When we multiply a fraction by its reciprocal, the product is 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.712,
+            0.645,
+            0.731
+          ],
+          "content": "• Brahmagupta’s formula for division of fractions:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.403,
+            0.732,
+            0.594,
+            0.767
+          ],
+          "content": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{a \\times d}{b \\times c}.",
+          "image_source": "images/page_25_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.771,
+            0.824,
+            0.83
+          ],
+          "content": "In division — when the divisor is between 0 and 1, the quotient is greater than the dividend. When the divisor is greater than 1, the quotient is less than the dividend."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.155,
+            0.938,
+            0.193,
+            0.955
+          ],
+          "content": "198"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:22+05:30",
+      "modified_at": "2026-04-07T17:16:32+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

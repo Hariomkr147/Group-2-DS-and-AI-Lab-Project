@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.741,
+            0.047,
+            0.862,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.088,
+            0.461,
+            0.106
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider a quadrilateral SOME."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.107,
+            0.554,
+            0.143
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Draw a diagonal SM. We get two triangles ∆SEM and ∆SOM."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.143,
+            0.526,
+            0.161
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In ∆SEM, we have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 1 + \\angle 2 + \\angle 3 = 180^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.162,
+            0.486,
+            0.179
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "And in ∆SOM, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle 4 + \\angle 5 + \\angle 6 = 180^{\\circ}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.18,
+            0.556,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What do we get when we add all six angles?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.217,
+            0.284,
+            0.234
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.153,
+            0.234,
+            0.553,
+            0.27
+          ],
+          "image_path": "images/page_13_equation_8.jpg",
+          "content": "\\begin{aligned}\\angle 1 + \\angle 2 + \\angle 3 + \\angle 4 + \\angle 5 + \\angle 6 &= 180^{\\circ} + 180^{\\circ} \\\\&= 360^{\\circ}.\\end{aligned}"
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.56,
+            0.078,
+            0.848,
+            0.276
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.56,
+                0.078,
+                0.848,
+                0.276
+              ],
+              "image_path": "images/page_13_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.271,
+            0.546,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Or, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\angle 1 + \\angle 4 \\right) + \\left( \\angle 3 + \\angle 6 \\right) + \\angle 2 + \\angle 5 = 360^{\\circ}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.29,
+            0.846,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\angle 1 + \\angle 4 ) , ( \\angle 3 + \\angle 6 ) , \\angle 2   and   \\angle 5"
+            },
+            {
+              "type": "text",
+              "content": " are the angles of this quadrilateral, we have the following result—"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.331,
+            0.659,
+            0.351
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The sum of all angles in any quadrilateral is 360°.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.355,
+            0.847,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This explains why it is impossible for a quadrilateral to have three right angles, with the fourth angle not right angle."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.409,
+            0.794,
+            0.457
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.3 More Quadrilaterals with Parallel Opposite Sides"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.467,
+            0.77,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Rectangles (and therefore squares) have parallel opposite sides."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.112,
+            0.497,
+            0.846,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Are there quadrilaterals that have parallel opposite sides that are not rectangles?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.151,
+            0.542,
+            0.421,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us try constructing one."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.559,
+            0.848,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can be easily done by drawing two pairs of parallel lines, ensuring that they do not meet at right angles."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.112,
+            0.607,
+            0.847,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Construct such a figure by recalling how parallel lines can be"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.151,
+            0.628,
+            0.59,
+            0.648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "constructed using a ruler and a set-square,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.151,
+            0.647,
+            0.41,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "or a compass and a ruler."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.151,
+            0.702,
+            0.59,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observe the quadrilateral ABCD. It has parallel opposite sides but is not a rectangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.151,
+            0.777,
+            0.591,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, a larger set of quadrilaterals exists in which the opposite sides are parallel. Such quadrilaterals are called "
+            },
+            {
+              "type": "text",
+              "content": "parallelograms.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 24,
+          "bbox": [
+            0.597,
+            0.641,
+            0.863,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 24,
+              "bbox": [
+                0.597,
+                0.641,
+                0.863,
+                0.797
+              ],
+              "image_path": "images/page_13_image_24.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 25,
+          "bbox": [
+            0.877,
+            0.915,
+            0.914,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "95"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

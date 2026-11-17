@@ -1,0 +1,332 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.308,
+            0.089,
+            0.441,
+            0.105
+          ],
+          "level": 2,
+          "content": "Example 9.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.105,
+            0.9,
+            0.156
+          ],
+          "content": "**A convex mirror used for rear-view on an automobile has a radius of curvature of 3.00 m. If a bus is located at 5.00 m from this mirror, find the position, nature and size of the image.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.164,
+            0.397,
+            0.18
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.181,
+            0.618,
+            0.198
+          ],
+          "content": "**Radius of curvature,** $R = + \\: 3 . 0 0$ **m;**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.198,
+            0.617,
+            0.215
+          ],
+          "content": "**Object-distance, u = – 5.00 m;**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.215,
+            0.546,
+            0.231
+          ],
+          "content": "**Image-distance,** $v = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.231,
+            0.546,
+            0.248
+          ],
+          "content": "Height of the image, $h ^ { \\prime }   = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.254,
+            0.9,
+            0.307
+          ],
+          "content": "Focal length, $f = R / 2 = + \\frac{3.00   m }{2} = + 1.50$ <strong><u>m</u></strong> (as the principal focus of **a convex mirror is behind the mirror)**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.313,
+            0.461,
+            0.349
+          ],
+          "content": "**Since** ${ \\frac { 1 } { v } }   +   { \\frac { 1 } { u } } = { \\frac { 1 } { f } }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.309,
+            0.356,
+            0.748,
+            0.443
+          ],
+          "content": "\\frac{1}{v}=\\frac{1}{f}-\\frac{1}{u}=+\\frac{1}{1.50}-\\frac{1}{(-5.00)}=\\frac{1}{1.50}+\\frac{1}{5.00}",
+          "image_source": "images/page_10_equation_9.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.45,
+            0.511,
+            0.484
+          ],
+          "content": "v = \\frac{+7.50}{6.50} = +1.15   m",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.486,
+            0.713,
+            0.504
+          ],
+          "content": "**The image is 1.15 m at the back of the mirror.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.307,
+            0.508,
+            0.674,
+            0.567
+          ],
+          "content": "**Magnification,** $m = \\frac{h'}{h} = - \\frac{v}{u} = - \\frac{1.15   m }{-5.00   m }$ **=** + 0.23"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.567,
+            0.875,
+            0.585
+          ],
+          "content": "**The image is virtual, erect and smaller in size by a factor of 0.23.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.307,
+            0.602,
+            0.441,
+            0.618
+          ],
+          "level": 2,
+          "content": "Example 9.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.306,
+            0.618,
+            0.899,
+            0.686
+          ],
+          "content": "**An object, 4.0 cm in size, is placed at 25.0 cm in front of a concave mirror of focal length 15.0 cm. At what distance from the mirror should a screen be placed in order to obtain a sharp image? Find the nature and the size of the image.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.692,
+            0.397,
+            0.708
+          ],
+          "content": "**Solution**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.709,
+            0.541,
+            0.725
+          ],
+          "content": "Object-size, $h = + 4.0\\  cm ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.726,
+            0.586,
+            0.742
+          ],
+          "content": "Object-distance, $u = - 25.0\\  cm ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.742,
+            0.547,
+            0.759
+          ],
+          "content": "Focal length, $f = -15.0    cm ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.76,
+            0.514,
+            0.775
+          ],
+          "content": "Image-distance, $v = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.776,
+            0.469,
+            0.792
+          ],
+          "content": "Image-size, $h ^ { \\prime }   = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.308,
+            0.792,
+            0.458,
+            0.809
+          ],
+          "content": "**From Eq. (10.1):**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.815,
+            0.414,
+            0.851
+          ],
+          "content": "{ \\frac { 1 } { v } } + { \\frac { 1 } { u } } = { \\frac { 1 } { f } }",
+          "image_source": "images/page_10_equation_23.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.861,
+            0.731,
+            0.897
+          ],
+          "content": "\\frac{1}{v}=\\frac{1}{f}-\\frac{1}{u}=\\frac{1}{-15.0}-\\frac{1}{-25.0}=-\\frac{1}{15.0}+\\frac{1}{25.0}",
+          "image_source": "images/page_10_equation_24.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.089,
+            0.917,
+            0.125,
+            0.932
+          ],
+          "content": "144"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.83,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": "**Science**"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

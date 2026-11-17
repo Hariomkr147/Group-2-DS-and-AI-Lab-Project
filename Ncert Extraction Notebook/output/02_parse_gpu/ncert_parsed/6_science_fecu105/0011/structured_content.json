@@ -1,0 +1,177 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.121,
+            0.08,
+            0.273,
+            0.23
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.122,
+                0.245,
+                0.27,
+                0.279
+              ],
+              "content": "Fig. 5.12: A kilometre stone"
+            }
+          ],
+          "image_source": "images/page_10_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.292,
+            0.084,
+            0.746,
+            0.207
+          ],
+          "content": "After a few days, Padma was travelling by bus to visit her grandparents in Delhi. She was eager to reach Delhi and was reading the kilometre stones on the side of the road. On one of the kilometre stones, it was written ‘Delhi 70 km’ (Fig. 5.12)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.292,
+            0.207,
+            0.745,
+            0.29
+          ],
+          "content": "Further on, the next kilometre stone read ‘Delhi 60 km’. Each kilometre stone indicated that she was getting closer to her grandparents’ house."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.314,
+            0.502,
+            0.378
+          ],
+          "content": "These kilometre stones indicated her distance from Delhi. So, Delhi is the reference point in this situation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.545,
+            0.325,
+            0.806,
+            0.452
+          ],
+          "content": "**What do such** O **kilometre stones indicate? How could Padma conclude that she was getting closer to her destination?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.105,
+            0.312,
+            0.893,
+            0.544
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.177,
+                0.564,
+                0.819,
+                0.582
+              ],
+              "content": "Fig. 5.13: Positions of kilometre stones with respect to Delhi as a reference point"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.595,
+            0.746,
+            0.68
+          ],
+          "content": "If the kilometre stone reads ‘Delhi 70 km’ as shown in Fig. 5.13, we can say that the position of Padma is 70 km from Delhi. When the kilometre stone reads ‘Delhi 60 km’, the position of Padma is 60 km from Delhi."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.716,
+            0.594,
+            0.842
+          ],
+          "content": "**Does this mean that the position of Padma, with respect to the reference point, is changing with time? When does the position of an object change with respect to a reference point? Does it change when an object is moving?**"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.894,
+            0.693,
+            0.913,
+            0.869
+          ],
+          "content": "Measurement of Length and Motion"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.89,
+            0.899,
+            0.918,
+            0.915
+          ],
+          "content": "89"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:15:18+05:30",
+      "modified_at": "2026-03-27T11:31:44+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

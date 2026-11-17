@@ -1,0 +1,17 @@
+We have now reached the final chapter of this book, the concluding chapter in our scientific journey through the middle stage. It is time to put together all that we have seen and learnt and try to understand why our home, planet Earth, is like no other place in the known universe. As you have learnt in Curiosity, Grades 6 and 7, the Earth is a planet orbiting the Sun. However, it is not just any planet. It is a planet that sustains life — full of diverse landscapes, from towering mountains and vast oceans to endless deserts and lush forests. Today, our satellites allow us to take amazing pictures of our planet. The image in the beginning page was taken by an Indian Space Research Organisation (ISRO) Earth Observation Satellite and made by combining nearly 3000 smaller images, like pieces of a mosaic. Although it looks beautiful, it’s a false colour image, where scientists use different colours to show different types of information. These satellite images help us study plants on land and tiny organisms in the ocean, and can even detect things like ocean temperature, oil spills, and wind direction. In this chapter, we will uncover the unique conditions that make Earth the perfect home for living beings.
+
+## 13.1 Why Is Earth a Unique Planet?
+
+What makes the Earth so special? While there are perhaps billions of planets in the universe, Earth is the only one where life, as we know today, exists and thrives in all its forms.
+
+Have you ever wondered where all life on Earth actually exists? All the mountains, rivers, forests, animals, and people are found on just a very thin layer on the surface of our planet. From the tallest mountain to the deepest ocean trench, the crust, where all of life exists, is tiny compared to the size of Earth. If Earth were the size of an apple, the crust would be as thin as the apple’s skin as shown in Fig. 13.1.
+
+![](images/page_1_image_7.jpg)
+
+![](images/page_1_image_8.jpg)
+
+![](images/page_1_image_9.jpg)
+
+Fig. 13.1: The Earth’s crust is like the thin skin of an apple
+
+This delicate, life supporting layer is what makes Earth truly special.

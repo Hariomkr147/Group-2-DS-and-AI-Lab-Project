@@ -1,0 +1,180 @@
+{
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.07,
+            0.88,
+            0.087
+          ],
+          "content": "77"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.238,
+            0.11,
+            0.881,
+            0.153
+          ],
+          "content": "called scissors congruence. The figures need not be in the plane. Research on such questions at a higher level is ongoing."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.162,
+            0.883,
+            0.24
+          ],
+          "content": "7. **A more general midpoint theorem and its converse.** In a quadrilateral ABCD, suppose AB ‖DC. Recall that such ABCD is called a trapezium. Let E be the midpoint of AD. A line drawn through E intersects side BC at F."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.409,
+            0.245,
+            0.626,
+            0.37
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.452,
+                0.375,
+                0.549,
+                0.394
+              ],
+              "content": "Fig. 12.36"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_26_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.198,
+            0.402,
+            0.88,
+            0.452
+          ],
+          "content": "(i) If EF ‖ AB, then show that F is the midpoint of BC. Conclude that $\\mathrm{EF} = \\frac{(\\mathrm{AB} + \\mathrm{CD})}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.192,
+            0.453,
+            0.767,
+            0.475
+          ],
+          "content": "(ii) If F is the midpoint of BC, then show that EF ‖ AB."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.233,
+            0.481,
+            0.881,
+            0.585
+          ],
+          "content": "There are at least two ways to solve (ii). Do it directly by using the midpoint M of BD and showing that EM and FM are the same lines. Or use (i) along with the same idea used in the second proof of the converse of the Midpoint Theorem. Which way do you think is simpler?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.139,
+            0.594,
+            0.881,
+            0.672
+          ],
+          "content": "8. The diagonals AC and BD of a parallelogram ABCD intersect at O. A line through O meets AB and CD at points P and Q respectively. Show that O is the midpoint of PQ. (Multiple proofs are possible. Which is the simplest?)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.356,
+            0.68,
+            0.678,
+            0.774
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.783,
+                0.549,
+                0.802
+              ],
+              "content": "Fig. 12.37"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_26_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.816,
+            0.881,
+            0.876
+          ],
+          "content": "\\*9. ABCD is a trapezium with parallel sides AD = 3 cm and BC = 5 cm. E and F are the midpoints of the non-parallel sides. Find the ratio of the areas of the 4-gons AEFD and EBCF."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

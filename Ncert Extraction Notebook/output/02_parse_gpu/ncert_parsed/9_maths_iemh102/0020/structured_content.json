@@ -1,0 +1,178 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.501,
+            0.069,
+            0.816,
+            0.086
+          ],
+          "content": "Introduction to Linear Polynomials"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": "35"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.114,
+            0.399,
+            0.138
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.152,
+            0.869,
+            0.191
+          ],
+          "content": "Does this help you to conclude anything about the linear equation $y = a x + b$ when a is fixed but b varies?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.218,
+            0.884,
+            0.257
+          ],
+          "content": "(**Hint:** In these equations a = 2, and b takes the values –1, 1 and 5, respectively.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.257,
+            0.886,
+            0.298
+          ],
+          "content": "Now let us draw the graphs of the equations $y = x + 3, \\\\ y = 2x + 5$ and $y = 3 x - 2$ . See Fig. 2.14 and observe where these lines cut the y-axis."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.269,
+            0.312,
+            0.729,
+            0.652
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.459,
+                0.661,
+                0.541,
+                0.68
+              ],
+              "content": "Fig. 2.14"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_19_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.693,
+            0.289,
+            0.713
+          ],
+          "content": "We see that,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.72,
+            0.532,
+            0.74
+          ],
+          "content": "$y = 2x + 5$ cuts the y-axis at A (0, 5),"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.746,
+            0.566,
+            0.767
+          ],
+          "content": "$y = x + 3$ cuts the y-axis at B (0, 3), and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.773,
+            0.54,
+            0.794
+          ],
+          "content": "$y = 3x - 2$ cuts the y-axis at C (0, –2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.799,
+            0.887,
+            0.899
+          ],
+          "content": "We observe that any straight line written in the form y = ax + b cuts the y-axis at the point (0, b). The length b is referred to as the y-intercept of the line. Thus, the y-intercept of the line y = x + 3 is 3. This means that the line cuts the y-axis at a distance of 3 units from the origin in the positive direction. Similarly, the y-intercept of the line $y = 3x - 2\\  is  -2$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

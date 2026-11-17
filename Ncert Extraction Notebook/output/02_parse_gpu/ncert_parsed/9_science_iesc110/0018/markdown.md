@@ -1,0 +1,31 @@
+## 10.7.1 Echo
+
+If we shout near a mountain, a cliff, or in a long corridor we may hear our voice again after some time. This is known as an **echo**. The sound reflects off the hard surface of a distant object and comes back to us.
+
+Echoes aren’t heard everywhere. In a small room, wall reflections arrive too quickly for the brain to separate them from the original sound. If the time gap between two sounds reaching us is at least 0.1 s, we can hear them as separate sounds. If it is less than 0.1 s, then we cannot clearly distinguish between them. This time duration of 0.1 s can help us estimate the minimum distance of a reflecting surface from which we can hear an echo.
+
+If we take the speed of sound as 340 m $\mathbb { S } ^ { - 1 }$ , the distance travelled by sound in 0.1 s is
+
+$$
+\mathrm{distance}=\mathrm{speed}\times\mathrm{time}=340\mathrm{~m}\mathrm{~s}^{-1}\times0.1\mathrm{~s}=34.0\mathrm{~m}
+$$
+
+Note that 34 m would be the distance travelled by sound from the source to the reflecting surface and back. Hence, the minimum echo distance is half of this or 17 m.
+
+Echoes are stronger from hard and smooth surfaces that reflect sound. Soft surfaces like curtains tend to absorb sound, while rough surfaces scatter it in different directions, and in such cases it is not possible to hear the echoes clearly.
+
+**Example 10.5**: You clap in an empty corridor and hear an echo after 0.5 s. If the speed of sound in air is 340 m $\mathbb { S } ^ { - 1 }$ , calculate your distance from the wall.
+
+**Answer:** Sound travels to the wall and back, thus,
+
+distance from wal $\frac{v \times t}{2}=\frac{340\  m \  s ^{-1} \times 0.5\  s }{2}=85\  m$
+
+## Pause and Ponder
+
+12. An experiment is being set up that requires echoes to arrive at least 0.2 s after the emission of sound. What minimum distance should a reflecting surface be placed at? Assume the speed of sound to be 343 m $S ^ { - 1 }$
+
+## 10.7.2 Reverberation
+
+Sometimes the emitted sound can undergo multiple reflections from the walls in a large hall or auditorium. Multiple reflections make sound persist after the source stops emitting sound, a phenomenon called **reverberation**. This occurs when sound reflections from surfaces arrive with a time difference less than 0.05 s.
+
+Modern auditoriums and large concert halls are architecturally designed to have desirable reverberations, which allow the audience everywhere to hear speech, music, and other sounds clearly without any distortions. Sound absorbing panels, upholstered chairs, curtains and other soft, porous surfaces reduce reverberations by unwanted sources otherwise it could lead to a garbled sound.

@@ -1,0 +1,184 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "table",
+          "bbox": [
+            0.121,
+            0.117,
+            0.846,
+            0.399
+          ],
+          "content": "<table><tr><td rowspan=3>Beakers</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=2>Directionofsunlight</td><td rowspan=2>Directionof plant</td><td colspan=3>Direction of growth ofroot and shoot</td></tr><tr><td>Shoot/Root</td><td>Predictions</td><td>Observations</td></tr><tr><td rowspan=2>A</td><td rowspan=2>Alldirections</td><td rowspan=2>Upright</td><td>Shoot</td><td></td><td></td></tr><tr><td>Root</td><td></td><td></td></tr><tr><td rowspan=2>B</td><td rowspan=2>Alldirections</td><td rowspan=2>Inverted</td><td>Shoot</td><td></td><td></td></tr><tr><td>Root</td><td></td><td></td></tr><tr><td rowspan=2>C</td><td rowspan=2>Onlyfrom onedirection</td><td rowspan=2>Upright</td><td>Shoot</td><td></td><td></td></tr><tr><td>Root</td><td></td><td></td></tr></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.162,
+                0.083,
+                0.803,
+                0.106
+              ],
+              "content": "Table 10.3: Growth of root and shoot under different conditions"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_table_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.425,
+            0.745,
+            0.509
+          ],
+          "content": "What is the direction of growth of root and shoot in beakers A, B and C based on your observations? Do your predictions match your observations? What do you **conclude** from this activity?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.658,
+            0.253,
+            0.709
+          ],
+          "content": "Upright plant kept in sunlight from all directions"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.094,
+            0.515,
+            0.85,
+            0.736
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.261,
+                0.747,
+                0.487,
+                0.781
+              ],
+              "content": "Inverted plant kept in sunlight from all directions"
+            },
+            {
+              "bbox": [
+                0.75,
+                0.684,
+                0.849,
+                0.719
+              ],
+              "content": "Inner view of the box"
+            },
+            {
+              "bbox": [
+                0.5,
+                0.745,
+                0.741,
+                0.78
+              ],
+              "content": "Upright plant kept in sunlight from one direction"
+            },
+            {
+              "bbox": [
+                0.151,
+                0.782,
+                0.741,
+                0.801
+              ],
+              "content": "Fig. 10.3: Direction of growth of root and shoot under different conditions"
+            }
+          ],
+          "image_source": "images/page_10_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.815,
+            0.743,
+            0.859
+          ],
+          "content": "From the results of this **experiment** (Table 10.3 and Fig. 10.3), we note that—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.861,
+            0.744,
+            0.906
+          ],
+          "content": "1. When the plant is kept upright, the root grows downwards and the shoot grows upwards."
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.88,
+            0.705,
+            0.919,
+            0.87
+          ],
+          "content": "Characteristics Living Creatures: Exploring their"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.883,
+            0.899,
+            0.921,
+            0.916
+          ],
+          "content": "193"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:09:28+05:30",
+      "modified_at": "2026-03-27T11:31:48+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

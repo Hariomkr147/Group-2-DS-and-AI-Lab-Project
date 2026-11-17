@@ -1,0 +1,215 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.454,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Math of Space: Surface Area and Volume"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.841,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "125"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.111,
+            0.883,
+            0.229
+          ],
+          "content": "Do you remember cube numbers? Cube numbers are the numbers in the sequence 1, 8, 27, 64, … . These numbers represent the number of unit cubes that can fit inside cubes of side lengths 1, 2, 3, 4, … respectively — in other words, they represent the volumes of these cubes. We know that $1^{3} = 1, 2^{3} = 8, 3^{3} = 27, 4^{3} = 64,$ …; and $\\sqrt[3]{1} = 1, \\sqrt[3]{8} = 2, \\sqrt[3]{27} = 3, \\sqrt[3]{64} = 4,$ and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.24,
+            0.882,
+            0.336
+          ],
+          "content": "**Example 1:** Two solid objects are made from the same material: Cube A has side 6 cm and Cuboid B has dimensions 9 cm × 6 cm × 4 cm. Compare their volumes and surface areas and determine which object has a greater surface area. How is this useful in a real-life situation?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.342,
+            0.447,
+            0.362
+          ],
+          "content": "For Cube A, side (a) = 6 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.367,
+            0.881,
+            0.405
+          ],
+          "content": "Hence its volume is $a^{3} = (6\\  cm )^{3} = 216\\  cm ^{3}$ and surface area (SA) is $6a^{2}=6\\times(6\\ cm)^{2}=216\\ cm^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.411,
+            0.862,
+            0.431
+          ],
+          "content": "For Cuboid B, length (l) = 9 cm; width (w) = 6 cm; height (h) = 4 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.435,
+            0.68,
+            0.455
+          ],
+          "content": "Hence its volume is $l \\times w \\times h = 9 \\times 6 \\times 4 = 216\\  cm ^3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.46,
+            0.88,
+            0.499
+          ],
+          "content": "and surface area (SA) is $2(lw \\mp wh \\mp lh) = 2[(9 \\times 6) \\div (6 \\times 4) \\div (4 \\times 9)]$ $= 2 2 8 \\mathrm { c m ^ { 2 } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.504,
+            0.881,
+            0.545
+          ],
+          "content": "Thus, the two objects have the same volume but different surface areas. The cuboid has greater surface area than the cube."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.548,
+            0.881,
+            0.589
+          ],
+          "content": "**Conclusion:** For the same storage capacity: a cube requires less covering material; a cuboid exposes more area to its surroundings."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.593,
+            0.882,
+            0.634
+          ],
+          "content": "This concept is important in packaging, heat transfer and engineering."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.365,
+            0.659,
+            0.63,
+            0.687
+          ],
+          "level": 2,
+          "content": "Exercise Set 14.1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.707,
+            0.851,
+            0.728
+          ],
+          "content": "1. The volume of a cube is 64 cm<sup>3</sup>. What is its total surface area?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.732,
+            0.881,
+            0.772
+          ],
+          "content": "2. How many small cubes with side 20 cm can be packed tight in a cubical box with side 2 m?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.776,
+            0.882,
+            0.835
+          ],
+          "content": "3. The dimensions of a godown are 40 m × 25 m × 10 m. If it is filled with cuboidal boxes, each of dimensions 2 m × 1.25 m × 1 m, then find the number of boxes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.839,
+            0.881,
+            0.88
+          ],
+          "content": "4. Two cubes each of volume 125 cm<sup>3</sup> are joined end to end. Find the surface area of the resulting cuboid."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.286,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "QUADRATIC EQUATIONS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.872,
+            0.105,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "45"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 2,
+          "bbox": [
+            0.147,
+            0.146,
+            0.716,
+            0.187
+          ],
+          "image_path": "images/page_7_equation_2.jpg",
+          "content": "\\mathrm{If} b^2 - 4ac = 0, then x = -\\frac{b}{2a} \\pm 0, \\mathrm{i.e.}, x = -\\frac{b}{2a} \\mathrm{or} -\\frac{b}{2a}"
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.206,
+            0.663,
+            0.244
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the roots of the equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a x ^ { 2 } + b x + c = 0"
+            },
+            {
+              "type": "text",
+              "content": " are both "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\frac { - b } { 2 a } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.253,
+            0.899,
+            0.292
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, we say that the quadratic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2} + bx + c = 0"
+            },
+            {
+              "type": "text",
+              "content": " has two equal real roots in this case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.297,
+            0.9,
+            0.337
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 }   -   4 a c   <   0"
+            },
+            {
+              "type": "text",
+              "content": " , then there is no real number whose square is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 }   -   4 a c"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore, there are no real roots for the given quadratic equation in this case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.342,
+            0.9,
+            0.382
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } - 4 a c"
+            },
+            {
+              "type": "text",
+              "content": " determines whether the quadratic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2}+bx+c=0"
+            },
+            {
+              "type": "text",
+              "content": " has real roots or not, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } - 4 a c"
+            },
+            {
+              "type": "text",
+              "content": " is called the "
+            },
+            {
+              "type": "text",
+              "content": "discriminant",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of this quadratic equation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.098,
+            0.387,
+            0.534,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, a quadratic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2}+bx+c=0"
+            },
+            {
+              "type": "text",
+              "content": " has"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.117,
+            0.412,
+            0.548,
+            0.431
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) two distinct real roots, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } - 4 a c > 0 ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.111,
+            0.437,
+            0.53,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) two equal real roots, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b^{2}-4ac=0,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.105,
+            0.462,
+            0.458,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) no real roots, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "b ^ { 2 } - 4 a c < 0 ,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.147,
+            0.488,
+            0.46,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider some examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.519,
+            0.901,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the discriminant of the quadratic equation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2x^{2} - 4x + 3 = 0"
+            },
+            {
+              "type": "text",
+              "content": " , and hence find the nature of its roots."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.564,
+            0.901,
+            0.603
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The given equation is of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax^{2}+bx+c=0"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 2,   b = -4"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = 3"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore, the discriminant"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.255,
+            0.608,
+            0.742,
+            0.628
+          ],
+          "image_path": "images/page_7_equation_14.jpg",
+          "content": "b^{2}-4\\overline{ac}=(-4)^{2}-(4\\times2\\times3)=16-24=-8<0"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.096,
+            0.635,
+            0.482,
+            0.654
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the given equation has no real roots."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.095,
+            0.666,
+            0.902,
+            0.744
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 8 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A pole has to be erected at a point on the boundary of a circular park of diameter 13 metres in such a way that the differences of its distances from two diametrically opposite fixed gates A and B on the boundary is 7 metres. Is it possible to do so? If yes, at what distances from the two gates should the pole be erected?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.749,
+            0.515,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us first draw the diagram (see Fig. 4.2)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.096,
+            0.794,
+            0.517,
+            0.911
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let P be the required location of the pole. Let the distance of the pole from the gate B be x m, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B P }   =   x \\mathrm { ~ m ~ }"
+            },
+            {
+              "type": "text",
+              "content": " . Now the difference of the distances of the pole from the two gates = AP – BP (or, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{BP-AP} ="
+            },
+            {
+              "type": "text",
+              "content": " 7 m. Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AP} = (x + 7) \\mathrm{m}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.593,
+            0.748,
+            0.818,
+            0.903
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.593,
+                0.748,
+                0.818,
+                0.903
+              ],
+              "image_path": "images/page_7_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.668,
+                0.916,
+                0.753,
+                0.935
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 21,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

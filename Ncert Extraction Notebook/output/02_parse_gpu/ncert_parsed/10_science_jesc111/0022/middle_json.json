@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.306,
+            0.085,
+            0.4,
+            0.102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.304,
+            0.102,
+            0.897,
+            0.154
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The total energy consumed by the refrigerator in 30 days would be 400 W",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × "
+            },
+            {
+              "type": "text",
+              "content": "8.0 hour/day",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × "
+            },
+            {
+              "type": "text",
+              "content": "30 days = 96000 W h = 96 kW h",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.305,
+            0.154,
+            0.87,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus the cost of energy to operate the refrigerator for 30 days is 96 kW h",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × "
+            },
+            {
+              "type": "text",
+              "content": "Rs 3.00 per kW h = Rs 288.00",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.251,
+            0.224,
+            0.75,
+            0.254
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q U E S T I O N S"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.269,
+            0.741,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. What determines the rate at which energy is delivered by a current?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.293,
+            0.755,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. An electric motor takes 5 A from a 220 V line. Determine the power of the motor and the energy consumed in 2 h.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.133,
+            0.371,
+            0.516,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What you have learnt"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.417,
+            0.87,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A stream of electrons moving through a conductor constitutes an electric current. "
+            },
+            {
+              "type": "text",
+              "content": "Conventionally, the direction of current is taken opposite to the direction of flow of electrons.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.471,
+            0.512,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The SI unit of electric current is ampere."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.111,
+            0.491,
+            0.869,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To set the electrons in motion in an electric circuit, we use a cell or a battery. A cell "
+            },
+            {
+              "type": "text",
+              "content": "generates a potential difference across its terminals. It is measured in volts (V).",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.528,
+            0.869,
+            0.563
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Resistance is a property that resists the flow of electrons in a conductor. It controls "
+            },
+            {
+              "type": "text",
+              "content": "the magnitude of the current. The SI unit of resistance is ohm (",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Ω"
+            },
+            {
+              "type": "text",
+              "content": ").",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.565,
+            0.869,
+            0.601
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ohm’s law: The potential difference across the ends of a resistor is directly "
+            },
+            {
+              "type": "text",
+              "content": "proportional to the current through it, provided its temperature remains the same.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.603,
+            0.871,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The resistance of a conductor depends directly on its length, inversely on its area of "
+            },
+            {
+              "type": "text",
+              "content": "cross-section, and also on the material of the conductor.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.111,
+            0.639,
+            0.871,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "The equivalent resistance of several resistors in series is equal to the sum of their individual resistances.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.677,
+            0.87,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A set of resistors connected in parallel has an equivalent resistance "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R _ { p }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "given by",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.155,
+            0.705,
+            0.353,
+            0.743
+          ],
+          "image_path": "images/page_21_equation_16.jpg",
+          "content": "\\left[ \\frac{1}{R_{p}} = \\frac{1}{R_{1}} + \\frac{1}{R_{2}} + \\frac{1}{R_{3}} + \\cdots \\right."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.112,
+            0.757,
+            0.661,
+            0.777
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The electrical energy dissipated in a resistor is given by"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.112,
+            0.799,
+            0.869,
+            0.834
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "The unit of power is watt (W). One watt of power is consumed when 1 A of current flows at a potential difference of 1 V.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.113,
+            0.836,
+            0.712,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The commercial unit of electrical energy is kilowatt hour (kWh)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.153,
+            0.853,
+            0.473,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 kW h = 3,600,000 J = 3.6",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " × "
+            },
+            {
+              "type": "text",
+              "content": "10",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "6",
+              "styles": [
+                "bold",
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "J.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.09,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "192"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

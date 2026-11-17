@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 18,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 18,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.235,
+            0.087,
+            0.888,
+            0.123
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Place 1 coin in the left pan (call it effort) and 1 identical coin in the right pan (call it load). Observe that the beam stays horizontal."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.235,
+            0.125,
+            0.89,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Add one more coin to the right pan, so that it contains 2 coins. The beam tilts. Move the heavier pan closer to the centre of the beam to balance the beam. "
+            },
+            {
+              "type": "text",
+              "content": "Measure",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " its distance from the centre."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.235,
+            0.18,
+            0.888,
+            0.215
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Repeat step 5 with 4 coins and then 8 coins in the right pan. Each time, note its distance from the centre that balances the beam."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.235,
+            0.217,
+            0.888,
+            0.253
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. "
+            },
+            {
+              "type": "text",
+              "content": "Record",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " all observations and measurements, and complete the Table 7.1 by adding more rows."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.227,
+            0.284,
+            0.886,
+            0.422
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 4,
+              "bbox": [
+                0.223,
+                0.263,
+                0.828,
+                0.28
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 7.1: Number of coins in the left pan and its distance from the fulcrum"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.227,
+                0.284,
+                0.886,
+                0.422
+              ],
+              "image_path": "images/page_18_table_5.jpg",
+              "content": "<table><tr><td>Number of Coinsin left pan,<eq>n _ { 1 }</eq>(Effort)</td><td>Distance of leftpan from thefulcrum,<eq>L _ { 1 }</eq>(cm)</td><td>Number of coinsin right pan,<eq>n _ { 2 }</eq>(Load)</td><td>Distance of rightpan from thefulcrum,<eq>L _ { 2 }</eq>(cm)</td></tr><tr><td>1</td><td></td><td>1</td><td></td></tr><tr><td>1</td><td></td><td>2</td><td></td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.222,
+            0.439,
+            0.888,
+            0.474
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "By analysing the values recoded in Table 7.1, you can "
+            },
+            {
+              "type": "text",
+              "content": "conclude",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " that the beam balances when"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.482,
+            0.474,
+            0.625,
+            0.493
+          ],
+          "image_path": "images/page_18_equation_7.jpg",
+          "content": "n_{1} \\times L_{1}^{*} = n_{2} \\times L_{2}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.225,
+            0.494,
+            0.259,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Or,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.376,
+            0.494,
+            0.887,
+            0.512
+          ],
+          "image_path": "images/page_18_equation_9.jpg",
+          "content": "\\mathrm{effort} \\times \\mathrm{effort} \\; \\mathrm{arm} = \\mathrm{load} \\times \\mathrm{l} \\; \\mathrm{load} \\; \\mathrm{arm}\\tag{7.15}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.222,
+            0.514,
+            0.888,
+            0.567
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the effort arm is increased, the effort required to move the same load is reduced. You can calculate the mechanical advantage of the lever by using Eq. (7.12). Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.328,
+            0.565,
+            0.887,
+            0.602
+          ],
+          "image_path": "images/page_18_equation_11.jpg",
+          "content": "\\mathrm{mechanism\\_advantage} = \\frac{\\mathrm{load}}{\\mathrm{effort}} = \\frac{\\mathrm{effort\\ arm}}{\\mathrm{load\\ arm}}\\tag{7.16}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.223,
+            0.602,
+            0.889,
+            0.67
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, by increasing the effort arm, the lever applies a larger force "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " to the load than the effort "
+            },
+            {
+              "type": "equation_inline",
+              "content": "F_{1}^{\\cdot}"
+            },
+            {
+              "type": "text",
+              "content": " The lever thus allows us to gain a mechanical advantage equal to the ratio of the distances, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { L _ { 1 } } { L _ { 2 } }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.223,
+            0.675,
+            0.89,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With the use of a lever, the effort required is generally smaller but it has to move by a larger distance such that the total work done by the agency applying effort remains the same."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.082,
+            0.741,
+            0.305,
+            0.894
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.082,
+                0.741,
+                0.305,
+                0.894
+              ],
+              "image_path": "images/page_18_image_14.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 16,
+              "bbox": [
+                0.126,
+                0.898,
+                0.265,
+                0.913
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.34: A seesaw"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.318,
+            0.73,
+            0.89,
+            0.798
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 7.13:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " For a seesaw having four seats A, B, D, E and fulcrum at C (Fig. 7.34), AC = EC = 2 m and BC = DC = 1 m. On which seats should children of masses 15 kg and 30 kg sit to make the seesaw balanced?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.318,
+            0.801,
+            0.89,
+            0.851
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Suppose the child of mass 15 kg sits on seat A and the other child sits at a distance L from the fulcrum. Using Eq. (7.15), we obtain"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.35,
+            0.855,
+            0.555,
+            0.874
+          ],
+          "image_path": "images/page_18_equation_18.jpg",
+          "content": "15\\; kg  \\times 2\\; m  = 30\\; kg  \\times L"
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.35,
+            0.876,
+            0.423,
+            0.893
+          ],
+          "image_path": "images/page_18_equation_19.jpg",
+          "content": "L = 1   \\mathrm { m }"
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.32,
+            0.896,
+            0.684,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the other child should sit at seat D."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "134"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 22,
+          "bbox": [
+            0.133,
+            0.948,
+            0.304,
+            0.965
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

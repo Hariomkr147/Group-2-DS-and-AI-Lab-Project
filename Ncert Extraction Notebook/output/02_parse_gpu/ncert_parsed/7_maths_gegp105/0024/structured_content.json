@@ -1,0 +1,198 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.495,
+            0.088,
+            0.622,
+            0.282
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.542,
+                0.297,
+                0.61,
+                0.315
+              ],
+              "content": "Fig. 5.7"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_23_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.33,
+            0.881,
+            0.371
+          ],
+          "content": "**Make one more horizontal fold in the folded sheet. How many parallel lines do you see now?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.374,
+            0.881,
+            0.437
+          ],
+          "content": "**What will happen if you do it once more? How many parallel lines will you get? Is there a pattern? Check if the pattern extends further, if you make another horizontal fold.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.441,
+            0.881,
+            0.482
+          ],
+          "content": "**Make a vertical fold in the square sheet. This new vertical line** is to the previous horizontal lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.207,
+            0.486,
+            0.882,
+            0.528
+          ],
+          "content": "**Fold the sheet along a diagonal. Can you find a fold that creates a line parallel to the diagonal line?**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.14,
+            0.553,
+            0.193,
+            0.57
+          ],
+          "level": 2,
+          "content": "Ans:"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.14,
+            0.581,
+            0.321,
+            0.599
+          ],
+          "level": 2,
+          "content": "Fill in the Blanks"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.604,
+            0.741,
+            0.623
+          ],
+          "content": "● The opposite edges of the sheet are **parallel** to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.626,
+            0.807,
+            0.646
+          ],
+          "content": "● The adjacent edges of the sheet are **perpendicular** to each other."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.14,
+            0.67,
+            0.362,
+            0.687
+          ],
+          "level": 2,
+          "content": "First Horizontal Fold"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.689,
+            0.881,
+            0.73
+          ],
+          "content": "● We will see **three** parallel lines. The new line segment is **perpendicular** to the vertical sides."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.14,
+            0.748,
+            0.443,
+            0.766
+          ],
+          "level": 2,
+          "content": "Subsequent Horizontal Folds"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.768,
+            0.881,
+            0.831
+          ],
+          "content": "After one more horizontal fold, we will see a total of **five** parallel lines. The two original horizontal edges, the first fold line, and the second fold line are all parallel to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.835,
+            0.881,
+            0.876
+          ],
+          "content": "● If we fold it horizontally one more time, we will get **nine** parallel lines. Yes, the pattern is $2 ^ { \\mathrm { n } } + 1$ , where n is the number of folds."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:45+05:30",
+      "modified_at": "2026-04-07T17:15:45+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

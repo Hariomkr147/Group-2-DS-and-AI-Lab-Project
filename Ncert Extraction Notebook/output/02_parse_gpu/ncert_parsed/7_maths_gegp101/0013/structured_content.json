@@ -1,0 +1,207 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.626,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "Large Numbers Around Us"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.157,
+            0.084,
+            0.84,
+            0.322
+          ],
+          "content": "| 15 | Indore | 19,60,631 | 14,74,968 |\n| --- | --- | --- | --- |\n| 16 | Thane | 18,18,872 | 12,62,551 |\n| 17 | Bhopal | 17,98,218 | 14,37,354 |\n| 18 | Visakhapatnam | 17,28,128 | 13,45,938 |\n| 19 | Pimpri-Chinchwad | 17,27,692 | 10,12,472 |\n| 20 | Patna | 16,84,222 | 13,66,444 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.344,
+            0.848,
+            0.384
+          ],
+          "content": "？ From the information given in the table, answer the following questions by approximation:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.398,
+            0.847,
+            0.436
+          ],
+          "content": "1. What is your general observation about this data? Share it with the class."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.441,
+            0.67,
+            0.461
+          ],
+          "content": "2. What is an appropriate title for the above table?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.465,
+            0.847,
+            0.503
+          ],
+          "content": "3. How much is the population of Pune in 2011? Approximately, by how much has it increased compared to 2001?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.508,
+            0.839,
+            0.528
+          ],
+          "content": "4. Which city’s population increased the most between 2001 and 2011?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.532,
+            0.847,
+            0.57
+          ],
+          "content": "5. Are there cities whose population has almost doubled? Which are they?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.575,
+            0.848,
+            0.614
+          ],
+          "content": "6. By what number should we multiply Patna’s population to get a number/population close to that of Mumbai?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.637,
+            0.489,
+            0.66
+          ],
+          "level": 2,
+          "content": "1.5 Patterns in Products"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.67,
+            0.848,
+            0.727
+          ],
+          "content": "Roxie and Estu are playing with multiplication. They encounter an interesting technique for multiplying a number by 10, 100, 1000, and so on."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.745,
+            0.471,
+            0.768
+          ],
+          "level": 2,
+          "content": "A Multiplication Shortcut"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.777,
+            0.523,
+            0.796
+          ],
+          "content": "Roxie evaluated 116 × 5 as follows:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.374,
+            0.802,
+            0.565,
+            0.9
+          ],
+          "content": "{ \\begin{array} { r l } { 5 8 } \\\\ { 1 1 6 \\times 5 } & { = 1 { \\mathcal { H } } 6 \\times { \\cfrac { 1 0 } { \\mathcal { L } } } } \\\\ & { = 5 8 \\times 1 0 } \\\\ & { = 5 8 0 . } \\end{array} }",
+          "image_source": "images/page_12_equation_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.938,
+            0.841,
+            0.955
+          ],
+          "content": "13"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:14:09+05:30",
+      "modified_at": "2026-04-07T17:14:16+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

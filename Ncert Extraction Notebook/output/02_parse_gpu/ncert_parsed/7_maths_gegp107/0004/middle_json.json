@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.394,
+            0.215,
+            0.604,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.394,
+                0.215,
+                0.604,
+                0.23
+              ],
+              "image_path": "images/page_3_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.468,
+                0.232,
+                0.533,
+                0.248
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.57,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A Tale of Three Intersecting Lines"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.122,
+            0.662,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we construct this triangle more efficiently?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.149,
+            0.153,
+            0.848,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Choose one of the given lengths to be the base of the triangle: say 4 cm. Draw the base. Let A and B be the base vertices, and call the third vertex C. Let "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A C } = 5"
+            },
+            {
+              "type": "text",
+              "content": " cm and BC = 6 cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.259,
+            0.849,
+            0.334
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Like we did in the case of equilateral triangles, let us first get all the points that are at a 5 cm distance from A. These points lie on the circle whose centre is A and has radius 5 cm. The point C must lie somewhere on this circle. How do we find it?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.349,
+            0.339,
+            0.65,
+            0.582
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.349,
+                0.339,
+                0.65,
+                0.582
+              ],
+              "image_path": "images/page_3_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.174,
+            0.586,
+            0.825,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We will make use of the fact that the point C is 6 cm away from B. Construct an arc of radius 6 cm from B."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.21,
+            0.628,
+            0.721,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.21,
+                0.628,
+                0.721,
+                0.899
+              ],
+              "image_path": "images/page_3_image_8.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 9,
+              "bbox": [
+                0.468,
+                0.903,
+                0.534,
+                0.918
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.806,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "149"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

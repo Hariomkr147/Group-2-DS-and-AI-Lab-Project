@@ -1,0 +1,243 @@
+{
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.454,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": "Math of Space: Surface Area and Volume"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.841,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": "143"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.109,
+            0.493,
+            0.128
+          ],
+          "content": "The volume of the classroom is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.288,
+            0.135,
+            0.743,
+            0.155
+          ],
+          "content": "3 0 \\times 3 0 \\times 1 5 = 1 3 , 5 0 0 \\mathrm { f t ^ { 3 } } \\approx 3 7 , 8 0 , 0 0 , 0 0 0 \\mathrm { c m ^ { 3 } } .",
+          "image_source": "images/page_20_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.167,
+            0.569,
+            0.245
+          ],
+          "content": "Can we find the number of tennis balls that can fit in the classroom by dividing the volume of the classroom by the volume of a tennis ball?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.65,
+            0.174,
+            0.8,
+            0.195
+          ],
+          "content": "1\\  ft =30.48\\  cm",
+          "image_source": "images/page_20_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.642,
+            0.197,
+            0.808,
+            0.217
+          ],
+          "content": "1 ~ \\mathrm { f t ^ { 3 } \\approx 2 8 3 1 7 ~ c m ^ { 3 } }",
+          "image_source": "images/page_20_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.214,
+            0.254,
+            0.482,
+            0.292
+          ],
+          "content": "\\frac { 3 7 , 8 0 , 0 0 , 0 0 0 } { 1 1 3 }   \\approx   3 3 , 4 5 , 1 3 2 .",
+          "image_source": "images/page_20_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.665,
+            0.242,
+            0.785,
+            0.261
+          ],
+          "content": "1 ~ \\mathrm { f t } \\approx 3 0 ~ \\mathrm { c m }",
+          "image_source": "images/page_20_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.642,
+            0.264,
+            0.808,
+            0.285
+          ],
+          "content": "1 ~ \\mathrm { f t ^ { 3 } \\approx 2 8 0 0 0 ~ c m ^ { 3 } }",
+          "image_source": "images/page_20_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.308,
+            0.883,
+            0.368
+          ],
+          "content": "No, the balls cannot fit in the room without leaving gaps in between. Hence this operation will only give an upper bound value, i.e., we can say for sure that we cannot fit more balls than this."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.372,
+            0.72,
+            0.393
+          ],
+          "content": "Accounting for these gaps can give a better estimate."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.15,
+            0.399,
+            0.842,
+            0.547
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.222,
+                0.554,
+                0.776,
+                0.592
+              ],
+              "content": "Fig. 14.17: These are some of the ordered ways of packing spheres in a cuboidal structure"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_20_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.601,
+            0.882,
+            0.708
+          ],
+          "content": "**Using the first configuration:** Along each side of the room, the number of balls that can be placed side-by-side along the length is dimension of the $\\frac{\\mathrm{room}}{\\mathrm{ball}} \\approx \\frac{900}{6} = 150$. The same number can be placed diameter of the along the width. Along the height, it is 75 balls."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.712,
+            0.881,
+            0.752
+          ],
+          "content": "Therefore, 150 × 150 × 75 = 16,87,500 denotes the approximate number of balls that can fill the room."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.756,
+            0.881,
+            0.796
+          ],
+          "content": "Using the other configurations, we might be able to fit more balls because of higher packing efficiency."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.8,
+            0.842,
+            0.821
+          ],
+          "content": "Make an estimate based on the second and third configurations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.825,
+            0.882,
+            0.865
+          ],
+          "content": "**Note:** This is why spheres are not used as basic units to measure volumes as they leave gaps unlike cubes."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:55:03+05:30",
+      "modified_at": "2026-09-30T11:40:07+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 42,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

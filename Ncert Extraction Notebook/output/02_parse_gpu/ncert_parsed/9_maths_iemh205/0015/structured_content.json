@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.597,
+            0.071,
+            0.812,
+            0.088
+          ],
+          "content": "Two Variables, One Line"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.086
+          ],
+          "content": "99"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.11,
+            0.882,
+            0.195
+          ],
+          "content": "But why does ${ } ^ { \\circ } m ^ { \\flat }$ represent the slope? To understand this let us consider two points $\\mathrm { A } ( x _ { 1 } , y _ { 1 } )$ and $\\mathrm { B }   ( x _ { _ 2 } ,   y _ { _ 2 } )$ which lie on the line $y = m x + d .$ Since they satisfy the equation we get, $y_{1} = mx_{1} + d$ and $y_{2} = mx_{2} + d.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.197,
+            0.83,
+            0.217
+          ],
+          "content": "Now, the slope of the line passing through the points A and B is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.196,
+            0.218,
+            0.798,
+            0.258
+          ],
+          "content": "\\frac{y_{2}-y_{1}}{X_{2}-X_{1}}=\\frac{(mx_{2}+d)-(mx_{1}+d)}{X_{2}-X_{1}}=\\frac{mx_{2}-mx_{1}}{X_{2}-X_{1}}=\\frac{m(x_{2}-x_{1})}{x_{2}-x_{1}}=m",
+          "image_source": "images/page_14_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.26,
+            0.882,
+            0.372
+          ],
+          "content": "This is the reason why we can just read off the slope of a line if its equation is in the form $y = m x + d .$ This also shows that the slope m of a line with equation $y = m x + d$ is given by $\\frac { y _ { _ 2 } - y _ { _ 1 } } { X _ { _ 2 } - X _ { _ 1 } }$ for any two points $( x _ { 1 } , y _ { 1 } )$ and $( x _ { \\mathrm { { 2 } } } , y _ { \\mathrm { { 2 } } } )$ on the line, regardless of which points they are."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.374,
+            0.881,
+            0.413
+          ],
+          "content": "Note that the standard form of the equation of a line $ax + by + c = 0$ can be rewritten as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.308,
+            0.417,
+            0.691,
+            0.454
+          ],
+          "content": "by = -ax - c   or   y = -\\frac{a}{b}x - \\frac{c}{b}, (b \\neq 0)",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.46,
+            0.881,
+            0.545
+          ],
+          "content": "which is of the form $y = m x + d .$ Here $m = - \\frac{a}{b} \\bmod d = - \\frac{c}{b}.$ Hence $y = mx + d$ is another form of expressing the linear equation $ax + by + c = 0$ , provided $b \\neq 0 .$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.548,
+            0.881,
+            0.589
+          ],
+          "content": "Consider the line $5x + y = 3$ . Rewrite it as y = –5x + 3. Can you now find its slope? What does it mean?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.593,
+            0.881,
+            0.652
+          ],
+          "content": "In $y = - 5x + 3, m = - 5$ is the slope, which means for every increase of 1 unit in x, y decreases by 5 units. d = 3 is the y-intercept which means the line crosses the y-axis at (0, 3)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.658,
+            0.661,
+            0.679
+          ],
+          "content": "Let us make a table of values to draw its graph."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.22,
+            0.683,
+            0.778,
+            0.745
+          ],
+          "content": "| x | 0 | 1 | -1 |\n| --- | --- | --- | --- |\n| y | 3 | -2 | 8 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_table_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.757,
+            0.88,
+            0.799
+          ],
+          "content": "Plotting the ordered pairs A (0, 3), B (1, –2), C (–1, 8) and drawing the line through them we get the graph of $y = - 5x + 3$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.817,
+            0.399,
+            0.84
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.133,
+            0.857,
+            0.852,
+            0.895
+          ],
+          "content": "Can you use the points A, B and C to verify that the slope of this line is indeed –5?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

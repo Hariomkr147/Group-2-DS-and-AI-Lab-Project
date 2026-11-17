@@ -1,0 +1,200 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.346,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.086,
+            0.658,
+            0.109
+          ],
+          "level": 2,
+          "content": "Do images B and E look like the other three images?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.113,
+            0.837,
+            0.154
+          ],
+          "content": "No, they are slightly distorted. The tiger appears elongated in B, and compressed and fatter in E!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.157,
+            0.214,
+            0.181
+          ],
+          "level": 2,
+          "content": "？ Why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.185,
+            0.801,
+            0.246
+          ],
+          "content": "You may notice that images A, C, and D are rectangular, but E is square. Maybe that is why E looks different. But B is also a rectangle! Why does it look different from the other rectangular images?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.195,
+            0.905,
+            0.254
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.246,
+            0.801,
+            0.288
+          ],
+          "content": "Can we observe any pattern to answer this question? Perhaps by measuring the rectangles?"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.234,
+            0.301,
+            0.764,
+            0.483
+          ],
+          "content": "| Image | Width (in mm) | Height (in mm) |\n| --- | --- | --- |\n| Image A | 60 | 40 |\n| Image B | 40 | 20 |\n| Image C | 30 | 20 |\n| Image D | 90 | 60 |\n| Image E | 60 | 60 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_table_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.503,
+            0.835,
+            0.525
+          ],
+          "level": 2,
+          "content": "？ What makes images A, C, and D appear similar, and B and E different?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.53,
+            0.848,
+            0.631
+          ],
+          "content": "When we compare image A with C, we notice that the width of C is half that of A. The height is also half of A. Both the width and height have **changed by the same factor** (through multiplication),  in this case. Since the widths and heights have changed by the same factor, the **images look similar**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.632,
+            0.849,
+            0.775
+          ],
+          "content": "When we compare image A with image B, we notice that the width of B is 20 millimetre (mm) less than that of A. The height too is 20 mm less than the height of A. Even though the difference (through subtraction) is the same, the images look different. Have the width and height changed by the same factor? The height of B is half the height of A. But the width of B is not half the width of A. Since the width and height have not changed by the same factor, the images look different."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.778,
+            0.847,
+            0.821
+          ],
+          "content": "？ Can you check by what factors the width and height of image D change as compared to image A? Are the factors the same?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.825,
+            0.848,
+            0.888
+          ],
+          "content": "Images A, C, and D look similar because their widths and heights have changed by the same factor. We say that the changes to their widths and heights are **proportional.**"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.915,
+            0.126,
+            0.937
+          ],
+          "content": "160"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:31+05:30",
+      "modified_at": "2026-05-15T17:58:36+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

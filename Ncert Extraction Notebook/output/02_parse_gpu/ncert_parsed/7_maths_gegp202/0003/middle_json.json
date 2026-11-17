@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.089,
+            0.847,
+            0.127
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, suppose the coin can be struck to move it in either direction — left or right."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.33,
+            0.134,
+            0.668,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.33,
+                0.134,
+                0.668,
+                0.197
+              ],
+              "image_path": "images/page_2_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.213,
+            0.849,
+            0.272
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ The coin is at 0. If it is struck twice (the direction of the two strikes may be the same or different) can you give a formula for the final position of the coin?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.277,
+            0.849,
+            0.315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One way to do this is to consider different cases of the directions of the strikes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.179,
+            0.32,
+            0.401,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• both are rightward,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.179,
+            0.343,
+            0.386,
+            0.362
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• both are leftward,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.179,
+            0.367,
+            0.8,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• the first one is rightward and the second one is leftward, and"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.179,
+            0.391,
+            0.759,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• the first one is leftward and the second one is rightward."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.416,
+            0.847,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An efficient way to model this situation is to use positive and negative integers. First, let us model the line on which the coin moves as a number line."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.191,
+            0.479,
+            0.806,
+            0.512
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.191,
+                0.479,
+                0.806,
+                0.512
+              ],
+              "image_path": "images/page_2_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.52,
+            0.846,
+            0.558
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider the rightward movement positive and the leftward movement negative."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.558,
+            0.846,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose the first strike moves the coin rightward by 5 units from 0, and the second strike leftward by 7 units, then we take the"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.375,
+            0.597,
+            0.629,
+            0.615
+          ],
+          "image_path": "images/page_2_equation_13.jpg",
+          "content": "{ \\mathrm { F i r s t ~ M o v e m e n t } } = 5 { \\mathrm { ~ u n i t s } } ."
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.353,
+            0.616,
+            0.645,
+            0.636
+          ],
+          "image_path": "images/page_2_equation_14.jpg",
+          "content": "\\mathrm { S e c o n d ~ M o v e m e n t } = - 7 \\; \\mathrm { u n i t s } ."
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.111,
+            0.644,
+            0.521,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What is the final position of the coin?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.67,
+            0.829,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This can be found by simply adding the two movements: 5 + (– 7) = – 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.15,
+            0.701,
+            0.621,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So the coin is at –2, or it is 2 units to the left of 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.15,
+            0.725,
+            0.848,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, if the first strike moves the coin ‘a’ units (which is positive if the strike is to the right and negative if the strike is to the left), and the second strike ‘b’ units (which is positive if the strike is to the right and negative if the strike is to the left), then the final position ‘P’, after the two strikes, is again P = a + b."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 19,
+          "bbox": [
+            0.111,
+            0.831,
+            0.718,
+            0.854
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Based on this new model, answer the following questions:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.162,
+            0.862,
+            0.847,
+            0.901
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. If the first movement is – 4 and the final position is 5, what is the second movement?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.16,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

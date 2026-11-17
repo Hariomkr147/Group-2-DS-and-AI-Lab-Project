@@ -1,0 +1,244 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.085,
+            0.469,
+            0.105
+          ],
+          "content": "The current $I_{2}, \\mathrm{through} R_{2} = V/R_{2}$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.244,
+            0.106,
+            0.469,
+            0.125
+          ],
+          "content": "I_{_2} = 12\\  V  / 10\\ \\Omega = 1.2\\  A .",
+          "image_source": "images/page_16_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.127,
+            0.466,
+            0.147
+          ],
+          "content": "The current $I_{3}, \\mathrm{through} R_{3} = V/R_{3}$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.244,
+            0.148,
+            0.47,
+            0.167
+          ],
+          "content": "I_{3} = 12\\  V  / 30\\ \\Omega = 0.4\\  A .",
+          "image_source": "images/page_16_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.169,
+            0.407,
+            0.186
+          ],
+          "content": "**The total current in the circuit,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.243,
+            0.19,
+            0.448,
+            0.239
+          ],
+          "content": "\\begin{array} { l } { { I \\quad = \\quad I _ { _ { 1 } } + I _ { _ { 2 } } + I _ { _ { 3 } } } } \\\\ { { \\quad = \\quad \\left( 2 . 4 + 1 . 2 + 0 . 4 \\right) \\mathrm { A } } } \\\\ { { \\quad = \\quad 4 \\mathrm { ~ A } } } \\end{array}",
+          "image_source": "images/page_16_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.241,
+            0.547,
+            0.26
+          ],
+          "content": "The total resistance $R _ { p ^ { \\prime } }$ **is given by [Eq. (11.18)]**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.133,
+            0.265,
+            0.303,
+            0.302
+          ],
+          "content": "\\left[ \\frac{1}{R_{p}} = \\frac{1}{5} + \\frac{1}{10} + \\frac{1}{30} = \\frac{1}{3} \\right.",
+          "image_source": "images/page_16_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.308,
+            0.27,
+            0.328
+          ],
+          "content": "Thus, $R _ { _ { p } } = 3 \\; \\Omega .$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.342,
+            0.276,
+            0.358
+          ],
+          "level": 2,
+          "content": "Example 11.9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.358,
+            0.724,
+            0.428
+          ],
+          "content": "If in Fig. 11.12, $R_{1}=10\\Omega,R_{2}=40\\Omega,R_{3}=30\\Omega,R_{4}=20\\Omega,R_{5}=60\\Omega,$ **and a 12 V battery is connected to the arrangement. Calculate (a) the total resistance in the circuit, and (b) the total current flowing in the circuit.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.442,
+            0.224,
+            0.458
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.458,
+            0.634,
+            0.633
+          ],
+          "content": "Suppose we replace the parallel resistors $R _ { I }$ and $R _ { z }$ **by an equivalent resistor of resistance,** $R ^ { \\prime }$ **Similarly we replace** the parallel resistors $R _ { _ 3 } , R _ { _ 4 }$ and $R _ { \\bar { 5 } }$ **by an equivalent single resistor of resistance** $\\dot { R ^ { \\prime } } ,$ **Then using Eq. (11.18), we have** $1 / R^{\\prime} = 1 / 10 + 1 / 40 = 5 / 40;$ that is $R ^ { \\prime } = 8 \\; \\Omega$ **Similarly,** $1/R'' \\quad = \\quad 1/30 \\pm 1/20 + 1/60 = 6/60;$ that is, $R ^ { \\prime \\prime } \\equiv 1 0 \\; \\Omega .$ Thus, the total resistance, $R = R' + R'' = 18 \\Omega.$ **To calculate the current, we use Ohm’s law, and get** $I = V / R = 12\\  V  / 18\\ \\Omega = 0.67\\  A .$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.646,
+            0.421,
+            0.922,
+            0.656
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.642,
+            0.724,
+            0.883
+          ],
+          "content": "**We have seen that in a series circuit the current is constant throughout the electric circuit. Thus it is obviously impracticable to connect an electric bulb and an electric heater in series, because they need currents of widely different values to operate properly (see Example 11.3). Another major disadvantage of a series circuit is that when one component fails the circuit is broken and none of the components works. If you have used ‘fairy lights’ to decorate buildings on festivals, on marriage celebrations etc., you might have seen the electrician spending lot of time in trouble-locating and replacing the ‘dead’ bulb – each has to be tested to find which has fused or gone. On the other hand, a parallel circuit divides the current through the electrical gadgets. The total resistance in a parallel circuit is decreased as per Eq. (11.18). This is helpful particularly when each gadget has different resistance and requires different current to operate properly.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.729,
+            0.663,
+            0.924,
+            0.721
+          ],
+          "content": "Figure 11.12 An electric circuit showing the combination of series and parallel resistors"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1,
+            0.915,
+            0.178,
+            0.931
+          ],
+          "content": "Electricity"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.912,
+            0.93
+          ],
+          "content": "187"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

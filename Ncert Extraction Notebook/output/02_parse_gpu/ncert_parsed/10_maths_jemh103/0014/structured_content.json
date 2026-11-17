@@ -1,0 +1,278 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.475,
+            0.121
+          ],
+          "content": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.874,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "37"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.144,
+            0.902,
+            0.197
+          ],
+          "content": "(iv) Meena went to a bank to withdraw \\` 2000. She asked the cashier to give her \\` 50 and \\` 100 notes only. Meena got 25 notes in all. Find how many notes of \\` 50 and \\` 100 she received."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.203,
+            0.902,
+            0.276
+          ],
+          "content": "(v) A lending library has a fixed charge for the first three days and an additional charge for each day thereafter. Saritha paid \\` 27 for a book kept for seven days, while Susy paid \\` 21 for the book she kept for five days. Find the fixed charge and the charge for each extra day."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.289,
+            0.252,
+            0.309
+          ],
+          "level": 2,
+          "content": "3.4 Summary"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.315,
+            0.574,
+            0.334
+          ],
+          "content": "In this chapter, you have studied the following points:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.339,
+            0.857,
+            0.357
+          ],
+          "content": "**1.** A pair of linear equations in two variables can be represented, and solved, by the:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.361,
+            0.36,
+            0.379
+          ],
+          "content": "(i) graphical method"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.384,
+            0.358,
+            0.402
+          ],
+          "content": "(ii) algebraic method"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.407,
+            0.326,
+            0.425
+          ],
+          "content": "**2.** Graphical Method :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.432,
+            0.866,
+            0.45
+          ],
+          "content": "The graph of a pair of linear equations in two variables is represented by two lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.455,
+            0.9,
+            0.491
+          ],
+          "content": "(i) If the lines intersect at a point, then that point gives the unique solution of the two equations. In this case, the pair of equations is **consistent**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.495,
+            0.901,
+            0.548
+          ],
+          "content": "(ii) If the lines coincide, then there are infinitely many solutions — each point on the line being a solution. In this case, the pair of equations is **dependent (consistent)**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.554,
+            0.9,
+            0.59
+          ],
+          "content": "(iii) If the lines are parallel, then the pair of equations has no solution. In this case, the pair of equations is **inconsistent**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.597,
+            0.9,
+            0.634
+          ],
+          "content": "**3.** Algebraic Methods : We have discussed the following methods for finding the solution(s) of a pair of linear equations :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.172,
+            0.637,
+            0.392,
+            0.655
+          ],
+          "content": "(i) Substitution Method"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.659,
+            0.382,
+            0.676
+          ],
+          "content": "(ii) Elimination Method"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.681,
+            0.9,
+            0.716
+          ],
+          "content": "**4.** If a pair of linear equations is given by $a_{1}x + b_{1}y + c_{1} = 0$ and $a_{2}x + b_{2}y + c_{2} = 0$ , then the following situations can arise :"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.724,
+            0.762,
+            0.763
+          ],
+          "content": "(i) $\\frac{a_{1}}{a_{2}} \\neq \\frac{b_{1}}{b_{1}}$ : In this case, the pair of linear equations is consistent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.166,
+            0.768,
+            0.822,
+            0.811
+          ],
+          "content": "(ii) $\\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}\\neq\\frac{c_{1}}{c_{2}}$ : In this case, the pair of linear equations is inconsistent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.823,
+            0.899,
+            0.863
+          ],
+          "content": "(iii) $\\frac { a _ { 1 } } { a _ { 2 } }   =   \\frac { b _ { 1 } } { b _ { 2 } }   =   \\frac { c _ { 1 } } { c _ { 2 } }$ : In this case, the pair of linear equations is dependent and consistent."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.864,
+            0.902,
+            0.916
+          ],
+          "content": "**5.** There are several situations which can be mathematically represented by two equations that are not linear to start with. But we alter them so that they are reduced to a pair of linear equations."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.562,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

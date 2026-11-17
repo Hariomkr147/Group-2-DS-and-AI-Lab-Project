@@ -1,0 +1,562 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.105,
+            0.115,
+            0.118
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.139,
+            0.901,
+            0.199
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, given a composite number x, we factorise it as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { x } = \\boldsymbol { p } _ { 1 } \\boldsymbol { p } _ { 2 } \\dots \\boldsymbol { p } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { p } _ { 1 } , \\boldsymbol { p } _ { 2 } , . . . , \\boldsymbol { p } _ { n }"
+            },
+            {
+              "type": "text",
+              "content": " are primes and written in ascending order, i.e., "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { p } _ { 1 } \\; \\leq \\; \\boldsymbol { p } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leq \\ldots \\leq p _ { _ n }"
+            },
+            {
+              "type": "text",
+              "content": " . If we combine the same primes, we will get powers of primes. For example,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.148,
+            0.203,
+            0.736,
+            0.222
+          ],
+          "image_path": "images/page_3_equation_3.jpg",
+          "content": "32760=2\\times2\\times2\\times3\\times3\\times5\\times7\\times13=2^{3}\\times3^{2}\\times5\\times7\\times13"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.23,
+            0.901,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Once we have decided that the order will be ascending, then the way the number is factorised, is unique."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.275,
+            0.9,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Fundamental Theorem of Arithmetic has many applications, both within mathematics and in other fields. Let us look at some examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.327,
+            0.9,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider the numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " , where n is a natural number. Check whether there is any value of n for which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " ends with the digit zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.373,
+            0.902,
+            0.491
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If the number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n } ,"
+            },
+            {
+              "type": "text",
+              "content": " for any n, were to end with the digit zero, then it would be divisible by 5. That is, the prime factorisation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " would contain the prime 5. This is not possible because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }   =   ( 2 ) ^ { 2 n }"
+            },
+            {
+              "type": "text",
+              "content": " ; so the only prime in the factorisation of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " is 2. So, the uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 4"
+            },
+            {
+              "type": "text",
+              "content": "n",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". So, there is no natural number n for which "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 ^ { n }"
+            },
+            {
+              "type": "text",
+              "content": " ends with the digit zero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.495,
+            0.901,
+            0.574
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You have already learnt how to find the HCF and LCM of two positive integers using the Fundamental Theorem of Arithmetic in earlier classes, without realising it! This method is also called the prime factorisation method. Let us recall this method through an example."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.097,
+            0.586,
+            0.898,
+            0.605
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the LCM and HCF of 6 and 20 by the prime factorisation method."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.097,
+            0.609,
+            0.775,
+            0.629
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We have : "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 = 2^{1} \\times 3^{1}"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "20=2\\times2\\times5=2^{2}\\times5^{1}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.097,
+            0.636,
+            0.9,
+            0.674
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can find HCF(6, 20) = 2 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{LCM}(6,20)=2\\times2\\times3\\times5=60"
+            },
+            {
+              "type": "text",
+              "content": " , as done in your earlier classes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.098,
+            0.681,
+            0.9,
+            0.719
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{HCF}(6, 20) = 2^1 ="
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Product of the smallest power of each common prime factor in the numbers.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.724,
+            0.9,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "LCM "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(6,   20) = 2^2 \\times 3^1 \\times 5^1"
+            },
+            {
+              "type": "text",
+              "content": " = "
+            },
+            {
+              "type": "text",
+              "content": "Product of the greatest power of each prime factor",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", "
+            },
+            {
+              "type": "text",
+              "content": "involved in the numbers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.096,
+            0.776,
+            0.902,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the example above, you might have noticed that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{HCF}(6,20) \\times \\mathrm{LCM}(6,20)"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= 6 \\times 2 0"
+            },
+            {
+              "type": "text",
+              "content": " . In fact, we can verify that "
+            },
+            {
+              "type": "text",
+              "content": "for any two positive integers a and b, HCF",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(a,b) \\times \\mathrm{LCM}(a,b) = a \\times b"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ".",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We can use this result to find the LCM of two positive integers, if we have already found the HCF of the two positive integers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.096,
+            0.867,
+            0.899,
+            0.905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Find the HCF of 96 and 404 by the prime factorisation method. Hence, find their LCM."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

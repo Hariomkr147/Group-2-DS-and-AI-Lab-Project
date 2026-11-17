@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.426,
+            0.115,
+            0.575,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "回回1"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.474,
+            0.219,
+            0.53,
+            0.231
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1062CH07"
+            }
+          ]
+        },
+        {
+          "type": "doc_title",
+          "index": 2,
+          "bbox": [
+            0.2,
+            0.295,
+            0.745,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "COORDINATE GEOMETRY"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.376,
+            0.279,
+            0.396
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.094,
+            0.406,
+            0.899,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Class IX, you have studied that to locate the position of a point on a plane, we require a pair of coordinate axes. The distance of a point from the y-axis is called its "
+            },
+            {
+              "type": "text",
+              "content": "x-coordinate",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", or "
+            },
+            {
+              "type": "text",
+              "content": "abscissa",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The distance of a point from the x-axis is called its "
+            },
+            {
+              "type": "text",
+              "content": "y-coordinate",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", or "
+            },
+            {
+              "type": "text",
+              "content": "ordinate",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". The coordinates of a point on the x-axis are of the form (x, 0), and of a point on the y-axis are of the form (0, y)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.51,
+            0.901,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is a play for you. Draw a set of a pair of perpendicular axes on a graph paper. Now plot the following points and join them as directed: Join the point A(4, 8) to B(3, 9) to C(3, 8) to D(1, 6) to E(1, 5) to F(3, 3) to G(6, 3) to H(8, 5) to I(8, 6) to J(6, 8) to K(6, 9) to L(5, 8) to A. Then join the points P(3.5, 7), Q (3, 6) and R(4, 6) to form a triangle. Also join the points X(5.5, 7), Y(5, 6) and Z(6, 6) to form a triangle. Now join S(4, 5), T(4.5, 4) and U(5, 5) to form a triangle. Lastly join S to the points (0, 5) and (0, 6) and join U to the points (9, 5) and (9, 6). What picture have you got?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.094,
+            0.661,
+            0.901,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, you have seen that a linear equation in two variables of the form "
+            },
+            {
+              "type": "equation_inline",
+              "content": "ax + by + c = 0,"
+            },
+            {
+              "type": "text",
+              "content": " , (a, b are not simultaneously zero), when represented graphically, gives a straight line. Further, in Chapter 2, you have seen the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y=ax^{2}+bx+c (a \\neq 0)"
+            },
+            {
+              "type": "text",
+              "content": " , is a parabola. In fact, coordinate geometry has been developed as an algebraic tool for studying geometry of figures. It helps us to study geometry using algebra, and understand algebra with the help of geometry. Because of this, coordinate geometry is widely applied in various fields such as physics, engineering, navigation, seismology and art!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.094,
+            0.824,
+            0.899,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this chapter, you will learn how to find the distance between the two points whose coordinates are given. You will also study how to find the coordinates of the point which divides a line segment joining two given points in a given ratio."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

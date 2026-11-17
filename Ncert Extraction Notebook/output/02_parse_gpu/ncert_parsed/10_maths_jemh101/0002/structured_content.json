@@ -1,0 +1,216 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.116,
+            0.119
+          ],
+          "content": "2"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.098,
+            0.138,
+            0.585,
+            0.158
+          ],
+          "level": 2,
+          "content": "1.2 The Fundamental Theorem of Arithmetic"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.166,
+            0.902,
+            0.243
+          ],
+          "content": "**In your earlier classes, you have seen that any natural number can be written as a product of its prime factors. For instance,** $2 = 2, 4 = 2 \\times 2, 253 = 11 \\times 23,$ **, and so on. Now, let us try and look at natural numbers from the other direction. That is, can any natural number be obtained by multiplying prime numbers? Let us see.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.247,
+            0.902,
+            0.324
+          ],
+          "content": "**Take any collection of prime numbers, say 2, 3, 7, 11 and 23. If we multiply some or all of these numbers, allowing them to repeat as many times as we wish, we can produce a large collection of positive integers (In fact, infinitely many). Let us list a few :**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.148,
+            0.328,
+            0.335,
+            0.347
+          ],
+          "content": "7 \\times 1 1 \\times 2 3 = 1 7 7 1",
+          "image_source": "images/page_1_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.482,
+            0.328,
+            0.706,
+            0.348
+          ],
+          "content": "3 \\times 7 \\times 1 1 \\times 2 3 = 5 3 1 3",
+          "image_source": "images/page_1_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.147,
+            0.353,
+            0.422,
+            0.372
+          ],
+          "content": "2 \\times 3 \\times 7 \\times 11 \\times 23 = 10626",
+          "image_source": "images/page_1_equation_7.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.482,
+            0.353,
+            0.664,
+            0.372
+          ],
+          "content": "2 ^ { 3 } \\times 3 \\times 7 ^ { 3 } = 8 2 3 2",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.148,
+            0.378,
+            0.428,
+            0.397
+          ],
+          "content": "2^{2} \\times 3 \\times 7 \\times 11 \\times 23 = 21252",
+          "image_source": "images/page_1_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.402,
+            0.202,
+            0.419
+          ],
+          "content": "**and so on.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.423,
+            0.902,
+            0.501
+          ],
+          "content": "**Now, let us suppose your collection of primes includes all the possible primes. What is your guess about the size of this collection? Does it contain only a finite number of integers, or infinitely many? Infact, there are infinitely many primes. So, if we combine all these primes in all possible ways, we will get an infinite**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.502,
+            0.347,
+            0.812
+          ],
+          "content": "**collection of numbers, all the primes and all possible products of primes. The question is – can we produce all the composite numbers this way? What do you think? Do you think that there may be a composite number which is not the product of powers of primes? Before we answer this, let us factorise positive integers, that is, do the opposite of what we have done so far.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.817,
+            0.346,
+            0.933
+          ],
+          "content": "**We are going to use the factor tree with which you are all familiar. Let us take some large number, say, 32760, and factorise it as shown.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.357,
+            0.504,
+            0.899,
+            0.934
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_14.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

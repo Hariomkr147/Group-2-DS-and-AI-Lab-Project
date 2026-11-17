@@ -1,0 +1,263 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "168"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.145,
+            0.901,
+            0.204
+          ],
+          "content": "**Solution :** The volume of air inside the shed (when there are no people or machinery) is given by the volume of air inside the cuboid and inside the half cylinder, taken together."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.208,
+            0.9,
+            0.254
+          ],
+          "content": "Now, the length, breadth and height of the cuboid are 15 m, 7 m and 8 m, respectively. Also, the diameter of the half cylinder is 7 m and its height is 15 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.264,
+            0.858,
+            0.309
+          ],
+          "content": "So, the required volume = volume of the cuboid $+ \\frac{1}{2}$ volume of the cylinder"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.338,
+            0.323,
+            0.878,
+            0.369
+          ],
+          "content": "\\left[15 \\times 7 \\times 8 + \\frac{1}{2} \\times \\frac{22}{7} \\times \\frac{7}{2} \\times \\frac{7}{2} \\times 15\\right]  m ^3 = 1128.75  m ^3",
+          "image_source": "images/page_7_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.379,
+            0.681,
+            0.399
+          ],
+          "content": "Next, the total space occupied by the machinery $= 3 0 0 \\; \\mathrm { m } ^ { 3 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.404,
+            0.795,
+            0.424
+          ],
+          "content": "And the total space occupied by the worker $s = 20 \\times 0.08\\  m ^3 = 1.6\\  m ^3$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.429,
+            0.792,
+            0.449
+          ],
+          "content": "Therefore, the volume of the air, when there are machinery and workers"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.46,
+            0.454,
+            0.878,
+            0.474
+          ],
+          "content": "1128.75-(300.00+1.60)=827.15\\mathrm{~m}^{3}",
+          "image_source": "images/page_7_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.481,
+            0.561,
+            0.636
+          ],
+          "content": "**Example 6 :** A juice seller was serving his customers using glasses as shown in Fig. 12.13. The inner diameter of the cylindrical glass was 5 cm, but the bottom of the glass had a hemispherical raised portion which reduced the capacity of the glass. If the height of a glass was 10 cm, find the apparent capacity of the glass and its actual capacity. (Use $\\pi = 3.14.)$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.672,
+            0.482,
+            0.771,
+            0.608
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.67,
+                0.615,
+                0.781,
+                0.634
+              ],
+              "content": "Fig. 12.13"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.641,
+            0.82,
+            0.66
+          ],
+          "content": "**Solution :** Since the inner diameter of the glass = 5 cm and height = 10 cm,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.666,
+            0.542,
+            0.686
+          ],
+          "content": "the apparent capacity of the glass =  r<sup>2</sup>h"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.462,
+            0.69,
+            0.871,
+            0.709
+          ],
+          "content": "3.14 \\times 2.5 \\times 2.5 \\times 10  cm ^3 = 196.25  cm ^3",
+          "image_source": "images/page_7_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.716,
+            0.901,
+            0.755
+          ],
+          "content": "But the actual capacity of the glass is less by the volume of the hemisphere at the base of the glass."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.775,
+            0.139,
+            0.793
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.257,
+            0.76,
+            0.878,
+            0.803
+          ],
+          "content": "it is less by $\\frac{2}{3} \\pi r^{3} = \\frac{2}{3} \\times 3.14 \\times 2.5 \\times 2.5 \\times 2.5  cm ^{3} = 32.71  cm ^{3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.813,
+            0.867,
+            0.895
+          ],
+          "content": "So, the actual capacity of the glass = apparent capacity of glass – volume of the hemisphere $= \\left( 196.25 - 32.71 \\right)  cm ^3$ $= 1 6 3 . 5 4   \\mathrm { c m } ^ { 3 }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-12 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-12 (14th Nov.)",
+      "description": "Chap-12 (14th Nov.)",
+      "created_at": "2022-08-17T11:59:52+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

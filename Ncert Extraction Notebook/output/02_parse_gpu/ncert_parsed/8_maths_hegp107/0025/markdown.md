@@ -1,0 +1,29 @@
+![](images/page_24_image_0.jpg)
+
+![](images/page_24_image_1.jpg)
+
+## Ans.
+
+(a) No. of grey bricks in a block of the pattern = 2 + 3 + 4 = 9 No. of coloured bricks in a block of the pattern = 3 + 2 + 1 = 6 Ratio of grey bricks to coloured bricks in a block of the pattern = 9 : 6 = 3 : 2
+
+(b) No. of grey bricks in one block of pattern = 16 No. of coloured bricks in one block of pattern = 12 Ratio is 16 : 12 = 4 : 3
+
+7. Let us draw some human figures. Measure your friend’s body—the lengths of their head, torso, arms, and legs. Write the ratios as mentioned below—
+
+![](images/page_24_image_6.jpg)
+
+head : torso
+
+![](images/page_24_image_8.jpg)
+
+torso arms
+
+torso : legs
+
+![](images/page_24_image_11.jpg)
+
+![](images/page_24_image_12.jpg)
+
+Now, draw a figure with head, torso, arms, and legs with equivalent ratios as above.
+
+**Ans.** Try yourself.

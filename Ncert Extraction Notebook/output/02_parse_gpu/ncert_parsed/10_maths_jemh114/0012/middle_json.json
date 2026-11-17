@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–14 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–14 (14th Nov.)",
+      "description": "Chap–14 (14th Nov.)",
+      "created_at": "2022-08-17T12:02:09+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.207,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PROBABILITY"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.861,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "213"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.495,
+            0.141,
+            0.601,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.495,
+                0.141,
+                0.601,
+                0.208
+              ],
+              "image_path": "images/page_11_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.124,
+            0.268,
+            0.225,
+            0.34
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.124,
+                0.268,
+                0.225,
+                0.34
+              ],
+              "image_path": "images/page_11_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.235,
+            0.206,
+            0.816,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.235,
+                0.206,
+                0.816,
+                0.411
+              ],
+              "image_path": "images/page_11_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.448,
+                0.414,
+                0.548,
+                0.434
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 14.3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.446,
+            0.632,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that the pair (1, 4) is different from (4, 1). (Why?) So, the number of possible outcomes = 6 × 6 = 36.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.119,
+            0.501,
+            0.9,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The outcomes favourable to the event ‘the sum of the two numbers is",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 ^ { \\circ }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "d",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "enoted "
+            },
+            {
+              "type": "text",
+              "content": "by E, are: (2, 6), (3, 5), (4, 4), (5, 3), (6, 2) (see Fig. 14.3)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " i.e., the number of outcomes favourable to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { E } = 5"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "Hence,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P(E) = \\frac{5}{36}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.298,
+            0.572,
+            0.368,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.298,
+                0.572,
+                0.368,
+                0.617
+              ],
+              "image_path": "images/page_11_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.114,
+            0.638,
+            0.901,
+            0.73
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) As you can see from Fig. 14.3, there is no outcome favourable to the event F, ‘the sum of two numbers is 13’.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 0 "
+            },
+            {
+              "type": "text",
+              "content": "So, P(F) =",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 0 "
+            },
+            {
+              "type": "text",
+              "content": "36",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.11,
+            0.746,
+            0.9,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) As you can see from Fig. 14.3, all the outcomes are favourable to the event "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { G }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "‘sum of two numbers",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\leq 1 2 ^ { \\star }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.809,
+            0.188,
+            0.827
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.416,
+            0.796,
+            0.566,
+            0.837
+          ],
+          "image_path": "images/page_11_equation_12.jpg",
+          "content": "\\mathrm { P ( G ) }   =   \\frac { 3 6 } { 3 6 }   =   1"
+        },
+        {
+          "type": "footer",
+          "index": 13,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

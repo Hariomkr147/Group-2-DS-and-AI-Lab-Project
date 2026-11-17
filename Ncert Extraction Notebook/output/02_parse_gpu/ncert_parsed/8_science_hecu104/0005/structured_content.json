@@ -1,0 +1,389 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.051,
+            0.052,
+            0.147,
+            0.125
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_0.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.157,
+            0.079,
+            0.281,
+            0.162
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.057,
+            0.161,
+            0.151,
+            0.232
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_2.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.295,
+            0.056,
+            0.39,
+            0.128
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.22,
+                0.16,
+                0.243,
+                0.175
+              ],
+              "content": "(b)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_4.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.157,
+            0.188,
+            0.281,
+            0.29
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_5.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.29,
+            0.164,
+            0.383,
+            0.235
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.047,
+            0.295,
+            0.132,
+            0.359
+          ],
+          "sub_type": "seal",
+          "content": "N",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.139,
+            0.316,
+            0.294,
+            0.419
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.205,
+                0.292,
+                0.229,
+                0.307
+              ],
+              "content": "(c)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_9.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.305,
+            0.297,
+            0.392,
+            0.362
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.126,
+            0.436,
+            0.366,
+            0.654
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.208,
+                0.42,
+                0.232,
+                0.435
+              ],
+              "content": "(d)"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.054,
+                0.657,
+                0.382,
+                0.72
+              ],
+              "content": "Fig. 4.3: (b) Coil and magnetic compasses; (c) Coil connected to a cell; (d) Coil with iron nail inserted; (e) Coil with iron nail and clips"
+            }
+          ],
+          "image_source": "images/page_4_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.395,
+            0.083,
+            0.882,
+            0.122
+          ],
+          "content": "z Place the compasses near the two ends of the cylindrical coil (Fig. 4.3b)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.395,
+            0.126,
+            0.883,
+            0.202
+          ],
+          "content": "z Connect the two ends of the coil with the terminals of the cell as shown in Fig. 4.3c and observe the magnetic compasses. Do you find any deflection in the needles of the compasses?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.395,
+            0.205,
+            0.883,
+            0.261
+          ],
+          "content": "z Disconnect the wire from the cell. Do the needles of the compasses come back to their original positions?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.395,
+            0.266,
+            0.883,
+            0.323
+          ],
+          "content": "z Insert an iron nail in the paper cylinder (Fig. 4.3d) and repeat the steps. Is there any difference in the deflection of the compass needles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.396,
+            0.327,
+            0.884,
+            0.383
+          ],
+          "content": "z Place some iron paper clips near the two ends of the nail. Are the clips attracted to the ends of the nail?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.376,
+            0.388,
+            0.884,
+            0.537
+          ],
+          "content": "It is observed that when current is passed through the cylindrical coil, it behaves like a magnet and deflects the needle of a magnetic compass. When an iron nail is inserted in the core of the coil, then the coil becomes a stronger magnet and the deflection of the magnetic compass needle is much more. It also attracts iron clips (Fig. 4.3e). When the current is stopped, the cylindrical coil loses its magnetic effect."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.376,
+            0.538,
+            0.883,
+            0.614
+          ],
+          "content": "A current carrying coil that behaves as a magnet is called an **electromagnet**. For practical applications, most electromagnets have an iron core to make them stronger."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.39,
+            0.624,
+            0.693,
+            0.662
+          ],
+          "content": "Does electromagnet also have two poles like a bar magnet?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.746,
+            0.612,
+            0.818,
+            0.711
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_22.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.268,
+            0.741,
+            0.671,
+            0.765
+          ],
+          "level": 2,
+          "content": "Activity 4.4: Let us investigate"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.273,
+            0.784,
+            0.882,
+            0.823
+          ],
+          "content": "z Take the electromagnet made in Activity 4.3 and a magnetic compass. Label the two ends of the coil as A and B."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.273,
+            0.827,
+            0.882,
+            0.865
+          ],
+          "content": "z Place the magnetic compass near the end A of the coil as shown in Fig. 4.4a."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.273,
+            0.87,
+            0.882,
+            0.909
+          ],
+          "content": "Connect the coil to the cell and observe the compass. Note down which pole of the magnetic compass is attracted to end A."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.07,
+            0.924,
+            0.093,
+            0.938
+          ],
+          "content": "50"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.001,
+            0.94,
+            0.16,
+            0.999
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.165,
+            0.947,
+            0.492,
+            0.963
+          ],
+          "content": "— Textbook of Science for Grade 8"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-06-28T15:49:25+05:30",
+      "modified_at": "2026-03-24T12:21:17+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 16,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

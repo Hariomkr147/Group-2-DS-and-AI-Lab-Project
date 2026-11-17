@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–10 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–10 (11th Nov.)",
+      "description": "Chap–10 (11th Nov.)",
+      "created_at": "2022-08-17T11:58:10+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "148"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.141,
+            0.549,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 3 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Draw a circle on a paper. Take a point P inside it. Can you draw a tangent to the circle through this point? You will find that all the lines through this point intersect the circle in two points. So, it is not possible to draw any tangent to a circle through a point inside it [see Fig. 10.6 (i)]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.29,
+            0.548,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Next take a point P on the circle and draw tangents through this point. You have already observed that there is only one tangent to the circle at such a point [see Fig. 10.6 (ii)]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.378,
+            0.548,
+            0.481
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Finally, take a point P outside the circle and try to draw tangents to the circle from this point. What do you observe? You will find that you can draw exactly two tangents to the circle through this point [see Fig. 10.6 (iii)]."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.148,
+            0.486,
+            0.545,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can summarise these facts as follows:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.592,
+            0.137,
+            0.882,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.592,
+                0.137,
+                0.882,
+                0.303
+              ],
+              "image_path": "images/page_4_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.512,
+            0.547,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Case 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " There is no tangent to a circle passing through a point lying inside the circle."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.555,
+            0.309,
+            0.892,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.555,
+                0.309,
+                0.892,
+                0.553
+              ],
+              "image_path": "images/page_4_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.097,
+            0.559,
+            0.548,
+            0.601
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Case 2 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " There is one and only one tangent to a circle passing through a point lying on the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.097,
+            0.606,
+            0.547,
+            0.648
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Case 3 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " There are exactly two tangents to a circle through a point lying outside the circle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.096,
+            0.653,
+            0.548,
+            0.715
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Fig. 10.6 (iii), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{T_{1}andT_{2}}"
+            },
+            {
+              "type": "text",
+              "content": " are the points of contact of the tangents "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T _ { 1 } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.722,
+            0.548,
+            0.806
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The length of the segment of the tangent from the external point P and the point of contact with the circle is called the "
+            },
+            {
+              "type": "text",
+              "content": "length of the tangent",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " from the point P to the circle."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.576,
+            0.563,
+            0.901,
+            0.761
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.576,
+                0.563,
+                0.901,
+                0.761
+              ],
+              "image_path": "images/page_4_image_13.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 14,
+              "bbox": [
+                0.685,
+                0.772,
+                0.783,
+                0.792
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.096,
+            0.813,
+            0.903,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that in Fig. 10.6 (iii), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " are the lengths of the tangents from P to the circle. The lengths "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " have a common property. Can you find this? Measure "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 1 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P T } _ { 2 ^ { \\bullet } }"
+            },
+            {
+              "type": "text",
+              "content": " Are these equal? In fact, this is always so. Let us give a proof of this fact in the following theorem."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

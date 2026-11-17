@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Some Geometric Themes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.089,
+            0.495,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now we will look at a trickier case."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.114,
+            0.119,
+            0.822,
+            0.142
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ What is the length of the shortest path between the ant and the laddu?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.827,
+            0.098,
+            0.927,
+            0.162
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.827,
+                0.098,
+                0.927,
+                0.162
+              ],
+              "image_path": "images/page_17_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "index": 4,
+          "bbox": [
+            0.128,
+            0.158,
+            0.843,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "chart_body",
+              "index": 4,
+              "bbox": [
+                0.128,
+                0.158,
+                0.843,
+                0.324
+              ],
+              "image_path": "images/page_17_chart_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.346,
+            0.649,
+            0.367
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here are some of the ways of unfolding the cuboid."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.221,
+            0.373,
+            0.422,
+            0.523
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.221,
+                0.373,
+                0.422,
+                0.523
+              ],
+              "image_path": "images/page_17_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.526,
+            0.375,
+            0.818,
+            0.586
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.526,
+                0.375,
+                0.818,
+                0.586
+              ],
+              "image_path": "images/page_17_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.6,
+            0.846,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the second case, the distance d between the ant and the laddu can be calculated using the Baudhayana Theorem, since we have a right triangle here."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.472,
+            0.653,
+            0.601,
+            0.674
+          ],
+          "image_path": "images/page_17_equation_9.jpg",
+          "content": "d ^ { 2 } = 2 4 ^ { 2 } + 3 2 ^ { 2 }"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.477,
+            0.679,
+            0.654,
+            0.699
+          ],
+          "image_path": "images/page_17_equation_10.jpg",
+          "content": "d = \\sqrt{1600} = 40   cm"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.706,
+            0.847,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that in each of these unfoldings, the lengths of the line segments between the ant and the laddu are different! So we have to carefully list all the possible different unfoldings to find the answer!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.775,
+            0.679,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Representation of Solids on a Plane Surface"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.15,
+            0.798,
+            0.848,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Drawing is one of the oldest human activities. People have been doing it for thousands of years for both aesthetic as well as practical and engineering purposes. Regarding the latter, making a drawing of an object is a useful way to record or convey information about it. Visual representation also helps us in thinking about the objects being represented. Such needs often arise in engineering — while constructing buildings, designing machines, etc. Further, engineering drawings need"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.876,
+            0.913,
+            0.909,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8 7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

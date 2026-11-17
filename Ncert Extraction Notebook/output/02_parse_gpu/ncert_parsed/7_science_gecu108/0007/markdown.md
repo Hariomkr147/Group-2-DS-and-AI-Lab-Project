@@ -1,0 +1,35 @@
+All clocks, old or modern, are based on some process repeating continuously, which can be used to mark equal intervals of time.
+
+Modern clocks measure time using the same basic principle —Modern clocks measure time using the same basic principle — periodically repeating processes — but use tiny and very rapidperiodically repeating processes — but use tiny and very rapid vibrations either from a quartz crystal (quartz clocks) or from somevibrations either from a quartz crystal (quartz clocks) or from some specific atoms (atomic clocks). While Huygens’ early pendulumspecific atoms (atomic clocks). While Huygens’ early pendulum clocks could gain or lose 10 seconds each day, today’s atomic clocksclocks could gain or lose 10 seconds each day, today’s atomic clocks are so precise that they lose only one second in millions of years! Scientists are constantly searching for even better ways to measure time with greater accuracy.
+
+![](images/page_6_image_2.jpg)
+
+![](images/page_6_image_3.jpg)
+
+![](images/page_6_image_4.jpg)
+
+![](images/page_6_image_5.jpg)
+
+![](images/page_6_image_6.jpg)
+
+Fig. 8.8: Some common clocks and watches
+
+![](images/page_6_image_8.jpg)
+
+## 8.1.2 SI unit of time
+
+The **SI unit of time** is the **second**. Its **symbol** is s. The larger units of time are **minute** (**min**) and **hour** (h).
+
+60 s = 1 min
+
+60 min = 1 h
+
+![](images/page_6_image_14.jpg)
+
+Units of time, such as second, minute, and hour begin with aUnits of time, such as second, minute, and hour begin with a lowercase letter, except at the beginning of a sentence. Theirlowercase letter, except at the beginning of a sentence. Their symbols ‘s’, ‘min’, and ‘h’ are also written in lowercase letterssymbols ‘s’, ‘min’, and ‘h’ are also written in lowercase letters and in singular. Note that a full stop is not written after theand in singular. Note that a full stop is not written after the symbol, except at the end of a sentence. While writing the time, always leave a space between the number and the unit. Also, note that writing ‘sec’ for second and ‘hrs’ for hour is incorrect.
+
+## FASCINATING FACTS
+
+The hole in the bowl of Ghatika-yantra was made in such a manner that it took 24 minutes to fill and sink. The time unit measured by this clock was called ghatika or ghati. It became the standard unit of time measurement and continued until the end of the nineteenth century. A 24-hour-long day was, thus, divided into 60 equal ghatis.
+
+![](images/page_6_image_18.jpg)

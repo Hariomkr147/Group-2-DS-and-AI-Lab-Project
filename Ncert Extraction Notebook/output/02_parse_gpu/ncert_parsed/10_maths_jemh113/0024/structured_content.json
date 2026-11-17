@@ -1,0 +1,153 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": "194"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.207,
+            0.181,
+            0.821,
+            0.401
+          ],
+          "content": "| Height (in cm) | Number of girls |\n| --- | --- |\n| Less than 140 | 4 |\n| Less than 145 | 11 |\n| Less than 150 | 29 |\n| Less than 155 | 40 |\n| Less than 160 | 46 |\n| Less than 165 | 51 |",
+          "captions": [
+            {
+              "bbox": [
+                0.097,
+                0.138,
+                0.9,
+                0.178
+              ],
+              "content": "Example 7 : A survey regarding the heights (in cm) of 51 girls of Class X of a school was conducted and the following data was obtained:"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.098,
+                0.413,
+                0.325,
+                0.433
+              ],
+              "content": "Find the median height."
+            }
+          ],
+          "image_source": "images/page_23_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.441,
+            0.902,
+            0.481
+          ],
+          "content": "**Solution :** To calculate the median height, we need to find the class intervals and their corresponding frequencies."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.485,
+            0.902,
+            0.661
+          ],
+          "content": "The given distribution being of the less than type, 140, 145, 150, . . ., 165 give the upper limits of the corresponding class intervals. So, the classes should be below 140, 140 - 145, 145 - 150, . . ., 160 - 165. Observe that from the given distribution, we find that there are 4 girls with height less than 140, i.e., the frequency of class interval below 140 is 4. Now, there are 11 girls with heights less than 145 and 4 girls with height less than 140. Therefore, the number of girls with height in the interval 140 - 145 is 11 – 4 = 7. Similarly, the frequency of 145 - 150 is 29 – 11 = 18, for 150 - 155, it is 40 – 29 = 11, and so on. So, our frequency distribution table with the given cumulative frequencies becomes:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.694,
+            0.896,
+            0.903
+          ],
+          "content": "| Class intervals | Frequency | Cumulative frequency |\n| --- | --- | --- |\n| Below 140 | 4 | 4 |\n| 140 - 145 | 7 | 11 |\n| 145 - 150 | 18 | 29 |\n| 150 - 155 | 11 | 40 |\n| 155 - 160 | 6 | 46 |\n| 160 - 165 | 5 | 51 |",
+          "captions": [
+            {
+              "bbox": [
+                0.434,
+                0.672,
+                0.565,
+                0.691
+              ],
+              "content": "Table 13.16"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_23_table_8.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,19 @@
+What about this one?
+
+![](images/page_23_image_2.jpg)
+
+![](images/page_23_image_3.jpg)
+
+Fig. 6.13
+
+？ Were you able to tile this? How can we be sure that this is not tileable? Can you find another unit square that, when removed from a $5 \times 3$ grid, makes it non-tileable?
+
+There is an interesting way to look at these questions. For any tiling problem of this kind, we can create a similar problem with the unit squares coloured black and white so that black squares have only white neighbours and white squares have only black neighbours. For the tiling problem in Fig. 6.13, we get the following.
+
+![](images/page_23_image_7.jpg)
+
+In the black-and-white region, the problem is to tile the region with the 2 × 1 black-and-white tiles so that each black square of a tile sits on a black square of the grid, and each white square sits on a white square.
+
+? If the plain grid is tileable, is the black-and-white-grid tileable?
+
+If the black-and-white grid is tileable, is the plain grid tileable? It can be seen that the answer to both the questions is yes.

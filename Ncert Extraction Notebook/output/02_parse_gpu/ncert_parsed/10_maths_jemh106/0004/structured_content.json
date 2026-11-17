@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.105,
+            0.127,
+            0.119
+          ],
+          "content": "76"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.094,
+            0.139,
+            0.902,
+            0.217
+          ],
+          "content": "Note that the same ratio of the corresponding sides is referred to as the scale factor (or the Representative Fraction) for the polygons. You must have heard that world maps (i.e., global maps) and blue prints for the construction of a building are prepared using a suitable scale factor and observing certain conventions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.222,
+            0.901,
+            0.261
+          ],
+          "content": "In order to understand similarity of figures more clearly, let us perform the following activity:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.266,
+            0.486,
+            0.459
+          ],
+          "content": "Activity 1 : Place a lighted bulb at a point O on the ceiling and directly below it a table in your classroom. Let us cut a polygon, say a quadrilateral ABCD, from a plane cardboard and place this cardboard parallel to the ground between the lighted bulb and the table. Then a shadow of ABCD is cast on the table. Mark the outline of this shadow as $\\mathrm { A ^ { \\prime } B ^ { \\prime } C ^ { \\prime } D ^ { \\prime } }$ (see Fig.6.4)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.465,
+            0.488,
+            0.581
+          ],
+          "content": "Note that the quadrilateral $\\mathrm { A ^ { \\prime } B ^ { \\prime } C ^ { \\prime } D ^ { \\prime } }$ is an enlargement (or magnification) of the quadrilateral ABCD. This is because of the property of light that light propogates in a straight line. You may also note that $\\mathrm { A ^ { \\prime } }$ lies on ray OA, B' lies on ray OB, C'"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.498,
+            0.271,
+            0.889,
+            0.556
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.653,
+                0.551,
+                0.739,
+                0.569
+              ],
+              "content": "Fig. 6.4"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_3_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.581,
+            0.9,
+            0.62
+          ],
+          "content": "lies on OC and D' lies on OD. Thus, quadrilaterals $\\mathrm { A ^ { \\prime } B ^ { \\prime } C ^ { \\prime } D ^ { \\prime } }$ and ABCD are of the same shape but of different sizes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.626,
+            0.901,
+            0.665
+          ],
+          "content": "So, quadrilateral $\\mathrm { A ^ { \\prime } B ^ { \\prime } C ^ { \\prime } D ^ { \\prime } }$ is similiar to quadrilateral ABCD. We can also say that quadrilateral ABCD is similar to the quadrilateral $\\mathrm { A ^ { \\prime } B ^ { \\prime } C ^ { \\prime } D ^ { \\prime } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.67,
+            0.902,
+            0.767
+          ],
+          "content": "Here, you can also note that vertex $\\mathrm { A ^ { \\prime } }$ corresponds to vertex A, vertex $\\mathrm { B ^ { \\prime } }$ corresponds to vertex B, vertex C' corresponds to vertex C and vertex D' corresponds to vertex D. Symbolically, these correspondences are represented as $\\mathrm { A } ^ { \\prime }   \\leftrightarrow   \\mathrm { A } , \\mathrm { B } ^ { \\prime }   \\leftrightarrow   \\mathrm { B }$ $\\mathbf { C } ^ { \\prime } \\leftrightarrow \\mathbf { C }$ and $\\mathrm { D ^ { \\prime } } \\leftrightarrow \\mathrm { D }$ By actually measuring the angles and the sides of the two quadrilaterals, you may verify that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.772,
+            0.709,
+            0.791
+          ],
+          "content": "(i) $\\angle \\mathrm{A} = \\angle \\mathrm{A}', \\angle \\mathrm{B} = \\angle \\mathrm{B}', \\angle \\mathrm{C} = \\angle \\mathrm{C}', \\angle \\mathrm{D} = \\angle \\mathrm{D}'$ and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.148,
+            0.797,
+            0.487,
+            0.838
+          ],
+          "content": "\\frac{\\mathrm{AB}}{\\mathrm{A}^{\\prime} \\mathrm{B}^{\\prime}}=\\frac{\\mathrm{BC}}{\\mathrm{B}^{\\prime} \\mathrm{C}^{\\prime}}=\\frac{\\mathrm{CD}}{\\mathrm{C}^{\\prime} \\mathrm{D}^{\\prime}}=\\frac{\\mathrm{DA}}{\\mathrm{D}^{\\prime} \\mathrm{A}^{\\prime}}",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.843,
+            0.902,
+            0.901
+          ],
+          "content": "This again emphasises that two polygons of the same number of sides are similar, if (i) all the corresponding angles are equal and (ii) all the corresponding sides are in the same ratio (or proportion)."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

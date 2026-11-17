@@ -1,0 +1,316 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.653,
+            0.046,
+            0.862,
+            0.065
+          ],
+          "content": "Proportional Reasoning-1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.087,
+            0.849,
+            0.144
+          ],
+          "content": "7. Let us draw some human figures. Measure your friend’s body—the lengths of their head, torso, arms, and legs. Write the ratios as mentioned below—"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.262,
+            0.154,
+            0.382,
+            0.342
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.46,
+            0.146,
+            0.591,
+            0.167
+          ],
+          "content": "head : torso"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.46,
+            0.175,
+            0.597,
+            0.196
+          ],
+          "content": "\\_\\_\\_\\_\\_\\_ : \\_\\_\\_\\_\\_\\_"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.46,
+            0.201,
+            0.591,
+            0.222
+          ],
+          "content": "torso : arms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.46,
+            0.255,
+            0.579,
+            0.278
+          ],
+          "content": "torso : legs"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.747,
+            0.151,
+            0.86,
+            0.24
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.764,
+            0.245,
+            0.851,
+            0.333
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.185,
+            0.364,
+            0.848,
+            0.403
+          ],
+          "content": "Now, draw a figure with head, torso, arms, and legs with equivalent ratios as above."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.412,
+            0.812,
+            0.452
+          ],
+          "content": "？ Does the drawing look more realistic if the ratios are proportional? Why? Why not?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.831,
+            0.397,
+            0.916,
+            0.449
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_8_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.463,
+            0.837,
+            0.5
+          ],
+          "content": "**Note to the Teacher:** In all these activities, encourage students to reason why their drawings are proportional."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.538,
+            0.566,
+            0.561
+          ],
+          "level": 2,
+          "content": "Trairasika—The Rule of Three"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.571,
+            0.848,
+            0.647
+          ],
+          "content": "？ **Example 8:** For the mid-day meal in a school with 120 students, the cook usually makes 15 kg of rice. On a rainy day, only 80 students came to school. How many kilograms of rice should the cook make so that the food is not wasted?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.65,
+            0.847,
+            0.69
+          ],
+          "content": "The ratio of the number of students to the amount of rice needs to be proportional."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.406,
+            0.687,
+            0.593,
+            0.708
+          ],
+          "content": "\\S 0 , 1 2 0 : 1 5 : : 8 0 : ?",
+          "image_source": "images/page_8_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.714,
+            0.598,
+            0.738
+          ],
+          "content": "What is the factor of change in the first term?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.738,
+            0.598,
+            0.766
+          ],
+          "content": "We can find that by dividing the terms ${ \\frac { 8 0 } { 1 2 0 } } = { \\frac { 2 } { 3 } } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.766,
+            0.65,
+            0.791
+          ],
+          "content": "The number of students is reduced by a factor of $\\frac { 2 } { 3 }$ ."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.793,
+            0.763,
+            0.814
+          ],
+          "content": "On multiplying the weight of rice by the same factor, we get,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.457,
+            0.816,
+            0.565,
+            0.842
+          ],
+          "content": "1 5 \\times { \\frac { 2 } { 3 } } = 1 0 .",
+          "image_source": "images/page_8_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.844,
+            0.641,
+            0.865
+          ],
+          "content": "So, the cook should make 10 kg of rice on that day."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.867,
+            0.849,
+            0.909
+          ],
+          "content": "The situation above is a typical example of a problem where we need to use proportional reasoning to find a solution. Four quantities are"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.914,
+            0.918,
+            0.937
+          ],
+          "content": "167"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:31+05:30",
+      "modified_at": "2026-05-15T17:58:36+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

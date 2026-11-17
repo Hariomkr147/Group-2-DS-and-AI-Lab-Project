@@ -1,0 +1,256 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.144,
+            0.085
+          ],
+          "content": "72"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.167,
+            0.107,
+            0.821,
+            0.161
+          ],
+          "content": "(iv) $\\left( { \\frac { 3 } { 4 } } s   +   8 t \\right) ^ { 2 }$ (v) $\\left( X   +   { \\frac { 1 } { 2 y } } \\right) ^ { 2 }$ (vi) $\\left( \\frac{1}{x}  +  \\frac{1}{y} \\right)^2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.172,
+            0.788,
+            0.219
+          ],
+          "content": "2. Using the same identity, find the values of the following: (i) $( 6 4 ) ^ { 2 }$ (ii) (105)<sup>2</sup> (iii) (205)<sup>2</sup>"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.249,
+            0.822,
+            0.296
+          ],
+          "level": 2,
+          "content": "4.3 Factorisation of Algebraic Expressions Using Identities"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.307,
+            0.886,
+            0.349
+          ],
+          "content": "The identity $(a + b)^{2} = a^{2} + 2ab + b^{2}$ can also be used to find factors of some algebraic expressions."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.355,
+            0.769,
+            0.376
+          ],
+          "content": "**Example 5:** Consider the algebraic expression $x ^ { 2 } + 4 x + 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.384,
+            0.334,
+            0.403
+          ],
+          "content": "We observe that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.412,
+            0.481,
+            0.431
+          ],
+          "content": "$x ^ { 2 } = ( x ) ^ { 2 } ,   4 = 2 ^ { 2 }$ and 4x = 2(2)(x)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.44,
+            0.882,
+            0.48
+          ],
+          "content": "Hence, $x^{2}+4x+4=x^{2}+2(x)(2)+2^{2}$ can be compared with $a ^ { 2 }   +   2 ( a ) ( b )   +   b ^ { 2 } ,$ where a = x and b = 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.488,
+            0.884,
+            0.528
+          ],
+          "content": "We conclude that $x^{2}+4x+4=(x+2)^{2}$ . Therefore, we can say that $( x + 2 )$ is a factor of $x^{2} + 4x \\pm 4.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.533,
+            0.883,
+            0.581
+          ],
+          "content": "**Example 6:** Let us try to find factors of another algebraic expression: 36x<sup>2</sup> + 12x + 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.589,
+            0.624,
+            0.61
+          ],
+          "content": "Writing this in the form $a^{2} \\pm 2ab + b^{2}$ we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.617,
+            0.53,
+            0.638
+          ],
+          "content": "36x^{2}+12x+1=(6x)^{2}+2(6x)(1)+1^{2}",
+          "image_source": "images/page_4_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.646,
+            0.785,
+            0.666
+          ],
+          "content": "where a = 6x and b = 1. Therefore, $36x^{2} + 12x + 1 = (6x + 1)^{2}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.673,
+            0.592,
+            0.694
+          ],
+          "content": "Thus (6x + 1) is a factor of $36x^{2} + 12x + 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.701,
+            0.884,
+            0.741
+          ],
+          "content": "**Example 7:** Let us try to factor $5 0 p ^ { 2 } \\pm 6 0 p q \\pm 1 8 q ^ { 2 }$ . What will a and b be in this case?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.751,
+            0.886,
+            0.81
+          ],
+          "content": "Try to think of a term whose square is $5 0 p ^ { 2 }$ . It is $\\sqrt { 5 0 } p$ . But if we want to avoid using the square root symbol we may proceed as follows:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.817,
+            0.688,
+            0.838
+          ],
+          "content": "We observe that 2 is a common factor of the terms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.844,
+            0.324,
+            0.865
+          ],
+          "content": "50p<sup>2</sup>, 60pq, 18q<sup>2</sup>."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.87,
+            0.639,
+            0.892
+          ],
+          "content": "Thus $5 0 p ^ { 2 } + 6 0 p q + 1 8 q ^ { 2 } = 2 ( 2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } ) .$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.167,
+            0.065,
+            0.377,
+            0.081
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 6"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.221,
+            0.129,
+            0.844,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.221,
+                0.129,
+                0.844,
+                0.369
+              ],
+              "image_path": "images/page_1_image_1.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.165,
+            0.399,
+            0.702,
+            0.443
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Did you figure out what these numbers represent? Hint: Could their heights be playing a role?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.164,
+            0.45,
+            0.885,
+            0.541
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A child says ‘1’ if there is only one taller child standing next to them. A child says ‘2’ if both the children standing next to them are taller. A child says ‘0’, if neither of the children standing next to them are taller. That is each person says the number of taller neighbours they have."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.168,
+            0.557,
+            0.196,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.168,
+                0.557,
+                0.196,
+                0.579
+              ],
+              "image_path": "images/page_1_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.166,
+            0.558,
+            0.81,
+            0.58
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try answering the questions below and share your reasoning."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.212,
+            0.582,
+            0.834,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Can the children rearrange themselves so that the children standing at the ends say ‘2’?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.843,
+            0.553,
+            0.929,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.843,
+                0.553,
+                0.929,
+                0.613
+              ],
+              "image_path": "images/page_1_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.212,
+            0.625,
+            0.834,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "only 0s?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.212,
+            0.668,
+            0.834,
+            0.708
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Can two children standing next to each other say the same number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.212,
+            0.711,
+            0.834,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. There are 5 children in a group, all of different heights. Can they stand such that four of them say ‘1’ and the last one says ‘0’? Why or why not?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.21,
+            0.775,
+            0.834,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. For this group of 5 children, is the sequence 1, 1, 1, 1, 1 possible?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.212,
+            0.797,
+            0.765,
+            0.817
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Is the sequence 0, 1, 2, 1, 0 possible? Why or why not?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.213,
+            0.818,
+            0.834,
+            0.859
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. How would you rearrange the five children so that the maximum number of children say ‘2’?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.088,
+            0.943,
+            0.112,
+            0.958
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "56"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.449,
+            0.971,
+            0.549,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

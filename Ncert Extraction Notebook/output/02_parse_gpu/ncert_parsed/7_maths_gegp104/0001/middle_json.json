@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "doc_title",
+          "index": 0,
+          "bbox": [
+            0.095,
+            0.049,
+            0.684,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "EXPRESSIONS 4 USING LETTER-NUMBERS"
+            }
+          ],
+          "level": 1
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.783,
+            0.062,
+            0.905,
+            0.149
+          ],
+          "content": []
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.82,
+            0.153,
+            0.869,
+            0.164
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0774CH04"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.298,
+            0.624,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4.1 The Notion of Letter-Numbers"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.331,
+            0.848,
+            0.407
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this chapter we shall look at a concise way of expressing mathematical relations and patterns. We shall see how this helps us in thinking about these relationships and patterns, and in explaining why they may hold true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.109,
+            0.415,
+            0.848,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? "
+            },
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Shabnam is 3 years older than Aftab. When Aftab’s age 10 years, Shabnam’s age will be 13 years. Now Aftab’s age is 18 years, what will Shabnam’s age be?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.11,
+            0.487,
+            0.71,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Given Aftab’s age, how will you find out Shabnam’s age?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.519,
+            0.658,
+            0.54
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Easy: We add 3 to Aftab’s age to get Shabnam’s age."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.547,
+            0.511,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we write this as an expression?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.578,
+            0.848,
+            0.616
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Shabnam’s age is 3 years more than Aftab’s. In short, this can be written as:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.174,
+            0.616,
+            0.51,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Shabnam’s age = Aftab’s age + 3.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.149,
+            0.635,
+            0.553,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Such mathematical relations are generally represented in a shorthand form. In the relation above, instead of writing the phrase ‘Aftab’s Age’, the convention is to use a convenient symbol. Usually, letters or short phrases are used for this purpose."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.149,
+            0.763,
+            0.553,
+            0.836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us say we use the letter a to denote Aftab’s age (we could have used any other letter), and s to denote Shabnam’s age. Then the expression to"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 13,
+          "bbox": [
+            0.57,
+            0.631,
+            0.863,
+            0.798
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 13,
+              "bbox": [
+                0.57,
+                0.631,
+                0.863,
+                0.798
+              ],
+              "image_path": "images/page_0_table_13.jpg",
+              "content": "<table><tr><td>Aftab&#x27;s age</td><td>Expression for Shabnam&#x27;s age</td></tr><tr><td>4 10</td><td>4+3 10 + 3</td></tr><tr><td>23</td><td>23+3</td></tr><tr><td>?</td><td>?+ 3</td></tr><tr><td>a</td><td>a + 3</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.681,
+            0.814,
+            0.747,
+            0.83
+          ],
+          "image_path": "images/page_0_equation_14.jpg",
+          "content": "F i g . ~ 4 . 1"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.15,
+            0.836,
+            0.72,
+            0.856
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "find Shabnam’s age will be a + 3, which can be written as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.453,
+            0.861,
+            0.545,
+            0.878
+          ],
+          "image_path": "images/page_0_equation_16.jpg",
+          "content": "s = a + 3 ."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.15,
+            0.884,
+            0.745,
+            0.905
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If a is 23 (Aftab’s age in years), then what is Shabnam’s age?"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

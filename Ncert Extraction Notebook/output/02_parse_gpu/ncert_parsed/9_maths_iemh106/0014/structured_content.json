@@ -1,0 +1,195 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.48,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": "131"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.213,
+            0.106,
+            0.782,
+            0.235
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.209,
+                0.242,
+                0.787,
+                0.261
+              ],
+              "content": "Fig. 6.17: Area of a parallelogram. Here, A'B'C'D' is a copy of ABCD."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.278,
+            0.887,
+            0.378
+          ],
+          "content": "Fig. 6.17 shows how to transform a parallelogram ABCD into a rectangle EB'C'F (at right; here, parallelogram A'B'C'D' is a copy of ABCD) with the same base b and same height h. Though the two shapes are different, their areas are the same. So, the area of the parallelogram is equal to base × height = bh."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.397,
+            0.399,
+            0.42
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.434,
+            0.507,
+            0.551
+          ],
+          "content": "What happens if the parallelogram is ‘thin’ (Fig. 6.18) and the foot of the perpendicular from C to AD does not lie on side AD? The construction then does not seem to work. How do we fix this ‘gap’?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.515,
+            0.382,
+            0.88,
+            0.564
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.579,
+            0.884,
+            0.618
+          ],
+          "content": "Here is a hint on how the problem of the ‘thin parallelogram’ can be solved."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.128,
+            0.631,
+            0.484,
+            0.741
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.164,
+                0.746,
+                0.452,
+                0.765
+              ],
+              "content": "Fig. 6.19: The thin parallelogram"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.501,
+            0.635,
+            0.878,
+            0.772
+          ],
+          "content": "Select a point D' on DA, close to D, and a point A' on DA extended, with A'A = D'D (Fig. 6.19). Then A'BCD' is a parallelogram, and since $\\Delta  CDD  \\cong \\Delta  BAA$ , its area is the same as that of ABCD. Now repeat this step as many times as needed."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.803,
+            0.399,
+            0.827
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.84,
+            0.867,
+            0.9
+          ],
+          "content": "The area of a rectangle can be found when we know the lengths of its sides. Is the same true for a parallelogram? That is, can we find the area of a parallelogram when we know the lengths of its sides? Why or why not?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

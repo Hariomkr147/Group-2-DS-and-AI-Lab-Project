@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.104,
+            0.476,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "PAIR OF LINEAR EQUATIONS IN TWO VARIABLES"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.873,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "31"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.146,
+            0.9,
+            0.211
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Verification : Substituting",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = \\frac{49}{29}   and   y = \\frac{19}{29}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ", you can verify that both the Equations (1) and (2) are satisfied.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.216,
+            0.9,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To understand the substitution method more clearly, let us consider it stepwise: Step 1 : Find the value of one variable, say",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " y "
+            },
+            {
+              "type": "text",
+              "content": "in terms of the other variable, i.e.,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " x "
+            },
+            {
+              "type": "text",
+              "content": "from either equation, whichever is convenient.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.289,
+            0.902,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2 : Substitute this value of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " y "
+            },
+            {
+              "type": "text",
+              "content": "in the other equation, and reduce it to an equation in one variable, i.e., in terms of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " x"
+            },
+            {
+              "type": "text",
+              "content": ", which can be solved. Sometimes, as in Examples 9 and 10 below, you can get statements with no variable. If this statement is true, you can conclude that the pair of linear equations has infinitely many solutions. If the statement is false, then the pair of linear equations is inconsistent.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.396,
+            0.902,
+            0.437
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3 : Substitute the value of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " x "
+            },
+            {
+              "type": "text",
+              "content": "(or",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " y"
+            },
+            {
+              "type": "text",
+              "content": ") obtained in Step 2 in the equation used in Step 1 to obtain the value of the other variable.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.45,
+            0.902,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark : We have substituted the value of one variable by expressing it in terms of the other variable to solve the pair of linear equations. That is why the method is known as the",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " substitution method."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.524,
+            0.902,
+            0.604
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 5 : Solve the following question—Aftab tells his daughter, “Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be.” (Isn’t this interesting?) Represent this situation algebraically and graphically by the method of substitution.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.095,
+            0.609,
+            0.899,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Let",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " s "
+            },
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " t "
+            },
+            {
+              "type": "text",
+              "content": "be the ages (in years) of Aftab and his daughter, respectively. Then, the pair of linear equations that represent the situation is",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.268,
+            0.655,
+            0.898,
+            0.674
+          ],
+          "image_path": "images/page_7_equation_9.jpg",
+          "content": "s - 7 = 7 - 7 , \\mathrm { i . e . } , s - 7 t + 4 2 = 0\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.097,
+            0.683,
+            0.142,
+            0.7
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.269,
+            0.682,
+            0.898,
+            0.701
+          ],
+          "image_path": "images/page_7_equation_11.jpg",
+          "content": "s+3=3(t+3), \\mathrm{i.e.}, s-3t=6\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.708,
+            0.46,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using Equation (2), we get",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "s = 3 t + 6"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.097,
+            0.735,
+            0.532,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Putting this value of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " s "
+            },
+            {
+              "type": "text",
+              "content": "in Equation (1), we get",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.3,
+            0.761,
+            0.517,
+            0.779
+          ],
+          "image_path": "images/page_7_equation_14.jpg",
+          "content": "( 3 t + 6 ) - 7 t + 4 2 = 0 ,"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.097,
+            0.787,
+            0.139,
+            0.805
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.444,
+            0.786,
+            0.712,
+            0.806
+          ],
+          "image_path": "images/page_7_equation_16.jpg",
+          "content": "4t = 48,  which gives   t = 12."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.813,
+            0.529,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Putting this value of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " t "
+            },
+            {
+              "type": "text",
+              "content": "in Equation (2), we get",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.452,
+            0.839,
+            0.645,
+            0.858
+          ],
+          "image_path": "images/page_7_equation_18.jpg",
+          "content": "s = 3 \\; ( 1 2 ) + 6 = 4 2"
+        },
+        {
+          "type": "footer",
+          "index": 19,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

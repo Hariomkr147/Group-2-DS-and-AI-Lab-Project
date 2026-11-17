@@ -1,0 +1,241 @@
+{
+  "pages": [
+    {
+      "page_idx": 25,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.101,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": "196"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.138,
+            0.205,
+            0.157
+          ],
+          "content": "Solution :"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.163,
+            0.897,
+            0.459
+          ],
+          "content": "<table><tr><td>Class intervals</td><td>Frequency</td><td>Cumulative frequency</td></tr><tr><td>0 - 100</td><td>2</td><td>2</td></tr><tr><td>100 - 200</td><td>5</td><td rowspan=2>7 $7 + x$ </td></tr><tr><td>200 - 300</td><td>x</td></tr><tr><td>300 - 400</td><td>12</td><td> $1 9 + x$ </td></tr><tr><td>400 - 500</td><td>17</td><td> $3 6 \\pm x$ </td></tr><tr><td>500 - 600</td><td>20</td><td> $5 6 \\pm x$ </td></tr><tr><td>600 - 700</td><td>y</td><td rowspan=3> $5 6 + x + y$  $65 \\pm x + y$ 72 + x + y76 + x + y</td></tr><tr><td>700 - 800</td><td>9</td></tr><tr><td>800 - 900900 - 1000</td><td>74</td></tr></table>",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.097,
+                0.47,
+                0.322,
+                0.489
+              ],
+              "content": "It is given that n = 100"
+            },
+            {
+              "bbox": [
+                0.096,
+                0.495,
+                0.502,
+                0.515
+              ],
+              "content": "So, 76 + x + y = 100, i.e., x + y = 24"
+            }
+          ],
+          "image_source": "images/page_25_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.867,
+            0.496,
+            0.899,
+            0.515
+          ],
+          "content": "(1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.521,
+            0.598,
+            0.54
+          ],
+          "content": "The median is 525, which lies in the class 500 – 600"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.545,
+            0.548,
+            0.566
+          ],
+          "content": "So, l = 500, f = 20, cf = 36 + x, h = 100"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.613,
+            0.294,
+            0.633
+          ],
+          "content": "Using the formula :"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.408,
+            0.582,
+            0.745,
+            0.662
+          ],
+          "content": "\\mathrm{Media} = l + \\left(\\frac{\\frac{n}{2} - \\mathrm{cf}}{f}\\right)h, \\mathrm{we get}",
+          "image_source": "images/page_25_equation_10.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.445,
+            0.684,
+            0.778,
+            0.729
+          ],
+          "content": "525 = 500 + \\left( \\frac{50 - 36 - x}{20} \\right) \\times 100",
+          "image_source": "images/page_25_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.741,
+            0.635,
+            0.762
+          ],
+          "content": "i.e., O 525 − 500 = (14 − x) × 5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.769,
+            0.594,
+            0.79
+          ],
+          "content": "i.e., 25 = 70 – 5x"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.797,
+            0.639,
+            0.817
+          ],
+          "content": "i.e., V 5x = 70 − 25 = 45"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.825,
+            0.535,
+            0.845
+          ],
+          "content": "So, x = 9"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.851,
+            0.545,
+            0.871
+          ],
+          "content": "Therefore, from (1), we get $9 + y = 2 4$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.877,
+            0.545,
+            0.896
+          ],
+          "content": "i.e., y = 15"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.564,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 25,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

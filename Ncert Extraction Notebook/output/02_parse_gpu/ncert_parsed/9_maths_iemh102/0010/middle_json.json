@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.502,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Introduction to Linear Polynomials"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "25"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 2,
+          "bbox": [
+            0.118,
+            0.104,
+            0.88,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 2,
+              "bbox": [
+                0.118,
+                0.104,
+                0.88,
+                0.165
+              ],
+              "image_path": "images/page_9_table_2.jpg",
+              "content": "<table><tbody><tr><td>Month, t</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Height, h (m)</td><td>3</td><td>2.5</td><td>2</td><td>1.5</td><td>1</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.113,
+            0.178,
+            0.885,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the example above, as the value of t increases by a fixed number (one month), the value of the height h decreases by a fixed number (0.5). Therefore, this example represents "
+            },
+            {
+              "type": "text",
+              "content": "linear decay",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.131,
+            0.254,
+            0.399,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.128,
+            0.291,
+            0.725,
+            0.312
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What will be the height of the water at the end of 5 months?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.327,
+            0.886,
+            0.406
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Linear growth describes a linear pattern where a quantity increases by a constant amount over equal intervals. Similarly, linear decay describes a linear pattern where a quantity decreases by a constant amount over equal intervals."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.373,
+            0.434,
+            0.624,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exercise Set 2.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.131,
+            0.48,
+            0.885,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Suppose a plant has height 1.75 feet and it grows by 0.5 feet each month."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.179,
+            0.528,
+            0.57,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Find the height after 7 months."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.172,
+            0.555,
+            0.886,
+            0.597
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Make a table of values for t varying from 0 to 10 months and show how the height, h, increases every month."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.166,
+            0.603,
+            0.886,
+            0.646
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Find an expression that relates h and t, and explain why it represents linear growth."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.131,
+            0.655,
+            0.886,
+            0.697
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. A mobile phone is bought for `10,000. Its value decreases by `800 every year."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.179,
+            0.702,
+            0.678,
+            0.724
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Find the value of the phone after 3 years."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.172,
+            0.73,
+            0.886,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Make a table of values for t varying from 0 to 8 years and show how the value of the phone, v, depreciates with time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.165,
+            0.777,
+            0.886,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) Find an expression that relates v and t, and explain why it represents linear decay."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.131,
+            0.828,
+            0.885,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. The initial population of a village is 750. Every year, 50 people move from a nearby city to the village."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.18,
+            0.874,
+            0.74,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Find the population of the village after 6 years."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

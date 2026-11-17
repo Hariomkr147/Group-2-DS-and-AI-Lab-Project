@@ -1,0 +1,161 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.818,
+            0.569,
+            0.904,
+            0.622
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.846,
+            0.109
+          ],
+          "content": "Write the following fractions as a sum of fractions and also as decimals:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.124,
+            0.844,
+            0.554
+          ],
+          "content": "| Fraction | Expanding the Numerator | Sum of one-tenths, one-hundredths, one-thousands,... | Decimals |\n| --- | --- | --- | --- |\n| 2541000 | 1200000 +10 5000 +10 400=1 20 +10 50 +10 400 | 0.2 + 0.05 + 0.004 | 0.254 |\n| 84710000 |  |  |  |\n| 173100 |  |  |  |\n| 231000 |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_1_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.574,
+            0.815,
+            0.662
+          ],
+          "content": "? Can you give a simple rule to divide any number by a number of the form 1 followed by zeroes — 10, 100, 1000, etc.? For example, ${ \\frac { 1 2 3 } { 1 0 } } ,$ $\\frac { 2 4 } { 1 0 0 }   \\mathrm { o r }   \\frac { 6 7 8 } { 1 0 0 0 }   ?$ Look for a pattern in the previous problems."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.671,
+            0.73,
+            0.692
+          ],
+          "content": "Here is one such rule. Let us consider the example $1 2 3 \\div 1 0 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.695,
+            0.837,
+            0.739
+          ],
+          "content": "**Step 1:** Write the dividend as it is and place a decimal point at the end. 123."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.744,
+            0.636,
+            0.765
+          ],
+          "content": "**Step 2:** Count the number of zeroes in the divisor."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.224,
+            0.768,
+            0.356,
+            0.789
+          ],
+          "content": "10 \\to 1    zero",
+          "image_source": "images/page_1_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.792,
+            0.848,
+            0.833
+          ],
+          "content": "**Step 3:** Move the decimal point from Step 1 left by the same number of places as the count from Step 2. Add zeroes in front if needed."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "68"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

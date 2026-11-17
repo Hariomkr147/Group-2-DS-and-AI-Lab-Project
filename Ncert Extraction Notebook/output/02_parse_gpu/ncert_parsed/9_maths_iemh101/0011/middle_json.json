@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.438,
+            0.069,
+            0.817,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Orienting Yourself: The Use of Coordinates"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.147
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "It makes no difference whether "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X _ { _ 2 } - X _ { _ 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( y _ { _ 2 } - y _ { _ 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " are positive or negative, as we are simply measuring the shifts along the two axes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.146,
+            0.887,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What if, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X_{1}, X_{2}, Y_{3}, Y_{4}"
+            },
+            {
+              "type": "text",
+              "content": " take negative values? In Fig. 1.9, triangle AMD is reflected in the y-axis. What are the coordinates of the images of points A, M, and D?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.114,
+            0.209,
+            0.883,
+            0.506
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.114,
+                0.209,
+                0.883,
+                0.506
+              ],
+              "image_path": "images/page_10_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.18,
+            0.543,
+            0.815,
+            0.562
+          ],
+          "image_path": "images/page_10_equation_5.jpg",
+          "content": "\\mathrm{CD}^{\\prime}=\\mathrm{x}-\\mathrm{coordinate}-\\mathrm{of} \\mathrm{A}^{\\prime}-\\mathrm{x}-\\mathrm{coordiintate},\\mathrm{of} \\mathrm{D}^{\\prime}=-3-(-7)=4."
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.2,
+            0.567,
+            0.796,
+            0.588
+          ],
+          "image_path": "images/page_10_equation_6.jpg",
+          "content": "\\mathrm{AC}^{\\prime}=\\mathrm{y-coordinate of A}^{\\prime}-\\mathrm{y-coordinate of D}^{\\prime}=4-1=3."
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.111,
+            0.592,
+            0.883,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the Baudhāyana–Pythagoras Theorem, we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{AD} = \\sqrt{4^{2} + 3^{2}} = 5"
+            },
+            {
+              "type": "text",
+              "content": " units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.147,
+            0.631,
+            0.661,
+            0.651
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You can similarly calculate both D'M' and M'A':"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.337,
+            0.659,
+            0.661,
+            0.685
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "\\mathrm{D}^{\\prime} \\mathrm{M}^{\\prime}=\\sqrt{(-2)^{2}+5^{2}}=\\sqrt{29} \\text { units }"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.336,
+            0.699,
+            0.662,
+            0.723
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "\\mathrm{M^{\\prime}A^{\\prime}} = \\sqrt{(-6)^2 + 2^2} = \\sqrt{40}   units."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.731,
+            0.886,
+            0.772
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see that reflection has preserved the lengths of the sides of the triangles."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.129,
+            0.789,
+            0.401,
+            0.812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.149,
+            0.827,
+            0.857,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. What has remained the same and what has changed with this reflection?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.149,
+            0.869,
+            0.857,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Would these observations be the same if ΔADM is reflected in the x-axis (instead of the y-axis)?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

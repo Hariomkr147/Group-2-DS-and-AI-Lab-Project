@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.346,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.088,
+            0.848,
+            0.163
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "responds with 5. Then Bijou says 81, and Aribam answers 9. The game goes on till Aribam says 250. Bijou is not able to answer because 250 is not a perfect square. Aribam asks Bijou if he can at least provide a number that is close to the square root of 250."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.169,
+            0.734,
+            0.228
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For this, Bijou needs to estimate the square root of 250. We know that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 0 \\leq 2 5 0 \\leq 4 0 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\sqrt { 1 0 0 } }   = 1 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt{400} = 20."
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{S0},10 < \\sqrt{250} < 20."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.227,
+            0.818,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But, we are still not very close to the number whose square is 250. We know that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 5 ^ { 2 } = 2 2 5"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 6 ^ { 2 } = 2 5 6 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.153,
+            0.266,
+            0.832,
+            0.305
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "15 \\leq \\sqrt{250} \\leq 16."
+            },
+            {
+              "type": "text",
+              "content": " Since 256 is much closer to 250 than 225, 250 is approximately 16. We also know it is less than 16."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.309,
+            0.764,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is another problem that requires estimating square roots."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.328,
+            0.847,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Akhil has a square piece of cloth of area 125 cm"
+            },
+            {
+              "type": "text",
+              "content": "2",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". He wants to know if he can cut out a square handkerchief of side 15 cm. If not, he wants to know the maximum size handkerchief that can be cut out from this piece of cloth with an integer side length."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.401,
+            0.847,
+            0.458
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "125 is not a perfect square. The nearest perfect squares are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 1 ^ { 2 } = 1 2 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 ^ { 2 }   =   1 4 4"
+            },
+            {
+              "type": "text",
+              "content": " . So the largest square handkerchief with integer side length that can be cut out from this piece of cloth has side length 11 cm."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.112,
+            0.469,
+            0.292,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.503,
+            0.744,
+            0.547
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Which of the following numbers are not perfect squares? (i) 2032 (ii) 2048 (iii) 1027 (iv) 1089"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.55,
+            0.698,
+            0.571
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Which one among "
+            },
+            {
+              "type": "equation_inline",
+              "content": "64^{2},108^{2},292^{2},36^{2}"
+            },
+            {
+              "type": "text",
+              "content": " has last digit 4?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.58,
+            0.778,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Given "
+            },
+            {
+              "type": "equation_inline",
+              "content": "125^{2} = 15625"
+            },
+            {
+              "type": "text",
+              "content": " what is the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 6 ^ { 2 } ?"
+            },
+            {
+              "type": "text",
+              "content": " (i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 5 6 2 5 \\pm 1 2 6"
+            },
+            {
+              "type": "text",
+              "content": " (ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 5 6 2 5 \\pm 2 6 ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " (iii) 15625 + 253 (iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 5 6 2 5 \\pm 2 5 1"
+            },
+            {
+              "type": "text",
+              "content": " (v) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 5 \\overline { 6 2 5 } \\pm 5 1 ^ { 2 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.647,
+            0.766,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Find the length of the side of a square whose area is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "4 4 1   \\mathrm { m } ^ { 2 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.677,
+            0.847,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Find the smallest square number that is divisible by each of the following numbers: 4, 9, and 10."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.15,
+            0.725,
+            0.848,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. Find the smallest number by which 9408 must be multiplied so that the product is a perfect square. Find the square root of the product."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.774,
+            0.848,
+            0.836
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. How many numbers lie between the squares of the following numbers? (i) 16 and 17 (ii) 99 and 100"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.15,
+            0.84,
+            0.698,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. In the following pattern, fill in the missing numbers:"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.086,
+            0.915,
+            0.118,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 0"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 18,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

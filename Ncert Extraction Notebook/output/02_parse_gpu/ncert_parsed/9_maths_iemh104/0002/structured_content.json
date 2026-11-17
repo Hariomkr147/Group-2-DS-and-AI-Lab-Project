@@ -1,0 +1,182 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Exploring Algebraic Identities"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": "69"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.111,
+            0.399,
+            0.134
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.149,
+            0.855,
+            0.188
+          ],
+          "content": "Try and find other patterns like this one. For example, you could consider 4 consecutive squares and see if you can find a pattern."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.223,
+            0.48,
+            0.245
+          ],
+          "level": 2,
+          "content": "4.2 Visualising Identities"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.256,
+            0.886,
+            0.332
+          ],
+          "content": "In this section we will revisit some algebraic identities that we have studied in earlier grades and try to visualise them using geometrical models. In particular, we will use squares and rectangles to represent terms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.333,
+            0.886,
+            0.374
+          ],
+          "content": "Consider two line segments of lengths a and b units, respectively, and make a longer line segment of length (a + b) units as shown in Fig. 4.1."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.382,
+            0.394,
+            0.615,
+            0.479
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.463,
+                0.492,
+                0.534,
+                0.51
+              ],
+              "content": "Fig. 4.1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.528,
+            0.886,
+            0.569
+          ],
+          "content": "We can now construct a square of side $(a + b)$ units and partition it into smaller squares and rectangles as shown in Fig. 4.2."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.244,
+            0.577,
+            0.619,
+            0.804
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.343,
+                0.816,
+                0.655,
+                0.835
+              ],
+              "content": "Fig. 4.2: Square of side (a + b) units"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.856,
+            0.886,
+            0.898
+          ],
+          "content": "Observe that the area of the outer square is $( a + b ) ^ { 2 }$ . The area of the larger square inside the outer square is $a ^ { 2 }$ while the area of the smaller"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

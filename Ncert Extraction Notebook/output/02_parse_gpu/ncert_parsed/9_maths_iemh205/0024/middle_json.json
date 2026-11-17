@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.159,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "108"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.11,
+            0.881,
+            0.168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The ratio of incomes of two persons is 9 : 7 and the ratio of their expenditures is 4 : 3. If each of them manages to save ₹2000 per month, find their monthly incomes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.115,
+            0.168,
+            0.883,
+            0.244
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the ratio of the incomes of the two persons is 9 : 7, it means that for every 9 equal parts of income of the first person, the second person has 7 equal parts. If the equal part is x, the incomes of the two persons will be 9x and 7x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.116,
+            0.245,
+            0.881,
+            0.283
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In a similar manner, we may consider their expenditures to be 4y and 3y, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.115,
+            0.283,
+            0.881,
+            0.323
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then the equations formed by subtracting the expenditure from the income leading to a saving of ₹ 2000 are as follows:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.383,
+            0.329,
+            0.879,
+            0.35
+          ],
+          "image_path": "images/page_23_equation_6.jpg",
+          "content": "9x - 4y = 2000\\tag{1}"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.383,
+            0.351,
+            0.879,
+            0.371
+          ],
+          "image_path": "images/page_23_equation_7.jpg",
+          "content": "7x - 3y = 2000\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.379,
+            0.879,
+            0.4
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To solve these by the method of elimination, we proceed as follows:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.115,
+            0.404,
+            0.882,
+            0.503
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We first decide which variable to eliminate. Suppose we wish to eliminate y from both equations. We multiply each side of Equation (1) by 3 [the coefficient of y in Equation (2)], and multiply Equation (2) by 4 [the coefficient of y in (1)]. By doing this the coefficients of y in both equations become equal. We get the equations:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.369,
+            0.508,
+            0.879,
+            0.529
+          ],
+          "image_path": "images/page_23_equation_10.jpg",
+          "content": "27x - 12y = 6000\\tag{3}"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.366,
+            0.533,
+            0.879,
+            0.554
+          ],
+          "image_path": "images/page_23_equation_11.jpg",
+          "content": "28x - 12y = 8000\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.115,
+            0.564,
+            0.881,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Subtract the LHS and RHS of Equation 3 from the LHS and RHS of Equation 4 respectively. Since we are subtracting equal quantities from equal quantities, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.33,
+            0.629,
+            0.667,
+            0.649
+          ],
+          "image_path": "images/page_23_equation_13.jpg",
+          "content": "(28x - 27x) - (12y - 12y) = 2000."
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.116,
+            0.655,
+            0.881,
+            0.694
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This step eliminates the variable y, leaving us with (28x – 27x) = 2000 or x = 2000."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.699,
+            0.67,
+            0.72
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Substituting this value of x in (1), we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.343,
+            0.726,
+            0.691,
+            0.746
+          ],
+          "image_path": "images/page_23_equation_16.jpg",
+          "content": "9(2000)-4y=2000   i.e.,y=4000."
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.153,
+            0.752,
+            0.762,
+            0.773
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Hence, the solution of the equations is x = 2000, y = 4000."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.116,
+            0.777,
+            0.881,
+            0.815
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the monthly incomes of the two persons are ₹18,000 and ₹14,000, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.116,
+            0.815,
+            0.881,
+            0.874
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us verify our solution. The ratio of the incomes is 18000 : 14000 = 9 : 7. Also, the ratio of their expenditures = (18000 – 2000) : (14000 – 2000) = 16000 : 12000 = 4 : 3. Hence, the conditions of the problem are satisfied."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.117,
+            0.085,
+            0.229,
+            0.102
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Section 3.12",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.117,
+            0.103,
+            0.229,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Page No. 72",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.118,
+            0.121,
+            0.239,
+            0.138
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.116,
+            0.138,
+            0.883,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.1. There is only one supercell (number greater than all its neighbours) in this grid. If you",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.161,
+            0.174,
+            0.881,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "exchange two digits of one of the numbers, there will be 4 supercells. Figure out which digits to swap.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.215,
+            0.208,
+            0.54,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.215,
+                0.208,
+                0.54,
+                0.278
+              ],
+              "image_path": "images/page_30_table_5.jpg",
+              "content": "<table><tbody><tr><td>16,200</td><td>39,344</td><td>29,765</td></tr><tr><td>23,609</td><td>62,871</td><td>45,306</td></tr><tr><td>19,381</td><td>50,319</td><td>38,408</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.116,
+            0.296,
+            0.871,
+            0.315
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans. If I exchange the digits 1 and 6 in the number 62,871 then there will be 4 Super cells."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.215,
+            0.329,
+            0.541,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.215,
+                0.329,
+                0.541,
+                0.401
+              ],
+              "image_path": "images/page_30_table_7.jpg",
+              "content": "<table><tbody><tr><td>16,200</td><td>39,344</td><td>29,765</td></tr><tr><td>23,609</td><td>12,876</td><td>45,306</td></tr><tr><td>19,381</td><td>50,319</td><td>38,408</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.116,
+            0.419,
+            0.851,
+            0.454
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.2. How many rounds does your year of birth take to reach the Kaprekar constant?",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ans. Suppose the birth year is 1980, then, -"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 9,
+          "bbox": [
+            0.22,
+            0.453,
+            0.838,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 9,
+              "bbox": [
+                0.22,
+                0.453,
+                0.838,
+                0.505
+              ],
+              "image_path": "images/page_30_table_9.jpg",
+              "content": "<table><tr><td>9810</td><td>8721</td><td>7443</td><td>9963</td><td>6642</td><td>7641</td></tr><tr><td>-1089</td><td>-1278</td><td>-3447</td><td>-3699</td><td>-2466</td><td>-1467</td></tr><tr><td>8721</td><td>7443</td><td>3996</td><td>6264</td><td>4176</td><td>6174</td></tr></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 10,
+              "bbox": [
+                0.177,
+                0.522,
+                0.591,
+                0.54
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "It takes 6 rounds. (Try now for your year of birth.)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.115,
+            0.556,
+            0.882,
+            0.611
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.3. We are the group of 5-digit numbers between 35,000 and 75,000 such that all of our digits are odd. Who is the largest number in our group? Who is the smallest number in our group? Who among us is the closest to 50,000?",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.118,
+            0.611,
+            0.161,
+            0.626
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 13,
+          "bbox": [
+            0.218,
+            0.626,
+            0.871,
+            0.696
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 13,
+              "bbox": [
+                0.218,
+                0.626,
+                0.871,
+                0.696
+              ],
+              "image_path": "images/page_30_table_13.jpg",
+              "content": "<table><tr><td></td><td>With repeating digit</td><td>With non repeating digit</td></tr><tr><td>Largest number → Smallest number →</td><td>73,999 35,111</td><td>73,951 35,179</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 14,
+          "bbox": [
+            0.215,
+            0.707,
+            0.88,
+            0.744
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 14,
+              "bbox": [
+                0.215,
+                0.707,
+                0.88,
+                0.744
+              ],
+              "image_path": "images/page_30_table_14.jpg",
+              "content": "<table><tbody><tr><td></td><td>With repeating digit</td><td>With non repeating digit</td></tr><tr><td>Closest to 50000</td><td>51,111</td><td>51,379</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.116,
+            0.761,
+            0.856,
+            0.797
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Q.6. Write one 5-digit number and two 3-digit numbers such that their sum is 18,670.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ans. 18000 + 300 + 370 = 18670. Try for more."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.482,
+            0.926,
+            0.518,
+            0.942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "[12]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

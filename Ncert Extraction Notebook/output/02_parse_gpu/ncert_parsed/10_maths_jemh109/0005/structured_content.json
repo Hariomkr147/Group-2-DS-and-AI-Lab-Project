@@ -1,0 +1,265 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.418,
+            0.121
+          ],
+          "content": "SOME APPLICATIONS OF TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "137"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.141,
+            0.576,
+            0.227
+          ],
+          "content": "**Example 3 :** An observer 1.5 m tall is 28.5 m away from a chimney. The angle of elevation of the top of the chimney from her eyes is $4 5 ^ { \\circ }$ . What is the height of the chimney?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.234,
+            0.575,
+            0.342
+          ],
+          "content": "**Solution :** Here, AB is the chimney, CD the observer and $\\angle \\mathrm { A D E }$ the angle of elevation (see Fig. 9.6). In this case, ADE is a triangle, right-angled at E and we are required to find the height of the chimney."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.586,
+            0.142,
+            0.896,
+            0.355
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.349,
+            0.19,
+            0.368
+          ],
+          "content": "We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.279,
+            0.349,
+            0.553,
+            0.369
+          ],
+          "content": "\\mathrm{AB} = \\mathrm{AE} + \\mathrm{BE} = \\mathrm{AE} + 1.5",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.691,
+            0.359,
+            0.778,
+            0.378
+          ],
+          "content": "Fig. 9.6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.378,
+            0.142,
+            0.396
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.28,
+            0.377,
+            0.475,
+            0.396
+          ],
+          "content": "DE = CB = 28.5   m",
+          "image_source": "images/page_4_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.405,
+            0.902,
+            0.447
+          ],
+          "content": "To determine AE, we choose a trigonometric ratio, which involves both AE and DE. Let us choose the tangent of the angle of elevation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.474,
+            0.155,
+            0.493
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.294,
+            0.459,
+            0.442,
+            0.502
+          ],
+          "content": "\\tan 45^{\\circ} = \\frac{ AE }{ DE }",
+          "image_source": "images/page_4_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.531,
+            0.14,
+            0.55
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.352,
+            0.518,
+            0.451,
+            0.561
+          ],
+          "content": "1 \\equiv \\frac{AE}{28.5}",
+          "image_source": "images/page_4_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.568,
+            0.205,
+            0.587
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.33,
+            0.567,
+            0.442,
+            0.587
+          ],
+          "content": "\\mathrm { A E } = 2 8 . 5",
+          "image_source": "images/page_4_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.593,
+            0.673,
+            0.614
+          ],
+          "content": "So the height of the chimney $(AB) = (28.5 + 1.5)    m  = 30    m$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.627,
+            0.902,
+            0.715
+          ],
+          "content": "**Example 4 :** From a point P on the ground the angle of elevation of the top of a 10 m tall building is $3 0 ^ { \\circ }$ . A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is $4 5 ^ { \\circ }$ . Find the length of the flagstaff and the distance of the building from the point P. (You may take ${ \\sqrt { 3 } }   = 1 . 7 3 2 )$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.721,
+            0.902,
+            0.808
+          ],
+          "content": "**Solution :** In Fig. 9.7, AB denotes the height of the building, BD the flagstaff and P the given point. Note that there are two right triangles PAB and PAD. We are required to find the length of the flagstaff, i.e., DB and the distance of the building from the point P, i.e., PA."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–9 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–9 (11th Nov.)",
+      "description": "Chap–9 (11th Nov.)",
+      "created_at": "2022-08-17T11:57:18+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

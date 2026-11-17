@@ -1,0 +1,34 @@
+## 3.2 Supercells
+
+Observe the numbers written in the table below. Why are some numbers coloured? Discuss.
+
+| 43 | 79 | 75 | 63 | 10 | 29 | 28 | 34 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 200 | 577 | 626 | 345 | 790 | 694 | 109 | 198 |
+
+A cell is coloured if the number in it is larger than its adjacent cells. The number 626 is coloured as it is larger than 577 and 345, whereas 200 is not coloured as it is smaller than 577. The number 198 is coloured as it has only one adjacent cell with 109 in it, and 198 is larger than 109.
+
+![](images/page_2_image_5.jpg)
+
+## Figure it Out
+
+1. Colour or mark the supercells in the table below.
+
+| 6828 | 670 | 9435 | 3780 | 3708 | 7308 | 8000 | 5583 | 52 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+2. Fill the table below with only 4-digit numbers such that the supercells are exactly the coloured cells.
+
+| 5346 |  |  | 1258 |  |  |  | 9635 |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+3. Fill the table below such that we get as many supercells as possible. Use numbers between 100 and 1000 without repetitions.
+
+|  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+4. Out of the 9 numbers, how many supercells are there in the table above?
+
+5. Find out how many supercells are possible for different numbers of cells.
+
+Do you notice any pattern? What is the method to fill a given table to get the maximum number of supercells? Explore and share your strategy.

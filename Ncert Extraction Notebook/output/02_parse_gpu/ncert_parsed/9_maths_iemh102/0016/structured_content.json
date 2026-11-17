@@ -1,0 +1,137 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.501,
+            0.069,
+            0.816,
+            0.086
+          ],
+          "content": "Introduction to Linear Polynomials"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": "31"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.108,
+            0.886,
+            0.166
+          ],
+          "content": "Fig. 2.9 shows all the three graphs on the same axes. Does this help you to conclude anything about the linear equation $y = a x , a > 0$ as a varies? What happens when $\\mathbf { a } \\geq 1$ and when $\\mathtt { a } \\leq 1 ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.171,
+            0.886,
+            0.214
+          ],
+          "content": "(**Hint:** You may also plot the equations $y \\: = \\: 3 x$ and $y = { \\frac { 1 } { 3 } } \\; x$ on the same axes.)"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.206,
+            0.226,
+            0.795,
+            0.467
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.461,
+                0.471,
+                0.537,
+                0.489
+              ],
+              "content": "Fig. 2.9"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.5,
+            0.887,
+            0.636
+          ],
+          "content": "First of all, we observe that the straight lines representing an equation of the form y = ax, always pass through the origin (0, 0). Further, when $a \\geq 1$ , the line is steeper than the line $y \\: = \\: x ,$ which is equally inclined to both axes. However, when $a \\leq 1$ , the line is less steep than the line $y = x .$ In fact, a is referred to as the **slope** of the line $y = a x .$ We will learn more about the concept of the **slope** of a line in the chapter on linear equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.636,
+            0.888,
+            0.81
+          ],
+          "content": "For now, we focus on another important observation. A linear growth is represented by a straight line with positive slope while a linear decay is represented by a straight line with negative slope. Note that the number of square tiles in the pattern in Fig. 2.4 leads to the sequence 1, 3, 5, 7, …. in which the difference of consecutive terms is the constant 2. The slope of the line representing the linear relationship between the term number and the number of square tiles is $y = 2x - 1$ . Hence, the slope represents the constant difference between consecutive terms of the sequence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.814,
+            0.889,
+            0.886
+          ],
+          "content": "**Example 15:** Now let us draw the graphs of $y=\\frac{-1}{3}x,y=-x,y=-3x$ by selecting suitable points on these lines. Fig. 2.10 shows the graphs of these linear equations without any points labelled on them."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

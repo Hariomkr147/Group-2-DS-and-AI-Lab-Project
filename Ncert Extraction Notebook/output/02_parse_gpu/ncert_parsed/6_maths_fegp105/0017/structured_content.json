@@ -1,0 +1,302 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.732,
+            0.064,
+            0.834,
+            0.081
+          ],
+          "content": "Prime Time"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.12,
+            0.833,
+            0.164
+          ],
+          "content": "It is easy to find factors of small numbers. How do we find factors of a large number?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.166,
+            0.833,
+            0.209
+          ],
+          "content": "Let us take 8560. Does it have any factors from 2 to 10 (2, 3, 4, 5, ..., 9, 10)?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.212,
+            0.834,
+            0.257
+          ],
+          "content": "It is easy to check if some of these numbers are factors or not without doing long division. Can you find them?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.269,
+            0.325,
+            0.29
+          ],
+          "level": 2,
+          "content": "Divisibility by 10"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.292,
+            0.76,
+            0.336
+          ],
+          "content": "Let us take 10. Is 8560 divisible by 10? This is another way of asking if 10 is a factor of 8560."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.338,
+            0.752,
+            0.359
+          ],
+          "content": "For this, we can look at the pattern in the multiples of 10."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.361,
+            0.833,
+            0.405
+          ],
+          "content": "The first few multiples of 10 are: 10, 20, 30, 40, … Continue this sequence and observe the pattern."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.406,
+            0.833,
+            0.45
+          ],
+          "content": "Is 125 a multiple of 10? Will this number appear in the previous sequence? Why or why not?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.452,
+            0.641,
+            0.473
+          ],
+          "content": "Can you now answer if 8560 is divisible by 10?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.482,
+            0.413,
+            0.503
+          ],
+          "level": 2,
+          "content": "Consider this statement:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.505,
+            0.759,
+            0.55
+          ],
+          "content": "Numbers that are divisible by 10 are those that end with ‘0’. Do you agree?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.777,
+            0.486,
+            0.862,
+            0.547
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.561,
+            0.311,
+            0.583
+          ],
+          "level": 2,
+          "content": "Divisibility by 5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.585,
+            0.833,
+            0.629
+          ],
+          "content": "The number 5 is another number whose divisibility can easily be checked. How do we do it?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.632,
+            0.834,
+            0.676
+          ],
+          "content": "Explore by listing down the multiples: 5, 10, 15, 20, 25, ... What do you observe about these numbers? Do you see a pattern in the last digit?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.677,
+            0.834,
+            0.721
+          ],
+          "content": "What is the largest number less than 399 that is divisible by 5? Is 8560 divisible by 5?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.729,
+            0.413,
+            0.751
+          ],
+          "level": 2,
+          "content": "Consider this statement:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.752,
+            0.762,
+            0.797
+          ],
+          "content": "Numbers that are divisible by 5 are those that end with either a ‘0’ or a ‘5’. Do you agree?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.777,
+            0.732,
+            0.864,
+            0.794
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_19.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.81,
+            0.311,
+            0.832
+          ],
+          "level": 2,
+          "content": "Divisibility by 2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.833,
+            0.779,
+            0.855
+          ],
+          "content": "The first few multiples of 2 are 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, ..."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.857,
+            0.754,
+            0.878
+          ],
+          "content": "What do you observe? Do you see a pattern in the last digit?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.887,
+            0.942,
+            0.916,
+            0.958
+          ],
+          "content": "123"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:02+05:30",
+      "modified_at": "2026-04-07T17:40:02+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

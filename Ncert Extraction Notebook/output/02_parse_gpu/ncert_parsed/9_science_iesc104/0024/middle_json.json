@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Describing Motion Around Us"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.857,
+            0.018,
+            0.953,
+            0.089
+          ],
+          "content": []
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.322,
+            0.107,
+            0.588,
+            0.131
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Journey Beyond"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.118,
+            0.161,
+            0.544,
+            0.349
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y Take a cardboard disc (radius ~ 8 cm) (Fig. 4.33). Write numbers 1 to 12 on the outer part (7 cm from the centre) and the letters ‘ABCDEF’ on the inner part (4 cm from the centre), using the same font size. Spin the disc slowly, then faster, and observe how the numbers and letters appear. Why do the numbers fade or disappear while the letters remain visible? Are the speeds of the numbers and letters the same or different? Justify your answer."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.561,
+            0.161,
+            0.769,
+            0.318
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.561,
+                0.161,
+                0.769,
+                0.318
+              ],
+              "image_path": "images/page_23_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.629,
+                0.322,
+                0.696,
+                0.339
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 4.33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.118,
+            0.35,
+            0.776,
+            0.505
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Many smartphones have an inbuilt accelerometer that can detect very small accelerations. Install an app, such as Phyphox (phyphox.org) and open ‘Accelerometer (without "
+            },
+            {
+              "type": "equation_inline",
+              "content": "g ^ { \\flat }"
+            },
+            {
+              "type": "text",
+              "content": " . Note the readings when (i) the phone is on an outstretched palm, and (ii) the phone is kept on the floor. What differences do you observe? What does this tell you about motion and acceleration in real situations? (Such tiny, involuntary movements are also studied in medical research, for example, in movement disorders) This activity is recommended to be performed as a classroom group activity facilitated by teacher."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.78,
+            0.144,
+            0.946,
+            0.495
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.78,
+                0.144,
+                0.946,
+                0.495
+              ],
+              "image_path": "images/page_23_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.118,
+            0.506,
+            0.775,
+            0.592
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For motion in a straight line with constant acceleration, we derived two primary equations given by Eq. (4.4a) and (4.4b). Using these two equations, three more equations can be derived, out of which we derived one given in Eq. (4.4c). Derive the remaining two equations given below"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.282,
+            0.595,
+            0.405,
+            0.63
+          ],
+          "image_path": "images/page_23_equation_9.jpg",
+          "content": "s = vt = \\frac{1}{2}at^{2}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.508,
+            0.595,
+            0.634,
+            0.63
+          ],
+          "image_path": "images/page_23_equation_10.jpg",
+          "content": "s = { \\frac { 1 } { 2 } } \\left( u   +   \\nu \\right)   t"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.782,
+            0.577,
+            0.873,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "V "
+            },
+            {
+              "type": "text",
+              "content": "Grade 8 Ganita Prakash Part II Chapter 7",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.139,
+            0.633,
+            0.775,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In mathematics, you have learnt the formula for calculating the area of a trapezium. Using that formula, derive the second equation given above."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.118,
+            0.686,
+            0.776,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "y Plot graphs for data given in Table 4.4, using different X and Y scales, on different graph papers. Compare the graphs to find how the appearance of graph is affected by the choice of scales and decide which scale is better and why. Now repeat this with any graph plotting app. Such apps generally automatically adjust the axes to fit the data well on the screen."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.118,
+            0.791,
+            0.776,
+            0.894
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Talk to a motor mechanic about how a vehicle’s braking or stopping distance is affected by: (i) wet roads, (ii) worn-out tyres, (iii) higher vehicle mass, (iv) driving at night, (v) fog, (vi) severe weather (rain, snow, storm), and (vii) driver reaction time. Using this information, design safety posters for your school and prepare a short skit to present it in the assembly."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

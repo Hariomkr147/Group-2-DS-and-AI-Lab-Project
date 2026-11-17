@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.12,
+            0.075,
+            0.774,
+            0.189
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.358,
+                0.196,
+                0.542,
+                0.215
+              ],
+              "content": "Fig. 5.3: A 15-cm scale"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_4_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.225,
+            0.511,
+            0.39
+          ],
+          "content": "of 1 cm length are further divided into 10 equal parts. The length of one of these smaller parts is called a **millimetre** (**mm**). 1 mm is the smallest value of length that you can measure using this scale. 1 mm is equal to one-tenth of a centimeter (1 mm = 0.1 cm)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.39,
+            0.494,
+            0.514
+          ],
+          "content": "For measuring larger lengths, we use a larger unit called a **kilometre** (**km**) which is equal to 1000 metres. And for measuring smaller lengths, we use units such as centimetre or millimetre."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.549,
+            0.279,
+            0.864,
+            0.446
+          ],
+          "content": "**Would it be convenient to use the unit metre to measure larger lengths, such as the length of a railway track between two cities, or to measure smaller lengths, such as the thickness of a page of a book?**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.14,
+            0.542,
+            0.305,
+            0.565
+          ],
+          "level": 2,
+          "content": "1 km = 1000 m"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.355,
+            0.542,
+            0.505,
+            0.565
+          ],
+          "level": 2,
+          "content": "1 m = 100 cm"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.557,
+            0.543,
+            0.716,
+            0.565
+          ],
+          "content": "**1 cm = 10 mm**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.619,
+            0.757,
+            0.725
+          ],
+          "content": "In some scales, you might have noticed another scale marking. This scale marking is in inches, where 1 inch = 2.54 cm. In earlier days, units, such as inch and foot, were used to measure length. These units are still used by some people."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.746,
+            0.771,
+            0.818,
+            0.821
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_4_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.735,
+            0.828,
+            0.828,
+            0.87
+          ],
+          "content": "**Do you know?**"
+        },
+        {
+          "type": "aside_text",
+          "bbox": [
+            0.893,
+            0.692,
+            0.914,
+            0.87
+          ],
+          "content": "Measurement of Length and Motion"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.89,
+            0.899,
+            0.918,
+            0.915
+          ],
+          "content": "83"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2024-10-04T15:15:18+05:30",
+      "modified_at": "2026-03-27T11:31:44+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe PDF Library 10.0.1",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

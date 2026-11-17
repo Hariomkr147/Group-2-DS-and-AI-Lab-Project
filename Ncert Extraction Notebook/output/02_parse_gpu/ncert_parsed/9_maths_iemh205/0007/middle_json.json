@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.596,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.851,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "91"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.249,
+            0.107,
+            0.749,
+            0.387
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.249,
+                0.107,
+                0.749,
+                0.387
+              ],
+              "image_path": "images/page_6_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 3,
+              "bbox": [
+                0.253,
+                0.397,
+                0.746,
+                0.417
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.3: Graph of the linear equation 4x + 3y = 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.113,
+            0.431,
+            0.884,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 0 ,"
+            },
+            {
+              "type": "text",
+              "content": " we get 5y = 0, that is, y = 0. So (0, 0) is a solution of the given equation. To get another solution, substitute x = 1. The corresponding value of y is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "-\\frac{2}{5}, \\mathrm{~S}0, (1, -\\frac{2}{5})"
+            },
+            {
+              "type": "text",
+              "content": " is also a solution. In fact, we can substitute any value for x and obtain a corresponding value of y. For example, substituting "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x = 5"
+            },
+            {
+              "type": "text",
+              "content": " we obtain "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = - 2"
+            },
+            {
+              "type": "text",
+              "content": " . Let us represent these solutions or ordered pairs in the form of a table."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.297,
+            0.558,
+            0.648,
+            0.642
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.297,
+                0.558,
+                0.648,
+                0.642
+              ],
+              "image_path": "images/page_6_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.114,
+            0.652,
+            0.883,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When we plot the ordered pairs A (0, 0), "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B } \\left( 1 , { \\frac { - 2 } { 5 } } \\right)"
+            },
+            {
+              "type": "text",
+              "content": " and C (5, –2) we see that they lie on a line."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.19,
+            0.702,
+            0.752,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.19,
+                0.702,
+                0.752,
+                0.853
+              ],
+              "image_path": "images/page_6_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.259,
+                0.863,
+                0.74,
+                0.883
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.4: Graph of the linear equation "
+                },
+                {
+                  "type": "equation_inline",
+                  "content": "2x + 5y = 0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

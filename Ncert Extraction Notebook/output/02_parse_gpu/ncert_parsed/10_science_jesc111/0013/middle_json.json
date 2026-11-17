@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.134,
+            0.09,
+            0.305,
+            0.113
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 11.5"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.124,
+            0.128,
+            0.686,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In Activity 11.4, insert a voltmeter across the ends X and Y of the series combination of three resistors, as shown in Fig. 11.6.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.125,
+            0.158,
+            0.686,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plug the key in the circuit and note the voltmeter reading. It gives the potential difference across the series combination of resistors. Let it be V. Now measure the potential difference across the two terminals of the battery. Compare the two values.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.125,
+            0.216,
+            0.686,
+            0.26
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Take out the plug key and disconnect the voltmeter. Now insert the voltmeter across the ends X and P of the first resistor, as shown in Fig. 11.8.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.181,
+            0.265,
+            0.638,
+            0.488
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.181,
+                0.265,
+                0.638,
+                0.488
+              ],
+              "image_path": "images/page_12_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.357,
+                0.496,
+                0.467,
+                0.512
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.124,
+            0.518,
+            0.698,
+            0.548
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Plug the key and measure the potential difference across the first",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " resistor. Let it be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { r }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.124,
+            0.548,
+            0.696,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly, measure the potential difference across the other two",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " resistors, separately. Let these values be "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { 3 ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "respectively.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.124,
+            0.576,
+            0.55,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Deduce a relationship between V, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { t }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { z }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { 3 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.623,
+            0.723,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You will observe that the potential difference V is equal to the sum of",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " potential differences "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { \\imath } ,   V _ { \\imath ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V _ { s ^ { \\prime } }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ". That is the total potential difference across a combination of resistors in series is equal to the sum of potential difference across the individual resistors. That is,",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.163,
+            0.696,
+            0.719,
+            0.714
+          ],
+          "image_path": "images/page_12_equation_10.jpg",
+          "content": "V = V_{1} + V_{2} + V_{3}\\tag{11.11}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.721,
+            0.723,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In the electric circuit shown in Fig. 11.8, let I be the current through the circuit. The current through each resistor is also I. It is possible to replace the three resistors joined in series by an equivalent single resistor of resistance",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "such that the potential difference V across it, and the current I through the circuit remains the same. Applying the Ohm’s law to the entire circuit, we have",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.163,
+            0.826,
+            0.719,
+            0.843
+          ],
+          "image_path": "images/page_12_equation_12.jpg",
+          "content": "V = I   R\\tag{11.12}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.1,
+            0.916,
+            0.178,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Electricity",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 14,
+          "bbox": [
+            0.881,
+            0.915,
+            0.913,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "183"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 15,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

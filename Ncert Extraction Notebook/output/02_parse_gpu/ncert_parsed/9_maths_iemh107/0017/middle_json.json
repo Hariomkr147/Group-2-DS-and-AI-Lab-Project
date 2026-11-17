@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.331,
+            0.068,
+            0.816,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Mathematics of Maybe: Introduction to Probability"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "171"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.131,
+            0.108,
+            0.887,
+            0.185
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "6. A child has 2 shirts (one red and one blue) and 3 types of pants (jeans, khakis, and shorts). List all the possible combinations of outfits consisting of one shirt and one pair of pants. Display your answer in a table format."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.132,
+            0.189,
+            0.883,
+            0.21
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7. A tyre company records distances before replacement in 1000 cases."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 4,
+          "bbox": [
+            0.176,
+            0.216,
+            0.822,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 4,
+              "bbox": [
+                0.176,
+                0.216,
+                0.822,
+                0.322
+              ],
+              "image_path": "images/page_16_table_4.jpg",
+              "content": "<table><tbody><tr><td>Distance</td><td>Less than</td><td>4001 to</td><td>9001 to</td><td>More than</td></tr><tr><td>(km)</td><td>4000</td><td>9000</td><td>14000</td><td>14000</td></tr><tr><td>Number of cases</td><td>20</td><td>210</td><td>325</td><td>445</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.168,
+            0.333,
+            0.761,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Find the probability that a randomly chosen tyre lasts:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.179,
+            0.361,
+            0.441,
+            0.381
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Less than 4000 km."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.173,
+            0.383,
+            0.548,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Between 4000 and 14000 km."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.168,
+            0.405,
+            0.464,
+            0.425
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) More than 14000 km."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.435,
+            0.884,
+            0.476
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "8. The letters of the word ‘PEACE’ are placed on cards. Leela draws a card without looking."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.179,
+            0.481,
+            0.556,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) What is the probability that it is a P, E or C?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.597,
+            0.48,
+            0.817,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.597,
+                0.48,
+                0.817,
+                0.511
+              ],
+              "image_path": "images/page_16_image_11.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.173,
+            0.529,
+            0.683,
+            0.551
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) What is the probability that it is not an E?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.121,
+            0.559,
+            0.883,
+            0.581
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*9. A game of chance consists of spinning an arrow (see Fig. 7.7.) which"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.129,
+            0.589,
+            0.673,
+            0.657
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8, and these are equally likely outcomes. What is the probability that it will point at"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.18,
+            0.666,
+            0.261,
+            0.686
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) 8?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.173,
+            0.692,
+            0.418,
+            0.713
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) An odd number?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.167,
+            0.72,
+            0.514,
+            0.741
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) A number greater than 2?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.168,
+            0.746,
+            0.477,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) A number less than 9?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.175,
+            0.774,
+            0.407,
+            0.795
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(v) A multiple of 3?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.687,
+            0.603,
+            0.881,
+            0.782
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.687,
+                0.603,
+                0.881,
+                0.782
+              ],
+              "image_path": "images/page_16_image_20.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 21,
+              "bbox": [
+                0.748,
+                0.789,
+                0.816,
+                0.805
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.113,
+            0.824,
+            0.886,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*10. A basket contains 4 red balls and 5 blue balls. One ball is drawn and laid aside, and a second ball is drawn. Draw a tree diagram to represent the possible outcomes and probabilities. Use the tree diagram to answer the following questions."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

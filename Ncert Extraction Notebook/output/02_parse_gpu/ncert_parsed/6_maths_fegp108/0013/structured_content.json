@@ -1,0 +1,254 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.116,
+            0.384,
+            0.146,
+            0.406
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.609,
+            0.064,
+            0.834,
+            0.082
+          ],
+          "content": "Playing with Constructions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.118,
+            0.834,
+            0.188
+          ],
+          "content": "Have you checked what happens to the length XY when X and Y are placed at the same distance away from A and B, respectively? For example, as in the cases like these:"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.157,
+            0.205,
+            0.79,
+            0.334
+          ],
+          "content": "| Distance of X from A | Distance of Y from B | Length of XY |\n| --- | --- | --- |\n| 5 mm | 5 mm |  |\n| 1 cm | 1 cm |  |\n| 1 cm 5 mm | 1 cm 5 mm |  |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.145,
+                0.35,
+                0.258,
+                0.369
+              ],
+              "content": "and so on."
+            }
+          ],
+          "image_source": "images/page_12_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.384,
+            0.481,
+            0.405
+          ],
+          "content": "\u0007In each of these cases, observe"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.406,
+            0.679,
+            0.428
+          ],
+          "content": "1. how the length XY compares to that of AB and"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.429,
+            0.578,
+            0.451
+          ],
+          "content": "2.\t the shape of the 4-sided figure ABYX."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.458,
+            0.833,
+            0.504
+          ],
+          "content": "How does the farthest distance between X and Y compare with the length of AC? BD?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.52,
+            0.275,
+            0.542
+          ],
+          "level": 2,
+          "content": "嶽 Construct"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.156,
+            0.549,
+            0.392,
+            0.57
+          ],
+          "level": 2,
+          "content": "Breaking Rectangles"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.574,
+            0.458,
+            0.665
+          ],
+          "content": "Construct a rectangle that can be divided into 3 identical squares as shown in the figure."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.47,
+            0.563,
+            0.831,
+            0.65
+          ],
+          "content": "|  |  |  |\n| --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_12.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.155,
+            0.675,
+            0.259,
+            0.695
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.701,
+            0.673,
+            0.725
+          ],
+          "content": "If this seem difficult, let us simplify the problem."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.115,
+            0.737,
+            0.244,
+            0.76
+          ],
+          "level": 2,
+          "content": "嶽 Explore"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.155,
+            0.764,
+            0.833,
+            0.809
+          ],
+          "content": "What about constructing a rectangle that can be divided into two identical squares? Can you try it?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.812,
+            0.833,
+            0.859
+          ],
+          "content": "It is wise to first plan and then construct. But how do we plan? Can you think of a way?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.886,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:49+05:30",
+      "modified_at": "2026-04-07T17:40:54+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

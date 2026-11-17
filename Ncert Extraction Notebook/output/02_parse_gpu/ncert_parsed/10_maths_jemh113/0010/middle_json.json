@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "180"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.1,
+            0.209,
+            0.896,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.096,
+                0.138,
+                0.901,
+                0.198
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Example 3 : The distribution below shows the number of wickets taken by bowlers in one-day cricket matches. Find the mean number of wickets by choosing a suitable method. What does the mean signify?"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.1,
+                0.209,
+                0.896,
+                0.324
+              ],
+              "image_path": "images/page_9_table_3.jpg",
+              "content": "<table><tbody><tr><td>Number of wickets</td><td>20 - 60</td><td>60 - 100</td><td>100 - 150</td><td>150 - 250</td><td>250 - 350</td><td>350 - 450</td></tr><tr><td>Number of bowlers</td><td>7</td><td>5</td><td>16</td><td>12</td><td>2</td><td>3</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.34,
+            0.899,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Here, the class size varies, and the "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } \\mathrm { s }"
+            },
+            {
+              "type": "text",
+              "content": " are large. Let us still apply the stepdeviation method with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 2 0 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "h = 2 0"
+            },
+            {
+              "type": "text",
+              "content": " . Then, we obtain the data as in Table 13.8."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.101,
+            0.418,
+            0.896,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 5,
+              "bbox": [
+                0.441,
+                0.391,
+                0.559,
+                0.409
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.8"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.101,
+                0.418,
+                0.896,
+                0.721
+              ],
+              "image_path": "images/page_9_table_6.jpg",
+              "content": "<table><tbody><tr><td>Number of wickets taken</td><td>Number of bowlers (f<sub>i</sub>)</td><td>x<sub>i</sub></td><td>d<sub>i</sub> = x<sub>i</sub> - 200</td><td>ui = 2d0i</td><td>u<sub>i</sub>f<sub>i</sub></td></tr><tr><td>20 - 60</td><td>7</td><td>40</td><td>-160</td><td>-8</td><td>-56</td></tr><tr><td>60 - 100</td><td>5</td><td>80</td><td>-120</td><td>-6</td><td>-30</td></tr><tr><td>100 - 150</td><td>16</td><td>125</td><td>-75</td><td>-3.75</td><td>-60</td></tr><tr><td>150 - 250</td><td>12</td><td>200</td><td>0</td><td>0</td><td>0</td></tr><tr><td>250 - 350</td><td>2</td><td>300</td><td>100</td><td>5</td><td>10</td></tr><tr><td>350 - 450</td><td>3</td><td>400</td><td>200</td><td>10</td><td>30</td></tr><tr><td>Total</td><td>45</td><td></td><td></td><td></td><td>-106</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.147,
+            0.744,
+            0.858,
+            0.791
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{u} = \\frac{-106}{45}"
+            },
+            {
+              "type": "text",
+              "content": " ⋅ Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\overline{x}=200+20\\left(\\frac{-106}{45}\\right)=200-47.11=152.89."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.096,
+            0.814,
+            0.9,
+            0.855
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This tells us that, on an average, the number of wickets taken by these 45 bowlers in one-day cricket is 152.89."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.147,
+            0.869,
+            0.898,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, let us see how well you can apply the concepts discussed in this section!"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "178"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.101,
+            0.226,
+            0.897,
+            0.335
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 2,
+              "bbox": [
+                0.096,
+                0.141,
+                0.902,
+                0.225
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Example 2 : The table below gives the percentage distribution of female teachers in the primary schools of rural areas of various states and union territories (U.T.) of India. Find the mean percentage of female teachers by all the three methods discussed in this section."
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.101,
+                0.226,
+                0.897,
+                0.335
+              ],
+              "image_path": "images/page_7_table_3.jpg",
+              "content": "<table><tbody><tr><td>Percentage of female teachers</td><td>15 - 25</td><td>25 - 35</td><td>35 - 45</td><td>45 - 55</td><td>55 - 65</td><td>65 - 75</td><td>75 - 85</td></tr><tr><td>Number of States/U.T.</td><td>6</td><td>11</td><td>7</td><td>4</td><td>4</td><td>2</td><td>1</td></tr></tbody></table>"
+            },
+            {
+              "type": "table_caption",
+              "index": 4,
+              "bbox": [
+                0.096,
+                0.355,
+                0.857,
+                0.375
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Source : Seventh All India School Education Survey conducted by NCERT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.391,
+            0.9,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us find the class marks, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i ^ { \\flat } }"
+            },
+            {
+              "type": "text",
+              "content": " of each class, and put them in a column (see Table 13.6):"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.102,
+            0.476,
+            0.896,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 6,
+              "bbox": [
+                0.441,
+                0.453,
+                0.559,
+                0.471
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.6"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.102,
+                0.476,
+                0.896,
+                0.787
+              ],
+              "image_path": "images/page_7_table_7.jpg",
+              "content": "<table><tbody><tr><td rowspan=\"2\">Percentage of female teachers</td><td rowspan=\"2\">Number of States /U.T. (f<sub>i</sub>)</td><td rowspan=\"2\">x<sub>i</sub></td></tr><tr></tr><tr><td>15 - 25</td><td>6</td><td>20</td></tr><tr><td>25 - 35</td><td>11</td><td>30</td></tr><tr><td>35 - 45</td><td>7</td><td>40</td></tr><tr><td>45 - 55</td><td>4</td><td>50</td></tr><tr><td>55 - 65</td><td>4</td><td>60</td></tr><tr><td>65 - 75</td><td>2</td><td>70</td></tr><tr><td>75 - 85</td><td>1</td><td>80</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.148,
+            0.811,
+            0.747,
+            0.847
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here we take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a = 5 0 ,   h = 1 0"
+            },
+            {
+              "type": "text",
+              "content": " , then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d _ { _ i } = x _ { _ i } - 5 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { i }   =   \\frac { x _ { i }   -   5 0 } { 1 0 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.148,
+            0.864,
+            0.628,
+            0.884
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now find "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "u _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " and put them in Table 13.7."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 10,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

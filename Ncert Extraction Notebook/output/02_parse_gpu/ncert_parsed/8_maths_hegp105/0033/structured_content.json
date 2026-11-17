@@ -1,0 +1,146 @@
+{
+  "pages": [
+    {
+      "page_idx": 32,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.208,
+            0.088,
+            0.847,
+            0.128
+          ],
+          "content": "(ii) Are any other digit shuffles possible such that the number formed is still a multiple of 9?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.131,
+            0.204,
+            0.148
+          ],
+          "level": 2,
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.214,
+            0.147,
+            0.847,
+            0.186
+          ],
+          "content": "(i) Yes, the conjecture is true for any multiple of 9. When digits are reversed, sum of digits remain the same."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.209,
+            0.189,
+            0.848,
+            0.247
+          ],
+          "content": "(ii) Yes, any shuffle of the digits is still a multiple of 9, because any rearrangement of the digits does not change the sum of the digits."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.256,
+            0.848,
+            0.294
+          ],
+          "content": "5. If 48a23b is a multiple of 18, list all possible pairs of values for a and b."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.3,
+            0.758,
+            0.321
+          ],
+          "level": 2,
+          "content": "Ans. 48a23b is a multiple of 18 if it is multiple of both 2 and 9."
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.196,
+            0.326,
+            0.85,
+            0.666
+          ],
+          "sub_type": "code",
+          "content": "```txt\nFor any number multiple of 2, ones place must be an even number\nSo b = 0, 2, 4, 6, 8\nFor any number to be multiple of 9, sum of digits must be a multiple\nof 9.\nSo, 4 + 8 + a + 2 + 3 + b = 17 + a + b must be multiple of 9.\nFor b = 0\na + b + 17 = a + 17 is a multiple of 9\na + 17 ≠ 9 as a will be negative.\na + 17 = 18,\nSo, a = 1\nFor b = 2\na + b + 17 = a + 19 is a multiple of 9.\na + 19 ≠ 9, 18; as a will be negative.\nSo, a + 19 = 27, a = 8\nIf a + 19 = 36, then a = 17. But a is a digit so a ≠ 17\nThe possible pairs are (1, 0) (8, 2) (6, 4) (4, 6) and (2, 8)\n```",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.168,
+            0.672,
+            0.847,
+            0.711
+          ],
+          "content": "6. If 3p7q8 is divisible by 44, list all possible pairs of values for p and q."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.717,
+            0.847,
+            0.898
+          ],
+          "content": "**Ans.** 3p7q8 is divisible by 44, means divisible by 11 and 4. For divisiblility by 4, last two digits must be divisible by 4 So possible q8 are 08, 28, 48, 68, 88. For divisibility by 11, difference between sum of the odd place digits and even place digits must be 0 or multiple of 11 Sum of odd place digits = 8 + 7 + 3 = 18 Sum of even place digits = p + q Difference is 18 − (p + q) Let k = 18 − (p + q) = 0 or a multiple of 11."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.918,
+            0.881,
+            0.935
+          ],
+          "content": "9"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 32,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

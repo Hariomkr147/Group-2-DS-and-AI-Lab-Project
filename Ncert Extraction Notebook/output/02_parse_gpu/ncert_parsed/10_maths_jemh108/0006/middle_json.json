@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "118"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remark :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Since the hypotenuse is the longest side in a right triangle, the value of sin A or cos A is always less than 1 (or, in particular, equal to 1)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.184,
+            0.409,
+            0.202
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider some examples."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.215,
+            0.595,
+            0.28
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Given tan "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } = { \\frac { 4 } { 3 } }"
+            },
+            {
+              "type": "text",
+              "content": " , find the other trigonometric ratios of the angle A."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.285,
+            0.594,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us first draw a right   ABC (see Fig 8.8)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.096,
+            0.331,
+            0.465,
+            0.372
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, we know that tan "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{A}=\\frac{\\mathrm{BC}}{\\mathrm{AB}}=\\frac{4}{3}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.095,
+            0.38,
+            0.595,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, if "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } \\mathbf { C } = 4 k ,"
+            },
+            {
+              "type": "text",
+              "content": " then "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A B } = 3 k"
+            },
+            {
+              "type": "text",
+              "content": " , where k is a positive number."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.643,
+            0.204,
+            0.883,
+            0.407
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.643,
+                0.204,
+                0.883,
+                0.407
+              ],
+              "image_path": "images/page_5_image_8.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 10,
+              "bbox": [
+                0.708,
+                0.413,
+                0.795,
+                0.432
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.096,
+            0.425,
+            0.573,
+            0.445
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, by using the Pythagoras Theorem, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.334,
+            0.45,
+            0.738,
+            0.469
+          ],
+          "image_path": "images/page_5_equation_11.jpg",
+          "content": "AC^{2} = AB^{2} + BC^{2} = (4k)^{2} + (3k)^{2} = 25k^{2}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.097,
+            0.477,
+            0.135,
+            0.494
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.343,
+            0.476,
+            0.439,
+            0.494
+          ],
+          "image_path": "images/page_5_equation_13.jpg",
+          "content": "\\mathrm { A C } = 5 k"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.095,
+            0.502,
+            0.75,
+            0.521
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, we can write all the trigonometric ratios using their definitions."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.327,
+            0.527,
+            0.555,
+            0.57
+          ],
+          "image_path": "images/page_5_equation_15.jpg",
+          "content": "\\sin A = \\frac{BC}{AC} = \\frac{4k}{5k} = \\frac{4}{5}"
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.318,
+            0.574,
+            0.551,
+            0.617
+          ],
+          "image_path": "images/page_5_equation_16.jpg",
+          "content": "\\cos A = \\frac{AB}{AC} = \\frac{3k}{5k} = \\frac{3}{5}"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.624,
+            0.845,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, cot "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{A} = \\frac{1}{\\tan \\mathrm{A}} = \\frac{3}{4},"
+            },
+            {
+              "type": "text",
+              "content": " , cosec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{A} = \\frac{1}{\\sin \\mathrm{A}} = \\frac{5}{4}"
+            },
+            {
+              "type": "text",
+              "content": " and sec "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{A} = \\frac{1}{\\cos \\mathrm{A}} = \\frac{5}{3}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.096,
+            0.687,
+            0.455,
+            0.752
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " If "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle  B and  \\angle  Q"
+            },
+            {
+              "type": "text",
+              "content": " are acute angles such that sin "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { B } = \\sin \\mathbf { Q } ,"
+            },
+            {
+              "type": "text",
+              "content": " then prove that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\angle B = \\angle Q"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.095,
+            0.759,
+            0.455,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us consider two right triangles ABC and PQR where sin B = sin Q (see Fig. 8.9)."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 20,
+          "bbox": [
+            0.467,
+            0.672,
+            0.896,
+            0.816
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 20,
+              "bbox": [
+                0.467,
+                0.672,
+                0.896,
+                0.816
+              ],
+              "image_path": "images/page_5_image_20.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 23,
+              "bbox": [
+                0.641,
+                0.825,
+                0.727,
+                0.844
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 8.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.097,
+            0.842,
+            0.191,
+            0.86
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.413,
+            0.832,
+            0.537,
+            0.871
+          ],
+          "image_path": "images/page_5_equation_22.jpg",
+          "content": "\\sin \\mathbf { B } = { \\frac { \\mathrm { A C } } { \\mathrm { A B } } }"
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.097,
+            0.887,
+            0.142,
+            0.904
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 25,
+          "bbox": [
+            0.412,
+            0.875,
+            0.536,
+            0.915
+          ],
+          "image_path": "images/page_5_equation_25.jpg",
+          "content": "\\sin Q = \\frac{PR}{PQ}"
+        },
+        {
+          "type": "footer",
+          "index": 26,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,107 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.579,
+            0.048,
+            0.863,
+            0.067
+          ],
+          "content": "Exploring Some Geometric Themes"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.16,
+            0.088,
+            0.735,
+            0.11
+          ],
+          "content": "3. Match each of the following objects with its projections."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.376,
+            0.121,
+            0.439,
+            0.14
+          ],
+          "content": "FRONT"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.572,
+            0.121,
+            0.612,
+            0.139
+          ],
+          "content": "TOP"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.738,
+            0.121,
+            0.785,
+            0.14
+          ],
+          "content": "SIDE"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.168,
+            0.122,
+            0.854,
+            0.957
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_23_image_5.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,234 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.668,
+            0.05,
+            0.844,
+            0.066
+          ],
+          "content": "Connecting the Dots…"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.846,
+            0.127
+          ],
+          "content": "Vaishnavi says, “I think Shubman performed better because he scored the highest number of run in a match — 90!”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.127,
+            0.683,
+            0.184
+          ],
+          "content": "Shreyas says, “No! Yashasvi batted better since the total number of runs he made is 175, while Shubman made only 128”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.184,
+            0.683,
+            0.241
+          ],
+          "content": "Vaishnavi says, “Oh! Also, Yashasvi’s batting is more consistent — the difference between his maximum score and minimum score is lower”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.242,
+            0.682,
+            0.299
+          ],
+          "content": "The table below shows the runs scored by these two players in another series. Who do you think performed better in this series?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.694,
+            0.13,
+            0.913,
+            0.27
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_5.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.154,
+            0.304,
+            0.844,
+            0.377
+          ],
+          "content": "|  | Match 1 | Match 2 | Match 3 | Match 4 | Match 5 |\n| --- | --- | --- | --- | --- | --- |\n| Shubman | 23 | 07 | 10 | 52 | 18 |\n| Yashasvi | 26 | 53 | 02 | - | 15 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.387,
+            0.846,
+            0.427
+          ],
+          "content": "Vaishnavi says, “Here, Shubman performed better since his total is 110 runs, while Yashasvi’s total is 96 runs”."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.436,
+            0.589,
+            0.458
+          ],
+          "level": 2,
+          "content": "What do you think of Vaishnavi’s statement?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.462,
+            0.846,
+            0.5
+          ],
+          "content": "Shreyas says, “But Yashasvi made 96 runs in 4 matches and Shubman made 110 runs in 5 matches”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.501,
+            0.846,
+            0.54
+          ],
+          "content": "So, how do we say who performed better? It is often not simple to compare two groups of numbers and clearly say that one is better than the other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.548,
+            0.809,
+            0.608
+          ],
+          "content": "? Can a single number act as a representative of a group of numbers? For example, can we represent Shubman’s or Yashasvi’s batting in this series with one number? Discuss."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.542,
+            0.902,
+            0.595
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.613,
+            0.847,
+            0.669
+          ],
+          "content": "We saw one way already — the total of the values in the group! But, if the group sizes are different, then the total may not be an appropriate measure to compare."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.67,
+            0.847,
+            0.765
+          ],
+          "content": "In some matches, a player could have scored more and in other matches less. A representative number for the group can be found by balancing out these highs and lows. For example, we can add up the runs scored in all the matches and divide the total by the number of matches played. We call this value the ‘**average**’ or ‘**arithmetic mean**’ of the given data."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.766,
+            0.847,
+            0.822
+          ],
+          "content": "Here, the average number of runs scored by a player in a match = [Total runs scored by the player in all the matches] ÷ [Number of matches played]."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.823,
+            0.843,
+            0.881
+          ],
+          "content": "Average number of runs scored by Shubman in a match = 110 ÷ 5 = 21 runs. Average number of runs scored by Yashasvi in a match = 96 ÷ 4 = 24 runs. In this series, Yashasvi’s average number of runs is higher than Shubman’s."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "99"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

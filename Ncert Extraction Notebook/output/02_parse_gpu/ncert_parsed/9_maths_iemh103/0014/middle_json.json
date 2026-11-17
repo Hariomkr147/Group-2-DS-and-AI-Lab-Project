@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "54"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.489,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.167
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "technique called "
+            },
+            {
+              "type": "text",
+              "content": "Proof by Contradiction",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Namely, we assume the opposite of what we want to prove, and show that this assumption leads to a logical disaster."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.148,
+            0.171,
+            0.611,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proof:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We shall explain the proof in steps."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.199,
+            0.887,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1: Assumption:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Assume "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is a rational number. Therefore, it can be written as a fraction "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { p } { q } , q \\neq 0"
+            },
+            {
+              "type": "text",
+              "content": " in its simplest form. (This means p and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " are integers that share no common factors other than 1, that is, they are co-prime.)"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.488,
+            0.305,
+            0.568,
+            0.346
+          ],
+          "image_path": "images/page_13_equation_5.jpg",
+          "content": "{ \\sqrt { 2 } } = { \\frac { p } { q } }"
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.148,
+            0.351,
+            0.605,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Square both sides of the equation:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.505,
+            0.377,
+            0.577,
+            0.426
+          ],
+          "image_path": "images/page_13_equation_7.jpg",
+          "content": "2   =   \\frac { p ^ { 2 } } { q _ { \\circ } ^ { 2 } }"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.149,
+            0.426,
+            0.509,
+            0.449
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Multiply both sides by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ^ { 2 } 1"
+            },
+            {
+              "type": "text",
+              "content": " :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.483,
+            0.451,
+            0.573,
+            0.474
+          ],
+          "image_path": "images/page_13_equation_9.jpg",
+          "content": "2q^{2} \\equiv p^{2}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.149,
+            0.477,
+            0.421,
+            0.498
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 4: Deduction",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.112,
+            0.504,
+            0.885,
+            0.566
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Because "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is equal to 2 times some integer, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " must be an even number. If the square of a number is even, the number itself must be even. Therefore, p is an even integer. Let us say "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { p } \\bar { \\mathit { \\Gamma } } _ { \\bar { \\mathit { \\Gamma } } } ^ { \\mathit { \\Gamma } } 2 k"
+            },
+            {
+              "type": "text",
+              "content": " (where k is an integer)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.148,
+            0.578,
+            0.804,
+            0.6
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 5:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Substitute "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { p } _ { \\parallel } = 2 k"
+            },
+            {
+              "type": "text",
+              "content": " back into our equation from Step 3:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.446,
+            0.603,
+            0.565,
+            0.65
+          ],
+          "image_path": "images/page_13_equation_13.jpg",
+          "content": "\\frac{2\\bar{q}^{2}=(2k)^{2}}{2q^{2}=4k^{2}}"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.149,
+            0.664,
+            0.482,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 6:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Divide both sides by 2:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.463,
+            0.687,
+            0.55,
+            0.709
+          ],
+          "image_path": "images/page_13_equation_15.jpg",
+          "content": "q ^ { 2 } = 2 k ^ { 2 }"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.111,
+            0.722,
+            0.886,
+            0.784
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 7: Deduction",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " for "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ;"
+            },
+            {
+              "type": "text",
+              "content": " Now we see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is equal to 2 times some integer "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k ^ { 2 } ."
+            },
+            {
+              "type": "text",
+              "content": " This means "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " is even, and therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " must also be an even integer."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.796,
+            0.886,
+            0.872
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 8: The Contradiction:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We deduced that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "p"
+            },
+            {
+              "type": "text",
+              "content": " is even and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "q"
+            },
+            {
+              "type": "text",
+              "content": " is even. This means they both share a common factor of 2. However, in Step 1, we stated that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { p } { q }"
+            },
+            {
+              "type": "text",
+              "content": " was in simplest form, sharing no common factors!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

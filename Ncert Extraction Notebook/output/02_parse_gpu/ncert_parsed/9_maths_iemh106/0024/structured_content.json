@@ -1,0 +1,250 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.816,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.883,
+            0.085
+          ],
+          "content": "141"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.887,
+            0.149
+          ],
+          "content": "a square with area ab sq. units. Here is a slightly simplified form of Baudhāyana’s construction (Fig. 6.30)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.484,
+            0.16,
+            0.816,
+            0.2
+          ],
+          "content": "• Given: rectangle ABCD with $\\mathrm{AD} = a, \\mathrm{AB} = b   where   a > b.$"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.117,
+            0.201,
+            0.48,
+            0.408
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.164,
+                0.395,
+                0.437,
+                0.428
+              ],
+              "content": "Fig. 6.30: Rectangle ABCD with AD = a, AB = b"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_23_chart_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.484,
+            0.208,
+            0.854,
+            0.229
+          ],
+          "content": "• Locate E on AD so that $AE = AB.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.485,
+            0.238,
+            0.822,
+            0.259
+          ],
+          "content": "• Locate the midpoint F of ED."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.485,
+            0.267,
+            0.882,
+            0.308
+          ],
+          "content": "• Draw square AFGH with side AF and vertex H on AB produced."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.486,
+            0.316,
+            0.883,
+            0.356
+          ],
+          "content": "• Draw arc AG with centre H. Let arc AG cut side BC at K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.486,
+            0.365,
+            0.883,
+            0.405
+          ],
+          "content": "• Draw a line through K parallel to AH. Let it cut GH at P."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.485,
+            0.413,
+            0.883,
+            0.475
+          ],
+          "content": "• Draw square HPQS with HP as side. Then square HPQS has the same area as rectangle ABCD."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.488,
+            0.886,
+            0.558
+          ],
+          "content": "Try to work out why this method works. You will find that it is a geometrical translation of the formula $\\left( \\frac{a + b}{2} \\right)^{2} - \\left( \\frac{a - b}{2} \\right)^{2} = ab$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.578,
+            0.501,
+            0.602
+          ],
+          "level": 2,
+          "content": "\\*Why does this method work?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.607,
+            0.883,
+            0.676
+          ],
+          "content": "Refer to Fig. 6.30. From $AE = b$ we get $\\mathrm{AF}=\\frac{\\mathrm{AE}+\\mathrm{AD}}{2}=\\frac{a+b}{2}$ Hence, $\\mathrm{HG} = \\frac{a + b}{2} = \\mathrm{HK}$ as HK is a radius of the circle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.683,
+            0.661,
+            0.724
+          ],
+          "content": "Next, $BH = AH - AB = AF - AB = \\frac{a + b}{2} - b = \\frac{a - b}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.729,
+            0.885,
+            0.77
+          ],
+          "content": "Now consider the right-angled triangle HKP. Using the Baudhāyana– Pythagoras theorem we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.77,
+            0.567,
+            0.819
+          ],
+          "content": "\\mathrm{HP}^{2}=\\mathrm{HK}^{2}-\\mathrm{BH}^{2}=\\left(\\frac{a+b}{2}\\right)^{2}-\\left(\\frac{a-b}{2}\\right)^{2}=",
+          "image_source": "images/page_23_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.153,
+            0.82,
+            0.599,
+            0.865
+          ],
+          "content": "\\frac{a^{2}+2ab+b^{2}}{4}-\\frac{a^{2}-2ab+b^{2}}{4}=\\frac{ab}{2}+\\frac{ab}{2}=ab.",
+          "image_source": "images/page_23_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.877,
+            0.818,
+            0.9
+          ],
+          "content": "Therefore square HPQS has the same area as rectangle ABCD."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

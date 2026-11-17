@@ -1,0 +1,218 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.105,
+            0.115,
+            0.118
+          ],
+          "content": "4"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.901,
+            0.199
+          ],
+          "content": "In general, given a composite number x, we factorise it as $\\boldsymbol { x } = \\boldsymbol { p } _ { 1 } \\boldsymbol { p } _ { 2 } \\dots \\boldsymbol { p } _ { n }$ , where $\\boldsymbol { p } _ { 1 } , \\boldsymbol { p } _ { 2 } , . . . , \\boldsymbol { p } _ { n }$ are primes and written in ascending order, i.e., $\\boldsymbol { p } _ { 1 } \\; \\leq \\; \\boldsymbol { p } _ { 2 }$ $\\leq \\ldots \\leq p _ { _ n }$ . If we combine the same primes, we will get powers of primes. For example,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.148,
+            0.203,
+            0.736,
+            0.222
+          ],
+          "content": "32760=2\\times2\\times2\\times3\\times3\\times5\\times7\\times13=2^{3}\\times3^{2}\\times5\\times7\\times13",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.23,
+            0.901,
+            0.269
+          ],
+          "content": "Once we have decided that the order will be ascending, then the way the number is factorised, is unique."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.275,
+            0.9,
+            0.314
+          ],
+          "content": "The Fundamental Theorem of Arithmetic has many applications, both within mathematics and in other fields. Let us look at some examples."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.327,
+            0.9,
+            0.367
+          ],
+          "content": "**Example 1 :** Consider the numbers $4 ^ { n }$ , where n is a natural number. Check whether there is any value of n for which $4 ^ { n }$ ends with the digit zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.373,
+            0.902,
+            0.491
+          ],
+          "content": "**Solution :** If the number $4 ^ { n } ,$ for any n, were to end with the digit zero, then it would be divisible by 5. That is, the prime factorisation of $4 ^ { n }$ would contain the prime 5. This is not possible because $4 ^ { n }   =   ( 2 ) ^ { 2 n }$ ; so the only prime in the factorisation of $4 ^ { n }$ is 2. So, the uniqueness of the Fundamental Theorem of Arithmetic guarantees that there are no other primes in the factorisation of 4<sup>n</sup>. So, there is no natural number n for which $4 ^ { n }$ ends with the digit zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.495,
+            0.901,
+            0.574
+          ],
+          "content": "You have already learnt how to find the HCF and LCM of two positive integers using the Fundamental Theorem of Arithmetic in earlier classes, without realising it! This method is also called the prime factorisation method. Let us recall this method through an example."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.586,
+            0.898,
+            0.605
+          ],
+          "content": "**Example 2 :** Find the LCM and HCF of 6 and 20 by the prime factorisation method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.609,
+            0.775,
+            0.629
+          ],
+          "content": "**Solution :** We have : $6 = 2^{1} \\times 3^{1}$ and $20=2\\times2\\times5=2^{2}\\times5^{1}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.636,
+            0.9,
+            0.674
+          ],
+          "content": "You can find HCF(6, 20) = 2 and $\\mathrm{LCM}(6,20)=2\\times2\\times3\\times5=60$ , as done in your earlier classes."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.681,
+            0.9,
+            0.719
+          ],
+          "content": "Note that $\\mathrm{HCF}(6, 20) = 2^1 =$ **Product of the smallest power of each common prime factor in the numbers.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.724,
+            0.9,
+            0.764
+          ],
+          "content": "LCM $(6,   20) = 2^2 \\times 3^1 \\times 5^1$ = **Product of the greatest power of each prime factor**, **involved in the numbers**."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.776,
+            0.902,
+            0.855
+          ],
+          "content": "From the example above, you might have noticed that $\\mathrm{HCF}(6,20) \\times \\mathrm{LCM}(6,20)$ $= 6 \\times 2 0$ . In fact, we can verify that **for any two positive integers a and b, HCF** $(a,b) \\times \\mathrm{LCM}(a,b) = a \\times b$ **.** We can use this result to find the LCM of two positive integers, if we have already found the HCF of the two positive integers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.867,
+            0.899,
+            0.905
+          ],
+          "content": "**Example 3:** Find the HCF of 96 and 404 by the prime factorisation method. Hence, find their LCM."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-1 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-1 (8th Nov.)",
+      "description": "Chap-1 (8th Nov.)",
+      "created_at": "2022-08-17T11:48:30+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 9,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

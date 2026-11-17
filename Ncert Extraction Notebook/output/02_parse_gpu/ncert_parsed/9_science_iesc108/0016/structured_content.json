@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.647,
+            0.042,
+            0.848,
+            0.059
+          ],
+          "content": "Journey Inside the Atom"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": "N 155"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.085,
+            0.168,
+            0.133
+          ],
+          "content": "Q"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.182,
+            0.094,
+            0.479,
+            0.113
+          ],
+          "content": "Bridging Science and Society"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.135,
+            0.131,
+            0.622,
+            0.163
+          ],
+          "content": "Some isotopes have special properties that are useful in various fields. Some of the applications of isotopes are:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.166,
+            0.572,
+            0.216
+          ],
+          "content": "$^ { 2 3 5 } _ { 9 2 } \\mathrm { U _ { i } }$ an isotope of uranium, is used as a fuel in a nuclear reactor to generate electricity in a nuclear power plant (Fig. 8.14)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.22,
+            0.617,
+            0.254
+          ],
+          "content": "$^ { 6 0 } _ { 2 7 } \\mathsf { C o } ,$ a radioactive isotope of cobalt, is used in radiation treatment for cancer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.258,
+            0.583,
+            0.294
+          ],
+          "content": "$^ { 1 3 1 } _ { 5 3 } \\mathrm { I } _ { 3 }$ an isotope of iodine, is used to treat goitre and thyroid cancer."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.626,
+            0.128,
+            0.907,
+            0.279
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.647,
+                0.284,
+                0.878,
+                0.299
+              ],
+              "content": "Fig. 8.14: A nuclear power plant"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_15_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.137,
+            0.3,
+            0.649,
+            0.336
+          ],
+          "content": "${ } _ { 6 } ^ { 1 4 } \\mathrm { C }$ an isotope of carbon, is used in archaeology and geology to determine the age of ancient fossils and artefacts."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.371,
+            0.379,
+            0.389
+          ],
+          "level": 2,
+          "content": "A. Average atomic mass"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.392,
+            0.775,
+            0.46
+          ],
+          "content": "Chlorine occurs in nature in two isotopic forms. One isotope has a mass of 35 u, and the other has a mass of 37 u. They occur in the ratio 3:1. This raises an interesting question — should we consider the mass of a chlorine atom to be 35 u or 37 u?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.463,
+            0.775,
+            0.549
+          ],
+          "content": "If the atomic mass of a natural element is taken as the **average mass** of all its naturally occurring isotopes, it would be the simple arithmetic mean of the masses of its isotopes, calculated without accounting for the relative abundances of each isotope. For chlorine, with isotopes $\\widetilde { { } ^ { 3 5 } \\mathrm { C I } }$ and $^ { 3 7 } \\mathsf { C I }$ , the simple average would be —"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.551,
+            0.408,
+            0.615
+          ],
+          "content": "Average atomic mass $\\frac{35 + 37}{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.625,
+            0.775,
+            0.744
+          ],
+          "content": "However, this does not accurately reflect nature, since isotopes do not occur in equal ratios. The more common isotope is ³⁵ Cl, which constitutes about 75% while the other isotope, ³⁷ Cl makes up about 25%. The accurate average atomic mass can be calculated by considering their natural abundances. This is called a **weighted average atomic mass**, which can be calculated by multiplying the mass of each isotope by its percent relative abundance and then adding the two values, as explained below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.14,
+            0.746,
+            0.288,
+            0.764
+          ],
+          "content": "Mathematically,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.292,
+            0.76,
+            0.483,
+            0.921
+          ],
+          "content": "\\begin{aligned}= & \\left(35 \\times \\frac{75}{100} + 37 \\times \\frac{25}{100}\\right) \\\\= & \\left(\\frac{105}{4} + \\frac{37}{4}\\right)  u  \\\\= & \\frac{142}{4}  u  \\\\= & 35.5  u \\end{aligned}",
+          "image_source": "images/page_15_equation_17.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-03T20:02:26+05:30",
+      "modified_at": "2026-05-13T10:46:33+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

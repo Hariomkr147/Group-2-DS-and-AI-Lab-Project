@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "footer",
+          "index": 0,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.766,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Power Play"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.089,
+            0.381,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Scientific Notation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.12,
+            0.646,
+            0.139
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let’s look at some facts involving large numbers—"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.214,
+            0.139,
+            0.846,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The Sun is located 30,00,00,00,00,00,00,00,00,000 m from the centre of our Milky Way galaxy."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.209,
+            0.175,
+            0.787,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) The number of stars in our galaxy is 1,00,00,00,00,000."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.206,
+            0.194,
+            0.846,
+            0.214
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) The mass of the Earth is 59,76,00,00,00,00,00,00,00,00,00,000 kg."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.217,
+            0.848,
+            0.31
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As the number of digits increases, it becomes difficult to read the numbers correctly. We may miscount the number of zeroes or place commas incorrectly. We will then read the wrong value. It is like getting ₹5,000 when you were supposed to get ₹50,000. The number of zeroes is more important than the initial digits in several cases."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.31,
+            0.848,
+            0.346
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we use the exponential notation to simplify and read these very large numbers correctly?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.174,
+            0.346,
+            0.698,
+            0.366
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, the number 5900 can be expressed as—"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.383,
+            0.364,
+            0.685,
+            0.438
+          ],
+          "image_path": "images/page_12_equation_10.jpg",
+          "content": "\\begin{array} { r l } & { 5 9 0 0 = 5 9 0 \\times 1 0 = 5 9 0 \\times 1 0 ^ { 1 } } \\\\ & { \\quad = 5 9 \\times 1 0 0 = 5 9 \\times 1 0 ^ { 2 } } \\\\ & { \\quad = 5 . 9 \\times 1 0 0 0 = 5 . 9 \\times 1 0 ^ { 3 } } \\\\ & { \\quad = 0 . 5 9 \\times 1 0 0 0 0 = 0 . 5 9 \\times 1 0 ^ { \\hat { 4 } } . } \\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.438,
+            0.847,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Any number can be written as the product of a number between 1 and 10 and a power of 10. For example,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.186,
+            0.479,
+            0.802,
+            0.501
+          ],
+          "image_path": "images/page_12_equation_12.jpg",
+          "content": "5900=5.9\\times10^{3} \\quad 20800=2.08\\times10^{4} \\quad 80,00,000=8\\times10^{6}"
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.515,
+            0.753,
+            0.538
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Write the large-number facts we read just before in this form."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.148,
+            0.54,
+            0.848,
+            0.707
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In "
+            },
+            {
+              "type": "text",
+              "content": "scientific notation or scientific form",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " (also called "
+            },
+            {
+              "type": "text",
+              "content": "standard form)",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", we write numbers as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\times 1 0 ^ { y }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "X \\geq 1"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x \\leq 1 0"
+            },
+            {
+              "type": "text",
+              "content": " is the coefficient and y, the exponent, is any integer. Often, the exponent y is more important than the coefficient x. When we write the 2 crore population of Mumbai as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1 0 ^ { 7 }"
+            },
+            {
+              "type": "text",
+              "content": " , the 7 is more important than the 2. Indeed, if the 2 is changed to 3, the population increases by one-half, i.e., 2 crore to 3 crore, whereas if the 7 is changed to 8, the change in population is 10 times, i.e., 2 crores to 20 crores. Therefore, the standard form explicitly mentions the exponent, which indicates the number of digits."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.148,
+            0.706,
+            0.849,
+            0.857
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If we say that the population of Kohima is 1,42,395, then it gives the impression that we are quite sure about this number up to the units place. When we use large numbers, in most cases, we are more concerned about how big a quantity or measure is, rather than the exact value. If we are only sure that the population is around 1 lakh 42 thousand, we can write it as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 . 4 2 \\times 1 0 ^ { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " . If we can only be certain that it is around 1 lakh 40 thousand, we write it as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 . 4   \\times   1 0 ^ { 5 }"
+            },
+            {
+              "type": "text",
+              "content": " . The number of digits in the coefficient reflects how well we know the number. The most important part of any"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 16,
+          "bbox": [
+            0.879,
+            0.915,
+            0.912,
+            0.937
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "31"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

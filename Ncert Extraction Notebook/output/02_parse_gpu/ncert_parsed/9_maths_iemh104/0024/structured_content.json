@@ -1,0 +1,184 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Exploring Algebraic Identities"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": "91"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.108,
+            0.791,
+            0.129
+          ],
+          "content": "We have studied the following identities in this chapter:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.132,
+            0.459,
+            0.152
+          ],
+          "content": "$( x + y ) ^ { 2 } = x ^ { 2 } + 2 x y + y ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.155,
+            0.456,
+            0.175
+          ],
+          "content": "■ $( x - y ) ^ { 2 } = x ^ { 2 } - 2 x y + y ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.178,
+            0.656,
+            0.199
+          ],
+          "content": "$( x + y + z ) ^ { 2 } = x ^ { 2 } + y ^ { 2 } + z ^ { 2 } + 2 x y + 2 y z + 2 z x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.203,
+            0.458,
+            0.223
+          ],
+          "content": "■ $(x + y)(x - y) = x^2 - y^2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.228,
+            0.576,
+            0.247
+          ],
+          "content": "$\\left( x + a \\right) \\left( x + b \\right) = x ^ { 2 } + \\left( a + b \\right) x + a b$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.251,
+            0.649,
+            0.27
+          ],
+          "content": "$\\left( a x + b \\right) \\left( c x + d \\right) = a c x ^ { 2 } + \\left( a d + b c \\right) x + b d$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.275,
+            0.52,
+            0.295
+          ],
+          "content": "$x^{3}-y^{3}=(x-y)\\left(x^{2}+xy+y^{2}\\right)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.298,
+            0.522,
+            0.319
+          ],
+          "content": "$x ^ { 3 } + y ^ { 3 } = ( x + y ) \\left( x ^ { 2 } - x y + y ^ { 2 } \\right)$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.322,
+            0.534,
+            0.342
+          ],
+          "content": "$( x + y ) ^ { 3 } = x ^ { 3 } + 3 x ^ { 2 } y + 3 x y ^ { 2 } + y ^ { 3 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.345,
+            0.531,
+            0.366
+          ],
+          "content": "$( x - y ) ^ { 3 } = x ^ { 3 } - 3 x ^ { 2 } y + 3 x y ^ { 2 } - y ^ { 3 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.369,
+            0.801,
+            0.39
+          ],
+          "content": "■ x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> – 3xyz = (x + y + z)(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> – xy – xz – yz)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

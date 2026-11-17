@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.596,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.841,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "115"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.11,
+            0.881,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Similarly we find two points on the line 2x + 4y – 12 = 0, say, (0, 3) and (6, 0)."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.353,
+            0.157,
+            0.645,
+            0.218
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.353,
+                0.157,
+                0.645,
+                0.218
+              ],
+              "image_path": "images/page_30_table_3.jpg",
+              "content": "<table><tbody><tr><td>x</td><td>0</td><td>6</td></tr><tr><td>y</td><td>3</td><td>0</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.114,
+            0.226,
+            0.883,
+            0.285
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To represent the equations graphically, we plot the points R(0, 2) and S(4, 0), to get the line RS and the points P(0, 3) and Q(6, 0) to get the line PQ."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.282,
+            0.292,
+            0.717,
+            0.545
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.282,
+                0.292,
+                0.717,
+                0.545
+              ],
+              "image_path": "images/page_30_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.122,
+                0.555,
+                0.877,
+                0.575
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.15: Graph of the pair of linear equations 2x + 4y – 12 = 0 and x + 2y – 4 = 0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.116,
+            0.582,
+            0.881,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We observe in Fig. 13.15 that the lines do not intersect anywhere and are parallel."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.135,
+            0.641,
+            0.402,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.132,
+            0.677,
+            0.688,
+            0.698
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you prove that two lines of equal slope are parallel?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.132,
+            0.7,
+            0.852,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider the equations of the two lines to be y = mx + d and y = mx + d )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.114,
+            0.734,
+            0.883,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 13:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Romila went to a stationery shop and purchased 2 erasers and 3 A4 sheets for ₹9. Her friend Sonali saw the new variety of erasers and A4 sheets Romila bought, and she also bought 4 erasers and 6 A4 sheets of the same kind for ₹18. Represent this situation graphically."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.115,
+            0.836,
+            0.883,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us denote the cost of a erasers by ₹x and one A4 sheets by ₹y. Then the algebraic representation is given by the equations 2x + 3y = 9 and 4x + 6y = 18. Writing these equations in standard form we get 2x + 3y – 9 = 0 and 4x + 6y – 18 = 0."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

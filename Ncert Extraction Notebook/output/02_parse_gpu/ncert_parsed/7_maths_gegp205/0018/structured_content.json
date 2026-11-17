@@ -1,0 +1,164 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.092,
+            0.426,
+            0.116
+          ],
+          "level": 2,
+          "content": "5.3 Visualising Data"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.12,
+            0.847,
+            0.18
+          ],
+          "content": "We can often understand data more clearly if it is presented as a picture. This is called **data visualisation**. Last year, we saw how to visualise data using graphs. Let us explore visualisation further."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.196,
+            0.424,
+            0.218
+          ],
+          "level": 2,
+          "content": "Clubbing the Columns"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.248,
+            0.843,
+            0.321
+          ],
+          "content": "|  | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Yahapur | 25 | 24 | 26 | 28 | 30 | 35 | 39 | 43 | 49 | 56 | 59 | 44 |\n| Wahapur | 19 | 17 | 23 | 30 | 38 | 35 | 42 | 39 | 53 | 60 | 52 | 42 |",
+          "captions": [
+            {
+              "bbox": [
+                0.41,
+                0.648,
+                0.644,
+                0.663
+              ],
+              "content": "Monthly onion prices in Wahapur"
+            },
+            {
+              "bbox": [
+                0.153,
+                0.222,
+                0.846,
+                0.243
+              ],
+              "content": "Earlier, we looked at the monthly onion prices in Yahapur and Wahapur."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_table_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.343,
+            0.659,
+            0.363
+          ],
+          "content": "Two column graphs for this data are given below."
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.24,
+            0.373,
+            0.781,
+            0.63
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_chart_8.jpg"
+        },
+        {
+          "type": "chart",
+          "bbox": [
+            0.239,
+            0.657,
+            0.773,
+            0.896
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_chart_9.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": "114"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

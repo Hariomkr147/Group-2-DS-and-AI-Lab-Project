@@ -1,0 +1,193 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.862,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": "179"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.101,
+            0.163,
+            0.896,
+            0.443
+          ],
+          "content": "| Percentage of female teachers | Number of states/U.T.(f<sub>i</sub>) | x<sub>i</sub> | d<sub>i</sub> = x<sub>i</sub>- 50 | <sub>ui</sub> =xi -5010 | f<sub>i</sub>x<sub>i</sub> | f<sub>i</sub>d<sub>i</sub> | f<sub>i</sub>u<sub>i</sub> |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 15 - 2525 - 3535 - 4545 - 5555 - 6565 - 7575 - 85 | 61174421 | 20304050607080 | -30-20-100102030 | -3-2-10123 | 12033028020024014080 | -180-220-700404030 | -18-22-70443 |\n| Total | 35 |  |  |  | 1390 | -360 | -36 |",
+          "captions": [
+            {
+              "bbox": [
+                0.441,
+                0.138,
+                0.558,
+                0.157
+              ],
+              "content": "Table 13.7"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.147,
+                0.456,
+                0.695,
+                0.479
+              ],
+              "content": "From the table above, we obtain $\\Sigma f_{i} = 35$ , $\\Sigma f_{i}x_{i} = 1390,$"
+            }
+          ],
+          "image_source": "images/page_8_table_3.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.395,
+            0.484,
+            0.678,
+            0.507
+          ],
+          "content": "\\Sigma f_{i}d_{i}=-360,\\quad \\Sigma f_{i}u_{i}=-36.",
+          "image_source": "images/page_8_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.52,
+            0.642,
+            0.566
+          ],
+          "content": "Using the direct method, $\\bar{x}=\\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}}=\\frac{1390}{35}=39.71$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.567,
+            0.475,
+            0.587
+          ],
+          "content": "Using the assumed mean method,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.322,
+            0.6,
+            0.702,
+            0.645
+          ],
+          "content": "\\overline{x}=a+\\frac{\\Sigma f_{i}d_{i}}{\\Sigma f_{i}}=50+\\frac{(-360)}{35}=39.71",
+          "image_source": "images/page_8_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.649,
+            0.465,
+            0.669
+          ],
+          "content": "Using the step-deviation method,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.32,
+            0.681,
+            0.818,
+            0.729
+          ],
+          "content": "\\bar{x}=a+\\left(\\frac{\\Sigma f_{i}u_{i}}{\\Sigma f_{i}}\\right)\\times h=50+\\left(\\frac{-36}{35}\\right)\\times10=39.71",
+          "image_source": "images/page_8_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.737,
+            0.902,
+            0.775
+          ],
+          "content": "Therefore, the mean percentage of female teachers in the primary schools of rural areas is 39.71."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.78,
+            0.903,
+            0.899
+          ],
+          "content": "**Remark :** The result obtained by all the three methods is the same. So the choice of method to be used depends on the numerical values of $x _ { i }$ and $f _ { i ^ { * } }$ If $x _ { i }$ and $f _ { i }$ are sufficiently small, then the direct method is an appropriate choice. If $x _ { i }$ and $f _ { i }$ are numerically large numbers, then we can go for the assumed mean method or step-deviation method. If the class sizes are unequal, and $x _ { i }$ are large numerically, we can still apply the step-deviation method by taking h to be a suitable divisor of all the $d _ { i } ^ { \\flat }$ s."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

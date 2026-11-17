@@ -1,0 +1,205 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.148,
+            0.087
+          ],
+          "content": "56"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.11,
+            0.881,
+            0.149
+          ],
+          "content": "(ii) List all angles of ABCD adjacent to $\\angle \\mathrm { A }$ . List all angles opposite to $\\angle \\mathrm { A }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.148,
+            0.881,
+            0.188
+          ],
+          "content": "(iii) Define a pair of opposite sides and a pair of opposite angles without using the names of the vertices."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.127,
+            0.198,
+            0.883,
+            0.296
+          ],
+          "content": "\\*2. You have used internal angles of quadrilaterals, but they too require an exact definition, just like how we gave one for a quadrilateral. Precisely define the internal angle of a quadrilateral at a given vertex. Your answer should work for a non-convex quadrilateral too. (**Hint:** use the opposite vertex as well.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.299,
+            0.882,
+            0.36
+          ],
+          "content": "3. In a quadrilateral ABCD, suppose AB ‖ DC. Can ABCD be non-convex? What if we instead assume $\\mathrm{AB} = \\mathrm{CD}?$ What if we instead assume $\\angle \\mathrm{A} = \\angle \\mathrm{C}?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.364,
+            0.883,
+            0.461
+          ],
+          "content": "4. Consider three non-collinear points A, B, C and draw the lines AB, BC, CA. For every possible location of point D in the plane outside these lines, decide if ABCD is self-intersecting, non-convex, or convex. (**Hint:** the three lines divide the plane into 7 regions.)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.138,
+            0.465,
+            0.848,
+            0.487
+          ],
+          "content": "5. Can a quadrilateral be both self-intersecting and non-planar?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.118,
+            0.51,
+            0.419,
+            0.533
+          ],
+          "level": 2,
+          "content": "12.2 Parallelograms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.544,
+            0.884,
+            0.621
+          ],
+          "content": "As we studied in Grade 8, parallelograms are quadrilaterals whose opposite sides are parallel. They include rhombuses, rectangles and squares and form a very important and widely used class of quadrilaterals."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.62,
+            0.883,
+            0.7
+          ],
+          "content": "To test if a given quadrilateral is a parallelogram, do we have to check that the opposite sides are parallel? Are there other ways to test this? To answer this, recall the following properties of a parallelogram that we proved last year."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.703,
+            0.292,
+            0.722
+          ],
+          "content": "**Theorem 1:**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.723,
+            0.743,
+            0.744
+          ],
+          "content": "(a) The opposite sides of a parallelogram are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.744,
+            0.759,
+            0.764
+          ],
+          "content": "(b) The opposite angles of a parallelogram are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.192,
+            0.764,
+            0.778,
+            0.784
+          ],
+          "content": "(c) The diagonals of a parallelogram bisect each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.788,
+            0.883,
+            0.886
+          ],
+          "content": "It is usually interesting to examine if converses of known theorems are true. If the converse of any of the three properties is true, it can be used as an alternate way to show that a quadrilateral is a parallelogram. To explore this, let us write the converses. For this, we first write (a), (b) and (c) in $\\text{\" } \\mathrm{If}$ … then …” form."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

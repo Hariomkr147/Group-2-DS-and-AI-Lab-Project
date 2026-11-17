@@ -1,0 +1,240 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.217,
+            0.121
+          ],
+          "content": "POLYNOMIALS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.105,
+            0.898,
+            0.119
+          ],
+          "content": "21"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.139,
+            0.902,
+            0.178
+          ],
+          "content": "Example 4 : Find a quadratic polynomial, the sum and product of whose zeroes are –3 and 2, respectively."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.183,
+            0.898,
+            0.222
+          ],
+          "content": "Solution : Let the quadratic polynomial be $a x ^ { 2 } + b x + c ,$ and its zeroes be α and $\\beta .$ We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31,
+            0.235,
+            0.502,
+            0.276
+          ],
+          "content": "\\alpha + \\beta = - 3 = { \\frac { - b } { a } } ,",
+          "image_source": "images/page_11_equation_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.306,
+            0.141,
+            0.323
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.337,
+            0.297,
+            0.472,
+            0.334
+          ],
+          "content": "\\alpha \\beta = 2 = { \\frac { c } { a } } \\cdot",
+          "image_source": "images/page_11_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.343,
+            0.385,
+            0.361
+          ],
+          "content": "If $a = 1$ , then $b = 3$ and $c = 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.367,
+            0.805,
+            0.387
+          ],
+          "content": "So, one quadratic polynomial which fits the given conditions is $x ^ { 2 } + 3 x \\pm 2 .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.393,
+            0.9,
+            0.432
+          ],
+          "content": "You can check that any other quadratic polynomial that fits these conditions will be of the form $k ( x ^ { 2 } + 3 x + 2 )$ , where k is real."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.438,
+            0.9,
+            0.476
+          ],
+          "content": "Let us now look at cubic polynomials. Do you think a similar relation holds between the zeroes of a cubic polynomial and its coefficients?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.481,
+            0.564,
+            0.501
+          ],
+          "content": "Let us consider $p(x) = 2x^3 - 5x^2 - 14x + 8.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.515,
+            0.899,
+            0.573
+          ],
+          "content": "You can check that $p(x)=0  for  x=4,-2,\\frac{1}{2};$ Since $p ( x )$ can have atmost three zeroes, these are the zeores of $2x^{3}-5x^{2}-14x+8$ Now,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.195,
+            0.582,
+            0.891,
+            0.625
+          ],
+          "content": "sum of the zeroes $4+(-2)+\\frac{1}{2}=\\frac{5}{2}=\\frac{-(-5)}{2}=\\frac{-(Coefficient of x^{2})}{Coefficient of x^{3}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.639,
+            0.838,
+            0.682
+          ],
+          "content": "product of the zeroes $4 \\times (-2) \\times \\frac{1}{2} = -4 = \\frac{-8}{2} = \\frac{-  constant term }{  Coefficient of   x^3}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.694,
+            0.901,
+            0.733
+          ],
+          "content": "However, there is one more relationship here. Consider the sum of the products of the zeroes taken two at a time. We have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.15,
+            0.744,
+            0.77,
+            0.849
+          ],
+          "content": "\\left\\{ 4 \\times ( - 2 ) \\right\\} + \\left\\{ ( - 2 ) \\times \\frac{1}{2} \\right\\} + \\left\\{ \\frac{1}{2} \\times 4 \\right\\} = - 8 - 1 + 2 = - 7 = \\frac{- 14}{2} = \\frac{ Coefficient of   x}{ Coefficient of   x^{3}}",
+          "image_source": "images/page_11_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.857,
+            0.9,
+            0.896
+          ],
+          "content": "In general, it can be proved that if α, β, γ are the zeroes of the cubic polynomial $a x ^ { 3 } + b x ^ { 2 } + c x + d ,$ then"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

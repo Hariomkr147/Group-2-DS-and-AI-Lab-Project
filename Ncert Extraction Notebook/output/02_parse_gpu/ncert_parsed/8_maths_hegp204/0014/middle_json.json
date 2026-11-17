@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:43:35+05:30",
+      "modified_at": "2025-12-29T16:48:11+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 33,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.476,
+            0.326,
+            0.566,
+            0.341
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Octahedron"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.581,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploring Some Geometric Themes"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.089,
+            0.847,
+            0.129
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is a solid called the "
+            },
+            {
+              "type": "text",
+              "content": "octahedron",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", made by joining two square pyramids at their square bases."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.391,
+            0.139,
+            0.63,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.391,
+                0.139,
+                0.63,
+                0.319
+              ],
+              "image_path": "images/page_13_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.176,
+            0.357,
+            0.634,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you visualise its net? This is one of its nets."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.391,
+            0.384,
+            0.63,
+            0.528
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.391,
+                0.384,
+                0.63,
+                0.528
+              ],
+              "image_path": "images/page_13_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.535,
+            0.787,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Taking all the triangles in the net to be equilateral, make a cutout of the net and fold it to form an octahedron."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.801,
+            0.526,
+            0.889,
+            0.585
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.801,
+                0.526,
+                0.889,
+                0.585
+              ],
+              "image_path": "images/page_13_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.592,
+            0.767,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in the case of cubes, an octahedron too has 11 different nets."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.61,
+            0.846,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So far, we have seen solids whose faces are all equilateral triangles (regular tetrahedrons), and all squares (cubes). Does there exist a solid whose faces are all pentagons? Interestingly, the answer is yes!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.665,
+            0.847,
+            0.722
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This solid is called a "
+            },
+            {
+              "type": "text",
+              "content": "dodecahedron",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". This solid too can be made from a net! Mathematicians have been even able to determine exactly how many nets a dodecahedron has — 43,380."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.419,
+            0.736,
+            0.627,
+            0.89
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.419,
+                0.736,
+                0.627,
+                0.89
+              ],
+              "image_path": "images/page_13_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 12,
+              "bbox": [
+                0.468,
+                0.896,
+                0.576,
+                0.91
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Dodecahedron"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 13,
+          "bbox": [
+            0.876,
+            0.913,
+            0.911,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "83"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

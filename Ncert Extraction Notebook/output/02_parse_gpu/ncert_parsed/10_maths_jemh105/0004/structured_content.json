@@ -1,0 +1,262 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "52"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.139,
+            0.9,
+            0.179
+          ],
+          "content": "Let us denote the first term of an AP by $a _ { _ { 1 } } ,$ second term by $a _ { 2 } , \\ldots .$ nth term by $a _ { n }$ and the common difference by d. Then the AP becomes $a_{1}, a_{2}, a_{3}, \\ldots, a_{n^{1}}$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.096,
+            0.184,
+            0.538,
+            0.206
+          ],
+          "content": "\\mathrm{So}, \\quad a_{_2}-a_{_1}=a_{_3}-a_{_2}=\\cdots=a_{_n}-a_{_{n-1}}=d.",
+          "image_source": "images/page_3_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.209,
+            0.412,
+            0.228
+          ],
+          "content": "Some more examples of AP are:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.234,
+            0.901,
+            0.275
+          ],
+          "content": "(a) The heights ( in cm ) of some students of a school standing in a queue in the morning assembly are 147 , 148, 149, . . ., 157."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.279,
+            0.901,
+            0.32
+          ],
+          "content": "(b) The minimum temperatures ( in degree celsius ) recorded for a week in the month of January in a city, arranged in ascending order are"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.208,
+            0.324,
+            0.629,
+            0.344
+          ],
+          "content": "\\begin{array} { r } { - \\: 3 . 1 , - \\: 3 . 0 , - \\: 2 . 9 , - \\: 2 . 8 , - \\: 2 . 7 , - \\: 2 . 6 , - \\: 2 . 5 } \\end{array}",
+          "image_source": "images/page_3_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.349,
+            0.901,
+            0.39
+          ],
+          "content": "(c) The balance money ( in \\` ) after paying 5 % of the total loan of \\` 1000 every month is 950, 900, 850, 800, . . ., 50."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.395,
+            0.9,
+            0.435
+          ],
+          "content": "(d) The cash prizes ( in \\` ) given by a school to the toppers of Classes I to XII are, respectively, 200, 250, 300, 350, . . ., 750."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.44,
+            0.901,
+            0.48
+          ],
+          "content": "(e) The total savings (in \\`) after every month for 10 months when \\` 50 are saved each month are 50, 100, 150, 200, 250, 300, 350, 400, 450, 500."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.145,
+            0.485,
+            0.898,
+            0.53
+          ],
+          "content": "It is left as an exercise for you to explain why each of the lists above is an AP. You can see that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.532,
+            0.665,
+            0.551
+          ],
+          "content": "a,a+d,a+2d,a+3d,\\cdots",
+          "image_source": "images/page_3_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.557,
+            0.901,
+            0.596
+          ],
+          "content": "represents an arithmetic progression where a is the first term and d the common difference. This is called the **general form of an AP.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.602,
+            0.902,
+            0.698
+          ],
+          "content": "Note that in examples (a) to (e) above, there are only a finite number of terms. Such an AP is called a **finite AP.** Also note that each of these Arithmetic Progressions (APs) has a last term. The APs in examples (i) to (v) in this section, are not finite APs and so they are called **infinite Arithmetic Progressions**. Such APs do not have a last term."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.703,
+            0.902,
+            0.782
+          ],
+          "content": "Now, to know about an AP, what is the minimum information that you need? Is it enough to know the first term? Or, is it enough to know only the common difference? You will find that you will need to know both – the first term a and the common difference d."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.786,
+            0.901,
+            0.824
+          ],
+          "content": "For instance if the first term a is 6 and the common difference d is 3, then the AP is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.388,
+            0.825,
+            0.537,
+            0.844
+          ],
+          "content": "6 , 9 , 1 2 , 1 5 , \\ldots .",
+          "image_source": "images/page_3_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.85,
+            0.48,
+            0.869
+          ],
+          "content": "and if a is 6 and d is – 3, then the AP is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.875,
+            0.529,
+            0.895
+          ],
+          "content": "6 , 3 , 0 , - 3 , \\ldots .",
+          "image_source": "images/page_3_equation_19.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-5 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-5 (8th Nov.)",
+      "description": "Chap-5 (8th Nov.)",
+      "created_at": "2022-08-17T11:51:55+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

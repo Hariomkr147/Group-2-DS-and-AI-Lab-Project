@@ -1,0 +1,247 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.767,
+            0.047,
+            0.862,
+            0.063
+          ],
+          "content": "Power Play"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.088,
+            0.318,
+            0.111
+          ],
+          "level": 2,
+          "content": "Magical Pond"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.124,
+            0.549,
+            0.237
+          ],
+          "content": "? In the middle of a beautiful, magical pond lies a bright pink lotus. The number of lotuses doubles every day in this pond. After 30 days, the pond is completely covered with lotuses. On which day was the pond half full?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.563,
+            0.088,
+            0.914,
+            0.251
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.24,
+            0.549,
+            0.296
+          ],
+          "content": "If the pond is completely covered by lotuses on the 30th day, how much of it is covered by lotuses on the 29th day?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.296,
+            0.847,
+            0.334
+          ],
+          "content": "Since the number of lotuses doubles every day, the pond should be half covered on the 29th day."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.336,
+            0.824,
+            0.381
+          ],
+          "content": "Write the number of lotuses (in exponential form) when the pond was — (i) fully covered (ii) half covered"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.391,
+            0.847,
+            0.486
+          ],
+          "content": "？ There is another pond in which the number of lotuses triples every day. When both the ponds had no flowers, Damayanti placed a lotus in the doubling pond. After 4 days, she took all the lotuses from there and put them in the tripling pond. How many lotuses will be in the tripling pond after 4 more days?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.489,
+            0.838,
+            0.527
+          ],
+          "content": "After the first 4 days, the number of lotuses is $1 \\times 2 \\times 2 \\times 2 \\times 2 = 2^{4}$ After the next 4 days, the number of lotuses is $2^{4} \\times 3 \\times 3 \\times 3 \\times 3 = 2^{4} \\times 3^{4}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.529,
+            0.847,
+            0.57
+          ],
+          "content": "？ What if Damayanti had changed the order in which she placed the flowers in the lakes? How many lotuses would be there?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.3,
+            0.577,
+            0.696,
+            0.597
+          ],
+          "content": "1 \\times 3^{4} \\times 2^{4} = (3 \\times 3 \\times 3 \\times 3) \\times (2 \\times 2 \\times 2 \\times 2).",
+          "image_source": "images/page_6_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.605,
+            0.846,
+            0.646
+          ],
+          "content": "? Can this product be expressed as an exponent $m _ { \\mathrm { ~ i ~ } } ^ { n }$ , where m and n are some counting numbers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.65,
+            0.43,
+            0.67
+          ],
+          "content": "By regrouping the numbers,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.391,
+            0.668,
+            0.721,
+            0.705
+          ],
+          "content": "{ \\begin{array} { r l } & { = ( 3 \\times 2 ) \\times ( 3 \\times 2 ) \\times ( 3 \\times 2 ) \\times ( 3 \\times 2 ) } \\\\ & { = ( 3 \\times 2 ) ^ { 4 } = 6 ^ { 4 } . } \\end{array} }",
+          "image_source": "images/page_6_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.705,
+            0.315,
+            0.724
+          ],
+          "content": "In general form,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.272,
+            0.729,
+            0.724,
+            0.748
+          ],
+          "content": "$\\overline{m^{a}} \\times \\underline{n^{a}} = (mn)^{a}$ , where a is a counting number."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.752,
+            0.652,
+            0.772
+          ],
+          "content": "Use this observation to compute the value of $2 ^ { 5 } \\times 5 ^ { 5 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.774,
+            0.591,
+            0.829
+          ],
+          "content": "Simplify $\\frac{10^{4}}{5^{4}}$ and write it in exponential form. In general, we can show that ${ \\frac {   m ^ { a }   } {   n ^ { a }   } } = \\left( { \\frac { m } { n } } \\right) ^ { a }$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.913,
+            0.936
+          ],
+          "content": "25"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

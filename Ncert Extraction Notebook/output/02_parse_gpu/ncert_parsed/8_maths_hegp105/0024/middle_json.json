@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.234,
+            0.076,
+            0.75,
+            0.184
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.234,
+                0.076,
+                0.75,
+                0.184
+              ],
+              "image_path": "images/page_23_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.149,
+            0.192,
+            0.846,
+            0.287
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Navakankari, also known as Sālu Mane Āṭa, Chār-Pār, or Navkakri, is a traditional Indian board game that is the same as ‛Nine Men’s Morris’ or ‛Mills in the West’. It is a strategy game for two players where the goal is to form lines of three pawns to eliminate the opponent’s pawns or block their movement."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.259,
+            0.3,
+            0.756,
+            0.59
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.259,
+                0.3,
+                0.756,
+                0.59
+              ],
+              "image_path": "images/page_23_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.605,
+            0.263,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Gameplay"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.625,
+            0.845,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Each player starts with 9 pawns. The players take turns in placing their pawns on the marked intersections. An intersection can have at most one pawn."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.149,
+            0.689,
+            0.845,
+            0.746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Once all the pawns are placed, the players take turns to move one of their pawns to adjacent empty intersections to form lines of three. The line can be horizontal or vertical."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.149,
+            0.752,
+            0.845,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Once a player makes a line with their pawns they can remove any one of the opponent’s pawns as long as it is not a part of one of their lines."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.148,
+            0.815,
+            0.843,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A player wins if the opponent has less than 3 pawns or is unable to make a move."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.052,
+            0.854,
+            0.922,
+            0.999
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.052,
+                0.854,
+                0.922,
+                0.999
+              ],
+              "image_path": "images/page_23_image_8.jpg",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

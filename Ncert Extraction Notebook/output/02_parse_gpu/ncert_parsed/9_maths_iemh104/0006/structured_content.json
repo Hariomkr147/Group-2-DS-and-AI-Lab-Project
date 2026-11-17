@@ -1,0 +1,239 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.551,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Exploring Algebraic Identities"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": "73"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.108,
+            0.72,
+            0.129
+          ],
+          "content": "Now let us focus on the expression $2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.134,
+            0.744,
+            0.155
+          ],
+          "content": "Think of a term whose square is 25p2. What about $9 q ^ { 2 } ?$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.16,
+            0.35,
+            0.182
+          ],
+          "content": "5 0 p ^ { 2 } \\pm 6 0 p q \\pm 1 8 q ^ { 2 }",
+          "image_source": "images/page_5_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.155,
+            0.193,
+            0.459,
+            0.227
+          ],
+          "content": "2 \\left[ ( 5 p ) ^ { 2 } + 2 ( 5 p ) ( 3 q ) + ( 3 q ) ^ { 2 } \\right]",
+          "image_source": "images/page_5_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.156,
+            0.238,
+            0.304,
+            0.26
+          ],
+          "content": "= 2 \\; ( 5 p + 3 q ) ^ { 2 } .",
+          "image_source": "images/page_5_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.264,
+            0.883,
+            0.304
+          ],
+          "content": "Here we have used the identity $(a + b)^{2} = a^{2} + 2ab + b^{2}$ to factor the expression $2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } ,$ , after taking 2 as a common factor."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.302,
+            0.884,
+            0.343
+          ],
+          "content": "In all the examples described so far, we have used the identity $(a+b)^{2}=a^{2}+2ab+b^{2}$ to find factors of different algebraic expressions."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.367,
+            0.399,
+            0.391
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.404,
+            0.64,
+            0.425
+          ],
+          "content": "What if we replace b by – b in $(a + b)^{2} = a^{2} + 2ab + b^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.455,
+            0.883,
+            0.496
+          ],
+          "content": "We get $( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,$ which is also an identity and can be used in ways similar to $(a + b)^{2} = a^{2} + 2ab + b^{2}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.5,
+            0.885,
+            0.559
+          ],
+          "content": "Let us revisit the pattern we observed in Example 1. Any three consecutive numbers can be taken as $( \\underline { { n } } \\mathrm { ~ - \\textbackslash ~ } 1 )$ , n and $( n ~ + ~ 1 )$ . Their respective squares are of the form $(n - 1)^{2}, n^{2}$ and $( n + 1 ) ^ { 2 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.558,
+            0.653,
+            0.578
+          ],
+          "content": "The sum of the smallest and largest squares is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.246,
+            0.582,
+            0.788,
+            0.602
+          ],
+          "content": "(n - 1)^{2} + (n + 1)^{2} = n^{2} - 2n + 1 + n^{2} + 2n + 1 = 2n^{2} + 2.",
+          "image_source": "images/page_5_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.607,
+            0.886,
+            0.686
+          ],
+          "content": "Subtracting $2 n ^ { 2 }$ from this leads to 2. Hence you always get 2! This is in fact a proof of the fact that if we add the smallest and largest of any three consecutive square numbers and subtract two times the middle square number, we will always arrive at 2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.685,
+            0.885,
+            0.743
+          ],
+          "content": "Just as the identity $(a^{2}+b)^{2}=a^{2}+2ab+b^{2}$ can be used to find the squares of numbers, we can also use $(a - b)^{2} = a^{2} - 2ab + b^{2}$ in a similar manner."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.748,
+            0.884,
+            0.788
+          ],
+          "content": "**Example 8:** Suppose we have to calculate 29<sup>2</sup>. We can express this as $(30 - 1)^{2} = 30^{2} - 2 \\times 30 \\times 1 + 1^{2} = 900 - 60 + 1 = 841.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.793,
+            0.886,
+            0.852
+          ],
+          "content": "To visualise the identity $( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,$ , let us draw a square of side a units and split a in two parts, one of length $( a - b )$ units and another of length b units. Then the figure will look like this."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

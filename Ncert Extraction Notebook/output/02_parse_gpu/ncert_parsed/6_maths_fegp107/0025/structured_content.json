@@ -1,0 +1,280 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.121,
+            0.724,
+            0.146
+          ],
+          "level": 2,
+          "content": "7.8 Addition and Subtraction of Fractions"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.165,
+            0.626,
+            0.263
+          ],
+          "content": "Meena’s father made some chikki. Meena ate $\\frac { 1 } { 2 }$ of it and her younger brother ate $\\frac { 1 } { 4 }$ of it. How much of the total chikki did Meena and her brother eat together?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.647,
+            0.163,
+            0.82,
+            0.287
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.229,
+            0.269,
+            0.556,
+            0.335
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.348,
+            0.833,
+            0.392
+          ],
+          "content": "We can arrive at the answer by visualising it. Let us take a piece of chikki and divide it into two halves first like this."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.405,
+            0.393,
+            0.456
+          ],
+          "content": "Meena ate $\\frac { 1 } { 2 }$ of it as shown in the picture."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.41,
+            0.395,
+            0.833,
+            0.482
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.468,
+            0.834,
+            0.539
+          ],
+          "content": "Let us now divide the remaining half into two further halves as shown. Each of these pieces is $\\frac { 1 } { 4 }$ of the whole chikki."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.55,
+            0.39,
+            0.62
+          ],
+          "content": "Meena’s brother ate $\\frac { 1 } { 4 }$ of the whole chikki, as is shown in the picture."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.406,
+            0.535,
+            0.833,
+            0.635
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.407,
+                0.622,
+                0.504,
+                0.637
+              ],
+              "content": "Brother ate 51"
+            }
+          ],
+          "image_source": "images/page_24_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.63,
+            0.427,
+            0.702
+          ],
+          "content": "The total chikki eaten is $\\frac { 1 } { 2 }$ (by Meena) and $\\frac { 1 } { 4 }$ (by her brother)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.704,
+            0.378,
+            0.724
+          ],
+          "content": "The total chikki eaten"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.482,
+            0.653,
+            0.807,
+            0.719
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_image_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.168,
+            0.724,
+            0.242,
+            0.753
+          ],
+          "content": "= { \\frac { 1 } { 2 } } + { \\frac { 1 } { 4 } }",
+          "image_source": "images/page_24_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.683,
+            0.734,
+            0.831,
+            0.751
+          ],
+          "content": "Total chikki eaten"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.167,
+            0.768,
+            0.277,
+            0.799
+          ],
+          "content": "\\frac{1}{4} + \\frac{1}{4} + \\frac{1}{4}",
+          "image_source": "images/page_24_equation_17.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.166,
+            0.815,
+            0.283,
+            0.844
+          ],
+          "content": "= 3 \\times { \\frac { 1 } { 4 } } = { \\frac { 3 } { 4 } } .",
+          "image_source": "images/page_24_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.863,
+            0.604,
+            0.885
+          ],
+          "content": "How much of the total chikki is remaining?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.885,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.669,
+            0.05,
+            0.841,
+            0.066
+          ],
+          "content": "Connecting the Dots…"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.089,
+            0.411,
+            0.28
+          ],
+          "content": "In Poovizhi’s family, the height of the youngest child is quite different from the heights of the rest of the family. We call such a value an **outlier**. Outliers are values which significantly deviate from the rest of the values in the data."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.424,
+            0.087,
+            0.804,
+            0.277
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.286,
+            0.846,
+            0.324
+          ],
+          "content": "Notice how the mean and the median are close to each other in Yaangba’s data, in the absence of any outlier."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.325,
+            0.846,
+            0.362
+          ],
+          "content": "In Poovizhi’s data, because of the outlier, the mean is much lower than the median."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.373,
+            0.846,
+            0.412
+          ],
+          "content": "? Find the mean and median in Poovizhi’s data without the outlier value 118. What change do you notice?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.418,
+            0.385,
+            0.436
+          ],
+          "level": 2,
+          "content": "Are you a bookworm?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.442,
+            0.847,
+            0.539
+          ],
+          "content": "？ After the summer vacation, a class teacher asked his class how many short stories they had read. Each student answered the number of stories read on a piece of paper, as shown below. Find the mean and median number of short stories read. Before calculating them, can you guess whether the mean will be less than or greater than the median?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.174,
+            0.543,
+            0.811,
+            0.716
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.727,
+            0.792,
+            0.746
+          ],
+          "content": "Mark the data, the mean, and the median on the dot plot below."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.159,
+            0.761,
+            0.846,
+            0.815
+          ],
+          "content": "|  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  |  |\n| C |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_table_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.242,
+            0.818,
+            0.256,
+            0.831
+          ],
+          "content": "5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.325,
+            0.818,
+            0.344,
+            0.831
+          ],
+          "content": "10"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.492,
+            0.818,
+            0.513,
+            0.831
+          ],
+          "content": "20"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.83,
+            0.818,
+            0.85,
+            0.831
+          ],
+          "content": "40"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.847,
+            0.846,
+            0.884
+          ],
+          "content": "The median value 6 means that half of the class members have read 6 or more stories."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.809,
+            0.934,
+            0.843,
+            0.949
+          ],
+          "content": "107"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:45:40+05:30",
+      "modified_at": "2025-11-08T13:44:03+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

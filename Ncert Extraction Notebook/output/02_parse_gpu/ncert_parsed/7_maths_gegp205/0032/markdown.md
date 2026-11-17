@@ -1,0 +1,23 @@
+? In 2019, between which two successive ages from 5 to 19 did boys grow the most? Between which two successive ages from 5 to 19 did girls grow most?
+
+![](images/page_31_image_2.jpg)
+
+Suppose the average height of a newborn is 50 cm. Estimate the average height of young children of ages 1 to 4.
+
+? Based on the trend observed in the table, write your estimates of the heights of boys and girls for ages 5 to 19 in the year 2029.
+
+![](images/page_31_image_5.jpg)
+
+Whenever you see data or some graph, look closely to know the story it has to say and the mysteries it may hold.
+
+You may want to look at the data of weights. Or you might be curious to see if such patterns are present in other countries as well. You might also wonder if humans were much shorter a few centuries ago! Also, are people in some countries taller than others? The following visualisation shows the change in average heights of 19-year-old boys and girls of different countries from 1989 to 2019.
+
+? How is the graph organised? What information is presented?
+
+## What do you find interesting?
+
+Notice that the vertical line starts from 145 cm — this helps give a closer (zoomed in) look at the heights.
+
+![](images/page_31_image_11.jpg)
+
+![](images/page_31_chart_12.jpg)

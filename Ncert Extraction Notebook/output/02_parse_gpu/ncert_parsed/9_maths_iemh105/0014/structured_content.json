@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.451,
+            0.068,
+            0.817,
+            0.087
+          ],
+          "content": "I’m Up and Down, and Round and Round"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.845,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "105"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.148
+          ],
+          "content": "What do you observe? The longer the chord, the closer it is to the centre. Let us try to understand why this is true."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.152,
+            0.886,
+            0.212
+          ],
+          "content": "**Theorem 8:** Let AB and DE be two chords of a circle with centre C. Suppose $A B \\geq D E ,$ . Then the distance from C to AB is less than the distance from C to DE."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.216,
+            0.886,
+            0.276
+          ],
+          "content": "As always, we draw the figure. Remember: by ‘distance from C to AB’ we mean the perpendicular distance. So, we drop perpendiculars CF and CG from C to AB and DE, respectively."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.144,
+            0.294,
+            0.414,
+            0.483
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.244,
+                0.491,
+                0.323,
+                0.51
+              ],
+              "content": "Fig. 5.16"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_13_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.453,
+            0.294,
+            0.632,
+            0.314
+          ],
+          "content": "**Given:** AB > DE."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.452,
+            0.32,
+            0.706,
+            0.34
+          ],
+          "content": "**To show that:** CF < CG."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.452,
+            0.344,
+            0.877,
+            0.434
+          ],
+          "content": "**Why is this true?** In Fig. 5.16, both AC and CD are radii. So, AC = CD. By the Baudhāyana–Pythagoras Theorem, $\\mathrm{CD^{2} = CG^{2} + GD^{2}}$ and $\\mathrm{AC^{2} = CF^{2} + AF^{2}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.454,
+            0.428,
+            0.737,
+            0.449
+          ],
+          "content": "So, $\\mathrm{CF^{2}+AF^{2}=CG^{2}+GD^{2}}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.452,
+            0.454,
+            0.876,
+            0.513
+          ],
+          "content": "Now AB is greater than DE. So AF is greater than GD (because F and G are the midpoints of AB and DE)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.452,
+            0.516,
+            0.828,
+            0.563
+          ],
+          "content": "Since $\\mathrm{AF^{2} \\geq GD^{2}}$ we have $\\mathsf { C F } ^ { 2 } \\leq \\mathsf { C G } ^ { 2 }$ So, CF < CG."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.582,
+            0.886,
+            0.64
+          ],
+          "content": "**Comment:** The chord nearest to the centre is the chord containing the centre. Its distance to C is zero! So the diameter is the greatest chord."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.64,
+            0.886,
+            0.699
+          ],
+          "content": "If one pushes the chord away from the centre, at some stage the chord becomes a single point, its length is zero, and the distance of C from this chord is the radius."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.374,
+            0.733,
+            0.622,
+            0.762
+          ],
+          "level": 2,
+          "content": "Exercise Set 5.5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.78,
+            0.885,
+            0.823
+          ],
+          "content": "1. Find the length of the chord of a circle where the radius is 7 cm and perpendicular distance is 6 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.829,
+            0.886,
+            0.896
+          ],
+          "content": "2. Explain why the following statement is true: If the perpendicular distance of a chord from the centre is d and the radius is r, then the chord length is $2 \\sqrt { r ^ { 2 } - \\boldsymbol { d } ^ { 2 } }$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

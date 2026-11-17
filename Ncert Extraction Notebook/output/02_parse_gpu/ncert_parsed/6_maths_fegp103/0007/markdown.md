@@ -1,0 +1,29 @@
+## Digit Detectives
+
+After writing numbers from 1 to 100, Dinesh wondered how many times he would have written the digit ‘7’!
+
+Among the numbers 1–100, how many times will the digit ‘7’ occur? Among the numbers 1–1000, how many times will the digit ‘7’ occur?
+
+![](images/page_6_image_4.jpg)
+
+## 3.5 Pretty Palindromic Patterns
+
+What pattern do you see in these numbers: 66, 848, 575, 797, 1111? These numbers read the same from left to right and from right to left. Try and see. Such numbers are called **palindromes** or **palindromic numbers**.
+
+## All palindromes using 1, 2, 3
+
+The numbers 121, 313, 222 are some examples of palindromes using the digits ‘1’, ‘2’, 3’.
+
+嶽 Write all possible 3-digit palindromes using these digits.
+
+## Reverse-and-add palindromes
+
+Now, look at these additions. Try to figure out what is happening.
+
+**Steps to follow:** Start with a 2-digit number. Add this number to its reverse. Stop if you get a palindrome or else repeat the steps of reversing the digits and adding.
+
+Try the same procedure for some other numbers, and perform the same steps. Stop if
+
+$$
+\begin{array}{ccc}\underline{3} \underline{4} & \underline{2} \underline{9} & \underline{4} \underline{8} & \underline{7} \underline{6} \\\underline{4} \underline{3} & \underline{9} \underline{2} & \underline{8} \underline{4} & \underline{6} \overline{7} \\\overline{7} \overline{7} & \underline{4} \underline{2} \underline{4} & \underline{9} \underline{3} \underline{2} & \underline{9} \underline{4} \underline{3} \\& & \underline{2} \underline{3} \underline{1} & \underline{3} \underline{4} \underline{1} \\& & \underline{3} \underline{6} \underline{3} & \underline{4} \underline{8} \underline{4} \\\end{array}
+$$

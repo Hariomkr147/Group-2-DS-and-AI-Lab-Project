@@ -1,0 +1,137 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": "Fractions"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.121,
+            0.117,
+            0.831,
+            0.82
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.605,
+            0.777,
+            0.627
+          ],
+          "content": "Fractional quantities can be measured using fractional units."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.654,
+            0.486,
+            0.677
+          ],
+          "content": "Let us look at another example,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.603,
+            0.651,
+            0.738,
+            0.688
+          ],
+          "content": "Represents a full roti (whole)"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.118,
+            0.706,
+            0.831,
+            0.818
+          ],
+          "content": "|  |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| 12= 1 times half | 12 + 12= 2 times half | 12 + 12 + 12= 3 times half | 12 + 12 + 12 + 12= 4 times half | 12 + 12 + 12 + 12 + 12= 5 times half |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.854,
+            0.834,
+            0.899
+          ],
+          "content": "We can describe how much the quantity is by collecting together the fractional units."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.887,
+            0.942,
+            0.915,
+            0.959
+          ],
+          "content": "157"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

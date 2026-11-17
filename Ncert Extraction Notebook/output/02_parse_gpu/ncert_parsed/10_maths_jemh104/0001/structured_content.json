@@ -1,0 +1,225 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.428,
+            0.115,
+            0.577,
+            0.217
+          ],
+          "content": "口 ■"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.477,
+            0.219,
+            0.532,
+            0.231
+          ],
+          "content": "1062CH04"
+        },
+        {
+          "type": "doc_title",
+          "bbox": [
+            0.232,
+            0.289,
+            0.746,
+            0.328
+          ],
+          "level": 1,
+          "content": "QUADRATIC EQUATIONS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.376,
+            0.281,
+            0.396
+          ],
+          "level": 2,
+          "content": "4.1 Introduction"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.403,
+            0.902,
+            0.462
+          ],
+          "content": "In Chapter 2, you have studied different types of polynomials. One type was the quadratic polynomial of the form $ax^{2}+bx+c,a \\ne 0,$ When we equate this polynomial to zero, we get a quadratic equation. Quadratic equations come up when we deal with"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.463,
+            0.565,
+            0.617
+          ],
+          "content": "many real-life situations. For instance, suppose a charity trust decides to build a prayer hall having a carpet area of 300 square metres with its length one metre more than twice its breadth. What should be the length and breadth of the hall? Suppose the breadth of the hall is x metres. Then, its length should be $(2x + 1)$ metres. We can depict this information pictorially as shown in Fig. 4.1."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.568,
+            0.467,
+            0.896,
+            0.578
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.685,
+                0.592,
+                0.769,
+                0.611
+              ],
+              "content": "Fig. 4.1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.625,
+            0.155,
+            0.643
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.277,
+            0.624,
+            0.731,
+            0.644
+          ],
+          "content": "area of the half  \\equiv (2x + 1).x  m ^2 = (2x^2 + x)  m ^2",
+          "image_source": "images/page_0_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.65,
+            0.135,
+            0.668
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.35,
+            0.649,
+            0.658,
+            0.669
+          ],
+          "content": "2x^{2}+x=300\\quad(Given )",
+          "image_source": "images/page_0_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.675,
+            0.205,
+            0.694
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.293,
+            0.674,
+            0.471,
+            0.694
+          ],
+          "content": "2x^{2} + x - 300 = 0",
+          "image_source": "images/page_0_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.7,
+            0.901,
+            0.74
+          ],
+          "content": "So, the breadth of the hall should satisfy the equation $2x^{2}+x-300=0$ which is a quadratic equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.745,
+            0.902,
+            0.901
+          ],
+          "content": "Many people believe that Babylonians were the first to solve quadratic equations. For instance, they knew how to find two positive numbers with a given positive sum and a given positive product, and this problem is equivalent to solving a quadratic equation of the form $x^{2}-px+q=0$ . Greek mathematician Euclid developed a geometrical approach for finding out lengths which, in our present day terminology, are solutions of quadratic equations. Solving of quadratic equations, in general form, is often credited to ancient Indian mathematicians. In fact, Brahmagupta (C.E.598–665) gave an explicit formula to solve a quadratic equation of the form $a x ^ { 2 } + b x = c$ . Later,"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

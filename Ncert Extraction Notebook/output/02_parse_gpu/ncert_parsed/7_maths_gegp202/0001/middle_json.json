@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.112,
+            0.081,
+            0.704,
+            0.174
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2 OPERATIONS WITH INTEGERS"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.814,
+            0.186,
+            0.872,
+            0.197
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0789CH02"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.78,
+            0.092,
+            0.906,
+            0.179
+          ],
+          "content": []
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.298,
+            0.555,
+            0.324
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1 A Quick Recap of Integers"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.333,
+            0.482,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Rakesh’s Puzzle: A Number Game"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.367,
+            0.595,
+            0.438
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Rakesh gives you a challenge. “I have thought of two numbers”, he says. “Their "
+            },
+            {
+              "type": "text",
+              "content": "sum is 25",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", and their "
+            },
+            {
+              "type": "text",
+              "content": "difference is 11",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ".”"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.451,
+            0.492,
+            0.473
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you tell me the two numbers?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.477,
+            0.846,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You don’t need to use any formulas. Just try different pairs of numbers and then check:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.177,
+            0.515,
+            0.537,
+            0.534
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Do the two numbers add up to 25?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.176,
+            0.535,
+            0.545,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Is the difference between them 11?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.552,
+            0.793,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(Remember: the difference means first number – second number.) Write your guesses like this:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 11,
+          "bbox": [
+            0.156,
+            0.602,
+            0.844,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 11,
+              "bbox": [
+                0.156,
+                0.602,
+                0.844,
+                0.736
+              ],
+              "image_path": "images/page_0_table_11.jpg",
+              "content": "<table><tbody><tr><td>First Number</td><td>Second Number</td><td>Sum</td><td>Difference</td></tr><tr><td>10</td><td>15</td><td>25</td><td>-5</td></tr><tr><td>20</td><td>5</td><td>25</td><td>15</td></tr><tr><td>19</td><td>6</td><td>25</td><td>13</td></tr><tr><td>18</td><td>7</td><td>25</td><td>11</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 12,
+          "bbox": [
+            0.111,
+            0.746,
+            0.422,
+            0.77
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Did you find the right pair?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.783,
+            0.846,
+            0.824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Now that you’ve found the correct pair, Rakesh gives you a second challenge:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.152,
+            0.833,
+            0.829,
+            0.853
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "“Think of two numbers whose "
+            },
+            {
+              "type": "text",
+              "content": "sum is 25",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ", but their "
+            },
+            {
+              "type": "text",
+              "content": "difference is –11",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ".”"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.858,
+            0.847,
+            0.898
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use the same method. Try different pairs of numbers and fill in the table again. You will notice that if you swap the numbers from the first"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

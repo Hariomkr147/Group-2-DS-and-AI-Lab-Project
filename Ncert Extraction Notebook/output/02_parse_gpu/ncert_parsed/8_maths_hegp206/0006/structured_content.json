@@ -1,0 +1,290 @@
+{
+  "pages": [
+    {
+      "page_idx": 5,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.116,
+            0.259,
+            0.149,
+            0.283
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.138,
+            0.048,
+            0.418,
+            0.065
+          ],
+          "content": "Ganita Prakash | Grade 8 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.121,
+            0.083,
+            0.545,
+            0.104
+          ],
+          "level": 2,
+          "content": "？ What about a pyramid with three rows?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.108,
+            0.846,
+            0.146
+          ],
+          "content": "Using letter numbers for the bottom row, we can write an expression for the top row."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.369,
+            0.149,
+            0.631,
+            0.238
+          ],
+          "content": "<table><tr><td rowspan=2 colspan=2></td><td colspan=2>a + 2b + c</td><td rowspan=2></td></tr><tr><td colspan=2>a + b</td><td>b + c</td></tr><tr><td colspan=2>a</td><td colspan=2>b</td><td>C</td></tr></table>",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_4.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.155,
+            0.261,
+            0.294,
+            0.281
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.285,
+            0.847,
+            0.323
+          ],
+          "content": "1. Without building the entire pyramid, find the number in the topmost row given the bottom row in each of these cases."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.192,
+            0.331,
+            0.379,
+            0.362
+          ],
+          "content": "| 4 | 13 | 8 |\n| --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_7.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.406,
+            0.331,
+            0.595,
+            0.363
+          ],
+          "content": "| 7 | 11 | 3 |\n| --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_8.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.622,
+            0.331,
+            0.808,
+            0.362
+          ],
+          "content": "| 10 | 14 | 25 |\n| --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.378,
+            0.846,
+            0.415
+          ],
+          "content": "2. Write an expression for the topmost row of a pyramid with 4 rows in terms of the values in the bottom row."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.425,
+            0.846,
+            0.464
+          ],
+          "content": "3. Without building the entire pyramid, find the number in the topmost row given the bottom row in each of these cases."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.196,
+            0.472,
+            0.383,
+            0.503
+          ],
+          "content": "| 8 | 19 | 21 | 13 |\n| --- | --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_12.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.405,
+            0.472,
+            0.593,
+            0.503
+          ],
+          "content": "| 7 | 18 | 19 | 6 |\n| --- | --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_13.jpg"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.615,
+            0.472,
+            0.805,
+            0.503
+          ],
+          "content": "| 9 | 7 | 5 | 11 |\n| --- | --- | --- | --- |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_5_table_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.517,
+            0.846,
+            0.556
+          ],
+          "content": "\u0007Recall the Virahāṅka-Fibonacci number sequence 1, 2, 3, 5, … where each number is the sum of the two numbers before it."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.566,
+            0.848,
+            0.641
+          ],
+          "content": "4. If the first three Virahāṅka-Fibonacci numbers are written in the bottom row of a number pyramid with three rows, fill in the rest of the pyramid. What numbers appear in the grid? What is the number at the top? Are they all Virahāṅka-Fibonacci numbers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.65,
+            0.847,
+            0.689
+          ],
+          "content": "5. What can you say about the numbers in the pyramid and the number at the top in the following cases?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.191,
+            0.698,
+            0.846,
+            0.736
+          ],
+          "content": "(i) The first four Virahāṅka-Fibonacci numbers are written in the bottom row of a four row pyramid."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.185,
+            0.741,
+            0.846,
+            0.779
+          ],
+          "content": "(ii) The first 29 Virahāṅka-Fibonacci numbers are written in the bottom row of a 29 row pyramid."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.783,
+            0.847,
+            0.841
+          ],
+          "content": "6. If the bottom row of an n row pyramid contains the first n Virahāṅka-Fibonacci numbers, what can we say about the numbers in the pyramid? What can we say about the number at the top?"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.081,
+            0.914,
+            0.127,
+            0.934
+          ],
+          "content": "140"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:51:40+05:30",
+      "modified_at": "2025-12-29T16:48:12+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 13,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 5,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

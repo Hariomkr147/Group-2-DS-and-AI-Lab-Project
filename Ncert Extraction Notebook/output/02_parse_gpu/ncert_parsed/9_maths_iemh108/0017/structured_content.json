@@ -1,0 +1,185 @@
+{
+  "pages": [
+    {
+      "page_idx": 16,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "190"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.489,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.11,
+            0.886,
+            0.171
+          ],
+          "content": "by multiplying the previous term by $\\frac { 3 } { 4 }$ . Thus, while the number of black triangles increases rapidly, the total area of the triangles decreases."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.117,
+            0.21,
+            0.881,
+            0.377
+          ],
+          "content": "| Stage (n) | 0 | 1 | 2 | 3 | 4 | 5 | … | n |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| N truiamnbgelers o (ft<sub>n</sub> b)lack | 1 = 3<sup>0</sup> | 3 = 3<sup>1</sup> | 9 = 3<sup>2</sup> | 27 = 3<sup>3</sup> | 81 = 3<sup>4</sup> | 243 = 3<sup>5</sup> | … | 3<sup>n</sup> |\n| Shaded area (s<sub>n</sub>) | 1 | 34 | 3<sup>2</sup>4 | 3<sup>3</sup>4 | 3<sup>4</sup>4 | 3<sup>5</sup>4 | … | 3n4 |",
+          "captions": [
+            {
+              "bbox": [
+                0.458,
+                0.185,
+                0.54,
+                0.203
+              ],
+              "content": "Table 1"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_16_table_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.401,
+            0.88,
+            0.475
+          ],
+          "content": "The explicit formula for the number of black triangles and the area of the black region at any stage is given by $t_{n} = 3^{n}$ and $s _ { _ n } = \\left( \\frac { 3 } { 4 } \\right) ^ { n }$ respectively. The recursive rules for the same are"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.149,
+            0.476,
+            0.758,
+            0.504
+          ],
+          "content": "t_{1}=1, t_{n}=3 \\times t_{n-1} \\text { for } n \\geq 2 \\text { and } s_{1}=1, s_{n}=\\frac{3}{4} \\times s_{n-1} \\text { for } n \\geq 2.",
+          "image_source": "images/page_16_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.119,
+            0.525,
+            0.579,
+            0.799
+          ],
+          "content": "**Fractals** are shapes or patterns that repeat themselves at different scales. This means that if you zoom in on a small part of a fractal, it looks similar to the whole! Fractals are found throughout nature — like in the branching of trees, in vegetables, such as cauliflower or broccoli, in the shape of snowflakes, or in the patterns of coastlines. They can be created using simple rules but can form very complex and beautiful designs. Fractals help us understand patterns in nature, and also lead us to important <u>concepts in mathematics.</u>"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.599,
+            0.552,
+            0.881,
+            0.652
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_16_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.597,
+            0.66,
+            0.883,
+            0.751
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.707,
+                0.755,
+                0.775,
+                0.772
+              ],
+              "content": "Fig. 8.8"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_16_image_9.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.829,
+            0.387,
+            0.852
+          ],
+          "level": 2,
+          "content": "8.6.2 Visualising a GP"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.859,
+            0.886,
+            0.9
+          ],
+          "content": "Let us revisit the growing pattern of squares in Fig. 8.6 and prepare a table that shows the number of green squares at each stage."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 16,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

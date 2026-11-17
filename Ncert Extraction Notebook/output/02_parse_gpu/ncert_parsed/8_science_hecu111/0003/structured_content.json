@@ -1,0 +1,161 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.126,
+            0.086,
+            0.808,
+            0.109
+          ],
+          "content": "~~Table 11.1: Documenting changes in~~ the Moon’s appearance"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.092,
+            0.116,
+            0.88,
+            0.393
+          ],
+          "content": "| Day | Date | Moon seen at | Appearance of the Moon in the sky | Size of the bright portion compared to the previous day | Moon and Sun separation in the sky compared to the previous day |\n| --- | --- | --- | --- | --- | --- |\n| 1. |  | Sunrise/Sunset |  | - | - |\n| 2. |  | Sunrise/Sunset |  | IDneccrreeaasseedd/ | Closer/Farther |\n| 3. |  | Sunrise/Sunset |  | IDneccrreeaasseedd/ | Closer/Farther |\n|  |  |  |  |  |  |",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.253,
+                0.402,
+                0.883,
+                0.48
+              ],
+              "content": "Analyse the data recorded by you in Table 11.1. Did the Moon appear different each day? Was the Moon visible on all days? Did the Moon appear at the same position in the sky as on the previous day?"
+            }
+          ],
+          "image_source": "images/page_2_table_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.049,
+            0.489,
+            0.506,
+            0.841
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.069,
+                0.846,
+                0.492,
+                0.878
+              ],
+              "content": "Fig. 11.2: Waxing (Shukla Paksha) and waning period (Krishna Paksha) of the Moon as viewed from the Earth"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_2_image_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.516,
+            0.489,
+            0.815,
+            0.508
+          ],
+          "level": 2,
+          "content": "11.1.1 Phases of the Moon"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.514,
+            0.512,
+            0.885,
+            0.808
+          ],
+          "content": "You may have observed that the bright portion of the Moon decreases from a full circle to a half circle in about a week, as shown in Fig. 11.2. The bright portion continues to shrink for another week until it is no longer visible. This two-week period is called the **waning** period of the Moon. Different names are given to the Moon’s visible shapes during this cycle (Fig. 11.2). The day when the Moon appears as a full bright circle is called the **full Moon** day (or Purnima), and the day when it is not visible is called the **new Moon** day (or Amavasya)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.514,
+            0.808,
+            0.885,
+            0.902
+          ],
+          "content": "After the new Moon, its bright side grows to a half circle in about a week and to a full circle (full Moon) in another week. The period when the bright part of the Moon increases is called the"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.0,
+            0.926,
+            0.161,
+            1.0
+          ],
+          "content": "172"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.165,
+            0.947,
+            0.492,
+            0.964
+          ],
+          "content": "— Textbook of Science for Grade 8"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-06-28T18:04:18+05:30",
+      "modified_at": "2026-03-24T12:21:11+05:30",
+      "creator_application": "Adobe InDesign 20.0 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

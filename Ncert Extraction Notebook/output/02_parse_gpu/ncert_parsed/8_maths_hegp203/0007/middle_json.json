@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T16:36:20+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.65,
+            0.049,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Proportional Reasoning–2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.114,
+            0.088,
+            0.67,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ How do we mark the different slices of the pie chart?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.15,
+            0.113,
+            0.847,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To mark a slice in the pie chart, the angle corresponding to a grade should be proportional to the number of students who have scored that grade. The total angle in a circle is 360°. So, we need to divide 360 in the ratio of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 : 1 0 : 8 : \\bar { 6 } : 4 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.189,
+            0.595,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can we reduce this ratio to its simplest form?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.214,
+            0.847,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We can use the same procedure we used to reduce a ratio with two terms to its simplest form. We divide all the terms by their HCF to get the simplest form."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.27,
+            0.846,
+            0.307
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In this example, 2 is the HCF of the terms. We get the simplest form by dividing all the terms by 2. The ratio becomes 6 : 5 : 4 : 3 : 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.176,
+            0.307,
+            0.358,
+            0.326
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the angles are:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.234,
+            0.339,
+            0.79,
+            0.368
+          ],
+          "image_path": "images/page_6_equation_7.jpg",
+          "content": "\\mathrm{Grade}A=\\frac{6}{(6+5+4+3+2)}\\times360^{\\circ}=\\frac{6}{20}\\times360^{\\circ}=6\\times18=108^{\\circ}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.234,
+            0.376,
+            0.673,
+            0.404
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grade "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{B}=\\frac{5}{(6+5+4+3+2)} \\times 360^{\\circ}=5 \\times 18=90^{\\circ}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.235,
+            0.409,
+            0.454,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grade C = 4 × 18 = 72°."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.235,
+            0.44,
+            0.456,
+            0.459
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grade D = 3 × 18 = 54°."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.235,
+            0.471,
+            0.452,
+            0.49
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Grade "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb{E} = 2 \\times 18 = 36^{\\circ}."
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.503,
+            0.649,
+            0.523
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us construct a pie chart using these angles."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.159,
+            0.537,
+            0.485,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1: Draw a circle and mark the radius AB as shown below:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 14,
+          "bbox": [
+            0.311,
+            0.576,
+            0.378,
+            0.62
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 14,
+              "bbox": [
+                0.311,
+                0.576,
+                0.378,
+                0.62
+              ],
+              "image_path": "images/page_6_image_14.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.489,
+            0.537,
+            0.816,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2: To draw the slice to represent the proportion of students who got an A grade, measure 108° from the segment AB on A (anti-clockwise), and mark the new radius AC."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.166,
+            0.664,
+            0.471,
+            0.875
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.166,
+                0.664,
+                0.471,
+                0.875
+              ],
+              "image_path": "images/page_6_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.498,
+            0.663,
+            0.814,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.498,
+                0.663,
+                0.814,
+                0.879
+              ],
+              "image_path": "images/page_6_image_17.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 18,
+          "bbox": [
+            0.876,
+            0.914,
+            0.911,
+            0.935
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "61"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,208 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.595,
+            0.047,
+            0.847,
+            0.064
+          ],
+          "content": "Parallel and Intersecting Lines"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.09,
+            0.385,
+            0.113
+          ],
+          "level": 2,
+          "content": "5.5 Transversals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.123,
+            0.848,
+            0.162
+          ],
+          "content": "We saw what happens when two lines intersect in different ways. Let us explore what happens when one line intersects two different lines."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.383,
+            0.169,
+            0.615,
+            0.322
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.463,
+                0.331,
+                0.537,
+                0.346
+              ],
+              "content": "Fig. 5.14"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_9_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.355,
+            0.845,
+            0.395
+          ],
+          "content": "In Fig. 5.14, line t intersects lines l and m. t is called a **transversal**. Notice that 8 angles are formed when a line crosses a pair of lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.402,
+            0.847,
+            0.442
+          ],
+          "content": "Is it possible for all the eight angles to have different measurements? Why, why not?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.461,
+            0.655,
+            0.485
+          ],
+          "level": 2,
+          "content": "What about five different angles — 6, 5, 4, 3 and 2?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.493,
+            0.848,
+            0.568
+          ],
+          "content": "In Fig. 5.14, since ∠1 and ∠3 are vertically opposite angles, they are equal. Are there other pairs of vertically opposite angles? We can see that there are a total of four pairs of vertically opposite angles and in each pair, the angles are equal to each other."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.567,
+            0.847,
+            0.606
+          ],
+          "content": "Thus, when a transversal intersects two lines, it forms eight angles with a maximum of four distinct angle measures."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.628,
+            0.512,
+            0.654
+          ],
+          "level": 2,
+          "content": "5.6 Corresponding Angles"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.662,
+            0.848,
+            0.774
+          ],
+          "content": "In Fig. 5.14, we notice that the transversal t forms two sets of angles — one with line l and another with line m. There are angles in the first set that correspond to angles in the second set based on their position. ∠1 and $\\angle 5$ are called **corresponding angles**. Similarly, ∠2 and ∠6, ∠3 and ∠7, ∠4 and ∠8 are the corresponding angles formed when transversal t intersects lines l and m."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.783,
+            0.259,
+            0.804
+          ],
+          "level": 2,
+          "content": "Activity 3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.802,
+            0.848,
+            0.841
+          ],
+          "content": "Draw a pair of lines and a transversal such that they form two distinct angles."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.938,
+            0.847,
+            0.955
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:45+05:30",
+      "modified_at": "2026-04-07T17:15:45+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

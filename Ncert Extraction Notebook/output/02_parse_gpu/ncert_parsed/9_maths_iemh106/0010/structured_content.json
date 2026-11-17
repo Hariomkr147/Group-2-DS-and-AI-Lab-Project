@@ -1,0 +1,216 @@
+{
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.479,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Measuring Space: Perimeter and Area"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.844,
+            0.068,
+            0.884,
+            0.084
+          ],
+          "content": "127"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.204
+          ],
+          "content": "Fig. 6.11 depicts a 400 m athletics track. You can see two straight sections of length 84.39 m each, and two curved portions, which are semicircles with a common centre (points A and B); the innermost semicircle on each side has radius 36.5 m. The width of each lane is 1.22 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.204,
+            0.885,
+            0.244
+          ],
+          "content": "Let an athlete make one complete circuit of the track. What is the total distance she runs?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.141,
+            0.251,
+            0.886,
+            0.29
+          ],
+          "content": "• Let us assume that she runs at a distance of 0.3 m from the inner border."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.298,
+            0.886,
+            0.338
+          ],
+          "content": "She runs two straight sections of length 84.39 m each, a total of 168.78 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.345,
+            0.88,
+            0.366
+          ],
+          "content": "• She also runs two semicircles of radius (36.5 + 0.3) m, i.e., 36.8 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.374,
+            0.79,
+            0.395
+          ],
+          "content": "• The two semicircles together make up a complete circle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.402,
+            0.848,
+            0.422
+          ],
+          "content": "• Its circumference is $2 \\times \\pi \\times 36.8 = 2 \\times 3.1416 \\times 36.8 = 231.22   m$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.142,
+            0.429,
+            0.884,
+            0.468
+          ],
+          "content": "The total distance run by the athlete is therefore 168.78 + 231.22 = 400 m."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.477,
+            0.886,
+            0.576
+          ],
+          "content": "Now consider two runners, one in the innermost lane, the other in the second lane. On the straight stretch the two runners run the same distance. But on the curved portions the runner in the second lane runs a greater distance, because her semicircle has a larger radius. It is to compensate for this that staggers are needed."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.594,
+            0.399,
+            0.618
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.631,
+            0.855,
+            0.69
+          ],
+          "content": "What is the difference in radius between the first and second lanes? Use the Fig. 6.11 to find the stagger needed by the runner in the second lane. Will an equal stagger be needed between the third and second lanes?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.724,
+            0.852,
+            0.746
+          ],
+          "level": 2,
+          "content": "6.5 Problems, Puzzles, and Paradoxes on Perimeter"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.756,
+            0.885,
+            0.797
+          ],
+          "content": "We close this section by looking at a sprinkling of interesting problems around the theme of perimeter."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.802,
+            0.885,
+            0.841
+          ],
+          "content": "**Example 1**: Two circles of equal radius are located such that each circle passes through the centre of the other circle (Fig. 6.12)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.841,
+            0.886,
+            0.9
+          ],
+          "content": "Given that the radius of each circle is r units, find the perimeter of the shape formed by the two circles in terms of r units. (Ignore the dotted portions that lie within the circles.)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.089,
+            0.272,
+            0.107
+          ],
+          "content": "We have,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.426,
+            0.108,
+            0.581,
+            0.127
+          ],
+          "content": "\\mathrm{AB} = \\mathrm{AC}   ( given )",
+          "image_source": "images/page_17_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.316,
+            0.127,
+            0.707,
+            0.145
+          ],
+          "content": "∠ADB = ∠ADC = 90° (from construction)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.227,
+            0.146,
+            0.793,
+            0.165
+          ],
+          "content": "AD is a common side of the two triangles $\\Delta \\mathrm { A D B }$ and $\\Delta \\mathrm { A D C }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.362,
+            0.171,
+            0.635,
+            0.309
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.316,
+            0.847,
+            0.373
+          ],
+          "content": "Thus, the triangles satisfy the RHS condition. Hence, $\\Delta  ADB \\cong \\Delta  ADC$ This shows that $\\angle \\mathrm{B} = \\angle \\mathrm{C},$ as they are corresponding parts of congruent triangles."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.373,
+            0.662,
+            0.394
+          ],
+          "content": "Thus, the angles opposite to equal sides are equal."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.402,
+            0.546,
+            0.425
+          ],
+          "content": "Can you use this fact to find $\\angle \\mathrm { B }$ and $\\angle C ?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.442,
+            0.563,
+            0.464
+          ],
+          "content": "**Angles in an Equilateral Triangle**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.468,
+            0.845,
+            0.489
+          ],
+          "content": "Equilateral triangles are those in which all the sides have equal lengths."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.497,
+            0.513,
+            0.521
+          ],
+          "content": "What can we say about their angles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.53,
+            0.846,
+            0.569
+          ],
+          "content": "We can use the recently discovered fact that angles opposite to equal sides are equal."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.39,
+            0.569,
+            0.607,
+            0.709
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.722,
+            0.572,
+            0.741
+          ],
+          "content": "The sides AB and AC are equal. $\\mathrm{SO} \\angle \\mathrm{B} = \\angle \\mathrm{C}.$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.391,
+            0.747,
+            0.608,
+            0.889
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_15.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.188,
+            0.95
+          ],
+          "content": "18"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

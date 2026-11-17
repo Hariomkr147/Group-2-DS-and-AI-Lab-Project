@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:58:50+05:30",
+      "modified_at": "2026-04-22T18:46:34+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 20,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 20,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.144,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "88"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.184,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.112,
+            0.108,
+            0.885,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For factoring "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 2 } + 8 x + 1 5"
+            },
+            {
+              "type": "text",
+              "content": " , we need a and b such that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b = 8"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a b = 1 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.111,
+            0.149,
+            0.885,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\; = \\; 3"
+            },
+            {
+              "type": "text",
+              "content": " and b = 5 is one possibility. The possible length and breadth of Saira’s rectangle in terms of x are: length = x + 5 units and breadth "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= x + 3"
+            },
+            {
+              "type": "text",
+              "content": " units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.207,
+            0.656,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now draw Saira’s rectangle using these pieces."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.232,
+            0.885,
+            0.29
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 18:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A rectangular pool is such that its breadth is 4 metres less than its length and its area is 96 sq. metres. Find the length and breadth of the pool."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.29,
+            0.884,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let the length of the pool be x metres. Then the breadth of the pool is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - 4"
+            },
+            {
+              "type": "text",
+              "content": " metres."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.148,
+            0.329,
+            0.821,
+            0.348
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the area is given to be 96 sq. metres, we get x(x – 4) = 96."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.356,
+            0.352,
+            0.677,
+            0.371
+          ],
+          "image_path": "images/page_20_equation_8.jpg",
+          "content": "x^{2}-4x=96\\mathrm{~or~}x^{2}-4x-96=0."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.377,
+            0.884,
+            0.417
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We choose appropriate factors of – 96 to split the term –4x. We know that, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(-12) \\times 8 = 96   and   (-12) + 8 = -4."
+            },
+            {
+              "type": "text",
+              "content": " Hence – 4x can be written as –12x + 8x ."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.115,
+            0.423,
+            0.878,
+            0.442
+          ],
+          "image_path": "images/page_20_equation_10.jpg",
+          "content": "x^{2}-4x-96=x^{2}-12x+8x-96=x(x-12)+8(x-12)=(x-12)(x+8)=0."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.148,
+            0.449,
+            0.698,
+            0.469
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x^{2}-4x-96=0"
+            },
+            {
+              "type": "text",
+              "content": " implies that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(x - 12)(x + 8) = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.148,
+            0.475,
+            0.58,
+            0.493
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This means either "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - 12 = 0 \\\\ 0 \\bar{x} + 8 = 0"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.499,
+            0.886,
+            0.56
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, x = 12 or x = –8. Since x is the length of the pool, it cannot be negative. Therefore, we ignore x = –8 and x = 12 metres must be the length of the pool. The breadth of the pool "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x - 4 = 12 - 4 = 8"
+            },
+            {
+              "type": "text",
+              "content": " metres."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.301,
+            0.585,
+            0.692,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "End-of-Chapter Exercises"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.169,
+            0.633,
+            0.763,
+            0.87
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use suitable identities to find the following products: (i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(-3x + 4)^{2}"
+            },
+            {
+              "type": "text",
+              "content": " (ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( 2 s + 7 \\right) \\left( 2 s - 7 \\right)"
+            },
+            {
+              "type": "text",
+              "content": " (iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left(p^{2}+\\frac{1}{2}\\right)\\left(p^{2}-\\frac{1}{2}\\right)"
+            },
+            {
+              "type": "text",
+              "content": " (iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 n + 7 )   ( 2 n - 7 )"
+            },
+            {
+              "type": "text",
+              "content": " (v) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(s - 2t)\\left(s^{2} + 2st + 4t^{2}\\right)"
+            },
+            {
+              "type": "text",
+              "content": " (vi) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( { \\frac { 1 } { 2 r } }   -   4 r \\right) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " (vii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( - 3 m + 4 k - l ) ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " (viii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( x   -   { \\frac { 1 } { 3 } } y \\right) ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " (ix) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( { \\frac { 7 } { 2 } } k   -   { \\frac { 2 } { 3 } } m \\right) ^ { 3 }"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.818,
+            0.569,
+            0.904,
+            0.622
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.818,
+                0.569,
+                0.904,
+                0.622
+              ],
+              "image_path": "images/page_1_image_0.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.088,
+            0.846,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Write the following fractions as a sum of fractions and also as decimals:"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.154,
+            0.124,
+            0.844,
+            0.554
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.154,
+                0.124,
+                0.844,
+                0.554
+              ],
+              "image_path": "images/page_1_table_3.jpg",
+              "content": "<table><tbody><tr><td>Fraction</td><td>Expanding the Numerator</td><td>Sum of one-tenths, one-hundredths, one-thousands,...</td><td>Decimals</td></tr><tr><td>2541000</td><td>1200000 +10 5000 +10 400=1 20 +10 50 +10 400</td><td>0.2 + 0.05 + 0.004</td><td>0.254</td></tr><tr><td>84710000</td><td></td><td></td><td></td></tr><tr><td>173100</td><td></td><td></td><td></td></tr><tr><td>231000</td><td></td><td></td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.111,
+            0.574,
+            0.815,
+            0.662
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "? Can you give a simple rule to divide any number by a number of the form 1 followed by zeroes — 10, 100, 1000, etc.? For example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ \\frac { 1 2 3 } { 1 0 } } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 2 4 } { 1 0 0 }   \\mathrm { o r }   \\frac { 6 7 8 } { 1 0 0 0 }   ?"
+            },
+            {
+              "type": "text",
+              "content": " Look for a pattern in the previous problems."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.151,
+            0.671,
+            0.73,
+            0.692
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here is one such rule. Let us consider the example "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 2 3 \\div 1 0 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.695,
+            0.837,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Write the dividend as it is and place a decimal point at the end. 123."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.151,
+            0.744,
+            0.636,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Count the number of zeroes in the divisor."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.224,
+            0.768,
+            0.356,
+            0.789
+          ],
+          "image_path": "images/page_1_equation_8.jpg",
+          "content": "10 \\to 1    zero"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.792,
+            0.848,
+            0.833
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Move the decimal point from Step 1 left by the same number of places as the count from Step 2. Add zeroes in front if needed."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 10,
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "68"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

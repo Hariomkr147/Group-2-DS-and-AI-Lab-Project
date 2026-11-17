@@ -1,0 +1,144 @@
+{
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.611,
+            0.068,
+            0.815,
+            0.086
+          ],
+          "content": "The World of Numbers"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.856,
+            0.069,
+            0.883,
+            0.084
+          ],
+          "content": "67"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.108,
+            0.886,
+            0.19
+          ],
+          "content": "**Brahmagupta’s Laws** provided the first rigorous framework for arithmetic with signed numbers, establishing rules such as ‛the product of two debts is a fortune’ $( - \\times - = + )$ , as well as the rules for zero."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.198,
+            0.885,
+            0.292
+          ],
+          "content": "**Rational Numbers** (Q) are defined as any number that can be expressed as a ratio $\\frac { p } { q }$ (where p and $q$ are integers and $q \\neq 0 )$ Brahmagupta also gave the formal rules for addition, subtraction, multiplication, and division of rational numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.3,
+            0.885,
+            0.342
+          ],
+          "content": "**Rational numbers** are **dense**, meaning a rational number always exists between any two other rational numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.349,
+            0.887,
+            0.514
+          ],
+          "content": "Irrational Numbers are values like $\\sqrt { 2 }$ and π that cannot be written as fractions. Their existence proves that the number line contains gaps that rational ratios alone cannot fill. The first proof of the irrationality of a number was that of $\\sqrt { 2 } ,$ , by Hippasus (c. 400 BCE). It was a proof by contradiction. A proof that π is irrational (as it was suspected to be by Āryabhaṭa in 499 CE) was given by the Swiss mathematician Johann Lambert in 1761."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.521,
+            0.886,
+            0.605
+          ],
+          "content": "**Real Numbers** (R) represent the total union of all rational and irrational numbers, forming a perfectly continuous and unbroken line where every real physical measurement has a corresponding point."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.612,
+            0.886,
+            0.697
+          ],
+          "content": "**Decimal expansions** serve as a mathematical signature for rational vs. irrational: rational numbers always result in terminating or repeating decimals, while irrational numbers produce non-repeating decimals that continue infinitely."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.154,
+            0.702,
+            0.886,
+            0.781
+          ],
+          "content": "**Cyclic Numbers**, such as the digits found in the repeating block of $\\frac { 1 } { 7 }$ (i.e., 142857), reveal the elegant and symmetrical internal patterns hidden within the rational numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.153,
+            0.787,
+            0.888,
+            0.869
+          ],
+          "content": "**Imaginary Numbers** are introduced as a final conceptual frontier to handle operations like $\\sqrt { - 1 }$ , which cannot be solved on the real number line and require a new dimension of mathematics."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

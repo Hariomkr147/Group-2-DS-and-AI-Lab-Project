@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "173"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.098,
+            0.159,
+            0.156,
+            0.178
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.399,
+            0.145,
+            0.659,
+            0.19
+          ],
+          "image_path": "images/page_2_equation_3.jpg",
+          "content": "\\overline{x}=\\frac{\\Sigma f_{i}x_{i}}{\\Sigma f_{i}}=\\frac{1779}{30}=59.3"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.203,
+            0.525,
+            0.222
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the mean marks obtained is 59.3."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.231,
+            0.902,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In most of our real life situations, data is usually so large that to make a meaningful study it needs to be condensed as grouped data. So, we need to convert given ungrouped data into grouped data and devise some method to find its mean."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.303,
+            0.903,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us convert the ungrouped data of Example 1 into grouped data by forming class-intervals of width, say 15. Remember that, while allocating frequencies to each class-interval, students falling in any upper class-limit would be considered in the next class, e.g., 4 students who have obtained 40 marks would be considered in the classinterval 40-55 and not in 25-40. With this convention in our mind, let us form a grouped frequency distribution table (see Table 13.2)."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 8,
+          "bbox": [
+            0.101,
+            0.473,
+            0.897,
+            0.553
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 7,
+              "bbox": [
+                0.441,
+                0.445,
+                0.559,
+                0.464
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Table 13.2"
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 8,
+              "bbox": [
+                0.101,
+                0.473,
+                0.897,
+                0.553
+              ],
+              "image_path": "images/page_2_table_8.jpg",
+              "content": "<table><tbody><tr><td>Class interval</td><td>10 - 25</td><td>25 - 40</td><td>40 - 55</td><td>55 - 70</td><td>70 - 85</td><td>85 - 100</td></tr><tr><td>Number of students</td><td>2</td><td>3</td><td>7</td><td>6</td><td>6</td><td>6</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.095,
+            0.571,
+            0.903,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, for each class-interval, we require a point which would serve as the representative of the whole class. It "
+            },
+            {
+              "type": "equation_inline",
+              "content": "i \\hat { s }"
+            },
+            {
+              "type": "text",
+              "content": " assumed that the frequency of each classinterval is centred around its mid-point. So the mid-point (or class mark) of each class can be chosen to represent the observations falling in the class. Recall that we find the mid-point of a class (or its class mark) by finding the average of its upper and lower limits. That is,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.238,
+            0.723,
+            0.761,
+            0.765
+          ],
+          "image_path": "images/page_2_equation_10.jpg",
+          "content": "{ \\mathrm { C l a s s ~ m a r k } } = { \\frac { { \\mathrm { U p p e r ~ c l a s s ~ l i m i t } } + { \\mathrm { L o w e r ~ c l a s s ~ l i m i t } } } { 2 } }"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.096,
+            0.776,
+            0.902,
+            0.903
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "With reference to Table 13.2, for the class 10-25, the class mark is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 0 + 2 5 } { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " , i.e., 17.5. Similarly, we can find the class marks of the remaining class intervals. We put them in Table 13.3. These class marks serve as our "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i } ^ { \\mathrm { ~ \\scriptsize ~ \\dot { ~ } } } \\mathrm { S }"
+            },
+            {
+              "type": "text",
+              "content": " . Now, in general, for the ith class interval, we have the frequency "
+            },
+            {
+              "type": "equation_inline",
+              "content": "f _ { i }"
+            },
+            {
+              "type": "text",
+              "content": " corresponding to the class mark "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x _ { i ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " We can now proceed to compute the mean in the same manner as in Example 1."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

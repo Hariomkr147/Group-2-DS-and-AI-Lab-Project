@@ -1,0 +1,252 @@
+{
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.067
+          ],
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.088,
+            0.846,
+            0.129
+          ],
+          "content": "The figure shows the first 4 matchstick arrangements along with their position numbers in the sequence."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.137,
+            0.848,
+            0.197
+          ],
+          "content": "？ Jasmine decides to make a matchstick arrangement that appears in this sequence, using exactly 99 sticks. What will be the position number of this arrangement in the sequence?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.2,
+            0.846,
+            0.239
+          ],
+          "content": "To answer this question, it is useful to know the number of matchsticks in each position."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.24,
+            0.271,
+            0.258
+          ],
+          "content": "We see that"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.263,
+            0.789,
+            0.339
+          ],
+          "content": "the arrangement at position 1 has $2 \\times (1) + 1 = 3$ matchsticks, the arrangement at position 2 has $2 \\times (2) + 1 = 5$ matchsticks, the arrangement at position 3 has $2 \\times (3) + 1 = 7$ matchsticks, and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.339,
+            0.655,
+            0.359
+          ],
+          "content": "So, the $n ^ { \\mathrm { t h } }$ position will have $2 n { \\scriptstyle + 1 }$ matchsticks."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.359,
+            0.846,
+            0.397
+          ],
+          "content": "To answer Jasmine’s question, we have to find the value of n such that $2 n + 1$ has the value 99, or,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.442,
+            0.397,
+            0.555,
+            0.415
+          ],
+          "content": "2n + 1 = 99.",
+          "image_source": "images/page_3_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.431,
+            0.746,
+            0.454
+          ],
+          "content": "Can you find ways to get the value of $n ,$ such that $2n \\div 1 = 99?$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.467,
+            0.801,
+            0.508
+          ],
+          "content": "? Is it possible to make a matchstick arrangement that appears in this sequence using exactly 200 sticks?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.425,
+            0.905,
+            0.502
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.512,
+            0.847,
+            0.569
+          ],
+          "content": "A statement of equality between two algebraic expressions is called an **equation**. Nowadays, when using symbols, we write an equation as two algebraic expressions with an equal sign ‘=’ between them."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.175,
+            0.569,
+            0.609,
+            0.588
+          ],
+          "content": "Here are some more examples of equations:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.403,
+            0.588,
+            0.594,
+            0.691
+          ],
+          "content": "\\begin{array}{c}3x + 4 = 7, \\\\20 = y - 3, \\\\\\frac{a}{3} = 50, \\\\2z + 4 = 5z - 14\\  etc .\\end{array}",
+          "image_source": "images/page_3_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.701,
+            0.849,
+            0.761
+          ],
+          "content": "The process of finding the value(s) of the letter−numbers for which the equality holds, or for which the value of the Left Hand Side (LHS) of the equation becomes equal to the Right Hand Side (RHS) of the equation,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.759,
+            0.449,
+            0.778
+          ],
+          "content": "is called **solving** the equation."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.779,
+            0.468,
+            0.874
+          ],
+          "content": "As we saw in the matchstick problem, framing an equation using an unknown quantity as a letter−number can help us find its value."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.475,
+            0.766,
+            0.876,
+            0.875
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_3_image_18.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.807,
+            0.933,
+            0.844,
+            0.95
+          ],
+          "content": "167"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

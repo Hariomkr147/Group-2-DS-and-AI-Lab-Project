@@ -1,0 +1,230 @@
+{
+  "pages": [
+    {
+      "page_idx": 36,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.193,
+            0.088,
+            0.848,
+            0.126
+          ],
+          "content": "a square such that the vertices of the inner square lie on the sides of the outer square, as shown in Figure (b)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.273,
+            0.131,
+            0.473,
+            0.289
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.356,
+                0.294,
+                0.379,
+                0.31
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_36_image_1.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.558,
+            0.136,
+            0.728,
+            0.266
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.635,
+                0.293,
+                0.661,
+                0.308
+              ],
+              "content": "(b)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_36_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.325,
+            0.724,
+            0.345
+          ],
+          "content": "**Ans**. In (a) Given CASE is a square. Let side of square be $x$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.356,
+            0.413,
+            0.389
+          ],
+          "content": "Then half of sid $\\mathbf { e } = { \\frac { x } { 2 } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.385,
+            0.622,
+            0.488
+          ],
+          "content": "In right ∆CUV, $\\mathrm{UV}^{2}=\\mathrm{CU}^{2}+\\mathrm{CV}^{2}=\\frac{x^{2}}{4}+\\frac{x^{2}}{4}=\\frac{x^{2}}{2}$ So $\\mathrm { U V = } { \\frac { 1 } { \\sqrt { 2 } } } x$ Similarly, $\\left[ \\mathrm{UX} = \\mathrm{XW} = \\mathrm{VW} = \\frac{1}{\\sqrt{2}} x \\right]$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.493,
+            0.56,
+            0.573
+          ],
+          "content": "Now, In ∆CUV, $\\angle C = 90^{\\circ}$ and $\\mathrm{CU} = \\mathrm{CV}$ So, $\\angle 1 = \\angle 2 = 45^{\\circ}$ or $\\angle 3 = \\angle 4 = 45^{\\circ}$ So, $\\angle 1 + \\angle 3 + \\angle 5 = 180^{\\circ}$ (Linear Pair) $\\angle 5 = 90^{\\circ}$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.644,
+            0.369,
+            0.844,
+            0.526
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.728,
+                0.533,
+                0.751,
+                0.547
+              ],
+              "content": "(a)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_36_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.203,
+            0.573,
+            0.486,
+            0.592
+          ],
+          "content": "Similarly, $\\angle 6 = \\angle 7 = \\angle 8 = 90^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.201,
+            0.593,
+            0.845,
+            0.633
+          ],
+          "content": "In quadrilateral UXWV, all sides and angles are equal (90°) so UXWN is square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.642,
+            0.847,
+            0.699
+          ],
+          "content": "8. If a quadrilateral has four equal sides and one angle of $[ 9 0 ^ { \\circ }$ , will it be a square? Find the answer using geometric reasoning as well as by construction and measurement."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.706,
+            0.426,
+            0.726
+          ],
+          "content": "**Ans**. Yes it will be a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.199,
+            0.732,
+            0.846,
+            0.813
+          ],
+          "content": "A quadrilateral with four equal sides is a rhombus. In a rhombus opposite angles are equal and adjacent angles are supplementary . One angle is $9 0 ^ { \\circ }$ then adjacent angle and opposite angle will be $9 0 ^ { \\circ }$ All four angles are equal to $9 0 ^ { \\circ }$ . So it is a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.821,
+            0.846,
+            0.88
+          ],
+          "content": "9. What type of a quadrilateral is one in which the opposite sides are equal? Justify your answer. **Hint:** Draw a diagonal and check for congruent triangles."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.867,
+            0.926,
+            0.881,
+            0.94
+          ],
+          "content": "7"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 36,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

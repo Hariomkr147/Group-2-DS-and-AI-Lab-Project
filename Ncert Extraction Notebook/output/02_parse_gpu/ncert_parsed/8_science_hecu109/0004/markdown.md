@@ -1,0 +1,33 @@
+You might have observed that, initially, the salt completely dissolves in the water, forming a solution. After adding a few more spoons of salt, a stage comes when the added salt does not dissolve completely and the undissolved salt settles at the bottom. This indicates that the water can no longer dissolve any more salt because it has reached its limit. The solution in which more solute can be dissolved at a given temperature, is called an **unsaturated solution** (Fig. 9.5). However, when the solute stops dissolving and begins to settle at the bottom, the solution is called a **saturated solution** at that particular temperature (Fig. 9.6).
+
+![](images/page_3_image_3.jpg)
+
+The amount of solute present in a fixed quantity of solution (or solvent) is termed as its **concentration**. Depending upon the amount of solute present in a fixed quantity of solution, it can be called a **dilute solution** (less amount of solute) or a **concentrated solution** (more amount of solute). Dilute and concentrated are relative terms.
+
+Fig. 9.5: Unsaturated solution
+
+So, one can say in Activity 9.1, the solution obtained by dissolving one spoon of salt is dilute as compared to that obtained by dissolving two or more spoons of salt.
+
+![](images/page_3_image_7.jpg)
+
+Can you now **reflect** — which solution is more concentrated; 2 spoons of salt in 100 mL of water or 4 spoons of salt in 50 mL of water?
+
+Fig. 9.6: Saturated solution
+
+We can say that the maximum amount of solute that dissolves in a fixed quantity of the solvent is called its **solubility**.
+
+Does temperature affect the solubility of a solute? Let us find out!
+
+## 9.2.1 How does temperature affect the solubility of a solute?
+
+## Activity 9.2: Let us experiment (Demonstration activity)
+
+z Take about 50 mL of water in a glass beaker and **measure** its temperature using a laboratory thermometer, say $2 0 \; ^ { \circ } \mathrm { C } ,$
+
+Add a spoonful of baking soda (sodium hydrogen carbonate) to the water and stir until it dissolves. Continue adding small amounts of baking soda while stirring, till some solid baking soda is left undissolved at the bottom of the beaker.
+
+## Safety first
+
+Be careful while using the heating device.
+
+![](images/page_3_image_18.jpg)

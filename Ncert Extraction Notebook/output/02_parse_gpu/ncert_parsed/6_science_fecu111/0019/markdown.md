@@ -1,0 +1,19 @@
+We use many natural resources in our everyday life. Let us identify some resources that we use by performing Activity 11.6.
+
+## Activity 11.6: Let us make a list of natural
+
+## resources used
+
+Make a list of activities you do in your daily life and write down the natural resources used directly or indirectly for each activity. In Table 11.4, some items are already filled in. Using them as a guide, fill the remaining blank rows.
+
+Table 11.4: Natural resources used
+
+<table><tr><td>Activity</td><td>Natural resource</td></tr><tr><td>Washing clothes</td><td>Water</td></tr><tr><td>Making clay toys</td><td></td></tr><tr><td>Collecting firewood</td><td></td></tr><tr><td>Making kites</td><td></td></tr><tr><td>Having breakfast</td><td></td></tr><tr><td colspan="2"></td></tr></table>
+
+How many natural resources did you list? Compare your list with that of your friend.
+
+You and your friends have listed many natural resources that we use everyday. These resources are air, water, soil, and food from plants and animals. We get these resources from nature and also make things using them for our consumption. Therefore, we must conserve our natural resources and use them responsibly without wasting them. This way, we can continue to fulfill our present needs while also saving for the future, without harming the environment.
+
+“Earth provides enough to satisfy every man’s need but not for every man’s greed.”
+
+– M. K. Gandhi

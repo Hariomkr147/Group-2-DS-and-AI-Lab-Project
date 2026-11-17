@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.138,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "110"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.152,
+            0.898,
+            0.193
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, the coordinates of the points of trisection of the line segment joining A and B are (−1, 0) and (− 4, 2)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.096,
+            0.2,
+            0.899,
+            0.241
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note : We could also have obtained Q by noting that it is the mid-point of PB. So, we could have obtained its coordinates using the mid-point formula."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.255,
+            0.899,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 9 : Find the ratio in which the y-axis divides the line segment joining the points (5, – 6) and (–1, – 4). Also find the point of intersection."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.304,
+            0.898,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : Let the ratio be k : 1. Then by the section formula, the coordinates of the point which divides AB in the ratio k : 1 are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left( \\frac{-k + 5}{k + 1}, \\frac{-4k - 6}{k + 1} \\right)"
+            },
+            {
+              "type": "text",
+              "content": " ed"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.392,
+            0.835,
+            0.411
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This point lies on the y-axis, and we know that on the y-axis the abscissa is 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.437,
+            0.205,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.386,
+            0.425,
+            0.508,
+            0.466
+          ],
+          "image_path": "images/page_11_equation_8.jpg",
+          "content": "\\frac { - k + 5 } { k + 1 } = 0"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.098,
+            0.481,
+            0.135,
+            0.498
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.444,
+            0.479,
+            0.508,
+            0.498
+          ],
+          "image_path": "images/page_11_equation_10.jpg",
+          "content": "k \\equiv 5"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.098,
+            0.505,
+            0.898,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "That is, the ratio is 5 : 1. Putting the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "k = 5 ,"
+            },
+            {
+              "type": "text",
+              "content": " we get the point of intersection as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left(0, \\frac{-13}{3}\\right)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.595,
+            0.9,
+            0.638
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 10 : If the points A(6, 1), B(8, 2), C(9, 4) and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { D } ( p , 3 )"
+            },
+            {
+              "type": "text",
+              "content": " are the vertices of a parallelogram, taken in order, find the value of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left[ p \\right]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.096,
+            0.645,
+            0.788,
+            0.665
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : We know that diagonals of a parallelogram bisect each other."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.096,
+            0.673,
+            0.862,
+            0.693
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the coordinates of the mid-point of AC = coordinates of the mid-point of BD"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.098,
+            0.721,
+            0.139,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.312,
+            0.706,
+            0.645,
+            0.752
+          ],
+          "image_path": "images/page_11_equation_16.jpg",
+          "content": "\\left( \\frac{6 + 9}{2}, \\frac{1 + 4}{2} \\right) = \\left( \\frac{8 + p}{2}, \\frac{2 + 3}{2} \\right)"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.098,
+            0.786,
+            0.138,
+            0.804
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.377,
+            0.769,
+            0.608,
+            0.814
+          ],
+          "image_path": "images/page_11_equation_18.jpg",
+          "content": "\\left( \\frac{15}{2}, \\frac{5}{2} \\right) = \\left( \\frac{8 + p}{2}, \\frac{5}{2} \\right)"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.098,
+            0.848,
+            0.131,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SO,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.429,
+            0.831,
+            0.555,
+            0.873
+          ],
+          "image_path": "images/page_11_equation_20.jpg",
+          "content": "\\left[ { \\frac { 1 5 } { 2 } } = { \\frac { 8 + p } { 2 } } \\right]"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.098,
+            0.883,
+            0.138,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.443,
+            0.882,
+            0.508,
+            0.902
+          ],
+          "image_path": "images/page_11_equation_22.jpg",
+          "content": "p = 7"
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

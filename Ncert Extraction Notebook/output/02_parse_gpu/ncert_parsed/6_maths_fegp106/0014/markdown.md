@@ -1,0 +1,25 @@
+![](images/page_13_image_0.jpg)
+
+c. If you take a rectangle of area 32 sq cm, what will your answers be? Given any area, is it possible to predict the shape of the rectangle with the greatest perimeter as well as the least perimeter? Give examples and reasons for your answer.
+
+## 6.3 Area of a Triangle
+
+Draw a rectangle on a piece of paper and draw one of its diagonals. Cut the rectangle along that diagonal and get two triangles.
+
+Check! whether the two triangles overlap each other exactly. Do they have the same area?
+
+Try this with more rectangles having different dimensions. You can check this for a square as well.
+
+Can you draw any inferences from this exercise? Please write it here.
+
+Now, see the figures below. Is the area of the blue rectangle more or less than the area of the yellow triangle? Or is it the same? Why?
+
+![](images/page_13_image_9.jpg)
+
+Can you see some relationship between the blue rectangle and the yellow triangle and their areas? Write the relationship here.
+
+## Teacher’s Note
+
+Help students in articulating their inferences and in defining the relationships they have observed in their own words, gradually leading to a common statement for whole classroom. Recall the definition of a diagonal in the classroom.
+
+Draw suitable triangles on grid paper to verify your inferences and relationships observed in the above exercises.

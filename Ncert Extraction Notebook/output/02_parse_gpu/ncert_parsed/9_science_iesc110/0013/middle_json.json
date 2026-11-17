@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "ar-SA"
+      ],
+      "created_at": "2026-04-03T20:04:36+05:30",
+      "modified_at": "2026-05-13T10:46:25+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.223,
+            0.088,
+            0.65,
+            0.225
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As sound wave travels away from its source, it spreads over a larger area (Fig. 10.21). Since the energy must be conserved, the same amount of energy is now spread over a larger area. Hence, the intensity decreases with distance from the source. Sounds produced with initial larger amplitude carry more energy and can travel a larger distance before intensity reduces to zero."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 1,
+          "bbox": [
+            0.658,
+            0.089,
+            0.885,
+            0.192
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 1,
+              "bbox": [
+                0.658,
+                0.089,
+                0.885,
+                0.192
+              ],
+              "image_path": "images/page_12_image_1.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 2,
+              "bbox": [
+                0.658,
+                0.198,
+                0.91,
+                0.228
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 10.21: Sound energy spreading over a larger area with distance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.224,
+            0.233,
+            0.47,
+            0.252
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10.6.3 Speed of Sound"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.223,
+            0.255,
+            0.89,
+            0.341
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The speed of sound describes how fast sound waves propagate through a medium. In terms of compressions and rarefactions, one can think of speed as how fast these density disturbances propagate through the medium. The "
+            },
+            {
+              "type": "text",
+              "content": "speed of sound",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " can be defined as the distance which a point on a wave, such as a crest (or a trough), travels in unit time."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.223,
+            0.343,
+            0.89,
+            0.412
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For a sound wave of given frequency, the distance between two consecutive crests (or two consecutive troughs) is one wavelength ( λ ). This distance is covered by the disturbance in one time period (T ). Therefore, the speed of sound (v) is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.365,
+            0.414,
+            0.524,
+            0.45
+          ],
+          "image_path": "images/page_12_equation_6.jpg",
+          "content": "\\mathrm{speed} = \\frac{\\mathrm{distance}}{\\mathrm{time}}"
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.648,
+            0.416,
+            0.747,
+            0.451
+          ],
+          "image_path": "images/page_12_equation_7.jpg",
+          "content": "x = \\frac { \\pi } { T }"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.255,
+            0.452,
+            0.681,
+            0.483
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that frequency "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\hat { \\nu } \\equiv \\frac { 1 } { T }"
+            },
+            {
+              "type": "text",
+              "content": " (Eq. 10.1). Thus,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.51,
+            0.486,
+            0.887,
+            0.503
+          ],
+          "image_path": "images/page_12_equation_9.jpg",
+          "content": "\\overline { { \\upsilon } } = \\lambda \\times \\nu\\tag{10.2}"
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.405,
+            0.506,
+            0.704,
+            0.525
+          ],
+          "image_path": "images/page_12_equation_10.jpg",
+          "content": "\\mathrm { \\bar { s p e e d } = \\bar { w a v e l e n g t h } \\times \\bar { f r e q u e n c y } }"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.222,
+            0.527,
+            0.89,
+            0.596
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The speed of sound depends on the medium through which it travels. It travels fastest in solids, slower in liquids, and slowest in gases. For example, sound travels about 4 – 5 times faster in water and typically 15 – 20 times faster in solids than in the air."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.223,
+            0.598,
+            0.889,
+            0.667
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The speed of sound in air also depends on the temperature and humidity. As we increase the temperature or humidity, the speed of sound increases. For example, the speed of sound in dry air is about 331 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "0 ^ { \\mathrm { ~ o ~ } } \\mathrm { C }"
+            },
+            {
+              "type": "text",
+              "content": " and nearly 344 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { S } ^ { - 1 }"
+            },
+            {
+              "type": "text",
+              "content": " at "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar{2}\\bar{2} ^{\\circ} C ."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.022,
+            0.688,
+            0.08,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.022,
+                0.688,
+                0.08,
+                0.734
+              ],
+              "image_path": "images/page_12_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.082,
+            0.703,
+            0.179,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What if …"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "image",
+          "index": 15,
+          "bbox": [
+            0.205,
+            0.669,
+            0.27,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 15,
+              "bbox": [
+                0.205,
+                0.669,
+                0.27,
+                0.738
+              ],
+              "image_path": "images/page_12_image_15.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 16,
+          "bbox": [
+            0.277,
+            0.682,
+            0.488,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ready to Go Beyond"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.05,
+            0.737,
+            0.198,
+            0.893
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the speed of sound in air depended on its frequency? Would music still sound pleasant when a singer performs with instruments? Why or why not?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.264,
+            0.706,
+            0.866,
+            0.787
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In most media, such as air the speed of sound depends only on the medium and not the source or the frequency. If the frequency of the source changes, the wavelength of the sound wave in the medium changes, while the speed remains constant. Some special materials, such as porous foams or engineered structures can behave differently."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.223,
+            0.811,
+            0.889,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 10.2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Human hearing roughly spans 20 Hz to 20 kHz. What are the corresponding wavelengths in air for these two frequencies? Use the speed of sound in air as 344 m "
+            },
+            {
+              "type": "equation_inline",
+              "content": "S ^ { - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.224,
+            0.865,
+            0.888,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Answer:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Using the relation between wavelength ( λ ), frequency (ν ), and speed (v),"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.254,
+            0.903,
+            0.654,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "speed of the wave = frequency × wavelength"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.075,
+            0.943,
+            0.115,
+            0.96
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "196"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.133,
+            0.946,
+            0.304,
+            0.963
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Exploration|Grade 9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

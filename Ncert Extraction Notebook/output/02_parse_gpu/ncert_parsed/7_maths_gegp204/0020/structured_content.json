@@ -1,0 +1,244 @@
+{
+  "pages": [
+    {
+      "page_idx": 19,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.087,
+            0.587,
+            0.11
+          ],
+          "level": 2,
+          "content": "What are the products? What do you notice?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.112,
+            0.812,
+            0.152
+          ],
+          "content": "You get the same number back, but with the digits cycled around! Multiply 142857 by 7. What do you observe?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.156,
+            0.503,
+            0.176
+          ],
+          "content": "Are there other such numbers? Yes!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.19,
+            0.811,
+            0.231
+          ],
+          "content": "？ To find one such number, you can find 1 ÷ 17 in decimal, and use the repeating block of digits."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.827,
+            0.175,
+            0.928,
+            0.232
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.235,
+            0.849,
+            0.352
+          ],
+          "content": "Are there infinitely many such “cyclic” numbers? That is, can we keep finding more cyclic numbers, or do they eventually stop? In 1927, the Austrian mathematician Emil Artin conjectured (guessed) that there must be infinitely many such numbers. However, even today, nearly a century later, this conjecture remains unsolved—despite a lot of research on the question by many mathematicians!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.152,
+            0.368,
+            0.54,
+            0.39
+          ],
+          "level": 2,
+          "content": "Dividend, Divisor, and Quotient"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.395,
+            0.847,
+            0.453
+          ],
+          "content": "When we divide two counting numbers, the quotient is always less than the dividend. For example, $128 \\div 4 = 32$ , and 32 (quotient) < 128 (dividend)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.457,
+            0.603,
+            0.478
+          ],
+          "content": "But what happens when we divide 128 by 0.4?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.423,
+            0.481,
+            0.574,
+            0.501
+          ],
+          "content": "128 \\div 0.4 = 320.",
+          "image_source": "images/page_19_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.505,
+            0.56,
+            0.527
+          ],
+          "content": "The quotient is greater than the dividend."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.54,
+            0.801,
+            0.581
+          ],
+          "content": "Will the quotient be always greater than the dividend when the divisor is a decimal? Try it out with different values of the divisor."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.817,
+            0.533,
+            0.904,
+            0.586
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_19_image_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.591,
+            0.847,
+            0.651
+          ],
+          "content": "Describe the relationship between the dividend, divisor, and the quotient. Create a table for capturing this relationship in different situations, like we did for multiplication."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.659,
+            0.316,
+            0.684
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.161,
+            0.692,
+            0.658,
+            0.796
+          ],
+          "content": "1. Express the following fractions in decimal form: (a) $\\frac{2}{5}$ (b) $\\frac { 1 3 } { 4 }$ (c) $\\frac{4}{50}$ (d) $\\frac{5}{8}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.801,
+            0.378,
+            0.873
+          ],
+          "content": "2. Find the quotients: (a) $2 4 . 8 6 \\div 1 . 2$ (b) $5 . 7 2 8 \\div 1 . 5 2$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.16,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "86"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 19,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

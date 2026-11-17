@@ -1,0 +1,305 @@
+{
+  "pages": [
+    {
+      "page_idx": 27,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.085,
+            0.881,
+            0.12
+          ],
+          "content": "**Q.3. The time now is 10:01. How many minutes until the clock shows the next palindromic time? What about the one after that?**"
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.117,
+            0.122,
+            0.346,
+            0.139
+          ],
+          "sub_type": "code",
+          "content": "```txt\nAns. Time Now → 10:01\n```",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.141,
+            0.437,
+            0.158
+          ],
+          "content": "Next palindrome time → 11:11"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.159,
+            0.753,
+            0.176
+          ],
+          "content": "After 1 hr. 10 min = 70 min the clock will show next palindrome time."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.177,
+            0.881,
+            0.211
+          ],
+          "content": "Next palindrome time = 12:21 which will occur after 2 hr. 20 min = 140 min from 10:01."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.229,
+            0.844,
+            0.247
+          ],
+          "content": "**Q.4. How many rounds does the number 5683 take to reach the Kaprekar constant?**"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.182,
+            0.262,
+            0.882,
+            0.338
+          ],
+          "content": "| 8653 | 8550 | 9432 | 8730 | 6552 | 9963 | 6642 | 7641 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| -3568 5085 | -5058 | -2349 | -3078 | -2556 | -3699 6264 | -2466 4176 | -1467 6174 |\n|  | 3492 | 7083 | 5652 | 3996 |  |  |  |\n| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |",
+          "captions": [
+            {
+              "bbox": [
+                0.117,
+                0.248,
+                0.227,
+                0.263
+              ],
+              "content": "Ans. 5683"
+            }
+          ],
+          "footnotes": [
+            {
+              "bbox": [
+                0.178,
+                0.34,
+                0.603,
+                0.357
+              ],
+              "content": "It will take 8 rounds to reach the Kaprekar constant."
+            }
+          ],
+          "image_source": "images/page_27_table_7.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.375,
+            0.224,
+            0.392
+          ],
+          "level": 2,
+          "content": "Page no. 66"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.392,
+            0.219,
+            0.409
+          ],
+          "level": 2,
+          "content": "Section 3.8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.41,
+            0.882,
+            0.463
+          ],
+          "content": "**Q. Can we make 1,000 using the numbers in the middle? Why not? What about 14,000, 15,000 and 16,000? Yes, it is possible. Explore how. What thousands cannot be made?** Ans. No; the only number which is smaller than 1000 is 400 and 1000 is not a multiple of 400."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.179,
+            0.464,
+            0.412,
+            0.515
+          ],
+          "content": "\\begin{aligned}14000 &= 1500 \\times 8 + 400 \\times 5 \\\\&= 12000 + 2000 \\\\&= 14000\\end{aligned}",
+          "image_source": "images/page_27_equation_12.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.179,
+            0.516,
+            0.393,
+            0.567
+          ],
+          "content": "{ \\begin{array} { r l } { 1 5 0 0 0 = 1 3 0 0 0 + 4 0 0 \\times 5 } \\\\ { = 1 3 0 0 0 + 2 0 0 0 } \\\\ { = 1 5 0 0 0 } \\end{array} }",
+          "image_source": "images/page_27_equation_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.178,
+            0.569,
+            0.422,
+            0.62
+          ],
+          "content": "\\begin{aligned}16000 &= 1500 \\times 8 + 400 \\times 10 \\\\&= 12000 + 4000 \\\\&= 16000\\end{aligned}",
+          "image_source": "images/page_27_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.177,
+            0.623,
+            0.531,
+            0.64
+          ],
+          "content": "Only one thousand (1000) cannot be made."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.676,
+            0.232,
+            0.693
+          ],
+          "level": 2,
+          "content": "Figure it out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.71,
+            0.882,
+            0.765
+          ],
+          "content": "**Q.1. Write an example for each of the below scenarios whenever possible. Could you find examples for all the cases? If not, think and discuss what could be the reason. Make other such questions and challenge your classmates.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.765,
+            0.162,
+            0.78
+          ],
+          "level": 2,
+          "content": "Ans."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.783,
+            0.455,
+            0.799
+          ],
+          "content": "5 digit + 5 digit > 90,250"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.243,
+            0.8,
+            0.537,
+            0.817
+          ],
+          "content": "45,000+45,400=90,400>90,250",
+          "image_source": "images/page_27_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.82,
+            0.49,
+            0.853
+          ],
+          "content": "• 5 digit + 3 digit = 6 digit sum 99,999 + 999 = 100,998"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.213,
+            0.856,
+            0.489,
+            0.873
+          ],
+          "content": "• 4 digit + 4 digit = 6 digit sum"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.24,
+            0.873,
+            0.881,
+            0.909
+          ],
+          "content": "Not possible as even the sum of the greatest 4 digit numbers will not give a six digit sum. (9999 + 9999 = 19,998)"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.487,
+            0.926,
+            0.512,
+            0.942
+          ],
+          "content": "[9]"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:39:19+05:30",
+      "modified_at": "2026-04-07T17:39:24+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 27,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

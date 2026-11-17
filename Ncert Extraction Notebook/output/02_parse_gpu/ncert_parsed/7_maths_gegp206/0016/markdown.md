@@ -1,0 +1,33 @@
+![](images/page_15_image_0.jpg)
+
+## Figure it Out
+
+1. Use support lines in Fig. 6.11 to construct a pointed arch. Make different arches, by changing the radius of the arcs.
+
+2. Make your own arch designs.
+
+## Regular Hexagons
+
+Recall that a regular polygon has equal sides and equal angles. A regular polygon with 3 sides is an equilateral triangle, and a regular polygon with 4 sides is a square. We have constructed these figures earlier.
+
+? How do we construct a regular pentagon (5-sided figure) and a regular hexagon (6-sided figure)? To begin with, try to construct a pentagon and hexagon with equal sidelengths.
+
+![](images/page_15_image_8.jpg)
+
+To construct a regular pentagon, we first need to have a better understanding of triangles and pentagons. We will discuss this in later years. However, constructing a regular hexagon is within our reach!
+
+？ Can we break a regular hexagon into smaller pieces that can be constructed?
+
+## Regular Hexagon and Equilateral Triangles
+
+What happens when we join the ‘opposite’ points of a regular hexagon? Since a regular hexagon has equal sides and angles, can we expect a figure like this?
+
+Will all the triangles in the figure be equilateral triangles?
+
+![](images/page_15_image_14.jpg)
+
+To answer these questions, we will reverse our approach.
+
+Fig. 6.12
+
+？ Can six congruent equilateral triangles be placed together as in Fig. 6.12? If yes, will it result in a regular hexagon?

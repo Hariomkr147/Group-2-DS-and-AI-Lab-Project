@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.736,
+            0.047,
+            0.847,
+            0.063
+          ],
+          "content": "Number Play"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.089,
+            0.401,
+            0.114
+          ],
+          "level": 2,
+          "content": "6.2 Picking Parity"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.123,
+            0.848,
+            0.197
+          ],
+          "content": "Kishor has some number cards and is working on a puzzle: There are 5 boxes, and each box should contain exactly 1 number card. The numbers in the boxes should sum to 30. Can you help him find a way to do it?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.264,
+            0.199,
+            0.74,
+            0.234
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_3.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.176,
+            0.251,
+            0.824,
+            0.35
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.364,
+            0.848,
+            0.439
+          ],
+          "content": "Can you figure out which 5 cards add to 30? Is it possible? There are many ways of choosing 5 cards from this collection. Is there a way to find a solution without checking all possibilities? Let us find out."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.447,
+            0.847,
+            0.488
+          ],
+          "content": "？ Add a few even numbers together. What kind of number do you get? Does it matter how many numbers are added?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.497,
+            0.846,
+            0.536
+          ],
+          "content": "Any even number can be arranged in pairs without any leftovers. Some even numbers are shown here, arranged in pairs."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.311,
+            0.541,
+            0.658,
+            0.627
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.637,
+            0.782,
+            0.712
+          ],
+          "content": "As we see in the figure, adding any number of even numbers will result in a number which can still be arranged in pairs without any leftovers. In other words, the sum will always be an even number."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.797,
+            0.63,
+            0.838,
+            0.701
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.72,
+            0.847,
+            0.761
+          ],
+          "content": "? Now, add a few odd numbers together. What kind of number do you get? Does it matter how many odd numbers are added?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.77,
+            0.848,
+            0.809
+          ],
+          "content": "Odd numbers can not be arranged in pairs. An odd number is one more than a collection of pairs. Some odd numbers are shown below:"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.33,
+            0.822,
+            0.673,
+            0.91
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_2_image_13.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.808,
+            0.938,
+            0.845,
+            0.955
+          ],
+          "content": "129"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

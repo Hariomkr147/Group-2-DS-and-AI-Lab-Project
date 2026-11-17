@@ -1,0 +1,285 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": "Describing Motion Around Us"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.856,
+            0.018,
+            0.953,
+            0.088
+          ],
+          "content": "N 55"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.08,
+            0.777,
+            0.15
+          ],
+          "content": "The average acceleration can result from change in the magnitude of velocity or change in its direction, or both. Later in Section 4.4, we will discuss an example of acceleration resulting from only the change of direction of the motion while the speed remains constant."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.155,
+            0.404,
+            0.173
+          ],
+          "level": 2,
+          "content": "Activity 4.2: Let us calculate"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.176,
+            0.775,
+            0.242
+          ],
+          "content": "1. The magnitude of average acceleration of cars is generally specified as the time taken by the car to go from 0 km $\\mathrm { h } ^ { - 1 }$ to 100 km $\\mathrm { h } ^ { - 1 }$ . Look it up on the internet and find this time for various cars, and record those in Table 4.2."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.243,
+            0.698,
+            0.262
+          ],
+          "content": "2. Calculate the magnitude of average acceleration for each car."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.112,
+            0.289,
+            0.77,
+            0.396
+          ],
+          "content": "| Car type | Time interval during which the speed goes from 0 to 100 km h<sup>-1</sup> | Magnitude of average acceleration (m s<sup>-2</sup>) |\n| --- | --- | --- |\n|  |  |  |\n|  |  |  |\n|  |  |  |",
+          "captions": [
+            {
+              "bbox": [
+                0.152,
+                0.269,
+                0.73,
+                0.286
+              ],
+              "content": "Table 4.2: The magnitude of average acceleration in a time interval"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_table_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.405,
+            0.775,
+            0.526
+          ],
+          "content": "**Example 4.3:** A bus is moving on a long straight highway (Fig. 4.9) with a velocity of 36 km $\\mathrm { h } ^ { - 1 }$ . The driver presses the accelerator for a time interval of 10 s and velocity of the bus increases to 54 km $\\mathbf { h } ^ { - 1 } .$ . For some time, the bus moves at a constant velocity. Then, the driver notices an obstacle on the road ahead and presses the brake. The bus comes to a stop in a time interval of 5 s. Find the average acceleration in the two time intervals, (i) when the accelerator was pressed, and (ii) when the brakes were pressed."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.112,
+            0.531,
+            0.768,
+            0.611
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.262,
+                0.616,
+                0.62,
+                0.631
+              ],
+              "content": "Fig. 4.9: A bus moving on a long straight highway"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_7_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.633,
+            0.584,
+            0.65
+          ],
+          "content": "**Answer:** (i) When the driver presses the accelerator"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.651,
+            0.773,
+            0.687
+          ],
+          "content": "1000 m u = 36 km h<sup>–1</sup> = 36 × 10 m s<sup>–1</sup>, v = 54 km h<sup>–1</sup> = 15 m s<sup>–1</sup>, t = 10 s, a = ? 60×60 s"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.687,
+            0.57,
+            0.705
+          ],
+          "content": "Using Eq. (4.3c), we obtain the average acceleration"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.156,
+            0.708,
+            0.509,
+            0.745
+          ],
+          "content": "a=\\frac{15\\  m \\  s ^{-1}-10\\  m \\  s ^{-1}}{10\\  s }=\\frac{5\\  m \\  s ^{-1}}{10\\  s }=0.5\\  m \\  s ^{-2}",
+          "image_source": "images/page_7_equation_14.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.748,
+            0.775,
+            0.784
+          ],
+          "content": "Since the magnitude of velocity of the bus is increasing, the acceleration is acting in the direction of velocity."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.786,
+            0.453,
+            0.804
+          ],
+          "content": "(ii) When the driver presses the brake"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.138,
+            0.807,
+            0.556,
+            0.824
+          ],
+          "content": "u = 54\\  km \\  h ^{-1} = 15\\  m \\  s ^{-1}, \\quad \\upsilon = 0\\  m \\  s ^{-1}, \\quad t = 5\\  s , \\quad a = ?",
+          "image_source": "images/page_7_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.828,
+            0.404,
+            0.845
+          ],
+          "content": "Using Eq. (4.3c) again, we obtain"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.144,
+            0.846,
+            0.528,
+            0.883
+          ],
+          "content": "a = \\frac{0    m   s ^{-1} - 15    m   s ^{-1}}{5    s } = \\frac{-15    m   s ^{-1}}{5    s } = -3    m   s ^{-2}",
+          "image_source": "images/page_7_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.887,
+            0.775,
+            0.922
+          ],
+          "content": "The minus sign indicates that the acceleration is acting opposite to the direction of velocity (since the magnitude of velocity of the bus is decreasing)."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.807,
+            0.566,
+            0.863,
+            0.582
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.802,
+            0.583,
+            0.95,
+            0.92
+          ],
+          "content": "An object can be moving very fast and yet have zero acceleration. Acceleration depends not on how fast an object is moving, but on how quickly its velocity is changing. For example, a bus moving on a straight highway at constant velocity has zero acceleration, even though its velocity may be high."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

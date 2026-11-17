@@ -1,0 +1,338 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.1,
+            0.104,
+            0.372,
+            0.121
+          ],
+          "content": "INTRODUCTION TO TRIGONOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "119"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.159,
+            0.155,
+            0.177
+          ],
+          "content": "Then"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.422,
+            0.146,
+            0.538,
+            0.188
+          ],
+          "content": "\\frac{ AC }{ AB } = \\frac{ PR }{ PQ }",
+          "image_source": "images/page_6_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.214,
+            0.205,
+            0.232
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.421,
+            0.199,
+            0.898,
+            0.242
+          ],
+          "content": "\\frac{AC}{PR} = \\frac{AB}{PQ} = k,\\  say\\tag{1}",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.247,
+            0.412,
+            0.266
+          ],
+          "content": "Now, using Pythagoras theorem,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.271,
+            0.628,
+            0.299
+          ],
+          "content": "\\mathrm{BC} = \\sqrt{\\mathrm{AB}^2 - \\mathrm{AC}^2}",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.314,
+            0.142,
+            0.331
+          ],
+          "content": "and"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.428,
+            0.309,
+            0.629,
+            0.336
+          ],
+          "content": "\\mathrm{QR} = \\sqrt{\\mathrm{PQ}^2 - \\mathrm{PR}^2}",
+          "image_source": "images/page_6_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.349,
+            0.77,
+            0.403
+          ],
+          "content": "BC √AB2 -AC² √k2PQ2−k2PR2 k√PQ2-PR2 So, QR √PQ2- PR2 √PQ2-PR2 √PQ2-PR2 = k"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.868,
+            0.373,
+            0.898,
+            0.39
+          ],
+          "content": "(2)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.41,
+            0.357,
+            0.428
+          ],
+          "content": "From (1) and (2), we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.422,
+            0.436,
+            0.604,
+            0.479
+          ],
+          "content": "\\frac{\\mathrm{AC}}{\\mathrm{PR}} = \\frac{\\overline{\\mathrm{AB}}}{\\mathrm{PQ}} = \\frac{\\overline{\\mathrm{BC}}}{\\overline{\\mathrm{QR}}}",
+          "image_source": "images/page_6_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.488,
+            0.802,
+            0.508
+          ],
+          "content": "Then, by using Theorem 6.4, $\\Delta \\mathrm{ACB} \\sim \\Delta \\mathrm{PRQ}$ and therefore, $\\angle \\mathbf { B } = \\angle \\mathbf { Q }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.523,
+            0.595,
+            0.586
+          ],
+          "content": "Example 3 : Consider $\\Delta   \\mathrm { A C B }$ right-angled at C, in which $\\mathrm { A B } = 2 9$ units, BC = 21 units and $\\angle ABC = \\theta$ (see Fig. 8.10). Determine the values of"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.594,
+            0.3,
+            0.613
+          ],
+          "content": "(i) $\\cos ^ { 2 } \\theta + \\sin ^ { 2 } \\theta ,$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.622,
+            0.301,
+            0.641
+          ],
+          "content": "(ii) $\\cos ^ { 2 } \\theta - \\sin ^ { 2 } \\theta$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.643,
+            0.514,
+            0.898,
+            0.685
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_6_image_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.649,
+            0.399,
+            0.667
+          ],
+          "content": "Solution : In $\\Delta   \\mathrm { A C B }$ , we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.235,
+            0.679,
+            0.612,
+            0.708
+          ],
+          "content": "\\mathrm{AC} = \\sqrt[3]{\\mathrm{AB}^{2} - \\mathrm{BC}^{2}} = \\sqrt{(29)^{2} - (21)^{2}}",
+          "image_source": "images/page_6_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.722,
+            0.694,
+            0.82,
+            0.712
+          ],
+          "content": "Fig. 8.10"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.284,
+            0.722,
+            0.804,
+            0.746
+          ],
+          "content": "\\ln { \\sqrt { ( 2 9 - 2 1 ) ( 2 9 + 2 1 ) } } = { \\sqrt { ( 8 ) ( 5 0 ) } } = { \\sqrt { 4 0 0 } }   = 2 0   { \\mathrm { u n i t s } }",
+          "image_source": "images/page_6_equation_22.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.771,
+            0.136,
+            0.788
+          ],
+          "content": "So,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.181,
+            0.757,
+            0.538,
+            0.798
+          ],
+          "content": "\\sin \\theta = \\frac{AC}{AB} = \\frac{20}{29}, \\cos \\theta = \\frac{BC}{AB} = \\frac{21}{29}.",
+          "image_source": "images/page_6_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.805,
+            0.774,
+            0.851
+          ],
+          "content": "Now, (i) $\\cos ^{2}\\theta +\\sin ^{2}\\theta =\\left ( \\frac{20}{29} \\right ) ^{2} +\\left ( \\frac{21}{29} \\right ) ^{2} =\\frac{20^{2} +21^{2}}{29^{2}} =\\frac{400+441}{841} =1,$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.857,
+            0.769,
+            0.904
+          ],
+          "content": "and (ii) $\\cos ^{2}\\theta -\\sin ^{2}\\theta =\\left ( \\frac{21}{29} \\right ) ^{2} -\\left ( \\frac{20}{29} \\right ) ^{2} =\\frac{(21+20)(21-20)}{29^{2}} =\\frac{41}{841}$"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–8 (11th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–8 (11th Nov.)",
+      "description": "Chap–8 (11th Nov.)",
+      "created_at": "2022-08-17T11:54:31+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

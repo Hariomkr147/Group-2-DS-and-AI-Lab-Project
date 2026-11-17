@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.138,
+            0.047,
+            0.419,
+            0.065
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.207,
+            0.101,
+            0.515,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.204,
+                0.09,
+                0.226,
+                0.108
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "4."
+                }
+              ]
+            },
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.207,
+                0.101,
+                0.515,
+                0.33
+              ],
+              "image_path": "images/page_11_image_2.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.569,
+            0.103,
+            0.883,
+            0.33
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.569,
+                0.103,
+                0.883,
+                0.33
+              ],
+              "image_path": "images/page_11_image_3.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.175,
+            0.337,
+            0.847,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The 4-sided figure obtained (T + U + V) is in fact a square with an area equal to the sum of the areas of the two smaller squares!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.384,
+            0.217,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Why?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.175,
+            0.415,
+            0.846,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As T, U, X and W are all congruent, the sides of this new 4-sided figure all have the same length. Notice the angles."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.314,
+            0.457,
+            0.657,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.314,
+                0.457,
+                0.657,
+                0.69
+              ],
+              "image_path": "images/page_11_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.11,
+            0.693,
+            0.845,
+            0.734
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Explain why all the angles of this new 4-sided figure are right angles and so it is a square."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.15,
+            0.742,
+            0.845,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Notice that this new square has as its sidelength, the hypotenuse of the right triangle of sides a and b."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.175,
+            0.789,
+            0.566,
+            0.81
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Baudhāyana’s assertion is now clear:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.813,
+            0.848,
+            0.871
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The area of the square on the hypotenuse = the sum of the areas of T, U, and V = the sum of the areas of V, W, and X = the sum of the areas of the two given squares."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.092,
+            0.922,
+            0.13,
+            0.942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "44"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

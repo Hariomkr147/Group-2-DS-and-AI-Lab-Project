@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.174,
+            0.087,
+            0.847,
+            0.109
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, "
+            },
+            {
+              "type": "text",
+              "content": "if A is divisible by k, then all multiples of A are divisible by k.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.11,
+            0.109,
+            0.848,
+            0.151
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ 4. If a number is divisible by 12, then the number is also divisible by all the factors of 12."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 3,
+          "bbox": [
+            0.088,
+            0.156,
+            0.904,
+            0.41
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 3,
+              "bbox": [
+                0.088,
+                0.156,
+                0.904,
+                0.41
+              ],
+              "image_path": "images/page_8_table_3.jpg",
+              "content": "<table><tr><td colspan=3>Explanation with Algebra and Visualisation</td><td>Examples</td></tr><tr><td>A number divisible by12 is a multiple of 12.</td><td>12m</td><td></td><td>12, 24, 36, 48,108, 132.</td></tr><tr><td>Factors of multiples of12 will include factorsof 12.</td><td>12m<eq>= 2 \\times 6 \\times m</eq><eq>= 3 \\times 4 \\times m</eq></td><td><img src=\"images/page_8_table_image_3_1.jpg\"/>A factor of 12 covers a row fully.Hence, it covers all multiples of 12fully.</td><td>Factors of 24: 1,2, 3, 4, 6, 8, 12,24.</td></tr></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.424,
+            0.848,
+            0.464
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In general, "
+            },
+            {
+              "type": "text",
+              "content": "if A is divisible by k, then A is divisible by all the factors of k.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Hence, Statement 4 is always true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.109,
+            0.469,
+            0.847,
+            0.51
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ 5. If a number is divisible by 7, then it is also divisible by any multiple of 7."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.087,
+            0.518,
+            0.909,
+            0.849
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.087,
+                0.518,
+                0.909,
+                0.849
+              ],
+              "image_path": "images/page_8_table_6.jpg",
+              "content": "<table><tr><td colspan=4>Explanation with Algebra and Visualisation</td><td>Examples</td></tr><tr><td>Numbers divisible by7 are multiples of 7.</td><td>7k</td><td></td><td><img src=\"images/page_8_table_image_6_1.jpg\"/></td><td></td></tr><tr><td>Multiples of 7.7k will be divisible by7m if and only if m is afactor of k.</td><td colspan=3>个7m<eq>Ifk = ym</eq>                 <img src=\"images/page_8_table_image_6_2.jpg\"/>then<eq>7k \\div 7m =</eq>                                 k rows<eq>\\mathit { 7 y m } \\div 7 m</eq><img src=\"images/page_8_table_image_6_3.jpg\"/></td><td>42<eq>( 7 \\times 6 )</eq>is divisibleby 7 but it is notdivisible by<eq>2 8 \\: ( 7 \\times 4 )</eq>42<eq>( 7 \\times 6 )</eq>is divisibleby 7 and it is divisibleby<eq>1 4 \\left( 7 \\times 2 \\right)</eq></td></tr></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 7,
+              "bbox": [
+                0.151,
+                0.857,
+                0.679,
+                0.878
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "We can see that this statement is only sometimes true."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 8,
+          "bbox": [
+            0.078,
+            0.914,
+            0.127,
+            0.938
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "120"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

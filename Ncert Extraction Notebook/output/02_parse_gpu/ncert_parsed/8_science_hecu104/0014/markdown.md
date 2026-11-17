@@ -1,0 +1,40 @@
+3. An electric current flows through a nichrome wire for a short time.
+
+(i) The wire becomes warm.
+
+(ii) A magnetic compass placed below the wire is deflected. Choose the correct option:
+
+(a) Only (i) is correct
+
+(b) Only (ii) is correct
+
+(c) Both (i) and (ii) are correct
+
+(d) Both (i) and (ii) are not correct
+
+4. Match the items in Column A with those in Column B.
+
+|  | Column A |  | Column B |
+| --- | --- | --- | --- |
+| (i) | Voltaic cell | (a) | Best suited for electric heater |
+| (ii) | Electric iron | (b) | Works on magnetic effect of electric current |
+| (iii) | Nichrome wire | (c) | Works on heating effect of electric current |
+| (iv) | Electromagnet | (d) | chemical reactions |
+
+5. Nichrome wire is commonly used in electrical heating devices because it
+
+(i) is a good conductor of electricity.
+
+(ii) generates more heat for a given current.
+
+(iii) is cheaper than copper.
+
+(iv) is an insulator of electricity.
+
+6. Electric heating devices (like an electric heater or a stove) are often considered more convenient than traditional heating methods (like burning firewood or charcoal). Give reason(s) to support this statement considering societal impact.
+
+7. Look at the Fig. 4.4a. If the compass placed near the coil deflects: (i) Draw an arrow on the diagram to show the path of the electric current. (ii) Explain why the compass needle moves when current flows. (iii) Predict what would happen to the deflection if you reverse the battery terminals.
+
+## Prepare some questions based on your learnings so far .
+
+![](images/page_13_image_19.jpg)

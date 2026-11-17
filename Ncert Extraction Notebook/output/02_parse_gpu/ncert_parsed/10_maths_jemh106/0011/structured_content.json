@@ -1,0 +1,330 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.195,
+            0.121
+          ],
+          "content": "TRIANGLES"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.872,
+            0.104,
+            0.9,
+            0.119
+          ],
+          "content": "83"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.147,
+            0.595,
+            0.207
+          ],
+          "content": "**Example 2 :** ABCD is a trapezium with AB || DC. E and F are points on non-parallel sides AD and BC respectively such that EF is parallel to AB"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.213,
+            0.465,
+            0.254
+          ],
+          "content": "(see Fig. 6.14). Show that $\\frac { \\mathrm { A E } } { \\mathrm { E D } }   =   \\frac { \\mathrm { B F } } { \\mathrm { F C } }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.263,
+            0.593,
+            0.302
+          ],
+          "content": "**Solution :** Let us join AC to intersect EF at G (see Fig. 6.15)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.143,
+            0.307,
+            0.472,
+            0.327
+          ],
+          "content": "AB || DC and EF || AB (Given)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.333,
+            0.594,
+            0.372
+          ],
+          "content": "So, $\\mathrm { E F } \\parallel \\mathrm { D C }$ (Lines parallel to the same line are parallel to each other)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.377,
+            0.26,
+            0.396
+          ],
+          "content": "Now, in $\\Delta   \\mathrm { A D C }$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.149,
+            0.402,
+            0.409,
+            0.423
+          ],
+          "content": "EG  \\parallel  DC  \\quad ( As EF  \\parallel  DC )",
+          "image_source": "images/page_10_equation_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.434,
+            0.426,
+            0.477
+          ],
+          "content": "So, ${ \\frac { \\mathrm { A E } } { \\mathrm { E D } } }   =   { \\frac { \\mathrm { A G } } { \\mathrm { G C } } }$ (Theorem 6.1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.497,
+            0.448,
+            0.53,
+            0.467
+          ],
+          "content": "(1)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.484,
+            0.324,
+            0.504
+          ],
+          "content": "Similarly, from $\\Delta \\mathrm { C A B }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.612,
+            0.147,
+            0.902,
+            0.27
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.705,
+                0.277,
+                0.806,
+                0.297
+              ],
+              "content": "Fig. 6.14"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_13.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.368,
+            0.515,
+            0.494,
+            0.561
+          ],
+          "content": "\\frac{ CG }{ AG } \\equiv \\frac{ GF }{ BF }",
+          "image_source": "images/page_10_equation_14.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.375,
+            0.574,
+            0.495,
+            0.617
+          ],
+          "content": "\\frac{\\mathrm{AG}}{\\mathrm{GC}}=\\frac{\\mathrm{BF}}{\\mathrm{FC}}",
+          "image_source": "images/page_10_equation_15.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.592,
+            0.359,
+            0.901,
+            0.49
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.695,
+                0.508,
+                0.795,
+                0.528
+              ],
+              "content": "Fig. 6.15"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.588,
+            0.14,
+            0.607
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.625,
+            0.371,
+            0.644
+          ],
+          "content": "Therefore, from (1) and (2),"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.379,
+            0.587,
+            0.898,
+            0.699
+          ],
+          "content": "{ \\frac { \\mathrm { A E } } { \\mathrm { E D } } } =   { \\frac { \\mathrm { B F } } { \\mathrm { F C } } }\\tag{2}",
+          "image_source": "images/page_10_equation_20.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.715,
+            0.594,
+            0.783
+          ],
+          "content": "**Example 3 :** In Fig. 6.16, ${ \\frac { \\mathrm { P S } } { \\mathrm { S Q } } } = { \\frac { \\mathrm { P T } } { \\mathrm { T R } } }$ and $\\angle \\mathrm{PST} =$ $\\angle \\operatorname { P R Q } ,$ . Prove that PQR is an isosceles triangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.793,
+            0.457,
+            0.835
+          ],
+          "content": "**Solution :** It is given that $\\frac { \\mathrm { P S } } { \\mathrm { S Q } }   =   \\frac { \\mathrm { P T } } { \\mathrm { T R } }$"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.617,
+            0.599,
+            0.872,
+            0.79
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.695,
+                0.801,
+                0.795,
+                0.82
+              ],
+              "content": "Fig. 6.16"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.844,
+            0.899,
+            0.893
+          ],
+          "content": "So, ST || QR (Theorem 6.2) Therefore, $\\angle \\mathrm{PST} = \\angle \\mathrm{PQR}$ (Corresponding angles) (1)"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–6 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–6 (10th Nov.)",
+      "description": "Chap–6 (10th Nov.)",
+      "created_at": "2022-08-17T11:52:44+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

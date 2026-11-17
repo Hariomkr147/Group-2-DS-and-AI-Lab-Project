@@ -1,0 +1,442 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-12-20T17:05:37+05:30",
+      "modified_at": "2025-12-29T16:48:10+05:30",
+      "creator_application": "Adobe InDesign 21.0 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 595.6800270080566,
+          "height_pt": 786.4800148010254
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.553,
+            0.048,
+            0.861,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The Baudhāyana-Pythagoras Theorem"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.086,
+            0.831,
+            0.111
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why is PQRS a square? Why is its area half that of the original paper?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.152,
+            0.112,
+            0.844,
+            0.152
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Explain by connecting QS and PR, finding the different angles formed, and then using tringle congruence."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.174,
+            0.772,
+            0.2
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.3 Hypotenuse of an Isosceles Right Triangle"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.207,
+            0.845,
+            0.247
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Recall that in a right triangle, the side opposite to the right angle is called the "
+            },
+            {
+              "type": "text",
+              "content": "hypotenuse.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.256,
+            0.647,
+            0.279
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Find the hypotenuse of this isosceles right triangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.151,
+            0.282,
+            0.692,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know that a square of side 1 unit is made of two such isosceles right triangles. We also know that the square constructed on the diagonal of this square has twice the area of the original square."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.702,
+            0.248,
+            0.855,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.702,
+                0.248,
+                0.855,
+                0.359
+              ],
+              "image_path": "images/page_4_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 8,
+          "bbox": [
+            0.375,
+            0.362,
+            0.648,
+            0.579
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 8,
+              "bbox": [
+                0.375,
+                0.362,
+                0.648,
+                0.579
+              ],
+              "image_path": "images/page_4_image_8.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.152,
+            0.587,
+            0.845,
+            0.625
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We do not yet know the length of the hypotenuse, but we know the area of the square REST on it!"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.341,
+            0.629,
+            0.657,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Area of REST = 2 × Area of PEAR"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.47,
+            0.659,
+            0.663,
+            0.679
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "= 2 × 1 = 2 sq. units."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.152,
+            0.683,
+            0.846,
+            0.721
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We know the relation between the side and the area of a square. If c is the hypotenuse ER, then"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.34,
+            0.725,
+            0.578,
+            0.744
+          ],
+          "image_path": "images/page_4_equation_13.jpg",
+          "content": "\\mathrm{Area}   of  \\mathrm{REST} = c \\times c = c^{2}."
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.416,
+            0.749,
+            0.511,
+            0.768
+          ],
+          "image_path": "images/page_4_equation_14.jpg",
+          "content": "\\scriptstyle { \\mathrm { S } } 0 ,   c ^ { 2 } \\; = \\; 2 ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.35,
+            0.772,
+            0.527,
+            0.794
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "c = { \\sqrt { 2 } } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.153,
+            0.798,
+            0.567,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, the hypotenuse is of length "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " units."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 17,
+          "bbox": [
+            0.318,
+            0.824,
+            0.459,
+            0.922
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 17,
+              "bbox": [
+                0.318,
+                0.824,
+                0.459,
+                0.922
+              ],
+              "image_path": "images/page_4_image_17.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 18,
+              "bbox": [
+                0.389,
+                0.923,
+                0.402,
+                0.935
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 19,
+          "bbox": [
+            0.547,
+            0.823,
+            0.683,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 19,
+              "bbox": [
+                0.547,
+                0.823,
+                0.683,
+                0.92
+              ],
+              "image_path": "images/page_4_image_19.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 20,
+              "bbox": [
+                0.616,
+                0.921,
+                0.627,
+                0.933
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.877,
+            0.914,
+            0.909,
+            0.934
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3 7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

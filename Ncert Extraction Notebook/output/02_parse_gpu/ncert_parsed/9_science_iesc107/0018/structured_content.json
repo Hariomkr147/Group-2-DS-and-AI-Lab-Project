@@ -1,0 +1,317 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.559,
+            0.041,
+            0.853,
+            0.06
+          ],
+          "content": "Work, Energy, and Simple Machines"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.017,
+            0.952,
+            0.087
+          ],
+          "content": "N 133"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.083,
+            0.255,
+            0.103
+          ],
+          "level": 2,
+          "content": "7.6.3 Lever"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.11,
+            0.108,
+            0.423,
+            0.127
+          ],
+          "content": "**Activity 7.4: Let us investigate**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.129,
+            0.65,
+            0.165
+          ],
+          "content": "1. Take a 30 cm long scale, a pencil, 2 – 3 erasers and a stapler (or a similar object)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.167,
+            0.65,
+            0.22
+          ],
+          "content": "2. Place the scale over the pencil such that the pencil is closer to one end of the scale as shown in Fig. 7.31. On the end of the scale closer to the pencil, place the stapler."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.221,
+            0.648,
+            0.257
+          ],
+          "content": "3. On the other end of the scale, place one eraser. Does the stapler lift up? If not, add one more eraser."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.662,
+            0.141,
+            0.955,
+            0.252
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.674,
+                0.258,
+                0.945,
+                0.288
+              ],
+              "content": "Fig. 7.31: Lifting a heavier object with lighter object"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.259,
+            0.65,
+            0.361
+          ],
+          "content": "You may have noticed that a much heavier object (like a stapler) could be lifted by a much lighter eraser. This was made possible by using a scale as a simple machine called a lever. A **lever** is a rigid bar (such as your scale) that can rotate about a fixed point (such as the point of contact of the scale with the pencil)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.363,
+            0.65,
+            0.466
+          ],
+          "content": "In everyday life, levers are often used to lift heavy objects. A lever has three main parts (Fig. 7.32): (i) **Fulcrum:** a fixed point about which the lever rotates, (ii) **Load:** the force to be overcome, and (iii) **Effort:** the force applied. The distance of the load from the fulcrum is called the **load arm**, and the distance of the effort from the fulcrum is called the **effort arm**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.659,
+            0.306,
+            0.956,
+            0.471
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.468,
+            0.65,
+            0.521
+          ],
+          "content": "By applying a small force at one end of the lever, a larger force can be applied on the object on the other end of the lever. How is this possible?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.703,
+            0.478,
+            0.916,
+            0.508
+          ],
+          "content": "Fig. 7.32: A lever used to lift a heavy rock"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.522,
+            0.651,
+            0.609
+          ],
+          "content": "The end of the lever on which the smaller force $( F _ { 1 } )$ is applied, moves a larger distance $( d _ { 1 } )$ , while the other end which applies a larger force $( \\bar { F } _ { 2 } )$ to lift a heavier object, moves a smaller distance $( \\overline { { d } } _ { 2 } )$ . The work done on one end of the lever is transferred to the other end. Thus, using Eq. (7.1)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.611,
+            0.647,
+            0.63
+          ],
+          "content": "F_{1} \\times d_{1} = F_{2} \\times d_{2}\\tag{7.14}",
+          "image_source": "images/page_17_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.631,
+            0.648,
+            0.668
+          ],
+          "content": "Thus, by increasing the effort arm, the lever applies a larger force $F _ { 2 }$ to the load compared to the applied effort $F _ { 1 }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.669,
+            0.649,
+            0.704
+          ],
+          "content": "Let us do an activity with a beam balance which is an example of a lever."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.693,
+            0.577,
+            0.748,
+            0.594
+          ],
+          "level": 2,
+          "content": "Note"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.696,
+            0.597,
+            0.905,
+            0.662
+          ],
+          "content": "A lever reduces the force required to perform a task but not the total work done."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.712,
+            0.43,
+            0.73
+          ],
+          "level": 2,
+          "content": "Activity 7.5: Let us experiment"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.733,
+            0.65,
+            0.786
+          ],
+          "content": "1. Take a long scale (50 cm or larger), a piece of string, two paper cups (to act as pans), adhesive tape or a piece of thread, and identical coins (to act as weights)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.787,
+            0.65,
+            0.856
+          ],
+          "content": "2. Tie the string tightly around the scale at its midpoint. This string will act as the fulcrum. Hang the scale from this string using a stand or hook, so that it can swing freely. This scale will now act as a beam (Fig. 7.33)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.121,
+            0.858,
+            0.65,
+            0.928
+          ],
+          "content": "3. Fix paper cups to both ends of the beam using thread. These cups act as the pans of a balance. **Check** whether the beam is levelled. If it is tilted, adjust the hanging points of the pans until both sides balance equally."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.661,
+            0.737,
+            0.959,
+            0.884
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.688,
+                0.895,
+                0.929,
+                0.925
+              ],
+              "content": "Fig. 7.33: Balancing cups hung on a scale"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_17_image_24.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:56:22+05:30",
+      "modified_at": "2026-05-13T10:46:35+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

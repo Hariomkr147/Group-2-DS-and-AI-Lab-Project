@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "table",
+          "index": 0,
+          "bbox": [
+            0.104,
+            0.086,
+            0.922,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 0,
+              "bbox": [
+                0.104,
+                0.086,
+                0.922,
+                0.327
+              ],
+              "image_path": "images/page_4_table_0.jpg",
+              "content": "<table><tbody><tr><td>7</td><td>Electric bulb</td><td>or</td></tr><tr><td>8</td><td>A resistor of resistance R</td><td></td></tr><tr><td>9</td><td>Variable resistance or rheostat</td><td>or</td></tr><tr><td>10</td><td>Ammeter</td><td></td></tr><tr><td>11</td><td>Voltmeter</td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.1,
+            0.339,
+            0.306,
+            0.358
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.4 OHM’S LAW"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.099,
+            0.367,
+            0.722,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is there a relationship between the potential difference across a conductor and the current through it? Let us explore with an Activity.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.134,
+            0.411,
+            0.302,
+            0.432
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Activity 11.1"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.124,
+            0.442,
+            0.506,
+            0.529
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Set up a circuit as shown in Fig. 11.2, consisting of a nichrome wire XY of length, say 0.5 m, an ammeter, a voltmeter and four cells of 1.5 V each. (Nichrome is an alloy of nickel, chromium, manganese, and iron metals.)",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.125,
+            0.53,
+            0.506,
+            0.617
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "First use only one cell as the source in the circuit. Note the reading in the ammeter I, for the current and reading of the voltmeter V for the potential difference across the nichrome wire XY in the circuit. Tabulate them in the Table given.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.511,
+            0.407,
+            0.915,
+            0.593
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.511,
+                0.407,
+                0.915,
+                0.593
+              ],
+              "image_path": "images/page_4_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.518,
+                0.596,
+                0.913,
+                0.611
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 11.2 Electric circuit for studying Ohm’s law"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.125,
+            0.617,
+            0.507,
+            0.631
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Next connect two cells in the circuit and",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.131,
+            0.63,
+            0.898,
+            0.661
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "note the respective readings of the ammeter and voltmeter for the values of current through the nichrome wire and potential difference across the nichrome wire.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.125,
+            0.661,
+            0.868,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Repeat the above steps using three cells and then four cells in the circuit separately.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.125,
+            0.675,
+            0.819,
+            0.69
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "n "
+            },
+            {
+              "type": "text",
+              "content": "Calculate the ratio of V to I for each pair of potential difference V and current I.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 12,
+          "bbox": [
+            0.156,
+            0.693,
+            0.868,
+            0.858
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 12,
+              "bbox": [
+                0.156,
+                0.693,
+                0.868,
+                0.858
+              ],
+              "image_path": "images/page_4_table_12.jpg",
+              "content": "<table><tbody><tr><td>S. No.</td><td>Number of cells used in the circuit (ampere)</td><td>Current through the nichrome wire, I wire, V (volt)</td><td>Potential difference across the nichrome</td><td>V/I(volt/ampere)</td></tr><tr><td>1</td><td>1</td><td></td><td></td><td></td></tr><tr><td>2</td><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td>3</td><td></td><td></td><td></td></tr><tr><td>4</td><td>4</td><td></td><td></td><td></td></tr></tbody></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 13,
+              "bbox": [
+                0.124,
+                0.863,
+                0.714,
+                0.879
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "n Plot a graph between V and I, and observe the nature of the graph."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 14,
+          "bbox": [
+            0.101,
+            0.916,
+            0.177,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Electricity"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.881,
+            0.916,
+            0.914,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "175"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.448,
+            0.971,
+            0.551,
+            0.984
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

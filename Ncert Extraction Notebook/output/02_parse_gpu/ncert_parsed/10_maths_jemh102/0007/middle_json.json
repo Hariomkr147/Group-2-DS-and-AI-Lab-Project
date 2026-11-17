@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-2 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-2 (8th Nov.)",
+      "description": "Chap-2 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:19+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.105,
+            0.128,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "16"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.14,
+            0.441,
+            0.359
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We see from the table above that – 2, 0 and 2 are zeroes of the cubic polynomial "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 } - 4 x ."
+            },
+            {
+              "type": "text",
+              "content": " Observe that – 2, 0 and 2 are, in fact, the x-coordinates of the only points where the graph of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y   =   x ^ { 3 }   -   4 x"
+            },
+            {
+              "type": "text",
+              "content": " intersects the x-axis. Since the curve meets the x-axis in only these 3 points, their x - coordinates are the only zeroes of the polynomial."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.366,
+            0.44,
+            0.475
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us take a few more examples. Consider the cubic polynomials "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "x ^ { 3 }   -   x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " . We draw the graphs of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 3 }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "y = x ^ { 3 } - x ^ { 2 }"
+            },
+            {
+              "type": "text",
+              "content": " in Fig. 2.7 and Fig. 2.8 respectively."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.448,
+            0.137,
+            0.898,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.448,
+                0.137,
+                0.898,
+                0.489
+              ],
+              "image_path": "images/page_6_image_4.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.12,
+            0.493,
+            0.493,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.12,
+                0.493,
+                0.493,
+                0.889
+              ],
+              "image_path": "images/page_6_image_5.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 6,
+              "bbox": [
+                0.272,
+                0.894,
+                0.361,
+                0.914
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.506,
+            0.494,
+            0.898,
+            0.889
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.506,
+                0.494,
+                0.898,
+                0.889
+              ],
+              "image_path": "images/page_6_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.637,
+                0.894,
+                0.726,
+                0.914
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 9,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

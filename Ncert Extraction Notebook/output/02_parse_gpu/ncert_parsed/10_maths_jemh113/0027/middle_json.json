@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 26,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 26,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "197"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.142,
+            0.902,
+            0.186
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, that you have studied about all the three measures of central tendency, let us discuss "
+            },
+            {
+              "type": "text",
+              "content": "which measure would be best suited for a particular requirement",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.095,
+            0.194,
+            0.903,
+            0.332
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The mean is the most frequently used measure of central tendency because it takes into account all the observations, and lies between the extremes, i.e., the largest and the smallest observations of the entire data. It also enables us to compare two or more distributions. For example, by comparing the average (mean) results of students of different schools of a particular examination, we can conclude which school has a better performance."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.341,
+            0.902,
+            0.455
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "However, extreme values in the data affect the mean. For example, the mean of classes having frequencies more or less the same is a good representative of the data. But, if one class has frequency, say 2, and the five others have frequency 20, 25, 20, 21, 18, then the mean will certainly not reflect the way the data behaves. So, in such cases, the mean is not a good representative of the data."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.463,
+            0.902,
+            0.577
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In problems where individual observations are not important, and we wish to find out a ‘typical’ observation, the median is more appropriate, e.g., finding the typical productivity rate of workers, average wage in a country, etc. These are situations where extreme values may be there. So, rather than the mean, we take the median as a better measure of central tendency."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.587,
+            0.903,
+            0.676
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In situations which require establishing the most frequent value or most popular item, the mode is the best choice, e.g., to find the most popular T.V. programme being watched, the consumer item in greatest demand, the colour of the vehicle used by most of the people, etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.098,
+            0.692,
+            0.217,
+            0.71
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks :"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.098,
+            0.721,
+            0.901,
+            0.74
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. There is a empirical relationship between the three measures of central tendency :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.344,
+            0.746,
+            0.654,
+            0.765
+          ],
+          "image_path": "images/page_26_equation_9.jpg",
+          "content": "\\mathbf { 3 M e d i a n } = \\mathbf { M o d e } + 2 \\mathbf { M e a n }"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.776,
+            0.9,
+            0.818
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. The median of grouped data with unequal class sizes can also be calculated. However, we shall not discuss it here."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 11,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

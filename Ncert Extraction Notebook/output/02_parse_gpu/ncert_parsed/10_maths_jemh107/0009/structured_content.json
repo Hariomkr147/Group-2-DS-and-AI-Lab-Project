@@ -1,0 +1,263 @@
+{
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.098,
+            0.104,
+            0.295,
+            0.121
+          ],
+          "content": "COORDINATE GEOMETRY"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.898,
+            0.119
+          ],
+          "content": "107"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.138,
+            0.902,
+            0.178
+          ],
+          "content": "Draw AR, PS and BT perpendicular to the x-axis. Draw AQ and PC parallel to the x-axis. Then, by the AA similarity criterion,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.362,
+            0.183,
+            0.534,
+            0.202
+          ],
+          "content": "\\Delta \\mathrm { \\scriptsize ~ P A Q } \\sim \\Delta \\mathrm { \\scriptsize ~ B P C }",
+          "image_source": "images/page_8_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.223,
+            0.206,
+            0.242
+          ],
+          "content": "Therefore,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.256,
+            0.156,
+            0.274
+          ],
+          "content": "Now,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.353,
+            0.209,
+            0.702,
+            0.345
+          ],
+          "content": "\\begin{aligned}&\\frac{ PA }{ BP } = \\frac{ AQ }{ PC } = \\frac{ PQ }{ BC } \\quad &(1) \\\\& AQ  =  RS  =  OS  -  OR  = x - x_{_1} \\\\& PC  =  ST  =  OT  -  OS  = x_{_2} - x \\\\& PQ  =  PS  -  QS  =  PS  -  AR  = y - y_{_1} \\\\& BC  =  BT  -  CT  =  BT  -  PS  = y_{_2} - y_{_1}\\end{aligned}",
+          "image_source": "images/page_8_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.349,
+            0.472,
+            0.369
+          ],
+          "content": "Substituting these values in (1), we get"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.432,
+            0.17,
+            0.452
+          ],
+          "content": "Taking"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.48,
+            0.253,
+            0.502
+          ],
+          "content": "Similarly, taking"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.307,
+            0.375,
+            0.704,
+            0.514
+          ],
+          "content": "\\begin{aligned}\\frac{m_{1}}{m_{2}} &= \\frac{x - x_{1}}{x_{2} - x} = \\frac{y - y_{1}}{y_{2} - y} \\\\\\frac{m_{1}}{m_{2}} &= \\frac{x - x_{1}}{x_{2} - x}, \\quad \\text { we get } x = \\frac{m_{1}x_{2} + m_{2}x_{1}}{m_{1} + m_{2}} \\\\\\frac{m_{1}}{m_{2}} &= \\frac{y - y_{1}}{y_{2} - y}, \\quad \\text { we get } y = \\frac{m_{1}y_{2} + m_{2}y_{1}}{m_{1} + m_{2}}\\end{aligned}",
+          "image_source": "images/page_8_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.522,
+            0.899,
+            0.564
+          ],
+          "content": "$\\mathrm { S o } ,$ the coordinates of the point $\\mathrm{P}(\\bar{x}, \\bar{y})$ which divides the line segment joining the points $\\mathrm { A } ( \\boldsymbol { x } _ { 1 } , \\boldsymbol { y } _ { 1 } )$ and $\\mathbf { B } ( x _ { _ 2 } , y _ { _ 2 } )$ , internally, in the ratio $m _ { _ 1 } : m _ { _ 2 }$ are"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.333,
+            0.573,
+            0.897,
+            0.622
+          ],
+          "content": "\\left( \\frac{m_{1}x_{2} + m_{2}x_{1}}{m_{1} + m_{2}}, \\frac{m_{1}y_{2} + m_{2}y_{1}}{m_{1} + m_{2}} \\right)\\tag{2}",
+          "image_source": "images/page_8_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.147,
+            0.622,
+            0.526,
+            0.641
+          ],
+          "content": "This is known as the section formula"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.647,
+            0.899,
+            0.687
+          ],
+          "content": "This can also be derived by drawing perpendiculars from A, P and B on the y-axis and proceeding as above."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.691,
+            0.9,
+            0.711
+          ],
+          "content": "If the ratio in which P divides AB is k : 1, then the coordinates of the point P will be"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.391,
+            0.718,
+            0.608,
+            0.765
+          ],
+          "content": "\\left( \\frac{kx_{2} + x_{1}}{k + 1}, \\frac{ky_{2} + y_{1}}{k + 1} \\right).",
+          "image_source": "images/page_8_equation_16.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.772,
+            0.899,
+            0.831
+          ],
+          "content": "Special Case : The mid-point of a line segment divides the line segment in the ratio 1 : 1. Therefore, the coordinates of the mid-point P of the join of the points $\\mathrm { A } ( x _ { 1 } , y _ { 1 } )$ and $\\mathbf { B } ( x _ { 2 } , y _ { 2 } )$ is"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.255,
+            0.829,
+            0.741,
+            0.874
+          ],
+          "content": "\\left( \\frac{1 \\cdot x_{1} + 1 \\cdot x_{2}}{1 + 1}, \\frac{1 \\cdot y_{1} + 1 \\cdot y_{2}}{1 + 1} \\right) = \\left( \\frac{x_{1} + x_{2}}{2}, \\frac{y_{1} + y_{2}}{2} \\right)",
+          "image_source": "images/page_8_equation_18.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.146,
+            0.879,
+            0.713,
+            0.898
+          ],
+          "content": "Let us solve a few examples based on the section formula."
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.983
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

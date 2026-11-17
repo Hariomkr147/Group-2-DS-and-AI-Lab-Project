@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:34+05:30",
+      "modified_at": "2026-05-15T17:56:39+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 36,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 36,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.152,
+            0.088,
+            0.847,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9. A dairy plans to produce 8.5 billion packets of milk in a year. They want a unique ID (identifier) code for each packet. If they choose to use the digits 0–9, how many digits should the code consist of?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.149,
+            0.781,
+            0.266
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Total packets of milk in a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{year} = 8,500,000,000"
+            },
+            {
+              "type": "text",
+              "content": " Total digits (0-9) = 10, Let each code have "
+            },
+            {
+              "type": "equation_inline",
+              "content": "{ } ^ { \\circ } n ^ { \\flat }"
+            },
+            {
+              "type": "text",
+              "content": " digits "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S o } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "n",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "umber of unique ID codes possible = 10n "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { S 0 , } 1 0 ^ { n } \\geq 8 \\mathrm { , } 5 0 0 \\mathrm { , } 0 0 0 \\mathrm { , } 0 0 0"
+            },
+            {
+              "type": "text",
+              "content": " But, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 9 } < 8 , 5 0 0 , 0 0 0 , 0 0 0"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 1 0 } > 8 , 5 0 0 , 0 0 0 , 0 0 0 . \\mathrm { S o } , n = 1 0"
+            },
+            {
+              "type": "text",
+              "content": " Hence at least 10 digits are required in the code."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.153,
+            0.275,
+            0.847,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "10. 64 is a square number "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 8 ^ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " and a cube number (4"
+            },
+            {
+              "type": "text",
+              "content": "3",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "). Are there other numbers that are both squares and cubes? Is there a way to describe such numbers in general?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.152,
+            0.336,
+            0.805,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Yes, there are infinitely many such numbers. In general the numbers are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\bar { 6 } ^ { \\mathrm { t h } }"
+            },
+            {
+              "type": "text",
+              "content": " powers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( n ^ { 6 } )"
+            },
+            {
+              "type": "text",
+              "content": " for some integer n. Examples: "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 ^ { 6 } ( 1 ) , 3 ^ { 6 } ( 7 2 9 )"
+            },
+            {
+              "type": "text",
+              "content": " , 4"
+            },
+            {
+              "type": "text",
+              "content": "6",
+              "styles": [
+                "superscript"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "(4096) and so on."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.152,
+            0.404,
+            0.846,
+            0.461
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11. A digital locker has an alphanumeric (it can have both digits and letters) passcode of length 5. Some example codes are G89P0, 38098, BRJKW, and 003AZ. How many such codes are possible?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.152,
+            0.464,
+            0.847,
+            0.524
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " We have 26 letters and 10 digits (0-9) there are 36 possible characters for each of the length of 5. Total possible codes are "
+            },
+            {
+              "type": "equation_inline",
+              "content": "3 6 \\times 3 6 \\times 3 6 \\times 3 6 \\times 3 6 = 3 6 ^ { 5 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.152,
+            0.532,
+            0.847,
+            0.632
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12. The worldwide population of sheep (2024) is about "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 9 } ;"
+            },
+            {
+              "type": "text",
+              "content": " , and that of goats is also about the same. What is the total population of sheep and goats? (i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 0 ^ { 9 }"
+            },
+            {
+              "type": "text",
+              "content": " (ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 1 1 }"
+            },
+            {
+              "type": "text",
+              "content": " (iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 1 0 }"
+            },
+            {
+              "type": "text",
+              "content": " (iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 1 8 }"
+            },
+            {
+              "type": "text",
+              "content": " (v) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 1 0 ^ { 9 }"
+            },
+            {
+              "type": "text",
+              "content": " (vi) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 0 ^ { 9 } \\pm 1 0 ^ { 9 }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.153,
+            0.637,
+            0.245,
+            0.655
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans: (vi)"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.152,
+            0.666,
+            0.704,
+            0.685
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Calculate and write the answer in scientific notation:"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.19,
+            0.689,
+            0.845,
+            0.728
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) If each person in the world had 30 pieces of clothing, find the total number of pieces of clothing."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.185,
+            0.727,
+            0.845,
+            0.764
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) There are about 100 million bee colonies in the world. Find the number of honeybees if each colony has about 50,000 bees."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.179,
+            0.763,
+            0.845,
+            0.8
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) The human body has about 38 trillion bacterial cells. Find the bacterial population residing in all humans in the world."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.181,
+            0.8,
+            0.692,
+            0.82
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) Total time spent eating in a lifetime in seconds."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.153,
+            0.826,
+            0.205,
+            0.842
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans:"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.192,
+            0.842,
+            0.656,
+            0.92
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) The estimated global population is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "8 . 2 \\times 1 0 ^ { 9 }"
+            },
+            {
+              "type": "text",
+              "content": " Each person has 30 pieces of clothes. So, total pieces of clothin "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{g}=8.2 \\times 10^{9} \\times 30"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "= 2 . 4 6 \\times 1 0 ^ { 1 1 }"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 15,
+          "bbox": [
+            0.121,
+            0.918,
+            0.14,
+            0.94
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

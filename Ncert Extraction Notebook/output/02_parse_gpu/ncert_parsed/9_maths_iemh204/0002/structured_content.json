@@ -1,0 +1,139 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.126,
+            0.623,
+            0.868,
+            0.858
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.456,
+                0.864,
+                0.543,
+                0.885
+              ],
+              "content": "Fig. 12.2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_0.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": "52"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.111,
+            0.883,
+            0.245
+          ],
+          "content": "These sticks are pinned together at each intersection point such that they are free to rotate about those points. Now suppose you pick up this grid. You hold the bottom stick fixed with one hand and push the vertical side with the other. See Fig. 12.1B. Each set of parallel lines will stay parallel but the angle between the two sets will no longer be 90°. Thus we see that the plane can be tiled using copies of any fixed parallelogram."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.245,
+            0.883,
+            0.361
+          ],
+          "content": "In this chapter, we will ask and answer several questions about quadrilaterals, paying particular attention to parallelograms. We will investigate their properties, examine ways to recognise them, and see important applications in geometry. At the end, we will answer the question above about whether one can tile the plane with a given quadrilateral."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.118,
+            0.384,
+            0.673,
+            0.407
+          ],
+          "level": 2,
+          "content": "12.1 What Exactly is a Quadrilateral?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.136,
+            0.436,
+            0.399,
+            0.459
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.473,
+            0.854,
+            0.608
+          ],
+          "content": "Informally, a quadrilateral is a figure with four straight sides, as in the first figure ABCD in Fig. 12.2 below. But consider the other six figures in Fig. 12.2: the five plane figures NOPE, SILY, DART, CUTS, OPENS and the non-planar BENT. Should we call all these figures quadrilaterals? If you answer ‘no’ for any of them, how will you define a quadrilateral so that such a figure is excluded? As you can see, some care is needed to precisely define what we think of as a quadrilateral."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

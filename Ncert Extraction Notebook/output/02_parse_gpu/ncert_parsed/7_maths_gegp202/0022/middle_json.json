@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.645,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Operations with Integers"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.408,
+            0.101,
+            0.589,
+            0.125
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "SUMMARY"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.177,
+            0.137,
+            0.821,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• When two integers are multiplied, the product is positive when both"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.193,
+            0.156,
+            0.421,
+            0.308
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the multiplier and multiplicand are positive, or when both are negative. The product is negative if one of them is positive and the other is negative."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.177,
+            0.309,
+            0.42,
+            0.423
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When two integers are divided, the quotient is positive when both the dividend and divisor are positive, or both are negative. The quotient"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 5,
+          "bbox": [
+            0.431,
+            0.16,
+            0.82,
+            0.395
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 5,
+              "bbox": [
+                0.431,
+                0.16,
+                0.82,
+                0.395
+              ],
+              "image_path": "images/page_21_table_5.jpg",
+              "content": "<table><tbody><tr><td>- 9</td><td>- 6</td><td>- 3</td><td>3</td><td>3</td><td>6</td><td>9</td></tr><tr><td>- 6</td><td>- 4</td><td>- 2</td><td>2</td><td>2</td><td>4</td><td>6</td></tr><tr><td>- 3</td><td>- 2</td><td>- 1</td><td>1</td><td>1</td><td>2</td><td>3</td></tr><tr><td>- 3</td><td>- 2</td><td>- 1</td><td>×</td><td>1</td><td>2</td><td>3</td></tr><tr><td>3</td><td>2</td><td>1</td><td>1</td><td>- 1</td><td>- 2</td><td>- 3</td></tr><tr><td>6</td><td>4</td><td>2</td><td>2</td><td>- 2</td><td>- 4</td><td>- 6</td></tr><tr><td>9</td><td>6</td><td>3</td><td>3</td><td>- 3</td><td>- 6</td><td>- 9</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.2,
+            0.424,
+            0.789,
+            0.442
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "is negative when one of them is positive and the other is negative."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.176,
+            0.443,
+            0.821,
+            0.462
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• Integer multiplication is commutative, i.e., for any two integers a and b,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.442,
+            0.463,
+            0.556,
+            0.479
+          ],
+          "image_path": "images/page_21_equation_8.jpg",
+          "content": "a \\times b = b \\times a."
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.176,
+            0.481,
+            0.821,
+            0.518
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Integer multiplication is associative, i.e., for any three integers, a, b, and c,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.399,
+            0.519,
+            0.6,
+            0.537
+          ],
+          "image_path": "images/page_21_equation_10.jpg",
+          "content": "\\overline{a} \\times (b \\times c) = (a \\times b) \\times c."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.176,
+            0.538,
+            0.821,
+            0.576
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Integer multiplication is distributive over addition, i.e., for any three integers, a, b, and c,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.379,
+            0.577,
+            0.619,
+            0.595
+          ],
+          "image_path": "images/page_21_equation_12.jpg",
+          "content": "a \\times (b + c) = (a \\times b) + (a \\times c)."
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.313,
+            0.643,
+            0.397,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.313,
+                0.643,
+                0.397,
+                0.717
+              ],
+              "image_path": "images/page_21_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 14,
+          "bbox": [
+            0.426,
+            0.647,
+            0.56,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "IT's PUZZLE TIME!"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.441,
+            0.682,
+            0.547,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Terhüchü"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.165,
+            0.732,
+            0.835,
+            0.848
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Terhüchü is a game played in Assam and Nagaland. The board has 16 squares and diagonals are marked as shown in the following figure. This is usually roughly scratched on a large piece of stone or just drawn on mud. There are 2 players, and each player has a set of 9 coins placed as shown. The coins in one set look different from those in the other set."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "45"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

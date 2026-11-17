@@ -1,0 +1,125 @@
+{
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "122"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.489,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.107,
+            0.886,
+            0.18
+          ],
+          "content": "In about 150 CE, Ptolemy of Alexandria refined Archimedes computations for use in his astronomical tables, giving the ratio $\\frac { 3 7 7 } { 1 2 0 }   \\approx   3 . 1 4 1 6 7$ for $\\pi .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.18,
+            0.886,
+            0.401
+          ],
+          "content": "Shortly thereafter, in China, a ‘circle-cutting method’ of **Liu Hui** (263 CE) laid the groundwork for two breakthroughs due to **Zu Chongzhi** (480 CE). Zu pushed the polygon approximation method to 24,576 sides! He used this to discover the Yuelü (Approximate Ratio) of ${ \\frac { 2 2 } { 7 } } \\approx 3 . 1 4 2 8$ for $\\pi ,$ and also the Miü (Close Ratio) of $\\frac { 3 5 5 } { 1 1 3 } \\approx 3 . 1 4 1 5 9 2 9$ for π. The rational fraction $\\frac{355}{113}$ is so close to π that it remained the most accurate value for π in the world for over 800 years; it is now known that no single rational fraction with denominator less than 15,000 can be as close to π as this fraction!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.402,
+            0.887,
+            0.598
+          ],
+          "content": "In 499 CE, Āryabhaṭa provided a value of $\\frac{62832}{20000} \\in 3.1416$ for π. Crucially, he described this value as asanna, i.e., ‘approaching’ or ‘approximate’ —  a profound insight suggesting that the ratio could not be given exactly as one simple fraction. Meanwhile, **Brahmagupta** (628 CE) suggested the use of the value $\\sqrt{10} \\approx 3.1622$ for $\\pi ;$ while slightly less accurate, he chose it for its mathematical elegance and the ease with which it could be manipulated in equations, a preference that saw $\\sqrt { 1 0 }$ become the dominant approximation in the Arab world and medieval Europe for centuries after."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.598,
+            0.886,
+            0.757
+          ],
+          "content": "Over the ensuing years, many great mathematicians studied $\\pi ,$ including its approximations; but no approximation was as accurate as $\\mathrm{Zn}^{\\prime} \\mathrm{s} \\xrightarrow[113]{355} \\mathrm{一 or}$ as algebraically simple as $\\frac { 2 2 } { 7 }   , 3 . 1 4 1 6 ,$ , and $$\\sqrt { 1 0 }$  — until$ the work of Mādhava of Sangamagrāma, who changed the game forever. Mādhava realised that π was not just a number to be approximated by fractions and other finite algebraic expressions, but a limit to be reached. Mādhava thereby discovered the first exact formula for π:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.383,
+            0.762,
+            0.618,
+            0.797
+          ],
+          "content": "\\frac{\\pi}{4}=1-\\frac{1}{3}+\\frac{1}{5}-\\frac{1}{7}+\\cdots",
+          "image_source": "images/page_4_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.802,
+            0.887,
+            0.881
+          ],
+          "content": "Is that not a beautiful formula? Mādhava’s formula — given in the form of an ‘infinite series’ — was a tectonic shift for mathematics. By moving from the geometric cutting of circles to the analytical summing of numbers, Mādhava birthed the area of mathematics"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:02:29+05:30",
+      "modified_at": "2026-04-22T18:46:29+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

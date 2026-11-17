@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.084
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "28"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.183,
+            0.069,
+            0.489,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.887,
+            0.204
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When x = 0, y = 1, so (0, 1) is a point on the line. We can call this point A. We say that the x-coordinate of A is 0 and the y-coordinate is 1. Also, when x = 3, y = 7. Thus, B (3, 7) is another point on the line. We plot these points on the coordinate plane, join them and extend the line in both directions as shown in Fig. 2.5."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.247,
+            0.209,
+            0.751,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.247,
+                0.209,
+                0.751,
+                0.515
+              ],
+              "image_path": "images/page_12_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.345,
+                0.522,
+                0.654,
+                0.542
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.5: The straight line y = 2x + 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.13,
+            0.559,
+            0.401,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Think and Reflect"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "table",
+          "index": 7,
+          "bbox": [
+            0.132,
+            0.613,
+            0.859,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "table_caption",
+              "index": 6,
+              "bbox": [
+                0.133,
+                0.591,
+                0.793,
+                0.611
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Identify other points on the line by completing the following table."
+                }
+              ]
+            },
+            {
+              "type": "table_body",
+              "index": 7,
+              "bbox": [
+                0.132,
+                0.613,
+                0.859,
+                0.675
+              ],
+              "image_path": "images/page_12_table_7.jpg",
+              "content": "<table><tbody><tr><td>x</td><td>1</td><td>2</td><td>5</td><td>7</td><td>9</td><td>12</td><td>20</td></tr><tr><td>y</td><td>3</td><td></td><td></td><td>15</td><td></td><td></td><td></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.698,
+            0.886,
+            0.796
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that (1, 3) and (7, 15) are also the points on the line y = 2x + 1. Plot the points on the line. You may use a graph paper for this task. Observe that if a point lies on a line, its coordinates must satisfy the equation of the line. Thus, we can verify that (7, 15) lies on the line y = 2x + 1 by substituting x = 7 and y = 15 in the equation."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.11,
+            0.796,
+            0.888,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 12:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us plot the points (–1, –3), (0, 0), (1, 3), (3, 9), (4, 12) in the coordinate plane on a graph paper as shown in Fig. 2.6. Join the points (–1, –3) and (4, 12) using a ruler. Doing so, observe that all five points lie on a straight line. Can you guess the equation of this line by looking at the relationship between the x and y coordinates of each point?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

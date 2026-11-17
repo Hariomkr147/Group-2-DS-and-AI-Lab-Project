@@ -1,0 +1,214 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "102"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.477,
+            0.087
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.108,
+            0.694,
+            0.129
+          ],
+          "content": "From Question 1 above, we have the following result."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.133,
+            0.886,
+            0.174
+          ],
+          "content": "**Theorem 5:** The perpendicular from the centre of a circle to a chord of the circle bisects the chord."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.197,
+            0.694,
+            0.22
+          ],
+          "level": 2,
+          "content": "5.6 Distance of Chords from the Centre"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.231,
+            0.886,
+            0.31
+          ],
+          "content": "**Activity:** Take a paper circle. Fold the circle from the boundary, inwards. Open the fold. The crease is now a chord (see Fig. 5.13B). Now fold the paper again, so that the end points of the chord meet. Open the fold (see Fig. 5.13C)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.241,
+            0.317,
+            0.382,
+            0.437
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.267,
+                0.449,
+                0.36,
+                0.466
+              ],
+              "content": "Fig. 5.13 A"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_6.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.426,
+            0.316,
+            0.599,
+            0.445
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.453,
+                0.449,
+                0.545,
+                0.466
+              ],
+              "content": "Fig. 5.13 B"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.614,
+            0.317,
+            0.757,
+            0.443
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.639,
+                0.449,
+                0.731,
+                0.466
+              ],
+              "content": "Fig. 5.13 C"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_10_image_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.473,
+            0.886,
+            0.59
+          ],
+          "content": "Measure the lengths of the parts into which the chord is divided. The chord gets bisected where the folds intersect. Measure the angle between the creases. The crease of the second fold is along the perpendicular from the centre to the chord. Measure the distance from the centre to the midpoint of the chord. It is the distance from the centre to the chord."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.589,
+            0.886,
+            0.666
+          ],
+          "content": "Now draw another chord of the same length. How will you do this? We will let you figure this out yourself. Join the centre to the midpoint of the new chord and measure its length. Is it the same as distance from the centre to the first chord?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.667,
+            0.886,
+            0.802
+          ],
+          "content": "Now take a tracing paper and draw a circle on it with the same radius. Place the circle on the tracing paper on top of the circle paper so that the circles overlap. Trace the chord on the circle paper, and the perpendicular to it from its centre, onto the tracing paper circle. Now rotate the tracing paper. You will see the chord through the tracing paper — it looks like a different chord of the same length on the circle paper."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.801,
+            0.887,
+            0.9
+          ],
+          "content": "The circle is a symmetric figure. So, rotating the circle around its centre does not change the circle. As we rotate the circle, our chosen chord will also rotate, to give a new chord of the same length. Along with it, the perpendicular from the centre to the chord also moves! Equal chords appear to be equidistant from the centre."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

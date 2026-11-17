@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-12 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-12 (14th Nov.)",
+      "description": "Chap-12 (14th Nov.)",
+      "created_at": "2022-08-17T11:59:52+05:30",
+      "modified_at": "2026-03-24T12:00:42+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "164"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.9,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.097,
+            0.139,
+            0.901,
+            0.158
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, the height of the cone = height of the top – height (radius) of the hemispherical part"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.348,
+            0.17,
+            0.616,
+            0.216
+          ],
+          "image_path": "images/page_3_equation_3.jpg",
+          "content": "\\left(5 - \\frac{3.5}{2}\\right) cm  = 3.25   cm"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.096,
+            0.231,
+            0.901,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the slant height of the cone "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(l)=\\sqrt{r^{2}+h^{2}}=\\sqrt{\\left(\\frac{3.5}{2}\\right)^{2}+\\left(3.25\\right)^{2}}\\ cm=3.7\\ cm(appox.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.096,
+            0.295,
+            0.626,
+            0.339
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, CSA of cone "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi r l = \\left( \\frac{22}{7} \\times \\frac{3.5}{2} \\times 3.7 \\right)  cm ^2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.097,
+            0.345,
+            0.489,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This gives the surface area of the top as"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.16,
+            0.371,
+            0.672,
+            0.416
+          ],
+          "image_path": "images/page_3_equation_7.jpg",
+          "content": "\\left(2 \\times \\frac{22}{7} \\times \\frac{3.5}{2} \\times \\frac{3.5}{2}\\right)  cm ^2 + \\left(\\frac{22}{7} \\times \\frac{3.5}{2} \\times 3.7\\right)  cm ^2"
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.159,
+            0.426,
+            0.863,
+            0.469
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "\\frac{22}{7} \\times \\frac{3.5}{2} (3.5 + 3.7)  cm ^2 = \\frac{11}{2} \\times (3.5 + 3.7)  cm ^2 = 39.6  cm ^2 ( approach. )"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.147,
+            0.473,
+            0.901,
+            0.492
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You may note that total surface area of the top' is not the sum of the total"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.492,
+            0.511,
+            0.511
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "surface areas of the cone and hemisphere."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.095,
+            0.525,
+            0.518,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2 : The decorative block shown in Fig. 12.7 is made of two solids — a cube and a hemisphere. The base of the block is a cube with edge 5 cm, and the hemisphere fixed on the top has a diameter of 4.2 cm. Find the total surface area of the block. (Take "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\pi =   { \\frac { 2 2 } { 7 } }   )"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.568,
+            0.497,
+            0.837,
+            0.669
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.568,
+                0.497,
+                0.837,
+                0.669
+              ],
+              "image_path": "images/page_3_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.65,
+                0.673,
+                0.749,
+                0.692
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.096,
+            0.704,
+            0.901,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution : The total surface area of the cube "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 \\times (  edge  )^{2} = 6 \\times 5 \\times 5  cm ^{2} = 150  cm ^{2}"
+            },
+            {
+              "type": "text",
+              "content": " Note that the part of the cube where the hemisphere is attached is not included in the surface area."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.197,
+            0.769,
+            0.895,
+            0.909
+          ],
+          "image_path": "images/page_3_equation_15.jpg",
+          "content": "\\begin{aligned}\\text { the surface area of the block } & = \\text { TSA of cube - base area of themisphere } \\\\& \\quad + \\text { CSA of themisphere } \\\\& = 150 - \\pi r^{2} + 2 \\pi r^{2} = (150 + \\pi r^{2}) \\mathrm{cm}^{2} \\\\& = 150 \\mathrm{cm}^{2} + \\left(\\frac{22}{7} \\times \\frac{4.2}{2} \\times \\frac{4.2}{2}\\right) \\mathrm{cm}^{2} \\\\& = (150 + 13.86) \\mathrm{cm}^{2} = 163.86 \\mathrm{cm}^{2}\\end{aligned}"
+        },
+        {
+          "type": "footer",
+          "index": 16,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

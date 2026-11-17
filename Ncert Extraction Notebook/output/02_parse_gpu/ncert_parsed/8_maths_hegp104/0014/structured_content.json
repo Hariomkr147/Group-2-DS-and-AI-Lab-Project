@@ -1,0 +1,311 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.741,
+            0.047,
+            0.862,
+            0.063
+          ],
+          "content": "Quadrilaterals"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.461,
+            0.106
+          ],
+          "content": "Consider a quadrilateral SOME."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.107,
+            0.554,
+            0.143
+          ],
+          "content": "Draw a diagonal SM. We get two triangles ∆SEM and ∆SOM."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.143,
+            0.526,
+            0.161
+          ],
+          "content": "In ∆SEM, we have $\\angle 1 + \\angle 2 + \\angle 3 = 180^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.162,
+            0.486,
+            0.179
+          ],
+          "content": "And in ∆SOM, $\\angle 4 + \\angle 5 + \\angle 6 = 180^{\\circ}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.18,
+            0.556,
+            0.217
+          ],
+          "content": "What do we get when we add all six angles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.217,
+            0.284,
+            0.234
+          ],
+          "content": "We will have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.153,
+            0.234,
+            0.553,
+            0.27
+          ],
+          "content": "\\begin{aligned}\\angle 1 + \\angle 2 + \\angle 3 + \\angle 4 + \\angle 5 + \\angle 6 &= 180^{\\circ} + 180^{\\circ} \\\\&= 360^{\\circ}.\\end{aligned}",
+          "image_source": "images/page_13_equation_8.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.56,
+            0.078,
+            0.848,
+            0.276
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.271,
+            0.546,
+            0.289
+          ],
+          "content": "Or, $\\left( \\angle 1 + \\angle 4 \\right) + \\left( \\angle 3 + \\angle 6 \\right) + \\angle 2 + \\angle 5 = 360^{\\circ}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.29,
+            0.846,
+            0.328
+          ],
+          "content": "Since $( \\angle 1 + \\angle 4 ) , ( \\angle 3 + \\angle 6 ) , \\angle 2   and   \\angle 5$ are the angles of this quadrilateral, we have the following result—"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.331,
+            0.659,
+            0.351
+          ],
+          "content": "**The sum of all angles in any quadrilateral is 360°.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.355,
+            0.847,
+            0.395
+          ],
+          "content": "This explains why it is impossible for a quadrilateral to have three right angles, with the fourth angle not right angle."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.409,
+            0.794,
+            0.457
+          ],
+          "level": 2,
+          "content": "4.3 More Quadrilaterals with Parallel Opposite Sides"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.467,
+            0.77,
+            0.488
+          ],
+          "content": "Rectangles (and therefore squares) have parallel opposite sides."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.497,
+            0.846,
+            0.537
+          ],
+          "level": 2,
+          "content": "？ Are there quadrilaterals that have parallel opposite sides that are not rectangles?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.542,
+            0.421,
+            0.56
+          ],
+          "content": "Let us try constructing one."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.559,
+            0.848,
+            0.599
+          ],
+          "content": "This can be easily done by drawing two pairs of parallel lines, ensuring that they do not meet at right angles."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.607,
+            0.847,
+            0.629
+          ],
+          "level": 2,
+          "content": "？ Construct such a figure by recalling how parallel lines can be"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.628,
+            0.59,
+            0.648
+          ],
+          "content": "constructed using a ruler and a set-square,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.647,
+            0.41,
+            0.665
+          ],
+          "content": "or a compass and a ruler."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.702,
+            0.59,
+            0.741
+          ],
+          "content": "Observe the quadrilateral ABCD. It has parallel opposite sides but is not a rectangle."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.777,
+            0.591,
+            0.835
+          ],
+          "content": "Thus, a larger set of quadrilaterals exists in which the opposite sides are parallel. Such quadrilaterals are called **parallelograms.**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.597,
+            0.641,
+            0.863,
+            0.797
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_13_image_24.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.914,
+            0.936
+          ],
+          "content": "95"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:21+05:30",
+      "modified_at": "2026-05-15T17:57:28+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 39,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

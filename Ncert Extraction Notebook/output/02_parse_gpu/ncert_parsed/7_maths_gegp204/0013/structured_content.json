@@ -1,0 +1,133 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.596,
+            0.05,
+            0.847,
+            0.066
+          ],
+          "content": "Another Peek Beyond the Point"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.086,
+            0.843,
+            0.314
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.327,
+            0.389,
+            0.347
+          ],
+          "content": "We are left with 1 Ones."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.352,
+            0.846,
+            0.392
+          ],
+          "content": "It is not clear how to divide 1 Ones into 4 equal parts. But we can regroup this as 10 tenths."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.225,
+            0.395,
+            0.774,
+            0.599
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_4.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.623,
+            0.754,
+            0.644
+          ],
+          "content": "10 Tenths ÷ 4 Each part gets 2 Tenths and 2 Tenths remain."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.153,
+            0.655,
+            0.866,
+            0.883
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_6.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.933,
+            0.839,
+            0.95
+          ],
+          "content": "79"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:44:41+05:30",
+      "modified_at": "2025-11-08T13:43:42+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 30,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,177 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.671,
+            0.049,
+            0.846,
+            0.066
+          ],
+          "content": "Finding the Unknown"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.088,
+            0.846,
+            0.127
+          ],
+          "content": "We have the expression 3k + 1 which gives the number of tiles needed to make an arrangement in Step k."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.127,
+            0.847,
+            0.167
+          ],
+          "content": "To check whether an arrangement is possible using 100 tiles at some Step k, we can solve the equation: $3k + 1 = 100$ . Find the value of k."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.176,
+            0.847,
+            0.253
+          ],
+          "content": "？ **Example 8:** Madhubanti wants to organise a party. She decides to buy snacks for the party from the chaat shop in town. Each plate of snacks costs ₹25. The shop charges an additional fixed amount of ₹50 to deliver the snacks to Madhubanti’s house."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.253,
+            0.848,
+            0.331
+          ],
+          "content": "There are 5 members in Madhubanti’s family, including herself. Her parents tell her she can spend ₹500 on this party. How many friends can she invite to the party if she wants to give a plate of snacks to each person, including her family and friends?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.34,
+            0.703,
+            0.361
+          ],
+          "content": "Fatima’s method of solving this problem is shown below."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.365,
+            0.671,
+            0.386
+          ],
+          "content": "She represented the situation using a rough diagram."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.315,
+            0.399,
+            0.661,
+            0.614
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_11_image_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.622,
+            0.846,
+            0.659
+          ],
+          "content": "Out of ₹500, if we subtract the fixed delivery charge, then Madhubanti is left with ₹450."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.66,
+            0.847,
+            0.698
+          ],
+          "content": "So the question becomes “How many plates of snacks, each costing ₹25, can be bought for ₹450?”."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.698,
+            0.49,
+            0.717
+          ],
+          "content": "The answer to this is $450 \\div 25 = 18.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.722,
+            0.846,
+            0.762
+          ],
+          "content": "18 plates of snacks can be bought for ₹450. Considering her 5 family members, she can invite $18 - 5 = 13$ friends to her party."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.807,
+            0.933,
+            0.845,
+            0.95
+          ],
+          "content": "175"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

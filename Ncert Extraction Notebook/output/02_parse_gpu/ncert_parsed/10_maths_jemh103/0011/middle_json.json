@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "34"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.158,
+            0.138,
+            0.901,
+            0.176
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(vi) Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob’s age was seven times that of his son. What are their present ages?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.193,
+            0.382,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.3.2 Elimination Method"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.095,
+            0.219,
+            0.902,
+            0.278
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now let us consider another method of eliminating (i.e., removing) one variable. This is sometimes more convenient than the substitution method. Let us see how this method works."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.095,
+            0.292,
+            0.902,
+            0.352
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 8 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The ratio of incomes of two persons is 9 : 7 and the ratio of their expenditures is 4 : 3. If each of them manages to save ` 2000 per month, find their monthly incomes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.095,
+            0.357,
+            0.902,
+            0.417
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us denote the incomes of the two person by ` 9x and ` 7x and their expenditures by ` 4y and ` 3y respectively. Then the equations formed in the situation is given by :"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.391,
+            0.422,
+            0.898,
+            0.442
+          ],
+          "image_path": "images/page_10_equation_7.jpg",
+          "content": "9x - 4y = 2000\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.097,
+            0.448,
+            0.142,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "and"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 9,
+          "bbox": [
+            0.392,
+            0.447,
+            0.897,
+            0.468
+          ],
+          "image_path": "images/page_10_equation_9.jpg",
+          "content": "7x - 3y = 2000\\tag{2}"
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.094,
+            0.473,
+            0.902,
+            0.514
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Multiply Equation (1) by 3 and Equation (2) by 4 to make the coefficients of y equal. Then we get the equations:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.366,
+            0.517,
+            0.898,
+            0.538
+          ],
+          "image_path": "images/page_10_equation_11.jpg",
+          "content": "27x - 12y = 6000\\tag{3}"
+        },
+        {
+          "type": "equation",
+          "index": 12,
+          "bbox": [
+            0.368,
+            0.544,
+            0.898,
+            0.564
+          ],
+          "image_path": "images/page_10_equation_12.jpg",
+          "content": "28x - 12y = 8000\\tag{4}"
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.095,
+            0.57,
+            0.901,
+            0.61
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 2 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Subtract Equation (3) from Equation (4) to eliminate y, because the coefficients of y are the same. So, we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.219,
+            0.615,
+            0.618,
+            0.635
+          ],
+          "image_path": "images/page_10_equation_14.jpg",
+          "content": "(28x - 27x) - (12y - 12y) = 8000 - 6000"
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.098,
+            0.642,
+            0.14,
+            0.659
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.45,
+            0.641,
+            0.547,
+            0.659
+          ],
+          "image_path": "images/page_10_equation_16.jpg",
+          "content": "x = 2 0 0 0"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.666,
+            0.574,
+            0.687
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Step 3 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Substituting this value of x in (1), we get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.341,
+            0.692,
+            0.547,
+            0.712
+          ],
+          "image_path": "images/page_10_equation_18.jpg",
+          "content": "9(2000)-4y=2000"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.097,
+            0.718,
+            0.139,
+            0.736
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "i.e.,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.45,
+            0.718,
+            0.546,
+            0.737
+          ],
+          "image_path": "images/page_10_equation_20.jpg",
+          "content": "y = 4 0 0 0"
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.095,
+            0.742,
+            0.901,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the solution of the equations is x = 2000, y = 4000. Therefore, the monthly incomes of the persons are ` 18,000 and ` 14,000, respectively."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.096,
+            0.793,
+            0.901,
+            0.832
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Verification :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 18000 : 14000 = 9 : 7. Also, the ratio of their expenditures = 18000 – 2000 : 14000 – 2000 = 16000 : 12000 = 4 : 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 23,
+          "bbox": [
+            0.098,
+            0.845,
+            0.216,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks :"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.122,
+            0.868,
+            0.902,
+            0.909
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. The method used in solving the example above is called the elimination method, because we eliminate one variable first, to get a linear equation in one variable."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.435,
+            0.966,
+            0.564,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

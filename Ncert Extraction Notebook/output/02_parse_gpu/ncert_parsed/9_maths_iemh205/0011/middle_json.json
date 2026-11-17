@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.127,
+            0.154,
+            0.861,
+            0.24
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.127,
+                0.154,
+                0.861,
+                0.24
+              ],
+              "image_path": "images/page_10_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.454,
+                0.245,
+                0.544,
+                0.264
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.596,
+            0.071,
+            0.813,
+            0.088
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Two Variables, One Line"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 2,
+          "bbox": [
+            0.851,
+            0.071,
+            0.881,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "95"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.115,
+            0.11,
+            0.882,
+            0.15
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 13.5: (i) represents the case of a positive slope, whereas (ii) represents that of a negative slope."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.114,
+            0.285,
+            0.882,
+            0.327
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us consider a line passing through two points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { A } ( x _ { 1 } ,   y _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { B }   ( x _ { _ 2 } , y _ { _ 2 } )"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.229,
+            0.333,
+            0.769,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.229,
+                0.333,
+                0.769,
+                0.57
+              ],
+              "image_path": "images/page_10_image_6.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 7,
+              "bbox": [
+                0.454,
+                0.579,
+                0.545,
+                0.597
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 13.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.114,
+            0.607,
+            0.883,
+            0.683
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The horizontal distance between the two points is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( X _ { _ 2 } - X _ { _ 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and is often referred to as the "
+            },
+            {
+              "type": "text",
+              "content": "Run",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". It tells you how far the line goes to the left or right. Moving to the right means a positive run while moving to the left means a negative run."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.113,
+            0.683,
+            0.883,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The vertical distance between the two points is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( \\boldsymbol { y } _ { 2 } - \\boldsymbol { y } _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and is often referred to as the "
+            },
+            {
+              "type": "text",
+              "content": "Rise",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". It tells you how much the line goes up or down when moving from one point to another. If the line goes up, the rise is positive. If the line goes down, the rise is negative."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.315,
+            0.765,
+            0.682,
+            0.799
+          ],
+          "image_path": "images/page_10_equation_10.jpg",
+          "content": "The slope of a line = \\frac{ Riesz }{ Run } = \\frac{y_2 - y_1}{X_2 - X_1}."
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.115,
+            0.809,
+            0.882,
+            0.85
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the graph of the equation shown in Fig. 13.7 which passes through the points A (2, 0) and B (4, 3)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

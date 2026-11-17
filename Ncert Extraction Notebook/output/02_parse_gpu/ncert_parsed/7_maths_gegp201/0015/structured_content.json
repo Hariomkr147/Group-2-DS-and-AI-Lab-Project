@@ -1,0 +1,184 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.707,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Geometric Twins"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.237,
+            0.084,
+            0.761,
+            0.299
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.473,
+                0.302,
+                0.53,
+                0.318
+              ],
+              "content": "Fig.1.2"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_1.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.334,
+            0.71,
+            0.354
+          ],
+          "content": "How do we proceed with this problem? Here is a method."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.362,
+            0.528,
+            0.386
+          ],
+          "content": "What are the measures of $\\angle \\mathrm { B }$ and $\\angle \\mathrm { Y ? }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.173,
+            0.394,
+            0.724,
+            0.513
+          ],
+          "content": "We know that the sum of the angles of a triangle is $1 8 0 ^ { \\circ } { \\textless }$ So $\\angle B + 35^{\\circ} + 75^{\\circ} = 180^{\\circ},$ or $\\angle \\mathrm{B} + 110^{\\circ} = 180^{\\circ}$ Thus, $\\angle \\mathrm{B} = 70^{\\circ}.$ Similarl $y , \\angle Y$ is also $7 0 ^ { \\circ } .$ Thus, we have $\\angle \\mathrm{B} = \\angle \\mathrm{Y}.$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.519,
+            0.756,
+            0.543
+          ],
+          "content": "? Does this help in showing that ΔABC and ΔXYZ are congruent?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.237,
+            0.557,
+            0.428,
+            0.771
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_7.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.571,
+            0.556,
+            0.761,
+            0.77
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.176,
+            0.784,
+            0.712,
+            0.803
+          ],
+          "content": "These two triangles now satisfy the ASA condition with"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.469,
+            0.804,
+            0.557,
+            0.861
+          ],
+          "content": "\\begin{array} { r } { \\angle \\mathrm { B } = \\angle \\mathrm { Y } } \\\\ { \\mathrm { B C } = \\mathrm { Y Z } } \\\\ { \\angle \\mathrm { C } = \\angle \\mathrm { Z } . } \\end{array}",
+          "image_source": "images/page_14_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.861,
+            0.322,
+            0.879
+          ],
+          "content": "So, $\\Delta \\mathrm { A B C } \\cong \\Delta \\mathrm { X Y Z } .$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.812,
+            0.934,
+            0.839,
+            0.951
+          ],
+          "content": "15"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.682,
+            0.071,
+            0.812,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.852,
+            0.071,
+            0.879,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "81"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.236,
+            0.11,
+            0.882,
+            0.206
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "times to place 4 new copies, resulting in a 3 by 3 grid of 9 copies exactly like the 9 coloured copies in Fig. 12.42. These 9 copies meet each other only at vertices and once again the blank spaces among them also form 4-gons congruent to SOME!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.116,
+            0.21,
+            0.647,
+            0.23
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*19. Is there a 4-gon with given side lengths?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.196,
+            0.23,
+            0.882,
+            0.364
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Recall the following fact about triangles and check it by construction. For given positive numbers "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a ,   b ,   c ,"
+            },
+            {
+              "type": "text",
+              "content": " is there a triangle whose sides have these lengths? The answer is Yes exactly when the sum of any two numbers is greater than the third. If we arrange the numbers in increasing order (suppose "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a \\leq b \\leq c )"
+            },
+            {
+              "type": "text",
+              "content": " , then this amounts to requiring "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a + b > c."
+            },
+            {
+              "type": "text",
+              "content": " ("
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Start by drawing a segment of length c.)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.189,
+            0.363,
+            0.882,
+            0.421
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Suppose a 4-gon has 2, 5, 11 as three side lengths. Can the length of the fourth side be 100? Can it be 10? Can it be 1? What are the possible lengths of the fourth side?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.183,
+            0.42,
+            0.883,
+            0.46
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) For given positive numbers a, b, c, d, how will you decide if there is a 4-gon whose sides have these lengths?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.117,
+            0.464,
+            0.564,
+            0.484
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*20. Counting diagonals of a polygon."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.195,
+            0.484,
+            0.882,
+            0.599
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) How should we define a diagonal of an n-gon? How many diagonals does an n-gon have? Make a table for small values of n. A 3-gon has no diagonals. A 4-gon has 2. How many diagonals does a 5-gon have? A 6-gon? Try to find a pattern and guess the answers for n = 7 and n = 8. Check your guesses by systematic counting."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.19,
+            0.598,
+            0.883,
+            0.675
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Can you guess a formula for the number of diagonals? How many diagonals get added when we increase the number of sides by 1? Can you now justify why the formula you guessed is true for all n?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.116,
+            0.679,
+            0.882,
+            0.757
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*21. "
+            },
+            {
+              "type": "text",
+              "content": "Sum of angles of a polygon.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " What is the sum of angles of a (planar non-self-intersecting) n-gon? We know that the answer is 180° for n = 3 and 360° for n = 4. Find the next few values. Then find a formula in terms of n and prove it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.116,
+            0.761,
+            0.881,
+            0.819
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*22. Multiple converses to a theorem. Let us see how multiple statements can be considered converses to the Midpoint Theorem and how Theorem 7 is one of them."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.187,
+            0.82,
+            0.883,
+            0.899
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To formulate a converse we should express the original statement in “If … then …” form. For a complex statement, there may be multiple ways to do that. The Midpoint Theorem starts with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta \\mathrm { A B C }"
+            },
+            {
+              "type": "text",
+              "content": " and points P and Q on sides AB and AC respectively."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:40:33+05:30",
+      "modified_at": "2026-04-07T17:40:38+05:30",
+      "creator_application": "Adobe InDesign CS6 (Windows)",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 50,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 600.0,
+          "height_pt": 790.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.751,
+            0.063,
+            0.834,
+            0.08
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fractions"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.114,
+            0.121,
+            0.785,
+            0.142
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Expressing a fraction in lowest terms can also be done in steps."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.113,
+            0.143,
+            0.833,
+            0.212
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Suppose we want to express "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 6 } { 6 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in lowest terms. First, we notice that both the numerator and denominator are even. So, we divide both by 2, and see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{36}{60}   =   \\frac{18}{30}"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 3,
+          "bbox": [
+            0.449,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.113,
+            0.218,
+            0.832,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Both the numerator and denominator are even again, so we can divide them each by 2 again; we get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 8 } { 3 0 }   =   \\frac { 9 } { 1 5 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.275,
+            0.833,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We now notice that 9 and 15 are both multiples of 3, so we divide both by 3 to get "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 9 } { 1 5 }   =   \\frac { 3 } { 5 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.113,
+            0.325,
+            0.834,
+            0.379
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, 3 and 5 have no common factor other than 1, so, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 6 } { 6 0 }"
+            },
+            {
+              "type": "text",
+              "content": " in lowest terms is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 } { 5 } ."
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.113,
+            0.386,
+            0.834,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Alternatively, we could have noticed that in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 3 6 } { 6 0 }"
+            },
+            {
+              "type": "text",
+              "content": " , both the numerator and denominator are multiples of 12 : we see that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "36 = 3 \\times 12"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "6 0 = 5 \\times 1 2"
+            },
+            {
+              "type": "text",
+              "content": " . Therefore, we could have concluded that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{36}{60} \\equiv \\frac{3}{5}"
+            },
+            {
+              "type": "text",
+              "content": " straight away."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.113,
+            0.47,
+            0.833,
+            0.515
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Either method works and will give the same answer! But sometimes it can be easier to go in steps."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.115,
+            0.527,
+            0.301,
+            0.55
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.154,
+            0.556,
+            0.624,
+            0.613
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Express the following fractions in lowest terms: a. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 1 7 } { 5 1 }"
+            },
+            {
+              "type": "text",
+              "content": " b. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{\\left ( 64 \\right ) }{144}"
+            },
+            {
+              "type": "text",
+              "content": " e. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{126}{147}"
+            },
+            {
+              "type": "text",
+              "content": " d. "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 5 2 5 } { 1 1 2 }"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 11,
+          "bbox": [
+            0.115,
+            0.638,
+            0.478,
+            0.664
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7.7 Comparing Fractions"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.113,
+            0.676,
+            0.834,
+            0.766
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Which is greater, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{4}{5}"
+            },
+            {
+              "type": "text",
+              "content": " or "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac { 7 } { 9 } ?"
+            },
+            {
+              "type": "text",
+              "content": " It can be difficult to compare two such fractions directly. However, we know how to find fractions equivalent to two fractions with the same denominator. Let us see how we can use it:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.12,
+            0.771,
+            0.259,
+            0.803
+          ],
+          "image_path": "images/page_22_equation_13.jpg",
+          "content": "\\frac{4}{5} = \\frac{4 \\times 9}{5 \\times 9} = \\frac{36}{45}"
+        },
+        {
+          "type": "equation",
+          "index": 14,
+          "bbox": [
+            0.12,
+            0.813,
+            0.266,
+            0.846
+          ],
+          "image_path": "images/page_22_equation_14.jpg",
+          "content": "\\frac { 7 } { 9 } \\quad = \\quad \\frac { 7   \\times   5 } { 9   \\times   5 } \\quad = \\quad \\frac { 3 5 } { 4 5 } ."
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.422,
+            0.82,
+            0.627,
+            0.9
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "45 is a common multiple of 5 and 9, so we can use 45 as a common denominator."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 16,
+          "bbox": [
+            0.659,
+            0.82,
+            0.803,
+            0.897
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 16,
+              "bbox": [
+                0.659,
+                0.82,
+                0.803,
+                0.897
+              ],
+              "image_path": "images/page_22_image_16.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 17,
+          "bbox": [
+            0.885,
+            0.941,
+            0.917,
+            0.959
+          ],
+          "content": []
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,324 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.099,
+            0.105,
+            0.127,
+            0.118
+          ],
+          "content": "44"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.138,
+            0.828,
+            0.158
+          ],
+          "content": "**Example 6 :** Find the dimensions of the prayer hall discussed in Section 4.1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.164,
+            0.901,
+            0.223
+          ],
+          "content": "**Solution :** In Section 4.1, we found that if the breadth of the hall is x m, then x satisfies the equation $2x^{2}+x-300=0$ . Applying the factorisation method, we write this equation as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.257,
+            0.227,
+            0.518,
+            0.246
+          ],
+          "content": "2x^{2}-24x+25x-300=0",
+          "image_source": "images/page_6_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.231,
+            0.252,
+            0.518,
+            0.272
+          ],
+          "content": "2x\\left (x-12  \\right ) +25\\left (x-12  \\right ) =0",
+          "image_source": "images/page_6_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.279,
+            0.139,
+            0.296
+          ],
+          "content": "i.e.,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.305,
+            0.278,
+            0.518,
+            0.297
+          ],
+          "content": "(x - 12)(2x + 25) = 0",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.304,
+            0.9,
+            0.342
+          ],
+          "content": "So, the roots of the given equation are $x = 12   or   x = -12.5$ . Since x is the breadth of the hall, it cannot be negative."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.347,
+            0.71,
+            0.367
+          ],
+          "content": "Thus, the breadth of the hall is 12 m. Its length = 2x + 1 = 25 m."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.412,
+            0.387,
+            0.586,
+            0.406
+          ],
+          "level": 2,
+          "content": "EXERCISE 4.2"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.417,
+            0.749,
+            0.435
+          ],
+          "content": "**1.** Find the roots of the following quadratic equations by factorisation:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.447,
+            0.342,
+            0.465
+          ],
+          "content": "(i) $x^{2}-3x-10=0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.542,
+            0.447,
+            0.702,
+            0.466
+          ],
+          "content": "(ii) $2x^{2} + x - 6 = 0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.476,
+            0.401,
+            0.498
+          ],
+          "content": "(iii) $\\sqrt{2} x^{2} + 7x + 5\\sqrt{2} = 0$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.537,
+            0.469,
+            0.711,
+            0.506
+          ],
+          "content": "2x^{2}-x+\\frac{1}{8}=0",
+          "image_source": "images/page_6_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.506,
+            0.372,
+            0.523
+          ],
+          "content": "(v) $100x^{2}-20x+1=0$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.529,
+            0.497,
+            0.548
+          ],
+          "content": "**2.** Solve the problems given in Example 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.552,
+            0.633,
+            0.569
+          ],
+          "content": "**3.** Find two numbers whose sum is 27 and product is 182."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.573,
+            0.759,
+            0.592
+          ],
+          "content": "**4.** Find two consecutive positive integers, sum of whose squares is 365."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.595,
+            0.901,
+            0.631
+          ],
+          "content": "**5.** The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the other two sides."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.635,
+            0.902,
+            0.706
+          ],
+          "content": "**6.** A cottage industry produces a certain number of pottery articles in a day. It was observed on a particular day that the cost of production of each article (in rupees) was 3 more than twice the number of articles produced on that day. If the total cost of production on that day was \\` 90, find the number of articles produced and the cost of each article."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.097,
+            0.719,
+            0.325,
+            0.737
+          ],
+          "level": 2,
+          "content": "4.4 Nature of Roots"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.745,
+            0.516,
+            0.765
+          ],
+          "content": "The equation $ax^{2} + bx + c = 0$ are given by"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.349,
+            0.773,
+            0.545,
+            0.821
+          ],
+          "content": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+          "image_source": "images/page_6_equation_24.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.823,
+            0.902,
+            0.916
+          ],
+          "content": "If $b ^ { 2 }   -   4 a c   >   0$ , we get two distinct real roots $- { \\frac { b } { 2 a } } + { \\frac { \\sqrt { b ^ { 2 } - 4 a c } } { 2 a } }$ and $-   { \\frac { b } { 2 a } } - { \\frac { \\sqrt { b ^ { 2 } - 4 a c } } { 2 a } } .$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–4 (8th Nov.) fian",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–4 (8th Nov.) fian",
+      "description": "Chap–4 (8th Nov.) fian",
+      "created_at": "2022-08-17T11:50:48+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 11,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

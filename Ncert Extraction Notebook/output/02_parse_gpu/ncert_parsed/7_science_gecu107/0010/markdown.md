@@ -1,0 +1,17 @@
+You have learnt in the Grade 6 Science textbook Curiosity, that the Sun is the main source of heat for the Earth. You have seen your parents drying wet clothes on the clothesline at home. Wet clothes dry faster on a sunny day since the heat from the Sun makes the evaporation of water faster.
+
+Thus, heat from the Sun plays an important role in the evaporation of water, be it from clothes drying on a line or from water bodies like oceans and lakes. Let us look at the phenomenon of water cycle to understand this in more detail.
+
+## 7.4 Water Cycle
+
+You have also learnt in the Grade 6 Science textbook Curiosity, that water exists in three states in nature. As a liquid, it fills the oceans, rivers, and lakes on the Earth. As a solid, it forms snow, ice sheets, and glaciers in the mountains and the polar regions. As a gas, it exists in the form of water vapour in the Earth’s atmosphere. During summers, some of the snow and ice gets converted to water due to the Sun’s radiation and flows down as rivers, and ultimately into the oceans. The melted ice is replenished by fresh snow during winters.
+
+![](images/page_9_image_5.jpg)
+
+Fig. 7.9: Water cycle
+
+Water in the oceans, rivers, and lakes gets heated due to the Sun, and as a result, it evaporates as water vapour. Water also evaporates from trees and plants through transpiration.
+
+When water vapour rises up, it cools down and condenses to form clouds. Clouds bring rain, snow, and hail. This process is called **precipitation**.
+
+The continuous movement of water — upward as water vapour and downward through precipitation, passing through soil, rocks, and plants, and finally returning to water bodies, is called **water cycle** (Fig. 7.9). Thus, the water cycle helps in redistributing and replenishing water in rivers, lakes, and oceans. It also serves to conserve the total amount of water on the Earth. Rainwater that falls on the surface of the Earth, flows into ponds, lakes, rivers, and oceans or seeps into the ground.

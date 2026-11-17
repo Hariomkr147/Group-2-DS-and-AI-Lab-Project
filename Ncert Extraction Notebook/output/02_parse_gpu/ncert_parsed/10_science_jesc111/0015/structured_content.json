@@ -1,0 +1,265 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.085,
+            0.721,
+            0.118
+          ],
+          "content": "**Applying Ohm’s law to the electric lamp and conductor separately, we get potential difference across the electric lamp,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.132,
+            0.117,
+            0.306,
+            0.148
+          ],
+          "content": "V_{_{ 丨 }} \\begin{array}{l} \\bar{=} 20 \\Omega \\times 0.25  A  ; \\\\ = 5  V  ; \\end{array}",
+          "image_source": "images/page_14_equation_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.15,
+            0.177,
+            0.165
+          ],
+          "content": "**and,**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.163,
+            0.527,
+            0.196
+          ],
+          "content": "that across the conductor, $\\begin{aligned}V_{_2} &= 4 \\Omega \\times 0.25  A  \\\\&= 1  V .\\end{aligned}$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.204,
+            0.724,
+            0.286
+          ],
+          "content": "**Suppose that we like to replace the series combination of electric lamp and conductor by a single and equivalent resistor. Its resistance must be such that a potential difference of 6 V across the battery terminals will cause a current of 0.25 A in the circuit. The resistance R of this equivalent resistor would be**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.288,
+            0.289,
+            0.335
+          ],
+          "content": "**R = V/I = 6 V/ 0.25 A = 24** Ω."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.339,
+            0.722,
+            0.372
+          ],
+          "content": "**This is the total resistance of the series circuit; it is equal to the sum of the two resistances.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.277,
+            0.402,
+            0.775,
+            0.431
+          ],
+          "level": 2,
+          "content": "Q U E S T I O N S"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.44,
+            0.777,
+            0.487
+          ],
+          "content": "**1. Draw a schematic diagram of a circuit consisting of a battery of three cells of 2 V each, a 5** Ω **resistor, an 8** Ω **resistor, and a 12** Ω **resistor, and a plug key, all connected in series.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.488,
+            0.777,
+            0.55
+          ],
+          "content": "**2. Redraw the circuit of Question 1, putting in an ammeter to measure the current through the resistors and a voltmeter to measure the potential difference across the 12** Ω **resistor. What would be the readings in the ammeter and the voltmeter?**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.801,
+            0.444,
+            0.882,
+            0.544
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_11.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.101,
+            0.567,
+            0.388,
+            0.588
+          ],
+          "level": 2,
+          "content": "11.6.2 Resistors in Parallel"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.099,
+            0.595,
+            0.723,
+            0.63
+          ],
+          "content": "**Now, let us consider the arrangement of three resistors joined in parallel with a combination of cells (or a battery), as shown in Fig.11.7.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.134,
+            0.642,
+            0.306,
+            0.664
+          ],
+          "level": 2,
+          "content": "Activity 11.6"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.125,
+            0.676,
+            0.517,
+            0.764
+          ],
+          "content": "**Make a parallel combination, XY, of three** resistors having resistances R , $R _ { 2 ^ { \\prime } }$ and $R _ { 3 ^ { \\prime } }$ **respectively. Connect it with a battery, a plug key and an ammeter, as shown in Fig. 11.10. Also connect a voltmeter in parallel with the combination of resistors.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.124,
+            0.764,
+            0.517,
+            0.882
+          ],
+          "content": "**Plug the key and note the ammeter reading. Let the current be I. Also take the voltmeter reading. It gives the potential difference V, across the combination. The potential difference across each resistor is also V. This can be checked by connecting the voltmeter across each individual resistor (see Fig. 11.11).**"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.531,
+            0.664,
+            0.919,
+            0.856
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.673,
+                0.86,
+                0.794,
+                0.877
+              ],
+              "content": "Figure 11.10"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_17.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.1,
+            0.916,
+            0.177,
+            0.93
+          ],
+          "content": "Electricity"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.914,
+            0.93
+          ],
+          "content": "185"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

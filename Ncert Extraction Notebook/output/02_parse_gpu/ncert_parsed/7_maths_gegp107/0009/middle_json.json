@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:16:12+05:30",
+      "modified_at": "2026-04-07T17:16:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 8,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 8,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.046,
+            0.364,
+            0.064
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.085,
+            0.293,
+            0.11
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Figure it Out"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.118,
+            0.849,
+            0.175
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. We checked by construction that there are no triangles having sidelengths 3 cm, 4 cm and 8 cm; and 2 cm, 3 cm and 6 cm. Check if you could have found this without trying to construct the triangle."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.179,
+            0.849,
+            0.217
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Can we say anything about the existence of a triangle for each of the following sets of lengths?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.206,
+            0.221,
+            0.5,
+            0.241
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(a) 10 km, 10 km and 25 km"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.207,
+            0.245,
+            0.509,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) 5 mm, 10 mm and 20 mm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.207,
+            0.27,
+            0.495,
+            0.289
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(c) 12 cm, 20 cm and 40 cm"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.294,
+            0.849,
+            0.369
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "You would have realised that using a rough figure and comparing the direct path lengths with their corresponding roundabout path lengths is the same as comparing each length with the sum of the other two lengths. There are three such comparisons to be made."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.372,
+            0.817,
+            0.468
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. For each set of lengths seen so far, you might have noticed that in at least two of the comparisons, the direct length was less than the sum of the other two (if not, check again!). For example, for the set of lengths 10 cm, 15 cm and 30 cm, there are two comparisons where this happens:"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.828,
+            0.367,
+            0.93,
+            0.42
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.828,
+                0.367,
+                0.93,
+                0.42
+              ],
+              "image_path": "images/page_8_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.437,
+            0.475,
+            0.562,
+            0.496
+          ],
+          "image_path": "images/page_8_equation_10.jpg",
+          "content": "10 \\leq 15 \\pm 30"
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.437,
+            0.511,
+            0.562,
+            0.531
+          ],
+          "image_path": "images/page_8_equation_11.jpg",
+          "content": "15 \\leq 10 + 30"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.174,
+            0.535,
+            0.74,
+            0.556
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "But this doesn’t happen for the third length: 30 > 10 + 15."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.111,
+            0.564,
+            0.849,
+            0.624
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Will this always happen? That is, for any set of lengths, will there be at least two comparisons where the direct length is less than the sum of the other two? Explore for different sets of lengths."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.11,
+            0.642,
+            0.848,
+            0.701
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Further, for a given set of lengths, is it possible to identify which lengths will immediately be less than the sum of the other two, without calculations?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.151,
+            0.716,
+            0.73,
+            0.738
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "["
+            },
+            {
+              "type": "text",
+              "content": "Hint:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Consider the direct lengths in the increasing order.]"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.11,
+            0.751,
+            0.847,
+            0.791
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Given three sidelengths, what do we need to compare to check for the existence of a triangle?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.149,
+            0.801,
+            0.848,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When each length is smaller than the sum of the other two, we say that the lengths satisfy the "
+            },
+            {
+              "type": "text",
+              "content": "triangle inequality",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". For example, the set 3, 4, 5 satisfies the triangle inequality whereas, the set 10, 15, 30 does not satisfy the triangle inequality."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.875,
+            0.848,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have seen that lengths such as 10, 15, 30 that do not satisfy the triangle inequality cannot be the sidelengths of a triangle."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 19,
+          "bbox": [
+            0.154,
+            0.938,
+            0.194,
+            0.955
+          ],
+          "content": []
+        },
+        {
+          "type": "footer",
+          "index": 20,
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

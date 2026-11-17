@@ -1,0 +1,570 @@
+{
+  "pages": [
+    {
+      "page_idx": 11,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.646,
+            0.042,
+            0.848,
+            0.059
+          ],
+          "content": "Journey Inside the Atom"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.856,
+            0.018,
+            0.952,
+            0.089
+          ],
+          "content": "N 151"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.108,
+            0.089,
+            0.709,
+            0.134
+          ],
+          "level": 2,
+          "content": "8.7 How Are Electrons Distributed in Different Energy Levels?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.137,
+            0.507,
+            0.155
+          ],
+          "content": "Bohr and Bury suggested the following rules:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.157,
+            0.775,
+            0.226
+          ],
+          "content": "y The maximum number of electrons present in a shell is given by the formula **2n²**, where ‘n’ is the number of the shell (Fig. 8.7). Hence, K-shell (n = 1) $2 \\times 1 ^ { 2 } = 2 ,$ , can accommodate 2 electrons, L-shell (n = 2) 2×2² = 8 electrons, and M-shell (n = 3) 2×3² = 18 electrons."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.228,
+            0.775,
+            0.28
+          ],
+          "content": "y The maximum number of electrons that can be accommodated in the outermost shell is 8 (the first shell can accommodate a maximum of two electrons)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.118,
+            0.283,
+            0.775,
+            0.351
+          ],
+          "content": "y Electrons are filled in these shells in a stepwise manner, starting from the one closest to the nucleus and moving outward, i.e., in the order K, L, M, N, … The L-shell will be filled only after the K-shell is complete, and so on."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.354,
+            0.775,
+            0.44
+          ],
+          "content": "To understand the placement of electrons in atoms, let us begin with hydrogen (atomic number 1). The only electron in it has to be in the K-shell. The electron distribution for hydrogen (H) is depicted in Fig. 8.11. Helium contains two protons in its nucleus and two electrons. In which way will the two electrons be arranged in its atomic shell?"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.448,
+            0.355,
+            0.467
+          ],
+          "level": 2,
+          "content": "8.7.1 Building up atoms"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.47,
+            0.776,
+            0.589
+          ],
+          "content": "Let us create two-dimensional (2-D) atomic structures for various elements by adding one electron to the appropriate energy level each time atomic number is increased by 1. The distribution of electrons among various shells is known as the **electronic configuration** of the atom (Fig. 8.11). Table 8.4 lists the symbols, atomic numbers, number of protons, number of neutrons, number of electrons, and the electron distribution in the shells of the first eighteen elements."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.133,
+            0.592,
+            0.176,
+            0.622
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.147,
+                0.623,
+                0.164,
+                0.634
+              ],
+              "content": "H"
+            }
+          ],
+          "image_source": "images/page_11_image_10.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.837,
+            0.592,
+            0.878,
+            0.622
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.848,
+                0.623,
+                0.87,
+                0.634
+              ],
+              "content": "He"
+            }
+          ],
+          "image_source": "images/page_11_image_12.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.122,
+            0.674,
+            0.187,
+            0.721
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.147,
+                0.727,
+                0.164,
+                0.739
+              ],
+              "content": "Li"
+            }
+          ],
+          "image_source": "images/page_11_image_14.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.219,
+            0.673,
+            0.284,
+            0.722
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.243,
+                0.727,
+                0.264,
+                0.739
+              ],
+              "content": "Be"
+            }
+          ],
+          "image_source": "images/page_11_image_16.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.315,
+            0.666,
+            0.399,
+            0.723
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.343,
+                0.727,
+                0.358,
+                0.739
+              ],
+              "content": "B"
+            }
+          ],
+          "image_source": "images/page_11_image_18.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.416,
+            0.672,
+            0.484,
+            0.723
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.444,
+                0.727,
+                0.459,
+                0.739
+              ],
+              "content": "C"
+            }
+          ],
+          "image_source": "images/page_11_image_20.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.518,
+            0.672,
+            0.584,
+            0.722
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.545,
+                0.727,
+                0.559,
+                0.739
+              ],
+              "content": "N"
+            }
+          ],
+          "image_source": "images/page_11_image_22.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.618,
+            0.673,
+            0.685,
+            0.722
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.644,
+                0.727,
+                0.66,
+                0.739
+              ],
+              "content": "0"
+            }
+          ],
+          "image_source": "images/page_11_image_24.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.718,
+            0.672,
+            0.785,
+            0.723
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.746,
+                0.727,
+                0.76,
+                0.738
+              ],
+              "content": "F"
+            }
+          ],
+          "image_source": "images/page_11_image_26.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.819,
+            0.672,
+            0.888,
+            0.723
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.845,
+                0.727,
+                0.866,
+                0.739
+              ],
+              "content": "Ne"
+            }
+          ],
+          "image_source": "images/page_11_image_28.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.778,
+            0.195,
+            0.839
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.141,
+                0.842,
+                0.162,
+                0.854
+              ],
+              "content": "Na"
+            }
+          ],
+          "image_source": "images/page_11_image_30.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.21,
+            0.777,
+            0.293,
+            0.84
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.24,
+                0.843,
+                0.263,
+                0.855
+              ],
+              "content": "Mg"
+            }
+          ],
+          "image_source": "images/page_11_image_32.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.308,
+            0.778,
+            0.39,
+            0.841
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.342,
+                0.843,
+                0.359,
+                0.854
+              ],
+              "content": "Al"
+            }
+          ],
+          "image_source": "images/page_11_image_34.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.408,
+            0.777,
+            0.493,
+            0.841
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.442,
+                0.843,
+                0.458,
+                0.854
+              ],
+              "content": "Si"
+            }
+          ],
+          "image_source": "images/page_11_image_36.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.51,
+            0.776,
+            0.593,
+            0.839
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.545,
+                0.843,
+                0.557,
+                0.854
+              ],
+              "content": "P"
+            }
+          ],
+          "image_source": "images/page_11_image_38.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.608,
+            0.778,
+            0.693,
+            0.84
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.647,
+                0.843,
+                0.658,
+                0.854
+              ],
+              "content": "S"
+            }
+          ],
+          "image_source": "images/page_11_image_40.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.709,
+            0.778,
+            0.795,
+            0.841
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.744,
+                0.843,
+                0.759,
+                0.854
+              ],
+              "content": "Cl"
+            }
+          ],
+          "image_source": "images/page_11_image_42.jpg"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.812,
+            0.776,
+            0.897,
+            0.841
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [
+            {
+              "bbox": [
+                0.845,
+                0.844,
+                0.864,
+                0.854
+              ],
+              "content": "Ar"
+            }
+          ],
+          "image_source": "images/page_11_image_44.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.17,
+            0.883,
+            0.837,
+            0.913
+          ],
+          "content": "Fig. 8.11: Schematic atomic structure of the first eighteen elements showing how the electrons are filled in the K, L and M shells"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-03T20:02:26+05:30",
+      "modified_at": "2026-05-13T10:46:33+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 11,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,41 @@
+Now let us focus on the expression $2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } .$
+
+Think of a term whose square is 25p2. What about $9 q ^ { 2 } ?$
+
+$$
+5 0 p ^ { 2 } \pm 6 0 p q \pm 1 8 q ^ { 2 }
+$$
+
+$$
+2 \left[ ( 5 p ) ^ { 2 } + 2 ( 5 p ) ( 3 q ) + ( 3 q ) ^ { 2 } \right]
+$$
+
+$$
+= 2 \; ( 5 p + 3 q ) ^ { 2 } .
+$$
+
+Here we have used the identity $(a + b)^{2} = a^{2} + 2ab + b^{2}$ to factor the expression $2 5 p ^ { 2 } + 3 0 p q + 9 q ^ { 2 } ,$ , after taking 2 as a common factor.
+
+In all the examples described so far, we have used the identity $(a+b)^{2}=a^{2}+2ab+b^{2}$ to find factors of different algebraic expressions.
+
+## Think and Reflect
+
+What if we replace b by – b in $(a + b)^{2} = a^{2} + 2ab + b^{2}$
+
+We get $( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,$ which is also an identity and can be used in ways similar to $(a + b)^{2} = a^{2} + 2ab + b^{2}$
+
+Let us revisit the pattern we observed in Example 1. Any three consecutive numbers can be taken as $( \underline { { n } } \mathrm { ~ - \textbackslash ~ } 1 )$ , n and $( n ~ + ~ 1 )$ . Their respective squares are of the form $(n - 1)^{2}, n^{2}$ and $( n + 1 ) ^ { 2 }$
+
+The sum of the smallest and largest squares is
+
+$$
+(n - 1)^{2} + (n + 1)^{2} = n^{2} - 2n + 1 + n^{2} + 2n + 1 = 2n^{2} + 2.
+$$
+
+Subtracting $2 n ^ { 2 }$ from this leads to 2. Hence you always get 2! This is in fact a proof of the fact that if we add the smallest and largest of any three consecutive square numbers and subtract two times the middle square number, we will always arrive at 2.
+
+Just as the identity $(a^{2}+b)^{2}=a^{2}+2ab+b^{2}$ can be used to find the squares of numbers, we can also use $(a - b)^{2} = a^{2} - 2ab + b^{2}$ in a similar manner.
+
+**Example 8:** Suppose we have to calculate 29<sup>2</sup>. We can express this as $(30 - 1)^{2} = 30^{2} - 2 \times 30 \times 1 + 1^{2} = 900 - 60 + 1 = 841.$
+
+To visualise the identity $( a - b ) ^ { 2 } = a ^ { 2 } - 2 a b + b ^ { 2 } ,$ , let us draw a square of side a units and split a in two parts, one of length $( a - b )$ units and another of length b units. Then the figure will look like this.

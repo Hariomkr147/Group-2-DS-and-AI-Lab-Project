@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 13.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:59:24Z",
+      "modified_at": "2026-03-24T12:00:59+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 10,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.098,
+            0.085,
+            0.492,
+            0.279
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the energy flow diagram (Fig. 13.4), two things become clear. Firstly, the flow of energy is unidirectional. The energy that is captured by the autotrophs does not revert back to the solar input and the energy which passes to the herbivores does not come back to autotrophs. As it moves progressively through the various trophic levels it is no longer available to the previous level. Secondly, the energy available at each trophic level gets diminished progressively due to loss of energy at each level.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.098,
+            0.279,
+            0.492,
+            0.497
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Another interesting aspect of food chain is how unknowingly some harmful chemicals enter our bodies through the food chain. You have read in Class IX how water gets polluted. One of the reasons is the use of several pesticides and other chemicals to protect our crops from diseases and pests. These chemicals are either washed down into the soil or into the water bodies. From the soil, these are absorbed by the plants along with water and minerals, and from the water bodies these are taken up by aquatic plants",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 2,
+          "bbox": [
+            0.501,
+            0.091,
+            0.924,
+            0.499
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 2,
+              "bbox": [
+                0.501,
+                0.091,
+                0.924,
+                0.499
+              ],
+              "image_path": "images/page_3_image_2.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_footnote",
+              "index": 3,
+              "bbox": [
+                0.714,
+                0.517,
+                0.927,
+                0.56
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 13.3 Food web, consisting of many food chains"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.2,
+            0.507,
+            0.796,
+            0.865
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.2,
+                0.507,
+                0.796,
+                0.865
+              ],
+              "image_path": "images/page_3_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.266,
+                0.872,
+                0.759,
+                0.888
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 13.4 Diagram showing flow of energy in an ecosystem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 6,
+          "bbox": [
+            0.101,
+            0.916,
+            0.23,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Our Environment"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 7,
+          "bbox": [
+            0.88,
+            0.915,
+            0.914,
+            0.931
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "211"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 8,
+          "bbox": [
+            0.448,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

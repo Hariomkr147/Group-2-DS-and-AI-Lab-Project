@@ -1,0 +1,149 @@
+{
+  "pages": [
+    {
+      "page_idx": 1,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.603,
+            0.044,
+            0.848,
+            0.061
+          ],
+          "content": "Describing Motion Around Us"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.857,
+            0.018,
+            0.952,
+            0.088
+          ],
+          "content": "N 49"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.088,
+            0.775,
+            0.144
+          ],
+          "content": "about some more physical quantities, such as displacement, average velocity and average acceleration. You will also learn to describe motion not only in words, but also with numbers, equations and graphs."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.156,
+            0.478,
+            0.178
+          ],
+          "level": 2,
+          "content": "4.1 Motion in a Straight Line"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.108,
+            0.182,
+            0.776,
+            0.276
+          ],
+          "content": "You have learnt that when an object moves in a straight line, its motion is called linear motion. It can also be called **motion in a straight line**. It is the simplest kind of motion. Have you noticed it around you, such as children in a swimming race, a vertically falling ball, a car moving along a straight stretch of a highway or a train moving on a straight track (Fig. 4.1)?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.113,
+            0.285,
+            0.953,
+            0.647
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.385,
+                0.65,
+                0.679,
+                0.667
+              ],
+              "content": "Fig. 4.1: Objects in a straight line motion"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_1_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.678,
+            0.774,
+            0.715
+          ],
+          "content": "To discuss about the motion of an object, you first need to describe its position at various instants of time."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.723,
+            0.388,
+            0.743
+          ],
+          "level": 2,
+          "content": "4.1.1 Describing position"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.107,
+            0.745,
+            0.776,
+            0.92
+          ],
+          "content": "How do we describe the position of an object? For that, as you learnt earlier, we first need to specify a fixed point as the **reference point**. The distance and direction of the object with respect to the reference point, at any instant of time, describes the **position of the object** at that instant of time. Note that apart from the distance, we also specify the direction from the reference point in which the object is located to describe its position. And when do we say that an object is in motion? If the position of the object with respect to the reference point changes with time, the object is said to be **in motion**. On the other hand, the object is said to be **at rest** if its position with respect to the reference point does not change with time."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-28T15:15:24+05:30",
+      "modified_at": "2026-05-13T10:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.2 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 1,
+          "width_pt": 593.9520130157471,
+          "height_pt": 784.7520008087158
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

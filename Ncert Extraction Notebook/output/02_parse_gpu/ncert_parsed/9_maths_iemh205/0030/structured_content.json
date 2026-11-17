@@ -1,0 +1,150 @@
+{
+  "pages": [
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.119,
+            0.072,
+            0.159,
+            0.087
+          ],
+          "content": "114"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.186,
+            0.071,
+            0.495,
+            0.089
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.11,
+            0.884,
+            0.225
+          ],
+          "content": "Now plot the points A (0, 2), B (6, 0), P (0, – 4) and Q (3, – 2) on a graph paper, and join the points to form the lines AB and PQ as shown in Fig. 13.14. We observe that the point B(6, 0) is common to both the lines. In fact the lines AB and PQ intersect at B. So, the solution of the pair of linear equations is x = 6 and y = 0. Also, we can say that the given pair of equations has a **unique solution**."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.282,
+            0.228,
+            0.717,
+            0.495
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.143,
+                0.503,
+                0.851,
+                0.541
+              ],
+              "content": "Fig. 13.14: Graph of the pair of linear equations x + 3y = 6 and $2x - 3y = 12.$ They have the unique solution (6, 0) or x = 6, y = 0"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_29_image_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.546,
+            0.881,
+            0.667
+          ],
+          "content": "If we consider the ratios of the corresponding coefficients and constants in the equations $x + \\underline{3}y = 6$ and $2x - 3y = 12,$ , we get $\\frac { a _ { _ 1 } } { a _ { _ 2 } } = \\frac { 1 } { 2 }$ $\\frac{b_{_1}}{b_{_2}}=\\frac{3}{-3}=-1$ . Here $\\frac{\\overline{a}_{1}^{-} \\neq \\overline{b}_{1}^{-}}{a_{2}^{-}}$ We have also seen graphically that the lines intersect."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.672,
+            0.882,
+            0.732
+          ],
+          "content": "**Example 12:** Determine if the lines $x + 2y - 4 = 0$ and $2x + 4y - 12 = 0$ intersect, coincide or are parallel to each other. Then verify your answer by graphing the equations."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.114,
+            0.733,
+            0.879,
+            0.831
+          ],
+          "content": "On comparing the coefficients of these two equations we get $\\frac { a _ { _ 1 } } { a _ { _ 2 } } = \\frac { 1 } { 2 }$ $\\frac{b_{1}}{b_{2}} = \\frac{2}{4} = \\frac{1}{2}, \\frac{c_{1}}{c_{2}} = \\frac{- 4}{- 12} = \\frac{1}{3}$ . We observe that $\\frac { a _ { _ 1 } } { a _ { _ 2 } } = \\frac { b _ { _ 1 } } { b _ { _ 2 } }$ but is not equal to $\\frac { c _ { _ 1 } } { c _ { _ 2 } }$ Thus, the equations have no solution and hence the lines are parallel."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.83,
+            0.881,
+            0.85
+          ],
+          "content": "As before, we identify the points (0, 2) and (4, 0) on the line $x + 2y - 4 = 0$"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.354,
+            0.857,
+            0.644,
+            0.915
+          ],
+          "content": "| x | 0 | 4 |\n| --- | --- | --- |\n| y | 2 | 0 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_29_table_9.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:40:41+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 38,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 29,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

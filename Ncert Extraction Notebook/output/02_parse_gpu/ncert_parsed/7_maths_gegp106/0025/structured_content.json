@@ -1,0 +1,181 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.116,
+            0.087,
+            0.252,
+            0.106
+          ],
+          "level": 2,
+          "content": "Page No- 136"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.121,
+            0.3,
+            0.14
+          ],
+          "content": "？ **Figure it out**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.142,
+            0.925,
+            0.203
+          ],
+          "content": "**1. How many different magic squares can be made using the numbers 1 – 9? Ans:** There is exactly one unique magic square with numbers 1 – 9, if we ignore rotations and reflections."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.385,
+            0.212,
+            0.656,
+            0.36
+          ],
+          "content": "| 8 | 1 | 6 |\n| --- | --- | --- |\n| 3 | 5 | 7 |\n| 4 | 9 | 2 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_table_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.383,
+            0.925,
+            0.445
+          ],
+          "content": "**2. Create a magic square using numbers 2 – 10. What strategy would you use for this? Compare it with the magic squares made using 1 – 9. Ans:** We will add 1 to every number in the magic square in Q.1"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.395,
+            0.464,
+            0.648,
+            0.613
+          ],
+          "content": "| 9 | 2 | 7 |\n| --- | --- | --- |\n| 4 | 6 | 8 |\n| 5 | 10 | 3 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_table_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.636,
+            0.431,
+            0.655
+          ],
+          "content": "3. **Take a magic square, and**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.657,
+            0.479,
+            0.676
+          ],
+          "content": "**(a) Increase each number by 1**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.678,
+            0.421,
+            0.696
+          ],
+          "content": "**(b) Double each number**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.162,
+            0.699,
+            0.911,
+            0.739
+          ],
+          "content": "**In each case, is the resulting grid also a magic square? How do the magic sums change in each case?**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.117,
+            0.755,
+            0.433,
+            0.773
+          ],
+          "content": "**Ans:** Consider the magic square."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.406,
+            0.773,
+            0.636,
+            0.906
+          ],
+          "content": "| 8 | 1 | 6 |\n| --- | --- | --- |\n| 3 | 5 | 7 |\n| 4 | 9 | 2 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_table_11.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.515,
+            0.928,
+            0.528,
+            0.941
+          ],
+          "content": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:58+05:30",
+      "modified_at": "2026-04-07T17:15:58+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 32,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

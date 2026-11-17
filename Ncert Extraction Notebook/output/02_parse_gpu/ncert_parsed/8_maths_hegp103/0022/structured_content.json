@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "page_idx": 21,
+      "blocks": [
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.55,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.699,
+            0.046,
+            0.862,
+            0.064
+          ],
+          "content": "A Story of Numbers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.088,
+            0.847,
+            0.124
+          ],
+          "content": "in the grouping. The presence of a counter above a line contributed a value of 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.174,
+            0.125,
+            0.783,
+            0.144
+          ],
+          "content": "For example let us take the number 3426. It can be grouped as"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.175,
+            0.143,
+            0.845,
+            0.162
+          ],
+          "content": "3 4 2 6 = 1 0 0 0 + 1 0 0 0 + 1 0 0 0 + 1 0 0 + 1 0 0 + 1 0 0 + 1 0 0 + 1 0 + 1 0 + 1 + 1 +",
+          "image_source": "images/page_21_equation_4.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.176,
+            0.162,
+            0.294,
+            0.179
+          ],
+          "content": "1 + 1 + 1 + 1",
+          "image_source": "images/page_21_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.18,
+            0.847,
+            0.217
+          ],
+          "content": "This number was represented as shown in Fig. 3.1. Notice how the 6 ones are represented."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.217,
+            0.848,
+            0.274
+          ],
+          "content": "To get an idea of how the abacus was used for calculations, let us consider a simple addition problem: 2907 + 43. The two numbers were taken on either side of the vertical partition."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.222,
+            0.293,
+            0.829,
+            0.478
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_21_image_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.492,
+            0.553,
+            0.512
+          ],
+          "content": "How would you use this to find the sum?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.515,
+            0.847,
+            0.554
+          ],
+          "content": "The counters along each line were brought together. What is to be done if the total in a line exceeded 10?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.559,
+            0.847,
+            0.599
+          ],
+          "content": "**Hint:** In this problem, the 7 ones and the 3 ones together make 10 ones which contributes a counter to the line representing 10s."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.613,
+            0.644,
+            0.636
+          ],
+          "level": 2,
+          "content": "III. Shortcomings of the Egyptian System"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.65,
+            0.848,
+            0.707
+          ],
+          "content": "Despite being a number system that enabled relatively efficient number representations for numbers till a crore (10<sup>7</sup>), and relatively easy computations, the Egyptian system had a drawback."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.708,
+            0.848,
+            0.782
+          ],
+          "content": "If larger and larger numbers needed to be represented, then there was a need for inventing an unending sequence of symbols for higher and higher powers of 10. Here we see the original challenge of number representation resurfacing in a different form!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.782,
+            0.848,
+            0.839
+          ],
+          "content": "The next and the final idea in the history of the evolution of number systems not only solves this problem but also remarkably simplifies number representation and computations!"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.844,
+            0.293,
+            0.866
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.869,
+            0.801,
+            0.926
+          ],
+          "content": "1. Can there be a number whose representation in Egyptian numerals has one of the symbols occurring 10 or more times? Why not?"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.817,
+            0.853,
+            0.905,
+            0.906
+          ],
+          "content": "Math Talk"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.877,
+            0.915,
+            0.912,
+            0.936
+          ],
+          "content": "69"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:00+05:30",
+      "modified_at": "2026-05-15T17:57:04+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 46,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 21,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

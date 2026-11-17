@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 11.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:09:57Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 24,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "index": 0,
+          "bbox": [
+            0.307,
+            0.089,
+            0.454,
+            0.104
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.4"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.306,
+            0.105,
+            0.9,
+            0.172
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The potential difference between the terminals of an electric heater is 60 V when it draws a current of 4 A from the source. What current will the heater draw if the potential difference is increased to 120 V? Solution",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.307,
+            0.172,
+            0.828,
+            0.189
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are given, potential difference "
+            },
+            {
+              "type": "equation_inline",
+              "content": "V = 6 0   \\mathrm { V } ,"
+            },
+            {
+              "type": "text",
+              "content": " current "
+            },
+            {
+              "type": "equation_inline",
+              "content": "I   =   4   \\mathrm { A }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.307,
+            0.196,
+            0.726,
+            0.229
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "According to Ohm’s law,",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "R=\\frac{V}{I}=\\frac{60\\  V }{4\\  A }=15\\ \\Omega"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.306,
+            0.233,
+            0.899,
+            0.267
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "When the potential difference is increased to 120 V the current is given by",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.307,
+            0.272,
+            0.556,
+            0.307
+          ],
+          "image_path": "images/page_9_equation_5.jpg",
+          "content": "{ \\mathrm { c u r r e n t } } = { \\frac { V } { R } } = { \\frac { 1 2 0 { \\mathrm { ~ V ~ } } } { 1 5 \\; \\Omega } } = 8 { \\mathrm { ~ A ~ } } ."
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.307,
+            0.313,
+            0.708,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The current through the heater becomes 8 A.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 7,
+          "bbox": [
+            0.308,
+            0.344,
+            0.454,
+            0.36
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.5"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.306,
+            0.359,
+            0.9,
+            0.426
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Resistance of a metal wire of length 1 m is 26",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω "
+            },
+            {
+              "type": "text",
+              "content": "at",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 0 ^ { \\circ } \\mathbb { C }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ". If the diameter of the wire is 0.3 mm, what will be the resistivity of the metal at that temperature? Using Table 11.2, predict the material of the wire.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.307,
+            0.429,
+            0.401,
+            0.444
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.306,
+            0.445,
+            0.899,
+            0.478
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We are given the resistance R of the",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{wire}=26\\ \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": ", the diameter",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d = 0.3\\  mm  = 3 \\times 10^{-4}"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m, and the length l of the wire = 1 m.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.306,
+            0.478,
+            0.899,
+            0.516
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore, from Eq. (11.10), the resistivity of the given metallic wire is",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\rho \\quad = \\quad ( R A / l ) \\quad \\equiv \\quad ( R \\pi d ^ { 2 } / 4 l )"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.307,
+            0.519,
+            0.618,
+            0.537
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Substitution of values in this gives",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 13,
+          "bbox": [
+            0.307,
+            0.539,
+            0.504,
+            0.556
+          ],
+          "image_path": "images/page_9_equation_13.jpg",
+          "content": "\\rho = 1.84 \\times 10^{-6}   \\Omega    m"
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.306,
+            0.559,
+            0.898,
+            0.595
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The resistivity of the metal at",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 0 ^ { \\circ } \\mathbf { C }"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "is",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 . 8 4 \\: \\times \\: 1 0 ^ { - 6 } \\Omega"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "text",
+              "content": "m",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". From "
+            },
+            {
+              "type": "text",
+              "content": "Table 11.2, we see that this is the resistivity of manganese.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.307,
+            0.608,
+            0.454,
+            0.623
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 11.6"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.307,
+            0.623,
+            0.9,
+            0.691
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A wire of given material having length l and area of cross-section A has a resistance of 4",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Ω. "
+            },
+            {
+              "type": "text",
+              "content": "What would be the resistance of another wire of the same material having length l/2 and area of cross-section 2A? Solution",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.308,
+            0.693,
+            0.427,
+            0.709
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For first wire",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.312,
+            0.715,
+            0.474,
+            0.747
+          ],
+          "image_path": "images/page_9_equation_18.jpg",
+          "content": "R_{1} = \\rho \\frac{l}{A} = 4\\Omega"
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.311,
+            0.749,
+            0.495,
+            0.767
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now for second wire",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.312,
+            0.772,
+            0.546,
+            0.808
+          ],
+          "image_path": "images/page_9_equation_20.jpg",
+          "content": "R_{2} = \\rho \\frac{l/2}{2A} = \\frac{1}{4} \\rho \\frac{l}{A}"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.312,
+            0.814,
+            0.449,
+            0.845
+          ],
+          "image_path": "images/page_9_equation_21.jpg",
+          "content": "R _ { _ 2 } = \\frac { 1 } { 4 } \\quad R _ { _ L }"
+        },
+        {
+          "type": "equation",
+          "index": 22,
+          "bbox": [
+            0.312,
+            0.848,
+            0.384,
+            0.867
+          ],
+          "image_path": "images/page_9_equation_22.jpg",
+          "content": "R _ { 2 } { = } 1 \\Omega"
+        },
+        {
+          "type": "text",
+          "index": 23,
+          "bbox": [
+            0.311,
+            0.869,
+            0.634,
+            0.886
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The resistance of the new wire is 1",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Ω."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 24,
+          "bbox": [
+            0.831,
+            0.916,
+            0.9,
+            0.93
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Science",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 25,
+          "bbox": [
+            0.091,
+            0.917,
+            0.124,
+            0.932
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "180"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 26,
+          "bbox": [
+            0.447,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

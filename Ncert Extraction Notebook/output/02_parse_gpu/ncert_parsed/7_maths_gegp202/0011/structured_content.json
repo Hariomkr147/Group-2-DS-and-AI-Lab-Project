@@ -1,0 +1,241 @@
+{
+  "pages": [
+    {
+      "page_idx": 10,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.066
+          ],
+          "content": "Ganita Prakash | Grade 7 | Part-II"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.088,
+            0.659,
+            0.133
+          ],
+          "content": "(c) $( - 5 ) \\times ( - 1 )$ (d)\t (– 8) × 4 (e) $( - 9 ) \\times 1 0$ (f)\t 10 × (– 17)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.138,
+            0.846,
+            0.178
+          ],
+          "content": "Consider the expression 1 × a. We know that the value of this expression is ‘a’ for all positive integers."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.186,
+            0.543,
+            0.209
+          ],
+          "level": 2,
+          "content": "Is this true for all negative integers too?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.212,
+            0.847,
+            0.271
+          ],
+          "content": "Using the token model, we put ‘a’ negatives into the bag just once. After this, the bag contains ‘a’ negatives. For example, if ‘a’ is – 5 (5 negatives), then the bag contains 5 negatives, i.e., –5. So,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.231,
+            0.275,
+            0.764,
+            0.295
+          ],
+          "content": "1 × a = a (for all integers a, both positive and negative)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.305,
+            0.572,
+            0.326
+          ],
+          "content": "What is the value of the expression – 1 × a?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.33,
+            0.846,
+            0.369
+          ],
+          "content": "When ‘a’ is positive, then from our observations on integer multiplication, the product has the same magnitude as ‘a’ but is negative."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.368,
+            0.846,
+            0.406
+          ],
+          "content": "When ‘a’ is negative, then the product has the same magnitude as ‘a’ but is positive."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.407,
+            0.846,
+            0.445
+          ],
+          "content": "In each case, we notice that the product is the additive inverse of the multiplicand ‘a’. Thus,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.351,
+            0.444,
+            0.644,
+            0.464
+          ],
+          "content": "-1 \\times a = -a   (for all integers $\\underline { { a } } ) ,$",
+          "image_source": "images/page_10_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.473,
+            0.846,
+            0.515
+          ],
+          "content": "？ In the case of integers, is the product the same when we swap the multiplier and the multiplicand? Try this for some numbers."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.519,
+            0.846,
+            0.557
+          ],
+          "content": "Observe the following pairs of multiplications (fill in the blanks where needed):"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.155,
+            0.563,
+            0.83,
+            0.681
+          ],
+          "content": "| 3×- 4=-12 | - 4×3=-12 |\n| --- | --- |\n| - 30×12=_______ | 12×- 30=_______ |\n| -15×- 8=120 | - 8×-15=120 |\n| 14×- 5=-70 | - 5×_____=- 70 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_10_table_13.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.696,
+            0.767,
+            0.719
+          ],
+          "level": 2,
+          "content": "? What do you notice in these pairs of multiplication statements?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.723,
+            0.846,
+            0.763
+          ],
+          "content": "The product is the same when we ‘swap’ the multiplier and multiplicand. Earlier, we have seen a similar property with addition."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.77,
+            0.401,
+            0.793
+          ],
+          "level": 2,
+          "content": "Will this always happen?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.796,
+            0.849,
+            0.895
+          ],
+          "content": "The magnitude of the product does not change when the multiplier and the multiplicand are swapped. This is because the magnitude of the product depends only on the magnitudes of the multiplier and the multiplicand, and we know that the product of two positive integers does not change when the numbers being multiplied are swapped."
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.95
+          ],
+          "content": "34"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 10,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

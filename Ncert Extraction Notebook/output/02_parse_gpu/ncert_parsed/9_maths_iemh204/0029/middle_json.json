@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-09T11:45:51+05:30",
+      "modified_at": "2026-09-30T11:40:06+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 34,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 28,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 28,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.682,
+            0.071,
+            0.813,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Quadrilaterals"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.853,
+            0.071,
+            0.88,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "79"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.127,
+            0.11,
+            0.881,
+            0.168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "12.  (i) Suppose ABCD is a parallelogram and M, N are midpoints of AB and CD respectively. Show that segments DM and BN trisect segment AC."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.19,
+            0.167,
+            0.881,
+            0.227
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) Use part (i) to find a procedure to trisect any given segment PQ. Find two other ways to trisect PQ, one using Exercise 11 above and a third using the Centroid Theorem."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 4,
+          "bbox": [
+            0.405,
+            0.238,
+            0.628,
+            0.331
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 4,
+              "bbox": [
+                0.405,
+                0.238,
+                0.628,
+                0.331
+              ],
+              "image_path": "images/page_28_image_4.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 5,
+              "bbox": [
+                0.451,
+                0.336,
+                0.548,
+                0.355
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.127,
+            0.369,
+            0.882,
+            0.447
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "13. Is the Midpoint Theorem for Quadrilaterals (Theorem 9) true when the quadrilateral is non-convex? How about when it is self-intersecting? Experiment and check. The pictures may look strange, but the theorem appears to be true."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.197,
+            0.447,
+            0.881,
+            0.485
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) Can you explain why this is so? See the geometric reasoning in the text."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.191,
+            0.485,
+            0.881,
+            0.542
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) There is one exception: In a very special case the Varignon parallelogram becomes a single segment. When will this happen?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.173,
+            0.541,
+            0.881,
+            0.564
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "*(iii) Does your reasoning apply even when ABCD is non-planar?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.127,
+            0.572,
+            0.882,
+            0.652
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "14. Let P, Q, R, S be four points on sides AB, BC, CD and DA respectively of a quadrilateral ABCD. Suppose PQRS is a parallelogram. Must P, Q, R and S be midpoints of the respective sides? This can be considered a possible converse question to Theorem 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.127,
+            0.655,
+            0.882,
+            0.714
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "15.  (i) Complete the following proof of the Midpoint Theorem. Extend segment PQ beyond Q until point S. By how much should we extend PQ?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 12,
+          "bbox": [
+            0.347,
+            0.733,
+            0.717,
+            0.863
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 12,
+              "bbox": [
+                0.347,
+                0.733,
+                0.717,
+                0.863
+              ],
+              "image_path": "images/page_28_image_12.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 13,
+              "bbox": [
+                0.451,
+                0.874,
+                0.547,
+                0.893
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 12.41"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

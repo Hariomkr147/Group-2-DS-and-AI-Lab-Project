@@ -1,0 +1,274 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.1,
+            0.104,
+            0.127,
+            0.119
+          ],
+          "content": "30"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.783,
+            0.104,
+            0.899,
+            0.121
+          ],
+          "content": "MATHEMATICS"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.096,
+            0.139,
+            0.754,
+            0.159
+          ],
+          "level": 2,
+          "content": "3.3 Algebraic Methods of Solving a Pair of Linear Equations"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.174,
+            0.901,
+            0.341
+          ],
+          "content": "**In the previous section, we discussed how to solve a pair of linear equations graphically. The graphical method is not convenient in cases when the point representing the solution of the linear equations has non-integral coordinates like** $\\left( { \\sqrt { 3 } }   ,   2 { \\sqrt { 7 } } \\right)$ $(-1.75,3.3),\\left(\\frac{4}{13},\\frac{1}{19}\\right)$ , etc. There is every possibility of making mistakes while reading such coordinates. Is there any alternative method of finding the solution? There are several algebraic methods, which we shall now discuss."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.353,
+            0.902,
+            0.393
+          ],
+          "content": "**3.3.1 Substitution Method : We shall explain the method of substitution by taking some examples.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.406,
+            0.802,
+            0.426
+          ],
+          "content": "**Example 4 : Solve the following pair of equations by substitution method:**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.381,
+            0.431,
+            0.898,
+            0.451
+          ],
+          "content": "7 x - 1 5 y = 2\\tag{1}",
+          "image_source": "images/page_6_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.456,
+            0.897,
+            0.476
+          ],
+          "content": "x + 2y = 3\\tag{2}",
+          "image_source": "images/page_6_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.482,
+            0.205,
+            0.5
+          ],
+          "content": "**Solution :**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.095,
+            0.507,
+            0.899,
+            0.545
+          ],
+          "content": "**Step 1 : We pick either of the equations and write one variable in terms of the other. Let us consider the Equation (2) :**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.582,
+            0.242,
+            0.6
+          ],
+          "content": "**and write it as**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.401,
+            0.556,
+            0.898,
+            0.601
+          ],
+          "content": "\\begin{aligned}x + 2y &= 3 \\\\x &= 3 \\geq 2y\\end{aligned}\\tag{3}",
+          "image_source": "images/page_6_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.607,
+            0.645,
+            0.626
+          ],
+          "content": "**Step 2 : Substitute the value of** x **in Equation (1). We get**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.658,
+            0.139,
+            0.676
+          ],
+          "content": "**i.e.,**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.684,
+            0.139,
+            0.702
+          ],
+          "content": "**i.e.,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.318,
+            0.632,
+            0.537,
+            0.702
+          ],
+          "content": "\\begin{aligned}7(3 - 2y) - 15y &= 2 \\\\21 - 14y - 15y &= 2 \\\\\\angle \\quad - 29y &= - 19\\end{aligned}",
+          "image_source": "images/page_6_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.098,
+            0.723,
+            0.205,
+            0.742
+          ],
+          "content": "**Therefore,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.45,
+            0.711,
+            0.533,
+            0.75
+          ],
+          "content": "y = { \\frac { 1 9 } { 2 9 } }",
+          "image_source": "images/page_6_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.755,
+            0.659,
+            0.775
+          ],
+          "content": "**Step 3 : Substituting this value of** y **in Equation (3), we get**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.449,
+            0.784,
+            0.667,
+            0.828
+          ],
+          "content": "x = 3 - 2\\left(\\frac{19}{29}\\right) = \\frac{49}{29}",
+          "image_source": "images/page_6_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.827,
+            0.51,
+            0.868
+          ],
+          "content": "**Therefore, the solution is** $x = \\frac { 4 9 } { 2 9 }   ,   y = \\frac { 1 9 } { 2 9 }$"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-3 (8th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-3 (8th Nov.)",
+      "description": "Chap-3 (8th Nov.)",
+      "created_at": "2022-08-17T11:49:56+05:30",
+      "modified_at": "2026-03-24T12:00:40+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

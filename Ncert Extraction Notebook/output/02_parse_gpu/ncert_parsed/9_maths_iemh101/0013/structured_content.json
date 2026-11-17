@@ -1,0 +1,167 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.44,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Orienting Yourself: The Use of Coordinates"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.856,
+            0.069,
+            0.884,
+            0.084
+          ],
+          "content": "13"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.176,
+            0.105,
+            0.872,
+            0.269
+          ],
+          "content": "| S | M | T | Is M the midpoint of ST? Yes or No | Reason for your answer |\n| --- | --- | --- | --- | --- |\n| (- 3, 0) | (0, 0) | (3, 0) |  |  |\n| (2, 3) | (3, 4) | (4, 5) |  |  |\n| (0, 0) | (0, 5) | (0, - 10) |  |  |\n| (- 8, 7) | (0, - 2) | (6, - 3) |  |  |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_table_2.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.18,
+            0.283,
+            0.883,
+            0.325
+          ],
+          "content": "When M is the mid-point of ST, can you find any connection between the coordinates of M, S and T?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.122,
+            0.333,
+            0.884,
+            0.376
+          ],
+          "content": "\\*10. Use the connection you found to find the coordinates of B given that M (–7, 1) is the midpoint of A (3, – 4) and B (x, y)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.382,
+            0.886,
+            0.485
+          ],
+          "content": "\\*11. Let P, Q be points of trisection of AB, with P closer to A, and Q closer to B. Using your knowledge of how to find the coordinates of the midpoint of a segment, how would you find the coordinates of P and Q? Do this for the case when the points are A (4, 7) and B (16, – 2)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.488,
+            0.886,
+            0.551
+          ],
+          "content": "\\*12. (i) Given the points A (1, – 8), B (– 4, 7) and C (–7, – 4), show that they lie on a circle K whose center is the origin O (0, 0). What is the radius of circle K?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.554,
+            0.885,
+            0.597
+          ],
+          "content": "(ii) Given the points D (–5, 6) and E (0, 9), check whether D and E lie within the circle, on the circle, or outside the circle K."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.123,
+            0.604,
+            0.886,
+            0.667
+          ],
+          "content": "\\*13. The midpoints of the sides of triangle ABC are the points D, E, and F. Given that the coordinates of D, E, and F are (5, 1), (6, 5), and (0, 3), respectively, find the coordinates of A, B and C."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.674,
+            0.887,
+            0.777
+          ],
+          "content": "14. A city has two main roads which cross each other at the centre of the city. These two roads are along the North–South (N–S) direction and East–West (E–W) direction. All the other streets of the city run parallel to these roads and are 200 m apart. There are 10 streets in each direction."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.781,
+            0.884,
+            0.823
+          ],
+          "content": "(i) Using 1 cm = 200 m, draw a model of the city in your notebook. Represent the roads/streets by single lines."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.183,
+            0.826,
+            0.886,
+            0.888
+          ],
+          "content": "(ii) There are street intersections in the model. Each street intersection is formed by two streets — one running in the N–S direction and another in the E–W direction. Each street"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:18+05:30",
+      "modified_at": "2026-04-22T18:46:42+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 15,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

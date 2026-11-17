@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:44:10+05:30",
+      "modified_at": "2025-11-08T13:42:11+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.121,
+            0.081,
+            0.576,
+            0.183
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1 GEOMETRIC TWINS"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.778,
+            0.091,
+            0.906,
+            0.179
+          ],
+          "content": []
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.813,
+            0.185,
+            0.87,
+            0.196
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0789CH01"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.298,
+            0.437,
+            0.322
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1.1 Geometric Twins"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.151,
+            0.332,
+            0.835,
+            0.354
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The symbol on this signboard needs to be recreated on another board."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 5,
+          "bbox": [
+            0.41,
+            0.36,
+            0.601,
+            0.589
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 5,
+              "bbox": [
+                0.41,
+                0.36,
+                0.601,
+                0.589
+              ],
+              "image_path": "images/page_0_image_5.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 6,
+          "bbox": [
+            0.111,
+            0.594,
+            0.328,
+            0.618
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "How do we do it?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.15,
+            0.622,
+            0.847,
+            0.68
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "One way is to trace the outline of this symbol on tracing paper to reconstruct the figure. But this is difficult for big symbols. What else can we do?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.111,
+            0.688,
+            0.847,
+            0.729
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can we take some measurements that would allow us to exactly recreate this figure? If yes, what measurements should we take?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.174,
+            0.733,
+            0.712,
+            0.754
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us name the corner points of this symbol as shown."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 10,
+          "bbox": [
+            0.369,
+            0.758,
+            0.637,
+            0.862
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 10,
+              "bbox": [
+                0.369,
+                0.758,
+                0.637,
+                0.862
+              ],
+              "image_path": "images/page_0_image_10.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.111,
+            0.878,
+            0.847,
+            0.902
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Are the arm lengths AB and BC sufficient to exactly recreate this figure?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,161 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": "106"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.068,
+            0.477,
+            0.087
+          ],
+          "content": "Ganita Manjari |Grade 9| Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.119,
+            0.107,
+            0.886,
+            0.171
+          ],
+          "content": "\\*3. In a circle, if the distance of chord AB from the centre is twice the distance of another chord CD from the centre, then can we conclude that CD = 2 AB? Give reasons for your answer."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.113,
+            0.187,
+            0.575,
+            0.211
+          ],
+          "level": 2,
+          "content": "5.7 Angles Subtended by an Arc"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.221,
+            0.886,
+            0.283
+          ],
+          "content": "An **arc** of a circle is a connected portion of the circle. It is defined by two points on the circle, called the **end points** of the arc, and the curve connecting them along the circle’s edge."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.137,
+            0.301,
+            0.438,
+            0.51
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.13,
+                0.527,
+                0.444,
+                0.56
+              ],
+              "content": "Fig. 5.17: Major arc AYB and minor arc AXB"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.457,
+            0.351,
+            0.878,
+            0.489
+          ],
+          "content": "Look at Fig. 5.17. A and B are two points on the circle. There are two ways of going from A to B. One goes via point X and one goes via point Y. The bigger of the two is called the major arc, and the smaller of the two is called the minor arc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.12,
+            0.583,
+            0.471,
+            0.837
+          ],
+          "content": "We define the **angle subtended** by the arc AB at the centre to be the measure of the angle AOB, as we sweep along the arc — so we move from OA to OB along the arc and measure the angle swept. The minor arc subtends the ∠AOB — here you move from OA to OB via X. The major arc subtends the angle we get as we move from OA to OB via Y (see Fig. 5.18)."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.52,
+            0.582,
+            0.826,
+            0.81
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.637,
+                0.814,
+                0.717,
+                0.833
+              ],
+              "content": "Fig. 5.18"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_14_image_9.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:01:54+05:30",
+      "modified_at": "2026-04-22T18:46:32+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 26,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

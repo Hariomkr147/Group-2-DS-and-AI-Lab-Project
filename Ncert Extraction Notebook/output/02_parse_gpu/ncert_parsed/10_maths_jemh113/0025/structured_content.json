@@ -1,0 +1,181 @@
+{
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.099,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": "STATISTICS"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": "195"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.146,
+            0.896,
+            0.216
+          ],
+          "content": "Now n = 51. So, $\\frac{n}{2}=\\frac{51}{2}=25.5$ . This observation lies in the class 145 - 150. Then, l (the lower limit) = 145,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.249,
+            0.226,
+            0.895,
+            0.246
+          ],
+          "content": "cf (the cumulative frequency of the class preceding $1 4 5 \\textrm { - } 1 5 0 )   =   1 1$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.257,
+            0.253,
+            0.771,
+            0.273
+          ],
+          "content": "f (the frequency of the median class 145 - 150) = 18,"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.256,
+            0.278,
+            0.471,
+            0.297
+          ],
+          "content": "h (the class size) = 5."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.126,
+            0.306,
+            0.69,
+            0.389
+          ],
+          "content": "Using the formula, Median $\\mathbf { l } = l + \\left( { \\frac { { \\displaystyle { \\frac { n } { 2 } } } - \\mathbf { c f } } { f } } \\right) \\times h .$ , we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.31,
+            0.403,
+            0.618,
+            0.503
+          ],
+          "content": "\\begin{aligned} & Mean  = 145 + \\left( \\frac{25.5 - 11}{18} \\right) \\times 5 \\\\&= 145 + \\frac{72.5}{18} = 149.03.5\\\\ \\end{aligned}",
+          "image_source": "images/page_24_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.506,
+            0.546,
+            0.525
+          ],
+          "content": "So, the median height of the girls is 149.03 cm."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.531,
+            0.901,
+            0.57
+          ],
+          "content": "This means that the height of about 50% of the girls is less than this height, and 50% are taller than this height."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.096,
+            0.574,
+            0.9,
+            0.614
+          ],
+          "content": "**Example 8 :** The median of the following data is 525. Find the values of x and y, if the total frequency is 100."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.197,
+            0.618,
+            0.775,
+            0.896
+          ],
+          "content": "| Class intervals | Frequency |\n| --- | --- |\n| 0 - 100 | 2 |\n| 100 - 200 | 5 |\n| 200 - 300 | x |\n| 300 - 400 | 12 |\n| 400 - 500 | 17 |\n| 500 - 600 | 20 |\n| 600 - 700 | y |\n| 700 - 800 | 9 |\n| 800 - 900 | 7 |\n| 900 - 1000 | 4 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_24_table_11.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

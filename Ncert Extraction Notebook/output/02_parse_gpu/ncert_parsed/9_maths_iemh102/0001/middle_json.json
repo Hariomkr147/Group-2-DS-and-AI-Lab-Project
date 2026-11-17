@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.13,
+            0.146,
+            0.159,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.25,
+            0.127,
+            0.58,
+            0.182
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Introduction to Linear Polynomials"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 2,
+          "bbox": [
+            0.717,
+            0.058,
+            0.87,
+            0.156
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "口 口口"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 3,
+          "bbox": [
+            0.756,
+            0.165,
+            0.827,
+            0.177
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "0904CH02"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 4,
+          "bbox": [
+            0.114,
+            0.26,
+            0.361,
+            0.282
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2.1 Introduction"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.112,
+            0.293,
+            0.886,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We have learnt about algebraic expressions in earlier grades. In this chapter, we will learn about the special types of algebraic expressions called "
+            },
+            {
+              "type": "text",
+              "content": "linear polynomials",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Let us first consider a few examples of algebraic expressions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.112,
+            0.376,
+            0.511,
+            0.607
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Raju went to a shop where there were sealed boxes of different colours on sale. The shop owner told him that the red boxes have 4 pens each and the blue boxes have 5 pencils each. Now, if Raju bought x red boxes and y blue boxes, how can he quickly figure out the total quantity of pens and pencils? Also, if he got 3 extra pens free, how many pens and pencils did he get altogether?"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.525,
+            0.37,
+            0.878,
+            0.575
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.525,
+                0.37,
+                0.878,
+                0.575
+              ],
+              "image_path": "images/page_0_image_7.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 8,
+              "bbox": [
+                0.677,
+                0.581,
+                0.745,
+                0.598
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 2.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.112,
+            0.606,
+            0.886,
+            0.762
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Observe that x red boxes will have 4x pens and y blue boxes will have 5y pencils. Also, he got 3 extra pens free. Thus, the total number of pens and pencils is given by the algebraic expression 4x + 5y + 3. In this example, 4x, 5y and 3 are "
+            },
+            {
+              "type": "text",
+              "content": "terms",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of the expression, x and y are letter-numbers, the numbers 4 and 5 are the "
+            },
+            {
+              "type": "text",
+              "content": "coefficients",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " of x and y, respectively, and 3 is a "
+            },
+            {
+              "type": "text",
+              "content": "constant",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". From now onwards, we will use a widely used alternate word for letter-numbers: "
+            },
+            {
+              "type": "text",
+              "content": "variables",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": ". Thus in the expression 4x + 5y + 3, we say that the variables used are x and y."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.112,
+            0.764,
+            0.887,
+            0.864
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 2:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " A rectangular garden of length l metres and width w metres has to be fenced and decorated. A wire fence is to be laid along the length costing `100 per metre and a wooden fence is to be built along the width costing `80 per metre. Special seeds have to be sown throughout the garden which will cost `50 per square metre."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

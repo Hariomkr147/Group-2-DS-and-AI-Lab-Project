@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T12:23:21+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 9,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 9,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.119,
+            0.072,
+            0.147,
+            0.087
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "46"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.187,
+            0.071,
+            0.494,
+            0.089
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.115,
+            0.11,
+            0.882,
+            0.168
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As we did for adding, can we find an algorithm for gcd where the effort is proportional to the number of digits in the number, rather than the value of the number?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.116,
+            0.186,
+            0.586,
+            0.208
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "11.3.3 Euclid’s Subtraction Algorithm"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.114,
+            0.218,
+            0.883,
+            0.296
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An elegant solution to achieve this was written down by Euclid, in his book Elements. Historians believe that other Greek mathematicians knew of this algorithm before Euclid, but he was the first to put it down in writing."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 5,
+          "bbox": [
+            0.116,
+            0.312,
+            0.587,
+            0.335
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reducing a problem to a simpler one"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.115,
+            0.344,
+            0.882,
+            0.403
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The original version of Euclid’s algorithm makes use of the following observation. Let us assume that "
+            },
+            {
+              "type": "equation_inline",
+              "content": "m \\geq n"
+            },
+            {
+              "type": "text",
+              "content": " . Then, gcd(m, n) is the same as gcd(n, m – n)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.152,
+            0.406,
+            0.384,
+            0.427
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Why is this the case?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.145,
+            0.431,
+            0.882,
+            0.489
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let d be a common divisor of m and n. Then we can write m as ad and n as bd, where a and b are natural numbers. This means that m – n = ad – bd = (a – b)d, so d is also a divisor of m – n."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.144,
+            0.494,
+            0.882,
+            0.552
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "On the other hand, if d divides both n and m – n, then n = xd and m – n = yd for some natural numbers x and y. This means that n + (m – n) = m = xd + yd = (x + y)d, so d also divides m."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.115,
+            0.556,
+            0.883,
+            0.615
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This is shown visually below. If we can ‘tile’ m and n using blocks of size d, we can also tile m – n by blocks of the same size. In fact, Euclid used a similar pictorial proof to justify his algorithm."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 11,
+          "bbox": [
+            0.118,
+            0.621,
+            0.881,
+            0.75
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 11,
+              "bbox": [
+                0.118,
+                0.621,
+                0.881,
+                0.75
+              ],
+              "image_path": "images/page_9_image_11.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 12,
+              "bbox": [
+                0.266,
+                0.755,
+                0.731,
+                0.775
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 11.1: Justification for Euclid’s gcd algorithm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.115,
+            0.783,
+            0.881,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This observation tells us that any common divisor of m and n is also a common divisor of n and m – n, and the converse is also true. Hence the set of common divisors are the same in both cases, which means that gcd(m, n) = gcd(n, m – n)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.115,
+            0.86,
+            0.882,
+            0.919
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Euclid’s algorithm reduces the problem of finding gcd(m, n) to that of finding gcd(n, m – n). The second problem involves smaller numbers, so it should be a simpler problem to solve."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,431 @@
+{
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.302,
+            0.764,
+            0.619,
+            0.87
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_0.jpg"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.064
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.089,
+            0.699,
+            0.113
+          ],
+          "level": 2,
+          "content": "6.3 Mind the Mistake, Mend the Mistake"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.123,
+            0.848,
+            0.161
+          ],
+          "content": "We have expanded and simplified some algebraic expressions below to their simplest forms."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.212,
+            0.165,
+            0.847,
+            0.186
+          ],
+          "content": "(i) Check each of the simplifications and see if there is a mistake."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.206,
+            0.189,
+            0.848,
+            0.228
+          ],
+          "content": "(ii) If there is a mistake, try to explain what could have gone wrong."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.202,
+            0.232,
+            0.586,
+            0.252
+          ],
+          "content": "(iii) Then write the correct expression."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.256,
+            0.284,
+            0.375,
+            0.332
+          ],
+          "content": "\\begin{array} { r l } & { - 3 p \\left( - 5 p + 2 q \\right) } \\\\ & { = - 3 p + 5 p - 2 q } \\\\ & { = p - 2 q } \\end{array}",
+          "image_source": "images/page_14_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.422,
+            0.257,
+            0.457,
+            0.281
+          ],
+          "content": "2"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.439,
+            0.284,
+            0.574,
+            0.329
+          ],
+          "content": "\\begin{array} { r l } & { \\quad 2 ( x - 1 ) + 3 ( x + 4 ) } \\\\ & { = 2 x - 1 + 3 x + 4 } \\\\ & { = 5 x + 3 } \\end{array}",
+          "image_source": "images/page_14_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.611,
+            0.256,
+            0.647,
+            0.282
+          ],
+          "content": "3"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.645,
+            0.283,
+            0.744,
+            0.329
+          ],
+          "content": "\\begin{array} { r l } & { \\quad y + 2 \\left( y + 2 \\right) } \\\\ & { = ( y + 2 ) ^ { 2 } } \\\\ & { = y ^ { 2 } + 4 y + 4 } \\end{array}",
+          "image_source": "images/page_14_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.23,
+            0.346,
+            0.265,
+            0.372
+          ],
+          "content": "4"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.423,
+            0.346,
+            0.457,
+            0.372
+          ],
+          "content": "5"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.611,
+            0.347,
+            0.644,
+            0.371
+          ],
+          "content": "6"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.262,
+            0.38,
+            0.366,
+            0.413
+          ],
+          "content": "{ \\bf \\Delta } _ { = 2 5 m ^ { 2 } + 3 6 n ^ { 2 } }",
+          "image_source": "images/page_14_equation_15.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.457,
+            0.381,
+            0.546,
+            0.414
+          ],
+          "content": "{ \\bf \\Gamma } _ { =   q ^ { 2 } -   4 q +   4 } ^ { ( -   q +   2 ) ^ { 2 } }",
+          "image_source": "images/page_14_equation_16.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.637,
+            0.374,
+            0.74,
+            0.421
+          ],
+          "content": "\\begin{array} { r } { 3 a \\left( 2 b \\times 3 c \\right) } \\\\ { = 6 a b \\times 9 a c } \\\\ { = 5 4 a 2 b c } \\end{array}",
+          "image_source": "images/page_14_equation_17.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.23,
+            0.436,
+            0.264,
+            0.462
+          ],
+          "content": "7"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.259,
+            0.46,
+            0.376,
+            0.517
+          ],
+          "content": "\\begin{aligned}&\\frac{1}{2}(10s - 6) + 3 \\\\=& 5s - 3 + 3 \\\\=& 5s\\end{aligned}",
+          "image_source": "images/page_14_equation_19.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.422,
+            0.436,
+            0.457,
+            0.462
+          ],
+          "content": "8"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.461,
+            0.471,
+            0.542,
+            0.503
+          ],
+          "content": "= \\frac { 5 w ^ { 2 } + 6 w } { 1 1 w ^ { 2 } }",
+          "image_source": "images/page_14_equation_21.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.612,
+            0.437,
+            0.645,
+            0.461
+          ],
+          "content": "9"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.639,
+            0.464,
+            0.755,
+            0.509
+          ],
+          "content": "\\begin{array}{l}2a^{3}+3a^{3}+6a^{2}b^{2}\\\\+6ab^{2}\\\\=5a^{3}+12a^{2}b^{2}\\end{array}",
+          "image_source": "images/page_14_equation_23.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.228,
+            0.527,
+            0.263,
+            0.551
+          ],
+          "content": "10"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.243,
+            0.548,
+            0.388,
+            0.609
+          ],
+          "content": "\\begin{array} { r l } & { \\left[ \\begin{array} { l } { - ( x + 2 ) ( x + 5 ) } \\\\ { = ( x + 2 ) x + ( x + 2 ) 5 } \\\\ { = x ^ { 2 } + 2 x + 5 x + 1 0 } \\\\ { = x ^ { 2 } + 7 x + 1 0 } \\end{array} \\right] } \\end{array}",
+          "image_source": "images/page_14_equation_25.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.423,
+            0.528,
+            0.457,
+            0.553
+          ],
+          "content": "11"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.455,
+            0.56,
+            0.561,
+            0.593
+          ],
+          "content": "\\begin{array}{l}(a + 2)(b + 4) \\\\= ab + 8\\end{array}",
+          "image_source": "images/page_14_equation_27.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.61,
+            0.527,
+            0.644,
+            0.552
+          ],
+          "content": "12"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.633,
+            0.559,
+            0.756,
+            0.593
+          ],
+          "content": "\\begin{array} { c } { a b ^ { 2 } + a ^ { 2 } b + a ^ { 2 } b ^ { 2 } } \\\\ { = a b \\left( a + b + a b \\right) } \\end{array}",
+          "image_source": "images/page_14_equation_29.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.15,
+            0.643,
+            0.848,
+            0.669
+          ],
+          "level": 2,
+          "content": "6.4 This Way or That Way, All Ways Lead to the Bay"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.677,
+            0.802,
+            0.753
+          ],
+          "content": "Observe the pattern in the figure below. Draw the next figure in the sequence. How many circles does it have? How many total circles are there in Step 10? Write an expression for the number of circles in Step k."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.816,
+            0.673,
+            0.904,
+            0.726
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_14_image_32.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.548,
+            0.765,
+            0.565,
+            0.781
+          ],
+          "content": "3"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.88,
+            0.848,
+            0.918
+          ],
+          "content": "There are many ways of interpreting this pattern. Here are some possibilities:"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.078,
+            0.915,
+            0.126,
+            0.936
+          ],
+          "content": "150"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

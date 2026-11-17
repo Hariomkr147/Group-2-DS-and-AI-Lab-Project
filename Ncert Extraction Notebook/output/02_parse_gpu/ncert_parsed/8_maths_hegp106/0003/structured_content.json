@@ -1,0 +1,257 @@
+{
+  "pages": [
+    {
+      "page_idx": 2,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.136,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.112,
+            0.086,
+            0.396,
+            0.108
+          ],
+          "level": 2,
+          "content": "？ How do we expand this?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.114,
+            0.848,
+            0.153
+          ],
+          "content": "Let us consider (a + 1) as a single term. Then, by the distributive property, we have"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.173,
+            0.478,
+            0.192
+          ],
+          "content": "(a+1)(b+1)=(a+1)b+(a+1)1",
+          "image_source": "images/page_2_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.192,
+            0.482,
+            0.23
+          ],
+          "content": "Again applying the distributive property, we obtain"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.555,
+            0.181,
+            0.823,
+            0.203
+          ],
+          "content": "If a = 23, and, b = 27, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.151,
+            0.235,
+            0.478,
+            0.314
+          ],
+          "content": "\\begin{array} { r } { ( a + 1 ) \\; ( b + 1 ) = \\overbrace { ( a + 1 ) \\; b + ( a + 1 ) \\; 1 } ^ { \\mathrm { ~ \\tiny ~ \\frown ~ } \\mathrm { ~ \\tiny ~ \\frown ~ } } } \\\\ { = a b + \\overbrace { \\left[ ( b + a + 1 ) \\right] } ^ { \\mathrm { ~ \\tiny ~ \\frown ~ } \\mathrm { ~ \\tiny ~ \\frown ~ } } } \\end{array}",
+          "image_source": "images/page_2_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.506,
+            0.227,
+            0.894,
+            0.312
+          ],
+          "content": "(23+1) \\; (27+1) = \\overbrace{(23+1) \\; 27 + \\underbrace{(23+1) \\; 1}}^{  个个对  } \\\\= 23 \\times 27 + \\overbrace{\\underbrace{[(27+23+1)]}_{  Increase  }}^{  个个对  }",
+          "image_source": "images/page_2_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.334,
+            0.849,
+            0.373
+          ],
+          "content": "Thus, the product ab increases by $a + b + 1$ when each of a and b are increased by 1."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.382,
+            0.847,
+            0.424
+          ],
+          "content": "? What would we get if we had expanded $\\left(a \\pm 1\\right)\\left(b + 1\\right)$ by first taking (b + 1) as a single term? Try it?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.437,
+            0.848,
+            0.477
+          ],
+          "content": "？ What happens when one of the numbers in a product is increased by 1 and the other is decreased by 1? Will there be any change in the product?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.48,
+            0.848,
+            0.538
+          ],
+          "content": "Let us again take the product ab of two numbers a and b. If a is increased by 1 and b is decreased by 1, then their product will be $( a + 1 )$ (b – 1). Expanding this, we get"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.149,
+            0.542,
+            0.864,
+            0.642
+          ],
+          "content": "( a+1 ) ( b-1 ) = ( a+1 ) b-( a+1 ) \\\\ = ab+b-( a+1 ) \\\\ = ab+[ \\frac{b-a-1}{b-a-1} ] \\\\ = ab+\\frac{( \\overline{2} \\overline{3} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3} \\overline{3} \\overline{2} \\overline{3}",
+          "image_source": "images/page_2_equation_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.109,
+            0.656,
+            0.848,
+            0.696
+          ],
+          "content": "Will the product always increase? Find 3 examples where the product decreases."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.11,
+            0.711,
+            0.653,
+            0.734
+          ],
+          "level": 2,
+          "content": "What happens when a and b are negative integers?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.736,
+            0.847,
+            0.774
+          ],
+          "content": "Check by substituting different values for a and b in each of the above cases. For example, $a=-5,   b=8;   a=-4,   b=-5;$ etc."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.774,
+            0.848,
+            0.811
+          ],
+          "content": "We have seen that integers also satisfy the distributive property, that is, if x, y and z are any three integers, then x $( y + z ) = x y + x z .$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.811,
+            0.847,
+            0.847
+          ],
+          "content": "Thus, the expressions we have for increase of products hold when the letter-numbers take on negative integer values as well."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.847,
+            0.848,
+            0.886
+          ],
+          "content": "Recall that two algebraic expressions are equal if they take on the same values when their letter-numbers are replaced by numbers. These"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.078,
+            0.915,
+            0.127,
+            0.937
+          ],
+          "content": ""
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 2,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

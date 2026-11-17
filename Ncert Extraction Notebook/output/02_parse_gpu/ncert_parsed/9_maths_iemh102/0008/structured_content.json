@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "page_idx": 7,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.502,
+            0.069,
+            0.815,
+            0.087
+          ],
+          "content": "Introduction to Linear Polynomials"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.855,
+            0.068,
+            0.884,
+            0.085
+          ],
+          "content": "23"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.108,
+            0.883,
+            0.149
+          ],
+          "content": "Observe that the amount left on the $n ^ { t h }$ day will be \\`(100 – 5n). Therefore, on the 12th day the amount left will be $(100 - 12 \\times 5) = 540$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.132,
+            0.164,
+            0.399,
+            0.188
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.128,
+            0.201,
+            0.867,
+            0.241
+          ],
+          "content": "What amount will be left on the 15th day? How many days will it take for the entire amount to be spent?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.258,
+            0.885,
+            0.315
+          ],
+          "content": "**Example 8:** An auto-rikshaw fare starts at \\`25 and remains the same for the initial 2 km. Then it increases by \\`15 per km. What will be the fare for a travel of 10 km?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.315,
+            0.885,
+            0.375
+          ],
+          "content": "For the initial 2 km, the fare is \\`25. For every kilometre (km) thereafter, the fare will increase by \\`15. Therefore, the total fare for a travel of 10 km will be $25+15\\times8=7145$"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.116,
+            0.382,
+            0.88,
+            0.457
+          ],
+          "content": "| Km travelled | 1 | 2 | 3 | 4 | 5 | 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Fare (`) | 25 | 25 | 25 + 1 × 15= 40 | 25 + 2 × 15= 55 | 25 + 3 × 15= 70 | 25 + 4 × 15= 85 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_7_table_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.113,
+            0.466,
+            0.885,
+            0.526
+          ],
+          "content": "Observe that the total fare for a travel of n km will be $25+15\\times(n-2)=15n-5$ when $n \\geq 2$ . Here, the fare for a specific distance covered is a function of the distance n km."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.55,
+            0.399,
+            0.574
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.587,
+            0.531,
+            0.608
+          ],
+          "content": "For how many km will the fare be \\`130?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.639,
+            0.886,
+            0.721
+          ],
+          "content": "Note that in all the above examples, the $n ^ { t h }$ term is a linear expression in n. A **linear pattern** is a sequence of numbers where the difference between two consecutive terms is constant. We will learn more about linear patterns in the chapter on Sequences and Progressions."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.375,
+            0.742,
+            0.622,
+            0.771
+          ],
+          "level": 2,
+          "content": "Exercise Set 2.3"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.114,
+            0.79,
+            0.334,
+            0.811
+          ],
+          "level": 2,
+          "content": "Solve the following:"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.814,
+            0.886,
+            0.899
+          ],
+          "content": "1. A student has \\`500 in her savings bank account. She gets \\`150 every month as pocket money. How much money will she have at the end of every month from the second month onwards? Find a linear expression to represent the amount she will have in the $n ^ { t h }$ month."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:52:57+05:30",
+      "modified_at": "2026-04-22T18:46:39+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 25,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 7,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

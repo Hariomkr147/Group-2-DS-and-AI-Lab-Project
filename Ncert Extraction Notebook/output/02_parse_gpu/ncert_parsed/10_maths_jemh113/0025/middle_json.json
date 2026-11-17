@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap-13 (14th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap-13 (14th Nov.)",
+      "description": "Chap-13 (14th Nov.)",
+      "created_at": "2022-08-17T12:00:46+05:30",
+      "modified_at": "2026-03-24T12:00:43+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 31,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 24,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 24,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.099,
+            0.104,
+            0.184,
+            0.121
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "STATISTICS"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.863,
+            0.104,
+            0.899,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "195"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.096,
+            0.146,
+            0.896,
+            0.216
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now n = 51. So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{n}{2}=\\frac{51}{2}=25.5"
+            },
+            {
+              "type": "text",
+              "content": " . This observation lies in the class 145 - 150. Then, l (the lower limit) = 145,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.249,
+            0.226,
+            0.895,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "cf (the cumulative frequency of the class preceding "
+            },
+            {
+              "type": "equation_inline",
+              "content": "1 4 5 \\textrm { - } 1 5 0 )   =   1 1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.257,
+            0.253,
+            0.771,
+            0.273
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "f (the frequency of the median class 145 - 150) = 18,"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.256,
+            0.278,
+            0.471,
+            0.297
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "h (the class size) = 5."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.126,
+            0.306,
+            0.69,
+            0.389
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Using the formula, Median "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbf { l } = l + \\left( { \\frac { { \\displaystyle { \\frac { n } { 2 } } } - \\mathbf { c f } } { f } } \\right) \\times h ."
+            },
+            {
+              "type": "text",
+              "content": " , we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 7,
+          "bbox": [
+            0.31,
+            0.403,
+            0.618,
+            0.503
+          ],
+          "image_path": "images/page_24_equation_7.jpg",
+          "content": "\\begin{aligned} & Mean  = 145 + \\left( \\frac{25.5 - 11}{18} \\right) \\times 5 \\\\&= 145 + \\frac{72.5}{18} = 149.03.5\\\\ \\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.097,
+            0.506,
+            0.546,
+            0.525
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, the median height of the girls is 149.03 cm."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.097,
+            0.531,
+            0.901,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "This means that the height of about 50% of the girls is less than this height, and 50% are taller than this height."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.096,
+            0.574,
+            0.9,
+            0.614
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 8 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " The median of the following data is 525. Find the values of x and y, if the total frequency is 100."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 11,
+          "bbox": [
+            0.197,
+            0.618,
+            0.775,
+            0.896
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 11,
+              "bbox": [
+                0.197,
+                0.618,
+                0.775,
+                0.896
+              ],
+              "image_path": "images/page_24_table_11.jpg",
+              "content": "<table><tbody><tr><td>Class intervals</td><td>Frequency</td></tr><tr><td>0 - 100</td><td>2</td></tr><tr><td>100 - 200</td><td>5</td></tr><tr><td>200 - 300</td><td>x</td></tr><tr><td>300 - 400</td><td>12</td></tr><tr><td>400 - 500</td><td>17</td></tr><tr><td>500 - 600</td><td>20</td></tr><tr><td>600 - 700</td><td>y</td></tr><tr><td>700 - 800</td><td>9</td></tr><tr><td>800 - 900</td><td>7</td></tr><tr><td>900 - 1000</td><td>4</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 12,
+          "bbox": [
+            0.435,
+            0.967,
+            0.563,
+            0.982
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T16:49:01+05:30",
+      "modified_at": "2026-04-22T18:46:24+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "196"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.185,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 2,
+          "bbox": [
+            0.37,
+            0.11,
+            0.629,
+            0.132
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Chapter Summary"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.15,
+            0.153,
+            0.885,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A "
+            },
+            {
+              "type": "text",
+              "content": "sequence",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is an ordered list of numbers. Each number in the list is called a term."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.203,
+            0.886,
+            0.265
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A "
+            },
+            {
+              "type": "text",
+              "content": "general formula",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " or rule for a sequence is a rule that can be used to generate each term. An "
+            },
+            {
+              "type": "text",
+              "content": "explicit formula",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is a rule that uses the term’s position number, n, to calculate the term’s value."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.15,
+            0.273,
+            0.885,
+            0.314
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A "
+            },
+            {
+              "type": "text",
+              "content": "recursive formula",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is a rule that gives the value of a given term using the values of previous terms."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.15,
+            0.322,
+            0.885,
+            0.418
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "text",
+              "content": "triangular number sequence",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " is given by 1, 3, 6, 10, 15, … Each term is the sum of the natural numbers up to the position of that term. The "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": " term is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t_{n}=\\frac{n(n+1)}{2}"
+            },
+            {
+              "type": "text",
+              "content": " which is also the formula for the sum of the first n natural numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.149,
+            0.426,
+            0.886,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "An "
+            },
+            {
+              "type": "text",
+              "content": "arithmetic progression",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " (AP) is a list of numbers in which each term after the first term is obtained by adding a fixed number d to the previous term. The fixed number d is called the "
+            },
+            {
+              "type": "text",
+              "content": "common difference",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.15,
+            0.516,
+            0.886,
+            0.578
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": " term of an AP is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t_{n}=\\bar{a}+(n-1)"
+            },
+            {
+              "type": "text",
+              "content": " d, where a is the first term and d is the common difference. The general form of an AP is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a,a+d,a+2d,a+3d,...,a+(n-1)c"
+            },
+            {
+              "type": "text",
+              "content": " ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.149,
+            0.586,
+            0.886,
+            0.668
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "A "
+            },
+            {
+              "type": "text",
+              "content": "geometric progression",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " (GP) is a list of numbers in which each term after the first term is obtained by multiplying the previous term by a fixed number. This constant factor r is called the "
+            },
+            {
+              "type": "text",
+              "content": "common ratio",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.15,
+            0.676,
+            0.885,
+            0.739
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "• The "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n ^ { t h }"
+            },
+            {
+              "type": "text",
+              "content": " term of a GP is given by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "t _ { _ { n } } = a r ^ { { _ { n - 1 } } }"
+            },
+            {
+              "type": "text",
+              "content": " , where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "^ { \\circ } a ^ { \\prime }"
+            },
+            {
+              "type": "text",
+              "content": " is the first term and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\boldsymbol { ^ { * } r ^ { * } }"
+            },
+            {
+              "type": "text",
+              "content": " is the common ratio. The general form of a GP is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a , a r , a r ^ { 2 } ,"
+            },
+            {
+              "type": "text",
+              "content": " "
+            },
+            {
+              "type": "equation_inline",
+              "content": "a r ^ { 3 } , . . . , \\bar { a } \\bar { r } ^ { \\bar { n } - 1 }"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.15,
+            0.746,
+            0.886,
+            0.789
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Many attributes of fractals, such as the Sierpiński triangle and the Sierpiński square carpet, lead to geometric progressions."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

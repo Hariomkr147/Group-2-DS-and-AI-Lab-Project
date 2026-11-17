@@ -1,0 +1,275 @@
+{
+  "pages": [
+    {
+      "page_idx": 23,
+      "blocks": [
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.478,
+            0.158,
+            0.492
+          ],
+          "content": "**or,**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.131,
+            0.086,
+            0.22,
+            0.101
+          ],
+          "level": 2,
+          "content": "Solution"
+        },
+        {
+          "type": "code",
+          "bbox": [
+            0.131,
+            0.1,
+            0.438,
+            0.188
+          ],
+          "sub_type": "algorithm",
+          "content": "Height of the object h = + 2.0 cm;\nFocal length f = + 10 cm;\nobject-distance u = –15 cm;\nImage-distance v = ?\nHeight of the image $h ^ { \\prime }   =   ?$",
+          "captions": [],
+          "footnotes": []
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.192,
+            0.273,
+            0.228
+          ],
+          "content": "**Since** $\\frac { 1 } { v } { - } \\frac { 1 } { u } { = } \\frac { 1 } { f }$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.132,
+            0.252,
+            0.159,
+            0.267
+          ],
+          "content": "**or,**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.184,
+            0.237,
+            0.268,
+            0.275
+          ],
+          "content": "\\scriptstyle { \\left[ { \\frac { 1 } { v } } = { \\frac { 1 } { u } } + { \\frac { 1 } { f } } \\right] }",
+          "image_source": "images/page_23_equation_5.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.182,
+            0.283,
+            0.394,
+            0.322
+          ],
+          "content": "\\left[ \\frac{1}{v} = \\frac{1}{(-15)} + \\frac{1}{10} = - \\frac{1}{15} + \\frac{1}{10} \\right]",
+          "image_source": "images/page_23_equation_6.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.183,
+            0.33,
+            0.314,
+            0.365
+          ],
+          "content": "\\frac{1}{v}=\\frac{-2+3}{30}=\\frac{1}{30}",
+          "image_source": "images/page_23_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.367,
+            0.289,
+            0.384
+          ],
+          "content": "**or, v = + 30 cm**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.383,
+            0.726,
+            0.433
+          ],
+          "content": "**The positive sign of v shows that the image is formed at a distance of 30 cm on the other side of the optical centre. The image is real and inverted.**"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.13,
+            0.44,
+            0.353,
+            0.472
+          ],
+          "content": "Magnification $m = \\frac{h'}{h} = \\frac{v}{u}$"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.182,
+            0.476,
+            0.282,
+            0.492
+          ],
+          "content": "h ^ { \\prime }   =   h \\left( v / u \\right)",
+          "image_source": "images/page_23_equation_11.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.492,
+            0.569,
+            0.51
+          ],
+          "content": "Height of the image, $h' = (2.0) \\left( +30/-15 \\right) = -4.0   cm$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.51,
+            0.336,
+            0.527
+          ],
+          "content": "Magnification $m   =   v / u$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.131,
+            0.533,
+            0.307,
+            0.567
+          ],
+          "content": "**or,** $m=\\frac{+30cm}{-15cm}=-2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.129,
+            0.572,
+            0.722,
+            0.641
+          ],
+          "content": "**The negative signs of m and h**′ **show that the image is inverted and real. It is formed below the principal axis. Thus, a real, inverted image, 4 cm tall, is formed at a distance of 30 cm on the other side of the lens. The image is two times enlarged.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.099,
+            0.659,
+            0.336,
+            0.679
+          ],
+          "level": 2,
+          "content": "9.3.8 Power of a Lens"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.097,
+            0.687,
+            0.724,
+            0.839
+          ],
+          "content": "**You have already learnt that the ability of a lens to converge or diverge light rays depends on its focal length. For example, a convex lens of short focal length bends the light rays through large angles, by focussing them closer to the optical centre. Similarly, concave lens of very short focal length causes higher divergence than the one with longer focal length. The degree of convergence or divergence of light rays achieved by a lens is expressed in terms of its power. The power of a lens is defined as the reciprocal of its focal length. It is represented by the letter P. The power P of a lens of focal length f is given by**"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.131,
+            0.844,
+            0.719,
+            0.88
+          ],
+          "content": "P = \\frac { 1 } { f }\\tag{9.11}",
+          "image_source": "images/page_23_equation_18.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.099,
+            0.915,
+            0.343,
+            0.931
+          ],
+          "content": "Light – Reflection and Refraction"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.881,
+            0.915,
+            0.912,
+            0.931
+          ],
+          "content": "157"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.448,
+            0.97,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 9.pmd",
+      "authors": [
+        "admin"
+      ],
+      "created_at": "2022-08-17T15:05:59Z",
+      "modified_at": "2026-03-24T12:00:58+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 23,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

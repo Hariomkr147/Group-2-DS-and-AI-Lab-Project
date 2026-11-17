@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-04-07T17:15:22+05:30",
+      "modified_at": "2026-04-07T17:15:22+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21367",
+      "page_count": 41,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 29,
+          "width_pt": 595.3200073242188,
+          "height_pt": 841.9199829101562
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 29,
+      "blocks": [
+        {
+          "type": "code",
+          "index": 0,
+          "bbox": [
+            0.114,
+            0.084,
+            0.634,
+            0.915
+          ],
+          "content": [
+            {
+              "type": "code_body",
+              "index": 0,
+              "bbox": [
+                0.114,
+                0.084,
+                0.634,
+                0.915
+              ],
+              "content": "(i) Method 1: Group by Like Terms\n5y + x + x + 5y + (– 6) + 2\n= (5y + 5y) + (x + x) + (– 6 + 2)\n= 10y + 2x – 4\nMethod 2: Group by Rows\nTop row: 5y + (– 6) + x\nBottom row: x + 2 + 5y\nCombine: (5y + 5y) + (x + x) + (– 6 + 2)\n=10y + 2x – 4\nFinal Number: 10y + 2x – 4\nTry some other ways!\n(ii) Method 1: Group by Term Type\n2p appears 4 times: 8p\n3q appears 4 times: 12q\nFinal number: 3 + (– 2) + (– 2) + 3 = 2\nTotal: 8p + 12q + 2\nMethod 2: Group by Columns\nColumn 1: 2p + 3q\nColumn 2: 3q + 2p\nColumn 3: (– 2) + 3 + 2p + 3q = 1 + 2p + 3q\nColumn 4: 3 + (– 2) + 3q + 2p = 1 + 3q + 2p\nFinal Number: 8p + 12q + 2\nTry some other ways!\n(iii) Method 1: Group by Term Type\n–5g appears 4 times: –20g\n5k appears 12 times: 60k\nTotal: –20g + 60k\nMethod 2: Group by Columns\nFirst column: –5g + 5k + 5k + (–5g) = –10g + 10k\nMiddle columns 2 and 3 all 5k = 8 × 5k = 40k\nLast column: –5g + 5k + 5k + (–5g) = –10g + 10k\nTotal of all: = –10g + 10k + 40k –10g + 10k\n= –20g + 60k\nTry some other ways!"
+            }
+          ],
+          "sub_type": "code",
+          "guess_lang": "txt"
+        },
+        {
+          "type": "page_number",
+          "index": 1,
+          "bbox": [
+            0.493,
+            0.929,
+            0.507,
+            0.942
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

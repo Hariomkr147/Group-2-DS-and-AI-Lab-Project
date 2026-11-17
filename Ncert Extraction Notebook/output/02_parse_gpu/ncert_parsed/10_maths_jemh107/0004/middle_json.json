@@ -1,0 +1,527 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "Chap–7 (10th Nov.)",
+      "authors": [
+        "admin"
+      ],
+      "subject": "Chap–7 (10th Nov.)",
+      "description": "Chap–7 (10th Nov.)",
+      "created_at": "2022-08-17T11:53:28+05:30",
+      "modified_at": "2026-03-24T12:00:41+05:30",
+      "creator_application": "Adobe PageMaker 7.0",
+      "producer_application": "Acrobat Distiller 10.1.1 (Windows)",
+      "page_count": 14,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 468.0,
+          "height_pt": 684.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.101,
+            0.104,
+            0.137,
+            0.119
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "102"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.782,
+            0.104,
+            0.899,
+            0.12
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "MATHEMATICS"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.095,
+            0.147,
+            0.61,
+            0.242
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us now find the distance between any two points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } ( \\boldsymbol { x } _ { 1 } , \\boldsymbol { y } _ { 1 } )"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathbb { Q } ( \\boldsymbol { x } _ { 2 } , \\boldsymbol { y } _ { 2 } )"
+            },
+            {
+              "type": "text",
+              "content": " . Draw PR and QS perpendicular to the x-axis. A perpendicular from the point P on QS is drawn to meet it at the point T (see Fig. 7.5)."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.097,
+            0.248,
+            0.598,
+            0.269
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Then, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{OR}=x_{1}, \\mathrm{OS}=x_{2}. \\quad \\mathrm{So}, \\quad \\mathrm{RS}=x_{2}-x_{1}=\\mathrm{PT}."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.098,
+            0.273,
+            0.608,
+            0.295
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Also, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{SQ} = y_{2}, \\quad \\mathrm{ST} = \\mathrm{PR} = y_{1}."
+            },
+            {
+              "type": "text",
+              "content": " So, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { Q T } = \\boldsymbol { y } _ { 2 } - \\boldsymbol { y } _ { 1 } ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.097,
+            0.299,
+            0.618,
+            0.319
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Now, applying the Pythagoras theorem in "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\Delta   \\mathrm { P T Q } ,"
+            },
+            {
+              "type": "text",
+              "content": " we get"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 6,
+          "bbox": [
+            0.633,
+            0.145,
+            0.898,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 6,
+              "bbox": [
+                0.633,
+                0.145,
+                0.898,
+                0.328
+              ],
+              "image_path": "images/page_3_image_6.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.097,
+            0.383,
+            0.205,
+            0.402
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Therefore,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.298,
+            0.323,
+            0.609,
+            0.407
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "\\begin{aligned} PQ ^{2} &=  PT ^{2} +  Q  T ^{2} \\\\&= (x_{_2} - x_{_1})^{2} + (y_{_2} - y_{_1})^{2} \\\\ PQ  &= \\sqrt{\\left(x_{_2} - x_{_1}\\right)^{2} + \\left(y_{_2} - \\underline{y}_{_1}\\right)^{2}}\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.715,
+            0.338,
+            0.801,
+            0.357
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Fig. 7.5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.095,
+            0.417,
+            0.9,
+            0.457
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Note that since distance is always non-negative, we take only the positive square root. So, the distance between the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{P}(x_1, y_1)"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{Q}(x_{2},\\overline{y}_{2})"
+            },
+            {
+              "type": "text",
+              "content": " is"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.305,
+            0.463,
+            0.632,
+            0.494
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "\\mathrm{PQ} = \\sqrt{\\left( x_{2} - x_{1} \\right)^{2} + \\left( y_{2} - y_{1} \\right)^{2}}"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.096,
+            0.503,
+            0.466,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is called the "
+            },
+            {
+              "type": "text",
+              "content": "distance formula",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.098,
+            0.528,
+            0.216,
+            0.546
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Remarks :"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.098,
+            0.553,
+            0.861,
+            0.573
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. In particular, the distance of a point "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm { P } ( x , { \\hat { y } } )"
+            },
+            {
+              "type": "text",
+              "content": " from the origin O(0, 0) is given by"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 15,
+          "bbox": [
+            0.345,
+            0.584,
+            0.519,
+            0.614
+          ],
+          "image_path": "images/page_3_equation_15.jpg",
+          "content": "\\mathrm{OP} = \\sqrt{x^{2} + y^{2}}"
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.096,
+            0.62,
+            0.704,
+            0.649
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. We can also write, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\mathrm{PQ} = \\sqrt{\\left(x_{1} - x_{2}\\right)^{2} + \\left(y_{1} - y_{2}\\right)^{2}}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.096,
+            0.663,
+            0.9,
+            0.702
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Example 1 :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Do the points "
+            },
+            {
+              "type": "equation_inline",
+              "content": "(3,2),(-2,-3)"
+            },
+            {
+              "type": "text",
+              "content": " and (2, 3) form a triangle? If so, name the type of triangle formed."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.095,
+            0.707,
+            0.899,
+            0.746
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solution :",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Let us apply the distance formula to find the distances PQ, QR and PR, where "
+            },
+            {
+              "type": "equation_inline",
+              "content": "P(3,2),Q(-2,-3)"
+            },
+            {
+              "type": "text",
+              "content": " and R(2, 3) are the given points. We have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.147,
+            0.758,
+            0.755,
+            0.785
+          ],
+          "image_path": "images/page_3_equation_19.jpg",
+          "content": "\\mathrm{PQ} = \\sqrt{(3 + 2)^2 + (2 + 3)^2} = \\sqrt{5^2 + 5^2} = \\sqrt{50} = 7.07   (\\mathrm{appmax.})"
+        },
+        {
+          "type": "equation",
+          "index": 20,
+          "bbox": [
+            0.147,
+            0.795,
+            0.84,
+            0.821
+          ],
+          "image_path": "images/page_3_equation_20.jpg",
+          "content": "\\mathrm{QR} = \\sqrt{(-2-2)^2 + (-3-3)^2} = \\sqrt{(-4)^2 + (-6)^2} = \\sqrt{52} = 7.21 (\\mathrm{appox.})"
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.147,
+            0.832,
+            0.773,
+            0.858
+          ],
+          "image_path": "images/page_3_equation_21.jpg",
+          "content": "\\mathrm{PR} = \\sqrt{(3 - 2)^2 + (2 - 3)^2} = \\sqrt{1^2 + (-1)^2} = \\sqrt{2} = 1.41 (\\mathrm{appmax.})"
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.095,
+            0.868,
+            0.9,
+            0.907
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Since the sum of any two of these distances is greater than the third distance, therefore, the points P, Q and R form a triangle."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 23,
+          "bbox": [
+            0.435,
+            0.966,
+            0.563,
+            0.983
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

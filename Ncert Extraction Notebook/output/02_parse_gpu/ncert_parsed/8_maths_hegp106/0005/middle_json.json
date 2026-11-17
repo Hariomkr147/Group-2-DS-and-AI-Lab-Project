@@ -1,0 +1,481 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:58:04+05:30",
+      "modified_at": "2026-05-15T17:58:12+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 4,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 4,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 8"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.087,
+            0.848,
+            0.145
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ This identity can be used to find how products change when the numbers being multiplied are increased or decreased by any amount. Can you see how this identity can be used when one or both numbers are decreased?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.149,
+            0.148,
+            0.847,
+            0.205
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "For example, let us reconsider the case when one number is increased by 1 and the other decreased by 1. Let us write the product "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left(a+1\\right)\\left(b-1\\right)"
+            },
+            {
+              "type": "text",
+              "content": " as "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\left(a+1\\right)\\left(b+\\left(-1\\right)\\right."
+            },
+            {
+              "type": "text",
+              "content": " . Taking m = 1 and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = - 1"
+            },
+            {
+              "type": "text",
+              "content": " in Identity 1, we have"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 3,
+          "bbox": [
+            0.27,
+            0.209,
+            0.726,
+            0.228
+          ],
+          "image_path": "images/page_4_equation_3.jpg",
+          "content": "ab+(1)\\times b+a\\times(-1)+(1)\\times(-1)=ab+b-a-1,"
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.149,
+            0.237,
+            0.662,
+            0.256
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "which is the same expression that we obtain earlier."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.111,
+            0.257,
+            0.668,
+            0.281
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Use Identity 1 to find how the product changes when"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.213,
+            0.282,
+            0.828,
+            0.303
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) one number is decreased by 2 and the other increased by 3;"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.207,
+            0.307,
+            0.808,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) both numbers are decreased, one by 3 and the other by 4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.109,
+            0.336,
+            0.848,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "the subtractions to additions."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.18,
+            0.38,
+            0.825,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Generalising this, we can find the product (a + u) (b – v) as follows."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 10,
+          "bbox": [
+            0.335,
+            0.404,
+            0.664,
+            0.483
+          ],
+          "image_path": "images/page_4_equation_10.jpg",
+          "content": "\\begin{aligned}\\left( a + u \\right) \\left( b - v \\right) &= \\left( a + u \\right) b - \\left( a + u \\right) v \\\\&= ab + ub - \\left( a v + u v \\right) \\\\&= ab + ub - a v - u v.\\end{aligned}"
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.488,
+            0.792,
+            0.508
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Check that this is the same as taking m = u and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "n = - v"
+            },
+            {
+              "type": "text",
+              "content": " in Identity 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.149,
+            0.508,
+            0.848,
+            0.583
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "As in Identity 1, the product (a + u) (b – v) is the sum of the product of each term of a + u (a and u) with each term of b – v (b and (–v)). Notice that the signs of the terms in the products can be determined using the usual rules of integer multiplication."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 13,
+          "bbox": [
+            0.101,
+            0.592,
+            0.187,
+            0.647
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 13,
+              "bbox": [
+                0.101,
+                0.592,
+                0.187,
+                0.647
+              ],
+              "image_path": "images/page_4_image_13.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.196,
+            0.602,
+            0.825,
+            0.643
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "See how the rules of integer multiplication allows us to handle multiple cases using a single identity!"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 15,
+          "bbox": [
+            0.112,
+            0.665,
+            0.553,
+            0.688
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Expand (i) (a – u) (b + v), (ii) (a – u) (b – v)."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.181,
+            0.69,
+            0.256,
+            0.71
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We get"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.342,
+            0.714,
+            0.698,
+            0.733
+          ],
+          "image_path": "images/page_4_equation_17.jpg",
+          "content": "( a - u ) ( b + v ) = a b - u b + a v - u v , { \\mathrm { a n d } }"
+        },
+        {
+          "type": "equation",
+          "index": 18,
+          "bbox": [
+            0.342,
+            0.744,
+            0.655,
+            0.763
+          ],
+          "image_path": "images/page_4_equation_18.jpg",
+          "content": "( a - u ) \\; ( b - v ) = a b - u b - a v + u v ."
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.15,
+            0.768,
+            0.846,
+            0.788
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The distributive property is not restricted to two terms within a bracket."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 20,
+          "bbox": [
+            0.112,
+            0.798,
+            0.473,
+            0.824
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Example 1: Expand "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\textstyle { \\frac { 3 a } { 2 } }   ( a - b + { \\frac { 1 } { 5 } } )"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.3,
+            0.826,
+            0.696,
+            0.855
+          ],
+          "image_path": "images/page_4_equation_21.jpg",
+          "content": "{ \\frac { 3 a } { 2 } } ( a - \\mathbf { b } + { \\frac { 1 } { 5 } } ) = ( { \\frac { 3 a } { 2 } } \\times a ) - ( { \\frac { 3 a } { 2 } } \\times b ) + ( { \\frac { 3 a } { 2 } } \\times { \\frac { 1 } { 5 } } ) ."
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.18,
+            0.859,
+            0.582,
+            0.878
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The terms can be simplified as follows—"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 23,
+          "bbox": [
+            0.409,
+            0.881,
+            0.588,
+            0.909
+          ],
+          "image_path": "images/page_4_equation_23.jpg",
+          "content": "\\frac{3a}{2} \\times a = \\frac{3}{2} \\times (a \\times a)."
+        },
+        {
+          "type": "page_number",
+          "index": 24,
+          "bbox": [
+            0.079,
+            0.915,
+            0.126,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "140"
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "index": 25,
+          "bbox": [
+            0.448,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Reprint 2026-27"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

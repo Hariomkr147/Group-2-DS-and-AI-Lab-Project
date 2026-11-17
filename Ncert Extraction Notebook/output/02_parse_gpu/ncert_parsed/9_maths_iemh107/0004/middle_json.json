@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T15:04:55+05:30",
+      "modified_at": "2026-04-22T18:46:27+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 19,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "page_number",
+          "index": 0,
+          "bbox": [
+            0.116,
+            0.069,
+            0.156,
+            0.085
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "158"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "index": 1,
+          "bbox": [
+            0.185,
+            0.069,
+            0.488,
+            0.086
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Manjari | Grade 9 | Part I"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.207
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "no purple cards) to certain (if all six are purple). As the number of purple cards increases, the likelihood of selecting a purple card moves smoothly along the "
+            },
+            {
+              "type": "text",
+              "content": "probability scale",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " from less likely, to even chance, to more likely. This scale helps us understand and compare how likely different events are, just like using a number line!"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 3,
+          "bbox": [
+            0.188,
+            0.216,
+            0.804,
+            0.527
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 3,
+              "bbox": [
+                0.188,
+                0.216,
+                0.804,
+                0.527
+              ],
+              "image_path": "images/page_3_image_3.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 4,
+              "bbox": [
+                0.301,
+                0.539,
+                0.698,
+                0.572
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Fig. 7.1: Probabilities of picking a purple card from a deck on the probability scale"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.113,
+            0.573,
+            0.885,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Here are a few examples of events and the probabilities of their occurrence. Look at the examples against the probability scale in Fig. 7.1 to understand how probability is measured on a scale."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 6,
+          "bbox": [
+            0.118,
+            0.645,
+            0.881,
+            0.835
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 6,
+              "bbox": [
+                0.118,
+                0.645,
+                0.881,
+                0.835
+              ],
+              "image_path": "images/page_3_table_6.jpg",
+              "content": "<table><tbody><tr><td>Event</td><td>What it means</td></tr><tr><td>Getting a number greater than</td><td>Impossible: Dice only have numbers</td></tr><tr><td>6 on a die</td><td>from 1 to 6.</td></tr><tr><td>Rolling a 3 on a standard die</td><td>Less likely: But not impossible as one face of the die is 3.</td></tr><tr><td>Flipping a coin and getting heads</td><td>Even chance: Heads or tails are equally likely.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

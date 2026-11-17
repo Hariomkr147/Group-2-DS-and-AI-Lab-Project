@@ -1,0 +1,160 @@
+{
+  "pages": [
+    {
+      "page_idx": 17,
+      "blocks": [
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.407,
+            0.059,
+            0.6,
+            0.087
+          ],
+          "level": 2,
+          "content": "iT's PUZZLE TME!"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.25,
+            0.051,
+            0.765,
+            0.158
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_1.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.417,
+            0.105,
+            0.608,
+            0.13
+          ],
+          "level": 2,
+          "content": "Square Pairs!"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.166,
+            0.632,
+            0.183
+          ],
+          "content": "Look at the following numbers: 3 6 10 15 1"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.185,
+            0.847,
+            0.222
+          ],
+          "content": "They are arranged such that each pair of adjacent numbers adds up to a square."
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.282,
+            0.226,
+            0.716,
+            0.245
+          ],
+          "content": "3+6=9,6+10=16,10+15=25,15+1=16.",
+          "image_source": "images/page_17_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.251,
+            0.848,
+            0.306
+          ],
+          "content": "Try arranging the numbers 1 to 17 (without repetition) in a row in a similar way — the sum of every adjacent pair of numbers should be a square."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.152,
+            0.306,
+            0.847,
+            0.344
+          ],
+          "content": "Can you arrange them in more than one way? If not, can you explain why?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.38,
+            0.847,
+            0.418
+          ],
+          "content": "Can you do the same with numbers from 1 to 32 (again, without repetition), but this time arranging all the numbers in a circle?"
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.039,
+            0.425,
+            0.913,
+            0.922
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_17_image_9.jpg"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.971,
+            0.55,
+            0.984
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:56:10+05:30",
+      "modified_at": "2026-05-15T17:56:17+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 22,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 17,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

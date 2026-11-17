@@ -1,0 +1,152 @@
+{
+  "pages": [
+    {
+      "page_idx": 6,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.075,
+            0.093,
+            0.33,
+            0.211
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.07,
+                0.228,
+                0.218,
+                0.258
+              ],
+              "content": "Figure 4.7 Structure of ethene"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.342,
+            0.085,
+            0.901,
+            0.228
+          ],
+          "content": "**The electron dot structure for ethene is given in Fig. 4.7. Yet another compound of hydrogen and carbon has the formula** $\\mathrm { C _ { 2 } H _ { 2 } }$ **and is called ethyne. Can you draw the electron dot structure for ethyne? How many bonds are necessary between the two carbon atoms in order to satisfy their valencies? Such compounds of carbon having double or triple bonds between the carbon atoms are known as unsaturated carbon compounds and they are more reactive than the saturated carbon compounds.**"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.274,
+            0.242,
+            0.631,
+            0.263
+          ],
+          "level": 2,
+          "content": "4.2.2 Chains, Branches and Rings"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.274,
+            0.27,
+            0.899,
+            0.337
+          ],
+          "content": "**In the earlier section, we mentioned the carbon compounds methane, ethane and propane, containing respectively 1, 2 and 3 carbon atoms. Such ‘chains’ of carbon atoms can contain many more carbon atoms. The names and structures of six of these are given in Table 4.2.**"
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.079,
+            0.378,
+            0.896,
+            0.882
+          ],
+          "content": "<table><tbody><tr><td rowspan=\"2\">No. of C atoms</td><td rowspan=\"2\">Name</td><td rowspan=\"2\">Formula Structure</td></tr><tr></tr><tr><td>1</td><td>Methane</td><td>CH<sub>4</sub></td></tr><tr><td>2</td><td>Ethane</td><td>C<sub>2</sub>H<sub>6</sub></td></tr><tr><td>3</td><td>Propane</td><td>C<sub>3</sub>H<sub>8</sub></td></tr><tr><td>4</td><td>Butane</td><td>C<sub>4</sub>H<sub>10</sub></td></tr><tr><td>5</td><td>Pentane</td><td>C<sub>5</sub>H<sub>12</sub></td></tr><tr><td>6</td><td>Hexane</td><td>C<sub>6</sub>H<sub>14</sub></td></tr></tbody></table>",
+          "captions": [
+            {
+              "bbox": [
+                0.075,
+                0.352,
+                0.833,
+                0.37
+              ],
+              "content": "Table 4.2 Formulae and structures of saturated compounds of carbon and hydrogen"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_6_table_6.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.092,
+            0.917,
+            0.121,
+            0.931
+          ],
+          "content": "64"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.83,
+            0.916,
+            0.901,
+            0.93
+          ],
+          "content": "Science"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.447,
+            0.971,
+            0.552,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "title": "CHAP 4.pmd",
+      "authors": [
+        "dtpcell5"
+      ],
+      "created_at": "2017-12-27T13:00:22Z",
+      "modified_at": "2026-03-24T12:00:51+05:30",
+      "creator_application": "PageMaker 7.0",
+      "producer_application": "GPL Ghostscript 8.15",
+      "page_count": 21,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 6,
+          "width_pt": 576.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

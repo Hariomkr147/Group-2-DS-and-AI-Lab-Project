@@ -1,0 +1,463 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T11:49:05+05:30",
+      "modified_at": "2025-11-08T13:43:19+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 20,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 3,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 3,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.05,
+            0.432,
+            0.066
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.15,
+            0.088,
+            0.847,
+            0.165
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Each circled number is the product of the numbers that are to its left and below. For example, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "30 = 2 \\times 15, \\quad 15 = 3 \\times 5"
+            },
+            {
+              "type": "text",
+              "content": " . Each time, a composite number is factorised so that, at least one factor is prime. We stop when we reach a prime number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.166,
+            0.846,
+            0.203
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Can you write the prime factorisation of 105 and 30 using these two figures?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.151,
+            0.203,
+            0.712,
+            0.26
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We collect the prime factors along the left and the one at the bottom. We then construct the prime factorisation as shown in the figure."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.15,
+            0.26,
+            0.712,
+            0.3
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While carrying out factorisation, the circles are usually left out and the steps are carried out in this format:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 5,
+          "bbox": [
+            0.284,
+            0.308,
+            0.382,
+            0.379
+          ],
+          "image_path": "images/page_3_equation_5.jpg",
+          "content": "\\begin{array}{c|ccc}3 & 105 &  \\\\\\hline5 & 35 &  \\\\\\hline& 7 &  \\\\\\end{array}"
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.48,
+            0.308,
+            0.579,
+            0.379
+          ],
+          "image_path": "images/page_3_equation_6.jpg",
+          "content": "\\begin{array}{c|ccc}& 30 &  &  \\\\\\hline3 & \\boxed{15} &  &  \\\\\\hline& 5 &  &  \\\\\\end{array}"
+        },
+        {
+          "type": "image",
+          "index": 7,
+          "bbox": [
+            0.741,
+            0.196,
+            0.872,
+            0.368
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 7,
+              "bbox": [
+                0.741,
+                0.196,
+                0.872,
+                0.368
+              ],
+              "image_path": "images/page_3_image_7.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 8,
+          "bbox": [
+            0.742,
+            0.375,
+            0.882,
+            0.393
+          ],
+          "image_path": "images/page_3_equation_8.jpg",
+          "content": "105 = 3 \\times 5 \\times 7"
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.151,
+            0.39,
+            0.588,
+            0.409
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Let us call this method the "
+            },
+            {
+              "type": "text",
+              "content": "division method",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.151,
+            0.409,
+            0.847,
+            0.466
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try finding the prime factorisation of 1200 using the method above. If we had used the earlier method, our calculation would have been as follows:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 11,
+          "bbox": [
+            0.343,
+            0.472,
+            0.655,
+            0.491
+          ],
+          "image_path": "images/page_3_equation_11.jpg",
+          "content": "1200 = 40 \\times 30 = 5 \\times 8 \\times 5 \\times 6 = \\ldots"
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.5,
+            0.547,
+            0.52
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Which calculation is easier to carry out?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 13,
+          "bbox": [
+            0.151,
+            0.538,
+            0.719,
+            0.559
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Factors of a Number Using Prime Factorisation"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.151,
+            0.564,
+            0.847,
+            0.621
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "From the prime factorisation of a number, we can construct all its factors. This can be used to simplify the procedure for finding the HCF of two numbers."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.175,
+            0.622,
+            0.844,
+            0.641
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Consider the number 840 and its prime factorisation "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2 \\times 2 \\times 3 \\times 5 \\times 7 ."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 16,
+          "bbox": [
+            0.111,
+            0.65,
+            0.457,
+            0.673
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Is "
+            },
+            {
+              "type": "equation_inline",
+              "content": "2 \\times 2 \\times 7 = 28"
+            },
+            {
+              "type": "text",
+              "content": " a factor of 840?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 17,
+          "bbox": [
+            0.111,
+            0.693,
+            0.629,
+            0.716
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If yes, what should it be multiplied by to get 840?"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.151,
+            0.719,
+            0.846,
+            0.758
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "To answer these questions, we can reorder the prime factors of 840 as follows (recall that reordering factors does not change the product):"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 19,
+          "bbox": [
+            0.362,
+            0.768,
+            0.635,
+            0.787
+          ],
+          "image_path": "images/page_3_equation_19.jpg",
+          "content": "8 4 0 = ( 2 \\times 2 \\times 7 ) \\times ( 2 \\times 3 \\times 5 ) ."
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.152,
+            0.795,
+            0.188,
+            0.812
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So,"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 21,
+          "bbox": [
+            0.431,
+            0.812,
+            0.566,
+            0.831
+          ],
+          "image_path": "images/page_3_equation_21.jpg",
+          "content": "8 4 0 = 2 8 \\times 3 0 ."
+        },
+        {
+          "type": "text",
+          "index": 22,
+          "bbox": [
+            0.151,
+            0.84,
+            0.846,
+            0.879
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 \\times 2 \\times 7 ) = 2 8"
+            },
+            {
+              "type": "text",
+              "content": " is a factor of 840, and it should be multiplied by 30 "
+            },
+            {
+              "type": "equation_inline",
+              "content": "( 2 \\times 3 \\times 5 )"
+            },
+            {
+              "type": "text",
+              "content": " to get 840."
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 23,
+          "bbox": [
+            0.161,
+            0.934,
+            0.187,
+            0.949
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "50"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

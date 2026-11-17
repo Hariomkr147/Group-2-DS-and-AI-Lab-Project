@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "page_idx": 13,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.115,
+            0.069,
+            0.145,
+            0.085
+          ],
+          "content": "54"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.184,
+            0.069,
+            0.489,
+            0.087
+          ],
+          "content": "Ganita Manjari | Grade 9 | Part I"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.108,
+            0.886,
+            0.167
+          ],
+          "content": "technique called **Proof by Contradiction**. Namely, we assume the opposite of what we want to prove, and show that this assumption leads to a logical disaster."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.171,
+            0.611,
+            0.193
+          ],
+          "content": "**Proof:** We shall explain the proof in steps."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.199,
+            0.887,
+            0.303
+          ],
+          "content": "**Step 1: Assumption:** Assume $\\sqrt { 2 }$ is a rational number. Therefore, it can be written as a fraction $\\frac { p } { q } , q \\neq 0$ in its simplest form. (This means p and $q$ are integers that share no common factors other than 1, that is, they are co-prime.)"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.488,
+            0.305,
+            0.568,
+            0.346
+          ],
+          "content": "{ \\sqrt { 2 } } = { \\frac { p } { q } }",
+          "image_source": "images/page_13_equation_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.351,
+            0.605,
+            0.373
+          ],
+          "content": "**Step 2:** Square both sides of the equation:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.505,
+            0.377,
+            0.577,
+            0.426
+          ],
+          "content": "2   =   \\frac { p ^ { 2 } } { q _ { \\circ } ^ { 2 } }",
+          "image_source": "images/page_13_equation_7.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.426,
+            0.509,
+            0.449
+          ],
+          "content": "**Step 3:** Multiply both sides by $q ^ { 2 } 1$ :"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.483,
+            0.451,
+            0.573,
+            0.474
+          ],
+          "content": "2q^{2} \\equiv p^{2}",
+          "image_source": "images/page_13_equation_9.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.477,
+            0.421,
+            0.498
+          ],
+          "content": "**Step 4: Deduction** for $p ;$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.112,
+            0.504,
+            0.885,
+            0.566
+          ],
+          "content": "Because $p ^ { 2 }$ is equal to 2 times some integer, $p ^ { 2 }$ must be an even number. If the square of a number is even, the number itself must be even. Therefore, p is an even integer. Let us say $\\bar { p } \\bar { \\mathit { \\Gamma } } _ { \\bar { \\mathit { \\Gamma } } } ^ { \\mathit { \\Gamma } } 2 k$ (where k is an integer)."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.148,
+            0.578,
+            0.804,
+            0.6
+          ],
+          "content": "**Step 5:** Substitute $\\bar { p } _ { \\parallel } = 2 k$ back into our equation from Step 3:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.446,
+            0.603,
+            0.565,
+            0.65
+          ],
+          "content": "\\frac{2\\bar{q}^{2}=(2k)^{2}}{2q^{2}=4k^{2}}",
+          "image_source": "images/page_13_equation_13.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.664,
+            0.482,
+            0.685
+          ],
+          "content": "**Step 6:** Divide both sides by 2:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.463,
+            0.687,
+            0.55,
+            0.709
+          ],
+          "content": "q ^ { 2 } = 2 k ^ { 2 }",
+          "image_source": "images/page_13_equation_15.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.722,
+            0.886,
+            0.784
+          ],
+          "content": "**Step 7: Deduction** for $q ;$ Now we see that $q ^ { 2 }$ is equal to 2 times some integer $k ^ { 2 } .$ This means $q ^ { 2 }$ is even, and therefore, $q$ must also be an even integer."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.796,
+            0.886,
+            0.872
+          ],
+          "content": "**Step 8: The Contradiction:** We deduced that $p$ is even and $q$ is even. This means they both share a common factor of 2. However, in Step 1, we stated that $\\frac { p } { q }$ was in simplest form, sharing no common factors!"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-04-15T14:54:11+05:30",
+      "modified_at": "2026-04-22T18:46:36+05:30",
+      "creator_application": "Adobe InDesign 21.3 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 27,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 13,
+          "width_pt": 487.6799964904785,
+          "height_pt": 685.6800270080566
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

@@ -1,0 +1,191 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "page_number",
+          "bbox": [
+            0.127,
+            0.148,
+            0.181,
+            0.18
+          ],
+          "content": "10"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.252,
+            0.122,
+            0.678,
+            0.185
+          ],
+          "content": "How Quantities Combine: Understanding Data"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.715,
+            0.061,
+            0.868,
+            0.16
+          ],
+          "content": "口"
+        },
+        {
+          "type": "header",
+          "bbox": [
+            0.754,
+            0.166,
+            0.824,
+            0.18
+          ],
+          "content": "0905CH10"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.118,
+            0.254,
+            0.44,
+            0.277
+          ],
+          "level": 2,
+          "content": "10.1 Combining Things"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.115,
+            0.287,
+            0.883,
+            0.349
+          ],
+          "content": "In earlier grades, we looked at how the average conveys the ‘centre’ of given data. In this chapter, we shall extend the concept of average to a more general setting called ‘weighted average’."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.117,
+            0.364,
+            0.454,
+            0.386
+          ],
+          "level": 2,
+          "content": "10.1.1 Average of Averages"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.396,
+            0.883,
+            0.475
+          ],
+          "content": "**Example 1:** In a badminton academy, there is a group of 11 trainees — 8 seniors and 3 juniors. Their heights and average heights (in cm) are given in the table below. Find the average height of the whole group."
+        },
+        {
+          "type": "table",
+          "bbox": [
+            0.121,
+            0.479,
+            0.876,
+            0.575
+          ],
+          "content": "|  | Heights (in cm) | Average Height (in cm) |\n| --- | --- | --- |\n| Seniors | 165, 169, 164, 167, 170, 159, 164, 166 | 165.5 |\n| Juniors | 146, 149, 153 | 149.33 |",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_0_table_8.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.583,
+            0.881,
+            0.622
+          ],
+          "content": "Two students calculate the average height of the whole group in two ways:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.122,
+            0.624,
+            0.899,
+            0.766
+          ],
+          "content": "\\begin{array}{c|c}\\mathbf{M}\\mathbf{e}\\mathbf{h}\\mathbf{o}\\mathbf{d}\\mathbf{1} & \\mathbf{M}\\mathbf{e}\\mathbf{h}\\mathbf{o}\\mathbf{d}\\mathbf{2} \\\\\\hline165.5+149.33 & \\underbrace{165+169+164+167+170+159+164+166+146+149+153}_{11} \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\hline2 & \\underbrace{1772}_{11} = 161.09 \\\\\\end{array}",
+          "image_source": "images/page_0_equation_10.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.116,
+            0.773,
+            0.883,
+            0.833
+          ],
+          "content": "Whose calculation gives the correct average height of the whole group? The average height of the whole group is the sum of the heights of all eleven members divided by 11, as in Method 2."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.135,
+            0.842,
+            0.399,
+            0.866
+          ],
+          "level": 2,
+          "content": "Think and Reflect"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.134,
+            0.876,
+            0.413,
+            0.897
+          ],
+          "content": "Why did Method 1 not work?"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2026-09-14T11:35:38+05:30",
+      "modified_at": "2026-09-30T11:40:05+05:30",
+      "creator_application": "Adobe InDesign 21.5 (Windows)",
+      "producer_application": "Adobe PDF Library 18.0",
+      "page_count": 29,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 492.0,
+          "height_pt": 690.0
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

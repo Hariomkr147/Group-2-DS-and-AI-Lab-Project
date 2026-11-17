@@ -1,0 +1,269 @@
+{
+  "pages": [
+    {
+      "page_idx": 15,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.644,
+            0.05,
+            0.846,
+            0.066
+          ],
+          "content": "Operations with Integers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.087,
+            0.846,
+            0.127
+          ],
+          "content": "？ Can you summarise the rules for integer division looking at the above pattern?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.132,
+            0.846,
+            0.171
+          ],
+          "content": "In general, for any two positive integers a and b, where $b \\neq 0 ,$ , we can say that"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.387,
+            0.171,
+            0.598,
+            0.239
+          ],
+          "content": "\\begin{aligned}&\\mathbf{a} \\div -\\mathbf{b} = -(\\mathbf{a} \\div \\mathbf{b}), \\\\&-\\mathbf{a} \\div \\mathbf{b} = -(\\mathbf{a} \\div \\mathbf{b}),  and  \\\\&-\\mathbf{a} \\div -\\mathbf{b} = \\mathbf{a} \\div \\mathbf{b}.\\end{aligned}",
+          "image_source": "images/page_15_equation_3.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.111,
+            0.255,
+            0.315,
+            0.28
+          ],
+          "level": 2,
+          "content": "Figure it Out"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.289,
+            0.686,
+            0.359
+          ],
+          "content": "1. Find the values of: (a) 14 × (– 15) (b) – 16 × (– 5) (c) 36 ÷ (– 18) (d) (– 46) ÷ (– 23)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.369,
+            0.846,
+            0.428
+          ],
+          "content": "2. A freezing process requires that the room temperature be lowered from $3 2 ^ { \\circ } \\mathrm { C }$ at the rate of $5 ^ { \\circ } \\mathrm { C }$ every hour. What will be the room temperature 10 hours after the process begins?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.432,
+            0.847,
+            0.491
+          ],
+          "content": "3. A cement company earns a profit of ₹8 per bag of white cement sold and a loss of ₹5 per bag of grey cement sold. [Represent the profit/ loss as integers.]"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.187,
+            0.495,
+            0.847,
+            0.535
+          ],
+          "content": "(a) The company sells 3,000 bags of white cement and 5,000 bags of grey cement in a month. What is its profit or loss?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.188,
+            0.539,
+            0.847,
+            0.597
+          ],
+          "content": "(b) If the number of bags of grey cement sold is 6,400 bags, what is the number of bags of white cement the company must sell to have neither profit nor loss."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.164,
+            0.602,
+            0.769,
+            0.622
+          ],
+          "content": "4. Replace the blank with an integer to make a true statement."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.189,
+            0.627,
+            0.391,
+            0.647
+          ],
+          "content": "(a) (– 3) × \\_ = 27"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.513,
+            0.627,
+            0.714,
+            0.647
+          ],
+          "content": "(b) 5 × \\_ = (– 35)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.652,
+            0.417,
+            0.672
+          ],
+          "content": "(c) × (– 8) = (– 56)"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.513,
+            0.652,
+            0.738,
+            0.671
+          ],
+          "content": "(d) × (– 12) = 132"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.19,
+            0.676,
+            0.384,
+            0.696
+          ],
+          "content": "(e) ÷ (– 8) = 7"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.514,
+            0.677,
+            0.712,
+            0.696
+          ],
+          "content": "(f) ÷ 12 = – 11"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.151,
+            0.725,
+            0.482,
+            0.748
+          ],
+          "level": 2,
+          "content": "Expressions Using Integers"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.756,
+            0.846,
+            0.816
+          ],
+          "content": "？ What is the value of the expression 5 × – 3 × 4? Does it matter whether we multiply 5 × – 3 and then multiply the product with 4, or if we multiply – 3 × 4 first and then multiply the product with 5?"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.329,
+            0.827,
+            0.441,
+            0.884
+          ],
+          "content": "\\begin{array} { l } { { \\begin{array} { l } { ( 5 \\times - 3 ) \\times 4 } \\\\ { \\quad = - 1 5 \\times 4 } \\\\ { \\quad = - 6 0 . } \\end{array} } } \\end{array}",
+          "image_source": "images/page_15_equation_19.jpg"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.561,
+            0.826,
+            0.672,
+            0.884
+          ],
+          "content": "\\begin{array} { l } { { 5 \\times ( - 3 \\times 4 ) } } \\\\ { { \\quad = 5 \\times - 1 2 } } \\\\ { { \\quad = - 6 0 . } } \\end{array}",
+          "image_source": "images/page_15_equation_20.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.813,
+            0.934,
+            0.838,
+            0.949
+          ],
+          "content": "39"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 15,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

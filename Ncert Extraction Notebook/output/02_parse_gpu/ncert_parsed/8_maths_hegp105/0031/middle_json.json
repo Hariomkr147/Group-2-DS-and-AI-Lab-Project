@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 30,
+          "width_pt": 594.0,
+          "height_pt": 784.7999877929688
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 30,
+      "blocks": [
+        {
+          "type": "text",
+          "index": 0,
+          "bbox": [
+            0.167,
+            0.088,
+            0.763,
+            0.108
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. What will be the digital root of the number 9a + 36b + 13?"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.152,
+            0.114,
+            0.507,
+            0.153
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " 9a "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{aligned}+ 36b + 13 &= 9a + 36b + 9 + 4 \\\\&= 9(a + 4b + 1) + 4\\end{aligned}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.201,
+            0.155,
+            0.5,
+            0.173
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "9 (a + 4b + 1) is a multiple of 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.201,
+            0.174,
+            0.669,
+            0.194
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The digital root of any multiple of 9 is always 9."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.201,
+            0.194,
+            0.744,
+            0.213
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "So, Digital root of 9 (a + 4b + 1) + 4 will be 9 + 4 = 13 → 4"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.167,
+            0.224,
+            0.847,
+            0.261
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Make conjectures by examining if there are any patterns or relations between"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.214,
+            0.267,
+            0.669,
+            0.286
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) the parity of a number and its digital root."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.208,
+            0.29,
+            0.846,
+            0.328
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) the digital root of a number and the remainder obtained when the number is divided by 3 or 9."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 8,
+          "bbox": [
+            0.153,
+            0.337,
+            0.204,
+            0.353
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans."
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 9,
+          "bbox": [
+            0.214,
+            0.354,
+            0.847,
+            0.391
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) There is no consistent pattern between the parity of a number and its digital root."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.208,
+            0.395,
+            0.846,
+            0.434
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) (a) If the digital root of a number is 1, 4, 7, then the remainder obtained after dividing the number by 3 will be 1."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.284,
+            0.438,
+            0.847,
+            0.477
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the digital root of a number is 2, 5, 8, then the remainder obtained after dividing the number by 3 will be 2."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.284,
+            0.48,
+            0.847,
+            0.519
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "If the digital root of a number is 3, 6, 9, then the remainder obtained after dividing the number by 3 will be 0."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.258,
+            0.525,
+            0.848,
+            0.606
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(b) When the digital root of a number is 9, then the remainder obtained after division by 9 is 0 and if the digital root is less than 9, then the remainder obtained after division by 9 is same as the digital root of that number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 14,
+          "bbox": [
+            0.153,
+            0.615,
+            0.287,
+            0.634
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Page No. 131",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 15,
+          "bbox": [
+            0.113,
+            0.65,
+            0.504,
+            0.672
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Solve the cryptarithms given below."
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.221,
+            0.675,
+            0.748,
+            0.751
+          ],
+          "image_path": "images/page_30_equation_16.jpg",
+          "content": "\\begin{array}{ccc}& \\text {  1  } & \\\\(i) \\begin{array}{c}\\underline{\\text { A1 }} \\\\\\underline{\\text { + 1B }} \\\\\\underline{\\text { - 1B }}\\end{array} &( ii ) \\begin{array}{c}\\text { AB } \\\\\\underline{\\text { + 37 }} \\\\\\underline{\\text { 6A }}\\end{array} &( iii ) \\begin{array}{c}\\text { ON } \\\\\\underline{\\text { ON }} \\\\\\underline{\\text { ON }} \\\\\\underline{\\text { PQ }}\\end{array} &( iv ) \\begin{array}{c}\\text { QR } \\\\\\text { QR } \\\\\\underline{\\text { + QR }}\\end{array} \\\\\\end{array}"
+        },
+        {
+          "type": "text",
+          "index": 17,
+          "bbox": [
+            0.152,
+            0.748,
+            0.205,
+            0.765
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ans.",
+              "styles": [
+                "bold"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.21,
+            0.771,
+            0.37,
+            0.791
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(i) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = 7, B = 9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.207,
+            0.794,
+            0.371,
+            0.814
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(ii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "A = 2,   B = 5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.201,
+            0.818,
+            0.428,
+            0.838
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iii) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "N = 1,   0 = 3,   \\mathrm{P} = 9"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 21,
+          "bbox": [
+            0.202,
+            0.841,
+            0.427,
+            0.861
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "(iv) "
+            },
+            {
+              "type": "equation_inline",
+              "content": "Q = 8, R = 5. P = 2"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 22,
+          "bbox": [
+            0.862,
+            0.917,
+            0.881,
+            0.936
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

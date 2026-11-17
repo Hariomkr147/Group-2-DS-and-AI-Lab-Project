@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T15:19:47+05:30",
+      "modified_at": "2025-11-08T13:44:47+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 35,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 14,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 14,
+      "blocks": [
+        {
+          "type": "header",
+          "index": 0,
+          "bbox": [
+            0.153,
+            0.049,
+            0.432,
+            0.067
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Ganita Prakash | Grade 7 | Part-II"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 1,
+          "bbox": [
+            0.111,
+            0.087,
+            0.846,
+            0.127
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ "
+            },
+            {
+              "type": "text",
+              "content": "Example 11:",
+              "styles": [
+                "bold"
+              ]
+            },
+            {
+              "type": "text",
+              "content": " Riyaz created a math trick, which he tries out on his friend Akash."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.151,
+            0.132,
+            0.847,
+            0.171
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Riyaz asked Akash to perform the following steps without revealing the answer to any of the intermediate steps."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 3,
+          "bbox": [
+            0.164,
+            0.176,
+            0.38,
+            0.195
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "1. Think of a number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.164,
+            0.2,
+            0.468,
+            0.22
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "2. Subtract 3 from the number."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.164,
+            0.226,
+            0.425,
+            0.246
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3. Multiply the result by 4."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 6,
+          "bbox": [
+            0.164,
+            0.251,
+            0.399,
+            0.27
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4. Add 8 to the product."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.164,
+            0.275,
+            0.425,
+            0.294
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "5. Reveal the final answer."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.151,
+            0.3,
+            0.626,
+            0.377
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The final answer revealed by Akash was 24. Using this, Riyaz correctly figured out the starting number that Akash had thought of. Find this number."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "index": 9,
+          "bbox": [
+            0.649,
+            0.175,
+            0.938,
+            0.373
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 9,
+              "bbox": [
+                0.649,
+                0.175,
+                0.938,
+                0.373
+              ],
+              "image_path": "images/page_14_image_9.jpg",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.17,
+            0.382,
+            0.624,
+            0.401
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Try the steps using different numbers as the"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.151,
+            0.4,
+            0.847,
+            0.44
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "starting number. Do you see any relation between the starting number and final answer?"
+            }
+          ],
+          "continues_prev": true
+        },
+        {
+          "type": "text",
+          "index": 12,
+          "bbox": [
+            0.151,
+            0.445,
+            0.847,
+            0.504
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The answer can be found by algebraically modeling this scenario. In other words, we can form an equation using an unknown. Let the unknown starting number be x."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 13,
+          "bbox": [
+            0.112,
+            0.513,
+            0.628,
+            0.536
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "What are the expressions we get after each step?"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "index": 14,
+          "bbox": [
+            0.155,
+            0.543,
+            0.843,
+            0.712
+          ],
+          "content": [
+            {
+              "type": "table_body",
+              "index": 14,
+              "bbox": [
+                0.155,
+                0.543,
+                0.843,
+                0.712
+              ],
+              "image_path": "images/page_14_table_14.jpg",
+              "content": "<table><tbody><tr><td>Steps</td><td>Expression</td></tr><tr><td>Think of a number.</td><td>x</td></tr><tr><td>Subtract 3 from the number.</td><td>x - 3</td></tr><tr><td>Multiply the result by 4.</td><td>4 (x - 3) = 4x - 12</td></tr><tr><td>Add 8 to the product.</td><td>4x - 12 + 8 = 4x - 4</td></tr></tbody></table>"
+            },
+            {
+              "type": "table_footnote",
+              "index": 15,
+              "bbox": [
+                0.151,
+                0.729,
+                0.709,
+                0.75
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Since Akash’s final answer was 24, we have the equation:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 16,
+          "bbox": [
+            0.424,
+            0.754,
+            0.533,
+            0.773
+          ],
+          "image_path": "images/page_14_equation_16.jpg",
+          "content": "4x - 4 = 24"
+        },
+        {
+          "type": "equation",
+          "index": 17,
+          "bbox": [
+            0.424,
+            0.777,
+            0.552,
+            0.797
+          ],
+          "image_path": "images/page_14_equation_17.jpg",
+          "content": "4(x - 1) = 24"
+        },
+        {
+          "type": "text",
+          "index": 18,
+          "bbox": [
+            0.423,
+            0.801,
+            0.757,
+            0.823
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "x – 1 = 6 (Dividing both sides by 4)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 19,
+          "bbox": [
+            0.151,
+            0.826,
+            0.523,
+            0.846
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Thus, Akash thought of the number 7."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 20,
+          "bbox": [
+            0.112,
+            0.855,
+            0.846,
+            0.895
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "？ Can you think of a simple rule that you can use to get the starting number from the final answer?"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 21,
+          "bbox": [
+            0.156,
+            0.933,
+            0.193,
+            0.95
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "178"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": false,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

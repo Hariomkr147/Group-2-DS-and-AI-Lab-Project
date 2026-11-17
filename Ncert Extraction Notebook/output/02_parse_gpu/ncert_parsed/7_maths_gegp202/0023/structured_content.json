@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "page_idx": 22,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.299,
+            0.101,
+            0.701,
+            0.375
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_0.jpg"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.167,
+            0.401,
+            0.272,
+            0.419
+          ],
+          "level": 2,
+          "content": "Objective"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.165,
+            0.42,
+            0.834,
+            0.497
+          ],
+          "content": "The goal is to capture all the opponent’s coins. The first player to do so is the winner. A player may also win by blocking any legal move by their opponent. If a draw seems unavoidable, the player with more coins wins."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.167,
+            0.508,
+            0.277,
+            0.527
+          ],
+          "level": 2,
+          "content": "Gameplay"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.531,
+            0.726,
+            0.551
+          ],
+          "content": "• The starting position of the game is as shown above."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.555,
+            0.834,
+            0.652
+          ],
+          "content": "Players take turns. In each turn, they can move a single coin along a line, in any direction, to a neighbouring vacant intersection. Or, if an opponent’s coin is at a neighbouring intersection, and there is a vacant intersection just beyond it, they can jump over the opponent’s coin and land in the vacant intersection."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.655,
+            0.833,
+            0.714
+          ],
+          "content": "If a player jumps over an opponent’s coin, it is considered captured and is removed from the board. Multiple captures in one move are allowed, and the direction can change after each jump."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.194,
+            0.717,
+            0.833,
+            0.794
+          ],
+          "content": "Inside the triangular corners, which are outside the main square, a coin may skip an intersection and move straight to the next one. That is, it can jump over an empty intersection and go to the one beyond it."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.155,
+            0.82,
+            0.844,
+            0.945
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_22_image_8.jpg"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "languages": [
+        "en-US"
+      ],
+      "created_at": "2025-10-09T14:27:38+05:30",
+      "modified_at": "2025-11-08T13:42:36+05:30",
+      "creator_application": "Adobe InDesign 20.5 (Windows)",
+      "producer_application": "Adobe PDF Library 17.0",
+      "page_count": 23,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 22,
+          "width_pt": 594.2399959564209,
+          "height_pt": 785.0399837493896
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}

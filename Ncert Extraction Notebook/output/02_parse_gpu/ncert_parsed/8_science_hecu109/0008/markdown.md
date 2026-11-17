@@ -1,0 +1,31 @@
+The units in which density is expressed will depend upon the units of mass and volume taken. As you have learnt, the **SI units** of **mass** and **volume** are **kilogram** (**kg**) and **cubic metre** (**m**<strong><sup>3</sup></strong>), respectively. Therefore, the **SI unit** of **density** is **kilogram per cubic metre**, abbreviated as **kg/m**<strong><sup>3</sup></strong>. In case of liquids, other units of density are also used for convenience, such as gram per millilitre, abbreviated as g/mL and gram per cubic centimetre, abbreviated as g/cm<sup>3</sup>.
+
+## Conversion factor for density
+
+1 kg/m<sup>3</sup> = 1000 g/m<sup>3</sup> = 1000 g/1000 L = 1 g/L = 1 g/1000 mL = 1 g/1000 cm<sup>3</sup>
+
+The mass of 1 mL of water is close to 1 g at room temperature. For the measurement of the mass of water, we generally consider the volume in mL and its mass in g. Hence, 10 mL of water would be approximately 10 g. Similarly, 100 mL of water would be approximately 100 g.
+
+Suppose the mass of an aluminium block is 27 g and its volume is 10 cm<sup>3</sup>, its density is 2.7 g/cm<sup>3</sup>.
+
+From this, it can be said that aluminium is 2.7 times denser than water. We express this fact by saying that the relative density of aluminium with respect to water is 2.7. It is a number without any units.
+
+Relative density of any substance Density of that substance with respect to water Density of water at that temperature
+
+## Think like a scientist
+
+Have you noticed that some packets of ghee or oil are labelled with a volume of 1 litre but a weight of only say 910 grams (Fig. 9.11)? What does this tell us about the density of the oil, and is it less or more than that of water?
+
+![](images/page_7_image_11.jpg)
+
+![](images/page_7_image_12.jpg)
+
+Fig. 9.11: Packed oil
+
+## 9.5.1 Determination of density
+
+The density of an object can be determined by measuring its mass and volume.
+
+## How to measure mass?
+
+You learnt the term ‘mass’ in Curiosity, Grade 6. **Mass** is the quantity of matter present in any object. The instrument used to measure the mass of an object is known as a **balance**. You must have seen various types of balances being used by shopkeepers. Here, we are using a **digital weighing balance** to measure the mass. You learnt in chapter ‘Exploring Forces’ that on Earth, weight and mass are closely related.

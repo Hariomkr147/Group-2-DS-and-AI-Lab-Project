@@ -1,0 +1,231 @@
+{
+  "pages": [
+    {
+      "page_idx": 12,
+      "blocks": [
+        {
+          "type": "header",
+          "bbox": [
+            0.137,
+            0.046,
+            0.347,
+            0.063
+          ],
+          "content": "Ganita Prakash | Grade 8"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.086,
+            0.847,
+            0.126
+          ],
+          "content": "？ Can we say that any number made up of only the digits ‘0’ and ‘9’, in any order, will always be divisible by 9?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.129,
+            0.848,
+            0.186
+          ],
+          "content": "Yes, if each digit is either 0 or 9, then each term in its expanded form will be $9 \\times  口   or  \\tilde{0} \\times  口 ( the   口$ denotes a place value). This means each term will be a multiple of 9, for example,"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.241,
+            0.191,
+            0.753,
+            0.209
+          ],
+          "content": "99009=9\\times10000+9\\times1000+0\\times100+0\\times10+9\\times1.",
+          "image_source": "images/page_12_equation_3.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.215,
+            0.709,
+            0.308
+          ],
+          "content": "But this shortcut alone cannot identify all the multiples of 9. Unlike the numbers 2, 5, and 10, we cannot identify the multiples of 9 by just looking at the unit’s digit. 99 and 109 are two numbers with 9 as the units digit; but 99 is divisible by 9, while 109 is not."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.728,
+            0.211,
+            0.846,
+            0.315
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_5.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.31,
+            0.639,
+            0.332
+          ],
+          "content": "Is 10 divisible by 9? If not, what is the remainder?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.151,
+            0.334,
+            0.774,
+            0.354
+          ],
+          "content": "Check the divisibility of other multiples of 10 (10, 20, 30, ...) by 9."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.354,
+            0.846,
+            0.391
+          ],
+          "content": "You will notice that for any multiple of 10, the remainder is the same as the number of tens."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.394,
+            0.846,
+            0.435
+          ],
+          "content": "? Similarly, look at the remainder when the multiples of 100 (100, 200, 300, … ) are divided by 9. What do you notice?"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.15,
+            0.437,
+            0.846,
+            0.475
+          ],
+          "content": "The remainder is the same as the number of hundreds for any multiple of 100."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.111,
+            0.477,
+            0.814,
+            0.501
+          ],
+          "content": "？ Using this observation, find the remainder when 427 is divided by 9."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.313,
+            0.505,
+            0.61,
+            0.64
+          ],
+          "content": "",
+          "captions": [],
+          "footnotes": [],
+          "image_source": "images/page_12_image_12.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.149,
+            0.65,
+            0.848,
+            0.745
+          ],
+          "content": "We see that 427 has 4 hundreds; thus, its corresponding remainder (upon division by 9) would be 4. 427 has 2 tens, and its corresponding remainder would be 2. We have 7 units also remaining. Adding all the remainders, we get 4 + 2 + 7 = 13. We can make one more group of 9 with 13, leaving a remainder of 4. Therefore, 427 ÷ 9 gives a remainder of 4."
+        },
+        {
+          "type": "image",
+          "bbox": [
+            0.345,
+            0.753,
+            0.664,
+            0.895
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.451,
+                0.899,
+                0.545,
+                0.915
+              ],
+              "content": "(Remainder)"
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_12_image_14.jpg"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.08,
+            0.915,
+            0.126,
+            0.937
+          ],
+          "content": "124"
+        },
+        {
+          "type": "footer",
+          "bbox": [
+            0.449,
+            0.97,
+            0.551,
+            0.985
+          ],
+          "content": "Reprint 2026-27"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.7"
+    },
+    "document": {
+      "created_at": "2026-05-15T17:57:44+05:30",
+      "modified_at": "2026-05-15T17:57:48+05:30",
+      "creator_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "producer_application": "Adobe Acrobat (64-bit) 26.1.21529",
+      "page_count": 37,
+      "page_count_kind": "physical"
+    }
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "txt"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 12,
+          "width_pt": 592.8000240325928,
+          "height_pt": 783.6000118255615
+        }
+      ]
+    }
+  },
+  "is_full_document": false
+}
