@@ -32,6 +32,62 @@ def test_hosted_hint_leaves_the_student_a_question(monkeypatch):
     assert mode == "extractive" and followup != reply
 
 
+def test_point_lesson_explains_and_hints_without_searching_again(ncert_client, monkeypatch):
+    chapter = {"grade": 6, "subject": "maths", "book_code": "fegp1", "chapter": 2}
+    definition = "A point marks a precise location and has no length, breadth or height."
+    example = "A dot made with a sharp pencil gives you an idea of a point."
+    passage = {**_passage(6, "maths"), **chapter, "heading": "2.1 Point",
+               "content": f"{example} {definition}"}
+    monkeypatch.setattr(ncert, "topic_passage", lambda *args: passage)
+    monkeypatch.setattr(ncert, "cited_passage", lambda *args: passage)
+    monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: pytest.fail("Follow-up should reuse its source"))
+    modes = []
+
+    def hosted(text, context, evidence, mode):
+        modes.append(mode)
+        if mode == "hint":
+            return "Look at the textbook and try the exercise again."
+        return "What is a point in geometry?"
+
+    monkeypatch.setattr(socratic, "_hosted", hosted)
+    path = _start(ncert_client, chapter=chapter)
+    first = ncert_client.post(path, json={"text": "Help me understand 2.1 Point.", "new_topic": True,
+                                         "topic_heading": "2.1 Point"}).json()
+    assert first["action"] == "explain" and definition in first["reply"]
+    hint = ncert_client.post(path, json={"text": "Can I have a hint?"}).json()
+    assert hint["action"] == "hint" and hint["resource"] == first["resource"]
+    assert "Look at the textbook" not in hint["reply"]
+    again = ncert_client.post(path, json={"text": "i am not referring to textbook"}).json()
+    assert again["action"] == "explain" and definition in again["reply"]
+    assert modes == ["explain", "hint", "explain"]
+
+
+def test_problem_context_guides_work_and_blocks_known_result(ncert_client, monkeypatch):
+    passage = {**_passage(6, "maths"), "heading": "Division",
+               "content": "Division shares items into equal groups. For example, 24 divided by 6 is 4."}
+    monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: [passage])
+    monkeypatch.setattr(ncert, "cited_passage", lambda *args: passage)
+    contexts = []
+
+    def hosted(text, context, evidence, mode):
+        contexts.append((context, mode))
+        if mode == "guide":
+            return "Think about sharing into equal groups. How many items go in each group?"
+        return "There are 4 items in each group. How can you check?"
+
+    monkeypatch.setattr(socratic, "_hosted", hosted)
+    path = _start(ncert_client, grade=6, subject="maths")
+    first = ncert_client.post(path, json={"text": "What is 24 ÷ 6?"}).json()
+    assert first["action"] == "guide" and first["generation"] == "hosted"
+    hint = ncert_client.post(path, json={"text": "Can I have a hint?"}).json()
+    assert hint["action"] == "hint" and hint["generation"] == "extractive"
+    assert "Use multiplication" in hint["reply"] and "4 items" not in hint["reply"]
+    assert "Current exercise: What is 24 ÷ 6?" in contexts[-1][0]
+    wrong = ncert_client.post(path, json={"text": "24 / 6 = 5"}).json()
+    assert wrong["wrong_step"] == 1 and "Recheck the arithmetic" in wrong["reply"]
+    assert ncert_client.post(path, json={"text": "Just give me the answer"}).json()["label"] == "answer_request"
+
+
 @pytest.mark.parametrize("invalid", [None, "revision", "embedding"])
 def test_remote_encoder_validates_corpus_compatibility(monkeypatch, invalid):
     query = "What is electric current?"
@@ -126,7 +182,7 @@ def test_chapter_buttons_open_exact_sections_and_keep_context_for_a_typo(ncert_c
     assert calls == []
 
     followup = ncert_client.post(path, json={"text": "what is arithmatic ?"}).json()
-    assert followup["action"] == "hint"
+    assert followup["action"] == "explain"
     assert followup["reply"] != result["reply"]
     assert followup["resource"]["passage_id"] == "theorem"
     assert calls == [("The Fundamental Theorem of Arithmetic\nwhat is arithmatic ?", chapter, {"limit": 1})]
@@ -157,7 +213,7 @@ def test_routes_and_cites_textbook_then_keeps_chapter_for_working(ncert_client, 
         return _passage()
 
     monkeypatch.setattr(ncert, "cited_passage", cited)
-    monkeypatch.setattr(socratic, "_hosted", lambda text, context, evidence: contexts.append(context))
+    monkeypatch.setattr(socratic, "_hosted", lambda text, context, evidence, mode: contexts.append(context))
     followup = client.post(path, json={"text": "2.5"}).json()
     assert first["reply"] in contexts[-1]
     assert followup["action"] == "hint"
@@ -207,7 +263,8 @@ def test_hosted_reply_uses_retrieved_evidence_and_backend_citation(ncert_client,
             assert request.get_header("Authorization") == "Bearer test-key"
             result = {
                 "task": "socratic_response_generation", "protocol_flags": [],
-                "output_limit_reached": outcome == "extractive", "text": "What quantity flows per second?",
+                "output_limit_reached": outcome == "extractive",
+                "text": "Current measures how much charge passes per second. What quantity is flowing?",
             }
             if url.endswith(".hf.space"):
                 endpoint = f"{url}/gradio_api/call/predict_grounded"
@@ -230,7 +287,7 @@ def test_hosted_reply_uses_retrieved_evidence_and_backend_citation(ncert_client,
     reply = ncert_client.post(_start(ncert_client), json={"text": "What is electric current?"}).json()
     assert reply["generation"] == outcome
     if outcome == "hosted":
-        assert reply["reply"] == "What quantity flows per second?"
+        assert reply["reply"].startswith("Current measures how much charge")
     else:
         assert _passage()["content"] in reply["reply"]
     assert reply["resource"]["passage_id"] == _passage()["passage_id"]
