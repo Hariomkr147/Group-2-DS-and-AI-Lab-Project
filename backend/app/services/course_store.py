@@ -1,4 +1,6 @@
 """Course pack access and the cross-level prerequisite graph."""
+from graphlib import CycleError, TopologicalSorter
+
 from fastapi import HTTPException
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
@@ -15,10 +17,16 @@ def _concept(row: ConceptRow) -> Concept:
 def add_pack(db: Session, pack: CoursePack) -> CoursePack:
     """Insert a course pack, replacing an existing one with the same id."""
     ids = {c.id for c in pack.concepts}
+    if len(ids) != len(pack.concepts):
+        raise HTTPException(422, "Each concept must have a unique ID within its course.")
     for c in pack.concepts:
         missing = [p for p in c.prerequisites if p not in ids]
         if missing:
             raise HTTPException(422, f"{c.id}: unknown prerequisites {missing}")
+    try:
+        TopologicalSorter({c.id: c.prerequisites for c in pack.concepts}).prepare()
+    except CycleError:
+        raise HTTPException(422, "Concept prerequisites must not form a cycle.") from None
     db.execute(delete(ConceptRow).where(ConceptRow.course_id == pack.id))
     db.merge(CourseRow(id=pack.id, title=pack.title, subject=pack.subject))
     db.flush()  # the course row must exist before its concepts (foreign key)

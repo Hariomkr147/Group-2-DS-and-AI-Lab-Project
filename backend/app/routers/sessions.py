@@ -1,11 +1,12 @@
+from datetime import timezone
 from uuid import uuid4
 
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy import select
+from fastapi import APIRouter, Depends, HTTPException, Query
+from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
-from ..db import SessionRow, TurnDetailRow, TurnRow, get_db
+from ..db import CourseRow, SessionRow, TurnDetailRow, TurnRow, get_db
 from ..schemas import MessageIn, SessionCreate, SessionInfo, TutorReply, Turn
 from ..security import current_user, limit_messages
 from ..services import course_store, ncert, tutor
@@ -46,6 +47,29 @@ def create_session(body: SessionCreate, db: Session = Depends(get_db), user: str
     return _info(db, s)
 
 
+@router.get("")
+def previous_chats(before: int | None = Query(None, gt=0), db: Session = Depends(get_db),
+                   user: str = Depends(current_user)):
+    turns = (select(TurnRow.session_id, func.min(TurnRow.id).label("first"), func.max(TurnRow.id).label("last"),
+                    func.max(TurnRow.created_at).label("updated"))
+             .join(SessionRow, SessionRow.id == TurnRow.session_id)
+             .where(SessionRow.learner_id == user, TurnRow.role == "learner")
+             .group_by(TurnRow.session_id).subquery())
+    query = (select(SessionRow, CourseRow.title, TurnRow.text, turns.c.last, turns.c.updated)
+             .select_from(SessionRow)
+             .join(turns, turns.c.session_id == SessionRow.id)
+             .join(TurnRow, TurnRow.id == turns.c.first)
+             .join(CourseRow, CourseRow.id == SessionRow.course_id))
+    if before is not None:
+        query = query.where(turns.c.last < before)
+    rows = db.execute(query.order_by(turns.c.last.desc()).limit(21)).all()
+    return {"items": [{"session_id": s.id, "course_id": s.course_id, "course_title": title,
+                       "title": first[:160], "updated_at": updated.replace(tzinfo=timezone.utc),
+                       "scope": (s.pending or {}).get("scope", {})}
+                      for s, title, first, last, updated in rows[:20]],
+            "next": rows[19].last if len(rows) > 20 else None}
+
+
 @router.get("/{session_id}", response_model=SessionInfo)
 def get_session(session_id: str, db: Session = Depends(get_db)):
     return _info(db, _get(db, session_id))
@@ -56,11 +80,13 @@ def send_message(session_id: str, body: MessageIn, db: Session = Depends(get_db)
     session = _get(db, session_id, for_update=True)
     request_id = str(body.request_id or uuid4())
     message = body.model_dump(exclude={"request_id"})
+    if body.topic_heading is None:
+        message.pop("topic_heading")  # keep request IDs replayable for turns saved before the field existed
     existing = db.get(TurnDetailRow, (session_id, request_id))
     if existing:
         return _replay(existing, message)
     limit_messages(user)
-    reply = tutor.handle_message(db, session, body.text, body.new_topic, body.concept_id)
+    reply = tutor.handle_message(db, session, body.text, body.new_topic, body.concept_id, topic_heading=body.topic_heading)
     try:
         db.flush()
         turn_id = db.scalars(select(TurnRow.id).where(TurnRow.session_id == session_id)

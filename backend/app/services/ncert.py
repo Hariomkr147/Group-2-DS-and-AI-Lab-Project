@@ -37,6 +37,7 @@ _ELIGIBLE = """
           AND p.review_status = 'approved'
           AND NOT p.review_flags && ARRAY['answer_risk', 'replacement_character']
           AND btrim(p.heading) !~* '^(ans(wer)?s?|solutions?)([.:[:space:]]|$)'
+          AND btrim(p.heading) !~* '^(a note to the reader|preface|foreword|table of contents|acknowledg(e)?ments)$'
           AND length(btrim(regexp_replace(p.content, :image_pattern, '', 'g'))) >= 80
           AND (CAST(:grade AS smallint) IS NULL OR p.grade = :grade)
           AND (CAST(:subject AS text) IS NULL OR p.subject = :subject)
@@ -50,10 +51,20 @@ _CATALOGUE = text("""
     GROUP BY p.grade, p.subject, p.book_code, p.chapter
     ORDER BY p.book_code, p.chapter
 """)
+_PASSAGE_FIELDS = """
+    p.passage_id, p.grade, p.subject, p.book_code, p.chapter, p.heading,
+    p.physical_page, p.source_url, p.content
+"""
+_TOPIC_PASSAGE = text("SELECT " + _PASSAGE_FIELDS + _ELIGIBLE + """
+    AND p.heading = :heading
+    ORDER BY p.physical_page, (position(p.heading in split_part(ltrim(p.content), chr(10), 1)) > 0) DESC,
+             p.passage_id
+    LIMIT 1
+""")
+_BY_ID = text("SELECT " + _PASSAGE_FIELDS + _ELIGIBLE + " AND p.passage_id = :passage_id LIMIT 1")
 _PASSAGES = text("""
     WITH eligible AS (
-        SELECT p.passage_id, p.grade, p.subject, p.book_code, p.chapter, p.heading,
-               p.physical_page, p.source_url, p.content,
+        SELECT """ + _PASSAGE_FIELDS + """,
                p.embedding <=> CAST(:embedding AS vector) AS distance
 """ + _ELIGIBLE + """
     ), ranked AS (
@@ -150,6 +161,22 @@ def _query(statement, scope: dict, **extra) -> list[dict]:
 def catalogue(grade: int, subject: str) -> list[ChapterTopics]:
     return [ChapterTopics.model_validate(row)
             for row in _query(_CATALOGUE, {"grade": grade, "subject": subject})]
+
+
+def topic_passage(scope: dict, heading: str) -> dict | None:
+    if any(scope.get(field) is None for field in ("grade", "subject", "book_code", "chapter")):
+        return None
+    rows = _query(_TOPIC_PASSAGE, scope, heading=heading)
+    return rows[0] if rows else None
+
+
+def topic_title(heading: str) -> str:
+    return re.sub(r"^\s*\d+(?:\.\d+)+\.?\s+", "", heading).strip()
+
+
+def cited_passage(chapter: dict, passage_id: str) -> dict | None:
+    rows = _query(_BY_ID, chapter, passage_id=passage_id)
+    return rows[0] if rows else None
 
 
 def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> list[dict]:

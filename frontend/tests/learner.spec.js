@@ -8,6 +8,30 @@ async function signIn(page) {
   await expect(page.getByRole('heading', { name: 'Where are you stuck?' })).toBeVisible();
 }
 
+test('opens a saved chat after starting a new one', async ({ page }) => {
+  await signIn(page);
+  const topic = 'Help me study division again';
+  await page.getByLabel('Your question or answer').fill(topic);
+  await page.getByRole('button', { name: 'Send', exact: true }).click();
+  await expect(page.getByLabel('Tutor conversation').locator('article')).toHaveCount(2);
+  const history = page.getByRole('button', { name: 'Previous chats', exact: true });
+  await history.click();
+  await page.keyboard.press('Escape');
+  await expect(history).toBeFocused();
+  await history.click();
+  await page.getByRole('button', { name: 'New chat in this lesson' }).click();
+  await expect(page.getByText('Where are you stuck?')).toBeVisible();
+  await history.click();
+  for (const width of [375, 768, 1024, 1440]) {
+    await page.setViewportSize({ width, height: 820 });
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.getByRole('dialog').getByRole('button', { name: new RegExp(topic) }).click();
+  await expect(page.getByLabel('Tutor conversation').getByText(topic)).toBeVisible();
+  await page.reload();
+  await expect(page.getByLabel('Tutor conversation').locator('article')).toHaveCount(2);
+});
+
 test('switches topics, preserves working on retry, and restores progress after reload', async ({ page }) => {
   const errors = [];
   page.on('pageerror', (error) => errors.push(error.message));
@@ -94,4 +118,9 @@ test('opens a scoped textbook lesson, searches sources, and renders maths in dar
   await page.getByRole('combobox', { name: 'Visual', exact: true }).selectOption('graph');
   await expect(page.getByText(/Point \(3, 3\)/)).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.getByRole('combobox', { name: 'Course', exact: true }).selectOption('ncert-maths');
+  await page.getByRole('button', { name: 'Previous chats', exact: true }).click();
+  await page.getByRole('dialog').getByRole('button', { name: /Help me understand Electric current/ }).click();
+  await expect(page.getByRole('combobox', { name: 'Chapter', exact: true })).toHaveValue('0');
+  await expect(page.getByLabel('Tutor conversation').getByRole('link', { name: /Electric current.*Page 8/ })).toBeVisible();
 });

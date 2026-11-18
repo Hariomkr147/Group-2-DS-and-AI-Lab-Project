@@ -55,8 +55,8 @@
 body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.55 var(--body); }
 h1, h2, p, figure { margin: 0; }
 h1, h2 { font-family: var(--display); font-weight: 500; line-height: 1.1; }
-h1 { font-size: clamp(2rem, 4.4vw, 3.65rem); letter-spacing: -.04em; }
-h2 { font-size: clamp(1.55rem, 3vw, 2.15rem); letter-spacing: -.024em; }
+h1 { font-size: clamp(1.85rem, 2.8vw, 2.65rem); letter-spacing: -.032em; overflow-wrap: anywhere; }
+h2 { font-size: clamp(1.4rem, 1.8vw, 1.75rem); letter-spacing: -.02em; }
 a { color: var(--accent); text-underline-offset: .2em; overflow-wrap: anywhere; }
 button, input, textarea, select { font: inherit; color: inherit; }
 button, input, textarea, select, summary { min-height: 44px; }
@@ -103,7 +103,7 @@ summary::marker { color: var(--accent); }
 .login-page, .status-page { max-width: 1080px; margin: auto; padding: clamp(2rem, 8vw, 7rem) clamp(1rem, 4vw, 3rem); }
 .login-page { display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
 .login-intro { padding-block: 2rem; border-top: 4px solid var(--accent); }
-.login-intro h1 { font-size: clamp(3rem, 7vw, 6.4rem); margin: 1rem 0 1.35rem; }
+.login-intro h1 { font-size: clamp(2.3rem, 5vw, 4rem); margin: 1rem 0 1.35rem; }
 .login-intro > p:last-child { max-width: 38ch; font-size: 1.125rem; color: var(--quiet); }
 .login-form { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 9px; background: var(--sheet); padding: clamp(1.25rem, 3vw, 2rem); }
 .login-form h2 { margin-bottom: 1.6rem; }
@@ -122,7 +122,7 @@ summary::marker { color: var(--accent); }
 .inline-error { color: var(--error); }
 .lesson-grid { display: grid; grid-template-columns: minmax(12rem, 17rem) minmax(0, 1fr) minmax(13rem, 18rem); gap: clamp(.9rem, 2vw, 1.75rem); align-items: start; border-top: 1px solid var(--line); padding-top: 1rem; }
 .course-rail, .reference { min-width: 0; }
-.rail-details > summary { font-family: var(--display); font-size: 1.38rem; }
+.rail-details > summary { font-size: 1rem; }
 .rail-details > nav { max-height: min(680px, 72vh); overflow-y: auto; scrollbar-width: thin; padding: .1rem .3rem .35rem; }
 .concept-group { margin: .9rem 0 1.1rem; }
 .concept-group h2 { font-family: var(--body); padding: 0 .65rem .3rem; }
@@ -133,10 +133,20 @@ summary::marker { color: var(--accent); }
 .scope-name { font-weight: 700; margin: .6rem 0; }
 
 .study { min-width: 0; border: 1px solid var(--line); border-radius: 9px; background: var(--sheet); }
-.view-switch { display: flex; flex-wrap: wrap; gap: .3rem; padding: .45rem .65rem; border-bottom: 1px solid var(--line); }
-.view-switch button { border-color: transparent; background: transparent; }
-.view-switch button[aria-pressed="true"] { background: var(--wash); text-decoration: underline; text-underline-offset: .32em; }
-.mode-note { align-self: center; margin-left: auto; font-size: .86rem; }
+.view-switch { display: flex; flex-wrap: wrap; gap: .3rem; padding: .45rem .65rem; align-items: center; border-bottom: 1px solid var(--line); }
+.view-switch .history-trigger { margin-inline-start: auto; font-size: .94rem; color: var(--accent); }
+.chat-history { width: min(34rem, calc(100% - 2rem)); max-height: 80dvh; overflow: auto; overscroll-behavior: contain; border: 1px solid var(--field); border-radius: 9px; background: var(--sheet); color: var(--ink); padding: 0; }
+.chat-history::backdrop { background: rgb(14 25 21 / 55%); }
+.chat-history header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid var(--line); }
+.chat-history ul { list-style: none; margin: 0; padding: 0 .65rem; }
+.chat-history li + li { border-top: 1px solid var(--line); }
+.chat-history li button { width: 100%; justify-content: space-between; text-align: start; padding: .85rem .6rem; border-color: transparent; }
+.chat-history li span { min-width: 0; overflow-wrap: anywhere; }
+.chat-history li small { display: block; margin-top: .2rem; font-weight: 400; }
+.chat-history > p, .chat-history > button { margin: 1rem 1.25rem; }
+.view-switch > button { border-color: transparent; background: transparent; }
+.view-switch > button[aria-pressed="true"] { background: var(--wash); text-decoration: underline; text-underline-offset: .32em; }
+.mode-note { font-size: .875rem; }
 .transcript { min-height: 20rem; max-height: clamp(20rem, 48dvh, 34rem); padding: clamp(1rem, 3vw, 1.9rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
 .chat-empty { margin: clamp(1rem, 6vh, 4rem) auto; max-width: 42ch; }
 .chat-empty h2 { margin-top: .75rem; }
@@ -147,6 +157,7 @@ summary::marker { color: var(--accent); }
 .turn-label { display: flex; flex-wrap: wrap; gap: .45rem .75rem; font-weight: 700; font-size: .85rem; margin-bottom: .3rem; }
 .turn-label span { color: var(--quiet); font-weight: 500; }
 .turn-content, .source-text, .question { white-space: pre-wrap; overflow-wrap: anywhere; }
+.turn-content { line-height: 1.65; }
 .math-block { display: block; overflow: auto; padding-block: .2rem; }
 .citation { display: flex; gap: .5rem; align-items: flex-start; margin-top: .65rem; font-size: .9rem; color: var(--quiet); }
 .feedback { margin-top: .4rem; font-size: .94rem; color: var(--accent); }
@@ -207,6 +218,9 @@ progress { width: 100%; accent-color: var(--accent); }
   .chat-empty { margin-block: 1.5rem; }
   .username { display: none; }
   .site-header { gap: .4rem 1rem; }
+  .view-switch { gap: .15rem; }
+  .view-switch button { padding-inline: .55rem; }
+  .mode-note { flex-basis: 100%; order: 1; padding-inline: .55rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }

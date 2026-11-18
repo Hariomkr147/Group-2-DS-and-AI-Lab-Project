@@ -36,4 +36,6 @@ with TemporaryDirectory() as directory:
 
     ncert.catalogue = catalogue
     ncert.rank = rank
+    ncert.topic_passage = lambda scope, heading: passage if scope == chapter and heading == passage["heading"] else None
+    ncert.cited_passage = lambda scope, pid: passage if scope == chapter and pid == passage["passage_id"] else None
     uvicorn.run(app, host="127.0.0.1", port=8766)

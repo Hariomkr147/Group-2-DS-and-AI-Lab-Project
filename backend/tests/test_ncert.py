@@ -24,6 +24,14 @@ def _start(client, **scope):
     return "/sessions/" + response.json()["session_id"] + "/messages"
 
 
+def test_hosted_hint_leaves_the_student_a_question(monkeypatch):
+    monkeypatch.setattr(socratic, "_hosted", lambda *args: "Think about charge flowing through a wire.")
+    reply, mode = socratic.grounded("Explain that.", "Electric current", _passage())
+    assert mode == "hosted" and reply.startswith("Think about charge") and reply.endswith("?")
+    followup, mode = socratic.grounded("What do you mean?", "Electric current", _passage(), previous_reply=reply)
+    assert mode == "extractive" and followup != reply
+
+
 @pytest.mark.parametrize("invalid", [None, "revision", "embedding"])
 def test_remote_encoder_validates_corpus_compatibility(monkeypatch, invalid):
     query = "What is electric current?"
@@ -82,6 +90,48 @@ def test_catalogue_selection_scopes_chat_and_search(ncert_client, monkeypatch):
     assert hits[0]["material"]["url"].endswith("#page=8")
 
 
+def test_chapter_buttons_open_exact_sections_and_keep_context_for_a_typo(ncert_client, monkeypatch):
+    chapter = {"grade": 10, "subject": "maths", "book_code": "jemh1", "chapter": 1}
+    intro = {**_passage(), **chapter, "heading": "1.1 Introduction", "physical_page": 1,
+             "passage_id": "intro", "source_url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf"}
+    theorem = {**intro, "heading": "1.2 The Fundamental Theorem of Arithmetic", "physical_page": 2,
+               "passage_id": "theorem", "content": "Every composite number can be expressed as a product of primes."}
+    topics = {row["heading"]: row for row in (intro, theorem)}
+    calls = []
+
+    def topic_passage(scope, heading):
+        assert scope == chapter
+        return topics.get(heading)
+
+    def rank(query, scope, **kwargs):
+        calls.append((query, scope, kwargs))
+        return [theorem]
+
+    monkeypatch.setattr(ncert, "topic_passage", topic_passage)
+    monkeypatch.setattr(ncert, "rank", rank)
+    monkeypatch.setattr(socratic.guardrails, "classify_input", lambda *args: ("uncertain", "uncertain"))
+    monkeypatch.setattr(socratic, "_hosted", lambda *args: "What is the Fundamental Theorem of Arithmetic?")
+    path = _start(ncert_client, chapter=chapter)
+
+    def pick(heading):
+        return ncert_client.post(path, json={"text": f"Help me understand {heading}.", "new_topic": True,
+                                             "topic_heading": heading}).json()
+
+    assert pick(intro["heading"])["resource"]["passage_id"] == "intro"
+    result = pick(theorem["heading"])
+    assert result["resource"]["url"].endswith("#page=2")
+    assert result["generation"] == "extractive"
+    assert theorem["content"] in result["reply"]
+    assert pick("A NOTE TO THE READER")["resource"] is None
+    assert calls == []
+
+    followup = ncert_client.post(path, json={"text": "what is arithmatic ?"}).json()
+    assert followup["action"] == "hint"
+    assert followup["reply"] != result["reply"]
+    assert followup["resource"]["passage_id"] == "theorem"
+    assert calls == [("The Fundamental Theorem of Arithmetic\nwhat is arithmatic ?", chapter, {"limit": 1})]
+
+
 def test_routes_and_cites_textbook_then_keeps_chapter_for_working(ncert_client, monkeypatch):
     client = ncert_client
     calls = []
@@ -101,11 +151,20 @@ def test_routes_and_cites_textbook_then_keeps_chapter_for_working(ncert_client, 
     assert first["resource"]["passage_id"] == _passage()["passage_id"]
     assert first["generation"] == "extractive"
 
+    contexts = []
+    def cited(chapter, passage_id):
+        assert chapter == first["chapter"] and passage_id == first["resource"]["passage_id"]
+        return _passage()
+
+    monkeypatch.setattr(ncert, "cited_passage", cited)
+    monkeypatch.setattr(socratic, "_hosted", lambda text, context, evidence: contexts.append(context))
     followup = client.post(path, json={"text": "2.5"}).json()
-    assert calls[1] == (question + "\n2.5", first["chapter"], False)
+    assert first["reply"] in contexts[-1]
     assert followup["action"] == "hint"
+    assert client.post(path, json={"text": "what do you mean?"}).json()["resource"] == first["resource"]
+    assert "Student: 2.5" in contexts[-1]
     assert client.post(path, json={"text": "Just give me the answer"}).json()["label"] == "answer_request"
-    assert len(calls) == 2
+    assert len(calls) == 1
 
     results = client.get("/search", params={"course_id": "ncert", "q": question, "grade": 10}).json()
     assert results[0]["passage_id"] == first["resource"]["passage_id"]
@@ -191,6 +250,7 @@ def test_topic_switch_respects_selected_subject(ncert_client, monkeypatch):
         return []
 
     monkeypatch.setattr(ncert, "rank", rank)
+    monkeypatch.setattr(ncert, "cited_passage", lambda chapter, passage_id: fractions)
     for scope in ({}, {"subject": "maths"}):
         path = _start(ncert_client, **scope)
         first = ncert_client.post(path, json={"text": "Teach me fractions"}).json()

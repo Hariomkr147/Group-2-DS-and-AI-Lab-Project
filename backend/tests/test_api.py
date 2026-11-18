@@ -16,6 +16,20 @@ def test_health_and_courses(client):
     assert len(client.get("/courses/ncert-maths/graph").json()["edges"]) == 3
 
 
+def test_history_only_lists_current_learners_nonempty_chats(client):
+    older = start(client, "admin")
+    newer = start(client, "admin")
+    start(client, "admin")
+    say(client, older, "Teach me fractions")
+    say(client, newer, "Teach me division")
+    say(client, older, "Can I have a hint?")
+    say(client, start(client, "other"), "Teach me multiplication")
+    history = client.get("/api/sessions").json()
+    assert [(r["session_id"], r["title"]) for r in history["items"]] == [
+        (older, "Teach me fractions"), (newer, "Teach me division")]
+    assert history["next"] is None
+
+
 def test_unknown_course_and_session(client):
     assert client.post("/sessions", json={"learner_id": "x", "course_id": "nope"}).status_code == 404
     assert client.post("/sessions/none/messages", json={"text": "hi"}).status_code == 404
@@ -149,3 +163,12 @@ def test_ingest_rejects_unknown_prerequisite(client):
     pack = {"id": "bad", "title": "Bad", "subject": "x",
             "concepts": [{"id": "a", "name": "A", "level": 1, "prerequisites": ["zzz"]}]}
     assert client.post("/courses", json=pack).status_code == 422
+
+
+def test_invalid_replacement_preserves_the_existing_course(client):
+    concept = {"id": "x", "name": "Original lesson", "level": 1}
+    pack = {"id": "original", "title": "Original", "subject": "maths", "concepts": [concept]}
+    assert client.post("/courses", json=pack).status_code == 201
+    for invalid in ([concept, concept], [{**concept, "prerequisites": ["x"]}]):
+        assert client.post("/courses", json={**pack, "concepts": invalid}).status_code == 422
+        assert client.get("/courses/original/concepts").json()[0]["prerequisites"] == []

@@ -4,6 +4,7 @@ import Chat from './Chat.jsx';
 import ConceptMap from './ConceptMap.jsx';
 import SidePanel from './SidePanel.jsx';
 import Assessment from './Assessment.jsx';
+import PreviousChats from './PreviousChats.jsx';
 
 const NCERT = 'ncert';
 
@@ -43,8 +44,8 @@ export default function Workspace({ user }) {
             {courses.map((item) => <option key={item.id} value={item.id}>{item.title}</option>)}
           </select></label>
         </div>
-        {course.id === NCERT && <Scope key={course.id} selection={selection} onOpen={open} />}
-        <Lesson key={JSON.stringify(selection)} user={user} course={course} selection={selection} />
+        {course.id === NCERT && <Scope key={JSON.stringify([selection.grade, selection.subject, selection.chapter?.book_code, selection.chapter?.chapter])} selection={selection} onOpen={open} />}
+        <Lesson key={JSON.stringify(selection)} user={user} course={course} selection={selection} onOpen={open} />
       </>}
     </main>
   );
@@ -101,10 +102,14 @@ function Scope({ selection, onOpen }) {
   );
 }
 
-function Lesson({ user, course, selection }) {
+function sessionKey(user, selection) {
+  return JSON.stringify(['session', user, selection.course_id, selection.grade, selection.subject, selection.chapter?.book_code, selection.chapter?.chapter]);
+}
+
+function Lesson({ user, course, selection, onOpen }) {
   const isTextbook = course.id === NCERT;
   const scopeName = selection.grade ? `Class ${selection.grade} ${selection.subject === 'maths' ? 'Maths' : 'Science'}${selection.chapter ? ` · Chapter ${selection.chapter.chapter}` : ''}` : 'Classes 6–10 · Maths and Science';
-  const key = JSON.stringify(['session', user, course.id, selection.grade, selection.subject, selection.chapter?.book_code, selection.chapter?.chapter]);
+  const key = sessionKey(user, selection);
   const pendingKey = `${key}:pending`;
   const [session, setSession] = useState(null);
   const [concepts, setConcepts] = useState([]);
@@ -131,12 +136,12 @@ function Lesson({ user, course, selection }) {
       const rows = isTextbook ? [] : await api(`/courses/${encodeURIComponent(course.id)}/concepts`, undefined, signal);
       const saved = readStored(key);
       let opened;
-      if (saved) {
+      if (selection.session_id || saved) {
         try {
-          const existing = await api(`/sessions/${saved}`, undefined, signal);
+          const existing = await api(`/sessions/${selection.session_id || saved}`, undefined, signal);
           if (existing.course_id === course.id && existing.learner_id === user) opened = existing;
         } catch (error) {
-          if (error.status !== 404) throw error;
+          if (error.status !== 404 || selection.session_id) throw error;
         }
       }
       opened ??= await api('/sessions', selection, signal);
@@ -189,18 +194,37 @@ function Lesson({ user, course, selection }) {
     if (!pending && !sending && session) send({ text, request_id: crypto.randomUUID(), ...options });
   }
 
+  async function resume(item, signal) {
+    const { scope } = item;
+    const next = { course_id: item.course_id, grade: scope.grade, subject: scope.subject, session_id: item.session_id };
+    if (scope.chapter != null) {
+      const chapters = await api(`/courses/ncert/chapters?grade=${scope.grade}&subject=${scope.subject}`, undefined, signal);
+      next.chapter = chapters.find((chapter) => chapter.chapter === scope.chapter && chapter.book_code === scope.book_code) ?? scope;
+    }
+    const target = sessionKey(user, next);
+    if (readStored(target + ':pending') && readStored(target) !== item.session_id) {
+      throw new Error('Finish retrying the pending message in that lesson before switching chats.');
+    }
+    if (!signal.aborted) onOpen(next);
+  }
+
   return (
     <div className="lesson-grid">
       <ConceptMap concepts={concepts} currentId={session?.current_concept} topics={selection.chapter?.topics}
         isTextbook={isTextbook} scopeName={scopeName} disabled={!session || Boolean(pending) || mode !== 'chat'}
         onPick={(concept) => startTurn(`Help me with ${concept.name}.`, { concept_id: concept.id, new_topic: true })}
-        onTopic={(topic) => startTurn(`Help me understand ${topic}.`.slice(0, 2000), { new_topic: true })} />
+        onTopic={(topic) => startTurn(`Help me understand ${topic}.`.slice(0, 2000), { new_topic: true, topic_heading: topic })} />
       <section className="study">
         <nav className="view-switch" aria-label="Study mode">
           <button type="button" aria-pressed={mode === 'chat'} onClick={() => setMode('chat')}>Tutor</button>
           {isTextbook && <span className="mode-note muted">Ungraded textbook chat</span>}
           {!isTextbook && <><button type="button" aria-pressed={mode === 'practice'} disabled={!session} onClick={() => setMode('practice')}>Practice</button>
             <button type="button" aria-pressed={mode === 'diagnostic'} disabled={!session} onClick={() => setMode('diagnostic')}>Diagnostic</button></>}
+          <PreviousChats current={session?.session_id} onCurrent={() => setMode('chat')} onResume={resume}
+            onNew={async (signal) => {
+              const created = await api('/sessions', selection, signal);
+              if (!signal.aborted) onOpen({ ...selection, session_id: created.session_id });
+            }} disabled={Boolean(pending) || sending} />
         </nav>
         <div hidden={mode !== 'chat'} className="chat-view">
           <Chat session={session} pending={pending} sending={sending} startupError={startupError} messageError={messageError}
