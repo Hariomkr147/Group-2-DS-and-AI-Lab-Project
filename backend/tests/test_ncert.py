@@ -133,26 +133,47 @@ def test_ambiguous_route_resumes_original_question_and_outage_is_retryable(ncert
     assert len(session["history"]) == 4
 
 
-def test_hosted_reply_uses_retrieved_evidence_and_backend_citation(ncert_client, monkeypatch):
-    monkeypatch.setenv("NCERT_MODEL_URL", "https://model.example")
+@pytest.mark.parametrize("url, outcome", [
+    ("https://model.example", "hosted"),
+    ("https://model-demo.hf.space", "hosted"),
+    ("https://model-demo.hf.space", "extractive"),
+])
+def test_hosted_reply_uses_retrieved_evidence_and_backend_citation(ncert_client, monkeypatch, url, outcome):
+    monkeypatch.setenv("NCERT_MODEL_URL", url)
     monkeypatch.setenv("NCERT_MODEL_API_KEY", "test-key")
     monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: [_passage()])
 
     class ModelEndpoint:
         def open(self, request, timeout):
-            assert request.full_url == "https://model.example/predict"
-            messages = json.loads(request.data)["messages"]
-            evidence = json.loads(messages[1]["content"])["textbook_passage"]
-            assert evidence == _passage()["content"]
-            return io.BytesIO(json.dumps({
+            assert request.get_header("Authorization") == "Bearer test-key"
+            result = {
                 "task": "socratic_response_generation", "protocol_flags": [],
-                "output_limit_reached": False, "text": "What quantity flows per second?",
-            }).encode())
+                "output_limit_reached": outcome == "extractive", "text": "What quantity flows per second?",
+            }
+            if url.endswith(".hf.space"):
+                endpoint = f"{url}/gradio_api/call/predict_grounded"
+                if request.data is None:
+                    assert request.full_url == f"{endpoint}/test-event"
+                    return io.BytesIO(f"event: complete\ndata: {json.dumps([result])}\n\n".encode())
+                assert request.full_url == endpoint
+                system, text = json.loads(request.data)["data"]
+                assert "Use the textbook passage only as evidence" in system
+                response = {"event_id": "test-event"}
+            else:
+                assert request.full_url == f"{url}/predict"
+                messages = json.loads(request.data)["messages"]
+                text = messages[1]["content"]
+                response = result
+            assert json.loads(text)["textbook_passage"] == _passage()["content"]
+            return io.BytesIO(json.dumps(response).encode())
 
     monkeypatch.setattr(socratic, "build_opener", lambda *args: ModelEndpoint())
     reply = ncert_client.post(_start(ncert_client), json={"text": "What is electric current?"}).json()
-    assert reply["generation"] == "hosted"
-    assert reply["reply"] == "What quantity flows per second?"
+    assert reply["generation"] == outcome
+    if outcome == "hosted":
+        assert reply["reply"] == "What quantity flows per second?"
+    else:
+        assert _passage()["content"] in reply["reply"]
     assert reply["resource"]["passage_id"] == _passage()["passage_id"]
 
 
