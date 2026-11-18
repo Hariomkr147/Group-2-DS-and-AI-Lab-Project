@@ -6,6 +6,7 @@
 3. Clarify which parts of pausing and resuming the Kaggle run are automatic.
 4. Continue the Kaggle run unattended after the checkpoint is published.
 5. Stop polling and clarify whether a cloud trigger can start the resume run with the laptop off.
+6. Calculate the time until the 11-hour 45-minute checkpoint.
 
 ## Links
 - https://www.kaggle.com/docs/notebooks
@@ -20,6 +21,7 @@
 - Rechecked the active run and explained that submitting the continuation is a separate action.
 - Prepared a private continuation notebook from Kaggle version 1. It requires a full-fit checkpoint with adapter, optimizer, scheduler and RNG files before restoring anything.
 - Verified the continuation preflight against incomplete and complete checkpoint fixtures. Stopped the in-session status watcher at the user's request.
+- Calculated the approximate checkpoint time as 04:08 IST from Kaggle's recorded start time and confirmed that version 1 was still running.
 
 ## Notes
 - A successful checkpointed exit saves output for a continuation. A hard timeout can interrupt output saving.
