@@ -1,10 +1,12 @@
 """Route and retrieve approved NCERT evidence in Supabase."""
+import json
 import logging
 import os
 import re
 from functools import lru_cache
 from threading import Lock
 from urllib.parse import urldefrag, urlsplit
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 from fastapi import HTTPException
 from sqlalchemy import text
@@ -19,6 +21,7 @@ RELEASE = "9aea0ce28990f86074b2d813"
 MODEL = "Qwen/Qwen3-Embedding-0.6B"
 REVISION = "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
 QUERY_PREFIX = "Instruct: Given a question, retrieve relevant passages that answer the question\nQuery: "
+EMBEDDING_DIMENSION = 1024
 # shortcut: these scores come from a small routing benchmark, recalibrate on fresh student queries.
 MIN_SCORE = 0.60
 CHAPTER_MARGIN = 0.025
@@ -85,7 +88,38 @@ def _encoder():
     return tokenizer, model, device
 
 
+class _NoRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+def _remote_embedding(query: str, url: str, key: str) -> list[float]:
+    target = urlsplit(url)
+    if (target.scheme != "https" or not target.hostname or target.username is not None
+            or target.password is not None or target.query or target.fragment
+            or not re.fullmatch(r"[!-~]{1,512}", key)):
+        raise ValueError("Configure a valid NCERT embedding HTTPS URL and API key.")
+
+    request = Request(f"{url.rstrip('/')}/embed", data=json.dumps({"query": query}).encode(),
+                      headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"})
+    with build_opener(_NoRedirect()).open(request, timeout=25) as response:
+        result = json.loads(response.read(65536))
+    if not isinstance(result, dict) or result.get("model") != MODEL or result.get("revision") != REVISION:
+        raise ValueError("The NCERT embedding model does not match the corpus.")
+    vector = result.get("embedding")
+    if (not isinstance(vector, list) or len(vector) != EMBEDDING_DIMENSION
+            or any(type(value) not in (int, float) or not -1 <= value <= 1 for value in vector)
+            or abs(sum(value * value for value in vector) - 1) > 0.001):
+        raise ValueError("The NCERT embedding vector is invalid.")
+    return vector
+
+
 def embed(query: str) -> list[float]:
+    url = os.getenv("NCERT_EMBEDDING_URL", "").strip()
+    key = os.getenv("NCERT_EMBEDDING_API_KEY", "")
+    if url or key or os.getenv("APP_ENV", "").strip().lower() == "production":
+        return _remote_embedding(query, url, key)
+
     import torch
 
     with _encoder_lock:

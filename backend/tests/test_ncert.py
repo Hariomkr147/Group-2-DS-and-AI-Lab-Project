@@ -1,6 +1,7 @@
 import io
 import json
 
+import pytest
 from fastapi import HTTPException
 
 from app.services import ncert, socratic
@@ -21,6 +22,48 @@ def _start(client, **scope):
     response = client.post("/sessions", json={"learner_id": "ncert-test", "course_id": "ncert", **scope})
     assert response.status_code == 201
     return "/sessions/" + response.json()["session_id"] + "/messages"
+
+
+@pytest.mark.parametrize("invalid", [None, "revision", "embedding"])
+def test_remote_encoder_validates_corpus_compatibility(monkeypatch, invalid):
+    query = "What is electric current?"
+    vector = [1.0] + [0.0] * 1023
+    payload = {"model": ncert.MODEL, "revision": ncert.REVISION, "embedding": vector}
+    if invalid == "revision":
+        payload["revision"] = "different-revision"
+    if invalid == "embedding":
+        payload["embedding"] = vector[:-1]
+
+    class EncoderEndpoint:
+        def open(self, request, timeout):
+            assert request.full_url == "https://encoder.example/embed"
+            assert request.get_header("Authorization") == "Bearer test-key"
+            assert json.loads(request.data) == {"query": query}
+            return io.BytesIO(json.dumps(payload).encode())
+
+    monkeypatch.setenv("APP_ENV", "production")
+    monkeypatch.setenv("NCERT_ENABLED", "1")
+    monkeypatch.setenv("NCERT_EMBEDDING_URL", "https://encoder.example")
+    monkeypatch.setenv("NCERT_EMBEDDING_API_KEY", "test-key")
+    monkeypatch.setattr(ncert, "build_opener", lambda *args: EncoderEndpoint())
+    if invalid:
+        with pytest.raises(HTTPException) as error:
+            ncert.rank(query, {})
+        assert error.value.status_code == 503
+    else:
+        assert ncert.embed(query) == vector
+
+
+def test_production_does_not_load_local_encoder_when_endpoint_is_missing(monkeypatch):
+    monkeypatch.setenv("APP_ENV", "production")
+    monkeypatch.setenv("NCERT_ENABLED", "1")
+    monkeypatch.delenv("NCERT_EMBEDDING_URL", raising=False)
+    monkeypatch.delenv("NCERT_EMBEDDING_API_KEY", raising=False)
+    monkeypatch.setattr(ncert, "_encoder", lambda: pytest.fail("Local encoder was called"))
+
+    with pytest.raises(HTTPException) as error:
+        ncert.rank("What is electric current?", {})
+    assert error.value.status_code == 503
 
 
 def test_catalogue_selection_scopes_chat_and_search(ncert_client, monkeypatch):
