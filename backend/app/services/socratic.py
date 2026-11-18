@@ -86,7 +86,10 @@ def _hosted(question: str, context: str, evidence: str) -> str | None:
     key = os.getenv("NCERT_MODEL_API_KEY", "")
     if not url or not key:
         return None
-    target = urlsplit(url)
+    try:
+        target = urlsplit(url)
+    except ValueError:
+        return None
     if (target.scheme != "https" or not target.hostname or target.username or
             target.password or target.query or target.fragment or not re.fullmatch(r"[!-~]{1,512}", key)):
         return None
@@ -107,16 +110,23 @@ def _hosted(question: str, context: str, evidence: str) -> str | None:
             ensure_ascii=False,
         )},
     ]
-    request = Request(f"{url}/predict",
-                      data=json.dumps({"messages": messages, "max_new_tokens": 96}, ensure_ascii=False).encode(),
-                      headers=headers)
     try:
-        with build_opener(_NoRedirect()).open(request, timeout=20) as response:
-            result = json.loads(response.read(65536))
-        if (result.get("task") == "socratic_response_generation" and result.get("protocol_flags") == []
+        open_request = build_opener(_NoRedirect()).open
+        if target.hostname.endswith(".hf.space"):
+            result = llm.gradio_predict(url, key, messages[0]["content"], messages[1]["content"],
+                                        float(os.getenv("NCERT_MODEL_TIMEOUT", "45")),
+                                        endpoint="predict_grounded", open_request=open_request)
+        else:
+            request = Request(f"{url}/predict", headers=headers, data=json.dumps(
+                {"messages": messages, "max_new_tokens": 96}, ensure_ascii=False,
+            ).encode())
+            with open_request(request, timeout=20) as response:
+                result = json.loads(response.read(65536))
+        if (isinstance(result, dict) and result.get("task") == "socratic_response_generation"
+                and result.get("protocol_flags") == []
                 and result.get("output_limit_reached") is False and isinstance(result.get("text"), str)):
             return result["text"].strip() or None
-    except (OSError, ValueError, AttributeError):
+    except (OSError, ValueError, RuntimeError):
         pass
     return None
 

@@ -90,8 +90,9 @@ class _Response:
     def __exit__(self, *_):
         return False
 
-    def read(self):
-        return self.text.encode()
+    def read(self, size=-1):
+        data = self.text.encode()
+        return data if size < 0 else data[:size]
 
 
 @pytest.mark.parametrize("stream, expected", [

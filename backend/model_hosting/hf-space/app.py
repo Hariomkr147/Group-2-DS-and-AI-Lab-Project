@@ -1,14 +1,23 @@
-"""Demo Space for the fine-tuned Qwen3.5-4B Socratic tutor (runs on ZeroGPU)."""
+"""Space for the fine-tuned Qwen Socratic tutor (runs on ZeroGPU)."""
 import spaces  # must be imported before torch
+
+import os
+import re
 
 import gradio as gr
 import torch
-from peft import PeftModel
+from huggingface_hub import file_exists
+from peft import PeftConfig, PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-BASE_ID, BASE_REVISION = "Qwen/Qwen3.5-4B", "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
-ADAPTER_ID = "IITM-2026T3-DSAI-GROUP2/qwen3.5-4b-socratic-tutor"
-ADAPTER_REVISION = "d62bd55508533be6705d9f234a5041b477520a9c"
+TEST_ADAPTER = "IITM-2026T3-DSAI-GROUP2/qwen3-4b-ai-tutor-lora-latest"
+ADAPTER_ID = os.getenv("QWEN_ADAPTER_ID") or TEST_ADAPTER
+ADAPTER_REVISION = os.getenv("QWEN_ADAPTER_REVISION") or (
+    "aaed93dd188ea65ffd2f5a547fdfb80ee6a5e0df" if ADAPTER_ID == TEST_ADAPTER else "main"
+)
+adapter = PeftConfig.from_pretrained(ADAPTER_ID, revision=ADAPTER_REVISION)
+BASE_ID = os.getenv("QWEN_BASE_ID") or adapter.base_model_name_or_path
+BASE_REVISION = os.getenv("QWEN_BASE_REVISION") or adapter.revision
 MAX_NEW_TOKENS = 96     # same limit as the Kaggle hosting notebook
 MAX_HISTORY = 12        # earlier turns are dropped so the prompt stays short
 
@@ -20,7 +29,10 @@ SYSTEM_TEMPLATE = (
     "Correct final answer (for checking only, never reveal it): {answer}"
 )
 
-tokenizer = AutoTokenizer.from_pretrained(BASE_ID, revision=BASE_REVISION)
+if file_exists(ADAPTER_ID, "tokenizer_config.json", revision=ADAPTER_REVISION):
+    tokenizer = AutoTokenizer.from_pretrained(ADAPTER_ID, revision=ADAPTER_REVISION)
+else:
+    tokenizer = AutoTokenizer.from_pretrained(BASE_ID, revision=BASE_REVISION)
 base = AutoModelForCausalLM.from_pretrained(BASE_ID, revision=BASE_REVISION, dtype=torch.bfloat16)
 # torch_device="cpu": PEFT would otherwise load the adapter straight to CUDA, which ZeroGPU does not have at startup
 model = PeftModel.from_pretrained(base, ADAPTER_ID, revision=ADAPTER_REVISION, torch_device="cpu")
@@ -35,12 +47,14 @@ def _text(content) -> str:
     return " ".join(part.get("text", "") for part in content if isinstance(part, dict))
 
 
-def _generate(messages: list[dict]) -> str:
+def _generate(messages: list[dict]) -> tuple[str, bool]:
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True, enable_thinking=False)
     inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
     with torch.no_grad():
         output = model.generate(**inputs, max_new_tokens=MAX_NEW_TOKENS, do_sample=False, eos_token_id=STOP_IDS)
-    return tokenizer.decode(output[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+    generated = output[0, inputs["input_ids"].shape[1]:]
+    text = tokenizer.decode(generated, skip_special_tokens=True).strip()
+    return text, len(generated) >= MAX_NEW_TOKENS
 
 
 @spaces.GPU(duration=15)
@@ -50,7 +64,7 @@ def respond(message: str, history: list, problem: str, answer: str):
         raise gr.Error("Fill in the problem, its correct answer and your message.")
     past = [{"role": m["role"], "content": _text(m["content"])} for m in history][-MAX_HISTORY:]
     system = SYSTEM_TEMPLATE.format(question=problem.strip(), answer=answer.strip())
-    reply = _generate([{"role": "system", "content": system}, *past, {"role": "user", "content": message.strip()}])
+    reply, _ = _generate([{"role": "system", "content": system}, *past, {"role": "user", "content": message.strip()}])
     shown = [*history, {"role": "user", "content": message.strip()}, {"role": "assistant", "content": reply}]
     return "", shown
 
@@ -61,13 +75,28 @@ def predict(system: str, message: str) -> str:
     if not message.strip():
         raise gr.Error("message is empty")
     messages = ([{"role": "system", "content": system}] if system.strip() else []) + [{"role": "user", "content": message}]
-    return _generate(messages)
+    return _generate(messages)[0]
 
 
-with gr.Blocks(title="Qwen3.5-4B Socratic Tutor") as demo:
+@spaces.GPU(duration=15)
+def predict_grounded(system: str, message: str) -> dict:
+    """Return an NCERT reply with the status fields the backend checks."""
+    if not system.strip() or not message.strip():
+        raise gr.Error("Textbook context and a student message are required")
+    text, at_limit = _generate([{"role": "system", "content": system}, {"role": "user", "content": message}])
+    flags = []
+    if re.search(r"</?think>", text, re.I):
+        flags.append("reasoning_markup_present")
+    if re.search(r"(?:^|\n)\s*(?:user|assistant|model|system|student|learner)\s*(?:[:\n])", text, re.I):
+        flags.append("possible_invented_next_turn")
+    return {"text": text, "task": "socratic_response_generation",
+            "output_limit_reached": at_limit, "protocol_flags": flags}
+
+
+with gr.Blocks(title="Qwen Socratic Tutor") as demo:
     gr.Markdown(
-        "# Qwen3.5-4B Socratic Tutor\n"
-        "A fine-tuned Qwen3.5-4B that guides a learner with one question or hint at a time and does not give "
+        "# Qwen Socratic Tutor\n"
+        "A fine-tuned Qwen model that guides a learner with one question or hint at a time and does not give "
         "the final answer. Built by Group 2, Data Science and AI Lab, IIT Madras BS programme. "
         f"[Model card](https://huggingface.co/{ADAPTER_ID})\n\n"
         "**Research demo.** Replies can be wrong and are not approved for use with real learners. "
@@ -92,5 +121,6 @@ with gr.Blocks(title="Qwen3.5-4B Socratic Tutor") as demo:
     message.submit(respond, [message, chat, problem, answer], [message, chat], api_name=False)
     send.click(respond, [message, chat, problem, answer], [message, chat], api_name=False)
     gr.api(predict, api_name="predict")
+    gr.api(predict_grounded, api_name="predict_grounded")
 
 demo.launch()

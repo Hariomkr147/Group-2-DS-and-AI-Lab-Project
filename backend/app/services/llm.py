@@ -12,6 +12,7 @@ Each SDK is imported late, so only the SDK for the provider you use must be inst
 Callers use: p = get_provider(name_or_None); p.ready(); p.generate(...); p.stream(...); p.model
 """
 import os
+import re
 
 from fastapi import HTTPException
 
@@ -147,6 +148,36 @@ class Anthropic(Provider):
             yield from s.text_stream
 
 
+def gradio_predict(url, key, system, message, timeout, *, endpoint="predict", open_request=None):
+    """Queue a Gradio prediction and return the first output from its event stream."""
+    import json
+    import urllib.request
+
+    open_request = open_request or urllib.request.urlopen
+    url = f"{url.rstrip('/')}/gradio_api/call/{endpoint}"
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
+    queued = urllib.request.Request(url, data=json.dumps({"data": [system, message]}).encode(), headers=headers)
+    with open_request(queued, timeout=timeout) as response:
+        result = json.loads(response.read(4096))
+    event_id = result.get("event_id") if isinstance(result, dict) else None
+    if not isinstance(event_id, str) or not re.fullmatch(r"[\w-]{1,128}", event_id, flags=re.ASCII):
+        raise ValueError("Space returned an invalid event ID")
+    event = ""
+    request = urllib.request.Request(f"{url}/{event_id}", headers=headers)
+    with open_request(request, timeout=timeout) as response:
+        for line in response.read(65536).decode().splitlines():
+            if line.startswith("event:"):
+                event = line[6:].strip()
+            elif line.startswith("data:") and event == "complete":
+                outputs = json.loads(line[5:])
+                if isinstance(outputs, list) and outputs:
+                    return outputs[0]
+                break
+            elif line.startswith("data:") and event == "error":
+                raise RuntimeError(f"Space returned an error: {line[5:].strip()[:200]}")
+    raise RuntimeError("Space returned no reply")
+
+
 class QwenFinetuned(Provider):
     """Our fine-tuned Qwen3.5-4B Socratic tutor. Replies are at most 96 new tokens. QWEN_URL picks the host:
 
@@ -162,38 +193,22 @@ class QwenFinetuned(Provider):
         _need("QWEN_URL", self.name)
         _need("QWEN_API_KEY", self.name)
 
-    def _from_space(self, prompt, system, timeout):
-        """Gradio API: one call queues the request, a second call reads the result as server-sent events."""
-        import json
-        import urllib.request
-        url = os.environ["QWEN_URL"].rstrip("/") + "/gradio_api/call/predict"
-        headers = {"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"]}
-        queued = urllib.request.Request(url, data=json.dumps({"data": [system or "", prompt]}).encode(), headers=headers)
-        with urllib.request.urlopen(queued, timeout=timeout) as response:
-            event_id = json.load(response)["event_id"]
-        event = ""
-        with urllib.request.urlopen(urllib.request.Request(f"{url}/{event_id}", headers=headers), timeout=timeout) as response:
-            for line in response.read().decode().splitlines():
-                if line.startswith("event:"):
-                    event = line[6:].strip()
-                elif line.startswith("data:") and event == "complete":
-                    return (json.loads(line[5:])[0] or "").strip()
-                elif line.startswith("data:") and event == "error":
-                    raise RuntimeError(f"Space returned an error: {line[5:].strip()[:200]}")   # e.g. GPU quota used up
-        raise RuntimeError("Space returned no reply")
-
     def generate(self, prompt, system, max_tokens):
         import json
         import urllib.request
         self.ready()
-        if ".hf.space" in os.environ["QWEN_URL"]:
-            return self._from_space(prompt, system, float(os.environ.get("QWEN_TIMEOUT", "60")))
+        url = os.environ["QWEN_URL"].rstrip("/")
+        key = os.environ["QWEN_API_KEY"]
+        timeout = float(os.environ.get("QWEN_TIMEOUT", "60"))
+        if ".hf.space" in url:
+            result = gradio_predict(url, key, system or "", prompt, timeout)
+            return result.strip() if isinstance(result, str) else ""
         messages = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
         body = {"messages": messages, "max_new_tokens": min(max_tokens, self.MAX_NEW_TOKENS)}
         request = urllib.request.Request(
-            os.environ["QWEN_URL"].rstrip("/") + "/predict", data=json.dumps(body).encode(),
-            headers={"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["QWEN_API_KEY"]})
-        with urllib.request.urlopen(request, timeout=float(os.environ.get("QWEN_TIMEOUT", "60"))) as response:
+            url + "/predict", data=json.dumps(body).encode(),
+            headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"})
+        with urllib.request.urlopen(request, timeout=timeout) as response:
             result = json.load(response)
         if result.get("protocol_flags"):   # the model wrote a second speaker's turn; do not show it
             raise ValueError("Qwen reply failed the server's protocol check")
