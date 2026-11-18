@@ -110,6 +110,41 @@ def test_search_practice_diagnostics_hide_answers(client):
     assert [q["concept_id"] for q in diag][0] == "multiplication"
 
 
+def test_explicit_concept_and_message_replay_preserve_history(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")
+    url = f"/sessions/{sid}/messages"
+    picked = client.post(url, json={"text": "I am stuck on this", "concept_id": "division"})
+    assert picked.json()["concept_id"] == "division"
+    body = {"text": "5", "request_id": "6af4ab5d-26f9-43c9-9b2c-0b6f11cd5863"}
+    first = client.post(url, json=body)
+    replay = client.post(url, json=body)
+    assert first.json() == replay.json()
+    assert client.post(url, json={**body, "text": "6"}).status_code == 409
+    history = client.get(f"/sessions/{sid}").json()["history"]
+    assert len(history) == 6
+    assert history[-1]["detail"] == first.json()
+    assert history[-1]["request_id"] == body["request_id"]
+    progress = client.get("/learners/l1/progress", params={"course_id": "ncert-maths"}).json()
+    assert sum(c["attempts"] for c in progress["concepts"]) == 1
+
+
+def test_assessments_issue_questions_and_grade_each_once(client):
+    sid = start(client)
+    starters = {"session_id": sid, "kind": "practice", "concept_id": "division"}
+    questions = client.post("/assessments", json=starters).json()
+    assert len(questions) == 1 and "answer" not in questions[0]
+    url = f"/assessments/{questions[0]['id']}/answer"
+    assert client.post(url, json={"text": "10/2"}).json() == {"correct": True}
+    assert client.post(url, json={"text": "6"}).json() == {"correct": True}
+    progress = client.get("/learners/l1/progress", params={"course_id": "ncert-maths"}).json()
+    division = next(c for c in progress["concepts"] if c["concept_id"] == "division")
+    assert (division["attempts"], division["correct"]) == (1, 1)
+    diagnostic = client.post("/assessments", json={"session_id": sid, "kind": "diagnostic"}).json()
+    assert len(diagnostic) == 4 and diagnostic[0]["concept_id"] == "multiplication"
+    assert all(not q["hint"] and "answer" not in q for q in diagnostic)
+
+
 def test_ingest_rejects_unknown_prerequisite(client):
     pack = {"id": "bad", "title": "Bad", "subject": "x",
             "concepts": [{"id": "a", "name": "A", "level": 1, "prerequisites": ["zzz"]}]}

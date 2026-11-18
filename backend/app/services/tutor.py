@@ -19,7 +19,7 @@ def _norm(text: str) -> str:
     return text.strip().lower().replace(" ", "").rstrip(".")
 
 
-def _same(attempt: str, answer: str) -> bool:
+def same_answer(attempt: str, answer: str) -> bool:
     """Same text, or the same number written differently (0.5 and 1/2)."""
     if _norm(attempt) == _norm(answer):
         return True
@@ -40,7 +40,7 @@ def _assessment_attempt(text: str, question: Question) -> tuple[str, list[str] |
         working = None
     if guardrails.numeric_answer(question.answer):
         return (attempt, working) if guardrails.numeric_answer(attempt) else None
-    return (attempt, working) if attempt and (prefix or _same(attempt, question.answer)) else None
+    return (attempt, working) if attempt and (prefix or same_answer(attempt, question.answer)) else None
 
 
 def _next_question(concept: Concept, seen: list[str]) -> Question | None:
@@ -64,7 +64,6 @@ def _resource(concept: Concept) -> Resource | None:
 def _finish(db: Session, session: SessionRow, learner_text: str, reply: TutorReply) -> TutorReply:
     db.add_all([TurnRow(session_id=session.id, role="learner", text=learner_text),
                 TurnRow(session_id=session.id, role="tutor", text=reply.reply)])
-    db.commit()
     return reply
 
 
@@ -154,14 +153,15 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         generation=generation))
 
 
-def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False) -> TutorReply:
+def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False,
+                   selected_concept: str | None = None) -> TutorReply:
     text = text.strip()
     if guardrails.requests_answer(text):
         return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
     is_ncert = session.course_id == ncert.COURSE_ID
     asked = Question(**session.pending) if session.pending and not is_ncert else None
     intent, scope = guardrails.classify_input(db, session, text, asked)
-    explicit_switch = new_topic or guardrails.requests_topic_switch(text)
+    explicit_switch = new_topic or selected_concept is not None or guardrails.requests_topic_switch(text)
     assessment = _assessment_attempt(text, asked) if asked and not explicit_switch else None
     active = (session.pending or {}).get("chapter") if is_ncert else asked
     if assessment or (is_ncert and active and guardrails.numeric_answer(text) and not explicit_switch):
@@ -177,7 +177,8 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     found, finding, wrong_without_working = None, None, False
     seen = list((session.pending or {}).get("seen", []))  # question ids asked so far, kept inside `pending`
     if switch or (asked is None and scope != "unsupported" and intent != "other"):
-        concept_id = retrieval.best_concept(db, session.course_id, text)
+        concept_id = (course_store.get_concept(db, session.course_id, selected_concept).id
+                      if selected_concept is not None else retrieval.best_concept(db, session.course_id, text))
         if concept_id is None:
             if scope == "unsupported" or (asked is None and not switch and not guardrails.asks_for_help(text)
                                           and not guardrails.numeric_answer(text)):
@@ -202,7 +203,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
         return _respond(db, session, text, reply)
     else:
         attempt, working = assessment
-        correct = _same(attempt, asked.answer)
+        correct = same_answer(attempt, asked.answer)
         if not correct and working:
             finding = step_finder.find(asked.text, asked.answer, working, asked.hint)
         if finding and finding.source == "arithmetic":

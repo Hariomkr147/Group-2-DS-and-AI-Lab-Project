@@ -1,10 +1,10 @@
 # Frontend
 
-React (Vite) UI for the NCERT Socratic Tutor. The layout follows the `mock-app/static` pilot page, but it talks to the real backend in `../backend`.
+React (Vite) workspace for the NCERT Socratic Tutor, backed by FastAPI.
 
 ## Run
 
-Needs Node 18+ and a running backend (see `backend/README.md`).
+Needs Node 22 and a running backend (see [backend setup](../backend/README.md)).
 
 ```bash
 cd frontend
@@ -18,28 +18,24 @@ Sign in with `ADMIN_USERNAME` and `ADMIN_PASSWORD` from `backend/.env`. In dev, 
 
 ## How it works
 
-1. Sign in: `POST /auth/login` returns a token, kept in `sessionStorage` (cleared when the tab closes). Every other call sends it as a bearer token; an expired token returns you to the sign-in page.
-2. After sign-in it loads the first course (`GET /courses`, `/courses/{id}/concepts`) and opens a session (`POST /sessions`).
-3. Chat: `POST /sessions/{id}/messages`. The reply shows the tutor action, the textbook source and a possible misconception. Progress comes from `GET /learners/{id}/progress`.
-4. Clicking a concept on the left fills in "I am stuck on ...". The concept list has no answers; the backend never sends them.
+Choose a course pack for graded chat, practice and diagnostics, or choose the NCERT corpus for ungraded textbook guidance. Textbook sessions can be scoped to a class, subject and chapter. Chapter topics and source search use the approved release configured on the backend.
 
-All learners who share the one account share one progress record.
+Sign-in, open sessions and active assessments survive reload in the same browser tab. A message retry keeps its request ID so the backend can return an already saved reply. Learners sharing the team account also share progress totals.
 
-## Layout
+The visual design uses paper-toned surfaces and a serif display face for textbook hierarchy. Teal marks primary actions and the selected concept. Layout rhythm changes from compact navigation to wide working space. Motion is limited to control feedback.
 
+## Browser checks
+
+With the backend dependencies installed, run these commands from `frontend/`.
+
+```bash
+npm run build
+npx playwright install chromium --only-shell
+uv run --project ../backend npm test
 ```
-frontend/
-├── index.html
-├── vite.config.js        # dev server and /api proxy
-├── src/
-│   ├── main.jsx
-│   ├── App.jsx           # sign-in state, session, messages
-│   ├── api.js            # fetch helper and token handling
-│   ├── styles.css        # copied from the mock-app
-│   └── components/       # Login, Header, ConceptMap, Chat, SidePanel, Icon
-└── .env.example
-```
+
+The tests start FastAPI on localhost with a temporary database and fixture textbook evidence.
 
 ## Production
 
-Serve `dist/` from a web server that forwards `/api/` to the backend (and strips the prefix), over HTTPS. Set the backend's `CORS_ORIGINS` only if the frontend is on a different origin.
+FastAPI serves the built `dist/` directory and the same-origin `/api/` routes. For separate static hosting, configure a same-origin proxy for `/api/` and serve the UI over HTTPS.

@@ -1,8 +1,10 @@
-from fastapi import APIRouter, Depends, HTTPException
+from typing import Literal
+
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from ..db import get_db
-from ..schemas import ConceptPublic, CourseGraph, CoursePack, CourseSummary
+from ..schemas import ChapterTopics, ConceptPublic, CourseGraph, CoursePack, CourseSummary
 from ..services import course_store, ncert
 
 router = APIRouter(prefix="/courses", tags=["courses"])
@@ -10,7 +12,12 @@ router = APIRouter(prefix="/courses", tags=["courses"])
 
 @router.get("", response_model=list[CourseSummary])
 def list_courses(db: Session = Depends(get_db)):
-    return course_store.list_courses(db)
+    return [c for c in course_store.list_courses(db) if c.id != ncert.COURSE_ID or ncert.configured()]
+
+
+@router.get("/ncert/chapters", response_model=list[ChapterTopics])
+def list_chapters(grade: int = Query(ge=6, le=10), subject: Literal["maths", "science"] = Query()):
+    return ncert.catalogue(grade, subject)
 
 
 @router.post("", response_model=CourseSummary, status_code=201)

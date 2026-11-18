@@ -1,39 +1,57 @@
-// All calls go to /api, which the dev server (or your web server) forwards to the backend.
 const TOKEN_KEY = 'tutor_token';
+let token = readStored(TOKEN_KEY);
+
+export function readStored(key) {
+  try { return JSON.parse(sessionStorage.getItem(key)); } catch { return null; }
+}
+
+export function store(key, value) {
+  try {
+    if (value == null) sessionStorage.removeItem(key);
+    else sessionStorage.setItem(key, JSON.stringify(value));
+  } catch { /* tab storage may be blocked */ }
+}
 
 export const auth = {
-  get token() {
-    try { return sessionStorage.getItem(TOKEN_KEY); } catch { return null; }
-  },
+  get token() { return token; },
   set token(value) {
-    try {
-      if (value) sessionStorage.setItem(TOKEN_KEY, value);
-      else sessionStorage.removeItem(TOKEN_KEY);
-    } catch { /* storage blocked: the user just signs in again after a reload */ }
+    token = value;
+    store(TOKEN_KEY, value);
   },
   onExpired: () => {},
 };
 
-function messageOf(data, status) {
-  const detail = data?.detail;
-  if (typeof detail === 'string') return detail;
-  if (Array.isArray(detail) && detail[0]?.msg) return detail[0].msg;
-  return `Request failed (${status})`;
+// Older builds saved the bearer token as a raw string.
+if (!token) {
+  try { token = sessionStorage.getItem(TOKEN_KEY); } catch { /* storage blocked */ }
 }
 
-export async function api(path, body) {
+export async function api(path, body, signal) {
+  const sentToken = auth.token;
   const headers = {};
   if (body !== undefined) headers['Content-Type'] = 'application/json';
-  if (auth.token) headers.Authorization = `Bearer ${auth.token}`;
-
+  if (sentToken) headers.Authorization = `Bearer ${sentToken}`;
+  const deadline = AbortSignal.timeout(90_000);
   let response;
+  let data;
   try {
-    response = await fetch(`/api${path}`, { method: body === undefined ? 'GET' : 'POST', headers, body: body === undefined ? undefined : JSON.stringify(body) });
-  } catch {
-    throw new Error('Cannot reach the server. Check that the backend is running.');
+    response = await fetch(`/api${path}`, {
+      method: body === undefined ? 'GET' : 'POST',
+      headers,
+      body: body === undefined ? undefined : JSON.stringify(body),
+      signal: signal ? AbortSignal.any([signal, deadline]) : deadline,
+    });
+    data = await response.json().catch((error) => {
+      if (error instanceof SyntaxError) return null;
+      throw error;
+    });
+  } catch (error) {
+    if (signal?.aborted) throw error;
+    throw new Error(deadline.aborted ? 'The server took too long to respond.' : 'Could not reach the server.');
   }
-  const data = await response.json().catch(() => null);
-  if (response.status === 401 && path !== '/auth/login') auth.onExpired();
-  if (!response.ok) throw new Error(messageOf(data, response.status));
-  return data;
+  if (response.status === 401 && path !== '/auth/login' && sentToken === auth.token) auth.onExpired();
+  if (response.ok && data !== null) return data;
+  const detail = data?.detail;
+  const message = typeof detail === 'string' ? detail : detail?.[0]?.msg;
+  throw Object.assign(new Error(message || (response.ok ? 'The server returned an invalid response.' : `Request failed (${response.status}).`)), { status: response.status });
 }

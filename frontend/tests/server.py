@@ -1,0 +1,39 @@
+"""Local browser fixture with a temporary database and approved-looking test passages."""
+import os
+from pathlib import Path
+from secrets import token_urlsafe
+from tempfile import TemporaryDirectory
+
+import uvicorn
+
+
+with TemporaryDirectory() as directory:
+    os.environ.update(
+        DATABASE_URL=f"sqlite:///{(Path(directory) / 'browser.db').as_posix()}",
+        ADMIN_USERNAME="browser-tester",
+        ADMIN_PASSWORD="browser-test-fixture",
+        SECRET_KEY=token_urlsafe(32),
+        APP_ENV="development",
+        SOCRATIC_PROVIDER="templates",
+        STEP_FINDER_PROVIDER="none",
+        NCERT_ENABLED="1",
+        NCERT_MODEL_URL="",
+    )
+    from app.main import app
+    from app.services import ncert
+
+    chapter = {"grade": 10, "subject": "science", "book_code": "jesc1", "chapter": 11}
+    passage = {**chapter, "passage_id": "fixture-current", "heading": "Electric current", "physical_page": 8,
+               "source_url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+               "content": "Electric current measures the flow of electric charge through a conductor.",
+               "score": 0.9}
+
+    def catalogue(grade, subject):
+        return [{**chapter, "topics": [passage["heading"]]}] if (grade, subject) == (10, "science") else []
+
+    def rank(query, scope, **options):
+        return [passage] if all(scope.get(key) in (None, value) for key, value in chapter.items()) else []
+
+    ncert.catalogue = catalogue
+    ncert.rank = rank
+    uvicorn.run(app, host="127.0.0.1", port=8766)
