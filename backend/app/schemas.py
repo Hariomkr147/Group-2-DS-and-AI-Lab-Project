@@ -9,6 +9,8 @@ from pydantic import BaseModel, Field
 class Action(str, Enum):
     """What the tutor controller decides to do next."""
     ASK = "ask"              # first diagnostic question on the learner's doubt
+    EXPLAIN = "explain"      # explain an NCERT concept
+    GUIDE = "guide"          # guide the next step of an NCERT exercise
     PROBE = "probe"          # probing question on the same concept
     HINT = "hint"            # hint, then ask again
     BACKTRACK = "backtrack"  # go down to a weak prerequisite
