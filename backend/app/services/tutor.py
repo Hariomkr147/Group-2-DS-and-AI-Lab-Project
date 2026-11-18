@@ -1,6 +1,6 @@
 """One tutoring turn: guardrails -> learner model -> controller -> Socratic model -> guardrails."""
-import re
 from difflib import get_close_matches
+import re
 
 from sqlalchemy.orm import Session
 
@@ -16,29 +16,8 @@ _ANSWER_PREFIX = re.compile(r"^(?:my answer is|the answer is|answer:|i (?:think 
 _CALCULATION_START = re.compile(r"^\s*(?:step\s+\d+\s*[:.)-]\s*)?[\d(=+\-]", re.I)
 _TOPIC_WORDS_TO_IGNORE = {"about", "does", "explain", "help", "mean", "please", "that", "this", "understand", "what", "with"}
 _REFERENTIAL = re.compile(
-    r"(?:why|how so|what next|what do you mean|(?:(?:can|could) you )?(?:explain (?:that|this|it)"
-    r"(?: problem)?(?: again| in simple words| step by step)?|"
-    r"explain (?:in simple words|without the (?:text)?book)|"
-    r"(?:give me )?(?:an? |another )?(?:hint|example))|"
-    r"(?:can|could|may) i (?:have|get) (?:an?|another) (?:hint|example)|"
-    r"i (?:(?:still )?don['’]t (?:understand(?: why)?|have the (?:text)?book)|am stuck|"
-    r"(?:am not|['’]m not) referring to (?:the )?(?:text)?book))[.!? ]*",
-    re.I,
-)
-_HINT = re.compile(r"\b(?:hint|clue)\b", re.I)
-_PROBLEM = re.compile(
-    r"^(?:(?:please |help me )?(?:solve|calculate|simplify|evaluate|find|prove|work out|determine)\b|"
-    r"how (?:do|should|would|can) (?:i|we|you)\b|(?:what is\s+)?[-+]?\d[^?\n]*(?:[+*/×÷−%-]|\bx\b))",
-    re.I,
-)
-_EXPLAIN = re.compile(
-    r"^(?:(?:can|could) you )?(?:how (?:do|does|can|is)|what (?:is|are|does|do you mean)|"
-    r"why|define|explain|teach me|help me understand)\b",
-    re.I,
-)
-_PLAIN_CALCULATION = re.compile(
-    r"(?:(?:what is|calculate|evaluate|work out|solve|simplify)\s+)?"
-    r"([-+]?\d[\d .()+*/×÷xX−-]*[+*/×÷xX−-][\d .()+*/×÷xX−-]+?)[?.]?\s*",
+    r"(?:why|how so|what next|what do you mean|(?:can you )?(?:explain (?:that|this|it)(?: again)?|"
+    r"(?:give me )?(?:a |another )?(?:hint|example))|i (?:don['’]t understand(?: why)?|am stuck))[.!? ]*",
     re.I,
 )
 
@@ -109,41 +88,28 @@ def _mentions_topic(text: str, heading: str) -> bool:
 
 
 def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, context: str, *,
-                 mode: socratic.TeachingMode, followup: bool = False, problem: str = "") -> TutorReply:
+                 new_topic: bool, followup: bool = False) -> TutorReply:
     state = session.pending or {}
     selected = ncert.chapter_of(passage)
     chapter = selected.model_dump()
     concept = ncert.concept_id(passage)
-    model_context = f"Class {selected.grade} {selected.subject}. Topic: {ncert.topic_title(passage['heading'])}."
-    if problem:
-        model_context += f"\nCurrent exercise: {problem[:320]}"
-    elif context:
-        model_context += f"\nLearning goal: {context[:170]}"
+    same_topic = not new_topic and state.get("chapter") == chapter
+    model_context = context
     if followup and state.get("last_reply"):
-        model_context += f"\nStudent: {state.get('last_message', '')[:120]}\nTutor: {state['last_reply'][-240:]}"
-    working = step_finder.split_working(text) if mode == "review" else None
-    slip = step_finder.arithmetic_slip(working) if working else None
-    if slip:
-        reply = f"Recheck the arithmetic in step {slip}. Evaluate both sides separately. Do they have the same value?"
-        generation = "extractive"
-    else:
-        arithmetic = _PLAIN_CALCULATION.fullmatch(problem)
-        reply, generation = socratic.grounded(
-            text, model_context, passage, mode=mode, problem=problem, calculation=arithmetic[1] if arithmetic else "",
-            previous_reply=state.get("last_reply", "") if followup else "",
-        )
+        model_context = f"{context[:180]}\nStudent: {state.get('last_message', '')[:160]}\nTutor: {state['last_reply'][-380:]}"
+    reply, generation = socratic.grounded(text, model_context, passage,
+                                         previous_reply=state.get("last_reply", "") if followup else "")
     session.current_concept = concept
-    if not followup:
+    if not same_topic:
         session.target_concept = concept
     heading = state.get("chapter_heading") if followup else None
     session.pending = {"scope": state.get("scope", {}), "chapter": chapter, "question": context,
                        "chapter_heading": heading or passage["heading"], "passage_id": passage["passage_id"],
-                       "last_message": text, "last_reply": reply, "problem": problem}
+                       "last_message": text, "last_reply": reply}
     return _finish(db, session, text, TutorReply(
-        reply=reply, action={"explain": Action.EXPLAIN, "hint": Action.HINT,
-                             "guide": Action.GUIDE, "review": Action.HINT}[mode], label=InputLabel.ON_TOPIC,
+        reply=reply, action=Action.HINT if same_topic else Action.ASK, label=InputLabel.ON_TOPIC,
         concept_id=concept, level=selected.grade, chapter=selected, resource=ncert.resource(passage),
-        generation=generation, wrong_step=slip))
+        generation=generation))
 
 
 def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
@@ -154,7 +120,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         passage = ncert.topic_passage(scope, topic_heading)
         if passage is None:
             return _respond(db, session, text, "Choose a lesson topic from this chapter or ask a question about it.")
-        return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
+        return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), new_topic=True)
 
     chapter = None if new_topic else state.get("chapter")
     previous = state.get("question", "")
@@ -162,14 +128,9 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                     if previous.startswith("Help me understand ") else "")
     active_heading = legacy_title or state.get("chapter_heading") or ""
     numeric = guardrails.numeric_answer(text)
-    refers_back = bool(_REFERENTIAL.fullmatch(text))
-    written_work = bool(_CALCULATION_START.match(text) and step_finder.has_arithmetic(
-        text.splitlines()[:step_finder.MAX_LINES]))
-    exercise = not refers_back and not written_work and bool(_PROBLEM.match(text))
-    review = not exercise and bool(numeric or intent == "answer_attempt" or _ANSWER_PREFIX.match(text) or written_work)
-    mentions_topic = _mentions_topic(text, active_heading)
-    related = review or intent in _FOLLOWUP_INTENTS or mentions_topic
-    followup = bool(chapter and (refers_back or (scope_label != "unsupported" and related)))
+    refers_back = numeric or bool(_REFERENTIAL.fullmatch(text))
+    followup = bool(chapter and scope_label != "unsupported" and (refers_back or intent in _FOLLOWUP_INTENTS or
+                    (intent == "uncertain" and _mentions_topic(text, active_heading))))
     clarification = re.fullmatch(
         r"(?i)(?:(?:class|grade)\s+([6-9]|10)(?:\s+(maths|science))?|(maths|science))[.!]?", text)
     filters, query = scope, text
@@ -192,38 +153,16 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         if intent == "other":
             return _respond(db, session, text, "What would you like to work on next?")
 
-    problem = ""
-    if followup:
-        problem = state.get("problem", previous if _PROBLEM.match(previous) else "")
-    if exercise or (query != text and _PROBLEM.match(query)):
-        problem = query
-    mode: socratic.TeachingMode = "explain"
-    if followup and review:
-        mode = "review"
-    elif _HINT.search(query) or (refers_back and intent in {"doubt", "hint_request"} and not _EXPLAIN.match(query)):
-        mode = "hint"
-    elif problem:
-        if _EXPLAIN.match(query) and not exercise and not refers_back:
-            problem = ""
-        else:
-            mode = "guide"
-    if followup and (refers_back or review):
-        passage_id = state.get("passage_id")
-        passage = ncert.cited_passage(chapter, passage_id) if passage_id else None
-        if not passage and state.get("chapter_heading"):
-            passage = ncert.topic_passage(chapter, state["chapter_heading"])
+    if followup and state.get("passage_id") and (refers_back or intent == "answer_attempt"):
+        passage = ncert.cited_passage(chapter, state["passage_id"])
         if passage:
-            return _ncert_reply(db, session, text, passage, previous, mode=mode, followup=True, problem=problem)
+            return _ncert_reply(db, session, text, passage, previous, new_topic=False, followup=True)
     if followup:
         passages = ncert.rank(f"{legacy_title or previous}\n{query}", chapter, limit=1)
     else:
         passages = ncert.rank(query, filters, limit=2, chapters=True)
 
     if not passages or passages[0]["score"] < ncert.MIN_SCORE:
-        if followup and mentions_topic and state.get("passage_id"):
-            passage = ncert.cited_passage(chapter, state["passage_id"])
-            if passage:
-                return _ncert_reply(db, session, text, passage, previous, mode=mode, followup=True, problem=problem)
         if new_topic and any(scope.get(key) for key in ("grade", "subject")):
             outside = ncert.rank(query, {}, limit=2, chapters=True)
             if (outside and outside[0]["score"] >= ncert.MIN_SCORE
@@ -256,8 +195,8 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
             session.pending = {**state, "clarify_query": query}
             return _respond(db, session, text, clarification_prompt)
 
-    context = previous if followup and not exercise else query
-    return _ncert_reply(db, session, text, best, context, mode=mode, followup=followup, problem=problem)
+    context = previous if followup else query
+    return _ncert_reply(db, session, text, best, context, new_topic=new_topic, followup=followup)
 
 
 def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False,
@@ -280,7 +219,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
         intent, scope = "hint_request", "supported"
     if intent in {"answer_request", "bypass_attempt"}:
         return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
-    switch = explicit_switch or (intent == "topic_switch" and not (is_ncert and active and _REFERENTIAL.fullmatch(text)))
+    switch = explicit_switch or intent == "topic_switch"
     if is_ncert:
         return _handle_ncert(db, session, text, switch, intent, scope, topic_heading)
 

@@ -3,7 +3,7 @@ import { Icon } from './Icon.jsx';
 import { RichText, SourceLink } from './RichText.jsx';
 
 const ACTION_LABEL = {
-  ask: 'Question', explain: 'Explanation', guide: 'Next step', probe: 'Question', hint: 'Hint', backtrack: 'Prerequisite',
+  ask: 'Question', probe: 'Question', hint: 'Hint', backtrack: 'Prerequisite',
   advance: 'Moving forward', done: 'Completed', redirect: 'Redirect',
 };
 

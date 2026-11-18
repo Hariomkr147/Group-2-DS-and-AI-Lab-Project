@@ -96,12 +96,6 @@ def _eval(node) -> Fraction:
     raise ValueError("not plain arithmetic")
 
 
-def arithmetic_value(expression: str) -> Fraction | None:
-    """Return the value of a supported arithmetic expression."""
-    result = _value(expression)
-    return result[0] if result else None
-
-
 def arithmetic_slip(lines: list[str]) -> int | None:
     """1-based number of the first line whose two sides are not equal, or None."""
     carried = None                      # value the previous line ended on, for lines that start with "="

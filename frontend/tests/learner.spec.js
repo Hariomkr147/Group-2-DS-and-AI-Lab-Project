@@ -102,10 +102,6 @@ test('opens a scoped textbook lesson, searches sources, and renders maths in dar
   await page.getByRole('button', { name: 'Electric current', exact: true }).click();
   const source = page.getByRole('link', { name: /Electric current.*Page 8/ });
   await expect(source).toHaveAttribute('href', /#page=8$/);
-  await expect(page.getByText('Explanation', { exact: true })).toBeVisible();
-  await expect(page.getByText(/Electric current measures the flow/)).toBeVisible();
-  await page.getByRole('button', { name: 'Ask for a hint' }).click();
-  await expect(page.getByText('Hint', { exact: true })).toBeVisible();
   await page.getByRole('textbox', { name: 'Your question or answer' }).fill('Just give me the answer');
   await page.getByRole('button', { name: 'Send', exact: true }).click();
   await expect(page.getByText('Redirect', { exact: true })).toBeVisible();
@@ -126,5 +122,5 @@ test('opens a scoped textbook lesson, searches sources, and renders maths in dar
   await page.getByRole('button', { name: 'Previous chats', exact: true }).click();
   await page.getByRole('dialog').getByRole('button', { name: /Help me understand Electric current/ }).click();
   await expect(page.getByRole('combobox', { name: 'Chapter', exact: true })).toHaveValue('0');
-  await expect(page.getByLabel('Tutor conversation').getByRole('link', { name: /Electric current.*Page 8/ }).last()).toBeVisible();
+  await expect(page.getByLabel('Tutor conversation').getByRole('link', { name: /Electric current.*Page 8/ })).toBeVisible();
 });
