@@ -11,7 +11,7 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
 from ..db import engine
-from ..schemas import Chapter, Material, Resource
+from ..schemas import Chapter, ChapterTopics, Material, Resource
 
 COURSE_ID = "ncert"
 COURSE_TITLE = "NCERT Classes 6–10 · Maths and Science"
@@ -25,11 +25,7 @@ CHAPTER_MARGIN = 0.025
 log = logging.getLogger(__name__)
 _encoder_lock = Lock()
 
-_PASSAGES = text("""
-    WITH eligible AS (
-        SELECT p.passage_id, p.grade, p.subject, p.book_code, p.chapter, p.heading,
-               p.physical_page, p.source_url, p.content,
-               p.embedding <=> CAST(:embedding AS vector) AS distance
+_ELIGIBLE = """
         FROM ncert_research.passages p
         JOIN ncert_research.releases r USING (release_id)
         WHERE p.release_id = :release
@@ -43,6 +39,20 @@ _PASSAGES = text("""
           AND (CAST(:subject AS text) IS NULL OR p.subject = :subject)
           AND (CAST(:book_code AS text) IS NULL OR p.book_code = :book_code)
           AND (CAST(:chapter AS integer) IS NULL OR p.chapter = :chapter)
+"""
+_CATALOGUE = text("""
+    SELECT p.grade, p.subject, p.book_code, p.chapter,
+           array_agg(DISTINCT p.heading ORDER BY p.heading) AS topics
+""" + _ELIGIBLE + """
+    GROUP BY p.grade, p.subject, p.book_code, p.chapter
+    ORDER BY p.book_code, p.chapter
+""")
+_PASSAGES = text("""
+    WITH eligible AS (
+        SELECT p.passage_id, p.grade, p.subject, p.book_code, p.chapter, p.heading,
+               p.physical_page, p.source_url, p.content,
+               p.embedding <=> CAST(:embedding AS vector) AS distance
+""" + _ELIGIBLE + """
     ), ranked AS (
         SELECT *, row_number() OVER (
             PARTITION BY grade, subject, book_code, chapter ORDER BY distance, passage_id
@@ -87,6 +97,27 @@ def embed(query: str) -> list[float]:
         return torch.nn.functional.normalize(hidden, dim=1)[0].tolist()
 
 
+def _query(statement, scope: dict, **extra) -> list[dict]:
+    if not configured():
+        raise HTTPException(503, "NCERT retrieval is not configured.")
+    params = {key: scope.get(key) for key in ("grade", "subject", "book_code", "chapter")}
+    params.update(release=RELEASE, revision=REVISION, model=MODEL, image_pattern=_IMAGE, **extra)
+    try:
+        with engine.begin() as conn:
+            conn.execute(text("SET TRANSACTION READ ONLY"))
+            conn.execute(text("SET LOCAL statement_timeout = '12s'"))
+            conn.execute(text("SET LOCAL search_path = pg_catalog, extensions, public"))
+            return [dict(row) for row in conn.execute(statement, params).mappings()]
+    except (SQLAlchemyError, OSError, ValueError) as error:
+        log.warning("NCERT database unavailable (%s)", type(error).__name__)
+        raise HTTPException(503, "The NCERT evidence database is unavailable.") from None
+
+
+def catalogue(grade: int, subject: str) -> list[ChapterTopics]:
+    return [ChapterTopics.model_validate(row)
+            for row in _query(_CATALOGUE, {"grade": grade, "subject": subject})]
+
+
 def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> list[dict]:
     if not configured():
         raise HTTPException(503, "NCERT retrieval is not configured.")
@@ -95,19 +126,8 @@ def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> 
     except (ImportError, OSError, RuntimeError, ValueError) as error:
         log.warning("NCERT encoder unavailable (%s)", type(error).__name__)
         raise HTTPException(503, "The NCERT question encoder is unavailable.") from None
-
-    params = {key: scope.get(key) for key in ("grade", "subject", "book_code", "chapter")}
-    params.update(embedding=str(vector), release=RELEASE, revision=REVISION, model=MODEL,
-                  image_pattern=_IMAGE, per_chapter=1 if chapters else limit, limit=limit)
-    try:
-        with engine.begin() as conn:
-            conn.execute(text("SET TRANSACTION READ ONLY"))
-            conn.execute(text("SET LOCAL statement_timeout = '12s'"))
-            conn.execute(text("SET LOCAL search_path = pg_catalog, extensions, public"))
-            return [dict(row) for row in conn.execute(_PASSAGES, params).mappings()]
-    except (SQLAlchemyError, OSError, ValueError) as error:
-        log.warning("NCERT database unavailable (%s)", type(error).__name__)
-        raise HTTPException(503, "The NCERT evidence database is unavailable.") from None
+    return _query(_PASSAGES, scope, embedding=str(vector), limit=limit,
+                  per_chapter=1 if chapters else limit)
 
 
 def chapter_of(row: dict) -> Chapter:

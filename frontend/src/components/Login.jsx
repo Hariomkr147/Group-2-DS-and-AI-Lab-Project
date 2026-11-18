@@ -1,39 +1,41 @@
 import { useState } from 'react';
 
 export default function Login({ onLogin }) {
-  const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
 
-  async function submit(e) {
-    e.preventDefault();
+  async function submit(event) {
+    event.preventDefault();
+    if (busy) return;
+    const fields = new FormData(event.currentTarget);
     setBusy(true);
     setError('');
     try {
-      await onLogin(username, password);
-    } catch (err) {
-      setError(err.message);
+      await onLogin(fields.get('username'), fields.get('password'));
+    } catch (error) {
+      setError(error.message);
+    } finally {
       setBusy(false);
     }
   }
 
   return (
-    <div className="login-wrap">
-      <form className="panel login-card" onSubmit={submit}>
-        <div className="panel-header"><h2>Sign in to the NCERT Socratic Tutor</h2></div>
-        <div className="panel-content login-fields">
-          <label htmlFor="username">Username</label>
-          <input id="username" className="chat-input" autoComplete="username" value={username}
-            onChange={(e) => setUsername(e.target.value)} required />
-          <label htmlFor="password">Password</label>
-          <input id="password" className="chat-input" type="password" autoComplete="current-password" value={password}
-            onChange={(e) => setPassword(e.target.value)} required autoFocus />
-          {error && <div className="state-banner visible" role="alert">{error}</div>}
-          <button className="btn btn-primary" type="submit" disabled={busy}>{busy ? 'Signing in…' : 'Sign in'}</button>
-          <p className="help">Access is limited to the project team. Ask the team for the password.</p>
-        </div>
+    <main id="main" className="login-page" tabIndex={-1}>
+      <section className="login-intro">
+        <p className="label">IIT Madras BS · Group 2</p>
+        <h1>Work through<br />the question.</h1>
+        <p>Explore NCERT maths and science with guided questions, worked steps, and textbook references.</p>
+      </section>
+      <form className="login-form" onSubmit={submit}>
+        <h2>Sign in</h2>
+        <label htmlFor="username">Username</label>
+        <input id="username" name="username" autoComplete="username" maxLength={64} required />
+        <label htmlFor="password">Password</label>
+        <input id="password" name="password" type="password" autoComplete="current-password" maxLength={128} required />
+        {error && <p className="error" role="alert">{error}</p>}
+        <button className="primary" disabled={busy}>{busy ? 'Signing in…' : 'Sign in'}</button>
+        <p className="muted">Use the credentials provided by the project team.</p>
       </form>
-    </div>
+    </main>
   );
 }

@@ -82,6 +82,24 @@ class TurnRow(Base):
     created_at: Mapped[datetime] = mapped_column(default=_now)
 
 
+class TurnDetailRow(Base):
+    __tablename__ = "turn_details"
+    session_id: Mapped[str] = mapped_column(ForeignKey("sessions.id", ondelete="CASCADE"), primary_key=True)
+    request_id: Mapped[str] = mapped_column(primary_key=True)
+    turn_id: Mapped[int] = mapped_column(ForeignKey("turns.id", ondelete="CASCADE"), unique=True)
+    message: Mapped[dict] = mapped_column(JSON)
+    reply: Mapped[dict] = mapped_column(JSON)
+
+
+class AssessmentItemRow(Base):
+    __tablename__ = "assessment_items"
+    id: Mapped[str] = mapped_column(primary_key=True)
+    session_id: Mapped[str] = mapped_column(ForeignKey("sessions.id", ondelete="CASCADE"), index=True)
+    concept_id: Mapped[str]
+    answer_key: Mapped[str]
+    correct: Mapped[bool | None]
+
+
 class AnswerRow(Base):
     """One learner answer. History is per learner and per course; the session is kept for DKT input."""
     __tablename__ = "answers"

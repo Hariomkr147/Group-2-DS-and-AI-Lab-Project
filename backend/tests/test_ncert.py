@@ -23,6 +23,22 @@ def _start(client, **scope):
     return "/sessions/" + response.json()["session_id"] + "/messages"
 
 
+def test_catalogue_selection_scopes_chat_and_search(ncert_client, monkeypatch):
+    passage = _passage()
+    chapter = {key: passage[key] for key in ("grade", "subject", "book_code", "chapter")}
+    monkeypatch.setattr(ncert, "catalogue", lambda grade, subject: [{**chapter, "topics": [passage["heading"]]}])
+    monkeypatch.setattr(ncert, "rank", lambda query, scope, **kwargs: [passage] if scope == chapter else [])
+    monkeypatch.delenv("NCERT_MODEL_URL", raising=False)
+
+    catalogue = ncert_client.get("/courses/ncert/chapters?grade=10&subject=science").json()
+    assert catalogue == [{**chapter, "topics": ["Electric current"]}]
+    path = _start(ncert_client, chapter=catalogue[0])
+    reply = ncert_client.post(path, json={"text": "Help me understand electric current.", "new_topic": True}).json()
+    assert reply["chapter"] == chapter
+    hits = ncert_client.get("/search", params={"course_id": "ncert", "q": "current", **chapter}).json()
+    assert hits[0]["material"]["url"].endswith("#page=8")
+
+
 def test_routes_and_cites_textbook_then_keeps_chapter_for_working(ncert_client, monkeypatch):
     client = ncert_client
     calls = []

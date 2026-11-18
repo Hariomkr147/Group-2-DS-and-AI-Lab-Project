@@ -1,6 +1,7 @@
 """Request and response models shared by the routers and services."""
 from enum import Enum
 from typing import Literal
+from uuid import UUID
 
 from pydantic import BaseModel, Field
 
@@ -82,30 +83,30 @@ class CourseGraph(BaseModel):
 
 
 # ── Sessions and chat ────────────────────────────────────────────────────────
+class Chapter(BaseModel):
+    grade: int = Field(ge=6, le=10)
+    subject: Literal["maths", "science"]
+    book_code: str = Field(min_length=1, max_length=80)
+    chapter: int
+
+
+class ChapterTopics(Chapter):
+    topics: list[str]
+
+
 class SessionCreate(BaseModel):
     learner_id: str | None = None  # defaults to the signed-in username
     course_id: str
     grade: int | None = Field(default=None, ge=6, le=10)
     subject: Literal["maths", "science"] | None = None
-
-
-class Turn(BaseModel):
-    role: str  # "learner" or "tutor"
-    text: str
-
-
-class SessionInfo(BaseModel):
-    session_id: str
-    learner_id: str
-    course_id: str
-    target_concept: str | None = None
-    current_concept: str | None = None
-    history: list[Turn] = Field(default_factory=list)
+    chapter: Chapter | None = None
 
 
 class MessageIn(BaseModel):
     text: str = Field(min_length=1, max_length=2000)
     new_topic: bool = False
+    concept_id: str | None = Field(default=None, max_length=200)
+    request_id: UUID | None = None
 
 
 class Resource(BaseModel):
@@ -113,13 +114,6 @@ class Resource(BaseModel):
     page: str = ""
     url: str = ""
     passage_id: str | None = None
-
-
-class Chapter(BaseModel):
-    grade: int
-    subject: Literal["maths", "science"]
-    book_code: str
-    chapter: int
 
 
 class TutorReply(BaseModel):
@@ -133,6 +127,22 @@ class TutorReply(BaseModel):
     wrong_step: int | None = None      # first wrong line of the learner's working (1-based), when working was sent
     chapter: Chapter | None = None
     generation: Literal["hosted", "extractive"] | None = None
+
+
+class Turn(BaseModel):
+    role: str  # "learner" or "tutor"
+    text: str
+    detail: TutorReply | None = None
+    request_id: str | None = None
+
+
+class SessionInfo(BaseModel):
+    session_id: str
+    learner_id: str
+    course_id: str
+    target_concept: str | None = None
+    current_concept: str | None = None
+    history: list[Turn] = Field(default_factory=list)
 
 
 # ── Learner model ────────────────────────────────────────────────────────────
@@ -187,3 +197,18 @@ class QuestionOut(BaseModel):
     text: str
     hint: str = ""
     difficulty: int = 1
+
+
+class AssessmentRequest(BaseModel):
+    session_id: str
+    kind: Literal["practice", "diagnostic"]
+    concept_id: str | None = None
+    difficulty: int | None = None
+
+
+class AssessmentAnswer(BaseModel):
+    text: str = Field(min_length=1, max_length=2000, pattern=r"\S")
+
+
+class AssessmentResult(BaseModel):
+    correct: bool

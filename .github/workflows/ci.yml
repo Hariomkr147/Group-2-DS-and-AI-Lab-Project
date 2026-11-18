@@ -26,7 +26,7 @@ jobs:
       - run: uv run pytest -q
 
   frontend:
-    name: Frontend build
+    name: Frontend build and browser tests
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -38,8 +38,11 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: frontend/package-lock.json
+      - uses: astral-sh/setup-uv@v5
       - run: npm ci
       - run: npm run build
+      - run: npx playwright install --with-deps chromium --only-shell
+      - run: uv run --project ../backend --locked npm test
 
   secrets:
     name: No committed secrets

@@ -92,6 +92,7 @@ Log in first (`POST /auth/login`) and send the token as a bearer token; the coll
 | `POST /courses` | Ingest a course pack (concepts, prerequisites, material, questions) |
 | `GET /courses/{id}/concepts` | Concepts of a course |
 | `GET /courses/{id}/graph` | Prerequisite graph across levels (nodes and edges) |
+| `GET /courses/ncert/chapters?grade=&subject=` | Approved textbook chapters and topic headings |
 | `POST /sessions` | Start a session `{learner_id, course_id}` |
 | `GET /sessions/{id}` | Session state and conversation history |
 | `POST /sessions/{id}/messages` | Send learner text (an answer, or working with one step per line), get the tutor reply `{reply, action, label, concept_id, level, resource, misconception, wrong_step}` |
@@ -100,6 +101,8 @@ Log in first (`POST /auth/login`) and send the token as a bearer token; the coll
 | `GET /search?course_id=&q=` | Find the page, notes or lecture for a concept |
 | `POST /practice` | Practice questions for a concept (answers hidden) |
 | `POST /diagnostics` | Short test, lowest level first (answers hidden) |
+| `POST /assessments` | Issue practice or diagnostic questions for a session |
+| `POST /assessments/{item_id}/answer` | Grade one issued question and record its first result |
 
 ## NCERT Classes 6–10 Textbook Retrieval & Tutoring
 
@@ -114,9 +117,11 @@ In addition to sample course packs, the backend supports direct grounded tutorin
 
 NCERT retrieval needs the `rag` extra (torch and transformers); without it `POST /sessions/{id}/messages` returns 503 "The NCERT question encoder is unavailable". Install it with `uv sync --extra rag` and start the server with `uv run --extra rag ...`. The first request downloads the Qwen3-Embedding-0.6B model (about 1.2 GB). The VS Code launch config "Backend: API (uvicorn)" already sets `NCERT_ENABLED=1` and uses `backend/.venv`.
 
-- **Sessions with NCERT**: `POST /sessions` with `course_id: "ncert"` and optional `grade` (6-10) and `subject` (`maths` or `science`).
+- **Sessions with NCERT**: `POST /sessions` with `course_id: "ncert"` and optional `grade` (6-10) and `subject` (`maths` or `science`). Send a `chapter` selected from the catalogue to constrain the session to that chapter.
 - **Query / Search**: `GET /search?course_id=ncert&q=...&grade=10&subject=science`.
 - **Grounded Tutoring**: `POST /sessions/{id}/messages` automatically matches relevant textbook passages, cites the chapter and physical PDF page, and provides Socratic guidance. Send `new_topic: true` to clear chapter context.
+
+Message clients can supply a stable UUID as `request_id` when retrying a turn. The saved reply is returned for a matching retry. Session history includes per-turn reply details for turns recorded by this version.
 
 A sample NCERT-style pack (`ncert-maths`: multiplication → division → fractions → percentages) is loaded at startup.
 
