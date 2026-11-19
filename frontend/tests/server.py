@@ -29,7 +29,7 @@ with TemporaryDirectory() as directory:
                "score": 0.9}
 
     def catalogue(grade, subject):
-        return [{**chapter, "topics": [passage["heading"]]}] if (grade, subject) == (10, "science") else []
+        return [{**chapter, "title": "Electricity", "topics": [passage["heading"]]}] if (grade, subject) == (10, "science") else []
 
     def rank(query, scope, **options):
         return [passage] if all(scope.get(key) in (None, value) for key, value in chapter.items()) else []

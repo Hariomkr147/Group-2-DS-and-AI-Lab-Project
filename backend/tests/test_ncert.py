@@ -133,12 +133,12 @@ def test_production_does_not_load_local_encoder_when_endpoint_is_missing(monkeyp
 def test_catalogue_selection_scopes_chat_and_search(ncert_client, monkeypatch):
     passage = _passage()
     chapter = {key: passage[key] for key in ("grade", "subject", "book_code", "chapter")}
-    monkeypatch.setattr(ncert, "catalogue", lambda grade, subject: [{**chapter, "topics": [passage["heading"]]}])
+    monkeypatch.setattr(ncert, "_query", lambda *args, **kwargs: [{**chapter, "topics": [passage["heading"]]}])
     monkeypatch.setattr(ncert, "rank", lambda query, scope, **kwargs: [passage] if scope == chapter else [])
     monkeypatch.delenv("NCERT_MODEL_URL", raising=False)
 
     catalogue = ncert_client.get("/courses/ncert/chapters?grade=10&subject=science").json()
-    assert catalogue == [{**chapter, "topics": ["Electric current"]}]
+    assert catalogue == [{**chapter, "title": "Electricity", "topics": ["Electric current"]}]
     path = _start(ncert_client, chapter=catalogue[0])
     reply = ncert_client.post(path, json={"text": "Help me understand electric current.", "new_topic": True}).json()
     assert reply["chapter"] == chapter
