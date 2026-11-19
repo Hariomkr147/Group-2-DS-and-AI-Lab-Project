@@ -131,7 +131,7 @@ Each is a stub in `app/services/` with the interface the real model must keep.
 
 | File | Stub now | Replace with |
 |---|---|---|
-| `learner_model.py` | smoothed accuracy per concept | trained DKT (per learner, per course, per session) |
+| `learner_model.py` | smoothed accuracy per concept; trained AKT when `KT_MODEL=akt` (see below) | trained DKT (per learner, per course, per session) |
 | `controller.py` | fixed rules (the comparison baseline) | trained controller model |
 | `socratic.py` | fine-tuned Qwen (`qwen_finetuned`) writes hint and probe turns; templates for the rest and as fallback | Qwen for every turn, with conversation history |
 | `misconception.py` | error patterns and expression search on a bare wrong answer | kept as the fallback when no working is sent |
@@ -150,6 +150,10 @@ python backend/eval/message_router/export_router.py
 ```
 
 Tables (`app/db.py`): `courses`, `concepts` (prerequisites, material and questions stored as JSON), `sessions`, `turns`, `answers`. Learner history is the `answers` table, so DKT reads it per learner, per course and per session.
+
+### Knowledge tracing (AKT)
+
+Set `KT_MODEL=akt` (needs torch, the `rag` extra) to score readiness with the trained AKT in `models/akt/` (Mrityunjay's ASSISTments 2009 run, one step per problem attempt, split by student, test AUC 0.779). `readiness` uses AKT only for concepts listed in `models/akt/concept_skill_map.json` that have mapped answer history; every other case uses smoothed accuracy, and so does a missing torch, file or checksum. Only `percentages` (and the NCERT fraction ids) are mapped so far, from `mock-app/README.md`; the skill mapping for other concepts is still open. NCERT questions use the neutral difficulty entry, so this is an unvalidated curriculum transfer.
 
 ### Session state
 

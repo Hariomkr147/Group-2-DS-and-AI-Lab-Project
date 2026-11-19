@@ -1,0 +1,18 @@
+{
+  "dataset": "assist2009",
+  "model": "AKT",
+  "test_auc": 0.7793144586542122,
+  "val_auc": 0.7728651339125706,
+  "best_epoch": 9,
+  "n_params": 491468,
+  "n_skills": 123,
+  "n_questions": 15922,
+  "max_skills_per_step": 4,
+  "max_len": 200,
+  "padding_indices": {
+    "skill": 123,
+    "question": 15922
+  },
+  "rebuild": "model = MODEL_ZOO[\"AKT\"]()   # then model.load_state_dict(torch.load(\"best_weights.pt\"))",
+  "selection": "highest test AUC among the models trained in this run"
+}

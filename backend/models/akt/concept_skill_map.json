@@ -1,0 +1,14 @@
+{
+  "note": "Concept id -> AKT checkpoint skill index (skill_map.csv: mapped_index, original ASSISTments skill_id; names in skill_names.csv). The first three come from mock-app/README.md. The rest are exact skill-name matches added for future concepts (name in skill_names.csv equals the concept). Generic concepts (multiplication, division, fractions) have no clean skill and are left out; they use the smoothed-accuracy fallback. Not a validated curriculum transfer.",
+  "map": {
+    "fraction_division": 38,
+    "fraction_multiplication": 42,
+    "percentages": 75,
+    "equivalent_fractions": 31,
+    "ordering_fractions": 33,
+    "whole_number_addition": 37,
+    "whole_number_subtraction": 45,
+    "percent_of": 44,
+    "percent_discount": 74
+  }
+}
