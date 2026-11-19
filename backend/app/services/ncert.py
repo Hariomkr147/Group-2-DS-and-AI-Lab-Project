@@ -4,6 +4,7 @@ import logging
 import os
 import re
 from functools import lru_cache
+from pathlib import Path
 from threading import Lock
 from urllib.parse import urldefrag, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -79,6 +80,8 @@ _PASSAGES = text("""
     LIMIT :limit
 """)
 _IMAGE = r"!\[[^]]*\]\([^)]*\)"
+# Titles follow the indexed PDFs in the corpus inventory.
+_CHAPTER_TITLES = json.loads(Path(__file__).with_name("ncert_chapter_titles.json").read_text(encoding="utf-8"))
 
 
 def configured() -> bool:
@@ -159,8 +162,10 @@ def _query(statement, scope: dict, **extra) -> list[dict]:
 
 
 def catalogue(grade: int, subject: str) -> list[ChapterTopics]:
-    return [ChapterTopics.model_validate(row)
-            for row in _query(_CATALOGUE, {"grade": grade, "subject": subject})]
+    chapters = _query(_CATALOGUE, {"grade": grade, "subject": subject})
+    for chapter in chapters:
+        chapter["title"] = _CHAPTER_TITLES.get(chapter["book_code"], {}).get(str(chapter["chapter"]))
+    return [ChapterTopics.model_validate(chapter) for chapter in chapters]
 
 
 def topic_passage(scope: dict, heading: str) -> dict | None:

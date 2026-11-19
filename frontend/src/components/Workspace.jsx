@@ -8,6 +8,10 @@ import PreviousChats from './PreviousChats.jsx';
 
 const NCERT = 'ncert';
 
+function chapterLabel(chapter) {
+  return chapter.title ? `Chapter ${chapter.chapter} · ${chapter.title}` : `Chapter ${chapter.chapter}`;
+}
+
 export default function Workspace({ user }) {
   const locationKey = `lesson:${user}`;
   const [selection, setSelection] = useState(() => readStored(locationKey));
@@ -92,7 +96,9 @@ function Scope({ selection, onOpen }) {
       </select></label>
       <label className="chapter-control">Chapter<select value={chapterIndex} disabled={!chapters?.length} onChange={(event) => setChapterIndex(event.target.value)}>
         <option value="">All chapters</option>
-        {chapters?.map((row, index) => <option key={`${row.book_code}/${row.chapter}`} value={index}>Chapter {row.chapter} · {row.book_code}</option>)}
+        {chapters?.map((row, index) => <option key={`${row.book_code}/${row.chapter}`} value={index}>
+          {chapterLabel(row)}
+        </option>)}
       </select></label>
       <button className="primary">Open lesson</button>
       {!chapters && !error && <small role="status">Loading chapters…</small>}
@@ -108,7 +114,7 @@ function sessionKey(user, selection) {
 
 function Lesson({ user, course, selection, onOpen }) {
   const isTextbook = course.id === NCERT;
-  const scopeName = selection.grade ? `Class ${selection.grade} ${selection.subject === 'maths' ? 'Maths' : 'Science'}${selection.chapter ? ` · Chapter ${selection.chapter.chapter}` : ''}` : 'Classes 6–10 · Maths and Science';
+  const scopeName = selection.grade ? `Class ${selection.grade} ${selection.subject === 'maths' ? 'Maths' : 'Science'}${selection.chapter ? ` · ${chapterLabel(selection.chapter)}` : ''}` : 'Classes 6–10 · Maths and Science';
   const key = sessionKey(user, selection);
   const pendingKey = `${key}:pending`;
   const [session, setSession] = useState(null);

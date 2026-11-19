@@ -93,6 +93,7 @@ class Chapter(BaseModel):
 
 
 class ChapterTopics(Chapter):
+    title: str | None = None
     topics: list[str]
 
 

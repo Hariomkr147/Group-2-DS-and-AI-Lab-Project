@@ -96,7 +96,7 @@ test('opens a scoped textbook lesson, searches sources, and renders maths in dar
   await signIn(page);
   await page.getByRole('combobox', { name: 'Course', exact: true }).selectOption('ncert');
   await page.getByRole('combobox', { name: 'Subject', exact: true }).selectOption('science');
-  await page.getByRole('combobox', { name: 'Chapter', exact: true }).selectOption({ label: 'Chapter 11 · jesc1' });
+  await page.getByRole('combobox', { name: 'Chapter', exact: true }).selectOption({ label: 'Chapter 11 · Electricity' });
   await page.getByRole('button', { name: 'Open lesson' }).click();
   await page.getByText('Chapter topics', { exact: true }).click();
   await page.getByRole('button', { name: 'Electric current', exact: true }).click();
