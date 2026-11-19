@@ -59,7 +59,7 @@ Mrityunjay rebuilt the KT pipeline (`kt-models-comparision.ipynb`). The rebuild 
 
 ### 3.2 Socratic model: full-pool LoRA run
 
-Hariom Pandey ran the full training end to end (`qwen-3-5.ipynb`, Kaggle T4). The data extends M3's pool with 1,500 English CBSE/NCERT-aligned examples from `FoundryAILabs/k12-indian-curriculum-4.9m` (900 science, 317 social science, 208 maths, 75 English; scanned 362,366 rows by streaming). Splits are by normalised question hash with seed 42 and the notebook reports zero overlaps.
+Hariom Pandey ran the full training end to end (`qwen-3-5.ipynb`, Kaggle T4). The data extends M3's pool with 1,500 English CBSE/NCERT-aligned examples from `FoundryAILabs/k12-indian-curriculum-4.9m` (900 science and 208 maths; scanned 362,366 rows by streaming). Splits are by normalised question hash with seed 42 and the notebook reports zero overlaps.
 
 | Item | Value |
 |---|---|
