@@ -1,0 +1,94 @@
+concept_id,concept,skill_index,skill_id,skill_name,score,claude_view,decision
+C06-MAT-02-06,Comparing angles,84,292,Rotations,0.768,reject,skip
+C06-MAT-02-11,Types of angles and their measures,100,314,"Angles - Obtuse, Acute, and Right",0.825,keep,keep
+C06-MAT-03-03,Patterns of numbers on the number line,3,5,Number Line,0.857,keep,keep
+C06-MAT-03-11,Simple estimation,39,63,Estimation,0.898,keep,keep
+C06-MAT-03-11,Simple estimation,36,54,Rounding,0.772,reject,skip
+C06-MAT-04-01,Collecting and organising data,6,10,Table,0.731,reject,skip
+C06-MAT-04-05,Drawing a bar graph,6,10,Table,0.794,reject,skip
+C06-MAT-05-02,Prime numbers,54,84,Prime Number,0.937,keep,keep
+C06-MAT-05-03,Co-prime numbers,54,84,Prime Number,0.844,partial,skip
+C06-MAT-05-04,Prime factorisation,54,84,Prime Number,0.851,partial,skip
+C06-MAT-06-01,Perimeter,27,42,Perimeter of a Polygon,0.903,keep,keep
+C06-MAT-06-02,Area,88,296,Area Rectangle,0.815,keep,keep
+C06-MAT-06-03,Area of a triangle,90,298,Area Triangle,0.92,keep,keep
+C06-MAT-06-03,Area of a triangle,88,296,Area Rectangle,0.853,reject,skip
+C06-MAT-06-03,Area of a triangle,87,295,Area Parallelogram,0.824,reject,skip
+C06-MAT-07-04,Marking fraction lengths on the number line,3,5,Number Line,0.802,partial,skip
+C06-MAT-07-06,Equivalent fractions,31,48,Equivalent Fractions,0.97,keep,keep
+C06-MAT-07-08,Addition and subtraction of fractions,82,280,Addition and Subtraction Fractions,0.961,keep,keep
+C06-MAT-08-04,An exploration in rectangles,88,296,Area Rectangle,0.85,reject,skip
+C06-MAT-09-02,Reflection,83,290,Reflection,0.908,keep,keep
+C06-MAT-10-04,Explorations with integers,3,5,Number Line,0.741,partial,skip
+C07-MAT-03-06,Locating and comparing decimals,3,5,Number Line,0.751,partial,skip
+C07-MAT-04-04,Simplification of algebraic expressions,69,165,Algebraic Simplification,0.937,partial,skip
+C07-MAT-08-01,Multiplication of fractions,42,67,Multiplication Fractions,0.958,keep,keep
+C07-MAT-08-02,Division of fractions,38,61,Division Fractions,0.955,keep,keep
+C07-MAT-09-02,Congruence of triangles,17,24,Congruence,0.905,keep,keep
+C07-MAT-09-03,Conditions sufficient for congruence,17,24,Congruence,0.874,keep,keep
+C07-MAT-10-01,A quick recap of integers,79,277,Addition and Subtraction Integers,0.858,partial,skip
+C07-MAT-11-01,The greatest of all: highest common factor,101,317,Greatest Common Factor,0.9,keep,keep
+C07-MAT-11-01,The greatest of all: highest common factor,54,84,Prime Number,0.74,reject,skip
+C07-MAT-11-02,"Least, but not last: lowest common multiple",41,65,Least Common Multiple,0.878,keep,keep
+C07-MAT-11-02,"Least, but not last: lowest common multiple",54,84,Prime Number,0.739,reject,skip
+C07-MAT-11-03,"Patterns, properties and a pretty procedure",101,317,Greatest Common Factor,0.7,partial,skip
+C07-MAT-11-03,"Patterns, properties and a pretty procedure",41,65,Least Common Multiple,0.7,partial,skip
+C07-MAT-13-02,Representative values,9,13,Median,0.774,keep,skip
+C07-MAT-13-02,Representative values,8,12,Mean,0.739,keep,skip
+C08-MAT-01-02,Square roots,46,75,Square Root,0.902,partial,skip
+C08-MAT-02-02,Exponential notation and operations,56,86,Exponents,0.886,partial,skip
+C08-MAT-02-03,The other side of powers,56,86,Exponents,0.789,partial,skip
+C08-MAT-02-04,Powers of 10,52,82,Scientific Notation,0.816,partial,skip
+C08-MAT-06-01,Some properties of multiplication,110,340,Distributive Property,0.842,partial,skip
+C08-MAT-06-02,Special cases of the distributive property,110,340,Distributive Property,0.861,partial,skip
+C08-MAT-07-01,Observing similarity in change,49,79,Proportion,0.757,partial,skip
+C08-MAT-07-04,Problem solving with proportional reasoning,49,79,Proportion,0.868,partial,skip
+C08-MAT-07-06,Unit conversions,49,79,Proportion,0.776,reject,skip
+C08-MAT-08-01,Fractions as percentages,44,70,Percent Of,0.837,keep,skip
+C08-MAT-08-01,Fractions as percentages,75,204,Percents,0.832,keep,keep
+C08-MAT-08-02,Percentage of some quantity,44,70,Percent Of,0.849,keep,skip
+C08-MAT-08-02,Percentage of some quantity,75,204,Percents,0.84,keep,keep
+C08-MAT-08-03,Using percentages,44,70,Percent Of,0.827,keep,skip
+C08-MAT-08-03,Using percentages,75,204,Percents,0.822,keep,keep
+C08-MAT-10-01,Proportionality: a quick recap,49,79,Proportion,0.895,keep,keep
+C08-MAT-10-06,Inverse proportions,49,79,Proportion,0.887,partial,skip
+C08-MAT-12-01,The balancing act,9,13,Median,0.76,partial,skip
+C08-MAT-12-01,The balancing act,8,12,Mean,0.752,partial,skip
+C08-MAT-14-01,Rectangles and squares,88,296,Area Rectangle,0.858,keep,keep
+C08-MAT-14-02,Triangles,90,298,Area Triangle,0.903,keep,keep
+C08-MAT-14-03,Area of any polygon,87,295,Area Parallelogram,0.796,keep,skip
+C08-MAT-14-03,Area of any polygon,89,297,Area Trapezoid,0.759,keep,skip
+C09-MAT-02-04,Linear relationships,6,10,Table,0.739,reject,skip
+C09-MAT-03-10,Representation of rational numbers on the number line,3,5,Number Line,0.84,partial,skip
+C09-MAT-05-05,Midpoints and perpendicular bisectors of chords,111,343,Midpoint,0.83,reject,skip
+C09-MAT-06-02,Perimeter of a circle: the C/D ratio,26,40,Circumference,0.812,keep,keep
+C09-MAT-06-06,Area of a rectangle,88,296,Area Rectangle,0.946,keep,keep
+C09-MAT-06-07,Area of a parallelogram,87,295,Area Parallelogram,0.944,keep,keep
+C09-MAT-06-08,Area of a triangle,90,298,Area Triangle,0.929,keep,keep
+C09-MAT-06-09,Heron's formula,90,298,Area Triangle,0.751,partial,skip
+C09-MAT-06-10,Squaring a rectangle,88,296,Area Rectangle,0.87,reject,skip
+C09-MAT-06-11,Area of a circle,25,39,Area Circle,0.906,keep,keep
+C09-MAT-06-12,Area of a sector of a circle,25,39,Area Circle,0.846,keep,keep
+C09-MAT-10-02,Average of averages,8,12,Mean,0.702,partial,skip
+C09-MAT-10-03,Mixtures,8,12,Mean,0.7,partial,skip
+C09-MAT-10-04,Custom weights,8,12,Mean,0.721,partial,skip
+C09-MAT-11-03,Greatest common divisor,101,317,Greatest Common Factor,0.893,keep,keep
+C09-MAT-11-05,Finding the greatest common divisor,101,317,Greatest Common Factor,0.843,keep,keep
+C09-MAT-11-06,First algorithm for gcd,101,317,Greatest Common Factor,0.706,partial,skip
+C09-MAT-11-08,Improving the algorithm,101,317,Greatest Common Factor,0.705,partial,skip
+C09-MAT-11-09,Analysing the algorithms,101,317,Greatest Common Factor,0.704,partial,skip
+C09-MAT-11-10,Euclid's subtraction algorithm,101,317,Greatest Common Factor,0.703,partial,skip
+C09-MAT-11-11,Aryabhata's division algorithm,101,317,Greatest Common Factor,0.703,partial,skip
+C09-MAT-12-04,An important property of triangles,111,343,Midpoint,0.787,partial,skip
+C09-MAT-12-05,A surprising property of medians,9,13,Median,0.848,reject,skip
+C09-MAT-14-01,Cuboids and cubes,92,301,Surface Area Rectangular Prism,0.732,keep,skip
+C09-MAT-14-01,Cuboids and cubes,94,307,Volume Rectangular Prism,0.723,keep,skip
+C09-MAT-14-02,Right circular cylinder,91,299,Surface Area Cylinder,0.885,keep,skip
+C09-MAT-14-02,Right circular cylinder,93,303,Volume Cylinder,0.885,keep,skip
+C09-MAT-14-06,Spheres and hemispheres,95,308,Volume Sphere,0.875,keep,keep
+C10-MAT-01-01,The fundamental theorem of arithmetic,101,317,Greatest Common Factor,0.714,partial,skip
+C10-MAT-01-01,The fundamental theorem of arithmetic,41,65,Least Common Multiple,0.7,partial,skip
+C10-MAT-11-01,Areas of a sector of a circle,25,39,Area Circle,0.828,partial,skip
+C10-MAT-11-02,Areas of a segment of a circle,25,39,Area Circle,0.823,partial,skip
+C10-MAT-13-01,Mean of grouped data,8,12,Mean,0.854,keep,keep
+C10-MAT-13-03,Median of grouped data,9,13,Median,0.892,keep,keep

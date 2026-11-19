@@ -97,7 +97,10 @@ class OpenAICompatible(Provider):
 
     def ready(self):
         if self._client is None:
-            from openai import OpenAI
+            try:
+                from openai import OpenAI
+            except ImportError as e:
+                raise HTTPException(503, f"LLM provider '{self.name}' needs the openai package (uv sync --extra openai)") from e
             key = "ollama" if self.name == "ollama" else _need("OPENAI_API_KEY", self.name)
             self._client = OpenAI(api_key=key, base_url=self.base_url)
 
@@ -128,7 +131,10 @@ class Anthropic(Provider):
 
     def ready(self):
         if self._client is None:
-            import anthropic
+            try:
+                import anthropic
+            except ImportError as e:
+                raise HTTPException(503, "LLM provider 'anthropic' needs the anthropic package (uv sync --extra anthropic)") from e
             self._client = anthropic.Anthropic(api_key=_need("ANTHROPIC_API_KEY", self.name))
 
     def _kw(self, prompt, system, max_tokens):

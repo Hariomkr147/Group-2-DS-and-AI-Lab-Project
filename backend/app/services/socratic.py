@@ -99,6 +99,13 @@ _OPERATION_CLUE = {
 }
 
 
+_GUIDE_PROMPTS = (
+    "Start by writing what the problem gives you and what it asks you to find. Which fact links those two?",
+    "Which formula or rule from this topic matches the form of your problem? Write it down and compare the two.",
+    "Try the smallest first step on your own, even if you are not sure it is right. What do you get?",
+)
+
+
 class _NoRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         return None
@@ -183,7 +190,9 @@ def grounded(question: str, context: str, passage: dict, *, mode: TeachingMode =
             clue = _OPERATION_CLUE[operation[1].translate(_OPERATION_SYMBOLS)]
             if clue != previous_reply:
                 return clue, "extractive"
-        return "Start by writing what the problem gives you and what it asks you to find. Which fact links those two?", "extractive"
+        for prompt in _GUIDE_PROMPTS:                          # vary the prompt so a repeated "why?" gets a new nudge
+            if prompt != previous_reply:
+                return prompt, "extractive"
 
     clues = [sentence for line in evidence.splitlines()
              if not line.lstrip().startswith(("#", "|"))
