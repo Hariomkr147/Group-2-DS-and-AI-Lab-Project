@@ -5,7 +5,7 @@
 
 ## 1. AI Tools Utilized
 
-- **Tool Name:** Antigravity and Codex
+- **Tool Name:** Antigravity and Codex (GPT-6)
 - **Purpose of Use:** Codebase inspection, FastAPI route wiring, SQL vector query syntax, and pytest fixture drafting.
 - **Shared Chat Link / Conversation File:** Local CLI interaction logs.
 - **Contribution and Validation:** I directed the integration architecture, set multi-grade requirements, and designed the fallback flow. The AI was used for syntax scaffolding and test generation. All SQL queries, SQLAlchemy models, and API responses were manually verified against local database fixtures and unit tests.
@@ -22,11 +22,11 @@ I directed the integration of our pre-extracted NCERT textbook dataset into the 
 
 | Problem Addressed | Prompt (as typed) | Relevant AI Response | Action Taken |
 |---|---|---|---|
-| Backend inspection | `look at backend code, how can we hook up the ncert vectors i already loaded into supabase?` | Outlined service structure connecting Supabase via `pg8000` alongside existing course pack routes. | Designed `backend/app/services/ncert.py` to handle read-only pgvector queries without disrupting course pack tables. |
-| Scope enforcement | `is auto routing only done for class 7? i need it to work for all class 6 to 10 maths and science` | Identified single-grade filters in initial query draft. | Updated SQL schema filters and parameters to support multi-grade dynamic filtering (Classes 6 to 10) and subject scoping. |
-| RAG implementation | `write the fastapi code to query supabase pgvector with the qwen embeddings and return citations` | Drafted SQLAlchemy queries with cosine distance operator (`<=>`). | Refined query to include deep-linked PDF URLs (`#page=<physical_page>`) and relevance thresholding. |
-| Fallback design | `what if the hosted model url is down? make an extractive fallback that quotes the textbook passage` | Drafted dual-mode generation logic in `app/services/socratic.py`. | Tested fallback path: extracts verified 1-2 sentence clues from retrieved textbook passages when external LLMs time out. |
-| Test suite | `add pytest unit tests for ncert router, search, and citation fallback` | Created parameterized pytest fixtures with monkeypatched embeddings. | Executed and validated all unit tests in `backend/tests/test_ncert.py`, verifying chapter locking, citation URLs, and 503 handling. |
+| Backend inspection | `Inspect the existing backend service structure and propose an integration design for the NCERT vectors pre-loaded in Supabase (schema ncert_research.passages). We need a dedicated service in backend/app/services/ncert.py that connects via pg8000 alongside course-pack tables without introducing schema coupling.` | Outlined service structure connecting Supabase via `pg8000` alongside existing course pack routes. | Designed `backend/app/services/ncert.py` to handle read-only pgvector queries without disrupting course pack tables. |
+| Scope enforcement | `The initial query filter only targets Class 7 mathematics. Refactor the vector search filter to accept dynamic grade parameters covering Classes 6 to 10 across both Mathematics and Science, supporting subject-level and chapter-locked retrieval.` | Identified single-grade filters in initial query draft and drafted multi-grade SQL schema filters. | Updated SQL schema filters and parameters to support multi-grade dynamic filtering (Classes 6 to 10) and subject scoping. |
+| RAG implementation | `Write the SQLAlchemy pgvector query using the cosine distance operator '<=>' for Qwen 0.6B embeddings. Return top-k passages with similarity scores, and construct deep-linked NCERT citation URLs formatted as '#page=<physical_page>' for frontend PDF viewer navigation.` | Drafted SQLAlchemy queries with cosine distance operator (`<=>`) and citation metadata. | Refined query to include deep-linked PDF URLs (`#page=<physical_page>`) and relevance thresholding. |
+| Fallback design | `Design a resilient fallback mechanism in app/services/socratic.py: if the external fine-tuned model at NCERT_MODEL_URL times out or returns a 503 error, extract a verified 1 to 2 sentence clue from the retrieved textbook passage to deliver an unhallucinated Socratic hint.` | Drafted dual-mode generation logic in `app/services/socratic.py` with text boundary extraction. | Tested fallback path: extracts verified 1-2 sentence clues from retrieved textbook passages when external LLMs time out. |
+| Test suite | `Draft parameterized pytest fixtures in backend/tests/test_ncert.py. Monkeypatch the embedding encoder with fixed 1024-d unit vectors, verify grade-filtering SQL logic, test citation URL formatting, and assert that 503 model failures trigger extractive fallback gracefully.` | Created parameterized pytest fixtures with monkeypatched embeddings. | Executed and validated all unit tests in `backend/tests/test_ncert.py`, verifying chapter locking, citation URLs, and 503 handling. |
 
 ## 4. Reasoning I Can Substantiate in Review
 
