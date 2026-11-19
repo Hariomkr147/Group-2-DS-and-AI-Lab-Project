@@ -52,7 +52,7 @@ By signing, each member confirms that this log is accurate and that they have re
 
 | Name | Roll number | Signature | Date |
 |---|---|---|---|
-| Sandeep Nalla | 21f1006125 | <img src="../signatures/sandeep_nalla.png" alt="signature" height="48"> | 19-11-2026 |
-| Hariom Kumar | 23f2004225 | <img src="../signatures/hariom_kumar.png" alt="signature" height="48"> | 19-11-2026 |
-| Hariom Pandey | 21f3002112 | <img src="../signatures/hariom_pandey.png" alt="signature" height="48"> | 19-11-2026 |
-| Mrityunjay Chakraborty | 21f3001385 | <img src="../signatures/mrityunjay_chakraborty.png" alt="signature" height="48"> | 19-11-2026 |
+| Sandeep Nalla | 21f1006125 | <img src="../signatures/sandeep_nalla.jpg" alt="signature" height="40"> | 19-11-2026 |
+| Hariom Kumar | 23f2004225 | <img src="../signatures/hariom_kumar.jpg" alt="signature" height="40"> | 19-11-2026 |
+| Hariom Pandey | 21f3002112 | <img src="../signatures/hariom_pandey.jpeg" alt="signature" height="40">| 19-11-2026 |
+| Mrityunjay Chakraborty | 21f3001385 |  <img src="../signatures/mrityunjay_chakraborty.jpg" alt="signature" height="40"> | 19-11-2026 |
