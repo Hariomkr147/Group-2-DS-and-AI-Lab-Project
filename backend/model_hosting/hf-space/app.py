@@ -18,7 +18,7 @@ ADAPTER_REVISION = os.getenv("QWEN_ADAPTER_REVISION") or (
 adapter = PeftConfig.from_pretrained(ADAPTER_ID, revision=ADAPTER_REVISION)
 BASE_ID = os.getenv("QWEN_BASE_ID") or adapter.base_model_name_or_path
 BASE_REVISION = os.getenv("QWEN_BASE_REVISION") or adapter.revision
-MAX_NEW_TOKENS = 96     # same limit as the Kaggle hosting notebook
+MAX_NEW_TOKENS = 192     # same limit as the Kaggle hosting notebook
 MAX_HISTORY = 12        # earlier turns are dropped so the prompt stays short
 
 # The prompt the model was fine-tuned on. Keep the wording.
@@ -71,7 +71,7 @@ def respond(message: str, history: list, problem: str, answer: str):
 
 @spaces.GPU(duration=15)
 def predict(system: str, message: str) -> str:
-    """Return the model's reply to one message under the given system prompt (at most 96 new tokens)."""
+    """Return the model's reply to one message under the given system prompt (at most 192 new tokens)."""
     if not message.strip():
         raise gr.Error("message is empty")
     messages = ([{"role": "system", "content": system}] if system.strip() else []) + [{"role": "user", "content": message}]
@@ -116,7 +116,7 @@ with gr.Blocks(title="Qwen Socratic Tutor") as demo:
                   ["What is 1/2 + 1/3?", "5/6", "I added the tops and the bottoms and got 2/5."]],
         inputs=[problem, answer, message], cache_examples=False,
     )
-    gr.Markdown("Replies are limited to 96 tokens and use greedy decoding. The first reply after a quiet period is slower.")
+    gr.Markdown("Replies are limited to 192 tokens and use greedy decoding. The first reply after a quiet period is slower.")
 
     message.submit(respond, [message, chat, problem, answer], [message, chat], api_name=False)
     send.click(respond, [message, chat, problem, answer], [message, chat], api_name=False)

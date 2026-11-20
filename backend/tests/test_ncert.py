@@ -248,6 +248,38 @@ def test_ambiguous_route_resumes_original_question_and_outage_is_retryable(ncert
     assert len(session["history"]) == 4
 
 
+def test_vague_message_close_to_active_passage_is_a_followup(ncert_client, monkeypatch):
+    client = ncert_client
+    path = _start(client)
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [_passage()])
+    first = client.post(path, json={"text": "What is electric current?"}).json()
+    assert first["resource"]
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [])
+    monkeypatch.setattr(ncert, "cited_passage", lambda chapter, passage_id: _passage())
+    monkeypatch.setattr(ncert, "similarity", lambda *a, **k: 0.5)
+    close = client.post(path, json={"text": "a few lines on the fair thing"}).json()
+    assert "couldn't find" not in close["reply"]
+    monkeypatch.setattr(ncert, "similarity", lambda *a, **k: 0.05)
+    far = client.post(path, json={"text": "a few lines on the fair thing"}).json()
+    assert "couldn't find" in far["reply"]
+
+
+def test_explain_sum_then_class_reply_does_not_dead_end(ncert_client, monkeypatch):
+    client = ncert_client
+    path = _start(client)
+
+    def rank(query, scope, limit=5, *, chapters=False):
+        if scope.get("grade") is None and "4 x 5" in query:
+            return [_passage(8, score=0.79), _passage(7, score=0.78)]
+        return [_passage(8, score=0.1)]                    # below MIN_SCORE once class 8 is chosen
+
+    monkeypatch.setattr(ncert, "rank", rank)
+    first = client.post(path, json={"text": "explain 4 x 5"}).json()
+    assert "Which class" not in first["reply"]             # a plain sum needs no class: use the best match
+    second = client.post(path, json={"text": "class 8 maths"}).json()
+    assert "couldn't find a matching" not in second["reply"]
+
+
 @pytest.mark.parametrize("url, outcome", [
     ("https://model.example", "hosted"),
     ("https://model-demo.hf.space", "hosted"),
@@ -323,3 +355,42 @@ def test_topic_switch_respects_selected_subject(ncert_client, monkeypatch):
     path = _start(ncert_client)
     cell = ncert_client.post(path, json={"text": "What is a cell?"}).json()
     assert cell["action"] == "probe" and cell["resource"] is None
+
+
+def test_model_label_understood_moves_on_and_summarize_stays(ncert_client, monkeypatch):
+    client = ncert_client
+    path = _start(client)
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [_passage()])
+    client.post(path, json={"text": "What is electric current?"})
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [])
+    monkeypatch.setattr(ncert, "cited_passage", lambda chapter, passage_id: _passage())
+    monkeypatch.setattr(ncert, "similarity", lambda *a, **k: 0.05)
+    seen = []
+    monkeypatch.setattr(socratic, "classify_message", lambda text, topic_open=False: seen.append(topic_open) or "summarize")
+    reply = client.post(path, json={"text": "a few lines on the fair thing"}).json()
+    assert seen == [True] and "couldn't find" not in reply["reply"]
+
+
+def test_model_label_practice_poses_a_question_on_the_open_topic(ncert_client, monkeypatch):
+    client = ncert_client
+    path = _start(client)
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [_passage()])
+    client.post(path, json={"text": "What is electric current?"})
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [])
+    monkeypatch.setattr(ncert, "cited_passage", lambda chapter, passage_id: _passage())
+    monkeypatch.setattr(ncert, "similarity", lambda *a, **k: 0.05)
+    monkeypatch.setattr(socratic, "classify_message", lambda text, topic_open=False: "practice")
+    reply = client.post(path, json={"text": "I want to practice"}).json()["reply"]
+    assert "couldn't find" not in reply and "?" in reply
+
+
+def test_practice_request_is_remembered_until_the_topic_is_named(ncert_client, monkeypatch):
+    client = ncert_client
+    path = _start(client)
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [])
+    monkeypatch.setattr(socratic, "classify_message", lambda text, topic_open=False: "practice")
+    ask = client.post(path, json={"text": "let's practice"}).json()
+    assert "Which topic" in ask["reply"]
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: [_passage()])
+    practice = client.post(path, json={"text": "What is electric current?"}).json()
+    assert practice["action"] == "guide" and practice["resource"] and "?" in practice["reply"]

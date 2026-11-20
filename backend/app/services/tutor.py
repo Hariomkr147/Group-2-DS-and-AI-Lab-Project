@@ -27,11 +27,16 @@ _STEP_WORDS = re.compile(r"=|\bmeans?\b|\bequals?\b|\bbecause\b|%|/|\bdivid|\bmu
 _CALCULATION_START = re.compile(r"^\s*(?:step\s+\d+\s*[:.)-]\s*)?[\d(=+\-]", re.I)
 _TOPIC_WORDS_TO_IGNORE = {"about", "does", "explain", "help", "mean", "please", "that", "this", "understand", "what", "with"}
 _REFERENTIAL = re.compile(
-    r"(?:why|how so|what next|what do you mean|(?:(?:can|could) you )?(?:explain (?:that|this|it)"
+    r"(?:why|how so|what next|what do you mean|(?:(?:can|could|will) you )?(?:please )?(?:elaborate(?: on (?:that|this|it))?"
+    r"|tell me more|say more|explain (?:it |that |this )?(?:more|further)|(?:give|show) me more(?: detail)?|go on)|"
+    r"(?:(?:can|could) you )?(?:explain (?:that|this|it)"
     r"(?: problem)?(?: again| in simple words| step by step)?|"
     r"explain (?:in simple words|without the (?:text)?book)|"
     r"(?:give me )?(?:an? |another )?(?:hint|example))|"
     r"(?:can|could|may) i (?:have|get) (?:an?|another) (?:hint|example)|"
+    r"(?:(?:can|could) you )?(?:please )?(?:summari[sz]e|recap|sum up)(?: (?:it|that|this|(?:(?:the|this|that) )?(?:topic|lesson|chapter|section)))?(?: please)?|"
+    r"(?:(?:can|could) you )?(?:please )?(?:regenera\w*|re-?generate|rephrase|reword|try again|retry|say (?:it|that) again|"
+    r"(?:say|explain) (?:it|that|this) (?:differently|another way|in another way))(?: (?:the |that |your )?(?:response|answer|reply|explanation|it|that))?(?: please)?|"
     r"i (?:(?:still )?don['’]t (?:understand(?: why)?|have the (?:text)?book)|am stuck|"
     r"(?:am not|['’]m not) referring to (?:the )?(?:text)?book))[.!? ]*",
     re.I,
@@ -487,6 +492,58 @@ def _resume(db: Session, session: SessionRow, text: str, state: dict) -> TutorRe
                         lead=f"Welcome back to “{title}”. ", detour=bool(stack))
 
 
+def _move_on(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
+    """The learner says they understand: climb back out of a detour, else go to the next topic in the chapter."""
+    if session.stack:
+        return _resume(db, session, text, state)
+    chapter, current = state.get("chapter") or {}, ncert.topic_title(state.get("chapter_heading") or "")
+    topics = next((c.topics for c in ncert.catalogue(chapter["grade"], chapter["subject"])
+                   if c.book_code == chapter.get("book_code") and c.chapter == chapter.get("chapter")), []) if chapter else []
+    titles = [ncert.topic_title(t) for t in topics]
+    after = topics[titles.index(current) + 1] if current in titles and titles.index(current) + 1 < len(topics) else None
+    passage = ncert.topic_passage(chapter, after) if after else None
+    if not passage:
+        return _respond(db, session, text, "Great! That's the end of this chapter's topics. Pick another topic or ask me a question.")
+    session.pending = {**state, "stuck": 0}
+    return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain",
+                        action=Action.ADVANCE, lead="Great! Let's move on. ")
+
+
+def _practice(db: Session, session: SessionRow, text: str, state: dict, scope: dict,
+              passage: dict | None = None) -> TutorReply:
+    """The learner wants practice: pose one small question (answer never given) on the open topic, else on the
+    lesson's chapter, else ask which topic and remember the request for the reply."""
+    passage = passage or _current_passage(state)
+    if not passage and scope.get("chapter") is not None:     # the lesson already names a chapter: practise from it
+        topics = next((c.topics for c in ncert.catalogue(scope["grade"], scope["subject"])
+                       if c.book_code == scope.get("book_code") and c.chapter == scope["chapter"]), [])
+        if len(topics) > 1 and ncert.topic_title(topics[0]).casefold().startswith("introduction"):
+            topics = topics[1:]                               # an introduction has little to practise on
+        passage = ncert.topic_passage(scope, topics[0]) if topics else None
+    if not passage:
+        session.pending = {**state, "wants_practice": True}
+        return _respond(db, session, text, "Happy to practise! Which topic would you like to practise? "
+                        "Pick one from the chapter list, or tell me the class, subject or topic.")
+    title = ncert.topic_title(passage["heading"])
+    question = socratic.chat(
+        None, text, _history(db, session),
+        f"The student wants to practise “{title}”. Using only this textbook passage, pose ONE short practice question "
+        f"for them to solve. Do not give the answer or a worked solution.\nPassage:{ncert.passage_text(passage)[:1200]}",
+        topics=title)
+    generation = "hosted"
+    if not question or "?" not in question:
+        question = f"Here's one to try on “{title}”: in your own words, what is the key idea, and where would you use it?"
+        generation = "extractive"
+    selected = ncert.chapter_of(passage)
+    session.current_concept = session.target_concept = ncert.concept_id(passage)
+    session.pending = {"scope": state.get("scope", {}), "chapter": selected.model_dump(), "question": title,
+                       "chapter_heading": passage["heading"], "passage_id": passage["passage_id"],
+                       "last_message": text, "last_reply": question, "problem": question, "stuck": 0}
+    return _finish(db, session, text, TutorReply(
+        reply=question, action=Action.GUIDE, label=InputLabel.ON_TOPIC, concept_id=session.current_concept,
+        level=selected.grade, chapter=selected, resource=ncert.resource(passage), generation=generation))
+
+
 def _list_prerequisites(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
     current = _current_passage(state)
     options = _prerequisites_of(session, current) if current else []
@@ -497,7 +554,7 @@ def _list_prerequisites(db: Session, session: SessionRow, text: str, state: dict
     return _respond(db, session, text, f"This topic builds on {names}. Say “go back to the basics” and we'll revise it first.")
 
 
-_BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+)?[\d\s.,+\-*/x×÷()]+[?=]?")
+_BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+|explain\s+|show me\s+|teach me\s+)?[\d\s.,+\-*/x×÷()]+[?=]?")
 
 
 def _without_clarification(state: dict) -> dict:
@@ -526,6 +583,8 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         return stepped or _list_prerequisites(db, session, text, state)
 
     # _START_LESSON (regex) is kept above but unused: the model decides below when nothing else places the message.
+    if state.get("wants_practice") and scope_label == "unsupported":
+        scope_label = "uncertain"                             # we just asked which topic: let retrieval judge the reply
     chapter = None if new_topic else state.get("chapter")
     previous = state.get("question", "")
     legacy_title = (ncert.topic_title(previous.removeprefix("Help me understand ").removesuffix("."))
@@ -606,7 +665,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         passages = ncert.rank(query, filters, limit=2, chapters=True)
 
     if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup:
-        sums = re.search(r"\d[\d\s.,+\-*/x×÷()]*\d|\.\d+", text)      # bare arithmetic: search by the kind of sum
+        sums = re.search(r"\d[\d\s.,+\-*/x×÷()]*\d|\.\d+", query)      # bare arithmetic, read from query (not text) so "class 8 maths" can resolve "explain 4 x 5"
         if sums and re.search(r"[+\-*/x×÷]", sums.group(0)):
             kinds = {"+": "addition", "-": "subtraction", "*": "multiplication", "x": "multiplication",
                      "×": "multiplication", "/": "division", "÷": "division"}
@@ -616,9 +675,9 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
             if by_kind and by_kind[0]["score"] >= ncert.MIN_SCORE:
                 passages = by_kind
                 problem = problem or text
-    if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup and _BARE_SUM.fullmatch(text.strip())             and re.search(r"[+\-*/x×÷]", text):
+    if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup and _BARE_SUM.fullmatch(query.strip())             and re.search(r"[+\-*/x×÷]", query):
         # A plain sum needs no textbook passage: guide it step by step, with the result checked in code.
-        value = step_finder.arithmetic_value(re.sub(r"(?i)^(?:what(?:'s| is)|calculate|solve)\s+", "", text.strip()).rstrip("?="))
+        value = step_finder.arithmetic_value(re.sub(r"(?i)^(?:what(?:'s| is)|calculate|solve|explain|show me|teach me)\s+", "", query.strip()).rstrip("?="))
         truth = format(float(value), "f").rstrip("0").rstrip(".") if value is not None else ""
         reply = socratic.chat(
             None, text, _history(db, session),
@@ -633,6 +692,13 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
             passage = ncert.cited_passage(chapter, state["passage_id"])
             if passage:
                 return _ncert_reply(db, session, text, passage, previous, mode=mode, followup=True, problem=problem)
+        if (chapter and not followup and not new_topic and not unresolved and state.get("passage_id")
+                and scope_label != "unsupported"
+                and ncert.similarity(query, chapter, state["passage_id"]) >= ncert.FOLLOWUP_MIN_SCORE):
+            # Nothing else matched, but the message is close in meaning to the topic on screen: a follow-up by vector.
+            passage = ncert.cited_passage(chapter, state["passage_id"])
+            if passage:
+                return _ncert_reply(db, session, text, passage, previous, mode=mode, followup=True, problem=problem)
         if new_topic and any(scope.get(key) for key in ("grade", "subject")):
             outside = ncert.rank(query, {}, limit=2, chapters=True)
             if (outside and outside[0]["score"] >= ncert.MIN_SCORE
@@ -640,8 +706,17 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                     and (len(outside) == 1 or outside[0]["score"] - outside[1]["score"] >= ncert.CHAPTER_MARGIN)):
                 return _respond(db, session, text, "That topic is outside this session's class or subject.",
                                 Action.REDIRECT, InputLabel.OFF_TOPIC)
-        label = socratic.classify_message(text)    # the model reads what the rules and retrieval could not place
+        label = socratic.classify_message(text, topic_open=bool(state.get("passage_id")))   # the model reads what the rules and retrieval could not place
         log.info("Message classifier label: %s", label)
+        if label == "understood":
+            return _move_on(db, session, text, state)
+        if label == "practice":
+            return _practice(db, session, text, state, scope)
+        if label in ("summarize", "retry"):
+            passage = _current_passage(state)
+            if passage:
+                return _ncert_reply(db, session, text, passage, state.get("question", ""), mode="explain",
+                                    followup=True, problem=state.get("problem", ""))
         if label == "abusive":
             return _respond(db, session, text, _ABUSE_REPLY, Action.REDIRECT, InputLabel.OFF_TOPIC)
         # With no label (model unavailable) and no topic yet, begin the first topic rather than dead-end.
@@ -664,8 +739,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         return _respond(db, session, text, message)
 
     best = passages[0]
-    bare_sum = bool(re.fullmatch(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+)?[\d\s.,+\-*/x×÷()]+[?=]?", text.strip())
-                    and re.search(r"[+\-*/x×÷]", text))
+    bare_sum = bool(_BARE_SUM.fullmatch(query.strip()) and re.search(r"[+\-*/x×÷]", query))
     if len(passages) > 1 and best["score"] - passages[1]["score"] < ncert.CHAPTER_MARGIN:
         other = passages[1]
         clarification_prompt = None
@@ -682,6 +756,8 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
             return _respond(db, session, text, clarification_prompt)
 
     context = previous if followup and not exercise else query
+    if state.get("wants_practice") and not followup:         # they asked to practise, then named the topic
+        return _practice(db, session, text, state, scope, passage=best)
     return _ncert_reply(db, session, text, best, context, mode=mode, followup=followup, problem=problem)
 
 

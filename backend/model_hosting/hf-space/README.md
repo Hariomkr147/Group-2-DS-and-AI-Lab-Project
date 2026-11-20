@@ -23,7 +23,7 @@ Enter a problem and its correct answer, then chat as the learner. The tutor repl
 or hint at a time and should not state the final answer.
 
 - The default test adapter uses `Qwen/Qwen3-4B-Instruct-2507`. Set `QWEN_ADAPTER_ID` and `QWEN_ADAPTER_REVISION` in Space settings to switch checkpoints. The base model comes from the adapter metadata.
-- Runs on ZeroGPU in bf16. Replies are limited to 96 new tokens and use greedy decoding.
+- Runs on ZeroGPU in bf16. Replies are limited to 192 new tokens and use greedy decoding.
 - The Gradio endpoint `/predict` returns a plain reply. `/predict_grounded` returns the reply and the status fields used by NCERT chat.
 
 This is a research demo. Replies can be wrong and are not approved for use with real learners.

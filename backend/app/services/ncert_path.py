@@ -15,7 +15,8 @@ RESUME = re.compile(
     r"(?:(?:ok(?:ay)?|yes|now|so)[,.! ]*)*(?:(?:go|get|take me) back to (?:the |our )?(?:main|original|earlier|previous|first) "
     r"(?:topic|one|question|lesson)|back to (?:the |our )?(?:main|original) (?:topic|lesson)|"
     r"i(?:'m| am) ready(?: to (?:go back|continue|resume))?|resume|continue with (?:the )?(?:main|original) topic|"
-    r"(?:i )?(?:get|understand|got) (?:it|this) now|got it(?: now)?)[.! ]*", re.I)
+    r"(?:i )?(?:get|understand|got) (?:it|this|that)(?: now)?|(?:i )?(?:understood|understand) now|"
+    r"(?:ok(?:ay)?,? )?(?:that )?(?:makes sense|is clear|(?:is|it's) clear(?: now)?)|got it(?: now)?)[.! ]*", re.I)
 WANTS_BASICS = re.compile(
     r"(?:(?:can we |could we |let me |let's |i (?:need|want) to )?(?:go back|step back|revise|review)(?: to)? "
     r"(?:the )?(?:basics|prerequisites?|earlier topics?|foundations?)|start (?:from|with) (?:the )?basics|"

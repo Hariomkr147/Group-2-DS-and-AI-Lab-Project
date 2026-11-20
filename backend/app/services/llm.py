@@ -185,7 +185,7 @@ def gradio_predict(url, key, system, message, timeout, *, endpoint="predict", op
 
 
 class QwenFinetuned(Provider):
-    """Our fine-tuned Qwen3.5-4B Socratic tutor. Replies are at most 96 new tokens. QWEN_URL picks the host:
+    """Our fine-tuned Qwen3.5-4B Socratic tutor. Replies are at most 192 new tokens. QWEN_URL picks the host:
 
     - a Hugging Face Space (https://<name>.hf.space, built from backend/model_hosting/hf-space),
       with a Hugging Face token of the Space owner in QWEN_API_KEY;
@@ -193,7 +193,7 @@ class QwenFinetuned(Provider):
     """
     name = "qwen_finetuned"
     model = "qwen-3-test"
-    MAX_NEW_TOKENS = 96
+    MAX_NEW_TOKENS = 192
 
     def ready(self):
         _need("QWEN_URL", self.name)

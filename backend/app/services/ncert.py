@@ -15,6 +15,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from ..db import engine
 from ..schemas import Chapter, ChapterTopics, Material, Resource
+from . import math_text
 
 COURSE_ID = "ncert"
 COURSE_TITLE = "NCERT Classes 6–10 · Maths and Science"
@@ -26,6 +27,7 @@ EMBEDDING_DIMENSION = 1024
 # shortcut: these scores come from a small routing benchmark, recalibrate on fresh student queries.
 MIN_SCORE = 0.60
 PREREQUISITE_MIN_SCORE = 0.55   # shortcut: passage-to-passage similarity, not yet calibrated on the corpus
+FOLLOWUP_MIN_SCORE = 0.35       # shortcut: message-to-active-passage similarity for follow-ups, not yet calibrated
 CHAPTER_MARGIN = 0.025
 log = logging.getLogger(__name__)
 _encoder_lock = Lock()
@@ -100,6 +102,11 @@ _PREREQUISITES = text("""
     SELECT * FROM ranked WHERE position = 1 AND score >= :min_score
     ORDER BY score DESC, passage_id
     LIMIT :limit
+""")
+_SIMILARITY = text("""
+    SELECT 1 - (p.embedding <=> CAST(:embedding AS vector)) AS score
+""" + _ELIGIBLE + """
+    AND p.passage_id = :passage_id
 """)
 _IMAGE = r"!\[[^]]*\]\([^)]*\)"
 # Titles follow the indexed PDFs in the corpus inventory.
@@ -202,7 +209,7 @@ def chapter_title(scope: dict) -> str:
 
 
 def topic_title(heading: str) -> str:
-    return re.sub(r"^\s*\d+(?:\.\d+)+\.?\s+", "", heading).strip()
+    return math_text.readable(re.sub(r"^\s*\d+(?:\.\d+)+\.?\s+", "", heading)).strip()
 
 
 def cited_passage(chapter: dict, passage_id: str) -> dict | None:
@@ -222,6 +229,19 @@ def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> 
                   per_chapter=1 if chapters else limit)
 
 
+def similarity(query: str, chapter: dict, passage_id: str) -> float:
+    """Cosine similarity between a message and one passage (0.0 if the passage is not found)."""
+    if not configured():
+        raise HTTPException(503, "NCERT retrieval is not configured.")
+    try:
+        vector = embed(query)
+    except (ImportError, OSError, RuntimeError, ValueError) as error:
+        log.warning("NCERT encoder unavailable (%s)", type(error).__name__)
+        raise HTTPException(503, "The NCERT question encoder is unavailable.") from None
+    rows = _query(_SIMILARITY, chapter, embedding=str(vector), passage_id=passage_id)
+    return float(rows[0]["score"]) if rows else 0.0
+
+
 def prerequisites(row: dict, limit: int = 2) -> list[dict]:
     """Earlier topics of the same subject that this passage builds on, nearest in meaning first. [] when none."""
     return _query(_PREREQUISITES, {"subject": row["subject"]}, passage_id=row["passage_id"], heading=row["heading"],
@@ -238,7 +258,7 @@ def concept_id(row: dict) -> str:
 
 
 def passage_text(row: dict) -> str:
-    return re.sub(_IMAGE, "", row["content"]).strip()
+    return math_text.readable(re.sub(_IMAGE, "", row["content"])).strip()
 
 
 def resource(row: dict) -> Resource:
@@ -248,7 +268,7 @@ def resource(row: dict) -> Resource:
     else:
         url = ""
     subject = "Maths" if row["subject"] == "maths" else "Science"
-    return Resource(source=f"NCERT Class {row['grade']} {subject}, Chapter {row['chapter']} · {row['heading']}",
+    return Resource(source=f"NCERT Class {row['grade']} {subject}, Chapter {row['chapter']} · {math_text.readable(row['heading'])}",
                     page=str(row["physical_page"]), url=url, passage_id=row["passage_id"])
 
 
