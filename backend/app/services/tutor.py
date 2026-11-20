@@ -497,6 +497,13 @@ def _list_prerequisites(db: Session, session: SessionRow, text: str, state: dict
     return _respond(db, session, text, f"This topic builds on {names}. Say “go back to the basics” and we'll revise it first.")
 
 
+_BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+)?[\d\s.,+\-*/x×÷()]+[?=]?")
+
+
+def _without_clarification(state: dict) -> dict:
+    return {k: v for k, v in state.items() if k not in ("clarify", "clarify_query", "clarify_pick")}
+
+
 def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                   intent: str, scope_label: str, topic_heading: str | None = None) -> TutorReply:
     state = session.pending or {}
@@ -534,7 +541,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     related = review or intent in _FOLLOWUP_INTENTS or mentions_topic
     followup = bool(chapter and (refers_back or (scope_label != "unsupported" and related)))
     clarification = re.fullmatch(
-        r"(?i)(?:(?:class|grade)\s+([6-9]|10)(?:\s+(maths|science))?|(maths|science))[.!]?", text)
+        r"(?i)(?:(?:(?:class|grade)\s+)?([6-9]|10)(?:\s+(maths|science))?|(maths|science))[.!]?", text)
     filters, query = scope, text
     unresolved = state.get("clarify_query") or (previous if state.get("clarify") else "")
     if clarification and unresolved and not new_topic:
@@ -545,6 +552,14 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                             Action.REDIRECT, InputLabel.OFF_TOPIC)
         filters = {**scope, **{key: value for key, value in requested.items() if value}}
         query, followup = unresolved, False
+        state = _without_clarification(state)
+    elif (unresolved and state.get("clarify_pick") and not new_topic
+          and re.fullmatch(r"(?i)\s*(?:yes|yeah|yep|yup|ok(?:ay)?|sure|the first(?: one)?|first(?: one)?|1"
+                       r"|(?:it |that )?(?:does ?n[o']?t|doesn't|do ?n[o']?t) matter|no preference|any(?: one)?|either(?: one)?"
+                       r"|whichever|whatever|i (?:do ?n[o']?t|don't) (?:know|care)|not sure)[.!]?\s*", text)):
+        filters = {**scope, **state["clarify_pick"]}            # "yes" to "Are you asking about A or B?" means the first (best) one
+        query, followup = unresolved, False
+        state = _without_clarification(state)
     elif unresolved and intent == "clarification_reply" and not new_topic:
         query, followup = f"{unresolved}\nClarification: {text}", False
     elif not new_topic and not followup:
@@ -590,6 +605,29 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     else:
         passages = ncert.rank(query, filters, limit=2, chapters=True)
 
+    if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup:
+        sums = re.search(r"\d[\d\s.,+\-*/x×÷()]*\d|\.\d+", text)      # bare arithmetic: search by the kind of sum
+        if sums and re.search(r"[+\-*/x×÷]", sums.group(0)):
+            kinds = {"+": "addition", "-": "subtraction", "*": "multiplication", "x": "multiplication",
+                     "×": "multiplication", "/": "division", "÷": "division"}
+            words = " ".join(sorted({v for k, v in kinds.items() if k in sums.group(0)}))
+            by_kind = ncert.rank(f"{words} of {'decimals' if re.search(r'\d*\.\d', sums.group(0)) else 'numbers'}",
+                                 filters, limit=2, chapters=True)
+            if by_kind and by_kind[0]["score"] >= ncert.MIN_SCORE:
+                passages = by_kind
+                problem = problem or text
+    if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup and _BARE_SUM.fullmatch(text.strip())             and re.search(r"[+\-*/x×÷]", text):
+        # A plain sum needs no textbook passage: guide it step by step, with the result checked in code.
+        value = step_finder.arithmetic_value(re.sub(r"(?i)^(?:what(?:'s| is)|calculate|solve)\s+", "", text.strip()).rstrip("?="))
+        truth = format(float(value), "f").rstrip("0").rstrip(".") if value is not None else ""
+        reply = socratic.chat(
+            None, text, _history(db, session),
+            "This is a plain arithmetic question that is not tied to a textbook passage. Do not give the final result"
+            + (f" (it is {truth}; never reveal it)" if truth else "")
+            + ". Ask ONE small first step so the student works it out, in one or two short sentences.")
+        if not reply or (truth and guardrails.leaks_answer(reply, truth)):
+            reply = "Let's work it out together. What is the first thing you would do with these two numbers?"
+        return _respond(db, session, text, reply)
     if not passages or passages[0]["score"] < ncert.MIN_SCORE:
         if followup and mentions_topic and state.get("passage_id"):
             passage = ncert.cited_passage(chapter, state["passage_id"])
@@ -626,16 +664,21 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         return _respond(db, session, text, message)
 
     best = passages[0]
+    bare_sum = bool(re.fullmatch(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+)?[\d\s.,+\-*/x×÷()]+[?=]?", text.strip())
+                    and re.search(r"[+\-*/x×÷]", text))
     if len(passages) > 1 and best["score"] - passages[1]["score"] < ncert.CHAPTER_MARGIN:
         other = passages[1]
         clarification_prompt = None
-        if best["grade"] != other["grade"] or best["subject"] != other["subject"]:
+        if bare_sum:
+            pass                                                # a plain sum needs no class or subject: use the best match
+        elif best["grade"] != other["grade"] or best["subject"] != other["subject"]:
             clarification_prompt = (f"This could be Class {best['grade']} {best['subject']} or Class {other['grade']} "
                                     f"{other['subject']}. Which class and subject are you studying?")
         elif (best["book_code"], best["chapter"]) != (other["book_code"], other["chapter"]):
             clarification_prompt = f"Are you asking about {best['heading']} or {other['heading']}?"
         if clarification_prompt:
-            session.pending = {**state, "clarify_query": query}
+            pick = {key: best[key] for key in ("grade", "subject", "book_code", "chapter") if best.get(key) is not None}
+            session.pending = {**state, "clarify_query": query, "clarify_pick": pick}
             return _respond(db, session, text, clarification_prompt)
 
     context = previous if followup and not exercise else query
@@ -709,7 +752,8 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
             return _respond(db, session, text, "Thanks for showing your thinking. Keep going with that step: "
                             "what number do you end up with?")
     active = (session.pending or {}).get("chapter") if is_ncert else asked
-    if assessment or (is_ncert and active and _numeric(text) and not explicit_switch):
+    clarifying = is_ncert and bool((session.pending or {}).get("clarify_query")) and bool(re.fullmatch(r"(?:[6-9]|10)", text))
+    if assessment or (is_ncert and active and _numeric(text) and not explicit_switch and not clarifying):
         intent, scope = "answer_attempt", "supported"
     elif active and scope != "unsupported" and guardrails.asks_for_help(text) and not explicit_switch:
         intent, scope = "hint_request", "supported"
