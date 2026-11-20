@@ -45,7 +45,7 @@ export default function Chat({ session, pending, sending, startupError, messageE
             {turn.detail?.resource && <div className="citation"><Icon name="book" /><SourceLink resource={turn.detail.resource} /></div>}
           </article>
         ))}
-        {pending && <article className="turn learner"><div className="turn-label">You <span>{sending ? 'Sending…' : 'Awaiting confirmation'}</span></div><div className="turn-content">{pending.text}</div></article>}
+        {pending && <article className="turn learner"><div className="turn-label">You <span>{sending ? 'Responding…' : 'Awaiting confirmation'}</span></div><div className="turn-content">{pending.text}</div></article>}
       </div>
       <form className="composer" onSubmit={submit}>
         {pending && !sending && <div className="message-error" role="alert">
@@ -53,14 +53,26 @@ export default function Chat({ session, pending, sending, startupError, messageE
           <div className="actions"><button type="button" className="primary" onClick={onRetry}>Retry message</button>
             {onEdit && <button type="button" onClick={() => { setText(pending.text); onEdit(); requestAnimationFrame(() => input.current?.focus()); }}>Edit message</button>}</div>
         </div>}
-        <label htmlFor="working">Your question or answer</label>
+        <div className="composer-label">
+          <label htmlFor="working">Your question or answer</label>
+          <span className="tip">
+            <button type="button" className="tip-button" aria-label="About this tutor" aria-describedby="ai-note">ⓘ</button>
+            <span id="ai-note" role="tooltip" className="tip-text">The tutor is an AI assistant and can make mistakes. Please check important answers with your textbook or teacher.</span>
+          </span>
+        </div>
         <textarea id="working" ref={input} rows={3} maxLength={2000} value={text}
-          placeholder="Type a question, an answer, or your working…" onChange={(event) => setText(event.target.value)} />
+          placeholder="Type a question, an answer, or your working…" onChange={(event) => setText(event.target.value)}
+          onKeyDown={(event) => {
+            // Enter sends (same as the Send button); Shift+Enter adds a new line.
+            if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) {
+              event.preventDefault();
+              event.currentTarget.form.requestSubmit();
+            }
+          }} />
         <div className="composer-footer">
-          <p className="muted">Show one step per line.</p>
           <div className="actions">
             {canAskForHint && <button type="button" disabled={Boolean(pending)} onClick={() => onSend('Can I have a hint?')}>Ask for a hint</button>}
-            <button className="primary" disabled={!text.trim() || !session || Boolean(pending)}><Icon name="send" />{sending ? 'Sending…' : 'Send'}</button>
+            <button className="primary" disabled={!text.trim() || !session || Boolean(pending)}><Icon name="send" />{sending ? 'Responding…' : 'Ask'}</button>
           </div>
         </div>
       </form>

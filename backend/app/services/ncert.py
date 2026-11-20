@@ -175,6 +175,10 @@ def topic_passage(scope: dict, heading: str) -> dict | None:
     return rows[0] if rows else None
 
 
+def chapter_title(scope: dict) -> str:
+    return _CHAPTER_TITLES.get(scope.get("book_code"), {}).get(str(scope.get("chapter")), "") or ""
+
+
 def topic_title(heading: str) -> str:
     return re.sub(r"^\s*\d+(?:\.\d+)+\.?\s+", "", heading).strip()
 

@@ -192,7 +192,7 @@ class QwenFinetuned(Provider):
     - or the Kaggle notebook's tunnel URL (hosting-qwen.ipynb) with the key that notebook prints.
     """
     name = "qwen_finetuned"
-    model = "qwen3.5-4b-socratic-tutor"
+    model = "qwen-3-test"
     MAX_NEW_TOKENS = 96
 
     def ready(self):

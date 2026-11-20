@@ -1,4 +1,5 @@
 """One tutoring turn: guardrails -> learner model -> controller -> Socratic model -> guardrails."""
+import logging
 import re
 from difflib import get_close_matches
 
@@ -9,6 +10,8 @@ from ..db import SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
 from . import (controller, conversation, course_store, guardrails, learner_model, misconception, ncert, retrieval,
                socratic, step_finder)
+
+log = logging.getLogger(__name__)
 
 ASK_FOR_WORKING = "Show your steps, one per line, so I can see where it went wrong."
 _HELP_INTENTS = {"doubt", "hint_request", "explanation_request"}
@@ -37,6 +40,14 @@ _PROBLEM = re.compile(
     r"how (?:do|should|would|can) (?:i|we|you)\b|(?:what is\s+)?[-+]?\d[^?\n]*(?:[+*/×÷−%-]|\bx\b))",
     re.I,
 )
+_START_LESSON = re.compile(
+    r"(?:(?:ok(?:ay)?|alright|sure|yes|yeah|fine|so|well|please)[,.!\s]+)*"
+    r"(?:(?:can|could|will) you )?(?:please )?"
+    r"(?:teach me|start|begin|go ahead|continue|proceed|"
+    r"(?:let['’]?s|let us)(?: (?:start|begin|go|get started|get into|dive into|jump into))?)"
+    r"(?: me)?(?: (?:with|into|in|to))?(?: (?:a|any|the|some|this|first|next|our))?"
+    r"(?: (?:topic|lesson|chapter|something|it|now|again))?(?: to (?:start|begin) with)?(?: (?:now|please))?[.!?]*",
+    re.I)
 _EXPLAIN = re.compile(
     r"^(?:(?:can|could) you )?(?:how (?:do|does|can|is)|what (?:is|are|does|do you mean)|"
     r"why|define|explain|teach me|help me understand)\b",
@@ -319,11 +330,38 @@ def _scope_words(state: dict) -> str:
     return "NCERT " + (" ".join(p for p in parts if p) + " " if any(parts) else "") + "textbook"
 
 
+_WHERE_NOW = re.compile(
+    r"(?:so\s+)?(?:where|which (?:topic|part|section|lesson)|what(?: topic| part| section| lesson)?)"
+    r"(?:\s+(?:are|were)\s+we|\s+(?:am|are)\s+i|\s+we\s+(?:are|were))"
+    r"(?:\s+(?:on|at|in|up to|studying|doing|working on|learning))?(?:\s+now|\s+right now|\s+currently)?\s*"
+    r"(?:\?|\.|!)*\s*|"
+    r"(?:what|which)\s+(?:is\s+)?(?:the\s+)?(?:current|present)\s+(?:topic|chapter|lesson|section)[?.! ]*|"
+    r"(?:what|which)\s+(?:topic|chapter)\s+is\s+this[?.! ]*",
+    re.I,
+)
+
+
+def _where_are_we(session: SessionRow, state: dict) -> str:
+    scope = state.get("scope", {})
+    chapter = ncert.chapter_title(scope) if scope.get("book_code") else ""
+    label = f"Class {scope['grade']} {scope['subject'].title()}" if scope.get("grade") and scope.get("subject") else ""
+    place = f"{label} · Chapter {scope['chapter']}{' · ' + chapter if chapter else ''}" if label and scope.get("chapter") else label
+    if state.get("chapter_heading"):
+        return (f"We're on “{state['chapter_heading']}”" + (f", in {place}" if place else "")
+                + ". Ask a question about it, say “hint”, or pick another topic from the chapter list.")
+    if place:
+        return (f"We haven't started a topic yet. This lesson is {place}. "
+                f"Pick a topic from the chapter list or ask a question about it.")
+    return "We haven't started a topic yet. Pick a topic from the chapter list or ask a question."
+
+
 def _converse_ncert(db: Session, session: SessionRow, text: str) -> TutorReply | None:
+    state = session.pending or {}
+    if _WHERE_NOW.fullmatch(text.strip()):
+        return _respond(db, session, text, _where_are_we(session, state))
     kind = conversation.classify(text)
     if kind not in ("greeting", "thanks", "bye", "menu"):
         return None
-    state = session.pending or {}
     heading = ncert.topic_title(state["chapter_heading"]) if state.get("chapter_heading") else ""
     carry = f" We were on “{heading}”; carry on, or ask about something new." if heading else ""
     ask = f"Ask me a question from your {_scope_words(state)}, or pick a topic from the chapter list, and we'll work through it step by step."
@@ -370,6 +408,23 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
         generation=generation, wrong_step=slip))
 
 
+_ABUSE_REPLY = ("I understand this can be frustrating, but please keep it respectful. I'm here to help you "
+                "learn. Tell me which part is confusing, or pick a topic, and we'll take it step by step.")
+
+
+def _start_first_topic(db: Session, session: SessionRow, text: str, scope: dict) -> TutorReply | None:
+    """A generic "teach me" has nothing to search for, so begin with the chapter's first topic."""
+    if scope.get("chapter") is None:
+        return None
+    chapters = ncert.catalogue(scope["grade"], scope["subject"])
+    topics = next((c.topics for c in chapters
+                   if c.book_code == scope.get("book_code") and c.chapter == scope["chapter"]), [])
+    passage = ncert.topic_passage(scope, topics[0]) if topics else None
+    if not passage:
+        return None
+    return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
+
+
 def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                   intent: str, scope_label: str, topic_heading: str | None = None) -> TutorReply:
     state = session.pending or {}
@@ -380,6 +435,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
             return _respond(db, session, text, "Choose a lesson topic from this chapter or ask a question about it.")
         return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
 
+    # _START_LESSON (regex) is kept above but unused: the model decides below when nothing else places the message.
     chapter = None if new_topic else state.get("chapter")
     previous = state.get("question", "")
     legacy_title = (ncert.topic_title(previous.removeprefix("Help me understand ").removesuffix("."))
@@ -455,6 +511,17 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                     and (len(outside) == 1 or outside[0]["score"] - outside[1]["score"] >= ncert.CHAPTER_MARGIN)):
                 return _respond(db, session, text, "That topic is outside this session's class or subject.",
                                 Action.REDIRECT, InputLabel.OFF_TOPIC)
+        label = socratic.classify_message(text)    # the model reads what the rules and retrieval could not place
+        log.info("Message classifier label: %s", label)
+        if label == "abusive":
+            return _respond(db, session, text, _ABUSE_REPLY, Action.REDIRECT, InputLabel.OFF_TOPIC)
+        # With no label (model unavailable) and no topic yet, begin the first topic rather than dead-end.
+        if label in ("start_lesson", None) and not followup and not state.get("chapter_heading"):
+            started = _start_first_topic(db, session, text, scope)
+            if started:
+                return started
+        if label == "off_topic":
+            return _respond(db, session, text, socratic.REDIRECT_OFF_TOPIC, Action.REDIRECT, InputLabel.OFF_TOPIC)
         if not followup:
             session.pending = {**state, "clarify_query": query}
         if followup:
@@ -532,6 +599,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     text = text.strip()
     if guardrails.requests_answer(text):
         return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
+    # guardrails.is_abusive (word list) is kept but unused: the model labels abuse in _handle_ncert.
     is_ncert = session.course_id == ncert.COURSE_ID
     if is_ncert and topic_heading and text == f"Help me understand {topic_heading}."[:2000]:
         return _handle_ncert(db, session, text, True, "topic_switch", "supported", topic_heading)

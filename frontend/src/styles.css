@@ -164,7 +164,13 @@ summary::marker { color: var(--accent); }
 .feedback { margin-top: .4rem; font-size: .94rem; color: var(--accent); }
 .composer { border-top: 1px solid var(--line); padding: 1rem clamp(1rem, 2vw, 1.5rem); }
 .composer textarea { display: block; margin: .35rem 0 .6rem; max-height: 18rem; }
-.composer-footer { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .75rem; }
+.composer-footer { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: .75rem; }
+.composer-label { display: flex; align-items: center; gap: .35rem; }
+.tip { position: relative; display: inline-flex; }
+.tip-button { border: 0; background: none; padding: 0 .25rem; min-height: 0; cursor: help; font: inherit; color: inherit; }
+.tip-text { position: absolute; bottom: calc(100% + .4rem); left: 0; width: min(20rem, 80vw); padding: .5rem .65rem; border-radius: 5px;
+  background: #1f2933; color: #fff; font-size: .85rem; line-height: 1.35; opacity: 0; visibility: hidden; transition: opacity .12s; z-index: 5; }
+.tip:hover .tip-text, .tip:focus-within .tip-text { opacity: 1; visibility: visible; }
 .message-error { padding: .75rem; margin-bottom: .75rem; border-radius: 5px; background: var(--error-bg); }
 .message-error .actions { margin-top: .5rem; }
 .assessment { padding: clamp(1.1rem, 3vw, 2rem); min-height: 23rem; }

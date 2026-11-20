@@ -39,6 +39,13 @@ _TOPIC_SWITCH = re.compile(
     re.I,
 )
 _NUMBER = re.compile(r"[\d\s.+\-/,]+%?")
+_ABUSE = re.compile(
+    r"\b(?:idiots?|stupid|dumb|useless|moron(?:ic|s)?|imbecile|retard(?:ed)?|trash|garbage|pathetic|"
+    r"shut\s*up|screw you|fuck\w*|shit\w*|bitch\w*|bastard|asshole|crap|damn you|go to hell)\b", re.I)
+
+
+def is_abusive(text: str) -> bool:
+    return bool(_ABUSE.search(text.replace("’", "'")))
 
 
 def numeric_answer(text: str) -> bool:

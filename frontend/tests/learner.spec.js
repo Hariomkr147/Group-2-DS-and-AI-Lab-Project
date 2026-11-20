@@ -12,7 +12,7 @@ test('opens a saved chat after starting a new one', async ({ page }) => {
   await signIn(page);
   const topic = 'Help me study division again';
   await page.getByLabel('Your question or answer').fill(topic);
-  await page.getByRole('button', { name: 'Send', exact: true }).click();
+  await page.getByRole('button', { name: 'Ask', exact: true }).click();
   await expect(page.getByLabel('Tutor conversation').locator('article')).toHaveCount(2);
   const history = page.getByRole('button', { name: 'Previous chats', exact: true });
   await history.click();
@@ -55,7 +55,7 @@ test('switches topics, preserves working on retry, and restores progress after r
   await page.route('**/progress?*', (route) => route.fulfill({ status: 503, json: { detail: 'Fixture outage' } }));
   const working = '100 / 20 = 5\nAnswer: 5';
   await page.getByRole('textbox', { name: 'Your question or answer' }).fill(working);
-  await page.getByRole('button', { name: 'Send', exact: true }).click();
+  await page.getByRole('button', { name: 'Ask', exact: true }).click();
   const retry = page.waitForRequest((request) => request.url().endsWith('/messages'));
   await page.getByRole('button', { name: 'Retry message' }).click();
   expect((await retry).postDataJSON()).toMatchObject({ text: working, request_id: requestId });
@@ -107,7 +107,7 @@ test('opens a scoped textbook lesson, searches sources, and renders maths in dar
   await page.getByRole('button', { name: 'Ask for a hint' }).click();
   await expect(page.getByText('Hint', { exact: true })).toBeVisible();
   await page.getByRole('textbox', { name: 'Your question or answer' }).fill('Just give me the answer');
-  await page.getByRole('button', { name: 'Send', exact: true }).click();
+  await page.getByRole('button', { name: 'Ask', exact: true }).click();
   await expect(page.getByText('Redirect', { exact: true })).toBeVisible();
   await expect(page.locator('article').last().getByRole('link')).toHaveCount(0);
   await page.getByText('Search course sources', { exact: true }).click();
