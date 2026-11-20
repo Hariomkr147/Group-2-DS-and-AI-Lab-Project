@@ -25,6 +25,7 @@ QUERY_PREFIX = "Instruct: Given a question, retrieve relevant passages that answ
 EMBEDDING_DIMENSION = 1024
 # shortcut: these scores come from a small routing benchmark, recalibrate on fresh student queries.
 MIN_SCORE = 0.60
+PREREQUISITE_MIN_SCORE = 0.55   # shortcut: passage-to-passage similarity, not yet calibrated on the corpus
 CHAPTER_MARGIN = 0.025
 log = logging.getLogger(__name__)
 _encoder_lock = Lock()
@@ -77,6 +78,27 @@ _PASSAGES = text("""
     SELECT *, 1 - distance AS score FROM ranked
     WHERE position <= :per_chapter
     ORDER BY distance, passage_id
+    LIMIT :limit
+""")
+# Earlier topics (lower class, earlier chapter, or earlier in the same chapter) closest in meaning to one passage.
+# The prerequisite graph is derived at run time from the stored embeddings; nothing is mapped by hand.
+_PREREQUISITES = text("""
+    WITH eligible AS (
+        SELECT """ + _PASSAGE_FIELDS + """,
+               1 - (p.embedding <=> (SELECT c.embedding FROM ncert_research.passages c
+                                     WHERE c.release_id = :release AND c.passage_id = :passage_id)) AS score
+""" + _ELIGIBLE + """
+          AND p.passage_id <> :passage_id
+          AND p.heading <> :heading
+          AND (p.grade, p.book_code, p.chapter, p.physical_page)
+              < (CAST(:cur_grade AS smallint), CAST(:cur_book AS text), CAST(:cur_chapter AS integer),
+                 CAST(:cur_page AS integer))
+    ), ranked AS (
+        SELECT *, row_number() OVER (PARTITION BY grade, book_code, chapter ORDER BY score DESC, passage_id) AS position
+        FROM eligible
+    )
+    SELECT * FROM ranked WHERE position = 1 AND score >= :min_score
+    ORDER BY score DESC, passage_id
     LIMIT :limit
 """)
 _IMAGE = r"!\[[^]]*\]\([^)]*\)"
@@ -198,6 +220,13 @@ def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> 
         raise HTTPException(503, "The NCERT question encoder is unavailable.") from None
     return _query(_PASSAGES, scope, embedding=str(vector), limit=limit,
                   per_chapter=1 if chapters else limit)
+
+
+def prerequisites(row: dict, limit: int = 2) -> list[dict]:
+    """Earlier topics of the same subject that this passage builds on, nearest in meaning first. [] when none."""
+    return _query(_PREREQUISITES, {"subject": row["subject"]}, passage_id=row["passage_id"], heading=row["heading"],
+                  cur_grade=row["grade"], cur_book=row["book_code"], cur_chapter=row["chapter"],
+                  cur_page=row["physical_page"], min_score=PREREQUISITE_MIN_SCORE, limit=limit)
 
 
 def chapter_of(row: dict) -> Chapter:

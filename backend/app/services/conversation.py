@@ -133,3 +133,19 @@ def loose_number(text: str, question_text: str = "") -> str | None:
 def explain_request(text: str) -> bool:
     """'what is a percentage?', 'explain fractions', 'tell me about division' (the topic is matched elsewhere)."""
     return bool(_EXPLAIN_PREFIX.match(normalize(text)))
+
+
+_WHERE_TOPIC = re.compile(r"\b(?:where|topic|chapter|lesson|section|concept|part)\b")
+_WHERE_STATE = re.compile(
+    r"\b(?:are we|were we|am i|we are|we're|i am|i'm|current|currently|select(?:ed)?|chose|chosen|pick(?:ed)?|right now|now|"
+    r"so far|doing|studying|discussing|learning|working)\b")
+_WHERE_DOING = re.compile(r"\bwhat (?:are|were) we (?:doing|studying|learning|discussing|working on|on)\b")
+_WHERE_NOT = re.compile(r"\b(?:should|next|explain|define|mean|means|about|solve|prove|why|how|list|show|can i|can we)\b")
+
+
+def asks_where(text: str) -> bool:
+    """'where are we?', 'which topic are we on?', 'what is the current chapter?', 'what are we studying now?'"""
+    t = normalize(text)
+    if not t or len(t) > 80 or re.search(r"\d", t) or _WHERE_NOT.search(t):
+        return False
+    return bool(_WHERE_DOING.search(t) or (_WHERE_TOPIC.search(t) and _WHERE_STATE.search(t)))
