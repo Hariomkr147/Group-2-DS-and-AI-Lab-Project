@@ -96,3 +96,65 @@ def test_unrecognised_message_lists_what_to_do(client):
     say(client, sid, "Teach me percentages")
     r = say(client, sid, "banana smoothie recipe")
     assert "hint" in r["reply"] and "20% of 50" in r["reply"]
+
+
+@pytest.mark.parametrize("text", ["can you provide a different question?", "give me another question", "something else"])
+def test_different_question_requests_are_recognised(text):
+    assert conversation.classify(text) == "practice"
+
+
+def test_repeat_complaint_is_recognised():
+    assert conversation.complains_of_repeat("you are giving the same question again and again")
+    assert not conversation.complains_of_repeat("what is 20% of 50")
+
+
+def test_repeat_complaint_gets_an_apology_not_the_same_hint(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")
+    first = say(client, sid, "Can I have a hint?")
+    r = say(client, sid, "you are giving the same question again and again")
+    assert r["reply"].startswith("Sorry about that")
+    assert r["reply"] != first["reply"]
+
+
+def test_second_hint_request_is_not_the_same_hint(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")
+    first = say(client, sid, "Can I have a hint?")
+    second = say(client, sid, "Can I have a hint?")
+    assert second["reply"] != first["reply"] and "10" not in second["reply"].replace("100", "")
+
+
+def test_yes_after_done_on_the_last_concept_is_conversational(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")
+    assert say(client, sid, "10")["action"] == "done"
+    r = say(client, sid, "yes")
+    assert "worked through everything" not in r["reply"] and "Nice work" in r["reply"]
+
+
+@pytest.mark.parametrize("text", ["how can you help me?", "what can you help me with", "who are you"])
+def test_help_questions_are_menu_requests(text):
+    assert conversation.classify(text) == "menu"
+
+
+def test_model_writes_the_help_reply_and_topics_are_kept(client, monkeypatch):
+    from app.services import socratic
+    monkeypatch.setattr(socratic, "chat", lambda *a, **k: "Happy to help! We can practise together.")
+    r = say(client, start(client), "how can you help me?")
+    assert r["reply"].startswith("Happy to help!") and "Percentages" in r["reply"] and r["action"] != "redirect"
+
+
+@pytest.mark.parametrize("text, number", [
+    ("20!", "20"), ("20 only", "20"), ("oy! 4x5 is 20 only no", "20"), ("20 is correct answer only right?", "20"),
+    ("twenty only", "20"), ("What is 4 x 5?", None), ("4 and 5", None), ("I like maths", None),
+])
+def test_loose_number(text, number):
+    assert conversation.loose_number(text, "What is 4 x 5?") == number
+
+
+@pytest.mark.parametrize("answer", ["20!", "20 is correct answer only right?", "oy! 4x5 is 20 only no", "20 only"])
+def test_chatty_right_answers_are_graded(client, answer):
+    sid = start(client)
+    say(client, sid, "Teach me multiplication")
+    assert say(client, sid, answer)["action"] == "done"

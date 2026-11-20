@@ -64,6 +64,48 @@ def _from_model(provider: str, question: Question, learner_text: str) -> str | N
     return text
 
 
+CHAT_SYSTEM = (
+    "You are a warm, patient Socratic maths tutor chatting with a student. Reply to what the student just said "
+    "in one to three short sentences, in a natural friendly voice. Do not repeat your earlier wording. "
+    "{situation} Never state the final answer. Finish with one small question or nudge that moves them forward.\n\n"
+    "Problem: {question}\n"
+    "Correct final answer (for checking only, never reveal it): {answer}"
+)
+
+
+TALK_SYSTEM = (
+    "You are a warm, friendly Socratic tutor. You help students with only these topics: {topics}. "
+    "Reply to what the student just said in one to three short sentences, in a natural voice, and do not repeat "
+    "your earlier wording. {situation} Name the topics you can help with when it fits, stay on them, and politely "
+    "decline anything else. Never give final answers; you ask questions and give hints."
+)
+
+
+def chat(question: Question | None, learner_text: str, history: list[tuple[str, str]], situation: str = "",
+         topics: str = "") -> str | None:
+    """A conversational reply to a message that fits no rule. None when the model is off, down or unusable.
+    With a pending question the model also sees it (and checks against the answer); otherwise it gets the topic list."""
+    provider = os.environ.get("SOCRATIC_PROVIDER", DEFAULT_PROVIDER).strip().lower()
+    if provider in TEMPLATES_ONLY:
+        return None
+    recent = "\n".join(f"{'Student' if role == 'learner' else 'Tutor'}: {text[:300]}" for role, text in history[-6:])
+    prompt = f"{recent}\nStudent: {learner_text[:400]}" if recent else learner_text[:400]
+    system = (CHAT_SYSTEM.format(situation=situation, question=question.text, answer=question.answer) if question
+              else TALK_SYSTEM.format(situation=situation, topics=topics or "the course topics"))
+    try:
+        text = llm.get_provider(provider).generate(prompt, system, 256).strip()
+    except Exception as e:
+        log.warning("Socratic chat unavailable (%s): %s", provider, type(e).__name__)
+        return None
+    if text and text[-1] not in ".?!":
+        ends = [m.end() for m in re.finditer(r"[.?!](?=\s)", text)]
+        text = text[:ends[-1]] if ends else ""
+    if (not text or len(text) > 700 or (question and guardrails.leaks_answer(text, question.answer))
+            or re.search(r"(?mi)^\s*(?:student|tutor|user|assistant)\s*:", text)):
+        return None
+    return text
+
+
 def write(action: Action, concept: Concept, question: Question | None, learner_text: str | None = None) -> str:
     provider = os.environ.get("SOCRATIC_PROVIDER", DEFAULT_PROVIDER).strip().lower()
     if provider not in TEMPLATES_ONLY and action in MODEL_ACTIONS and question and learner_text:

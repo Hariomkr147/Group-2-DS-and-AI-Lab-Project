@@ -134,7 +134,8 @@ summary::marker { color: var(--accent); }
 
 .study { min-width: 0; border: 1px solid var(--line); border-radius: 9px; background: var(--sheet); }
 .view-switch { display: flex; flex-wrap: wrap; gap: .3rem; padding: .45rem .65rem; align-items: center; border-bottom: 1px solid var(--line); }
-.view-switch .history-trigger { margin-inline-start: auto; font-size: .94rem; color: var(--accent); }
+.view-switch .history-actions { margin-inline-start: auto; display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
+.view-switch .history-trigger, .view-switch .new-chat-trigger { font-size: .94rem; color: var(--accent); }
 .chat-history { width: min(34rem, calc(100% - 2rem)); max-height: 80dvh; overflow: auto; overscroll-behavior: contain; border: 1px solid var(--field); border-radius: 9px; background: var(--sheet); color: var(--ink); padding: 0; }
 .chat-history::backdrop { background: rgb(14 25 21 / 55%); }
 .chat-history header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1rem 1.25rem; border-bottom: 1px solid var(--line); }

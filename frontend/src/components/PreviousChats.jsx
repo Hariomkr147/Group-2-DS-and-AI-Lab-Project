@@ -15,6 +15,8 @@ export default function PreviousChats({ current, onCurrent, onNew, onResume, dis
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [retry, setRetry] = useState(0);
+  const [creating, setCreating] = useState(false);
+  const [createError, setCreateError] = useState('');
 
   useEffect(() => {
     if (!open) return;
@@ -46,10 +48,27 @@ export default function PreviousChats({ current, onCurrent, onNew, onResume, dis
     }
   }
 
+  async function startNew() {
+    setCreating(true);
+    setCreateError('');
+    opening.current = new AbortController();
+    try {
+      await onNew(opening.current.signal);
+    } catch (e) {
+      if (!opening.current.signal.aborted) setCreateError(e.message);
+    } finally {
+      setCreating(false);
+    }
+  }
+
   return <>
+    <span className="history-actions">
+    <button className="new-chat-trigger" disabled={disabled || creating} onClick={startNew}><Icon name="plus" />New chat</button>
     <button className="history-trigger" disabled={disabled} onClick={() => {
       setItems([]); setNext(null); setPage(null); setBusy(true); setError(''); setOpen(true); dialog.current.showModal();
     }}><Icon name="history" />Previous chats</button>
+    {createError && <small role="alert">{createError}</small>}
+    </span>
     <dialog className="chat-history" ref={dialog} aria-labelledby="history-heading" onClose={() => { opening.current?.abort(); setOpen(false); }}>
       <header><h2 id="history-heading">Previous chats</h2><button autoFocus onClick={() => dialog.current.close()}>Close</button></header>
       <p className="muted">Everyone using this project sign-in can reopen these chats.</p>

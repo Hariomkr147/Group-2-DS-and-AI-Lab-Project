@@ -76,6 +76,8 @@ def _assessment_attempt(text: str, question: Question) -> tuple[str, list[str] |
     else:
         working = None
     if guardrails.numeric_answer(question.answer):
+        if not guardrails.numeric_answer(attempt) and not _looks_like_step(text):   # "20!", "20 only", "4x5 is 20 only no"
+            attempt = conversation.loose_number(text, question.text) or attempt
         return (attempt, working) if guardrails.numeric_answer(attempt) else None
     return (attempt, working) if attempt and (prefix or wrapped or same_answer(attempt, question.answer)) else None
 
@@ -142,6 +144,32 @@ def _menu(pack, lead: str) -> str:
             f"Say, for example, “Teach me {pack.concepts[0].name}”, or ask “What is {pack.concepts[-1].name.lower()}?”").strip()
 
 
+def _history(db: Session, session: SessionRow, limit: int = 6) -> list[tuple[str, str]]:
+    rows = db.execute(select(TurnRow.role, TurnRow.text).where(TurnRow.session_id == session.id)
+                      .order_by(TurnRow.id.desc()).limit(limit)).all()
+    return [(role, text) for role, text in reversed(rows)]
+
+
+def _neighbour(db: Session, session: SessionRow, pack, current: Concept, seen: list[str]) -> Concept | None:
+    """A related concept (builds on this one, else a prerequisite) that still has an unasked question."""
+    related = [c for c in pack.concepts if current.id in c.prerequisites]
+    related += [course_store.get_concept(db, session.course_id, p) for p in current.prerequisites]
+    return next((c for c in related if c and any(q.id not in seen for q in c.questions)), None)
+
+
+def _talk(db: Session, session: SessionRow, text: str, asked: Question | None, situation: str, fallback: str,
+          pack=None, list_topics: bool = False) -> str:
+    """Let the model reply to everyday chat; when the model is unavailable use the fixed fallback.
+    The topic list is added only when the learner needs it (`list_topics`: they asked what we cover)."""
+    pack = pack or course_store.get_pack(db, session.course_id)
+    reply = socratic.chat(asked, text, _history(db, session), situation, topics=_topics(pack))
+    if not reply:
+        return fallback
+    if list_topics and not any(c.name.casefold() in reply.casefold() for c in pack.concepts):
+        reply += f" I can help with: {_topics(pack)}."
+    return reply
+
+
 def _named_concept(pack, text: str) -> Concept | None:
     """A concept the learner names in their message ("what is a percentage?" -> percentages)."""
     t = text.casefold()
@@ -180,6 +208,9 @@ def _pick(concept: Concept, seen: list[str], want: str, current: Question | None
 def _converse_pack(db: Session, session: SessionRow, text: str, asked: Question | None) -> TutorReply | None:
     """Greetings, thanks, yes/next/harder/easier, "I don't know", examples, "what is X?" in a course pack."""
     kind = conversation.classify(text)
+    apology = ""
+    if kind is None and asked and conversation.complains_of_repeat(text):
+        kind, apology = "practice", "Sorry about that! "
     pack = course_store.get_pack(db, session.course_id)
     named = _named_concept(pack, text) if conversation.explain_request(text) else None
     if kind is None and named is None:
@@ -197,21 +228,29 @@ def _converse_pack(db: Session, session: SessionRow, text: str, asked: Question 
 
     if kind == "greeting":
         if asked:
-            return tutor(db, session, text, f"Hi! We were working on this one: {asked.text} Give it a try, or say “hint” for a nudge.")
-        return tutor(db, session, text, _menu(pack, "Hi! I'm your tutor. I ask questions, give hints and explain ideas, so you work things out yourself."))
+            return tutor(db, session, text, _talk(db, session, text, asked, "Greet them and invite them to continue.",
+                         f"Hi! We were working on this one: {asked.text} Give it a try, or say “hint” for a nudge.", pack))
+        return tutor(db, session, text, _talk(db, session, text, None, "Greet them and say how you can help.",
+                     _menu(pack, "Hi! I'm your tutor. I ask questions, give hints and explain ideas, so you work things out yourself."), pack))
     if kind == "bye":
         return tutor(db, session, text, "Bye! Come back any time. Your progress is saved.")
     if kind == "thanks":
         if asked:
-            return tutor(db, session, text, f"You're welcome! Ready when you are.{redo}")
-        return tutor(db, session, text, _menu(pack, "You're welcome! Want to try something else?"))
+            return tutor(db, session, text, _talk(db, session, text, asked, "They said thanks; reply warmly.",
+                         f"You're welcome! Ready when you are.{redo}", pack))
+        return tutor(db, session, text, _talk(db, session, text, None, "They said thanks; reply warmly and offer more practice.",
+                     _menu(pack, "You're welcome! Want to try something else?"), pack))
     if kind == "menu":
         lead = "I'm your tutor for this course. Ask me to explain an idea, give a hint, or quiz you."
-        return tutor(db, session, text, _menu(pack, lead) + (f" Right now: {asked.text}" if asked else ""))
+        return tutor(db, session, text, _talk(
+            db, session, text, asked, "Explain how you can help: explain ideas, give hints, quiz them, check their steps.",
+            _menu(pack, lead) + (f" Right now: {asked.text}" if asked else ""), pack, list_topics=True))
     if kind == "no":
         if asked:
-            return tutor(db, session, text, f"That's fine, take your time. Say “hint” if you want a nudge.{redo}")
-        return tutor(db, session, text, _menu(pack, "No problem. Pick a topic whenever you're ready."))
+            return tutor(db, session, text, _talk(db, session, text, asked, "They said no; be understanding and offer a hint.",
+                         f"That's fine, take your time. Say “hint” if you want a nudge.{redo}", pack))
+        return tutor(db, session, text, _talk(db, session, text, None, "They said no; be understanding.",
+                     _menu(pack, "No problem. Pick a topic whenever you're ready."), pack))
     if kind == "idk":
         if not asked or not current:
             return tutor(db, session, text, _menu(pack, "That's okay, let's find a starting point."))
@@ -240,15 +279,25 @@ def _converse_pack(db: Session, session: SessionRow, text: str, asked: Question 
         now = asked or next((q for q in current.questions if seen and q.id == seen[-1]), None)
         question = _pick(current, seen, want, now)
         if question:
-            lead = {"harder": "Let's make it harder.", "easier": "Sure, an easier one.", "any": "Here's another one."}[want]
-            return _present(db, session, text, current, f"{lead} {question.text}", question, Action.ASK, seen)
+            lead = {"harder": "Let's make it harder.", "easier": "Sure, an easier one.",
+                    "any": "Here's a different one."}[want]
+            return _present(db, session, text, current, f"{apology}{lead} {question.text}", question, Action.ASK, seen)
+        if apology:                                            # complained about repeats: move to a related topic
+            other = _neighbour(db, session, pack, current, seen)
+            if other:
+                q = _next_question(other, seen)
+                return _present(db, session, text, other,
+                                f"{apology}I've used up my {current.name} questions, so let's try {other.name}, "
+                                f"which is closely related. {q.text}", q, Action.ASK, seen)
         if want == "harder":                                   # climb to a concept that builds on this one
             nxt = next((c for c in pack.concepts if current.id in c.prerequisites and c.questions), None)
             if nxt:
                 q = _next_question(nxt, seen)
                 return _present(db, session, text, nxt, f"Great, let's step up to {nxt.name}, which builds on {current.name}. {q.text}",
                                 q, Action.ASK, seen)
-            return tutor(db, session, text, _menu(pack, f"You've worked through everything I have on {current.name}."))
+            return tutor(db, session, text,
+                         f"That's the hardest {current.name} question I have, and you've been through all of them. Nice work! "
+                         f"Which would you like next: {_topics(pack)}? Or say “explain {current.name.lower()}” for a recap.")
         if want == "easier":
             prereq = next((course_store.get_concept(db, session.course_id, p) for p in current.prerequisites), None)
             if prereq and prereq.questions:
@@ -258,7 +307,7 @@ def _converse_pack(db: Session, session: SessionRow, text: str, asked: Question 
         again = _next_question(current, seen)                  # "another question", but all were used
         if again:
             return _present(db, session, text, current,
-                            f"You've seen all {len(current.questions)} {current.name} question(s) I have, so here's one again: "
+                            f"{apology}You've seen all {len(current.questions)} {current.name} question(s) I have, so here's one again: "
                             f"{again.text} Or pick another topic: {_topics(pack)}.", again, Action.ASK, seen)
         return tutor(db, session, text, _menu(pack, f"I have no more {current.name} questions."))
     return None
@@ -438,17 +487,44 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
 def _off_topic(db: Session, session: SessionRow, text: str) -> TutorReply:
     pack = course_store.get_pack(db, session.course_id)
     reply = f"That's outside this course, so I can't help with it here. I can help with: {_topics(pack)}. Which would you like?"
-    if session.pending and session.pending.get("text"):
-        reply += f" Or carry on with: {session.pending['text']}"
+    asked = Question(**session.pending) if session.pending and session.pending.get("text") else None
+    reply = _talk(db, session, text, asked, "Their message is not about these topics. Say so kindly and steer back.", reply, pack)
+    if asked and reply.startswith("That's outside"):
+        reply += f" Or carry on with: {asked.text}"
     return _respond(db, session, text, reply, Action.REDIRECT, InputLabel.OFF_TOPIC)
 
 
-def _not_sure(db: Session, session: SessionRow, asked: Question) -> str:
-    """When a message fits no pattern: say so, and list what the learner can do next."""
+def _not_sure(db: Session, session: SessionRow, asked: Question, text: str = "") -> str:
+    """A message that fits no pattern: let the model answer it in conversation, else a short fallback that
+    does not repeat the question the learner has just seen."""
+    reply = socratic.chat(asked, text, _history(db, session), "Answer their message naturally, then steer back to the problem.") if text else None
+    if reply:
+        return reply
     name = (course_store.get_concept(db, session.course_id, session.current_concept).name
             if session.current_concept else "this topic")
+    if "I didn't quite catch" in _last_tutor_text(db, session):   # already said so, with the question: do not repeat it
+        return (f"Sorry, I'm still not sure what you mean. We're on {name}. You can type your answer, "
+                f"say “hint”, ask me to explain the idea, or name another topic.")
     return (f"I didn't quite catch how that connects to {name}. Your question is: {asked.text} "
             f"You can type your answer, say “hint”, ask me to explain the idea, or name another topic.")
+
+
+def _next_hint(db: Session, session: SessionRow, asked: Question, text: str) -> str:
+    """The question's hint the first time; after that something new, so the learner never gets the same hint twice."""
+    hint = asked.hint or "What is the first step you can work out?"
+    if guardrails.leaks_answer(hint, asked.answer):
+        hint = "Which part of the question can you work out first?"
+    if hint not in _last_tutor_text(db, session):
+        return hint
+    reply = socratic.chat(asked, text, _history(db, session),
+                          f"The student wants more help. The hint \"{hint}\" was already given, so give a different, "
+                          f"smaller clue or explain the idea in simpler words.")
+    if reply:
+        return reply
+    concept = course_store.get_concept(db, session.course_id, session.current_concept) if session.current_concept else None
+    material = concept.materials[0].text if concept and concept.materials else ""
+    return (f"Let's look at it another way. {material} Which number does that tell you to start with?"
+            if material else "Let's break it into a smaller piece: what is the very first thing the question asks you to find?")
 
 
 def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False,
@@ -500,14 +576,11 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
             return _off_topic(db, session, text)
         return _respond(db, session, text, _menu(course_store.get_pack(db, session.course_id), "What would you like to work on?"))
     elif assessment is None and intent in _HELP_INTENTS and scope != "unsupported":
-        hint = asked.hint or "What is the first step you can work out?"
-        if guardrails.leaks_answer(hint, asked.answer):
-            hint = "Which part of the question can you work out first?"
-        return _respond(db, session, text, hint, Action.HINT)
+        return _respond(db, session, text, _next_hint(db, session, asked, text), Action.HINT)
     elif assessment is None:
         if scope == "unsupported" and intent != "uncertain":
             return _off_topic(db, session, text)
-        return _respond(db, session, text, _not_sure(db, session, asked))
+        return _respond(db, session, text, _not_sure(db, session, asked, text))
     else:
         attempt, working = assessment
         correct = same_answer(attempt, asked.answer)

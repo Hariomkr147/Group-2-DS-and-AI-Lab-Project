@@ -125,3 +125,17 @@ def test_qwen_finetuned_provider_needs_its_settings(monkeypatch):
     with pytest.raises(Exception) as error:
         llm.QwenFinetuned().generate("hi", None, 96)
     assert "QWEN_URL" in str(error.value.detail)
+
+
+def test_chat_uses_the_model_and_history(use):
+    fake = use("Fair point, let me try a new angle. What is 1% of 50?")
+    reply = socratic.chat(QUESTION, "same question again", [("tutor", "What is 20% of 50?")], "Be brief.")
+    assert reply.startswith("Fair point")
+    prompt, system = fake.calls[0]
+    assert "Tutor: What is 20% of 50?" in prompt and "Student: same question again" in prompt and "Be brief." in system
+
+
+@pytest.mark.parametrize("reply", ["It is 10.", "", "Tutor: hi", RuntimeError("down")])
+def test_chat_falls_back_to_none(use, reply):
+    use(reply)
+    assert socratic.chat(QUESTION, "hmm", []) is None
