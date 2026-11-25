@@ -193,7 +193,7 @@ class QwenFinetuned(Provider):
     """
     name = "qwen_finetuned"
     model = "qwen-3-test"
-    MAX_NEW_TOKENS = 192
+    MAX_NEW_TOKENS = 1096
 
     def ready(self):
         _need("QWEN_URL", self.name)

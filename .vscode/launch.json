@@ -13,6 +13,18 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "Backend: API (uvicorn, reload)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--port", "8000", "--reload", "--reload-dir", "app"],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "envFile": "${workspaceFolder}/backend/.env",
+      "console": "integratedTerminal",
+      "subProcess": true
+    },
+    {
       "name": "Backend: tests (pytest)",
       "type": "debugpy",
       "request": "launch",

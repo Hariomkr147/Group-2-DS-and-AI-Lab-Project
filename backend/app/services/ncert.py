@@ -63,7 +63,7 @@ _TOPIC_PASSAGE = text("SELECT " + _PASSAGE_FIELDS + _ELIGIBLE + """
     AND p.heading = :heading
     ORDER BY p.physical_page, (position(p.heading in split_part(ltrim(p.content), chr(10), 1)) > 0) DESC,
              p.passage_id
-    LIMIT 1
+    LIMIT :limit
 """)
 _BY_ID = text("SELECT " + _PASSAGE_FIELDS + _ELIGIBLE + " AND p.passage_id = :passage_id LIMIT 1")
 _PASSAGES = text("""
@@ -200,8 +200,28 @@ def catalogue(grade: int, subject: str) -> list[ChapterTopics]:
 def topic_passage(scope: dict, heading: str) -> dict | None:
     if any(scope.get(field) is None for field in ("grade", "subject", "book_code", "chapter")):
         return None
-    rows = _query(_TOPIC_PASSAGE, scope, heading=heading)
-    return rows[0] if rows else None
+    limit = _topic_passage_limit()
+    rows = _query(_TOPIC_PASSAGE, scope, heading=heading, limit=limit)
+    log.warning("topic_passage SQL (%d rows):\n%s;", len(rows), _runnable_sql(_TOPIC_PASSAGE, scope, heading=heading, limit=limit))
+    if not rows:
+        return None
+    # The first chunk opens the topic and keeps its id, page and link; later chunks extend its text.
+    return {**rows[0], "content": "\n\n".join(row["content"] for row in rows)}
+
+
+def _runnable_sql(statement, scope: dict, **extra) -> str:
+    """Debug aid: the statement with its values inlined, ready to paste into the SQL editor."""
+    params = {key: scope.get(key) for key in ("grade", "subject", "book_code", "chapter")}
+    params.update(release=RELEASE, revision=REVISION, model=MODEL, image_pattern=_IMAGE, **extra)
+    return str(statement.bindparams(**params).compile(dialect=engine.dialect, compile_kwargs={"literal_binds": True}))
+
+
+def _topic_passage_limit() -> int:
+    """How many chunks of one topic to teach from (NCERT_TOPIC_PASSAGES, default 5)."""
+    try:
+        return max(1, int(os.getenv("NCERT_TOPIC_PASSAGES", "5")))
+    except ValueError:
+        return 5
 
 
 def chapter_title(scope: dict) -> str:
