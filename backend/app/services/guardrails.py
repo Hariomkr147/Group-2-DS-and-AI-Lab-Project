@@ -1,4 +1,5 @@
 """Local intent and scope classification and deterministic answer checks."""
+from fractions import Fraction
 from functools import lru_cache
 import logging
 from pathlib import Path
@@ -123,6 +124,47 @@ def classify_input(db: Session, session: SessionRow, text: str, question: Questi
     except Exception as error:
         log.warning("Message router prediction failed (%s)", type(error).__name__)
         return "uncertain", "uncertain"
+
+
+_VALUE = re.compile(r"(?<![\w.])-?\d+(?:\.\d+)?(?:/\d+)?(?!\w|\.\d)")
+MAX_PROBLEM_NUMBERS = 6       # more numbers than this is working or a table, not a short problem
+
+
+def _values(text: str) -> list[Fraction]:
+    values = []
+    for match in _VALUE.findall(text):
+        try:
+            value = Fraction(match)
+        except (ValueError, ZeroDivisionError):
+            continue
+        if value not in values:
+            values.append(value)
+    return values
+
+
+def likely_results(problem: str) -> set[Fraction]:
+    """Values a reply should not state for a problem nobody stored an answer for: the sum and product of all its
+    numbers and every pairwise sum, difference, product and quotient. Numbers the student wrote and the trivial
+    0 and 1 are left out, so restating the question or saying "step 1" is not a leak."""
+    numbers = _values(problem)
+    if not 2 <= len(numbers) <= MAX_PROBLEM_NUMBERS:
+        return set()
+    total, product = sum(numbers, Fraction(0)), Fraction(1)
+    for number in numbers:
+        product *= number
+    results = {total, product}
+    for i, a in enumerate(numbers):
+        for b in numbers[i + 1:]:
+            results |= {a + b, a * b, abs(a - b)}
+            results |= {x / y for x, y in ((a, b), (b, a)) if y}
+    return results - set(numbers) - {Fraction(0), Fraction(1)}
+
+
+def leaks_result(reply: str, problem: str) -> bool:
+    """True when the reply states a likely result of the student's problem (see likely_results). Works without a
+    known answer, so it also guards free-form NCERT questions."""
+    results = likely_results(problem)
+    return bool(results) and any(value in results for value in _values(reply))
 
 
 def leaks_answer(reply: str, answer: str | None) -> bool:

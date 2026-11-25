@@ -1,5 +1,6 @@
 import io
 import json
+import re
 
 import pytest
 from fastapi import HTTPException
@@ -394,3 +395,82 @@ def test_practice_request_is_remembered_until_the_topic_is_named(ncert_client, m
     monkeypatch.setattr(ncert, "rank", lambda *a, **k: [_passage()])
     practice = client.post(path, json={"text": "What is electric current?"}).json()
     assert practice["action"] == "guide" and practice["resource"] and "?" in practice["reply"]
+
+
+_PRIMES_QUESTION = "If we multiply the prime numbers 2, 3, and 5 together, what is the resulting number?"
+_PRIMES_LEAK = ("Multiplying 2, 3, and 5 gives 30. This illustrates how any number can be built from primes. "
+                "Can you think of another number that can be made this way?")
+
+
+def _fta_passage():
+    return {**_passage(10, "maths"), "book_code": "jemh1", "chapter": 1, "passage_id": "fta",
+            "heading": "1.2 The Fundamental Theorem of Arithmetic",
+            "content": "Every composite number can be expressed as a product of primes. For example, 2 x 3 x 5 = 30."}
+
+
+class _ProblemModel:
+    def __init__(self, label):
+        self.label, self.calls = label, []
+
+    def generate(self, prompt, system, max_tokens):
+        self.calls.append(prompt)
+        return self.label
+
+
+def test_word_problem_answer_is_blocked_even_when_the_exercise_detector_misses_it(ncert_client, monkeypatch):
+    """Regression: the model said 'gives 30' to this word problem in explain mode. Classifier off, regex misses."""
+    passage = _fta_passage()
+    monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: [passage])
+    monkeypatch.setattr(ncert, "cited_passage", lambda *args: passage)
+    monkeypatch.setattr(socratic, "_hosted", lambda *args: _PRIMES_LEAK)
+    path = _start(ncert_client, grade=10, subject="maths")
+    reply = ncert_client.post(path, json={"text": _PRIMES_QUESTION}).json()
+    assert reply["generation"] == "extractive"
+    assert not re.search(r"(?<!\d)30(?!\d)", reply["reply"])   # neither the model's reply nor the passage example
+
+
+def test_problem_classifier_sends_word_problem_to_guide_mode(ncert_client, monkeypatch):
+    passage = _fta_passage()
+    model = _ProblemModel("problem")
+    monkeypatch.setenv("MESSAGE_CLASSIFIER_PROVIDER", "fake")
+    monkeypatch.setattr(socratic.llm, "get_provider", lambda name: model)
+    monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: [passage])
+    monkeypatch.setattr(ncert, "cited_passage", lambda *args: passage)
+    seen = []
+
+    def hosted(text, context, evidence, mode):
+        seen.append((context, mode))
+        return "Start with the first two primes. What do you get when you multiply them?"
+
+    monkeypatch.setattr(socratic, "_hosted", hosted)
+    path = _start(ncert_client, grade=10, subject="maths")
+    reply = ncert_client.post(path, json={"text": _PRIMES_QUESTION}).json()
+    assert reply["action"] == "guide" and reply["generation"] == "hosted"
+    assert seen[-1][1] == "guide" and f"Current exercise: {_PRIMES_QUESTION}" in seen[-1][0]
+    assert json.dumps(_PRIMES_QUESTION) in model.calls
+
+
+@pytest.mark.parametrize("label, expected", [
+    ("problem", True), (" Concept.", False), ("maybe", None), ("", None),
+])
+def test_problem_classifier_accepts_only_its_two_labels(monkeypatch, label, expected):
+    monkeypatch.setenv("MESSAGE_CLASSIFIER_PROVIDER", "fake")
+    monkeypatch.setattr(socratic.llm, "get_provider", lambda name: _ProblemModel(label))
+    assert socratic.is_problem(_PRIMES_QUESTION) is expected
+
+
+def test_problem_classifier_is_off_with_templates():
+    assert socratic.is_problem(_PRIMES_QUESTION) is None      # conftest sets MESSAGE_CLASSIFIER_PROVIDER=templates
+
+
+@pytest.mark.parametrize("reply, problem, leaks", [
+    (_PRIMES_LEAK, _PRIMES_QUESTION, True),                                         # product of all numbers
+    ("First, 2 times 3 is 6. What next?", _PRIMES_QUESTION, True),                 # a partial result
+    ("Start with 2 and 3. What do you get?", _PRIMES_QUESTION, False),             # only the student's numbers
+    ("Try step 1: multiply two of them.", _PRIMES_QUESTION, False),                 # 0 and 1 never count
+    ("2, 3 and 7 are primes, so 42 = 2 x 3 x 7.", "What is a prime number?", False),  # no problem numbers
+    ("Each group has 4 items.", "What is 24 ÷ 6?", True),
+])
+def test_leaks_result_needs_no_stored_answer(reply, problem, leaks):
+    from app.services import guardrails
+    assert guardrails.leaks_result(reply, problem) is leaks

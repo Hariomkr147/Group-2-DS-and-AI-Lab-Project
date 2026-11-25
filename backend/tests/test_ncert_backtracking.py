@@ -91,7 +91,7 @@ def test_repeated_confusion_steps_back_then_resumes(lesson):
     assert "Integers" in where and "Linear equations" in where
     again = client.post(path, json={"text": "back to the main topic"}).json()
     assert again["action"] == "advance" and "Linear equations" in again["reply"] and again["level"] == 8
-    assert "Welcome back" in again["reply"]
+    assert "Welcome to" in again["reply"]
 
 
 def test_learner_can_ask_for_prerequisites_and_basics(lesson):
@@ -118,7 +118,7 @@ def test_picking_a_topic_clears_the_detour(lesson):
                             "topic_heading": "2.3 Linear equations"})
     where = client.post(path, json={"text": "where are we?"}).json()["reply"]
     assert "Integers" not in where and "stepped back" not in where
-    assert "Welcome back" not in client.post(path, json={"text": "back to the main topic"}).json()["reply"]
+    assert "Welcome to" not in client.post(path, json={"text": "back to the main topic"}).json()["reply"]
 
 
 def test_pack_tutor_says_where_we_are_after_a_backtrack(client):
@@ -208,9 +208,9 @@ def test_two_level_detour_climbs_back_one_level_at_a_time(chain):
     assert deeper["action"] == "backtrack" and "Integers" in deeper["reply"]
 
     up = _say(client, path, "back to the previous topic")
-    assert up["action"] == "advance" and up["level"] == 7 and "Welcome back to “Negative numbers”" in up["reply"]
+    assert up["action"] == "advance" and up["level"] == 7 and "Welcome to “Negative numbers”" in up["reply"]
     top = _say(client, path, "back to the previous topic")
-    assert top["action"] == "advance" and top["level"] == 8 and "Welcome back to “Linear equations”" in top["reply"]
+    assert top["action"] == "advance" and top["level"] == 8 and "Welcome to “Linear equations”" in top["reply"]
     assert "Integers" not in _say(client, path, "where are we?")["reply"]                # the stack is empty again
 
 
@@ -226,7 +226,7 @@ def test_detours_go_as_deep_as_the_prerequisites_and_climb_back_one_level_at_a_t
         assert reply["action"] == "backtrack" and expected in reply["reply"]
     assert _say(client, path, "go back to the basics")["action"] != "backtrack"         # no earlier topic left
     for expected in ("Counting numbers", "Integers", "Negative numbers", "Linear equations"):
-        assert f"Welcome back to “{expected}”" in _say(client, path, "back to the previous topic")["reply"]
+        assert f"Welcome to “{expected}”" in _say(client, path, "back to the previous topic")["reply"]
 
 
 def test_help_counter_starts_again_inside_a_detour(chain):
@@ -266,7 +266,7 @@ def test_understood_inside_a_detour_climbs_back_instead_of_skipping_ahead(chain,
     _say(client, path, "go back to the basics")
     monkeypatch.setattr(socratic, "classify_message", lambda text, topic_open=False: "understood")
     reply = _say(client, path, "cool, what's next")
-    assert reply["action"] == "advance" and reply["level"] == 8 and "Welcome back" in reply["reply"]
+    assert reply["action"] == "advance" and reply["level"] == 8 and "Welcome to" in reply["reply"]
 
 
 def test_resume_when_the_saved_topic_is_gone_asks_for_a_topic(chain, monkeypatch):
@@ -284,7 +284,7 @@ def test_got_it_inside_a_detour_resumes_even_when_the_classifier_says_thanks(cha
     for text in ("got it", "ok, that makes sense"):
         assert _say(client, path, "go back to the basics")["action"] == "backtrack"
         reply = _say(client, path, text)
-        assert reply["action"] == "advance" and "Welcome back" in reply["reply"], text
+        assert reply["action"] == "advance" and "Welcome to" in reply["reply"], text
 
 
 def test_back_to_the_main_topic_without_a_detour_says_we_are_on_it(lesson):
@@ -316,7 +316,7 @@ def test_step_back_uses_the_topic_not_the_chunk_a_follow_up_found(chain, monkeyp
     _say(client, path, "In linear equations, why do we move terms across?")
     back = _say(client, path, "go back to the basics")
     assert back["action"] == "backtrack" and "Negative numbers" in back["reply"]       # main's prerequisite
-    assert "Welcome back to “Linear equations”" in _say(client, path, "back to the main topic")["reply"]
+    assert "Welcome to “Linear equations”" in _say(client, path, "back to the main topic")["reply"]
 
 
 def test_move_on_survives_a_missing_corpus(chain, monkeypatch):
@@ -352,10 +352,11 @@ def test_back_to_the_main_topic_jumps_over_every_level(chain):
     client, path = chain
     _say(client, path, "go back to the basics")
     deeper = _say(client, path, "go back to the basics")
-    assert "back to the previous topic" in deeper["reply"]                              # two ways up once two deep
-    assert "The main topic is “Linear equations”" in _say(client, path, "where are we?")["reply"]
+    assert deeper["action"] == "backtrack" and "back to the" not in deeper["reply"]     # no return wording in the reply
+    where = _say(client, path, "where are we?")["reply"]
+    assert "The main topic is “Linear equations”" in where and "back to the previous topic" in where
     top = _say(client, path, "back to the main topic")
-    assert top["action"] == "advance" and top["level"] == 8 and "Welcome back to “Linear equations”" in top["reply"]
+    assert top["action"] == "advance" and top["level"] == 8 and "Welcome to “Linear equations”" in top["reply"]
     assert "stepped back" not in _say(client, path, "where are we?")["reply"]           # the stack is empty
     assert "already on the main topic" in _say(client, path, "back to the main topic")["reply"]
 
@@ -366,14 +367,14 @@ def test_start_from_the_very_basics_jumps_to_the_deepest_prerequisite(chain):
     assert deep["action"] == "backtrack" and deep["level"] == 6 and "Counting numbers" in deep["reply"]
     assert "pass through “Integers”, “Negative numbers”" in deep["reply"]
     for expected in ("Integers", "Negative numbers", "Linear equations"):                # foundations first, back up
-        assert f"Welcome back to “{expected}”" in _say(client, path, "back to the previous topic")["reply"]
+        assert f"Welcome to “{expected}”" in _say(client, path, "back to the previous topic")["reply"]
 
 
 def test_deepest_from_inside_a_detour_keeps_the_way_back(chain):
     client, path = chain
     _say(client, path, "go back to the basics")                                          # main -> mid
     assert "Counting numbers" in _say(client, path, "start from the very basics")["reply"]
-    assert "Welcome back to “Linear equations”" in _say(client, path, "back to the main topic")["reply"]
+    assert "Welcome to “Linear equations”" in _say(client, path, "back to the main topic")["reply"]
 
 
 def test_deepest_with_no_prerequisite_lists_none(lesson, monkeypatch):

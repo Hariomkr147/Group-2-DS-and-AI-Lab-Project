@@ -513,7 +513,7 @@ def _step_back(db: Session, session: SessionRow, text: str, state: dict, intro: 
                 f"Chapter {here['chapter']}), {builds_on}. On the way back up we'll pass through {passed}.")
     else:
         step = f"Let's step back to “{title}” (Class {here['grade']} {subject}, Chapter {here['chapter']}), {builds_on}."
-    lead = f"{intro} {step} {_return_hint(len(session.stack))} "
+    lead = f"{intro} {step} "
     return _ncert_reply(db, session, text, here, title, mode="explain", action=Action.BACKTRACK, lead=lead, detour=True)
 
 
@@ -534,9 +534,8 @@ def _resume(db: Session, session: SessionRow, text: str, state: dict, to_main: b
     session.pending = {**state, "stuck": 0}
     log.info("NCERT advance (%s): back to %s, %d detour(s) left", "to main" if to_main else "resume",
              back["passage_id"], len(stack))
-    still = f" {_return_hint(len(stack))}" if stack else ""
     return _ncert_reply(db, session, text, passage, title, mode="explain", action=Action.ADVANCE,
-                        lead=f"Welcome back to “{title}”.{still} ", detour=bool(stack))
+                        lead=f"Welcome to “{title}”. ", detour=bool(stack))
 
 
 def _move_on(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
@@ -635,6 +634,14 @@ def _move_through_lesson(db: Session, session: SessionRow, text: str) -> TutorRe
 _BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+|explain\s+|show me\s+|teach me\s+)?[\d\s.,+\-*/x×÷()]+[?=]?")
 
 
+def _is_exercise(text: str) -> bool:
+    """A specific problem to guide, not a concept to explain. The model reads the meaning, so word problems
+    ("if we multiply 2, 3 and 5 ...") count; _PROBLEM (regex) is only the fallback when the model is off or unsure."""
+    label = socratic.is_problem(text)
+    log.info("Problem classifier label: %s", label)
+    return bool(_PROBLEM.match(text)) if label is None else label
+
+
 def _without_clarification(state: dict) -> dict:
     return {k: v for k, v in state.items() if k not in ("clarify", "clarify_query", "clarify_pick")}
 
@@ -666,7 +673,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     refers_back = bool(_REFERENTIAL.fullmatch(text))
     written_work = bool(_CALCULATION_START.match(text) and step_finder.has_arithmetic(
         text.splitlines()[:step_finder.MAX_LINES]))
-    exercise = not refers_back and not written_work and bool(_PROBLEM.match(text))
+    exercise = not refers_back and not written_work and _is_exercise(text)
     review = not exercise and bool(numeric or intent == "answer_attempt" or _ANSWER_PREFIX.match(text) or written_work)
     mentions_topic = _mentions_topic(text, active_heading)
     related = review or intent in _FOLLOWUP_INTENTS or mentions_topic
@@ -704,7 +711,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     problem = ""
     if followup:
         problem = state.get("problem", previous if _PROBLEM.match(previous) else "")
-    if exercise or (query != text and _PROBLEM.match(query)):
+    if exercise or (query != text and _is_exercise(query)):
         problem = query
     mode: socratic.TeachingMode = "explain"
     if followup and review:
