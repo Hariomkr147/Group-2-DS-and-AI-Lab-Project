@@ -19,17 +19,19 @@ from . import math_text
 
 COURSE_ID = "ncert"
 COURSE_TITLE = "NCERT Classes 6–10 · Maths and Science"
-RELEASE = "9aea0ce28990f86074b2d813"
+RELEASE = "3371af5f8052352316dad173"
 MODEL = "Qwen/Qwen3-Embedding-0.6B"
 REVISION = "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
 QUERY_PREFIX = "Instruct: Given a question, retrieve relevant passages that answer the question\nQuery: "
 EMBEDDING_DIMENSION = 1024
 # shortcut: these scores come from a small routing benchmark, recalibrate on fresh student queries.
 MIN_SCORE = 0.60
-PREREQUISITE_MIN_SCORE = 0.55   # shortcut: passage-to-passage similarity, not yet calibrated on the corpus
+PREREQUISITE_MIN_SCORE = 0.45   # shortcut: passage-to-passage similarity; 0.55 found nothing (best match 0.497), not yet calibrated on the corpus
 FOLLOWUP_MIN_SCORE = 0.35       # shortcut: message-to-active-passage similarity for follow-ups, not yet calibrated
 CHAPTER_MARGIN = 0.025
+GRAPH_COURSE_KEY = "ncert-class-6-10-maths-science"   # learning_graph run built over the whole corpus
 log = logging.getLogger(__name__)
+_info_log = logging.getLogger("uvicorn.error")  # info lines show under uvicorn; no app logging config exists
 _encoder_lock = Lock()
 
 _ELIGIBLE = """
@@ -83,7 +85,7 @@ _PASSAGES = text("""
     LIMIT :limit
 """)
 # Earlier topics (lower class, earlier chapter, or earlier in the same chapter) closest in meaning to one passage.
-# The prerequisite graph is derived at run time from the stored embeddings; nothing is mapped by hand.
+# Fallback when the learning graph has no concept for a topic: derived at run time from the stored embeddings.
 _PREREQUISITES = text("""
     WITH eligible AS (
         SELECT """ + _PASSAGE_FIELDS + """,
@@ -101,6 +103,66 @@ _PREREQUISITES = text("""
     )
     SELECT * FROM ranked WHERE position = 1 AND score >= :min_score
     ORDER BY score DESC, passage_id
+    LIMIT :limit
+""")
+# Prerequisites from the learning graph (learning_graph schema, built from this release). The current topic's
+# concepts are the graph nodes whose evidence quotes a chunk under the same heading; each approved edge into one of
+# them names a prerequisite concept, and that concept's own evidence passages are the topics to step back to.
+# Only topics before this one are offered: a lower class, another book of the same class, or earlier in this book.
+# One row per topic, strongest edge first.
+# The graph run to read: the newest whole-corpus run built from this release that has approved edges,
+# or the run graph_run() names. Shared with ncert_graph.
+GRAPH_RUN = """
+    run AS (
+        SELECT g.run_id FROM learning_graph.graph_runs g
+        WHERE g.course_key = :course_key AND g.metadata->'source_scope'->>'release' = :release
+          AND (CAST(:run_id AS text) IS NULL OR g.run_id = :run_id)
+          AND EXISTS (SELECT 1 FROM learning_graph.prerequisite_edges e
+                      WHERE e.run_id = g.run_id AND e.review_status = 'approved')
+        ORDER BY g.created_at DESC
+        LIMIT 1
+    )"""
+_GRAPH_PREREQUISITES = text("""
+    WITH """ + GRAPH_RUN + """, here AS (
+        SELECT DISTINCT n.concept_id, n.name
+        FROM run JOIN learning_graph.graph_nodes n ON n.run_id = run.run_id
+        CROSS JOIN LATERAL jsonb_array_elements(n.evidence) ev
+        JOIN ncert_research.passages c ON c.release_id = :release AND c.passage_id = ev->>'source_id'
+        WHERE c.book_code = :cur_book AND c.chapter = :cur_chapter AND c.heading = :heading
+    ), needed AS (
+        SELECT e.prerequisite_id, e.confidence, e.reason, h.name AS for_concept
+        FROM run JOIN learning_graph.prerequisite_edges e ON e.run_id = run.run_id
+        JOIN here h ON h.concept_id = e.concept_id
+        WHERE e.review_status = 'approved'
+          AND e.prerequisite_id NOT IN (SELECT concept_id FROM here)
+    ), sources AS (
+        SELECT n.concept_id, n.name AS concept, d.reason, d.for_concept, d.confidence, ev->>'source_id' AS passage_id
+        FROM needed d
+        JOIN run ON true
+        JOIN learning_graph.graph_nodes n ON n.run_id = run.run_id AND n.concept_id = d.prerequisite_id
+        CROSS JOIN LATERAL jsonb_array_elements(n.evidence) ev
+    ), eligible AS (
+        SELECT """ + _PASSAGE_FIELDS + _ELIGIBLE + """
+          AND p.passage_id IN (SELECT passage_id FROM sources)
+          AND (p.grade < CAST(:cur_grade AS smallint)          -- a lower class, or the same class in another book,
+               OR (p.grade = CAST(:cur_grade AS smallint)      -- or earlier in this book: never a later chapter
+                   AND (p.book_code <> :cur_book
+                        OR (p.chapter, p.physical_page) <= (CAST(:cur_chapter AS integer), CAST(:cur_page AS integer)))))
+          AND NOT (p.book_code = :cur_book AND p.chapter = :cur_chapter AND p.heading = :heading)
+    ), per_concept AS (      -- one topic per prerequisite concept: a teaching section before a summary or exercise
+        SELECT p.*, s.concept_id, s.concept, s.reason, s.for_concept, s.confidence AS score,
+               row_number() OVER (PARTITION BY s.concept_id
+                                  ORDER BY s.confidence DESC,
+                                           p.heading ~* '(summary|exercise|what have we (discussed|learnt))',
+                                           p.physical_page, p.passage_id) AS position
+        FROM sources s JOIN eligible p ON p.passage_id = s.passage_id
+    ), per_topic AS (
+        SELECT *, row_number() OVER (PARTITION BY book_code, chapter, heading
+                                     ORDER BY score DESC, passage_id) AS topic_position
+        FROM per_concept WHERE position = 1
+    )
+    SELECT * FROM per_topic WHERE topic_position = 1
+    ORDER BY score DESC, grade, book_code, chapter, physical_page, passage_id
     LIMIT :limit
 """)
 _SIMILARITY = text("""
@@ -262,11 +324,64 @@ def similarity(query: str, chapter: dict, passage_id: str) -> float:
     return float(rows[0]["score"]) if rows else 0.0
 
 
+def graph_enabled() -> bool:
+    """The teammate-built prerequisite graph is used unless NCERT_GRAPH=0."""
+    return os.getenv("NCERT_GRAPH", "1").strip().lower() not in ("0", "false", "no", "off")
+
+
+def graph_run() -> str | None:
+    """The run NCERT_GRAPH_RUN pins (None: the newest approved run)."""
+    return os.getenv("NCERT_GRAPH_RUN", "").strip() or None
+
+
+def graph_prerequisites(row: dict, limit: int = 2) -> list[dict]:
+    """Topics holding the approved graph prerequisites of this passage's concepts. Rows add concept, for_concept,
+    reason and score (edge confidence). [] when the topic has no graph concepts or the graph tables are missing."""
+    params = dict(course_key=GRAPH_COURSE_KEY, run_id=graph_run(), heading=row["heading"],
+                  cur_grade=row["grade"], cur_book=row["book_code"], cur_chapter=row["chapter"],
+                  cur_page=row["physical_page"], limit=limit)
+    try:
+        rows = _query(_GRAPH_PREREQUISITES, {}, **params)
+    except HTTPException:
+        log.warning("graph_prerequisites SQL failed for %r:\n%s;", row["heading"],
+                    _runnable_sql(_GRAPH_PREREQUISITES, {}, **params))
+        return []
+    _info_log.info("graph_prerequisites SQL (%d rows) for %r:\n%s;", len(rows), row["heading"],
+                   _runnable_sql(_GRAPH_PREREQUISITES, {}, **params))
+    found = [{**r, "source": "graph"} for r in rows]
+    _log_picked(row, found)
+    return found
+
+
+def _log_picked(row: dict, found: list[dict]) -> None:
+    """Debug aid: the prerequisite topics picked for one topic, one line each."""
+    lines = [f"  [{r['source']}] Class {r['grade']} {r['book_code']} ch {r['chapter']} p {r['physical_page']} "
+             f"{r['heading']!r} score={float(r['score']):.3f}"
+             + (f" concept={r.get('concept')!r} for={r.get('for_concept')!r}" if r["source"] == "graph" else "")
+             for r in found]
+    _info_log.info("prerequisites picked for %r: %d topic(s)%s", row["heading"], len(found),
+                   "".join("\n" + line for line in lines))
+
+
 def prerequisites(row: dict, limit: int = 2) -> list[dict]:
-    """Earlier topics of the same subject that this passage builds on, nearest in meaning first. [] when none."""
-    return _query(_PREREQUISITES, {"subject": row["subject"]}, passage_id=row["passage_id"], heading=row["heading"],
+    """Topics this passage builds on. The learning graph is asked first; when it has nothing for this topic, fall
+    back to earlier topics of the same subject nearest in meaning (embeddings). [] when neither finds one."""
+    if graph_enabled():
+        found = graph_prerequisites(row, limit)
+        if found:
+            return found
+    else:
+        _info_log.info("prerequisites: learning graph off (NCERT_GRAPH=0), using embeddings")
+    scope = {"subject": row["subject"]}
+    params = dict(passage_id=row["passage_id"], heading=row["heading"],
                   cur_grade=row["grade"], cur_book=row["book_code"], cur_chapter=row["chapter"],
                   cur_page=row["physical_page"], min_score=PREREQUISITE_MIN_SCORE, limit=limit)
+    rows = _query(_PREREQUISITES, scope, **params)
+    _info_log.info("embedding prerequisites SQL (%d rows) for %r:\n%s;", len(rows), row["heading"],
+                   _runnable_sql(_PREREQUISITES, scope, **params))
+    found = [{**r, "source": "embedding"} for r in rows]
+    _log_picked(row, found)
+    return found
 
 
 def chapter_of(row: dict) -> Chapter:

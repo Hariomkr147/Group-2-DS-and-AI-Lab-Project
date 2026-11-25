@@ -236,14 +236,15 @@ def _where_in_pack(db: Session, session: SessionRow, asked: Question | None) -> 
 
 def _converse_pack(db: Session, session: SessionRow, text: str, asked: Question | None) -> TutorReply | None:
     """Greetings, thanks, yes/next/harder/easier, "I don't know", examples, "what is X?" in a course pack."""
-    if conversation.asks_where(text):
+    kind = conversation.classify(text, asked.text if asked else "")   # one model call labels the message
+    if kind == "where":
         return _respond(db, session, text, _where_in_pack(db, session, asked))
-    kind = conversation.classify(text)
     apology = ""
-    if kind is None and asked and conversation.complains_of_repeat(text):
-        kind, apology = "practice", "Sorry about that! "
+    if kind == "repeat":
+        kind, apology = ("practice", "Sorry about that! ") if asked else (None, "")
     pack = course_store.get_pack(db, session.course_id)
-    named = _named_concept(pack, text) if conversation.explain_request(text) else None
+    named = _named_concept(pack, text) if kind == "explain" else None
+    kind = None if kind == "explain" else kind
     if kind is None and named is None:
         return None
     seen = list((session.pending or {}).get("seen", []))
@@ -357,7 +358,9 @@ def _where_are_we(session: SessionRow, state: dict) -> str:
     label = f"Class {scope['grade']} {scope['subject'].title()}" if scope.get("grade") and scope.get("subject") else ""
     place = f"{label} · Chapter {scope['chapter']}{' · ' + chapter if chapter else ''}" if label and scope.get("chapter") else label
     if state.get("chapter_heading"):
-        back = (f" We stepped back here from “{ncert.topic_title(detour)}”; say “back to the main topic” when you are ready."
+        main = (f" The main topic is “{ncert.topic_title(session.stack[0]['heading'])}”, {len(session.stack)} steps up."
+                if len(session.stack or []) > 1 else "")
+        back = (f" We stepped back here from “{ncert.topic_title(detour)}”.{main} {_return_hint(len(session.stack))}"
                 if detour else "")
         return (f"We're on “{ncert.topic_title(state['chapter_heading'])}”" + (f", in {place}" if place else "") + "."
                 + (back or " Ask a question about it, say “hint”, or pick another topic from the chapter list."))
@@ -369,9 +372,9 @@ def _where_are_we(session: SessionRow, state: dict) -> str:
 
 def _converse_ncert(db: Session, session: SessionRow, text: str) -> TutorReply | None:
     state = session.pending or {}
-    if conversation.asks_where(text):
+    kind = conversation.classify(text, state.get("problem", ""))
+    if kind == "where":
         return _respond(db, session, text, _where_are_we(session, state))
-    kind = conversation.classify(text)
     if kind not in ("greeting", "thanks", "bye", "menu"):
         return None
     heading = ncert.topic_title(state["chapter_heading"]) if state.get("chapter_heading") else ""
@@ -413,9 +416,13 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
     if not followup and not detour:                           # a detour keeps the topic we will return to
         session.target_concept = concept
     heading = state.get("chapter_heading") if followup else None
+    # passage_id is the chunk this reply is grounded in; topic_passage_id opens the topic named by chapter_heading
+    # and is what a step back or a resume works from (a follow-up may be grounded in a chunk of another heading).
+    topic_id = (state.get("topic_passage_id") or state.get("passage_id")) if followup and heading else passage["passage_id"]
     session.pending = {"scope": state.get("scope", {}), "chapter": chapter, "question": context,
                        "chapter_heading": heading or passage["heading"], "passage_id": passage["passage_id"],
-                       "last_message": text, "last_reply": reply, "problem": problem, "stuck": state.get("stuck", 0)}
+                       "topic_passage_id": topic_id, "last_message": text, "last_reply": reply, "problem": problem,
+                       "stuck": state.get("stuck", 0) if followup else 0}   # a new topic starts its help count again
     return _finish(db, session, text, TutorReply(
         reply=reply, action=action or {"explain": Action.EXPLAIN, "hint": Action.HINT,
                                        "guide": Action.GUIDE, "review": Action.HINT}[mode], label=InputLabel.ON_TOPIC,
@@ -449,36 +456,73 @@ def _current_passage(state: dict) -> dict | None:
         return None
 
 
-def _prerequisites_of(session: SessionRow, passage: dict) -> list[dict]:
-    """Earlier topics this one builds on (found at run time), minus the ones already on the way."""
+def _topic_passage(state: dict) -> dict | None:
+    """The passage that opens the topic on screen (chapter_heading), not just the chunk the last reply used."""
+    topic_id = state.get("topic_passage_id")
+    if not topic_id or topic_id == state.get("passage_id"):
+        return _current_passage(state)
+    return _current_passage({**state, "passage_id": topic_id})
+
+
+def _prerequisites_of(stack: list, passage: dict) -> list[dict]:
+    """Topics this one builds on (learning graph first, else embeddings), minus the ones already on the way."""
     try:
-        return ncert_path.new_ones(ncert.prerequisites(passage), passage["passage_id"], list(session.stack or []))
+        return ncert_path.new_ones(ncert.prerequisites(passage), passage, stack)
     except HTTPException:                                     # corpus unavailable: carry on without a detour
         return []
 
 
-def _step_back(db: Session, session: SessionRow, text: str, state: dict, intro: str) -> TutorReply | None:
-    """Teach the nearest prerequisite of the current topic and remember where to return to."""
+def _return_hint(depth: int) -> str:
+    """How to climb back: one way with a single detour, two (one step, or all the way) with more."""
+    if depth > 1:
+        return "Say “back to the previous topic” to go up one step, or “back to the main topic” to return straight there."
+    return "Say “back to the main topic” when you are ready."
+
+
+def _step_back(db: Session, session: SessionRow, text: str, state: dict, intro: str,
+               deepest: bool = False) -> TutorReply | None:
+    """Teach the nearest prerequisite of the current topic and remember where to return to. With `deepest`, follow
+    the strongest prerequisite again and again to the most basic topic; every topic passed on the way goes on the
+    stack, so climbing back revisits them in order (foundations first)."""
     stack = list(session.stack or [])
-    current = _current_passage(state)
-    if current is None or not ncert_path.can_step_back(stack):
+    here = _topic_passage(state)
+    if here is None:
         return None
-    options = _prerequisites_of(session, current)
-    if not options:
+    path, came_from, link = [], here, None
+    while True:
+        options = _prerequisites_of(stack + path, here)
+        if not options:
+            break
+        path.append(ncert_path.entry(here, ncert.chapter_of(here).model_dump()))
+        came_from, here, link = here, options[0], options[0]
+        if not deepest:
+            break
+    if not path:
         return None
-    earlier = options[0]
-    session.stack = [*stack, ncert_path.entry(current, state["chapter"])]
-    subject = "Maths" if earlier["subject"] == "maths" else "Science"
-    title = ncert.topic_title(earlier["heading"])
-    lead = (f"{intro} Let's step back to “{title}” (Class {earlier['grade']} {subject}, Chapter {earlier['chapter']}), "
-            f"which “{ncert.topic_title(current['heading'])}” builds on. Say “back to the main topic” when you are ready. ")
-    return _ncert_reply(db, session, text, earlier, title, mode="explain", action=Action.BACKTRACK, lead=lead, detour=True)
+    session.stack = stack + path
+    session.pending = {**state, "stuck": 0}                  # the earlier topic gets its own help before going deeper
+    log.info("NCERT step back: %s -> %s, %d level(s) (%s)", path[0]["passage_id"], here["passage_id"], len(path),
+             link.get("source", "embedding"))
+    subject = "Maths" if here["subject"] == "maths" else "Science"
+    title = ncert.topic_title(here["heading"])
+    builds_on = (f"where we meet {link['concept']}, which {link['for_concept']} needs" if link.get("concept")
+                 else f"which “{ncert.topic_title(came_from['heading'])}” builds on")
+    if len(path) > 1:
+        passed = ", ".join(f"“{ncert.topic_title(e['heading'])}”" for e in reversed(path[1:]))
+        step = (f"Let's start from the foundations with “{title}” (Class {here['grade']} {subject}, "
+                f"Chapter {here['chapter']}), {builds_on}. On the way back up we'll pass through {passed}.")
+    else:
+        step = f"Let's step back to “{title}” (Class {here['grade']} {subject}, Chapter {here['chapter']}), {builds_on}."
+    lead = f"{intro} {step} {_return_hint(len(session.stack))} "
+    return _ncert_reply(db, session, text, here, title, mode="explain", action=Action.BACKTRACK, lead=lead, detour=True)
 
 
-def _resume(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
-    """Climb back to the topic we left for a prerequisite."""
+def _resume(db: Session, session: SessionRow, text: str, state: dict, to_main: bool = False) -> TutorReply:
+    """Climb back to the topic we left for a prerequisite: one level, or with `to_main` straight to the topic the
+    detour started from (the whole stack at once)."""
     stack = list(session.stack)
-    back = stack.pop()
+    back = stack[0] if to_main else stack[-1]
+    stack = [] if to_main else stack[:-1]
     try:
         passage = ncert.cited_passage(back["chapter"], back["passage_id"])
     except HTTPException:
@@ -488,8 +532,11 @@ def _resume(db: Session, session: SessionRow, text: str, state: dict) -> TutorRe
         return _respond(db, session, text, "Pick the topic you were on from the chapter list and we'll carry on.")
     title = ncert.topic_title(passage["heading"])
     session.pending = {**state, "stuck": 0}
+    log.info("NCERT advance (%s): back to %s, %d detour(s) left", "to main" if to_main else "resume",
+             back["passage_id"], len(stack))
+    still = f" {_return_hint(len(stack))}" if stack else ""
     return _ncert_reply(db, session, text, passage, title, mode="explain", action=Action.ADVANCE,
-                        lead=f"Welcome back to “{title}”. ", detour=bool(stack))
+                        lead=f"Welcome back to “{title}”.{still} ", detour=bool(stack))
 
 
 def _move_on(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
@@ -497,14 +544,20 @@ def _move_on(db: Session, session: SessionRow, text: str, state: dict) -> TutorR
     if session.stack:
         return _resume(db, session, text, state)
     chapter, current = state.get("chapter") or {}, ncert.topic_title(state.get("chapter_heading") or "")
-    topics = next((c.topics for c in ncert.catalogue(chapter["grade"], chapter["subject"])
-                   if c.book_code == chapter.get("book_code") and c.chapter == chapter.get("chapter")), []) if chapter else []
-    titles = [ncert.topic_title(t) for t in topics]
-    after = topics[titles.index(current) + 1] if current in titles and titles.index(current) + 1 < len(topics) else None
-    passage = ncert.topic_passage(chapter, after) if after else None
+    try:
+        topics = next((c.topics for c in ncert.catalogue(chapter["grade"], chapter["subject"])
+                       if c.book_code == chapter.get("book_code") and c.chapter == chapter.get("chapter")), []) if chapter else []
+        titles = [ncert.topic_title(t) for t in topics]
+        later = topics[titles.index(current) + 1:] if current in titles else []
+        # The next topic with a teachable passage (a heading can list only filtered-out chunks).
+        passage = next((p for p in (ncert.topic_passage(chapter, t) for t in later) if p), None)
+    except HTTPException:                                     # corpus unavailable: say so instead of failing the turn
+        return _respond(db, session, text, "Great! I can't open the next topic right now. Pick one from the chapter list.")
     if not passage:
         return _respond(db, session, text, "Great! That's the end of this chapter's topics. Pick another topic or ask me a question.")
     session.pending = {**state, "stuck": 0}
+    log.info("NCERT advance (next topic): %s -> %s", state.get("topic_passage_id") or state.get("passage_id"),
+             passage["passage_id"])
     return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain",
                         action=Action.ADVANCE, lead="Great! Let's move on. ")
 
@@ -545,13 +598,38 @@ def _practice(db: Session, session: SessionRow, text: str, state: dict, scope: d
 
 
 def _list_prerequisites(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
-    current = _current_passage(state)
-    options = _prerequisites_of(session, current) if current else []
+    current = _topic_passage(state)
+    options = _prerequisites_of(list(session.stack or []), current) if current else []
     if not options:
         return _respond(db, session, text, "I couldn't find an earlier topic this one clearly builds on. "
                         "Ask about the part that is unclear and we'll work through it.")
-    names = "; ".join(f"“{ncert.topic_title(o['heading'])}” (Class {o['grade']}, Chapter {o['chapter']})" for o in options)
+    names = "; ".join((f"{o['concept']}, in " if o.get("concept") else "")
+                      + f"“{ncert.topic_title(o['heading'])}” (Class {o['grade']}, Chapter {o['chapter']})" for o in options)
     return _respond(db, session, text, f"This topic builds on {names}. Say “go back to the basics” and we'll revise it first.")
+
+
+def _move_through_lesson(db: Session, session: SessionRow, text: str) -> TutorReply | None:
+    """The model reads whether the learner wants to climb back (one step or all the way), move on, revise the
+    basics (one step or the most basic topic) or hear the prerequisites (socratic.classify_path). None when it is
+    none of these, so the turn carries on as usual."""
+    state = session.pending or {}
+    move = socratic.classify_path(text, detour=bool(session.stack))
+    log.info("Path classifier label: %s", move)
+    if move == "main_topic" and session.stack:
+        return _resume(db, session, text, state, to_main=True)
+    if move in ("resume", "understood") and session.stack:   # inside a detour both mean: climb back one level
+        return _resume(db, session, text, state)
+    if move in ("resume", "main_topic"):
+        return _respond(db, session, text, f"We're already on the main topic, “{ncert.topic_title(state.get('chapter_heading') or '')}”. "
+                        "Ask about it, say “hint”, or pick another topic from the chapter list.")
+    if move == "understood":
+        return _move_on(db, session, text, state)
+    if move == "prerequisites":
+        return _list_prerequisites(db, session, text, state)
+    if move in ("basics", "deepest"):
+        return (_step_back(db, session, text, state, "Sure.", deepest=move == "deepest")
+                or _list_prerequisites(db, session, text, state))
+    return None
 
 
 _BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+|explain\s+|show me\s+|teach me\s+)?[\d\s.,+\-*/x×÷()]+[?=]?")
@@ -569,18 +647,12 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         passage = ncert.topic_passage(scope, topic_heading)
         if passage is None:
             return _respond(db, session, text, "Choose a lesson topic from this chapter or ask a question about it.")
+        session.stack = []                                    # the learner chose a new topic: no detour to return from
         return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
 
-    if topic_heading is not None or guardrails.requests_topic_switch(text):
-        session.stack = []                                    # the learner chose a new topic: no detour to return from
-    clean = text.strip()
-    if session.stack and ncert_path.RESUME.fullmatch(clean):
-        return _resume(db, session, text, state)
-    if state.get("passage_id") and ncert_path.ASKS_PREREQUISITES.fullmatch(clean):
-        return _list_prerequisites(db, session, text, state)
-    if state.get("passage_id") and ncert_path.WANTS_BASICS.fullmatch(clean):
-        stepped = _step_back(db, session, text, state, "Sure.")
-        return stepped or _list_prerequisites(db, session, text, state)
+    if new_topic or guardrails.requests_topic_switch(text):
+        session.stack = []                                    # a new topic: no detour to return from
+    # Moving through the lesson (back to the main topic, basics, prerequisites) is handled in _move_through_lesson.
 
     # _START_LESSON (regex) is kept above but unused: the model decides below when nothing else places the message.
     if state.get("wants_practice") and scope_label == "unsupported":
@@ -645,7 +717,7 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         else:
             mode = "guide"
     helping = followup and not review and (refers_back or mode == "hint" or intent in _HELP_INTENTS)
-    stuck = state.get("stuck", 0) + 1 if helping else 0 if review else state.get("stuck", 0)
+    stuck = state.get("stuck", 0) + 1 if helping else 0       # help requests in a row: anything else starts again
     state = {**state, "stuck": stuck}
     session.pending = state
     if helping and stuck >= ncert_path.STUCK_LIMIT:           # still lost after help: the gap is probably earlier
@@ -815,6 +887,10 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     is_ncert = session.course_id == ncert.COURSE_ID
     if is_ncert and topic_heading and text == f"Help me understand {topic_heading}."[:2000]:
         return _handle_ncert(db, session, text, True, "topic_switch", "supported", topic_heading)
+    if is_ncert and not new_topic and topic_heading is None and (session.pending or {}).get("passage_id"):
+        moved = _move_through_lesson(db, session, text)        # before the chat classifier, which reads "got it" as thanks
+        if moved:
+            return moved
     asked = Question(**session.pending) if session.pending and session.pending.get("text") and not is_ncert else None
     intent, scope = guardrails.classify_input(db, session, text, asked)
     explicit_switch = (new_topic or selected_concept is not None or (is_ncert and topic_heading is not None)

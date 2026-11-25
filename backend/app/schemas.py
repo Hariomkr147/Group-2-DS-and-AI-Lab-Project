@@ -84,6 +84,29 @@ class CourseGraph(BaseModel):
     edges: list[GraphEdge]
 
 
+class GraphConcept(ConceptPublic):
+    """A learning-graph concept. materials holds its evidence quotes with their NCERT citations; grade to
+    chapter is where it is first quoted."""
+    description: str = ""
+    grade: int | None = None
+    subject: str | None = None
+    book_code: str | None = None
+    chapter: int | None = None
+
+
+class LearningGraphEdge(GraphEdge):
+    confidence: float
+    reason: str = ""
+    evidence: Material | None = None
+
+
+class LearningGraph(BaseModel):
+    course_id: str
+    run_id: str
+    nodes: list[GraphConcept]
+    edges: list[LearningGraphEdge]
+
+
 # ── Sessions and chat ────────────────────────────────────────────────────────
 class Chapter(BaseModel):
     grade: int = Field(ge=6, le=10)

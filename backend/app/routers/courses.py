@@ -4,8 +4,8 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from ..db import get_db
-from ..schemas import ChapterTopics, ConceptPublic, CourseGraph, CoursePack, CourseSummary
-from ..services import course_store, ncert
+from ..schemas import ChapterTopics, ConceptPublic, CourseGraph, CoursePack, CourseSummary, LearningGraph
+from ..services import course_store, ncert, ncert_graph
 
 router = APIRouter(prefix="/courses", tags=["courses"])
 
@@ -18,6 +18,16 @@ def list_courses(db: Session = Depends(get_db)):
 @router.get("/ncert/chapters", response_model=list[ChapterTopics])
 def list_chapters(grade: int = Query(ge=6, le=10), subject: Literal["maths", "science"] = Query()):
     return ncert.catalogue(grade, subject)
+
+
+@router.get("/ncert/graph", response_model=LearningGraph)   # declared before /{course_id}/graph so it wins
+def get_ncert_graph(grade: int | None = Query(None, ge=6, le=10),
+                    subject: Literal["maths", "science"] | None = Query(None),
+                    book_code: str | None = Query(None, min_length=1, max_length=80),
+                    chapter: int | None = Query(None, ge=1)):
+    """The NCERT prerequisite graph (approved edges of the latest learning-graph run). With filters: the concepts
+    quoted in that class, subject, book or chapter, plus their direct prerequisites from anywhere."""
+    return ncert_graph.learning_graph({"grade": grade, "subject": subject, "book_code": book_code, "chapter": chapter})
 
 
 @router.post("", response_model=CourseSummary, status_code=201)

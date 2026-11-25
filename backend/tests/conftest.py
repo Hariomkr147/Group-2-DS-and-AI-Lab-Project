@@ -38,6 +38,28 @@ from app.main import app
 from app.security import limiter
 
 
+@pytest.fixture(autouse=True)
+def fake_conversation_classifier(monkeypatch):
+    """The conversation classifier is a model call; tests use fixed labels instead (tests/fake_classifier.py)."""
+    from app.services import conversation
+
+    from .fake_classifier import fake_classify
+    real = conversation.classify
+    monkeypatch.setattr(conversation, "classify", fake_classify)
+    return real
+
+
+@pytest.fixture(autouse=True)
+def fake_path_classifier(monkeypatch):
+    """The lesson-movement classifier (socratic.classify_path) is a model call too: fixed labels in tests."""
+    from app.services import socratic
+
+    from .fake_classifier import fake_classify_path
+    real = socratic.classify_path
+    monkeypatch.setattr(socratic, "classify_path", fake_classify_path)
+    return real
+
+
 @pytest.fixture()
 def anon():
     """A client with no token."""
