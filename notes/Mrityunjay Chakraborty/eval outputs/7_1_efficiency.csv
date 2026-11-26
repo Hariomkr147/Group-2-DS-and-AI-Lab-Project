@@ -1,0 +1,9 @@
+measure,value
+"latency, one student window of 50 steps (ms, median / p95)",4.0 / 4.3
+"latency, one student window of 200 steps (ms, median / p95)",4.4 / 4.8
+"throughput, batch inference (predictions/s)","48,054"
+"throughput, batch inference (student-windows/s)",886
+parameters,"491,468"
+"weights size (MB, fp32)",1.97
+process RAM (MB),"2,366"
+GPU peak memory (MB),1416

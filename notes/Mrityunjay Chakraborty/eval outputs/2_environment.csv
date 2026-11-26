@@ -1,0 +1,12 @@
+item,value
+python,3.13.16
+torch,2.11.0+cu130
+numpy,2.1.3
+pandas,2.3.3
+scikit-learn,1.6.1
+device,cuda
+seed,42
+split,"(0.8, 0.1, 0.1) by student"
+window,"MAX_LEN=200, MIN_SEQ_LEN=2"
+data file,skill_builder_data_corrected_collapsed.csv
+weights sha256,16e0af75fa4ba415

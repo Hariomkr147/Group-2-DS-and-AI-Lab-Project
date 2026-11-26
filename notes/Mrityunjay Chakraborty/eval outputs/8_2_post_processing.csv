@@ -1,0 +1,5 @@
+variant,AUC,Brier,LogLoss,ECE,Accuracy
+raw model,0.7772,0.1775,0.5345,0.0489,0.7114
+isotonic recalibration,0.7771,0.1744,0.5255,0.009,0.7248
+cold-start shrinkage toward skill rate,0.7754,0.1776,0.5346,0.0456,0.7126
+both,0.7752,0.1749,0.5268,0.0092,0.7254

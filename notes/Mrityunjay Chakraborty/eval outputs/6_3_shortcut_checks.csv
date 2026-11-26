@@ -1,0 +1,7 @@
+input condition,test AUC,drop vs real
+real inputs,0.7772,0.0
+history answers replaced by random answers at the same rate,0.6615,0.1157
+"skill ids randomly relabelled (content destroyed, history kept)",0.5938,0.1834
+no question ids (all questions treated as unseen),0.7445,0.0327
+baseline: student running accuracy only,0.673,0.1042
+baseline: question rate only,0.6918,0.0854

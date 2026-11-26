@@ -1,0 +1,14 @@
+item,value
+test students,403.0
+test windows,448.0
+test predictions / labelled samples,24309.0
+correct labels (class 1),15997.0
+incorrect labels (class 0),8312.0
+correct class proportion,0.6580690279320416
+incorrect class proportion,0.34193097206795836
+questions never seen in training,0.004483935990785306
+questions seen < 5 times in training,0.0746225677732527
+first 5 steps of a window (little history),0.06931589123369945
+multi-skill problems,0.17561397013451807
+same skill as previous step,0.7277140153852483
+windows shorter than 10 steps,0.2611607142857143

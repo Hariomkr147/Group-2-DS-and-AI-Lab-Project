@@ -1,0 +1,91 @@
+{
+  "repro_diff": 0.0,
+  "threshold": 0.62,
+  "test_auc": 0.7772120244754747,
+  "val_auc": 0.7727520754734257,
+  "best_baseline": "Logistic combiner",
+  "best_baseline_val_auc": 0.7431179398381581,
+  "best_baseline_auc": 0.7542073050511215,
+  "val_test_gap": -0.004459949002048935,
+  "gain_vs_best_baseline": 0.023289242156587335,
+  "auc_ci": [
+    0.7618286900305976,
+    0.794610146656476
+  ],
+  "worst_slice_auc": 0.7327524685580985,
+  "worst_slice": "previous answer right",
+  "root_causes": {
+    "Sparse question evidence (<5 train attempts)": 528,
+    "Limited history (<5 prior steps)": 506,
+    "Suspect label candidate (high-mastery accuracy >=80%)": 456,
+    "Confident error (question seen 5-19 times)": 543,
+    "Capacity-limit candidate (seen >=20; confident error; not suspect-label)": 379,
+    "Low-confidence / ambiguous prediction": 2086,
+    "Other": 2665
+  },
+  "suspect_label_error_rows": 456,
+  "suspect_label_question_count": 401,
+  "auc_drop_10pct_flip": 0.01607726707419821,
+  "worst_case_greedy_attack": [
+    {
+      "flipped past answers (k)": 1,
+      "AUC": 0.7655844269826098,
+      "AUC drop": 0.011627597492864905,
+      "relative AUC drop (%)": 1.4960650538972484
+    },
+    {
+      "flipped past answers (k)": 3,
+      "AUC": 0.7478035462977508,
+      "AUC drop": 0.02940847817772385,
+      "relative AUC drop (%)": 3.783842407426862
+    },
+    {
+      "flipped past answers (k)": 5,
+      "AUC": 0.734772920909196,
+      "AUC drop": 0.04243910356627867,
+      "relative AUC drop (%)": 5.460428072368025
+    }
+  ],
+  "directional_pass": 0.9935691318327974,
+  "streak_effect": 0.3414067029953003,
+  "external_ood_test": "NOT RUN \u2014 no independent external dataset supplied",
+  "internal_ood_slices": [
+    "unseen/rare questions",
+    "rare skills",
+    "long histories",
+    "later-starting students"
+  ],
+  "influence_lag1": 0.14703893661499023,
+  "influence_lag10": 0.013399104587733746,
+  "rasch_rho": 0.08724587372829745,
+  "latency_ms_window200": 4.381651500011685,
+  "throughput_pred_per_s": 48053.911946535045,
+  "size_mb": 1.965872,
+  "fresh_process_memory": {
+    "status": "not measured",
+    "reason": "CalledProcessError(1, ['/usr/bin/python3', '-c', 'import sys, json, time, torch\\ntry:\\n    import psutil\\nexcept Exception:\\n    psutil = None\\npath, seq_len, slots, device = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]\\ndev = torch.device(device if device == \"cpu\" or torch.cuda.is_available() else \"cpu\")\\nproc = psutil.Process() if psutil else None\\nrss_start = proc.memory_info().rss / 1e6 if proc else None\\nm = torch.jit.load(path, map_location=dev).eval()\\nL, K = seq_len, slots\\nex = torch.zeros((1,L,K), dtype=torch.long, device=dev); ans = torch.zeros_like(ex); tgt = torch.zeros_like(ex)\\nmask = torch.ones((1,L), dtype=torch.bool, device=dev); exq = torch.zeros((1,L), dtype=torch.long, device=dev); tgq = torch.zeros_like(exq)\\nif dev.type == \"cuda\": torch.cuda.reset_peak_memory_stats(dev)\\nwith torch.inference_mode():\\n    for _ in range(10): m(ex, ans, tgt, mask, exq, tgq)\\n    if dev.type == \"cuda\": torch.cuda.synchronize(dev); torch.cuda.reset_peak_memory_stats(dev)\\n    peak_rss = rss_start or 0\\n    for _ in range(50):\\n        m(ex, ans, tgt, mask, exq, tgq)\\n        if proc: peak_rss = max(peak_rss, proc.memory_info().rss / 1e6)\\n    if dev.type == \"cuda\": torch.cuda.synchronize(dev)\\nout = {\"device\": str(dev), \"batch_size\": 1, \"sequence_length\": L,\\n       \"cpu_rss_start_mb\": rss_start, \"cpu_peak_rss_mb\": peak_rss if proc else None,\\n       \"gpu_peak_allocated_mb\": torch.cuda.max_memory_allocated(dev)/1e6 if dev.type == \"cuda\" else None,\\n       \"gpu_peak_reserved_mb\": torch.cuda.max_memory_reserved(dev)/1e6 if dev.type == \"cuda\" else None,\\n       \"model_parameters\": sum(p.numel() for p in m.parameters()) if hasattr(m, \"parameters\") else None}\\nprint(json.dumps(out))', 'exports/eval_outputs/inference_model_trace.pt', '30', '4', 'cuda'])"
+  },
+  "compression_recommendation": {
+    "variant": "int8 dynamic quantisation",
+    "validation_auc": 0.7728684036448257,
+    "test_auc_report_only": 0.7772939056547117,
+    "size_mb": 1.06154,
+    "latency_ms_window": 14.308613499963485,
+    "validation_auc_tolerance": 0.01
+  },
+  "int8_auc_drop_test_report_only": 8.229857583386124e-05,
+  "verdict": "NOT ASSESSED \u2014 PROJECT TARGETS REQUIRED",
+  "model": "AKT",
+  "dataset": "assist2009",
+  "weights_sha256": "16e0af75fa4ba41575c1901a28858d3939de2fb22a5245b40be0a25c11e06b28",
+  "acceptance_targets_pending": {
+    "min_test_auc": null,
+    "max_val_test_auc_gap": null,
+    "max_ece": null,
+    "min_auc_gain_over_best_baseline": null,
+    "min_directional_pass": null,
+    "max_auc_drop_10pct_flipped_history": null,
+    "min_worst_slice_auc": null,
+    "max_latency_ms_window200": null
+  }
+}
