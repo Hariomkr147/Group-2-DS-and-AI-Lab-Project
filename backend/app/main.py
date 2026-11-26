@@ -6,6 +6,7 @@ Docs: http://127.0.0.1:8000/docs
 
 Every route except /health and /auth/* needs a bearer token (see app/security.py).
 """
+import logging
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -20,6 +21,10 @@ from .routers import auth, courses, learners, llm, practice, search, sessions
 from .sample_pack import SAMPLE_PACK
 from .security import check_config, current_user
 from .services import course_store, ncert
+
+# Root stays at WARNING so libraries (httpx, transformers) stay quiet; app.* loggers print INFO.
+logging.basicConfig(level=logging.WARNING, format="%(levelname)s:     %(name)s - %(message)s")
+logging.getLogger("app").setLevel(logging.INFO)
 
 PRODUCTION = os.environ.get("APP_ENV") == "production"
 FRONTEND_DIST = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
