@@ -14,19 +14,6 @@ from . import misconception, router_model
 
 log = logging.getLogger(__name__)
 
-_ANSWER_REQUEST = re.compile(r"\b(just )?(give|tell|show) (me )?the (final )?answer\b|\bsolve (it|this) for me\b", re.I)
-_ANSWER_KEY = re.compile(
-    r"\b(?:show|reveal|print|dump|give|disclose|expose|provide|share)\b.{0,60}"
-    r"\b(?:answer (?:key|bank|sheet)|marking (?:scheme|key)|(?:hidden|private|teacher.only) (?:answers?|solutions?))\b",
-    re.I | re.S,
-)
-_BYPASS = re.compile(
-    r"^(?:please\s+)?(?:ignore|disregard|override|bypass)\s+(?:(?:the|your|all|previous|prior|earlier)\s+)*"
-    r"(?:instructions|system prompt|guardrails)\b",
-    re.I,
-)
-_NEGATED_ANSWER = re.compile(r"\b(?:don't|do not|never)\s+(?:give|tell|show|solve)\s+(?:me\s+)?"
-                             r"the\s+(?:final\s+)?answer\b", re.I)
 _HELP = re.compile(
     r"\b(?:hints?|clues?|i (?:don't|do not|didn't|cannot|can't) (?:understand|follow|see)"
     r"|i(?:'m| am) (?:confused|lost|stuck)|explain (?:that|it|this|why|how)|what (?:next|should i do next))\b"
@@ -40,22 +27,10 @@ _TOPIC_SWITCH = re.compile(
     re.I,
 )
 _NUMBER = re.compile(r"[\d\s.+\-/,]+%?")
-_ABUSE = re.compile(
-    r"\b(?:idiots?|stupid|dumb|useless|moron(?:ic|s)?|imbecile|retard(?:ed)?|trash|garbage|pathetic|"
-    r"shut\s*up|screw you|fuck\w*|shit\w*|bitch\w*|bastard|asshole|crap|damn you|go to hell)\b", re.I)
-
-
-def is_abusive(text: str) -> bool:
-    return bool(_ABUSE.search(text.replace("’", "'")))
 
 
 def numeric_answer(text: str) -> bool:
     return bool(len(text) <= 80 and _NUMBER.fullmatch(text) and misconception.to_value(text) is not None)
-
-
-def requests_answer(text: str) -> bool:
-    text = text.replace("’", "'")
-    return bool(_BYPASS.search(text) or _ANSWER_KEY.search(text) or _ANSWER_REQUEST.search(_NEGATED_ANSWER.sub("", text)))
 
 
 def asks_for_help(text: str) -> bool:
@@ -64,6 +39,14 @@ def asks_for_help(text: str) -> bool:
 
 def requests_topic_switch(text: str) -> bool:
     return bool(_TOPIC_SWITCH.search(text))
+
+
+ANSWER_REQUEST_INTENTS = ("answer_request", "bypass_attempt")
+# Below the normal cutoff the router's top label is often still right for answer requests ("Just give me the
+# answer" at 0.45). From this confidence up it is returned as UNSURE_ANSWER_REQUEST for Qwen to confirm.
+# 0.3 was picked on the dev split: 6/9 answer requests caught, no false redirects (3/9 at the 0.5 cutoff).
+UNSURE_ANSWER_REQUEST_CUTOFF = 0.3
+UNSURE_ANSWER_REQUEST = "unsure_answer_request"
 
 
 @lru_cache(maxsize=1)
@@ -120,6 +103,9 @@ def classify_input(db: Session, session: SessionRow, text: str, question: Questi
             result[name][0] if result[name][1] >= bundle["thresholds"][name] else "uncertain"
             for name in ("intent", "scope")
         )
+        label, confidence = result["intent"]
+        if intent == "uncertain" and label in ANSWER_REQUEST_INTENTS and confidence >= UNSURE_ANSWER_REQUEST_CUTOFF:
+            intent = UNSURE_ANSWER_REQUEST
         return intent, scope_label
     except Exception as error:
         log.warning("Message router prediction failed (%s)", type(error).__name__)

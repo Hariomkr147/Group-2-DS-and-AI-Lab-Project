@@ -915,18 +915,27 @@ def _next_hint(db: Session, session: SessionRow, asked: Question, text: str) -> 
 def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False,
                    selected_concept: str | None = None, *, topic_heading: str | None = None) -> TutorReply:
     text = text.strip()
-    if guardrails.requests_answer(text):
-        return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
-    # guardrails.is_abusive (word list) is kept but unused: the model labels abuse in _handle_ncert.
     is_ncert = session.course_id == ncert.COURSE_ID
     if is_ncert and topic_heading and text == f"Help me understand {topic_heading}."[:2000]:
         return _handle_ncert(db, session, text, True, "topic_switch", "supported", topic_heading)
+    asked = Question(**session.pending) if session.pending and session.pending.get("text") and not is_ncert else None
+    intent, scope = guardrails.classify_input(db, session, text, asked)
+    # Input guardrails, before anything else answers: the TF-IDF router and Qwen's input check together.
+    # Qwen can add a redirect (abuse, an answer request the router missed or was unsure about) but cannot
+    # remove a confident router redirect, so a message that talks Qwen into "other" gains nothing.
+    # A weak router answer request still redirects with Qwen off, unless Qwen says "other".
+    checked = None if guardrails.numeric_answer(text) else socratic.check_input(text)
+    if checked == "abusive":
+        return _respond(db, session, text, _ABUSE_REPLY, Action.REDIRECT, InputLabel.OFF_TOPIC)
+    if (checked == "answer_request" or intent in guardrails.ANSWER_REQUEST_INTENTS
+            or (intent == guardrails.UNSURE_ANSWER_REQUEST and checked != "other")):
+        return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
+    if intent == guardrails.UNSURE_ANSWER_REQUEST:
+        intent = "uncertain"
     if is_ncert and not new_topic and topic_heading is None and (session.pending or {}).get("passage_id"):
         moved = _move_through_lesson(db, session, text)        # before the chat classifier, which reads "got it" as thanks
         if moved:
             return moved
-    asked = Question(**session.pending) if session.pending and session.pending.get("text") and not is_ncert else None
-    intent, scope = guardrails.classify_input(db, session, text, asked)
     explicit_switch = (new_topic or selected_concept is not None or (is_ncert and topic_heading is not None)
                        or guardrails.requests_topic_switch(text))
     assessment = _assessment_attempt(text, asked) if asked and not explicit_switch else None
@@ -1009,7 +1018,8 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
         elif finding and finding.error:
             found = finding.error                  # the model's one-sentence suggestion, unconfirmed
         elif not correct:
-            found = misconception.detect(asked.text, attempt, asked.answer, session.learner_id)
+            found = (misconception.detect(asked.text, attempt, asked.answer, session.learner_id)   # rules, search
+                     or socratic.diagnose_misconception(asked.text, attempt, asked.answer))     # then the model
         wrong_without_working = not correct and not working
         learner_model.record(db, session.learner_id, session.course_id, session.id,
                              session.current_concept, correct)

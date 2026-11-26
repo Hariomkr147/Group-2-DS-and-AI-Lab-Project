@@ -474,3 +474,11 @@ def test_problem_classifier_is_off_with_templates():
 def test_leaks_result_needs_no_stored_answer(reply, problem, leaks):
     from app.services import guardrails
     assert guardrails.leaks_result(reply, problem) is leaks
+
+
+
+def test_abuse_is_caught_before_retrieval(ncert_client):
+    path = _start(ncert_client, grade=6, subject="maths")
+    for message in ("you are stupid", "you idiot, explain fractions"):     # the fake Qwen labels these abusive
+        reply = ncert_client.post(path, json={"text": message}).json()
+        assert reply["action"] == "redirect" and "respectful" in reply["reply"]

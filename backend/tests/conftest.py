@@ -60,6 +60,17 @@ def fake_path_classifier(monkeypatch):
     return real
 
 
+@pytest.fixture(autouse=True)
+def fake_input_check(monkeypatch):
+    """Qwen's input check (socratic.check_input) is a model call too: fixed labels in tests."""
+    from app.services import socratic
+
+    from .fake_classifier import fake_check_input
+    real = socratic.check_input
+    monkeypatch.setattr(socratic, "check_input", fake_check_input)
+    return real
+
+
 @pytest.fixture()
 def anon():
     """A client with no token."""

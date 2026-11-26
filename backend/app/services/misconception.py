@@ -12,7 +12,8 @@ the question, in two ways, and keeps the candidate that reproduces the learner's
    the error is named by comparing the two ("multiplies instead of dividing").
 
 It adapts to the learner: an error seen before for the same learner is preferred when two explanations tie, and
-its confidence rises. No match returns None, so the tutor falls back to a generic hint.
+its confidence rises. No match returns None; the tutor then asks the Socratic model
+(socratic.diagnose_misconception), which is the third layer and is kept out of this file so it stays model-free.
 """
 import re
 from collections import Counter, defaultdict

@@ -139,3 +139,23 @@ def test_chat_uses_the_model_and_history(use):
 def test_chat_falls_back_to_none(use, reply):
     use(reply)
     assert socratic.chat(QUESTION, "hmm", []) is None
+
+
+
+@pytest.mark.parametrize("reply, expected", [
+    ("answer_request", "answer_request"), (" Abusive.", "abusive"), ("other", "other"),
+    ("maybe", None), ("", None), (RuntimeError("down"), None),
+])
+def test_input_check_accepts_only_its_labels(use, monkeypatch, fake_input_check, reply, expected):
+    monkeypatch.setenv("MESSAGE_CLASSIFIER_PROVIDER", "qwen_finetuned")
+    fake = use(reply)
+    assert fake_input_check("whats the answer?") == expected      # the real socratic.check_input
+    assert fake.calls[0] == ('"whats the answer?"', socratic.INPUT_CHECK_SYSTEM)
+
+
+def test_input_check_is_off_with_templates_or_long_text(use, monkeypatch, fake_input_check):
+    check_input, fake = fake_input_check, use("abusive")
+    assert check_input("you are stupid") is None      # conftest sets MESSAGE_CLASSIFIER_PROVIDER=templates
+    monkeypatch.setenv("MESSAGE_CLASSIFIER_PROVIDER", "qwen_finetuned")
+    assert check_input("x" * (socratic.INPUT_CHECK_MAX_LENGTH + 1)) is None
+    assert fake.calls == []
