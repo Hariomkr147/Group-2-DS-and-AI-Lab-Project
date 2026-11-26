@@ -1,0 +1,8 @@
+group,level,n,AUC,FP rate,FN rate,mean p - mean y
+history length in window,21-50,2943,0.7626,0.2714,0.3371,-0.0251
+history length in window,51-100,2990,0.7835,0.2511,0.3176,-0.0343
+history length in window,<=20 steps,1846,0.7766,0.3059,0.2632,-0.0266
+history length in window,>100,16530,0.7767,0.3226,0.2673,-0.0326
+student ability*,high,7917,0.7415,0.5323,0.1576,-0.0585
+student ability*,low,8113,0.7615,0.1623,0.4991,-0.0026
+student ability*,middle,8279,0.7062,0.4214,0.2768,-0.0337

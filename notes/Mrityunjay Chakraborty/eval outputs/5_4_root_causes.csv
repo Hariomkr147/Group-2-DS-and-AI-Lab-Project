@@ -1,0 +1,8 @@
+root-cause bucket,errors,share of errors
+Sparse question evidence (<5 train attempts),528,0.0753
+Limited history (<5 prior steps),506,0.0721
+Suspect label candidate (high-mastery accuracy >=80%),456,0.065
+Confident error (question seen 5-19 times),543,0.0774
+Capacity-limit candidate (seen >=20; confident error; not suspect-label),379,0.054
+Low-confidence / ambiguous prediction,2086,0.2974
+Other,2665,0.3799

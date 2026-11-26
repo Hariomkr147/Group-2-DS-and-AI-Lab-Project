@@ -1,0 +1,16 @@
+stress,rate,AUC,drop
+flipped history answers,0.05,0.7699,0.0073
+flipped history answers,0.1,0.7611,0.0161
+flipped history answers,0.2,0.7416,0.0356
+flipped history answers,0.5,0.6472,0.13
+flipped history answers,1.0,0.4618,0.3155
+missing skill tags,0.05,0.7685,0.0088
+missing skill tags,0.1,0.7592,0.018
+missing skill tags,0.2,0.7424,0.0348
+missing skill tags,0.5,0.6888,0.0884
+missing skill tags,1.0,0.5036,0.2736
+missing question ids,0.05,0.7761,0.0011
+missing question ids,0.1,0.7745,0.0027
+missing question ids,0.2,0.7711,0.0061
+missing question ids,0.5,0.7612,0.016
+missing question ids,1.0,0.7445,0.0327

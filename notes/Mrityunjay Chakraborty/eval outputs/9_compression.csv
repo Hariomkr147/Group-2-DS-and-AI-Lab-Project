@@ -1,0 +1,7 @@
+variant,params,size MB,validation AUC,test AUC,latency ms (window),validation AUC loss vs fp32,test AUC difference vs fp32 (report only),size vs fp32
+"fp32 (this model, CPU)",491468,1.9835,0.7728,0.7772,13.0451,0.0,0.0,1.0
+int8 dynamic quantisation,491468,1.0615,0.7729,0.7773,14.3086,-0.0001,0.0001,0.5352
+pruned 30% of Linear weights (30% zeros),491468,1.9835,0.7715,0.7758,13.0373,0.0012,-0.0014,1.0
+pruned 50% of Linear weights (50% zeros),491468,1.9835,0.7654,0.7688,13.106,0.0074,-0.0084,1.0
+"small DKT student, labels only (control)",29675,0.1216,0.7384,0.7431,1.5055,0.0343,-0.0342,0.0613
+small DKT student distilled from the model,29675,0.1216,0.7395,0.7434,1.5456,0.0332,-0.0338,0.0613

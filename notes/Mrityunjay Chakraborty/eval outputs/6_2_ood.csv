@@ -1,0 +1,7 @@
+slice,n,base rate,AUC,AUC logistic baseline,Accuracy,ECE,mean p - mean y
+in-distribution: question seen >= 20 times,13653,0.6415,0.78,0.753,0.7122,0.0407,-0.0285
+OOD: question never seen in training,109,0.5963,0.7374,0.7486,0.6789,0.0969,-0.0206
+OOD: rare skill (bottom third),8473,0.6531,0.771,0.7508,0.6943,0.0624,-0.0439
+OOD: long history (position >= 150),2926,0.688,0.7779,0.7663,0.7119,0.0526,-0.0426
+OOD: students who started latest (top quartile of start time),4337,0.7136,0.7524,0.7429,0.7185,0.0511,-0.0316
+reference: students who started earlier,19972,0.646,0.7806,0.7555,0.7099,0.0484,-0.0314
