@@ -163,10 +163,13 @@ function Lesson({ user, course, selection, onOpen }) {
   }, [startupRetry]);
 
   useEffect(() => {
-    if (isTextbook) return;
+    if (isTextbook && !(selection.grade && selection.subject)) return;
     const controller = new AbortController();
     setProgressError('');
-    api(`/learners/${encodeURIComponent(user)}/progress?course_id=${encodeURIComponent(course.id)}`, undefined, controller.signal)
+    const path = isTextbook
+      ? `/learners/${encodeURIComponent(user)}/skill?grade=${selection.grade}&subject=${selection.subject}`
+      : `/learners/${encodeURIComponent(user)}/progress?course_id=${encodeURIComponent(course.id)}`;
+    api(path, undefined, controller.signal)
       .then(setProgress).catch((error) => { if (!controller.signal.aborted) setProgressError(error.message); });
     return () => controller.abort();
   }, [refresh]);
@@ -188,6 +191,7 @@ function Lesson({ user, course, selection, onOpen }) {
       }));
       savePending(null);
       refreshProgress();
+      if (isTextbook) setTimeout(refreshProgress, 5000);   // answers are judged in the background after the reply
     } catch (error) {
       setMessageError(error.message);
       setCanEdit([400, 404, 409, 422].includes(error.status));
@@ -223,7 +227,7 @@ function Lesson({ user, course, selection, onOpen }) {
       <section className="study">
         <nav className="view-switch" aria-label="Study mode">
           <button type="button" aria-pressed={mode === 'chat'} onClick={() => setMode('chat')}>Tutor</button>
-          {isTextbook && <span className="mode-note muted">Ungraded textbook chat</span>}
+          {isTextbook && <span className="mode-note muted">Answers you send update your skill level</span>}
           {!isTextbook && <><button type="button" aria-pressed={mode === 'practice'} disabled={!session} onClick={() => setMode('practice')}>Practice</button>
             <button type="button" aria-pressed={mode === 'diagnostic'} disabled={!session} onClick={() => setMode('diagnostic')}>Diagnostic</button></>}
           <PreviousChats current={session?.session_id} onCurrent={() => setMode('chat')} onResume={resume}

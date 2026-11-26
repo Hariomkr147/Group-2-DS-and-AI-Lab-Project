@@ -1,7 +1,7 @@
 from datetime import timezone
 from uuid import uuid4
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
 from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
@@ -76,7 +76,8 @@ def get_session(session_id: str, db: Session = Depends(get_db)):
 
 
 @router.post("/{session_id}/messages", response_model=TutorReply)
-def send_message(session_id: str, body: MessageIn, db: Session = Depends(get_db), user: str = Depends(current_user)):
+def send_message(session_id: str, body: MessageIn, background: BackgroundTasks, db: Session = Depends(get_db),
+                 user: str = Depends(current_user)):
     session = _get(db, session_id, for_update=True)
     request_id = str(body.request_id or uuid4())
     message = body.model_dump(exclude={"request_id"})
@@ -95,11 +96,15 @@ def send_message(session_id: str, body: MessageIn, db: Session = Depends(get_db)
                              message=message, reply=reply.model_dump(mode="json")))
         db.commit()
     except IntegrityError:
+        db.info.pop(tutor.PENDING_JUDGEMENTS, None)          # the turn was a duplicate: nothing new to judge
         db.rollback()
         existing = db.get(TurnDetailRow, (session_id, request_id))
         if existing is None:
             raise
         return _replay(existing, message)
+    judgements = db.info.pop(tutor.PENDING_JUDGEMENTS, None)
+    if judgements:                                            # runs after the reply is sent: no added latency
+        background.add_task(tutor.judge_and_record, judgements)
     return reply
 
 

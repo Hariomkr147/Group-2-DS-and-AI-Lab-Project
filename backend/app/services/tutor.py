@@ -8,7 +8,7 @@ from fastapi import HTTPException
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from ..db import SessionRow, TurnRow
+from ..db import SessionLocal, SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
 from . import (controller, conversation, course_store, guardrails, learner_model, misconception, ncert, ncert_path,
                retrieval, socratic, step_finder)
@@ -385,6 +385,22 @@ def _converse_ncert(db: Session, session: SessionRow, text: str) -> TutorReply |
     return _respond(db, session, text, reply)
 
 
+PENDING_JUDGEMENTS = "pending_judgements"   # db.info key: NCERT attempts to judge once the turn is committed
+
+
+def judge_and_record(items: list[dict]) -> None:
+    """Background task: ask the model whether the tutor's reply marked each attempt right or wrong and record
+    the answer for the learner model (AKT). A reply it cannot read records nothing."""
+    with SessionLocal() as db:
+        for item in items:
+            verdict = socratic.judge_attempt(item["student"], item["tutor"], item["problem"])
+            log.info("Answer judge concept=%s verdict=%s", item["concept_id"], verdict)
+            if verdict is not None:
+                learner_model.record(db, item["learner_id"], item["course_id"], item["session_id"],
+                                     item["concept_id"], verdict)
+        db.commit()
+
+
 def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, context: str, *,
                  mode: socratic.TeachingMode, followup: bool = False, problem: str = "",
                  action: Action | None = None, lead: str = "", detour: bool = False) -> TutorReply:
@@ -410,6 +426,12 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
             text, model_context, passage, mode=mode, problem=problem, calculation=arithmetic[1] if arithmetic else "",
             previous_reply=state.get("last_reply", "") if followup else "",
         )
+    # Any turn on an open topic may hold an attempt (the router can read "a+b=45" as a new exercise): the judge,
+    # run after the reply is sent, decides from the tutor's reply and says "none" when nothing was answered.
+    if followup or mode == "review":
+        db.info.setdefault(PENDING_JUDGEMENTS, []).append({
+            "learner_id": session.learner_id, "course_id": session.course_id, "session_id": session.id,
+            "concept_id": concept, "student": text, "tutor": reply, "problem": problem or context})
     if lead:
         reply = lead + reply
     session.current_concept = concept
@@ -625,6 +647,11 @@ def _move_through_lesson(db: Session, session: SessionRow, text: str) -> TutorRe
         return _move_on(db, session, text, state)
     if move == "prerequisites":
         return _list_prerequisites(db, session, text, state)
+    if move == "explain":                                     # "no, you explain": elaborate the topic on screen
+        passage = _current_passage(state)
+        if passage:
+            return _ncert_reply(db, session, text, passage, state.get("question", ""), mode="explain", followup=True)
+        return None
     if move in ("basics", "deepest"):
         return (_step_back(db, session, text, state, "Sure.", deepest=move == "deepest")
                 or _list_prerequisites(db, session, text, state))

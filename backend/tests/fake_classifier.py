@@ -34,6 +34,7 @@ PATH_LABELS = {
     "ok, i get it now": "understood",
     "go back to the basics": "basics", "can we revise the basics": "basics",
     "what are the prerequisites": "prerequisites", "what should i know first": "prerequisites",
+    "no, you only explain": "explain", "just tell me": "explain",
 }
 
 

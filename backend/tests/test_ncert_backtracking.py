@@ -102,6 +102,12 @@ def test_learner_can_ask_for_prerequisites_and_basics(lesson):
     assert basics["action"] == "backtrack" and "Integers" in basics["reply"]
 
 
+def test_asking_tutor_to_explain_stays_on_topic(lesson):
+    client, path = lesson
+    reply = client.post(path, json={"text": "no, you only explain"}).json()
+    assert reply["action"] != "backtrack" and reply["level"] == 8 and "Integers" not in reply["reply"]
+
+
 def test_no_prerequisite_means_no_detour(lesson, monkeypatch):
     client, path = lesson
     monkeypatch.setattr(ncert, "prerequisites", lambda row, limit=2: [])

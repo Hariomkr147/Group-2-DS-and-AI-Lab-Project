@@ -48,3 +48,12 @@ def test_readiness_uses_akt_then_falls_back(tracer, monkeypatch):
     # unmapped concept: smoothed accuracy path (no database needed once stats is stubbed)
     monkeypatch.setattr(learner_model, "stats", lambda *a: (2, 1))
     assert learner_model.readiness(None, "l", "c", "division") == 0.5
+
+
+def test_ncert_chapters_use_their_mapped_skill(tracer):
+    # Class 7 maths chapter 8 has two mapped graph concepts (skills 42 and 38): a tie takes the lower index.
+    assert tracer.skill_of("7-maths-gegp1-8") == 38
+    assert tracer.skill_of("8-maths-hegp1-8") == 75              # all three chapter 8 concepts share skill 75
+    assert tracer.skill_of("7-science-gecu1-8") is None          # science has no ASSISTments skill
+    p = tracer.predict("7-maths-gegp1-8", [("7-maths-gegp1-8", True)] * 3)
+    assert 0.0 < p < 1.0

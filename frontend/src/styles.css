@@ -198,6 +198,9 @@ progress { width: 100%; accent-color: var(--accent); }
 .fraction-model span, .percent-model span { background: var(--sheet); }
 .fraction-model span { height: 1.45rem; }
 .percent-model { max-width: 12rem; }
+.skill-bar { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; margin: .4rem 0 .6rem; }
+.skill-bar span { height: .7rem; border-radius: 2px; background: var(--field); }
+.skill-bar span[data-filled="true"] { background: var(--accent); }
 .percent-model span { aspect-ratio: 1; }
 :is(.fraction-model, .percent-model) span[data-filled="true"] { background: var(--accent); }
 .number-model { display: flex; justify-content: space-between; position: relative; margin: 1rem .5rem 0; border-top: 2px solid var(--field); }

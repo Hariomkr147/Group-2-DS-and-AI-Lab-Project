@@ -10,6 +10,10 @@ export default function SidePanel({ selection, isTextbook, progress, progressErr
         <summary>Your progress</summary>
         <Progress progress={progress} error={progressError} onRetry={onRetry} />
       </details>}
+      {isTextbook && selection.grade && selection.subject && <details open>
+        <summary>Your skill level</summary>
+        <Skill skill={progress} error={progressError} onRetry={onRetry} />
+      </details>}
       <details>
         <summary>Search course sources</summary>
         <Search selection={selection} />
@@ -35,6 +39,24 @@ function Progress({ progress, error, onRetry }) {
       <ul className="readiness">{tried.map((concept) => <li key={concept.concept_id}><span>{concept.name}</span><span>{Math.round(concept.readiness * 100)}%</span></li>)}</ul>
       <p className="muted">Readiness estimates for concepts you’ve tried. The project account shares these totals.</p>
     </> : <p className="muted">Answer a graded question to start tracking your progress.</p>}
+  </div>;
+}
+
+const SOURCE = { akt: 'AKT knowledge tracing', accuracy: 'share of answers right', mixed: 'AKT and share of answers right' };
+
+function Skill({ skill, error, onRetry }) {
+  if (error) return <div className="reference-content"><p className="error" role="alert">Skill level is temporarily unavailable.</p><button onClick={onRetry}>Retry skill level</button></div>;
+  if (!skill || skill.answers === undefined) return <p className="reference-content muted" role="status">Loading skill level…</p>;
+  const name = `Class ${skill.grade} ${skill.subject === 'maths' ? 'Maths' : 'Science'}`;
+  if (!skill.level) return <div className="reference-content"><p><strong>{name}</strong></p>
+    <p className="muted">Try an exercise and send your answer. Your level appears once the tutor checks one.</p></div>;
+  return <div className="reference-content skill">
+    <p>{name}</p>
+    <p><strong className="score">{skill.level}</strong><span className="muted"> / 10</span></p>
+    <div className="skill-bar" role="img" aria-label={`Skill level ${skill.level} out of 10`}>
+      {Array.from({ length: 10 }, (_, index) => <span key={index} data-filled={index < skill.level} />)}
+    </div>
+    <p className="muted">From {skill.answers} checked {skill.answers === 1 ? 'answer' : 'answers'} ({skill.correct} right), using {SOURCE[skill.source]}.</p>
   </div>;
 }
 

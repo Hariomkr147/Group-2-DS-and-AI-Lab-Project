@@ -4,12 +4,15 @@ Opt-in: set KT_MODEL=akt. It needs torch (the `rag` extra) and the files in back
 If anything is missing or fails, `get_tracer()` returns None and the learner model keeps using
 smoothed accuracy. Only concepts listed in concept_skill_map.json are scored; others never get a
 guessed skill.
+NCERT chat records answers per chapter ("7-maths-gegp1-8"); a chapter uses the skill most of its mapped
+learning-graph concepts ("C07-MAT-08-01") share. Science has no ASSISTments skill, so it is never scored.
 """
 import csv
 import hashlib
 import json
 import logging
 import os
+from collections import Counter
 from pathlib import Path
 
 log = logging.getLogger(__name__)
@@ -30,7 +33,8 @@ class Tracer:
         weights, skills = folder / "akt_best.pt", folder / "skill_map.csv"
         if hashlib.sha256(weights.read_bytes()).hexdigest() != WEIGHTS_SHA256:
             raise ValueError("AKT weights checksum mismatch")
-        if hashlib.sha256(skills.read_bytes()).hexdigest() != SKILLS_SHA256:
+        # line endings normalised: a Windows checkout (core.autocrlf) gives the csv CRLF endings
+        if hashlib.sha256(skills.read_bytes().replace(b'\r\n', b'\n')).hexdigest() != SKILLS_SHA256:
             raise ValueError("AKT skill map checksum mismatch")
         rows = list(csv.DictReader(skills.read_text().splitlines()))
         if [int(r["mapped_index"]) for r in rows] != list(range(len(rows))):
@@ -47,13 +51,24 @@ class Tracer:
         if any(not 0 <= i < self.n for i in mapping.values()):
             raise ValueError("concept_skill_map.json has an index outside the skill map")
         self.mapping: dict[str, int] = mapping
+        self.chapters = _chapter_skills(mapping)
         self._torch = torch
+
+    def skill_of(self, concept_id: str) -> int | None:
+        """The AKT skill index for a pack concept or an NCERT chapter concept, or None when unmapped."""
+        if concept_id in self.mapping:
+            return self.mapping[concept_id]
+        parts = concept_id.split("-")
+        if len(parts) == 4 and parts[0].isdigit() and parts[3].isdigit():   # grade-subject-book-chapter
+            return self.chapters.get((int(parts[0]), parts[1], int(parts[3])))
+        return None
 
     def predict(self, concept_id: str, attempts: list[tuple[str, bool]]) -> float | None:
         """Chance of a correct next answer on `concept_id`, from the learner's ordered (concept, correct)
         history. None when the concept is unmapped or no mapped answer exists yet."""
-        target = self.mapping.get(concept_id)
-        history = [(self.mapping[c], int(ok)) for c, ok in attempts if c in self.mapping][-MAX_HISTORY:]
+        target = self.skill_of(concept_id)
+        mapped = ((self.skill_of(c), ok) for c, ok in attempts)
+        history = [(s, int(ok)) for s, ok in mapped if s is not None][-MAX_HISTORY:]
         if target is None or not history:
             return None
         torch = self._torch
@@ -64,6 +79,19 @@ class Tracer:
         questions = torch.full_like(skills, self.model.n_questions)
         with torch.inference_mode():
             return float(self.model(skills, answers, targets, ex_q=questions, tgt_q=questions)[0, -1].sigmoid())
+
+
+_SUBJECTS = {"MAT": "maths", "SCI": "science"}
+
+
+def _chapter_skills(mapping: dict[str, int]) -> dict[tuple[int, str, int], int]:
+    """(grade, subject, chapter) -> the skill most mapped graph concepts of that chapter use (lowest index on a tie)."""
+    counts: dict[tuple[int, str, int], Counter] = {}
+    for concept, skill in mapping.items():
+        parts = concept.split("-")              # C07-MAT-08-01: class 7, maths, chapter 8, concept 1
+        if len(parts) == 4 and parts[0][:1] == "C" and parts[0][1:].isdigit() and parts[1] in _SUBJECTS                 and parts[2].isdigit():
+            counts.setdefault((int(parts[0][1:]), _SUBJECTS[parts[1]], int(parts[2])), Counter())[skill] += 1
+    return {key: min(c, key=lambda s: (-c[s], s)) for key, c in counts.items()}
 
 
 _tracer: Tracer | None = None

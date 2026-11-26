@@ -195,6 +195,16 @@ class Progress(BaseModel):
     concepts: list[ConceptProgress]
 
 
+class SkillLevel(BaseModel):
+    """Skill in one NCERT class and subject, 1 to 10. level and source are None until a graded answer exists."""
+    grade: int
+    subject: str
+    level: int | None = Field(default=None, ge=1, le=10)
+    source: Literal["akt", "accuracy", "mixed"] | None = None
+    answers: int
+    correct: int
+
+
 # ── Search and practice ──────────────────────────────────────────────────────
 class SearchHit(BaseModel):
     concept_id: str

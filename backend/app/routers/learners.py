@@ -1,9 +1,11 @@
-from fastapi import APIRouter, Depends, HTTPException
+from typing import Literal
+
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from ..db import SessionRow, get_db
-from ..schemas import AnswerIn, ConceptProgress, Progress
-from ..services import course_store, learner_model
+from ..schemas import AnswerIn, ConceptProgress, Progress, SkillLevel
+from ..services import course_store, learner_model, ncert
 
 router = APIRouter(prefix="/learners", tags=["learners"])
 
@@ -33,3 +35,10 @@ def record_answer(learner_id: str, body: AnswerIn, db: Session = Depends(get_db)
 @router.get("/{learner_id}/progress", response_model=Progress)
 def get_progress(learner_id: str, course_id: str, db: Session = Depends(get_db)):
     return _progress(db, learner_id, course_id)
+
+
+@router.get("/{learner_id}/skill", response_model=SkillLevel)
+def get_skill(learner_id: str, grade: int = Query(ge=6, le=10), subject: Literal["maths", "science"] = Query(),
+              db: Session = Depends(get_db)):
+    """NCERT skill level for one class and subject, from the answers the tutor judged in textbook chat."""
+    return learner_model.skill_level(db, learner_id, ncert.COURSE_ID, grade, subject)
