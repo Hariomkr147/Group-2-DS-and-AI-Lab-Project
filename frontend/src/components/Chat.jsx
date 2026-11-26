@@ -7,7 +7,38 @@ const ACTION_LABEL = {
   advance: 'Moving forward', done: 'Completed', redirect: 'Redirect',
 };
 
-export default function Chat({ session, pending, sending, startupError, messageError, isTextbook, onSend, onRetryStart, onRetry, onEdit }) {
+// Which layer each backend step belongs to: the kind sets the marker colour, the name is read out with the step.
+const STAGE_KIND = {
+  received: ['start', 'Start'], replay: ['start', 'Start'],
+  router: ['guard', 'Guardrail'], input_check: ['guard', 'Guardrail'], guardrail: ['guard', 'Guardrail'],
+  output_check: ['guard', 'Guardrail'],
+  conversation: ['understand', 'Understanding'], classifier: ['understand', 'Understanding'],
+  lesson: ['understand', 'Understanding'], retrieval: ['understand', 'Retrieval'],
+  grading: ['learner', 'Assessment'], diagnosis: ['learner', 'Assessment'],
+  learner_model: ['learner', 'Learner model'], controller: ['learner', 'Controller'],
+  generation: ['model', 'Model'], reply: ['model', 'Reply'],
+};
+
+function Steps({ steps, live }) {
+  return (
+    <ol className={`trace-steps${live ? ' live' : ''}`}>
+      {steps.map((step, index) => {
+        const [kind, layer] = STAGE_KIND[step.stage] ?? ['start', 'Step'];
+        const current = live && index === steps.length - 1;
+        return (
+          <li key={index} className={`trace-step ${kind}${current ? ' current' : ''}`} aria-current={current ? 'step' : undefined}>
+            <span className="trace-marker" aria-hidden="true" />
+            <span className="trace-layer">{layer}</span>
+            <span className="trace-title">{step.title}</span>
+            {step.detail && <span className="trace-detail">{step.detail}</span>}
+          </li>
+        );
+      })}
+    </ol>
+  );
+}
+
+export default function Chat({ session, pending, sending, steps = [], startupError, messageError, isTextbook, onSend, onRetryStart, onRetry, onEdit }) {
   const [text, setText] = useState('');
   const history = useRef(null);
   const input = useRef(null);
@@ -17,7 +48,7 @@ export default function Chat({ session, pending, sending, startupError, messageE
   useEffect(() => {
     const element = history.current;
     element.scrollTop = element.scrollHeight;
-  }, [session?.history, pending?.request_id]);
+  }, [session?.history, pending?.request_id, steps.length]);
 
   function submit(event) {
     event.preventDefault();
@@ -43,9 +74,17 @@ export default function Chat({ session, pending, sending, startupError, messageE
             {turn.detail?.wrong_step && <p className="feedback">Check step {turn.detail.wrong_step} of your working.</p>}
             {turn.detail?.misconception && <p className="feedback">Possible sticking point · {turn.detail.misconception.replaceAll('_', ' ')}</p>}
             {turn.detail?.resource && <div className="citation"><Icon name="book" /><SourceLink resource={turn.detail.resource} /></div>}
+            {turn.steps?.length > 0 && <details className="trace">
+              <summary>How this reply was made · {turn.steps.length} steps</summary>
+              <Steps steps={turn.steps} />
+            </details>}
           </article>
         ))}
         {pending && <article className="turn learner"><div className="turn-label">You <span>{sending ? 'Responding…' : 'Awaiting confirmation'}</span></div><div className="turn-content">{pending.text}</div></article>}
+        {pending && sending && <article className="turn tutor working" aria-live="polite" aria-busy="true">
+          <div className="turn-label">Tutor <span>Working behind the scenes…</span></div>
+          {steps.length ? <Steps steps={steps} live /> : <p className="trace-waiting">Sending your message…</p>}
+        </article>}
       </div>
       <form className="composer" onSubmit={submit}>
         {pending && !sending && <div className="message-error" role="alert">

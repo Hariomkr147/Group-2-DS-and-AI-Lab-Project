@@ -11,7 +11,7 @@ from sqlalchemy.orm import Session
 from ..db import SessionLocal, SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
 from . import (controller, conversation, course_store, guardrails, learner_model, misconception, ncert, ncert_path,
-               retrieval, socratic, step_finder)
+               retrieval, socratic, step_finder, trace)
 
 log = logging.getLogger(__name__)
 
@@ -119,9 +119,16 @@ def _resource(concept: Concept) -> Resource | None:
 
 
 def _finish(db: Session, session: SessionRow, learner_text: str, reply: TutorReply) -> TutorReply:
+    trace.emit("reply", "Reply ready", _ACTION_WORDS.get(reply.action, reply.action.value))
     db.add_all([TurnRow(session_id=session.id, role="learner", text=learner_text),
                 TurnRow(session_id=session.id, role="tutor", text=reply.reply)])
     return reply
+
+
+_ACTION_WORDS = {Action.ASK: "asking a question", Action.EXPLAIN: "explaining", Action.GUIDE: "guiding the next step",
+                 Action.PROBE: "asking you to think it through", Action.HINT: "giving a hint",
+                 Action.BACKTRACK: "stepping back to a prerequisite", Action.ADVANCE: "moving forward",
+                 Action.DONE: "marking this question complete", Action.REDIRECT: "redirecting"}
 
 
 def _respond(db: Session, session: SessionRow, text: str, reply: str, action: Action = Action.PROBE,
@@ -401,6 +408,11 @@ def judge_and_record(items: list[dict]) -> None:
         db.commit()
 
 
+_MODE_WORDS = {"explain": "an explanation", "hint": "a hint", "guide": "the next step to try", "review": "feedback on your working"}
+_GENERATION_WORDS = {"hosted": "written by the fine-tuned Qwen model from the textbook passage",
+                     "extractive": "taken from the textbook passage (model unavailable or its draft was rejected)"}
+
+
 def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, context: str, *,
                  mode: socratic.TeachingMode, followup: bool = False, problem: str = "",
                  action: Action | None = None, lead: str = "", detour: bool = False) -> TutorReply:
@@ -418,17 +430,22 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
     working = step_finder.split_working(text) if mode == "review" else None
     slip = step_finder.arithmetic_slip(working) if working else None
     if slip:
+        trace.emit("diagnosis", "Step checker", f"found an arithmetic slip in step {slip}")
         reply = f"Recheck the arithmetic in step {slip}. Evaluate both sides separately. Do they have the same value?"
         generation = "extractive"
     else:
+        trace.emit("generation", "Writing the reply",
+                   f"{_MODE_WORDS.get(mode, mode)}, grounded in “{ncert.topic_title(passage['heading'])}”")
         arithmetic = _PLAIN_CALCULATION.fullmatch(problem)
         reply, generation = socratic.grounded(
             text, model_context, passage, mode=mode, problem=problem, calculation=arithmetic[1] if arithmetic else "",
             previous_reply=state.get("last_reply", "") if followup else "",
         )
+        trace.emit("generation", "Reply ready", _GENERATION_WORDS.get(generation, generation or ""))
     # Any turn on an open topic may hold an attempt (the router can read "a+b=45" as a new exercise): the judge,
     # run after the reply is sent, decides from the tutor's reply and says "none" when nothing was answered.
     if followup or mode == "review":
+        trace.emit("learner_model", "Learner model (AKT)", "your reply will be judged after this answer, then your skill level updates")
         db.info.setdefault(PENDING_JUDGEMENTS, []).append({
             "learner_id": session.learner_id, "course_id": session.course_id, "session_id": session.id,
             "concept_id": concept, "student": text, "tutor": reply, "problem": problem or context})
@@ -769,6 +786,10 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         passages = ncert.rank(f"{legacy_title or previous}\n{query}", chapter, limit=1)
     else:
         passages = ncert.rank(query, filters, limit=2, chapters=True)
+    trace.emit("retrieval", "Textbook search",
+               f"best match: {ncert.topic_title(passages[0]['heading'])} (score {passages[0]['score']:.2f})"
+               + ("" if passages[0]["score"] >= ncert.MIN_SCORE else ", below the match threshold")
+               if passages else "no matching passage")
 
     if (not passages or passages[0]["score"] < ncert.MIN_SCORE) and not followup:
         sums = re.search(r"\d[\d\s.,+\-*/x×÷()]*\d|\.\d+", query)      # bare arithmetic, read from query (not text) so "class 8 maths" can resolve "explain 4 x 5"
@@ -814,6 +835,8 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                                 Action.REDIRECT, InputLabel.OFF_TOPIC)
         label = socratic.classify_message(text, topic_open=bool(state.get("passage_id")))   # the model reads what the rules and retrieval could not place
         log.info("Message classifier label: %s", label)
+        trace.emit("classifier", "Message classifier (Qwen)",
+                   f"label: {label.replace('_', ' ')}" if label else "no label (model unavailable or unsure)")
         if label == "understood":
             return _move_on(db, session, text, state)
         if label == "practice":
@@ -924,17 +947,25 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     # Qwen can add a redirect (abuse, an answer request the router missed or was unsure about) but cannot
     # remove a confident router redirect, so a message that talks Qwen into "other" gains nothing.
     # A weak router answer request still redirects with Qwen off, unless Qwen says "other".
-    checked = None if guardrails.numeric_answer(text) else socratic.check_input(text)
+    numeric = guardrails.numeric_answer(text)
+    checked = None if numeric else socratic.check_input(text)
+    trace.emit("input_check", "Safety check (Qwen)",
+               "skipped: the message is a number" if numeric
+               else f"label: {checked.replace('_', ' ')}" if checked else "model unavailable, so the classifier decides alone")
     if checked == "abusive":
+        trace.emit("guardrail", "Input guardrail", "abusive language: asking to keep it respectful")
         return _respond(db, session, text, _ABUSE_REPLY, Action.REDIRECT, InputLabel.OFF_TOPIC)
     if (checked == "answer_request" or intent in guardrails.ANSWER_REQUEST_INTENTS
             or (intent == guardrails.UNSURE_ANSWER_REQUEST and checked != "other")):
+        trace.emit("guardrail", "Input guardrail", "asked for the answer: guiding instead of giving it")
         return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
     if intent == guardrails.UNSURE_ANSWER_REQUEST:
         intent = "uncertain"
+    trace.emit("guardrail", "Input guardrail", "passed")
     if is_ncert and not new_topic and topic_heading is None and (session.pending or {}).get("passage_id"):
         moved = _move_through_lesson(db, session, text)        # before the chat classifier, which reads "got it" as thanks
         if moved:
+            trace.emit("lesson", "Lesson path", f"moved through the lesson ({moved.action.value})")
             return moved
     explicit_switch = (new_topic or selected_concept is not None or (is_ncert and topic_heading is not None)
                        or guardrails.requests_topic_switch(text))
@@ -942,6 +973,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     if not assessment and not explicit_switch:                # everyday conversation first: the classifier is unsure on these
         quick = _converse_ncert(db, session, text) if is_ncert else _converse_pack(db, session, text, asked)
         if quick:
+            trace.emit("conversation", "Conversation classifier", "everyday message (greeting, thanks, menu and so on)")
             return quick
         if asked and not is_ncert and _looks_like_step(text):
             return _respond(db, session, text, "Thanks for showing your thinking. Keep going with that step: "
@@ -990,6 +1022,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     if switch or (asked is None and scope != "unsupported" and intent != "other"):
         concept_id = (course_store.get_concept(db, session.course_id, selected_concept).id
                       if selected_concept is not None else retrieval.best_concept(db, session.course_id, text))
+        trace.emit("retrieval", "Concept search", f"matched: {concept_id}" if concept_id else "no matching concept")
         if concept_id is None:
             if scope == "unsupported" or (asked is None and not switch and not guardrails.asks_for_help(text)
                                           and not guardrails.numeric_answer(text)):
@@ -1011,8 +1044,10 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     else:
         attempt, working = assessment
         correct = same_answer(attempt, asked.answer)
+        trace.emit("grading", "Answer check", "correct" if correct else "not correct yet")
         if not correct and working:
             finding = step_finder.find(asked.text, asked.answer, working, asked.hint)
+            trace.emit("diagnosis", "Step checker", f"first wrong step: {finding.step}" if finding else "no wrong step found")
         if finding and finding.source == "arithmetic":
             pass                                   # a slip in the sums is not a misconception
         elif finding and finding.error:
@@ -1020,10 +1055,14 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
         elif not correct:
             found = (misconception.detect(asked.text, attempt, asked.answer, session.learner_id)   # rules, search
                      or socratic.diagnose_misconception(asked.text, attempt, asked.answer))     # then the model
+        if found:
+            trace.emit("diagnosis", "Misconception detector", f"possible sticking point: {str(found).replace('_', ' ')[:120]}")
         wrong_without_working = not correct and not working
         learner_model.record(db, session.learner_id, session.course_id, session.id,
                              session.current_concept, correct)
+        trace.emit("learner_model", "Learner model (AKT)", "recorded this attempt and updated your mastery estimate")
         decision = controller.decide(db, session, correct)
+        trace.emit("controller", "Teaching controller", f"next move: {_ACTION_WORDS.get(decision.action, decision.action.value)}")
         action = decision.action
         session.current_concept = decision.concept_id
 
@@ -1038,6 +1077,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
             seen = [i for i in seen if i != question.id] + [question.id]  # most recent last
     session.pending = {**question.model_dump(), "seen": seen} if question else {"seen": seen}   # after DONE keep only the history
 
+    trace.emit("generation", "Writing the reply", f"{_ACTION_WORDS.get(action, action.value)} on {concept.name}")
     reply_text = socratic.write(action, concept, question, text)
     if guardrails.leaks_answer(reply_text, question.answer if question else None):
         reply_text = f"Let's think step by step. What do you already know about {concept.name}?"

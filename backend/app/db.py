@@ -91,6 +91,14 @@ class TurnDetailRow(Base):
     reply: Mapped[dict] = mapped_column(JSON)
 
 
+class TurnStepRow(Base):
+    """What each layer reported while the tutor wrote this reply (services/trace.py), shown under the reply.
+    A table of its own so create_all adds it to existing databases."""
+    __tablename__ = "turn_steps"
+    turn_id: Mapped[int] = mapped_column(ForeignKey("turns.id", ondelete="CASCADE"), primary_key=True)
+    steps: Mapped[list] = mapped_column(JSON)
+
+
 class AssessmentItemRow(Base):
     __tablename__ = "assessment_items"
     id: Mapped[str] = mapped_column(primary_key=True)

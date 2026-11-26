@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 from ..schemas import Action, Concept, Question
-from . import guardrails, llm, misconception, ncert, step_finder
+from . import guardrails, llm, misconception, ncert, step_finder, trace
 
 log = logging.getLogger(__name__)
 
@@ -97,10 +97,12 @@ def chat(question: Question | None, learner_text: str, history: list[tuple[str, 
         max_tokens = max(64, int(os.environ.get("SOCRATIC_CHAT_MAX_TOKENS", "800")))
     except ValueError:
         max_tokens = 800
+    trace.emit("generation", "Socratic model", f"asking {provider} to write a conversational reply")
     try:
         text = llm.get_provider(provider).generate(prompt, system, max_tokens).strip()
     except Exception as e:
         log.warning("Socratic chat unavailable (%s): %s", provider, type(e).__name__)
+        trace.emit("generation", "Socratic model", "unavailable, so a fixed reply is used")
         return None
     if text and text[-1] not in ".?!":
         ends = [m.end() for m in re.finditer(r"[.?!](?=\s)", text)]

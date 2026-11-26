@@ -213,3 +213,60 @@ def test_abuse_is_caught_before_tutoring(client):
     for message in ("you are stupid", "you idiot, explain fractions"):     # the fake Qwen labels these abusive
         reply = say(client, sid, message)
         assert reply["action"] == "redirect" and "respectful" in reply["reply"]
+
+
+def _stream(client, sid, text, request_id=None):
+    """POST a message as an event stream; returns [(event, data), ...]."""
+    import json
+    body = {"text": text, **({"request_id": request_id} if request_id else {})}
+    with client.stream("POST", f"/sessions/{sid}/messages", json=body,
+                       headers={"Accept": "text/event-stream"}) as r:
+        assert r.status_code == 200 and r.headers["content-type"].startswith("text/event-stream")
+        raw = "".join(r.iter_text())
+    events = []
+    for block in filter(None, raw.split("\n\n")):
+        fields = dict(line.split(": ", 1) for line in block.splitlines())
+        events.append((fields["event"], json.loads(fields["data"])))
+    return events
+
+
+def test_stream_reports_each_layer_then_the_reply(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")
+    events = _stream(client, sid, "12", request_id="00000000-0000-4000-8000-000000000001")
+    stages = [data["stage"] for event, data in events if event == "step"]
+    assert stages[0] == "received" and {"router", "input_check", "guardrail", "grading", "learner_model",
+                                        "controller", "reply"} <= set(stages)
+    assert events[-1][0] == "reply" and events[-1][1]["action"] in ("hint", "probe", "backtrack")
+    assert all("10" not in data.get("detail", "").replace("100", "") for event, data in events if event == "step")
+    replay = _stream(client, sid, "12", request_id="00000000-0000-4000-8000-000000000001")
+    assert [e for e, _ in replay] == ["step", "step", "reply"] and replay[-1][1] == events[-1][1]
+    history = client.get(f"/sessions/{sid}").json()["history"]
+    assert [t["text"] for t in history].count("12") == 1        # saved once, replayed once
+
+
+def test_stream_shows_the_input_guardrail_and_errors(client):
+    sid = start(client)
+    events = _stream(client, sid, "you are stupid")              # the fake Qwen labels this abusive
+    assert ("step", {"stage": "guardrail", "title": "Input guardrail",
+                     "detail": "abusive language: asking to keep it respectful"}) in events
+    assert events[-1][0] == "reply" and events[-1][1]["action"] == "redirect"
+    r = client.post("/sessions/missing/messages", json={"text": "hi"}, headers={"Accept": "text/event-stream"})
+    assert r.status_code == 404
+    events = _stream(client, sid, "different text", request_id="00000000-0000-4000-8000-000000000002")
+    clash = _stream(client, sid, "other text", request_id="00000000-0000-4000-8000-000000000002")
+    assert clash[-1] == ("error", {"status": 409, "detail": "This request ID was already used for a different message."})
+
+
+def test_steps_are_saved_with_the_reply_and_returned_in_history(client):
+    sid = start(client)
+    say(client, sid, "Teach me percentages")                              # JSON path: steps are saved too
+    streamed = [data for event, data in _stream(client, sid, "12", request_id="00000000-0000-4000-8000-000000000003")
+                if event == "step"]
+    history = client.get(f"/sessions/{sid}").json()["history"]
+    tutor_turns = [turn for turn in history if turn["role"] == "tutor"]
+    assert all(turn["steps"] is None for turn in history if turn["role"] == "learner")
+    assert tutor_turns[0]["steps"][0]["stage"] == "received" and tutor_turns[0]["steps"][-1]["stage"] == "reply"
+    assert tutor_turns[1]["steps"] == streamed                             # exactly what the stream showed
+    _stream(client, sid, "12", request_id="00000000-0000-4000-8000-000000000003")       # a replay saves nothing new
+    assert client.get(f"/sessions/{sid}").json()["history"] == history

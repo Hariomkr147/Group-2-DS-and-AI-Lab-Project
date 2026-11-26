@@ -156,11 +156,19 @@ class TutorReply(BaseModel):
     generation: Literal["hosted", "extractive"] | None = None
 
 
+class TraceStep(BaseModel):
+    """One layer's report during a turn (services/trace.py)."""
+    stage: str
+    title: str
+    detail: str = ""
+
+
 class Turn(BaseModel):
     role: str  # "learner" or "tutor"
     text: str
     detail: TutorReply | None = None
     request_id: str | None = None
+    steps: list[TraceStep] | None = None   # tutor turns: how the reply was made
 
 
 class SessionInfo(BaseModel):

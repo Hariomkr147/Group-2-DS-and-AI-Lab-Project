@@ -240,6 +240,13 @@ Stores turn-by-turn chat messages between student and tutor.
 | `text` | `varchar` | No | Message text content |
 | `created_at` | `timestamp`| No | Message timestamp |
 
+**`public.turn_steps`** stores what each layer reported while the tutor wrote a reply (router, guardrails, retrieval, learner model, controller, model). The chat shows these under the reply as "How this reply was made".
+
+| Column | Type | Nullable | Description |
+| :--- | :--- | :---: | :--- |
+| `turn_id` | `integer` | No | Primary key; the tutor turn, `-> public.turns(id)` (CASCADE on delete) |
+| `steps` | `json` | No | List of `{stage, title, detail}` in the order they happened |
+
 ---
 
 ### 3.5 Table: `public.answers` (Knowledge Tracing Logs)

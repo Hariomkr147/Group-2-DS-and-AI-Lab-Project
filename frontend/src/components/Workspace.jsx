@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { api, readStored, store } from '../api.js';
+import { api, apiStream, readStored, store } from '../api.js';
 import Chat from './Chat.jsx';
 import ConceptMap from './ConceptMap.jsx';
 import SidePanel from './SidePanel.jsx';
@@ -128,6 +128,7 @@ function Lesson({ user, course, selection, onOpen }) {
   const [messageError, setMessageError] = useState('');
   const [canEdit, setCanEdit] = useState(false);
   const [sending, setSending] = useState(false);
+  const [steps, setSteps] = useState([]);       // what each backend layer reported for the turn in progress
   const [mode, setMode] = useState('chat');
 
   function savePending(value) {
@@ -182,12 +183,17 @@ function Lesson({ user, course, selection, onOpen }) {
     setMessageError('');
     setCanEdit(false);
     setSending(true);
+    setSteps([]);
+    const seen = [];
     try {
-      const reply = await api(`/sessions/${session.session_id}/messages`, message);
+      const reply = await apiStream(`/sessions/${session.session_id}/messages`, message, (step) => {
+        seen.push(step);
+        setSteps([...seen]);
+      });
       setSession((current) => ({
         ...current, current_concept: reply.concept_id ?? current.current_concept,
         history: [...current.history, { role: 'learner', text: message.text },
-          { role: 'tutor', text: reply.reply, detail: reply, request_id: message.request_id }],
+          { role: 'tutor', text: reply.reply, detail: reply, request_id: message.request_id, steps: seen }],
       }));
       savePending(null);
       refreshProgress();
@@ -237,7 +243,7 @@ function Lesson({ user, course, selection, onOpen }) {
             }} disabled={Boolean(pending) || sending} />
         </nav>
         <div hidden={mode !== 'chat'} className="chat-view">
-          <Chat session={session} pending={pending} sending={sending} startupError={startupError} messageError={messageError}
+          <Chat session={session} pending={pending} sending={sending} steps={steps} startupError={startupError} messageError={messageError}
             isTextbook={isTextbook} onSend={startTurn}
             onRetryStart={() => { setStartupError(''); setStartupRetry(startupRetry + 1); }}
             onRetry={() => send(pending)} onEdit={canEdit ? () => { savePending(null); setMessageError(''); } : null} />

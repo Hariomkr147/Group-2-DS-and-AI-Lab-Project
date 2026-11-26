@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session
 
 from ..db import ConceptRow, CourseRow, SessionRow, TurnRow
 from ..schemas import Question
-from . import misconception, router_model
+from . import misconception, router_model, trace
 
 log = logging.getLogger(__name__)
 
@@ -70,6 +70,7 @@ def _load_router():
 def classify_input(db: Session, session: SessionRow, text: str, question: Question | None) -> tuple[str, str]:
     bundle = _load_router()
     if bundle is None:
+        trace.emit("router", "Intent classifier (TF-IDF)", "unavailable, so both labels are uncertain")
         return "uncertain", "uncertain"
     course = db.get(CourseRow, session.course_id)
     state = session.pending or {}
@@ -106,9 +107,14 @@ def classify_input(db: Session, session: SessionRow, text: str, question: Questi
         label, confidence = result["intent"]
         if intent == "uncertain" and label in ANSWER_REQUEST_INTENTS and confidence >= UNSURE_ANSWER_REQUEST_CUTOFF:
             intent = UNSURE_ANSWER_REQUEST
+        trace.emit("router", "Intent classifier (TF-IDF)",
+                   f"intent: {label.replace('_', ' ')} ({confidence:.0%}), "
+                   f"scope: {result['scope'][0]} ({result['scope'][1]:.0%})"
+                   + ("; low confidence, so treated as unsure" if intent in ("uncertain", UNSURE_ANSWER_REQUEST) else ""))
         return intent, scope_label
     except Exception as error:
         log.warning("Message router prediction failed (%s)", type(error).__name__)
+        trace.emit("router", "Intent classifier (TF-IDF)", "failed, so both labels are uncertain")
         return "uncertain", "uncertain"
 
 
@@ -150,11 +156,17 @@ def leaks_result(reply: str, problem: str) -> bool:
     """True when the reply states a likely result of the student's problem (see likely_results). Works without a
     known answer, so it also guards free-form NCERT questions."""
     results = likely_results(problem)
-    return bool(results) and any(value in results for value in _values(reply))
+    leaked = bool(results) and any(value in results for value in _values(reply))
+    if leaked:
+        trace.emit("output_check", "Output guardrail", "a draft stated a likely result of the problem, so it was replaced")
+    return leaked
 
 
 def leaks_answer(reply: str, answer: str | None) -> bool:
     if not answer:
         return False
     # the answer may end a sentence ("... is 10."), but must not be part of a longer number ("10.5", "110")
-    return re.search(rf"(?<![\w.]){re.escape(answer.strip())}(?!\w|\.\d)", reply) is not None
+    leaked = re.search(rf"(?<![\w.]){re.escape(answer.strip())}(?!\w|\.\d)", reply) is not None
+    if leaked:
+        trace.emit("output_check", "Output guardrail", "a draft contained the answer, so it was replaced")
+    return leaked
