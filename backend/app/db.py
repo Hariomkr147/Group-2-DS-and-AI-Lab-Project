@@ -120,3 +120,24 @@ class AnswerRow(Base):
     created_at: Mapped[datetime] = mapped_column(default=_now)
 
     __table_args__ = (Index("ix_answers_learner_course", "learner_id", "course_id"),)
+
+
+class AnswerConceptRow(Base):
+    """The learning-graph concepts one NCERT answer was about (the concepts of the topic on screen). answers keeps
+    the chapter as concept_id, which AKT reads; this links the same answer to each graph concept, so mastery can
+    be read per concept without counting the answer twice in the history."""
+    __tablename__ = "answer_concepts"
+    answer_id: Mapped[int] = mapped_column(ForeignKey("answers.id", ondelete="CASCADE"), primary_key=True)
+    concept_id: Mapped[str] = mapped_column(primary_key=True, index=True)   # graph_nodes.concept_id
+
+
+class LearnerStateRow(Base):
+    """Where a learner is in a course across sessions: the topic open in their latest session and the detour stack
+    to climb back through. Each session keeps its own copy in `sessions`; this one lets a new session resume."""
+    __tablename__ = "learner_state"
+    learner_id: Mapped[str] = mapped_column(primary_key=True)
+    course_id: Mapped[str] = mapped_column(ForeignKey("courses.id", ondelete="CASCADE"), primary_key=True)
+    session_id: Mapped[str | None]                                    # the session that last moved it
+    topic: Mapped[dict | None] = mapped_column(JSON, default=None)    # {"passage_id", "heading", "chapter"}
+    stack: Mapped[list] = mapped_column(JSON, default=list)           # same entries as sessions.stack
+    updated_at: Mapped[datetime] = mapped_column(default=_now, onupdate=_now)

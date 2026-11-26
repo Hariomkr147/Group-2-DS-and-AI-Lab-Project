@@ -29,6 +29,7 @@ def fake_classify(text: str, question: str = "") -> str | None:
 PATH_LABELS = {
     "back to the main topic": "main_topic", "go back to the main topic": "main_topic",
     "back to the previous topic": "resume", "i'm ready to go back": "resume",
+    "continue where i left off": "resume",
     "start from the very basics": "deepest",
     "got it": "understood", "i understand now": "understood", "ok, that makes sense": "understood",
     "ok, i get it now": "understood",

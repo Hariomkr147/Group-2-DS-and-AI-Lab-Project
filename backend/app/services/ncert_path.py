@@ -9,6 +9,10 @@ topics to return to. How the learner asks to move (back to the main topic, "got 
 Stack entries live in `session.stack` as {"passage_id", "heading", "chapter"}. Counters live in `session.pending`.
 """
 STUCK_LIMIT = 2        # help requests in a row (hint, "I still don't understand") before stepping back
+WRONG_LIMIT = 2        # judged-wrong answers in a row on the open topic before stepping back
+# Which prerequisite to step back to is read from the learner's own history (learner_model.readiness, over all
+# their sessions): the weakest one first. A step back the answers asked for is skipped when every prerequisite is
+# already known (readiness at or above controller.WEAK): the gap is then in this topic, so the tutor keeps helping.
 # No depth limit: a detour can go as deep as the prerequisites go. It cannot loop (new_ones skips topics already
 # on the way) and it ends, because each prerequisite is an earlier topic in a finite corpus.
 

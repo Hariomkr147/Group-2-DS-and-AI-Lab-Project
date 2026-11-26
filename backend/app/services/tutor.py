@@ -8,7 +8,7 @@ from fastapi import HTTPException
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from ..db import SessionLocal, SessionRow, TurnRow
+from ..db import LearnerStateRow, SessionLocal, SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
 from . import (controller, conversation, course_store, guardrails, learner_model, misconception, ncert, ncert_path,
                retrieval, socratic, step_finder, trace)
@@ -122,7 +122,67 @@ def _finish(db: Session, session: SessionRow, learner_text: str, reply: TutorRep
     trace.emit("reply", "Reply ready", _ACTION_WORDS.get(reply.action, reply.action.value))
     db.add_all([TurnRow(session_id=session.id, role="learner", text=learner_text),
                 TurnRow(session_id=session.id, role="tutor", text=reply.reply)])
+    if session.course_id == ncert.COURSE_ID:
+        _remember(db, session)
     return reply
+
+
+def _remember(db: Session, session: SessionRow) -> None:
+    """Copy the session's open topic and detour stack to the learner's own state, so a later session can resume."""
+    state = session.pending or {}
+    if not (state.get("chapter") and state.get("chapter_heading")):
+        return                                                # nothing opened yet: keep what an earlier session saved
+    saved = db.get(LearnerStateRow, (session.learner_id, session.course_id))
+    if saved is None:
+        saved = LearnerStateRow(learner_id=session.learner_id, course_id=session.course_id)
+        db.add(saved)
+    saved.session_id = session.id
+    saved.topic = {"passage_id": state.get("topic_passage_id") or state.get("passage_id"),
+                   "heading": state["chapter_heading"], "chapter": state["chapter"]}
+    saved.stack = list(session.stack or [])
+
+
+def saved_state(db: Session, learner_id: str, course_id: str) -> LearnerStateRow | None:
+    return db.get(LearnerStateRow, (learner_id, course_id))
+
+
+def _saved_elsewhere(db: Session, session: SessionRow) -> LearnerStateRow | None:
+    """The learner's saved topic when it comes from another session (this one has not opened a topic yet)."""
+    saved = saved_state(db, session.learner_id, session.course_id)
+    return saved if saved and saved.topic and saved.session_id != session.id else None
+
+
+def _resume_learner(db: Session, session: SessionRow, text: str, move: str | None = None) -> TutorReply | None:
+    """In a session with no topic open, "continue where I left off" reopens the learner's last topic and detour
+    from an earlier session ("back to the main topic" reopens the topic that detour started from). `move` skips
+    reading the message (the side panel's Continue button)."""
+    saved = _saved_elsewhere(db, session)
+    if saved is None:
+        return None
+    move = move or socratic.classify_path(text, detour=bool(saved.stack))
+    if move not in ("resume", "main_topic"):
+        return None
+    stack = list(saved.stack or [])
+    topic = stack[0] if move == "main_topic" and stack else saved.topic
+    if move == "main_topic":
+        stack = []
+    try:
+        passage = ncert.cited_passage(topic["chapter"], topic["passage_id"])
+    except HTTPException:
+        passage = None
+    if passage is None:
+        return None
+    session.stack, session.tries = stack, 0
+    if stack:                                                 # a detour: the topic it started from is the target
+        session.target_concept = ncert.concept_id(stack[0]["chapter"])
+    title = ncert.topic_title(passage["heading"])
+    log.info("NCERT resume from session %s: %s, %d detour(s)", saved.session_id, passage["passage_id"], len(stack))
+    trace.emit("lesson", "Learner state", f"resumed “{title}” from an earlier session")
+    lead = f"Picking up where you left off: “{title}”. "
+    if stack:
+        lead += f"We stepped back here from “{ncert.topic_title(stack[-1]['heading'])}”. "
+    return _ncert_reply(db, session, text, passage, title, mode="explain", action=Action.ADVANCE, lead=lead,
+                        detour=bool(stack))
 
 
 _ACTION_WORDS = {Action.ASK: "asking a question", Action.EXPLAIN: "explaining", Action.GUIDE: "guiding the next step",
@@ -386,6 +446,10 @@ def _converse_ncert(db: Session, session: SessionRow, text: str) -> TutorReply |
         return None
     heading = ncert.topic_title(state["chapter_heading"]) if state.get("chapter_heading") else ""
     carry = f" We were on “{heading}”; carry on, or ask about something new." if heading else ""
+    saved = None if heading else _saved_elsewhere(db, session)
+    if saved:
+        carry = (f" Last time you were on “{ncert.topic_title(saved.topic['heading'])}”. "
+                 "Say “continue where I left off” to pick it up, or ask about something new.")
     ask = f"Ask me a question from your {_scope_words(state)}, or pick a topic from the chapter list, and we'll work through it step by step."
     reply = {"greeting": f"Hi! {ask}{carry}", "thanks": f"You're welcome!{carry or ' ' + ask}", "bye": "Bye! Come back any time.",
              "menu": f"I explain ideas from the textbook, give hints on exercises and check your steps, without handing out final answers. {ask}"}[kind]
@@ -397,14 +461,21 @@ PENDING_JUDGEMENTS = "pending_judgements"   # db.info key: NCERT attempts to jud
 
 def judge_and_record(items: list[dict]) -> None:
     """Background task: ask the model whether the tutor's reply marked each attempt right or wrong and record
-    the answer for the learner model (AKT). A reply it cannot read records nothing."""
+    the answer for the learner model (AKT), on the chapter and on each graph concept of the topic. A reply it
+    cannot read records nothing."""
+    concepts: dict[tuple, list[str]] = {}                    # graph concepts per topic, looked up once per batch
     with SessionLocal() as db:
         for item in items:
             verdict = socratic.judge_attempt(item["student"], item["tutor"], item["problem"])
             log.info("Answer judge concept=%s verdict=%s", item["concept_id"], verdict)
-            if verdict is not None:
-                learner_model.record(db, item["learner_id"], item["course_id"], item["session_id"],
-                                     item["concept_id"], verdict)
+            if verdict is None:
+                continue
+            topic = item.get("topic")
+            key = tuple(sorted(topic.items())) if topic else ()
+            if topic and key not in concepts:
+                concepts[key] = ncert.topic_concepts(topic)
+            learner_model.record(db, item["learner_id"], item["course_id"], item["session_id"],
+                                 item["concept_id"], verdict, concepts.get(key, []))
         db.commit()
 
 
@@ -448,7 +519,10 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
         trace.emit("learner_model", "Learner model (AKT)", "your reply will be judged after this answer, then your skill level updates")
         db.info.setdefault(PENDING_JUDGEMENTS, []).append({
             "learner_id": session.learner_id, "course_id": session.course_id, "session_id": session.id,
-            "concept_id": concept, "student": text, "tutor": reply, "problem": problem or context})
+            "concept_id": concept, "student": text, "tutor": reply, "problem": problem or context,
+            # the topic on screen, whose graph concepts the answer is linked to once judged
+            "topic": {"book_code": passage["book_code"], "chapter": passage["chapter"],
+                      "heading": (state.get("chapter_heading") if followup else None) or passage["heading"]}})
     if lead:
         reply = lead + reply
     session.current_concept = concept
@@ -461,7 +535,11 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
     session.pending = {"scope": state.get("scope", {}), "chapter": chapter, "question": context,
                        "chapter_heading": heading or passage["heading"], "passage_id": passage["passage_id"],
                        "topic_passage_id": topic_id, "last_message": text, "last_reply": reply, "problem": problem,
-                       "stuck": state.get("stuck", 0) if followup else 0}   # a new topic starts its help count again
+                       "stuck": state.get("stuck", 0) if followup else 0,   # a new topic starts its help count again
+                       # answers after this mark count toward an answer-triggered step back: a topic opened, stepped
+                       # back to or returned to starts with no wrong answers, whatever came before it
+                       "answer_mark": (state.get("answer_mark", 0) if followup
+                                       else learner_model.last_answer_id(db, session.id))}
     return _finish(db, session, text, TutorReply(
         reply=reply, action=action or {"explain": Action.EXPLAIN, "hint": Action.HINT,
                                        "guide": Action.GUIDE, "review": Action.HINT}[mode], label=InputLabel.ON_TOPIC,
@@ -506,7 +584,7 @@ def _topic_passage(state: dict) -> dict | None:
 def _prerequisites_of(stack: list, passage: dict) -> list[dict]:
     """Topics this one builds on (learning graph first, else embeddings), minus the ones already on the way."""
     try:
-        return ncert_path.new_ones(ncert.prerequisites(passage), passage, stack)
+        return ncert_path.new_ones(ncert.prerequisites(passage, limit=3), passage, stack)   # 3: room to pick the weakest
     except HTTPException:                                     # corpus unavailable: carry on without a detour
         return []
 
@@ -518,22 +596,48 @@ def _return_hint(depth: int) -> str:
     return "Say “back to the main topic” when you are ready."
 
 
+def _readiness_on(db: Session, session: SessionRow, option: dict) -> float:
+    """Readiness on a prerequisite topic: on its graph concept when the graph named one and the learner has answers
+    on it (or an AKT estimate), else on its chapter."""
+    if option.get("concept_id"):
+        p = learner_model.concept_readiness(db, session.learner_id, session.course_id, option["concept_id"])
+        if p is not None:
+            return p
+    return learner_model.readiness(db, session.learner_id, session.course_id, ncert.concept_id(option))
+
+
+def _weakest_first(db: Session, session: SessionRow, options: list[dict]) -> list[tuple[float, dict]]:
+    """Prerequisite topics with this learner's readiness on each (from all their sessions), weakest first. Ties keep
+    the order they came in (strongest graph edge first)."""
+    scored = [(_readiness_on(db, session, o), i, o) for i, o in enumerate(options)]
+    return [(p, o) for p, _, o in sorted(scored, key=lambda s: (s[0], s[1]))]
+
+
 def _step_back(db: Session, session: SessionRow, text: str, state: dict, intro: str,
-               deepest: bool = False) -> TutorReply | None:
-    """Teach the nearest prerequisite of the current topic and remember where to return to. With `deepest`, follow
-    the strongest prerequisite again and again to the most basic topic; every topic passed on the way goes on the
-    stack, so climbing back revisits them in order (foundations first)."""
+               deepest: bool = False, from_answers: bool = False) -> TutorReply | None:
+    """Teach the prerequisite of the current topic the learner is weakest on and remember where to return to. With
+    `deepest`, step back again and again to the most basic topic; every topic passed on the way goes on the stack,
+    so climbing back revisits them in order (foundations first). With `from_answers` (wrong answers asked for it),
+    no step is taken when the learner already knows every prerequisite."""
     stack = list(session.stack or [])
     here = _topic_passage(state)
     if here is None:
         return None
     path, came_from, link = [], here, None
     while True:
-        options = _prerequisites_of(stack + path, here)
-        if not options:
+        ranked = _weakest_first(db, session, _prerequisites_of(stack + path, here))
+        if not ranked:
             break
+        weakest, option = ranked[0]
+        if from_answers and weakest >= controller.WEAK:
+            log.info("NCERT step back skipped: every prerequisite of %s is known (weakest %.2f)",
+                     here["passage_id"], weakest)
+            trace.emit("controller", "Teaching controller", "earlier topics are already known: staying on this one")
+            break
+        trace.emit("controller", "Teaching controller",
+                   f"weakest earlier topic: {ncert.topic_title(option['heading'])} (readiness {weakest:.2f})")
         path.append(ncert_path.entry(here, ncert.chapter_of(here).model_dump()))
-        came_from, here, link = here, options[0], options[0]
+        came_from, here, link = here, option, option
         if not deepest:
             break
     if not path:
@@ -771,6 +875,17 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     stuck = state.get("stuck", 0) + 1 if helping else 0       # help requests in a row: anything else starts again
     state = {**state, "stuck": stuck}
     session.pending = state
+    if followup and session.current_concept:                  # the learner's answers on this topic say there is a gap
+        wrong = learner_model.wrong_in_a_row(db, session.id, session.current_concept, state.get("answer_mark", 0))
+        if wrong >= ncert_path.WRONG_LIMIT:
+            trace.emit("learner_model", "Answer history", f"{wrong} answers in a row on this topic were not right yet")
+            stepped = _step_back(db, session, text, state,
+                                 f"Your last {wrong} answers on this topic weren't right yet, so an earlier idea "
+                                 "may be the gap.", from_answers=True)
+            if stepped:
+                return stepped
+            state = {**state, "answer_mark": learner_model.last_answer_id(db, session.id)}   # wait for new answers
+            session.pending = state
     if helping and stuck >= ncert_path.STUCK_LIMIT:           # still lost after help: the gap is probably earlier
         stepped = _step_back(db, session, text, state, "That's okay, this may need an earlier idea first.")
         if stepped:
@@ -935,10 +1050,58 @@ def _next_hint(db: Session, session: SessionRow, asked: Question, text: str) -> 
             if material else "Let's break it into a smaller piece: what is the very first thing the question asks you to find?")
 
 
+RESUME_TEXT = "Continue where I left off."
+
+
+def _open_pick(db: Session, session: SessionRow, text: str, passage: dict | None, what: str) -> TutorReply:
+    """Open a topic the learner picked in the side panel, from any class or chapter: a new topic, so no detour."""
+    if passage is None:
+        return _respond(db, session, text, f"I couldn't open {what} right now. Pick a topic from the chapter list "
+                        "or ask a question about it.")
+    session.stack = []
+    trace.emit("lesson", "Side panel", f"opened “{ncert.topic_title(passage['heading'])}”")
+    return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
+
+
+def _side_panel_pick(db: Session, session: SessionRow, text: str, topic_heading: str | None,
+                     topic_chapter: dict | None, graph_concept: str | None, resume: bool) -> TutorReply | None:
+    """A pick from the side panel. The panel sends fixed wording; any other text is read as an ordinary message,
+    so these fields cannot carry a message past the input checks."""
+    if resume and text == RESUME_TEXT:
+        return (_resume_learner(db, session, text, move="resume")
+                or _respond(db, session, text, "There's no saved place from an earlier chat to pick up. "
+                            "Pick a topic or ask a question."))
+    if graph_concept:
+        passage = ncert.concept_passage(graph_concept)
+        if passage is None:
+            return _open_pick(db, session, text, None, "that concept")
+        if text == f"Help me understand {passage['concept']}."[:2000]:
+            topic = None
+            try:
+                topic = ncert.topic_passage(ncert.chapter_of(passage).model_dump(), passage["heading"])
+            except HTTPException:
+                pass
+            return _open_pick(db, session, text, topic or passage, "that concept")
+    if topic_chapter and topic_heading and text == f"Help me understand {topic_heading}."[:2000]:
+        try:
+            passage = ncert.topic_passage(topic_chapter, topic_heading)
+        except HTTPException:
+            passage = None
+        return _open_pick(db, session, text, passage, "that topic")
+    return None
+
+
 def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool = False,
-                   selected_concept: str | None = None, *, topic_heading: str | None = None) -> TutorReply:
+                   selected_concept: str | None = None, *, topic_heading: str | None = None,
+                   topic_chapter: dict | None = None, graph_concept: str | None = None,
+                   resume: bool = False) -> TutorReply:
     text = text.strip()
     is_ncert = session.course_id == ncert.COURSE_ID
+    if is_ncert and (topic_chapter or graph_concept or resume):
+        picked = _side_panel_pick(db, session, text, topic_heading, topic_chapter, graph_concept, resume)
+        if picked:
+            return picked
+        topic_heading = None if topic_chapter else topic_heading   # the heading belongs to that other chapter
     if is_ncert and topic_heading and text == f"Help me understand {topic_heading}."[:2000]:
         return _handle_ncert(db, session, text, True, "topic_switch", "supported", topic_heading)
     asked = Question(**session.pending) if session.pending and session.pending.get("text") and not is_ncert else None
@@ -967,6 +1130,10 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
         if moved:
             trace.emit("lesson", "Lesson path", f"moved through the lesson ({moved.action.value})")
             return moved
+    elif is_ncert and not new_topic and topic_heading is None:  # nothing open here yet: maybe resume an earlier session
+        resumed = _resume_learner(db, session, text)
+        if resumed:
+            return resumed
     explicit_switch = (new_topic or selected_concept is not None or (is_ncert and topic_heading is not None)
                        or guardrails.requests_topic_switch(text))
     assessment = _assessment_attempt(text, asked) if asked and not explicit_switch else None

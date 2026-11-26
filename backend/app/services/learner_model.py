@@ -5,28 +5,77 @@ Swap `readiness` for the trained DKT model behind the same interface; DKT reads
 `session_sequence`. History is kept per learner and per course, so courses never mix.
 """
 import logging
+from collections.abc import Iterable
 
-from sqlalchemy import case, func, select
+from sqlalchemy import case, func, or_, select
 from sqlalchemy.orm import Session
 
-from ..db import AnswerRow
+from ..db import AnswerConceptRow, AnswerRow
 from . import akt
 
 _log = logging.getLogger("uvicorn.error")  # shown by default under uvicorn; no app logging config exists
 
 
-def record(db: Session, learner_id: str, course_id: str, session_id: str, concept_id: str, correct: bool) -> None:
-    db.add(AnswerRow(learner_id=learner_id, course_id=course_id, session_id=session_id,
-                     concept_id=concept_id, correct=correct))
+def record(db: Session, learner_id: str, course_id: str, session_id: str, concept_id: str, correct: bool,
+           graph_concepts: Iterable[str] = ()) -> None:
+    """One answer on `concept_id` (a pack concept or an NCERT chapter), linked to the learning-graph concepts
+    it was about, if any."""
+    answer = AnswerRow(learner_id=learner_id, course_id=course_id, session_id=session_id,
+                       concept_id=concept_id, correct=correct)
+    db.add(answer)
+    db.flush()
+    db.add_all(AnswerConceptRow(answer_id=answer.id, concept_id=c) for c in dict.fromkeys(graph_concepts))
     db.flush()
 
 
 def stats(db: Session, learner_id: str, course_id: str, concept_id: str) -> tuple[int, int]:
+    """(attempts, correct) on a concept: answers recorded on it, or linked to it as a graph concept."""
+    linked = select(AnswerConceptRow.answer_id).where(AnswerConceptRow.concept_id == concept_id)
     attempts, correct = db.execute(
         select(func.count(AnswerRow.id), func.coalesce(func.sum(case((AnswerRow.correct, 1), else_=0)), 0))
         .where(AnswerRow.learner_id == learner_id, AnswerRow.course_id == course_id,
-               AnswerRow.concept_id == concept_id)).one()
+               or_(AnswerRow.concept_id == concept_id, AnswerRow.id.in_(linked)))).one()
     return int(attempts), int(correct)
+
+
+def concept_mastery(db: Session, learner_id: str, course_id: str,
+                    concept_ids: Iterable[str]) -> dict[str, tuple[float | None, str | None, int, int]]:
+    """For many graph concepts at once: (readiness, "akt" or "accuracy", attempts, correct). Readiness and source
+    are None when there is no evidence (no answer on the concept and no AKT estimate). Same rules as
+    concept_readiness, with the answers read in two queries instead of a few per concept."""
+    right = func.coalesce(func.sum(case((AnswerRow.correct, 1), else_=0)), 0)
+    mine = (AnswerRow.learner_id == learner_id, AnswerRow.course_id == course_id)
+    counts: dict[str, list[int]] = {}
+    for concept, n, ok in [
+        *db.execute(select(AnswerConceptRow.concept_id, func.count(AnswerRow.id), right)
+                    .join(AnswerRow, AnswerRow.id == AnswerConceptRow.answer_id)
+                    .where(*mine).group_by(AnswerConceptRow.concept_id)).all(),
+        *db.execute(select(AnswerRow.concept_id, func.count(AnswerRow.id), right)
+                    .where(*mine).group_by(AnswerRow.concept_id)).all()]:
+        total = counts.setdefault(concept, [0, 0])
+        total[0], total[1] = total[0] + int(n), total[1] + int(ok)
+    tracer = akt.get_tracer()
+    answers = history(db, learner_id, course_id) if tracer else []
+    out = {}
+    for cid in concept_ids:
+        attempts, correct = counts.get(cid, (0, 0))
+        p = tracer.predict(cid, answers) if tracer and tracer.skill_of(cid) is not None else None
+        if p is not None:
+            out[cid] = (p, "akt", attempts, correct)
+        elif attempts:
+            out[cid] = ((correct + 1) / (attempts + 2), "accuracy", attempts, correct)
+        else:
+            out[cid] = (None, None, 0, 0)
+    return out
+
+
+def concept_readiness(db: Session, learner_id: str, course_id: str, concept_id: str) -> float | None:
+    """Readiness on one learning-graph concept, or None when the learner has no evidence on it yet (no linked
+    answer and no AKT estimate), so the caller can fall back to the chapter."""
+    p, source = estimate(db, learner_id, course_id, concept_id)
+    if source == "akt" or stats(db, learner_id, course_id, concept_id)[0]:
+        return p
+    return None
 
 
 def history(db: Session, learner_id: str, course_id: str) -> list[tuple[str, bool]]:
@@ -35,6 +84,26 @@ def history(db: Session, learner_id: str, course_id: str) -> list[tuple[str, boo
                       .where(AnswerRow.learner_id == learner_id, AnswerRow.course_id == course_id)
                       .order_by(AnswerRow.id)).all()
     return [(c, bool(ok)) for c, ok in rows]
+
+
+def last_answer_id(db: Session, session_id: str) -> int:
+    """The newest answer recorded in this session (0 when none): a mark to count later answers from."""
+    return int(db.scalar(select(func.coalesce(func.max(AnswerRow.id), 0)).where(AnswerRow.session_id == session_id)))
+
+
+def wrong_in_a_row(db: Session, session_id: str, concept_id: str, after_id: int = 0) -> int:
+    """Wrong answers at the end of this session's answers on the concept, counting only answers after `after_id`.
+    A right answer ends the run."""
+    rows = db.scalars(select(AnswerRow.correct)
+                      .where(AnswerRow.session_id == session_id, AnswerRow.concept_id == concept_id,
+                             AnswerRow.id > after_id)
+                      .order_by(AnswerRow.id.desc()).limit(20)).all()
+    wrong = 0
+    for ok in rows:
+        if ok:
+            break
+        wrong += 1
+    return wrong
 
 
 def readiness(db: Session, learner_id: str, course_id: str, concept_id: str) -> float:

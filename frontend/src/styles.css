@@ -215,6 +215,22 @@ summary::marker { color: var(--accent); }
 progress { width: 100%; accent-color: var(--accent); }
 .readiness { list-style: none; margin: .45rem 0 .75rem; padding: 0; }
 .readiness li { display: flex; justify-content: space-between; gap: .5rem; padding-block: .25rem; }
+.study-lists h3 { margin: .6rem 0 0; font-size: .95rem; }
+.study-lists .readiness { margin-top: .25rem; }
+.study-lists li > span:first-child { overflow-wrap: anywhere; }
+.study-lists li > span:last-child { flex-shrink: 0; }
+.readiness li:has(> .panel-pick) { padding-block: 0; }
+.panel-pick { display: flex; justify-content: space-between; gap: .5rem; width: 100%; padding: .3rem .35rem; margin-inline: -.35rem;
+  box-sizing: content-box; border: 0; border-radius: 4px; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.panel-pick:hover:not(:disabled) { background: var(--field); }
+.panel-pick:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.panel-pick:disabled { cursor: default; opacity: .6; }
+.panel-pick > span:first-child { overflow-wrap: anywhere; }
+.panel-pick > span:last-child:not(:first-child) { flex-shrink: 0; }
+.left-off button:not(.panel-pick) { margin-top: .4rem; }
+.left-off p { margin: .2rem 0; overflow-wrap: anywhere; }
+.detour { margin: .2rem 0 .4rem; padding-left: 1.2rem; }
+.detour li { padding-block: .1rem; overflow-wrap: anywhere; }
 .search-form { display: grid; gap: .45rem; justify-items: start; margin-bottom: .6rem; }
 .search-form input { width: 100%; }
 .search-hit { border-top: 1px solid var(--line); overflow-wrap: anywhere; }

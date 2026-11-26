@@ -103,14 +103,17 @@ def _run_turn(db: Session, session_id: str, body: MessageIn, user: str,
     session = _get(db, session_id, for_update=True)
     request_id = str(body.request_id or uuid4())
     message = body.model_dump(exclude={"request_id"})
-    if body.topic_heading is None:
-        message.pop("topic_heading")  # keep request IDs replayable for turns saved before the field existed
+    for field, unset in (("topic_heading", None), ("topic_chapter", None), ("graph_concept", None), ("resume", False)):
+        if message.get(field) == unset:
+            message.pop(field)        # keep request IDs replayable for turns saved before the field existed
     existing = db.get(TurnDetailRow, (session_id, request_id))
     if existing:
         trace.emit("replay", "Already answered", "this message was sent before, so the saved reply is returned")
         return _replay(existing, message), None
     limit_messages(user)
-    reply = tutor.handle_message(db, session, body.text, body.new_topic, body.concept_id, topic_heading=body.topic_heading)
+    reply = tutor.handle_message(db, session, body.text, body.new_topic, body.concept_id, topic_heading=body.topic_heading,
+                                 topic_chapter=body.topic_chapter.model_dump() if body.topic_chapter else None,
+                                 graph_concept=body.graph_concept, resume=body.resume)
     try:
         db.flush()
         turn_id = db.scalars(select(TurnRow.id).where(TurnRow.session_id == session_id)

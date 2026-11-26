@@ -165,6 +165,29 @@ _GRAPH_PREREQUISITES = text("""
     ORDER BY score DESC, grade, book_code, chapter, physical_page, passage_id
     LIMIT :limit
 """)
+# The graph concepts of one topic: nodes whose evidence quotes a chunk under that heading (as `here` above).
+_TOPIC_CONCEPTS = text("""
+    WITH """ + GRAPH_RUN + """
+    SELECT DISTINCT n.concept_id
+    FROM run JOIN learning_graph.graph_nodes n ON n.run_id = run.run_id
+    CROSS JOIN LATERAL jsonb_array_elements(n.evidence) ev
+    JOIN ncert_research.passages c ON c.release_id = :release AND c.passage_id = ev->>'source_id'
+    WHERE c.book_code = :cur_book AND c.chapter = :cur_chapter AND c.heading = :heading
+    ORDER BY n.concept_id
+""")
+# The passage to open for one graph concept: one of its evidence passages, a teaching section before a summary or
+# exercise, earliest in the textbooks. Adds the concept's name.
+_CONCEPT_PASSAGE = text("WITH " + GRAPH_RUN + """, quoted AS (
+        SELECT n.name, e->>'source_id' AS passage_id
+        FROM run JOIN learning_graph.graph_nodes n ON n.run_id = run.run_id AND n.concept_id = :concept_id
+        CROSS JOIN LATERAL jsonb_array_elements(n.evidence) e
+    )
+    SELECT """ + _PASSAGE_FIELDS + """, (SELECT name FROM quoted LIMIT 1) AS concept""" + _ELIGIBLE + """
+      AND p.passage_id IN (SELECT passage_id FROM quoted)
+    ORDER BY p.heading ~* '(summary|exercise|what have we (discussed|learnt))', p.grade, p.book_code, p.chapter,
+             p.physical_page, p.passage_id
+    LIMIT 1
+""")
 _SIMILARITY = text("""
     SELECT 1 - (p.embedding <=> CAST(:embedding AS vector)) AS score
 """ + _ELIGIBLE + """
@@ -351,6 +374,31 @@ def graph_prerequisites(row: dict, limit: int = 2) -> list[dict]:
     found = [{**r, "source": "graph"} for r in rows]
     _log_picked(row, found)
     return found
+
+
+def topic_concepts(topic: dict) -> list[str]:
+    """Learning-graph concept ids of one topic ({"book_code", "chapter", "heading"}). [] when the graph is off,
+    has no concept for the topic, or cannot be read."""
+    if not graph_enabled():
+        return []
+    params = dict(course_key=GRAPH_COURSE_KEY, run_id=graph_run(), heading=topic["heading"],
+                  cur_book=topic["book_code"], cur_chapter=topic["chapter"])
+    try:
+        return [r["concept_id"] for r in _query(_TOPIC_CONCEPTS, {}, **params)]
+    except HTTPException:
+        log.warning("topic_concepts SQL failed for %r", topic["heading"])
+        return []
+
+
+def concept_passage(concept_id: str) -> dict | None:
+    """The passage that teaches one learning-graph concept, with its name under "concept". None when the concept
+    has no eligible evidence passage or the graph cannot be read."""
+    try:
+        rows = _query(_CONCEPT_PASSAGE, {}, course_key=GRAPH_COURSE_KEY, run_id=graph_run(), concept_id=concept_id)
+    except HTTPException:
+        log.warning("concept_passage SQL failed for %r", concept_id)
+        return None
+    return rows[0] if rows else None
 
 
 def _log_picked(row: dict, found: list[dict]) -> None:

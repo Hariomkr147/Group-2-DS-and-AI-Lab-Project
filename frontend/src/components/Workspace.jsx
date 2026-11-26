@@ -175,6 +175,27 @@ function Lesson({ user, course, selection, onOpen }) {
     return () => controller.abort();
   }, [refresh]);
 
+  // The learning graph with this learner's mastery, for the class and subject of the lesson: next and review lists.
+  const [studyGraph, setStudyGraph] = useState(null);
+  const [studyError, setStudyError] = useState('');
+  // Where the learner is across chats: the last open topic and the detour above it.
+  const [learnerState, setLearnerState] = useState(null);
+  const [learnerStateError, setLearnerStateError] = useState('');
+  useEffect(() => {
+    if (!isTextbook) return;
+    const controller = new AbortController();
+    const learner = `/learners/${encodeURIComponent(user)}`;
+    setLearnerStateError('');
+    api(`${learner}/state`, undefined, controller.signal)
+      .then(setLearnerState).catch((error) => { if (!controller.signal.aborted) setLearnerStateError(error.message); });
+    if (selection.grade && selection.subject) {
+      setStudyError('');
+      api(`${learner}/graph?grade=${selection.grade}&subject=${selection.subject}`, undefined, controller.signal)
+        .then(setStudyGraph).catch((error) => { if (!controller.signal.aborted) setStudyError(error.message); });
+    }
+    return () => controller.abort();
+  }, [refresh]);
+
   const refreshProgress = () => setRefresh((value) => value + 1);
 
   async function send(message) {
@@ -251,7 +272,12 @@ function Lesson({ user, course, selection, onOpen }) {
         {mode !== 'chat' && session && <Assessment key={mode} sessionId={session.session_id} mode={mode}
           concepts={concepts} currentId={session.current_concept} onGraded={refreshProgress} />}
       </section>
-      <SidePanel selection={selection} isTextbook={isTextbook} progress={progress} progressError={progressError} onRetry={refreshProgress} />
+      <SidePanel selection={selection} isTextbook={isTextbook} progress={progress} progressError={progressError} onRetry={refreshProgress}
+        studyGraph={studyGraph} studyError={studyError} learnerState={learnerState} learnerStateError={learnerStateError}
+        sessionId={session?.session_id} pickDisabled={!session || Boolean(pending) || sending}
+        onOpenConcept={(concept) => { setMode('chat'); startTurn(`Help me understand ${concept.name}.`.slice(0, 2000), { new_topic: true, graph_concept: concept.id }); }}
+        onOpenTopic={(topic) => { setMode('chat'); startTurn(`Help me understand ${topic.heading}.`.slice(0, 2000), { new_topic: true, topic_heading: topic.heading, topic_chapter: topic.chapter }); }}
+        onResume={() => { setMode('chat'); startTurn('Continue where I left off.', { resume: true }); }} />
     </div>
   );
 }

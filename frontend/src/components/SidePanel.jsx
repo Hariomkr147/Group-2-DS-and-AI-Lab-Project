@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { api } from '../api.js';
 import { RichText, SourceLink, sourceTitle } from './RichText.jsx';
 
-export default function SidePanel({ selection, isTextbook, progress, progressError, onRetry }) {
+export default function SidePanel({ selection, isTextbook, progress, progressError, onRetry, studyGraph, studyError,
+  learnerState, learnerStateError, sessionId, onOpenConcept, onOpenTopic, onResume, pickDisabled }) {
   const [toolsOpened, setToolsOpened] = useState(false);
   return (
     <aside className="reference" aria-label="Study references">
@@ -13,6 +14,15 @@ export default function SidePanel({ selection, isTextbook, progress, progressErr
       {isTextbook && selection.grade && selection.subject && <details open>
         <summary>Your skill level</summary>
         <Skill skill={progress} error={progressError} onRetry={onRetry} />
+      </details>}
+      {isTextbook && <details open>
+        <summary>Where you left off</summary>
+        <LeftOff state={learnerState} error={learnerStateError} sessionId={sessionId} onRetry={onRetry}
+          onOpenTopic={onOpenTopic} onResume={onResume} disabled={pickDisabled} />
+      </details>}
+      {isTextbook && selection.grade && selection.subject && <details open>
+        <summary>What to study</summary>
+        <Study graph={studyGraph} error={studyError} onRetry={onRetry} onOpen={onOpenConcept} disabled={pickDisabled} />
       </details>}
       <details>
         <summary>Search course sources</summary>
@@ -57,6 +67,70 @@ function Skill({ skill, error, onRetry }) {
       {Array.from({ length: 10 }, (_, index) => <span key={index} data-filled={index < skill.level} />)}
     </div>
     <p className="muted">From {skill.answers} checked {skill.answers === 1 ? 'answer' : 'answers'} ({skill.correct} right), using {SOURCE[skill.source]}.</p>
+  </div>;
+}
+
+function where(concept) {
+  return [concept.grade && `Class ${concept.grade}`, concept.chapter && `Ch ${concept.chapter}`].filter(Boolean).join(' · ');
+}
+
+function Study({ graph, error, onRetry, onOpen, disabled }) {
+  if (error) return <div className="reference-content"><p className="muted" role="status">Study suggestions are unavailable right now.</p><button onClick={onRetry}>Retry suggestions</button></div>;
+  if (!graph) return <p className="reference-content muted" role="status">Loading suggestions…</p>;
+  const byId = Object.fromEntries(graph.nodes.map((concept) => [concept.id, concept]));
+  const next = graph.next.map((id) => byId[id]).filter(Boolean);
+  const review = graph.review.map((id) => byId[id]).filter(Boolean);
+  const { mastered = 0, learning = 0, struggling = 0 } = graph.counts;
+  return <div className="reference-content study-lists">
+    <h3>Ready to learn next</h3>
+    {next.length
+      ? <ul className="readiness">{next.map((concept) => <li key={concept.id}>
+          <button type="button" className="panel-pick" disabled={disabled} onClick={() => onOpen(concept)}
+            title={`Open ${concept.name}`}><span>{concept.name}</span><span className="muted">{where(concept)}</span></button>
+        </li>)}</ul>
+      : <p className="muted">Concepts appear here once you’ve mastered everything they build on.</p>}
+    <h3>Worth reviewing</h3>
+    {review.length
+      ? <ul className="readiness">{review.map((concept) => <li key={concept.id}>
+          <button type="button" className="panel-pick" disabled={disabled} onClick={() => onOpen(concept)}
+            title={`Open ${concept.name}`}><span>{concept.name} <span className="muted">{where(concept)}</span></span>
+            <span>{Math.round(concept.readiness * 100)}%</span></button>
+        </li>)}</ul>
+      : <p className="muted">Nothing to review yet. Concepts you find hard will show up here.</p>}
+    <p className="muted">{mastered} mastered · {learning} learning · {struggling} to review, from the answers the tutor has checked.</p>
+  </div>;
+}
+
+// The backend stores UTC times without a zone marker; read them as UTC and show local time.
+function savedAt(text) {
+  const utc = /(Z|[+-]\d\d:\d\d)$/.test(text) ? text : `${text}Z`;
+  return new Date(utc).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+function LeftOff({ state, error, sessionId, onRetry, onOpenTopic, onResume, disabled }) {
+  if (error) return <div className="reference-content"><p className="muted" role="status">Your saved place is unavailable right now.</p><button onClick={onRetry}>Retry</button></div>;
+  if (!state) return <p className="reference-content muted" role="status">Loading…</p>;
+  if (!state.topic) return <p className="reference-content muted">Open a textbook topic and your place will be saved here, so you can pick it up in a later chat.</p>;
+  const subject = state.topic.chapter.subject === 'maths' ? 'Maths' : 'Science';
+  const here = sessionId && state.session_id === sessionId;
+  return <div className="reference-content left-off">
+    <p><strong>{state.topic.heading}</strong></p>
+    <p className="muted">Class {state.topic.chapter.grade} {subject} · Chapter {state.topic.chapter.chapter}
+      {state.updated_at && ` · ${savedAt(state.updated_at)}`}</p>
+    {state.detour.length > 0 && <>
+      <p>Stepped back here from:</p>
+      <ol className="detour">{[...state.detour].reverse().map((topic, index) => <li key={`${topic.heading}-${index}`}>
+        <button type="button" className="panel-pick" disabled={disabled} onClick={() => onOpenTopic(topic)} title={`Open ${topic.heading}`}>
+          <span>{topic.heading} <span className="muted">Class {topic.chapter.grade} · Ch {topic.chapter.chapter}</span></span>
+        </button>
+      </li>)}</ol>
+    </>}
+    {here
+      ? <p className="muted">Saved from this chat.</p>
+      : <>
+        <p className="muted">Saved from an earlier chat.</p>
+        <button type="button" disabled={disabled} onClick={onResume}>Continue where I left off</button>
+      </>}
   </div>;
 }
 

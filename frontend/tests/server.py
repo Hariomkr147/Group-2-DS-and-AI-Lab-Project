@@ -38,4 +38,22 @@ with TemporaryDirectory() as directory:
     ncert.rank = rank
     ncert.topic_passage = lambda scope, heading: passage if scope == chapter and heading == passage["heading"] else None
     ncert.cited_passage = lambda scope, pid: passage if scope == chapter and pid == passage["passage_id"] else None
+
+    # A tiny learning graph and fixed mastery for the "What to study" panel: charge is mastered, so current is
+    # ready to learn; resistance is weak, so it is worth reviewing.
+    from app.schemas import GraphConcept, LearningGraph, LearningGraphEdge
+    from app.services import learner_model, ncert_graph
+
+    def concept(cid, name, prerequisites=()):
+        return GraphConcept(id=cid, name=name, level=1, prerequisites=list(prerequisites), **chapter)
+
+    ncert_graph.learning_graph = lambda scope: LearningGraph(
+        course_id="ncert", run_id="fixture-run",
+        nodes=[concept("charge", "Electric charge"), concept("current", "Electric current", ["charge"]),
+               concept("resistance", "Resistance")],
+        edges=[LearningGraphEdge(prerequisite="charge", concept="current", confidence=0.9)])
+    ncert.concept_passage = lambda cid: {**passage, "concept": "Electric current"} if cid == "current" else None
+    mastery = {"charge": (0.8, "accuracy", 3, 3), "resistance": (0.25, "accuracy", 2, 0)}
+    learner_model.concept_mastery = lambda db, learner, course, ids: {
+        cid: mastery.get(cid, (None, None, 0, 0)) for cid in ids}
     uvicorn.run(app, host="127.0.0.1", port=8766)

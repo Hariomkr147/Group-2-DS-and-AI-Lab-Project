@@ -1,4 +1,5 @@
 """Request and response models shared by the routers and services."""
+from datetime import datetime
 from enum import Enum
 from typing import Literal
 from uuid import UUID
@@ -133,6 +134,11 @@ class MessageIn(BaseModel):
     new_topic: bool = False
     concept_id: str | None = Field(default=None, max_length=200)
     topic_heading: str | None = Field(default=None, min_length=1, max_length=2000)
+    # NCERT picks from the side panel, which may lie outside the session's chapter (text must be the fixed wording
+    # the panel sends, see tutor.handle_message):
+    topic_chapter: Chapter | None = None       # the chapter of topic_heading, when it is not the session's
+    graph_concept: str | None = Field(default=None, min_length=1, max_length=200)   # open a learning-graph concept
+    resume: bool = False                          # reopen the learner's saved place from an earlier chat
     request_id: UUID | None = None
 
 
@@ -211,6 +217,52 @@ class SkillLevel(BaseModel):
     source: Literal["akt", "accuracy", "mixed"] | None = None
     answers: int
     correct: int
+
+
+class SavedTopic(BaseModel):
+    heading: str
+    chapter: Chapter
+
+
+class LearnerState(BaseModel):
+    """Where the learner is in a course across sessions: the last open topic and the detour above it (the topics
+    to climb back through, main topic first). topic is None until a topic has been opened."""
+    learner_id: str
+    course_id: str
+    session_id: str | None = None
+    topic: SavedTopic | None = None
+    detour: list[SavedTopic] = []
+    updated_at: datetime | None = None
+
+
+class LearnerConcept(BaseModel):
+    """One graph concept with this learner's mastery (services/learner_graph.py explains the statuses)."""
+    id: str
+    name: str
+    level: int
+    grade: int | None = None
+    subject: str | None = None
+    book_code: str | None = None
+    chapter: int | None = None
+    prerequisites: list[str] = []
+    status: Literal["mastered", "learning", "struggling", "ready", "unseen"]
+    readiness: float | None = None          # None: no evidence yet
+    source: Literal["akt", "accuracy"] | None = None
+    attempts: int = 0
+    correct: int = 0
+
+
+class LearnerGraph(BaseModel):
+    """The learning graph as one learner sees it: mastery on each concept, the concepts ready to learn next and
+    the ones to review."""
+    learner_id: str
+    course_id: str
+    run_id: str
+    nodes: list[LearnerConcept]
+    edges: list[LearningGraphEdge]
+    next: list[str]
+    review: list[str]
+    counts: dict[str, int]
 
 
 # ── Search and practice ──────────────────────────────────────────────────────
