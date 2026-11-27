@@ -27,10 +27,17 @@ def _start(client, **scope):
 
 def test_hosted_hint_leaves_the_student_a_question(monkeypatch):
     monkeypatch.setattr(socratic, "_hosted", lambda *args: "Think about charge flowing through a wire.")
-    reply, mode = socratic.grounded("Explain that.", "Electric current", _passage())
+    reply, mode = socratic.grounded("Give me a hint.", "Electric current", _passage(), mode="hint")
     assert mode == "hosted" and reply.startswith("Think about charge") and reply.endswith("?")
-    followup, mode = socratic.grounded("What do you mean?", "Electric current", _passage(), previous_reply=reply)
+    followup, mode = socratic.grounded("What do you mean?", "Electric current", _passage(), mode="hint",
+                                       previous_reply=reply)
     assert mode == "extractive" and followup != reply
+
+
+def test_hosted_explanation_is_not_given_a_tacked_on_question(monkeypatch):
+    monkeypatch.setattr(socratic, "_hosted", lambda *args: "Think about charge flowing through a wire.")
+    reply, mode = socratic.grounded("Explain that.", "Electric current", _passage())
+    assert mode == "hosted" and reply == "Think about charge flowing through a wire."
 
 
 def test_point_lesson_explains_and_hints_without_searching_again(ncert_client, monkeypatch):
@@ -216,7 +223,7 @@ def test_routes_and_cites_textbook_then_keeps_chapter_for_working(ncert_client, 
     monkeypatch.setattr(ncert, "cited_passage", cited)
     monkeypatch.setattr(socratic, "_hosted", lambda text, context, evidence, mode: contexts.append(context))
     followup = client.post(path, json={"text": "2.5"}).json()
-    assert first["reply"] in contexts[-1]
+    assert " ".join(first["reply"].split()) in " ".join(contexts[-1].split())   # memory keeps each turn on one line
     assert followup["action"] == "hint"
     assert client.post(path, json={"text": "what do you mean?"}).json()["resource"] == first["resource"]
     assert "Student: 2.5" in contexts[-1]
@@ -482,3 +489,27 @@ def test_abuse_is_caught_before_retrieval(ncert_client):
     for message in ("you are stupid", "you idiot, explain fractions"):     # the fake Qwen labels these abusive
         reply = ncert_client.post(path, json={"text": message}).json()
         assert reply["action"] == "redirect" and "respectful" in reply["reply"]
+
+
+def test_topic_question_read_as_menu_stays_on_the_lesson(ncert_client, monkeypatch):
+    # The conversation classifier sees the message alone and calls it "menu"; the turn classifier, which reads it
+    # against the tutor's last reply, says it is about the lesson. The lesson wins: no canned "what I can do" text.
+    passage = {**_passage(), "heading": "Salts", "content": "Salts form when an acid reacts with a base."}
+    monkeypatch.setattr(ncert, "topic_passage", lambda *args: passage)
+    monkeypatch.setattr(ncert, "cited_passage", lambda *args: passage)
+    monkeypatch.setattr(ncert, "rank", lambda *args, **kwargs: [passage])
+    monkeypatch.setattr(socratic, "_hosted", lambda *args: "What do you get when an acid meets a base?")
+    path = _start(ncert_client, chapter={"grade": 10, "subject": "science", "book_code": "jesc1", "chapter": 2})
+    ncert_client.post(path, json={"text": "Help me understand Salts.", "new_topic": True, "topic_heading": "Salts"})
+    reply = ncert_client.post(path, json={"text": "do I have anything else to know about salts?"}).json()
+    assert "I explain ideas from the textbook" not in reply["reply"]
+    assert reply["resource"]
+
+
+def test_off_topic_request_naming_a_school_topic_is_redirected(ncert_client):
+    """'suggest Indian movie related to acids and bases' names a chapter topic, so the router and the textbook search
+    both take it for study; Qwen's input check reads it as off topic and the tutor steers back before teaching."""
+    path = _start(ncert_client, grade=10, subject="science")
+    reply = ncert_client.post(path, json={"text": "suggest Indian movie related to acids and bases"}).json()
+    assert reply["label"] == "off_topic" and reply["action"] == "redirect"
+    assert reply["reply"] == socratic.REDIRECT_OFF_TOPIC

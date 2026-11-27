@@ -10,56 +10,24 @@ from sqlalchemy.orm import Session
 
 from ..db import LearnerStateRow, SessionLocal, SessionRow, TurnRow
 from ..schemas import Action, Concept, InputLabel, Question, Resource, TutorReply
-from . import (controller, conversation, course_store, guardrails, learner_model, misconception, ncert, ncert_path,
-               retrieval, socratic, step_finder, trace)
+from . import (controller, conversation, course_store, guardrails, learner_model, memory, misconception, ncert,
+               ncert_path, retrieval, socratic, step_finder, trace)
 
 log = logging.getLogger(__name__)
 
 ASK_FOR_WORKING = "Show your steps, one per line, so I can see where it went wrong."
 _HELP_INTENTS = {"doubt", "hint_request", "explanation_request"}
 _FOLLOWUP_INTENTS = _HELP_INTENTS | {"answer_attempt"}
-_ANSWER_PREFIX = re.compile(
-    r"^(?:my answer is|the answer is|answer:|i (?:think (?:it is|it's|its)|got|make it)|it(?:['’]s| is)|is it)\s*", re.I)
-_QUESTION_START = re.compile(r"(?:what|why|how|who|when|where|which|can|could|is|are|do|does)\b", re.I)
+# Help moves Qwen's turn classifier (socratic.classify_turn) can give: help on the current work.
+_HELP_TURNS = ("hint", "refers_back")
+# Turn labels that mean the message is about the lesson itself, so it is never the "what can you do?" menu.
+_CONTENT_TURNS = ("answer", "working", "refers_back", "hint", "explain", "problem")
+# Lead-ins cut from a message Qwen labelled an answer, so "the answer is photosynthesis" is compared as "photosynthesis".
+_ANSWER_LEAD_INS = ("my answer is", "the answer is", "answer:", "i think it is", "i think it's", "i think its", "i got",
+                    "i make it", "it's", "it’s", "it is", "is it")
 _VALUE = r"(?:[a-zA-Z]\s*=\s*)?[-+]?\d+(?:\.\d+)?(?:/\d+)?"
 _VALUES_ANSWER = re.compile(rf"{_VALUE}(?:\s*(?:,|or|and)\s*{_VALUE})*[.!]?")
-_STEP_WORDS = re.compile(r"=|\bmeans?\b|\bequals?\b|\bbecause\b|%|/|\bdivid|\bmultipl", re.I)
-_CALCULATION_START = re.compile(r"^\s*(?:step\s+\d+\s*[:.)-]\s*)?[\d(=+\-]", re.I)
 _TOPIC_WORDS_TO_IGNORE = {"about", "does", "explain", "help", "mean", "please", "that", "this", "understand", "what", "with"}
-_REFERENTIAL = re.compile(
-    r"(?:why|how so|what next|what do you mean|(?:(?:can|could|will) you )?(?:please )?(?:elaborate(?: on (?:that|this|it))?"
-    r"|tell me more|say more|explain (?:it |that |this )?(?:more|further)|(?:give|show) me more(?: detail)?|go on)|"
-    r"(?:(?:can|could) you )?(?:explain (?:that|this|it)"
-    r"(?: problem)?(?: again| in simple words| step by step)?|"
-    r"explain (?:in simple words|without the (?:text)?book)|"
-    r"(?:give me )?(?:an? |another )?(?:hint|example))|"
-    r"(?:can|could|may) i (?:have|get) (?:an?|another) (?:hint|example)|"
-    r"(?:(?:can|could) you )?(?:please )?(?:summari[sz]e|recap|sum up)(?: (?:it|that|this|(?:(?:the|this|that) )?(?:topic|lesson|chapter|section)))?(?: please)?|"
-    r"(?:(?:can|could) you )?(?:please )?(?:regenera\w*|re-?generate|rephrase|reword|try again|retry|say (?:it|that) again|"
-    r"(?:say|explain) (?:it|that|this) (?:differently|another way|in another way))(?: (?:the |that |your )?(?:response|answer|reply|explanation|it|that))?(?: please)?|"
-    r"i (?:(?:still )?don['’]t (?:understand(?: why)?|have the (?:text)?book)|am stuck|"
-    r"(?:am not|['’]m not) referring to (?:the )?(?:text)?book))[.!? ]*",
-    re.I,
-)
-_HINT = re.compile(r"\b(?:hint|clue)\b", re.I)
-_PROBLEM = re.compile(
-    r"^(?:(?:please |help me )?(?:solve|calculate|simplify|evaluate|find|prove|work out|determine)\b|"
-    r"how (?:do|should|would|can) (?:i|we|you)\b|(?:what is\s+)?[-+]?\d[^?\n]*(?:[+*/×÷−%-]|\bx\b))",
-    re.I,
-)
-_START_LESSON = re.compile(
-    r"(?:(?:ok(?:ay)?|alright|sure|yes|yeah|fine|so|well|please)[,.!\s]+)*"
-    r"(?:(?:can|could|will) you )?(?:please )?"
-    r"(?:teach me|start|begin|go ahead|continue|proceed|"
-    r"(?:let['’]?s|let us)(?: (?:start|begin|go|get started|get into|dive into|jump into))?)"
-    r"(?: me)?(?: (?:with|into|in|to))?(?: (?:a|any|the|some|this|first|next|our))?"
-    r"(?: (?:topic|lesson|chapter|something|it|now|again))?(?: to (?:start|begin) with)?(?: (?:now|please))?[.!?]*",
-    re.I)
-_EXPLAIN = re.compile(
-    r"^(?:(?:can|could) you )?(?:how (?:do|does|can|is)|what (?:is|are|does|do you mean)|"
-    r"why|define|explain|teach me|help me understand)\b",
-    re.I,
-)
 _PLAIN_CALCULATION = re.compile(
     r"(?:(?:what is|calculate|evaluate|work out|solve|simplify)\s+)?"
     r"([-+]?\d[\d .()+*/×÷xX−-]*[+*/×÷xX−-][\d .()+*/×÷xX−-]+?)[?.]?\s*",
@@ -79,25 +47,33 @@ def same_answer(attempt: str, answer: str) -> bool:
             and misconception.to_value(attempt) == misconception.to_value(answer))
 
 
-def _assessment_attempt(text: str, question: Question) -> tuple[str, list[str] | None] | None:
-    if guardrails.asks_for_help(text):
+def _without_lead_in(text: str) -> str:
+    low = text.casefold()
+    lead = next((o for o in _ANSWER_LEAD_INS if low.startswith(o)), "")
+    return text[len(lead):].strip()
+
+
+def _assessment_attempt(text: str, question: Question, turn: str | None = None) -> tuple[str, list[str] | None] | None:
+    """The learner's attempt at `question`, read with `turn` (Qwen's label for the message): None when it asks for
+    help or is not an answer at all."""
+    if turn in _HELP_TURNS:
         return None
     # shortcut: infer numeric answers and recognize explicit text answers, add answer types when packs declare them.
     wrapped = conversation.unwrap_answer(text)            # "is 10 correct?" -> "10"
-    prefix = None if wrapped else _ANSWER_PREFIX.match(text)
-    attempt = (wrapped or (text[prefix.end():] if prefix else text)).rstrip("?").strip()
+    answered = not wrapped and turn in ("answer", "working")
+    attempt = (wrapped or (_without_lead_in(text) if answered else text)).rstrip("?").strip()
     if guardrails.numeric_answer(question.answer):         # "ten" -> "10"
         attempt = conversation.number_from_words(attempt) or attempt
-    working = step_finder.split_working(attempt) if _CALCULATION_START.match(attempt) else None
+    working = step_finder.split_working(attempt) if turn == "working" or _numeric_start(attempt) else None
     if working and step_finder.has_arithmetic(working):
         attempt = step_finder.final_answer(working)
     else:
         working = None
     if guardrails.numeric_answer(question.answer):
-        if not guardrails.numeric_answer(attempt) and not _looks_like_step(text):   # "20!", "20 only", "4x5 is 20 only no"
+        if not guardrails.numeric_answer(attempt) and turn != "working":   # "20!", "20 only", "4x5 is 20 only no"
             attempt = conversation.loose_number(text, question.text) or attempt
         return (attempt, working) if guardrails.numeric_answer(attempt) else None
-    return (attempt, working) if attempt and (prefix or wrapped or same_answer(attempt, question.answer)) else None
+    return (attempt, working) if attempt and (answered or wrapped or same_answer(attempt, question.answer)) else None
 
 
 def _next_question(concept: Concept, seen: list[str]) -> Question | None:
@@ -152,14 +128,22 @@ def _saved_elsewhere(db: Session, session: SessionRow) -> LearnerStateRow | None
     return saved if saved and saved.topic and saved.session_id != session.id else None
 
 
-def _resume_learner(db: Session, session: SessionRow, text: str, move: str | None = None) -> TutorReply | None:
+def _resume_learner(db: Session, session: SessionRow, text: str, move: str | None = None,
+                    turn: str | None = None) -> TutorReply | None:
     """In a session with no topic open, "continue where I left off" reopens the learner's last topic and detour
     from an earlier session ("back to the main topic" reopens the topic that detour started from). `move` skips
-    reading the message (the side panel's Continue button)."""
+    reading the message (the side panel's Continue button). A message naming another subject is never a resume,
+    whatever the path classifier says (`turn`, Qwen's turn label, tells): the learner state must not override what
+    the learner asked for."""
     saved = _saved_elsewhere(db, session)
     if saved is None:
         return None
-    move = move or socratic.classify_path(text, detour=bool(saved.stack))
+    if move is None:
+        move = socratic.classify_path(text, detour=bool(saved.stack))
+        if move in ("resume", "main_topic") and turn in ("topic_switch", "explain", "problem"):
+            log.info("NCERT resume skipped: the message names another topic (path label %s, turn %s)", move, turn)
+            trace.emit("lesson", "Learner state", "you asked about something new, so the earlier topic was not reopened")
+            return None
     if move not in ("resume", "main_topic"):
         return None
     stack = list(saved.stack or [])
@@ -209,10 +193,11 @@ def _numeric(text: str) -> bool:
     return guardrails.numeric_answer(text) or bool(_VALUES_ANSWER.fullmatch(text.strip()))
 
 
-def _looks_like_step(text: str) -> bool:
-    """One line of working such as "20% means 20/100": a step, not a question and not a final answer."""
-    return (len(text) <= 200 and "?" not in text and bool(re.search(r"\d", text)) and bool(_STEP_WORDS.search(text))
-            and not _QUESTION_START.match(text.strip()))
+def _numeric_start(text: str) -> bool:
+    """Starts like a line of working ("4 x 5 = 20", "(2 + 3)"): a format check before splitting, not a reading
+    of what the message means."""
+    first = text.lstrip()[:1]
+    return bool(first) and (first.isdigit() or first in "(=+-")
 
 
 def _last_tutor_text(db: Session, session: SessionRow) -> str:
@@ -437,9 +422,13 @@ def _where_are_we(session: SessionRow, state: dict) -> str:
     return "We haven't started a topic yet. Pick a topic from the chapter list or ask a question."
 
 
-def _converse_ncert(db: Session, session: SessionRow, text: str) -> TutorReply | None:
+def _converse_ncert(db: Session, session: SessionRow, text: str, turn: str | None = None) -> TutorReply | None:
     state = session.pending or {}
     kind = conversation.classify(text, state.get("problem", ""))
+    if kind == "menu" and turn in _CONTENT_TURNS:
+        # The conversation classifier sees the message alone; the turn classifier read it against the tutor's last
+        # reply and the topic. "Anything else to know about salts?" is a question on the topic, not "what can you do?".
+        return None
     if kind == "where":
         return _respond(db, session, text, _where_are_we(session, state))
     if kind not in ("greeting", "thanks", "bye", "menu"):
@@ -462,10 +451,13 @@ PENDING_JUDGEMENTS = "pending_judgements"   # db.info key: NCERT attempts to jud
 def judge_and_record(items: list[dict]) -> None:
     """Background task: ask the model whether the tutor's reply marked each attempt right or wrong and record
     the answer for the learner model (AKT), on the chapter and on each graph concept of the topic. A reply it
-    cannot read records nothing."""
+    cannot read records nothing. Then run any queued memory capture (kind "memory"), after the judging, so a
+    misconception can be checked against this turn's verdict."""
     concepts: dict[tuple, list[str]] = {}                    # graph concepts per topic, looked up once per batch
     with SessionLocal() as db:
         for item in items:
+            if item.get("kind") == "memory":
+                continue
             verdict = socratic.judge_attempt(item["student"], item["tutor"], item["problem"])
             log.info("Answer judge concept=%s verdict=%s", item["concept_id"], verdict)
             if verdict is None:
@@ -474,9 +466,19 @@ def judge_and_record(items: list[dict]) -> None:
             key = tuple(sorted(topic.items())) if topic else ()
             if topic and key not in concepts:
                 concepts[key] = ncert.topic_concepts(topic)
-            learner_model.record(db, item["learner_id"], item["course_id"], item["session_id"],
-                                 item["concept_id"], verdict, concepts.get(key, []))
+            answer_id = learner_model.record(db, item["learner_id"], item["course_id"], item["session_id"],
+                                             item["concept_id"], verdict, concepts.get(key, []))
+            memory.link_answer(db, answer_id, item["session_id"], item["student"])
+            if verdict:
+                memory.resolve(db, item["learner_id"], item["course_id"], (topic or {}).get("heading"))
         db.commit()
+        for job in (item for item in items if item.get("kind") == "memory"):
+            try:
+                memory.capture(db, job)
+                db.commit()
+            except Exception as error:                        # a failed capture must never undo the judging
+                db.rollback()
+                log.warning("Memory capture failed (%s)", type(error).__name__)
 
 
 _MODE_WORDS = {"explain": "an explanation", "hint": "a hint", "guide": "the next step to try", "review": "feedback on your working"}
@@ -492,13 +494,34 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
     chapter = selected.model_dump()
     concept = ncert.concept_id(passage)
     model_context = f"Class {selected.grade} {selected.subject}. Topic: {ncert.topic_title(passage['heading'])}."
+    topic_heading = (state.get("chapter_heading") if followup else None) or passage["heading"]   # the topic on screen
     if problem:
         model_context += f"\nCurrent exercise: {problem[:320]}"
     elif context:
         model_context += f"\nLearning goal: {context[:170]}"
-    if followup and state.get("last_reply"):
+    if memory.enabled():
+        # Long-term memory (a summary written by code from stored progress) on every reply; short-term memory
+        # (the last few turns) on follow-ups, so a new topic is not read as a continuation of the old one.
+        summary = memory.long_term(db, session, state, concept, selected.grade, selected.subject, passage["heading"])
+        recent, kept = memory.short_term(db, session.id) if followup else ("", 0)
+        noted, n_notes = (memory.notes(db, session.learner_id, session.course_id, session.id, topic_heading)
+                          if memory.mode() == "full" else ("", 0))
+        if summary:
+            model_context += f"\nLearner so far: {summary}"
+        if noted:
+            model_context += f"\nNotes from earlier chat (checked against it):\n{noted}"
+        if recent:
+            model_context += f"\nRecent chat, oldest first:\n{recent}"
+        trace.emit("learner_model", "Conversation memory",
+                   ", ".join(part for part in (f"last {kept} turns" if kept else "",
+                                               "a summary of your progress" if summary else "",
+                                               f"{n_notes} checked note{'s' if n_notes > 1 else ''} from earlier"
+                                               if n_notes else "") if part)
+                   or "nothing to remember yet")
+    elif followup and state.get("last_reply"):
         model_context += f"\nStudent: {state.get('last_message', '')[:120]}\nTutor: {state['last_reply'][-240:]}"
-    working = step_finder.split_working(text) if mode == "review" else None
+        trace.emit("learner_model", "Conversation memory", "turned off: only the previous exchange is used")
+    working =step_finder.split_working(text) if mode == "review" else None
     slip = step_finder.arithmetic_slip(working) if working else None
     if slip:
         trace.emit("diagnosis", "Step checker", f"found an arithmetic slip in step {slip}")
@@ -521,8 +544,15 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
             "learner_id": session.learner_id, "course_id": session.course_id, "session_id": session.id,
             "concept_id": concept, "student": text, "tutor": reply, "problem": problem or context,
             # the topic on screen, whose graph concepts the answer is linked to once judged
-            "topic": {"book_code": passage["book_code"], "chapter": passage["chapter"],
-                      "heading": (state.get("chapter_heading") if followup else None) or passage["heading"]}})
+            "topic": {"book_code": passage["book_code"], "chapter": passage["chapter"], "heading": topic_heading}})
+    # Long-term notes (TUTOR_MEMORY=full): every few turns, and when the topic changes, the model proposes notes
+    # from the chat in the background and code checks each one (services/memory.py).
+    old_heading = state.get("chapter_heading")
+    job = memory.capture_job(db, session, topic_heading if followup or not old_heading else old_heading,
+                             problem or context, topic_changed=bool(not followup and old_heading
+                                                                    and old_heading != passage["heading"]))
+    if job:
+        db.info.setdefault(PENDING_JUDGEMENTS, []).append(job)
     if lead:
         reply = lead + reply
     session.current_concept = concept
@@ -535,6 +565,7 @@ def _ncert_reply(db: Session, session: SessionRow, text: str, passage: dict, con
     session.pending = {"scope": state.get("scope", {}), "chapter": chapter, "question": context,
                        "chapter_heading": heading or passage["heading"], "passage_id": passage["passage_id"],
                        "topic_passage_id": topic_id, "last_message": text, "last_reply": reply, "problem": problem,
+                       "visited": memory.visited(state.get("visited", []), heading or passage["heading"]),
                        "stuck": state.get("stuck", 0) if followup else 0,   # a new topic starts its help count again
                        # answers after this mark count toward an answer-triggered step back: a topic opened, stepped
                        # back to or returned to starts with no wrong answers, whatever came before it
@@ -654,9 +685,9 @@ def _step_back(db: Session, session: SessionRow, text: str, state: dict, intro: 
         passed = ", ".join(f"“{ncert.topic_title(e['heading'])}”" for e in reversed(path[1:]))
         step = (f"Let's start from the foundations with “{title}” (Class {here['grade']} {subject}, "
                 f"Chapter {here['chapter']}), {builds_on}. On the way back up we'll pass through {passed}.")
+        lead = f"{intro} {step} "
     else:
-        step = f"Let's step back to “{title}” (Class {here['grade']} {subject}, Chapter {here['chapter']}), {builds_on}."
-    lead = f"{intro} {step} "
+        lead = f"{intro} "
     return _ncert_reply(db, session, text, here, title, mode="explain", action=Action.BACKTRACK, lead=lead, detour=True)
 
 
@@ -678,7 +709,7 @@ def _resume(db: Session, session: SessionRow, text: str, state: dict, to_main: b
     log.info("NCERT advance (%s): back to %s, %d detour(s) left", "to main" if to_main else "resume",
              back["passage_id"], len(stack))
     return _ncert_reply(db, session, text, passage, title, mode="explain", action=Action.ADVANCE,
-                        lead=f"Welcome to “{title}”. ", detour=bool(stack))
+                        detour=bool(stack))
 
 
 def _move_on(db: Session, session: SessionRow, text: str, state: dict) -> TutorReply:
@@ -733,7 +764,8 @@ def _practice(db: Session, session: SessionRow, text: str, state: dict, scope: d
     session.current_concept = session.target_concept = ncert.concept_id(passage)
     session.pending = {"scope": state.get("scope", {}), "chapter": selected.model_dump(), "question": title,
                        "chapter_heading": passage["heading"], "passage_id": passage["passage_id"],
-                       "last_message": text, "last_reply": question, "problem": question, "stuck": 0}
+                       "last_message": text, "last_reply": question, "problem": question, "stuck": 0,
+                       "visited": memory.visited(state.get("visited", []), passage["heading"])}
     return _finish(db, session, text, TutorReply(
         reply=question, action=Action.GUIDE, label=InputLabel.ON_TOPIC, concept_id=session.current_concept,
         level=selected.grade, chapter=selected, resource=ncert.resource(passage), generation=generation))
@@ -784,18 +816,32 @@ _BARE_SUM = re.compile(r"(?i)(?:what(?:'s| is)\s+|calculate\s+|solve\s+|explain\
 
 def _is_exercise(text: str) -> bool:
     """A specific problem to guide, not a concept to explain. The model reads the meaning, so word problems
-    ("if we multiply 2, 3 and 5 ...") count; _PROBLEM (regex) is only the fallback when the model is off or unsure."""
+    ("if we multiply 2, 3 and 5 ...") count. With the model off or unsure it is not treated as one."""
     label = socratic.is_problem(text)
     log.info("Problem classifier label: %s", label)
-    return bool(_PROBLEM.match(text)) if label is None else label
+    return bool(label)
 
 
 def _without_clarification(state: dict) -> dict:
-    return {k: v for k, v in state.items() if k not in ("clarify", "clarify_query", "clarify_pick")}
+    return {k: v for k, v in state.items() if k not in ("clarify", "clarify_query", "clarify_pick", "clarify_options")}
+
+
+# What "What class or subject is this about?" offers: Qwen picks one from the learner's reply.
+_SCOPE_OPTIONS = ([{"label": f"Class {g} {s}", "filters": {"grade": g, "subject": s}}
+                   for g in range(6, 11) for s in ("maths", "science")]
+                  + [{"label": f"Class {g}", "filters": {"grade": g}} for g in range(6, 11)]
+                  + [{"label": s.capitalize(), "filters": {"subject": s}} for s in ("maths", "science")])
+
+
+def _pick_of(passage: dict) -> dict:
+    return {key: passage[key] for key in ("grade", "subject", "book_code", "chapter") if passage.get(key) is not None}
 
 
 def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
-                  intent: str, scope_label: str, topic_heading: str | None = None) -> TutorReply:
+                  intent: str, scope_label: str, topic_heading: str | None = None,
+                  turn: str | None = None) -> TutorReply:
+    """`turn` is Qwen's reading of the message against the tutor's last reply (socratic.classify_turn), None when
+    no topic is open or the model is off: the TF-IDF `intent` then decides alone."""
     state = session.pending or {}
     scope = state.get("scope", {})
     if topic_heading is not None:
@@ -805,11 +851,10 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
         session.stack = []                                    # the learner chose a new topic: no detour to return from
         return _ncert_reply(db, session, text, passage, ncert.topic_title(passage["heading"]), mode="explain")
 
-    if new_topic or guardrails.requests_topic_switch(text):
+    if new_topic or turn == "topic_switch":
         session.stack = []                                    # a new topic: no detour to return from
     # Moving through the lesson (back to the main topic, basics, prerequisites) is handled in _move_through_lesson.
 
-    # _START_LESSON (regex) is kept above but unused: the model decides below when nothing else places the message.
     if state.get("wants_practice") and scope_label == "unsupported":
         scope_label = "uncertain"                             # we just asked which topic: let retrieval judge the reply
     chapter = None if new_topic else state.get("chapter")
@@ -818,32 +863,31 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                     if previous.startswith("Help me understand ") else "")
     active_heading = legacy_title or state.get("chapter_heading") or ""
     numeric = _numeric(text)
-    refers_back = bool(_REFERENTIAL.fullmatch(text))
-    written_work = bool(_CALCULATION_START.match(text) and step_finder.has_arithmetic(
-        text.splitlines()[:step_finder.MAX_LINES]))
-    exercise = not refers_back and not written_work and _is_exercise(text)
-    review = not exercise and bool(numeric or intent == "answer_attempt" or _ANSWER_PREFIX.match(text) or written_work)
+    refers_back = turn in ("refers_back", "hint")
+    # Working with sums the step checker can verify: Qwen says it is working (or, with the model off, it starts
+    # like a line of working); the arithmetic itself is checked in code.
+    written_work = bool((turn in ("working", "answer") if turn else _numeric_start(text))
+                        and step_finder.has_arithmetic(text.splitlines()[:step_finder.MAX_LINES]))
+    exercise = not refers_back and not written_work and (turn == "problem" if turn else _is_exercise(text))
+    review = not exercise and bool(numeric or intent == "answer_attempt" or turn == "answer" or written_work)
     mentions_topic = _mentions_topic(text, active_heading)
     related = review or intent in _FOLLOWUP_INTENTS or mentions_topic
     followup = bool(chapter and (refers_back or (scope_label != "unsupported" and related)))
-    clarification = re.fullmatch(
-        r"(?i)(?:(?:(?:class|grade)\s+)?([6-9]|10)(?:\s+(maths|science))?|(maths|science))[.!]?", text)
     filters, query = scope, text
     unresolved = state.get("clarify_query") or (previous if state.get("clarify") else "")
-    if clarification and unresolved and not new_topic:
-        grade, subject, subject_only = clarification.groups()
-        requested = {"grade": int(grade) if grade else None, "subject": (subject or subject_only or "").lower() or None}
-        if any(value and scope.get(key) not in (None, value) for key, value in requested.items()):
+    options = state.get("clarify_options") or []
+    # Qwen reads which offered option the reply picks ("class 9", "the second one", "yes" for the first).
+    choice = (socratic.choose_option(text, _last_tutor_text(db, session), [o["label"] for o in options])
+              if unresolved and options and not new_topic else None)
+    if options and unresolved and not new_topic:
+        trace.emit("classifier", "Choice reader (Qwen)",
+                   f"picked: {options[choice - 1]['label']}" if choice else "no option picked")
+    if choice:
+        chosen = options[choice - 1]["filters"]
+        if any(chosen.get(key) and scope.get(key) not in (None, chosen[key]) for key in ("grade", "subject")):
             return _respond(db, session, text, "That class or subject is outside this session's selection.",
                             Action.REDIRECT, InputLabel.OFF_TOPIC)
-        filters = {**scope, **{key: value for key, value in requested.items() if value}}
-        query, followup = unresolved, False
-        state = _without_clarification(state)
-    elif (unresolved and state.get("clarify_pick") and not new_topic
-          and re.fullmatch(r"(?i)\s*(?:yes|yeah|yep|yup|ok(?:ay)?|sure|the first(?: one)?|first(?: one)?|1"
-                       r"|(?:it |that )?(?:does ?n[o']?t|doesn't|do ?n[o']?t) matter|no preference|any(?: one)?|either(?: one)?"
-                       r"|whichever|whatever|i (?:do ?n[o']?t|don't) (?:know|care)|not sure)[.!]?\s*", text)):
-        filters = {**scope, **state["clarify_pick"]}            # "yes" to "Are you asking about A or B?" means the first (best) one
+        filters = {**scope, **chosen}
         query, followup = unresolved, False
         state = _without_clarification(state)
     elif unresolved and intent == "clarification_reply" and not new_topic:
@@ -851,23 +895,25 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     elif not new_topic and not followup:
         if scope_label == "unsupported":
             return _respond(db, session, text, socratic.REDIRECT_OFF_TOPIC, Action.REDIRECT, InputLabel.OFF_TOPIC)
-        if numeric or clarification or intent == "clarification_reply":
+        names_scope = turn in (None, "other") and socratic.choose_option(
+            text, _last_tutor_text(db, session), [o["label"] for o in _SCOPE_OPTIONS]) is not None   # "class 8 maths"
+        if numeric or names_scope or intent == "clarification_reply":
             return _respond(db, session, text, "Which textbook topic or question are you working on?")
         if intent == "other":
             return _respond(db, session, text, "What would you like to work on next?")
 
     problem = ""
     if followup:
-        problem = state.get("problem", previous if _PROBLEM.match(previous) else "")
+        problem = state["problem"] if "problem" in state else (previous if previous and _is_exercise(previous) else "")
     if exercise or (query != text and _is_exercise(query)):
         problem = query
     mode: socratic.TeachingMode = "explain"
     if followup and review:
         mode = "review"
-    elif _HINT.search(query) or (refers_back and intent in {"doubt", "hint_request"} and not _EXPLAIN.match(query)):
+    elif turn == "hint" or (refers_back and intent in {"doubt", "hint_request"}):
         mode = "hint"
     elif problem:
-        if _EXPLAIN.match(query) and not exercise and not refers_back:
+        if turn == "explain" and not exercise and not refers_back:
             problem = ""
         else:
             mode = "guide"
@@ -970,14 +1016,15 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
                 return started
         if label == "off_topic":
             return _respond(db, session, text, socratic.REDIRECT_OFF_TOPIC, Action.REDIRECT, InputLabel.OFF_TOPIC)
-        if not followup:
-            session.pending = {**state, "clarify_query": query}
         if followup:
             message = "Which part of the current textbook topic are you working on?"
         elif scope.get("chapter") is not None:
             message = "I couldn't find a matching passage in this chapter. Could you rephrase or choose a chapter topic?"
         else:
             message = "I couldn't find a matching NCERT passage. What class, subject or textbook topic is this about?"
+        if not followup:
+            session.pending = {**state, "clarify_query": query,
+                               "clarify_options": _SCOPE_OPTIONS if scope.get("chapter") is None else []}
         if scope_label == "unsupported":
             return _respond(db, session, text, socratic.REDIRECT_OFF_TOPIC, Action.REDIRECT, InputLabel.OFF_TOPIC)
         return _respond(db, session, text, message)
@@ -986,17 +1033,19 @@ def _handle_ncert(db: Session, session: SessionRow, text: str, new_topic: bool,
     bare_sum = bool(_BARE_SUM.fullmatch(query.strip()) and re.search(r"[+\-*/x×÷]", query))
     if len(passages) > 1 and best["score"] - passages[1]["score"] < ncert.CHAPTER_MARGIN:
         other = passages[1]
-        clarification_prompt = None
+        clarification_prompt, offered = None, []
         if bare_sum:
             pass                                                # a plain sum needs no class or subject: use the best match
         elif best["grade"] != other["grade"] or best["subject"] != other["subject"]:
             clarification_prompt = (f"This could be Class {best['grade']} {best['subject']} or Class {other['grade']} "
                                     f"{other['subject']}. Which class and subject are you studying?")
+            offered = [{"label": f"Class {p['grade']} {p['subject']}", "filters": _pick_of(p)} for p in (best, other)]
+            offered += _SCOPE_OPTIONS                           # they may name another class altogether
         elif (best["book_code"], best["chapter"]) != (other["book_code"], other["chapter"]):
             clarification_prompt = f"Are you asking about {best['heading']} or {other['heading']}?"
+            offered = [{"label": ncert.topic_title(p["heading"]), "filters": _pick_of(p)} for p in (best, other)]
         if clarification_prompt:
-            pick = {key: best[key] for key in ("grade", "subject", "book_code", "chapter") if best.get(key) is not None}
-            session.pending = {**state, "clarify_query": query, "clarify_pick": pick}
+            session.pending = {**_without_clarification(state), "clarify_query": query, "clarify_options": offered}
             return _respond(db, session, text, clarification_prompt)
 
     context = previous if followup and not exercise else query
@@ -1013,7 +1062,7 @@ def _off_topic(db: Session, session: SessionRow, text: str) -> TutorReply:
     if asked and reply.startswith("That's outside"):
         reply += f" Or carry on with: {asked.text}"
     if not asked and not reply.startswith("That's outside"):   # the model engaged: remember the side thread
-        session.pending = {**(session.pending or {}), "chat_thread": True}
+        session.pending = {**(session.pending or {}), "chat_thread": True, "chat_question": text}
     return _respond(db, session, text, reply, Action.REDIRECT, InputLabel.OFF_TOPIC)
 
 
@@ -1118,6 +1167,9 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     if checked == "abusive":
         trace.emit("guardrail", "Input guardrail", "abusive language: asking to keep it respectful")
         return _respond(db, session, text, _ABUSE_REPLY, Action.REDIRECT, InputLabel.OFF_TOPIC)
+    if checked == "off_topic":       # e.g. "suggest a movie about acids and bases": the topic words alone fool the router
+        trace.emit("guardrail", "Input guardrail", "not a study request: steering back to the course")
+        return _respond(db, session, text, socratic.REDIRECT_OFF_TOPIC, Action.REDIRECT, InputLabel.OFF_TOPIC)
     if (checked == "answer_request" or intent in guardrails.ANSWER_REQUEST_INTENTS
             or (intent == guardrails.UNSURE_ANSWER_REQUEST and checked != "other")):
         trace.emit("guardrail", "Input guardrail", "asked for the answer: guiding instead of giving it")
@@ -1125,44 +1177,54 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
     if intent == guardrails.UNSURE_ANSWER_REQUEST:
         intent = "uncertain"
     trace.emit("guardrail", "Input guardrail", "passed")
+    # Qwen reads what the message does (an answer, working, a request for help, a new subject ...) against the
+    # tutor's last message; every routing step below uses this one label. None: the TF-IDF intent decides alone.
+    turn = None
+    if not numeric and not new_topic and selected_concept is None and topic_heading is None:
+        state = session.pending or {}
+        turn = socratic.classify_turn(text, state.get("last_reply") or _last_tutor_text(db, session),
+                                      ncert.topic_title(state.get("chapter_heading") or "") if is_ncert else "")
+        log.info("Turn classifier label: %s", turn)
+        trace.emit("classifier", "Turn classifier (Qwen)",
+                   f"label: {turn.replace('_', ' ')}" if turn else "model unavailable, so the intent classifier decides")
     if is_ncert and not new_topic and topic_heading is None and (session.pending or {}).get("passage_id"):
         moved = _move_through_lesson(db, session, text)        # before the chat classifier, which reads "got it" as thanks
         if moved:
             trace.emit("lesson", "Lesson path", f"moved through the lesson ({moved.action.value})")
             return moved
     elif is_ncert and not new_topic and topic_heading is None:  # nothing open here yet: maybe resume an earlier session
-        resumed = _resume_learner(db, session, text)
+        resumed = _resume_learner(db, session, text, turn=turn)
         if resumed:
             return resumed
     explicit_switch = (new_topic or selected_concept is not None or (is_ncert and topic_heading is not None)
-                       or guardrails.requests_topic_switch(text))
-    assessment = _assessment_attempt(text, asked) if asked and not explicit_switch else None
+                       or turn == "topic_switch")
+    assessment = _assessment_attempt(text, asked, turn) if asked and not explicit_switch else None
     if not assessment and not explicit_switch:                # everyday conversation first: the classifier is unsure on these
-        quick = _converse_ncert(db, session, text) if is_ncert else _converse_pack(db, session, text, asked)
+        quick = _converse_ncert(db, session, text, turn) if is_ncert else _converse_pack(db, session, text, asked)
         if quick:
             trace.emit("conversation", "Conversation classifier", "everyday message (greeting, thanks, menu and so on)")
             return quick
-        if asked and not is_ncert and _looks_like_step(text):
+        if asked and not is_ncert and turn == "working":
             return _respond(db, session, text, "Thanks for showing your thinking. Keep going with that step: "
                             "what number do you end up with?")
     active = (session.pending or {}).get("chapter") if is_ncert else asked
-    clarifying = is_ncert and bool((session.pending or {}).get("clarify_query")) and bool(re.fullmatch(r"(?:[6-9]|10)", text))
+    clarifying = is_ncert and bool((session.pending or {}).get("clarify_options"))   # "10" picks a class, not an answer
     if assessment or (is_ncert and active and _numeric(text) and not explicit_switch and not clarifying):
         intent, scope = "answer_attempt", "supported"
-    elif active and scope != "unsupported" and guardrails.asks_for_help(text) and not explicit_switch:
+    elif active and scope != "unsupported" and turn == "hint" and not explicit_switch:
         intent, scope = "hint_request", "supported"
     if intent in {"answer_request", "bypass_attempt"}:
         return _respond(db, session, text, socratic.REDIRECT_ANSWER, Action.REDIRECT, InputLabel.ANSWER_REQUEST)
-    switch = explicit_switch or (intent == "topic_switch" and not (is_ncert and active and _REFERENTIAL.fullmatch(text)))
+    switch = explicit_switch or (intent == "topic_switch"
+                                 and not (active and turn in ("answer", "working") + _HELP_TURNS))
     if is_ncert:
-        return _handle_ncert(db, session, text, switch, intent, scope, topic_heading)
+        return _handle_ncert(db, session, text, switch, intent, scope, topic_heading, turn)
 
     if (asked is None and (session.pending or {}).get("chat_thread") and not switch
-            and (guardrails.numeric_answer(text) or _looks_like_step(text))):
+            and (guardrails.numeric_answer(text) or turn == "working")):
         # A reply to the model's own side question (e.g. "How many times does 4 go into 5?"): keep talking, do not start a new topic.
         pack = course_store.get_pack(db, session.course_id)
-        earlier = _history(db, session, limit=12)
-        original = next((t for r, t in earlier if r == "learner" and not _numeric(t) and not _looks_like_step(t)), "")
+        original = (session.pending or {}).get("chat_question", "")
         expression = re.search(r"\d[\d\s.,+\-*/x×÷()]*\d|\.\d+", original.replace("÷", "/"))
         truth = step_finder.arithmetic_value(expression.group(0)) if expression and original else None
         given = step_finder.arithmetic_value(text)
@@ -1191,7 +1253,7 @@ def handle_message(db: Session, session: SessionRow, text: str, new_topic: bool 
                       if selected_concept is not None else retrieval.best_concept(db, session.course_id, text))
         trace.emit("retrieval", "Concept search", f"matched: {concept_id}" if concept_id else "no matching concept")
         if concept_id is None:
-            if scope == "unsupported" or (asked is None and not switch and not guardrails.asks_for_help(text)
+            if scope == "unsupported" or (asked is None and not switch and turn not in _HELP_TURNS
                                           and not guardrails.numeric_answer(text)):
                 return _off_topic(db, session, text)
             return _respond(db, session, text, _menu(course_store.get_pack(db, session.course_id), "Which topic would you like to work on?"))

@@ -73,6 +73,14 @@ def test_two_wrong_answers_step_back_to_the_weakest_prerequisite(lesson, verdict
     assert "answers on this topic weren't right" in back["reply"]
 
 
+def test_a_worded_answer_to_the_tutors_question_is_reviewed_not_searched(lesson):
+    # Qwen labels this reply an answer (tests/fake_classifier.py), even though none of its words are in the topic
+    # heading: it is reviewed on the open topic, and the lesson fixture fails the test if it is searched again.
+    client, path = lesson
+    reply = client.post(path, json={"text": "Sodium (Na) and Chloride (Cl)"}).json()
+    assert reply["action"] == "hint" and "Are you asking about" not in reply["reply"]
+
+
 def test_a_right_answer_ends_the_run(lesson, verdicts):
     client, path = lesson
     verdicts += [False, True, False]
@@ -100,7 +108,7 @@ def test_returning_to_the_topic_starts_a_fresh_count(lesson, verdicts):
     assert client.post(path, json={"text": "x = 12"}).json()["action"] != "backtrack"   # old wrongs don't count
 
 
-def test_learner_state_is_saved_and_resumed_in_a_new_session(lesson, verdicts):
+def test_learner_state_is_saved_and_resumed_in_a_new_session(lesson, verdicts, monkeypatch):
     client, path = lesson
     verdicts += [False, False]
     client.post(path, json={"text": "x = 5"})
@@ -115,6 +123,14 @@ def test_learner_state_is_saved_and_resumed_in_a_new_session(lesson, verdicts):
     sid = client.post("/sessions", json={"course_id": "ncert"}).json()["session_id"]
     new = f"/sessions/{sid}/messages"
     assert "Last time you were on" in client.post(new, json={"text": "hi"}).json()["reply"]
+    # The path model reads this as "resume", but Qwen's turn label says it names a new subject: no resume,
+    # so it is searched for as a new topic (nothing is found here).
+    searched = []
+    monkeypatch.setattr(ncert, "rank", lambda query, *a, **k: searched.append(query) or [])
+    monkeypatch.setattr(socratic, "classify_message", lambda *a, **k: "topic_question")
+    other = client.post(new, json={"text": "let's discuss about salts concept"}).json()
+    assert "Picking up where you left off" not in other["reply"] and searched
+    monkeypatch.setattr(ncert, "rank", lambda *a, **k: pytest.fail("a follow-up must reuse its source"))
     resumed = client.post(new, json={"text": "continue where I left off"}).json()
     assert resumed["action"] == "advance" and "Picking up where you left off" in resumed["reply"]
     assert "Percentages" in resumed["reply"]         # the detour it came from is named, and kept

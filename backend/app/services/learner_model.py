@@ -17,15 +17,16 @@ _log = logging.getLogger("uvicorn.error")  # shown by default under uvicorn; no 
 
 
 def record(db: Session, learner_id: str, course_id: str, session_id: str, concept_id: str, correct: bool,
-           graph_concepts: Iterable[str] = ()) -> None:
+           graph_concepts: Iterable[str] = ()) -> int:
     """One answer on `concept_id` (a pack concept or an NCERT chapter), linked to the learning-graph concepts
-    it was about, if any."""
+    it was about, if any. Returns the answer's id."""
     answer = AnswerRow(learner_id=learner_id, course_id=course_id, session_id=session_id,
                        concept_id=concept_id, correct=correct)
     db.add(answer)
     db.flush()
     db.add_all(AnswerConceptRow(answer_id=answer.id, concept_id=c) for c in dict.fromkeys(graph_concepts))
     db.flush()
+    return answer.id
 
 
 def stats(db: Session, learner_id: str, course_id: str, concept_id: str) -> tuple[int, int]:

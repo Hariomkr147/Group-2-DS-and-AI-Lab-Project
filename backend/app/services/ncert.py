@@ -328,10 +328,14 @@ def rank(query: str, scope: dict, limit: int = 5, *, chapters: bool = False) -> 
     try:
         vector = embed(query)
     except (ImportError, OSError, RuntimeError, ValueError) as error:
-        log.warning("NCERT encoder unavailable (%s)", type(error).__name__)
+        log.warning("NCERT encoder unavailable (%s: %s)", type(error).__name__, error)
         raise HTTPException(503, "The NCERT question encoder is unavailable.") from None
-    return _query(_PASSAGES, scope, embedding=str(vector), limit=limit,
-                  per_chapter=1 if chapters else limit)
+    params = dict(limit=limit, per_chapter=1 if chapters else limit)
+    rows = _query(_PASSAGES, scope, embedding=str(vector), **params)
+    # The vector is elided (thousands of floats); swap in a real embedding to run it by hand.
+    _info_log.info("rank SQL (%d rows) for %r:\n%s;", len(rows), query,
+                   _runnable_sql(_PASSAGES, scope, embedding=f"<query embedding, {len(vector)} dims>", **params))
+    return rows
 
 
 def similarity(query: str, chapter: dict, passage_id: str) -> float:
@@ -341,10 +345,14 @@ def similarity(query: str, chapter: dict, passage_id: str) -> float:
     try:
         vector = embed(query)
     except (ImportError, OSError, RuntimeError, ValueError) as error:
-        log.warning("NCERT encoder unavailable (%s)", type(error).__name__)
+        log.warning("NCERT encoder unavailable (%s: %s)", type(error).__name__, error)
         raise HTTPException(503, "The NCERT question encoder is unavailable.") from None
     rows = _query(_SIMILARITY, chapter, embedding=str(vector), passage_id=passage_id)
-    return float(rows[0]["score"]) if rows else 0.0
+    score = float(rows[0]["score"]) if rows else 0.0
+    _info_log.info("similarity SQL (score %.3f) for passage %s:\n%s;", score, passage_id,
+                   _runnable_sql(_SIMILARITY, chapter, embedding=f"<query embedding, {len(vector)} dims>",
+                                 passage_id=passage_id))
+    return score
 
 
 def graph_enabled() -> bool:

@@ -131,6 +131,32 @@ class AnswerConceptRow(Base):
     concept_id: Mapped[str] = mapped_column(primary_key=True, index=True)   # graph_nodes.concept_id
 
 
+class AnswerTurnRow(Base):
+    """The learner turn a judged answer came from, so a memory item quoting that turn can be checked against the
+    judge's verdict (services/memory.py)."""
+    __tablename__ = "answer_turns"
+    answer_id: Mapped[int] = mapped_column(ForeignKey("answers.id", ondelete="CASCADE"), primary_key=True)
+    turn_id: Mapped[int] = mapped_column(ForeignKey("turns.id", ondelete="CASCADE"), index=True)
+
+
+class MemoryItemRow(Base):
+    """One fact the model pulled from the chat for long-term memory, with the exact words it quoted. Rejected
+    items are kept with the reason, so the checks can be evaluated; only active, unrejected items are used."""
+    __tablename__ = "memory_items"
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    learner_id: Mapped[str] = mapped_column(index=True)
+    course_id: Mapped[str] = mapped_column(ForeignKey("courses.id", ondelete="CASCADE"))
+    session_id: Mapped[str] = mapped_column(ForeignKey("sessions.id", ondelete="CASCADE"))
+    turn_id: Mapped[int | None] = mapped_column(ForeignKey("turns.id", ondelete="CASCADE"))   # the quoted turn
+    kind: Mapped[str]                                     # misconception, example_used, explained, open_question
+    quote: Mapped[str]
+    note: Mapped[str]
+    heading: Mapped[str | None]                           # the topic open when it was captured
+    rejected: Mapped[str | None]                          # why a check rejected it; None when kept
+    active: Mapped[bool] = mapped_column(default=True)    # False once resolved (a misconception later answered right)
+    created_at: Mapped[datetime] = mapped_column(default=_now)
+
+
 class LearnerStateRow(Base):
     """Where a learner is in a course across sessions: the topic open in their latest session and the detour stack
     to climb back through. Each session keeps its own copy in `sessions`; this one lets a new session resume."""

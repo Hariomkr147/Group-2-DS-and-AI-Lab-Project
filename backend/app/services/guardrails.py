@@ -14,31 +14,11 @@ from . import misconception, router_model, trace
 
 log = logging.getLogger(__name__)
 
-_HELP = re.compile(
-    r"\b(?:hints?|clues?|i (?:don't|do not|didn't|cannot|can't) (?:understand|follow|see)"
-    r"|i(?:'m| am) (?:confused|lost|stuck)|explain (?:that|it|this|why|how)|what (?:next|should i do next))\b"
-    r"|^why\b",
-    re.I,
-)
-_TOPIC_SWITCH = re.compile(
-    r"\b(?:switch (?:to|topics?)|change (?:the )?topic|move (?:on |over )?to"
-    r"|(?:let's|let’s|can we|could we|i want to|i'd like to) (?:learn|study|practice))\b"
-    r"|^teach me\b",
-    re.I,
-)
 _NUMBER = re.compile(r"[\d\s.+\-/,]+%?")
 
 
 def numeric_answer(text: str) -> bool:
     return bool(len(text) <= 80 and _NUMBER.fullmatch(text) and misconception.to_value(text) is not None)
-
-
-def asks_for_help(text: str) -> bool:
-    return bool(_HELP.search(text.replace("’", "'")))
-
-
-def requests_topic_switch(text: str) -> bool:
-    return bool(_TOPIC_SWITCH.search(text))
 
 
 ANSWER_REQUEST_INTENTS = ("answer_request", "bypass_attempt")

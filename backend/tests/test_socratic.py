@@ -143,7 +143,7 @@ def test_chat_falls_back_to_none(use, reply):
 
 
 @pytest.mark.parametrize("reply, expected", [
-    ("answer_request", "answer_request"), (" Abusive.", "abusive"), ("other", "other"),
+    ("answer_request", "answer_request"), (" Abusive.", "abusive"), ("off_topic", "off_topic"), ("other", "other"),
     ("maybe", None), ("", None), (RuntimeError("down"), None),
 ])
 def test_input_check_accepts_only_its_labels(use, monkeypatch, fake_input_check, reply, expected):

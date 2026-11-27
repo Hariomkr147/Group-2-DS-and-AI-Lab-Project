@@ -71,6 +71,28 @@ def fake_input_check(monkeypatch):
     return real
 
 
+@pytest.fixture(autouse=True)
+def fake_turn_classifier(monkeypatch):
+    """Qwen's reading of a reply on an open topic (socratic.classify_turn) is a model call too: fixed labels in tests."""
+    from app.services import socratic
+
+    from .fake_classifier import fake_classify_turn
+    real = socratic.classify_turn
+    monkeypatch.setattr(socratic, "classify_turn", fake_classify_turn)
+    return real
+
+
+@pytest.fixture(autouse=True)
+def fake_choice_reader(monkeypatch):
+    """Qwen's reading of a reply to "A or B?" (socratic.choose_option) is a model call too: a simple stand-in in tests."""
+    from app.services import socratic
+
+    from .fake_classifier import fake_choose_option
+    real = socratic.choose_option
+    monkeypatch.setattr(socratic, "choose_option", fake_choose_option)
+    return real
+
+
 @pytest.fixture()
 def anon():
     """A client with no token."""
