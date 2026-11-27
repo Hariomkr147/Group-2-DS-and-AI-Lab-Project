@@ -205,7 +205,7 @@ class QwenFinetuned(Provider):
         self.ready()
         url = os.environ["QWEN_URL"].rstrip("/")
         key = os.environ["QWEN_API_KEY"]
-        timeout = float(os.environ.get("QWEN_TIMEOUT", "60"))
+        timeout = float(os.environ.get("QWEN_TIMEOUT", "180"))
         if ".hf.space" in url:
             result = gradio_predict(url, key, system or "", prompt, timeout)
             return result.strip() if isinstance(result, str) else ""

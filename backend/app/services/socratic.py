@@ -513,7 +513,7 @@ def _hosted(question: str, context: str, evidence: str, mode: TeachingMode) -> s
         open_request = build_opener(_NoRedirect()).open
         if target.hostname.endswith(".hf.space"):
             result = llm.gradio_predict(url, key, messages[0]["content"], messages[1]["content"],
-                                        float(os.getenv("NCERT_MODEL_TIMEOUT", "45")),
+                                        float(os.getenv("NCERT_MODEL_TIMEOUT", "180")),
                                         endpoint="predict_grounded", open_request=open_request)
         else:
             request = Request(f"{url}/predict", headers=headers, data=json.dumps(
